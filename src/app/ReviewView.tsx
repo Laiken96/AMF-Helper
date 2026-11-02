@@ -13,6 +13,7 @@ import {
   parseWeekKey,
   sameRef,
   weekKey,
+  useDataVersion,
   type ReviewData,
   type WeekRef,
 } from "./data";
@@ -71,6 +72,7 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
   const [list, setList] = useState<ReviewWeek[] | null>(null);
   const [current, setCurrent] = useState<WeekRef | null>(null);
   const [state, setState] = useState<State>({ kind: "loading" });
+  const version = useDataVersion();
 
   useEffect(() => {
     let active = true;
@@ -88,7 +90,7 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
     return () => {
       active = false;
     };
-  }, []);
+  }, [version]);
 
   const requested = parseWeekKey(arg);
   const fallback = list ? defaultWeek(list, current) : undefined;
@@ -109,7 +111,7 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
     return () => {
       active = false;
     };
-  }, [list, path]);
+  }, [list, path, version]);
 
   // Nachbarbilanzen vorladen
   useEffect(() => {

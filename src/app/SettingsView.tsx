@@ -1,3 +1,4 @@
+import { revalidateData } from "./data";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   PushError,
@@ -228,7 +229,7 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
 
       <section className="slot">
         <h2>Daten</h2>
-        <button type="button" className="btn" onClick={() => window.location.reload()}>
+        <button type="button" className="btn" onClick={() => void revalidateData()}>
           Aktualisieren
         </button>
       </section>

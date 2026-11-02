@@ -315,3 +315,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wochenwähler in Tipps, Bilanz und Spiele mit Wahl im Hash (#tipps/2026-2-10). Bilanz startet auf der neuesten vorhandenen Bilanz bis zur aktuellen Woche. Reiter Spielplan heisst Spiele und enthält den Liveticker (Abfrage direkt bei ESPN alle 20 Sekunden nur bei möglichem laufenden Spiel und sichtbarem Tab, Detail mit den letzten 10 Spielzügen). Reiter News mit Filtern Alle, Meine Spiele, Team. Navigation mit 5 Zielen
 - Begründung: Wunsch des Nutzers (Wochen blättern), Ausbauplan D042. Die aktuelle Woche hat bis Dienstag meist noch keine Bilanz
 - Verworfen: Live Daten über GitHub Actions (zu langsam)
+
+## D045 Wochenwechsel schnell und einheitlich
+
+- Datum: 2026-11-02
+- Entscheid: Daten werden pro Sitzung einmal geladen und im Speicher gehalten, Nachbarwochen im Hintergrund vorgeladen. Bei sichtbarem Tab alle 5 Minuten Hintergrundprüfung (no-store), bei Rückkehr nach über 60 s und per Aktualisieren Knopf, ersetzt wird nur geänderter Inhalt ohne Leerzustand. Alle Wochen nutzen dieselbe Struktur (Spielbereich, Kacheln, Umschalter, Tippzeile), kommende Wochen ohne Quoten zeigen "offen" und einen Hinweis statt Ring, vergangene Wochen sind nur lesbar. Kopfzeile immer einzeilig
+- Begründung: Gerätetest des Nutzers. Vorher lud jeder Wechsel 8 Dateien neu (0.9 bis 2.2 s mit Leerzustand) und kommende Wochen nutzten grössere Spielplan Karten. Neu 9 bis 27 ms
+- Verworfen: Laden ohne Cache, eigene Darstellung für kommende Wochen
