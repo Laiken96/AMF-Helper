@@ -13,7 +13,7 @@ describe("parseScoreboard mit echtem ESPN Fixture Woche 8", () => {
   const { week, teams } = res;
 
   it("liefert Saison und Woche aus der Quelle", () => {
-    expect(week).toMatchObject({ schemaVersion: 1, season: 2026, seasonType: 2, week: 8, source: "espn" });
+    expect(week).toMatchObject({ schemaVersion: 2, season: 2026, seasonType: 2, week: 8, source: "espn" });
     expect(week.fetchedAt).toBe(FETCHED);
     expect(WeekFileSchema.safeParse(week).success).toBe(true);
   });

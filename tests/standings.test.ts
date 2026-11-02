@@ -16,8 +16,8 @@ import {
   groupWeekRows,
   shortRaw,
   parseSeasonType,
+  StandingsFileSchema,
 } from "../src/core/standings";
-import { StandingsFileSchema } from "../src/core/tips-schema";
 import { StandingsHistorySchema } from "../src/core/review-schema";
 
 const read = (p: string) => readFileSync(new URL(p, import.meta.url), "utf8");
@@ -106,7 +106,32 @@ describe("Issue Body Parser", () => {
     expect(parseReportBody("Hallo, hier die Punkte: 79 76 75").ok).toBe(false);
     const r = parseReportBody(body({ ...W9, season: "26", week: "40" }));
     expect(r.ok).toBe(false);
-    if (!r.ok) expect(r.errors).toEqual(["Saison 26 ist unplausibel", "Woche 40 muss zwischen 1 und 23 liegen"]);
+    if (!r.ok) {
+      expect(r.errors).toEqual([
+        "Saison 26 ist unplausibel",
+        "Regular Season Woche 40 gibt es nicht, Tippwochen sind 1 bis 18. Playoffs als Postseason melden",
+      ]);
+    }
+  });
+
+  it("nur echte Tippwochen: Pro Bowl und Regular Woche 19 plus abgelehnt", () => {
+    const errorsOf = (v: Values) => {
+      const r = parseReportBody(body({ ...W9, ...v }));
+      return r.ok ? [] : r.errors;
+    };
+    expect(errorsOf({ seasonType: "Postseason (3)", week: "4" })).toEqual([
+      "Postseason Woche 4 ist der Pro Bowl ohne Tipps. Der Super Bowl ist Postseason Woche 5",
+    ]);
+    expect(errorsOf({ week: "19" })).toEqual([
+      "Regular Season Woche 19 gibt es nicht, Tippwochen sind 1 bis 18. Playoffs als Postseason melden",
+    ]);
+    expect(errorsOf({ week: "0" })).toHaveLength(1);
+    expect(errorsOf({ seasonType: "Postseason (3)", week: "6" })).toEqual([
+      "Postseason Woche 6 gibt es nicht, Tippwochen sind 1 bis 3 und 5",
+    ]);
+    for (const v of [{ week: "18" }, { seasonType: "Postseason (3)", week: "1" }, { seasonType: "Postseason (3)", week: "5" }]) {
+      expect(parseReportBody(body({ ...W9, ...v })).ok).toBe(true);
+    }
   });
 
   it("erster Abschnitt mit gleichem Label gilt", () => {
@@ -341,7 +366,7 @@ describe("standings main", () => {
     expect(code).toBe(0);
     expect(comment).toContain("Rangliste 2026 Week 9 übernommen: MS 79, LM 76, DH 75, CZ 57, JA 54");
     const [s, h] = await files();
-    expect(StandingsFileSchema.parse(JSON.parse(s!))).toMatchObject({ asOfWeek: 9, me: "JA", updatedAt: NOW });
+    expect(StandingsFileSchema.parse(JSON.parse(s!))).toMatchObject({ schemaVersion: 2, season: 2026, asOfWeek: 9, me: "JA", updatedAt: NOW });
     expect(StandingsHistorySchema.parse(JSON.parse(h!)).entries).toHaveLength(2);
   });
 

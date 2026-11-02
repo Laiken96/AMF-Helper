@@ -95,11 +95,25 @@ export function useLayout(): Layout {
     window.addEventListener("resize", update);
     window.addEventListener("orientationchange", update);
     window.visualViewport?.addEventListener("resize", update);
+    // iOS liefert die Safe Area in der Home Bildschirm App teils erst nach dem Start oder nach der Rückkehr
+    // aus dem Hintergrund, ohne resize Ereignis. Darum die Sonde selbst beobachten und zusätzlich nachmessen.
+    const observer = typeof ResizeObserver !== "undefined" ? new ResizeObserver(update) : null;
+    observer?.observe(probe, { box: "border-box" });
+    const onVisible = () => {
+      if (document.visibilityState === "visible") update();
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    window.addEventListener("pageshow", update);
+    const timers = [100, 500, 1500].map((ms) => window.setTimeout(update, ms));
     return () => {
       cancelAnimationFrame(frame);
       window.removeEventListener("resize", update);
       window.removeEventListener("orientationchange", update);
       window.visualViewport?.removeEventListener("resize", update);
+      observer?.disconnect();
+      document.removeEventListener("visibilitychange", onVisible);
+      window.removeEventListener("pageshow", update);
+      timers.forEach((t) => window.clearTimeout(t));
       probe.remove();
     };
   }, []);

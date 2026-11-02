@@ -2,7 +2,11 @@
 // Eigene Dateien unter data/, damit WeekFileSchema (schemaVersion 1) unverändert bleibt.
 import { z } from "zod";
 
-export const TIPS_SCHEMA_VERSION = 1 as const;
+// Version 2 (D050): Feld firstOdds pro Tipp für die Linienbewegung. Version 1 bleibt lesbar, das Feld ist optional.
+export const TIPS_SCHEMA_VERSION = 2 as const;
+/** Die Rangliste hat ihre eigene Version und bleibt bei 1. */
+/** Version von data/standings.json. 2 ergänzt season (Saison der Rangliste), Version 1 ohne season bleibt lesbar. */
+export const STANDINGS_SCHEMA_VERSION = 2 as const;
 
 /** Quote eines Spiels aus ESPN (D024). spreadHome negativ heisst Heimteam favorisiert. */
 export const OddsSchema = z.object({
@@ -28,6 +32,9 @@ export const GameTipSchema = z.object({
   level: TipLevelSchema,
   deviation: z.boolean(), // true: bewusste Abweichung vom Favoriten (D010, D021)
   firstPickTeamId: z.string().nullable(), // erster berechneter Tipp der Woche (Grundtipp, D023)
+  // Erste erfasste Quote, gesetzt beim ersten Lauf mit Quote und danach nie überschrieben wie firstPickTeamId.
+  // Fehlt in Version 1. Bei Dateien aus Version 1 ist es die erste nach dem Update gesehene Quote.
+  firstOdds: OddsSchema.nullable().optional(),
   changedSinceFirst: z.boolean(),
   locked: z.boolean(), // ab Kickoff true, danach nie mehr neu berechnet (D023)
   lockedAt: z.string().datetime().nullable(),
@@ -45,7 +52,7 @@ export const TiebreakerSchema = z.object({
 });
 
 export const TipsFileSchema = z.object({
-  schemaVersion: z.literal(TIPS_SCHEMA_VERSION),
+  schemaVersion: z.union([z.literal(1), z.literal(TIPS_SCHEMA_VERSION)]),
   season: z.number().int(),
   seasonType: z.number().int(),
   week: z.number().int(),
@@ -56,9 +63,10 @@ export const TipsFileSchema = z.object({
 });
 export type TipsFile = z.infer<typeof TipsFileSchema>;
 
-/** Ranglistenstand, manuell gepflegt bis Sprint 4. Nur Kürzel, nie Namen (D022). */
+/** Ranglistenstand aus der Meldung per Issue Formular (D032, jobs/standings.ts). Nur Kürzel, nie Namen (D022). */
 export const StandingsFileSchema = z.object({
-  schemaVersion: z.literal(TIPS_SCHEMA_VERSION),
+  schemaVersion: z.union([z.literal(1), z.literal(STANDINGS_SCHEMA_VERSION)]),
+  season: z.number().int().optional(), // fehlt in Version 1
   asOfWeek: z.number().int(),
   updatedAt: z.string().datetime(),
   me: z.string(), // eigenes Kürzel

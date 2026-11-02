@@ -683,3 +683,53 @@ R105 Liveticker an echtem Spiel
     Schritt: Spiele öffnen, Detail öffnen.
     Erwartet: Score, Viertel, Uhr und letzte Spielzüge aktuell, bei ESPN Fehler längere Abstände bis 5 Minuten, verschobenes Spiel ohne Abruf.
     Status: offen, erster Einsatz MNF CHI@SEA 2026-11-03 01:15 UTC
+
+## Ausbau nach Beta Test (D050, D051)
+
+R106 Abweichung begründet
+    Vorbedingung: Woche mit Abweichung (Week 9 ATL).
+    Schritt: Spiel antippen.
+    Erwartet: Kasten mit Grundtipp, Linie, Wahrscheinlichkeit und Grund (erlaubte Abweichungen, Rückstand), Zeile zeigt "vorher: CIN".
+    Status: bestanden lokal 2026-11-02 (Screenshot), offen Nutzer am Gerät
+
+R107 Onboarding und Push Hilfe
+    Vorbedingung: Erster Start im iOS Browser.
+    Schritt: Onboarding durchgehen.
+    Erwartet: Ein Ausgang, Schritt "So liest du die Tipps", Anleitung Zum Home Bildschirm, bei verweigerter Erlaubnis Weg über iOS Einstellungen.
+    Status: bestanden lokal 2026-11-02, offen Nutzer am Gerät
+
+R108 Ausfälle der kommenden Woche
+    Vorbedingung: Wochendatei der nächsten Woche vorhanden.
+    Schritt: Push Wächter läuft.
+    Erwartet: data/injuries und data/fpi für aktuelle und nächste Woche, Ausfall Push nur für die aktuelle Woche.
+    Status: bestanden lokal 2026-11-02 per Test und Probelauf
+
+R109 Linienbewegung im Push
+    Vorbedingung: Spread seit erster Erfassung um mindestens 2.5 Punkte bewegt oder Favorit gewechselt.
+    Schritt: Slot Meldung vor Tippschluss.
+    Erwartet: Zusatz "Linie JAX -3 > -8.5".
+    Status: bestanden lokal 2026-11-02 per Test
+
+R110 Abgleich Rangliste
+    Vorbedingung: Rangliste für Woche und Vorwoche gemeldet, Bilanz komplett.
+    Schritt: job:review.
+    Erwartet: rankingCheck mit gemeldet, App Punkte und Differenz.
+    Status: bestanden lokal 2026-11-02 per Test, echt ab Meldung Week 9
+
+R111 Saisonwechsel
+    Vorbedingung: ESPN liefert Preseason, Pro Bowl oder Offseason.
+    Schritt: job:schedule ohne Argumente.
+    Erwartet: Keine Wochendatei, current.json bleibt auf der letzten Tippwoche, kein Push. Week 18 holt Postseason Week 1, Conference Woche holt den Super Bowl.
+    Status: bestanden lokal 2026-11-02 mit synthetischen Fixtures, echt offen Januar und August
+
+R112 Alte Datenversionen bleiben lesbar
+    Vorbedingung: data/ mit Dateien Version 1.
+    Schritt: App öffnen und Jobs laufen lassen.
+    Erwartet: Alle Dateien parsen, Jobs schreiben Version 2, App zeigt alle Wochen.
+    Status: offen (QA Welle 1)
+
+R113 Duo Layout bei verspäteter Safe Area
+    Vorbedingung: iPhone Duo, App vom Home Bildschirm, zugeklappt oder aufgeklappt hoch.
+    Schritt: App starten, in den Hintergrund und zurück.
+    Erwartet: Navigation als Leiste rechts vor dem reservierten Bereich, nie die schwebende iPhone Leiste unten. Auch wenn iOS die Safe Area erst nach dem Start meldet.
+    Status: bestanden lokal 2026-11-02 (Inset nach dem Laden gesetzt, Wechsel compact zu side), offen Nutzer am Gerät

@@ -6,6 +6,8 @@ import { formatKickoffZurich } from "../core/time";
 import { shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
 import { periodText, type LiveGame } from "./live";
+import { Spoken } from "./ui";
+import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
 
 type NewsItem = NewsFile["items"][number];
@@ -58,22 +60,8 @@ export function useNow(): number {
   return now;
 }
 
-/**
- * "3 T 21 h", "5 h 12 min" oder "12 min". Minuten werden aufgerundet: angezeigt wird nie weniger als die
- * echte Restzeit und höchstens 59 s mehr (59 s Rest ergibt "1 min", nicht "0 min").
- */
-export function formatCountdown(ms: number): string {
-  const totalMin = Math.max(0, Math.ceil(ms / 60_000));
-  const d = Math.floor(totalMin / 1440);
-  const h = Math.floor((totalMin % 1440) / 60);
-  const m = totalMin % 60;
-  if (d > 0) return `${d} T ${h} h`;
-  if (h > 0) return `${h} h ${m} min`;
-  return `${m} min`;
-}
-
-const SLOT_NAME: Record<Tiebreaker["slot"], string> = { thursday: "Thursday Night", monday: "Monday Night" };
-const SLOT_SHORT: Record<Tiebreaker["slot"], string> = { thursday: "TNF", monday: "MNF" };
+/** Countdown, "3 Tg 21 h". Ausgelagert nach wording.ts, hier für bestehende Importe erneut exportiert. */
+export { formatCountdown };
 
 const ROLE_WEIGHT: Record<KeyPlayer["roles"][number], number> = { passing: 4, rushing: 3, receiving: 3, qb: 1 };
 
@@ -181,6 +169,7 @@ export function GameHero({
   result = null,
   reviewHref = "#bilanz",
   nav = null,
+  deviationNote = null,
 }: {
   target: HeroTarget | null;
   empty?: HeroEmpty;
@@ -198,6 +187,8 @@ export function GameHero({
   reviewHref?: string;
   /** Pfeile zum Durchblättern der Spiele, oben im Spielbereich. */
   nav?: ReactNode;
+  /** Begründung einer Abweichung (D050), ein ganzer Satz unter Tipp und Resultat. */
+  deviationNote?: string | null;
 }) {
   const layout = useLayoutValue();
 
@@ -239,39 +230,36 @@ export function GameHero({
     : isFinal && game.awayScore !== null && game.homeScore !== null
       ? [game.awayScore, game.homeScore]
       : null;
-  const countdown = formatCountdown(Date.parse(tip.kickoffUtc) - now);
   const big = layout === "wide";
-  const short = layout === "compact" || layout === "side";
 
-  // Marke oben rechts: Live, Final, Kickoff oder Tippschluss. Immer genau eine Zeile.
+  // Marke oben rechts: Live, Beendet oder Tippschluss. Immer genau eine Zeile.
   const badge = isLive ? (
     <span className="hero-countdown hero-live">
       <span className="live-dot" aria-hidden="true" />
       <span className="sr-only">Läuft, </span>
-      {periodText(live)}
+      {statusWord(periodText(live))}
     </span>
   ) : isFinal ? (
-    <span className="hero-countdown">{game.status === "final" ? game.statusDetail || "Final" : "Noch nicht final"}</span>
-  ) : variant === "folgt" ? (
-    <span className="hero-countdown">{Date.parse(tip.kickoffUtc) > now ? `Kickoff in ${countdown}` : "Kickoff vorbei"}</span>
+    <span className="hero-countdown">{game.status === "final" ? statusWord(game.statusDetail) || "Beendet" : "Noch nicht beendet"}</span>
+  ) : Date.parse(tip.kickoffUtc) > now ? (
+    <span className="hero-countdown">{tippschlussText(Date.parse(tip.kickoffUtc) - now)}</span>
   ) : (
-    <span className="hero-countdown">
-      {short ? <span className="sr-only">Tippschluss in </span> : big ? "Tippschluss in " : "Tippschluss "}
-      {countdown}
-    </span>
+    <span className="hero-countdown">Tippschluss vorbei</span>
   );
   const sectionLabel = isLive ? "Laufendes Spiel" : isFinal ? "Spiel der Woche" : variant === "folgt" ? "Erstes Spiel der Woche" : "Nächster Tippschluss";
 
   const when = formatKickoffZurich(tip.kickoffUtc).replace(/ (\d\d:\d\d)$/, " · $1");
-  const slot = tiebreaker ? ` · ${short ? SLOT_SHORT[tiebreaker.slot] : SLOT_NAME[tiebreaker.slot]}` : "";
+  const slot = tiebreaker ? ` · ${SLOT_SHORT[tiebreaker.slot]}` : "";
   const absence = variant === "offen" && !isLive ? keyAbsence(injuries, game.id) : null;
   const prob = hasPick ? tip.pickProb : null;
   const tipText = pick ? `${pick.abbr} gewinnt` : "offen";
-  const tbText = tiebreaker ? (variant === "folgt" ? "offen" : `${tiebreaker.awayPoints} : ${tiebreaker.homePoints}`) : null;
-  const second: { label: string; value: string } | null = isFinal
+  const tbText = tiebreaker ? (variant === "folgt" ? "offen" : scoreText(tiebreaker.awayPoints, tiebreaker.homePoints)) : null;
+  const tbAria =
+    tiebreaker && variant !== "folgt" ? scoreAria(tiebreaker.awayPoints, tiebreaker.homePoints, `Tipp ${away.abbr} zu ${home.abbr}`) : undefined;
+  const second: { label: string; value: string; aria?: string } | null = isFinal
     ? { label: "Ergebnis", value: result ? RESULT_WORD[result] : "kein Tipp" }
     : tbText
-      ? { label: big ? "Resultat Tiebreaker" : "Resultat", value: tbText }
+      ? { label: big ? "Resultat Tiebreaker" : "Resultat", value: tbText, aria: tbAria }
       : null;
 
   // Infozeilen mit fester Höhe, damit der Spielbereich in jeder Woche gleich hoch ist
@@ -279,7 +267,7 @@ export function GameHero({
   if (variant === "folgt" && layout === "side") lines.push(<span key="folgt">Tipps folgen, sobald Quoten verfügbar sind.</span>);
   if (isLive && next)
     lines.push(<span key="next">Nächster Tippschluss {next.matchup} in {formatCountdown(Date.parse(next.kickoffUtc) - now)}</span>);
-  if (isFinal && scores && result) lines.push(<span key="res">Endstand {away.abbr} {scores[0]} : {scores[1]} {home.abbr}, Tipp {RESULT_WORD[result]}</span>);
+  if (isFinal && scores && result) lines.push(<span key="res">Endstand {away.abbr} {scoreText(scores[0]!, scores[1]!)} {home.abbr}, Tipp {RESULT_WORD[result]}</span>);
   if (absence)
     lines.push(
       <span key="abs" className="hero-info-warn">
@@ -304,6 +292,12 @@ export function GameHero({
       ))}
     </div>
   );
+
+  const why = deviationNote ? (
+    <p className="hero-why">
+      <span className="hero-why-tag">Abweichung</span> {deviationNote}
+    </p>
+  ) : null;
 
   const cta = isFinal ? (
     <a className="hero-cta" href={reviewHref}>
@@ -352,10 +346,16 @@ export function GameHero({
             </span>
             <span>
               Tipp {pick ? pick.abbr : "offen"}
-              {second && ` · ${second.label} ${second.value}`}
+              {second && (
+                <>
+                  {" · "}
+                  {second.label} {second.aria ? <Spoken shown={second.value} spoken={second.aria} /> : <span>{second.value}</span>}
+                </>
+              )}
             </span>
           </div>
         </div>
+        {why}
         {info}
         {cta}
       </section>
@@ -387,7 +387,11 @@ export function GameHero({
       {second && (
         <div>
           <span className="hero-label">{second.label}</span>
-          <span className="hero-value">{second.value}</span>
+          {second.aria ? (
+            <Spoken className="hero-value" shown={second.value} spoken={second.aria} />
+          ) : (
+            <span className="hero-value">{second.value}</span>
+          )}
         </div>
       )}
     </div>
@@ -403,6 +407,7 @@ export function GameHero({
         </div>
         <div className="hero-col">
           {fields}
+          {why}
           {info}
           {cta}
         </div>
@@ -416,6 +421,7 @@ export function GameHero({
       {head}
       {teams}
       {fields}
+      {why}
       {info}
       {cta}
     </section>

@@ -2,6 +2,8 @@
 // Für jede Tippdatei, deren Review fehlt oder nicht complete ist. Die aktuelle Woche kommt aus der Wochendatei,
 // jede andere Woche wird per ESPN nachgeladen. Wochen ohne begonnenes Spiel werden übersprungen.
 // Bei Fehler in einer Woche bleibt deren Review unverändert, die übrigen Wochen laufen weiter, Exit Code 1.
+// Abgleich Rangliste gegen App Tipps (D050): für das eigene Kürzel aus data/standings.json (me) mit dem Verlauf
+// data/standings-history.json. Kommt die Meldung nach der kompletten Bilanz, ergänzt der nächste Lauf nur dieses Feld.
 // Aufruf: npm run job:review [-- --season 2026 --type 2 --week 8]. Mit Woche nur diese, immer frisch von ESPN.
 import { readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -14,9 +16,12 @@ import {
   ReviewFileSchema,
   ReviewIndexSchema,
   reviewFilePath,
+  StandingsHistorySchema,
   type ReviewFile,
+  type StandingsHistory,
 } from "../src/core/review-schema";
-import { buildReview, buildReviewIndex, sameReviewContent } from "../src/core/review";
+import { buildReview, buildReviewIndex, rankingCheck, sameReviewContent, withRankingCheck } from "../src/core/review";
+import { StandingsFileSchema } from "../src/core/standings";
 import { OpinionsFileSchema, opinionsFilePath, type OpinionsFile } from "../src/core/extra-schema";
 import { DATA_DIR, fetchJson, type MainDeps } from "./fetch-schedule";
 import { parseCliArgs, toJson, writeFiles } from "./schedule-lib";
@@ -78,6 +83,19 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
   const isCurrent = (k: WeekKey) =>
     current !== null && current.season === k.season && current.seasonType === k.seasonType && current.week === k.week;
 
+  // Rangliste ist optional. Fehlt sie oder ist sie ungültig, entsteht die Bilanz ohne Abgleich.
+  let ranking: { me: string; history: StandingsHistory } | null = null;
+  try {
+    const sRaw = await readJsonStrict(join(dataDir, "standings.json"));
+    const hRaw = await readJsonStrict(join(dataDir, "standings-history.json"));
+    if (sRaw !== undefined && hRaw !== undefined) {
+      ranking = { me: StandingsFileSchema.parse(sRaw).me, history: StandingsHistorySchema.parse(hRaw) };
+    }
+  } catch (err) {
+    log(`Rangliste ungültig, Bilanz ohne Abgleich. ${describeError(err)}`);
+  }
+  const checkFor = (r: ReviewFile) => (ranking ? rankingCheck(r, ranking.history, ranking.me) : null);
+
   const weeks = explicit ? [args as WeekKey] : await listWeeks(dataDir, "tips");
   let exit = 0;
   for (const k of weeks) {
@@ -95,7 +113,14 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
 
       const prevRaw = await readJsonStrict(join(dataDir, path));
       const prev: ReviewFile | null = prevRaw === undefined ? null : ReviewFileSchema.parse(prevRaw);
-      if (prev?.complete && !explicit) continue;
+      if (prev?.complete && !explicit) {
+        const check = checkFor(prev);
+        if (JSON.stringify(check ?? null) === JSON.stringify(prev.rankingCheck ?? null)) continue;
+        await writeFiles(dataDir, [{ path, content: toJson(withRankingCheck({ ...prev, updatedAt: now }, check)) }]);
+        log(`${label}: Abgleich Rangliste ${check ? `gemeldet ${check.reported}, App ${check.appPoints}, Differenz ${check.gap}` : "entfernt"}`);
+        log(`  geschrieben data/${path}`);
+        continue;
+      }
 
       const firstKickoff = Math.min(...tips.tips.map((t) => Date.parse(t.kickoffUtc)));
       if (!(firstKickoff <= Date.parse(now))) {
@@ -128,11 +153,16 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
         log(`${label}: Meinungsdatei ungültig, Bilanz ohne KI Vergleich. ${describeError(err)}`);
       }
 
-      const next = buildReview(tips, games, now, opinions);
+      const built = buildReview(tips, games, now, opinions);
+      const next = withRankingCheck(built, checkFor(built));
       log(
         `${label}: ${next.points} von ${next.tipped} Punkte, Abweichungen netto ${next.deviationNet}, ` +
           `${next.complete ? "komplett" : "Zwischenstand"}`,
       );
+      if (next.rankingCheck) {
+        const c = next.rankingCheck;
+        log(`  Abgleich Rangliste ${c.playerId}: gemeldet ${c.reported}, App ${c.appPoints}, Differenz ${c.gap}`);
+      }
       if (next.opinionCompare) {
         const c = next.opinionCompare;
         log(`  KI Vergleich: ${c.scored} gewertet, Markt ${c.marketHits}, KI ${c.aiHits}, ${c.disagreements.length} abweichend`);

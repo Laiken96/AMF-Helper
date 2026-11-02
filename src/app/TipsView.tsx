@@ -2,11 +2,13 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
+import { standingsAppliesTo } from "../core/standings";
 import { tiebreakerGames } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import { teamColor, visibleOn } from "./colors";
 import {
+  beforeAppStart,
   currentRef,
   loadTipsData,
   navWeeks,
@@ -20,7 +22,8 @@ import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type He
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { LoadErrorNotice, PageHeader, Segmented, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Segmented, Spoken, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, deviationReason, formatStand, scoreAria, scoreText, spreadText } from "./wording";
 
 const LEVEL_TEXT: Record<GameTip["level"], string> = {
   klar: "klar",
@@ -103,7 +106,11 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
     return (
       <>
         <TipsHeader data={data} pending={pending} />
-        <p className="notice">Für {weekLabel(data.ref)} liegt noch kein Spielplan vor.</p>
+        <p className="notice">
+          {beforeAppStart(data.index, data.ref)
+            ? `${weekLabel(data.ref)} liegt vor dem App Start, keine Daten.`
+            : `Für ${weekLabel(data.ref)} liegt noch kein Spielplan vor.`}
+        </p>
       </>
     );
   }
@@ -163,8 +170,8 @@ const KICKER: Record<TipsData["phase"], string> = { aktuell: "Tipps · Aktuell",
 function TipsHeader({ data, updatedAt, pending }: { data: TipsData; updatedAt?: string; pending: boolean }) {
   const weeks = navWeeks(data);
   const meta = updatedAt
-    ? `Saison ${data.ref.season} · Letzte Aktualisierung ${fetchedFormat.format(new Date(updatedAt))}`
-    : `Saison ${data.ref.season}`;
+    ? `Saison ${data.ref.season} · ${formatStand(updatedAt)} · ${TIME_ZONE_TEXT}`
+    : `Saison ${data.ref.season} · ${TIME_ZONE_TEXT}`;
   return (
     <PageHeader
       kicker={weeks ? KICKER[data.phase] : "Tipps"}
@@ -268,6 +275,7 @@ function TipsList({
   const isPending = (r: TipRow) =>
     !passive && r.level !== "nicht_erfasst" && (statusOf(r) === "changed" || (statusOf(r) === "none" && !r.locked));
   const countable = rows.filter((r) => r.level !== "nicht_erfasst");
+  const notCapturedCount = rows.length - countable.length;
   const doneCount = countable.filter((r) => statusOf(r) === "done").length;
   const openCount = rows.filter(isPending).length;
   const visible =
@@ -334,6 +342,33 @@ function TipsList({
   const matchupOf = (r: TipRow) => (r.game ? `${team(r.game.awayId).abbr} @ ${team(r.game.homeId).abbr}` : `Spiel ${r.gameId}`);
   const isDefault = !selectedRow || selectedRow.gameId === defaultId;
   const homeLabel = mode === "offen" ? "Zum nächsten Tippschluss" : mode === "folgt" ? "Zum ersten Spiel" : "Zum letzten Spiel";
+
+  // Rückstand auf Platz 1 für die Begründung einer Abweichung (Ziel Platz 1, D028). Eine Rangliste aus einer
+  // anderen Saison gilt nicht (D051), dann ohne Rückstand in der Begründung.
+  const gap = useMemo(() => {
+    if (!standingsAppliesTo(data.standings, data.ref.season)) return null;
+    const players = data.standings.players;
+    const mine = players.find((p) => p.id === data.standings.me);
+    if (!mine || players.length === 0) return null;
+    return Math.max(0, Math.max(...players.map((p) => p.points)) - mine.points);
+  }, [data.standings, data.ref.season]);
+  const deviationNoteOf = (tip: GameTip | undefined, game: Game | undefined): string | null => {
+    if (!tip || !game || !tip.deviation || !tip.pickTeamId) return null;
+    const pick = team(tip.pickTeamId);
+    const otherId = tip.pickTeamId === game.homeId ? game.awayId : game.homeId;
+    const baseId = tip.firstPickTeamId && tip.firstPickTeamId !== tip.pickTeamId ? tip.firstPickTeamId : otherId;
+    const baseProb =
+      tip.pickProb === null ? null : baseId === tip.pickTeamId ? tip.pickProb : 1 - tip.pickProb;
+    return deviationReason({
+      pickAbbr: pick.abbr,
+      pickProb: tip.pickProb,
+      baseAbbr: team(baseId).abbr,
+      baseProb,
+      spread: spreadText(tip.odds, team(game.homeId).abbr, team(game.awayId).abbr),
+      maxDeviations: tips.maxDeviations,
+      gap,
+    });
+  };
 
   const heroProps = (row: TipRow | undefined, isSelected: boolean) => {
     if (!row || !row.game || !isSelected) {
@@ -436,6 +471,7 @@ function TipsList({
         result={hp.result}
         reviewHref={reviewHref}
         nav={nav}
+        deviationNote={hp.target && hp.variant !== "folgt" ? deviationNoteOf(hp.target.tip, hp.target.game) : null}
       />
     );
   };
@@ -451,7 +487,11 @@ function TipsList({
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} open={mode === "folgt"} />
-      <StandingsBox standings={data.standings} maxDeviations={mode === "folgt" ? null : tips.maxDeviations} />
+      <StandingsBox
+        standings={data.standings}
+        season={data.ref.season}
+        maxDeviations={mode === "folgt" ? null : tips.maxDeviations}
+      />
     </div>
   );
   const pct = countable.length > 0 ? Math.round((doneCount / countable.length) * 100) : 0;
@@ -492,6 +532,13 @@ function TipsList({
               </span>
             </div>
           </div>
+          {notCapturedCount > 0 && (
+            <p className="notice notice-pending">
+              {notCapturedCount === rows.length
+                ? "Für diese Woche gibt es keine App Tipps, die App lief bei Kickoff noch nicht."
+                : `${notCapturedCount} ${notCapturedCount === 1 ? "Spiel hat" : "Spiele haben"} keinen App Tipp, die App lief bei Kickoff noch nicht.`}
+            </p>
+          )}
           {visible.length === 0 && (
             <p className="notice">Keine offenen Spiele. Alle Tipps sind eingetragen oder gesperrt.</p>
           )}
@@ -510,6 +557,7 @@ function TipsList({
                     upcoming={mode === "folgt"}
                     live={live.games.get(row.gameId)}
                     selected={wide && row.gameId === shownId}
+                    previous={row.changedSinceFirst && row.firstPickTeamId ? team(row.firstPickTeamId).abbr : null}
                     onSelect={() => select(row.gameId)}
                   />
                 ))}
@@ -606,10 +654,6 @@ function GameSheet({ title, onClose, children }: { title: string; onClose: () =>
   );
 }
 
-type Tiebreaker = TipsFile["tiebreakers"][number];
-
-const SLOT_DAY: Record<Tiebreaker["slot"], string> = { thursday: "Do", monday: "Mo" };
-
 function TiebreakerBox({
   tips,
   gameById,
@@ -632,15 +676,17 @@ function TiebreakerBox({
           const kickoff = tips.tips.find((t) => t.gameId === tb.gameId)?.kickoffUtc ?? game?.kickoffUtc;
           return (
             <li key={tb.gameId}>
-              <span className="tb-day">{SLOT_DAY[tb.slot]}</span>
+              <abbr className="tb-day" title={SLOT_LONG[tb.slot]}>
+                {SLOT_SHORT[tb.slot]}
+              </abbr>
               <span className="tb-line">
-                {game
-                  ? open
-                    ? `${team(game.awayId).abbr} @ ${team(game.homeId).abbr}`
-                    : `${team(game.awayId).abbr} ${tb.awayPoints}:${tb.homePoints} ${team(game.homeId).abbr}`
-                  : open
-                    ? "Resultat offen"
-                    : `${tb.awayPoints}:${tb.homePoints}`}
+                {game && `${team(game.awayId).abbr} `}
+                {open ? (
+                  game ? "@" : "Resultat offen"
+                ) : (
+                  <Spoken shown={scoreText(tb.awayPoints, tb.homePoints)} spoken={scoreAria(tb.awayPoints, tb.homePoints)} />
+                )}
+                {game && ` ${team(game.homeId).abbr}`}
               </span>
               <span className="box-meta">
                 {kickoff ? `Kickoff ${formatKickoffZurich(kickoff)}` : ""}
@@ -654,26 +700,45 @@ function TiebreakerBox({
   );
 }
 
-function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; maxDeviations: number | null }) {
+function StandingsBox({
+  standings,
+  season,
+  maxDeviations,
+}: {
+  standings: StandingsFile;
+  season: number;
+  maxDeviations: number | null;
+}) {
   const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
   const mine = players.find((p) => p.id === standings.me);
-  // Ziel ist immer Platz 1 (D028)
+  // Ziel ist immer Platz 1 (D028). Rangliste aus einer anderen Saison: kein Rückstand (D051).
+  const applies = standingsAppliesTo(standings, season);
   const leader = players[0];
-  const ahead = mine && leader && leader.points > mine.points ? leader : undefined;
+  const ahead = applies && mine && leader && leader.points > mine.points ? leader : undefined;
   const gap = ahead && mine ? ahead.points - mine.points : 0;
   return (
     <section className="box" aria-label="Rangliste">
       <h2>Ziel Platz 1</h2>
-      {mine && (
-        <p className="box-big">{ahead ? <span aria-label={`minus ${gap}`}>{"\u2212"}{gap}</span> : "1."}</p>
+      {mine && applies && (
+        <p className="box-big">
+          {ahead ? (
+            <Spoken shown={`\u2212${gap}`} spoken={`minus ${gap}`} />
+          ) : (
+            "1."
+          )}
+        </p>
       )}
-      {mine && (
+      {mine && applies && (
         <p className="box-meta">
           {ahead ? `${gap} ${gap === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id} auf Platz 1` : "In Führung"}
         </p>
       )}
+      {!applies && <p className="box-meta">Neue Saison, Rückstand erst nach der ersten Meldung</p>}
       <p className="box-meta strong">Erlaubte Abweichungen diese Woche: {maxDeviations ?? "offen"}</p>
-      <p className="box-meta">Rangliste nach Week {standings.asOfWeek}</p>
+      <p className="box-meta">
+        Rangliste nach Week {standings.asOfWeek}
+        {!applies && standings.season !== undefined ? ` der Saison ${standings.season}` : ""}
+      </p>
       <ol className="ranking">
         {players.map((p) => (
           <li key={p.id} className={p.id === standings.me ? "me" : undefined}>
@@ -704,6 +769,7 @@ function TipItem({
   live,
   selected = false,
   onSelect,
+  previous = null,
 }: {
   row: TipRow;
   team: (id: string) => Team;
@@ -716,17 +782,21 @@ function TipItem({
   /** Zeile ist im Spielbereich gezeigt (wide). */
   selected?: boolean;
   onSelect?: () => void;
+  /** Kürzel des Grundtipps, wenn der Tipp seither geändert hat. */
+  previous?: string | null;
 }) {
   const notCaptured = row.level === "nicht_erfasst";
   const checked = status === "done";
   const { game } = row;
-  const homeId = game?.homeId;
   const hasPick = row.level !== "offen" && !notCaptured && row.pickTeamId !== null;
-  const pickId = hasPick ? row.pickTeamId! : (game?.awayId ?? null);
-  const otherId = game ? (pickId === game.homeId ? game.awayId : game.homeId) : null;
-  const pick = pickId ? team(pickId) : null;
-  const other = otherId ? team(otherId) : null;
+  const pick = hasPick ? team(row.pickTeamId!) : null;
+  const away = game ? team(game.awayId) : null;
+  const home = game ? team(game.homeId) : null;
   const pending = !readOnly && !upcoming && !notCaptured && (status === "changed" || (status === "none" && !row.locked));
+  // Beendetes Spiel: Endstand und Ergebnis direkt in der Zeile, auch in der laufenden Woche
+  const finished = Boolean(game && game.status === "final" && game.awayScore !== null && game.homeScore !== null);
+  const decided = row.result === "richtig" || row.result === "falsch" || row.result === "unentschieden";
+  const showResult = finished && (readOnly || decided);
 
   const classes = ["tip", `level-${row.level}`];
   if (pending) classes.push("pending");
@@ -734,24 +804,32 @@ function TipItem({
   if (status === "changed") classes.push("changed-entry");
   if (row.locked) classes.push("locked");
   if (selected) classes.push("selected");
+  if (finished) classes.push("finished");
 
   const pct = hasPick && row.pickProb !== null ? Math.round(row.pickProb * 100) : null;
-  const info = upcoming ? "Quote folgt" : notCaptured ? "nicht erfasst" : pct !== null ? `${row.deviation ? "Abw. " : ""}${pct} %` : "keine Quote";
+  const info = upcoming
+    ? "Quote folgt"
+    : notCaptured
+      ? ""
+      : pct !== null
+        ? `${row.deviation ? "Abw. " : ""}${pct} %`
+        : "keine Quote";
+  const infoAria = upcoming
+    ? "Quote folgt"
+    : notCaptured
+      ? "kein App Tipp"
+      : pct !== null
+        ? `${row.deviation ? "Abweichung, " : ""}Siegwahrscheinlichkeit ${pct} Prozent`
+        : "keine Quote";
   const infoColor = row.deviation && pct !== null ? "#F5B83D" : LEVEL_COLOR[row.level];
-  const dot = pick && hasPick ? visibleOn(teamColor(pick.color)) : "#3A414D";
-  const liveText =
-    live?.state === "in" && game ? ` · Live ${live.awayScore ?? 0}:${live.homeScore ?? 0} ${periodText(live)}` : "";
-  const finalText =
-    readOnly && game && game.status === "final" && game.awayScore !== null && game.homeScore !== null
-      ? ` · ${game.awayScore}:${game.homeScore}`
-      : "";
-  const vs = other ? `${other.id === homeId ? "@" : "vs"} ${other.abbr}${liveText}${finalText}` : "";
-  const label = hasPick && pick
-    ? pick.abbr
-    : game
-      ? `Spiel ${team(game.awayId).abbr} @ ${team(game.homeId).abbr}`
-      : `Spiel ${row.gameId}`;
-  const hasFlags = row.tiebreaker || row.deviation || row.changedSinceFirst || (row.locked && !readOnly);
+  const dot = pick ? visibleOn(teamColor(pick.color)) : "#3A414D";
+  const liveText = live?.state === "in" && game ? `Live ${live.awayScore ?? 0} : ${live.homeScore ?? 0} ${periodText(live)}` : "";
+  const finalText = finished && game ? scoreText(game.awayScore!, game.homeScore!) : "";
+  const matchup = away && home ? `${away.abbr} @ ${home.abbr}` : `Spiel ${row.gameId}`;
+  const label = pick ? pick.abbr : `Spiel ${matchup}`;
+  const hasFlags = row.tiebreaker || row.deviation || previous !== null || (row.locked && !readOnly && !finished);
+  const teamCls = (t: Team | null) => (pick && t ? (t.id === pick.id ? "tip-team tip-team-pick" : "tip-team tip-team-other") : "tip-team");
+  const ariaScore = finished && game ? `, Endstand ${game.awayScore} zu ${game.homeScore}` : liveText ? `, ${liveText}` : "";
 
   return (
     <li className={classes.join(" ")} data-anchor={row.gameId}>
@@ -761,27 +839,35 @@ function TipItem({
           className="tip-select"
           onClick={onSelect}
           aria-current={selected ? "true" : undefined}
-          aria-label={`${game ? `${team(game.awayId).abbr} @ ${team(game.homeId).abbr}` : `Spiel ${row.gameId}`}, Tipp ${hasPick && pick ? pick.abbr : "offen"}, ${info}. Im Spielbereich zeigen`}
+          aria-label={`${matchup}, Tipp ${pick ? pick.abbr : notCaptured ? "keiner" : "offen"}, ${infoAria}${ariaScore}${showResult && row.result ? `, ${RESULT_TEXT[row.result]}` : ""}. Im Spielbereich zeigen`}
         >
           <span className="dot" style={{ background: dot }} aria-hidden="true" />
-          <span className={hasPick ? "tip-pick" : "tip-pick nopick"} title={pick?.name}>
-            {pick ? pick.abbr : `Spiel ${row.gameId}`}
-          </span>
-          <span className="tip-vs">{vs}</span>
-          <span className="tip-info">
-            <span style={{ color: infoColor }}>{info}</span>
-            {!notCaptured && <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>}
-          </span>
-        </button>
-        {upcoming ? (
-          <span className="tick-spacer" aria-hidden="true" />
-        ) : readOnly ? (
-          row.result ? (
-            <span className={`res-badge res-badge-${row.result}`}>{RESULT_TEXT[row.result]}</span>
+          {away && home ? (
+            <span className="tip-teams" aria-hidden="true">
+              <span className={teamCls(away)} title={away.name}>
+                {away.abbr}
+              </span>
+              <span className="tip-at">@</span>
+              <span className={teamCls(home)} title={home.name}>
+                {home.abbr}
+              </span>
+            </span>
           ) : (
-            <span className="tick-spacer" aria-hidden="true" />
-          )
-        ) : notCaptured ? (
+            <span className="tip-pick nopick">Spiel {row.gameId}</span>
+          )}
+          <span className="tip-vs" aria-hidden="true">
+            {finalText ? <span className="tip-final">{finalText}</span> : liveText}
+          </span>
+          {info && (
+            <span className="tip-info" aria-hidden="true">
+              <span style={{ color: infoColor }}>{info}</span>
+              <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>
+            </span>
+          )}
+        </button>
+        {showResult && row.result ? (
+          <span className={`res-badge res-badge-${row.result}`}>{RESULT_TEXT[row.result]}</span>
+        ) : upcoming || readOnly || notCaptured ? (
           <span className="tick-spacer" aria-hidden="true" />
         ) : (
           <label className="tick-wrap">
@@ -797,14 +883,18 @@ function TipItem({
       </div>
       {hasFlags && (
         <div className="tip-flags">
-          {row.tiebreaker && <span className="flag tb-flag">{readOnly ? "Tiebreaker" : "Resultat tippen"}</span>}
+          {row.tiebreaker && <span className="flag tb-flag">{readOnly || finished ? "Tiebreaker" : "Resultat tippen"}</span>}
           {row.deviation && (
             <span className="flag flag-dev" title="Bewusste Abweichung vom Favoriten">
               <span aria-hidden="true">🎯</span> Abweichung
             </span>
           )}
-          {row.changedSinceFirst && <span className="flag changed">geändert seit Grundtipp</span>}
-          {row.locked && !readOnly && (
+          {previous !== null && (
+            <span className="flag changed">
+              <span className="sr-only">Grundtipp </span>vorher: {previous}
+            </span>
+          )}
+          {row.locked && !readOnly && !finished && (
             <span className="flag" title="Kickoff vorbei, Tipp gesperrt">
               <span aria-hidden="true">🔒</span> gesperrt
             </span>

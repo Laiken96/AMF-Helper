@@ -2,14 +2,15 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { Game, Team } from "../core/schema";
 import { groupBySlot } from "../core/time";
-import { currentRef, loadWeekData, navWeeks, parseWeekKey, prefetchNeighbours, useKeptLoad, type WeekData } from "./data";
+import { beforeAppStart, currentRef, loadWeekData, navWeeks, parseWeekKey, prefetchNeighbours, useKeptLoad, type WeekData } from "./data";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
-import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { formatStand, statusWord } from "./wording";
 
 const STATUS_TEXT: Record<Game["status"], string> = {
   scheduled: "Geplant",
   in_progress: "Läuft",
-  final: "Final",
+  final: "Beendet",
   postponed: "Verschoben",
   canceled: "Abgesagt",
 };
@@ -55,7 +56,7 @@ function GamesWeek({ data, pending }: { data: WeekData; pending: boolean }) {
       }
       meta={
         week
-          ? `Saison ${week.season} · Letzte Änderung ${fetchedFormat.format(new Date(week.fetchedAt))}`
+          ? `Saison ${week.season} · ${formatStand(week.fetchedAt)}`
           : `Saison ${ref.season}`
       }
     />
@@ -65,7 +66,11 @@ function GamesWeek({ data, pending }: { data: WeekData; pending: boolean }) {
     return (
       <>
         {header}
-        <p className="notice">Für {weekLabel(ref)} liegt noch kein Spielplan vor.</p>
+        <p className="notice">
+          {beforeAppStart(data.index, ref)
+            ? `${weekLabel(ref)} liegt vor dem App Start, keine Daten.`
+            : `Für ${weekLabel(ref)} liegt noch kein Spielplan vor.`}
+        </p>
       </>
     );
   }
@@ -189,12 +194,12 @@ function GameRow({
   const statusText = offStatus
     ? STATUS_TEXT[offStatus]
     : running
-      ? periodText(live)
+      ? statusWord(periodText(live))
       : live?.state === "post"
-        ? (live.detail ?? STATUS_TEXT.final)
+        ? statusWord(live.detail) || STATUS_TEXT.final
         : game.status === "scheduled"
           ? STATUS_TEXT.scheduled
-          : game.statusDetail || STATUS_TEXT[game.status];
+          : statusWord(game.statusDetail) || STATUS_TEXT[game.status];
 
   const matchup = (
     <div className="matchup">
@@ -313,10 +318,10 @@ function LiveDetail({
             {live.state === "in" ? (
               <span className="live-tag">
                 <span className="live-dot" aria-hidden="true" />
-                {periodText(live)}
+                {statusWord(periodText(live))}
               </span>
             ) : (
-              <span>{live.detail ?? "Final"}</span>
+              <span>{statusWord(live.detail) || "Beendet"}</span>
             )}
           </div>
           <div className="live-board-team live-board-home">

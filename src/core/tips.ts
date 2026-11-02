@@ -1,6 +1,7 @@
 // Tipplogik Sprint 2. Reine Funktionen ohne Node APIs, nutzbar in Jobs und App.
 // Regeln siehe sprints/sprint-02.md, D010, D023, D024, D025, D026.
 import { compareGames } from "./espn";
+import { standingsAppliesTo } from "./standings";
 import type { Game, WeekFile } from "./schema";
 import {
   TIPS_SCHEMA_VERSION,
@@ -126,6 +127,15 @@ function sameOdds(a: Odds | null, b: Odds | null): boolean {
   return a.provider === b.provider && a.spreadHome === b.spreadHome && a.overUnder === b.overUnder;
 }
 
+/**
+ * Erste erfasste Quote eines Tipps (Linienbewegung, D050). Einmal gesetzt bleibt sie. Fehlt sie in einer
+ * Datei aus Version 1, gilt die zuletzt gespeicherte Quote als beste Näherung, sonst die aktuelle.
+ */
+export function firstOddsOf(prev: GameTip | undefined, odds: Odds | null): Odds | null {
+  if (prev?.firstOdds) return prev.firstOdds;
+  return prev?.odds ?? odds;
+}
+
 /** Grundtipp ohne Abweichung: Favorit nach Quote, bei exakt 0.5 das Heimteam. */
 export function favoriteTip(game: Game, odds: Odds | null): Pick<GameTip, "pHome" | "pickTeamId" | "pickProb" | "level"> {
   if (odds === null) return { pHome: null, pickTeamId: null, pickProb: null, level: "offen" };
@@ -222,7 +232,11 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
   // Spiele werden mit diesem Wert trotzdem neu gewählt.
   const frozen =
     sameWeek && (input.freezeMaxDeviations !== false || input.existing!.tips.some((t) => t.locked));
-  const max = frozen ? input.existing!.maxDeviations : maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
+  const max = frozen ? input.existing!.maxDeviations : maxDeviations(
+        standingsAppliesTo(input.standings, week.season) ? gapToTarget(input.standings) : 0,
+        week.seasonType,
+        week.week,
+      );
   const prevById = new Map<string, GameTip>(sameWeek ? input.existing!.tips.map((t) => [t.gameId, t]) : []);
   const games = [...week.games].sort(compareGames);
 
@@ -248,6 +262,7 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
         level: "nicht_erfasst",
         deviation: false,
         firstPickTeamId: null,
+        firstOdds: null,
         changedSinceFirst: false,
         locked: true,
         lockedAt: now,
@@ -265,6 +280,7 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
       ...favoriteTip(game, odds),
       deviation: false,
       firstPickTeamId: prev?.firstPickTeamId ?? null,
+      firstOdds: firstOddsOf(prev, odds),
       changedSinceFirst: false,
       locked: false,
       lockedAt: null,

@@ -12,7 +12,7 @@ Stand 2026-11-02. Einziger Nutzer ist der Entwickler. Vor dem ersten weiteren Nu
 
 | Workflow | Datei | Auslöser | Aufgabe |
 |---|---|---|---|
-| Daten Spielplan, Tipps und Bilanz | data.yml | stündlich Minute 17, manuell | ESPN Spielplan, Tippliste, Bilanz, Commit nach data/, danach Pages neu bauen |
+| Daten Spielplan, Tipps und Bilanz | data.yml | stündlich Minute 17, manuell | ESPN Spielplan (aktuelle und 2 kommende Tippwochen), Tippliste, Bilanz mit Abgleich Rangliste, News, Lebenszeichen, Wochenindex, Commit nach data/, danach Pages neu bauen |
 | Push und Ausfall Wächter | push.yml | alle 10 Minuten (3, 13, 23 ...), manuell mit test true | Ausfälle prüfen, Push versenden, push-log.json committen |
 | Rangliste übernehmen | standings.yml | Issue mit Label rangliste vom Owner | Ranglistenstand nach data/ übernehmen |
 | Pages | pages.yml | Push auf main, manuell | Tests, Build, Veröffentlichung |
@@ -21,7 +21,45 @@ Externer Auslöser (D041): cron-job.org startet push.yml alle 10 Minuten und dat
 
 Kontrolle: https://github.com/Laiken96/AMF-Helper/actions. Ein roter Lauf bedeutet, dass mindestens ein Schritt fehlschlug. Die Daten bleiben dann auf dem letzten gültigen Stand (D019).
 
-Bekanntes Risiko: GitHub verzögert oder überspringt geplante Läufe bei hoher Last und deaktiviert sie nach 60 Tagen ohne Commit. Die Datenjobs committen regelmässig, in der Offseason aber nicht. Notlösung siehe Störungen.
+Bekanntes Risiko: GitHub verzögert oder überspringt geplante Läufe bei hoher Last und deaktiviert sie in öffentlichen Repos nach 60 Tagen ohne Aktivität. Ein deaktivierter Workflow lässt sich auch per API (cron-job.org) nicht mehr starten. Gegenmittel: data.yml schreibt höchstens alle 30 Tage data/heartbeat.json (Schritt Lebenszeichen), damit entsteht auch in der Offseason mindestens ein Commit pro Monat. Notlösung siehe Störungen.
+
+## Saisonwechsel und Offseason
+
+Kalender laut ESPN: Typ 1 Preseason, Typ 2 Regular Season Woche 1 bis 18, Typ 3 Postseason Woche 1 Wild Card, 2 Divisional, 3 Conference, 4 Pro Bowl, 5 Super Bowl, Typ 4 Offseason. Logik in src/core/season-calendar.ts.
+
+Verhalten der Automatik:
+
+- Ruhende Wochen: Preseason, Pro Bowl und Offseason schreibt der Spielplan Job ohne Argumente nicht. current.json bleibt auf der letzten Tippwoche, deshalb entstehen dort keine Tipps und keine Pushes. Der Lauf bleibt grün, im Log steht "ruhende Woche".
+- Kommende Wochen: der Spielplan Job holt die nächsten 2 Tippwochen über die Grenze Regular zu Postseason (Week 17 holt Week 18 und Postseason Week 1, die Conference Woche holt den Super Bowl). Postseason Wochen ohne feste Paarung (Platzhalter Teams, keine Spiele oder Schemafehler) schreibt er nicht, ohne den Lauf rot zu machen. Aus der Preseason holt er Regular Week 1 und 2 der neuen Saison.
+- Wochenpunkte der Gruppe: gegen den letzten Eintrag derselben Saison mit kleinerer Ordnung (Typ mal 100 plus Woche), also Postseason Week 1 gegen Regular Week 18 und Super Bowl gegen Conference Woche. Fehlt die direkte Vorwoche, gibt es keine Wochenpunkte.
+- Rangliste: data/standings.json trägt ab Version 2 die Saison. Gilt sie für eine andere Saison, ist der Rückstand 0 bis zur ersten Meldung der neuen Saison.
+- Ruhetage pro Spiel (homeRest, awayRest) entstehen nur, wenn die Wochendatei der direkten Vorwoche vorliegt, also nicht in Regular Week 1.
+
+Checkliste Ende Regular Season (Week 18):
+
+1. Klären, ob die Tippgruppe die Postseason spielt. Falls nein: keine Meldungen für Typ 3, die Tipps entstehen trotzdem.
+2. Nach Week 18 prüfen, dass current.json auf Postseason Week 1 wechselt (data/current.json, seasonType 3).
+3. Ranglisten Formular: Postseason (3) wählen, Woche 1 bis 3 und 5.
+
+Checkliste Pro Bowl und Super Bowl:
+
+1. In der Pro Bowl Woche bleibt current.json auf der Conference Woche (Log "Pro Bowl, ruhende Woche"), die Super Bowl Woche erscheint als kommende Woche.
+2. Sobald ESPN auf Woche 5 wechselt, wird sie current, Push vor Tippschluss läuft normal.
+
+Checkliste Offseason (Februar bis August):
+
+1. Nach dem Super Bowl Gesamtbilanz und Saisonauswertung sichern, Post Mortem schreiben.
+2. Monatlich unter Actions prüfen, dass data.yml läuft und data/heartbeat.json höchstens 30 Tage alt ist. Ist ein Workflow trotzdem deaktiviert: Actions, Workflow wählen, "Enable workflow".
+3. Einmal pro Monat lokal `git pull` (Backup ausserhalb GitHub).
+4. Token cron-job.org Ablauf prüfen (02.11.2027), Push Anmeldung am iPhone testen (push.yml manuell mit test true).
+
+Checkliste Saisonstart (August bis Week 1):
+
+1. Preseason Läufe zeigen "Preseason, ruhende Woche", Regular Week 1 und 2 der neuen Saison liegen unter data/weeks/.
+2. Kürzel der Gruppe im Formular .github/ISSUE_TEMPLATE/rangliste.yml und in data/standings.json prüfen (PLAYER_IDS in src/core/standings.ts).
+3. Sobald ESPN auf Regular Week 1 wechselt, prüfen: current.json zeigt die neue Saison, Tippliste Week 1 entsteht mit der ersten Quote, Rückstand ist 0 (Rangliste der Vorsaison gilt nicht).
+4. Nach Week 1 die erste Rangliste melden. Week 1 zählt ab 0 Punkten.
+5. REGULAR_SEASON_WEEKS (tips.ts) und REGULAR_WEEKS (season-calendar.ts) prüfen, falls die NFL die Saison verlängert.
 
 ## Deploy
 
@@ -71,6 +109,8 @@ Bekanntes Risiko: GitHub verzögert oder überspringt geplante Läufe bei hoher 
 | push.yml rot mit "Anmeldung abgelaufen" | iPhone Anmeldung ungültig | In der App unter Einstellungen "Neu anmelden", PUSH_SUBSCRIPTION ersetzen, Testlauf mit test true |
 | Tippliste ohne Quoten | ESPN liefert noch keine Odds | Normal bis kurz vor der Woche. Spiel zeigt "offen", Grundtipp folgt mit der ersten Quote |
 | Rangliste nicht übernommen | Formular Eingabe abgelehnt | Kommentar im Issue lesen, gleiche Woche korrigiert neu melden |
+| Workflow deaktiviert, cron-job.org meldet Fehler | 60 Tage ohne Aktivität | Actions, Workflow wählen, "Enable workflow". Danach data.yml manuell starten, das Lebenszeichen folgt automatisch |
+| current.json bleibt stehen | ruhende Woche (Preseason, Pro Bowl, Offseason) | Normal. Log von data.yml zeigt "ruhende Woche" |
 | App zeigt altes Design | Service Worker oder Cache | App ganz schliessen und neu öffnen |
 
 ## Vertretung

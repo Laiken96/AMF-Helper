@@ -8,6 +8,7 @@ import { EXPIRED_MESSAGE, main as push, type SendFn } from "../jobs/push";
 import type { FetchFn } from "../jobs/fetch-schedule";
 import { parseScoreboard } from "../src/core/espn";
 import { InjuriesFileSchema } from "../src/core/injuries";
+import { FpiFileSchema } from "../src/core/fpi";
 import { PushLogFileSchema } from "../src/core/push-messages";
 import type { PushPayload } from "../src/core/push-config";
 
@@ -94,7 +95,8 @@ describe("jobs/watch.ts", () => {
     const before = await readFile(join(dir, INJ), "utf8");
     await watch([], watchDeps("2026-11-05T06:10:00Z", fetchSummary()));
     expect(await readFile(join(dir, INJ), "utf8")).toBe(before);
-    expect(logs.at(-1)).toContain("unverändert");
+    expect(logs).toContain(`  unverändert data/${INJ}`);
+    expect(logs).toContain("  unverändert data/fpi/2026-2-09.json");
   });
 
   it("Abruffehler ergibt Exit 1 und keinen Grundstand", async () => {
@@ -102,6 +104,81 @@ describe("jobs/watch.ts", () => {
     expect(await watch([], watchDeps("2026-11-05T06:00:00Z", fail))).toBe(1);
     expect((await readInj()).baseline).toBeNull();
     expect(errors[0]).toContain("HTTP 503");
+  });
+
+  it("schreibt FPI aus dem Summary, ab Kickoff eingefroren", async () => {
+    expect(await watch([], watchDeps("2026-11-04T12:00:00Z", fetchSummary()))).toBe(0);
+    const readFpi = async () => FpiFileSchema.parse(JSON.parse(await readFile(join(dir, "fpi/2026-2-09.json"), "utf8")));
+    expect((await readFpi()).games).toEqual([
+      expect.objectContaining({ gameId: "401873037", homeId: "33", awayId: "30", pHome: 0.478, pAway: 0.518, locked: false }),
+    ]);
+    const moved = fetchSummary((s) => {
+      s.predictor.homeTeam.gameProjection = "20.0";
+    });
+    expect(await watch([], watchDeps("2026-11-06T01:20:00Z", moved))).toBe(0);
+    expect((await readFpi()).games[0]).toMatchObject({ pHome: 0.478, locked: true });
+  });
+
+  it("fehlender predictor: Ausfälle wie bisher, keine FPI Datei", async () => {
+    expect(await watch([], watchDeps("2026-11-04T12:00:00Z", fetchSummary((s) => delete s.predictor)))).toBe(0);
+    expect((await readInj()).current.games).toHaveLength(1);
+    await expect(readFile(join(dir, "fpi/2026-2-09.json"), "utf8")).rejects.toThrow();
+  });
+
+  it("kaputte FPI Datei bleibt, Ausfälle werden trotzdem geschrieben, Exit 1", async () => {
+    await mkdir(join(dir, "fpi"));
+    await writeFile(join(dir, "fpi/2026-2-09.json"), "{kaputt");
+    expect(await watch([], watchDeps("2026-11-04T12:00:00Z", fetchSummary()))).toBe(1);
+    expect(await readFile(join(dir, "fpi/2026-2-09.json"), "utf8")).toBe("{kaputt");
+    expect((await readInj()).current.games).toHaveLength(1);
+  });
+
+  it("erfasst auch die nächste Woche mit Wochendatei, explizite Woche nur diese", async () => {
+    const tnf = weekW9.games.find((g) => g.id === "401873037")!;
+    const nextGame = { ...tnf, id: "401873099", week: 10, kickoffUtc: "2026-11-13T01:15:00Z" };
+    await writeFile(join(dir, "weeks/2026-2-10.json"), JSON.stringify({ ...weekW9, week: 10, games: [nextGame] }));
+    const urls: string[] = [];
+    const any: FetchFn = async (url) => {
+      urls.push(url);
+      return new Response(summaryText, { status: 200 });
+    };
+    expect(await watch([], watchDeps("2026-11-04T12:00:00Z", any))).toBe(0);
+    expect(urls.map((u) => u.split("event=")[1])).toEqual(["401873037", "401873099"]);
+    const next = InjuriesFileSchema.parse(JSON.parse(await readFile(join(dir, "injuries/2026-2-10.json"), "utf8")));
+    expect(next).toMatchObject({ week: 10, baseline: null, baselineFrom: "2026-11-12T05:00:00Z" });
+    expect(next.current.games.map((g) => g.gameId)).toEqual(["401873099"]);
+    expect(FpiFileSchema.parse(JSON.parse(await readFile(join(dir, "fpi/2026-2-10.json"), "utf8"))).games).toHaveLength(1);
+
+    urls.length = 0;
+    expect(await watch(["--season", "2026", "--type", "2", "--week", "9"], watchDeps("2026-11-04T12:10:00Z", any))).toBe(0);
+    expect(urls).toHaveLength(1);
+  });
+
+  it("--current nur die aktuelle, --next nur die nächste Woche, Kombinationen abgelehnt", async () => {
+    const tnf = weekW9.games.find((g) => g.id === "401873037")!;
+    const nextGame = { ...tnf, id: "401873099", week: 10, kickoffUtc: "2026-11-13T01:15:00Z" };
+    await writeFile(join(dir, "weeks/2026-2-10.json"), JSON.stringify({ ...weekW9, week: 10, games: [nextGame] }));
+    const urls: string[] = [];
+    const any: FetchFn = async (url) => {
+      urls.push(url);
+      return new Response(summaryText, { status: 200 });
+    };
+    expect(await watch(["--current"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(0);
+    expect(urls.map((u) => u.split("event=")[1])).toEqual(["401873037"]);
+    urls.length = 0;
+    expect(await watch(["--next"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(0);
+    expect(urls.map((u) => u.split("event=")[1])).toEqual(["401873099"]);
+    urls.length = 0;
+    expect(await watch(["--current", "--next"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(1);
+    expect(await watch(["--next", "--week", "9"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(1);
+    expect(urls).toEqual([]);
+  });
+
+  it("kaputte nächste Woche lässt die aktuelle laufen, Exit 1", async () => {
+    await writeFile(join(dir, "weeks/2026-2-10.json"), "{kaputt");
+    expect(await watch([], watchDeps("2026-11-04T12:00:00Z", fetchSummary()))).toBe(1);
+    expect((await readInj()).current.games).toHaveLength(1);
+    expect(errors.some((e) => e.includes("weeks/2026-2-10.json"))).toBe(true);
   });
 
   it("kaputte Ausfall Datei wird nicht überschrieben", async () => {

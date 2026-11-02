@@ -6,9 +6,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { join, resolve } from "node:path";
-import { StandingsFileSchema } from "../src/core/tips-schema";
-import { StandingsHistorySchema, REVIEW_SCHEMA_VERSION, type StandingsHistory } from "../src/core/review-schema";
-import { applyReport, authorizedReport, issueInfo, parseReportBody } from "../src/core/standings";
+import { StandingsHistorySchema, STANDINGS_HISTORY_SCHEMA_VERSION, type StandingsHistory } from "../src/core/review-schema";
+import { StandingsFileSchema, applyReport, authorizedReport, issueInfo, parseReportBody } from "../src/core/standings";
 import { DATA_DIR, type MainDeps } from "./fetch-schedule";
 import { toJson, writeFiles } from "./schedule-lib";
 import { describeError, readJsonStrict } from "./watch";
@@ -79,7 +78,7 @@ export async function main(argv: readonly string[], deps: StandingsDeps = {}): P
   try {
     standings = StandingsFileSchema.parse(await readJsonStrict(join(dataDir, STANDINGS_PATH)));
     const raw = await readJsonStrict(join(dataDir, HISTORY_PATH));
-    history = raw === undefined ? { schemaVersion: REVIEW_SCHEMA_VERSION, entries: [] } : StandingsHistorySchema.parse(raw);
+    history = raw === undefined ? { schemaVersion: STANDINGS_HISTORY_SCHEMA_VERSION, entries: [] } : StandingsHistorySchema.parse(raw);
   } catch (err) {
     return reject([`Bestehende Ranglisten Daten ungültig: ${describeError(err)}`]);
   }

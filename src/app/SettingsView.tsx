@@ -12,6 +12,7 @@ import {
   type PushStatus,
 } from "./push";
 import { PageHeader } from "./ui";
+import { TIME_ZONE_TEXT } from "./wording";
 
 const SECRETS_URL = "https://github.com/Laiken96/AMF-Helper/settings/secrets/actions";
 
@@ -89,9 +90,10 @@ function PushPanel({ status, refresh }: { status: PushStatus | null; refresh: ()
 
   if (needsHomeScreen()) {
     return (
-      <p className="push-hint">
-        Push ist erst möglich, wenn die App vom Home Bildschirm aus geöffnet wird.
-      </p>
+      <>
+        <p className="push-hint">Am iPhone geht Push nur aus der App auf dem Home Bildschirm:</p>
+        <HomeScreenGuide />
+      </>
     );
   }
   if (status && !status.supported) {
@@ -101,6 +103,7 @@ function PushPanel({ status, refresh }: { status: PushStatus | null; refresh: ()
   const subscribed = Boolean(status?.subscription);
   return (
     <div className="push-panel">
+      {status?.permission === "denied" && <DeniedHint />}
       <div className="button-row">
         {!subscribed && (
           <button type="button" className="btn btn-primary" disabled={busy} onClick={() => subscribe(false)}>
@@ -124,8 +127,18 @@ function PushPanel({ status, refresh }: { status: PushStatus | null; refresh: ()
           {feedback.text}
         </p>
       )}
-      {status?.subscription && <SubscriptionBox json={JSON.stringify(status.subscription)} />}
     </div>
+  );
+}
+
+/** Erlaubnis verweigert: auf dem iPhone lässt sie sich nur in den Einstellungen des Geräts wieder erteilen. */
+function DeniedHint() {
+  return (
+    <p className="feedback feedback-error" role="status">
+      {isIos()
+        ? "Mitteilungen sind blockiert. Auf dem iPhone: Einstellungen öffnen, Mitteilungen, NFL Tipps wählen und Mitteilungen erlauben. Danach hier Push erlauben."
+        : "Mitteilungen sind blockiert. Bitte in den Einstellungen des Browsers für diese Seite erlauben."}
+    </p>
   );
 }
 
@@ -178,10 +191,38 @@ function HomeScreenGuide() {
   return (
     <ol className="steps">
       <li>Diese Seite in Safari öffnen.</li>
-      <li>Unten auf Teilen tippen.</li>
-      <li>Zum Home Bildschirm wählen und hinzufügen.</li>
-      <li>Die App NFL Tipps vom Home Bildschirm aus öffnen und Push dort erlauben.</li>
+      <li>
+        Unten auf <strong>Teilen</strong> tippen (Quadrat mit Pfeil nach oben).
+      </li>
+      <li>
+        <strong>Zum Home Bildschirm</strong> wählen und hinzufügen.
+      </li>
+      <li>
+        Die App <strong>NFL Tipps vom Home Bildschirm</strong> aus öffnen, nicht aus Safari, und Push dort erlauben.
+      </li>
     </ol>
+  );
+}
+
+/** So liest du die Tipps: Kurzanleitung für Onboarding und Einstellungen. */
+function ReadingGuide() {
+  return (
+    <ul className="legend">
+      <li>
+        <strong>Prozent</strong> ist die Siegwahrscheinlichkeit des getippten Teams, berechnet aus den Wettquoten.
+      </li>
+      <li>
+        <span className="legend-tag legend-klar">klar</span> ab 75 %, <span className="legend-tag legend-favorit">Favorit</span> ab
+        60 %, <span className="legend-tag legend-unklar">unklar</span> darunter, also fast ein Münzwurf.
+      </li>
+      <li>
+        <strong>Abweichung</strong> heisst bewusst auf den Aussenseiter getippt, um Punkte auf Platz 1 gutzumachen.
+      </li>
+      <li>
+        <strong>Tiebreaker</strong>: für das Thursday Night Game (TNF) und das Monday Night Game (MNF) zusätzlich das
+        Resultat tippen, Auswärts : Heim.
+      </li>
+    </ul>
   );
 }
 
@@ -194,18 +235,43 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
       <PageHeader title="Einstellungen" meta="Erinnerungen per Push vor jedem Tippschluss" />
 
       <section className="slot">
-        <h2>Status</h2>
+        <h2>Push</h2>
         <dl className="status-list" data-testid="push-status">
           <div>
             <dt>Erlaubnis</dt>
             <dd>{status ? PERMISSION_TEXT[status.permission] : "wird geprüft"}</dd>
           </div>
           <div>
-            <dt>Anmeldung</dt>
-            <dd>{status ? (status.subscription ? "vorhanden" : "keine") : "wird geprüft"}</dd>
+            <dt>Dieses Gerät angemeldet</dt>
+            <dd>{status ? (status.subscription ? "ja" : "nein") : "wird geprüft"}</dd>
           </div>
+        </dl>
+        <PushPanel status={status} refresh={refresh} />
+      </section>
+
+      <section className="slot">
+        <h2>Anzeige</h2>
+        <p className="push-hint settings-line">{TIME_ZONE_TEXT} (Europe/Zurich, Sommer und Winterzeit automatisch).</p>
+        <div className="button-row">
+          <button type="button" className="btn" onClick={() => void revalidateData()}>
+            Daten aktualisieren
+          </button>
+          <button type="button" className="btn" onClick={onShowOnboarding}>
+            Einführung erneut anzeigen
+          </button>
+        </div>
+      </section>
+
+      <section className="slot">
+        <h2>So liest du die Tipps</h2>
+        <ReadingGuide />
+      </section>
+
+      <details className="slot tech-details">
+        <summary>Technik</summary>
+        <dl className="status-list">
           <div>
-            <dt>Service Worker</dt>
+            <dt>Hintergrunddienst (Service Worker)</dt>
             <dd>{status ? (status.serviceWorkerActive ? "aktiv" : "nicht aktiv") : "wird geprüft"}</dd>
           </div>
           <div>
@@ -213,33 +279,8 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
             <dd>{appMode}</dd>
           </div>
         </dl>
-      </section>
-
-      {needsHomeScreen() && (
-        <section className="slot">
-          <h2>iPhone</h2>
-          <HomeScreenGuide />
-        </section>
-      )}
-
-      <section className="slot">
-        <h2>Push</h2>
-        <PushPanel status={status} refresh={refresh} />
-      </section>
-
-      <section className="slot">
-        <h2>Daten</h2>
-        <button type="button" className="btn" onClick={() => void revalidateData()}>
-          Aktualisieren
-        </button>
-      </section>
-
-      <section className="slot">
-        <h2>Einführung</h2>
-        <button type="button" className="btn" onClick={onShowOnboarding}>
-          Einführung erneut anzeigen
-        </button>
-      </section>
+        {status?.subscription && <SubscriptionBox json={JSON.stringify(status.subscription)} />}
+      </details>
     </>
   );
 }
@@ -247,6 +288,8 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
 export function Onboarding({ onClose }: { onClose: () => void }) {
   const { status, refresh } = usePushStatus();
   const closeRef = useRef<HTMLButtonElement>(null);
+  const [busy, setBusy] = useState(false);
+  const [feedback, setFeedback] = useState<Feedback>(null);
 
   useEffect(() => {
     closeRef.current?.focus();
@@ -257,51 +300,80 @@ export function Onboarding({ onClose }: { onClose: () => void }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
-  const ios = isIos();
+  const homeScreen = needsHomeScreen();
+  const unsupported = !homeScreen && status !== null && !status.supported;
+  const subscribed = Boolean(status?.subscription);
+  const allow = async () => {
+    setBusy(true);
+    setFeedback(null);
+    try {
+      await enablePush();
+      setFeedback({ kind: "ok", text: "Push ist eingerichtet. Eine Testnachricht wurde angezeigt." });
+    } catch (err) {
+      setFeedback({ kind: "error", text: messageOf(err) });
+    } finally {
+      setBusy(false);
+      await refresh().catch(() => undefined);
+    }
+  };
+  // Primäraktion: Push erlauben, solange das möglich und noch nicht erledigt ist, sonst schliessen
+  const canAllow = !homeScreen && !unsupported && !subscribed && status?.permission !== "denied";
+
   return (
     <div className="overlay" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
       <div className="overlay-card">
         <div className="overlay-head">
           <h1 id="onboarding-title">Willkommen bei NFL Tipps</h1>
-          <button type="button" ref={closeRef} className="btn btn-close" onClick={onClose} aria-label="Einführung schliessen">
-            Schliessen
+          <button type="button" ref={closeRef} className="icon-close" onClick={onClose} aria-label="Einführung schliessen">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
           </button>
         </div>
 
         <section>
-          <h2>1. Erinnerungen per Push</h2>
+          <h2>1. So liest du die Tipps</h2>
+          <ReadingGuide />
+        </section>
+
+        <section>
+          <h2>2. Erinnerungen per Push</h2>
           <p>
             Vor jedem Tippschluss kommt eine Mitteilung mit den Spielen, Ausfällen und Tippänderungen. Am Donnerstag
             kommt zusätzlich die fertige Tippliste der Woche.
           </p>
+          {homeScreen && (
+            <>
+              <p className="onboarding-ios">Am iPhone geht Push nur aus der App auf dem Home Bildschirm:</p>
+              <HomeScreenGuide />
+            </>
+          )}
+          {unsupported && <p className="push-hint">Dieser Browser unterstützt kein Web Push.</p>}
+          {status?.permission === "denied" && <DeniedHint />}
+          {feedback && (
+            <p className={feedback.kind === "ok" ? "feedback feedback-ok" : "feedback feedback-error"} role={feedback.kind === "error" ? "alert" : "status"}>
+              {feedback.text}
+            </p>
+          )}
         </section>
 
-        {ios && (
-          <section>
-            <h2>2. iPhone</h2>
-            {needsHomeScreen() ? (
-              <>
-                <p>Am iPhone funktioniert Push nur, wenn die App auf dem Home Bildschirm liegt.</p>
-                <HomeScreenGuide />
-              </>
-            ) : (
-              <p>Die App läuft vom Home Bildschirm aus. Push kann jetzt erlaubt werden.</p>
-            )}
-          </section>
-        )}
-
-        <section>
-          <h2>{ios ? "3." : "2."} Push erlauben</h2>
-          <p>Nach der Erlaubnis meldet sich das Gerät an und zeigt eine Testnachricht.</p>
-          <PushPanel status={status} refresh={refresh} />
-        </section>
-
-        <p className="push-hint">Die Einführung ist jederzeit unter Einstellungen erneut abrufbar.</p>
-        <div className="button-row">
-          <button type="button" className="btn btn-primary" onClick={onClose}>
-            Fertig
-          </button>
+        <div className="onboarding-actions">
+          {canAllow ? (
+            <button type="button" className="btn btn-primary" disabled={busy} aria-busy={busy || undefined} onClick={() => void allow()}>
+              {busy ? "Bitte warten …" : "Push erlauben"}
+            </button>
+          ) : (
+            <button type="button" className="btn btn-primary" onClick={onClose}>
+              {subscribed ? "Fertig" : "Verstanden"}
+            </button>
+          )}
+          {canAllow && (
+            <button type="button" className="btn-text" onClick={onClose}>
+              Später
+            </button>
+          )}
         </div>
+        <p className="push-hint onboarding-foot">Die Einführung ist jederzeit unter Einstellungen erneut abrufbar.</p>
       </div>
     </div>
   );

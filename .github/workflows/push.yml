@@ -21,15 +21,15 @@ permissions:
 
 concurrency:
   # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
-  # (hier nur data/push-log.json, data/injuries und data/opinions), Konflikte beim Push löst git pull --rebase.
+  # (hier nur data/push-log.json, data/injuries, data/fpi und data/opinions), Konflikte beim Push löst git pull --rebase.
   group: push-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   push:
     runs-on: ubuntu-latest
-    # 10 Minuten für Wächter und Push wie bisher, dazu höchstens 6 für die KI Zweitmeinung am Schluss.
-    timeout-minutes: 16
+    # Wächter aktuelle Woche höchstens 5, Push, Wächter nächste Woche höchstens 5, KI Zweitmeinung höchstens 6.
+    timeout-minutes: 22
     steps:
       - uses: actions/checkout@v4
 
@@ -48,11 +48,15 @@ jobs:
         run: npm run job:push -- --test
 
       # Der Wächter darf scheitern, die Erinnerungen kommen trotzdem mit dem letzten Stand. Der Lauf wird am Ende rot.
+      # Vor dem Versand nur die aktuelle Woche, deren Ausfälle in die Meldungen gehen. Die nächste Woche (D050)
+      # folgt nach dem Versand, damit langsame ESPN Abrufe keine Erinnerung verzögern. Beide schreiben den ESPN FPI
+      # nach data/fpi. Das Zeitlimit hält den Versand auch bei hängenden Abrufen pünktlich.
       - name: Ausfälle prüfen
         id: watch
         if: inputs.test != 'true'
+        timeout-minutes: 5
         continue-on-error: true
-        run: npm run job:watch
+        run: npm run job:watch -- --current
 
       - name: Meldungen senden
         id: push
@@ -63,13 +67,21 @@ jobs:
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
         run: npm run job:push
 
-      # Nur push-log und Ausfall Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben.
+      - name: Ausfälle nächste Woche prüfen
+        id: watch_next
+        if: inputs.test != 'true'
+        timeout-minutes: 5
+        continue-on-error: true
+        run: npm run job:watch -- --next
+
+      # Nur push-log, Ausfall und FPI Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben,
+      # der FPI ist Schattenvergleich und wartet auf den nächsten Neubau.
       - name: Änderungen committen
         id: commit
         if: inputs.test != 'true'
         run: |
-          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries)" ]; then
-            echo "Keine Änderungen an push-log oder Ausfällen"
+          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries data/fpi)" ]; then
+            echo "Keine Änderungen an push-log, Ausfällen oder FPI"
             exit 0
           fi
           injuries_changed=false
@@ -79,8 +91,9 @@ jobs:
           paths=()
           [ -e data/push-log.json ] && paths+=(data/push-log.json)
           [ -d data/injuries ] && paths+=(data/injuries)
+          [ -d data/fpi ] && paths+=(data/fpi)
           git add -A -- "${paths[@]}"
-          git commit -m "data: Push Log und Ausfälle aktualisiert"
+          git commit -m "data: Push Log, Ausfälle und FPI aktualisiert"
           # Bis zu 3 Versuche, falls data.yml gleichzeitig pusht. Ein misslungener Rebase wird abgebrochen und wiederholt.
           for i in 1 2 3; do
             if git pull --rebase && git push; then
@@ -139,7 +152,7 @@ jobs:
           exit 1
 
       - name: Fehler melden
-        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
+        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.watch_next.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
         run: |
-          echo "Wächter: ${{ steps.watch.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
+          echo "Wächter: ${{ steps.watch.outcome }}, Wächter nächste Woche: ${{ steps.watch_next.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
           exit 1

@@ -13,6 +13,7 @@ import {
   dueMessages,
   fitParts,
   inSlotWindow,
+  lineMoveItem,
   reviewReadyMessage,
   shortName,
   slotMessages,
@@ -226,5 +227,49 @@ describe("Bilanz bereit", () => {
     const w7 = { ...base, week: 7 };
     const due = dueMessages({ games: [], tips: null, injuries: null, teams, now, log: EMPTY_PUSH_LOG, reviews: [w9, base, w7] });
     expect(due.map((m) => m.key)).toEqual(["review-ready:2026-2-8"]);
+  });
+});
+
+describe("Linienbewegung (D050)", () => {
+  const tnfGame = games.find((g) => g.id === "401873037")!;
+  const tnfTip = tipsW9.tips.find((t) => t.gameId === "401873037")!;
+  const odds = (spreadHome: number) => ({ ...tnfTip.odds!, spreadHome });
+  const withLine = (first: number, now: number, changed = false): TipsFile => ({
+    ...tipsW9,
+    tips: tipsW9.tips.map((t) =>
+      t.gameId === "401873037"
+        ? { ...t, firstOdds: odds(first), odds: odds(now), ...(changed ? { firstPickTeamId: "30", pickTeamId: "33", changedSinceFirst: true } : {}) }
+        : t,
+    ),
+  });
+
+  it("Bewegung ab 2.5 Punkten aus Sicht des Favoriten", () => {
+    // spreadHome +3 heisst JAX (Gast) -3
+    expect(lineMoveItem({ firstOdds: odds(3), odds: odds(8.5) }, tnfGame, teams)).toBe("Linie JAX -3 > -8.5");
+    expect(lineMoveItem({ firstOdds: odds(-3), odds: odds(-0.5) }, tnfGame, teams)).toBe("Linie BAL -3 > -0.5");
+  });
+
+  it("unter 2.5 Punkten ohne Favoritenwechsel kein Zusatz", () => {
+    expect(lineMoveItem({ firstOdds: odds(3), odds: odds(5) }, tnfGame, teams)).toBeNull();
+    expect(lineMoveItem({ firstOdds: odds(-1), odds: odds(0) }, tnfGame, teams)).toBeNull();
+  });
+
+  it("Favoritenwechsel auch bei kleiner Bewegung", () => {
+    expect(lineMoveItem({ firstOdds: odds(-1), odds: odds(1) }, tnfGame, teams)).toBe("Linie JAX +1 > -1");
+  });
+
+  it("ohne erste Quote (Version 1) oder ohne Quote kein Zusatz", () => {
+    expect(lineMoveItem({ odds: odds(8.5) }, tnfGame, teams)).toBeNull();
+    expect(lineMoveItem({ firstOdds: odds(3), odds: null }, tnfGame, teams)).toBeNull();
+  });
+
+  it("Slot Meldung mit Tippänderung, Linie und Ausfall", () => {
+    const [m] = slotMessages({ games, tips: withLine(-3, 1, true), injuries: injuries([qToO]), teams, now: minus(TNF, 30) });
+    expect(m?.payload.body).toBe("JAX@BAL. Tipp JAX>BAL, Linie JAX +3 > -1, BAL L.Jackson QB Q>O");
+  });
+
+  it("Slot Meldung nur mit Linie statt Keine Änderung", () => {
+    const [m] = slotMessages({ games, tips: withLine(3, 8.5), injuries: injuries([]), teams, now: minus(TNF, 30) });
+    expect(m?.payload.body).toBe("JAX@BAL. Linie JAX -3 > -8.5");
   });
 });

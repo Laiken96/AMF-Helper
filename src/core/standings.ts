@@ -1,8 +1,21 @@
 // Ranglisten Meldung per Issue Formular (D032). Reine Logik ohne Netz, Schreiber ist jobs/standings.ts.
 // Ein Issue Formular schreibt pro Feld "### Label" und danach den Wert. Leere Felder heissen "_No response_".
 import { z } from "zod";
-import { StandingsFileSchema, type StandingsFile } from "./tips-schema";
-import { REVIEW_SCHEMA_VERSION, StandingsHistorySchema, type StandingsHistory } from "./review-schema";
+import { STANDINGS_SCHEMA_VERSION, StandingsFileSchema, type StandingsFile } from "./tips-schema";
+import { STANDINGS_HISTORY_SCHEMA_VERSION, StandingsHistorySchema, type StandingsHistory } from "./review-schema";
+import { LAST_POSTSEASON_WEEK, PRO_BOWL_WEEK, REGULAR_WEEKS, isTipWeek, previousTipWeek, weekOrder } from "./season-calendar";
+
+// Version und Schema von data/standings.json liegen nur in tips-schema.ts (Version 2 mit season, Version 1
+// bleibt lesbar). Hier nur weitergereicht, damit Jobs und Tests sie wie bisher aus standings.ts holen.
+export { STANDINGS_SCHEMA_VERSION, StandingsFileSchema, type StandingsFile };
+
+/**
+ * Gilt die Rangliste für diese Saison? Ohne season (Version 1, Stand 2026) gilt sie. Aus einer anderen Saison
+ * gilt sie nicht, dann ist der Rückstand für die Abweichungen 0, bis die erste Meldung der neuen Saison kommt.
+ */
+export function standingsAppliesTo(standings: { season?: number }, season: number): boolean {
+  return standings.season === undefined || standings.season === season;
+}
 
 export const STANDINGS_LABEL = "rangliste";
 export const OWNER_ASSOCIATION = "OWNER";
@@ -76,7 +89,16 @@ export interface StandingsReport {
 
 export type ParseReportResult = { ok: true; report: StandingsReport } | { ok: false; errors: string[] };
 
-/** Liest Saison, Woche und die fünf Punktestände aus dem Body. Sammelt alle Fehler. */
+/** Verständlicher Grund, warum eine gemeldete Woche keine Tippwoche ist (Saisonkalender, D051). */
+function tipWeekError(seasonType: number, week: number): string {
+  if (seasonType === 3 && week === PRO_BOWL_WEEK) {
+    return `Postseason Woche ${week} ist der Pro Bowl ohne Tipps. Der Super Bowl ist Postseason Woche ${LAST_POSTSEASON_WEEK}`;
+  }
+  if (seasonType === 3) return `Postseason Woche ${week} gibt es nicht, Tippwochen sind 1 bis 3 und ${LAST_POSTSEASON_WEEK}`;
+  return `Regular Season Woche ${week} gibt es nicht, Tippwochen sind 1 bis ${REGULAR_WEEKS}. Playoffs als Postseason melden`;
+}
+
+/** Liest Saison, Woche und die fünf Punktestände aus dem Body. Nur echte Tippwochen. Sammelt alle Fehler. */
 export function parseReportBody(body: string): ParseReportResult {
   const sections = parseFormSections(body);
   const errors: string[] = [];
@@ -98,7 +120,7 @@ export function parseReportBody(body: string): ParseReportResult {
     if (p.points !== null && p.points > MAX_POINTS) errors.push(`${p.id}: ${p.points} Punkte ist mehr als ${MAX_POINTS}, Tippfehler?`);
   }
   if (season !== null && (season < 2000 || season > 2100)) errors.push(`Saison ${season} ist unplausibel`);
-  if (week !== null && (week < 1 || week > 23)) errors.push(`Woche ${week} muss zwischen 1 und 23 liegen`);
+  if (week !== null && seasonType !== null && !isTipWeek({ seasonType, week })) errors.push(tipWeekError(seasonType, week));
   if (errors.length > 0 || season === null || week === null || seasonType === null) return { ok: false, errors };
   return { ok: true, report: { season, seasonType, week, players: players.map((p) => ({ id: p.id, points: p.points! })) } };
 }
@@ -157,8 +179,7 @@ export type ApplyResult =
 
 type Entry = StandingsHistory["entries"][number];
 
-/** Reihenfolge innerhalb einer Saison: erst Saisontyp, dann Woche. */
-const order = (e: { seasonType: number; week: number }) => e.seasonType * 100 + e.week;
+const order = weekOrder;
 const weekName = (e: { seasonType: number; week: number }) => `${e.seasonType === 3 ? "Postseason " : ""}Week ${e.week}`;
 
 function samePlayers(a: Entry["players"], b: Entry["players"]): boolean {
@@ -217,14 +238,15 @@ export function applyReport(
   const entry: Entry = { season: report.season, seasonType: report.seasonType, week: report.week, reportedAt: now, players };
   const kept = history.entries.filter((e) => !(e.season === report.season && order(e) === order(report)));
   const nextStandings = StandingsFileSchema.parse({
-    schemaVersion: standings.schemaVersion,
+    schemaVersion: STANDINGS_SCHEMA_VERSION,
+    season: report.season,
     asOfWeek: report.week,
     updatedAt: now,
     me: standings.me,
     players,
   });
   const nextHistory = StandingsHistorySchema.parse({
-    schemaVersion: REVIEW_SCHEMA_VERSION,
+    schemaVersion: STANDINGS_HISTORY_SCHEMA_VERSION,
     entries: [...kept, entry].sort((a, b) => a.season - b.season || order(a) - order(b)),
   });
   return { ok: true, unchanged: false, replaced, standings: nextStandings, history: nextHistory };
@@ -237,16 +259,44 @@ export interface GroupWeekRow {
 }
 
 /**
- * Wochenpunkte der Gruppe: Stand der Woche minus Stand von genau week minus 1 im selben Saisontyp.
- * Week 1 der Regular Season zählt ab 0. Sonst ohne Vorwoche null. Ohne Eintrag der Woche null.
+ * Eintrag, gegen den die Wochenpunkte einer Woche gerechnet werden: der letzte Eintrag derselben Saison mit
+ * kleinerer Ordnung (seasonType mal 100 plus Woche), also auch Regular Week 18 vor Postseason Week 1.
+ * Er zählt nur, wenn keine Tippwoche dazwischen fehlt, sonst wären es Punkte mehrerer Wochen.
+ * "start" bei Regular Week 1 ohne früheren Eintrag (Start bei 0), null ohne passende Vorwoche.
+ */
+export function baseEntry(history: StandingsHistory, season: number, seasonType: number, week: number): Entry | "start" | null {
+  const target = { season, seasonType, week };
+  const prev = history.entries
+    .filter((e) => e.season === season && order(e) < order(target))
+    .sort((a, b) => order(a) - order(b))
+    .at(-1);
+  const expected = previousTipWeek(target);
+  if (expected === null) return seasonType === 2 && week === 1 ? "start" : null;
+  if (!prev || order(prev) < order(expected)) return null;
+  return prev;
+}
+
+/**
+ * Wochenpunkte der Gruppe: Stand der Woche minus Stand der Vorwoche nach baseEntry.
+ * Week 1 der Regular Season zählt ab 0. Ohne Vorwoche null. Ohne Eintrag der Woche null.
  */
 export function groupWeekRows(history: StandingsHistory, season: number, seasonType: number, week: number): GroupWeekRow[] | null {
-  const match = (e: Entry, w: number) => e.season === season && e.seasonType === seasonType && e.week === w;
-  const entry = history.entries.find((e) => match(e, week));
+  const entry = history.entries.find((e) => e.season === season && e.seasonType === seasonType && e.week === week);
   if (!entry) return null;
-  const prev = history.entries.find((e) => match(e, week - 1));
+  const base = baseEntry(history, season, seasonType, week);
   return entry.players.map((p) => {
-    const before = week === 1 && seasonType === 2 ? 0 : prev?.players.find((q) => q.id === p.id)?.points;
+    const before = base === "start" ? 0 : base?.players.find((q) => q.id === p.id)?.points;
     return { id: p.id, total: p.points, week: before === undefined ? null : p.points - before };
   });
+}
+
+/** Gemeldete Wochenpunkte eines Kürzels, null wenn Woche oder Vorwoche fehlt oder das Kürzel nicht vorkommt. */
+export function reportedWeekPoints(
+  history: StandingsHistory,
+  season: number,
+  seasonType: number,
+  week: number,
+  playerId: string,
+): number | null {
+  return groupWeekRows(history, season, seasonType, week)?.find((r) => r.id === playerId)?.week ?? null;
 }
