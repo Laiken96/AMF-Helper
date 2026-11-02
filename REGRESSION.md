@@ -218,19 +218,19 @@ R31 Testnachricht am Handy
     Vorbedingung: R27 erledigt, App vom Home Bildschirm angemeldet.
     Schritt: In Einstellungen "Testnachricht" tippen, App schliessen, Sperrbildschirm ansehen.
     Erwartet: Mitteilung "NFL Tipps" mit Testtext erscheint. Tippen auf die Mitteilung öffnet die App in Einstellungen.
-    Status: offen Nutzer
+    Status: Push Empfang am iPhone bestanden 2026-11-02 über R33. Lokale Testnachricht aus den Einstellungen offen Nutzer
 
 R32 Secret PUSH_SUBSCRIPTION einrichten
     Vorbedingung: Anmeldung aus R27 kopiert, Secret VAPID_PRIVATE_KEY bereits im Repo.
     Schritt: Link "Direkt zu den Secrets auf GitHub" öffnen, New repository secret, Name PUSH_SUBSCRIPTION, Wert einfügen, speichern.
     Erwartet: Unter Actions secrets stehen VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION. Kein Schlüssel oder Anmelde JSON im Repo oder im Log eines Laufs. Nach "Neu anmelden" muss das Secret ersetzt werden.
-    Status: offen Nutzer
+    Status: bestanden durch Nutzer 2026-11-02
 
 R33 Testlauf workflow_dispatch test true
     Vorbedingung: R32 erledigt, push.yml auf dem Branch oder auf main.
     Schritt: Workflow "Push und Ausfall Wächter" manuell mit test true starten.
     Erwartet: Nur der Schritt "Testnachricht senden" läuft, Ausgabe "Testnachricht gesendet.", Lauf grün, am Handy kommt "Test aus GitHub Actions". Kein Commit, push-log.json unverändert. Mit ungültigem Secret rot mit "PUSH_SUBSCRIPTION ist kein gültiges Anmelde JSON" ohne Inhalt des Secrets.
-    Status: offen GitHub
+    Status: bestanden auf GitHub 2026-11-02 (Lauf 41384349660, nur Testschritt, Nachricht am iPhone angekommen)
 
 R34 Tippliste bereit genau einmal
     Vorbedingung: Week 9 Tippdatei mit Quoten, leeres push-log.
