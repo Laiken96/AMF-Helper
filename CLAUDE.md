@@ -14,11 +14,15 @@ Siehe PROJEKT.md. Entscheide siehe DECISIONS.md. Nicht duplizieren.
 
 ## Stack
 
-TODO
+Next.js (TypeScript, App Router) auf Vercel, Supabase Postgres (Frankfurt), Python Jobs (nflreadpy) in GitHub Actions. Details D001 bis D006 in DECISIONS.md, Sprintplan in PLAN.md.
 
 ## Projektstruktur
 
-TODO
+- app/ Seiten und API Routes
+- lib/espn/ Adapter mit zod Validierung
+- lib/cache.ts Server Cache mit Single Flight
+- jobs/ Python Batch Jobs (rss, elo, odds)
+- supabase/migrations/ versionierte Migrationen
 
 ## Aktueller Stand
 
@@ -26,4 +30,4 @@ Kickoff. Noch kein Code.
 
 ## Nächster Schritt
 
-TODO
+Gate 1: Nutzer bestätigt PROJEKT.md. Danach Sprint 1 laut PLAN.md.
