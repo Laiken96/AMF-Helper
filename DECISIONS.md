@@ -230,3 +230,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ersetzt D011, D014 und D018 im Umfang. Der Nutzer meldet pro Woche nur die 5 Punktestände der Gruppenrangliste über ein GitHub Issue Formular. Ein Workflow übernimmt sie nach data/standings.json und data/standings-history.json, nur wenn der Autor der Repo Owner ist. Wochenpunkte der Gruppe sind die Differenz zur Vorwoche. Eigene Bilanz, Tiebreaker Abweichung und Wirkung der Abweichungen rechnet die App aus App Tipps und Resultaten. Annahme: der Nutzer trägt die App Tipps ein. Push "Bilanz bereit", sobald alle Spiele final sind
 - Begründung: 5 Zahlen pro Woche statt 60 Einzeltipps. Mit D028 (Ziel Platz 1) braucht die Abweichungslogik kein Gruppenverhalten pro Spiel
 - Verworfen: Einzeltipps der Gruppe erfassen, Screenshot Auswertung (bräuchte API Key)
+
+## D033 Bilanz Meldung und Ranglisten Workflow
+
+- Datum: 2026-11-02
+- Entscheid: Push "Bilanz bereit" nur für die neueste komplette Woche, geprüft werden die zwei neuesten Bilanzen. Der Ranglisten Workflow hat eine eigene Concurrency Gruppe mit Retry beim Push
+- Begründung: Ein leeres push-log soll keine Flut alter Meldungen auslösen. In der Gruppe von data.yml könnte ein Cron Lauf eine wartende Ranglistenmeldung verdrängen
+- Verworfen: Meldung für jede fertige Woche ohne Begrenzung
