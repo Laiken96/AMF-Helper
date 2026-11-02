@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 8,
-  "updatedAt": "2026-11-02T05:30:32Z",
+  "updatedAt": "2026-11-02T19:47:23Z",
   "complete": false,
   "games": [
     {
@@ -160,5 +160,16 @@
       "actualAway": null,
       "diff": null
     }
-  ]
+  ],
+  "opinionCompare": {
+    "opinions": 1,
+    "scored": 0,
+    "marketHits": 0,
+    "aiHits": 0,
+    "marketHitRate": null,
+    "aiHitRate": null,
+    "marketBrier": null,
+    "aiBrier": null,
+    "disagreements": []
+  }
 }
