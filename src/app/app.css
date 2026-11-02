@@ -2050,3 +2050,22 @@ a.step-today:hover {
   background: var(--accent);
   color: var(--bg);
 }
+
+/* Geringe Höhe (iPhone quer): Werkzeugkapsel ausblenden, Aktualisieren und Push sind in den Einstellungen.
+   Rückfall: Leiste scrollt, statt Ziele abzuschneiden. */
+[data-layout="side"] .rail,
+[data-layout="wide"] .rail {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+@media (max-height: 519px) {
+  [data-layout="wide"] .tool-capsule {
+    display: none;
+  }
+
+  [data-inset="duo"][data-layout="side"] .rail,
+  [data-inset="duo"][data-layout="wide"] .rail {
+    padding-top: calc(var(--sat) + 12px);
+  }
+}

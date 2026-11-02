@@ -15,7 +15,15 @@ export function routeFromHash(hash: string = window.location.hash): Route {
   const [rawView = "", ...rest] = hash.replace(/^#/, "").split("/");
   const name = rawView === "spielplan" ? "spiele" : rawView;
   const view = (VIEWS as readonly string[]).includes(name) ? (name as View) : "tipps";
-  const arg = rest.length > 0 ? decodeURIComponent(rest.join("/")) : null;
+  let arg: string | null = null;
+  if (rest.length > 0) {
+    try {
+      arg = decodeURIComponent(rest.join("/"));
+    } catch {
+      // Ungültige Kodierung wie %E0: Hash ohne Zusatz behandeln
+      arg = null;
+    }
+  }
   return { view, arg: arg || null };
 }
 
