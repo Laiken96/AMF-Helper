@@ -244,3 +244,38 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ranglisten Meldung für dieselbe Woche ersetzt den letzten Eintrag (Korrektur), identische Meldung ist Erfolg ohne Änderung, Punkte höchstens 300, nur Owner als Autor und Sender. maxDeviations wird pro Woche beim ersten Lauf eingefroren, eine neue Rangliste wirkt ab der nächsten Woche. Abgesagte Spiele und ab Kickoff plus 7 Tage verschobene oder fehlende Spiele zählen in der Bilanz nicht. Ranglistenverlauf mit seasonType. Alle drei Workflows schreiben mit Retry
 - Begründung: unabhängiger Review und QA Sprint 4
 - Verworfen: Korrektur nur durch Bearbeiten der JSON Datei
+
+## D035 Layout nach Bildschirmform, iPhone Duo
+
+- Datum: 2026-11-02
+- Entscheid: Das Redesign richtet sich nach der Form des Viewports per CSS Media Queries, nicht nach dem Gerätemodell. Drei Layouts: schmal hoch (normales iPhone, eine Spalte, Navigation oben oder unten), flach breit (iPhone Duo zugeklappt, rund 678 mal 466 CSS px: Navigation als Seitenleiste links, Spiele zweispaltig, kompakter Kopf), breit hoch (iPhone Duo aufgeklappt, rund 626 mal 890: drei Übersichtskacheln, Spiele zweispaltig, ganze Woche auf einen Blick). Wechsel beim Auf und Zuklappen ohne Neuladen. Entwürfe im Design Canvas. Umsetzung erst nach Abnahme Week 9. Pixelmasse des Duo aus Drittquellen, ungeprüft
+- Begründung: Safari gibt das iPhone Modell nicht preis. Media Queries greifen sofort beim Wechsel des Zustands und decken auch künftige Geräte ab
+- Verworfen: Erkennung über den User Agent
+
+## D036 Stil A und Duo Layouts nach Recherche
+
+- Datum: 2026-11-02
+- Entscheid: Stil A Flutlicht ist gesetzt. Ergänzt D035 mit Werten aus der Recherche (Drittquellen, ungeprüft): Duo zugeklappt 466 mal 678 Punkte hoch mit 84 Punkten reserviert rechts und 34 unten, Navigation als Leiste rechts vor dem reservierten Bereich. Duo aufgeklappt quer rund 951 mal 669 mit Systemleiste rechts (Screenshot des Nutzers) und Falz in der Mitte: Navigationsleiste links, links die scrollende Spielliste, rechts die Übersicht, Teilung 50 zu 50 am Falz, gerade Spaltenzahl. Aufgeklappt hoch rund 669 mal 951: Kacheln oben, Spiele zweispaltig. Breakpoints nach Breite: unter 600 kompakt, 600 bis 839 mittel, ab 840 zwei Bereiche. Safe Area per env(safe-area-inset-*) je Seite einzeln, viewport-fit=cover. Viewport Segments API nur als Zusatz
+- Begründung: Wahl des Nutzers, Screenshot vom Duo, Apple Empfehlung laut Drittquellen (Size Classes statt Gerät, asymmetrische Safe Areas, scrollende Inhalte bleiben stehen, gerade Spaltenzahl wegen Falz), Android Canonical Layouts als Referenz
+- Verworfen: Stil B, feste Gerätelayouts
+
+## D037 Duo quer nach Referenz im Stil Apple Sports
+
+- Datum: 2026-11-02
+- Entscheid: Ergänzt D036 für das Duo aufgeklappt quer. Links bis zum Falz ein Spielbereich für das Spiel mit dem nächsten Tippschluss in Teamfarben: Countdown, Ring mit Siegwahrscheinlichkeit, Tipp, Resultat Tiebreaker, wichtigster Ausfall, Knopf zur Tippseite. Rechts die scrollende Spielliste mit Umschalter Offen oder Alle und Fortschritt. Navigation als senkrechte Kapsel in der rechten Systemspalte, darüber eine Werkzeugkapsel (Aktualisieren, Benachrichtigungen). Keine Navigation links
+- Begründung: Referenz Screenshot des Nutzers (Sport App auf dem Duo quer), entspricht der Apple Empfehlung, Leisten auf dem Duo rechts zu führen
+- Verworfen: Navigationsleiste links aus D036
+
+## D038 Durchgängiges Design über alle Bildschirmformen
+
+- Datum: 2026-11-02
+- Entscheid: Vier Bausteine in allen Layouts gleich: Spielbereich in Teamfarben mit Ring der Siegwahrscheinlichkeit, Tipp, Tiebreaker Resultat, wichtigstem Ausfall und Knopf zur Tippseite. Umschalter Offen oder Alle als Kapsel. Spielzeile mit Teampunkt, Tipp, Gegner, Prozent und Häkchen. Navigation als Kapsel mit fünf Symbolen (Tipps, Bilanz, Spielplan, Rangliste, Mehr). Anordnung je Form: iPhone und Duo aufgeklappt hoch mit schwebender Kapsel unten (Leisten im Hochformat waagrecht), Duo zugeklappt und aufgeklappt quer mit senkrechter Kapsel in der rechten Spalte. Spielbereich im iPhone und Duo hoch oben, im Duo quer als linke Hälfte, im Duo zu kompakt oben
+- Begründung: Wunsch des Nutzers nach durchgängigem Design zwischen Duo quer und hoch, Referenz Sport App
+- Verworfen: Reiter als Textleiste oben aus Entwurf A
+
+## D039 Design Umsetzung vor der Abnahme
+
+- Datum: 2026-11-02
+- Entscheid: Redesign nach D036 bis D038 wird sofort umgesetzt (Sprint D), nur Darstellung, keine Änderung an Logik, Datenvertrag, Jobs oder Push. Merge vor Donnerstag, damit die Abnahme Week 9 bereits mit dem neuen Design läuft. Schriften Barlow Condensed und Inter selbst gehostet unter public/fonts statt Google Fonts. Navigation mit 4 Zielen (Tipps, Bilanz, Spielplan, Einstellungen). Layoutwahl per Breite plus gemessenem rechtem Safe Area Inset
+- Begründung: Wunsch des Nutzers. Product Owner Hinweis: Politur vor Abnahme ist ein Risiko, begrenzt durch reine Darstellungsänderung und Review und QA vor Merge. Google Fonts würde bei jedem Aufruf die IP an Google senden
+- Verworfen: Umsetzung erst nach Dienstag, Ranglisten Reiter ohne eigene Seite

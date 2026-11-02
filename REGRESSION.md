@@ -375,3 +375,99 @@ R56 Rangliste per Formular am Handy melden
     Schritt: Am Handy in der Bilanz auf "Rangliste für Week 9 melden" tippen, Formular mit den 5 Gesamtpunkten absenden. Danach ein Issue mit absichtlich kleinerem Wert absenden und bearbeiten.
     Erwartet: Workflow läuft, committet "data: Rangliste aus Issue #N", kommentiert "übernommen", schliesst das Issue, startet Pages. Nach dem Build zeigt die Bilanz Gruppe Week 9 mit Wochenpunkten. Das fehlerhafte Issue bleibt offen mit Grund im Kommentar, nach Korrektur per Bearbeiten wird es übernommen. Am Dienstag kommt genau einmal "Bilanz W9 bereit".
     Status: offen Nutzer
+
+---
+
+## Sprint D Redesign Stil A
+
+Lokale Prüfungen in einer Kopie des Repos mit Build `BASE_PATH=/AMF-Helper/`, vite preview und Playwright (chromium, Browser Zeitzone America/New_York, Service Worker blockiert). Week 9 per `npm run job:schedule` und `npm run job:tips` mit `--season 2026 --type 2 --week 9` in der Kopie geholt, dist/data/current.json auf Week 9 umgebogen. Jeder Schritt lief bei 390x844 (compact), 466x678 mit `?inset=84` (side), 669x951 (medium) und 951x669 (wide). Zeit simuliert mit page.clock oder einem Date Override per addInitScript. Screenshots unter scratchpad/qaD-shots.
+
+R57 Duo zugeklappt am echten Gerät
+    Vorbedingung: Sprint D auf main, Pages aktuell, iPhone Duo zugeklappt, App vom Home Bildschirm.
+    Schritt: Tipps, Bilanz, Spielplan und Einstellungen öffnen, Liste ganz nach unten scrollen.
+    Erwartet: Layout side mit senkrechter Navigation rechts vor dem reservierten Bereich, nichts liegt unter dem Systembereich rechts oder unten, kein waagrechtes Scrollen, letzte Spielzeile und Häkchen bedienbar.
+    Status: offen Nutzer. Lokal nur mit simuliertem Inset 84 geprüft (siehe R68), die echten Insets des Duo sind ungeprüft
+
+R58 Duo aufgeklappt quer und hoch am echten Gerät
+    Vorbedingung: wie R57, Duo aufgeklappt.
+    Schritt: Quer halten, Tipps öffnen, Spielbereich und Liste ansehen. Danach hoch halten.
+    Erwartet: Quer Spielbereich links bis zum Falz, Liste rechts scrollt allein, Navigation senkrecht in der rechten Systemspalte. Hoch Spielbereich oben, Spiele zweispaltig, schwebende Kapsel unten. Kein Inhalt im Falz abgeschnitten.
+    Status: offen Nutzer
+
+R59 Wechsel beim Auf und Zuklappen am echten Gerät
+    Vorbedingung: wie R57, Tipps offen, Liste etwas gescrollt, ein Häkchen gesetzt.
+    Schritt: Duo aufklappen, drehen (quer und hoch), wieder zuklappen, ohne neu zu laden.
+    Erwartet: Layout wechselt jedes Mal ohne Neuladen, Häkchen und Umschalter bleiben, kein weisser Bildschirm. Liste springt an den Anfang (siehe Befund R67).
+    Status: offen Nutzer
+
+R60 iPhone normal am echten Gerät
+    Vorbedingung: Sprint D auf main, normales iPhone, App vom Home Bildschirm.
+    Schritt: Alle vier Ziele der Navigation öffnen, Liste ganz nach unten scrollen, Häkchen setzen, Knopf "Auf der Tippseite eintragen" tippen.
+    Erwartet: Schwebende Kapsel unten über dem Home Indikator, letzte Zeile darüber sichtbar, Schriften Barlow Condensed und Inter, Tippseite öffnet in neuem Tab.
+    Status: offen Nutzer
+
+R61 Häkchen bleibt nach Neuladen
+    Vorbedingung: Week 9 geladen, Zeit 02.11.2026 12:00 UTC, localStorage leer.
+    Schritt: Umschalter auf Alle, erstes Häkchen (JAX) setzen, Seite neu laden.
+    Erwartet: Häkchen bleibt gesetzt, Fortschritt "1 von 15 eingetragen", Umschalter "Offen 14 | Alle 15". Unter Offen ist JAX nicht mehr gelistet.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R62 Warnung bei geändertem Tipp
+    Vorbedingung: wie R61, JAX als eingetragen markiert.
+    Schritt: In dist/data/tips/2026-2-09.json beim Spiel 401873037 pickTeamId von 30 auf 33 tauschen, Seite neu laden.
+    Erwartet: In der Zeile erscheint "Tipp geändert, auf der Tippseite anpassen" (role alert), Häkchen nicht mehr gesetzt, Zeile gilt als offen ("Offen 15") und erscheint unter Offen.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Screenshots 1-warnung-*.png
+
+R63 Umschalter Offen und Alle
+    Vorbedingung: wie R61.
+    Schritt: Zähler vor und nach dem Häkchen lesen, Auswahl Alle wählen und neu laden, dann Offen wählen und neu laden.
+    Erwartet: Offen zählt nicht gesperrte und nicht eingetragene Spiele plus Warnungen, Alle zählt alle 15. Die gewählte Kapsel ist nach dem Neuladen weiter aktiv (aria-pressed).
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R64 Spielbereich Wechsel nach Kickoff
+    Vorbedingung: Week 9, Tippdatei ohne gesperrte Spiele.
+    Schritt: Zeit auf 05.11.2026 20:00:30 UTC, Tipps öffnen. Danach die Uhr live über den Kickoff JAX at BAL (06.11. 01:15 UTC) laufen lassen. Zusätzlich direkt mit 06.11.2026 01:20 UTC laden.
+    Erwartet: Vorher Spielbereich JAX at BAL mit TNF bzw. Thursday Night, Tipp JAX, Resultat 26 : 18. Nach dem Kickoff ohne Neuladen und nach frischem Laden CIN at ATL (So 08.11. 15:30, Tipp ATL, Countdown 2 T 13 h).
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Hinweis: Die Liste zeigt JAX at BAL weiter als offen ("Offen 15"), bis der Tippjob locked setzt. Das ist bestehende Logik aus Sprint 2, nicht Teil von Sprint D
+
+R65 Spielbereich alle gesperrt
+    Vorbedingung: wie R64.
+    Schritt: Zeit auf 11.11.2026 12:00 UTC, Tipps öffnen.
+    Erwartet: Spielbereich zeigt "Alle Tipps dieser Woche gesperrt" und "Der nächste Spielbereich erscheint mit der Tippliste der neuen Woche." Keine Konsolenfehler.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R66 Countdown jede Minute
+    Vorbedingung: wie R64, Date Override mit echten Timern, Start 05.11.2026 20:00:57 UTC.
+    Schritt: Countdown lesen, 65 Sekunden warten, erneut lesen.
+    Erwartet: Wechsel von "5 h 14 min" auf "5 h 12 min" (tatsächlich 5 h 12 min 58 s).
+    Status: bestanden lokal 2026-11-02 mit Befund. Der Wert ändert sich, aber in 1 von 4 Läufen zeigte er "5 h 13 min", also eine Minute zu viel. Ursache: Der Minutentakt feuert genau am Minutenwechsel und Math.floor rundet bei einem minimal zu frühen Timer auf die alte Minute. Mit page.clock tritt das immer auf (erster Wechsel erst nach 2 Minuten). Niedrig
+
+R67 Layoutwechsel zur Laufzeit
+    Vorbedingung: Tipps bei 669x951, Umschalter Alle, Liste bis Zeile 10 gescrollt.
+    Schritt: setViewportSize auf 951x669, in der Liste scrollen, zurück auf 669x951. Zusätzlich 466x678 mit Inset 84 nach 951x669.
+    Erwartet: data-layout wechselt medium, wide, medium bzw. side, wide ohne Neuladen (Marker im window bleibt), kein waagrechtes Scrollen, keine Konsolenfehler. Liste behält eine sinnvolle Position.
+    Status: bestanden lokal 2026-11-02 mit Befund. Bei jedem Wechsel springt die Liste an den Anfang, weil der scrollende Bereich wechselt (Seite, .page bzw. .pane-list). Häkchen und Filter bleiben. Niedrig. Screenshots 3-*.png
+
+R68 Letzte Spielzeile sichtbar
+    Vorbedingung: Tipps, Umschalter Alle.
+    Schritt: Alle scrollenden Bereiche ganz nach unten, Lage der letzten Zeile (MIN vs BUF) gegen die Navigation messen und Häkchen per elementFromPoint prüfen. Dasselbe im Spielplan.
+    Erwartet: Letzte Zeile ganz im Bild, überlappt die Navigation nicht, Häkchen ist klickbar. 390x844 Unterkante 740, Kapsel ab 768. 466x678 Zeile endet rechts bei 372, Kapsel ab 396. 669x951 Unterkante 847, Kapsel ab 875. 951x669 Zeile endet rechts bei 863, Kapsel ab 887.
+    Status: bestanden lokal 2026-11-02. Screenshots 4-letzte-zeile-*.png und 4-spielplan-ende-*.png
+
+R69 Tastatur und Fokus
+    Vorbedingung: Tipps, Onboarding gesehen.
+    Schritt: 40 mal Tab, aktives Element und Fokusrahmen protokollieren.
+    Erwartet: Reihenfolge Knopf "Auf der Tippseite eintragen", "Offen", "Alle", Häkchen der Spiele, danach Navigation Tipps, Bilanz, Spielplan, Einstellungen. Jedes Ziel mit sichtbarem Fokus und im Bild.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Nebenbefund 390x844: Ein fokussiertes Häkchen am unteren Rand liegt neben der schwebenden Kapsel, die Prozentangabe der Zeile ist dabei verdeckt (kein scroll-padding). Niedrig. Screenshots 5-fokus-haekchen-*.png
+
+R70 Einstellungen, Onboarding, Bilanz und Spielplan
+    Vorbedingung: localStorage leer.
+    Schritt: Startseite öffnen, Onboarding lesen und mit "Fertig" schliessen. Einstellungen öffnen, "Einführung erneut anzeigen" und schliessen. Bilanz und Spielplan öffnen.
+    Erwartet: Onboarding "Willkommen bei NFL Tipps" mit Knöpfen Schliessen, Push erlauben, Fertig. Einstellungen mit Status, Push erlauben und Einführung erneut anzeigen. Bilanz Week 8 mit Zwischenstand und App Punkten. Spielplan Week 9 ab JAX @ BAL. Kein waagrechtes Scrollen, keine Konsolenfehler.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Screenshots 6-*.png
+
+R71 Schriften selbst gehostet
+    Vorbedingung: wie R70.
+    Schritt: Alle Anfragen beim Durchklicken von Tipps, Einstellungen, Bilanz und Spielplan protokollieren.
+    Erwartet: Keine Anfrage an fonts.googleapis.com oder fonts.gstatic.com. Die woff2 Dateien unter /AMF-Helper/fonts/ laden mit HTTP 200, document.fonts meldet Inter 400, 600, 700 und Barlow Condensed 600, 700, 800 als geladen.
+    Status: bestanden lokal 2026-11-02. Auf GitHub Pages erneut prüfen (offen GitHub)

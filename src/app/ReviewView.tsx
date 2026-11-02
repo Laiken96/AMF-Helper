@@ -3,7 +3,7 @@ import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
 import { LoadError, loadReviewData, loadReviewIndex, type ReviewData } from "./data";
-import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
+import { LoadErrorNotice, PageHeader, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
 
@@ -78,9 +78,7 @@ export function ReviewView() {
   if (state.kind === "empty") {
     return (
       <>
-        <header className="header">
-          <h1>Bilanz</h1>
-        </header>
+        <PageHeader title="Bilanz" />
         <p className="notice">
           Noch keine Bilanz vorhanden. Sie erscheint, sobald die erste Woche mit App Tipps gespielt ist.
         </p>
@@ -129,12 +127,11 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
 
   return (
     <>
-      <header className="header">
-        <h1>Week {review.week} Bilanz</h1>
-        <p className="meta">
-          Saison {review.season}, Stand {fetchedFormat.format(new Date(review.updatedAt))}
-        </p>
-      </header>
+      <PageHeader
+        kicker="Bilanz"
+        title={`Week ${review.week}`}
+        meta={`Saison ${review.season}, Stand ${fetchedFormat.format(new Date(review.updatedAt))}`}
+      />
       {picker}
 
       {!review.complete && (
@@ -144,7 +141,7 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         </p>
       )}
 
-      <div className="boxes">
+      <div className="tiles">
         <section className="box" aria-label="App Punkte">
           <h2>App Punkte</h2>
           <p className="big-number">

@@ -2,8 +2,11 @@ import { useEffect, useMemo, useState } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
+import { teamColor, visibleOn } from "./colors";
 import { LoadError, loadTipsData, type TipsData } from "./data";
-import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
+import { GameHero, useNow, type HeroEmpty, type HeroTarget } from "./GameHero";
+import { useLayoutValue } from "./layout";
+import { LoadErrorNotice, PageHeader, Segmented, fallbackTeam, fetchedFormat } from "./ui";
 
 type State =
   | { kind: "loading" }
@@ -48,6 +51,33 @@ function writeEntered(key: string, value: string | null): void {
 
 const pickKey = (t: GameTip): string => t.pickTeamId ?? NO_PICK;
 
+type Filter = "offen" | "alle";
+const FILTER_KEY = "nfl-dashboard:tipps-filter";
+
+function readFilter(): Filter {
+  try {
+    return window.localStorage.getItem(FILTER_KEY) === "alle" ? "alle" : "offen";
+  } catch {
+    return "offen";
+  }
+}
+
+function writeFilter(value: Filter): void {
+  try {
+    window.localStorage.setItem(FILTER_KEY, value);
+  } catch {
+    // Ohne Storage gilt die Auswahl nur bis zum Neuladen.
+  }
+}
+
+const LEVEL_COLOR: Record<GameTip["level"], string> = {
+  klar: "#3DDC97",
+  favorit: "#8FB7FF",
+  unklar: "#F5B83D",
+  offen: "#AEB6C2",
+  nicht_erfasst: "#AEB6C2",
+};
+
 export function TipsView() {
   const [state, setState] = useState<State>({ kind: "loading" });
 
@@ -72,10 +102,10 @@ export function TipsView() {
   if (!data.tips) {
     return (
       <>
-        <header className="header">
-          <h1>Week {data.current.week} Tipps</h1>
-        </header>
-        <StandingsBox standings={data.standings} maxDeviations={null} />
+        <PageHeader kicker="Tipps" title={`Week ${data.current.week}`} aside={`Saison ${data.current.season}`} />
+        <div className="tiles">
+          <StandingsBox standings={data.standings} maxDeviations={null} />
+        </div>
         <p className="notice">Für diese Woche gibt es noch keine Tipps.</p>
       </>
     );
@@ -92,18 +122,22 @@ interface TipRow extends GameTip {
 }
 
 function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
+  const layout = useLayoutValue();
+  const now = useNow();
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map(data.week.games.map((g) => [g.id, g])), [data.week]);
+  // Ab Kickoff gilt ein Spiel in der Anzeige als gesperrt, auch wenn der stündliche Tippjob es noch nicht
+  // gesperrt hat. Nur Darstellung, die Datei bleibt unverändert.
   const rows: TipRow[] = useMemo(
     () => tips.tips.map((t) => ({
         ...t,
+        locked: t.locked || Date.parse(t.kickoffUtc) <= now,
         id: t.gameId,
         game: gameById.get(t.gameId),
         tiebreaker: tips.tiebreakers.some((tb) => tb.gameId === t.gameId),
       })),
-    [tips, gameById],
+    [tips, gameById, now],
   );
-  const slots = useMemo(() => groupBySlot(rows), [rows]);
 
   const keyFor = (gameId: string) => storageKey(tips.season, tips.seasonType, tips.week, gameId);
   const [entered, setEntered] = useState<Map<string, string>>(() => {
@@ -114,9 +148,13 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
     }
     return m;
   });
+  const [filter, setFilter] = useState<Filter>(readFilter);
+  // Im Filter Offen bleiben eben umgeschaltete Zeilen bis zum nächsten Filterwechsel oder Reload sichtbar
+  const [sticky, setSticky] = useState<Set<string>>(() => new Set());
 
   const toggle = (row: TipRow) => {
     const value = entered.get(row.gameId) === pickKey(row) ? null : pickKey(row);
+    setSticky((prev) => (prev.has(row.gameId) ? prev : new Set(prev).add(row.gameId)));
     writeEntered(keyFor(row.gameId), value);
     setEntered((prev) => {
       const next = new Map(prev);
@@ -126,57 +164,120 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
     });
   };
 
+  const chooseFilter = (value: Filter) => {
+    writeFilter(value);
+    setFilter(value);
+    setSticky(new Set());
+  };
+
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
   const statusOf = (r: TipRow): EntryStatus => {
     const v = entered.get(r.gameId);
     if (v === undefined) return "none";
     return v === pickKey(r) ? "done" : "changed";
   };
+  const isPending = (r: TipRow) =>
+    r.level !== "nicht_erfasst" && (statusOf(r) === "changed" || (statusOf(r) === "none" && !r.locked));
   const countable = rows.filter((r) => r.level !== "nicht_erfasst");
   const doneCount = countable.filter((r) => statusOf(r) === "done").length;
-  const openCount = countable.filter(
-    (r) => statusOf(r) === "changed" || (statusOf(r) === "none" && !r.locked),
-  ).length;
+  const openCount = rows.filter(isPending).length;
+  const visible = filter === "offen" ? rows.filter((r) => isPending(r) || sticky.has(r.gameId)) : rows;
+  const slots = groupBySlot(visible);
 
-  return (
-    <>
-      <header className="header">
-        <h1>Week {tips.week} Tipps</h1>
-        <p className="meta">Letzte Aktualisierung {fetchedFormat.format(new Date(tips.updatedAt))}</p>
-      </header>
+  // Spielbereich: nächster Kickoff, der weder gesperrt noch vorbei ist
+  const { hero, heroEmpty } = useMemo(() => {
+    const open = rows.filter((r) => !r.locked && r.level !== "nicht_erfasst" && Date.parse(r.kickoffUtc) > now);
+    const next = open
+      .filter((r) => r.game)
+      .sort((a, b) => Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc) || a.gameId.localeCompare(b.gameId))[0];
+    const target: HeroTarget | null =
+      next && next.game
+        ? { tip: next, game: next.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === next.gameId) }
+        : null;
+    return { hero: target, heroEmpty: (open.length > 0 ? "ohne_daten" : "gesperrt") as HeroEmpty };
+  }, [rows, tips, now]);
 
-      <div className="boxes">
-        <TiebreakerBox tips={tips} gameById={gameById} team={team} />
-        <StandingsBox standings={data.standings} maxDeviations={tips.maxDeviations} />
-      </div>
-
+  const header = (
+    <PageHeader
+      kicker="Tipps"
+      title={`Week ${tips.week}`}
+      aside={`Saison ${tips.season}`}
+      meta={`Letzte Aktualisierung ${fetchedFormat.format(new Date(tips.updatedAt))}`}
+    />
+  );
+  const heroEl = <GameHero target={hero} empty={heroEmpty} team={team} injuries={data.injuries} now={now} />;
+  const tiles = (
+    <div className="tiles">
+      <TiebreakerBox tips={tips} gameById={gameById} team={team} />
+      <StandingsBox standings={data.standings} maxDeviations={tips.maxDeviations} />
+    </div>
+  );
+  const pct = countable.length > 0 ? Math.round((doneCount / countable.length) * 100) : 0;
+  const list = (
+    <section className="games-section" aria-label="Spiele der Woche">
       {rows.length === 0 ? (
         <p className="notice">Diese Woche sind keine Spiele angesetzt.</p>
       ) : (
-        slots.map((slot) => (
-          <section key={slot.slotKey} className="slot">
-            <h2>{slot.label}</h2>
-            <ul className="tips">
-              {slot.games.map((row) => (
-                <TipItem
-                  key={row.gameId}
-                  row={row}
-                  team={team}
-                  status={statusOf(row)}
-                  onToggle={() => toggle(row)}
-                />
-              ))}
-            </ul>
-          </section>
-        ))
+        <>
+          <div className="list-controls">
+            <Segmented
+              label="Spiele filtern"
+              value={filter}
+              onChange={chooseFilter}
+              options={[
+                { value: "offen", label: `Offen ${openCount}` },
+                { value: "alle", label: `Alle ${rows.length}` },
+              ]}
+            />
+            {countable.length > 0 && (
+              <div className={`progress${openCount > 0 ? " progress-open" : ""}`}>
+                <div className="progress-bar" aria-hidden="true">
+                  <div style={{ width: `${pct}%` }} />
+                </div>
+                <span aria-live="polite">
+                  {doneCount} von {countable.length} eingetragen
+                  {openCount > 0 && <span className="sr-only">, {openCount} offen</span>}
+                </span>
+              </div>
+            )}
+          </div>
+          {visible.length === 0 && (
+            <p className="notice">Keine offenen Spiele. Alle Tipps sind eingetragen oder gesperrt.</p>
+          )}
+          {slots.map((slot) => (
+            <section key={slot.slotKey} className="slot">
+              <h2>{slot.label}</h2>
+              <ul className="tips">
+                {slot.games.map((row) => (
+                  <TipItem key={row.gameId} row={row} team={team} status={statusOf(row)} onToggle={() => toggle(row)} />
+                ))}
+              </ul>
+            </section>
+          ))}
+        </>
       )}
+    </section>
+  );
 
-      {countable.length > 0 && (
-        <p className={`counter${openCount > 0 ? " counter-open" : ""}`} aria-live="polite">
-          {doneCount} von {countable.length} Spielen eingetragen
-          {openCount > 0 && <span> · {openCount} offen</span>}
-        </p>
-      )}
+  if (layout === "wide") {
+    return (
+      <div className="tips-split">
+        <div className="pane pane-hero">{heroEl}</div>
+        <div className="fold" aria-hidden="true" />
+        <div className="pane pane-list">
+          {header}
+          {tiles}
+          {list}
+        </div>
+      </div>
+    );
+  }
+  return (
+    <>
+      {header}
+      {heroEl}
+      {tiles}
+      {list}
     </>
   );
 }
@@ -207,8 +308,8 @@ function TiebreakerBox({
               <span className="tb-day">{SLOT_DAY[tb.slot]}</span>
               <span className="tb-line">
                 {game
-                  ? `${team(game.awayId).abbr} ${tb.awayPoints} : ${tb.homePoints} ${team(game.homeId).abbr}`
-                  : `${tb.awayPoints} : ${tb.homePoints}`}
+                  ? `${team(game.awayId).abbr} ${tb.awayPoints}:${tb.homePoints} ${team(game.homeId).abbr}`
+                  : `${tb.awayPoints}:${tb.homePoints}`}
               </span>
               <span className="box-meta">
                 {kickoff ? `Kickoff ${formatKickoffZurich(kickoff)}` : ""}
@@ -228,9 +329,20 @@ function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; 
   // Ziel ist immer Platz 1 (D028)
   const leader = players[0];
   const ahead = mine && leader && leader.points > mine.points ? leader : undefined;
+  const gap = ahead && mine ? ahead.points - mine.points : 0;
   return (
     <section className="box" aria-label="Rangliste">
-      <h2>Rangliste nach Week {standings.asOfWeek}</h2>
+      <h2>Ziel Platz 1</h2>
+      {mine && (
+        <p className="box-big">{ahead ? <span aria-label={`minus ${gap}`}>{"\u2212"}{gap}</span> : "1."}</p>
+      )}
+      {mine && (
+        <p className="box-meta">
+          {ahead ? `${gap} ${gap === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id} auf Platz 1` : "In Führung"}
+        </p>
+      )}
+      {maxDeviations !== null && <p className="box-meta strong">Erlaubte Abweichungen diese Woche: {maxDeviations}</p>}
+      <p className="box-meta">Rangliste nach Week {standings.asOfWeek}</p>
       <ol className="ranking">
         {players.map((p) => (
           <li key={p.id} className={p.id === standings.me ? "me" : undefined}>
@@ -239,14 +351,6 @@ function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; 
           </li>
         ))}
       </ol>
-      {mine && (
-        <p className="box-meta">
-          {ahead
-            ? `${ahead.points - mine.points} ${ahead.points - mine.points === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id} auf Platz 1`
-            : "In Führung"}
-        </p>
-      )}
-      {maxDeviations !== null && <p className="box-meta strong">Erlaubte Abweichungen diese Woche: {maxDeviations}</p>}
     </section>
   );
 }
@@ -279,42 +383,49 @@ function TipItem({
   if (status === "changed") classes.push("changed-entry");
   if (row.locked) classes.push("locked");
 
+  const pct = hasPick && row.pickProb !== null ? Math.round(row.pickProb * 100) : null;
+  const info = notCaptured ? "nicht erfasst" : pct !== null ? `${row.deviation ? "Abw. " : ""}${pct} %` : "keine Quote";
+  const infoColor = row.deviation && pct !== null ? "#F5B83D" : LEVEL_COLOR[row.level];
+  const dot = pick && hasPick ? visibleOn(teamColor(pick.color)) : "#3A414D";
+  const vs = other ? `${other.id === homeId ? "@" : "vs"} ${other.abbr}` : "";
+  const label = hasPick && pick
+    ? pick.abbr
+    : game
+      ? `Spiel ${team(game.awayId).abbr} @ ${team(game.homeId).abbr}`
+      : `Spiel ${row.gameId}`;
+  const hasFlags = row.tiebreaker || row.deviation || row.changedSinceFirst || row.locked;
+
   return (
-    <li className={classes.join(" ")}>
-      <div className="tip-main">
-        <div className="tip-teams">
-          {pick ? (
-            <span className={hasPick ? "pick" : "nopick"}>
-              <TeamBadge team={pick} />
-              {pick.id === homeId && <span className="home">(H)</span>}
-            </span>
-          ) : (
-            <span className="nopick">Spiel {row.gameId}</span>
-          )}
-          {other && (
-            <>
-              <span className="vs">vs</span>
-              <span className="opp">
-                {other.abbr}
-                {other.id === homeId && <span className="home">(H)</span>}
-              </span>
-            </>
-          )}
-        </div>
-        <div className="tip-value">
-          {hasPick && row.pickProb !== null ? (
-            <span className="prob">{Math.round(row.pickProb * 100)} %</span>
-          ) : notCaptured ? null : (
-            <span className="noodds">keine Quote</span>
-          )}
-          <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>
-        </div>
+    <li className={classes.join(" ")} data-anchor={row.gameId}>
+      <div className="tip-row">
+        <span className="dot" style={{ background: dot }} aria-hidden="true" />
+        <span className={hasPick ? "tip-pick" : "tip-pick nopick"} title={pick?.name}>
+          {pick ? pick.abbr : `Spiel ${row.gameId}`}
+        </span>
+        <span className="tip-vs">{vs}</span>
+        <span className="tip-info">
+          <span style={{ color: infoColor }}>{info}</span>
+          {!notCaptured && <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>}
+        </span>
+        {notCaptured ? (
+          <span className="tick-spacer" aria-hidden="true" />
+        ) : (
+          <label className="tick-wrap">
+            <input
+              className="tick"
+              type="checkbox"
+              checked={checked}
+              onChange={onToggle}
+              aria-label={`${label} eingetragen`}
+            />
+          </label>
+        )}
       </div>
-      <div className="tip-meta">
-        <span className="flags">
+      {hasFlags && (
+        <div className="tip-flags">
           {row.tiebreaker && <span className="flag tb-flag">Resultat tippen</span>}
           {row.deviation && (
-            <span className="flag" title="Bewusste Abweichung vom Favoriten">
+            <span className="flag flag-dev" title="Bewusste Abweichung vom Favoriten">
               <span aria-hidden="true">🎯</span> Abweichung
             </span>
           )}
@@ -324,14 +435,8 @@ function TipItem({
               <span aria-hidden="true">🔒</span> gesperrt
             </span>
           )}
-        </span>
-        {!notCaptured && (
-          <label className="check">
-            <input type="checkbox" checked={checked} onChange={onToggle} />
-            eingetragen
-          </label>
-        )}
-      </div>
+        </div>
+      )}
       {status === "changed" && (
         <p className="entry-warning" role="alert">
           <span aria-hidden="true">⚠️</span> Tipp geändert, auf der Tippseite anpassen
