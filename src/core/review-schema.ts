@@ -1,7 +1,12 @@
 // Datenvertrag Wochenbilanz (Sprint 4, D032). Schreiber: jobs/build-review.ts und der Ranglisten Workflow. Leser: App, Push.
 import { z } from "zod";
 
-export const REVIEW_SCHEMA_VERSION = 1 as const;
+/**
+ * Version der Bilanz Dateien unter data/reviews/. 2 ergänzt rankingCheck (Abgleich Rangliste gegen App Tipps,
+ * D050). Das Schema liest Version 1 weiter. Der Ranglistenverlauf hat eine eigene Version.
+ */
+export const REVIEW_SCHEMA_VERSION = 2 as const;
+export const STANDINGS_HISTORY_SCHEMA_VERSION = 1 as const;
 
 export const GameReviewSchema = z.object({
   gameId: z.string(),
@@ -50,8 +55,21 @@ export const OpinionCompareSchema = z.object({
 });
 export type OpinionCompare = z.infer<typeof OpinionCompareSchema>;
 
+/**
+ * Abgleich der gemeldeten Wochenpunkte (Rangliste minus Vorwoche) mit den Punkten der App Tipps.
+ * gap = reported minus appPoints. Positiv: mehr Punkte als die App Tipps, negativ: weniger, z. B. ein Tipp
+ * nicht oder anders eingetragen. Nur vorhanden, wenn Woche und Vorwoche gemeldet sind.
+ */
+export const RankingCheckSchema = z.object({
+  playerId: z.string().regex(/^[A-Z]{2,3}$/),
+  reported: z.number().int(),
+  appPoints: z.number().int().min(0),
+  gap: z.number().int(),
+});
+export type RankingCheck = z.infer<typeof RankingCheckSchema>;
+
 export const ReviewFileSchema = z.object({
-  schemaVersion: z.literal(REVIEW_SCHEMA_VERSION),
+  schemaVersion: z.union([z.literal(1), z.literal(REVIEW_SCHEMA_VERSION)]),
   season: z.number().int(),
   seasonType: z.number().int(),
   week: z.number().int(),
@@ -63,12 +81,13 @@ export const ReviewFileSchema = z.object({
   deviationNet: z.number().int(), // Summe deviationEffect
   tiebreakers: z.array(TiebreakerReviewSchema),
   opinionCompare: OpinionCompareSchema.optional(), // fehlt ohne Meinungsdatei der Woche
+  rankingCheck: RankingCheckSchema.optional(), // ab Version 2, fehlt ohne gemeldete Woche und Vorwoche
 });
 export type ReviewFile = z.infer<typeof ReviewFileSchema>;
 
 /** Verlauf der Gruppenrangliste, ein Eintrag pro gemeldeter Woche. Nur Kürzel (D022). */
 export const StandingsHistorySchema = z.object({
-  schemaVersion: z.literal(REVIEW_SCHEMA_VERSION),
+  schemaVersion: z.literal(STANDINGS_HISTORY_SCHEMA_VERSION),
   entries: z.array(
     z.object({
       season: z.number().int(),

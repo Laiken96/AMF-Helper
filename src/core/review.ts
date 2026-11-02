@@ -2,13 +2,16 @@
 import type { Game } from "./schema";
 import type { GameTip, TipsFile } from "./tips-schema";
 import type { OpinionsFile } from "./extra-schema";
+import { reportedWeekPoints } from "./standings";
 import {
   REVIEW_SCHEMA_VERSION,
   ReviewFileSchema,
   ReviewIndexSchema,
   type GameReview,
   type OpinionCompare,
+  type RankingCheck,
   type ReviewFile,
+  type StandingsHistory,
   type ReviewIndex,
 } from "./review-schema";
 
@@ -181,6 +184,29 @@ export function buildReview(
     tiebreakers,
     ...(opinions ? { opinionCompare: buildOpinionCompare(opinions, games) } : {}),
   });
+}
+
+/**
+ * Abgleich Rangliste gegen App Tipps (D050) für ein beliebiges Kürzel. Vergleicht die gemeldeten Wochenpunkte
+ * (Differenz zur Vorwoche) mit den Punkten der App Tipps der Woche. null, solange die Bilanz nicht komplett ist
+ * oder Woche bzw. Vorwoche nicht gemeldet sind. Die App Punkte gelten für den Nutzer, der die App Tipps
+ * einträgt. Für ein anderes Kürzel misst gap, wie weit dessen Punkte von den App Tipps abweichen.
+ */
+export function rankingCheck(
+  review: Pick<ReviewFile, "season" | "seasonType" | "week" | "points" | "complete">,
+  history: StandingsHistory,
+  playerId: string,
+): RankingCheck | null {
+  if (!review.complete) return null;
+  const reported = reportedWeekPoints(history, review.season, review.seasonType, review.week, playerId);
+  if (reported === null) return null;
+  return { playerId, reported, appPoints: review.points, gap: reported - review.points };
+}
+
+/** Setzt oder entfernt rankingCheck. Ohne Abgleich fehlt das Feld. */
+export function withRankingCheck(review: ReviewFile, check: RankingCheck | null): ReviewFile {
+  const { rankingCheck: _old, ...rest } = review;
+  return ReviewFileSchema.parse({ ...rest, schemaVersion: REVIEW_SCHEMA_VERSION, ...(check ? { rankingCheck: check } : {}) });
 }
 
 /** Gleicher Inhalt ohne Zeitstempel, damit nur echte Änderungen geschrieben werden. */

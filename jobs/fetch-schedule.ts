@@ -1,19 +1,23 @@
 // Datenjob Spielplan: holt das ESPN Scoreboard und schreibt data/teams.json, data/weeks/..., data/current.json
 // und data/settings.json. Bei Fehler bleiben die bestehenden Dateien unverändert und der Exit Code ist 1.
-// Ohne Argumente holt der Job in der Regular Season zusätzlich die nächsten 2 Wochen (D042), mit denselben
-// Schutzregeln (D019) und ohne current.json anzupassen. Ein Fehler dort lässt die aktuelle Woche gültig.
+// Ohne Argumente holt der Job zusätzlich die nächsten 2 Tippwochen (D042), auch über die Grenze zur Postseason,
+// mit denselben Schutzregeln (D019) und ohne current.json anzupassen. Ein Fehler dort lässt die aktuelle Woche gültig.
+// Ruhende Wochen (Preseason, Pro Bowl, Offseason, siehe season-calendar.ts) schreibt der Job ohne Argumente nicht:
+// current.json bleibt auf der letzten Tippwoche, damit Tipps und Pushes ruhen. Ruhetage pro Spiel aus den
+// Wochendateien der zwei Tippwochen davor (D050).
 // Aufruf: npm run job:schedule [-- --season 2026 --type 2 --week 8]
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { scoreboardUrl } from "../src/core/espn";
 import { weekFilePath, type WeekFile } from "../src/core/schema";
-import { REGULAR_SEASON_WEEKS } from "../src/core/tips";
+import { dormantReason, nextTipWeeks } from "../src/core/season-calendar";
 import {
   FETCH_TIMEOUT_MS,
   USER_AGENT,
   buildOutputs,
   parseCliArgs,
   readExisting,
+  readPreviousGames,
   writeFiles,
 } from "./schedule-lib";
 
@@ -79,8 +83,18 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
     return 1;
   }
   const w = probe.week;
+  const dormant = dormantReason(w);
+  if (dormant !== null && !explicit) {
+    log(`Saison ${w.season} Typ ${w.seasonType} Woche ${w.week}: ${dormant}, ruhende Woche ohne Tipps. current.json bleibt.`);
+    let exit = 0;
+    for (const next of upcomingWeeks(w)) {
+      if ((await fetchUpcomingWeek(next, { dataDir, now, log, error, fetch: deps.fetch })) !== 0) exit = 1;
+    }
+    return exit;
+  }
   const existing = await readExisting(dataDir, weekFilePath(w.season, w.seasonType, w.week));
-  const result = buildOutputs({ raw, now, updateCurrent: !explicit, allowShrink: explicit, existing });
+  const previousGames = await readPreviousGames(dataDir, w);
+  const result = buildOutputs({ raw, now, updateCurrent: !explicit, allowShrink: explicit, existing, previousGames });
   if (!result.ok) {
     error(`Abgelehnt, bestehende Dateien bleiben unverändert.\n${result.error}`);
     return 1;
@@ -105,14 +119,13 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
 /** Anzahl kommender Wochen, die der Spielplan Job zusätzlich holt. */
 export const UPCOMING_WEEKS = 2;
 
-/** Die nächsten 2 Wochen der Regular Season nach der gegebenen Woche, nie über Woche 18 hinaus. */
+/**
+ * Die nächsten 2 Tippwochen nach der gegebenen Woche: Regular Week 18 gefolgt von Postseason Week 1 und 2,
+ * Conference Woche gefolgt vom Super Bowl (ohne Pro Bowl), aus der Preseason Regular Week 1 und 2.
+ * Nach dem Super Bowl keine. Auch build-tips.ts und opinion.ts nutzen diese Liste.
+ */
 export function upcomingWeeks(w: Pick<WeekFile, "season" | "seasonType" | "week">): Array<{ season: number; seasonType: number; week: number }> {
-  if (w.seasonType !== 2) return [];
-  const out = [];
-  for (let i = 1; i <= UPCOMING_WEEKS && w.week + i <= REGULAR_SEASON_WEEKS; i++) {
-    out.push({ season: w.season, seasonType: 2, week: w.week + i });
-  }
-  return out;
+  return nextTipWeeks({ season: w.season, seasonType: w.seasonType, week: w.week }, UPCOMING_WEEKS);
 }
 
 interface UpcomingCtx {
@@ -123,7 +136,11 @@ interface UpcomingCtx {
   fetch?: FetchFn;
 }
 
-/** Holt eine kommende Woche. current.json bleibt, Spiele dürfen nicht verschwinden (D019). */
+/**
+ * Holt eine kommende Woche. current.json bleibt, Spiele dürfen nicht verschwinden (D019).
+ * Eine Woche ohne Spiele wird nicht geschrieben (Postseason vor der Ansetzung). Für Postseason Wochen gilt ein
+ * Schemafehler als noch nicht angesetzt (ESPN liefert vor der Paarung Platzhalter), Exit 0 ohne Schreiben.
+ */
 async function fetchUpcomingWeek(
   k: { season: number; seasonType: number; week: number },
   ctx: UpcomingCtx,
@@ -140,8 +157,13 @@ async function fetchUpcomingWeek(
     return 1;
   }
   const existing = await readExisting(ctx.dataDir, weekFilePath(k.season, k.seasonType, k.week));
-  const result = buildOutputs({ raw, now: ctx.now, updateCurrent: false, allowShrink: false, existing });
+  const previousGames = await readPreviousGames(ctx.dataDir, k);
+  const result = buildOutputs({ raw, now: ctx.now, updateCurrent: false, allowShrink: false, existing, previousGames });
   if (!result.ok) {
+    if (k.seasonType === 3 && existing.week === undefined) {
+      ctx.log(`Woche ${label}: noch nicht angesetzt, nichts geschrieben. ${result.error.split("\n")[0]}`);
+      return 0;
+    }
     ctx.error(`Woche ${label} abgelehnt, bestehende Datei bleibt unverändert.\n${result.error}`);
     return 1;
   }
@@ -150,10 +172,24 @@ async function fetchUpcomingWeek(
     ctx.error(`Woche ${label}: ESPN lieferte ${got.season}-${got.seasonType}-${got.week}, nichts geschrieben.`);
     return 1;
   }
+  if (got.games.length === 0) {
+    ctx.log(`Woche ${label}: noch keine Spiele, nichts geschrieben.`);
+    return 0;
+  }
+  const placeholder = got.games.find((g) => !isRealTeamId(g.homeId) || !isRealTeamId(g.awayId));
+  if (placeholder) {
+    ctx.log(`Woche ${label}: Paarung ${placeholder.id} noch offen, nichts geschrieben.`);
+    return 0;
+  }
   await writeFiles(ctx.dataDir, result.files);
   ctx.log(`Kommende Woche ${label}: ${got.games.length} Spiele`);
   for (const f of result.files) ctx.log(`  geschrieben data/${f.path}`);
   return 0;
+}
+
+/** ESPN Team IDs sind positive ganze Zahlen. Platzhalter für offene Playoff Paarungen haben andere Werte. */
+export function isRealTeamId(id: string): boolean {
+  return /^[1-9]\d*$/.test(id);
 }
 
 const isDirectRun = process.argv[1] !== undefined && resolve(process.argv[1]) === fileURLToPath(import.meta.url);

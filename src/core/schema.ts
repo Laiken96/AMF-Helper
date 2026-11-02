@@ -3,6 +3,11 @@
 import { z } from "zod";
 
 export const SCHEMA_VERSION = 1 as const;
+/**
+ * Version der Wochendateien unter data/weeks/. 2 ergänzt die optionalen Felder venueInfo, homeRest und awayRest
+ * (D050 Spielort und Ruhetage). Das Schema liest weiterhin Version 1, alte Dateien bleiben gültig.
+ */
+export const WEEK_SCHEMA_VERSION = 2 as const;
 
 export const TeamSchema = z.object({
   id: z.string(), // ESPN Team ID
@@ -17,6 +22,13 @@ export type Team = z.infer<typeof TeamSchema>;
 export const GameStatusSchema = z.enum(["scheduled", "in_progress", "final", "postponed", "canceled"]);
 export type GameStatus = z.infer<typeof GameStatusSchema>;
 
+export const VenueSchema = z.object({
+  name: z.string().nullable(),
+  city: z.string().nullable(),
+  country: z.string().nullable(), // z. B. "USA", "England", "Germany"
+});
+export type Venue = z.infer<typeof VenueSchema>;
+
 export const GameSchema = z.object({
   id: z.string(), // ESPN Event ID
   season: z.number().int(),
@@ -29,13 +41,19 @@ export const GameSchema = z.object({
   statusDetail: z.string(), // Anzeige Text der Quelle, z. B. "13:43 - 2nd"
   homeScore: z.number().int().nullable(),
   awayScore: z.number().int().nullable(),
-  venue: z.string().nullable(),
+  venue: z.string().nullable(), // Stadionname, bleibt für bestehende Leser ein Text
   neutralSite: z.boolean(),
+  // Ab Wochendatei Version 2, fehlt in älteren Dateien.
+  venueInfo: VenueSchema.optional(),
+  // Ruhetage seit dem letzten Spiel des Teams (Kalendertage in America/New_York). Fehlt, wenn keine frühere
+  // Wochendatei vorliegt, null wenn das Team dort kein Spiel hatte.
+  homeRest: z.number().int().min(0).nullable().optional(),
+  awayRest: z.number().int().min(0).nullable().optional(),
 });
 export type Game = z.infer<typeof GameSchema>;
 
 export const WeekFileSchema = z.object({
-  schemaVersion: z.literal(SCHEMA_VERSION),
+  schemaVersion: z.union([z.literal(1), z.literal(WEEK_SCHEMA_VERSION)]),
   season: z.number().int(),
   seasonType: z.number().int(),
   week: z.number().int(),

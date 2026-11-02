@@ -16,8 +16,8 @@ import {
   groupWeekRows,
   shortRaw,
   parseSeasonType,
+  StandingsFileSchema,
 } from "../src/core/standings";
-import { StandingsFileSchema } from "../src/core/tips-schema";
 import { StandingsHistorySchema } from "../src/core/review-schema";
 
 const read = (p: string) => readFileSync(new URL(p, import.meta.url), "utf8");
@@ -341,7 +341,7 @@ describe("standings main", () => {
     expect(code).toBe(0);
     expect(comment).toContain("Rangliste 2026 Week 9 übernommen: MS 79, LM 76, DH 75, CZ 57, JA 54");
     const [s, h] = await files();
-    expect(StandingsFileSchema.parse(JSON.parse(s!))).toMatchObject({ asOfWeek: 9, me: "JA", updatedAt: NOW });
+    expect(StandingsFileSchema.parse(JSON.parse(s!))).toMatchObject({ schemaVersion: 2, season: 2026, asOfWeek: 9, me: "JA", updatedAt: NOW });
     expect(StandingsHistorySchema.parse(JSON.parse(h!)).entries).toHaveLength(2);
   });
 

@@ -1,6 +1,7 @@
 // Tipplogik Sprint 2. Reine Funktionen ohne Node APIs, nutzbar in Jobs und App.
 // Regeln siehe sprints/sprint-02.md, D010, D023, D024, D025, D026.
 import { compareGames } from "./espn";
+import { standingsAppliesTo } from "./standings";
 import type { Game, WeekFile } from "./schema";
 import {
   TIPS_SCHEMA_VERSION,
@@ -231,7 +232,11 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
   // Spiele werden mit diesem Wert trotzdem neu gewählt.
   const frozen =
     sameWeek && (input.freezeMaxDeviations !== false || input.existing!.tips.some((t) => t.locked));
-  const max = frozen ? input.existing!.maxDeviations : maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
+  const max = frozen ? input.existing!.maxDeviations : maxDeviations(
+        standingsAppliesTo(input.standings, week.season) ? gapToTarget(input.standings) : 0,
+        week.seasonType,
+        week.week,
+      );
   const prevById = new Map<string, GameTip>(sameWeek ? input.existing!.tips.map((t) => [t.gameId, t]) : []);
   const games = [...week.games].sort(compareGames);
 

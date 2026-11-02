@@ -100,3 +100,44 @@ export function groupBySlot<T extends { id: string; kickoffUtc: string }>(games:
   }
   return [...slots.values()];
 }
+
+const NY_DATE = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" });
+
+/** Kalendertag eines Zeitpunkts in America/New_York als Tageszahl seit 1970, unabhängig von der Sommerzeit. */
+export function newYorkDayNumber(iso: string): number {
+  const [y, m, d] = NY_DATE.format(new Date(iso)).split("-").map(Number) as [number, number, number];
+  return Math.round(Date.UTC(y, m - 1, d) / 86_400_000);
+}
+
+interface RestGame {
+  id: string;
+  kickoffUtc: string;
+  homeId: string;
+  awayId: string;
+  status: string;
+}
+
+/**
+ * Ruhetage eines Teams vor einem Spiel: Kalendertage in America/New_York seit seinem letzten Spiel vor diesem
+ * Kickoff, z. B. Sonntag zu Sonntag 7, Sonntag zu Donnerstag 4. Abgesagte Spiele zählen nicht.
+ * previousGames enthält die Spiele früherer Wochen, gern mehrere, damit eine Bye Woche überbrückt wird.
+ * null, wenn das Team dort kein früheres Spiel hat.
+ */
+export function restDays(teamId: string, game: Pick<RestGame, "id" | "kickoffUtc">, previousGames: readonly RestGame[]): number | null {
+  const kickoff = Date.parse(game.kickoffUtc);
+  let last: number | null = null;
+  for (const g of previousGames) {
+    if (g.id === game.id || g.status === "canceled") continue;
+    if (g.homeId !== teamId && g.awayId !== teamId) continue;
+    const t = Date.parse(g.kickoffUtc);
+    if (t < kickoff && (last === null || t > last)) last = t;
+  }
+  if (last === null) return null;
+  return newYorkDayNumber(game.kickoffUtc) - newYorkDayNumber(new Date(last).toISOString());
+}
+
+/** Ergänzt homeRest und awayRest für alle Spiele. Ohne frühere Spiele bleiben die Spiele unverändert. */
+export function withRestDays<T extends RestGame>(games: readonly T[], previousGames: readonly RestGame[] | null): Array<T & { homeRest?: number | null; awayRest?: number | null }> {
+  if (previousGames === null || previousGames.length === 0) return [...games];
+  return games.map((g) => ({ ...g, homeRest: restDays(g.homeId, g, previousGames), awayRest: restDays(g.awayId, g, previousGames) }));
+}

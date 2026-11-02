@@ -10,11 +10,14 @@ import {
   WeekFileSchema,
   weekFilePath,
   type CurrentFile,
+  type Game,
   type SettingsFile,
   type Team,
   type TeamsFile,
   type WeekFile,
 } from "../src/core/schema";
+import { previousTipWeek, type WeekRef } from "../src/core/season-calendar";
+import { withRestDays } from "../src/core/time";
 
 export const USER_AGENT = "nfl-dashboard-data-job/0.1 (+https://github.com/Laiken96/AMF-Helper)";
 export const FETCH_TIMEOUT_MS = 15_000;
@@ -68,6 +71,8 @@ export interface BuildInput {
     current?: unknown;
     settings?: unknown;
   };
+  /** Spiele früherer Wochen derselben Saison für die Ruhetage (D050). null oder leer: keine Ruhetage. */
+  previousGames?: readonly Game[] | null;
 }
 
 export type BuildResult =
@@ -82,7 +87,7 @@ export type BuildResult =
 export function buildOutputs(input: BuildInput): BuildResult {
   const parsed = parseScoreboard(input.raw, { fetchedAt: input.now });
   if (!parsed.ok) return parsed;
-  const { week } = parsed;
+  const week: WeekFile = { ...parsed.week, games: withRestDays(parsed.week.games, input.previousGames ?? null) };
 
   // Schutz vor einer leeren oder unvollständigen Antwort: bekannte Spiele dürfen nicht verschwinden.
   const prevWeek = WeekFileSchema.safeParse(input.existing.week);
@@ -161,6 +166,25 @@ export async function readExisting(dataDir: string, weekPath?: string): Promise<
     current: await readJsonIfExists(join(dataDir, "current.json")),
     settings: await readJsonIfExists(join(dataDir, "settings.json")),
   };
+}
+
+/** Anzahl früherer Tippwochen für die Ruhetage. Zwei überbrücken eine Bye Woche. */
+export const REST_LOOKBACK_WEEKS = 2;
+
+/**
+ * Spiele der zwei Tippwochen vor der Woche k aus data/weeks/ (previousTipWeek, über die Grenze zur Postseason).
+ * Fehlt die direkte Vorwoche oder ist sie ungültig, gibt es null, sonst würde ein Spiel der Vorwoche übersehen
+ * (z. B. Regular Week 1 oder erste gespeicherte Woche). Die zweite Woche überbrückt eine Bye Woche.
+ */
+export async function readPreviousGames(dataDir: string, k: WeekRef): Promise<Game[] | null> {
+  const games: Game[] = [];
+  let ref = previousTipWeek(k);
+  for (let i = 0; i < REST_LOOKBACK_WEEKS && ref !== null; i++, ref = previousTipWeek(ref)) {
+    const parsed = WeekFileSchema.safeParse(await readJsonIfExists(join(dataDir, weekFilePath(ref.season, ref.seasonType, ref.week))));
+    if (parsed.success) games.push(...parsed.data.games);
+    else if (i === 0) return null;
+  }
+  return games.length > 0 ? games : null;
 }
 
 /** Schreibt erst alle Dateien als .tmp und benennt sie danach um, damit nie halbe Dateien liegen bleiben. */

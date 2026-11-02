@@ -2,7 +2,7 @@
 // Wird von Jobs und App genutzt, daher kein Node spezifischer Code. Siehe D002 und D006.
 import { z } from "zod";
 import {
-  SCHEMA_VERSION,
+  WEEK_SCHEMA_VERSION,
   TeamSchema,
   WeekFileSchema,
   type Game,
@@ -63,7 +63,12 @@ const EspnStatusSchema = z.looseObject({
 const EspnCompetitionSchema = z.looseObject({
   date: z.string().nullish(),
   neutralSite: z.boolean().nullish(),
-  venue: z.looseObject({ fullName: z.string().nullish() }).nullish(),
+  venue: z
+    .looseObject({
+      fullName: z.string().nullish(),
+      address: z.looseObject({ city: z.string().nullish(), country: z.string().nullish() }).nullish(),
+    })
+    .nullish(),
   competitors: z.array(EspnCompetitorSchema).length(2),
   status: EspnStatusSchema.nullish(),
 });
@@ -213,6 +218,15 @@ export function parseScoreboard(raw: unknown, options: ParseOptions = {}): Parse
       awayScore: preGame ? null : parseScore(away.score),
       venue: comp.venue?.fullName ?? null,
       neutralSite: comp.neutralSite ?? false,
+      ...(comp.venue
+        ? {
+            venueInfo: {
+              name: comp.venue.fullName || null,
+              city: comp.venue.address?.city || null,
+              country: comp.venue.address?.country || null,
+            },
+          }
+        : {}),
     });
   }
 
@@ -223,7 +237,7 @@ export function parseScoreboard(raw: unknown, options: ParseOptions = {}): Parse
   }
 
   const weekFile = {
-    schemaVersion: SCHEMA_VERSION,
+    schemaVersion: WEEK_SCHEMA_VERSION,
     season,
     seasonType,
     week,
