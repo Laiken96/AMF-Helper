@@ -2069,3 +2069,104 @@ a.step-today:hover {
     padding-top: calc(var(--sat) + 12px);
   }
 }
+
+/* ---------- Wochenwechsel ohne Springen ---------- */
+
+.header .kicker,
+.header .meta {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.week-stepper-pending {
+  box-shadow: inset 0 0 0 2px rgba(245, 184, 61, 0.55);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .week-stepper-pending .step-label {
+    animation: live-pulse 1s ease-in-out infinite;
+  }
+}
+
+.segmented-disabled button {
+  cursor: default;
+}
+
+.segmented-disabled button:not(.active) {
+  color: #8d96a3;
+}
+
+/* Spielbereich: Infozeilen mit fester Höhe, Spielbereich in allen Wochen gleich hoch */
+.hero-info {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  align-content: start;
+  gap: 4px;
+  height: calc(3 * 18px + 2 * 4px);
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 18px;
+  color: #e4e8ee;
+}
+
+.hero-small .hero-info {
+  height: calc(2 * 18px + 4px);
+  font-size: 12px;
+}
+
+.hero-info-line {
+  position: relative; /* hält .sr-only Zusätze im abgeschnittenen Bereich */
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hero-info-line a {
+  color: #e4e8ee;
+  text-decoration: underline;
+  text-decoration-color: rgba(228, 232, 238, 0.45);
+  text-underline-offset: 2px;
+}
+
+.hero-info-line a:hover {
+  color: #fff;
+}
+
+.hero-info-warn svg {
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+
+.ring-placeholder {
+  flex: none;
+  display: grid;
+  place-content: center;
+  padding: 14px;
+  border-radius: 50%;
+  border: 3px dashed rgba(228, 232, 238, 0.55);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-big .ring-placeholder {
+  font-size: 13px;
+  padding: 18px;
+}
+
+.hero-small .ring-placeholder {
+  padding: 6px;
+  font-size: 10px;
+}
+
+.hero-team .hero-sub {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

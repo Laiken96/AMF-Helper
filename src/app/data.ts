@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import type { z } from "zod";
 import {
   CurrentFileSchema,
@@ -30,7 +31,7 @@ export class LoadError extends Error {}
 
 const dataUrl = (path: string) => `${import.meta.env.BASE_URL}data/${path}`;
 
-async function loadJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> {
+async function fetchJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> {
   let res: Response;
   try {
     res = await fetch(dataUrl(path), { cache: "no-cache" });
@@ -55,8 +56,62 @@ async function loadJson<S extends z.ZodType>(path: string, schema: S): Promise<z
   return parsed.data;
 }
 
+// ---------- Sitzungscache ----------
+// Jede Datei wird pro Sitzung einmal geladen, auch Nachbarwochen im Hintergrund. Fehler werden nicht
+// gespeichert. Nach Rückkehr in die App (Tab wieder sichtbar nach mindestens 60 s) wird der Cache geleert
+// und die Ansichten laden neu, ohne den bisherigen Inhalt zu leeren. Aktualisieren lädt die Seite neu.
+
+const cache = new Map<string, Promise<unknown>>();
+const REFRESH_EVENT = "nfl-data-refresh";
+const STALE_AFTER_MS = 60_000;
+
+function cached<T>(key: string, load: () => Promise<T>): Promise<T> {
+  const hit = cache.get(key) as Promise<T> | undefined;
+  if (hit) return hit;
+  const p = load();
+  cache.set(key, p);
+  p.catch(() => {
+    if (cache.get(key) === p) cache.delete(key);
+  });
+  return p;
+}
+
+const loadJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> =>
+  cached(`req:${path}`, () => fetchJson(path, schema));
+
+const loadOptionalJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
+  cached(`opt:${path}`, () => fetchOptionalJson(path, schema));
+
+/** Leert den Cache und meldet den Ansichten, dass sie neu laden sollen. */
+export function refreshData(): void {
+  cache.clear();
+  window.dispatchEvent(new Event(REFRESH_EVENT));
+}
+
+let hiddenAt: number | null = null;
+if (typeof document !== "undefined") {
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") hiddenAt = Date.now();
+    else if (hiddenAt !== null && Date.now() - hiddenAt >= STALE_AFTER_MS) {
+      hiddenAt = null;
+      refreshData();
+    }
+  });
+}
+
+/** Zähler, der bei jedem refreshData steigt. Als Abhängigkeit für Ladeeffekte. */
+export function useDataVersion(): number {
+  const [v, setV] = useState(0);
+  useEffect(() => {
+    const on = () => setV((x) => x + 1);
+    window.addEventListener(REFRESH_EVENT, on);
+    return () => window.removeEventListener(REFRESH_EVENT, on);
+  }, []);
+  return v;
+}
+
 /** Wie loadJson, liefert aber null, wenn die Datei fehlt (HTTP 404 oder HTML Antwort statt JSON). */
-async function loadOptionalJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> {
+async function fetchOptionalJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> {
   let res: Response;
   try {
     res = await fetch(dataUrl(path), { cache: "no-cache" });
@@ -260,3 +315,43 @@ export function navWeeks(nav: WeekNav): WeekRef[] | null {
 }
 
 export const currentRef = (c: CurrentFile): WeekRef => ({ season: c.season, seasonType: c.seasonType, week: c.week });
+
+export interface KeptLoad<T> {
+  data: T | null;
+  error: string | null;
+  /** Neue Daten werden geladen, data zeigt noch den bisherigen Stand. */
+  pending: boolean;
+}
+
+/**
+ * Lädt bei jeder Änderung von key neu, lässt den bisherigen Inhalt aber stehen, bis die neuen Daten da sind.
+ * Kein leerer Zwischenzustand beim Wochenwechsel. Lädt auch nach refreshData neu.
+ */
+export function useKeptLoad<T>(key: string, load: () => Promise<T>): KeptLoad<T> {
+  const version = useDataVersion();
+  const [state, setState] = useState<KeptLoad<T>>({ data: null, error: null, pending: true });
+  useEffect(() => {
+    let active = true;
+    setState((s) => (s.pending ? s : { ...s, pending: true }));
+    load()
+      .then((data) => active && setState({ data, error: null, pending: false }))
+      .catch((err: unknown) => {
+        if (!active) return;
+        const message = err instanceof LoadError ? err.message : "Unerwarteter Fehler beim Laden der Daten.";
+        setState({ data: null, error: message, pending: false });
+      });
+    return () => {
+      active = false;
+    };
+    // load ändert sich mit key, key ist die Identität des Ladevorgangs
+  }, [key, version]);
+  return state;
+}
+
+/** Vorladen der Nachbarwochen im Hintergrund, Ergebnis landet im Sitzungscache. */
+export function prefetchNeighbours(nav: WeekNav, load: (ref: WeekRef) => Promise<unknown>): void {
+  const weeks = navWeeks(nav);
+  if (!weeks) return;
+  const i = weeks.findIndex((w) => sameRef(w, nav.ref));
+  for (const r of [weeks[i - 1], weeks[i + 1]]) if (r) void load(r).catch(() => undefined);
+}

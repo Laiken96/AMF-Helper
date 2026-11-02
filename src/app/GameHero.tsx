@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties, type ReactNode } from "react";
 import type { InjuriesFile, KeyPlayer } from "../core/injuries";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, TipsFile } from "../core/tips-schema";
@@ -24,21 +24,6 @@ export function heroHeadlines(items: readonly NewsItem[] | undefined, teamIds: r
     .slice(0, max);
 }
 
-function Headlines({ items }: { items: readonly NewsItem[] }) {
-  if (items.length === 0) return null;
-  return (
-    <ul className="hero-news" aria-label="Schlagzeilen zu diesem Spiel">
-      {items.map((i) => (
-        <li key={i.id}>
-          <a href={i.url} target="_blank" rel="noopener noreferrer">
-            {i.title}
-            <span className="sr-only"> (öffnet in neuem Tab)</span>
-          </a>
-        </li>
-      ))}
-    </ul>
-  );
-}
 
 export const TIPPSPIEL_URL = "https://tippspiel.footballbromance.com";
 
@@ -162,10 +147,27 @@ function Ring({
   );
 }
 
-/** Spielbereich in Teamfarben für das Spiel mit dem nächsten offenen Tippschluss (D037, D038). */
 /** Warum kein Spiel im Spielbereich steht: alles gesperrt oder offene Spiele ohne Spieldaten. */
 export type HeroEmpty = "gesperrt" | "ohne_daten";
 
+/**
+ * Art des Spielbereichs. offen: nächster Tippschluss (oder Live Spiel). folgt: kommende Woche ohne Tippdatei,
+ * Hinweis statt Ring. final: vergangene Woche, Endstand und Ergebnis des Tipps.
+ */
+export type HeroVariant = "offen" | "folgt" | "final";
+
+const RESULT_WORD = { richtig: "richtig", falsch: "falsch", unentschieden: "unentschieden", offen: "offen" } as const;
+export type HeroResult = keyof typeof RESULT_WORD;
+
+const WarnIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5B83D" strokeWidth="2" aria-hidden="true">
+    <path d="M12 9v4" />
+    <path d="M12 17h.01" />
+    <circle cx="12" cy="12" r="9" />
+  </svg>
+);
+
+/** Spielbereich in Teamfarben (D037, D038). Gleiche Struktur und Höhe in allen Wochen, nur der Inhalt wechselt. */
 export function GameHero({
   target,
   empty = "gesperrt",
@@ -175,6 +177,9 @@ export function GameHero({
   live = null,
   next = null,
   headlines = [],
+  variant = "offen",
+  result = null,
+  reviewHref = "#bilanz",
 }: {
   target: HeroTarget | null;
   empty?: HeroEmpty;
@@ -186,6 +191,10 @@ export function GameHero({
   /** Nächster offener Tippschluss, nur bei laufendem Spiel angezeigt. */
   next?: HeroNext | null;
   headlines?: readonly NewsItem[];
+  variant?: HeroVariant;
+  /** Ergebnis des Tipps, nur bei variant final. */
+  result?: HeroResult | null;
+  reviewHref?: string;
 }) {
   const layout = useLayoutValue();
 
@@ -213,139 +222,171 @@ export function GameHero({
   const hasPick = tip.pickTeamId !== null && tip.level !== "offen" && tip.level !== "nicht_erfasst";
   const pick = hasPick ? team(tip.pickTeamId!) : null;
   const other = pick ? (pick.id === home.id ? away : home) : null;
-  const awayColor = teamColor(away.color);
-  const homeColor = teamColor(home.color);
   const pickColor = pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D";
   const otherColor = other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D";
-
   const style = {
-    "--hero-a": shadeForText(awayColor),
-    "--hero-b": shadeForText(homeColor),
+    "--hero-a": shadeForText(teamColor(away.color)),
+    "--hero-b": shadeForText(teamColor(home.color)),
   } as CSSProperties;
 
-  const isLive = live?.state === "in";
+  const isLive = variant === "offen" && live?.state === "in";
+  const isFinal = variant === "final";
+  const scores: [number | null, number | null] | null = isLive
+    ? [live.awayScore ?? 0, live.homeScore ?? 0]
+    : isFinal && game.awayScore !== null && game.homeScore !== null
+      ? [game.awayScore, game.homeScore]
+      : null;
   const countdown = formatCountdown(Date.parse(tip.kickoffUtc) - now);
-  const liveScore = isLive ? `${live.awayScore ?? 0} : ${live.homeScore ?? 0}` : "";
-  const liveBadge = isLive && (
+  const big = layout === "wide";
+  const short = layout === "compact" || layout === "side";
+
+  // Marke oben rechts: Live, Final, Kickoff oder Tippschluss. Immer genau eine Zeile.
+  const badge = isLive ? (
     <span className="hero-countdown hero-live">
       <span className="live-dot" aria-hidden="true" />
       <span className="sr-only">Läuft, </span>
       {periodText(live)}
     </span>
+  ) : isFinal ? (
+    <span className="hero-countdown">{game.status === "final" ? game.statusDetail || "Final" : "Noch nicht final"}</span>
+  ) : variant === "folgt" ? (
+    <span className="hero-countdown">{Date.parse(tip.kickoffUtc) > now ? `Kickoff in ${countdown}` : "Kickoff vorbei"}</span>
+  ) : (
+    <span className="hero-countdown">
+      {short ? <span className="sr-only">Tippschluss in </span> : big ? "Tippschluss in " : "Tippschluss "}
+      {countdown}
+    </span>
   );
-  const sectionLabel = isLive ? "Laufendes Spiel" : "Nächster Tippschluss";
-  const nextLine = isLive && next && (
-    <p className="hero-next">
-      Nächster Tippschluss {next.matchup} in {formatCountdown(Date.parse(next.kickoffUtc) - now)}
-    </p>
-  );
-  const ctaEl =
-    isLive && !next ? (
-      <a className="hero-cta" href="#spiele">
-        Zum Liveticker
-      </a>
-    ) : (
-      <a className="hero-cta" href={TIPPSPIEL_URL} target="_blank" rel="noopener noreferrer">
-        Auf der Tippseite eintragen
-      </a>
-    );
+  const sectionLabel = isLive ? "Laufendes Spiel" : isFinal ? "Spiel der Woche" : variant === "folgt" ? "Erstes Spiel der Woche" : "Nächster Tippschluss";
+
   const when = formatKickoffZurich(tip.kickoffUtc).replace(/ (\d\d:\d\d)$/, " · $1");
-  const slot = tiebreaker ? ` · ${layout === "compact" || layout === "side" ? SLOT_SHORT[tiebreaker.slot] : SLOT_NAME[tiebreaker.slot]}` : "";
-  const absence = keyAbsence(injuries, game.id);
+  const slot = tiebreaker ? ` · ${short ? SLOT_SHORT[tiebreaker.slot] : SLOT_NAME[tiebreaker.slot]}` : "";
+  const absence = variant === "offen" && !isLive ? keyAbsence(injuries, game.id) : null;
   const prob = hasPick ? tip.pickProb : null;
   const tipText = pick ? `${pick.abbr} gewinnt` : "offen";
-  const result = tiebreaker ? `${tiebreaker.awayPoints} : ${tiebreaker.homePoints}` : null;
+  const tbText = tiebreaker ? (variant === "folgt" ? "offen" : `${tiebreaker.awayPoints} : ${tiebreaker.homePoints}`) : null;
+  const second: { label: string; value: string } | null = isFinal
+    ? { label: "Ergebnis", value: result ? RESULT_WORD[result] : "kein Tipp" }
+    : tbText
+      ? { label: big ? "Resultat Tiebreaker" : "Resultat", value: tbText }
+      : null;
 
-  if (layout === "side") {
-    return (
-      <section className="hero hero-small" style={style} aria-label={sectionLabel}>
-        <div className="hero-top">
-          <span className="hero-when">
-            {when}
-            {slot}
-          </span>
-          {liveBadge || (
-            <span className="hero-countdown">
-              <span className="sr-only">Tippschluss in </span>
-              {countdown}
-            </span>
-          )}
-        </div>
-        <div className="hero-small-body">
-          <Ring prob={prob} pick={pick} pickColor={pickColor} otherColor={otherColor} size={72} withLabel={false} />
-          <div className="hero-small-text">
-            <span className="hero-matchup">
-              {isLive ? `${away.abbr} ${liveScore} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
-            </span>
-            <span>
-              Tipp {pick ? pick.abbr : "offen"}
-              {result && ` · Resultat ${result}`}
-            </span>
-            {absence && !isLive && <span className="hero-sub">{absenceText(absence)}</span>}
-          </div>
-        </div>
-        {nextLine}
-        <Headlines items={headlines.slice(0, 1)} />
-        {ctaEl}
-      </section>
+  // Infozeilen mit fester Höhe, damit der Spielbereich in jeder Woche gleich hoch ist
+  const lines: ReactNode[] = [];
+  if (variant === "folgt" && layout === "side") lines.push(<span key="folgt">Tipps folgen, sobald Quoten verfügbar sind.</span>);
+  if (isLive && next)
+    lines.push(<span key="next">Nächster Tippschluss {next.matchup} in {formatCountdown(Date.parse(next.kickoffUtc) - now)}</span>);
+  if (isFinal && scores && result) lines.push(<span key="res">Endstand {away.abbr} {scores[0]} : {scores[1]} {home.abbr}, Tipp {RESULT_WORD[result]}</span>);
+  if (absence)
+    lines.push(
+      <span key="abs" className="hero-info-warn">
+        <WarnIcon />
+        {absenceText(absence)}
+      </span>,
     );
-  }
+  for (const h of headlines)
+    lines.push(
+      <a key={h.id} href={h.url} target="_blank" rel="noopener noreferrer">
+        {h.title}
+        <span className="sr-only"> (öffnet in neuem Tab)</span>
+      </a>,
+    );
+  const maxLines = layout === "side" ? 2 : 3;
+  const info = (
+    <div className="hero-info">
+      {lines.slice(0, maxLines).map((l, i) => (
+        <div key={i} className="hero-info-line">
+          {l}
+        </div>
+      ))}
+    </div>
+  );
 
-  const big = layout === "wide";
+  const cta = isFinal ? (
+    <a className="hero-cta" href={reviewHref}>
+      Zur Bilanz
+    </a>
+  ) : isLive && !next ? (
+    <a className="hero-cta" href="#spiele">
+      Zum Liveticker
+    </a>
+  ) : (
+    <a className="hero-cta" href={TIPPSPIEL_URL} target="_blank" rel="noopener noreferrer">
+      Auf der Tippseite eintragen
+    </a>
+  );
+
+  const ringSize = layout === "side" ? 72 : big ? 140 : layout === "medium" ? 104 : 112;
+  const ring =
+    variant === "folgt" ? (
+      <div className="ring ring-placeholder" style={{ width: ringSize, height: ringSize }} role="img" aria-label="Tipps folgen, sobald Quoten verfügbar sind">
+        <span aria-hidden="true">{layout === "side" ? "Quote folgt" : "Tipps folgen, sobald Quoten verfügbar sind"}</span>
+      </div>
+    ) : (
+      <Ring prob={prob} pick={pick} pickColor={pickColor} otherColor={otherColor} size={ringSize} withLabel={layout !== "side"} />
+    );
+
   const head = (
     <div className="hero-top">
       <span className="hero-when">
         {when}
         {slot}
       </span>
-      {liveBadge || (layout !== "medium" && <span className="hero-countdown">Tippschluss {big ? "in " : ""}{countdown}</span>)}
+      {badge}
+    </div>
+  );
+
+  if (layout === "side") {
+    return (
+      <section className="hero hero-small" style={style} aria-label={sectionLabel}>
+        {head}
+        <div className="hero-small-body">
+          {ring}
+          <div className="hero-small-text">
+            <span className="hero-matchup">
+              {scores ? `${away.abbr} ${scores[0]} : ${scores[1]} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
+            </span>
+            <span>
+              Tipp {pick ? pick.abbr : "offen"}
+              {second && ` · ${second.label} ${second.value}`}
+            </span>
+          </div>
+        </div>
+        {info}
+        {cta}
+      </section>
+    );
+  }
+
+  const teamBlock = (t: Team, score: number | null | undefined, home: boolean) => (
+    <div className={home ? "hero-team hero-team-home" : "hero-team"}>
+      <span className="hero-abbr">{t.abbr}</span>
+      <span className="hero-score" aria-hidden={score === undefined ? "true" : undefined}>
+        {score ?? "\u00a0"}
+      </span>
+      <span className="hero-sub">{big ? `${t.shortName} · ${home ? "Heim" : "Auswärts"}` : home ? "Heim" : "Auswärts"}</span>
     </div>
   );
   const teams = (
     <div className="hero-teams">
-      <div className="hero-team">
-        <span className="hero-abbr">{away.abbr}</span>
-        {isLive && <span className="hero-score">{live.awayScore ?? 0}</span>}
-        <span className="hero-sub">{big ? `${away.shortName} · Auswärts` : "Auswärts"}</span>
-      </div>
-      <Ring prob={prob} pick={pick} pickColor={pickColor} otherColor={otherColor} size={big ? 140 : layout === "medium" ? 104 : 112} withLabel />
-      <div className="hero-team hero-team-home">
-        <span className="hero-abbr">{home.abbr}</span>
-        {isLive && <span className="hero-score">{live.homeScore ?? 0}</span>}
-        <span className="hero-sub">{big ? `${home.shortName} · Heim` : "Heim"}</span>
-      </div>
+      {teamBlock(away, scores ? scores[0] : undefined, false)}
+      {ring}
+      {teamBlock(home, scores ? scores[1] : undefined, true)}
     </div>
   );
   const fields = (
-    <div className={`hero-fields${result ? "" : " hero-fields-single"}`}>
+    <div className={`hero-fields${second ? "" : " hero-fields-single"}`}>
       <div>
         <span className="hero-label">Tipp</span>
         <span className="hero-value">{tipText}</span>
       </div>
-      {result && (
+      {second && (
         <div>
-          <span className="hero-label">{big ? "Resultat Tiebreaker" : "Resultat"}</span>
-          <span className="hero-value">{result}</span>
+          <span className="hero-label">{second.label}</span>
+          <span className="hero-value">{second.value}</span>
         </div>
       )}
     </div>
-  );
-  const absenceLine = absence && !isLive && (
-    <div className="hero-absence">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F5B83D" strokeWidth="2" aria-hidden="true">
-        <path d="M12 9v4" />
-        <path d="M12 17h.01" />
-        <circle cx="12" cy="12" r="9" />
-      </svg>
-      <span>{absenceText(absence)}</span>
-    </div>
-  );
-  const cta = (
-    <>
-      {nextLine}
-      <Headlines items={headlines} />
-      {ctaEl}
-    </>
   );
 
   if (layout === "medium") {
@@ -356,9 +397,8 @@ export function GameHero({
           {teams}
         </div>
         <div className="hero-col">
-          {liveBadge || <span className="hero-countdown hero-countdown-end">Tippschluss {countdown}</span>}
           {fields}
-          {absenceLine}
+          {info}
           {cta}
         </div>
       </section>
@@ -370,7 +410,7 @@ export function GameHero({
       {head}
       {teams}
       {fields}
-      {absenceLine}
+      {info}
       {cta}
     </section>
   );

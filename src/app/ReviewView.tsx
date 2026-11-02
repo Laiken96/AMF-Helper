@@ -24,10 +24,16 @@ type State =
   | { kind: "loading" }
   | { kind: "error"; message: string }
   | { kind: "empty" }
-  | { kind: "ready"; data: ReviewData };
+  | { kind: "ready"; data: ReviewData; pending?: boolean };
 
 const errorText = (err: unknown) =>
   err instanceof LoadError ? err.message : "Unerwarteter Fehler beim Laden der Daten.";
+
+const reviewRef = (d: ReviewData): WeekRef => ({
+  season: d.review.season,
+  seasonType: d.review.seasonType,
+  week: d.review.week,
+});
 
 interface ReviewWeek {
   ref: WeekRef;
@@ -92,7 +98,8 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
   useEffect(() => {
     if (!list || !path) return;
     let active = true;
-    setState({ kind: "loading" });
+    // Bisherige Bilanz stehen lassen, bis die neue da ist
+    setState((s) => (s.kind === "ready" ? { ...s, pending: true } : { kind: "loading" }));
     loadReviewData(
       list.map((w) => w.path),
       path,
@@ -104,10 +111,28 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
     };
   }, [list, path]);
 
+  // Nachbarbilanzen vorladen
+  useEffect(() => {
+    if (!list || !selected) return;
+    const i = list.indexOf(selected);
+    for (const w of [list[i - 1], list[i + 1]])
+      if (w)
+        void loadReviewData(
+          list.map((x) => x.path),
+          w.path,
+        ).catch(() => undefined);
+  }, [list, selected]);
+
   const shown = selected?.ref ?? requested;
   const picker =
     list && shown ? (
-      <WeekStepper view="bilanz" weeks={list.map((w) => w.ref)} value={shown} current={fallback?.ref ?? null} />
+      <WeekStepper
+        view="bilanz"
+        weeks={list.map((w) => w.ref)}
+        value={state.kind === "ready" && state.pending ? reviewRef(state.data) : shown}
+        current={fallback?.ref ?? null}
+        pending={state.kind === "ready" && state.pending === true}
+      />
     ) : null;
 
   if (state.kind === "empty") {

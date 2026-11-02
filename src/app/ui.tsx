@@ -58,18 +58,21 @@ export function Segmented<T extends string>({
   options,
   value,
   onChange,
+  disabled = false,
 }: {
   label: string;
   options: { value: T; label: string }[];
   value: T;
   onChange: (value: T) => void;
+  disabled?: boolean;
 }) {
   return (
-    <div className="segmented" role="group" aria-label={label}>
+    <div className={disabled ? "segmented segmented-disabled" : "segmented"} role="group" aria-label={label}>
       {options.map((o) => (
         <button
           key={o.value}
           type="button"
+          disabled={disabled}
           className={o.value === value ? "active" : undefined}
           aria-pressed={o.value === value}
           onClick={() => onChange(o.value)}
@@ -109,11 +112,14 @@ export function WeekStepper({
   weeks,
   value,
   current,
+  pending = false,
 }: {
   view: string;
   weeks: readonly WeekRef[];
   value: WeekRef;
   current: WeekRef | null;
+  /** Neue Woche wird geladen: dezenter Indikator, Inhalt bleibt stehen. */
+  pending?: boolean;
 }) {
   const prev = [...weeks].reverse().find((w) => compareRef(w, value) < 0) ?? null;
   const next = weeks.find((w) => compareRef(w, value) > 0) ?? null;
@@ -132,7 +138,7 @@ export function WeekStepper({
     );
   };
   return (
-    <nav className="week-stepper" aria-label="Woche wählen">
+    <nav className={pending ? "week-stepper week-stepper-pending" : "week-stepper"} aria-label="Woche wählen" aria-busy={pending || undefined}>
       {step(prev, "left")}
       {isCurrent || !current ? (
         <span className="step-label" aria-current={isCurrent ? "page" : undefined}>
