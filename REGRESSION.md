@@ -471,3 +471,9 @@ R71 Schriften selbst gehostet
     Schritt: Alle Anfragen beim Durchklicken von Tipps, Einstellungen, Bilanz und Spielplan protokollieren.
     Erwartet: Keine Anfrage an fonts.googleapis.com oder fonts.gstatic.com. Die woff2 Dateien unter /AMF-Helper/fonts/ laden mit HTTP 200, document.fonts meldet Inter 400, 600, 700 und Barlow Condensed 600, 700, 800 als geladen.
     Status: bestanden lokal 2026-11-02. Auf GitHub Pages erneut prüfen (offen GitHub)
+
+R72 Duo Systemanzeige verdeckt keine Bedienelemente
+    Vorbedingung: Duo aufgeklappt quer oder zugeklappt, App vom Home Bildschirm.
+    Schritt: Rechte Spalte ansehen.
+    Erwartet: Uhrzeit, WLAN und Batterie von iOS stehen oben frei. Werkzeugkapsel (Aktualisieren, Glocke) und Navigation sitzen unten gestapelt, nichts überlappt. Lokal mit ?inset=84 bei 951x669: Werkzeugkapsel beginnt bei y 319, Navigation endet bei y 653.
+    Status: bestanden lokal 2026-11-02, offen Nutzer am Gerät

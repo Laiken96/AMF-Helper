@@ -282,9 +282,16 @@ a:hover {
   box-shadow: none;
 }
 
-[data-layout="side"] .nav-capsule,
-[data-layout="wide"] .nav-capsule {
+/* Auf dem Duo zeigt iOS Uhrzeit und WLAN oben in der rechten Spalte. Beide Kapseln sitzen deshalb
+   unten gestapelt, der obere Bereich der Leiste bleibt frei (Fix nach Gerätetest 2026-11-02). */
+[data-layout="side"] .rail > :first-child,
+[data-layout="wide"] .rail > :first-child {
   margin-top: auto;
+}
+
+[data-inset="duo"][data-layout="side"] .rail,
+[data-inset="duo"][data-layout="wide"] .rail {
+  padding-top: calc(var(--sat) + 120px);
 }
 
 [data-layout="side"] .nav-capsule a,
