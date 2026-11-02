@@ -1,0 +1,173 @@
+:root {
+  --bg: #f5f6f8;
+  --card: #ffffff;
+  --text: #15181d;
+  --muted: #5d6573;
+  --border: #dde1e7;
+  --accent: #0b5cad;
+  --live: #c62828;
+  --error-bg: #fdecea;
+  --error-text: #8a1c14;
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101317;
+    --card: #1a1f26;
+    --text: #e8ebef;
+    --muted: #9aa3b0;
+    --border: #2b323c;
+    --accent: #6fb1ff;
+    --live: #ff6b6b;
+    --error-bg: #3a1a18;
+    --error-text: #ffb4ab;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.meta {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.slot {
+  margin-top: 24px;
+}
+
+.slot h2 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.games,
+.byes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.matchup {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+}
+
+.matchup .team:last-child {
+  justify-self: end;
+  flex-direction: row-reverse;
+}
+
+.team {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.team img,
+.logo-placeholder {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: none;
+}
+
+.logo-placeholder {
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.at {
+  color: var(--muted);
+}
+
+.score {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.status-in_progress .status {
+  color: var(--live);
+  font-weight: 600;
+}
+
+.byes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.byes li {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 10px 4px 4px;
+}
+
+.byes .team img,
+.byes .logo-placeholder {
+  width: 22px;
+  height: 22px;
+}
+
+.notice {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 10px;
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.notice-error {
+  background: var(--error-bg);
+  color: var(--error-text);
+  border-color: transparent;
+}
+
+.notice-error p {
+  margin: 4px 0 0;
+}
