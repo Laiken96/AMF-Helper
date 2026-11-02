@@ -1,7 +1,87 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T17:47:22Z",
+  "updatedAt": "2026-11-02T18:47:18Z",
   "items": [
+    {
+      "id": "ecfdac202693d97b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jason-witten-reportedly-becomes-the-offensive-play-caller-at-oklahoma",
+      "title": "Jason Witten reportedly becomes the offensive play-caller at Oklahoma",
+      "summary": "If, as some believe, former Cowboys tight end Jason Witten is destined to eventually become the head coach of America's team, he's taking the next step in his coaching career with Oklahoma's team.",
+      "publishedAt": "2026-11-02T18:41:44Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "c6eaa6db0ecd54e6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-quarterback-trade-rumors-lamar-jackson-tyson-bagent",
+      "title": "Should Ravens trade for QB after Lamar Jackson, Tyler Huntley injuries? Possible candidates to watch",
+      "summary": "Baltimore could be without Jackson for the rest of the year",
+      "publishedAt": "2026-11-02T18:35:51Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "be10f8bb9e81159a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football",
+      "title": "Is Jadarian Price playing against the Bears? Latest Seahawks RB injury update for 'Monday Night Football'",
+      "summary": "The Seahawks could activate Jadarian Price from injured reserve before Monday night's game, but Mike Macdonald offered few clues about the rookie's status",
+      "publishedAt": "2026-11-02T18:31:15Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "37cb7750cd959195",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tnf-dips-to-16-56-million-for-panthers-packers",
+      "title": "TNF dips to 16.56 million for Panthers-Packers",
+      "summary": "Thursday Night Football continues to draw larger audiences, generally.",
+      "publishedAt": "2026-11-02T18:30:24Z",
+      "teamIds": [
+        "29",
+        "9"
+      ]
+    },
+    {
+      "id": "5dae4a06811dbdb1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-a-j-brown-well-see-how-he-progresses-during-the-week",
+      "title": "Mike Vrabel on A.J. Brown: We'll see how he progresses during the week",
+      "summary": "Patriots receiver A.J.",
+      "publishedAt": "2026-11-02T18:20:53Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "f7ee505e09ca8f8e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/hammond-isnt-giving-up-on-bears-making-a-move-to-indiana",
+      "title": "Hammond isn't giving up on Bears making a move to Indiana",
+      "summary": "The Bears are where we thought they were.",
+      "publishedAt": "2026-11-02T17:58:21Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "4818a6aa48de806a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pick-six-seahawks-bears-picks-mnf-15-crazy-stats-week-8",
+      "title": "Pick Six: Seahawks, Bears picks for 'MNF'; plus 15 crazy stats from Week 8",
+      "summary": "Here's everything you need to know about the NFL for Nov. 2",
+      "publishedAt": "2026-11-02T17:46:32Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
     {
       "id": "a55e8168962a78ff",
       "source": "pft",
@@ -327,7 +407,7 @@
       "id": "264f5909e7353397",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/seahawks-vs-bears-how-to-watch-prediction-odds-caleb-williams",
-      "title": "Seahawks vs. Bears how to watch, prediction, odds: Caleb Williams faces toughest test yet",
+      "title": "Seahawks vs. Bears: Caleb Williams faces toughest test yet in Seattle defense",
       "summary": "The Bears take their surging offense into Seattle for a matchup with one of the NFL's best defenses",
       "publishedAt": "2026-11-02T12:37:52Z",
       "teamIds": [
