@@ -12,7 +12,7 @@ Für ein Tippspiel unter Freunden (Sieger pro Spiel plus Tiebreaker Resultat) we
 - 1 Hauptnutzer (Entwickler selbst), tippt manuell auf einer externen Tippseite
 - Situation: Donnerstag Tippliste der Woche, Sonntag 17:40 und 21:00 kurzer Check der Ausfälle mit wenigen Minuten bis Tippschluss, meist am Handy
 - Später optional Freunde aus der Tippgruppe mit Lesezugriff
-- Anforderungen vom Nutzer selbst bestätigt am 2026-11-02 (D007 damit geprüft), Grösse der Freundesgruppe offen
+- Anforderungen vom Nutzer selbst bestätigt am 2026-11-02 (D007 damit geprüft), Tippgruppe 5 Personen inklusive Nutzer
 
 ## Definition of Done
 

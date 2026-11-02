@@ -145,3 +145,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: fetchedAt wird nur bei Inhaltsänderung geschrieben, die App beschriftet es als "Letzte Änderung". Ein Ausfall des Jobs wird ab Sprint 3 über den Ausfall Wächter erkannt, nicht über einen stündlichen Commit
 - Begründung: Ein Commit pro Stunde würde die Historie fluten
 - Verworfen: data/status.json mit Zeitpunkt jeder Prüfung
+
+## D021 Abweichungen nach Ranglistenstand
+
+- Datum: 2026-11-02
+- Entscheid: Ergänzt D015. Tippgruppe hat 5 Personen inklusive Nutzer, also 4 Gegner. Anzahl Abweichungs Kandidaten pro Woche hängt vom Rückstand in der Saisonrangliste ab: in Führung 0, bis 2 Punkte Rückstand höchstens 1, mehr Rückstand höchstens 2. Gegen Saisonende mit grossem Rückstand höchstens 3. Status: ungeprüft, Kalibrierung mit den Daten aus Sprint 4
+- Begründung: In einer kleinen Gruppe mit Saisonwertung erhöhen Abweichungen vor allem die Streuung. Das hilft nur, wer zurückliegt. Wer führt, verliert dadurch im Schnitt
+- Verworfen: feste Anzahl Abweichungen pro Woche
