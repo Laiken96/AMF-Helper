@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { Game } from "../src/core/schema";
 import type { GameTip, TipsFile } from "../src/core/tips-schema";
-import { buildReview, buildReviewIndex, reviewGame, sameReviewContent, tiebreakerDiff, winnerOf } from "../src/core/review";
+import { buildReview, buildReviewIndex, isVoid, reviewGame, sameReviewContent, tiebreakerDiff, winnerOf } from "../src/core/review";
 import { ReviewFileSchema, ReviewIndexSchema } from "../src/core/review-schema";
 
 const NOW = "2026-11-04T10:00:00Z";
@@ -130,12 +130,30 @@ describe("buildReview", () => {
     expect(r.tiebreakers[0]).toMatchObject({ actualHome: null, actualAway: null, diff: null });
   });
 
-  it("fehlendes Spiel ist offen, abgesagtes blockiert nicht", () => {
-    const games = [game("1", 24, 17), game("2", 10, 17), game("3", 20, 20), game("4", 3, 0)];
-    expect(buildReview(tips, games, NOW).complete).toBe(false);
-    const r = buildReview(tips, [...games, game("5", null, null, "canceled")], NOW);
-    expect(r.complete).toBe(true);
-    expect(r.games[4]).toMatchObject({ final: false, correct: null });
+  const four = [game("1", 24, 17), game("2", 10, 17), game("3", 20, 20), game("4", 3, 0)];
+
+  it("abgesagtes Spiel blockiert nicht, kein Punkt, zählt nicht in tipped", () => {
+    const r = buildReview(tips, [...four, game("5", null, null, "canceled")], NOW);
+    expect(r).toMatchObject({ complete: true, points: 2, tipped: 3, deviationNet: 1 });
+    expect(r.games[4]).toMatchObject({ final: false, correct: null, deviationEffect: null });
+    expect(isVoid(game("5", null, null, "canceled"), "2026-11-01T18:00:00Z", "2026-11-01T00:00:00Z")).toBe(true);
+  });
+
+  it("verschobenes oder fehlendes Spiel gilt erst ab Kickoff plus 7 Tage als erledigt", () => {
+    const before = "2026-11-08T17:59:59Z";
+    const after = "2026-11-08T18:00:00Z";
+    for (const games of [four, [...four, game("5", null, null, "postponed")]]) {
+      expect(buildReview(tips, games, before)).toMatchObject({ complete: false, tipped: 4 });
+      const r = buildReview(tips, games, after);
+      expect(r).toMatchObject({ complete: true, points: 2, tipped: 3 });
+      expect(r.games[4]).toMatchObject({ final: false, correct: null });
+      expect(r.tiebreakers[0]?.diff).toBeNull();
+    }
+  });
+
+  it("laufendes Spiel wird nie nach 7 Tagen erledigt", () => {
+    const r = buildReview(tips, [...four, game("5", 7, 3, "in_progress")], "2026-12-01T00:00:00Z");
+    expect(r).toMatchObject({ complete: false, tipped: 4 });
   });
 
   it("leere Tippdatei ist nie komplett", () => {

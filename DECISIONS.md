@@ -237,3 +237,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Push "Bilanz bereit" nur für die neueste komplette Woche, geprüft werden die zwei neuesten Bilanzen. Der Ranglisten Workflow hat eine eigene Concurrency Gruppe mit Retry beim Push
 - Begründung: Ein leeres push-log soll keine Flut alter Meldungen auslösen. In der Gruppe von data.yml könnte ein Cron Lauf eine wartende Ranglistenmeldung verdrängen
 - Verworfen: Meldung für jede fertige Woche ohne Begrenzung
+
+## D034 Review Ergebnisse Sprint 4
+
+- Datum: 2026-11-02
+- Entscheid: Ranglisten Meldung für dieselbe Woche ersetzt den letzten Eintrag (Korrektur), identische Meldung ist Erfolg ohne Änderung, Punkte höchstens 300, nur Owner als Autor und Sender. maxDeviations wird pro Woche beim ersten Lauf eingefroren, eine neue Rangliste wirkt ab der nächsten Woche. Abgesagte Spiele und ab Kickoff plus 7 Tage verschobene oder fehlende Spiele zählen in der Bilanz nicht. Ranglistenverlauf mit seasonType. Alle drei Workflows schreiben mit Retry
+- Begründung: unabhängiger Review und QA Sprint 4
+- Verworfen: Korrektur nur durch Bearbeiten der JSON Datei

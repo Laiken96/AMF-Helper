@@ -58,6 +58,15 @@ export function parseSeasonType(value: string | undefined): number | null {
   return null;
 }
 
+/** Obergrenze für Gesamtpunkte, mehr Spiele als 300 hat keine Saison bis zur letzten Woche. */
+export const MAX_POINTS = 300;
+export const RAW_MAX = 40;
+
+/** Rohwert für den Kommentar: eine Zeile, ohne Backticks, höchstens 40 Zeichen. */
+export function shortRaw(raw: string): string {
+  return raw.replace(/[\r\n]+/g, " ").replace(/`/g, "").replace(/\s+/g, " ").trim().slice(0, RAW_MAX);
+}
+
 export interface StandingsReport {
   season: number;
   seasonType: number;
@@ -75,7 +84,7 @@ export function parseReportBody(body: string): ParseReportResult {
     const raw = sections.get(label);
     const n = parseCount(raw);
     if (n === null) {
-      const shown = raw === undefined || raw === "" || raw === NO_RESPONSE ? "leer" : `"${raw.slice(0, 20)}"`;
+      const shown = raw === undefined || raw === "" || raw === NO_RESPONSE ? "leer" : `"${shortRaw(raw)}"`;
       errors.push(`${label}: keine gültige Zahl (${shown})`);
     }
     return n;
@@ -85,6 +94,9 @@ export function parseReportBody(body: string): ParseReportResult {
   if (seasonType === null) errors.push(`${FIELD_LABELS.seasonType}: nur Regular (2) oder Postseason (3)`);
   const week = need(FIELD_LABELS.week);
   const players = PLAYER_IDS.map((id) => ({ id, points: need(FIELD_LABELS[id]) }));
+  for (const p of players) {
+    if (p.points !== null && p.points > MAX_POINTS) errors.push(`${p.id}: ${p.points} Punkte ist mehr als ${MAX_POINTS}, Tippfehler?`);
+  }
   if (season !== null && (season < 2000 || season > 2100)) errors.push(`Saison ${season} ist unplausibel`);
   if (week !== null && (week < 1 || week > 23)) errors.push(`Woche ${week} muss zwischen 1 und 23 liegen`);
   if (errors.length > 0 || season === null || week === null || seasonType === null) return { ok: false, errors };

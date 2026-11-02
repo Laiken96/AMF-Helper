@@ -27,17 +27,19 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Sprint 3 gebaut am 2026-11-02: PWA mit Onboarding und Einstellungen, Push Versand über GitHub Actions alle 10 Minuten (D029, D031), Ausfall Wächter mit Grundstand ab Donnerstag (D030). 148 Tests grün. Abnahme am Handy offen: Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION.
+Sprint 4 gebaut am 2026-11-02: Wochenbilanz aus App Tipps und Resultaten, Ranglisten Formular als GitHub Issue mit Workflow (nur Owner), Reiter Bilanz, Push Bilanz bereit (D032 bis D034). 215 Tests grün. Damit sind alle sechs DoD Punkte gebaut, Abnahme an einer echten Woche (Week 9) offen.
 
 ## Befehle
 
 - npm run dev: lokaler Server
 - npm run typecheck, npm test, npm run build: Prüfungen vor jedem Commit
 - npm run job:schedule [-- --season 2026 --type 2 --week 9]: Spielplan holen
+- npm run job:review: Wochenbilanz rechnen
+- npm run job:standings: Ranglisten Meldung aus Issue Event verarbeiten (nur im Workflow)
 - npm run job:watch, npm run job:push: Ausfall Wächter und Push Versand (Versand nur auf main mit Secrets)
 - npm run job:tips [-- --season 2026 --type 2 --week 9]: Tippliste rechnen, ohne Argumente Woche aus data/current.json
 - vite preview braucht dasselbe BASE_PATH wie der Build
 
 ## Nächster Schritt
 
-Sprint 4: Gruppentipps per Issue Formular (D018), Wochenbilanz und Ranglistenstand automatisch, Push "Bilanz bereit".
+DoD Abnahme an Week 9 (Donnerstag bis Dienstag). Danach Gate 3 vor Sprint 5 (Liveticker).
