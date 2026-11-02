@@ -120,7 +120,10 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
   };
 
   const deviations = review.games.filter((g) => g.deviation);
-  const rate = review.tipped > 0 ? Math.round((review.points / review.tipped) * 100) : null;
+  // Trefferquote nur über entschiedene Tipps, offene Spiele zählen noch nicht
+  const decided = review.games.filter((g) => g.correct !== null).length;
+  const openTips = review.games.filter((g) => g.pickTeamId !== null && g.correct === null).length;
+  const rate = decided > 0 ? Math.round((review.points / decided) * 100) : null;
   const finals = review.games.filter((g) => g.final).length;
 
   return (
@@ -146,7 +149,14 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
           <p className="big-number">
             {review.points} <span className="of">von {review.tipped}</span>
           </p>
-          <p className="box-meta">{rate !== null ? `Trefferquote ${rate} %` : "Keine App Tipps in dieser Woche"}</p>
+          <p className="box-meta">
+            {review.tipped === 0
+              ? "Keine App Tipps in dieser Woche"
+              : rate !== null
+                ? `Trefferquote ${rate} %`
+                : "Noch kein getipptes Spiel entschieden"}
+            {openTips > 0 && `, ${openTips} ${openTips === 1 ? "Tipp" : "Tipps"} offen`}
+          </p>
         </section>
 
         <section className="box" aria-label="Abweichungen">
@@ -334,7 +344,7 @@ function GameList({
         {review.games.map((g) => {
           const game = gameById.get(g.gameId);
           const result =
-            g.correct === null ? (g.pickTeamId ? "offen" : "kein Tipp") : g.correct ? "richtig" : "falsch";
+            g.correct === null ? (g.pickTeamId ? "offen" : "") : g.correct ? "richtig" : "falsch";
           const resultCls = g.correct === null ? "res res-open" : g.correct ? "res res-ok" : "res res-bad";
           return (
             <li key={g.gameId} className="game review-game">

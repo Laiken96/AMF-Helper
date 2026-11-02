@@ -10,6 +10,7 @@ import {
 } from "../core/schema";
 import {
   ReviewFileSchema,
+  REVIEW_INDEX_PATH,
   ReviewIndexSchema,
   StandingsHistorySchema,
   type ReviewFile,
@@ -128,7 +129,7 @@ export interface ReviewData {
 
 /** Liste der Bilanzen, null wenn noch keine existiert. */
 export async function loadReviewIndex(): Promise<string[] | null> {
-  return loadOptionalJson("reviews/index.json", ReviewIndexSchema);
+  return loadOptionalJson(REVIEW_INDEX_PATH, ReviewIndexSchema);
 }
 
 /** Lädt eine Bilanz samt Wochendatei, Teams, Rangliste und Verlauf. */

@@ -1,5 +1,6 @@
 // Push Job (D029): entscheidet, welche Meldungen fällig sind, sendet sie mit web-push und schreibt data/push-log.json.
-// Liest data/current.json, die Woche, data/teams.json, die Tippdatei und die Ausfall Datei von jobs/watch.ts.
+// Liest data/current.json, die Woche, data/teams.json, die Tippdatei, die Ausfall Datei von jobs/watch.ts
+// und die neuesten Bilanzen laut data/reviews/index.json.
 // Ohne Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION: nur Log, push-log unverändert, Exit 0.
 // Aufruf: npm run job:push [-- --test]. Mit --test kommt sofort eine Testnachricht ohne Log Eintrag.
 import { fileURLToPath } from "node:url";
@@ -9,6 +10,7 @@ import { VAPID_PUBLIC_KEY, VAPID_SUBJECT, type PushPayload } from "../src/core/p
 import { CurrentFileSchema, TeamsFileSchema, WeekFileSchema, weekFilePath, type Team } from "../src/core/schema";
 import { TipsFileSchema, tipsFilePath } from "../src/core/tips-schema";
 import { InjuriesFileSchema, injuriesFilePath } from "../src/core/injuries";
+import { REVIEW_INDEX_PATH, ReviewFileSchema, ReviewIndexSchema, type ReviewFile } from "../src/core/review-schema";
 import {
   EMPTY_PUSH_LOG,
   PushLogFileSchema,
@@ -99,6 +101,25 @@ async function trySend(
   }
 }
 
+export const REVIEWS_CHECKED = 2;
+
+/** Liest die neuesten Reviews laut Index. Fehlt oder bricht etwas, kommen die übrigen Meldungen trotzdem. */
+async function loadNewestReviews(dataDir: string, log: (msg: string) => void): Promise<ReviewFile[]> {
+  try {
+    const raw = await readJsonStrict(join(dataDir, REVIEW_INDEX_PATH));
+    if (raw === undefined) return [];
+    const out: ReviewFile[] = [];
+    for (const path of ReviewIndexSchema.parse(raw).slice(0, REVIEWS_CHECKED)) {
+      const r = await readJsonStrict(join(dataDir, path));
+      if (r !== undefined) out.push(ReviewFileSchema.parse(r));
+    }
+    return out;
+  } catch (err) {
+    log(`Bilanz ungültig, Meldungen ohne Bilanz. ${describeError(err)}`);
+    return [];
+  }
+}
+
 interface Loaded {
   messages: DueMessage[];
   log: z.infer<typeof PushLogFileSchema>;
@@ -126,9 +147,11 @@ async function loadDue(dataDir: string, now: string, log: (msg: string) => void)
   }
   if (!injuries?.baseline) log("Kein Grundstand, Slot Meldungen ohne Ausfälle");
 
+  const reviews = await loadNewestReviews(dataDir, log);
+
   const logRaw = await readJsonStrict(join(dataDir, PUSH_LOG_PATH));
   const pushLog = logRaw === undefined ? EMPTY_PUSH_LOG : PushLogFileSchema.parse(logRaw);
-  const messages = dueMessages({ games: weekFile.games, tips, injuries, teams, now, log: pushLog });
+  const messages = dueMessages({ games: weekFile.games, tips, injuries, teams, now, log: pushLog, reviews });
   return { messages, log: pushLog };
 }
 

@@ -1,0 +1,95 @@
+# Ranglisten Meldung per Issue Formular (D032). Läuft nur für Issues des Repo Owners mit Label rangliste.
+# Issue Events starten Workflows nur vom Default Branch, also erst nach dem Merge auf main.
+# Sicherheit: Body und Titel des Issues kommen nie per Ausdruck in einen run Block. Der Job liest sie
+# aus der Event Datei (GITHUB_EVENT_PATH). Die Issue Nummer kommt über env.
+name: Rangliste übernehmen
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write # für den Start von pages.yml nach neuen Daten
+
+concurrency:
+  # Eigene Gruppe, damit ein wartender Lauf nicht von data.yml verdrängt wird. Konflikte beim Push löst der Retry.
+  group: standings-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  standings:
+    if: >-
+      github.event.issue.author_association == 'OWNER' &&
+      github.event.issue.state == 'open' &&
+      contains(github.event.issue.labels.*.name, 'rangliste')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      GH_TOKEN: ${{ github.token }}
+      COMMENT_FILE: ${{ runner.temp }}/standings-comment.md
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Meldung prüfen und übernehmen
+        id: apply
+        continue-on-error: true
+        run: npm run job:standings
+
+      - name: Änderungen committen
+        id: commit
+        if: steps.apply.outcome == 'success'
+        run: |
+          if [ -z "$(git status --porcelain -- data/standings.json data/standings-history.json)" ]; then
+            echo "Keine Änderungen an der Rangliste"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/standings.json data/standings-history.json
+          git commit -m "data: Rangliste aus Issue #$ISSUE_NUMBER"
+          # Bis zu 3 Versuche, falls data.yml oder push.yml gleichzeitig pusht.
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep $((i * 5))
+          done
+          echo "Push nach 3 Versuchen fehlgeschlagen"
+          exit 1
+
+      - name: Issue kommentieren und schliessen
+        if: steps.apply.outcome == 'success' && steps.commit.outcome == 'success'
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$COMMENT_FILE"
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --reason completed
+
+      - name: Fehler im Issue melden
+        if: steps.apply.outcome == 'failure' || steps.commit.outcome == 'failure'
+        run: |
+          if [ "${{ steps.commit.outcome }}" = "failure" ]; then
+            printf 'Rangliste geprüft, aber der Commit ist fehlgeschlagen. Issue bleibt offen. Bitte das Issue erneut speichern.\n' > "$COMMENT_FILE"
+          fi
+          if [ ! -s "$COMMENT_FILE" ]; then
+            printf 'Rangliste nicht übernommen, Grund siehe Log des Workflows. Issue bleibt offen.\n' > "$COMMENT_FILE"
+          fi
+          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$COMMENT_FILE"
+          exit 1
+
+      # Pushes mit GITHUB_TOKEN starten keine push Workflows, daher Pages hier explizit neu bauen.
+      - name: Pages neu bauen
+        if: steps.commit.outputs.pushed == 'true' && github.ref_name == 'main'
+        run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
