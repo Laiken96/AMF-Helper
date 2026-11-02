@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 9,
+  "updatedAt": "2026-11-02T23:01:12Z",
+  "games": [
+    {
+      "gameId": "401873037",
+      "kickoffUtc": "2026-11-06T01:15:00Z",
+      "homeId": "33",
+      "awayId": "30",
+      "pHome": 0.189,
+      "pAway": 0.809,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873038",
+      "kickoffUtc": "2026-11-08T14:30:00Z",
+      "homeId": "1",
+      "awayId": "4",
+      "pHome": 0.223,
+      "pAway": 0.775,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873039",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "18",
+      "awayId": "5",
+      "pHome": 0.626,
+      "pAway": 0.371,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873040",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "11",
+      "awayId": "6",
+      "pHome": 0.385,
+      "pAway": 0.612,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873041",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "29",
+      "awayId": "7",
+      "pHome": 0.362,
+      "pAway": 0.635,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873042",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "15",
+      "awayId": "8",
+      "pHome": 0.221,
+      "pAway": 0.777,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873043",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "28",
+      "awayId": "14",
+      "pHome": 0.273,
+      "pAway": 0.725,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873044",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "21",
+      "awayId": "19",
+      "pHome": 0.456,
+      "pAway": 0.54,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873045",
+      "kickoffUtc": "2026-11-08T18:00:00Z",
+      "homeId": "12",
+      "awayId": "20",
+      "pHome": 0.804,
+      "pAway": 0.194,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873046",
+      "kickoffUtc": "2026-11-08T21:05:00Z",
+      "homeId": "24",
+      "awayId": "34",
+      "pHome": 0.381,
+      "pAway": 0.616,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873047",
+      "kickoffUtc": "2026-11-08T21:25:00Z",
+      "homeId": "25",
+      "awayId": "13",
+      "pHome": 0.843,
+      "pAway": 0.156,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873048",
+      "kickoffUtc": "2026-11-08T21:25:00Z",
+      "homeId": "26",
+      "awayId": "22",
+      "pHome": 0.818,
+      "pAway": 0.181,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873049",
+      "kickoffUtc": "2026-11-08T21:25:00Z",
+      "homeId": "17",
+      "awayId": "9",
+      "pHome": 0.572,
+      "pAway": 0.425,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873050",
+      "kickoffUtc": "2026-11-09T01:20:00Z",
+      "homeId": "3",
+      "awayId": "27",
+      "pHome": 0.598,
+      "pAway": 0.399,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873051",
+      "kickoffUtc": "2026-11-10T01:15:00Z",
+      "homeId": "16",
+      "awayId": "2",
+      "pHome": 0.391,
+      "pAway": 0.606,
+      "fetchedAt": "2026-11-02T23:01:12Z",
+      "locked": false
+    }
+  ]
+}

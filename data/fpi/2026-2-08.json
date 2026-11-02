@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 8,
+  "updatedAt": "2026-11-02T23:01:11Z",
+  "games": [
+    {
+      "gameId": "401873036",
+      "kickoffUtc": "2026-11-03T01:15:00Z",
+      "homeId": "26",
+      "awayId": "3",
+      "pHome": 0.566,
+      "pAway": 0.43,
+      "fetchedAt": "2026-11-02T23:01:11Z",
+      "locked": false
+    }
+  ]
+}
