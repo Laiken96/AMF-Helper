@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # für den Start von pages.yml nach neuen Ausfällen
 
 concurrency:
   # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
@@ -62,14 +63,17 @@ jobs:
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
         run: npm run job:push
 
-      # Nur push-log und Ausfall Dateien. Kein Pages Neubau, die App braucht diese Daten nicht sofort.
+      # Nur push-log und Ausfall Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben.
       - name: Änderungen committen
+        id: commit
         if: inputs.test != 'true'
         run: |
           if [ -z "$(git status --porcelain -- data/push-log.json data/injuries)" ]; then
             echo "Keine Änderungen an push-log oder Ausfällen"
             exit 0
           fi
+          injuries_changed=false
+          [ -n "$(git status --porcelain -- data/injuries)" ] && injuries_changed=true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           paths=()
@@ -80,6 +84,7 @@ jobs:
           # Bis zu 3 Versuche, falls data.yml gleichzeitig pusht. Ein misslungener Rebase wird abgebrochen und wiederholt.
           for i in 1 2 3; do
             if git pull --rebase && git push; then
+              echo "injuries_pushed=$injuries_changed" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             git rebase --abort 2>/dev/null || true
@@ -88,6 +93,14 @@ jobs:
           done
           echo "Push nach 3 Versuchen fehlgeschlagen"
           exit 1
+
+      # Pushes mit GITHUB_TOKEN starten keine push Workflows, daher Pages hier explizit neu bauen, damit die
+      # App neue Ausfälle zeigt. Nur auf main, wie in data.yml.
+      - name: Pages neu bauen
+        if: steps.commit.outputs.injuries_pushed == 'true' && github.ref_name == 'main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
 
       # KI Zweitmeinung (D040) erst nach dem Versand und dessen Commit, damit sie Erinnerungen nie verzögert.
       # Schattenmodus, nicht in der App sichtbar. Höchstens 4 Spiele pro Lauf, jede Anfrage höchstens 60 Sekunden.

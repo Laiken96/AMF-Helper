@@ -14,8 +14,9 @@ permissions:
   actions: write # für den Start von pages.yml nach neuen Daten
 
 concurrency:
-  # Eigene Gruppe, damit ein wartender Lauf nicht von data.yml verdrängt wird. Konflikte beim Push löst der Retry.
-  group: standings-${{ github.ref }}
+  # Eigene Gruppe pro Issue: ein wartender Lauf wird weder von data.yml noch von einem zweiten Issue verdrängt.
+  # Läufe verschiedener Issues laufen parallel, Konflikte beim Push löst der Retry.
+  group: standings-${{ github.event.issue.number || github.ref }}
   cancel-in-progress: false
 
 jobs:
