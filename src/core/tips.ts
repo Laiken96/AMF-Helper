@@ -39,7 +39,8 @@ export function weekdayNewYork(kickoffUtc: string): string {
  * Reihenfolge thursday vor monday, fehlende Tage fallen weg.
  */
 export function tiebreakerGames(games: readonly Game[]): Array<{ slot: TiebreakerSlot; game: Game }> {
-  const sorted = [...games].sort(compareGames);
+  // Verschobene und abgesagte Spiele scheiden aus, sonst fiele der Tiebreaker auf ein Spiel ohne Wertung.
+  const sorted = games.filter((g) => g.status !== "postponed" && g.status !== "canceled").sort(compareGames);
   const out: Array<{ slot: TiebreakerSlot; game: Game }> = [];
   const days: Array<[TiebreakerSlot, string]> = [
     ["thursday", "Thu"],
@@ -299,13 +300,23 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
   const tipById = new Map(merged.map((t) => [t.gameId, t]));
   const prevTbs = sameWeek ? input.existing!.tiebreakers : [];
   const tiebreakers: Tiebreaker[] = [];
+  const lockedSlots = new Set<TiebreakerSlot>();
+  // Ein schon gesperrter Tiebreaker bleibt, auch wenn sein Spiel danach verschoben oder unterbrochen wird.
+  for (const prevTb of prevTbs) {
+    if (tipById.get(prevTb.gameId)?.locked) {
+      tiebreakers.push(prevTb);
+      lockedSlots.add(prevTb.slot);
+    }
+  }
   for (const { slot, game } of tiebreakerGames(games)) {
+    if (lockedSlots.has(slot)) continue;
     const tip = tipById.get(game.id)!;
     // Nie erfasste Spiele bekommen keinen Tiebreaker.
     if (tip.level === "nicht_erfasst") continue;
     const prevTb = prevTbs.find((t) => t.slot === slot && t.gameId === game.id);
     tiebreakers.push(tip.locked && prevTb ? prevTb : tiebreakerFor(game, tip.odds, slot, tip));
   }
+  tiebreakers.sort((a, b) => (a.slot === b.slot ? 0 : a.slot === "thursday" ? -1 : 1));
 
   return TipsFileSchema.parse({
     schemaVersion: TIPS_SCHEMA_VERSION,

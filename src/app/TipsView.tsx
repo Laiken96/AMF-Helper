@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Game, Team, WeekFile } from "../core/schema";
+import { tipResult, type TipResult } from "../core/review";
 import { tiebreakerGames } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
@@ -178,17 +179,6 @@ function TipsHeader({ data, updatedAt, pending }: { data: TipsData; updatedAt?: 
   );
 }
 
-type TipResult = "richtig" | "falsch" | "unentschieden" | "offen" | null;
-
-/** Ergebnis eines Tipps aus dem Spielstand der Wochendatei. null ohne Tipp. */
-function tipResult(tip: GameTip, game: Game | undefined): TipResult {
-  if (tip.pickTeamId === null || tip.level === "nicht_erfasst") return null;
-  if (!game || game.status !== "final" || game.homeScore === null || game.awayScore === null) return "offen";
-  if (game.homeScore === game.awayScore) return "unentschieden";
-  const winner = game.homeScore > game.awayScore ? game.homeId : game.awayId;
-  return winner === tip.pickTeamId ? "richtig" : "falsch";
-}
-
 type EntryStatus = "none" | "done" | "changed";
 
 interface TipRow extends GameTip {
@@ -233,7 +223,7 @@ function TipsList({
         id: t.gameId,
         game: gameById.get(t.gameId),
         tiebreaker: tips.tiebreakers.some((tb) => tb.gameId === t.gameId),
-        result: tipResult(t, gameById.get(t.gameId)),
+        result: tipResult(t, gameById.get(t.gameId), t.kickoffUtc, new Date(now).toISOString()),
       })),
     [tips, gameById, now],
   );
@@ -443,7 +433,8 @@ function TipsList({
         next={hp.next}
         headlines={headlines}
         variant={hp.variant}
-        result={hp.result}
+        // GameHero kennt ungewertet noch nicht, bis dahin wie offen
+        result={hp.result === "ungewertet" ? "offen" : hp.result}
         reviewHref={reviewHref}
         nav={nav}
       />
@@ -468,7 +459,7 @@ function TipsList({
   const progress = useMemo(() => {
     if (mode === "folgt") return { pct: 0, text: "Tipps folgen" };
     if (mode === "vergangen") {
-      const tipped = rows.filter((r) => r.result !== null).length;
+      const tipped = rows.filter((r) => r.result !== null && r.result !== "ungewertet").length;
       const right = rows.filter((r) => r.result === "richtig").length;
       return { pct: tipped > 0 ? Math.round((right / tipped) * 100) : 0, text: `${right} von ${tipped} richtig` };
     }
@@ -701,6 +692,7 @@ const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
   falsch: "falsch",
   unentschieden: "unentschieden",
   offen: "offen",
+  ungewertet: "ungewertet",
 };
 
 function TipItem({

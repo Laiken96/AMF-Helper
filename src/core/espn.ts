@@ -56,6 +56,7 @@ const EspnStatusSchema = z.looseObject({
     state: z.enum(["pre", "in", "post"]),
     detail: z.string().nullish(),
     shortDetail: z.string().nullish(),
+    completed: z.boolean().nullish(),
   }),
 });
 
@@ -87,7 +88,7 @@ export const EspnScoreboardSchema = z.looseObject({
 export type EspnScoreboard = z.infer<typeof EspnScoreboardSchema>;
 
 type EspnTeam = z.infer<typeof EspnTeamSchema>;
-type EspnStatus = z.infer<typeof EspnStatusSchema>;
+export type EspnStatus = z.infer<typeof EspnStatusSchema>;
 
 export type ParseResult =
   | { ok: true; week: WeekFile; teams: Team[] }
@@ -98,7 +99,13 @@ export interface ParseOptions {
   fetchedAt?: string;
 }
 
-export function mapStatus(status: EspnStatus): GameStatus {
+/**
+ * Bildet den ESPN Status auf den eigenen Status ab. Ohne Node Importe, die App nutzt die Funktion ebenfalls.
+ * Final nur bei state "post" mit completed true oder einem Namen ab STATUS_FINAL. Andere Endzustände wie
+ * STATUS_SUSPENDED, STATUS_ABANDONED, STATUS_FORFEIT oder STATUS_DELAYED gelten als verschoben, damit ein
+ * Teilstand nicht gewertet wird (D034). Ein später fortgesetztes Spiel wird beim nächsten Lauf final.
+ */
+export function mapStatus(status: Pick<EspnStatus, "type">): GameStatus {
   const name = status.type.name.toUpperCase();
   if (name === "STATUS_POSTPONED") return "postponed";
   if (name === "STATUS_CANCELED" || name === "STATUS_CANCELLED") return "canceled";
@@ -108,7 +115,7 @@ export function mapStatus(status: EspnStatus): GameStatus {
     case "in":
       return "in_progress";
     case "post":
-      return "final";
+      return status.type.completed === true || name.startsWith("STATUS_FINAL") ? "final" : "postponed";
   }
 }
 

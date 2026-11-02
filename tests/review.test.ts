@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { Game } from "../src/core/schema";
 import type { GameTip, TipsFile } from "../src/core/tips-schema";
-import { buildReview, buildReviewIndex, isVoid, reviewGame, sameReviewContent, tiebreakerDiff, winnerOf } from "../src/core/review";
+import { buildReview, buildReviewIndex, isVoid, reviewGame, sameReviewContent, tiebreakerDiff, tipResult, winnerOf } from "../src/core/review";
 import { ReviewFileSchema, ReviewIndexSchema } from "../src/core/review-schema";
 
 const NOW = "2026-11-04T10:00:00Z";
@@ -246,5 +246,42 @@ describe("KI Vergleich (opinionCompare)", () => {
   it("ohne gewertetes Spiel sind Quoten null", () => {
     const r = buildReview(tips, [game("4", null, null, "scheduled")], NOW, opinions);
     expect(r.opinionCompare).toMatchObject({ scored: 0, marketHitRate: null, aiHitRate: null, marketBrier: null, aiBrier: null });
+  });
+});
+
+describe("tipResult für die Tippliste", () => {
+  const KO = "2026-11-01T18:00:00Z";
+  const SOON = "2026-11-02T10:00:00Z";
+  const LATER = "2026-11-09T10:00:00Z";
+
+  it("null ohne Tipp oder bei nicht erfasst", () => {
+    expect(tipResult(tip("1", null), game("1", 20, 10), KO, SOON)).toBeNull();
+    expect(tipResult(tip("1", "home", { level: "nicht_erfasst" }), game("1", 20, 10), KO, SOON)).toBeNull();
+  });
+
+  it("richtig, falsch und unentschieden bei finalem Spiel", () => {
+    expect(tipResult(tip("1", "home"), game("1", 20, 10), KO, SOON)).toBe("richtig");
+    expect(tipResult(tip("1", "away"), game("1", 20, 10), KO, SOON)).toBe("falsch");
+    expect(tipResult(tip("1", "home"), game("1", 17, 17), KO, SOON)).toBe("unentschieden");
+  });
+
+  it("offen bei laufendem, geplantem, fehlendem oder final ohne Spielstand", () => {
+    expect(tipResult(tip("1", "home"), game("1", 7, 3, "in_progress"), KO, SOON)).toBe("offen");
+    expect(tipResult(tip("1", "home"), game("1", null, null, "scheduled"), KO, SOON)).toBe("offen");
+    expect(tipResult(tip("1", "home"), undefined, KO, SOON)).toBe("offen");
+    expect(tipResult(tip("1", "home"), game("1", null, null), KO, SOON)).toBe("offen");
+  });
+
+  it("abgesagtes Spiel sofort ungewertet", () => {
+    expect(tipResult(tip("1", "home"), game("1", null, null, "canceled"), KO, SOON)).toBe("ungewertet");
+  });
+
+  it("verschobenes Spiel mit Teilstand offen bis Kickoff plus 7 Tage, danach ungewertet", () => {
+    expect(tipResult(tip("1", "home"), game("1", 14, 3, "postponed"), KO, SOON)).toBe("offen");
+    expect(tipResult(tip("1", "home"), game("1", 14, 3, "postponed"), KO, LATER)).toBe("ungewertet");
+  });
+
+  it("fehlendes Spiel ab Kickoff plus 7 Tage ungewertet", () => {
+    expect(tipResult(tip("1", "home"), undefined, KO, LATER)).toBe("ungewertet");
   });
 });

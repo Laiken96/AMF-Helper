@@ -286,6 +286,23 @@ describe("Auswahl TNF und MNF (D025)", () => {
     const games = [game("sun", "2026-09-13T17:00:00Z"), game("mon", "2026-09-15T00:15:00Z")];
     expect(tiebreakerGames(games).map((t) => t.slot)).toEqual(["monday"]);
   });
+  it("verschobene und abgesagte Spiele scheiden vor der Wahl des spätesten aus", () => {
+    const games = [
+      game("t1", "2026-11-26T17:30:00Z"),
+      game("t2", "2026-11-26T21:30:00Z"),
+      game("t3", "2026-11-27T01:20:00Z", { status: "postponed" }),
+      game("m1", "2026-11-30T23:00:00Z"),
+      game("m2", "2026-12-01T01:15:00Z", { status: "canceled" }),
+    ];
+    expect(tiebreakerGames(games).map((t) => [t.slot, t.game.id])).toEqual([
+      ["thursday", "t2"],
+      ["monday", "m1"],
+    ]);
+  });
+  it("einziges Montagsspiel abgesagt liefert nur Donnerstag", () => {
+    const games = [game("thu", "2026-11-06T01:15:00Z"), game("mon", "2026-11-10T01:15:00Z", { status: "canceled" })];
+    expect(tiebreakerGames(games).map((t) => t.slot)).toEqual(["thursday"]);
+  });
   it("Woche ohne Donnerstag und Montag liefert keine", () => {
     expect(tiebreakerGames([game("sat", "2027-01-09T21:30:00Z")])).toEqual([]);
   });
@@ -400,6 +417,16 @@ describe("buildTipsFile", () => {
     // Ein weiterer Lauf übernimmt den gesperrten Tipp unverändert, auch lockedAt
     const third = buildTipsFile({ week: weekOf(games), odds: changed, standings: BEHIND, existing: next, now: "2026-11-07T00:00:00Z" });
     expect(third.tips.find((t) => t.gameId === "thu")).toEqual(thu);
+  });
+
+  it("gesperrter Tiebreaker bleibt, wenn sein Spiel danach unterbrochen wird", () => {
+    const first = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
+    const afterThu = "2026-11-06T02:00:00Z";
+    const locked = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: first, now: afterThu });
+    const suspended = games.map((g) => (g.id === "thu" ? { ...g, status: "postponed" as const } : g));
+    const next = buildTipsFile({ week: weekOf(suspended), odds: baseOdds, standings: BEHIND, existing: locked, now: afterThu });
+    expect(next.tiebreakers.map((t) => t.slot)).toEqual(["thursday", "monday"]);
+    expect(next.tiebreakers[0]).toEqual(first.tiebreakers[0]);
   });
 
   it("gesperrte Abweichung bleibt und zählt gegen das Budget", () => {
