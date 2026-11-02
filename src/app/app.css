@@ -2319,3 +2319,14 @@ html.sheet-open .page {
   font-size: 12px;
   padding: 0 10px;
 }
+
+/* Knöpfe in Fehlerhinweisen (Erneut versuchen, Neu laden) */
+.notice-actions {
+  margin-top: 12px;
+}
+
+.notice-error .error-detail {
+  font-size: 13px;
+  opacity: 0.8;
+  overflow-wrap: anywhere;
+}

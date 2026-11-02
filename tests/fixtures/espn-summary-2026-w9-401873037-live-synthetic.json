@@ -1,0 +1,362 @@
+{
+ "header": {
+  "id": "401873037",
+  "uid": "s:20~l:28~e:401873037",
+  "season": {
+   "year": 2026,
+   "current": true,
+   "type": 2
+  }
+ },
+ "drives": {
+  "previous": [
+   {
+    "id": "4018730371",
+    "description": "8 plays, 75 yards, 4:01",
+    "team": {
+     "id": "33",
+     "abbreviation": "BAL",
+     "displayName": "Baltimore Ravens"
+    },
+    "start": {
+     "period": {
+      "type": "quarter",
+      "number": 1
+     },
+     "clock": {
+      "displayValue": "15:00"
+     },
+     "yardLine": 25,
+     "text": "BAL 25"
+    },
+    "result": "TD",
+    "displayResult": "Touchdown",
+    "isScore": true,
+    "plays": [
+     {
+      "id": "401873037101",
+      "sequenceNumber": "037101",
+      "type": {
+       "id": "0",
+       "text": "Rush",
+       "abbreviation": ""
+      },
+      "text": "D.Henry run up the middle to BAL 29 for 4 yards",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "15:00"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-11-06T03:10Z",
+      "wallclock": "2026-11-06T03:10:00Z",
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 75,
+       "team": {
+        "id": "33"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 6,
+       "yardLine": 71,
+       "team": {
+        "id": "33"
+       }
+      },
+      "statYardage": 4
+     },
+     {
+      "id": "401873037102",
+      "sequenceNumber": "037102",
+      "type": {
+       "id": "0",
+       "text": "Pass Reception",
+       "abbreviation": ""
+      },
+      "text": "L.Jackson pass deep left to M.Andrews for 42 yards",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "14:21"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-11-06T03:10Z",
+      "wallclock": "2026-11-06T03:10:00Z",
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 75,
+       "team": {
+        "id": "33"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 6,
+       "yardLine": 71,
+       "team": {
+        "id": "33"
+       }
+      },
+      "statYardage": 4
+     },
+     {
+      "id": "401873037103",
+      "sequenceNumber": "037103",
+      "type": {
+       "id": "0",
+       "text": "Rushing Touchdown",
+       "abbreviation": ""
+      },
+      "text": "D.Henry 3 yard rush up the middle (J.Tucker kick)",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "10:59"
+      },
+      "scoringPlay": true,
+      "priority": false,
+      "modified": "2026-11-06T03:10Z",
+      "wallclock": "2026-11-06T03:10:00Z",
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 75,
+       "team": {
+        "id": "33"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 6,
+       "yardLine": 71,
+       "team": {
+        "id": "33"
+       }
+      },
+      "statYardage": 4
+     }
+    ]
+   },
+   {
+    "id": "4018730372",
+    "description": "3 plays, 5 yards, 1:40",
+    "team": {
+     "id": "30",
+     "abbreviation": "JAX",
+     "displayName": "Jacksonville Jaguars"
+    },
+    "result": "PUNT",
+    "displayResult": "Punt",
+    "isScore": false,
+    "plays": [
+     {
+      "id": "401873037201",
+      "sequenceNumber": "037201",
+      "type": {
+       "id": "0",
+       "text": "Rush",
+       "abbreviation": ""
+      },
+      "text": "T.Etienne run left end to JAX 27 for 2 yards",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "10:52"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-11-06T03:10Z",
+      "wallclock": "2026-11-06T03:10:00Z",
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 75,
+       "team": {
+        "id": "30"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 6,
+       "yardLine": 71,
+       "team": {
+        "id": "30"
+       }
+      },
+      "statYardage": 4
+     },
+     {
+      "id": "401873037201",
+      "sequenceNumber": "037201",
+      "type": {
+       "id": "0",
+       "text": "Rush",
+       "abbreviation": ""
+      },
+      "text": "T.Etienne run left end to JAX 27 for 2 yards",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "10:52"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-11-06T03:10Z",
+      "wallclock": "2026-11-06T03:10:00Z",
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 75,
+       "team": {
+        "id": "30"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 6,
+       "yardLine": 71,
+       "team": {
+        "id": "30"
+       }
+      },
+      "statYardage": 4
+     },
+     {
+      "id": "401873037202",
+      "text": "  ",
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "10:20"
+      }
+     },
+     {
+      "id": "401873037203",
+      "sequenceNumber": "037203",
+      "type": {
+       "id": "0",
+       "text": "Punt",
+       "abbreviation": ""
+      },
+      "text": "L.Cooke punts 48 yards to BAL 25",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "9:12"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-11-06T03:10Z",
+      "wallclock": "2026-11-06T03:10:00Z",
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 75,
+       "team": {
+        "id": "30"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 6,
+       "yardLine": 71,
+       "team": {
+        "id": "30"
+       }
+      },
+      "statYardage": 4
+     }
+    ]
+   }
+  ],
+  "current": {
+   "id": "4018730379",
+   "description": "2 plays, 12 yards, 0:48",
+   "team": {
+    "id": "33",
+    "abbreviation": "BAL",
+    "displayName": "Baltimore Ravens"
+   },
+   "plays": [
+    {
+     "id": "401873037901",
+     "sequenceNumber": "037901",
+     "type": {
+      "id": "0",
+      "text": "Timeout",
+      "abbreviation": ""
+     },
+     "text": "Timeout #1 by JAX at 05:00.",
+     "awayScore": 0,
+     "homeScore": 0,
+     "period": {
+      "number": 3
+     },
+     "clock": {
+      "displayValue": "5:00"
+     },
+     "scoringPlay": false,
+     "priority": false,
+     "modified": "2026-11-06T03:10Z",
+     "wallclock": "2026-11-06T03:10:00Z",
+     "start": {
+      "down": 1,
+      "distance": 10,
+      "yardLine": 75,
+      "team": {
+       "id": "33"
+      }
+     },
+     "end": {
+      "down": 2,
+      "distance": 6,
+      "yardLine": 71,
+      "team": {
+       "id": "33"
+      }
+     },
+     "statYardage": 4
+    },
+    {
+     "id": "401873037902",
+     "text": "L.Jackson pass short right to Z.Flowers for 12 yards",
+     "period": {
+      "number": 3
+     },
+     "clock": {
+      "displayValue": "4:12"
+     },
+     "scoringPlay": false,
+     "type": {
+      "text": "Pass Reception"
+     }
+    }
+   ]
+  }
+ }
+}

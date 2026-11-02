@@ -433,8 +433,7 @@ function TipsList({
         next={hp.next}
         headlines={headlines}
         variant={hp.variant}
-        // GameHero kennt ungewertet noch nicht, bis dahin wie offen
-        result={hp.result === "ungewertet" ? "offen" : hp.result}
+        result={hp.result}
         reviewHref={reviewHref}
         nav={nav}
       />

@@ -26,24 +26,33 @@ import {
   type StandingsFile,
   type TipsFile,
 } from "../core/tips-schema";
+import { DATA_TIMEOUT_MS, isTimeout, timeoutSignal } from "./net";
 
 export class LoadError extends Error {}
 
 const dataUrl = (path: string) => `${import.meta.env.BASE_URL}data/${path}`;
 
-async function fetchJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> {
-  let res: Response;
+/** Holt eine Datei als Text, mit Zeitlimit. HTTP 404 liefert null, wenn allowMissing gesetzt ist. */
+async function fetchText(path: string, allowMissing: boolean): Promise<{ text: string; contentType: string } | null> {
   try {
-    res = await fetch(dataUrl(path), { cache: "no-store" });
-  } catch {
-    throw new LoadError(`Netzwerkfehler beim Laden von ${path}. Bitte Verbindung prüfen und neu laden.`);
+    const res = await fetch(dataUrl(path), { cache: "no-store", signal: timeoutSignal(DATA_TIMEOUT_MS) });
+    if (allowMissing && res.status === 404) return null;
+    if (!res.ok) throw new LoadError(`Datei ${path} konnte nicht geladen werden (HTTP ${res.status}).`);
+    // Der Text gehört zum Abruf: auch ein hängender Body fällt unter das Zeitlimit
+    return { text: await res.text(), contentType: res.headers.get("content-type") ?? "" };
+  } catch (err) {
+    if (err instanceof LoadError) throw err;
+    if (isTimeout(err)) {
+      throw new LoadError(`Zeitüberschreitung beim Laden von ${path}. Bitte Verbindung prüfen und erneut versuchen.`);
+    }
+    throw new LoadError(`Netzwerkfehler beim Laden von ${path}. Bitte Verbindung prüfen und erneut versuchen.`);
   }
-  if (!res.ok) {
-    throw new LoadError(`Datei ${path} konnte nicht geladen werden (HTTP ${res.status}).`);
-  }
+}
+
+function parseText<S extends z.ZodType>(path: string, text: string, schema: S): z.infer<S> {
   let json: unknown;
   try {
-    json = await res.json();
+    json = JSON.parse(text);
   } catch {
     throw new LoadError(`Datei ${path} ist kein gültiges JSON.`);
   }
@@ -56,11 +65,18 @@ async function fetchJson<S extends z.ZodType>(path: string, schema: S): Promise<
   return parsed.data;
 }
 
+async function fetchJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> {
+  const res = await fetchText(path, false);
+  return parseText(path, res!.text, schema);
+}
+
 // ---------- Sitzungscache mit Hintergrundprüfung ----------
 // Jede Datei wird pro Sitzung einmal geladen, auch Nachbarwochen im Hintergrund. Fehler werden nicht
-// gespeichert. Solange der Tab sichtbar ist, werden alle geladenen Dateien alle 5 Minuten neu abgefragt,
-// ausserdem beim Zurückkehren in die App (letzte Prüfung älter als 60 s) und beim Knopf Aktualisieren.
+// im Cache gespeichert, aber als fehlgeschlagen gemerkt. Solange der Tab sichtbar ist, werden alle geladenen
+// und alle fehlgeschlagenen Dateien alle 5 Minuten neu abgefragt, ausserdem beim Zurückkehren in die App
+// (letzte Prüfung älter als 60 s), beim Knopf Aktualisieren und beim Knopf Erneut versuchen.
 // Ersetzt wird nur bei geändertem Inhalt, die Ansichten laden dann aus dem Cache neu, ohne Leerzustand.
+// Gelingt eine zuvor fehlgeschlagene Datei, laden die Ansichten ebenfalls neu, auch solche im Fehlerzustand.
 
 interface Entry {
   promise: Promise<unknown>;
@@ -70,6 +86,8 @@ interface Entry {
 }
 
 const cache = new Map<string, Entry>();
+/** Fehlgeschlagene Abrufe mit ihrer Ladefunktion, für den nächsten Versuch. */
+const failed = new Map<string, () => Promise<unknown>>();
 const REFRESH_EVENT = "nfl-data-refresh";
 export const REVALIDATE_MS = 5 * 60_000;
 const RETURN_MIN_MS = 60_000;
@@ -80,13 +98,16 @@ function cached<T>(key: string, load: () => Promise<T>): Promise<T> {
   const promise = load();
   const entry: Entry = { promise, load, settled: false };
   cache.set(key, entry);
+  failed.delete(key);
   promise.then(
     (value) => {
       entry.settled = true;
       entry.value = value;
     },
     () => {
-      if (cache.get(key) === entry) cache.delete(key);
+      if (cache.get(key) !== entry) return;
+      cache.delete(key);
+      failed.set(key, load);
     },
   );
   return promise;
@@ -101,35 +122,68 @@ const loadOptionalJson = <S extends z.ZodType>(path: string, schema: S): Promise
 let lastCheck = Date.now();
 let running: Promise<boolean> | null = null;
 
+const notifyViews = () => window.dispatchEvent(new Event(REFRESH_EVENT));
+
 /**
- * Fragt alle geladenen Dateien neu ab. Geänderte Inhalte ersetzen den Cache, danach laden die Ansichten neu.
- * Fehler einzelner Dateien behalten den bisherigen Stand. Liefert true, wenn sich etwas geändert hat.
+ * Fragt alle geladenen Dateien neu ab, dazu alle zuvor fehlgeschlagenen. Geänderte Inhalte ersetzen den Cache,
+ * danach laden die Ansichten neu. Fehler einzelner Dateien behalten den bisherigen Stand.
+ * Liefert true, wenn sich etwas geändert hat oder eine fehlgeschlagene Datei jetzt geladen werden konnte.
+ * Jeder Abruf hat ein Zeitlimit (DATA_TIMEOUT_MS), darum endet ein Durchgang immer.
  */
 export function revalidateData(): Promise<boolean> {
   if (running) return running;
   lastCheck = Date.now();
   running = (async () => {
     let changed = false;
-    await Promise.all(
-      [...cache.entries()]
-        .filter(([, e]) => e.settled)
-        .map(async ([key, e]) => {
-          try {
-            const value = await e.load();
-            if (JSON.stringify(value) === JSON.stringify(e.value)) return;
-            changed = true;
-            cache.set(key, { promise: Promise.resolve(value), load: e.load, settled: true, value });
-          } catch {
-            // Netzwerk oder Format: bisheriger Stand bleibt
-          }
-        }),
-    );
-    if (changed) window.dispatchEvent(new Event(REFRESH_EVENT));
+    const settled = [...cache.entries()].filter(([, e]) => e.settled);
+    const retry = [...failed.entries()];
+    await Promise.all([
+      ...settled.map(async ([key, e]) => {
+        try {
+          const value = await e.load();
+          if (JSON.stringify(value) === JSON.stringify(e.value)) return;
+          changed = true;
+          cache.set(key, { promise: Promise.resolve(value), load: e.load, settled: true, value });
+        } catch {
+          // Netzwerk oder Format: bisheriger Stand bleibt
+        }
+      }),
+      ...retry.map(async ([key, load]) => {
+        try {
+          const value = await load();
+          if (failed.get(key) === load) failed.delete(key);
+          changed = true;
+          // Hat eine Ansicht die Datei inzwischen selbst neu angefordert, bleibt deren Abruf bestehen
+          if (!cache.has(key)) cache.set(key, { promise: Promise.resolve(value), load, settled: true, value });
+        } catch {
+          // Weiterhin fehlgeschlagen: nächster Versuch bei der nächsten Prüfung
+        }
+      }),
+    ]);
+    if (changed) notifyViews();
     return changed;
   })().finally(() => {
     running = null;
   });
   return running;
+}
+
+/**
+ * Knopf Erneut versuchen: prüft wie revalidateData. Gab es keine fehlgeschlagene Datei zum Wiederholen, laden
+ * die Ansichten trotzdem neu, damit auch ein Fehler ausserhalb des Caches einen neuen Versuch bekommt.
+ * Geladene Dateien kommen dabei aus dem Cache.
+ */
+export async function retryLoad(): Promise<void> {
+  const hadFailed = failed.size > 0;
+  const changed = await revalidateData();
+  if (!changed && !hadFailed) notifyViews();
+}
+
+/** Nur für Tests: Cache und Fehlerliste leeren. */
+export function resetDataCacheForTests(): void {
+  cache.clear();
+  failed.clear();
+  running = null;
 }
 
 /** Startet die Hintergrundprüfung (5 Minuten, nur bei sichtbarem Tab). Rückgabe räumt Timer und Listener auf. */
@@ -172,32 +226,10 @@ export function useDataVersion(): number {
 
 /** Wie loadJson, liefert aber null, wenn die Datei fehlt (HTTP 404 oder HTML Antwort statt JSON). */
 async function fetchOptionalJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> {
-  let res: Response;
-  try {
-    res = await fetch(dataUrl(path), { cache: "no-store" });
-  } catch {
-    throw new LoadError(`Netzwerkfehler beim Laden von ${path}. Bitte Verbindung prüfen und neu laden.`);
-  }
-  if (res.status === 404) return null;
-  if (!res.ok) {
-    throw new LoadError(`Datei ${path} konnte nicht geladen werden (HTTP ${res.status}).`);
-  }
-  const contentType = res.headers.get("content-type") ?? "";
-  const text = await res.text();
-  if (contentType.includes("text/html") || /^\s*</.test(text)) return null;
-  let json: unknown;
-  try {
-    json = JSON.parse(text);
-  } catch {
-    throw new LoadError(`Datei ${path} ist kein gültiges JSON.`);
-  }
-  const parsed = schema.safeParse(json);
-  if (!parsed.success) {
-    const first = parsed.error.issues[0];
-    const where = first?.path.length ? ` bei Feld ${first.path.join(".")}` : "";
-    throw new LoadError(`Datei ${path} entspricht nicht dem erwarteten Format${where}.`);
-  }
-  return parsed.data;
+  const res = await fetchText(path, true);
+  if (!res) return null;
+  if (res.contentType.includes("text/html") || /^\s*</.test(res.text)) return null;
+  return parseText(path, res.text, schema);
 }
 
 /** Woche als Bezug für Wochenwähler und Hash (#tipps/2026-2-10). */
