@@ -34,8 +34,7 @@
   min-width: 0;
 }
 
-.game-detail-card section,
-.overlay-card .game-detail section {
+.game-detail-card section {
   margin-top: 16px;
 }
 

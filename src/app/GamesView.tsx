@@ -1,5 +1,4 @@
-import { useEffect, useMemo, useRef, type ReactNode } from "react";
-import { createPortal } from "react-dom";
+import { useEffect, useMemo } from "react";
 import { tipResult, type TipResult } from "../core/review";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, TipsFile } from "../core/tips-schema";
@@ -19,6 +18,7 @@ import {
 } from "./data";
 import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
+import { GameSheet } from "./Sheet";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { formatStand, statusWord } from "./wording";
@@ -187,16 +187,20 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
       <LiveStatus live={live} />
       {list}
       {selectedGame && (
-        <GameOverlay
-          game={selectedGame}
-          live={live.games.get(selectedGame.id)}
-          tip={tipOf(selectedGame.id)}
-          team={team}
-          stale={live.error}
-          now={now}
-          tipsHref={`#tipps/${weekKey(ref)}/${selectedGame.id}`}
-          onClose={() => select(null)}
-        />
+        <GameSheet title={`${team(selectedGame.awayId).abbr} @ ${team(selectedGame.homeId).abbr}`} onClose={() => select(null)}>
+          <section className="game-detail-card game-detail-sheet" aria-label="Spieldetail">
+            <GameDetail
+              game={selectedGame}
+              live={live.games.get(selectedGame.id)}
+              tip={tipOf(selectedGame.id)}
+              team={team}
+              stale={live.error}
+              now={now}
+              tipsHref={`#tipps/${weekKey(ref)}/${selectedGame.id}`}
+              showHead={false}
+            />
+          </section>
+        </GameSheet>
       )}
     </>
   );
@@ -358,7 +362,7 @@ function GameRow({
   );
 
   const scoreSpoken = showScore ? `${away.abbr} ${awayScore} zu ${homeScore} ${home.abbr}` : `${away.abbr} gegen ${home.abbr}`;
-  // wide wählt das Spiel für den Detailbereich, sonst öffnet das Antippen das Detail als Fenster
+  // wide wählt das Spiel für den Detailbereich, sonst öffnet das Antippen das Detail als Blatt von unten
   const btnProps = {
     type: "button" as const,
     className: "game-btn",
@@ -461,7 +465,7 @@ function restText(game: Game, team: (id: string) => Team): string | null {
 
 /**
  * Inhalt des Spieldetails: Spielstand, bei laufendem Spiel Lage und letzte Spielzüge, sonst und zusätzlich
- * die Spielinfo mit Kickoff, Ort, Tipp und Endstand. Genutzt im Detailbereich (wide) und im Fenster.
+ * die Spielinfo mit Kickoff, Ort, Tipp und Endstand. Genutzt im Detailbereich (wide) und im Blatt.
  */
 function GameDetail({
   game,
@@ -471,8 +475,7 @@ function GameDetail({
   stale,
   now,
   tipsHref,
-  titleId,
-  close,
+  showHead = true,
 }: {
   game: Game;
   live: LiveGame | undefined;
@@ -481,8 +484,8 @@ function GameDetail({
   stale: boolean;
   now: number;
   tipsHref: string;
-  titleId?: string;
-  close?: ReactNode;
+  /** Im Blatt steht die Paarung schon im Kopf des Blatts. */
+  showHead?: boolean;
 }) {
   const away = team(game.awayId);
   const home = team(game.homeId);
@@ -508,12 +511,13 @@ function GameDetail({
 
   return (
     <div className="game-detail">
-      <div className="overlay-head game-detail-head">
-        <h1 id={titleId}>
-          {away.abbr} @ {home.abbr}
-        </h1>
-        {close}
-      </div>
+      {showHead && (
+        <div className="overlay-head game-detail-head">
+          <h1>
+            {away.abbr} @ {home.abbr}
+          </h1>
+        </div>
+      )}
       <div className="live-board">
         <div className="live-board-team">
           <span className="hero-abbr">{away.abbr}</span>
@@ -615,48 +619,5 @@ function GameDetail({
         )}
       </section>
     </div>
-  );
-}
-
-/** Spieldetail als Fenster (compact, medium, side). Fokus beim Öffnen auf Schliessen, Escape schliesst. */
-function GameOverlay({
-  onClose,
-  ...props
-}: Omit<Parameters<typeof GameDetail>[0], "titleId" | "close"> & { onClose: () => void }) {
-  const closeRef = useRef<HTMLButtonElement>(null);
-  const onCloseRef = useRef(onClose);
-  onCloseRef.current = onClose;
-
-  // Fokus beim Öffnen auf Schliessen, beim Schliessen zurück auf die Spielzeile
-  useEffect(() => {
-    const opener = document.activeElement as HTMLElement | null;
-    closeRef.current?.focus();
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onCloseRef.current();
-    };
-    document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      if (opener && document.contains(opener)) opener.focus({ preventScroll: true });
-    };
-  }, []);
-
-  const titleId = `game-title-${props.game.id}`;
-  // Portal an body, damit das Overlay nicht von den Spaltenregeln der Seite beschnitten wird
-  return createPortal(
-    <div className="overlay" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="overlay-card live-detail" role="dialog" aria-modal="true" aria-labelledby={titleId}>
-        <GameDetail
-          {...props}
-          titleId={titleId}
-          close={
-            <button ref={closeRef} type="button" className="btn btn-close" onClick={onClose}>
-              Schliessen
-            </button>
-          }
-        />
-      </div>
-    </div>,
-    document.body,
   );
 }

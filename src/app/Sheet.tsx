@@ -39,6 +39,7 @@ export function GameSheet({ title, onClose, children }: { title: string; onClose
   onCloseRef.current = onClose;
   const drag = useRef<Drag | null>(null);
   const closing = useRef(false);
+  const leaveTimer = useRef<number | undefined>(undefined);
 
   useEffect(() => {
     const opener = document.activeElement as HTMLElement | null;
@@ -68,6 +69,7 @@ export function GameSheet({ title, onClose, children }: { title: string; onClose
     };
     document.addEventListener("keydown", onKey);
     return () => {
+      window.clearTimeout(leaveTimer.current);
       document.removeEventListener("keydown", onKey);
       root.classList.remove("sheet-open");
       if (opener && document.contains(opener)) opener.focus({ preventScroll: true });
@@ -126,7 +128,7 @@ export function GameSheet({ title, onClose, children }: { title: string; onClose
       }
       setOffset(el.offsetHeight + 40, true);
       el.classList.add("sheet-leaving");
-      window.setTimeout(() => onCloseRef.current(), 200);
+      leaveTimer.current = window.setTimeout(() => onCloseRef.current(), 200);
       return;
     }
     setOffset(0, true);

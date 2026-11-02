@@ -341,8 +341,12 @@ export function GameHero({
         <div className="hero-small-body">
           {ring}
           <div className="hero-small-text">
-            <span className="hero-matchup">
-              {scores ? `${away.abbr} ${scores[0]} : ${scores[1]} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
+            <span className="hero-matchup hero-matchup-logos">
+              <TeamLogo team={away} size={24} className="hero-mini-logo" />
+              <span className="hero-matchup-text">
+                {scores ? `${away.abbr} ${scores[0]} : ${scores[1]} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
+              </span>
+              <TeamLogo team={home} size={24} className="hero-mini-logo" />
             </span>
             <span>
               Tipp {pick ? pick.abbr : "offen"}

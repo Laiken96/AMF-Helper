@@ -960,13 +960,6 @@ a:hover {
   min-height: 44px;
 }
 
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  flex: none;
-}
-
 .tip-pick {
   font-family: var(--font-num);
   font-weight: 800;
@@ -1394,6 +1387,8 @@ a:hover {
 }
 
 .table-scroll {
+  /* position relative, damit absolut gesetzte .sr-only Texte in den Zellen mitscrollen statt die Seite zu verbreitern */
+  position: relative;
   overflow-x: auto;
   border-radius: 14px;
 }
@@ -1784,10 +1779,6 @@ a.step-today:hover {
   color: var(--text-2);
 }
 
-.live-detail h2 {
-  margin-top: 4px;
-}
-
 .live-board {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -1821,12 +1812,6 @@ a.step-today:hover {
   font-size: 13px;
   text-align: center;
   color: var(--text-2);
-}
-
-.overlay-card .live-situation {
-  margin-top: 10px;
-  font-weight: 600;
-  color: var(--text);
 }
 
 .plays {
@@ -2890,10 +2875,40 @@ tr.me .missing,
 .layout-diag {
   font-size: 12px;
   color: var(--text-3);
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .layout-diag ol {
   margin: 8px 0 0;
   padding-left: 18px;
   display: grid;
   gap: 6px;
+}
+
+/* Duo zugeklappt (side): kleine Logos neben der Paarung */
+.hero-matchup-logos {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.hero-matchup-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hero-mini-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex: none;
+}
+
+.logo-placeholder.hero-mini-logo {
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
 }

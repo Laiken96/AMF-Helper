@@ -5,8 +5,19 @@ import { compareRef, retryLoad, sameRef, weekKey, type WeekPhase, type WeekRef }
 
 /** Teamlogo als dekoratives Bild (alt leer, das Kürzel steht immer als Text daneben). Ohne Logo ein neutraler Kreis. */
 export function TeamLogo({ team, size = 28, className }: { team: Team; size?: number; className?: string }) {
-  return team.logo ? (
-    <img className={className} src={team.logo} alt="" width={size} height={size} loading="lazy" decoding="async" />
+  // Lädt das Logo nicht (offline, gesperrt, Fehler der Quelle), erscheint der neutrale Kreis statt eines kaputten Bildes
+  const [failed, setFailed] = useState<string | null>(null);
+  return team.logo && failed !== team.logo ? (
+    <img
+      className={className}
+      src={team.logo}
+      alt=""
+      width={size}
+      height={size}
+      loading="lazy"
+      decoding="async"
+      onError={() => setFailed(team.logo)}
+    />
   ) : (
     <span className={className ? `logo-placeholder ${className}` : "logo-placeholder"} aria-hidden="true" />
   );
