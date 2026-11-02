@@ -180,6 +180,7 @@ export function GameHero({
   variant = "offen",
   result = null,
   reviewHref = "#bilanz",
+  nav = null,
 }: {
   target: HeroTarget | null;
   empty?: HeroEmpty;
@@ -195,6 +196,8 @@ export function GameHero({
   /** Ergebnis des Tipps, nur bei variant final. */
   result?: HeroResult | null;
   reviewHref?: string;
+  /** Pfeile zum Durchblättern der Spiele, oben im Spielbereich. */
+  nav?: ReactNode;
 }) {
   const layout = useLayoutValue();
 
@@ -339,6 +342,7 @@ export function GameHero({
   if (layout === "side") {
     return (
       <section className="hero hero-small" style={style} aria-label={sectionLabel}>
+        {nav}
         {head}
         <div className="hero-small-body">
           {ring}
@@ -392,6 +396,7 @@ export function GameHero({
   if (layout === "medium") {
     return (
       <section className="hero hero-split" style={style} aria-label={sectionLabel}>
+        {nav && <div className="hero-split-nav">{nav}</div>}
         <div className="hero-col">
           {head}
           {teams}
@@ -407,6 +412,7 @@ export function GameHero({
 
   return (
     <section className={`hero${big ? " hero-big" : ""}`} style={style} aria-label={sectionLabel}>
+      {nav}
       {head}
       {teams}
       {fields}

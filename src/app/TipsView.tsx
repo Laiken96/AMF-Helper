@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tiebreakerGames } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
@@ -14,7 +15,7 @@ import {
   weekKey,
   type TipsData,
 } from "./data";
-import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type HeroTarget } from "./GameHero";
+import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type HeroTarget, type HeroVariant } from "./GameHero";
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
@@ -86,7 +87,9 @@ const LEVEL_COLOR: Record<GameTip["level"], string> = {
 };
 
 export function TipsView({ arg = null }: { arg?: string | null }) {
-  const { data, error, pending } = useKeptLoad(`tipps:${arg ?? ""}`, () => loadTipsData(parseWeekKey(arg)));
+  // #tipps/2026-2-09/401873037: Woche und gewähltes Spiel. Nur die Woche löst ein Laden aus.
+  const [weekArg = null, gameArg = null] = arg ? arg.split("/") : [];
+  const { data, error, pending } = useKeptLoad(`tipps:${weekArg ?? ""}`, () => loadTipsData(parseWeekKey(weekArg)));
 
   // Nachbarwochen im Hintergrund vorladen, damit der nächste Wechsel aus dem Cache kommt
   useEffect(() => {
@@ -113,6 +116,7 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
       tips={tips}
       mode={mode}
       pending={pending}
+      selectedId={gameArg}
     />
   );
 }
@@ -200,12 +204,15 @@ function TipsList({
   tips,
   mode,
   pending,
+  selectedId,
 }: {
   data: TipsData;
   week: WeekFile;
   tips: TipsFile;
   mode: Mode;
   pending: boolean;
+  /** Gewähltes Spiel aus dem Hash, null heisst Standardspiel. */
+  selectedId: string | null;
 }) {
   const layout = useLayoutValue();
   const now = useNow();
@@ -316,26 +323,141 @@ function TipsList({
   }, [rows, tips, now, live.games, teamById, mode]);
 
   const header = <TipsHeader data={data} updatedAt={data.tips ? tips.updatedAt : undefined} pending={pending} />;
-  const headlines =
-    hero && !readOnly
-      ? heroHeadlines(data.news?.items, [hero.game.awayId, hero.game.homeId], now, layout === "side" ? 1 : 2)
-      : [];
-  const heroRow = hero ? rows.find((r) => r.gameId === hero.game.id) : undefined;
-  const heroEl = (
-    <GameHero
-      target={hero}
-      empty={heroEmpty}
-      team={team}
-      injuries={data.injuries}
-      now={now}
-      live={heroLive}
-      next={heroNext}
-      headlines={headlines}
-      variant={mode === "vergangen" ? "final" : mode === "folgt" ? "folgt" : "offen"}
-      result={heroRow?.result ?? null}
-      reviewHref={reviewHref}
-    />
-  );
+  // ---------- Auswahl eines Spiels (List Detail, D037) ----------
+  const baseHash = `#tipps/${weekKey(data.ref)}`;
+  const defaultId = hero?.game.id ?? null;
+  const selectedRow = selectedId ? rows.find((r) => r.gameId === selectedId && r.game) : undefined;
+  const shownRow = selectedRow ?? (defaultId ? rows.find((r) => r.gameId === defaultId) : undefined);
+  const select = (id: string | null) => {
+    const target = id ? `${baseHash}/${id}` : baseHash;
+    if (window.location.hash !== target) window.location.hash = target;
+  };
+  const wide = layout === "wide";
+  // Reihenfolge der Liste mit aktivem Filter. Liegt das gezeigte Spiel ausserhalb, zählt seine Position in Alle.
+  const allOrder = groupBySlot(rows).flatMap((sl) => sl.games).filter((r) => r.game);
+  const visibleIds = new Set(visible.map((r) => r.gameId));
+  const shownIdx = shownRow ? allOrder.findIndex((r) => r.gameId === shownRow.gameId) : -1;
+  const prevRow = shownIdx >= 0 ? [...allOrder.slice(0, shownIdx)].reverse().find((r) => visibleIds.has(r.gameId)) : undefined;
+  const nextRow = shownIdx >= 0 ? allOrder.slice(shownIdx + 1).find((r) => visibleIds.has(r.gameId)) : undefined;
+  const visibleOrder = allOrder.filter((r) => visibleIds.has(r.gameId));
+  const posInList = shownRow ? visibleOrder.findIndex((r) => r.gameId === shownRow.gameId) : -1;
+  const matchupOf = (r: TipRow) => (r.game ? `${team(r.game.awayId).abbr} @ ${team(r.game.homeId).abbr}` : `Spiel ${r.gameId}`);
+  const isDefault = !selectedRow || selectedRow.gameId === defaultId;
+  const homeLabel = mode === "offen" ? "Zum nächsten Tippschluss" : mode === "folgt" ? "Zum ersten Spiel" : "Zum letzten Spiel";
+
+  const heroProps = (row: TipRow | undefined, isSelected: boolean) => {
+    if (!row || !row.game || !isSelected) {
+      return {
+        target: hero,
+        live: heroLive,
+        next: heroNext,
+        variant: (mode === "vergangen" ? "final" : mode === "folgt" ? "folgt" : "offen") as HeroVariant,
+        result: (hero ? rows.find((r) => r.gameId === hero.game.id)?.result : null) ?? null,
+        game: hero?.game,
+      };
+    }
+    const lv = live.games.get(row.gameId);
+    const running = lv?.state === "in";
+    const variant: HeroVariant =
+      mode === "folgt"
+        ? "folgt"
+        : mode === "vergangen" || (!running && (row.locked || row.game.status === "final"))
+          ? "final"
+          : "offen";
+    return {
+      target: { tip: row, game: row.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === row.gameId) } as HeroTarget,
+      live: running ? (lv ?? null) : null,
+      next: running ? heroNext : null,
+      variant,
+      result: row.result,
+      game: row.game,
+    };
+  };
+
+  const renderHero = (inSheet: boolean) => {
+    const useSelection = inSheet || wide;
+    const hp = heroProps(useSelection ? shownRow : undefined, useSelection && Boolean(selectedRow));
+    const headlines =
+      hp.game && !readOnly
+        ? heroHeadlines(data.news?.items, [hp.game.awayId, hp.game.homeId], now, layout === "side" ? 1 : 2)
+        : [];
+    const nav =
+      useSelection && shownRow ? (
+        <div className="hero-nav" role="group" aria-label="Spiel wählen">
+          <button
+            type="button"
+            className="hero-nav-arrow"
+            disabled={!prevRow}
+            aria-label={prevRow ? `Vorheriges Spiel, ${matchupOf(prevRow)}` : "Kein vorheriges Spiel"}
+            onClick={() => prevRow && select(prevRow.gameId)}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M15 5l-7 7 7 7" />
+            </svg>
+          </button>
+          <span className="hero-nav-pos">
+            {posInList >= 0 ? (
+              <>
+                <span aria-hidden="true">
+                  {posInList + 1}/{visibleOrder.length}
+                </span>
+                <span className="sr-only">
+                  Spiel {posInList + 1} von {visibleOrder.length}
+                </span>
+              </>
+            ) : (
+              "ausserhalb Filter"
+            )}
+          </span>
+          <button
+            type="button"
+            className="hero-nav-arrow"
+            disabled={!nextRow}
+            aria-label={nextRow ? `Nächstes Spiel, ${matchupOf(nextRow)}` : "Kein nächstes Spiel"}
+            onClick={() => nextRow && select(nextRow.gameId)}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            className="hero-nav-home"
+            style={isDefault || !defaultId ? { visibility: "hidden" } : undefined}
+            aria-hidden={isDefault || !defaultId ? true : undefined}
+            tabIndex={isDefault || !defaultId ? -1 : undefined}
+            onClick={() => select(inSheet ? defaultId : null)}
+          >
+            {homeLabel}
+          </button>
+        </div>
+      ) : null;
+    return (
+      <GameHero
+        target={hp.target}
+        empty={heroEmpty}
+        team={team}
+        injuries={data.injuries}
+        now={now}
+        live={hp.live}
+        next={hp.next}
+        headlines={headlines}
+        variant={hp.variant}
+        result={hp.result}
+        reviewHref={reviewHref}
+        nav={nav}
+      />
+    );
+  };
+  const heroEl = renderHero(false);
+
+  // wide: gewählte Zeile in der Liste sichtbar halten
+  const shownId = shownRow?.gameId ?? null;
+  useEffect(() => {
+    if (!wide || !shownId || !selectedId) return;
+    document.querySelector(`[data-anchor="${CSS.escape(shownId)}"]`)?.scrollIntoView({ block: "nearest" });
+  }, [wide, shownId, selectedId]);
+
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} open={mode === "folgt"} />
@@ -397,6 +519,8 @@ function TipsList({
                     readOnly={readOnly}
                     upcoming={mode === "folgt"}
                     live={live.games.get(row.gameId)}
+                    selected={wide && row.gameId === shownId}
+                    onSelect={() => select(row.gameId)}
                   />
                 ))}
               </ul>
@@ -426,7 +550,69 @@ function TipsList({
       {heroEl}
       {tiles}
       {list}
+      {selectedRow && (
+        <GameSheet title={matchupOf(selectedRow)} onClose={() => select(null)}>
+          {renderHero(true)}
+        </GameSheet>
+      )}
     </>
+  );
+}
+
+/** Spielbereich als Blatt von unten (compact, side, medium). Hintergrund gesperrt, Fokus bleibt im Blatt. */
+function GameSheet({ title, onClose, children }: { title: string; onClose: () => void; children: ReactNode }) {
+  const sheetRef = useRef<HTMLDivElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
+
+  useEffect(() => {
+    const opener = document.activeElement as HTMLElement | null;
+    const root = document.documentElement;
+    root.classList.add("sheet-open");
+    closeRef.current?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        onCloseRef.current();
+        return;
+      }
+      if (e.key !== "Tab" || !sheetRef.current) return;
+      const items = [...sheetRef.current.querySelectorAll<HTMLElement>("a[href], button:not([disabled])")].filter(
+        (el) => el.tabIndex >= 0 && el.offsetParent !== null,
+      );
+      if (items.length === 0) return;
+      const first = items[0]!;
+      const last = items[items.length - 1]!;
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      root.classList.remove("sheet-open");
+      if (opener && document.contains(opener)) opener.focus({ preventScroll: true });
+    };
+  }, []);
+
+  return createPortal(
+    <div className="sheet-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
+      <div ref={sheetRef} className="sheet" role="dialog" aria-modal="true" aria-label={`Spiel ${title}`}>
+        <div className="sheet-head">
+          <span className="sheet-grip" aria-hidden="true" />
+          <button ref={closeRef} type="button" className="btn btn-close" onClick={onClose}>
+            Schliessen
+          </button>
+        </div>
+        {children}
+      </div>
+    </div>,
+    document.body,
   );
 }
 
@@ -525,6 +711,8 @@ function TipItem({
   readOnly = false,
   upcoming = false,
   live,
+  selected = false,
+  onSelect,
 }: {
   row: TipRow;
   team: (id: string) => Team;
@@ -534,6 +722,9 @@ function TipItem({
   /** Woche ohne Tippdatei: Status offen statt Prozent, kein Häkchen. */
   upcoming?: boolean;
   live?: LiveGame;
+  /** Zeile ist im Spielbereich gezeigt (wide). */
+  selected?: boolean;
+  onSelect?: () => void;
 }) {
   const notCaptured = row.level === "nicht_erfasst";
   const checked = status === "done";
@@ -551,6 +742,7 @@ function TipItem({
   if (checked) classes.push("done");
   if (status === "changed") classes.push("changed-entry");
   if (row.locked) classes.push("locked");
+  if (selected) classes.push("selected");
 
   const pct = hasPick && row.pickProb !== null ? Math.round(row.pickProb * 100) : null;
   const info = upcoming ? "Quote folgt" : notCaptured ? "nicht erfasst" : pct !== null ? `${row.deviation ? "Abw. " : ""}${pct} %` : "keine Quote";
@@ -573,15 +765,23 @@ function TipItem({
   return (
     <li className={classes.join(" ")} data-anchor={row.gameId}>
       <div className="tip-row">
-        <span className="dot" style={{ background: dot }} aria-hidden="true" />
-        <span className={hasPick ? "tip-pick" : "tip-pick nopick"} title={pick?.name}>
-          {pick ? pick.abbr : `Spiel ${row.gameId}`}
-        </span>
-        <span className="tip-vs">{vs}</span>
-        <span className="tip-info">
-          <span style={{ color: infoColor }}>{info}</span>
-          {!notCaptured && <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>}
-        </span>
+        <button
+          type="button"
+          className="tip-select"
+          onClick={onSelect}
+          aria-current={selected ? "true" : undefined}
+          aria-label={`${game ? `${team(game.awayId).abbr} @ ${team(game.homeId).abbr}` : `Spiel ${row.gameId}`}, Tipp ${hasPick && pick ? pick.abbr : "offen"}, ${info}. Im Spielbereich zeigen`}
+        >
+          <span className="dot" style={{ background: dot }} aria-hidden="true" />
+          <span className={hasPick ? "tip-pick" : "tip-pick nopick"} title={pick?.name}>
+            {pick ? pick.abbr : `Spiel ${row.gameId}`}
+          </span>
+          <span className="tip-vs">{vs}</span>
+          <span className="tip-info">
+            <span style={{ color: infoColor }}>{info}</span>
+            {!notCaptured && <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>}
+          </span>
+        </button>
         {upcoming ? (
           <span className="tick-spacer" aria-hidden="true" />
         ) : readOnly ? (

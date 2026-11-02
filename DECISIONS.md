@@ -336,3 +336,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ersetzt den Teil von D044 zur Bilanz Wochenwahl. Die Bilanz nutzt dieselbe Wochenliste wie Tipps und Spiele. Wochen ohne Bilanz zeigen im gleichen Aufbau einen Hinweis. Startwoche bleibt die neueste Woche mit Bilanz
 - Begründung: Nutzerbefund, der Wähler wirkte mit nur einer Bilanzwoche wie defekt
 - Verworfen: Wähler nur über Wochen mit Bilanz
+
+## D048 Spielbereich per Auswahl (List Detail)
+
+- Datum: 2026-11-02
+- Entscheid: Wunsch des Nutzers. Im Layout wide wählt ein Antippen einer Spielzeile das Spiel für den Spielbereich links, mit Pfeilen zum Durchklicken (folgen dem aktiven Filter) und Knopf "Zum nächsten Tippschluss". In compact, side und medium öffnet das Antippen denselben Spielbereich als Blatt von unten. Gesperrte Spiele zeigen Endresultat mit richtig oder falsch, laufende den Live Score. Auswahl im Hash, Wochenwechsel setzt zurück. Häkchen ändert die Auswahl nicht
+- Begründung: Spielbereich zeigte bisher fix das nächste Tippschluss Spiel, die Liste rechts war nicht mit ihm verbunden. Entspricht dem List Detail Muster für breite Bildschirme
+- Verworfen: Wischgesten (optional, später)
