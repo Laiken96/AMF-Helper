@@ -101,19 +101,38 @@ function gameLabel(teams: ReadonlyMap<string, Team>, g: Pick<Game, "awayId" | "h
   return `${abbrOf(teams, g.awayId)}@${abbrOf(teams, g.homeId)}`;
 }
 
-/** "Tippliste bereit": Anzahl Spiele, Abweichungen und beide Tiebreaker. Null ohne Quote. */
-export function tipsReadyMessage(tips: TipsFile, games: readonly Game[], teams: ReadonlyMap<string, Team>): DueMessage | null {
+/**
+ * "Tippliste bereit": Anzahl offener Spiele, deren Abweichungen und Tiebreaker. Gesperrte Spiele (Tipp oder
+ * Kickoff vorbei, Spiel nicht mehr geplant) zählen nicht. Null ohne Quote oder ohne offenes Spiel.
+ */
+export function tipsReadyMessage(
+  tips: TipsFile,
+  games: readonly Game[],
+  teams: ReadonlyMap<string, Team>,
+  now?: string,
+): DueMessage | null {
   if (!tips.tips.some((t) => t.odds !== null)) return null;
   const byId = new Map(games.map((g) => [g.id, g]));
-  const n = tips.tips.length;
-  const devs = tips.tips.filter((t) => t.deviation).map((t) => abbrOf(teams, t.pickTeamId));
+  const isOpen = (t: TipsFile["tips"][number]) => {
+    if (t.locked) return false;
+    const g = byId.get(t.gameId);
+    if (g && g.status !== "scheduled") return false;
+    return now === undefined || Date.parse(now) < Date.parse(g?.kickoffUtc ?? t.kickoffUtc);
+  };
+  const open = tips.tips.filter(isOpen);
+  if (open.length === 0) return null;
+  const openIds = new Set(open.map((t) => t.gameId));
+  const n = open.length;
+  const devs = open.filter((t) => t.deviation).map((t) => abbrOf(teams, t.pickTeamId));
   let head = `${n} ${n === 1 ? "Spiel" : "Spiele"}, ${devs.length} Abw.`;
   if (devs.length > 0) head = `${head.slice(0, -1)}: ${devs.join(" ")}.`;
-  const tbs = tips.tiebreakers.map((tb) => {
-    const g = byId.get(tb.gameId);
-    const label = g ? gameLabel(teams, g) : tb.gameId;
-    return `${tb.slot === "thursday" ? "TNF" : "MNF"} ${label} ${tb.awayPoints}:${tb.homePoints}`;
-  });
+  const tbs = tips.tiebreakers
+    .filter((tb) => openIds.has(tb.gameId))
+    .map((tb) => {
+      const g = byId.get(tb.gameId);
+      const label = g ? gameLabel(teams, g) : tb.gameId;
+      return `${tb.slot === "thursday" ? "TNF" : "MNF"} ${label} ${tb.awayPoints}:${tb.homePoints}`;
+    });
   const body = tbs.length > 0 ? fitParts(`${head} TB `, tbs, BODY_MAX) : `${head} Kein TB`;
   return {
     key: tipsReadyKey(tips.season, tips.seasonType, tips.week),
@@ -216,7 +235,7 @@ export function dueMessages(input: DueInput): DueMessage[] {
   const sent = new Set(input.log.entries.map((e) => e.key));
   const all: DueMessage[] = [];
   if (input.tips) {
-    const ready = tipsReadyMessage(input.tips, input.games, input.teams);
+    const ready = tipsReadyMessage(input.tips, input.games, input.teams, input.now);
     if (ready) all.push(ready);
   }
   all.push(...slotMessages(input));

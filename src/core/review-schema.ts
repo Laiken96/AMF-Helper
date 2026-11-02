@@ -25,6 +25,31 @@ export const TiebreakerReviewSchema = z.object({
   diff: z.number().int().nullable(), // Summe der absoluten Abweichungen beider Teams
 });
 
+/**
+ * Vergleich Markt gegen KI Zweitmeinung (D040, D042), nur Spiele mit Meinung. Optional, daher bleibt
+ * schemaVersion 1. Gewertet werden finale Spiele mit Sieger, Unentschieden und offene Spiele zählen nicht.
+ * Brier Score: Mittel von (p minus Ergebnis) im Quadrat, p ist die Wahrscheinlichkeit des gewählten Teams.
+ */
+export const OpinionCompareSchema = z.object({
+  opinions: z.number().int().min(0), // Spiele mit Meinung
+  scored: z.number().int().min(0), // davon gewertet
+  marketHits: z.number().int().min(0),
+  aiHits: z.number().int().min(0),
+  marketHitRate: z.number().min(0).max(1).nullable(), // null ohne gewertetes Spiel
+  aiHitRate: z.number().min(0).max(1).nullable(),
+  marketBrier: z.number().min(0).max(1).nullable(),
+  aiBrier: z.number().min(0).max(1).nullable(),
+  disagreements: z.array(
+    z.object({
+      gameId: z.string(),
+      marketPickTeamId: z.string().nullable(),
+      aiPickTeamId: z.string(),
+      winnerTeamId: z.string().nullable(), // null solange offen oder bei Unentschieden
+    }),
+  ),
+});
+export type OpinionCompare = z.infer<typeof OpinionCompareSchema>;
+
 export const ReviewFileSchema = z.object({
   schemaVersion: z.literal(REVIEW_SCHEMA_VERSION),
   season: z.number().int(),
@@ -37,6 +62,7 @@ export const ReviewFileSchema = z.object({
   tipped: z.number().int().min(0), // Spiele mit App Tipp
   deviationNet: z.number().int(), // Summe deviationEffect
   tiebreakers: z.array(TiebreakerReviewSchema),
+  opinionCompare: OpinionCompareSchema.optional(), // fehlt ohne Meinungsdatei der Woche
 });
 export type ReviewFile = z.infer<typeof ReviewFileSchema>;
 

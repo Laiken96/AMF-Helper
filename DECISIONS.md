@@ -300,3 +300,11 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Entscheid des Nutzers. Die Definition of Done gilt als erreicht (alle sechs Punkte gebaut, live, automatisiert, Gerätetest Duo bestanden). Gate 3 ist damit freigegeben. Die formelle Abnahme an einer echten Woche entfällt jetzt und erfolgt am Projektende zusammen mit allen Features. Reihenfolge der weiteren Sprints: Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus, danach Gesamtabnahme. Die Automatik läuft ab Week 9 trotzdem, gemeldete Fehler werden sofort behoben
 - Begründung: Wunsch des Nutzers, die App vollständig zu bauen und am Schluss abzunehmen. Product Owner Hinweis dokumentiert: Fehler im Grundsystem werden dadurch später sichtbar und überlagern sich mit Fehlern neuer Features
 - Verworfen: Abnahme Week 9 vor neuen Features (Regel 2 in CLAUDE.md, hier bewusst aufgehoben)
+
+## D043 Ausbau Daten: News, Wochenindex, KI Zweitmeinung
+
+- Datum: 2026-11-02
+- Entscheid: News aus RSS (ESPN, CBS, PFT) mit eigenem schlanken Parser, höchstens 150 Einträge, nur Titel, Anriss, Link. Spielplan und Tipps zusätzlich für die nächsten 2 Wochen. Wochenindex data/weeks/index.json. KI Zweitmeinung mit claude-haiku-5-5, Web Suche mit höchstens 3 Suchen, Antwort über ein striktes Werkzeug, Quellen zählen nur, wenn ihre URL in den Suchergebnissen stand. Höchstens 2 Versuche pro Spiel, protokolliert in data/opinions/attempts.json (eigenes zod Schema). Kosten rund 0.035 USD pro Spiel, etwa 0.55 USD pro Woche, höchstens 1.10 USD. Bekannte Teamfarben werden nicht durch fehlende Werte späterer Wochen gelöscht
+- Begründung: kleinstes aktuelles Modell genügt für Zusammenfassung und Einschätzung, Websuche liefert belegbare Quellen gegen erfundene Fakten
+- Risiko: ESPN RSS blockiert direkte Abrufe teils (Bot Abwehr). Fällt die Quelle in Actions aus, laufen CBS und PFT weiter
+- Verworfen: strukturierte JSON Ausgabe per output_config (verträgt sich nicht mit Zitaten), schweres RSS Paket

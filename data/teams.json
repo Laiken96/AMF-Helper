@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-02T02:18:41Z",
+  "fetchedAt": "2026-11-02T12:45:27Z",
   "teams": [
     {
       "id": "22",
@@ -104,7 +104,7 @@
       "name": "Houston Texans",
       "shortName": "Texans",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-      "color": null
+      "color": "021018"
     },
     {
       "id": "11",
@@ -184,7 +184,7 @@
       "name": "New Orleans Saints",
       "shortName": "Saints",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-      "color": null
+      "color": "d3bc8d"
     },
     {
       "id": "19",
@@ -192,7 +192,7 @@
       "name": "New York Giants",
       "shortName": "Giants",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-      "color": null
+      "color": "003c7f"
     },
     {
       "id": "20",
@@ -232,7 +232,7 @@
       "name": "San Francisco 49ers",
       "shortName": "49ers",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-      "color": null
+      "color": "aa0000"
     },
     {
       "id": "27",

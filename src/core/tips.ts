@@ -198,6 +198,12 @@ export interface BuildTipsInput {
   /** Bestehende Tippdatei derselben Woche oder null. */
   existing: TipsFile | null;
   now: string;
+  /**
+   * false: maxDeviations aus der Rangliste neu berechnen, obwohl eine Datei existiert. Gilt für kommende
+   * Wochen, die vor ihrem ersten Lauf als aktuelle Woche schon Tipps haben (D034, D042). Standard true.
+   * Sobald ein Spiel der Woche gesperrt ist, bleibt der bestehende Wert immer.
+   */
+  freezeMaxDeviations?: boolean;
 }
 
 /**
@@ -213,7 +219,9 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
     input.existing.week === week.week;
   // Pro Woche eingefroren: eine neue Rangliste wirkt erst ab der nächsten Woche. Abweichungen ungesperrter
   // Spiele werden mit diesem Wert trotzdem neu gewählt.
-  const max = sameWeek ? input.existing!.maxDeviations : maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
+  const frozen =
+    sameWeek && (input.freezeMaxDeviations !== false || input.existing!.tips.some((t) => t.locked));
+  const max = frozen ? input.existing!.maxDeviations : maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
   const prevById = new Map<string, GameTip>(sameWeek ? input.existing!.tips.map((t) => [t.gameId, t]) : []);
   const games = [...week.games].sort(compareGames);
 

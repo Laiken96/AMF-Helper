@@ -1,6 +1,8 @@
 # Web Push und Ausfall Wächter (D029, D030). Läuft alle 10 Minuten auf ungeraden Minuten wegen Cron Verzögerung.
 # Geplante Läufe startet GitHub nur auf dem Default Branch. Manueller Start über workflow_dispatch geht auf jedem Branch.
 # Ohne Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION bleibt der Lauf grün und sendet nichts.
+# Die KI Zweitmeinung (D040, D042) läuft hier, damit die Grenze 6 Stunden vor Kickoff getroffen wird.
+# Ohne Secret ANTHROPIC_API_KEY bleibt auch dieser Schritt grün und erzeugt nichts.
 name: Push und Ausfall Wächter
 
 on:
@@ -18,7 +20,7 @@ permissions:
 
 concurrency:
   # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
-  # (hier nur data/push-log.json und data/injuries), Konflikte beim Push löst git pull --rebase.
+  # (hier nur data/push-log.json, data/injuries und data/opinions), Konflikte beim Push löst git pull --rebase.
   group: push-${{ github.ref }}
   cancel-in-progress: false
 
@@ -50,6 +52,15 @@ jobs:
         continue-on-error: true
         run: npm run job:watch
 
+      # Schattenmodus, nicht in der App sichtbar. Scheitert er, kommen die Erinnerungen trotzdem.
+      - name: KI Zweitmeinung
+        id: opinion
+        if: inputs.test != 'true'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run job:opinion
+
       - name: Meldungen senden
         id: push
         if: inputs.test != 'true'
@@ -59,12 +70,12 @@ jobs:
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
         run: npm run job:push
 
-      # Nur push-log und Ausfall Dateien. Kein Pages Neubau, die App braucht diese Daten nicht sofort.
+      # Nur push-log, Ausfall und Meinungs Dateien. Kein Pages Neubau, die App braucht diese Daten nicht sofort.
       - name: Änderungen committen
         if: inputs.test != 'true'
         run: |
-          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries)" ]; then
-            echo "Keine Änderungen an push-log oder Ausfällen"
+          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries data/opinions)" ]; then
+            echo "Keine Änderungen an push-log, Ausfällen oder Meinungen"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -72,8 +83,9 @@ jobs:
           paths=()
           [ -e data/push-log.json ] && paths+=(data/push-log.json)
           [ -d data/injuries ] && paths+=(data/injuries)
+          [ -d data/opinions ] && paths+=(data/opinions)
           git add -A -- "${paths[@]}"
-          git commit -m "data: Push Log und Ausfälle aktualisiert"
+          git commit -m "data: Push Log, Ausfälle und Meinungen aktualisiert"
           # Bis zu 3 Versuche, falls data.yml gleichzeitig pusht. Ein misslungener Rebase wird abgebrochen und wiederholt.
           for i in 1 2 3; do
             if git pull --rebase && git push; then
@@ -87,7 +99,7 @@ jobs:
           exit 1
 
       - name: Fehler melden
-        if: steps.watch.outcome == 'failure' || steps.push.outcome == 'failure'
+        if: steps.watch.outcome == 'failure' || steps.opinion.outcome == 'failure' || steps.push.outcome == 'failure'
         run: |
-          echo "Wächter: ${{ steps.watch.outcome }}, Push: ${{ steps.push.outcome }}"
+          echo "Wächter: ${{ steps.watch.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
           exit 1

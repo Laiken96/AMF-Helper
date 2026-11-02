@@ -112,7 +112,11 @@ export function buildOutputs(input: BuildInput): BuildResult {
   const prevTeams = TeamsFileSchema.safeParse(input.existing.teams);
   const merged = new Map<string, Team>();
   if (prevTeams.success) for (const t of prevTeams.data.teams) merged.set(t.id, t);
-  for (const t of parsed.teams) merged.set(t.id, t);
+  // Kommende Wochen liefern teils keine Farbe oder kein Logo. Dann bleibt der bekannte Wert.
+  for (const t of parsed.teams) {
+    const prev = merged.get(t.id);
+    merged.set(t.id, prev ? { ...t, logo: t.logo ?? prev.logo, color: t.color ?? prev.color } : t);
+  }
   const teamsFile: TeamsFile = TeamsFileSchema.parse({
     schemaVersion: SCHEMA_VERSION,
     fetchedAt: input.now,

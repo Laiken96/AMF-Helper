@@ -17,6 +17,7 @@ import {
   type ReviewFile,
 } from "../src/core/review-schema";
 import { buildReview, buildReviewIndex, sameReviewContent } from "../src/core/review";
+import { OpinionsFileSchema, opinionsFilePath, type OpinionsFile } from "../src/core/extra-schema";
 import { DATA_DIR, fetchJson, type MainDeps } from "./fetch-schedule";
 import { parseCliArgs, toJson, writeFiles } from "./schedule-lib";
 import { describeError, readJsonStrict } from "./watch";
@@ -118,11 +119,24 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
         games = w.games;
       }
 
-      const next = buildReview(tips, games, now);
+      // Meinungsdatei ist optional. Ist sie ungültig, kommt die Bilanz ohne Vergleich.
+      let opinions: OpinionsFile | null = null;
+      try {
+        const opRaw = await readJsonStrict(join(dataDir, opinionsFilePath(k.season, k.seasonType, k.week)));
+        if (opRaw !== undefined) opinions = OpinionsFileSchema.parse(opRaw);
+      } catch (err) {
+        log(`${label}: Meinungsdatei ungültig, Bilanz ohne KI Vergleich. ${describeError(err)}`);
+      }
+
+      const next = buildReview(tips, games, now, opinions);
       log(
         `${label}: ${next.points} von ${next.tipped} Punkte, Abweichungen netto ${next.deviationNet}, ` +
           `${next.complete ? "komplett" : "Zwischenstand"}`,
       );
+      if (next.opinionCompare) {
+        const c = next.opinionCompare;
+        log(`  KI Vergleich: ${c.scored} gewertet, Markt ${c.marketHits}, KI ${c.aiHits}, ${c.disagreements.length} abweichend`);
+      }
       if (prev && sameReviewContent(prev, next)) {
         log(`  unverändert data/${path}`);
         continue;
