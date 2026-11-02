@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import type { Game, Team } from "../core/schema";
 import { groupBySlot } from "../core/time";
 import { LoadError, currentRef, loadWeekData, navWeeks, parseWeekKey, type WeekData } from "./data";
@@ -291,7 +292,8 @@ function LiveDetail({
   const possession = live.possessionTeamId ? team(live.possessionTeamId) : null;
   const titleId = `live-title-${game.id}`;
 
-  return (
+  // Portal an body, damit das Overlay nicht von den Spaltenregeln der Seite (wide) beschnitten wird
+  return createPortal(
     <div className="overlay" onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="overlay-card live-detail" role="dialog" aria-modal="true" aria-labelledby={titleId}>
         <div className="overlay-head">
@@ -357,6 +359,7 @@ function LiveDetail({
           )}
         </section>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }

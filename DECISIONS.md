@@ -308,3 +308,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Begründung: kleinstes aktuelles Modell genügt für Zusammenfassung und Einschätzung, Websuche liefert belegbare Quellen gegen erfundene Fakten
 - Risiko: ESPN RSS blockiert direkte Abrufe teils (Bot Abwehr). Fällt die Quelle in Actions aus, laufen CBS und PFT weiter
 - Verworfen: strukturierte JSON Ausgabe per output_config (verträgt sich nicht mit Zitaten), schweres RSS Paket
+
+## D044 Ausbau Frontend
+
+- Datum: 2026-11-02
+- Entscheid: Wochenwähler in Tipps, Bilanz und Spiele mit Wahl im Hash (#tipps/2026-2-10). Bilanz startet auf der neuesten vorhandenen Bilanz bis zur aktuellen Woche. Reiter Spielplan heisst Spiele und enthält den Liveticker (Abfrage direkt bei ESPN alle 20 Sekunden nur bei möglichem laufenden Spiel und sichtbarem Tab, Detail mit den letzten 10 Spielzügen). Reiter News mit Filtern Alle, Meine Spiele, Team. Navigation mit 5 Zielen
+- Begründung: Wunsch des Nutzers (Wochen blättern), Ausbauplan D042. Die aktuelle Woche hat bis Dienstag meist noch keine Bilanz
+- Verworfen: Live Daten über GitHub Actions (zu langsam)
