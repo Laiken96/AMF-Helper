@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-02T19:47:22Z",
+  "updatedAt": "2026-11-02T20:47:19Z",
   "maxDeviations": 2,
   "tips": [
     {
@@ -12,8 +12,8 @@
       "odds": {
         "provider": "Draft Kings",
         "spreadHome": 8.5,
-        "overUnder": 43.5,
-        "fetchedAt": "2026-11-02T19:47:22Z"
+        "overUnder": 42.5,
+        "fetchedAt": "2026-11-02T20:47:19Z"
       },
       "pHome": 0.2645,
       "pickTeamId": "30",
@@ -35,12 +35,12 @@
         "fetchedAt": "2026-11-02T19:47:22Z"
       },
       "pHome": 0.4121,
-      "pickTeamId": "4",
-      "pickProb": 0.5879,
+      "pickTeamId": "1",
+      "pickProb": 0.4121,
       "level": "unklar",
-      "deviation": false,
+      "deviation": true,
       "firstPickTeamId": "4",
-      "changedSinceFirst": false,
+      "changedSinceFirst": true,
       "locked": false,
       "lockedAt": null
     },
@@ -163,13 +163,13 @@
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
         "provider": "Draft Kings",
-        "spreadHome": -10,
+        "spreadHome": -9.5,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-02T19:47:22Z"
+        "fetchedAt": "2026-11-02T20:47:19Z"
       },
-      "pHome": 0.7706,
+      "pHome": 0.7592,
       "pickTeamId": "12",
-      "pickProb": 0.7706,
+      "pickProb": 0.7592,
       "level": "klar",
       "deviation": false,
       "firstPickTeamId": "12",
@@ -277,17 +277,17 @@
       "kickoffUtc": "2026-11-10T01:15:00Z",
       "odds": {
         "provider": "Draft Kings",
-        "spreadHome": 2.5,
+        "spreadHome": 3.5,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-02T19:47:22Z"
+        "fetchedAt": "2026-11-02T20:47:19Z"
       },
-      "pHome": 0.4265,
-      "pickTeamId": "16",
-      "pickProb": 0.4265,
-      "level": "unklar",
-      "deviation": true,
+      "pHome": 0.3977,
+      "pickTeamId": "2",
+      "pickProb": 0.6023,
+      "level": "favorit",
+      "deviation": false,
       "firstPickTeamId": "2",
-      "changedSinceFirst": true,
+      "changedSinceFirst": false,
       "locked": false,
       "lockedAt": null
     }
@@ -296,15 +296,15 @@
     {
       "gameId": "401873037",
       "slot": "thursday",
-      "homePoints": 18,
+      "homePoints": 17,
       "awayPoints": 26,
       "basis": "quote"
     },
     {
       "gameId": "401873051",
       "slot": "monday",
-      "homePoints": 25,
-      "awayPoints": 22,
+      "homePoints": 22,
+      "awayPoints": 25,
       "basis": "quote"
     }
   ]

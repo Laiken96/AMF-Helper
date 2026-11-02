@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T19:47:23Z",
+  "updatedAt": "2026-11-02T20:47:19Z",
   "items": [
+    {
+      "id": "b0f9ecee6c51d160",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bears-vs-seahawks-odds-picks-player-props-experts-nfl-week-8-best-bets-monday-night-football",
+      "title": "Bears vs. Seahawks odds, picks, player props: Expert's NFL Week 8 best bets for Monday Night Football",
+      "summary": "Take the points with the underdog in a projected prime-time shootout, plus target high-volume value on Jaxson Smith-Njigba and plus-money tight end props",
+      "publishedAt": "2026-11-02T20:16:13Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "561360cdda310629",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-has-a-sore-hamstring-vikings-plan-to-start-him-in-week-9-if-healthy",
+      "title": "Kyler Murray has a sore hamstring, Vikings plan to start him in Week 9 if healthy",
+      "summary": "Vikings quarterback Kyler Murray said he was dealing with hamstring tightness late in Sunday's loss to the Lions and his hamstring remains an issue on Monday.",
+      "publishedAt": "2026-11-02T20:08:00Z",
+      "teamIds": [
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "457f5bf74bcffdc4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-packers-intention-is-for-micah-parsons-to-practice-this-week",
+      "title": "Matt LaFleur: Packers \"intention\" is for Micah Parsons to practice this week",
+      "summary": "It looks like this week will, in fact, be the week for Micah Parsons to return to practice.",
+      "publishedAt": "2026-11-02T20:00:20Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "661985f154c36d6e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-i-anticipate-josh-jacobs-being-part-of-the-team-moving-forward",
+      "title": "Matt LaFleur: I anticipate Josh Jacobs being part of the team moving forward",
+      "summary": "More allegations of domestic violence against Packers running back Josh Jacobs surfaced late last week and head coach Matt LaFleur addressed them at the start of his press conference on Monday.",
+      "publishedAt": "2026-11-02T19:57:07Z",
+      "teamIds": [
+        "9"
+      ]
+    },
     {
       "id": "e57a901a2e0c26a1",
       "source": "pft",
@@ -1394,7 +1440,7 @@
       "id": "a99ca1b013a3da93",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/lions-jack-campbell-injury-updates-vikings",
-      "title": "Lions' Jack Campbell placed on backboard, carted off field after suffering serious injury",
+      "title": "Jack Campbell injury updates: Lions LB remains in hospital, but 'indications are positive'",
       "summary": "The All-Pro linebacker suffered what appeared to be a serious injury vs. the Vikings",
       "publishedAt": "2026-11-01T22:18:21Z",
       "teamIds": [
@@ -1673,48 +1719,6 @@
       "summary": "Our NFL betting guide tells you where to bet on NFL Week 8, while providing odds, betting trends, schedule, promo offers, and more",
       "publishedAt": "2026-11-01T16:48:37Z",
       "teamIds": []
-    },
-    {
-      "id": "ad8e8e3c8f7fa86b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/2026-week-8-nfl-odds-picks-predictions-best-bets-experts-targeting-steelers-chiefs-eagles-on-sunday",
-      "title": "2026 Week 8 NFL odds, picks, predictions, best bets: Experts targeting Steelers, Chiefs, Eagles on Sunday",
-      "summary": "SportsLine's experts have revealed their Week 8 NFL picks and best bets for Sunday",
-      "publishedAt": "2026-11-01T16:48:07Z",
-      "teamIds": [
-        "12",
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "7fb432df9f3d9502",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50300237/top-10-super-bowl-trick-plays-history",
-      "title": "Ranking the top 10 trick plays in Super Bowl history: From 'Philly Special' to 'Ambush'",
-      "summary": "Which trick plays cemented their legacies in the Super Bowl? We listed 10 that changed momentum or flat-out won championships.",
-      "publishedAt": "2026-11-01T12:39:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "bf217422c92cfa86",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50278445/2026-nfl-trade-deadline-ranking-top-25-candidates-available",
-      "title": "Let's rank the best players who might switch teams before the NFL trade deadline",
-      "summary": "We stacked the top players who might move before the Nov. 10 deadline.",
-      "publishedAt": "2026-10-31T15:22:21Z",
-      "teamIds": []
-    },
-    {
-      "id": "f1829b23e2dbdd35",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50327830/titans-call-too-good-pass-next-trading-jeffery-simmons",
-      "title": "Inside Titans' call that was 'too good to pass up,' what's next after trading Simmons",
-      "summary": "Titans GM Mike Borgonzi got an offer he couldn't refuse, and now Jeffery Simmons is a Chicago Bear.",
-      "publishedAt": "2026-10-31T15:22:21Z",
-      "teamIds": [
-        "10"
-      ]
     }
   ]
 }
