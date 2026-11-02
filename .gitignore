@@ -1,0 +1,28 @@
+# Build
+build/
+dist/
+target/
+node_modules/
+.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Lokal
+local.properties
+.env
+.env.local
+*.local
+
+# Keys und Zertifikate
+*.jks
+*.keystore
+*.p12
+*.pem
+service-account*.json
+
+# System
+.DS_Store
+Thumbs.db
