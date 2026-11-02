@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useLayoutEffect, useState } from "react";
 
 // Layoutwahl nach D035 bis D039: Breite plus gemessener rechter Safe Area Inset, nicht das Gerät.
 export type Layout = "compact" | "medium" | "side" | "wide";
@@ -6,6 +6,8 @@ export type Layout = "compact" | "medium" | "side" | "wide";
 export const WIDE_MIN = 840;
 export const MEDIUM_MIN = 600;
 export const SIDE_INSET_MIN = 40;
+/** Ab diesem rechten Inset ist die Spalte der reservierte Bereich des Duo (D036, D037). */
+export const DUO_INSET_MIN = 80;
 
 export function chooseLayout(width: number, insetRight: number): Layout {
   if (width >= WIDE_MIN) return "wide";
@@ -48,23 +50,28 @@ export function useLayout(): Layout {
     return first;
   });
 
-  useEffect(() => {
+  // Synchron vor dem ersten Zeichnen messen, damit kein Sprung von compact auf side sichtbar wird
+  useLayoutEffect(() => {
     applyTestInsets();
     const probe = document.createElement("div");
     probe.setAttribute("aria-hidden", "true");
     probe.className = "inset-probe";
     document.body.appendChild(probe);
 
+    const apply = () => {
+      const inset = measureInsetRight(probe);
+      const next = chooseLayout(window.innerWidth, inset);
+      document.documentElement.dataset.layout = next;
+      if (inset >= DUO_INSET_MIN) document.documentElement.dataset.inset = "duo";
+      else delete document.documentElement.dataset.inset;
+      setLayout(next);
+    };
     let frame = 0;
     const update = () => {
       cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        const next = chooseLayout(window.innerWidth, measureInsetRight(probe));
-        document.documentElement.dataset.layout = next;
-        setLayout(next);
-      });
+      frame = requestAnimationFrame(apply);
     };
-    update();
+    apply();
     window.addEventListener("resize", update);
     window.addEventListener("orientationchange", update);
     window.visualViewport?.addEventListener("resize", update);

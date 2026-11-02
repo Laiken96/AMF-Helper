@@ -4,7 +4,7 @@ import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import { teamColor, visibleOn } from "./colors";
 import { LoadError, loadTipsData, type TipsData } from "./data";
-import { GameHero, useNow, type HeroTarget } from "./GameHero";
+import { GameHero, useNow, type HeroEmpty, type HeroTarget } from "./GameHero";
 import { useLayoutValue } from "./layout";
 import { LoadErrorNotice, PageHeader, Segmented, fallbackTeam, fetchedFormat } from "./ui";
 
@@ -146,9 +146,12 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
     return m;
   });
   const [filter, setFilter] = useState<Filter>(readFilter);
+  // Im Filter Offen bleiben eben umgeschaltete Zeilen bis zum nächsten Filterwechsel oder Reload sichtbar
+  const [sticky, setSticky] = useState<Set<string>>(() => new Set());
 
   const toggle = (row: TipRow) => {
     const value = entered.get(row.gameId) === pickKey(row) ? null : pickKey(row);
+    setSticky((prev) => (prev.has(row.gameId) ? prev : new Set(prev).add(row.gameId)));
     writeEntered(keyFor(row.gameId), value);
     setEntered((prev) => {
       const next = new Map(prev);
@@ -161,6 +164,7 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const chooseFilter = (value: Filter) => {
     writeFilter(value);
     setFilter(value);
+    setSticky(new Set());
   };
 
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
@@ -174,16 +178,20 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const countable = rows.filter((r) => r.level !== "nicht_erfasst");
   const doneCount = countable.filter((r) => statusOf(r) === "done").length;
   const openCount = rows.filter(isPending).length;
-  const visible = filter === "offen" ? rows.filter(isPending) : rows;
+  const visible = filter === "offen" ? rows.filter((r) => isPending(r) || sticky.has(r.gameId)) : rows;
   const slots = groupBySlot(visible);
 
   // Spielbereich: nächster Kickoff, der weder gesperrt noch vorbei ist
-  const hero: HeroTarget | null = useMemo(() => {
-    const next = [...rows]
-      .filter((r) => !r.locked && r.level !== "nicht_erfasst" && r.game && Date.parse(r.kickoffUtc) > now)
+  const { hero, heroEmpty } = useMemo(() => {
+    const open = rows.filter((r) => !r.locked && r.level !== "nicht_erfasst" && Date.parse(r.kickoffUtc) > now);
+    const next = open
+      .filter((r) => r.game)
       .sort((a, b) => Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc) || a.gameId.localeCompare(b.gameId))[0];
-    if (!next || !next.game) return null;
-    return { tip: next, game: next.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === next.gameId) };
+    const target: HeroTarget | null =
+      next && next.game
+        ? { tip: next, game: next.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === next.gameId) }
+        : null;
+    return { hero: target, heroEmpty: (open.length > 0 ? "ohne_daten" : "gesperrt") as HeroEmpty };
   }, [rows, tips, now]);
 
   const header = (
@@ -194,7 +202,7 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
       meta={`Letzte Aktualisierung ${fetchedFormat.format(new Date(tips.updatedAt))}`}
     />
   );
-  const heroEl = <GameHero target={hero} team={team} injuries={data.injuries} now={now} />;
+  const heroEl = <GameHero target={hero} empty={heroEmpty} team={team} injuries={data.injuries} now={now} />;
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} />
@@ -377,6 +385,11 @@ function TipItem({
   const infoColor = row.deviation && pct !== null ? "#F5B83D" : LEVEL_COLOR[row.level];
   const dot = pick && hasPick ? visibleOn(teamColor(pick.color)) : "#3A414D";
   const vs = other ? `${other.id === homeId ? "@" : "vs"} ${other.abbr}` : "";
+  const label = hasPick && pick
+    ? pick.abbr
+    : game
+      ? `Spiel ${team(game.awayId).abbr} @ ${team(game.homeId).abbr}`
+      : `Spiel ${row.gameId}`;
   const hasFlags = row.tiebreaker || row.deviation || row.changedSinceFirst || row.locked;
 
   return (
@@ -400,7 +413,7 @@ function TipItem({
               type="checkbox"
               checked={checked}
               onChange={onToggle}
-              aria-label={`${pick ? pick.abbr : `Spiel ${row.gameId}`} eingetragen`}
+              aria-label={`${label} eingetragen`}
             />
           </label>
         )}

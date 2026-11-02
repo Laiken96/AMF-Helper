@@ -25,7 +25,13 @@ export function useNow(): number {
       setNow(Date.now());
       interval = window.setInterval(() => setNow(Date.now()), 60_000);
     }, 60_000 - (Date.now() % 60_000));
+    // Nach dem Zurückkehren in die App sofort aktualisieren, Timer laufen im Hintergrund nicht zuverlässig
+    const onVisible = () => {
+      if (document.visibilityState === "visible") setNow(Date.now());
+    };
+    document.addEventListener("visibilitychange", onVisible);
     return () => {
+      document.removeEventListener("visibilitychange", onVisible);
       window.clearTimeout(timeout);
       if (interval !== undefined) window.clearInterval(interval);
     };
@@ -120,13 +126,18 @@ function Ring({
 }
 
 /** Spielbereich in Teamfarben für das Spiel mit dem nächsten offenen Tippschluss (D037, D038). */
+/** Warum kein Spiel im Spielbereich steht: alles gesperrt oder offene Spiele ohne Spieldaten. */
+export type HeroEmpty = "gesperrt" | "ohne_daten";
+
 export function GameHero({
   target,
+  empty = "gesperrt",
   team,
   injuries,
   now,
 }: {
   target: HeroTarget | null;
+  empty?: HeroEmpty;
   team: (id: string) => Team;
   injuries: InjuriesFile | null;
   now: number;
@@ -136,8 +147,17 @@ export function GameHero({
   if (!target) {
     return (
       <section className="hero hero-empty" aria-label="Nächster Tippschluss">
-        <p className="hero-empty-title">Alle Tipps dieser Woche gesperrt</p>
-        <p className="hero-empty-text">Der nächste Spielbereich erscheint mit der Tippliste der neuen Woche.</p>
+        {empty === "gesperrt" ? (
+          <>
+            <p className="hero-empty-title">Alle Tipps dieser Woche gesperrt</p>
+            <p className="hero-empty-text">Der nächste Spielbereich erscheint mit der Tippliste der neuen Woche.</p>
+          </>
+        ) : (
+          <>
+            <p className="hero-empty-title">Kein offener Tipp mit Spieldaten</p>
+            <p className="hero-empty-text">Die offenen Spiele stehen in der Liste.</p>
+          </>
+        )}
       </section>
     );
   }

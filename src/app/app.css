@@ -76,7 +76,11 @@
   --sar: var(--test-inset-right, env(safe-area-inset-right, 0px));
   --sab: var(--test-inset-bottom, env(safe-area-inset-bottom, 0px));
   --sal: env(safe-area-inset-left, 0px);
-  --rail-w: max(72px, var(--sar));
+  /* Rechte Leiste: normal 72px plus Inset, Kapsel bleibt in der sicheren Zone (z. B. iPhone quer).
+     Duo Fall (Inset ab 80, data-inset="duo"): Spalte ist der reservierte Bereich selbst,
+     Breite max(72px, Inset), Kapsel darin (D037). */
+  --rail-w: calc(var(--sar) + 72px);
+  --rail-pad-r: var(--sar);
   --gutter: 12px;
 
   color-scheme: dark;
@@ -233,8 +237,16 @@ a:hover {
   margin-right: auto;
 }
 
+[data-inset="duo"] {
+  --rail-w: max(72px, var(--sar));
+  --rail-pad-r: 0px;
+}
+
 [data-layout="side"] .rail,
 [data-layout="wide"] .rail {
+  box-sizing: border-box;
+  width: var(--rail-w);
+  padding-right: calc(var(--rail-pad-r) + 8px) !important;
   position: static;
   transform: none;
   height: 100vh;
@@ -982,7 +994,7 @@ a:hover {
   height: 26px;
   margin: 0;
   border-radius: 8px;
-  border: 2px solid #4a5361;
+  border: 2px solid #6b7482; /* 3.7 zu 1 auf #171B22 */
   background: transparent;
   display: grid;
   place-content: center;
@@ -1042,14 +1054,23 @@ a:hover {
   box-shadow: inset 3px 0 0 var(--klar);
 }
 
-.tip.locked {
-  opacity: 0.6;
+/* Gesperrt ohne opacity: gedämpfte Farben, alle mindestens 4.5 zu 1 auf #171B22
+   (#AEB6C2 8.4 zu 1, auch für die 11 px Marke "gesperrt") */
+.tip.locked .tip-pick,
+.tip.locked .tip-vs,
+.tip.locked .tip-info > span,
+.tip.locked .level,
+.tip.locked .tip-flags {
+  color: var(--text-3) !important;
+}
+
+.tip.locked .tip-pick {
+  font-weight: 700;
 }
 
 .tip.changed-entry {
   box-shadow: inset 3px 0 0 var(--error);
   background: #24171a;
-  opacity: 1;
 }
 
 .entry-warning {
