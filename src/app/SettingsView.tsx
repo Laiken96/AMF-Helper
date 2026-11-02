@@ -1,3 +1,4 @@
+import { LayoutDiagnostics } from "./LayoutDiagnostics";
 import { revalidateData } from "./data";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
@@ -280,6 +281,7 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
           </div>
         </dl>
         {status?.subscription && <SubscriptionBox json={JSON.stringify(status.subscription)} />}
+        <LayoutDiagnostics />
       </details>
     </>
   );
