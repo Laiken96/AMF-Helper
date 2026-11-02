@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T15:47:22Z",
+  "updatedAt": "2026-11-02T16:47:23Z",
   "items": [
+    {
+      "id": "f99244b3db141542",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkleys-commitment-to-the-eagles-is-impressive",
+      "title": "Saquon Barkley's commitment to the Eagles is impressive",
+      "summary": "The Eagles won't be trading running back Saquon Barkley.",
+      "publishedAt": "2026-11-02T16:32:53Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "ecadb0934a05d9f0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-were-aware-of-what-the-issues-are-and-were-the-only-ones-who-can-fix-them",
+      "title": "Jim Harbaugh: \"We're aware of what the issues are, and we're the only ones who can fix them\"",
+      "summary": "It's gotten ugly for the Chargers, who fell to 0-7 with Sunday's loss to the cross-town Rams.",
+      "publishedAt": "2026-11-02T16:32:37Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "98c36cddb4956535",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-brock-bowers-is-like-justin-jefferson-when-hes-covered-you-still-need-to-throw-it",
+      "title": "Kirk Cousins: Brock Bowers is like Justin Jefferson, when he's covered, you still need to throw it",
+      "summary": "Raiders quarterback Kirk Cousins has played with his share of big-time pass catchers throughout his 15-year career.",
+      "publishedAt": "2026-11-02T16:06:56Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "639a288a29f6868c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/von-miller-defends-cowboys-coaching-staff",
+      "title": "Von Miller defends Cowboys' coaching staff",
+      "summary": "Cowboys linebacker Von Miller got his first sack in eight games with the team during Sunday's mind-boggling home loss to the Cardinals.",
+      "publishedAt": "2026-11-02T15:55:53Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
     {
       "id": "d49ae2cad1362b11",
       "source": "pft",
