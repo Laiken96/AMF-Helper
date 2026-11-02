@@ -43,8 +43,8 @@ export function App() {
     <LayoutContext.Provider value={layout}>
       <div className="app">
         <main className={`page view-${view}`}>
-          {/* Fehlergrenze nur um den Inhalt, Navigation bleibt nutzbar. key setzt sie beim Reiterwechsel zurück */}
-          <ErrorBoundary key={view}>
+          {/* Fehlergrenze nur um den Inhalt, Navigation bleibt nutzbar. key setzt sie beim Reiterwechsel zurück, resetKey bei anderer Woche */}
+          <ErrorBoundary key={view} resetKey={arg ?? ""}>
             {view === "tipps" && <TipsView arg={arg} />}
             {view === "bilanz" && <ReviewView arg={arg} />}
             {view === "spiele" && <GamesView arg={arg} />}

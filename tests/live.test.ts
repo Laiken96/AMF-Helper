@@ -149,7 +149,9 @@ describe("maybeLive", () => {
   });
 
   it("Live Daten haben Vorrang", () => {
-    expect(maybeLive(game({ status: "final" }), live(), T0 + 8 * HOUR)).toBe(true);
+    expect(maybeLive(game({ status: "final" }), live(), T0 + 5 * HOUR)).toBe(true);
+    // Auch live gemeldete Spiele enden nach dem 6 Stunden Fenster (ESPN dauerhaft weg)
+    expect(maybeLive(game({ status: "final" }), live(), T0 + 8 * HOUR)).toBe(false);
     expect(maybeLive(game({ status: "in_progress" }), live({ state: "post", status: "final" }), T0 + HOUR)).toBe(false);
     expect(maybeLive(game(), live({ state: "pre", status: "scheduled" }), T0 + HOUR)).toBe(true);
   });

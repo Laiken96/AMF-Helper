@@ -2,6 +2,8 @@ import { Component, type ErrorInfo, type ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
+  /** Ändert sich der Wert (z. B. Hash Argument), wird ein angezeigter Fehler verworfen. Ohne Fehler kein Neuaufbau. */
+  resetKey?: string;
 }
 
 interface State {
@@ -10,13 +12,17 @@ interface State {
 
 /**
  * Fängt Renderfehler im Inhaltsbereich ab. Die Navigation liegt ausserhalb und bleibt nutzbar.
- * App.tsx setzt die Grenze über key beim Reiterwechsel zurück.
+ * App.tsx setzt die Grenze über key beim Reiterwechsel zurück, resetKey verwirft einen Fehler beim Wochenwechsel.
  */
 export class ErrorBoundary extends Component<Props, State> {
   state: State = { error: null };
 
   static getDerivedStateFromError(error: unknown): State {
     return { error: error instanceof Error ? error : new Error(String(error)) };
+  }
+
+  componentDidUpdate(prev: Props): void {
+    if (this.state.error && prev.resetKey !== this.props.resetKey) this.setState({ error: null });
   }
 
   componentDidCatch(error: Error, info: ErrorInfo): void {

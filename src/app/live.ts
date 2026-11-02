@@ -110,7 +110,12 @@ export function parseLiveScoreboard(raw: unknown): Map<string, LiveGame> {
     const home = comp.competitors.find((c) => c.homeAway === "home");
     const away = comp.competitors.find((c) => c.homeAway === "away");
     const sit = comp.situation;
-    const gameStatus = mapStatus({ ...status, type: { ...status.type, name: status.type.name ?? "" } });
+    // Ohne Namen zählt der state allein, ein beendetes Spiel bleibt dann final statt verschoben.
+    const gameStatus = status.type.name
+      ? mapStatus({ ...status, type: { ...status.type, name: status.type.name } })
+      : status.type.state === "post"
+        ? "final"
+        : mapStatus({ ...status, type: { ...status.type, name: "" } });
     out.set(ev.id, {
       id: ev.id,
       state: STATE_OF[gameStatus],
@@ -143,14 +148,15 @@ export function periodText(live: LiveGame): string {
 export function maybeLive(game: Game, live: LiveGame | undefined, now: number): boolean {
   if (game.status === "canceled" || game.status === "postponed") return false;
   if (live?.status === "canceled" || live?.status === "postponed") return false;
+  const kickoff = Date.parse(game.kickoffUtc);
   if (live) {
-    if (live.state === "in") return true;
+    // Auch ein laufendes Spiel endet spätestens nach dem Fenster, falls ESPN danach dauerhaft ausfällt.
+    if (live.state === "in") return now - kickoff < LIVE_WINDOW_MS;
     if (live.state === "post") return false;
   } else if (game.status === "in_progress") {
     return true;
   }
   if (game.status === "final") return false;
-  const kickoff = Date.parse(game.kickoffUtc);
   return kickoff <= now && now - kickoff < LIVE_WINDOW_MS;
 }
 
