@@ -10,6 +10,7 @@ import {
   type Team,
   type WeekFile,
 } from "./schema";
+import { OddsSchema, type Odds } from "./tips-schema";
 
 export const ESPN_SCOREBOARD_BASE =
   "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard";
@@ -234,4 +235,108 @@ export function parseScoreboard(raw: unknown, options: ParseOptions = {}): Parse
     return { ok: false, error: `Teams verletzen Datenvertrag:\n${z.prettifyError(checkedTeams.error)}` };
   }
   return { ok: true, week: checkedWeek.data, teams: checkedTeams.data };
+}
+
+// Quoten (Sprint 2, D024). Getrennt von parseScoreboard, damit WeekFileSchema unverändert bleibt.
+
+const EspnTeamOddsSchema = z.looseObject({ favorite: z.boolean().nullish() }).nullish();
+
+const EspnOddsSchema = z.looseObject({
+  provider: z.looseObject({ name: z.string().nullish() }).nullish(),
+  details: z.string().nullish(),
+  spread: z.number().nullish(),
+  overUnder: z.number().nullish(),
+  homeTeamOdds: EspnTeamOddsSchema,
+  awayTeamOdds: EspnTeamOddsSchema,
+});
+
+const EspnOddsEventSchema = z.looseObject({
+  id: z.string(),
+  competitions: z
+    .array(
+      z.looseObject({
+        competitors: z
+          .array(
+            z.looseObject({
+              homeAway: z.string().nullish(),
+              team: z.looseObject({ abbreviation: z.string().nullish() }).nullish(),
+            }),
+          )
+          .nullish(),
+        odds: z.array(z.unknown()).nullish(),
+      }),
+    )
+    .nullish(),
+});
+
+const isFiniteNumber = (v: unknown): v is number => typeof v === "number" && Number.isFinite(v);
+
+/**
+ * Normiert eine ESPN Quote auf den Spread aus Sicht des Heimteams.
+ * Das Vorzeichen von spread ist bei ESPN nicht verlässlich, deshalb zählt nur der Betrag.
+ * Die Richtung kommt aus dem favorite Flag, als Ersatz aus dem Kürzel im details Text.
+ * Liefert null, wenn die Quote fehlt oder nicht eindeutig ist.
+ */
+export function normalizeOdds(
+  rawOdds: unknown,
+  homeAbbr: string | null,
+  awayAbbr: string | null,
+  fetchedAt: string,
+): Odds | null {
+  const parsed = EspnOddsSchema.safeParse(rawOdds);
+  if (!parsed.success) return null;
+  const o = parsed.data;
+  const details = (o.details ?? "").trim();
+  const detailsMatch = /^([A-Za-z]{2,4})\s*([+-]?\d+(?:\.\d+)?)$/.exec(details);
+
+  let size: number | null = null;
+  if (isFiniteNumber(o.spread)) size = Math.abs(o.spread);
+  else if (detailsMatch) size = Math.abs(Number(detailsMatch[2]));
+
+  const evenText = /^(even|pk|pick|pick'?em)$/i.test(details);
+  let spreadHome: number | null = null;
+  if (size === 0 || (evenText && (size === null || size === 0))) {
+    spreadHome = 0;
+  } else if (size !== null) {
+    const homeFav = o.homeTeamOdds?.favorite === true;
+    const awayFav = o.awayTeamOdds?.favorite === true;
+    if (homeFav && !awayFav) spreadHome = -size;
+    else if (awayFav && !homeFav) spreadHome = size;
+    else if (detailsMatch) {
+      const abbr = detailsMatch[1]!.toUpperCase();
+      if (homeAbbr && abbr === homeAbbr.toUpperCase()) spreadHome = -size;
+      else if (awayAbbr && abbr === awayAbbr.toUpperCase()) spreadHome = size;
+    }
+  }
+  if (spreadHome === null) return null;
+
+  const odds = {
+    provider: o.provider?.name?.trim() || "unbekannt",
+    // 0 statt -0, damit JSON und Vergleiche stabil sind
+    spreadHome: spreadHome === 0 ? 0 : spreadHome,
+    overUnder: isFiniteNumber(o.overUnder) && o.overUnder > 0 ? o.overUnder : null,
+    fetchedAt,
+  };
+  const checked = OddsSchema.safeParse(odds);
+  return checked.success ? checked.data : null;
+}
+
+/**
+ * Liest die Quote jedes Spiels aus competitions[0].odds[0].
+ * Wirft nie. Fehlende oder kaputte Quoten ergeben null für dieses Spiel, nicht einen Fehler für die Woche.
+ */
+export function parseOdds(raw: unknown, fetchedAt: string): Record<string, Odds | null> {
+  const out: Record<string, Odds | null> = {};
+  if (typeof raw !== "object" || raw === null) return out;
+  const events = (raw as { events?: unknown }).events;
+  if (!Array.isArray(events)) return out;
+  for (const rawEvent of events) {
+    const ev = EspnOddsEventSchema.safeParse(rawEvent);
+    if (!ev.success) continue;
+    const comp = ev.data.competitions?.[0];
+    const competitors = comp?.competitors ?? [];
+    const abbr = (side: string) => competitors.find((c) => c.homeAway === side)?.team?.abbreviation ?? null;
+    out[ev.data.id] = normalizeOdds(comp?.odds?.[0], abbr("home"), abbr("away"), fetchedAt);
+  }
+  return out;
 }
