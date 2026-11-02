@@ -341,6 +341,24 @@ describe("buildTipsFile", () => {
     expect(f.tips.some((t) => t.deviation)).toBe(false);
   });
 
+  it("maxDeviations bleibt pro Woche eingefroren, Abweichungen werden mit dem Wert neu gewählt", () => {
+    const first = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: null, now: T0 });
+    expect(first.maxDeviations).toBe(0);
+    // Neue Rangliste mit Rückstand während der Woche wirkt erst ab der nächsten Woche.
+    const again = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: first, now: T0 });
+    expect(again.maxDeviations).toBe(0);
+    expect(again.tips.some((t) => t.deviation)).toBe(false);
+    // Umgekehrt bleibt der eingefrorene Wert 2, die Abweichungen folgen den neuen Quoten.
+    const behind = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
+    const moved = { ...baseOdds, a: odds(-1), b: odds(-7) };
+    const next = buildTipsFile({ week: weekOf(games), odds: moved, standings: LEADER, existing: behind, now: T0 });
+    expect(next.maxDeviations).toBe(2);
+    expect(next.tips.filter((t) => t.deviation).map((t) => t.gameId).sort()).toEqual(["a", "mon"]);
+    // Andere Woche rechnet neu.
+    const otherWeek = buildTipsFile({ week: { ...weekOf(games), week: 10 }, odds: baseOdds, standings: BEHIND, existing: first, now: T0 });
+    expect(otherWeek.maxDeviations).toBeGreaterThan(0);
+  });
+
   it("Grundtipp bleibt und Änderung wird markiert", () => {
     const first = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: null, now: T0 });
     const later = "2026-11-03T12:00:00Z";

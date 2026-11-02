@@ -1,7 +1,7 @@
-# Datenjobs Spielplan und Tippliste: holen das ESPN Scoreboard und committen Änderungen unter data/.
+# Datenjobs Spielplan, Tippliste und Wochenbilanz: holen das ESPN Scoreboard und committen Änderungen unter data/.
 # Geplante Läufe (schedule) startet GitHub nur auf dem Default Branch, also erst nach dem Merge auf main.
 # Manueller Start über workflow_dispatch geht auf jedem Branch.
-name: Daten Spielplan und Tipps
+name: Daten Spielplan, Tipps und Bilanz
 
 on:
   schedule:
@@ -42,7 +42,7 @@ jobs:
 
       - run: npm ci
 
-      # Beide Datenschritte laufen auch, wenn der andere fehlschlägt. Gültige Ergebnisse werden committet,
+      # Alle Datenschritte laufen auch, wenn ein anderer fehlschlägt. Gültige Ergebnisse werden committet,
       # der letzte Schritt macht den Lauf trotzdem rot. Ein fehlgeschlagener Job lässt seine Dateien unverändert.
       - name: Spielplan holen
         id: schedule
@@ -73,6 +73,12 @@ jobs:
           [ -n "$IN_WEEK" ] && args+=(--week "$IN_WEEK")
           npm run job:tips -- "${args[@]}"
 
+      # Wochenbilanz nach den Tipps (D032). Ohne Inputs alle Wochen mit Tippdatei, deren Bilanz fehlt oder offen ist.
+      - name: Bilanz berechnen
+        id: review
+        continue-on-error: true
+        run: npm run job:review
+
       - name: Änderungen committen
         id: commit
         run: |
@@ -84,9 +90,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git commit -m "data: Daten aktualisiert"
-          git pull --rebase
-          git push
-          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          # Bis zu 3 Versuche, falls push.yml oder standings.yml gleichzeitig pusht.
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep $((i * 5))
+          done
+          echo "Push nach 3 Versuchen fehlgeschlagen"
+          exit 1
 
       # Pushes mit GITHUB_TOKEN starten keine push Workflows, daher Pages hier explizit neu bauen.
       # Default Branch ist main nach dem Merge. github.event.repository ist bei schedule leer, daher fester Name.
@@ -97,7 +112,7 @@ jobs:
         run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
 
       - name: Fehler der Datenschritte melden
-        if: steps.schedule.outcome == 'failure' || steps.tips.outcome == 'failure'
+        if: steps.schedule.outcome == 'failure' || steps.tips.outcome == 'failure' || steps.review.outcome == 'failure'
         run: |
-          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}"
+          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}, Bilanz: ${{ steps.review.outcome }}"
           exit 1

@@ -6,7 +6,16 @@ import {
   type CurrentFile,
   type TeamsFile,
   type WeekFile,
+  weekFilePath,
 } from "../core/schema";
+import {
+  ReviewFileSchema,
+  REVIEW_INDEX_PATH,
+  ReviewIndexSchema,
+  StandingsHistorySchema,
+  type ReviewFile,
+  type StandingsHistory,
+} from "../core/review-schema";
 import {
   StandingsFileSchema,
   TipsFileSchema,
@@ -104,4 +113,33 @@ export async function loadTipsData(): Promise<TipsData> {
     loadOptionalJson(tipsFilePath(current.season, current.seasonType, current.week), TipsFileSchema),
   ]);
   return { current, week, teams, standings, tips };
+}
+
+export interface ReviewData {
+  /** Pfade aller Bilanzen, neueste zuerst. */
+  index: string[];
+  path: string;
+  review: ReviewFile;
+  /** null, wenn die Wochendatei der Bilanz fehlt. Dann fehlen Kürzel pro Spiel. */
+  week: WeekFile | null;
+  teams: TeamsFile;
+  standings: StandingsFile;
+  history: StandingsHistory;
+}
+
+/** Liste der Bilanzen, null wenn noch keine existiert. */
+export async function loadReviewIndex(): Promise<string[] | null> {
+  return loadOptionalJson(REVIEW_INDEX_PATH, ReviewIndexSchema);
+}
+
+/** Lädt eine Bilanz samt Wochendatei, Teams, Rangliste und Verlauf. */
+export async function loadReviewData(index: string[], path: string): Promise<ReviewData> {
+  const [review, teams, standings, history] = await Promise.all([
+    loadJson(path, ReviewFileSchema),
+    loadJson("teams.json", TeamsFileSchema),
+    loadJson("standings.json", StandingsFileSchema),
+    loadJson("standings-history.json", StandingsHistorySchema),
+  ]);
+  const week = await loadOptionalJson(weekFilePath(review.season, review.seasonType, review.week), WeekFileSchema);
+  return { index, path, review, week, teams, standings, history };
 }

@@ -218,19 +218,19 @@ R31 Testnachricht am Handy
     Vorbedingung: R27 erledigt, App vom Home Bildschirm angemeldet.
     Schritt: In Einstellungen "Testnachricht" tippen, App schliessen, Sperrbildschirm ansehen.
     Erwartet: Mitteilung "NFL Tipps" mit Testtext erscheint. Tippen auf die Mitteilung öffnet die App in Einstellungen.
-    Status: offen Nutzer
+    Status: Push Empfang am iPhone bestanden 2026-11-02 über R33. Lokale Testnachricht aus den Einstellungen offen Nutzer
 
 R32 Secret PUSH_SUBSCRIPTION einrichten
     Vorbedingung: Anmeldung aus R27 kopiert, Secret VAPID_PRIVATE_KEY bereits im Repo.
     Schritt: Link "Direkt zu den Secrets auf GitHub" öffnen, New repository secret, Name PUSH_SUBSCRIPTION, Wert einfügen, speichern.
     Erwartet: Unter Actions secrets stehen VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION. Kein Schlüssel oder Anmelde JSON im Repo oder im Log eines Laufs. Nach "Neu anmelden" muss das Secret ersetzt werden.
-    Status: offen Nutzer
+    Status: bestanden durch Nutzer 2026-11-02
 
 R33 Testlauf workflow_dispatch test true
     Vorbedingung: R32 erledigt, push.yml auf dem Branch oder auf main.
     Schritt: Workflow "Push und Ausfall Wächter" manuell mit test true starten.
     Erwartet: Nur der Schritt "Testnachricht senden" läuft, Ausgabe "Testnachricht gesendet.", Lauf grün, am Handy kommt "Test aus GitHub Actions". Kein Commit, push-log.json unverändert. Mit ungültigem Secret rot mit "PUSH_SUBSCRIPTION ist kein gültiges Anmelde JSON" ohne Inhalt des Secrets.
-    Status: offen GitHub
+    Status: bestanden auf GitHub 2026-11-02 (Lauf 41384349660, nur Testschritt, Nachricht am iPhone angekommen)
 
 R34 Tippliste bereit genau einmal
     Vorbedingung: Week 9 Tippdatei mit Quoten, leeres push-log.
@@ -297,3 +297,81 @@ R44 Push Workflow auf main
     Schritt: Geplante Läufe einer Stunde ansehen.
     Erwartet: Läufe zu den Minuten 3, 13, 23, 33, 43, 53 (mit Cron Verzögerung). Commit "data: Push Log und Ausfälle aktualisiert" nur bei Änderung an data/push-log.json oder data/injuries. Kein Pages Neubau durch diese Commits. Gleichzeitiger data.yml Lauf führt nicht zu einem roten Push Schritt.
     Status: offen GitHub
+
+---
+
+## Sprint 4 Wochenbilanz und Rangliste
+
+Lokal geprüft auf Commit 65d83fe in einer Kopie. Simulierte Week 9: Wochendatei mit allen 15 Spielen final, Scores erfunden. DEN@CAR 20:20 (Unentschieden auf getippten DEN), Abweichung GB statt NE gewinnt 26:23, Abweichung MIN statt BUF verliert 19:27. current.json auf Week 9. Jobs liefen mit festem now 2026-11-10 (Dienstag) über einen kleinen tsx Aufruf von main.
+
+R45 Bilanz komplett
+    Vorbedingung: Tippdatei Week 9, Wochendatei Week 9 mit allen Spielen final, Review Week 8 vorhanden.
+    Schritt: build-review mit now 2026-11-10T06:30Z, danach ein zweiter Lauf.
+    Erwartet: data/reviews/2026-2-09.json mit complete true, points 9, tipped 13 (zwei Spiele offen ohne Tipp), deviationNet 0, Tiebreaker TNF diff 4 (getippt 18:26, Resultat 20:24) und MNF diff 11 (getippt 25:22, Resultat 19:27). index.json absteigend mit Week 9 vor Week 8. Zweiter Lauf schreibt nichts, Exit 0.
+    Status: bestanden lokal 2026-11-02
+
+R46 Unentschieden
+    Vorbedingung: wie R45, getipptes Spiel endet 20:20.
+    Schritt: Review und Reiter Bilanz ansehen.
+    Erwartet: winnerTeamId null, correct false, zählt nicht als Punkt. In der App Spielkarte "20 : 20" mit "falsch". Ein Unentschieden bei einer Abweichung ergibt deviationEffect 0 (Unit Test).
+    Status: bestanden lokal 2026-11-02
+
+R47 Wirkung der Abweichungen
+    Vorbedingung: wie R45.
+    Schritt: Review und Reiter Bilanz ansehen.
+    Erwartet: GB statt NE deviationEffect +1 und richtig, MIN statt BUF deviationEffect -1 und falsch, Netto 0. App zeigt "GB statt NE: +1", "MIN statt BUF: -1", "Netto 0".
+    Status: bestanden lokal 2026-11-02
+
+R48 Push Bilanz einmal
+    Vorbedingung: Review Week 9 complete, leeres push-log, Versand gemockt mit Secrets und GITHUB_REF refs/heads/main.
+    Schritt: push main zweimal hintereinander. Varianten mit leerem push-log: Week 8 und Week 9 complete, Week 9 offen und Week 8 complete, Week 10 und Week 9 offen und Week 8 complete.
+    Erwartet: Erster Lauf genau eine Meldung "Bilanz W9 bereit" mit "App Punkte 9 von 13, Abweichungen netto 0, Tiebreaker Abweichung TNF 4, MNF 11. Rangliste melden", Link #bilanz, Schlüssel review-ready:2026-2-9 im push-log. Zweiter Lauf "Keine Meldung fällig". Beide complete: nur W9, keine Meldung für W8. Week 9 offen: W8 wird gemeldet (D033, neueste komplette der zwei neuesten). Week 10 und 9 offen: keine Bilanz Meldung.
+    Status: bestanden lokal 2026-11-02. Nebenbefund: mit leerem push-log kommt am Dienstag zusätzlich "Tippliste W9 bereit" nach Wochenende, im Betrieb steht der Schlüssel schon im Log
+
+R49 Formular nur Owner
+    Vorbedingung: Event Datei mit gültigem Body Week 9, author_association CONTRIBUTOR. Zweite Event Datei vom Owner ohne Label rangliste.
+    Schritt: `GITHUB_EVENT_PATH=<datei> COMMENT_FILE=<datei> npx tsx jobs/standings.ts` je Event.
+    Erwartet: Exit 1, "Autor ist nicht der Repo Owner (CONTRIBUTOR)" bzw. "Label rangliste fehlt", kein Kommentar geschrieben, standings.json und standings-history.json byte gleich. Im Workflow verhindert zusätzlich die if Bedingung den Lauf.
+    Status: bestanden lokal 2026-11-02
+
+R50 Ablehnung mit Kommentar
+    Vorbedingung: Owner Event Dateien mit Rangliste Week 8 als letztem Stand.
+    Schritt: Body ohne Formular Struktur mit Shell Zeichen, Body null, Felder MS und DH "_No response_", JA 40 statt mindestens 45, Week 9 nochmals nach Übernahme (action edited), Week 10 mit LM 75 nach Week 9 mit LM 76.
+    Erwartet: Jeweils Exit 1, Kommentar "Rangliste nicht übernommen, Issue bleibt offen." mit Grund je Feld, z. B. "MS: keine gültige Zahl (leer)", "JA: 40 Punkte ist weniger als 45 in Week 8", "Woche 9 ist nicht grösser als die zuletzt gemeldete Week 9", "LM: 75 Punkte ist weniger als 76 in Week 9". Dateien unverändert. Der Workflow postet den Kommentar und lässt das Issue offen.
+    Status: bestanden lokal 2026-11-02 für den Job. Nebenbefunde: Rohwert im Kommentar kann Zeilenumbrüche enthalten und die Liste zerreissen. Kein Plausibilitätsdeckel, "1'000" Punkte für MS wurden übernommen. Eine übernommene Woche lässt sich per Formular nicht korrigieren. Kommentar und Schliessen auf GitHub offen GitHub
+
+R51 Rangliste übernehmen und Tipps Week 10
+    Vorbedingung: Rangliste Week 8 MS 71, LM 69, DH 68, CZ 51, JA 45.
+    Schritt: Owner Event Week 9 mit MS 80, LM 76, DH 77, CZ 60, JA 54. Danach build-tips für Week 10. Zusätzlich mit JA 64.
+    Erwartet: Exit 0, Kommentar "Rangliste 2026 Week 9 übernommen: MS 80, DH 77, LM 76, CZ 60, JA 54". standings.json asOfWeek 9 absteigend sortiert, standings-history.json mit Week 8 und Week 9. Tipps Week 10 maxDeviations 2 (26 Punkte Rückstand auf 9 Restwochen). Mit JA 64 maxDeviations 1 (16 auf 9).
+    Status: bestanden lokal 2026-11-02
+
+R52 Gruppenpunkte Differenz
+    Vorbedingung: Build mit BASE_PATH, in dist/data die simulierte Week 9 mit Review und Rangliste Week 8 und Week 9.
+    Schritt: Playwright 390 px, /AMF-Helper/#bilanz, danach Wochenwahl Week 8.
+    Erwartet: "Week 9 Bilanz", "9 von 13", "Trefferquote 69 %", Gruppe Week 9 mit Woche MS 9, DH 9, CZ 9, JA 9 (hervorgehoben), LM 7 und Totals 80, 77, 60, 54, 76. Saisonverlauf Week 8 "?" und Week 9 Differenzen. Week 8 zeigt Zwischenstand und "Wochenpunkte fehlen, weil die Vorwoche nicht gemeldet ist". Keine horizontale Scrollbar, keine Konsolenfehler. Screenshot sprint4-week9-bilanz.png.
+    Status: bestanden lokal 2026-11-02
+
+R53 Hinweis Rangliste nicht gemeldet
+    Vorbedingung: wie R52, aber Rangliste nur bis Week 8.
+    Schritt: /AMF-Helper/#bilanz öffnen, Link prüfen.
+    Erwartet: "Rangliste für Week 9 noch nicht gemeldet." mit Link "Rangliste für Week 9 melden" auf https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml, neues Fenster mit noopener.
+    Status: bestanden lokal 2026-11-02
+
+R54 Leerzustand und Zwischenstand
+    Vorbedingung: wie R52.
+    Schritt: dist/data/reviews/index.json als leeres Array, danach Ordner reviews ganz entfernt. Zusätzlich Review Week 9 mit offenem MNF.
+    Erwartet: Beide Leerfälle "Noch keine Bilanz vorhanden. Sie erscheint, sobald die erste Woche mit App Tipps gespielt ist.", keine Konsolenfehler. Zwischenstand "14 von 15 Spielen sind final", "MIN statt BUF: offen", "Resultat offen".
+    Status: bestanden lokal 2026-11-02
+
+R55 Andere Reiter mit Bilanz
+    Vorbedingung: wie R52.
+    Schritt: #tipps, #spielplan, #einstellungen, zurück #bilanz.
+    Erwartet: "Week 9 Tipps", Spielplan "Week 9" mit Final Resultaten, Einstellungen mit Status, Bilanz wieder Week 9. Keine Konsolenfehler und keine Warnungen.
+    Status: bestanden lokal 2026-11-02
+
+R56 Rangliste per Formular am Handy melden
+    Vorbedingung: standings.yml und rangliste.yml auf main, Label rangliste existiert, Week 9 komplett gespielt.
+    Schritt: Am Handy in der Bilanz auf "Rangliste für Week 9 melden" tippen, Formular mit den 5 Gesamtpunkten absenden. Danach ein Issue mit absichtlich kleinerem Wert absenden und bearbeiten.
+    Erwartet: Workflow läuft, committet "data: Rangliste aus Issue #N", kommentiert "übernommen", schliesst das Issue, startet Pages. Nach dem Build zeigt die Bilanz Gruppe Week 9 mit Wochenpunkten. Das fehlerhafte Issue bleibt offen mit Grund im Kommentar, nach Korrektur per Bearbeiten wird es übernommen. Am Dienstag kommt genau einmal "Bilanz W9 bereit".
+    Status: offen Nutzer

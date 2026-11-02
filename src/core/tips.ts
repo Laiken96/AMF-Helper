@@ -206,12 +206,14 @@ export interface BuildTipsInput {
  */
 export function buildTipsFile(input: BuildTipsInput): TipsFile {
   const { week, now } = input;
-  const max = maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
   const sameWeek =
     input.existing !== null &&
     input.existing.season === week.season &&
     input.existing.seasonType === week.seasonType &&
     input.existing.week === week.week;
+  // Pro Woche eingefroren: eine neue Rangliste wirkt erst ab der nächsten Woche. Abweichungen ungesperrter
+  // Spiele werden mit diesem Wert trotzdem neu gewählt.
+  const max = sameWeek ? input.existing!.maxDeviations : maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
   const prevById = new Map<string, GameTip>(sameWeek ? input.existing!.tips.map((t) => [t.gameId, t]) : []);
   const games = [...week.games].sort(compareGames);
 

@@ -12,7 +12,9 @@
     "job:schedule": "tsx jobs/fetch-schedule.ts",
     "job:tips": "tsx jobs/build-tips.ts",
     "job:watch": "tsx jobs/watch.ts",
-    "job:push": "tsx jobs/push.ts"
+    "job:push": "tsx jobs/push.ts",
+    "job:review": "tsx jobs/build-review.ts",
+    "job:standings": "tsx jobs/standings.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

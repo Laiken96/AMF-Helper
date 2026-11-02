@@ -223,3 +223,24 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Slot Meldung im Fenster 2 bis 60 Minuten vor Kickoff (statt 15 bis 60 laut Sprint Auftrag). TTL der Meldung endet beim Kickoff. Push Workflow mit eigener Concurrency Gruppe und Retry beim Push. Echter Versand nur auf main, Testnachricht überall
 - Begründung: Review Sprint 3. Fallen mehrere verzögerte Cron Läufe aus, käme sonst gar keine Erinnerung. Eine späte Erinnerung ist besser als keine (D022). Eine Erinnerung nach Kickoff ist wertlos
 - Verworfen: feste Untergrenze 15 Minuten
+
+## D032 Bilanz ohne Einzeltipps der Gruppe
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt D011, D014 und D018 im Umfang. Der Nutzer meldet pro Woche nur die 5 Punktestände der Gruppenrangliste über ein GitHub Issue Formular. Ein Workflow übernimmt sie nach data/standings.json und data/standings-history.json, nur wenn der Autor der Repo Owner ist. Wochenpunkte der Gruppe sind die Differenz zur Vorwoche. Eigene Bilanz, Tiebreaker Abweichung und Wirkung der Abweichungen rechnet die App aus App Tipps und Resultaten. Annahme: der Nutzer trägt die App Tipps ein. Push "Bilanz bereit", sobald alle Spiele final sind
+- Begründung: 5 Zahlen pro Woche statt 60 Einzeltipps. Mit D028 (Ziel Platz 1) braucht die Abweichungslogik kein Gruppenverhalten pro Spiel
+- Verworfen: Einzeltipps der Gruppe erfassen, Screenshot Auswertung (bräuchte API Key)
+
+## D033 Bilanz Meldung und Ranglisten Workflow
+
+- Datum: 2026-11-02
+- Entscheid: Push "Bilanz bereit" nur für die neueste komplette Woche, geprüft werden die zwei neuesten Bilanzen. Der Ranglisten Workflow hat eine eigene Concurrency Gruppe mit Retry beim Push
+- Begründung: Ein leeres push-log soll keine Flut alter Meldungen auslösen. In der Gruppe von data.yml könnte ein Cron Lauf eine wartende Ranglistenmeldung verdrängen
+- Verworfen: Meldung für jede fertige Woche ohne Begrenzung
+
+## D034 Review Ergebnisse Sprint 4
+
+- Datum: 2026-11-02
+- Entscheid: Ranglisten Meldung für dieselbe Woche ersetzt den letzten Eintrag (Korrektur), identische Meldung ist Erfolg ohne Änderung, Punkte höchstens 300, nur Owner als Autor und Sender. maxDeviations wird pro Woche beim ersten Lauf eingefroren, eine neue Rangliste wirkt ab der nächsten Woche. Abgesagte Spiele und ab Kickoff plus 7 Tage verschobene oder fehlende Spiele zählen in der Bilanz nicht. Ranglistenverlauf mit seasonType. Alle drei Workflows schreiben mit Retry
+- Begründung: unabhängiger Review und QA Sprint 4
+- Verworfen: Korrektur nur durch Bearbeiten der JSON Datei

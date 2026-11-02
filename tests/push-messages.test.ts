@@ -4,6 +4,7 @@ import { parseScoreboard } from "../src/core/espn";
 import { TeamsFileSchema, type Team } from "../src/core/schema";
 import { TipsFileSchema, type TipsFile } from "../src/core/tips-schema";
 import type { InjuriesFile } from "../src/core/injuries";
+import type { ReviewFile } from "../src/core/review-schema";
 import {
   BODY_MAX,
   EMPTY_PUSH_LOG,
@@ -12,6 +13,7 @@ import {
   dueMessages,
   fitParts,
   inSlotWindow,
+  reviewReadyMessage,
   shortName,
   slotMessages,
   statusCode,
@@ -151,5 +153,62 @@ describe("keine doppelte Meldung", () => {
     expect(first.map((m) => m.key)).toEqual(["tips-ready:2026-2-9", "slot:2026-11-06T02:15+01:00"]);
     const log = appendLog(EMPTY_PUSH_LOG, first.map((message) => ({ message, sentAt: now })));
     expect(dueMessages({ games, tips: tipsW9, injuries: null, teams, now: minus(TNF, 20), log })).toEqual([]);
+  });
+});
+
+describe("Bilanz bereit", () => {
+  const base: ReviewFile = {
+    schemaVersion: 1,
+    season: 2026,
+    seasonType: 2,
+    week: 8,
+    updatedAt: "2026-11-03T10:00:00Z",
+    complete: true,
+    games: [],
+    points: 9,
+    tipped: 13,
+    deviationNet: 1,
+    tiebreakers: [
+      { gameId: "a", slot: "thursday", predictedHome: 24, predictedAway: 20, actualHome: 27, actualAway: 19, diff: 4 },
+      { gameId: "b", slot: "monday", predictedHome: 25, predictedAway: 22, actualHome: 17, actualAway: 23, diff: 9 },
+    ],
+  };
+  const now = "2026-11-03T10:00:00Z";
+
+  it("Text mit Punkten, Abweichungen netto, Tiebreaker und Hinweis", () => {
+    const m = reviewReadyMessage(base)!;
+    expect(m.key).toBe("review-ready:2026-2-8");
+    expect(m.payload).toEqual({
+      title: "Bilanz W8 bereit",
+      body: "App Punkte 9 von 13, Abweichungen netto +1, Tiebreaker Abweichung TNF 4, MNF 9. Rangliste melden",
+      url: "#bilanz",
+      tag: "review-ready-2026-2-8",
+    });
+    expect(m.payload.title.length).toBeLessThanOrEqual(TITLE_MAX);
+    expect(m.payload.body.length).toBeLessThanOrEqual(BODY_MAX);
+  });
+
+  it("negatives Netto und ohne Tiebreaker", () => {
+    const m = reviewReadyMessage({ ...base, deviationNet: -2, tiebreakers: [] })!;
+    expect(m.payload.body).toBe("App Punkte 9 von 13, Abweichungen netto -2, Tiebreaker Abweichung keine. Rangliste melden");
+  });
+
+  it("nicht komplette Woche ist nicht fällig", () => {
+    expect(reviewReadyMessage({ ...base, complete: false })).toBeNull();
+    expect(dueMessages({ games: [], tips: null, injuries: null, teams, now, log: EMPTY_PUSH_LOG, reviews: [{ ...base, complete: false }] })).toEqual([]);
+  });
+
+  it("einmal pro Woche, danach im push-log", () => {
+    const first = dueMessages({ games: [], tips: null, injuries: null, teams, now, log: EMPTY_PUSH_LOG, reviews: [base] });
+    expect(first.map((m) => m.key)).toEqual(["review-ready:2026-2-8"]);
+    const log = appendLog(EMPTY_PUSH_LOG, [{ message: first[0]!, sentAt: now }]);
+    expect(dueMessages({ games: [], tips: null, injuries: null, teams, now, log, reviews: [base] })).toEqual([]);
+  });
+
+  it("nur die neueste komplette Woche, Zwischenstand davor wird übersprungen", () => {
+    const w9 = { ...base, week: 9, complete: false };
+    const w7 = { ...base, week: 7 };
+    const due = dueMessages({ games: [], tips: null, injuries: null, teams, now, log: EMPTY_PUSH_LOG, reviews: [w9, base, w7] });
+    expect(due.map((m) => m.key)).toEqual(["review-ready:2026-2-8"]);
   });
 });

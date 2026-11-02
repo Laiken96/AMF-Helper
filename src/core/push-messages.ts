@@ -5,6 +5,7 @@ import type { PushPayload } from "./push-config";
 import type { Game, Team } from "./schema";
 import type { TipsFile } from "./tips-schema";
 import type { InjuriesFile, InjuryChange } from "./injuries";
+import type { ReviewFile } from "./review-schema";
 import { groupBySlot } from "./time";
 
 export const PUSH_LOG_SCHEMA_VERSION = 1 as const;
@@ -15,6 +16,7 @@ export const TIPS_READY_TTL_S = 6 * 3600;
 export const MIN_TTL_S = 60;
 export const SLOT_WINDOW_MAX = 60;
 export const PUSH_LOG_MAX_ENTRIES = 500;
+export const REVIEW_READY_TTL_S = 24 * 3600;
 
 export const PushLogEntrySchema = z.object({
   key: z.string().min(1), // z. B. "tips-ready:2026-2-9" oder "slot:2026-11-08T19:00+01:00"
@@ -40,6 +42,10 @@ export interface DueMessage {
 
 export function tipsReadyKey(season: number, seasonType: number, week: number): string {
   return `tips-ready:${season}-${seasonType}-${week}`;
+}
+
+export function reviewReadyKey(season: number, seasonType: number, week: number): string {
+  return `review-ready:${season}-${seasonType}-${week}`;
 }
 
 export function slotKeyOf(slotKey: string): string {
@@ -174,11 +180,38 @@ export function slotMessages(input: SlotInput): DueMessage[] {
   return out;
 }
 
-export interface DueInput extends SlotInput {
-  log: PushLogFile;
+/** Vorzeichen immer sichtbar, z. B. +1, 0, -2. */
+function signed(n: number): string {
+  return n > 0 ? `+${n}` : String(n);
 }
 
-/** Alle fälligen Meldungen, die noch nicht im Log stehen. Tippliste vor Slots. */
+/** "Bilanz bereit" für eine komplette Woche (D032). Null, solange noch ein Spiel offen ist. */
+export function reviewReadyMessage(review: ReviewFile): DueMessage | null {
+  if (!review.complete) return null;
+  const tbs = review.tiebreakers.map((tb) => `${tb.slot === "thursday" ? "TNF" : "MNF"} ${tb.diff ?? "?"}`);
+  const tb = tbs.length > 0 ? tbs.join(", ") : "keine";
+  const body =
+    `App Punkte ${review.points} von ${review.tipped}, Abweichungen netto ${signed(review.deviationNet)}, ` +
+    `Tiebreaker Abweichung ${tb}. Rangliste melden`;
+  return {
+    key: reviewReadyKey(review.season, review.seasonType, review.week),
+    ttlSeconds: REVIEW_READY_TTL_S,
+    payload: {
+      title: `Bilanz W${review.week} bereit`,
+      body: body.slice(0, BODY_MAX),
+      url: "#bilanz",
+      tag: `review-ready-${review.season}-${review.seasonType}-${review.week}`,
+    },
+  };
+}
+
+export interface DueInput extends SlotInput {
+  log: PushLogFile;
+  /** Reviews absteigend wie data/reviews/index.json. Nur die neueste komplette Woche wird gemeldet. */
+  reviews?: readonly ReviewFile[];
+}
+
+/** Alle fälligen Meldungen, die noch nicht im Log stehen. Tippliste vor Slots, Bilanz zuletzt. */
 export function dueMessages(input: DueInput): DueMessage[] {
   const sent = new Set(input.log.entries.map((e) => e.key));
   const all: DueMessage[] = [];
@@ -187,6 +220,10 @@ export function dueMessages(input: DueInput): DueMessage[] {
     if (ready) all.push(ready);
   }
   all.push(...slotMessages(input));
+  // Nur die neueste komplette Woche, damit ein leeres push-log keine Flut alter Bilanzen auslöst.
+  const latest = (input.reviews ?? []).find((r) => r.complete);
+  const review = latest ? reviewReadyMessage(latest) : null;
+  if (review) all.push(review);
   return all.filter((m) => !sent.has(m.key));
 }
 
