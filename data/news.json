@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T16:47:23Z",
+  "updatedAt": "2026-11-02T17:47:22Z",
   "items": [
+    {
+      "id": "a55e8168962a78ff",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-still-deciding-if-jordyn-tyson-travis-etienne-will-return-to-practice-this-week",
+      "title": "Saints still deciding if Jordyn Tyson, Travis Etienne will return to practice this week",
+      "summary": "The Saints have yet to see rookie wide receiver Jordyn Tyson in game action, but they would move closer to that moment if the first-round pick is designated for return from injured reserve this week.",
+      "publishedAt": "2026-11-02T17:37:12Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "1a6e7db1e026ad60",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-yaya-diaby-set-to-miss-time-with-grade-2-mcl-sprain",
+      "title": "Report: YaYa Diaby set to miss time with Grade 2 MCL sprain",
+      "summary": "There is some more information on Buccaneers outside linebacker YaYa Diaby, who suffered a knee injury on Sunday.",
+      "publishedAt": "2026-11-02T17:37:01Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "82e3121a3fdd16c2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-dl-naquan-jones",
+      "title": "Texans sign DL Naquan Jones",
+      "summary": "The Texans are making a change on their defensive line as they return from their bye week.",
+      "publishedAt": "2026-11-02T17:14:53Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "7b5d53922e2df3da",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-andy-borregales-have-confidence-in-him-but-hes-got-to-make-his-kicks",
+      "title": "Mike Vrabel on Andy Borregales: Have confidence in him, but he's got to make his kicks",
+      "summary": "Patriots kicker Andy Borregales missed a 40-yard field goal on Sunday against the Dolphins, but head coach Mike Vrabel hasn't lost confidence in him.",
+      "publishedAt": "2026-11-02T16:43:51Z",
+      "teamIds": [
+        "15",
+        "17"
+      ]
+    },
     {
       "id": "f99244b3db141542",
       "source": "pft",
@@ -23,6 +68,19 @@
       "teamIds": [
         "24",
         "14"
+      ]
+    },
+    {
+      "id": "be7a606200986e30",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-lose-davon-hamilton-trade-deadline-options",
+      "title": "Jaguars lose standout DT DaVon Hamilton: Trade partners for Jacksonville include Cowboys, Colts",
+      "summary": "Hamilton has been a stud for one of the league's best run defenses",
+      "publishedAt": "2026-11-02T16:17:48Z",
+      "teamIds": [
+        "6",
+        "11",
+        "30"
       ]
     },
     {
