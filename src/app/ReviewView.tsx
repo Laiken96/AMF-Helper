@@ -2,8 +2,21 @@ import { useEffect, useMemo, useState, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
-import { LoadError, loadReviewData, loadReviewIndex, type ReviewData } from "./data";
-import { LoadErrorNotice, PageHeader, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
+import {
+  LoadError,
+  compareRef,
+  currentRef,
+  loadCurrent,
+  loadReviewData,
+  loadReviewIndex,
+  loadWeeksIndex,
+  parseWeekKey,
+  sameRef,
+  weekKey,
+  type ReviewData,
+  type WeekRef,
+} from "./data";
+import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
 
@@ -16,32 +29,54 @@ type State =
 const errorText = (err: unknown) =>
   err instanceof LoadError ? err.message : "Unerwarteter Fehler beim Laden der Daten.";
 
-/** "reviews/2026-2-08.json" ergibt "Week 8", Playoffs und Preseason mit Zusatz. */
-function labelForPath(path: string): string {
-  const m = /(\d{4})-(\d)-(\d{2})\.json$/.exec(path);
-  if (!m) return path;
-  const week = Number(m[3]);
-  if (m[2] === "1") return `Preseason Week ${week}`;
-  if (m[2] === "3") return `Playoffs Week ${week}`;
-  return `Week ${week} (${m[1]})`;
+interface ReviewWeek {
+  ref: WeekRef;
+  path: string;
 }
 
-export function ReviewView() {
-  const [index, setIndex] = useState<string[] | null>(null);
-  const [path, setPath] = useState<string | null>(null);
+/** Bilanzen aus Wochenindex und reviews/index.json vereint, aufsteigend. Beide Dateien dürfen fehlen. */
+async function loadReviewWeeks(): Promise<ReviewWeek[]> {
+  const [weeksIndex, reviewIndex] = await Promise.all([loadWeeksIndex(), loadReviewIndex()]);
+  const map = new Map<string, ReviewWeek>();
+  for (const path of reviewIndex ?? []) {
+    const m = /(\d{4})-(\d)-(\d{2})\.json$/.exec(path);
+    if (!m) continue;
+    const ref = { season: Number(m[1]), seasonType: Number(m[2]), week: Number(m[3]) };
+    map.set(weekKey(ref), { ref, path });
+  }
+  for (const w of weeksIndex?.weeks ?? []) {
+    if (!w.reviewFile) continue;
+    const ref = { season: w.season, seasonType: w.seasonType, week: w.week };
+    map.set(weekKey(ref), { ref, path: w.reviewFile });
+  }
+  return [...map.values()].sort((a, b) => compareRef(a.ref, b.ref));
+}
+
+/** Standard: aktuelle Woche, sonst die letzte Bilanz davor, sonst die neueste. */
+function defaultWeek(list: ReviewWeek[], current: WeekRef | null): ReviewWeek | undefined {
+  if (current) {
+    const before = list.filter((w) => compareRef(w.ref, current) <= 0);
+    if (before.length > 0) return before[before.length - 1];
+  }
+  return list[list.length - 1];
+}
+
+export function ReviewView({ arg = null }: { arg?: string | null }) {
+  const [list, setList] = useState<ReviewWeek[] | null>(null);
+  const [current, setCurrent] = useState<WeekRef | null>(null);
   const [state, setState] = useState<State>({ kind: "loading" });
 
   useEffect(() => {
     let active = true;
-    loadReviewIndex()
-      .then((list) => {
+    Promise.all([loadReviewWeeks(), loadCurrent()])
+      .then(([weeks, cur]) => {
         if (!active) return;
-        if (!list || list.length === 0) {
+        if (weeks.length === 0) {
           setState({ kind: "empty" });
           return;
         }
-        setIndex(list);
-        setPath(list[0]!);
+        setCurrent(cur ? currentRef(cur) : null);
+        setList(weeks);
       })
       .catch((err: unknown) => active && setState({ kind: "error", message: errorText(err) }));
     return () => {
@@ -49,30 +84,30 @@ export function ReviewView() {
     };
   }, []);
 
+  const requested = parseWeekKey(arg);
+  const fallback = list ? defaultWeek(list, current) : undefined;
+  const selected = list ? (requested ? list.find((w) => sameRef(w.ref, requested)) : fallback) : undefined;
+  const path = selected?.path ?? null;
+
   useEffect(() => {
-    if (!index || !path) return;
+    if (!list || !path) return;
     let active = true;
     setState({ kind: "loading" });
-    loadReviewData(index, path)
+    loadReviewData(
+      list.map((w) => w.path),
+      path,
+    )
       .then((data) => active && setState({ kind: "ready", data }))
       .catch((err: unknown) => active && setState({ kind: "error", message: errorText(err) }));
     return () => {
       active = false;
     };
-  }, [index, path]);
+  }, [list, path]);
 
+  const shown = selected?.ref ?? requested;
   const picker =
-    index && index.length > 1 && path ? (
-      <label className="week-picker">
-        Woche
-        <select value={path} onChange={(e) => setPath(e.target.value)}>
-          {index.map((p) => (
-            <option key={p} value={p}>
-              {labelForPath(p)}
-            </option>
-          ))}
-        </select>
-      </label>
+    list && shown ? (
+      <WeekStepper view="bilanz" weeks={list.map((w) => w.ref)} value={shown} current={fallback?.ref ?? null} />
     ) : null;
 
   if (state.kind === "empty") {
@@ -82,6 +117,14 @@ export function ReviewView() {
         <p className="notice">
           Noch keine Bilanz vorhanden. Sie erscheint, sobald die erste Woche mit App Tipps gespielt ist.
         </p>
+      </>
+    );
+  }
+  if (list && requested && !selected) {
+    return (
+      <>
+        <PageHeader kicker="Bilanz" title={weekLabel(requested)} aside={picker} />
+        <p className="notice">Für {weekLabel(requested)} gibt es noch keine Bilanz.</p>
       </>
     );
   }
@@ -129,10 +172,10 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
     <>
       <PageHeader
         kicker="Bilanz"
-        title={`Week ${review.week}`}
+        title={weekLabel(review)}
+        aside={picker}
         meta={`Saison ${review.season}, Stand ${fetchedFormat.format(new Date(review.updatedAt))}`}
       />
-      {picker}
 
       {!review.complete && (
         <p className="notice notice-pending">

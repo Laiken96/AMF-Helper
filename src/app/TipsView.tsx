@@ -3,10 +3,12 @@ import type { Game, Team } from "../core/schema";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import { teamColor, visibleOn } from "./colors";
-import { LoadError, loadTipsData, type TipsData } from "./data";
-import { GameHero, useNow, type HeroEmpty, type HeroTarget } from "./GameHero";
+import { LoadError, currentRef, loadTipsData, navWeeks, parseWeekKey, type TipsData } from "./data";
+import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type HeroTarget } from "./GameHero";
+import { LiveStatus, ScheduleList } from "./GamesView";
 import { useLayoutValue } from "./layout";
-import { LoadErrorNotice, PageHeader, Segmented, fallbackTeam, fetchedFormat } from "./ui";
+import { periodText, useLiveScores, type LiveGame } from "./live";
+import { LoadErrorNotice, PHASE_TEXT, PageHeader, Segmented, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
 
 type State =
   | { kind: "loading" }
@@ -78,12 +80,13 @@ const LEVEL_COLOR: Record<GameTip["level"], string> = {
   nicht_erfasst: "#AEB6C2",
 };
 
-export function TipsView() {
+export function TipsView({ arg = null }: { arg?: string | null }) {
   const [state, setState] = useState<State>({ kind: "loading" });
 
   useEffect(() => {
     let active = true;
-    loadTipsData()
+    setState({ kind: "loading" });
+    loadTipsData(parseWeekKey(arg))
       .then((data) => active && setState({ kind: "ready", data }))
       .catch((err: unknown) => {
         if (!active) return;
@@ -94,23 +97,68 @@ export function TipsView() {
     return () => {
       active = false;
     };
-  }, []);
+  }, [arg]);
 
   if (state.kind === "loading") return <p className="notice">Daten werden geladen …</p>;
   if (state.kind === "error") return <LoadErrorNotice message={state.message} />;
   const { data } = state;
-  if (!data.tips) {
-    return (
-      <>
-        <PageHeader kicker="Tipps" title={`Week ${data.current.week}`} aside={`Saison ${data.current.season}`} />
+  if (!data.tips || !data.week) return <NoTips data={data} />;
+  return <TipsList key={`${data.ref.season}-${data.ref.seasonType}-${data.ref.week}`} data={data} tips={data.tips} />;
+}
+
+function TipsHeader({ data, updatedAt }: { data: TipsData; updatedAt?: string }) {
+  const weeks = navWeeks(data);
+  const meta = updatedAt
+    ? `Saison ${data.ref.season} · Letzte Aktualisierung ${fetchedFormat.format(new Date(updatedAt))}`
+    : `Saison ${data.ref.season}`;
+  return (
+    <PageHeader
+      kicker={data.phase === "aktuell" ? "Tipps" : `Tipps · ${PHASE_TEXT[data.phase]}`}
+      title={weekLabel(data.ref)}
+      aside={weeks ? <WeekStepper view="tipps" weeks={weeks} value={data.ref} current={currentRef(data.current)} /> : undefined}
+      meta={meta}
+    />
+  );
+}
+
+/** Woche ohne Tippdatei: aktuelle Woche wie bisher, kommende mit Hinweis und Spielplan. */
+function NoTips({ data }: { data: TipsData }) {
+  const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
+  const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
+  const text =
+    data.phase === "kommend"
+      ? "Tipps folgen, sobald Quoten verfügbar sind."
+      : data.phase === "vergangen"
+        ? "Für diese Woche gibt es keine App Tipps."
+        : "Für diese Woche gibt es noch keine Tipps.";
+  return (
+    <>
+      <TipsHeader data={data} />
+      {data.phase === "aktuell" && (
         <div className="tiles">
           <StandingsBox standings={data.standings} maxDeviations={null} />
         </div>
-        <p className="notice">Für diese Woche gibt es noch keine Tipps.</p>
-      </>
-    );
-  }
-  return <TipsList data={data} tips={data.tips} />;
+      )}
+      <p className="notice">{text}</p>
+      {data.phase !== "aktuell" &&
+        (data.week ? (
+          <ScheduleList games={data.week.games} byeTeamIds={data.week.byeTeamIds} team={team} />
+        ) : (
+          <p className="notice">Für {weekLabel(data.ref)} liegt noch kein Spielplan vor.</p>
+        ))}
+    </>
+  );
+}
+
+type TipResult = "richtig" | "falsch" | "unentschieden" | "offen" | null;
+
+/** Ergebnis eines Tipps aus dem Spielstand der Wochendatei. null ohne Tipp. */
+function tipResult(tip: GameTip, game: Game | undefined): TipResult {
+  if (tip.pickTeamId === null || tip.level === "nicht_erfasst") return null;
+  if (!game || game.status !== "final" || game.homeScore === null || game.awayScore === null) return "offen";
+  if (game.homeScore === game.awayScore) return "unentschieden";
+  const winner = game.homeScore > game.awayScore ? game.homeId : game.awayId;
+  return winner === tip.pickTeamId ? "richtig" : "falsch";
 }
 
 type EntryStatus = "none" | "done" | "changed";
@@ -119,13 +167,17 @@ interface TipRow extends GameTip {
   id: string;
   game: Game | undefined;
   tiebreaker: boolean;
+  result: TipResult;
 }
 
 function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const layout = useLayoutValue();
   const now = useNow();
+  const readOnly = data.phase === "vergangen";
+  const games = data.week?.games ?? null;
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
-  const gameById = useMemo(() => new Map(data.week.games.map((g) => [g.id, g])), [data.week]);
+  const gameById = useMemo(() => new Map((games ?? []).map((g) => [g.id, g])), [games]);
+  const live = useLiveScores(readOnly ? null : data.ref, readOnly ? null : games);
   // Ab Kickoff gilt ein Spiel in der Anzeige als gesperrt, auch wenn der stündliche Tippjob es noch nicht
   // gesperrt hat. Nur Darstellung, die Datei bleibt unverändert.
   const rows: TipRow[] = useMemo(
@@ -135,6 +187,7 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
         id: t.gameId,
         game: gameById.get(t.gameId),
         tiebreaker: tips.tiebreakers.some((tb) => tb.gameId === t.gameId),
+        result: tipResult(t, gameById.get(t.gameId)),
       })),
     [tips, gameById, now],
   );
@@ -181,35 +234,61 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const countable = rows.filter((r) => r.level !== "nicht_erfasst");
   const doneCount = countable.filter((r) => statusOf(r) === "done").length;
   const openCount = rows.filter(isPending).length;
-  const visible = filter === "offen" ? rows.filter((r) => isPending(r) || sticky.has(r.gameId)) : rows;
+  const visible =
+    filter === "offen" && !readOnly ? rows.filter((r) => isPending(r) || sticky.has(r.gameId)) : rows;
   const slots = groupBySlot(visible);
 
-  // Spielbereich: nächster Kickoff, der weder gesperrt noch vorbei ist
-  const { hero, heroEmpty } = useMemo(() => {
+  // Spielbereich: laufendes Spiel mit Live Score, sonst nächster Kickoff, der weder gesperrt noch vorbei ist
+  const { hero, heroEmpty, heroLive, heroNext } = useMemo(() => {
+    const byKickoff = (a: TipRow, b: TipRow) =>
+      Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc) || a.gameId.localeCompare(b.gameId);
     const open = rows.filter((r) => !r.locked && r.level !== "nicht_erfasst" && Date.parse(r.kickoffUtc) > now);
-    const next = open
-      .filter((r) => r.game)
-      .sort((a, b) => Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc) || a.gameId.localeCompare(b.gameId))[0];
+    const next = open.filter((r) => r.game).sort(byKickoff)[0];
+    const running = rows
+      .filter((r) => r.game && live.games.get(r.gameId)?.state === "in")
+      .sort((a, b) => Number(b.tiebreaker) - Number(a.tiebreaker) || byKickoff(a, b))[0];
+    const pick = running ?? next;
     const target: HeroTarget | null =
-      next && next.game
-        ? { tip: next, game: next.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === next.gameId) }
+      pick && pick.game
+        ? { tip: pick, game: pick.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === pick.gameId) }
         : null;
-    return { hero: target, heroEmpty: (open.length > 0 ? "ohne_daten" : "gesperrt") as HeroEmpty };
-  }, [rows, tips, now]);
+    const nextInfo: HeroNext | null =
+      running && next?.game
+        ? { matchup: `${team(next.game.awayId).abbr} @ ${team(next.game.homeId).abbr}`, kickoffUtc: next.kickoffUtc }
+        : null;
+    return {
+      hero: target,
+      heroEmpty: (open.length > 0 ? "ohne_daten" : "gesperrt") as HeroEmpty,
+      heroLive: running ? (live.games.get(running.gameId) ?? null) : null,
+      heroNext: nextInfo,
+    };
+    // team hängt nur von teamById ab
+  }, [rows, tips, now, live.games, teamById]);
 
-  const header = (
-    <PageHeader
-      kicker="Tipps"
-      title={`Week ${tips.week}`}
-      aside={`Saison ${tips.season}`}
-      meta={`Letzte Aktualisierung ${fetchedFormat.format(new Date(tips.updatedAt))}`}
+  const header = <TipsHeader data={data} updatedAt={tips.updatedAt} />;
+  const headlines = hero
+    ? heroHeadlines(data.news?.items, [hero.game.awayId, hero.game.homeId], now, layout === "side" ? 1 : 2)
+    : [];
+  const heroEl = (
+    <GameHero
+      target={hero}
+      empty={heroEmpty}
+      team={team}
+      injuries={data.injuries}
+      now={now}
+      live={heroLive}
+      next={heroNext}
+      headlines={headlines}
     />
   );
-  const heroEl = <GameHero target={hero} empty={heroEmpty} team={team} injuries={data.injuries} now={now} />;
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} />
-      <StandingsBox standings={data.standings} maxDeviations={tips.maxDeviations} />
+      {readOnly ? (
+        <ResultBox rows={rows} />
+      ) : (
+        <StandingsBox standings={data.standings} maxDeviations={tips.maxDeviations} />
+      )}
     </div>
   );
   const pct = countable.length > 0 ? Math.round((doneCount / countable.length) * 100) : 0;
@@ -219,7 +298,8 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
         <p className="notice">Diese Woche sind keine Spiele angesetzt.</p>
       ) : (
         <>
-          <div className="list-controls">
+          {!readOnly && <LiveStatus live={live} />}
+          {!readOnly && <div className="list-controls">
             <Segmented
               label="Spiele filtern"
               value={filter}
@@ -240,7 +320,7 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
                 </span>
               </div>
             )}
-          </div>
+          </div>}
           {visible.length === 0 && (
             <p className="notice">Keine offenen Spiele. Alle Tipps sind eingetragen oder gesperrt.</p>
           )}
@@ -249,7 +329,15 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
               <h2>{slot.label}</h2>
               <ul className="tips">
                 {slot.games.map((row) => (
-                  <TipItem key={row.gameId} row={row} team={team} status={statusOf(row)} onToggle={() => toggle(row)} />
+                  <TipItem
+                    key={row.gameId}
+                    row={row}
+                    team={team}
+                    status={statusOf(row)}
+                    onToggle={() => toggle(row)}
+                    readOnly={readOnly}
+                    live={live.games.get(row.gameId)}
+                  />
                 ))}
               </ul>
             </section>
@@ -259,6 +347,15 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
     </section>
   );
 
+  if (readOnly) {
+    return (
+      <>
+        {header}
+        {tiles}
+        {list}
+      </>
+    );
+  }
   if (layout === "wide") {
     return (
       <div className="tips-split">
@@ -355,16 +452,50 @@ function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; 
   );
 }
 
+const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
+  richtig: "richtig",
+  falsch: "falsch",
+  unentschieden: "unentschieden",
+  offen: "offen",
+};
+
+/** Ergebnis einer vergangenen Woche aus den gesperrten Tipps und den Endständen. */
+function ResultBox({ rows }: { rows: TipRow[] }) {
+  const tipped = rows.filter((r) => r.result !== null);
+  const right = tipped.filter((r) => r.result === "richtig").length;
+  const decided = tipped.filter((r) => r.result === "richtig" || r.result === "falsch").length;
+  const open = tipped.filter((r) => r.result === "offen").length;
+  return (
+    <section className="box" aria-label="Ergebnis der Woche">
+      <h2>Ergebnis</h2>
+      <p className="box-big">
+        {right} <span className="box-of">von {tipped.length}</span>
+      </p>
+      <p className="box-meta">
+        {decided > 0 ? `Trefferquote ${Math.round((right / decided) * 100)} %` : "Noch kein Tipp entschieden"}
+        {open > 0 && `, ${open} offen`}
+      </p>
+      <p className="box-meta">
+        <a href="#bilanz">Zur Bilanz</a>
+      </p>
+    </section>
+  );
+}
+
 function TipItem({
   row,
   team,
   status,
   onToggle,
+  readOnly = false,
+  live,
 }: {
   row: TipRow;
   team: (id: string) => Team;
   status: EntryStatus;
   onToggle: () => void;
+  readOnly?: boolean;
+  live?: LiveGame;
 }) {
   const notCaptured = row.level === "nicht_erfasst";
   const checked = status === "done";
@@ -375,7 +506,7 @@ function TipItem({
   const otherId = game ? (pickId === game.homeId ? game.awayId : game.homeId) : null;
   const pick = pickId ? team(pickId) : null;
   const other = otherId ? team(otherId) : null;
-  const pending = !notCaptured && (status === "changed" || (status === "none" && !row.locked));
+  const pending = !readOnly && !notCaptured && (status === "changed" || (status === "none" && !row.locked));
 
   const classes = ["tip", `level-${row.level}`];
   if (pending) classes.push("pending");
@@ -387,13 +518,19 @@ function TipItem({
   const info = notCaptured ? "nicht erfasst" : pct !== null ? `${row.deviation ? "Abw. " : ""}${pct} %` : "keine Quote";
   const infoColor = row.deviation && pct !== null ? "#F5B83D" : LEVEL_COLOR[row.level];
   const dot = pick && hasPick ? visibleOn(teamColor(pick.color)) : "#3A414D";
-  const vs = other ? `${other.id === homeId ? "@" : "vs"} ${other.abbr}` : "";
+  const liveText =
+    live?.state === "in" && game ? ` · Live ${live.awayScore ?? 0}:${live.homeScore ?? 0} ${periodText(live)}` : "";
+  const finalText =
+    readOnly && game && game.status === "final" && game.awayScore !== null && game.homeScore !== null
+      ? ` · ${game.awayScore}:${game.homeScore}`
+      : "";
+  const vs = other ? `${other.id === homeId ? "@" : "vs"} ${other.abbr}${liveText}${finalText}` : "";
   const label = hasPick && pick
     ? pick.abbr
     : game
       ? `Spiel ${team(game.awayId).abbr} @ ${team(game.homeId).abbr}`
       : `Spiel ${row.gameId}`;
-  const hasFlags = row.tiebreaker || row.deviation || row.changedSinceFirst || row.locked;
+  const hasFlags = row.tiebreaker || row.deviation || row.changedSinceFirst || (row.locked && !readOnly);
 
   return (
     <li className={classes.join(" ")} data-anchor={row.gameId}>
@@ -407,7 +544,13 @@ function TipItem({
           <span style={{ color: infoColor }}>{info}</span>
           {!notCaptured && <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>}
         </span>
-        {notCaptured ? (
+        {readOnly ? (
+          row.result ? (
+            <span className={`res-badge res-badge-${row.result}`}>{RESULT_TEXT[row.result]}</span>
+          ) : (
+            <span className="tick-spacer" aria-hidden="true" />
+          )
+        ) : notCaptured ? (
           <span className="tick-spacer" aria-hidden="true" />
         ) : (
           <label className="tick-wrap">
@@ -423,21 +566,21 @@ function TipItem({
       </div>
       {hasFlags && (
         <div className="tip-flags">
-          {row.tiebreaker && <span className="flag tb-flag">Resultat tippen</span>}
+          {row.tiebreaker && <span className="flag tb-flag">{readOnly ? "Tiebreaker" : "Resultat tippen"}</span>}
           {row.deviation && (
             <span className="flag flag-dev" title="Bewusste Abweichung vom Favoriten">
               <span aria-hidden="true">🎯</span> Abweichung
             </span>
           )}
           {row.changedSinceFirst && <span className="flag changed">geändert seit Grundtipp</span>}
-          {row.locked && (
+          {row.locked && !readOnly && (
             <span className="flag" title="Kickoff vorbei, Tipp gesperrt">
               <span aria-hidden="true">🔒</span> gesperrt
             </span>
           )}
         </div>
       )}
-      {status === "changed" && (
+      {status === "changed" && !readOnly && (
         <p className="entry-warning" role="alert">
           <span aria-hidden="true">⚠️</span> Tipp geändert, auf der Tippseite anpassen
         </p>

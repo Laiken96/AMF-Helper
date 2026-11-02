@@ -5,6 +5,40 @@ import type { GameTip, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich } from "../core/time";
 import { shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
+import { periodText, type LiveGame } from "./live";
+import type { NewsFile } from "../core/extra-schema";
+
+type NewsItem = NewsFile["items"][number];
+
+/** Nächster offener Tippschluss, wenn der Spielbereich ein laufendes Spiel zeigt. */
+export interface HeroNext {
+  matchup: string;
+  kickoffUtc: string;
+}
+
+/** Bis zu zwei aktuelle Schlagzeilen zu den beiden Teams, neueste zuerst. Älter als 7 Tage zählt nicht. */
+export function heroHeadlines(items: readonly NewsItem[] | undefined, teamIds: readonly string[], now: number, max = 2): NewsItem[] {
+  if (!items) return [];
+  return items
+    .filter((i) => now - Date.parse(i.publishedAt) < 7 * 24 * 3600_000 && i.teamIds.some((id) => teamIds.includes(id)))
+    .slice(0, max);
+}
+
+function Headlines({ items }: { items: readonly NewsItem[] }) {
+  if (items.length === 0) return null;
+  return (
+    <ul className="hero-news" aria-label="Schlagzeilen zu diesem Spiel">
+      {items.map((i) => (
+        <li key={i.id}>
+          <a href={i.url} target="_blank" rel="noopener noreferrer">
+            {i.title}
+            <span className="sr-only"> (öffnet in neuem Tab)</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export const TIPPSPIEL_URL = "https://tippspiel.footballbromance.com";
 
@@ -138,12 +172,20 @@ export function GameHero({
   team,
   injuries,
   now,
+  live = null,
+  next = null,
+  headlines = [],
 }: {
   target: HeroTarget | null;
   empty?: HeroEmpty;
   team: (id: string) => Team;
   injuries: InjuriesFile | null;
   now: number;
+  /** Live Stand, wenn das Spiel läuft. Dann Score statt Countdown. */
+  live?: LiveGame | null;
+  /** Nächster offener Tippschluss, nur bei laufendem Spiel angezeigt. */
+  next?: HeroNext | null;
+  headlines?: readonly NewsItem[];
 }) {
   const layout = useLayoutValue();
 
@@ -181,7 +223,32 @@ export function GameHero({
     "--hero-b": shadeForText(homeColor),
   } as CSSProperties;
 
+  const isLive = live?.state === "in";
   const countdown = formatCountdown(Date.parse(tip.kickoffUtc) - now);
+  const liveScore = isLive ? `${live.awayScore ?? 0} : ${live.homeScore ?? 0}` : "";
+  const liveBadge = isLive && (
+    <span className="hero-countdown hero-live">
+      <span className="live-dot" aria-hidden="true" />
+      <span className="sr-only">Läuft, </span>
+      {periodText(live)}
+    </span>
+  );
+  const sectionLabel = isLive ? "Laufendes Spiel" : "Nächster Tippschluss";
+  const nextLine = isLive && next && (
+    <p className="hero-next">
+      Nächster Tippschluss {next.matchup} in {formatCountdown(Date.parse(next.kickoffUtc) - now)}
+    </p>
+  );
+  const ctaEl =
+    isLive && !next ? (
+      <a className="hero-cta" href="#spiele">
+        Zum Liveticker
+      </a>
+    ) : (
+      <a className="hero-cta" href={TIPPSPIEL_URL} target="_blank" rel="noopener noreferrer">
+        Auf der Tippseite eintragen
+      </a>
+    );
   const when = formatKickoffZurich(tip.kickoffUtc).replace(/ (\d\d:\d\d)$/, " · $1");
   const slot = tiebreaker ? ` · ${layout === "compact" || layout === "side" ? SLOT_SHORT[tiebreaker.slot] : SLOT_NAME[tiebreaker.slot]}` : "";
   const absence = keyAbsence(injuries, game.id);
@@ -191,33 +258,35 @@ export function GameHero({
 
   if (layout === "side") {
     return (
-      <section className="hero hero-small" style={style} aria-label="Nächster Tippschluss">
+      <section className="hero hero-small" style={style} aria-label={sectionLabel}>
         <div className="hero-top">
           <span className="hero-when">
             {when}
             {slot}
           </span>
-          <span className="hero-countdown">
-            <span className="sr-only">Tippschluss in </span>
-            {countdown}
-          </span>
+          {liveBadge || (
+            <span className="hero-countdown">
+              <span className="sr-only">Tippschluss in </span>
+              {countdown}
+            </span>
+          )}
         </div>
         <div className="hero-small-body">
           <Ring prob={prob} pick={pick} pickColor={pickColor} otherColor={otherColor} size={72} withLabel={false} />
           <div className="hero-small-text">
             <span className="hero-matchup">
-              {away.abbr} @ {home.abbr}
+              {isLive ? `${away.abbr} ${liveScore} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
             </span>
             <span>
               Tipp {pick ? pick.abbr : "offen"}
               {result && ` · Resultat ${result}`}
             </span>
-            {absence && <span className="hero-sub">{absenceText(absence)}</span>}
+            {absence && !isLive && <span className="hero-sub">{absenceText(absence)}</span>}
           </div>
         </div>
-        <a className="hero-cta" href={TIPPSPIEL_URL} target="_blank" rel="noopener noreferrer">
-          Auf der Tippseite eintragen
-        </a>
+        {nextLine}
+        <Headlines items={headlines.slice(0, 1)} />
+        {ctaEl}
       </section>
     );
   }
@@ -229,18 +298,20 @@ export function GameHero({
         {when}
         {slot}
       </span>
-      {layout !== "medium" && <span className="hero-countdown">Tippschluss {big ? "in " : ""}{countdown}</span>}
+      {liveBadge || (layout !== "medium" && <span className="hero-countdown">Tippschluss {big ? "in " : ""}{countdown}</span>)}
     </div>
   );
   const teams = (
     <div className="hero-teams">
       <div className="hero-team">
         <span className="hero-abbr">{away.abbr}</span>
+        {isLive && <span className="hero-score">{live.awayScore ?? 0}</span>}
         <span className="hero-sub">{big ? `${away.shortName} · Auswärts` : "Auswärts"}</span>
       </div>
       <Ring prob={prob} pick={pick} pickColor={pickColor} otherColor={otherColor} size={big ? 140 : layout === "medium" ? 104 : 112} withLabel />
       <div className="hero-team hero-team-home">
         <span className="hero-abbr">{home.abbr}</span>
+        {isLive && <span className="hero-score">{live.homeScore ?? 0}</span>}
         <span className="hero-sub">{big ? `${home.shortName} · Heim` : "Heim"}</span>
       </div>
     </div>
@@ -259,7 +330,7 @@ export function GameHero({
       )}
     </div>
   );
-  const absenceLine = absence && (
+  const absenceLine = absence && !isLive && (
     <div className="hero-absence">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F5B83D" strokeWidth="2" aria-hidden="true">
         <path d="M12 9v4" />
@@ -270,20 +341,22 @@ export function GameHero({
     </div>
   );
   const cta = (
-    <a className="hero-cta" href={TIPPSPIEL_URL} target="_blank" rel="noopener noreferrer">
-      Auf der Tippseite eintragen
-    </a>
+    <>
+      {nextLine}
+      <Headlines items={headlines} />
+      {ctaEl}
+    </>
   );
 
   if (layout === "medium") {
     return (
-      <section className="hero hero-split" style={style} aria-label="Nächster Tippschluss">
+      <section className="hero hero-split" style={style} aria-label={sectionLabel}>
         <div className="hero-col">
           {head}
           {teams}
         </div>
         <div className="hero-col">
-          <span className="hero-countdown hero-countdown-end">Tippschluss {countdown}</span>
+          {liveBadge || <span className="hero-countdown hero-countdown-end">Tippschluss {countdown}</span>}
           {fields}
           {absenceLine}
           {cta}
@@ -293,7 +366,7 @@ export function GameHero({
   }
 
   return (
-    <section className={`hero${big ? " hero-big" : ""}`} style={style} aria-label="Nächster Tippschluss">
+    <section className={`hero${big ? " hero-big" : ""}`} style={style} aria-label={sectionLabel}>
       {head}
       {teams}
       {fields}

@@ -1,6 +1,23 @@
 import type { ReactNode } from "react";
 
-export type View = "tipps" | "bilanz" | "spielplan" | "einstellungen";
+export type View = "tipps" | "bilanz" | "spiele" | "news" | "einstellungen";
+
+export interface Route {
+  view: View;
+  /** Teil nach dem Schrägstrich, z. B. die Woche "2026-2-10" in #tipps/2026-2-10. */
+  arg: string | null;
+}
+
+const VIEWS: readonly View[] = ["tipps", "bilanz", "spiele", "news", "einstellungen"];
+
+/** Liest den Hash. #spielplan aus älteren Links führt auf Spiele. */
+export function routeFromHash(hash: string = window.location.hash): Route {
+  const [rawView = "", ...rest] = hash.replace(/^#/, "").split("/");
+  const name = rawView === "spielplan" ? "spiele" : rawView;
+  const view = (VIEWS as readonly string[]).includes(name) ? (name as View) : "tipps";
+  const arg = rest.length > 0 ? decodeURIComponent(rest.join("/")) : null;
+  return { view, arg: arg || null };
+}
 
 const Icon = ({ children, strong = false }: { children: ReactNode; strong?: boolean }) => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strong ? 2.2 : 2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -23,12 +40,22 @@ const ICONS: Record<View, (active: boolean) => ReactNode> = {
       <path d="M22 20H2" />
     </Icon>
   ),
-  spielplan: (a) => (
+  spiele: (a) => (
     <Icon strong={a}>
-      <rect x="3" y="5" width="18" height="16" rx="2" />
-      <path d="M3 10h18" />
-      <path d="M8 3v4" />
-      <path d="M16 3v4" />
+      <rect x="2" y="5" width="20" height="14" rx="3" />
+      <path d="M12 5v14" />
+      <circle cx="12" cy="12" r="2.5" />
+      <path d="M2 9.5h3v5H2" />
+      <path d="M22 9.5h-3v5h3" />
+    </Icon>
+  ),
+  news: (a) => (
+    <Icon strong={a}>
+      <path d="M4 5h13v14a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2z" />
+      <path d="M17 9h3v10a2 2 0 0 1-2 2" />
+      <path d="M8 9h5" />
+      <path d="M8 13h5" />
+      <path d="M8 17h3" />
     </Icon>
   ),
   einstellungen: (a) => (
@@ -42,7 +69,8 @@ const ICONS: Record<View, (active: boolean) => ReactNode> = {
 export const NAV: { view: View; label: string }[] = [
   { view: "tipps", label: "Tipps" },
   { view: "bilanz", label: "Bilanz" },
-  { view: "spielplan", label: "Spielplan" },
+  { view: "spiele", label: "Spiele" },
+  { view: "news", label: "News" },
   { view: "einstellungen", label: "Einstellungen" },
 ];
 
