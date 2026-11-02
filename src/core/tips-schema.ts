@@ -32,8 +32,11 @@ export const GameTipSchema = z.object({
 });
 export type GameTip = z.infer<typeof GameTipSchema>;
 
+// D025: Resultat Tipps nur für Thursday Night und Monday Night Game. Massgebend ist der Wochentag in
+// America/New_York. Gibt es mehrere Spiele an diesem Tag (Thanksgiving, Doppel Monday Night), gilt das späteste.
 export const TiebreakerSchema = z.object({
   gameId: z.string(),
+  slot: z.enum(["thursday", "monday"]),
   homePoints: z.number().int().min(0),
   awayPoints: z.number().int().min(0),
   basis: z.enum(["quote", "standard"]), // standard: ohne Over/Under 23 zu 20 für den Favoriten
@@ -47,7 +50,7 @@ export const TipsFileSchema = z.object({
   updatedAt: z.string().datetime(),
   maxDeviations: z.number().int().min(0), // erlaubte Abweichungen laut D021
   tips: z.array(GameTipSchema),
-  tiebreaker: TiebreakerSchema.nullable(),
+  tiebreakers: z.array(TiebreakerSchema).max(2), // 0 bis 2 Einträge, Woche ohne TNF oder MNF hat weniger
 });
 export type TipsFile = z.infer<typeof TipsFileSchema>;
 

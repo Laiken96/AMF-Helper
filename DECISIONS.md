@@ -174,3 +174,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ändert D002 und D009. Siegwahrscheinlichkeit aus dem Spread im ESPN Scoreboard (Anbieter DraftKings) über Normalverteilung mit Standardabweichung 13.5 Punkte. Tiebreaker Resultat aus Over/Under und Spread. The Odds API erst, wenn ESPN Quoten fehlen oder unzuverlässig sind
 - Begründung: ESPN liefert Spread und Over/Under gratis im bereits genutzten Abruf (am 2026-11-02 für Week 9 geprüft). Kein weiteres Konto, kein Key
 - Verworfen: The Odds API in Sprint 2 (Konto und Key nötig, Mehrwert eines zweiten Buchmachers gering)
+
+## D025 Zwei Tiebreaker pro Woche
+
+- Datum: 2026-11-02
+- Entscheid: Laut FAQ der Tippseite gibt es Resultat Tipps nur für das Thursday Night und das Monday Night Game, beide zählen als Tiebreaker. Zuordnung über den Wochentag in America/New_York, bei mehreren Spielen am selben Tag das späteste. Datenvertrag tiebreakers als Liste mit 0 bis 2 Einträgen
+- Begründung: FAQ der Tippseite, vom Nutzer übermittelt. Ersetzt die Annahme "erstes Spiel der Woche"
+- Verworfen: ein einziger Tiebreaker. Ungeprüft bleibt die Regel bei mehreren Spielen am selben Tag
