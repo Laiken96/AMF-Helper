@@ -35,9 +35,9 @@ Stand 2026-11-02 abends, alles auf main und live unter https://laiken96.github.i
 - Design Stil A für iPhone und iPhone Duo (D035 bis D039, D045, D047, D048 Spielauswahl im Spielbereich)
 - Automatik: cron-job.org startet push.yml alle 10 Minuten und data.yml stündlich Minute 47 (D041), GitHub Zeitpläne unzuverlässig
 - Secrets: VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION, ANTHROPIC_API_KEY. Token cron-job läuft am 02.11.2027 ab, Erinnerung geplant
-- 283 Tests grün
-- Offen: Liveticker an echtem Spiel (MNF CHI@SEA 2026-11-03 01:15 UTC), Gerätetests R97 R101, Gesamtabnahme Week 9 (Do 05.11. bis Di 10.11.), danach Post Mortem
-- Arbeitsweise: Entwicklung auf Branch claude/nfl-dashboard-plan-mcwlna, Pull Request nach main, Merge selbst laut Regel 8 (D046). Vor Merge immer main zuerst holen (Regel 6). Agenten pro Stream, danach unabhängiger Review und QA
+- 340 Tests grün. Code Review mit Agenten umgesetzt (D049): strengeres Spielende, KI Versuchsgrenze inkl. Timeout, Fehlererholung und Zeitlimits in der App, CI Workflow ci.yml für Pull Requests
+- Offen: Liveticker an echtem Spiel (MNF CHI@SEA 2026-11-03 01:15 UTC, echte ESPN Antworten als Fixtures sichern, R105), R104 am Gerät, Gerätetests R97 R101, Gesamtabnahme Week 9 (Do 05.11. bis Di 10.11.), danach Post Mortem
+- Arbeitsweise: Entwicklung auf Branch claude/nfl-dashboard-plan-mcwlna, Pull Request nach main (ci.yml muss grün sein), Merge selbst laut Regel 8 (D046). Vor Merge immer main zuerst holen (Regel 6). Agenten pro Stream, danach unabhängiger Review und QA
 
 ## Befehle
 
