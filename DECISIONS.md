@@ -251,3 +251,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Das Redesign richtet sich nach der Form des Viewports per CSS Media Queries, nicht nach dem Gerätemodell. Drei Layouts: schmal hoch (normales iPhone, eine Spalte, Navigation oben oder unten), flach breit (iPhone Duo zugeklappt, rund 678 mal 466 CSS px: Navigation als Seitenleiste links, Spiele zweispaltig, kompakter Kopf), breit hoch (iPhone Duo aufgeklappt, rund 626 mal 890: drei Übersichtskacheln, Spiele zweispaltig, ganze Woche auf einen Blick). Wechsel beim Auf und Zuklappen ohne Neuladen. Entwürfe im Design Canvas. Umsetzung erst nach Abnahme Week 9. Pixelmasse des Duo aus Drittquellen, ungeprüft
 - Begründung: Safari gibt das iPhone Modell nicht preis. Media Queries greifen sofort beim Wechsel des Zustands und decken auch künftige Geräte ab
 - Verworfen: Erkennung über den User Agent
+
+## D036 Stil A und Duo Layouts nach Recherche
+
+- Datum: 2026-11-02
+- Entscheid: Stil A Flutlicht ist gesetzt. Ergänzt D035 mit Werten aus der Recherche (Drittquellen, ungeprüft): Duo zugeklappt 466 mal 678 Punkte hoch mit 84 Punkten reserviert rechts und 34 unten, Navigation als Leiste rechts vor dem reservierten Bereich. Duo aufgeklappt quer rund 951 mal 669 mit Systemleiste rechts (Screenshot des Nutzers) und Falz in der Mitte: Navigationsleiste links, links die scrollende Spielliste, rechts die Übersicht, Teilung 50 zu 50 am Falz, gerade Spaltenzahl. Aufgeklappt hoch rund 669 mal 951: Kacheln oben, Spiele zweispaltig. Breakpoints nach Breite: unter 600 kompakt, 600 bis 839 mittel, ab 840 zwei Bereiche. Safe Area per env(safe-area-inset-*) je Seite einzeln, viewport-fit=cover. Viewport Segments API nur als Zusatz
+- Begründung: Wahl des Nutzers, Screenshot vom Duo, Apple Empfehlung laut Drittquellen (Size Classes statt Gerät, asymmetrische Safe Areas, scrollende Inhalte bleiben stehen, gerade Spaltenzahl wegen Falz), Android Canonical Layouts als Referenz
+- Verworfen: Stil B, feste Gerätelayouts
