@@ -2170,3 +2170,8 @@ a.step-today:hover {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* Bilanz: Kacheln gleich hoch, ob mit oder ohne Bilanzdatei */
+.view-bilanz .tiles .box-meta {
+  min-height: calc(2 * 1.4em);
+}

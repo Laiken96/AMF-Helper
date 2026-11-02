@@ -324,12 +324,24 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
   return { ...nav, week, teams, standings, tips, injuries, news };
 }
 
+export interface ReviewWeek {
+  ref: WeekRef;
+  /** Pfad der Bilanz, null wenn die Woche noch keine hat. */
+  path: string | null;
+}
+
 export interface ReviewData {
-  /** Pfade aller Bilanzen, neueste zuerst. */
-  index: string[];
-  path: string;
-  review: ReviewFile;
-  /** null, wenn die Wochendatei der Bilanz fehlt. Dann fehlen Kürzel pro Spiel. */
+  /** Alle Wochen für den Wochenwähler, aufsteigend (D044 geändert: wie Tipps und Spiele). */
+  weeks: ReviewWeek[];
+  ref: WeekRef;
+  /** Standardwoche: neueste Woche mit Bilanz bis zur aktuellen Woche. */
+  home: WeekRef;
+  current: WeekRef | null;
+  phase: WeekPhase;
+  path: string | null;
+  /** null, wenn die Woche keine Bilanz hat. */
+  review: ReviewFile | null;
+  /** null, wenn die Wochendatei fehlt. Dann fehlen Kürzel pro Spiel. */
   week: WeekFile | null;
   teams: TeamsFile;
   standings: StandingsFile;
@@ -341,16 +353,52 @@ export async function loadReviewIndex(): Promise<string[] | null> {
   return loadOptionalJson(REVIEW_INDEX_PATH, ReviewIndexSchema);
 }
 
-/** Lädt eine Bilanz samt Wochendatei, Teams, Rangliste und Verlauf. */
-export async function loadReviewData(index: string[], path: string): Promise<ReviewData> {
-  const [review, teams, standings, history] = await Promise.all([
-    loadJson(path, ReviewFileSchema),
+/** Wochen aus dem Wochenindex plus Bilanzen aus reviews/index.json, aufsteigend. Beide Dateien dürfen fehlen. */
+export async function loadReviewWeeks(): Promise<ReviewWeek[]> {
+  const [weeksIndex, reviewIndex] = await Promise.all([loadWeeksIndex(), loadReviewIndex()]);
+  const map = new Map<string, ReviewWeek>();
+  for (const path of reviewIndex ?? []) {
+    const ref = parseWeekKey(/(\d{4}-\d-\d{2})\.json$/.exec(path)?.[1]);
+    if (ref) map.set(weekKey(ref), { ref, path });
+  }
+  for (const w of weeksIndex?.weeks ?? []) {
+    const ref = { season: w.season, seasonType: w.seasonType, week: w.week };
+    const key = weekKey(ref);
+    map.set(key, { ref, path: w.reviewFile ?? map.get(key)?.path ?? null });
+  }
+  return [...map.values()].sort((a, b) => compareRef(a.ref, b.ref));
+}
+
+/** Neueste Woche mit Bilanz bis zur aktuellen Woche, sonst die neueste mit Bilanz, sonst die aktuelle. */
+function homeWeek(weeks: ReviewWeek[], current: WeekRef | null): WeekRef | null {
+  const withReview = weeks.filter((w) => w.path);
+  const upTo = current ? withReview.filter((w) => compareRef(w.ref, current) <= 0) : withReview;
+  return (upTo[upTo.length - 1] ?? withReview[withReview.length - 1])?.ref ?? current ?? weeks[weeks.length - 1]?.ref ?? null;
+}
+
+/** Bilanzseite einer Woche. null, wenn es weder Wochen noch Bilanzen gibt. */
+export async function loadReviewPage(requested: WeekRef | null): Promise<ReviewData | null> {
+  const [weeks, currentFile] = await Promise.all([loadReviewWeeks(), loadCurrent()]);
+  const current = currentFile ? currentRef(currentFile) : null;
+  if (current && weeks.length > 0 && !weeks.some((w) => sameRef(w.ref, current))) {
+    weeks.push({ ref: current, path: null });
+    weeks.sort((a, b) => compareRef(a.ref, b.ref));
+  }
+  const home = homeWeek(weeks, current);
+  if (!home) return null;
+  const ref = requested ?? home;
+  const entry = weeks.find((w) => sameRef(w.ref, ref));
+  if (!entry) weeks.splice(weeks.findIndex((w) => compareRef(w.ref, ref) > 0) >>> 0, 0, { ref, path: null });
+  const path = entry?.path ?? null;
+  const [review, teams, standings, history, week] = await Promise.all([
+    path ? loadJson(path, ReviewFileSchema) : Promise.resolve(null),
     loadJson("teams.json", TeamsFileSchema),
     loadJson("standings.json", StandingsFileSchema),
     loadJson("standings-history.json", StandingsHistorySchema),
+    loadOptionalJson(weekFilePath(ref.season, ref.seasonType, ref.week), WeekFileSchema).catch(() => null),
   ]);
-  const week = await loadOptionalJson(weekFilePath(review.season, review.seasonType, review.week), WeekFileSchema);
-  return { index, path, review, week, teams, standings, history };
+  const phase: WeekPhase = current ? phaseOf(ref, current) : "vergangen";
+  return { weeks, ref, home, current, phase, path, review, week, teams, standings, history };
 }
 
 /** current.json, null wenn sie fehlt oder nicht lesbar ist. Nur für Zusatzansichten wie Bilanz und News. */

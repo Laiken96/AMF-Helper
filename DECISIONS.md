@@ -329,3 +329,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Feste Freigabe des Nutzers. Claude merged eigene Pull Requests vom Entwicklungsbranch nach main selbst, wenn typecheck, test und build grün sind und Review und QA bestanden haben (bei kleinen Fixes genügt ein Test, der den Fehler abdeckt). Danach kurze Meldung an den Nutzer, was live ging, und Prüfung der Veröffentlichung. Weiterhin nachfragen bei: Änderungen an Secrets, Kosten oder externen Diensten, grösseren Umbauten oder Designänderungen, allem was einen Entscheid des Nutzers braucht, und bei roten Prüfungen
 - Begründung: Wunsch des Nutzers, weniger Rückfragen bei Routine
 - Verworfen: Rückfrage vor jedem Merge
+
+## D047 Bilanz Wochenwähler wie Tipps
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt den Teil von D044 zur Bilanz Wochenwahl. Die Bilanz nutzt dieselbe Wochenliste wie Tipps und Spiele. Wochen ohne Bilanz zeigen im gleichen Aufbau einen Hinweis. Startwoche bleibt die neueste Woche mit Bilanz
+- Begründung: Nutzerbefund, der Wähler wirkte mit nur einer Bilanzwoche wie defekt
+- Verworfen: Wähler nur über Wochen mit Bilanz
