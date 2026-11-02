@@ -272,3 +272,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Vier Bausteine in allen Layouts gleich: Spielbereich in Teamfarben mit Ring der Siegwahrscheinlichkeit, Tipp, Tiebreaker Resultat, wichtigstem Ausfall und Knopf zur Tippseite. Umschalter Offen oder Alle als Kapsel. Spielzeile mit Teampunkt, Tipp, Gegner, Prozent und Häkchen. Navigation als Kapsel mit fünf Symbolen (Tipps, Bilanz, Spielplan, Rangliste, Mehr). Anordnung je Form: iPhone und Duo aufgeklappt hoch mit schwebender Kapsel unten (Leisten im Hochformat waagrecht), Duo zugeklappt und aufgeklappt quer mit senkrechter Kapsel in der rechten Spalte. Spielbereich im iPhone und Duo hoch oben, im Duo quer als linke Hälfte, im Duo zu kompakt oben
 - Begründung: Wunsch des Nutzers nach durchgängigem Design zwischen Duo quer und hoch, Referenz Sport App
 - Verworfen: Reiter als Textleiste oben aus Entwurf A
+
+## D039 Design Umsetzung vor der Abnahme
+
+- Datum: 2026-11-02
+- Entscheid: Redesign nach D036 bis D038 wird sofort umgesetzt (Sprint D), nur Darstellung, keine Änderung an Logik, Datenvertrag, Jobs oder Push. Merge vor Donnerstag, damit die Abnahme Week 9 bereits mit dem neuen Design läuft. Schriften Barlow Condensed und Inter selbst gehostet unter public/fonts statt Google Fonts. Navigation mit 4 Zielen (Tipps, Bilanz, Spielplan, Einstellungen). Layoutwahl per Breite plus gemessenem rechtem Safe Area Inset
+- Begründung: Wunsch des Nutzers. Product Owner Hinweis: Politur vor Abnahme ist ein Risiko, begrenzt durch reine Darstellungsänderung und Review und QA vor Merge. Google Fonts würde bei jedem Aufruf die IP an Google senden
+- Verworfen: Umsetzung erst nach Dienstag, Ranglisten Reiter ohne eigene Seite
