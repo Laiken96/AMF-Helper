@@ -74,13 +74,13 @@ R9  Pages URL lädt unter Unterpfad
     Vorbedingung: Pages auf "GitHub Actions" gestellt, pages.yml auf main grün.
     Schritt: https://<user>.github.io/AMF-Helper/ am Handy öffnen, Netzwerk Ansicht oder Neuladen prüfen.
     Erwartet: Seite Woche erscheint, Skripte, Styles und data/current.json werden unter /AMF-Helper/ geladen, kein HTTP 404.
-    Status: lokaler Teil bestanden 2026-11-02 (Build mit BASE_PATH=/AMF-Helper/, Preview unter /AMF-Helper/ ohne fehlgeschlagene Anfragen). Echte Pages URL offen GitHub
+    Status: lokaler Teil bestanden 2026-11-02 (Build mit BASE_PATH=/AMF-Helper/, Preview unter /AMF-Helper/ ohne fehlgeschlagene Anfragen). Auf GitHub bestanden 2026-11-02: https://laiken96.github.io/AMF-Helper/ zeigt Week 8, keine Konsolenfehler
 
 R10 Daten Workflow committet nur bei Änderung
     Vorbedingung: data.yml auf main, mindestens ein erfolgreicher Lauf.
     Schritt: Workflow "Daten Spielplan" zweimal kurz hintereinander manuell starten, ausserhalb laufender Spiele.
     Erwartet: Erster Lauf committet nur, wenn ESPN neue Daten liefert. Zweiter Lauf meldet "Keine Änderungen unter data/", kein Commit, kein Pages Build. Bei einem Commit startet pages.yml.
-    Status: lokaler Teil bestanden 2026-11-02 (zweiter Joblauf schreibt keine Datei, updatedAt in current.json bleibt gleich). Workflow selbst offen GitHub
+    Status: lokaler Teil bestanden 2026-11-02 (zweiter Joblauf schreibt keine Datei, updatedAt in current.json bleibt gleich). Auf GitHub bestanden 2026-11-02: manueller Lauf committete geänderte Scores (4ea9965), Pages baute automatisch neu, neue Daten live. Fall ohne Änderung auf GitHub noch offen
 
 R11 Fehlerfall Netz im Workflow
     Vorbedingung: data.yml auf main.
