@@ -25,7 +25,7 @@ const weekW9 = {
 const INJ = "injuries/2026-2-09.json";
 const TNF = "2026-11-06T01:15:00Z";
 const SUB = JSON.stringify({ endpoint: "https://push.example/abc", expirationTime: null, keys: { p256dh: "p", auth: "a" } });
-const ENV = { VAPID_PRIVATE_KEY: "priv", PUSH_SUBSCRIPTION: SUB };
+const ENV = { VAPID_PRIVATE_KEY: "priv", PUSH_SUBSCRIPTION: SUB, GITHUB_REF: "refs/heads/main" };
 
 let dir: string;
 let logs: string[];
@@ -199,9 +199,28 @@ describe("jobs/push.ts", () => {
     expect(sentPayloads).toEqual([]);
   });
 
-  it("ungültige Anmeldung ergibt Exit 1", async () => {
-    expect(await push([], pushDeps(at30, { ...ENV, PUSH_SUBSCRIPTION: "{}" }))).toBe(1);
-    expect(errors[0]).toContain("PUSH_SUBSCRIPTION");
+  it("ungültige Anmeldung ergibt Exit 1 ohne Fehlerdetails", async () => {
+    expect(await push([], pushDeps(at30, { ...ENV, PUSH_SUBSCRIPTION: '{"endpoint": geheim' }))).toBe(1);
+    expect(errors).toEqual(["PUSH_SUBSCRIPTION ist kein gültiges Anmelde JSON. Im Onboarding kopieren und Secret ersetzen."]);
+  });
+
+  it("auf anderen Branches kein echter Versand, Testnachricht schon", async () => {
+    const branch = { ...ENV, GITHUB_REF: "refs/heads/claude/x" };
+    expect(await push([], pushDeps(at30, branch))).toBe(0);
+    expect(sentPayloads).toEqual([]);
+    expect(await exists(logPath())).toBe(false);
+    expect(logs.at(-1)).toContain("Kein Versand auf refs/heads/claude/x");
+    expect(await push(["--test"], pushDeps(at30, branch))).toBe(0);
+    expect(sentPayloads.map((p) => p.title)).toEqual(["Test aus GitHub Actions"]);
+  });
+
+  it("TTL wird an den Versand übergeben", async () => {
+    const ttls: number[] = [];
+    const rec: SendFn = async (_s, _p, _v, ttl) => {
+      ttls.push(ttl);
+    };
+    expect(await push([], pushDeps(at30, ENV, rec))).toBe(0);
+    expect(ttls).toEqual([6 * 3600, 30 * 60]);
   });
 
   it("ausserhalb des Fensters nur die Tippliste", async () => {

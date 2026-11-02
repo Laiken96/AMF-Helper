@@ -17,8 +17,9 @@ permissions:
   contents: write
 
 concurrency:
-  # Gleiche Gruppe wie data.yml, damit nie zwei Läufe gleichzeitig unter data/ committen.
-  group: data-${{ github.ref }}
+  # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
+  # (hier nur data/push-log.json und data/injuries), Konflikte beim Push löst git pull --rebase.
+  group: push-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -73,8 +74,17 @@ jobs:
           [ -d data/injuries ] && paths+=(data/injuries)
           git add -A -- "${paths[@]}"
           git commit -m "data: Push Log und Ausfälle aktualisiert"
-          git pull --rebase
-          git push
+          # Bis zu 3 Versuche, falls data.yml gleichzeitig pusht. Ein misslungener Rebase wird abgebrochen und wiederholt.
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep $((i * 5))
+          done
+          echo "Push nach 3 Versuchen fehlgeschlagen"
+          exit 1
 
       - name: Fehler melden
         if: steps.watch.outcome == 'failure' || steps.push.outcome == 'failure'

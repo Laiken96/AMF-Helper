@@ -78,10 +78,10 @@ describe("Texte", () => {
 });
 
 describe("Slot Fenster", () => {
-  it("Grenzen 15 und 60 Minuten sind fällig, knapp ausserhalb nicht", () => {
-    expect(inSlotWindow(TNF, minus(TNF, 15))).toBe(true);
+  it("Grenzen 2 und 60 Minuten sind fällig, knapp ausserhalb nicht", () => {
+    expect(inSlotWindow(TNF, minus(TNF, 2))).toBe(true);
     expect(inSlotWindow(TNF, minus(TNF, 60))).toBe(true);
-    expect(inSlotWindow(TNF, minus(TNF, 14.9))).toBe(false);
+    expect(inSlotWindow(TNF, minus(TNF, 1.9))).toBe(false);
     expect(inSlotWindow(TNF, minus(TNF, 60.1))).toBe(false);
   });
 
@@ -89,8 +89,20 @@ describe("Slot Fenster", () => {
     const at = (min: number) => slotMessages({ games, tips: tipsW9, injuries: null, teams, now: minus(TNF, min) });
     expect(at(61)).toEqual([]);
     expect(at(60)).toHaveLength(1);
-    expect(at(15)[0]?.payload.title).toBe("Tippschluss in 15 min");
-    expect(at(14)).toEqual([]);
+    expect(at(30)[0]?.payload.title).toBe("Tippschluss in 30 min");
+    expect(at(2)[0]?.payload.title).toBe("Tippschluss in 2 min");
+    expect(at(1)).toEqual([]);
+  });
+
+  it("TTL bis zum Kickoff, mindestens 60 Sekunden", () => {
+    const at = (min: number) => slotMessages({ games, tips: tipsW9, injuries: null, teams, now: minus(TNF, min) })[0]?.ttlSeconds;
+    expect(at(42)).toBe(42 * 60);
+    expect(at(2)).toBe(120);
+    expect(tipsReadyMessage(tipsW9, games, teams)?.ttlSeconds).toBe(6 * 3600);
+  });
+
+  it("Active zählt als fit", () => {
+    expect(statusCode("Active")).toBe("fit");
   });
 
   it("ohne Änderung steht Keine Änderung im Text", () => {

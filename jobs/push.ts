@@ -42,21 +42,26 @@ export interface VapidKeys {
   privateKey: string;
 }
 
+export const SEND_TIMEOUT_MS = 15_000;
+export const TEST_TTL_S = 3600;
+export const MAIN_REF = "refs/heads/main";
+
 /** Sendet eine Meldung. Wirft bei Fehler, ein HTTP Status steht in statusCode. */
-export type SendFn = (subscription: Subscription, payload: PushPayload, vapid: VapidKeys) => Promise<void>;
+export type SendFn = (subscription: Subscription, payload: PushPayload, vapid: VapidKeys, ttlSeconds: number) => Promise<void>;
 
 export interface PushDeps extends MainDeps {
   env?: Record<string, string | undefined>;
   send?: SendFn;
 }
 
-const defaultSend: SendFn = async (subscription, payload, vapid) => {
+const defaultSend: SendFn = async (subscription, payload, vapid, ttlSeconds) => {
   const mod = (await import("web-push")) as unknown as { default?: typeof import("web-push") } & typeof import("web-push");
   const webpush = mod.default ?? mod;
   await webpush.sendNotification(subscription, JSON.stringify(payload), {
     vapidDetails: vapid,
-    TTL: 3600,
+    TTL: ttlSeconds,
     urgency: "high",
+    timeout: SEND_TIMEOUT_MS,
   });
 };
 
@@ -77,10 +82,11 @@ async function trySend(
   sub: Subscription,
   payload: PushPayload,
   vapid: VapidKeys,
+  ttlSeconds: number,
   error: (msg: string) => void,
 ): Promise<SendResult> {
   try {
-    await send(sub, payload, vapid);
+    await send(sub, payload, vapid, ttlSeconds);
     return "ok";
   } catch (err) {
     const code = statusOf(err);
@@ -173,19 +179,25 @@ export async function main(argv: readonly string[], deps: PushDeps = {}): Promis
       log("Secrets VAPID_PRIVATE_KEY oder PUSH_SUBSCRIPTION fehlen, nichts gesendet, push-log unverändert.");
       return 0;
     }
+    // Echter Versand nur auf main, damit Testläufe auf Branches nichts senden und kein Log schreiben.
+    if (env.GITHUB_REF !== MAIN_REF) {
+      log(`Kein Versand auf ${env.GITHUB_REF ?? "lokal"}, nur ${MAIN_REF} sendet. Testnachricht geht überall.`);
+      return 0;
+    }
   }
 
   let sub: Subscription;
   try {
     sub = SubscriptionSchema.parse(JSON.parse(subRaw!));
-  } catch (err) {
-    error(`PUSH_SUBSCRIPTION ist kein gültiges Anmelde JSON. ${describeError(err)}`);
+  } catch {
+    // Keine Fehlerdetails ausgeben, sie könnten Teile des Secrets enthalten.
+    error("PUSH_SUBSCRIPTION ist kein gültiges Anmelde JSON. Im Onboarding kopieren und Secret ersetzen.");
     return 1;
   }
   const vapid: VapidKeys = { subject: VAPID_SUBJECT, publicKey: VAPID_PUBLIC_KEY, privateKey: privateKey! };
 
   if (test) {
-    const r = await trySend(send, sub, TEST_PAYLOAD, vapid, error);
+    const r = await trySend(send, sub, TEST_PAYLOAD, vapid, TEST_TTL_S, error);
     if (r === "ok") log("Testnachricht gesendet.");
     return r === "ok" ? 0 : 1;
   }
@@ -193,7 +205,7 @@ export async function main(argv: readonly string[], deps: PushDeps = {}): Promis
   const sent: Array<{ message: DueMessage; sentAt: string }> = [];
   let exit = 0;
   for (const message of loaded!.messages) {
-    const r = await trySend(send, sub, message.payload, vapid, error);
+    const r = await trySend(send, sub, message.payload, vapid, message.ttlSeconds, error);
     if (r === "ok") {
       sent.push({ message, sentAt: now });
       log(`Gesendet ${message.key}`);

@@ -124,6 +124,13 @@ export function injuriesFilePath(season: number, seasonType: number, week: numbe
   return `injuries/${season}-${seasonType}-${String(week).padStart(2, "0")}.json`;
 }
 
+/** Active heisst spielfähig und zählt wie kein Eintrag, damit nie fit>fit gemeldet wird. */
+export function normalizeStatus(status: string | null | undefined): string | null {
+  if (status === undefined || status === null) return null;
+  const s = status.trim();
+  return s === "" || s.toLowerCase() === "active" ? null : s;
+}
+
 export type SummaryParse = { ok: true; summary: EspnSummary } | { ok: false; error: string };
 
 export function parseSummary(raw: unknown): SummaryParse {
@@ -177,7 +184,7 @@ export function keyPlayersFromSummary(summary: EspnSummary): KeyPlayer[] {
     .map(([key, p]) => ({
       ...p,
       roles: [...p.roles].sort((a, b) => order.indexOf(a) - order.indexOf(b)),
-      status: status.get(key) ?? null,
+      status: normalizeStatus(status.get(key)),
     }))
     .sort((a, b) => a.teamAbbr.localeCompare(b.teamAbbr) || a.athleteId.localeCompare(b.athleteId, "en", { numeric: true }));
 }
@@ -255,8 +262,8 @@ export function diffInjuries(baseline: InjuryState | null, current: InjuryState)
     for (const key of keys) {
       const a = before.get(key);
       const b = after.get(key);
-      const from = a?.status ?? null;
-      const to = b?.status ?? null;
+      const from = normalizeStatus(a?.status);
+      const to = normalizeStatus(b?.status);
       if (from === to) continue;
       const ref = (b ?? a)!;
       out.push({

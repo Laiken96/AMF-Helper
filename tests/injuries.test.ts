@@ -118,6 +118,13 @@ describe("Änderungen seit Grundstand", () => {
     expect(c).toEqual([expect.objectContaining({ kind: "neu", athleteId: "2", to: "Out" })]);
   });
 
+  it("Active gilt wie kein Eintrag, nie fit>fit", () => {
+    expect(diffInjuries(state([player({ status: "Active" })]), state([player({})]))).toEqual([]);
+    expect(diffInjuries(state([player({})]), state([player({ status: "Active" })]))).toEqual([]);
+    const c = diffInjuries(state([player({ status: "Active" })]), state([player({ status: "Out" })]));
+    expect(c).toEqual([expect.objectContaining({ kind: "neu", from: null, to: "Out" })]);
+  });
+
   it("ohne Grundstand keine Änderungen", () => {
     expect(diffInjuries(null, state([player({ status: "Out" })]))).toEqual([]);
   });

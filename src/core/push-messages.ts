@@ -10,7 +10,9 @@ import { groupBySlot } from "./time";
 export const PUSH_LOG_SCHEMA_VERSION = 1 as const;
 export const TITLE_MAX = 40;
 export const BODY_MAX = 180;
-export const SLOT_WINDOW_MIN = 15;
+export const SLOT_WINDOW_MIN = 2; // lieber spät als gar nicht
+export const TIPS_READY_TTL_S = 6 * 3600;
+export const MIN_TTL_S = 60;
 export const SLOT_WINDOW_MAX = 60;
 export const PUSH_LOG_MAX_ENTRIES = 500;
 
@@ -33,6 +35,7 @@ export const EMPTY_PUSH_LOG: PushLogFile = { schemaVersion: PUSH_LOG_SCHEMA_VERS
 export interface DueMessage {
   key: string;
   payload: PushPayload;
+  ttlSeconds: number; // so lange hält der Push Dienst die Meldung, Slot Meldungen bis zum Kickoff
 }
 
 export function tipsReadyKey(season: number, seasonType: number, week: number): string {
@@ -108,6 +111,7 @@ export function tipsReadyMessage(tips: TipsFile, games: readonly Game[], teams: 
   const body = tbs.length > 0 ? fitParts(`${head} TB `, tbs, BODY_MAX) : `${head} Kein TB`;
   return {
     key: tipsReadyKey(tips.season, tips.seasonType, tips.week),
+    ttlSeconds: TIPS_READY_TTL_S,
     payload: {
       title: `Tippliste W${tips.week} bereit`,
       body,
@@ -139,7 +143,7 @@ export function inSlotWindow(kickoffUtc: string, now: string): boolean {
   return m >= SLOT_WINDOW_MIN && m <= SLOT_WINDOW_MAX;
 }
 
-/** "Tippschluss in X min" für jeden Slot, dessen Kickoff 15 bis 60 Minuten entfernt ist. */
+/** "Tippschluss in X min" für jeden Slot, dessen Kickoff 2 bis 60 Minuten entfernt ist. */
 export function slotMessages(input: SlotInput): DueMessage[] {
   const { teams, now } = input;
   const open = input.games.filter((g) => g.status === "scheduled");
@@ -163,6 +167,7 @@ export function slotMessages(input: SlotInput): DueMessage[] {
     const minutes = Math.floor(minutesUntil(slot.kickoffUtc, now));
     out.push({
       key: slotKeyOf(slot.slotKey),
+      ttlSeconds: Math.max(MIN_TTL_S, Math.floor(minutesUntil(slot.kickoffUtc, now) * 60)),
       payload: { title: `Tippschluss in ${minutes} min`, body: body.slice(0, BODY_MAX), url: "#tipps", tag: `slot-${slot.slotKey}` },
     });
   }
