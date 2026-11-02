@@ -2,12 +2,15 @@
 // Eigene lockere Schemas nur für die Live Felder. Polling nur bei laufendem Spiel und sichtbarem Tab.
 import { useEffect, useMemo, useState } from "react";
 import { z } from "zod";
-import { scoreboardUrl } from "../core/espn";
+import { mapStatus, scoreboardUrl } from "../core/espn";
 import { summaryUrl } from "../core/injuries";
-import type { Game } from "../core/schema";
+import type { Game, GameStatus } from "../core/schema";
 import type { WeekRef } from "./data";
+import { LIVE_TIMEOUT_MS, timeoutSignal } from "./net";
 
 export const LIVE_INTERVAL_MS = 20_000;
+/** Obergrenze für die Wartezeit nach wiederholten Fehlern. */
+export const LIVE_MAX_BACKOFF_MS = 5 * 60_000;
 /** So lange nach Kickoff gilt ein nicht finales Spiel als möglicherweise laufend. */
 const LIVE_WINDOW_MS = 6 * 60 * 60 * 1000;
 
@@ -19,6 +22,7 @@ const LiveStatusSchema = z.looseObject({
   type: z.looseObject({
     state: z.enum(["pre", "in", "post"]),
     name: z.string().nullish(),
+    completed: z.boolean().nullish(),
     shortDetail: z.string().nullish(),
     detail: z.string().nullish(),
   }),
@@ -57,7 +61,13 @@ const LiveScoreboardSchema = z.looseObject({ events: z.array(z.unknown()) });
 
 export interface LiveGame {
   id: string;
+  /**
+   * Phase für die Anzeige: "in" läuft, "post" final, sonst "pre". Verschobene und abgesagte Spiele
+   * sind weder laufend noch final und stehen hier auf "pre", den Grund nennt status.
+   */
   state: "pre" | "in" | "post";
+  /** Status wie in der Wochendatei, über mapStatus aus src/core/espn.ts. */
+  status: GameStatus;
   period: number | null;
   clock: string | null;
   detail: string | null;
@@ -77,6 +87,14 @@ const toScore = (v: string | number | null | undefined): number | null => {
 
 const clean = (v: string | null | undefined): string | null => (v && v.trim() ? v.trim() : null);
 
+const STATE_OF: Record<GameStatus, LiveGame["state"]> = {
+  scheduled: "pre",
+  in_progress: "in",
+  final: "post",
+  postponed: "pre",
+  canceled: "pre",
+};
+
 /** Wandelt eine Scoreboard Antwort in Live Daten pro Event ID. Ungültige Events werden übersprungen. */
 export function parseLiveScoreboard(raw: unknown): Map<string, LiveGame> {
   const out = new Map<string, LiveGame>();
@@ -92,9 +110,16 @@ export function parseLiveScoreboard(raw: unknown): Map<string, LiveGame> {
     const home = comp.competitors.find((c) => c.homeAway === "home");
     const away = comp.competitors.find((c) => c.homeAway === "away");
     const sit = comp.situation;
+    // Ohne Namen zählt der state allein, ein beendetes Spiel bleibt dann final statt verschoben.
+    const gameStatus = status.type.name
+      ? mapStatus({ ...status, type: { ...status.type, name: status.type.name } })
+      : status.type.state === "post"
+        ? "final"
+        : mapStatus({ ...status, type: { ...status.type, name: "" } });
     out.set(ev.id, {
       id: ev.id,
-      state: status.type.state,
+      state: STATE_OF[gameStatus],
+      status: gameStatus,
       period: status.period ?? null,
       clock: clean(status.displayClock),
       detail: clean(status.type.shortDetail) ?? clean(status.type.detail),
@@ -122,15 +147,23 @@ export function periodText(live: LiveGame): string {
 /** Kann das Spiel gerade laufen? Live Daten haben Vorrang vor der Wochendatei. */
 export function maybeLive(game: Game, live: LiveGame | undefined, now: number): boolean {
   if (game.status === "canceled" || game.status === "postponed") return false;
+  if (live?.status === "canceled" || live?.status === "postponed") return false;
+  const kickoff = Date.parse(game.kickoffUtc);
   if (live) {
-    if (live.state === "in") return true;
+    // Auch ein laufendes Spiel endet spätestens nach dem Fenster, falls ESPN danach dauerhaft ausfällt.
+    if (live.state === "in") return now - kickoff < LIVE_WINDOW_MS;
     if (live.state === "post") return false;
   } else if (game.status === "in_progress") {
     return true;
   }
   if (game.status === "final") return false;
-  const kickoff = Date.parse(game.kickoffUtc);
   return kickoff <= now && now - kickoff < LIVE_WINDOW_MS;
+}
+
+/** Wartezeit bis zum nächsten Abruf: 20 s, nach Fehlern 20, 40, 80 s und so weiter bis höchstens 5 Minuten. */
+export function liveDelay(failures: number): number {
+  if (failures <= 1) return LIVE_INTERVAL_MS;
+  return Math.min(LIVE_INTERVAL_MS * 2 ** (failures - 1), LIVE_MAX_BACKOFF_MS);
 }
 
 /** Sichtbarkeit des Tabs. */
@@ -166,7 +199,8 @@ export interface LiveState {
 
 /**
  * Live Stand aller Spiele der Woche. Fragt ESPN alle 20 Sekunden ab, aber nur solange ein Spiel laufen kann
- * und der Tab sichtbar ist. Sonst kein Polling. Fehler behalten den letzten Stand.
+ * und der Tab sichtbar ist. Sonst kein Polling. Fehler behalten den letzten Stand, nach Fehlern wird die
+ * Wartezeit verdoppelt (höchstens 5 Minuten), nach einem Erfolg gilt wieder 20 s. Zeitlimit 10 s pro Abruf.
  */
 export function useLiveScores(ref: WeekRef | null, games: readonly Game[] | null): LiveState {
   const [state, setState] = useState<Omit<LiveState, "active">>({ games: new Map(), updatedAt: null, error: false });
@@ -183,18 +217,21 @@ export function useLiveScores(ref: WeekRef | null, games: readonly Game[] | null
     let cancelled = false;
     let timer: number | undefined;
     let ctrl: AbortController | null = null;
+    let failures = 0;
     const url = scoreboardUrl({ season: ref.season, seasonType: ref.seasonType, week: ref.week });
     const tick = async () => {
       ctrl = new AbortController();
       try {
-        const res = await fetch(url, { signal: ctrl.signal, cache: "no-store" });
+        const res = await fetch(url, { signal: timeoutSignal(LIVE_TIMEOUT_MS, ctrl.signal), cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const map = parseLiveScoreboard(await res.json());
+        failures = 0;
         if (!cancelled) setState({ games: map, updatedAt: Date.now(), error: false });
       } catch {
+        failures += 1;
         if (!cancelled) setState((s) => (s.error ? s : { ...s, error: true }));
       }
-      if (!cancelled) timer = window.setTimeout(tick, LIVE_INTERVAL_MS);
+      if (!cancelled) timer = window.setTimeout(tick, liveDelay(failures));
     };
     void tick();
     return () => {
@@ -290,17 +327,23 @@ export function useLastPlays(eventId: string | null, running: boolean): PlaysSta
     let cancelled = false;
     let timer: number | undefined;
     let ctrl: AbortController | null = null;
+    let failures = 0;
     const tick = async () => {
       ctrl = new AbortController();
       try {
-        const res = await fetch(summaryUrl(eventId), { signal: ctrl.signal, cache: "no-store" });
+        const res = await fetch(summaryUrl(eventId), {
+          signal: timeoutSignal(LIVE_TIMEOUT_MS, ctrl.signal),
+          cache: "no-store",
+        });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const plays = parseLastPlays(await res.json());
+        failures = 0;
         if (!cancelled) setState({ plays, error: false, updatedAt: Date.now() });
       } catch {
+        failures += 1;
         if (!cancelled) setState((s) => ({ ...s, error: true }));
       }
-      if (!cancelled && running) timer = window.setTimeout(tick, LIVE_INTERVAL_MS);
+      if (!cancelled && running) timer = window.setTimeout(tick, liveDelay(failures));
     };
     void tick();
     return () => {

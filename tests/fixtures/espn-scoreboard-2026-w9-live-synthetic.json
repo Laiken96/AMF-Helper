@@ -1,0 +1,952 @@
+{
+ "leagues": [
+  {
+   "id": "28",
+   "uid": "s:20~l:28",
+   "name": "National Football League",
+   "abbreviation": "NFL",
+   "slug": "nfl",
+   "season": {
+    "year": 2026,
+    "startDate": "2026-08-06T07:00Z",
+    "endDate": "2027-02-16T07:59Z",
+    "displayName": "2026",
+    "type": {
+     "id": "2",
+     "type": 2,
+     "name": "Regular Season",
+     "abbreviation": "reg"
+    }
+   },
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2018-06-05T12:07Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nfl.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2024-07-22T16:53Z"
+    }
+   ],
+   "calendarType": "list",
+   "calendarIsWhitelist": true,
+   "calendarStartDate": "2026-08-06T07:00Z",
+   "calendarEndDate": "2027-02-16T07:59Z",
+   "calendar": [
+    {
+     "label": "Preseason",
+     "value": "1",
+     "startDate": "2026-08-06T07:00Z",
+     "endDate": "2026-09-06T06:59Z",
+     "entries": [
+      {
+       "label": "Hall of Fame Weekend",
+       "alternateLabel": "HOF",
+       "detail": "Aug 6-12",
+       "value": "1",
+       "startDate": "2026-08-06T07:00Z",
+       "endDate": "2026-08-13T06:59Z"
+      },
+      {
+       "label": "Preseason Week 1",
+       "alternateLabel": "Pre Wk 1",
+       "detail": "Aug 13-19",
+       "value": "2",
+       "startDate": "2026-08-13T07:00Z",
+       "endDate": "2026-08-20T06:59Z"
+      },
+      {
+       "label": "Preseason Week 2",
+       "alternateLabel": "Pre Wk 2",
+       "detail": "Aug 20-26",
+       "value": "3",
+       "startDate": "2026-08-20T07:00Z",
+       "endDate": "2026-08-27T06:59Z"
+      },
+      {
+       "label": "Preseason Week 3",
+       "alternateLabel": "Pre Wk 3",
+       "detail": "Aug 27-Sep 5",
+       "value": "4",
+       "startDate": "2026-08-27T07:00Z",
+       "endDate": "2026-09-06T06:59Z"
+      }
+     ]
+    },
+    {
+     "label": "Regular Season",
+     "value": "2",
+     "startDate": "2026-09-06T07:00Z",
+     "endDate": "2027-01-13T07:59Z",
+     "entries": [
+      {
+       "label": "Week 1",
+       "alternateLabel": "Week 1",
+       "detail": "Sep 6-15",
+       "value": "1",
+       "startDate": "2026-09-06T07:00Z",
+       "endDate": "2026-09-16T06:59Z"
+      },
+      {
+       "label": "Week 2",
+       "alternateLabel": "Week 2",
+       "detail": "Sep 16-22",
+       "value": "2",
+       "startDate": "2026-09-16T07:00Z",
+       "endDate": "2026-09-23T06:59Z"
+      },
+      {
+       "label": "Week 3",
+       "alternateLabel": "Week 3",
+       "detail": "Sep 23-29",
+       "value": "3",
+       "startDate": "2026-09-23T07:00Z",
+       "endDate": "2026-09-30T06:59Z"
+      },
+      {
+       "label": "Week 4",
+       "alternateLabel": "Week 4",
+       "detail": "Sep 30-Oct 6",
+       "value": "4",
+       "startDate": "2026-09-30T07:00Z",
+       "endDate": "2026-10-07T06:59Z"
+      },
+      {
+       "label": "Week 5",
+       "alternateLabel": "Week 5",
+       "detail": "Oct 7-13",
+       "value": "5",
+       "startDate": "2026-10-07T07:00Z",
+       "endDate": "2026-10-14T06:59Z"
+      },
+      {
+       "label": "Week 6",
+       "alternateLabel": "Week 6",
+       "detail": "Oct 14-20",
+       "value": "6",
+       "startDate": "2026-10-14T07:00Z",
+       "endDate": "2026-10-21T06:59Z"
+      },
+      {
+       "label": "Week 7",
+       "alternateLabel": "Week 7",
+       "detail": "Oct 21-27",
+       "value": "7",
+       "startDate": "2026-10-21T07:00Z",
+       "endDate": "2026-10-28T06:59Z"
+      },
+      {
+       "label": "Week 8",
+       "alternateLabel": "Week 8",
+       "detail": "Oct 28-Nov 3",
+       "value": "8",
+       "startDate": "2026-10-28T07:00Z",
+       "endDate": "2026-11-04T07:59Z"
+      },
+      {
+       "label": "Week 9",
+       "alternateLabel": "Week 9",
+       "detail": "Nov 4-10",
+       "value": "9",
+       "startDate": "2026-11-04T08:00Z",
+       "endDate": "2026-11-11T07:59Z"
+      },
+      {
+       "label": "Week 10",
+       "alternateLabel": "Week 10",
+       "detail": "Nov 11-17",
+       "value": "10",
+       "startDate": "2026-11-11T08:00Z",
+       "endDate": "2026-11-18T07:59Z"
+      },
+      {
+       "label": "Week 11",
+       "alternateLabel": "Week 11",
+       "detail": "Nov 18-24",
+       "value": "11",
+       "startDate": "2026-11-18T08:00Z",
+       "endDate": "2026-11-25T07:59Z"
+      },
+      {
+       "label": "Week 12",
+       "alternateLabel": "Week 12",
+       "detail": "Nov 25-Dec 1",
+       "value": "12",
+       "startDate": "2026-11-25T08:00Z",
+       "endDate": "2026-12-02T07:59Z"
+      },
+      {
+       "label": "Week 13",
+       "alternateLabel": "Week 13",
+       "detail": "Dec 2-8",
+       "value": "13",
+       "startDate": "2026-12-02T08:00Z",
+       "endDate": "2026-12-09T07:59Z"
+      },
+      {
+       "label": "Week 14",
+       "alternateLabel": "Week 14",
+       "detail": "Dec 9-15",
+       "value": "14",
+       "startDate": "2026-12-09T08:00Z",
+       "endDate": "2026-12-16T07:59Z"
+      },
+      {
+       "label": "Week 15",
+       "alternateLabel": "Week 15",
+       "detail": "Dec 16-22",
+       "value": "15",
+       "startDate": "2026-12-16T08:00Z",
+       "endDate": "2026-12-23T07:59Z"
+      },
+      {
+       "label": "Week 16",
+       "alternateLabel": "Week 16",
+       "detail": "Dec 23-29",
+       "value": "16",
+       "startDate": "2026-12-23T08:00Z",
+       "endDate": "2026-12-30T07:59Z"
+      },
+      {
+       "label": "Week 17",
+       "alternateLabel": "Week 17",
+       "detail": "Dec 30-Jan 5",
+       "value": "17",
+       "startDate": "2026-12-30T08:00Z",
+       "endDate": "2027-01-06T07:59Z"
+      },
+      {
+       "label": "Week 18",
+       "alternateLabel": "Week 18",
+       "detail": "Jan 6-12",
+       "value": "18",
+       "startDate": "2027-01-06T08:00Z",
+       "endDate": "2027-01-13T07:59Z"
+      }
+     ]
+    },
+    {
+     "label": "Postseason",
+     "value": "3",
+     "startDate": "2027-01-13T08:00Z",
+     "endDate": "2027-02-16T07:59Z",
+     "entries": [
+      {
+       "label": "Wild Card",
+       "alternateLabel": "Wild Card",
+       "detail": "Jan 13-19",
+       "value": "1",
+       "startDate": "2027-01-13T08:00Z",
+       "endDate": "2027-01-20T07:59Z"
+      },
+      {
+       "label": "Divisional Round",
+       "alternateLabel": "Div Rd",
+       "detail": "Jan 20-26",
+       "value": "2",
+       "startDate": "2027-01-20T08:00Z",
+       "endDate": "2027-01-27T07:59Z"
+      },
+      {
+       "label": "Conference Championship",
+       "alternateLabel": "Conf Champ",
+       "detail": "Jan 27-Feb 2",
+       "value": "3",
+       "startDate": "2027-01-27T08:00Z",
+       "endDate": "2027-02-03T07:59Z"
+      },
+      {
+       "label": "Super Bowl",
+       "alternateLabel": "Super Bowl",
+       "detail": "Feb 3-15",
+       "value": "4",
+       "startDate": "2027-02-03T08:00Z",
+       "endDate": "2027-02-16T07:59Z"
+      }
+     ]
+    },
+    {
+     "label": "Off Season",
+     "value": "4",
+     "startDate": "2027-02-16T08:00Z",
+     "endDate": "2027-08-01T06:59Z"
+    }
+   ]
+  }
+ ],
+ "season": {
+  "type": 2,
+  "year": 2026
+ },
+ "week": {
+  "number": 9,
+  "teamsOnBye": [
+   {
+    "id": "10",
+    "uid": "s:20~l:28~t:10",
+    "location": "Tennessee",
+    "name": "Titans",
+    "abbreviation": "TEN",
+    "displayName": "Tennessee Titans",
+    "shortDisplayName": "Titans",
+    "isActive": true,
+    "links": [
+     {
+      "rel": [
+       "clubhouse",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nfl/team/_/name/ten/tennessee-titans",
+      "text": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ],
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ten.png"
+   },
+   {
+    "id": "23",
+    "uid": "s:20~l:28~t:23",
+    "location": "Pittsburgh",
+    "name": "Steelers",
+    "abbreviation": "PIT",
+    "displayName": "Pittsburgh Steelers",
+    "shortDisplayName": "Steelers",
+    "isActive": true,
+    "links": [
+     {
+      "rel": [
+       "clubhouse",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+      "text": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ],
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png"
+   }
+  ]
+ },
+ "events": [
+  {
+   "id": "401873037",
+   "uid": "s:20~l:28~e:401873037",
+   "date": "2026-11-06T01:15Z",
+   "name": "Jacksonville Jaguars at Baltimore Ravens",
+   "shortName": "JAX @ BAL",
+   "season": {
+    "year": 2026,
+    "type": 2,
+    "slug": "regular-season"
+   },
+   "week": {
+    "number": 9
+   },
+   "competitions": [
+    {
+     "id": "401873037",
+     "uid": "s:20~l:28~e:401873037~c:401873037",
+     "date": "2026-11-06T01:15Z",
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "neutralSite": false,
+     "venue": {
+      "id": "3814",
+      "fullName": "M&T Bank Stadium",
+      "address": {
+       "city": "Baltimore",
+       "state": "MD",
+       "country": "USA"
+      },
+      "indoor": false
+     },
+     "competitors": [
+      {
+       "id": "33",
+       "uid": "s:20~l:28~t:33",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "team": {
+        "id": "33",
+        "uid": "s:20~l:28~t:33",
+        "location": "Baltimore",
+        "name": "Ravens",
+        "abbreviation": "BAL",
+        "displayName": "Baltimore Ravens",
+        "shortDisplayName": "Ravens",
+        "color": "29126f",
+        "alternateColor": "000000",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+       },
+       "score": "17"
+      },
+      {
+       "id": "30",
+       "uid": "s:20~l:28~t:30",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "team": {
+        "id": "30",
+        "uid": "s:20~l:28~t:30",
+        "location": "Jacksonville",
+        "name": "Jaguars",
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "shortDisplayName": "Jaguars",
+        "color": "007487",
+        "alternateColor": "d7a22a",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+       },
+       "score": "10"
+      }
+     ],
+     "status": {
+      "clock": 252,
+      "displayClock": "4:12",
+      "period": 3,
+      "type": {
+       "id": "2",
+       "name": "STATUS_IN_PROGRESS",
+       "state": "in",
+       "completed": false,
+       "description": "In Progress",
+       "detail": "4:12 - 3rd Quarter",
+       "shortDetail": "4:12 - 3rd"
+      },
+      "isTBDFlex": false
+     },
+     "situation": {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873037/competitions/401873037/situation",
+      "lastPlay": {
+       "id": "4018730371234",
+       "type": {
+        "id": "24",
+        "text": "Pass Reception",
+        "abbreviation": "REC"
+       },
+       "text": "(4:12 - 3rd) L.Jackson pass short right to Z.Flowers for 12 yards",
+       "scoreValue": 0,
+       "team": {
+        "id": "33"
+       }
+      },
+      "down": 1,
+      "yardLine": 18,
+      "distance": 10,
+      "downDistanceText": "1st & 10 at JAX 18",
+      "shortDownDistanceText": "1st & 10",
+      "possessionText": "JAX 18",
+      "isRedZone": true,
+      "homeTimeouts": 3,
+      "awayTimeouts": 2,
+      "possession": "33"
+     }
+    }
+   ],
+   "status": {
+    "clock": 252,
+    "displayClock": "4:12",
+    "period": 3,
+    "type": {
+     "id": "2",
+     "name": "STATUS_IN_PROGRESS",
+     "state": "in",
+     "completed": false,
+     "description": "In Progress",
+     "detail": "4:12 - 3rd Quarter",
+     "shortDetail": "4:12 - 3rd"
+    }
+   }
+  },
+  {
+   "id": "401873038",
+   "uid": "s:20~l:28~e:401873038",
+   "date": "2026-11-08T14:30Z",
+   "name": "Cincinnati Bengals at Atlanta Falcons",
+   "shortName": "CIN VS ATL",
+   "season": {
+    "year": 2026,
+    "type": 2,
+    "slug": "regular-season"
+   },
+   "week": {
+    "number": 9
+   },
+   "competitions": [
+    {
+     "id": "401873038",
+     "uid": "s:20~l:28~e:401873038~c:401873038",
+     "date": "2026-11-08T14:30Z",
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "neutralSite": true,
+     "venue": {
+      "id": "1353",
+      "fullName": "Santiago Bernabéu",
+      "address": {
+       "city": "Madrid",
+       "country": "Spain"
+      },
+      "indoor": true
+     },
+     "competitors": [
+      {
+       "id": "1",
+       "uid": "s:20~l:28~t:1",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "team": {
+        "id": "1",
+        "uid": "s:20~l:28~t:1",
+        "location": "Atlanta",
+        "name": "Falcons",
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "shortDisplayName": "Falcons",
+        "color": "a71930",
+        "alternateColor": "000000",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+       },
+       "score": "24"
+      },
+      {
+       "id": "4",
+       "uid": "s:20~l:28~t:4",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "team": {
+        "id": "4",
+        "uid": "s:20~l:28~t:4",
+        "location": "Cincinnati",
+        "name": "Bengals",
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "shortDisplayName": "Bengals",
+        "color": "fb4f14",
+        "alternateColor": "000000",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+       },
+       "score": "24"
+      }
+     ],
+     "status": {
+      "clock": 431,
+      "displayClock": "7:11",
+      "period": 5,
+      "type": {
+       "id": "2",
+       "name": "STATUS_IN_PROGRESS",
+       "state": "in",
+       "completed": false,
+       "description": "In Progress",
+       "detail": "7:11 - OT",
+       "shortDetail": "7:11 - OT"
+      },
+      "isTBDFlex": false
+     },
+     "situation": {
+      "downDistanceText": "3rd & 4 at ATL 41",
+      "shortDownDistanceText": "3rd & 4",
+      "possessionText": "ATL 41",
+      "isRedZone": false,
+      "possession": "4"
+     }
+    }
+   ],
+   "status": {
+    "clock": 431,
+    "displayClock": "7:11",
+    "period": 5,
+    "type": {
+     "id": "2",
+     "name": "STATUS_IN_PROGRESS",
+     "state": "in",
+     "completed": false,
+     "description": "In Progress",
+     "detail": "7:11 - OT",
+     "shortDetail": "7:11 - OT"
+    }
+   }
+  },
+  {
+   "id": "401873040",
+   "uid": "s:20~l:28~e:401873040",
+   "date": "2026-11-08T18:00Z",
+   "name": "Dallas Cowboys at Indianapolis Colts",
+   "shortName": "DAL @ IND",
+   "season": {
+    "year": 2026,
+    "type": 2,
+    "slug": "regular-season"
+   },
+   "week": {
+    "number": 9
+   },
+   "competitions": [
+    {
+     "id": "401873040",
+     "uid": "s:20~l:28~e:401873040~c:401873040",
+     "date": "2026-11-08T18:00Z",
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "neutralSite": false,
+     "venue": {
+      "id": "3812",
+      "fullName": "Lucas Oil Stadium",
+      "address": {
+       "city": "Indianapolis",
+       "state": "IN",
+       "country": "USA"
+      },
+      "indoor": true
+     },
+     "competitors": [
+      {
+       "id": "11",
+       "uid": "s:20~l:28~t:11",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "team": {
+        "id": "11",
+        "uid": "s:20~l:28~t:11",
+        "location": "Indianapolis",
+        "name": "Colts",
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "shortDisplayName": "Colts",
+        "color": "003b75",
+        "alternateColor": "ffffff",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+       },
+       "score": "27"
+      },
+      {
+       "id": "6",
+       "uid": "s:20~l:28~t:6",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "team": {
+        "id": "6",
+        "uid": "s:20~l:28~t:6",
+        "location": "Dallas",
+        "name": "Cowboys",
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "shortDisplayName": "Cowboys",
+        "color": "002a5c",
+        "alternateColor": "b0b7bc",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+       },
+       "score": "30"
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0:00",
+      "period": 4,
+      "type": {
+       "id": "3",
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      },
+      "isTBDFlex": false
+     }
+    }
+   ],
+   "status": {
+    "clock": 0,
+    "displayClock": "0:00",
+    "period": 4,
+    "type": {
+     "id": "3",
+     "name": "STATUS_FINAL",
+     "state": "post",
+     "completed": true,
+     "description": "Final",
+     "detail": "Final",
+     "shortDetail": "Final"
+    }
+   }
+  },
+  {
+   "id": "401873045",
+   "uid": "s:20~l:28~e:401873045",
+   "date": "2026-11-08T18:00Z",
+   "name": "New York Jets at Kansas City Chiefs",
+   "shortName": "NYJ @ KC",
+   "season": {
+    "year": 2026,
+    "type": 2,
+    "slug": "regular-season"
+   },
+   "week": {
+    "number": 9
+   },
+   "competitions": [
+    {
+     "id": "401873045",
+     "uid": "s:20~l:28~e:401873045~c:401873045",
+     "date": "2026-11-08T18:00Z",
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "neutralSite": false,
+     "venue": {
+      "id": "3622",
+      "fullName": "Arrowhead Stadium",
+      "address": {
+       "city": "Kansas City",
+       "state": "MO",
+       "country": "USA"
+      },
+      "indoor": false
+     },
+     "competitors": [
+      {
+       "id": "12",
+       "uid": "s:20~l:28~t:12",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "team": {
+        "id": "12",
+        "uid": "s:20~l:28~t:12",
+        "location": "Kansas City",
+        "name": "Chiefs",
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "shortDisplayName": "Chiefs",
+        "color": "e31837",
+        "alternateColor": "ffb612",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+       },
+       "score": "0"
+      },
+      {
+       "id": "20",
+       "uid": "s:20~l:28~t:20",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "team": {
+        "id": "20",
+        "uid": "s:20~l:28~t:20",
+        "location": "New York",
+        "name": "Jets",
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "shortDisplayName": "Jets",
+        "color": "115740",
+        "alternateColor": "ffffff",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+       },
+       "score": "0"
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0:00",
+      "period": 0,
+      "type": {
+       "id": "6",
+       "name": "STATUS_POSTPONED",
+       "state": "post",
+       "completed": false,
+       "description": "Postponed",
+       "detail": "Postponed",
+       "shortDetail": "Postponed"
+      },
+      "isTBDFlex": false
+     }
+    }
+   ],
+   "status": {
+    "clock": 0,
+    "displayClock": "0:00",
+    "period": 0,
+    "type": {
+     "id": "6",
+     "name": "STATUS_POSTPONED",
+     "state": "post",
+     "completed": false,
+     "description": "Postponed",
+     "detail": "Postponed",
+     "shortDetail": "Postponed"
+    }
+   }
+  },
+  {
+   "id": "401873042",
+   "uid": "s:20~l:28~e:401873042",
+   "date": "2026-11-08T18:00Z",
+   "name": "Detroit Lions at Miami Dolphins",
+   "shortName": "DET @ MIA",
+   "season": {
+    "year": 2026,
+    "type": 2,
+    "slug": "regular-season"
+   },
+   "week": {
+    "number": 9
+   },
+   "competitions": [
+    {
+     "id": "401873042",
+     "uid": "s:20~l:28~e:401873042~c:401873042",
+     "date": "2026-11-08T18:00Z",
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "neutralSite": false,
+     "venue": {
+      "id": "3948",
+      "fullName": "Hard Rock Stadium",
+      "address": {
+       "city": "Miami Gardens",
+       "state": "FL",
+       "country": "USA"
+      },
+      "indoor": false
+     },
+     "competitors": [
+      {
+       "id": "15",
+       "uid": "s:20~l:28~t:15",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "team": {
+        "id": "15",
+        "uid": "s:20~l:28~t:15",
+        "location": "Miami",
+        "name": "Dolphins",
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "shortDisplayName": "Dolphins",
+        "color": "008e97",
+        "alternateColor": "fc4c02",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+       },
+       "score": "0"
+      },
+      {
+       "id": "8",
+       "uid": "s:20~l:28~t:8",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "team": {
+        "id": "8",
+        "uid": "s:20~l:28~t:8",
+        "location": "Detroit",
+        "name": "Lions",
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "shortDisplayName": "Lions",
+        "color": "0076b6",
+        "alternateColor": "bbbbbb",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+       },
+       "score": "0"
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0:00",
+      "period": 0,
+      "type": {
+       "id": "1",
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Sun, November 8th at 1:00 PM EST",
+       "shortDetail": "11/8 - 1:00 PM EST"
+      },
+      "isTBDFlex": false
+     }
+    }
+   ],
+   "status": {
+    "clock": 0,
+    "displayClock": "0:00",
+    "period": 0,
+    "type": {
+     "id": "1",
+     "name": "STATUS_SCHEDULED",
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled",
+     "detail": "Sun, November 8th at 1:00 PM EST",
+     "shortDetail": "11/8 - 1:00 PM EST"
+    }
+   }
+  },
+  {
+   "id": "999",
+   "name": "Kaputt",
+   "status": {
+    "clock": 0,
+    "displayClock": "0:00",
+    "period": 0,
+    "type": {
+     "id": "1",
+     "name": "STATUS_SCHEDULED",
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled",
+     "detail": "Sun, November 8th at 1:00 PM EST",
+     "shortDetail": "11/8 - 1:00 PM EST"
+    }
+   }
+  }
+ ]
+}

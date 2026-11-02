@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { parseScoreboard, scoreboardUrl } from "../src/core/espn";
+import { mapStatus, parseScoreboard, scoreboardUrl } from "../src/core/espn";
 import { TeamSchema, WeekFileSchema } from "../src/core/schema";
 
 const fixtureText = readFileSync(new URL("./fixtures/espn-scoreboard-2026-w8.json", import.meta.url), "utf8");
@@ -141,5 +141,39 @@ describe("scoreboardUrl", () => {
     expect(scoreboardUrl({ season: 2026, seasonType: 2, week: 8 })).toBe(
       "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=8",
     );
+  });
+});
+
+describe("mapStatus", () => {
+  const st = (name: string, state: "pre" | "in" | "post", completed?: boolean) => ({
+    type: { name, state, ...(completed === undefined ? {} : { completed }) },
+  });
+
+  it("final nur bei post mit completed oder STATUS_FINAL", () => {
+    expect(mapStatus(st("STATUS_FINAL", "post", true))).toBe("final");
+    expect(mapStatus(st("STATUS_FINAL", "post"))).toBe("final");
+    expect(mapStatus(st("STATUS_FINAL_OVERTIME", "post", false))).toBe("final");
+    expect(mapStatus(st("STATUS_END_OF_GAME", "post", true))).toBe("final");
+  });
+
+  it("suspendierte, abgebrochene, verwirkte und verzögerte Spiele mit post gelten als verschoben", () => {
+    for (const name of ["STATUS_SUSPENDED", "STATUS_ABANDONED", "STATUS_FORFEIT", "STATUS_DELAYED", "STATUS_UNKNOWN"]) {
+      expect(mapStatus(st(name, "post", false))).toBe("postponed");
+      expect(mapStatus(st(name, "post"))).toBe("postponed");
+    }
+  });
+
+  it("verschoben, abgesagt, geplant und laufend wie bisher", () => {
+    expect(mapStatus(st("STATUS_POSTPONED", "post", false))).toBe("postponed");
+    expect(mapStatus(st("STATUS_CANCELED", "post", false))).toBe("canceled");
+    expect(mapStatus(st("STATUS_CANCELLED", "pre"))).toBe("canceled");
+    expect(mapStatus(st("STATUS_SCHEDULED", "pre", false))).toBe("scheduled");
+    expect(mapStatus(st("STATUS_IN_PROGRESS", "in", false))).toBe("in_progress");
+  });
+
+  it("echtes Fixture Woche 8: alle beendeten Spiele bleiben final", () => {
+    const res = parseScoreboard(fixture(), { fetchedAt: FETCHED });
+    if (!res.ok) throw new Error(res.error);
+    expect(res.week.games.filter((g) => g.status === "final")).toHaveLength(12);
   });
 });

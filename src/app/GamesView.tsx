@@ -173,18 +173,28 @@ function GameRow({
 }) {
   const away = team(game.awayId);
   const home = team(game.homeId);
-  const running = live?.state === "in";
-  const awayScore = live && live.state !== "pre" ? live.awayScore : game.awayScore;
-  const homeScore = live && live.state !== "pre" ? live.homeScore : game.homeScore;
-  const status = live && live.state !== "pre" ? (running ? "in_progress" : "final") : game.status;
+  // Verschoben oder abgesagt, laut Live Daten oder Wochendatei: weder laufend noch final
+  const offStatus =
+    live?.status === "postponed" || live?.status === "canceled"
+      ? live.status
+      : game.status === "postponed" || game.status === "canceled"
+        ? game.status
+        : null;
+  const running = !offStatus && live?.state === "in";
+  const fromLive = !offStatus && live !== undefined && live.state !== "pre";
+  const awayScore = fromLive ? live.awayScore : game.awayScore;
+  const homeScore = fromLive ? live.homeScore : game.homeScore;
+  const status = offStatus ?? (fromLive ? (running ? "in_progress" : "final") : game.status);
   const showScore = (status === "in_progress" || status === "final") && awayScore !== null && homeScore !== null;
-  const statusText = running
-    ? periodText(live)
-    : live?.state === "post"
-      ? (live.detail ?? STATUS_TEXT.final)
-      : game.status === "scheduled"
-        ? STATUS_TEXT.scheduled
-        : game.statusDetail || STATUS_TEXT[game.status];
+  const statusText = offStatus
+    ? STATUS_TEXT[offStatus]
+    : running
+      ? periodText(live)
+      : live?.state === "post"
+        ? (live.detail ?? STATUS_TEXT.final)
+        : game.status === "scheduled"
+          ? STATUS_TEXT.scheduled
+          : game.statusDetail || STATUS_TEXT[game.status];
 
   const matchup = (
     <div className="matchup">

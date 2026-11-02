@@ -657,3 +657,29 @@ R101 Spielauswahl im Spielbereich
     Schritt: Duo quer: Zeile antippen, Pfeile, "Zum nächsten Tippschluss", Häkchen setzen. iPhone und Duo hoch: Zeile antippen, im Blatt durchklicken, schliessen.
     Erwartet: Spielbereich zeigt gewähltes Spiel ohne Layoutsprung, Zeile markiert, Häkchen ändert Auswahl nicht, Blatt sperrt Hintergrund und schliesst per Knopf und Escape.
     Status: bestanden lokal 2026-11-02, offen Nutzer am Gerät
+
+## Stabilität nach Code Review (D049)
+
+R102 Timeout der KI zählt als Versuch
+    Vorbedingung: Spiel im 6 Stunden Fenster, API antwortet nicht innerhalb 60 s.
+    Schritt: Push Wächter läuft viermal.
+    Erwartet: Nur 2 Anfragen, attempts.json steht auf 2, danach keine weitere Anfrage. 429 und 5xx zählen weiterhin nicht.
+    Status: bestanden lokal 2026-11-02 per Test
+
+R103 Unterbrochenes Spiel wird nicht gewertet
+    Vorbedingung: ESPN meldet STATUS_SUSPENDED mit state "post" und Teilstand.
+    Schritt: job:schedule und job:review laufen.
+    Erwartet: Spiel steht als verschoben, Bilanz zählt es nicht, Tippliste zeigt offen und ab Kickoff plus 7 Tage ungewertet. Ein gesperrter Tiebreaker bleibt.
+    Status: bestanden lokal 2026-11-02 per Test
+
+R104 Ladefehler erholt sich
+    Vorbedingung: App offen, Abruf von data/weeks scheitert (Funkloch).
+    Schritt: Netz zurück, "Erneut versuchen" oder Aktualisieren antippen.
+    Erwartet: Inhalt erscheint ohne Neustart der App.
+    Status: offen
+
+R105 Liveticker an echtem Spiel
+    Vorbedingung: Spiel läuft.
+    Schritt: Spiele öffnen, Detail öffnen.
+    Erwartet: Score, Viertel, Uhr und letzte Spielzüge aktuell, bei ESPN Fehler längere Abstände bis 5 Minuten, verschobenes Spiel ohne Abruf.
+    Status: offen, erster Einsatz MNF CHI@SEA 2026-11-03 01:15 UTC

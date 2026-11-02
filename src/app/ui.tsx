@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { Team } from "../core/schema";
-import { compareRef, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
+import { compareRef, retryLoad, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
 
 export const fetchedFormat = new Intl.DateTimeFormat("de-CH", {
   timeZone: "Europe/Zurich",
@@ -29,11 +29,36 @@ export function fallbackTeam(id: string): Team {
   return { id, abbr: `#${id}`, name: `Team ${id}`, shortName: `Team ${id}`, logo: null, color: null };
 }
 
-export function LoadErrorNotice({ message }: { message: string }) {
+/**
+ * Ladefehler mit Knopf Erneut versuchen. Der Knopf fragt fehlgeschlagene Dateien neu ab und lässt die Ansicht
+ * neu laden. Gelingt der Abruf, ersetzt der Inhalt den Hinweis.
+ */
+export function LoadErrorNotice({ message, onRetry = retryLoad }: { message: string; onRetry?: () => Promise<void> }) {
+  const [busy, setBusy] = useState(false);
+  const mounted = useRef(true);
+  useEffect(() => {
+    mounted.current = true;
+    return () => {
+      mounted.current = false;
+    };
+  }, []);
+  const retry = () => {
+    setBusy(true);
+    onRetry()
+      .catch(() => undefined)
+      .finally(() => {
+        if (mounted.current) setBusy(false);
+      });
+  };
   return (
     <div className="notice notice-error" role="alert">
       <strong>Daten konnten nicht geladen werden.</strong>
       <p>{message}</p>
+      <div className="button-row notice-actions">
+        <button type="button" className="btn" onClick={retry} disabled={busy} aria-busy={busy || undefined}>
+          {busy ? "Wird geladen …" : "Erneut versuchen"}
+        </button>
+      </div>
     </div>
   );
 }

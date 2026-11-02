@@ -57,9 +57,9 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
   },
 ];
 
-/** 60 Sekunden pro Anfrage, höchstens 1 Wiederholung, damit ein Lauf nie lange hängt. */
+/** 60 Sekunden pro Anfrage, keine Wiederholung im SDK. Ein Versuch ist genau eine Anfrage, der nächste Lauf wiederholt. */
 export const CLIENT_TIMEOUT_MS = 60_000;
-export const CLIENT_MAX_RETRIES = 1;
+export const CLIENT_MAX_RETRIES = 0;
 
 async function defaultClient(apiKey: string): Promise<MessagesClient> {
   const mod = await import("@anthropic-ai/sdk");
@@ -83,20 +83,25 @@ type AskResult =
   | { ok: false; error: string; apiError?: boolean; transient?: boolean };
 
 /**
- * Rate Limit, Überlastung, Serverfehler und Netz (ohne Status) sind vorübergehend. Ungültiger oder
- * gesperrter Schlüssel (401, 403) ist ein Konfigurationsfehler und zählt ebenfalls nicht als Versuch.
+ * Rate Limit, Überlastung und Serverfehler (408, 429, 5xx) lehnt die API sofort ab, ohne Kosten. Ungültiger
+ * oder gesperrter Schlüssel (401, 403) ist ein Konfigurationsfehler. Beides zählt nicht als Versuch.
+ * Timeout und Netzfehler (ohne Status) zählen dagegen: die Anfrage kann bereits verarbeitet und bezahlt sein,
+ * ohne Zählung würde MAX_ATTEMPTS nie greifen und jeder Lauf erneut Kosten erzeugen.
  */
 export function isTransient(status: number | undefined): boolean {
-  return status === undefined || status === 401 || status === 403 || status === 408 || status === 429 || status >= 500;
+  if (status === undefined) return false;
+  return status === 401 || status === 403 || status === 408 || status === 429 || status >= 500;
 }
 
 /**
- * Altlast vor dem Fix für 401 und 403: Einträge, deren letzter Fehler vorübergehend war (Netz, Schlüssel,
- * Überlastung), wurden fälschlich gezählt. Solche Einträge werden verworfen, damit das Spiel erneut drankommt.
+ * Altlast vor dem Fix für 401 und 403: Einträge, deren letzter Fehler ein vorübergehender HTTP Status war
+ * (Schlüssel, Überlastung), wurden fälschlich gezählt. Solche Einträge werden verworfen, damit das Spiel
+ * erneut drankommt. Nur Einträge, die mit "API Fehler HTTP" beginnen: Timeouts ohne Status und Fehler
+ * einer Fortsetzung nach bezahlter Anfrage bleiben gezählt.
  */
 export function forgiveTransient(a: OpinionAttempts): OpinionAttempts {
   const entries = a.entries.filter((e) => {
-    const m = /HTTP (\d{3})/.exec(e.lastResult);
+    const m = /^API Fehler HTTP (\d{3})/.exec(e.lastResult);
     return !(m && isTransient(Number(m[1])));
   });
   return entries.length === a.entries.length ? a : { ...a, entries };
@@ -122,11 +127,13 @@ async function askModel(client: MessagesClient, prompt: string, usage: UsageTota
     } catch (err) {
       const raw = typeof err === "object" && err !== null && "status" in err ? (err as { status: unknown }).status : undefined;
       const status = typeof raw === "number" ? raw : undefined;
+      // Nach einer erfolgreichen ersten Anfrage sind Kosten entstanden: jeder Fehler der Fortsetzung zählt.
+      const prefix = i === 0 ? "" : "Fortsetzung nach bezahlter Anfrage, ";
       return {
         ok: false,
-        error: `API Fehler${status !== undefined ? ` HTTP ${status}` : ""}: ${describeError(err)}`,
+        error: `${prefix}API Fehler${status !== undefined ? ` HTTP ${status}` : ""}: ${describeError(err)}`,
         apiError: true,
-        transient: isTransient(status),
+        transient: i === 0 && isTransient(status),
       };
     }
     usage.inputTokens += res.usage.input_tokens + (res.usage.cache_read_input_tokens ?? 0) + (res.usage.cache_creation_input_tokens ?? 0);
@@ -244,7 +251,7 @@ export async function main(argv: readonly string[], deps: OpinionDeps = {}): Pro
       if (!asked.ok) {
         error(`${label}: ${asked.error}`);
         if (asked.transient) {
-          // Überlastung, Rate Limit oder Netz: kein inhaltlicher Fehlschlag, zählt nicht als Versuch.
+          // Überlastung, Rate Limit oder Schlüssel: sofort abgelehnt, keine Kosten, zählt nicht als Versuch.
           attempts = before;
           exit = 1;
         } else {

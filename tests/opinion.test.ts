@@ -188,7 +188,7 @@ describe("opinion main", () => {
   for (const [name, err] of [
     ["529 Überlastung", Object.assign(new Error("overloaded"), { status: 529 })],
     ["429 Rate Limit", Object.assign(new Error("rate limit"), { status: 429 })],
-    ["Netzwerkfehler", new TypeError("fetch failed")],
+    ["401 ungültiger Schlüssel", Object.assign(new Error("invalid x-api-key"), { status: 401 })],
   ] as const) {
     it(`${name}: Exit 1, zählt nicht als Versuch, keine Meinung`, async () => {
       const { client, create } = fakeClient(err);
@@ -199,6 +199,32 @@ describe("opinion main", () => {
       expect(await readAttempts()).toEqual([]);
     });
   }
+
+  for (const [name, err] of [
+    ["Timeout", Object.assign(new Error("Request timed out."), { name: "APIConnectionTimeoutError" })],
+    ["Netzwerkfehler", new TypeError("fetch failed")],
+  ] as const) {
+    it(`${name}: Exit 1, zählt als Versuch, nach 2 Versuchen kein weiterer Aufruf`, async () => {
+      const { client, create } = fakeClient(err);
+      for (let i = 0; i < 4; i++) expect(await main([], deps(client, beforeTnf(120 - i * 10)))).toBe(i < MAX_ATTEMPTS ? 1 : 0);
+      expect(create).toHaveBeenCalledTimes(MAX_ATTEMPTS);
+      expect(existsSync(join(dir, OPINIONS))).toBe(false);
+      expect(await readAttempts()).toEqual([
+        expect.objectContaining({ gameId: TNF_ID, attempts: MAX_ATTEMPTS, lastResult: expect.stringMatching(/^API Fehler: /) }),
+      ]);
+    });
+  }
+
+  it("Fehler der Fortsetzung nach pause_turn zählt als Versuch, auch bei 529", async () => {
+    const paused = message(searchBlocks(), "pause_turn");
+    const overloaded = Object.assign(new Error("overloaded"), { status: 529 });
+    const { client, create } = fakeClient(paused, overloaded, paused, overloaded, paused, overloaded);
+    for (let i = 0; i < 3; i++) expect(await main([], deps(client, beforeTnf(120 - i * 10)))).toBe(i < MAX_ATTEMPTS ? 1 : 0);
+    expect(create).toHaveBeenCalledTimes(2 * MAX_ATTEMPTS);
+    expect(await readAttempts()).toEqual([
+      expect.objectContaining({ gameId: TNF_ID, attempts: MAX_ATTEMPTS, lastResult: expect.stringContaining("Fortsetzung nach bezahlter Anfrage") }),
+    ]);
+  });
 
   it("400 Fehler zählt als Versuch", async () => {
     const { client } = fakeClient(Object.assign(new Error("bad request"), { status: 400 }));

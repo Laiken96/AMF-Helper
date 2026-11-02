@@ -156,7 +156,7 @@ export type HeroEmpty = "gesperrt" | "ohne_daten";
  */
 export type HeroVariant = "offen" | "folgt" | "final";
 
-const RESULT_WORD = { richtig: "richtig", falsch: "falsch", unentschieden: "unentschieden", offen: "offen" } as const;
+const RESULT_WORD = { richtig: "richtig", falsch: "falsch", unentschieden: "unentschieden", offen: "offen", ungewertet: "ungewertet" } as const;
 export type HeroResult = keyof typeof RESULT_WORD;
 
 const WarnIcon = () => (

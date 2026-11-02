@@ -1,5 +1,6 @@
 import { startRevalidation } from "./data";
 import { useCallback, useEffect, useState } from "react";
+import { ErrorBoundary } from "./ErrorBoundary";
 import { GamesView } from "./GamesView";
 import { NewsView } from "./NewsView";
 import { markOnboardingSeen, onboardingSeen, registerServiceWorker } from "./push";
@@ -42,11 +43,14 @@ export function App() {
     <LayoutContext.Provider value={layout}>
       <div className="app">
         <main className={`page view-${view}`}>
-          {view === "tipps" && <TipsView arg={arg} />}
-          {view === "bilanz" && <ReviewView arg={arg} />}
-          {view === "spiele" && <GamesView arg={arg} />}
-          {view === "news" && <NewsView />}
-          {view === "einstellungen" && <SettingsView onShowOnboarding={() => setShowOnboarding(true)} />}
+          {/* Fehlergrenze nur um den Inhalt, Navigation bleibt nutzbar. key setzt sie beim Reiterwechsel zurück, resetKey bei anderer Woche */}
+          <ErrorBoundary key={view} resetKey={arg ?? ""}>
+            {view === "tipps" && <TipsView arg={arg} />}
+            {view === "bilanz" && <ReviewView arg={arg} />}
+            {view === "spiele" && <GamesView arg={arg} />}
+            {view === "news" && <NewsView />}
+            {view === "einstellungen" && <SettingsView onShowOnboarding={() => setShowOnboarding(true)} />}
+          </ErrorBoundary>
         </main>
         <aside className="rail" aria-label="Navigation">
           {layout === "wide" && <ToolCapsule />}

@@ -1,6 +1,6 @@
 // Wochenbilanz (Sprint 4, D032): reine Logik ohne Netz. Schreiber ist jobs/build-review.ts.
 import type { Game } from "./schema";
-import type { TipsFile } from "./tips-schema";
+import type { GameTip, TipsFile } from "./tips-schema";
 import type { OpinionsFile } from "./extra-schema";
 import {
   REVIEW_SCHEMA_VERSION,
@@ -30,6 +30,27 @@ export function isVoid(game: Game | undefined, kickoffUtc: string, now: string):
   if (game !== undefined && game.status !== "postponed") return false;
   const kickoff = Date.parse(game?.kickoffUtc ?? kickoffUtc);
   return Date.parse(now) >= kickoff + VOID_AFTER_DAYS * 86_400_000;
+}
+
+/** Ergebnis eines Tipps für die Tippliste. null ohne Tipp, ungewertet bei abgesagtem oder verfallenem Spiel (D034). */
+export type TipResult = "richtig" | "falsch" | "unentschieden" | "offen" | "ungewertet" | null;
+
+/**
+ * Ergebnis eines Tipps aus dem Spielstand der Wochendatei. Nutzt winnerOf und isVoid wie die Bilanz.
+ * now ist ein ISO Zeitstempel, kickoffUtc der Kickoff aus der Tippliste für Spiele ohne Eintrag in der Wochendatei.
+ */
+export function tipResult(
+  tip: Pick<GameTip, "pickTeamId" | "level">,
+  game: Game | undefined,
+  kickoffUtc: string,
+  now: string,
+): TipResult {
+  if (tip.pickTeamId === null || tip.level === "nicht_erfasst") return null;
+  if (isVoid(game, kickoffUtc, now)) return "ungewertet";
+  if (!game || game.status !== "final" || game.homeScore === null || game.awayScore === null) return "offen";
+  const winner = winnerOf(game);
+  if (winner === null) return "unentschieden";
+  return winner === tip.pickTeamId ? "richtig" : "falsch";
 }
 
 /** Spiel ist erledigt: final mit Spielstand oder aus der Wertung gefallen. */
