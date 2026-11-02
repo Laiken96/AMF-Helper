@@ -3,11 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 8,
-<<<<<<< HEAD
-  "updatedAt": "2026-11-02T12:43:46Z",
-=======
   "updatedAt": "2026-11-02T12:47:17Z",
->>>>>>> origin/main
   "maxDeviations": 0,
   "tips": [
     {
@@ -199,11 +195,7 @@
         "provider": "DraftKings",
         "spreadHome": -3,
         "overUnder": 46.5,
-<<<<<<< HEAD
-        "fetchedAt": "2026-11-02T12:43:46Z"
-=======
         "fetchedAt": "2026-11-02T12:47:17Z"
->>>>>>> origin/main
       },
       "pHome": 0.5879,
       "pickTeamId": "26",
