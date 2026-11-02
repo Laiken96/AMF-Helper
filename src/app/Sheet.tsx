@@ -1,4 +1,4 @@
-import { useEffect, useRef, type PointerEvent as ReactPointerEvent, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useRef, type PointerEvent as ReactPointerEvent, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { DRAG_START, shouldCloseSheet } from "./sheet-gesture";
 
@@ -16,6 +16,10 @@ const CloseIcon = () => (
     <path d="M18 6L6 18" />
   </svg>
 );
+
+/** true innerhalb eines Blatts. Der Spielbereich zeigt dort zusätzliche Inhalte wie die Fakten. */
+const InSheetContext = createContext(false);
+export const useInSheet = (): boolean => useContext(InSheetContext);
 
 interface Drag {
   id: number;
@@ -150,7 +154,7 @@ export function GameSheet({ title, onClose, children }: { title: string; onClose
             <CloseIcon />
           </button>
         </div>
-        {children}
+        <InSheetContext.Provider value={true}>{children}</InSheetContext.Provider>
       </div>
     </div>,
     document.body,

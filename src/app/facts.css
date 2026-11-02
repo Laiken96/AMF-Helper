@@ -1,0 +1,216 @@
+/* Block Fakten im Spielbereich und im Spieldetail (D050). Farben nur aus dem Farbset, im Spielbereich gilt
+   dessen dunkles Set auch im Hellmodus (theme-light.css). Keine Information nur über Farbe: Abweichungen
+   tragen Symbol und Text, der Balken der Tippverteilung hat die Prozente als Text daneben. */
+
+.facts-list {
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.facts-row {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.facts-row dt {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.facts-row dd {
+  margin: 0;
+  min-width: 0;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.facts-strong {
+  font-weight: 700;
+}
+
+.facts-sep {
+  margin: 0 6px;
+  color: var(--text-3);
+}
+
+.facts-move,
+.facts-nowrap {
+  white-space: nowrap;
+}
+
+.facts-move {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.facts-note,
+.facts-pick-note {
+  display: block;
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.facts-pick-note {
+  color: var(--text-2);
+  font-weight: 600;
+}
+
+.facts-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.facts-flag svg {
+  flex: none;
+}
+
+.facts-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--text-3);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-2);
+  white-space: nowrap;
+}
+
+/* Dünner Balken: Gast links, Heim rechts wie die Paarung. Das getippte Team in Akzentfarbe */
+.facts-bar {
+  display: flex;
+  gap: 2px;
+  height: 6px;
+  margin: 5px 0 2px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.facts-bar-seg {
+  min-width: 2px;
+  background: var(--text-3);
+  opacity: 0.55;
+}
+
+.facts-bar-pick {
+  background: var(--accent);
+  opacity: 1;
+}
+
+.facts-bar-ends {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--text-3);
+}
+
+/* Im Spielbereich: dunkle Fläche wie die Begründung einer Abweichung */
+.facts-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px 4px;
+  border-radius: 14px;
+  background: rgba(11, 14, 19, 0.55);
+}
+
+.facts-hero .facts-row dd {
+  color: #f2f4f7;
+}
+
+.facts-hero .facts-row dt,
+.facts-hero .facts-note,
+.facts-hero .facts-bar-ends,
+.facts-hero .facts-sep {
+  color: #c3cad4;
+}
+
+.facts-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  margin: 0 -12px;
+  padding: 0 12px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: none;
+  color: #f2f4f7;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.facts-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  border-radius: 0 0 14px 14px;
+}
+
+.facts-chevron {
+  transition: transform 0.15s ease;
+}
+
+.facts-chevron-open {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .facts-chevron {
+    transition: none;
+  }
+}
+
+.hero-small .facts-hero {
+  padding: 8px 10px 2px;
+}
+
+.hero-small .facts-toggle {
+  margin: 0 -10px;
+}
+
+.hero-big .facts-row {
+  font-size: 14px;
+}
+
+/* Im Spieldetail von Spiele: Zeilen wie die Spielinfo */
+.facts-card .facts-list {
+  gap: 8px;
+}
+
+.facts-card .facts-row {
+  grid-template-columns: 84px minmax(0, 1fr);
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 14px;
+}
+
+/* Versteckte Vorlesetexte im Spielbereich: an den Anfang des nächsten positionierten Elternelements setzen.
+   Sonst liegt ihre Position hinter langen, abgeschnittenen Zeilen (Schlagzeilen, Tiebreaker) und reicht im
+   Duo quer über den Falz. */
+.hero .sr-only {
+  top: 0;
+  left: 0;
+}
+
+.hero-fields > div,
+.hero-small-text,
+.facts-row dd {
+  position: relative;
+  min-width: 0;
+}

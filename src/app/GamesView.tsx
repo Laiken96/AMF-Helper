@@ -18,6 +18,7 @@ import {
 } from "./data";
 import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
+import { GameFacts } from "./GameFacts";
 import { GameSheet } from "./Sheet";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
@@ -437,30 +438,12 @@ const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
   ungewertet: "ungewertet",
 };
 
-/** Ort aus venueInfo (ab Wochendatei 2), sonst Stadionname. Land nur ausserhalb der USA. */
-function venueText(game: Game): string | null {
-  const v = game.venueInfo;
-  const parts = v
-    ? [v.name ?? game.venue, v.city, v.country && v.country !== "USA" ? v.country : null]
-    : [game.venue];
-  const text = parts.filter((x): x is string => Boolean(x)).join(", ");
-  if (!text) return null;
-  return game.neutralSite ? `${text} (neutraler Ort)` : text;
-}
-
 function tipText(tip: GameTip | undefined, team: (id: string) => Team): string {
   if (!tip) return "keine Tippliste";
   if (tip.level === "nicht_erfasst") return "kein App Tipp, die App lief bei Kickoff noch nicht";
   if (tip.level === "offen" || !tip.pickTeamId) return "offen, noch keine Quote";
   const pct = tip.pickProb === null ? "" : `, ${Math.round(tip.pickProb * 100)} %`;
   return `${team(tip.pickTeamId).abbr}${pct}, ${LEVEL_TEXT[tip.level]}${tip.deviation ? ", Abweichung" : ""}`;
-}
-
-function restText(game: Game, team: (id: string) => Team): string | null {
-  const a = game.awayRest;
-  const h = game.homeRest;
-  if (a == null || h == null) return null;
-  return `${team(game.awayId).abbr} ${a} Tage, ${team(game.homeId).abbr} ${h} Tage`;
 }
 
 /**
@@ -506,8 +489,6 @@ function GameDetail({
           : "falsch"
       : null;
   const shownResult = result === "ungewertet" ? result : (liveResult ?? (result === "offen" ? null : result));
-  const venue = venueText(game);
-  const rest = restText(game, team);
 
   return (
     <div className="game-detail">
@@ -581,18 +562,6 @@ function GameDetail({
             <dt>Kickoff</dt>
             <dd>{formatKickoffZurich(game.kickoffUtc)} Uhr</dd>
           </div>
-          {venue && (
-            <div>
-              <dt>Ort</dt>
-              <dd>{venue}</dd>
-            </div>
-          )}
-          {rest && (
-            <div>
-              <dt>Ruhetage</dt>
-              <dd>{rest}</dd>
-            </div>
-          )}
           <div>
             <dt>Tipp</dt>
             <dd>{tipText(tip, team)}</dd>
@@ -612,12 +581,13 @@ function GameDetail({
             </div>
           )}
         </dl>
-        {tip && tip.level !== "nicht_erfasst" && (
-          <a className="btn game-detail-link" href={tipsHref}>
-            Zur Tippseite
-          </a>
-        )}
       </section>
+      <GameFacts key={game.id} game={game} tip={tip} team={team} variant="card" />
+      {tip && tip.level !== "nicht_erfasst" && (
+        <a className="btn game-detail-link" href={tipsHref}>
+          Zur Tippseite
+        </a>
+      )}
     </div>
   );
 }

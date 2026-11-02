@@ -5,6 +5,9 @@ import "./app/app.css";
 import "./app/duo.css";
 import "./app/nav.css";
 import "./app/sheet.css";
+import "./app/season.css";
+import "./app/facts.css";
+import "./app/player.css";
 // Hellmodus zuletzt, damit sein Farbset alle anderen Dateien überschreibt
 import "./app/theme-light.css";
 

@@ -26,6 +26,8 @@ import {
   type StandingsFile,
   type TipsFile,
 } from "../core/tips-schema";
+import { FpiFileSchema, fpiFilePath, type FpiFile } from "../core/fpi";
+import { PicksFileSchema, picksFilePath, type PicksFile } from "../core/picks";
 import { DATA_TIMEOUT_MS, isTimeout, timeoutSignal } from "./net";
 
 export class LoadError extends Error {}
@@ -516,4 +518,57 @@ export function prefetchNeighbours(nav: WeekNav, load: (ref: WeekRef) => Promise
   if (!weeks) return;
   const i = weeks.findIndex((w) => sameRef(w, nav.ref));
   for (const r of [weeks[i - 1], weeks[i + 1]]) if (r) void load(r).catch(() => undefined);
+}
+
+// ---------- Fakten: ESPN FPI und Pick'em (D050) ----------
+
+/**
+ * Erste Woche mit Dateien unter data/fpi und data/picks. Frühere Wochen werden nicht abgefragt, damit keine
+ * vermeidbaren 404 Abrufe entstehen.
+ */
+export const FACTS_FIRST_WEEK: WeekRef = { season: 2026, seasonType: 2, week: 8 };
+
+export interface FactsData {
+  /** null, wenn die Datei fehlt oder ungültig ist. */
+  fpi: FpiFile | null;
+  picks: PicksFile | null;
+}
+
+const optionalOrNull = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
+  loadOptionalJson(path, schema).catch(() => null);
+
+/**
+ * FPI und Tippverteilung einer Woche. Beide Dateien sind Zusatz: fehlen sie oder sind sie ungültig, bleibt
+ * der jeweilige Teil leer, nie eine Fehlermeldung. Nur für die angezeigte Woche, kein Vorladen.
+ */
+export async function loadFactsData(ref: WeekRef): Promise<FactsData> {
+  if (compareRef(ref, FACTS_FIRST_WEEK) < 0) return { fpi: null, picks: null };
+  const [fpi, picks] = await Promise.all([
+    optionalOrNull(fpiFilePath(ref.season, ref.seasonType, ref.week), FpiFileSchema),
+    optionalOrNull(picksFilePath(ref.season, ref.seasonType, ref.week), PicksFileSchema),
+  ]);
+  // Eine Datei einer anderen Woche gilt als fehlend
+  const same = (f: WeekRef | null) => f !== null && sameRef(f, ref);
+  return { fpi: same(fpi) ? fpi : null, picks: same(picks) ? picks : null };
+}
+
+/** Fakten der Woche, null solange geladen wird oder wenn ref null ist. Lädt nach Hintergrundprüfung neu. */
+export function useFactsData(ref: WeekRef | null): FactsData | null {
+  const version = useDataVersion();
+  const key = ref ? weekKey(ref) : null;
+  const [state, setState] = useState<{ key: string; data: FactsData } | null>(null);
+  useEffect(() => {
+    if (!ref || !key) return;
+    let active = true;
+    loadFactsData(ref)
+      .then((data) => {
+        if (active) setState({ key, data });
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+    // ref ändert sich mit key
+  }, [key, version]);
+  return state && state.key === key ? state.data : null;
 }

@@ -9,6 +9,8 @@ import { periodText, type LiveGame } from "./live";
 import { Spoken, TeamLogo } from "./ui";
 import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
+import { GameFacts } from "./GameFacts";
+import { useInSheet } from "./Sheet";
 
 type NewsItem = NewsFile["items"][number];
 
@@ -191,6 +193,7 @@ export function GameHero({
   deviationNote?: string | null;
 }) {
   const layout = useLayoutValue();
+  const inSheet = useInSheet();
 
   if (!target) {
     return (
@@ -252,7 +255,8 @@ export function GameHero({
   const slot = tiebreaker ? ` · ${SLOT_SHORT[tiebreaker.slot]}` : "";
   const absence = variant === "offen" && !isLive ? keyAbsence(injuries, game.id) : null;
   const prob = hasPick ? tip.pickProb : null;
-  const tipText = pick ? `${pick.abbr} gewinnt` : "offen";
+  const noAppTip = tip.level === "nicht_erfasst";
+  const tipText = pick ? `${pick.abbr} gewinnt` : noAppTip ? "kein App Tipp" : "offen";
   const tbText = tiebreaker ? (variant === "folgt" ? "offen" : scoreText(tiebreaker.awayPoints, tiebreaker.homePoints)) : null;
   const tbAria =
     tiebreaker && variant !== "folgt" ? scoreAria(tiebreaker.awayPoints, tiebreaker.homePoints, `Tipp ${away.abbr} zu ${home.abbr}`) : undefined;
@@ -298,6 +302,10 @@ export function GameHero({
       <span className="hero-why-tag">Abweichung</span> {deviationNote}
     </p>
   ) : null;
+
+  // Fakten nur im Blatt und im grossen Spielbereich (wide). Oben in der Liste bleibt der Spielbereich kurz
+  const facts =
+    inSheet || big ? <GameFacts key={game.id} game={game} tip={tip} team={team} variant="hero" /> : null;
 
   const cta = isFinal ? (
     <a className="hero-cta" href={reviewHref}>
@@ -349,7 +357,7 @@ export function GameHero({
               <TeamLogo team={home} size={24} className="hero-mini-logo" />
             </span>
             <span>
-              Tipp {pick ? pick.abbr : "offen"}
+              Tipp {pick ? pick.abbr : noAppTip ? "kein App Tipp" : "offen"}
               {second && (
                 <>
                   {" · "}
@@ -360,6 +368,7 @@ export function GameHero({
           </div>
         </div>
         {why}
+        {facts}
         {info}
         {cta}
       </section>
@@ -413,6 +422,7 @@ export function GameHero({
         <div className="hero-col">
           {fields}
           {why}
+          {facts}
           {info}
           {cta}
         </div>
@@ -427,6 +437,7 @@ export function GameHero({
       {teams}
       {fields}
       {why}
+      {facts}
       {info}
       {cta}
     </section>
