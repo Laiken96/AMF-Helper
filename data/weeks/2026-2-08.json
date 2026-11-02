@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "season": 2026,
   "seasonType": 2,
   "week": 8,
-  "fetchedAt": "2026-11-02T05:30:31Z",
+  "fetchedAt": "2026-11-02T23:47:16Z",
   "source": "espn",
   "games": [
     {
@@ -19,7 +19,12 @@
       "homeScore": 27,
       "awayScore": 19,
       "venue": "Lambeau Field",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Lambeau Field",
+        "city": "Green Bay",
+        "country": "USA"
+      }
     },
     {
       "id": "401873024",
@@ -34,7 +39,12 @@
       "homeScore": 30,
       "awayScore": 33,
       "venue": "AT&T Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA"
+      }
     },
     {
       "id": "401873025",
@@ -49,7 +59,12 @@
       "homeScore": 16,
       "awayScore": 0,
       "venue": "Raymond James Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Raymond James Stadium",
+        "city": "Tampa",
+        "country": "USA"
+      }
     },
     {
       "id": "401873026",
@@ -64,7 +79,12 @@
       "homeScore": 36,
       "awayScore": 10,
       "venue": "Highmark Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Highmark Stadium",
+        "city": "Orchard Park",
+        "country": "USA"
+      }
     },
     {
       "id": "401873027",
@@ -79,7 +99,12 @@
       "homeScore": 27,
       "awayScore": 6,
       "venue": "Acrisure Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Acrisure Stadium",
+        "city": "Pittsburgh",
+        "country": "USA"
+      }
     },
     {
       "id": "401873028",
@@ -94,7 +119,12 @@
       "homeScore": 42,
       "awayScore": 7,
       "venue": "EverBank Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "EverBank Stadium",
+        "city": "Jacksonville",
+        "country": "USA"
+      }
     },
     {
       "id": "401873029",
@@ -109,7 +139,12 @@
       "homeScore": 33,
       "awayScore": 38,
       "venue": "MetLife Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA"
+      }
     },
     {
       "id": "401873030",
@@ -124,7 +159,12 @@
       "homeScore": 19,
       "awayScore": 15,
       "venue": "Ford Field",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Ford Field",
+        "city": "Detroit",
+        "country": "USA"
+      }
     },
     {
       "id": "401873031",
@@ -139,7 +179,12 @@
       "homeScore": 43,
       "awayScore": 36,
       "venue": "Paycor Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Paycor Stadium",
+        "city": "Cincinnati",
+        "country": "USA"
+      }
     },
     {
       "id": "401873032",
@@ -154,7 +199,12 @@
       "homeScore": 24,
       "awayScore": 9,
       "venue": "SoFi Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA"
+      }
     },
     {
       "id": "401873033",
@@ -169,7 +219,12 @@
       "homeScore": 28,
       "awayScore": 24,
       "venue": "Empower Field at Mile High",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Empower Field at Mile High",
+        "city": "Denver",
+        "country": "USA"
+      }
     },
     {
       "id": "401873034",
@@ -184,7 +239,12 @@
       "homeScore": 19,
       "awayScore": 24,
       "venue": "Hard Rock Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA"
+      }
     },
     {
       "id": "401873035",
@@ -199,7 +259,12 @@
       "homeScore": 27,
       "awayScore": 10,
       "venue": "Northwest Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Northwest Stadium",
+        "city": "Landover",
+        "country": "USA"
+      }
     },
     {
       "id": "401873036",
@@ -214,7 +279,12 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Lumen Field",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA"
+      }
     }
   ],
   "byeTeamIds": [

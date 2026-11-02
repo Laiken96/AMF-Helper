@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 9,
+  "updatedAt": "2026-11-02T23:47:17Z",
+  "source": "espn-pickem",
+  "games": [
+    {
+      "gameId": "401873037",
+      "homeId": "33",
+      "awayId": "30",
+      "homeShare": 0.398,
+      "awayShare": 0.602,
+      "total": 94456,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873038",
+      "homeId": "1",
+      "awayId": "4",
+      "homeShare": 0.121,
+      "awayShare": 0.879,
+      "total": 90694,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873039",
+      "homeId": "18",
+      "awayId": "5",
+      "homeShare": 0.488,
+      "awayShare": 0.512,
+      "total": 88183,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873040",
+      "homeId": "11",
+      "awayId": "6",
+      "homeShare": 0.159,
+      "awayShare": 0.841,
+      "total": 88874,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873041",
+      "homeId": "29",
+      "awayId": "7",
+      "homeShare": 0.143,
+      "awayShare": 0.857,
+      "total": 88158,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873042",
+      "homeId": "15",
+      "awayId": "8",
+      "homeShare": 0.026,
+      "awayShare": 0.974,
+      "total": 89136,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873043",
+      "homeId": "28",
+      "awayId": "14",
+      "homeShare": 0.075,
+      "awayShare": 0.925,
+      "total": 88311,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873044",
+      "homeId": "21",
+      "awayId": "19",
+      "homeShare": 0.333,
+      "awayShare": 0.667,
+      "total": 88372,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873045",
+      "homeId": "12",
+      "awayId": "20",
+      "homeShare": 0.975,
+      "awayShare": 0.025,
+      "total": 89345,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873046",
+      "homeId": "24",
+      "awayId": "34",
+      "homeShare": 0.23,
+      "awayShare": 0.77,
+      "total": 88012,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873047",
+      "homeId": "25",
+      "awayId": "13",
+      "homeShare": 0.942,
+      "awayShare": 0.058,
+      "total": 88351,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873048",
+      "homeId": "26",
+      "awayId": "22",
+      "homeShare": 0.969,
+      "awayShare": 0.031,
+      "total": 87838,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873049",
+      "homeId": "17",
+      "awayId": "9",
+      "homeShare": 0.606,
+      "awayShare": 0.394,
+      "total": 87579,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873050",
+      "homeId": "3",
+      "awayId": "27",
+      "homeShare": 0.919,
+      "awayShare": 0.081,
+      "total": 87649,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    },
+    {
+      "gameId": "401873051",
+      "homeId": "16",
+      "awayId": "2",
+      "homeShare": 0.184,
+      "awayShare": 0.816,
+      "total": 87664,
+      "scoringFormatId": 1,
+      "fetchedAt": "2026-11-02T23:47:17Z",
+      "locked": false
+    }
+  ]
+}

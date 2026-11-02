@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "fetchedAt": "2026-11-02T12:43:45Z",
+  "fetchedAt": "2026-11-02T23:47:16Z",
   "source": "espn",
   "games": [
     {
@@ -19,7 +19,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "M&T Bank Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "M&T Bank Stadium",
+        "city": "Baltimore",
+        "country": "USA"
+      },
+      "homeRest": 4,
+      "awayRest": 4
     },
     {
       "id": "401873038",
@@ -34,7 +41,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Santiago Bernabéu",
-      "neutralSite": true
+      "neutralSite": true,
+      "venueInfo": {
+        "name": "Santiago Bernabéu",
+        "city": "Madrid",
+        "country": "Spain"
+      },
+      "homeRest": 7,
+      "awayRest": 7
     },
     {
       "id": "401873039",
@@ -49,7 +63,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Caesars Superdome",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Caesars Superdome",
+        "city": "New Orleans",
+        "country": "USA"
+      },
+      "homeRest": null,
+      "awayRest": 7
     },
     {
       "id": "401873040",
@@ -64,7 +85,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Lucas Oil Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Lucas Oil Stadium",
+        "city": "Indianapolis",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": 7
     },
     {
       "id": "401873041",
@@ -79,7 +107,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Bank of America Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Bank of America Stadium",
+        "city": "Charlotte",
+        "country": "USA"
+      },
+      "homeRest": 10,
+      "awayRest": 7
     },
     {
       "id": "401873042",
@@ -94,7 +129,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Hard Rock Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": 7
     },
     {
       "id": "401873043",
@@ -109,7 +151,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Northwest Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Northwest Stadium",
+        "city": "Landover",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": 7
     },
     {
       "id": "401873044",
@@ -124,7 +173,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Lincoln Financial Field",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": null
     },
     {
       "id": "401873045",
@@ -139,7 +195,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Arrowhead Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": 7
     },
     {
       "id": "401873046",
@@ -154,7 +217,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "SoFi Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": null
     },
     {
       "id": "401873047",
@@ -169,7 +239,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Levi's Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA"
+      },
+      "homeRest": null,
+      "awayRest": 7
     },
     {
       "id": "401873048",
@@ -184,7 +261,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Lumen Field",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA"
+      },
+      "homeRest": 6,
+      "awayRest": 7
     },
     {
       "id": "401873049",
@@ -199,7 +283,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Gillette Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA"
+      },
+      "homeRest": 7,
+      "awayRest": 10
     },
     {
       "id": "401873050",
@@ -214,7 +305,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "Soldier Field",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Soldier Field",
+        "city": "Chicago",
+        "country": "USA"
+      },
+      "homeRest": 6,
+      "awayRest": 7
     },
     {
       "id": "401873051",
@@ -229,7 +327,14 @@
       "homeScore": null,
       "awayScore": null,
       "venue": "U.S. Bank Stadium",
-      "neutralSite": false
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "U.S. Bank Stadium",
+        "city": "Minneapolis",
+        "country": "USA"
+      },
+      "homeRest": 8,
+      "awayRest": 8
     }
   ],
   "byeTeamIds": [
