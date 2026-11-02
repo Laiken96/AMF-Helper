@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T20:47:19Z",
+  "updatedAt": "2026-11-02T21:46:45Z",
   "items": [
+    {
+      "id": "f549cba67b2619df",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-cut-des-jared-ivey-drake-jackson",
+      "title": "Falcons cut DEs Jared Ivey, Drake Jackson",
+      "summary": "The Falcons parted ways with a pair of defensive ends on Monday.",
+      "publishedAt": "2026-11-02T21:37:19Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "966d527664276e14",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/interview-pittsburghs-jalen-ramsey-state-of-steelers",
+      "title": "1-on-1 with Pittsburgh's Jalen Ramsey: How he views state of the Steelers, offense's improvement",
+      "summary": "A Super Bowl champion with the Rams, Ramsey spoke with CBS Sports about where he sees the Steelers organization at 6-2 this season",
+      "publishedAt": "2026-11-02T21:33:03Z",
+      "teamIds": [
+        "14",
+        "23"
+      ]
+    },
+    {
+      "id": "423f66111cae9cf4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-activate-jadarian-price-from-ir",
+      "title": "Seahawks activate Jadarian Price from IR",
+      "summary": "Seahawks head coach Mike Macdonald didn't commit to playing running back Jadarian Price against the Bears when he was asked about it on Saturday, but it looks like the rookie will be back in the lineup.",
+      "publishedAt": "2026-11-02T21:26:56Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "2afa76b98f794686",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-add-qb-austin-reed-to-practice-squad",
+      "title": "Ravens add QB Austin Reed to practice squad",
+      "summary": "With starter Lamar Jackson and backup Tyler Huntley going down during Sunday’s loss to the Bills, the Ravens have brought in another quarterback.",
+      "publishedAt": "2026-11-02T21:26:55Z",
+      "teamIds": [
+        "33",
+        "2"
+      ]
+    },
+    {
+      "id": "295e2b3c967929b9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-elevate-te-stephen-carlson-for-monday-night-vs-seahawks",
+      "title": "Bears elevate TE Stephen Carlson for Monday night vs. Seahawks",
+      "summary": "The Bears have made one roster move for Monday night’s game against the Seahawks.",
+      "publishedAt": "2026-11-02T21:10:22Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "f7760baad06f56e2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-hires-drew-rosenhaus-wants-to-play-again",
+      "title": "Brandon Aiyuk hires Drew Rosenhaus, wants to play again",
+      "summary": "Wide receiver Brandon Aiyuk has hired a new agent with an eye on returning to the field.",
+      "publishedAt": "2026-11-02T21:01:11Z",
+      "teamIds": []
+    },
     {
       "id": "b0f9ecee6c51d160",
       "source": "cbs",
@@ -1651,74 +1719,6 @@
       "teamIds": [
         "11"
       ]
-    },
-    {
-      "id": "ac38dd8a49292330",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-schedule-lions-halftime-show-performer-wu-tang-clan",
-      "title": "NFL Thanksgiving schedule: Lions announce halftime show performer for game vs. Bears",
-      "summary": "Wu-Tang Clan will perform at halftime for a huge holiday game",
-      "publishedAt": "2026-11-01T17:33:10Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "9aff593bf6b9e2c3",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-spreads-betting-lines-top-predictions-week-8-2026",
-      "title": "Week 8 NFL odds, picks, predictions: Computer model backs Steelers and Rams",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 8 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-01T17:26:51Z",
-      "teamIds": [
-        "14",
-        "23"
-      ]
-    },
-    {
-      "id": "5473894988076134",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-8-nfl-betting-lines-odds-totals-spreads",
-      "title": "Week 8 NFL betting odds, lines, totals, spreads for every game, including Bills-Ravens, Vikings-Lions",
-      "summary": "Check out the Week 8 NFL betting odds, spreads and totals for all 14 games, including Lions-Vikings and Bills-Ravens.",
-      "publishedAt": "2026-11-01T17:02:26Z",
-      "teamIds": [
-        "33",
-        "2",
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "5be23504736a6174",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-8-nfl-betting-promos-receive-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-sundays-games",
-      "title": "Week 8 NFL betting promos: Receive over $3,000 in bonuses from betting apps, sportsbooks for Sunday's games",
-      "summary": "Top Week 8 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-01T17:01:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "0128aeca2301904c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/josh-sweat-trade-rumors-cowboys-potential-landing-spots",
-      "title": "Josh Sweat trade rumors: Cowboys among potential landing spots for Cardinals pass rusher",
-      "summary": "Sweat has two sacks on the season entering Week 8",
-      "publishedAt": "2026-11-01T16:57:13Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "256c360ab451bb63",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/how-to-bet-on-2026-nfl-week-8-betting-odds-trends-tips-schedule-game-previews-sportsbook-promos-offers",
-      "title": "How to bet on 2026 NFL Week 8: Betting odds, trends, tips, schedule, game previews, sportsbook promos, offers",
-      "summary": "Our NFL betting guide tells you where to bet on NFL Week 8, while providing odds, betting trends, schedule, promo offers, and more",
-      "publishedAt": "2026-11-01T16:48:37Z",
-      "teamIds": []
     }
   ]
 }
