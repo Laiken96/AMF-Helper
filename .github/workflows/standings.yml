@@ -30,7 +30,7 @@ jobs:
     env:
       ISSUE_NUMBER: ${{ github.event.issue.number }}
       GH_TOKEN: ${{ github.token }}
-      COMMENT_FILE: ${{ runner.temp }}/standings-comment.md
+      COMMENT_FILE: /tmp/standings-comment.md # runner Kontext ist auf Job Ebene nicht verfügbar
     steps:
       - uses: actions/checkout@v4
 
