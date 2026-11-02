@@ -286,3 +286,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wunsch des Nutzers nach einer KI Zweitmeinung zur Profiquote kommt in den Backlog nach Gate 3. Ablauf: 4 Wochen Schattenmodus, Zweitmeinung mit Sieger, Wahrscheinlichkeit, Begründung und Quellenlinks wird pro Spiel vor Kickoff gespeichert und gesperrt wie der Tipp, aber nicht angezeigt. Danach Vergleich mit der Quote in der Bilanz (Brier Score, Trefferquote, Fälle mit abweichendem Sieger). Der Tipp selbst bleibt quotenbasiert (D005, D009), die Zweitmeinung ersetzt ihn nicht. Fakten ohne Quelle werden verworfen
 - Begründung: Forschung zeigt keinen belegten Vorteil von Sprachmodellen gegenüber Wettquoten. Messen vor Anzeigen verhindert Scheinsicherheit. Quellenpflicht gegen erfundene Ausfälle
 - Verworfen: KI berechnet den Tipp, Anzeige ohne vorherige Messung
+
+## D041 Externer Auslöser über cron-job.org
+
+- Datum: 2026-11-02
+- Entscheid: Zwei Jobs bei cron-job.org starten die Workflows per workflow_dispatch über die GitHub API: "NFL Push Wächter" alle 10 Minuten (push.yml), "NFL Daten" stündlich um Minute 47 (data.yml). Authentifizierung mit einem fein granulierten Token nur für das Repo AMF-Helper und nur Actions Read and write, gültig bis 2026-11-02 plus 1 Jahr (02.11.2027). Die Zeitpläne in den Workflows bleiben aktiv, Doppelläufe sind unschädlich (push-log verhindert doppelte Meldungen, concurrency serialisiert). Support Ticket bei GitHub zu den nicht startenden Zeitplänen ist offen
+- Begründung: GitHub startete push.yml nach Zeitplan nie und data.yml erst nach über 8 Stunden einmal. Ursache von aussen nicht feststellbar, Antwort des Supports dauert Tage, Erinnerungen müssen ab Donnerstag sicher laufen. Testläufe 2026-11-02 12:20 und 12:24 UTC grün, echter Push "Tippliste W8 bereit" zugestellt
+- Verworfen: warten, Auslösen über geplante Aufgaben einer Claude Sitzung (nicht dauerhaft), Token ohne Ablauf

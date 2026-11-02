@@ -17,6 +17,8 @@ Stand 2026-11-02. Einziger Nutzer ist der Entwickler. Vor dem ersten weiteren Nu
 | Rangliste übernehmen | standings.yml | Issue mit Label rangliste vom Owner | Ranglistenstand nach data/ übernehmen |
 | Pages | pages.yml | Push auf main, manuell | Tests, Build, Veröffentlichung |
 
+Externer Auslöser (D041): cron-job.org startet push.yml alle 10 Minuten und data.yml stündlich um Minute 47 per API, da GitHub die Zeitpläne nicht zuverlässig startet. Konto und Jobs beim Nutzer, Token fein granuliert nur Actions auf AMF-Helper, läuft ab am 02.11.2027.
+
 Kontrolle: https://github.com/Laiken96/AMF-Helper/actions. Ein roter Lauf bedeutet, dass mindestens ein Schritt fehlschlug. Die Daten bleiben dann auf dem letzten gültigen Stand (D019).
 
 Bekanntes Risiko: GitHub verzögert oder überspringt geplante Läufe bei hoher Last und deaktiviert sie nach 60 Tagen ohne Commit. Die Datenjobs committen regelmässig, in der Offseason aber nicht. Notlösung siehe Störungen.
@@ -54,7 +56,8 @@ Bekanntes Risiko: GitHub verzögert oder überspringt geplante Läufe bei hoher 
 - Secrets unter Settings, Secrets and variables, Actions:
   - VAPID_PRIVATE_KEY: privater Schlüssel für Web Push. Gegenstück ist VAPID_PUBLIC_KEY in src/core/push-config.ts.
   - PUSH_SUBSCRIPTION: Anmeldung des eigenen iPhone aus dem Onboarding.
-- Keine weiteren Keys. ESPN braucht keinen Key.
+  - Fein granulierter Token "cron-job NFL Dashboard": liegt nur bei cron-job.org in beiden Jobs (Header Authorization). Rechte nur Actions Read and write auf AMF-Helper. Ablauf 02.11.2027. Erneuern: neuen Token gleich anlegen, in beiden Jobs ersetzen, alten Token löschen.
+- ESPN braucht keinen Key.
 - Rotation:
   - PUSH_SUBSCRIPTION: nach "Neu anmelden" in den Einstellungen, nach Geräte Wechsel oder wenn push.yml "Anmeldung abgelaufen" meldet. Neue Anmeldung kopieren und Secret ersetzen.
   - VAPID Schlüsselpaar: nur bei Verdacht auf Abfluss. Neues Paar erzeugen (`npx web-push generate-vapid-keys`), öffentlichen Schlüssel in push-config.ts, privaten als Secret, mergen, danach am Handy "Neu anmelden" und PUSH_SUBSCRIPTION ersetzen.
