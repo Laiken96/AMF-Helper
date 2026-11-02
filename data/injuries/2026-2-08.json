@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 8,
+  "baselineFrom": "2026-10-29T04:00:00Z",
+  "baseline": {
+    "takenAt": "2026-11-02T03:15:23Z",
+    "games": [
+      {
+        "gameId": "401873036",
+        "kickoffUtc": "2026-11-03T01:15:00Z",
+        "players": [
+          {
+            "athleteId": "4259545",
+            "name": "D'Andre Swift",
+            "pos": "RB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431611",
+            "name": "Caleb Williams",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685278",
+            "name": "Luther Burden III",
+            "pos": "WR",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3912547",
+            "name": "Sam Darnold",
+            "pos": "QB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3924327",
+            "name": "Drew Lock",
+            "pos": "QB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
+          {
+            "athleteId": "4430878",
+            "name": "Jaxon Smith-Njigba",
+            "pos": "WR",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4887558",
+            "name": "Emanuel Wilson",
+            "pos": "RB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      }
+    ]
+  },
+  "current": {
+    "takenAt": "2026-11-02T03:15:23Z",
+    "games": [
+      {
+        "gameId": "401873036",
+        "kickoffUtc": "2026-11-03T01:15:00Z",
+        "players": [
+          {
+            "athleteId": "4259545",
+            "name": "D'Andre Swift",
+            "pos": "RB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431611",
+            "name": "Caleb Williams",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685278",
+            "name": "Luther Burden III",
+            "pos": "WR",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3912547",
+            "name": "Sam Darnold",
+            "pos": "QB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3924327",
+            "name": "Drew Lock",
+            "pos": "QB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
+          {
+            "athleteId": "4430878",
+            "name": "Jaxon Smith-Njigba",
+            "pos": "WR",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4887558",
+            "name": "Emanuel Wilson",
+            "pos": "RB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      }
+    ]
+  },
+  "changes": []
+}

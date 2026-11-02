@@ -96,9 +96,9 @@ function gameLabel(teams: ReadonlyMap<string, Team>, g: Pick<Game, "awayId" | "h
 export function tipsReadyMessage(tips: TipsFile, games: readonly Game[], teams: ReadonlyMap<string, Team>): DueMessage | null {
   if (!tips.tips.some((t) => t.odds !== null)) return null;
   const byId = new Map(games.map((g) => [g.id, g]));
-  const tipped = tips.tips.filter((t) => t.pickTeamId !== null).length;
+  const n = tips.tips.length;
   const devs = tips.tips.filter((t) => t.deviation).map((t) => abbrOf(teams, t.pickTeamId));
-  let head = `${tipped} Spiele, ${devs.length} Abw.`;
+  let head = `${n} ${n === 1 ? "Spiel" : "Spiele"}, ${devs.length} Abw.`;
   if (devs.length > 0) head = `${head.slice(0, -1)}: ${devs.join(" ")}.`;
   const tbs = tips.tiebreakers.map((tb) => {
     const g = byId.get(tb.gameId);

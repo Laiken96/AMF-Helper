@@ -10,7 +10,9 @@
     "typecheck": "tsc -b --noEmit",
     "test": "vitest run",
     "job:schedule": "tsx jobs/fetch-schedule.ts",
-    "job:tips": "tsx jobs/build-tips.ts"
+    "job:tips": "tsx jobs/build-tips.ts",
+    "job:watch": "tsx jobs/watch.ts",
+    "job:push": "tsx jobs/push.ts"
   },
   "dependencies": {
     "react": "^19.3.1",
