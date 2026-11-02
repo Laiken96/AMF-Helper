@@ -82,9 +82,24 @@ type AskResult =
   | { ok: true; raw: unknown; seenUrls: Set<string> }
   | { ok: false; error: string; apiError?: boolean; transient?: boolean };
 
-/** Rate Limit, Überlastung, Serverfehler und Netz (ohne Status) sind vorübergehend. */
+/**
+ * Rate Limit, Überlastung, Serverfehler und Netz (ohne Status) sind vorübergehend. Ungültiger oder
+ * gesperrter Schlüssel (401, 403) ist ein Konfigurationsfehler und zählt ebenfalls nicht als Versuch.
+ */
 export function isTransient(status: number | undefined): boolean {
-  return status === undefined || status === 408 || status === 429 || status >= 500;
+  return status === undefined || status === 401 || status === 403 || status === 408 || status === 429 || status >= 500;
+}
+
+/**
+ * Altlast vor dem Fix für 401 und 403: Einträge, deren letzter Fehler vorübergehend war (Netz, Schlüssel,
+ * Überlastung), wurden fälschlich gezählt. Solche Einträge werden verworfen, damit das Spiel erneut drankommt.
+ */
+export function forgiveTransient(a: OpinionAttempts): OpinionAttempts {
+  const entries = a.entries.filter((e) => {
+    const m = /HTTP (\d{3})/.exec(e.lastResult);
+    return !(m && isTransient(Number(m[1])));
+  });
+  return entries.length === a.entries.length ? a : { ...a, entries };
 }
 
 /** Fragt das Modell für ein Spiel. Gibt die Werkzeug Eingabe von submit_opinion zurück. */
@@ -167,7 +182,7 @@ export async function main(argv: readonly string[], deps: OpinionDeps = {}): Pro
     const current = CurrentFileSchema.parse(await readJsonStrict(join(dataDir, "current.json")));
     teams = new Map(TeamsFileSchema.parse(await readJsonStrict(join(dataDir, "teams.json"))).teams.map((t) => [t.id, t]));
     const attemptsRaw = await readJsonStrict(join(dataDir, ATTEMPTS_PATH));
-    attempts = attemptsRaw === undefined ? EMPTY_ATTEMPTS : OpinionAttemptsSchema.parse(attemptsRaw);
+    attempts = forgiveTransient(attemptsRaw === undefined ? EMPTY_ATTEMPTS : OpinionAttemptsSchema.parse(attemptsRaw));
     weeks = [];
     for (const key of [current, ...upcomingWeeks(current)]) {
       const { season, seasonType, week } = key;

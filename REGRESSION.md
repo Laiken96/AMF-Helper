@@ -639,3 +639,9 @@ R98 Hintergrundaktualisierung bei offener App
     Schritt: Tippdatei ändert sich auf dem Server (neue Quote).
     Erwartet: Änderung erscheint spätestens nach 5 Minuten oder sofort per Aktualisieren, ohne Leerzustand und Scrollsprung. Versteckter Tab löst keine Abrufe aus.
     Status: bestanden lokal 2026-11-02 (page.clock)
+
+R99 Ungültiger API Schlüssel zählt nicht als Versuch
+    Vorbedingung: Secret ANTHROPIC_API_KEY ungültig.
+    Schritt: Push Wächter läuft im 6 Stunden Fenster eines Spiels.
+    Erwartet: Fehler 401 im Log und in attempts.json, Lauf rot, Versuch wird nicht gezählt. Nach Korrektur des Secrets entsteht die Meinung im nächsten Lauf.
+    Status: Fehlerfall echt auf GitHub beobachtet 2026-11-02 20:20 (CHI@SEA), Zählung lokal per Test bestanden, Erfolg nach Korrektur offen Nutzer
