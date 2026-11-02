@@ -57,9 +57,9 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
   },
 ];
 
-/** 60 Sekunden pro Anfrage, höchstens 1 Wiederholung, damit ein Lauf nie lange hängt. */
+/** 60 Sekunden pro Anfrage, keine Wiederholung im SDK. Ein Versuch ist genau eine Anfrage, der nächste Lauf wiederholt. */
 export const CLIENT_TIMEOUT_MS = 60_000;
-export const CLIENT_MAX_RETRIES = 1;
+export const CLIENT_MAX_RETRIES = 0;
 
 async function defaultClient(apiKey: string): Promise<MessagesClient> {
   const mod = await import("@anthropic-ai/sdk");
