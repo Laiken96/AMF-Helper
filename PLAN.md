@@ -59,3 +59,7 @@ Definition of Done ist nach Sprint 4 erreicht. Sprint 5 und 6 erfüllen den ursp
 - Zeitzonen und Wochenzuordnung: D006
 - Saisontiming: Regular Season endet am 10. Januar 2027. Sprint 2 bis 4 müssen an echten Spielwochen abgenommen werden, sonst wartet die Abnahme bis September 2027
 - Benachrichtigung: Web Push (D012). GitHub Actions Cron startet teils verspätet, deshalb Push Job 40 min vor Tippschluss planen, damit er sicher 20 min davor ankommt
+
+## Backlog (nach Gate 3)
+
+- Wochen blättern: vergangene Wochen (Tipps, Bilanz) und kommende Wochen (Spielplan, Tipps sobald Quoten da sind). Wunsch des Nutzers vom 2026-11-02, zurückgestellt bis zur Abnahme Week 9

@@ -386,25 +386,25 @@ R57 Duo zugeklappt am echten Gerät
     Vorbedingung: Sprint D auf main, Pages aktuell, iPhone Duo zugeklappt, App vom Home Bildschirm.
     Schritt: Tipps, Bilanz, Spielplan und Einstellungen öffnen, Liste ganz nach unten scrollen.
     Erwartet: Layout side mit senkrechter Navigation rechts vor dem reservierten Bereich, nichts liegt unter dem Systembereich rechts oder unten, kein waagrechtes Scrollen, letzte Spielzeile und Häkchen bedienbar.
-    Status: offen Nutzer. Lokal nur mit simuliertem Inset 84 geprüft (siehe R68), die echten Insets des Duo sind ungeprüft
+    Status: bestanden durch Nutzer am iPhone Duo 2026-11-02
 
 R58 Duo aufgeklappt quer und hoch am echten Gerät
     Vorbedingung: wie R57, Duo aufgeklappt.
     Schritt: Quer halten, Tipps öffnen, Spielbereich und Liste ansehen. Danach hoch halten.
     Erwartet: Quer Spielbereich links bis zum Falz, Liste rechts scrollt allein, Navigation senkrecht in der rechten Systemspalte. Hoch Spielbereich oben, Spiele zweispaltig, schwebende Kapsel unten. Kein Inhalt im Falz abgeschnitten.
-    Status: offen Nutzer
+    Status: bestanden durch Nutzer am iPhone Duo 2026-11-02
 
 R59 Wechsel beim Auf und Zuklappen am echten Gerät
     Vorbedingung: wie R57, Tipps offen, Liste etwas gescrollt, ein Häkchen gesetzt.
     Schritt: Duo aufklappen, drehen (quer und hoch), wieder zuklappen, ohne neu zu laden.
     Erwartet: Layout wechselt jedes Mal ohne Neuladen, Häkchen und Umschalter bleiben, kein weisser Bildschirm. Liste springt an den Anfang (siehe Befund R67).
-    Status: offen Nutzer
+    Status: bestanden durch Nutzer am iPhone Duo 2026-11-02
 
 R60 iPhone normal am echten Gerät
     Vorbedingung: Sprint D auf main, normales iPhone, App vom Home Bildschirm.
     Schritt: Alle vier Ziele der Navigation öffnen, Liste ganz nach unten scrollen, Häkchen setzen, Knopf "Auf der Tippseite eintragen" tippen.
     Erwartet: Schwebende Kapsel unten über dem Home Indikator, letzte Zeile darüber sichtbar, Schriften Barlow Condensed und Inter, Tippseite öffnet in neuem Tab.
-    Status: offen Nutzer
+    Status: bestanden durch Nutzer am iPhone Duo 2026-11-02
 
 R61 Häkchen bleibt nach Neuladen
     Vorbedingung: Week 9 geladen, Zeit 02.11.2026 12:00 UTC, localStorage leer.
