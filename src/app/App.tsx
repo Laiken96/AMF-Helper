@@ -69,7 +69,7 @@ function WeekView({ data }: { data: WeekData }) {
       <header className="header">
         <h1>Week {week.week}</h1>
         <p className="meta">
-          Saison {week.season} · Stand {fetchedFormat.format(new Date(week.fetchedAt))}
+          Saison {week.season} · Letzte Änderung {fetchedFormat.format(new Date(week.fetchedAt))}
         </p>
       </header>
 

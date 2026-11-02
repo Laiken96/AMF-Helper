@@ -82,15 +82,60 @@ describe("Job Ausgabe", () => {
     expect(await readFile(join(dir, WEEK_PATH), "utf8")).toBe(before);
   });
 
-  it("leere Woche schreibt gültige Datei mit 0 Spielen und behält bekannte Teams", async () => {
-    await run(fixture(), "2026-11-02T02:00:00Z");
+  it("leere Woche ohne Vorgänger schreibt gültige Datei mit 0 Spielen", async () => {
     const empty = fixture();
     empty.events = [];
     delete empty.week.teamsOnBye;
     const res = await run(empty, "2026-11-02T06:00:00Z");
     if (!res.ok) throw new Error(res.error);
     expect(WeekFileSchema.parse(await readJson(WEEK_PATH)).games).toEqual([]);
+  });
+
+  it("leere Antwort überschreibt bestehende nicht leere Woche nicht", async () => {
+    await run(fixture(), "2026-11-02T02:00:00Z");
+    const before = await readFile(join(dir, WEEK_PATH), "utf8");
+    const empty = fixture();
+    empty.events = [];
+    const res = await run(empty, "2026-11-02T06:00:00Z");
+    expect(res.ok).toBe(false);
+    if (!res.ok) expect(res.error).toContain("keine Spiele");
+    expect(await readFile(join(dir, WEEK_PATH), "utf8")).toBe(before);
+  });
+
+  it("Antwort mit fehlenden Spiel IDs überschreibt bestehende Woche nicht", async () => {
+    await run(fixture(), "2026-11-02T02:00:00Z");
+    const before = await readFile(join(dir, WEEK_PATH), "utf8");
+    const partial = fixture();
+    const removed = partial.events.splice(0, 2).map((e: { id: string }) => e.id);
+    const res = await run(partial, "2026-11-02T06:00:00Z");
+    expect(res.ok).toBe(false);
+    if (!res.ok) for (const id of removed) expect(res.error).toContain(id);
+    expect(await readFile(join(dir, WEEK_PATH), "utf8")).toBe(before);
+  });
+
+  it("explizit gewählte Woche darf schrumpfen und behält bekannte Teams", async () => {
+    await run(fixture(), "2026-11-02T02:00:00Z");
+    const empty = fixture();
+    empty.events = [];
+    delete empty.week.teamsOnBye;
+    const existing = await readExisting(dir, WEEK_PATH);
+    const res = buildOutputs({ raw: empty, now: "2026-11-02T06:00:00Z", updateCurrent: false, allowShrink: true, existing });
+    if (!res.ok) throw new Error(res.error);
+    await writeFiles(dir, res.files);
+    expect(WeekFileSchema.parse(await readJson(WEEK_PATH)).games).toEqual([]);
     expect(TeamsFileSchema.parse(await readJson("teams.json")).teams).toHaveLength(32);
+  });
+});
+
+describe("CurrentFileSchema.weekFile", () => {
+  const base = { schemaVersion: 1, season: 2026, seasonType: 2, week: 8, updatedAt: "2026-11-02T02:00:00Z" };
+  it("akzeptiert den Pfad aus weekFilePath", () => {
+    expect(CurrentFileSchema.safeParse({ ...base, weekFile: "weeks/2026-2-08.json" }).success).toBe(true);
+  });
+  it("lehnt fremde Pfade ab", () => {
+    for (const weekFile of ["../secret.json", "weeks/2026-2-8.json", "/weeks/2026-2-08.json", "weeks/2026-2-08.json.bak"]) {
+      expect(CurrentFileSchema.safeParse({ ...base, weekFile }).success).toBe(false);
+    }
   });
 });
 

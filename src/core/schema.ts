@@ -59,7 +59,7 @@ export const CurrentFileSchema = z.object({
   season: z.number().int(),
   seasonType: z.number().int(),
   week: z.number().int(),
-  weekFile: z.string(), // z. B. "weeks/2026-2-08.json"
+  weekFile: z.string().regex(/^weeks\/\d{4}-\d-\d{2}\.json$/), // z. B. "weeks/2026-2-08.json"
   updatedAt: z.string().datetime(),
 });
 export type CurrentFile = z.infer<typeof CurrentFileSchema>;

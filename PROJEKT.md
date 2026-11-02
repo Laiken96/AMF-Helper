@@ -1,7 +1,7 @@
 # NFL Dashboard
 
 Angelegt: 2026-11-02
-Status: Gate 1 bestanden am 2026-11-02, Sprint 1 bereit
+Status: Sprint 1 gebaut am 2026-11-02, Abnahme auf GitHub Pages offen
 
 ## Problem
 

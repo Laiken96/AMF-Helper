@@ -60,6 +60,8 @@ export interface BuildInput {
   now: string;
   /** current.json nur bei Abruf der aktuellen Woche umsetzen. */
   updateCurrent: boolean;
+  /** Erlaubt, dass Spiele der bestehenden Woche wegfallen. Nur bei explizit per CLI gewählter Woche. */
+  allowShrink?: boolean;
   existing: {
     teams?: unknown;
     week?: unknown;
@@ -81,6 +83,28 @@ export function buildOutputs(input: BuildInput): BuildResult {
   const parsed = parseScoreboard(input.raw, { fetchedAt: input.now });
   if (!parsed.ok) return parsed;
   const { week } = parsed;
+
+  // Schutz vor einer leeren oder unvollständigen Antwort: bekannte Spiele dürfen nicht verschwinden.
+  const prevWeek = WeekFileSchema.safeParse(input.existing.week);
+  const sameWeek =
+    prevWeek.success &&
+    prevWeek.data.season === week.season &&
+    prevWeek.data.seasonType === week.seasonType &&
+    prevWeek.data.week === week.week;
+  if (sameWeek && !input.allowShrink && prevWeek.data.games.length > 0) {
+    const newIds = new Set(week.games.map((g) => g.id));
+    const missing = prevWeek.data.games.map((g) => g.id).filter((id) => !newIds.has(id));
+    if (missing.length > 0) {
+      const what = week.games.length === 0 ? "Antwort enthält keine Spiele" : `Spiele fehlen: ${missing.join(", ")}`;
+      return {
+        ok: false,
+        error:
+          `Woche ${week.season}-${week.seasonType}-${week.week} nicht überschrieben, ${what}. ` +
+          "Zum bewussten Überschreiben die Woche per --season --type --week wählen.",
+      };
+    }
+  }
+
   const files: PlannedFile[] = [];
   const unchanged: string[] = [];
 
@@ -98,7 +122,6 @@ export function buildOutputs(input: BuildInput): BuildResult {
   else files.push({ path: "teams.json", content: toJson(teamsFile) });
 
   const weekPath = weekFilePath(week.season, week.seasonType, week.week);
-  const prevWeek = WeekFileSchema.safeParse(input.existing.week);
   if (prevWeek.success && sameContent(prevWeek.data, week, ["fetchedAt"])) unchanged.push(weekPath);
   else files.push({ path: weekPath, content: toJson(WeekFileSchema.parse(week)) });
 

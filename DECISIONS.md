@@ -131,3 +131,17 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ergänzt D011. Gruppentipps werden über ein GitHub Issue Formular erfasst, eine Action liest es aus und schreibt die JSON Datei. Kein Token in der Web App
 - Begründung: GitHub Pages kann nicht ins Repo schreiben, das Issue Formular funktioniert in der GitHub App am Handy
 - Verworfen: persönlicher Token im Browser (Sicherheitsrisiko), manuelles Editieren von JSON
+
+## D019 Schutz vor schrumpfenden Daten
+
+- Datum: 2026-11-02
+- Entscheid: Der Spielplan Job lehnt eine leere Antwort oder fehlende Spiel IDs ab, wenn die bestehende Woche Spiele enthält (Exit 1, Dateien unverändert). Ausnahme nur bei explizit gewählter Woche per CLI
+- Begründung: Review Sprint 1. Eine kurzzeitig leere ESPN Antwort hätte eine gültige Woche überschrieben und deployt
+- Verworfen: blindes Überschreiben bei schemakonformer Antwort
+
+## D020 Bedeutung des Datenstands
+
+- Datum: 2026-11-02
+- Entscheid: fetchedAt wird nur bei Inhaltsänderung geschrieben, die App beschriftet es als "Letzte Änderung". Ein Ausfall des Jobs wird ab Sprint 3 über den Ausfall Wächter erkannt, nicht über einen stündlichen Commit
+- Begründung: Ein Commit pro Stunde würde die Historie fluten
+- Verworfen: data/status.json mit Zeitpunkt jeder Prüfung

@@ -27,8 +27,15 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Kickoff. Noch kein Code.
+Sprint 1 abgeschlossen am 2026-11-02 auf Branch claude/nfl-dashboard-plan-mcwlna. Seite Woche zeigt Spielplan aus data/, Spielplan Job mit Schutz vor schrumpfenden Daten (D019), 44 Tests grün. Offen bis zur Abnahme auf GitHub: REGRESSION.md R7, R9, R10, R11.
+
+## Befehle
+
+- npm run dev: lokaler Server
+- npm run typecheck, npm test, npm run build: Prüfungen vor jedem Commit
+- npm run job:schedule [-- --season 2026 --type 2 --week 9]: Spielplan holen
+- vite preview braucht dasselbe BASE_PATH wie der Build
 
 ## Nächster Schritt
 
-Sprint 1 laut sprints/sprint-01.md.
+Nutzer: Repo Sichtbarkeit klären, Pages auf GitHub Actions stellen, auf main mergen, R7 prüfen. Danach Sprint 2 Tippliste laut PLAN.md.
