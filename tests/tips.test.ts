@@ -326,7 +326,9 @@ describe("buildTipsFile", () => {
     expect(by.a).toMatchObject({ deviation: false, pickTeamId: "ha" });
     expect(by.c).toMatchObject({ level: "klar", pickTeamId: "hc" });
     expect(by.d).toMatchObject({ level: "offen", pickTeamId: null, firstPickTeamId: null });
-    expect(by.b!.firstPickTeamId).toBe("ab");
+    // Grundtipp ist immer der Favorit vor der Abweichung (D023)
+    expect(by.b).toMatchObject({ firstPickTeamId: "hb", changedSinceFirst: true });
+    expect(by.c).toMatchObject({ firstPickTeamId: "hc", changedSinceFirst: false });
     expect(f.tiebreakers.map((t) => t.slot)).toEqual(["thursday", "monday"]);
     expect(f.tiebreakers[0]).toMatchObject({ gameId: "thu", homePoints: 18, awayPoints: 26 });
     // Montagsspiel ist Abweichung: getipptes Heimteam gewinnt 25 zu 22
@@ -389,6 +391,24 @@ describe("buildTipsFile", () => {
     const next = buildTipsFile({ week: weekOf(g2), odds: baseOdds, standings: BEHIND, existing: first, now: "2026-11-07T19:00:00Z" });
     expect(next.tips.find((t) => t.gameId === "b")).toMatchObject({ deviation: true, locked: true });
     expect(next.tips.filter((t) => t.deviation).map((t) => t.gameId).sort()).toEqual(["b", "mon"]);
+  });
+
+  it("beim ersten Lauf gesperrt ohne Vorgänger: nicht_erfasst, kein Tiebreaker", () => {
+    const afterThu = "2026-11-06T02:00:00Z";
+    const f = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: null, now: afterThu });
+    expect(f.tips.find((t) => t.gameId === "thu")).toMatchObject({
+      level: "nicht_erfasst",
+      pickTeamId: null,
+      pHome: null,
+      odds: null,
+      firstPickTeamId: null,
+      locked: true,
+    });
+    expect(f.tiebreakers.map((t) => t.slot)).toEqual(["monday"]);
+    // Später unverändert übernommen
+    const next = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: f, now: "2026-11-07T00:00:00Z" });
+    expect(next.tips.find((t) => t.gameId === "thu")).toEqual(f.tips.find((t) => t.gameId === "thu"));
+    expect(TipsFileSchema.safeParse(next).success).toBe(true);
   });
 
   it("gleiche Eingabe ergibt gleichen Inhalt", () => {

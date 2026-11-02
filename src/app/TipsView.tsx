@@ -15,29 +15,38 @@ const LEVEL_TEXT: Record<GameTip["level"], string> = {
   favorit: "Favorit",
   unklar: "unklar",
   offen: "offen",
+  nicht_erfasst: "nicht erfasst",
 };
 
-// Häkchen "eingetragen" nur lokal (Sprint 2). Jeder Storage Zugriff ist ausfalltolerant.
+// Häkchen "eingetragen" nur lokal. Gespeichert wird das getippte Team, damit eine spätere
+// Änderung des Tipps erkannt wird. Jeder Storage Zugriff ist ausfalltolerant.
+const NO_PICK = "ohne";
+
 function storageKey(season: number, seasonType: number, week: number, gameId: string): string {
   return `nfl-dashboard:eingetragen:${season}-${seasonType}-${String(week).padStart(2, "0")}:${gameId}`;
 }
 
-function readChecked(key: string): boolean {
+/** Gespeichertes Team oder null. Alte Einträge ("1" oder "true") gelten als nicht eingetragen. */
+function readEntered(key: string): string | null {
   try {
-    return window.localStorage.getItem(key) === "1";
+    const v = window.localStorage.getItem(key);
+    if (v === null || v === "1" || v === "true") return null;
+    return v;
   } catch {
-    return false;
+    return null;
   }
 }
 
-function writeChecked(key: string, value: boolean): void {
+function writeEntered(key: string, value: string | null): void {
   try {
-    if (value) window.localStorage.setItem(key, "1");
+    if (value !== null) window.localStorage.setItem(key, value);
     else window.localStorage.removeItem(key);
   } catch {
     // Ohne Storage bleibt das Häkchen nur bis zum Neuladen erhalten.
   }
 }
+
+const pickKey = (t: GameTip): string => t.pickTeamId ?? NO_PICK;
 
 export function TipsView() {
   const [state, setState] = useState<State>({ kind: "loading" });
@@ -74,6 +83,8 @@ export function TipsView() {
   return <TipsList data={data} tips={data.tips} />;
 }
 
+type EntryStatus = "none" | "done" | "changed";
+
 interface TipRow extends GameTip {
   id: string;
   game: Game | undefined;
@@ -95,24 +106,37 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const slots = useMemo(() => groupBySlot(rows), [rows]);
 
   const keyFor = (gameId: string) => storageKey(tips.season, tips.seasonType, tips.week, gameId);
-  const [checked, setChecked] = useState<Set<string>>(
-    () => new Set(tips.tips.filter((t) => readChecked(keyFor(t.gameId))).map((t) => t.gameId)),
-  );
+  const [entered, setEntered] = useState<Map<string, string>>(() => {
+    const m = new Map<string, string>();
+    for (const t of tips.tips) {
+      const v = readEntered(keyFor(t.gameId));
+      if (v !== null) m.set(t.gameId, v);
+    }
+    return m;
+  });
 
-  const toggle = (gameId: string) => {
-    setChecked((prev) => {
-      const next = new Set(prev);
-      const value = !next.has(gameId);
-      if (value) next.add(gameId);
-      else next.delete(gameId);
-      writeChecked(keyFor(gameId), value);
+  const toggle = (row: TipRow) => {
+    const value = entered.get(row.gameId) === pickKey(row) ? null : pickKey(row);
+    writeEntered(keyFor(row.gameId), value);
+    setEntered((prev) => {
+      const next = new Map(prev);
+      if (value === null) next.delete(row.gameId);
+      else next.set(row.gameId, value);
       return next;
     });
   };
 
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
-  const doneCount = rows.filter((r) => checked.has(r.gameId)).length;
-  const openCount = rows.filter((r) => !checked.has(r.gameId) && !r.locked).length;
+  const statusOf = (r: TipRow): EntryStatus => {
+    const v = entered.get(r.gameId);
+    if (v === undefined) return "none";
+    return v === pickKey(r) ? "done" : "changed";
+  };
+  const countable = rows.filter((r) => r.level !== "nicht_erfasst");
+  const doneCount = countable.filter((r) => statusOf(r) === "done").length;
+  const openCount = countable.filter(
+    (r) => statusOf(r) === "changed" || (statusOf(r) === "none" && !r.locked),
+  ).length;
 
   return (
     <>
@@ -138,8 +162,8 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
                   key={row.gameId}
                   row={row}
                   team={team}
-                  checked={checked.has(row.gameId)}
-                  onToggle={() => toggle(row.gameId)}
+                  status={statusOf(row)}
+                  onToggle={() => toggle(row)}
                 />
               ))}
             </ul>
@@ -147,9 +171,9 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
         ))
       )}
 
-      {rows.length > 0 && (
+      {countable.length > 0 && (
         <p className={`counter${openCount > 0 ? " counter-open" : ""}`} aria-live="polite">
-          {doneCount} von {rows.length} Spielen eingetragen
+          {doneCount} von {countable.length} Spielen eingetragen
           {openCount > 0 && <span> · {openCount} offen</span>}
         </p>
       )}
@@ -200,9 +224,11 @@ function TiebreakerBox({
 
 function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; maxDeviations: number | null }) {
   const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
-  const top = players[0]?.points ?? 0;
   const mine = players.find((p) => p.id === standings.me);
-  const gap = mine ? top - mine.points : null;
+  // Spieler direkt vor mir: knappster mit mehr Punkten (Ziel nach D026)
+  const ahead = mine
+    ? players.filter((p) => p.points > mine.points).sort((a, b) => a.points - b.points)[0]
+    : undefined;
   return (
     <section className="box" aria-label="Rangliste">
       <h2>Rangliste nach Week {standings.asOfWeek}</h2>
@@ -214,8 +240,12 @@ function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; 
           </li>
         ))}
       </ol>
-      {gap !== null && (
-        <p className="box-meta">{gap === 0 ? "Du führst die Rangliste" : `Rückstand auf Platz 1: ${gap} Punkte`}</p>
+      {mine && (
+        <p className="box-meta">
+          {ahead
+            ? `${ahead.points - mine.points} ${ahead.points - mine.points === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id}, Ziel laut D026`
+            : "In Führung"}
+        </p>
       )}
       {maxDeviations !== null && <p className="box-meta strong">Erlaubte Abweichungen diese Woche: {maxDeviations}</p>}
     </section>
@@ -225,26 +255,29 @@ function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; 
 function TipItem({
   row,
   team,
-  checked,
+  status,
   onToggle,
 }: {
   row: TipRow;
   team: (id: string) => Team;
-  checked: boolean;
+  status: EntryStatus;
   onToggle: () => void;
 }) {
+  const notCaptured = row.level === "nicht_erfasst";
+  const checked = status === "done";
   const { game } = row;
   const homeId = game?.homeId;
-  const hasPick = row.level !== "offen" && row.pickTeamId !== null;
+  const hasPick = row.level !== "offen" && !notCaptured && row.pickTeamId !== null;
   const pickId = hasPick ? row.pickTeamId! : (game?.awayId ?? null);
   const otherId = game ? (pickId === game.homeId ? game.awayId : game.homeId) : null;
   const pick = pickId ? team(pickId) : null;
   const other = otherId ? team(otherId) : null;
-  const pending = !checked && !row.locked;
+  const pending = !notCaptured && (status === "changed" || (status === "none" && !row.locked));
 
   const classes = ["tip", `level-${row.level}`];
   if (pending) classes.push("pending");
   if (checked) classes.push("done");
+  if (status === "changed") classes.push("changed-entry");
   if (row.locked) classes.push("locked");
 
   return (
@@ -272,7 +305,7 @@ function TipItem({
         <div className="tip-value">
           {hasPick && row.pickProb !== null ? (
             <span className="prob">{Math.round(row.pickProb * 100)} %</span>
-          ) : (
+          ) : notCaptured ? null : (
             <span className="noodds">keine Quote</span>
           )}
           <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>
@@ -293,11 +326,18 @@ function TipItem({
             </span>
           )}
         </span>
-        <label className="check">
-          <input type="checkbox" checked={checked} onChange={onToggle} />
-          eingetragen
-        </label>
+        {!notCaptured && (
+          <label className="check">
+            <input type="checkbox" checked={checked} onChange={onToggle} />
+            eingetragen
+          </label>
+        )}
       </div>
+      {status === "changed" && (
+        <p className="entry-warning" role="alert">
+          <span aria-hidden="true">⚠️</span> Tipp geändert, auf der Tippseite anpassen
+        </p>
+      )}
     </li>
   );
 }

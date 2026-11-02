@@ -13,8 +13,10 @@ export const OddsSchema = z.object({
 });
 export type Odds = z.infer<typeof OddsSchema>;
 
-export const TipLevelSchema = z.enum(["klar", "favorit", "unklar", "offen"]);
-// klar: Favorit ab 75 Prozent, favorit: 60 bis unter 75, unklar: unter 60, offen: keine Quote
+export const TipLevelSchema = z.enum(["klar", "favorit", "unklar", "offen", "nicht_erfasst"]);
+// klar: Favorit ab 75 Prozent, favorit: 60 bis unter 75, unklar: unter 60, offen: keine Quote.
+// nicht_erfasst: Spiel war beim ersten Lauf schon gesperrt und hatte keinen früheren Tipp, also nie getippt.
+// Dann ist pickTeamId null und das Spiel bekommt keinen Tiebreaker Eintrag.
 
 export const GameTipSchema = z.object({
   gameId: z.string(),

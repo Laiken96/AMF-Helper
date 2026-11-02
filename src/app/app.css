@@ -513,3 +513,23 @@ body {
   color: var(--card);
   font-weight: 700;
 }
+
+.level-tag-nicht_erfasst {
+  background: var(--neutral-bg);
+  color: var(--muted);
+}
+
+.tip.changed-entry {
+  border-left-color: var(--risk);
+  background: var(--risk-bg);
+}
+
+.entry-warning {
+  margin: 8px 0 0;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: var(--risk);
+  color: var(--card);
+  font-size: 0.85rem;
+  font-weight: 700;
+}

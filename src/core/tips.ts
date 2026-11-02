@@ -229,6 +229,24 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
       carried.add(game.id);
       return prev.locked ? prev : { ...prev, locked: true, lockedAt: now };
     }
+    if (locked) {
+      // Beim ersten Lauf schon gesperrt: nie getippt, nichts nachträglich berechnen.
+      carried.add(game.id);
+      return {
+        gameId: game.id,
+        kickoffUtc: game.kickoffUtc,
+        odds: null,
+        pHome: null,
+        pickTeamId: null,
+        pickProb: null,
+        level: "nicht_erfasst",
+        deviation: false,
+        firstPickTeamId: null,
+        changedSinceFirst: false,
+        locked: true,
+        lockedAt: now,
+      };
+    }
     let odds = input.odds[game.id] ?? null;
     // Kurzzeitig fehlende Quote vor Kickoff: letzte bekannte Quote behalten.
     if (odds === null && prev?.odds) odds = prev.odds;
@@ -242,8 +260,8 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
       deviation: false,
       firstPickTeamId: prev?.firstPickTeamId ?? null,
       changedSinceFirst: false,
-      locked,
-      lockedAt: locked ? now : null,
+      locked: false,
+      lockedAt: null,
     };
   });
 
@@ -263,8 +281,8 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
         deviation: true,
       };
     }
-    // Grundtipp: erster berechnete Tipp mit Quote, danach nie überschrieben (D023).
-    const firstPickTeamId = next.firstPickTeamId ?? next.pickTeamId;
+    // Grundtipp: erster Favoritentipp mit Quote vor jeder Abweichung, danach nie überschrieben (D023).
+    const firstPickTeamId = tip.firstPickTeamId ?? tip.pickTeamId;
     return {
       ...next,
       firstPickTeamId,
@@ -275,11 +293,14 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
   // Tiebreaker nach D025. Gesperrt bleibt der bisherige Vorschlag.
   const tipById = new Map(merged.map((t) => [t.gameId, t]));
   const prevTbs = sameWeek ? input.existing!.tiebreakers : [];
-  const tiebreakers = tiebreakerGames(games).map(({ slot, game }) => {
+  const tiebreakers: Tiebreaker[] = [];
+  for (const { slot, game } of tiebreakerGames(games)) {
     const tip = tipById.get(game.id)!;
+    // Nie erfasste Spiele bekommen keinen Tiebreaker.
+    if (tip.level === "nicht_erfasst") continue;
     const prevTb = prevTbs.find((t) => t.slot === slot && t.gameId === game.id);
-    return tip.locked && prevTb ? prevTb : tiebreakerFor(game, tip.odds, slot, tip);
-  });
+    tiebreakers.push(tip.locked && prevTb ? prevTb : tiebreakerFor(game, tip.odds, slot, tip));
+  }
 
   return TipsFileSchema.parse({
     schemaVersion: TIPS_SCHEMA_VERSION,
