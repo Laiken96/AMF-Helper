@@ -2330,3 +2330,514 @@ html.sheet-open .page {
   opacity: 0.8;
   overflow-wrap: anywhere;
 }
+
+/* ---------- Ausbau nach Beta Test (D050) ---------- */
+
+/* Tippzeile: immer Auswärts @ Heim, getipptes Team hervorgehoben */
+.tip-teams {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  flex: none;
+  font-family: var(--font-num);
+  line-height: 1;
+}
+
+.tip-team {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text-2);
+}
+
+.tip-team-pick {
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--text);
+}
+
+.tip-team-other {
+  color: var(--text-3);
+  font-weight: 600;
+}
+
+.tip-at {
+  font-family: var(--font-text);
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.tip.locked .tip-team-pick {
+  color: var(--text-2) !important;
+}
+
+.tip.locked .tip-team-other,
+.tip.locked .tip-at {
+  color: var(--text-3) !important;
+}
+
+.tip-final {
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.tip.finished .tip-vs {
+  text-align: center;
+}
+
+.missing {
+  color: var(--text-3);
+}
+
+/* Bilanz: Sieger fett, Verlierer gedimmt */
+.team-win .abbr {
+  color: var(--text);
+}
+
+.team-lose .abbr {
+  font-weight: 600;
+  color: var(--text-3);
+}
+
+.team-lose img {
+  opacity: 0.55;
+}
+
+.no-tip-group {
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.no-tip-group > summary,
+.tech-details > summary {
+  min-height: 44px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-2);
+  border-radius: 14px;
+}
+
+.no-tip-group > summary::-webkit-details-marker,
+.tech-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.no-tip-group > summary::before,
+.tech-details > summary::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 100ms ease;
+  flex: none;
+}
+
+.no-tip-group[open] > summary::before,
+.tech-details[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.no-tip-group > .games {
+  padding: 0 8px 8px;
+}
+
+.no-tip-group .game {
+  background: var(--surface-2);
+}
+
+.tech-details {
+  min-width: 0;
+}
+
+.tech-details > summary {
+  padding-left: 4px;
+}
+
+.notice .tech-details > summary {
+  padding: 8px 0;
+  min-height: 44px;
+  font-size: 13px;
+}
+
+/* Spielbereich: Begründung einer Abweichung */
+.hero-why {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(11, 14, 19, 0.55);
+  font-size: 13px;
+  line-height: 1.4;
+  color: #e4e8ee;
+}
+
+.hero-why-tag {
+  display: inline-block;
+  margin-right: 4px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.hero-small .hero-why {
+  font-size: 12px;
+  padding: 8px 10px;
+}
+
+/* Tiebreaker Kürzel ohne Unterstreichung des abbr Elements */
+abbr.tb-day {
+  text-decoration: none;
+  cursor: help;
+}
+
+/* Legende "So liest du die Tipps" */
+.legend {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-2);
+}
+
+.slot > .legend {
+  padding: 12px;
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.legend-tag {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.legend-klar {
+  color: var(--klar);
+}
+
+.legend-favorit {
+  color: var(--favorit);
+}
+
+.legend-unklar {
+  color: var(--unklar);
+}
+
+.settings-line {
+  margin: 0;
+  padding: 0 4px;
+}
+
+/* Onboarding: X oben, Primäraktion und Textknopf */
+.icon-close {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  margin: -8px -8px 0 0;
+  border: 0;
+  border-radius: 22px;
+  background: transparent;
+  color: var(--text-2);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.icon-close:hover {
+  background: var(--active);
+  color: var(--text);
+}
+
+.onboarding-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+}
+
+.onboarding-ios {
+  margin-top: 8px !important;
+  font-weight: 600;
+}
+
+.onboarding-foot {
+  margin-top: 8px !important;
+  text-align: center;
+}
+
+.btn-text {
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--text-2);
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.btn-text:hover {
+  color: var(--text);
+}
+
+/* ---------- Trefferflächen mindestens 44 mal 44 ---------- */
+
+.segmented button {
+  min-height: 44px;
+}
+
+.step-label {
+  min-height: 44px;
+  border-radius: 22px;
+}
+
+.news-team select {
+  min-height: 44px;
+}
+
+/* Team Chips bleiben optisch 32 px hoch, die Trefferfläche wächst per Pseudo Element */
+.chip {
+  position: relative;
+}
+
+.chip::after {
+  content: "";
+  position: absolute;
+  inset: -6px -2px;
+}
+
+/* Schlagzeilen im Spielbereich: Zeilen bleiben 18 px, die Trefferfläche reicht nach oben und unten */
+.hero-info-line:has(a) {
+  overflow: visible;
+}
+
+.hero-info-line a {
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hero-info-line a::after {
+  content: "";
+  position: absolute;
+  inset: -13px 0;
+}
+
+.hero-info {
+  overflow: visible;
+}
+
+/* ---------- Touch Feedback ---------- */
+
+.btn,
+.btn-text,
+.icon-close,
+.chip,
+.segmented button,
+.week-stepper .step,
+.step-label,
+.nav-capsule a,
+.tool-capsule a,
+.tool-capsule button,
+.tip-select,
+.game-btn,
+.hero-cta,
+.hero-nav-arrow,
+.hero-nav-home,
+.tick,
+.news-link,
+.no-tip-group > summary,
+.tech-details > summary {
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 100ms ease,
+    background-color 100ms ease,
+    filter 100ms ease;
+}
+
+.btn:active:not(:disabled),
+.btn-text:active,
+.icon-close:active,
+.chip:active,
+.segmented button:active:not(:disabled),
+.week-stepper a.step:active,
+a.step-label:active,
+.nav-capsule a:active,
+.tool-capsule a:active,
+.tool-capsule button:active,
+.hero-cta:active,
+.hero-nav-arrow:active:not(:disabled),
+.hero-nav-home:active,
+.tick:active {
+  transform: scale(0.97);
+  filter: brightness(0.85);
+}
+
+.tip:has(.tip-select:active),
+.game:has(.game-btn:active),
+.news-item:has(.news-link:active) {
+  filter: brightness(0.85);
+  transform: scale(0.99);
+  transition:
+    transform 100ms ease,
+    filter 100ms ease;
+}
+
+.no-tip-group > summary:active,
+.tech-details > summary:active {
+  filter: brightness(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn:active:not(:disabled),
+  .btn-text:active,
+  .icon-close:active,
+  .chip:active,
+  .segmented button:active:not(:disabled),
+  .week-stepper a.step:active,
+  a.step-label:active,
+  .nav-capsule a:active,
+  .tool-capsule a:active,
+  .tool-capsule button:active,
+  .hero-cta:active,
+  .hero-nav-arrow:active:not(:disabled),
+  .hero-nav-home:active,
+  .tick:active,
+  .tip:has(.tip-select:active),
+  .game:has(.game-btn:active),
+  .news-item:has(.news-link:active) {
+    transform: none;
+  }
+
+  .no-tip-group > summary::before,
+  .tech-details > summary::before {
+    transition: none;
+  }
+}
+
+/* ---------- Unschärfe unter der Navigation, Verlauf oben ---------- */
+
+/* Oben: Verlauf in Höhe der Safe Area, Inhalt läuft nicht hart unter die Statusleiste */
+.app::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--sat);
+  z-index: 15;
+  pointer-events: none;
+  background: linear-gradient(var(--bg) 40%, rgba(11, 14, 19, 0));
+}
+
+/* Unten (Kapsel schwebt): Verlauf und Unschärfe hinter der Kapsel, Inhalt bleibt erahnbar */
+[data-layout="compact"] .app::after,
+[data-layout="medium"] .app::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: calc(var(--sab) + 92px);
+  z-index: 19;
+  pointer-events: none;
+  background: linear-gradient(rgba(11, 14, 19, 0), rgba(11, 14, 19, 0.85) 55%, var(--bg));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -webkit-mask-image: linear-gradient(transparent, #000 45%);
+  mask-image: linear-gradient(transparent, #000 45%);
+}
+
+[data-layout="compact"] .nav-capsule,
+[data-layout="medium"] .nav-capsule {
+  background: rgba(28, 33, 41, 0.82);
+  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  backdrop-filter: blur(16px) saturate(1.4);
+}
+
+/* Genug Abstand unten, damit die letzte Zeile ganz über der Kapsel steht */
+[data-layout="compact"] .page,
+[data-layout="medium"] .page {
+  padding-bottom: calc(var(--sab) + 112px);
+}
+
+/* ---------- Layoutfehler ---------- */
+
+/* Kopf: Wochenwähler bricht unter den Titel um, statt ihn zu überdecken */
+.header:has(.week-stepper) .header-main {
+  flex: 1 1 auto;
+}
+
+.header h1,
+.kicker {
+  white-space: nowrap;
+}
+
+/* Sehr schmal (250 px): Navigation ohne Abstände, 5 mal 44 px */
+@media (max-width: 340px) {
+  [data-layout="compact"] .nav-capsule {
+    gap: 0;
+    padding: 4px;
+  }
+
+  [data-layout="compact"] .nav-capsule a {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+  }
+
+  .tip-team-pick {
+    font-size: 19px;
+  }
+
+  .tip-team {
+    font-size: 17px;
+  }
+
+  .tip-final {
+    font-size: 16px;
+  }
+
+  .page {
+    --gutter: 8px;
+  }
+}
+
+/* News Filter: Teamauswahl nimmt die ganze Zeile, wenn neben dem Umschalter kein Platz ist */
+.news-team {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.news-team select {
+  min-width: 0;
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+
+[data-layout="side"] .news-controls .segmented,
+[data-layout="side"] .news-team {
+  flex-basis: 100%;
+}
+
+tr.me .missing,
+.me .missing {
+  color: inherit;
+}
+
+.overlay-card section > p {
+  font-size: 15px;
+}

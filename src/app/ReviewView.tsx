@@ -3,7 +3,8 @@ import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
 import { loadReviewPage, parseWeekKey, sameRef, useKeptLoad, type ReviewData, type WeekRef } from "./data";
-import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { SLOT_LONG, SLOT_SHORT, formatStand, scoreAria, scoreText } from "./wording";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
 
@@ -35,7 +36,15 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
   return <ReviewContent data={data} picker={picker} />;
 }
 
-const SLOT_DAY = { thursday: "Do", monday: "Mo" } as const;
+/** Kachel Titel statt "App Punkte": richtige Tipps der App in dieser Woche. */
+const POINTS_TITLE = "Richtige App Tipps";
+
+/** Strich für nicht gemeldete Wochenpunkte, Vorleser hört "nicht gemeldet". */
+const Missing = () => (
+  <span className="missing" aria-label="nicht gemeldet" title="nicht gemeldet">
+    {"\u2013"}
+  </span>
+);
 
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n));
 
@@ -50,8 +59,9 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
   };
 
   if (!review) {
-    const text =
-      data.phase === "vergangen"
+    const text = data.beforeStart
+      ? `${weekLabel(ref)} liegt vor dem App Start, keine Daten.`
+      : data.phase === "vergangen"
         ? "Für diese Woche gibt es keine Bilanz."
         : "Bilanz folgt, sobald das erste Spiel dieser Woche beendet ist.";
     return (
@@ -59,10 +69,10 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         <PageHeader kicker="Bilanz" title={weekLabel(ref)} aside={picker} meta={`Saison ${ref.season}`} />
         <p className="notice notice-pending">{text}</p>
         <div className="tiles">
-          <section className="box" aria-label="App Punkte">
-            <h2>App Punkte</h2>
+          <section className="box" aria-label={POINTS_TITLE}>
+            <h2>{POINTS_TITLE}</h2>
             <p className="big-number">
-              {"\u2013"} <span className="of">von {week?.games.length ?? "?"}</span>
+              {"\u2013"} <span className="of">von {week?.games.length ?? "\u2013"}</span>
             </p>
             <p className="box-meta">Noch keine Auswertung</p>
           </section>
@@ -90,19 +100,19 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         kicker="Bilanz"
         title={weekLabel(review)}
         aside={picker}
-        meta={`Saison ${review.season}, Stand ${fetchedFormat.format(new Date(review.updatedAt))}`}
+        meta={`Saison ${review.season} · ${formatStand(review.updatedAt)}`}
       />
 
       {!review.complete && (
         <p className="notice notice-pending">
-          <strong>Zwischenstand.</strong> {finals} von {review.games.length} Spielen sind final, die Bilanz wird
+          <strong>Zwischenstand.</strong> {finals} von {review.games.length} Spielen sind beendet, die Bilanz wird
           laufend ergänzt.
         </p>
       )}
 
       <div className="tiles">
-        <section className="box" aria-label="App Punkte">
-          <h2>App Punkte</h2>
+        <section className="box" aria-label={POINTS_TITLE}>
+          <h2>{POINTS_TITLE}</h2>
           <p className="big-number">
             {review.points} <span className="of">von {review.tipped}</span>
           </p>
@@ -139,12 +149,26 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
           <ul className="review-list">
             {review.tiebreakers.map((tb) => (
               <li key={tb.gameId} className="review-row">
-                <span className="tb-day">{SLOT_DAY[tb.slot]}</span>
+                <abbr className="tb-day" title={SLOT_LONG[tb.slot]}>
+                  {SLOT_SHORT[tb.slot]}
+                </abbr>
                 <span>
-                  {matchup(tb.gameId)}: getippt {tb.predictedAway}:{tb.predictedHome},{" "}
-                  {tb.actualAway !== null && tb.actualHome !== null
-                    ? `Resultat ${tb.actualAway}:${tb.actualHome}, Abweichung ${tb.diff ?? "offen"}`
-                    : "Resultat offen"}
+                  {matchup(tb.gameId)}: getippt{" "}
+                  <span aria-label={scoreAria(tb.predictedAway, tb.predictedHome)}>
+                    {scoreText(tb.predictedAway, tb.predictedHome)}
+                  </span>
+                  {", "}
+                  {tb.actualAway !== null && tb.actualHome !== null ? (
+                    <>
+                      Resultat{" "}
+                      <span aria-label={scoreAria(tb.actualAway, tb.actualHome, "Resultat")}>
+                        {scoreText(tb.actualAway, tb.actualHome)}
+                      </span>
+                      , {tb.diff === null ? "Abstand offen" : `${tb.diff} Punkte Abstand`}
+                    </>
+                  ) : (
+                    "Resultat offen"
+                  )}
                 </span>
               </li>
             ))}
@@ -160,8 +184,8 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
 }
 
 function DeviationLine({ game, team }: { game: GameReview; team: (id: string) => Team }) {
-  const pick = game.pickTeamId ? team(game.pickTeamId).abbr : "?";
-  const fav = game.favoriteTeamId ? team(game.favoriteTeamId).abbr : "?";
+  const pick = game.pickTeamId ? team(game.pickTeamId).abbr : "\u2013";
+  const fav = game.favoriteTeamId ? team(game.favoriteTeamId).abbr : "\u2013";
   const effect = game.deviationEffect;
   const cls = effect === null || effect === 0 ? "effect" : effect > 0 ? "effect effect-plus" : "effect effect-minus";
   return (
@@ -203,13 +227,13 @@ function GroupWeek({ history, week: review, me }: { history: StandingsHistory; w
           {sorted.map((r) => (
             <tr key={r.id} className={r.id === me ? "me" : undefined}>
               <th scope="row">{r.id}</th>
-              <td>{r.week ?? "?"}</td>
+              <td>{r.week ?? <Missing />}</td>
               <td>{r.total}</td>
             </tr>
           ))}
         </tbody>
       </table>
-      {!hasWeek && <p className="push-hint">Wochenpunkte fehlen, weil die Vorwoche nicht gemeldet ist.</p>}
+      {!hasWeek && <MissingHint week={review.week} />}
     </section>
   );
 }
@@ -245,7 +269,7 @@ function SeasonTable({ history, season, me }: { history: StandingsHistory; seaso
                   <th scope="row">{e.seasonType === 3 ? `P${e.week}` : e.week}</th>
                   {ids.map((id) => (
                     <td key={id} className={id === me ? "me" : undefined}>
-                      {rows.find((r) => r.id === id)?.week ?? "?"}
+                      {rows.find((r) => r.id === id)?.week ?? <Missing />}
                     </td>
                   ))}
                 </tr>
@@ -257,15 +281,28 @@ function SeasonTable({ history, season, me }: { history: StandingsHistory; seaso
               <th scope="row">Total</th>
               {ids.map((id) => (
                 <td key={id} className={id === me ? "me" : undefined}>
-                  {latest.players.find((p) => p.id === id)?.points ?? "?"}
+                  {latest.players.find((p) => p.id === id)?.points ?? <Missing />}
                 </td>
               ))}
             </tr>
           </tfoot>
         </table>
       </div>
-      {anyMissing && <p className="push-hint">? heisst Vorwoche nicht gemeldet.</p>}
+      {anyMissing && <p className="push-hint">Ein Strich heisst nicht gemeldet.</p>}
     </section>
+  );
+}
+
+/** Hinweis zu Strichen: was gemeldet werden muss, damit Wochenpunkte erscheinen. */
+function MissingHint({ week }: { week: number }) {
+  return (
+    <p className="push-hint">
+      Ein Strich heisst nicht gemeldet. Wochenpunkte entstehen aus der Differenz zweier Ranglisten, dafür braucht es
+      auch die Rangliste der Vorwoche (Week {week - 1}).{" "}
+      <a href={RANKING_FORM_URL} target="_blank" rel="noopener noreferrer">
+        Rangliste melden
+      </a>
+    </p>
   );
 }
 
@@ -279,45 +316,62 @@ function GameList({
   team: (id: string) => Team;
 }) {
   if (review.games.length === 0) return null;
+  const withTip = review.games.filter((g) => g.pickTeamId !== null);
+  const without = review.games.filter((g) => g.pickTeamId === null);
+  const row = (g: GameReview) => <ReviewGameRow key={g.gameId} g={g} game={gameById.get(g.gameId)} team={team} />;
   return (
     <section className="slot">
       <h2>Spiele</h2>
-      <ul className="games">
-        {review.games.map((g) => {
-          const game = gameById.get(g.gameId);
-          const result =
-            g.correct === null ? (g.pickTeamId ? "offen" : "") : g.correct ? "richtig" : "falsch";
-          const resultCls = g.correct === null ? "res res-open" : g.correct ? "res res-ok" : "res res-bad";
-          return (
-            <li key={g.gameId} className="game review-game">
-              <div className="matchup">
-                {game ? (
-                  <>
-                    <TeamBadge team={team(game.awayId)} />
-                    {game.awayScore !== null && game.homeScore !== null && game.status !== "scheduled" ? (
-                      <span className="score">
-                        {game.awayScore} : {game.homeScore}
-                      </span>
-                    ) : (
-                      <span className="at">@</span>
-                    )}
-                    <TeamBadge team={team(game.homeId)} />
-                  </>
-                ) : (
-                  <span>Spiel {g.gameId}</span>
-                )}
-              </div>
-              <div className="details">
-                <span>
-                  {g.pickTeamId ? `Tipp ${team(g.pickTeamId).abbr}` : "Kein App Tipp"}
-                  {g.deviation ? ", Abweichung" : ""}
-                </span>
-                <span className={resultCls}>{g.final ? result : "nicht final"}</span>
-              </div>
-            </li>
-          );
-        })}
-      </ul>
+      {withTip.length > 0 && <ul className="games">{withTip.map(row)}</ul>}
+      {without.length > 0 && (
+        <details className="no-tip-group">
+          <summary>
+            {without.length} {without.length === 1 ? "Spiel" : "Spiele"} ohne App Tipp
+          </summary>
+          <ul className="games">{without.map(row)}</ul>
+        </details>
+      )}
     </section>
+  );
+}
+
+function ReviewGameRow({ g, game, team }: { g: GameReview; game: Game | undefined; team: (id: string) => Team }) {
+  const result = g.correct === null ? (g.pickTeamId ? "offen" : "") : g.correct ? "richtig" : "falsch";
+  const resultCls = g.correct === null ? "res res-open" : g.correct ? "res res-ok" : "res res-bad";
+  const scored = game && game.awayScore !== null && game.homeScore !== null && game.status !== "scheduled";
+  // Sieger fett, Verlierer gedimmt, nur bei beendetem Spiel
+  const side = (score: number | null | undefined, other: number | null | undefined) =>
+    game?.status !== "final" || score == null || other == null || score === other
+      ? "team-wrap"
+      : score > other
+        ? "team-wrap team-win"
+        : "team-wrap team-lose";
+  return (
+    <li className="game review-game">
+      <div className="matchup">
+        {game ? (
+          <>
+            <span className={side(game.awayScore, game.homeScore)}>
+              <TeamBadge team={team(game.awayId)} />
+            </span>
+            {scored ? <span className="score">{scoreText(game.awayScore!, game.homeScore!)}</span> : <span className="at">@</span>}
+            <span className={`${side(game.homeScore, game.awayScore)} team-wrap-home`}>
+              <TeamBadge team={team(game.homeId)} />
+            </span>
+          </>
+        ) : (
+          <span>Spiel {g.gameId}</span>
+        )}
+      </div>
+      {g.pickTeamId && (
+        <div className="details">
+          <span>
+            Tipp {team(g.pickTeamId).abbr}
+            {g.deviation ? ", Abweichung" : ""}
+          </span>
+          <span className={resultCls}>{g.final ? result : "nicht beendet"}</span>
+        </div>
+      )}
+    </li>
   );
 }

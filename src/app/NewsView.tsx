@@ -5,7 +5,8 @@ import type { TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich } from "../core/time";
 import { loadNews, loadTipsData, useDataVersion } from "./data";
 import { useNow } from "./GameHero";
-import { PageHeader, Segmented, fallbackTeam, fetchedFormat } from "./ui";
+import { PageHeader, Segmented, fallbackTeam } from "./ui";
+import { formatStand } from "./wording";
 
 type NewsItem = NewsFile["items"][number];
 
@@ -104,7 +105,7 @@ function NewsList({ data, news, now }: { data: NewsData; news: NewsFile; now: nu
       <PageHeader
         kicker="News"
         title="Schlagzeilen"
-        meta={`ESPN, CBS Sports und PFT · Stand ${fetchedFormat.format(new Date(news.updatedAt))}`}
+        meta={`ESPN, CBS Sports und PFT · ${formatStand(news.updatedAt)}`}
       />
       <div className="news-controls">
         <Segmented

@@ -293,6 +293,15 @@ export function weekPaths(index: WeeksIndex | null, ref: WeekRef) {
   };
 }
 
+/**
+ * Liegt die Woche vor der ersten Woche im Wochenindex, also vor dem Start der App? Dann gibt es keine Dateien
+ * und die App fragt sie gar nicht erst ab (keine 404 in der Konsole). Ohne Index nie.
+ */
+export function beforeAppStart(index: WeeksIndex | null, ref: WeekRef): boolean {
+  const first = index?.weeks[0];
+  return Boolean(first) && compareRef(ref, first!) < 0;
+}
+
 export interface WeekNav {
   current: CurrentFile;
   index: WeeksIndex | null;
@@ -310,6 +319,7 @@ async function loadNav(requested: WeekRef | null): Promise<WeekNav> {
 /** Wochendatei der gewählten Woche. Die aktuelle Woche ist Pflicht, andere Wochen dürfen fehlen. */
 async function loadWeekFile(nav: WeekNav): Promise<WeekFile | null> {
   if (nav.phase === "aktuell") return loadJson(nav.current.weekFile, WeekFileSchema);
+  if (beforeAppStart(nav.index, nav.ref)) return null;
   return loadOptionalJson(weekPaths(nav.index, nav.ref).weekFile, WeekFileSchema);
 }
 
@@ -340,8 +350,9 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
   const { ref } = nav;
   const paths = weekPaths(nav.index, ref);
   // Aktuelle Woche wie bisher nach Namenskonvention, auch wenn der Index noch keine Tippdatei kennt
-  const tipsPath =
-    paths.tipsFile ?? (nav.phase === "aktuell" ? tipsFilePath(ref.season, ref.seasonType, ref.week) : null);
+  const tipsPath = beforeAppStart(nav.index, ref) && nav.phase !== "aktuell"
+    ? null
+    : (paths.tipsFile ?? (nav.phase === "aktuell" ? tipsFilePath(ref.season, ref.seasonType, ref.week) : null));
   const [week, teams, standings, tips, injuries, news] = await Promise.all([
     loadWeekFile(nav),
     loadJson("teams.json", TeamsFileSchema),
@@ -379,6 +390,8 @@ export interface ReviewData {
   teams: TeamsFile;
   standings: StandingsFile;
   history: StandingsHistory;
+  /** Woche liegt vor dem Start der App, es gibt keine Daten. */
+  beforeStart?: boolean;
 }
 
 /** Liste der Bilanzen, null wenn noch keine existiert. */
@@ -411,7 +424,7 @@ function homeWeek(weeks: ReviewWeek[], current: WeekRef | null): WeekRef | null 
 
 /** Bilanzseite einer Woche. null, wenn es weder Wochen noch Bilanzen gibt. */
 export async function loadReviewPage(requested: WeekRef | null): Promise<ReviewData | null> {
-  const [weeks, currentFile] = await Promise.all([loadReviewWeeks(), loadCurrent()]);
+  const [weeks, currentFile, weeksIndex] = await Promise.all([loadReviewWeeks(), loadCurrent(), loadWeeksIndex()]);
   const current = currentFile ? currentRef(currentFile) : null;
   if (current && weeks.length > 0 && !weeks.some((w) => sameRef(w.ref, current))) {
     weeks.push({ ref: current, path: null });
@@ -428,10 +441,12 @@ export async function loadReviewPage(requested: WeekRef | null): Promise<ReviewD
     loadJson("teams.json", TeamsFileSchema),
     loadJson("standings.json", StandingsFileSchema),
     loadJson("standings-history.json", StandingsHistorySchema),
-    loadOptionalJson(weekFilePath(ref.season, ref.seasonType, ref.week), WeekFileSchema).catch(() => null),
+    beforeAppStart(weeksIndex, ref)
+      ? Promise.resolve(null)
+      : loadOptionalJson(weekFilePath(ref.season, ref.seasonType, ref.week), WeekFileSchema).catch(() => null),
   ]);
   const phase: WeekPhase = current ? phaseOf(ref, current) : "vergangen";
-  return { weeks, ref, home, current, phase, path, review, week, teams, standings, history };
+  return { weeks, ref, home, current, phase, path, review, week, teams, standings, history, beforeStart: beforeAppStart(weeksIndex, ref) };
 }
 
 /** current.json, null wenn sie fehlt oder nicht lesbar ist. Nur für Zusatzansichten wie Bilanz und News. */

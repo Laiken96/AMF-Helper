@@ -1,16 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { Team } from "../core/schema";
+import { friendlyLoadError } from "./wording";
 import { compareRef, retryLoad, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
-
-export const fetchedFormat = new Intl.DateTimeFormat("de-CH", {
-  timeZone: "Europe/Zurich",
-  weekday: "short",
-  day: "2-digit",
-  month: "2-digit",
-  year: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-});
 
 export function TeamBadge({ team }: { team: Team }) {
   return (
@@ -53,7 +44,11 @@ export function LoadErrorNotice({ message, onRetry = retryLoad }: { message: str
   return (
     <div className="notice notice-error" role="alert">
       <strong>Daten konnten nicht geladen werden.</strong>
-      <p>{message}</p>
+      <p>{friendlyLoadError(message)} Bitte Verbindung prüfen und erneut versuchen.</p>
+      <details className="tech-details">
+        <summary>Technische Details</summary>
+        <p className="error-detail">{message}</p>
+      </details>
       <div className="button-row notice-actions">
         <button type="button" className="btn" onClick={retry} disabled={busy} aria-busy={busy || undefined}>
           {busy ? "Wird geladen …" : "Erneut versuchen"}
