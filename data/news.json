@@ -1,7 +1,98 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T12:58:17Z",
+  "updatedAt": "2026-11-02T14:47:20Z",
   "items": [
+    {
+      "id": "76f57f72e8eb6611",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-fire-offensive-run-game-coordinator-t-j-paganetti",
+      "title": "Saints fire offensive run game coordinator T.J. Paganetti",
+      "summary": "The Saints made a change to their coaching staff during their bye week.",
+      "publishedAt": "2026-11-02T14:31:23Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "a104de3222763c86",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-panthers-to-hire-deangelo-hall-to-coach-cornerbacks",
+      "title": "Panthers hire DeAngelo Hall to coach cornerbacks",
+      "summary": "The Panthers dismissed a couple of defensive coaches last week and they are bringing back one of their former assistants to help out in the secondary this week.",
+      "publishedAt": "2026-11-02T13:53:04Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "c1cdc3e63199ceef",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-i-stand-by-everything-i-say",
+      "title": "Jared Verse: I stand by everything I say",
+      "summary": "Browns defensive end Jared Verse gave the Steelers some fuel ahead of Sunday's games by sharing his thoughts about the team being dirty and vowing to \"make Pittsburgh ours\" in Week 8.",
+      "publishedAt": "2026-11-02T13:43:15Z",
+      "teamIds": [
+        "5",
+        "23"
+      ]
+    },
+    {
+      "id": "962451e593d5978b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-nfl-trade-deadline-george-pickens-destinations",
+      "title": "Cowboys should consider trading George Pickens: 5 logical NFL deadline destinations",
+      "summary": "Pickens received only four targets in Dallas' historic collapse against Arizona, adding urgency to the Cowboys' decision before the NFL trade deadline",
+      "publishedAt": "2026-11-02T13:37:48Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "90b209d2584a59ff",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-early-odds-spreads-ravens-jaguars-lamar-jackson",
+      "title": "NFL Week 9 early odds: Ravens become home underdogs to Jaguars after Lamar Jackson injury",
+      "summary": "A look at where the odds and spreads currently stand heading into Week 9, including a big move in Baltimore",
+      "publishedAt": "2026-11-02T13:28:24Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "b81f837740cef146",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/garrett-wilson-we-have-to-give-our-fans-a-reason-to-come-out",
+      "title": "Garrett Wilson: We have to give our fans a reason to come out",
+      "summary": "If someone flipped on Sunday's game between the Raiders and the Jets in the fourth quarter, they would have been forgiven for wondering if the Raiders were the home team at MetLife Stadium.",
+      "publishedAt": "2026-11-02T13:25:38Z",
+      "teamIds": [
+        "13",
+        "20"
+      ]
+    },
+    {
+      "id": "5740a95198674861",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-cowardice-to-put-the-blame-on-brian-schottenheimer",
+      "title": "Dak Prescott: \"Cowardice\" to put blame for Sunday's loss on Brian Schottenheimer",
+      "summary": "The Cowboys blew a 14-point lead and lost at home for the first time in franchise history on Sunday, so quarterback Dak Prescott may have been understating things when he called it \"one of the toughest\" losses of his career.",
+      "publishedAt": "2026-11-02T13:08:48Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "ad12605e52d90f9e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-jaylen-warren-breakout-running-back",
+      "title": "Steelers' Jaylen Warren is 'on fire': Why the breakout running back keeps getting better",
+      "summary": "Warren tied his career high with 143 rushing yards on his 28th birthday, continuing a breakout season that has made him the engine of Pittsburgh's offense",
+      "publishedAt": "2026-11-02T13:03:24Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "264f5909e7353397",
       "source": "cbs",
