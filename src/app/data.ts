@@ -316,7 +316,8 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
     loadJson("standings.json", StandingsFileSchema),
     tipsPath ? loadOptionalJson(tipsPath, TipsFileSchema) : Promise.resolve(null),
     // Ausfälle und News sind Zusatz: Fehler hier dürfen die Tippliste nie blockieren
-    nav.phase === "vergangen"
+    // Ausfall Dateien schreibt der Wächter nur für die aktuelle Woche, sonst gäbe es vermeidbare 404 Abrufe
+    nav.phase !== "aktuell"
       ? Promise.resolve(null)
       : loadOptionalJson(injuriesFilePath(ref.season, ref.seasonType, ref.week), InjuriesFileSchema).catch(() => null),
     nav.phase === "vergangen" ? Promise.resolve(null) : loadNews(),
