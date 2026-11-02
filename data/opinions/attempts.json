@@ -3,9 +3,9 @@
   "entries": [
     {
       "gameId": "401873036",
-      "attempts": 1,
-      "lastAt": "2026-11-02T19:20:35Z",
-      "lastResult": "API Fehler HTTP 401: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgeeGYT4rHF8MCRM4SxSw\"}"
+      "attempts": 2,
+      "lastAt": "2026-11-02T19:30:55Z",
+      "lastResult": "API Fehler HTTP 401: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgef4GFXMP4DVEHiYAmuk\"}"
     }
   ]
 }
