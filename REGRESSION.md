@@ -476,4 +476,4 @@ R72 Duo Systemanzeige verdeckt keine Bedienelemente
     Vorbedingung: Duo aufgeklappt quer oder zugeklappt, App vom Home Bildschirm.
     Schritt: Rechte Spalte ansehen.
     Erwartet: Uhrzeit, WLAN und Batterie von iOS stehen oben frei. Werkzeugkapsel (Aktualisieren, Glocke) und Navigation sitzen unten gestapelt, nichts überlappt. Lokal mit ?inset=84 bei 951x669: Werkzeugkapsel beginnt bei y 319, Navigation endet bei y 653.
-    Status: bestanden lokal 2026-11-02, offen Nutzer am Gerät
+    Status: bestanden lokal und durch Nutzer am iPhone Duo 2026-11-02
