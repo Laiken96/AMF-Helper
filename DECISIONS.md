@@ -343,3 +343,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wunsch des Nutzers. Im Layout wide wählt ein Antippen einer Spielzeile das Spiel für den Spielbereich links, mit Pfeilen zum Durchklicken (folgen dem aktiven Filter) und Knopf "Zum nächsten Tippschluss". In compact, side und medium öffnet das Antippen denselben Spielbereich als Blatt von unten. Gesperrte Spiele zeigen Endresultat mit richtig oder falsch, laufende den Live Score. Auswahl im Hash, Wochenwechsel setzt zurück. Häkchen ändert die Auswahl nicht
 - Begründung: Spielbereich zeigte bisher fix das nächste Tippschluss Spiel, die Liste rechts war nicht mit ihm verbunden. Entspricht dem List Detail Muster für breite Bildschirme
 - Verworfen: Wischgesten (optional, später)
+
+## D049 Stabilität nach Code Review
+
+- Datum: 2026-11-02
+- Entscheid: Ergebnis eines Reviews mit vier Agenten. ESPN Status mit state "post" gelten nur als final bei completed oder Name STATUS_FINAL, alle anderen (suspendiert, abgebrochen, verwirkt) als verschoben, damit die Regel aus D034 greift. Tippliste wertet wie die Bilanz (ungewertet). Verschobene und abgesagte Spiele bekommen keinen Tiebreaker, ein gesperrter Tiebreaker bleibt. KI Zweitmeinung: Timeout, Netzfehler und gescheiterte Fortsetzung zählen als Versuch, keine Wiederholung im SDK, damit gilt höchstens 2 Anfragen pro Spiel (D043). 401, 403, 408, 429 und 5xx zählen weiterhin nicht (R99). push.yml startet Pages nach neuen Ausfalldaten. Ranglisten Workflow mit Concurrency pro Issue. Neuer CI Workflow für Pull Requests. App: Ladefehler erholen sich mit Aktualisieren oder "Erneut versuchen", Error Boundary, Zeitlimit 15 s für Daten und 10 s für Live, Liveticker mit Backoff bis 5 Minuten und ohne Abruf für verschobene Spiele
+- Begründung: Review fand eine mögliche Kostenschleife (Timeout zählte nie), dauerhaft hängende Fehleranzeigen und falsch gewertete unterbrochene Spiele
+- Verworfen: Sicherung von push-log ausserhalb Git (push.yml schreibt nur eigene Pfade, ein Konflikt ist ausgeschlossen, bei einer GitHub Störung scheitert jede Sicherung über GitHub ebenso)
