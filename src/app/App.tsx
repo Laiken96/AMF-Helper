@@ -1,18 +1,29 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Game, Team } from "../core/schema";
 import { groupBySlot } from "../core/time";
 import { LoadError, loadWeekData, type WeekData } from "./data";
+import { markOnboardingSeen, onboardingSeen, registerServiceWorker } from "./push";
+import { Onboarding, SettingsView } from "./SettingsView";
 import { TipsView } from "./TipsView";
 import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
 
-type View = "tipps" | "spielplan";
+type View = "tipps" | "spielplan" | "einstellungen";
 
 function viewFromHash(): View {
-  return window.location.hash === "#spielplan" ? "spielplan" : "tipps";
+  if (window.location.hash === "#spielplan") return "spielplan";
+  if (window.location.hash === "#einstellungen") return "einstellungen";
+  return "tipps";
 }
+
+const NAV: { view: View; label: string }[] = [
+  { view: "tipps", label: "Tipps" },
+  { view: "spielplan", label: "Spielplan" },
+  { view: "einstellungen", label: "Einstellungen" },
+];
 
 export function App() {
   const [view, setView] = useState<View>(viewFromHash);
+  const [showOnboarding, setShowOnboarding] = useState(() => !onboardingSeen());
 
   useEffect(() => {
     const onHash = () => setView(viewFromHash());
@@ -20,23 +31,37 @@ export function App() {
     return () => window.removeEventListener("hashchange", onHash);
   }, []);
 
+  useEffect(() => {
+    void registerServiceWorker();
+  }, []);
+
+  const closeOnboarding = useCallback(() => {
+    markOnboardingSeen();
+    setShowOnboarding(false);
+  }, []);
+
   return (
     <>
       <nav className="nav" aria-label="Ansicht">
         <div className="nav-inner">
-          <a href="#tipps" className={view === "tipps" ? "active" : undefined} aria-current={view === "tipps" ? "page" : undefined}>
-            Tipps
-          </a>
-          <a
-            href="#spielplan"
-            className={view === "spielplan" ? "active" : undefined}
-            aria-current={view === "spielplan" ? "page" : undefined}
-          >
-            Spielplan
-          </a>
+          {NAV.map((item) => (
+            <a
+              key={item.view}
+              href={`#${item.view}`}
+              className={view === item.view ? "active" : undefined}
+              aria-current={view === item.view ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
         </div>
       </nav>
-      <main className="page">{view === "tipps" ? <TipsView /> : <ScheduleView />}</main>
+      <main className="page">
+        {view === "tipps" && <TipsView />}
+        {view === "spielplan" && <ScheduleView />}
+        {view === "einstellungen" && <SettingsView onShowOnboarding={() => setShowOnboarding(true)} />}
+      </main>
+      {showOnboarding && <Onboarding onClose={closeOnboarding} />}
     </>
   );
 }

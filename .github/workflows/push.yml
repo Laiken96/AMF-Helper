@@ -1,0 +1,93 @@
+# Web Push und Ausfall Wächter (D029, D030). Läuft alle 10 Minuten auf ungeraden Minuten wegen Cron Verzögerung.
+# Geplante Läufe startet GitHub nur auf dem Default Branch. Manueller Start über workflow_dispatch geht auf jedem Branch.
+# Ohne Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION bleibt der Lauf grün und sendet nichts.
+name: Push und Ausfall Wächter
+
+on:
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "true sendet sofort eine Testnachricht ohne Log Eintrag"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
+  # (hier nur data/push-log.json und data/injuries), Konflikte beim Push löst git pull --rebase.
+  group: push-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Testnachricht senden
+        if: inputs.test == 'true'
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+        run: npm run job:push -- --test
+
+      # Der Wächter darf scheitern, die Erinnerungen kommen trotzdem mit dem letzten Stand. Der Lauf wird am Ende rot.
+      - name: Ausfälle prüfen
+        id: watch
+        if: inputs.test != 'true'
+        continue-on-error: true
+        run: npm run job:watch
+
+      - name: Meldungen senden
+        id: push
+        if: inputs.test != 'true'
+        continue-on-error: true
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+        run: npm run job:push
+
+      # Nur push-log und Ausfall Dateien. Kein Pages Neubau, die App braucht diese Daten nicht sofort.
+      - name: Änderungen committen
+        if: inputs.test != 'true'
+        run: |
+          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries)" ]; then
+            echo "Keine Änderungen an push-log oder Ausfällen"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          paths=()
+          [ -e data/push-log.json ] && paths+=(data/push-log.json)
+          [ -d data/injuries ] && paths+=(data/injuries)
+          git add -A -- "${paths[@]}"
+          git commit -m "data: Push Log und Ausfälle aktualisiert"
+          # Bis zu 3 Versuche, falls data.yml gleichzeitig pusht. Ein misslungener Rebase wird abgebrochen und wiederholt.
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep $((i * 5))
+          done
+          echo "Push nach 3 Versuchen fehlgeschlagen"
+          exit 1
+
+      - name: Fehler melden
+        if: steps.watch.outcome == 'failure' || steps.push.outcome == 'failure'
+        run: |
+          echo "Wächter: ${{ steps.watch.outcome }}, Push: ${{ steps.push.outcome }}"
+          exit 1

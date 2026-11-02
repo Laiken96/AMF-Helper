@@ -27,16 +27,17 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Sprint 2 gebaut am 2026-11-02: Tippliste aus ESPN Quoten (D024), Abweichungen nach D026, Tiebreaker TNF und MNF (D025), Sperre ab Kickoff, Ansicht Tipps als Startseite. 103 Tests grün. Rangliste in data/standings.json wird bis Sprint 4 manuell gepflegt, nur Kürzel.
+Sprint 3 gebaut am 2026-11-02: PWA mit Onboarding und Einstellungen, Push Versand über GitHub Actions alle 10 Minuten (D029, D031), Ausfall Wächter mit Grundstand ab Donnerstag (D030). 148 Tests grün. Abnahme am Handy offen: Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION.
 
 ## Befehle
 
 - npm run dev: lokaler Server
 - npm run typecheck, npm test, npm run build: Prüfungen vor jedem Commit
 - npm run job:schedule [-- --season 2026 --type 2 --week 9]: Spielplan holen
+- npm run job:watch, npm run job:push: Ausfall Wächter und Push Versand (Versand nur auf main mit Secrets)
 - npm run job:tips [-- --season 2026 --type 2 --week 9]: Tippliste rechnen, ohne Argumente Woche aus data/current.json
 - vite preview braucht dasselbe BASE_PATH wie der Build
 
 ## Nächster Schritt
 
-Sprint 3: Web Push mit Onboarding und Ausfall Wächter laut PLAN.md. Push muss vor Thanksgiving 26.11. laufen.
+Sprint 4: Gruppentipps per Issue Formular (D018), Wochenbilanz und Ranglistenstand automatisch, Push "Bilanz bereit".

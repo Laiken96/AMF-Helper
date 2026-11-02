@@ -202,3 +202,24 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ersetzt das Saisonziel aus D022 und das Ziel in D026. Massstab für die Abweichungen ist immer der Rückstand auf Platz 1, die Formel pro Restwoche aus D026 bleibt. Stand Week 9: 26 Punkte auf 10 Wochen ergibt 2 Abweichungen
 - Begründung: Entscheid des Nutzers, die App spielt immer auf Sieg. Product Owner Hinweis dokumentiert: Abweichungen kosten im Schnitt Punkte, die Chance auf Platz 1 bleibt bei 26 Punkten Rückstand klein, dafür sinkt die Chance auf Platz 4
 - Verworfen: Ziel Platz 4 aus D022
+
+## D029 Web Push ohne Server
+
+- Datum: 2026-11-02
+- Entscheid: Die App ist eine PWA mit Service Worker. Beim Onboarding meldet das Gerät sich für Push an und zeigt die Anmeldung (Subscription JSON) mit Kopierknopf. Der Nutzer legt sie einmalig als GitHub Secret PUSH_SUBSCRIPTION ab, der private VAPID Schlüssel liegt als Secret VAPID_PRIVATE_KEY. Ein Workflow alle 10 Minuten (ungerade Minuten wegen Cron Verzögerung) sendet mit web-push. Bereits gesendete Meldungen stehen in data/push-log.json, damit nichts doppelt kommt
+- Begründung: GitHub Pages kann keine Anmeldung speichern, ein Secret ist der sicherste Ort ohne Backend. Einmaliger Aufwand pro Gerät
+- Verworfen: Anmeldung im öffentlichen Repo oder in einem Issue, eigenes Backend
+
+## D030 Ausfall Wächter
+
+- Datum: 2026-11-02
+- Entscheid: Quelle ist der ESPN Summary Endpoint pro Spiel (injuries, leaders). Wichtig sind alle Quarterbacks und die Team Leader (Passing, Rushing, Receiving). Am Donnerstag wird ein Grundstand gespeichert, vor jedem Kickoff Slot wird verglichen. Gemeldet werden Statuswechsel dieser Spieler und Tippänderungen seit dem Grundtipp
+- Begründung: ESPN liefert keine verlässliche Startaufstellung im selben Abruf, Leader sind ein guter Ersatz für Schlüsselspieler
+- Verworfen: Depth Chart Endpoint (komplex, inoffiziell, viele Abrufe)
+
+## D031 Push Zuverlässigkeit
+
+- Datum: 2026-11-02
+- Entscheid: Slot Meldung im Fenster 2 bis 60 Minuten vor Kickoff (statt 15 bis 60 laut Sprint Auftrag). TTL der Meldung endet beim Kickoff. Push Workflow mit eigener Concurrency Gruppe und Retry beim Push. Echter Versand nur auf main, Testnachricht überall
+- Begründung: Review Sprint 3. Fallen mehrere verzögerte Cron Läufe aus, käme sonst gar keine Erinnerung. Eine späte Erinnerung ist besser als keine (D022). Eine Erinnerung nach Kickoff ist wertlos
+- Verworfen: feste Untergrenze 15 Minuten
