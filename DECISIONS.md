@@ -181,3 +181,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Laut FAQ der Tippseite gibt es Resultat Tipps nur für das Thursday Night und das Monday Night Game, beide zählen als Tiebreaker. Zuordnung über den Wochentag in America/New_York, bei mehreren Spielen am selben Tag das späteste. Datenvertrag tiebreakers als Liste mit 0 bis 2 Einträgen
 - Begründung: FAQ der Tippseite, vom Nutzer übermittelt. Ersetzt die Annahme "erstes Spiel der Woche"
 - Verworfen: ein einziger Tiebreaker. Ungeprüft bleibt die Regel bei mehreren Spielen am selben Tag
+
+## D026 Abweichungen nach Rückstand pro Restwoche
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt die Schwellen aus D021. Massgebend ist der Rückstand auf den Spieler direkt vor dem Nutzer (Ziel nach D022), geteilt durch die verbleibenden Regular Season Wochen inklusive der aktuellen (18 minus Woche plus 1). Bis 1 Punkt pro Woche: 0 Abweichungen. Bis 2: 1. Darüber: 2. In den letzten 3 Wochen mit über 2 Punkten Rückstand total: 3. In Führung: 0. Postseason: wie letzte 3 Wochen. Tiebreaker Resultat folgt dem getippten Team, bei Abweichung gewinnt der getippte Aussenseiter mit 3 Punkten Vorsprung bei gleichem Total
+- Begründung: Mit D021 hätte die App in Week 9 zwei Abweichungen mit je rund 41 Prozent vorgeschlagen und damit im Schnitt rund 0.35 Punkte verschenkt, obwohl das Ziel Platz 4 bei 6 Punkten Rückstand ohne Risiko erreichbar ist. Ein Resultat Tipp gegen den eigenen Sieger Tipp ist widersprüchlich
+- Verworfen: Rückstand auf Platz 1 als Massstab, feste Schwellen ohne Restlaufzeit
