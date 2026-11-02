@@ -9,6 +9,7 @@
 5. Bei Widerspruch zwischen Auftrag und DECISIONS.md: anhalten und nachfragen, nicht selbst entscheiden.
 6. Vor jedem Merge von main: Merge Ergebnis prüfen. Bei Konflikt in data/ gilt der Stand von main (dort schreibt die Automatik). Nie committen, solange Konfliktmarker existieren (git diff --check).
 7. Tests lesen nie aus data/, nur aus tests/fixtures/ (data/ ändert die Automatik laufend).
+8. Merge nach main (D046): eigene Pull Requests selbst mergen, wenn typecheck, test und build grün und Review und QA bestanden sind, danach Nutzer informieren und Veröffentlichung prüfen. Nachfragen bei Secrets, Kosten, externen Diensten, grösseren Umbauten, Designänderungen, offenen Entscheiden und roten Prüfungen.
 
 ## Ziel
 
