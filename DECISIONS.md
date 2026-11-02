@@ -244,3 +244,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ranglisten Meldung für dieselbe Woche ersetzt den letzten Eintrag (Korrektur), identische Meldung ist Erfolg ohne Änderung, Punkte höchstens 300, nur Owner als Autor und Sender. maxDeviations wird pro Woche beim ersten Lauf eingefroren, eine neue Rangliste wirkt ab der nächsten Woche. Abgesagte Spiele und ab Kickoff plus 7 Tage verschobene oder fehlende Spiele zählen in der Bilanz nicht. Ranglistenverlauf mit seasonType. Alle drei Workflows schreiben mit Retry
 - Begründung: unabhängiger Review und QA Sprint 4
 - Verworfen: Korrektur nur durch Bearbeiten der JSON Datei
+
+## D035 Layout nach Bildschirmform, iPhone Duo
+
+- Datum: 2026-11-02
+- Entscheid: Das Redesign richtet sich nach der Form des Viewports per CSS Media Queries, nicht nach dem Gerätemodell. Drei Layouts: schmal hoch (normales iPhone, eine Spalte, Navigation oben oder unten), flach breit (iPhone Duo zugeklappt, rund 678 mal 466 CSS px: Navigation als Seitenleiste links, Spiele zweispaltig, kompakter Kopf), breit hoch (iPhone Duo aufgeklappt, rund 626 mal 890: drei Übersichtskacheln, Spiele zweispaltig, ganze Woche auf einen Blick). Wechsel beim Auf und Zuklappen ohne Neuladen. Entwürfe im Design Canvas. Umsetzung erst nach Abnahme Week 9. Pixelmasse des Duo aus Drittquellen, ungeprüft
+- Begründung: Safari gibt das iPhone Modell nicht preis. Media Queries greifen sofort beim Wechsel des Zustands und decken auch künftige Geräte ab
+- Verworfen: Erkennung über den User Agent
