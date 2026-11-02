@@ -160,3 +160,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Begründung: 26 Punkte Rückstand auf Platz 1 bei rund 150 verbleibenden Spielen sind über Abweichungen statistisch kaum aufzuholen. Jeder verpasste Tipp kostet dagegen sicher rund 0.6 Punkte
 - Verworfen: aggressive Abweichungen, um Platz 1 zu jagen
 - Datenschutz: Namen der Gruppe werden nie im öffentlichen Repo gespeichert, nur Kürzel
+
+## D023 Tippschluss verifiziert
+
+- Datum: 2026-11-02
+- Entscheid: D016 ist geprüft. Tipps sind pro Spiel bis zum Kickoff änderbar. lockMode bleibt per_kickoff
+- Begründung: vom Nutzer auf der Tippseite verifiziert
+- Folge für D022: Am Donnerstag werden alle Spiele der Woche sofort mit dem Favoriten getippt (Grundtipp), spätere Checks ändern nur noch. Ein vergessener Check kostet so keinen Punkt mehr, nur eine verpasste Korrektur

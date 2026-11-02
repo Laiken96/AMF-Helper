@@ -21,7 +21,7 @@ Das Projekt ist fertig, wenn in einer kompletten Regular Season Woche (Donnersta
 1. Onboarding: Beim ersten Start erklärt die App, dass Erinnerungen per Web Push kommen, dass dies am iPhone nur nach "Zum Home Bildschirm" funktioniert, fragt die Erlaubnis ab und sendet eine Testnachricht. Der Push Status ist jederzeit in den Einstellungen sichtbar und neu auslösbar.
 2. Tippliste: Donnerstag bis 19:00 steht für jedes Spiel der Woche ein Tipp mit Siegwahrscheinlichkeit aus den Quoten, der Lage (klar, Favorit, unklar), markierten Abweichungs Kandidaten und einem Resultatvorschlag für das Tiebreaker Spiel. Dazu kommt ein Push "Tippliste bereit".
 3. Ausfall Wächter: Spätestens 20 Minuten vor jedem Tippschluss (Kickoff Slot) kommt ein Push mit geänderten Ausfällen von Quarterback und Startspielern seit Donnerstag oder mit "keine Änderung". Ändert sich dadurch ein Tipp, ist das in der Tippliste markiert.
-4. Sperre: Jeder Tipp ist ab Tippschluss gesperrt (laut D016 pro Kickoff, ungeprüft) und danach nicht mehr änderbar.
+4. Sperre: Jeder Tipp ist ab Tippschluss gesperrt (pro Kickoff, verifiziert D023) und danach nicht mehr änderbar.
 5. Bilanz: Dienstag zeigt die App die eigenen Punkte der Woche, die Abweichung beim Tiebreaker Resultat, die Punkte der Gruppe (nach Erfassung der Gruppentipps, die erst nach Tippschluss sichtbar sind) und für jede Abweichung, ob sie gegenüber dem Favoriten Tipp einen Punkt gebracht oder gekostet hat. Dazu kommt ein Push "Bilanz bereit".
 6. Zeiten: Alle Zeiten in App und Push stimmen mit Europe/Zurich überein, geprüft an einer Woche mit Sonntagnacht und Montagnacht Spiel.
 
