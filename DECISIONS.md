@@ -188,3 +188,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ersetzt die Schwellen aus D021. Massgebend ist der Rückstand auf den Spieler direkt vor dem Nutzer (Ziel nach D022), geteilt durch die verbleibenden Regular Season Wochen inklusive der aktuellen (18 minus Woche plus 1). Bis 1 Punkt pro Woche: 0 Abweichungen. Bis 2: 1. Darüber: 2. In den letzten 3 Wochen mit über 2 Punkten Rückstand total: 3. In Führung: 0. Postseason: wie letzte 3 Wochen. Tiebreaker Resultat folgt dem getippten Team, bei Abweichung gewinnt der getippte Aussenseiter mit 3 Punkten Vorsprung bei gleichem Total
 - Begründung: Mit D021 hätte die App in Week 9 zwei Abweichungen mit je rund 41 Prozent vorgeschlagen und damit im Schnitt rund 0.35 Punkte verschenkt, obwohl das Ziel Platz 4 bei 6 Punkten Rückstand ohne Risiko erreichbar ist. Ein Resultat Tipp gegen den eigenen Sieger Tipp ist widersprüchlich
 - Verworfen: Rückstand auf Platz 1 als Massstab, feste Schwellen ohne Restlaufzeit
+
+## D027 Review Ergebnisse Sprint 2
+
+- Datum: 2026-11-02
+- Entscheid: Grundtipp ist immer der Favorit vor einer Abweichung. Häkchen "eingetragen" speichert das getippte Team lokal, weicht der aktuelle Tipp ab, warnt die App. Spiele, die beim ersten Lauf schon vorbei sind, heissen "nicht_erfasst" und bekommen keinen Tiebreaker. Der Tipp Job nimmt die Woche aus data/current.json, damit Spielplan und Tipps nie verschiedene Wochen sehen. Beide Jobs laufen im Workflow auch bei Fehler des anderen, der Lauf wird am Ende rot
+- Begründung: unabhängiger Review und QA Sprint 2
+- Verworfen: Häkchen nur als Ja oder Nein ohne Team

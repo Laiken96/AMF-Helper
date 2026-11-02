@@ -1,12 +1,14 @@
 // Datenjob Tippliste: holt das ESPN Scoreboard mit Quoten und schreibt data/tips/<saison>-<typ>-<woche>.json.
 // Liest data/standings.json und die bestehende Tippdatei. Bei Fehler bleibt die Datei unverändert und der Exit Code ist 1.
 // Aufruf: npm run job:tips [-- --season 2026 --type 2 --week 9]
+// Ohne Argumente gilt die Woche aus data/current.json, damit Tipps und Spielplan dieselbe Woche zeigen.
 import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { join, resolve } from "node:path";
 import { z } from "zod";
 import { parseOdds, parseScoreboard, scoreboardUrl } from "../src/core/espn";
 import { buildTipsFile, sameTipsContent } from "../src/core/tips";
+import { CurrentFileSchema } from "../src/core/schema";
 import { StandingsFileSchema, TipsFileSchema, tipsFilePath, type TipsFile } from "../src/core/tips-schema";
 import { DATA_DIR, fetchJson, type MainDeps } from "./fetch-schedule";
 import { parseCliArgs, toJson, writeFiles } from "./schedule-lib";
@@ -43,6 +45,16 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
     return 1;
   }
   const explicit = args.season !== undefined || args.seasonType !== undefined || args.week !== undefined;
+  if (!explicit) {
+    try {
+      const current = CurrentFileSchema.parse(await readJsonStrict(join(dataDir, "current.json")));
+      args = { season: current.season, seasonType: current.seasonType, week: current.week };
+    } catch (err) {
+      const msg = err instanceof z.ZodError ? z.prettifyError(err) : err instanceof Error ? err.message : String(err);
+      error(`data/current.json fehlt oder ist ungültig. ${keep}\n${msg}`);
+      return 1;
+    }
+  }
   const url = scoreboardUrl(args);
   log(`Hole ${url}`);
 

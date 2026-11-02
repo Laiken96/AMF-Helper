@@ -11,6 +11,14 @@ const fixtureText = readFileSync(new URL("./fixtures/espn-scoreboard-2026-w9.jso
 const standingsText = readFileSync(new URL("../data/standings.json", import.meta.url), "utf8");
 const TIPS = "tips/2026-2-09.json";
 const NOW = "2026-11-02T03:00:00Z";
+const CURRENT_W9 = JSON.stringify({
+  schemaVersion: 1,
+  season: 2026,
+  seasonType: 2,
+  week: 9,
+  weekFile: "weeks/2026-2-09.json",
+  updatedAt: NOW,
+});
 
 const respond = (body: string, status = 200): FetchFn => async () => new Response(body, { status });
 
@@ -20,6 +28,7 @@ let urls: string[];
 beforeEach(async () => {
   dir = await mkdtemp(join(tmpdir(), "nfl-tips-"));
   await writeFile(join(dir, "standings.json"), standingsText);
+  await writeFile(join(dir, "current.json"), CURRENT_W9);
   errors = [];
   urls = [];
 });
@@ -54,9 +63,9 @@ describe("build-tips main", () => {
     ]);
   });
 
-  it("ohne Argumente aktuelle Woche, zweiter Lauf schreibt nicht", async () => {
+  it("ohne Argumente Woche aus current.json, zweiter Lauf schreibt nicht", async () => {
     expect(await main([], deps(respond(fixtureText)))).toBe(0);
-    expect(urls[0]).not.toContain("?");
+    expect(urls[0]).toContain("dates=2026&seasontype=2&week=9");
     const first = await read();
     expect(await main([], deps(respond(fixtureText), "2026-11-02T04:00:00Z"))).toBe(0);
     expect(await read()).toBe(first);
@@ -116,6 +125,14 @@ describe("build-tips main", () => {
     const f = TipsFileSchema.parse(JSON.parse(await read()));
     expect(f.tips).toEqual([]);
     expect(f.tiebreakers).toEqual([]);
+  });
+
+  it("fehlende current.json ohne Argumente: Exit 1, kein Abruf", async () => {
+    await rm(join(dir, "current.json"));
+    expect(await main([], deps(respond(fixtureText)))).toBe(1);
+    expect(urls).toEqual([]);
+    expect(errors[0]).toContain("current.json");
+    expect(await main(["--season", "2026", "--type", "2", "--week", "9"], deps(respond(fixtureText)))).toBe(0);
   });
 
   it("ungültige Argumente", async () => {

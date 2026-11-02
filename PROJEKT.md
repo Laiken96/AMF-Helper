@@ -1,7 +1,7 @@
 # NFL Dashboard
 
 Angelegt: 2026-11-02
-Status: Sprint 1 abgenommen am 2026-11-02, Sprint 2 läuft
+Status: Sprint 2 gebaut am 2026-11-02, Abnahme Week 9 offen
 
 ## Problem
 
