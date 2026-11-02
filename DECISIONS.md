@@ -152,3 +152,11 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ergänzt D015. Tippgruppe hat 5 Personen inklusive Nutzer, also 4 Gegner. Anzahl Abweichungs Kandidaten pro Woche hängt vom Rückstand in der Saisonrangliste ab: in Führung 0, bis 2 Punkte Rückstand höchstens 1, mehr Rückstand höchstens 2. Gegen Saisonende mit grossem Rückstand höchstens 3. Status: ungeprüft, Kalibrierung mit den Daten aus Sprint 4
 - Begründung: In einer kleinen Gruppe mit Saisonwertung erhöhen Abweichungen vor allem die Streuung. Das hilft nur, wer zurückliegt. Wer führt, verliert dadurch im Schnitt
 - Verworfen: feste Anzahl Abweichungen pro Woche
+
+## D022 Kein verpasster Tipp hat Vorrang vor Abweichungen
+
+- Datum: 2026-11-02
+- Entscheid: Stand nach Week 8: Nutzer Platz 5 mit 45 Punkten aus 73 Tipps (Quote 62 Prozent, beste der Gruppe), Spitze 71 Punkte aus 117 Tipps. Der Rückstand stammt aus rund 44 nicht abgegebenen Tipps, nicht aus schlechter Qualität. Höchste Priorität hat deshalb, dass kein Tipp mehr fehlt (Push vor jedem Tippschluss, D012). Abweichungen nach D021 bleiben, realistisches Saisonziel ist Platz 4 (6 Punkte Rückstand) mit Favoriten Tipps
+- Begründung: 26 Punkte Rückstand auf Platz 1 bei rund 150 verbleibenden Spielen sind über Abweichungen statistisch kaum aufzuholen. Jeder verpasste Tipp kostet dagegen sicher rund 0.6 Punkte
+- Verworfen: aggressive Abweichungen, um Platz 1 zu jagen
+- Datenschutz: Namen der Gruppe werden nie im öffentlichen Repo gespeichert, nur Kürzel
