@@ -172,8 +172,8 @@ export function tiebreakerFor(
     const spread = Math.abs(odds.spreadHome);
     fav = Math.round((odds.overUnder + spread) / 2);
     dog = Math.max(0, Math.round((odds.overUnder - spread) / 2));
-    // Gerundet darf der Favorit nicht gleichauf oder hinten liegen.
-    if (spread > 0 && fav <= dog) fav = dog + 1;
+    // Gerundet darf der Favorit nicht gleichauf oder hinten liegen, auch bei Pick em nicht.
+    if (fav <= dog) fav = dog + 1;
     basis = "quote";
   }
   let winnerHome = homeFavorite;

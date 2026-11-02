@@ -3,13 +3,14 @@ import type { Game, WeekFile } from "../src/core/schema";
 import {
   buildTipsFile,
   chooseDeviations,
-  deficitToLeader,
   erf,
+  gapToTarget,
   favoriteTip,
   homeWinProbability,
   isLocked,
   maxDeviations,
   normalCdf,
+  remainingWeeks,
   sameTipsContent,
   tiebreakerFor,
   tiebreakerGames,
@@ -68,7 +69,7 @@ function standings(points: Record<string, number>, me = "JA"): StandingsFile {
     players: Object.entries(points).map(([id, p]) => ({ id, points: p })),
   };
 }
-const BEHIND = standings({ MS: 71, JA: 45 }); // 26 Punkte Rückstand, 2 Abweichungen
+const BEHIND = standings({ MS: 71, JA: 45 }); // 26 Punkte Rückstand in Week 9, 2.6 pro Woche ergibt 2 Abweichungen
 const LEADER = standings({ MS: 40, JA: 45 });
 
 describe("Normalverteilung", () => {
@@ -116,22 +117,47 @@ describe("Lage", () => {
   });
 });
 
-describe("maxDeviations nach D021", () => {
-  it("alle Grenzen", () => {
-    expect(maxDeviations(0, 2, 9)).toBe(0);
-    expect(maxDeviations(1, 2, 9)).toBe(1);
-    expect(maxDeviations(2, 2, 9)).toBe(1);
-    expect(maxDeviations(3, 2, 9)).toBe(2);
-    expect(maxDeviations(26, 2, 14)).toBe(2);
-    expect(maxDeviations(26, 2, 15)).toBe(3);
-    expect(maxDeviations(3, 2, 15)).toBe(3);
-    expect(maxDeviations(2, 2, 15)).toBe(1);
-    expect(maxDeviations(0, 2, 18)).toBe(0);
+describe("maxDeviations nach D026", () => {
+  it("Restwochen inklusive aktueller Woche", () => {
+    expect(remainingWeeks(2, 9)).toBe(10);
+    expect(remainingWeeks(2, 18)).toBe(1);
+    expect(remainingWeeks(2, 20)).toBe(1);
+    expect(remainingWeeks(3, 2)).toBe(1);
   });
-  it("Rückstand aus der Rangliste", () => {
-    expect(deficitToLeader(BEHIND)).toBe(26);
-    expect(deficitToLeader(LEADER)).toBe(0);
-    expect(() => deficitToLeader(standings({ MS: 1 }))).toThrow("JA");
+  it("Grenzen Rückstand pro Restwoche bei 10 Restwochen", () => {
+    expect(maxDeviations(0, 2, 9)).toBe(0);
+    expect(maxDeviations(10, 2, 9)).toBe(0); // 1.0
+    expect(maxDeviations(11, 2, 9)).toBe(1); // 1.1
+    expect(maxDeviations(20, 2, 9)).toBe(1); // 2.0
+    expect(maxDeviations(21, 2, 9)).toBe(2); // 2.1
+  });
+  it("letzte 3 Wochen mit über 2 Punkten Rückstand ergibt 3", () => {
+    expect(maxDeviations(3, 2, 16)).toBe(3);
+    expect(maxDeviations(3, 2, 15)).toBe(0); // 4 Restwochen, 0.75 pro Woche
+    expect(maxDeviations(5, 2, 15)).toBe(1); // 4 Restwochen, 1.25 pro Woche
+  });
+  it("Saisonende Grenzen", () => {
+    expect(maxDeviations(2, 2, 16)).toBe(0); // 3 Restwochen, 0.67 pro Woche
+    expect(maxDeviations(2, 2, 18)).toBe(1); // 1 Restwoche, 2.0 pro Woche
+    expect(maxDeviations(1, 2, 18)).toBe(0);
+    expect(maxDeviations(3, 2, 18)).toBe(3);
+  });
+  it("Postseason wie letzte 3 Wochen", () => {
+    expect(maxDeviations(3, 3, 1)).toBe(3);
+    expect(maxDeviations(2, 3, 1)).toBe(1);
+    expect(maxDeviations(0, 3, 1)).toBe(0);
+  });
+  it("heutiger Stand: JA 45, Ziel CZ 51, Week 9 ergibt 0", () => {
+    const today = standings({ MS: 71, LM: 69, DH: 68, CZ: 51, JA: 45 });
+    expect(gapToTarget(today)).toBe(6);
+    expect(maxDeviations(gapToTarget(today), 2, 9)).toBe(0);
+  });
+  it("Ziel ist der Spieler direkt vor mir", () => {
+    expect(gapToTarget(BEHIND)).toBe(26);
+    expect(gapToTarget(LEADER)).toBe(0);
+    expect(gapToTarget(standings({ MS: 50, JA: 50 }))).toBe(0);
+    expect(gapToTarget(standings({ MS: 60, LM: 52, DH: 52, JA: 50 }))).toBe(2);
+    expect(() => gapToTarget(standings({ MS: 1 }))).toThrow("JA");
   });
 });
 
@@ -197,6 +223,17 @@ describe("Tiebreaker", () => {
   it("Favorit liegt nach Rundung nie gleichauf", () => {
     const tb = tiebreakerFor(g, odds(-0.5, 40), "monday");
     expect(tb.homePoints).toBeGreaterThan(tb.awayPoints);
+  });
+  it("Abweichung: getippter Aussenseiter gewinnt mit 3 Punkten bei gleichem Total", () => {
+    const tb = tiebreakerFor(g, odds(2.5, 46.5), "monday", { pickTeamId: "h1", deviation: true });
+    expect(tb).toMatchObject({ homePoints: 25, awayPoints: 22, basis: "quote" });
+    const std = tiebreakerFor(g, odds(-3, null), "monday", { pickTeamId: "a1", deviation: true });
+    expect(std).toMatchObject({ homePoints: 20, awayPoints: 23, basis: "standard" });
+    const even = tiebreakerFor(g, odds(-3, 44), "monday", { pickTeamId: "a1", deviation: true });
+    expect(even.awayPoints - even.homePoints).toBe(3);
+  });
+  it("ohne Abweichung folgt der Sieger dem Tipp wie dem Favoriten", () => {
+    expect(tiebreakerFor(g, odds(0, 40), "monday", { pickTeamId: "h1", deviation: false })).toMatchObject({ homePoints: 21, awayPoints: 20 });
   });
   it("ohne Over/Under 23 zu 20 für den Favoriten", () => {
     expect(tiebreakerFor(g, odds(3, null), "thursday")).toMatchObject({ homePoints: 20, awayPoints: 23, basis: "standard" });
@@ -292,6 +329,8 @@ describe("buildTipsFile", () => {
     expect(by.b!.firstPickTeamId).toBe("ab");
     expect(f.tiebreakers.map((t) => t.slot)).toEqual(["thursday", "monday"]);
     expect(f.tiebreakers[0]).toMatchObject({ gameId: "thu", homePoints: 18, awayPoints: 26 });
+    // Montagsspiel ist Abweichung: getipptes Heimteam gewinnt 25 zu 22
+    expect(f.tiebreakers[1]).toMatchObject({ gameId: "mon", homePoints: 25, awayPoints: 22 });
   });
 
   it("ohne Rückstand keine Abweichung", () => {

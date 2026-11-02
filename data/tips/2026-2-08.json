@@ -3,8 +3,8 @@
   "season": 2026,
   "seasonType": 2,
   "week": 8,
-  "updatedAt": "2026-11-02T02:53:57Z",
-  "maxDeviations": 2,
+  "updatedAt": "2026-11-02T02:56:31Z",
+  "maxDeviations": 0,
   "tips": [
     {
       "gameId": "401873023",
@@ -18,7 +18,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873024",
@@ -32,7 +32,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873025",
@@ -46,7 +46,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873026",
@@ -60,7 +60,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873027",
@@ -74,7 +74,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873028",
@@ -88,7 +88,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873029",
@@ -102,7 +102,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873030",
@@ -116,7 +116,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873031",
@@ -130,7 +130,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873032",
@@ -144,7 +144,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873033",
@@ -158,7 +158,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873034",
@@ -172,7 +172,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873035",
@@ -186,7 +186,7 @@
       "firstPickTeamId": null,
       "changedSinceFirst": false,
       "locked": true,
-      "lockedAt": "2026-11-02T02:53:57Z"
+      "lockedAt": "2026-11-02T02:56:31Z"
     },
     {
       "gameId": "401873036",
@@ -195,14 +195,14 @@
         "provider": "DraftKings",
         "spreadHome": -3,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-02T02:53:57Z"
+        "fetchedAt": "2026-11-02T02:56:31Z"
       },
       "pHome": 0.5879,
-      "pickTeamId": "3",
-      "pickProb": 0.4121,
+      "pickTeamId": "26",
+      "pickProb": 0.5879,
       "level": "unklar",
-      "deviation": true,
-      "firstPickTeamId": "3",
+      "deviation": false,
+      "firstPickTeamId": "26",
       "changedSinceFirst": false,
       "locked": false,
       "lockedAt": null
