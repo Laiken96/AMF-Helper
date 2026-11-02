@@ -167,3 +167,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: D016 ist geprüft. Tipps sind pro Spiel bis zum Kickoff änderbar. lockMode bleibt per_kickoff
 - Begründung: vom Nutzer auf der Tippseite verifiziert
 - Folge für D022: Am Donnerstag werden alle Spiele der Woche sofort mit dem Favoriten getippt (Grundtipp), spätere Checks ändern nur noch. Ein vergessener Check kostet so keinen Punkt mehr, nur eine verpasste Korrektur
+
+## D024 Quoten aus ESPN statt The Odds API
+
+- Datum: 2026-11-02
+- Entscheid: Ändert D002 und D009. Siegwahrscheinlichkeit aus dem Spread im ESPN Scoreboard (Anbieter DraftKings) über Normalverteilung mit Standardabweichung 13.5 Punkte. Tiebreaker Resultat aus Over/Under und Spread. The Odds API erst, wenn ESPN Quoten fehlen oder unzuverlässig sind
+- Begründung: ESPN liefert Spread und Over/Under gratis im bereits genutzten Abruf (am 2026-11-02 für Week 9 geprüft). Kein weiteres Konto, kein Key
+- Verworfen: The Odds API in Sprint 2 (Konto und Key nötig, Mehrwert eines zweiten Buchmachers gering)

@@ -62,7 +62,7 @@ R7  Vergleich 3 Spiele mit der ESPN App
     Vorbedingung: Pages URL zeigt die aktuelle Woche, ESPN App am Handy auf Schweizer Zeitzone.
     Schritt: Drei Spiele aus verschiedenen Slots (Donnerstag, Sonntag früh, Sonntagnacht oder Montag) in beiden Apps vergleichen.
     Erwartet: Teams, Datum und Kickoff Zeit stimmen exakt überein.
-    Status: offen Nutzer
+    Status: bestanden durch Nutzer 2026-11-02
 
 R8  Job mit expliziter Woche
     Vorbedingung: current.json zeigt auf die aktuelle Woche.
