@@ -11,6 +11,7 @@ export const PLAYER_IDS = ["MS", "LM", "DH", "CZ", "JA"] as const;
 /** Label im Formular je Feld id. Muss mit dem Template übereinstimmen. */
 export const FIELD_LABELS = {
   season: "Saison",
+  seasonType: "Saisontyp",
   week: "Woche",
   MS: "MS",
   LM: "LM",
@@ -44,8 +45,22 @@ export function parseCount(value: string | undefined): number | null {
   return Number.isSafeInteger(n) ? n : null;
 }
 
+/** Dropdown Wert "Regular (2)" oder "Postseason (3)". Leer gilt als Regular Season, wie im Formular vorbelegt. */
+export function parseSeasonType(value: string | undefined): number | null {
+  const v = (value ?? "").trim();
+  if (v === "" || v === NO_RESPONSE) return 2;
+  const digit = /\((\d)\)\s*$/.exec(v)?.[1] ?? (/^\d$/.test(v) ? v : null);
+  const word = /^regular/i.test(v) ? "2" : /^postseason/i.test(v) ? "3" : null;
+  if (digit !== null && word !== null && digit !== word) return null;
+  const t = digit ?? word;
+  if (t === "2") return 2;
+  if (t === "3") return 3;
+  return null;
+}
+
 export interface StandingsReport {
   season: number;
+  seasonType: number;
   week: number;
   players: Array<{ id: string; points: number }>;
 }
@@ -66,12 +81,14 @@ export function parseReportBody(body: string): ParseReportResult {
     return n;
   };
   const season = need(FIELD_LABELS.season);
+  const seasonType = parseSeasonType(sections.get(FIELD_LABELS.seasonType));
+  if (seasonType === null) errors.push(`${FIELD_LABELS.seasonType}: nur Regular (2) oder Postseason (3)`);
   const week = need(FIELD_LABELS.week);
   const players = PLAYER_IDS.map((id) => ({ id, points: need(FIELD_LABELS[id]) }));
   if (season !== null && (season < 2000 || season > 2100)) errors.push(`Saison ${season} ist unplausibel`);
   if (week !== null && (week < 1 || week > 23)) errors.push(`Woche ${week} muss zwischen 1 und 23 liegen`);
-  if (errors.length > 0 || season === null || week === null) return { ok: false, errors };
-  return { ok: true, report: { season, week, players: players.map((p) => ({ id: p.id, points: p.points! })) } };
+  if (errors.length > 0 || season === null || week === null || seasonType === null) return { ok: false, errors };
+  return { ok: true, report: { season, seasonType, week, players: players.map((p) => ({ id: p.id, points: p.points! })) } };
 }
 
 export interface IssueEventInfo {
@@ -80,9 +97,13 @@ export interface IssueEventInfo {
   state: string | null;
   body: string;
   number: number | null;
+  senderLogin: string | null;
+  ownerLogin: string | null;
 }
 
 const IssueEventSchema = z.looseObject({
+  sender: z.looseObject({ login: z.string().optional() }).optional(),
+  repository: z.looseObject({ owner: z.looseObject({ login: z.string().optional() }).optional() }).optional(),
   issue: z.looseObject({
     number: z.number().int().optional(),
     state: z.string().optional(),
@@ -103,23 +124,41 @@ export function issueInfo(event: unknown): IssueEventInfo | null {
     state: i.state ?? null,
     body: i.body ?? "",
     number: i.number ?? null,
+    senderLogin: parsed.data.sender?.login ?? null,
+    ownerLogin: parsed.data.repository?.owner?.login ?? null,
   };
 }
 
 /** Nur Issues des Repo Owners mit Label rangliste werden übernommen. */
 export function authorizedReport(info: IssueEventInfo): string | null {
   if (info.authorAssociation !== OWNER_ASSOCIATION) return `Autor ist nicht der Repo Owner (${info.authorAssociation ?? "unbekannt"})`;
+  if (info.senderLogin === null || info.senderLogin !== info.ownerLogin) {
+    return `Auslöser ${info.senderLogin ?? "unbekannt"} ist nicht der Repo Owner`;
+  }
   if (!info.labels.includes(STANDINGS_LABEL)) return `Label ${STANDINGS_LABEL} fehlt`;
   return null;
 }
 
 export type ApplyResult =
-  | { ok: true; standings: StandingsFile; history: StandingsHistory }
+  | { ok: true; unchanged: boolean; replaced: boolean; standings: StandingsFile; history: StandingsHistory }
   | { ok: false; errors: string[] };
+
+type Entry = StandingsHistory["entries"][number];
+
+/** Reihenfolge innerhalb einer Saison: erst Saisontyp, dann Woche. */
+const order = (e: { seasonType: number; week: number }) => e.seasonType * 100 + e.week;
+const weekName = (e: { seasonType: number; week: number }) => `${e.seasonType === 3 ? "Postseason " : ""}Week ${e.week}`;
+
+function samePlayers(a: Entry["players"], b: Entry["players"]): boolean {
+  const key = (ps: Entry["players"]) => JSON.stringify([...ps].sort((x, y) => x.id.localeCompare(y.id)));
+  return key(a) === key(b);
+}
 
 /**
  * Prüft die Meldung gegen den letzten Stand und liefert die neuen Dateien.
- * In derselben Saison muss die Woche grösser sein als die letzte und kein Punktestand darf sinken.
+ * Neue Woche: grösser als die letzte, kein Punktestand sinkt gegenüber der letzten.
+ * Gleiche Woche wie die letzte: ersetzt sie als Korrektur, geprüft gegen den Eintrag davor.
+ * Frühere Woche: abgelehnt. Identische Meldung: Erfolg ohne Änderung.
  */
 export function applyReport(
   report: StandingsReport,
@@ -132,23 +171,39 @@ export function applyReport(
   for (const id of PLAYER_IDS) if (!known.has(id)) errors.push(`Kürzel ${id} fehlt in data/standings.json`);
   for (const id of known) if (!(PLAYER_IDS as readonly string[]).includes(id)) errors.push(`Kürzel ${id} fehlt im Formular`);
 
-  const sameSeason = history.entries.filter((e) => e.season === report.season);
-  const later = history.entries.filter((e) => e.season > report.season);
-  if (later.length > 0) errors.push(`Saison ${report.season} liegt vor der zuletzt gemeldeten Saison`);
-  const last = sameSeason.reduce<(typeof sameSeason)[number] | null>((a, e) => (a === null || e.week > a.week ? e : a), null);
-  if (last && report.week <= last.week) {
-    errors.push(`Woche ${report.week} ist nicht grösser als die zuletzt gemeldete Week ${last.week}`);
+  if (history.entries.some((e) => e.season > report.season)) {
+    errors.push(`Saison ${report.season} liegt vor der zuletzt gemeldeten Saison`);
   }
-  if (last) {
-    const before = new Map(last.players.map((p) => [p.id, p.points]));
+  const sameSeason = history.entries.filter((e) => e.season === report.season).sort((a, b) => order(a) - order(b));
+  const last = sameSeason.at(-1) ?? null;
+  const replaced = last !== null && order(last) === order(report);
+  if (last && replaced && samePlayers(last.players, report.players) && errors.length === 0) {
+    return { ok: true, unchanged: true, replaced: false, standings, history };
+  }
+  if (last && order(report) < order(last)) {
+    errors.push(
+      `${weekName(report)} liegt vor der zuletzt gemeldeten ${weekName(last)}. ` +
+        `Korrekturen gehen nur für die letzte Woche: ${weekName(last)} nochmals mit allen Werten melden`,
+    );
+  }
+  const base = replaced ? (sameSeason.at(-2) ?? null) : last;
+  if (base && errors.length === 0) {
+    const before = new Map(base.players.map((p) => [p.id, p.points]));
     for (const p of report.players) {
       const b = before.get(p.id);
-      if (b !== undefined && p.points < b) errors.push(`${p.id}: ${p.points} Punkte ist weniger als ${b} in Week ${last.week}`);
+      if (b !== undefined && p.points < b) {
+        errors.push(
+          `${p.id}: ${p.points} Punkte ist weniger als ${b} in ${weekName(base)}. ` +
+            `Ist ${weekName(base)} falsch, zuerst ${weekName(base)} nochmals korrekt melden`,
+        );
+      }
     }
   }
   if (errors.length > 0) return { ok: false, errors };
 
   const players = [...report.players].sort((a, b) => b.points - a.points);
+  const entry: Entry = { season: report.season, seasonType: report.seasonType, week: report.week, reportedAt: now, players };
+  const kept = history.entries.filter((e) => !(e.season === report.season && order(e) === order(report)));
   const nextStandings = StandingsFileSchema.parse({
     schemaVersion: standings.schemaVersion,
     asOfWeek: report.week,
@@ -158,23 +213,28 @@ export function applyReport(
   });
   const nextHistory = StandingsHistorySchema.parse({
     schemaVersion: REVIEW_SCHEMA_VERSION,
-    entries: [...history.entries, { season: report.season, week: report.week, reportedAt: now, players }].sort(
-      (a, b) => a.season - b.season || a.week - b.week,
-    ),
+    entries: [...kept, entry].sort((a, b) => a.season - b.season || order(a) - order(b)),
   });
-  return { ok: true, standings: nextStandings, history: nextHistory };
+  return { ok: true, unchanged: false, replaced, standings: nextStandings, history: nextHistory };
 }
 
-/** Wochenpunkte der Gruppe: Differenz zur Vorwoche derselben Saison, null ohne Vorwoche. */
-export function weeklyPoints(history: StandingsHistory, season: number, week: number): Array<{ id: string; points: number | null }> | null {
-  const entry = history.entries.find((e) => e.season === season && e.week === week);
+export interface GroupWeekRow {
+  id: string;
+  total: number;
+  week: number | null; // Wochenpunkte, null wenn die Vorwoche nicht gemeldet ist
+}
+
+/**
+ * Wochenpunkte der Gruppe: Stand der Woche minus Stand von genau week minus 1 im selben Saisontyp.
+ * Week 1 der Regular Season zählt ab 0. Sonst ohne Vorwoche null. Ohne Eintrag der Woche null.
+ */
+export function groupWeekRows(history: StandingsHistory, season: number, seasonType: number, week: number): GroupWeekRow[] | null {
+  const match = (e: Entry, w: number) => e.season === season && e.seasonType === seasonType && e.week === w;
+  const entry = history.entries.find((e) => match(e, week));
   if (!entry) return null;
-  const prev = history.entries
-    .filter((e) => e.season === season && e.week < week)
-    .reduce<(typeof history.entries)[number] | null>((a, e) => (a === null || e.week > a.week ? e : a), null);
-  const before = new Map(prev?.players.map((p) => [p.id, p.points]) ?? []);
+  const prev = history.entries.find((e) => match(e, week - 1));
   return entry.players.map((p) => {
-    const b = before.get(p.id);
-    return { id: p.id, points: b === undefined ? null : p.points - b };
+    const before = week === 1 && seasonType === 2 ? 0 : prev?.players.find((q) => q.id === p.id)?.points;
+    return { id: p.id, total: p.points, week: before === undefined ? null : p.points - before };
   });
 }

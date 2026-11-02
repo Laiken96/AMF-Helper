@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
+import { groupWeekRows } from "../core/standings";
 import { LoadError, loadReviewData, loadReviewIndex, type ReviewData } from "./data";
 import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
 
@@ -214,25 +215,8 @@ function DeviationLine({ game, team }: { game: GameReview; team: (id: string) =>
   );
 }
 
-interface GroupRow {
-  id: string;
-  total: number;
-  week: number | null;
-}
-
-/** Wochenpunkte = Stand der Woche minus Stand der Vorwoche. Week 1 zählt ab 0. */
-function groupWeekRows(history: StandingsHistory, season: number, week: number): GroupRow[] | null {
-  const entry = history.entries.find((e) => e.season === season && e.week === week);
-  if (!entry) return null;
-  const prev = history.entries.find((e) => e.season === season && e.week === week - 1);
-  return entry.players.map((p) => {
-    const before = week === 1 ? 0 : prev?.players.find((q) => q.id === p.id)?.points;
-    return { id: p.id, total: p.points, week: before === undefined ? null : p.points - before };
-  });
-}
-
 function GroupWeek({ history, review, me }: { history: StandingsHistory; review: ReviewFile; me: string }) {
-  const rows = groupWeekRows(history, review.season, review.week);
+  const rows = groupWeekRows(history, review.season, review.seasonType, review.week);
   if (!rows) {
     return (
       <section className="slot">
@@ -275,11 +259,13 @@ function GroupWeek({ history, review, me }: { history: StandingsHistory; review:
 }
 
 function SeasonTable({ history, season, me }: { history: StandingsHistory; season: number; me: string }) {
-  const entries = history.entries.filter((e) => e.season === season).sort((a, b) => a.week - b.week);
+  const entries = history.entries
+    .filter((e) => e.season === season)
+    .sort((a, b) => a.seasonType - b.seasonType || a.week - b.week);
   if (entries.length === 0) return null;
   const latest = entries[entries.length - 1]!;
   const ids = [...latest.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id)).map((p) => p.id);
-  const anyMissing = entries.some((e) => groupWeekRows(history, season, e.week)?.some((r) => r.week === null));
+  const anyMissing = entries.some((e) => groupWeekRows(history, season, e.seasonType, e.week)?.some((r) => r.week === null));
   return (
     <section className="slot">
       <h2>Saisonverlauf {season}</h2>
@@ -297,10 +283,10 @@ function SeasonTable({ history, season, me }: { history: StandingsHistory; seaso
           </thead>
           <tbody>
             {entries.map((e) => {
-              const rows = groupWeekRows(history, season, e.week) ?? [];
+              const rows = groupWeekRows(history, season, e.seasonType, e.week) ?? [];
               return (
-                <tr key={e.week}>
-                  <th scope="row">{e.week}</th>
+                <tr key={`${e.seasonType}-${e.week}`}>
+                  <th scope="row">{e.seasonType === 3 ? `P${e.week}` : e.week}</th>
                   {ids.map((id) => (
                     <td key={id} className={id === me ? "me" : undefined}>
                       {rows.find((r) => r.id === id)?.week ?? "?"}

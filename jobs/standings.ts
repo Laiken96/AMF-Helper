@@ -1,7 +1,7 @@
 // Ranglisten Job (D032): liest das Issue aus der Event Datei (GITHUB_EVENT_PATH), prüft Autor, Label und Werte
 // und schreibt data/standings.json und data/standings-history.json. Der Body wird nie über die Shell weitergereicht.
 // Den Text für den Issue Kommentar schreibt der Job nach COMMENT_FILE, der Workflow postet ihn.
-// Exit 0: übernommen. Exit 1: abgelehnt oder Fehler, Dateien unverändert.
+// Exit 0: übernommen, korrigiert oder identisch schon vorhanden. Exit 1: abgelehnt oder Fehler, Dateien unverändert.
 // Aufruf in Actions: npm run job:standings
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -34,7 +34,10 @@ export async function main(argv: readonly string[], deps: StandingsDeps = {}): P
     if (env.COMMENT_FILE) await writeFile(env.COMMENT_FILE, `${text}\n`, "utf8");
   };
   const reject = async (reasons: string[]) => {
-    const text = `Rangliste nicht übernommen, Issue bleibt offen.\n\n${reasons.map((r) => `- ${r}`).join("\n")}\n\nBitte das Issue bearbeiten, dann läuft die Prüfung erneut.`;
+    const text =
+      `Rangliste nicht übernommen, Issue bleibt offen.\n\n${reasons.map((r) => `- ${r}`).join("\n")}\n\n` +
+      "Korrigieren: dieses Issue bearbeiten, dann läuft die Prüfung erneut. " +
+      "Ein Tippfehler in der zuletzt gemeldeten Woche wird korrigiert, indem man dieselbe Woche nochmals mit allen Werten meldet.";
     error(text);
     await comment(text);
     return 1;
@@ -83,15 +86,22 @@ export async function main(argv: readonly string[], deps: StandingsDeps = {}): P
 
   const applied = applyReport(parsed.report, standings, history, now);
   if (!applied.ok) return reject(applied.errors);
+  const { season, seasonType, week } = parsed.report;
+  const name = `${season} ${seasonType === 3 ? "Postseason " : ""}Week ${week}`;
+  if (applied.unchanged) {
+    log(`Rangliste ${name} ist schon so übernommen, keine Änderung.`);
+    await comment(`Rangliste ${name} ist schon so übernommen, keine Änderung.`);
+    return 0;
+  }
 
   await writeFiles(dataDir, [
     { path: STANDINGS_PATH, content: toJson(applied.standings) },
     { path: HISTORY_PATH, content: toJson(applied.history) },
   ]);
-  const { season, week } = parsed.report;
   const list = applied.standings.players.map((p) => `${p.id} ${p.points}`).join(", ");
-  log(`Rangliste ${season} Week ${week} übernommen: ${list}`);
-  await comment(`Rangliste ${season} Week ${week} übernommen: ${list}. Die App zeigt sie nach dem nächsten Pages Build.`);
+  const what = applied.replaced ? "korrigiert" : "übernommen";
+  log(`Rangliste ${name} ${what}: ${list}`);
+  await comment(`Rangliste ${name} ${what}: ${list}. Die App zeigt sie nach dem nächsten Pages Build.`);
   return 0;
 }
 

@@ -46,6 +46,7 @@ export const StandingsHistorySchema = z.object({
   entries: z.array(
     z.object({
       season: z.number().int(),
+      seasonType: z.number().int().min(1).max(3).default(2), // fehlt in alten Einträgen, dann Regular Season
       week: z.number().int(), // Stand nach dieser Woche
       reportedAt: z.string().datetime(),
       players: z.array(z.object({ id: z.string().regex(/^[A-Z]{2,3}$/), points: z.number().int().min(0) })),

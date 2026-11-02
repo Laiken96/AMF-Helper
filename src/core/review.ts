@@ -17,9 +17,23 @@ export function winnerOf(game: Game | undefined): string | null {
   return game.homeScore > game.awayScore ? game.homeId : game.awayId;
 }
 
-/** Spiel ist entschieden: final oder abgesagt. Abgesagte Spiele blockieren die Bilanz nicht. */
-function settled(game: Game | undefined): boolean {
-  return game !== undefined && (game.status === "final" || game.status === "canceled");
+export const VOID_AFTER_DAYS = 7;
+
+/**
+ * Spiel fällt aus der Wertung: abgesagt, oder verschoben bzw. ohne Daten ab Kickoff plus 7 Tage.
+ * Solche Spiele bringen keinen Punkt und zählen nicht in tipped.
+ */
+export function isVoid(game: Game | undefined, kickoffUtc: string, now: string): boolean {
+  if (game?.status === "canceled") return true;
+  if (game !== undefined && game.status !== "postponed") return false;
+  const kickoff = Date.parse(game?.kickoffUtc ?? kickoffUtc);
+  return Date.parse(now) >= kickoff + VOID_AFTER_DAYS * 86_400_000;
+}
+
+/** Spiel ist erledigt: final mit Spielstand oder aus der Wertung gefallen. */
+function settled(game: Game | undefined, kickoffUtc: string, now: string): boolean {
+  if (game?.status === "final" && game.homeScore !== null && game.awayScore !== null) return true;
+  return isVoid(game, kickoffUtc, now);
 }
 
 /**
@@ -59,6 +73,7 @@ export function tiebreakerDiff(predHome: number, predAway: number, actHome: numb
 export function buildReview(tips: TipsFile, games: readonly Game[], now: string): ReviewFile {
   const byId = new Map(games.map((g) => [g.id, g]));
   const reviews = tips.tips.map((t) => reviewGame(t, byId.get(t.gameId)));
+  const voided = new Set(tips.tips.filter((t) => isVoid(byId.get(t.gameId), t.kickoffUtc, now)).map((t) => t.gameId));
   const tiebreakers = tips.tiebreakers.map((tb) => {
     const g = byId.get(tb.gameId);
     const final = g?.status === "final" && g.homeScore !== null && g.awayScore !== null;
@@ -80,10 +95,10 @@ export function buildReview(tips: TipsFile, games: readonly Game[], now: string)
     seasonType: tips.seasonType,
     week: tips.week,
     updatedAt: now,
-    complete: tips.tips.length > 0 && tips.tips.every((t) => settled(byId.get(t.gameId))),
+    complete: tips.tips.length > 0 && tips.tips.every((t) => settled(byId.get(t.gameId), t.kickoffUtc, now)),
     games: reviews,
     points: reviews.filter((r) => r.correct === true).length,
-    tipped: reviews.filter((r) => r.pickTeamId !== null).length,
+    tipped: reviews.filter((r) => r.pickTeamId !== null && !voided.has(r.gameId)).length,
     deviationNet: reviews.reduce((s, r) => s + (r.deviationEffect ?? 0), 0),
     tiebreakers,
   });

@@ -22,6 +22,7 @@ jobs:
   standings:
     if: >-
       github.event.issue.author_association == 'OWNER' &&
+      github.event.sender.login == github.repository_owner &&
       github.event.issue.state == 'open' &&
       contains(github.event.issue.labels.*.name, 'rangliste')
     runs-on: ubuntu-latest
@@ -71,15 +72,27 @@ jobs:
           echo "Push nach 3 Versuchen fehlgeschlagen"
           exit 1
 
+      # Status live lesen, das Event kann veraltet sein. Auf geschlossenen Issues kein Kommentar.
+      - name: Issue Status lesen
+        id: state
+        if: always()
+        run: echo "state=$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" --jq .state)" >> "$GITHUB_OUTPUT"
+
       - name: Issue kommentieren und schliessen
-        if: steps.apply.outcome == 'success' && steps.commit.outcome == 'success'
+        if: steps.apply.outcome == 'success' && steps.commit.outcome == 'success' && steps.state.outputs.state == 'open'
         run: |
           gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$COMMENT_FILE"
           gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --reason completed
 
       - name: Fehler im Issue melden
-        if: steps.apply.outcome == 'failure' || steps.commit.outcome == 'failure'
+        if: always() && (steps.apply.outcome == 'failure' || steps.commit.outcome == 'failure')
+        env:
+          ISSUE_STATE: ${{ steps.state.outputs.state }}
         run: |
+          if [ "$ISSUE_STATE" != "open" ]; then
+            echo "Issue ist $ISSUE_STATE, kein Fehlerkommentar"
+            exit 1
+          fi
           if [ "${{ steps.commit.outcome }}" = "failure" ]; then
             printf 'Rangliste geprüft, aber der Commit ist fehlgeschlagen. Issue bleibt offen. Bitte das Issue erneut speichern.\n' > "$COMMENT_FILE"
           fi
