@@ -5,7 +5,8 @@ import { z } from "zod";
 // Version 2 (D050): Feld firstOdds pro Tipp für die Linienbewegung. Version 1 bleibt lesbar, das Feld ist optional.
 export const TIPS_SCHEMA_VERSION = 2 as const;
 /** Die Rangliste hat ihre eigene Version und bleibt bei 1. */
-export const STANDINGS_SCHEMA_VERSION = 2 as const; // 2 ergänzt season, Version 1 bleibt lesbar
+/** Version von data/standings.json. 2 ergänzt season (Saison der Rangliste), Version 1 ohne season bleibt lesbar. */
+export const STANDINGS_SCHEMA_VERSION = 2 as const;
 
 /** Quote eines Spiels aus ESPN (D024). spreadHome negativ heisst Heimteam favorisiert. */
 export const OddsSchema = z.object({
@@ -62,7 +63,7 @@ export const TipsFileSchema = z.object({
 });
 export type TipsFile = z.infer<typeof TipsFileSchema>;
 
-/** Ranglistenstand, manuell gepflegt bis Sprint 4. Nur Kürzel, nie Namen (D022). */
+/** Ranglistenstand aus der Meldung per Issue Formular (D032, jobs/standings.ts). Nur Kürzel, nie Namen (D022). */
 export const StandingsFileSchema = z.object({
   schemaVersion: z.union([z.literal(1), z.literal(STANDINGS_SCHEMA_VERSION)]),
   season: z.number().int().optional(), // fehlt in Version 1

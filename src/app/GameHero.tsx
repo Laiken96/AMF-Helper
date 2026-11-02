@@ -6,6 +6,7 @@ import { formatKickoffZurich } from "../core/time";
 import { shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
 import { periodText, type LiveGame } from "./live";
+import { Spoken } from "./ui";
 import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
 
@@ -348,7 +349,7 @@ export function GameHero({
               {second && (
                 <>
                   {" · "}
-                  {second.label} <span aria-label={second.aria}>{second.value}</span>
+                  {second.label} {second.aria ? <Spoken shown={second.value} spoken={second.aria} /> : <span>{second.value}</span>}
                 </>
               )}
             </span>
@@ -386,9 +387,11 @@ export function GameHero({
       {second && (
         <div>
           <span className="hero-label">{second.label}</span>
-          <span className="hero-value" aria-label={second.aria}>
-            {second.value}
-          </span>
+          {second.aria ? (
+            <Spoken className="hero-value" shown={second.value} spoken={second.aria} />
+          ) : (
+            <span className="hero-value">{second.value}</span>
+          )}
         </div>
       )}
     </div>

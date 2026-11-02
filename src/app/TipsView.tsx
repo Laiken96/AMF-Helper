@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
+import { standingsAppliesTo } from "../core/standings";
 import { tiebreakerGames } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
@@ -21,7 +22,7 @@ import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type He
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { LoadErrorNotice, PageHeader, Segmented, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Segmented, Spoken, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, deviationReason, formatStand, scoreAria, scoreText, spreadText } from "./wording";
 
 const LEVEL_TEXT: Record<GameTip["level"], string> = {
@@ -342,13 +343,15 @@ function TipsList({
   const isDefault = !selectedRow || selectedRow.gameId === defaultId;
   const homeLabel = mode === "offen" ? "Zum nächsten Tippschluss" : mode === "folgt" ? "Zum ersten Spiel" : "Zum letzten Spiel";
 
-  // Rückstand auf Platz 1 für die Begründung einer Abweichung (Ziel Platz 1, D028)
+  // Rückstand auf Platz 1 für die Begründung einer Abweichung (Ziel Platz 1, D028). Eine Rangliste aus einer
+  // anderen Saison gilt nicht (D051), dann ohne Rückstand in der Begründung.
   const gap = useMemo(() => {
+    if (!standingsAppliesTo(data.standings, data.ref.season)) return null;
     const players = data.standings.players;
     const mine = players.find((p) => p.id === data.standings.me);
     if (!mine || players.length === 0) return null;
     return Math.max(0, Math.max(...players.map((p) => p.points)) - mine.points);
-  }, [data.standings]);
+  }, [data.standings, data.ref.season]);
   const deviationNoteOf = (tip: GameTip | undefined, game: Game | undefined): string | null => {
     if (!tip || !game || !tip.deviation || !tip.pickTeamId) return null;
     const pick = team(tip.pickTeamId);
@@ -484,7 +487,11 @@ function TipsList({
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} open={mode === "folgt"} />
-      <StandingsBox standings={data.standings} maxDeviations={mode === "folgt" ? null : tips.maxDeviations} />
+      <StandingsBox
+        standings={data.standings}
+        season={data.ref.season}
+        maxDeviations={mode === "folgt" ? null : tips.maxDeviations}
+      />
     </div>
   );
   const pct = countable.length > 0 ? Math.round((doneCount / countable.length) * 100) : 0;
@@ -677,7 +684,7 @@ function TiebreakerBox({
                 {open ? (
                   game ? "@" : "Resultat offen"
                 ) : (
-                  <span aria-label={scoreAria(tb.awayPoints, tb.homePoints)}>{scoreText(tb.awayPoints, tb.homePoints)}</span>
+                  <Spoken shown={scoreText(tb.awayPoints, tb.homePoints)} spoken={scoreAria(tb.awayPoints, tb.homePoints)} />
                 )}
                 {game && ` ${team(game.homeId).abbr}`}
               </span>
@@ -693,26 +700,45 @@ function TiebreakerBox({
   );
 }
 
-function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; maxDeviations: number | null }) {
+function StandingsBox({
+  standings,
+  season,
+  maxDeviations,
+}: {
+  standings: StandingsFile;
+  season: number;
+  maxDeviations: number | null;
+}) {
   const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
   const mine = players.find((p) => p.id === standings.me);
-  // Ziel ist immer Platz 1 (D028)
+  // Ziel ist immer Platz 1 (D028). Rangliste aus einer anderen Saison: kein Rückstand (D051).
+  const applies = standingsAppliesTo(standings, season);
   const leader = players[0];
-  const ahead = mine && leader && leader.points > mine.points ? leader : undefined;
+  const ahead = applies && mine && leader && leader.points > mine.points ? leader : undefined;
   const gap = ahead && mine ? ahead.points - mine.points : 0;
   return (
     <section className="box" aria-label="Rangliste">
       <h2>Ziel Platz 1</h2>
-      {mine && (
-        <p className="box-big">{ahead ? <span aria-label={`minus ${gap}`}>{"\u2212"}{gap}</span> : "1."}</p>
+      {mine && applies && (
+        <p className="box-big">
+          {ahead ? (
+            <Spoken shown={`\u2212${gap}`} spoken={`minus ${gap}`} />
+          ) : (
+            "1."
+          )}
+        </p>
       )}
-      {mine && (
+      {mine && applies && (
         <p className="box-meta">
           {ahead ? `${gap} ${gap === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id} auf Platz 1` : "In Führung"}
         </p>
       )}
+      {!applies && <p className="box-meta">Neue Saison, Rückstand erst nach der ersten Meldung</p>}
       <p className="box-meta strong">Erlaubte Abweichungen diese Woche: {maxDeviations ?? "offen"}</p>
-      <p className="box-meta">Rangliste nach Week {standings.asOfWeek}</p>
+      <p className="box-meta">
+        Rangliste nach Week {standings.asOfWeek}
+        {!applies && standings.season !== undefined ? ` der Saison ${standings.season}` : ""}
+      </p>
       <ol className="ranking">
         {players.map((p) => (
           <li key={p.id} className={p.id === standings.me ? "me" : undefined}>

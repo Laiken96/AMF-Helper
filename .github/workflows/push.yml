@@ -28,8 +28,8 @@ concurrency:
 jobs:
   push:
     runs-on: ubuntu-latest
-    # 10 Minuten für Wächter und Push wie bisher, dazu höchstens 6 für die KI Zweitmeinung am Schluss.
-    timeout-minutes: 16
+    # Wächter aktuelle Woche höchstens 5, Push, Wächter nächste Woche höchstens 5, KI Zweitmeinung höchstens 6.
+    timeout-minutes: 22
     steps:
       - uses: actions/checkout@v4
 
@@ -48,12 +48,15 @@ jobs:
         run: npm run job:push -- --test
 
       # Der Wächter darf scheitern, die Erinnerungen kommen trotzdem mit dem letzten Stand. Der Lauf wird am Ende rot.
-      # Er erfasst die aktuelle und die nächste Woche (D050) und schreibt dazu den ESPN FPI nach data/fpi.
+      # Vor dem Versand nur die aktuelle Woche, deren Ausfälle in die Meldungen gehen. Die nächste Woche (D050)
+      # folgt nach dem Versand, damit langsame ESPN Abrufe keine Erinnerung verzögern. Beide schreiben den ESPN FPI
+      # nach data/fpi. Das Zeitlimit hält den Versand auch bei hängenden Abrufen pünktlich.
       - name: Ausfälle prüfen
         id: watch
         if: inputs.test != 'true'
+        timeout-minutes: 5
         continue-on-error: true
-        run: npm run job:watch
+        run: npm run job:watch -- --current
 
       - name: Meldungen senden
         id: push
@@ -63,6 +66,13 @@ jobs:
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
         run: npm run job:push
+
+      - name: Ausfälle nächste Woche prüfen
+        id: watch_next
+        if: inputs.test != 'true'
+        timeout-minutes: 5
+        continue-on-error: true
+        run: npm run job:watch -- --next
 
       # Nur push-log, Ausfall und FPI Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben,
       # der FPI ist Schattenvergleich und wartet auf den nächsten Neubau.
@@ -142,7 +152,7 @@ jobs:
           exit 1
 
       - name: Fehler melden
-        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
+        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.watch_next.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
         run: |
-          echo "Wächter: ${{ steps.watch.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
+          echo "Wächter: ${{ steps.watch.outcome }}, Wächter nächste Woche: ${{ steps.watch_next.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
           exit 1

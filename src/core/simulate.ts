@@ -1,9 +1,13 @@
 // Simulation der Chance auf Platz 1 (D050): Monte Carlo der restlichen Regular Season. Reine Funktion ohne IO,
 // im Browser nutzbar, mit eigenem PRNG für reproduzierbare Ergebnisse.
-// Modell: pro Spiel gewinnt der Favorit mit seiner Wahrscheinlichkeit. Gegner tippen immer den Favoriten, geben
-// aber nur mit ihrer beobachteten Tippquote überhaupt einen Tipp ab. Der eigene Spieler tippt pro Woche k mal
-// den Aussenseiter, und zwar in den knappsten Spielen, sonst den Favoriten. Alle k laufen auf denselben
-// Zufallszahlen, damit die Unterschiede zwischen k nicht vom Zufall stammen.
+// Modell: pro Spiel gewinnt der Favorit mit seiner Wahrscheinlichkeit. Gegner geben mit ihrer beobachteten
+// Tippquote (pickRate) überhaupt einen Tipp ab und tippen dann mit ihrer Streuquote (upsetRate) den Aussenseiter,
+// sonst den Favoriten. Die Streuquote gilt im Mittel der Woche, verteilt nach der Siegchance des Aussenseiters:
+// knappe Spiele bekommen öfter einen Aussenseiter Tipp als klare, sichere Favoriten nie. Ohne Streuung hätten alle Gegner pro Woche dieselben Treffer, ein Rückstand liesse sich ohne
+// eigene Abweichung nie aufholen und die Simulation würde Abweichungen systematisch bevorzugen.
+// Der eigene Spieler tippt als Grundtipp immer den Favoriten (D027) und pro Woche k mal den Aussenseiter, und zwar
+// in den knappsten Spielen. Alle k laufen auf denselben Zufallszahlen, damit die Unterschiede zwischen k nicht vom
+// Zufall stammen.
 
 /** Kleiner PRNG mulberry32, Ergebnis in [0, 1). */
 export function mulberry32(seed: number): () => number {
@@ -21,7 +25,18 @@ export interface SimPlayer {
   id: string;
   points: number; // aktueller Stand
   pickRate?: number; // Anteil abgegebener Tipps, 0 bis 1, Standard 1
+  /** Anteil der abgegebenen Tipps auf den Aussenseiter, 0 bis 1, Standard DEFAULT_UPSET_RATE. Gilt nur für Gegner. */
+  upsetRate?: number;
 }
+
+/**
+ * Standard Streuquote der Gegner: Anteil der Tipps gegen den Favoriten pro Spiel. Annahme in der Grössenordnung
+ * von Auswertungen öffentlicher Pick'em Runden (rund 12 bis 15 Prozent der Tipps gegen den Favoriten nach Spread).
+ * Mit eigenen Daten (Rangliste gegen Favoritentreffer) lässt sich der Wert pro Spieler ersetzen.
+ */
+export const DEFAULT_UPSET_RATE = 0.13;
+/** Obergrenze der Aussenseiter Wahrscheinlichkeit pro Spiel, ein Münzwurf Spiel tippt ein Gegner höchstens halb halb. */
+const MAX_UPSET_PICK = 0.5;
 
 export interface SimInput {
   players: readonly SimPlayer[];
@@ -60,6 +75,7 @@ export function observedPickRate(tipped: number, possible: number): number {
   return Math.min(1, Math.max(0, tipped / possible));
 }
 
+const clamp01 = (x: number) => Math.min(1, Math.max(0, x));
 const favProb = (p: number) => Math.min(1, Math.max(0.5, Math.max(p, 1 - p)));
 
 export function simulateFirstPlace(input: SimInput): SimOutput {
@@ -70,7 +86,8 @@ export function simulateFirstPlace(input: SimInput): SimOutput {
   if (meIdx < 0) throw new Error(`Kürzel ${input.me} fehlt in der Simulation`);
   const n = input.players.length;
   const start = input.players.map((p) => p.points);
-  const rates = input.players.map((p) => Math.min(1, Math.max(0, p.pickRate ?? 1)));
+  const rates = input.players.map((p) => clamp01(p.pickRate ?? 1));
+  const upsets = input.players.map((p) => clamp01(p.upsetRate ?? DEFAULT_UPSET_RATE));
   const remaining = Math.max(0, Math.floor(input.remainingWeeks));
   const known = (input.knownWeeks ?? []).slice(0, remaining).map((w) => [...w].map(favProb).sort((a, b) => a - b));
   const pool = (input.probPool && input.probPool.length > 0 ? input.probPool : DEFAULT_PROB_POOL).map(favProb);
@@ -85,6 +102,7 @@ export function simulateFirstPlace(input: SimInput): SimOutput {
   const week = new Float64Array(Math.max(perWeek, ...known.map((w) => w.length), 1));
   const favWon = new Uint8Array(week.length);
   const tipped = new Uint8Array(week.length);
+  const dogWeight = new Float64Array(week.length);
   const delta = new Float64Array(maxK + 1);
 
   for (let run = 0; run < runs; run++) {
@@ -108,16 +126,26 @@ export function simulateFirstPlace(input: SimInput): SimOutput {
         favWon[g] = won;
         favWins += won;
       }
-      // Gegner: Favoritentipp mit Tippquote.
+      // Gewicht für Aussenseiter Tipps: proportional zur Siegchance des Aussenseiters, im Wochenmittel 1.
+      let dogSum = 0;
+      for (let g = 0; g < len; g++) dogSum += 1 - week[g]!;
+      const dogMean = dogSum / len;
+      for (let g = 0; g < len; g++) dogWeight[g] = dogMean > 0 ? (1 - week[g]!) / dogMean : 0;
+      // Gegner: Tipp mit Tippquote, davon mit Streuquote auf den Aussenseiter, sonst auf den Favoriten.
       for (let i = 0; i < n; i++) {
         if (i === meIdx) continue;
         const r = rates[i]!;
-        if (r >= 1) {
+        const u = upsets[i]!;
+        if (r >= 1 && u <= 0) {
           totals[i]! += favWins;
           continue;
         }
         let pts = 0;
-        for (let g = 0; g < len; g++) if (favWon[g] && rand() < r) pts++;
+        for (let g = 0; g < len; g++) {
+          if (r < 1 && rand() >= r) continue;
+          const onFav = u <= 0 || rand() >= Math.min(MAX_UPSET_PICK, u * dogWeight[g]!);
+          if (onFav === (favWon[g] === 1)) pts++;
+        }
         totals[i]! += pts;
       }
       // Eigener Spieler: für k Abweichungen den Effekt in den k knappsten Spielen aufsummieren.

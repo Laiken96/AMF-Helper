@@ -16,6 +16,19 @@ export function TeamBadge({ team }: { team: Team }) {
   );
 }
 
+/**
+ * Sichtbarer Kurzwert für Sehende, ausgeschriebener Text für Vorleser. Ersetzt aria-label auf span ohne Rolle,
+ * das viele Vorleser ignorieren.
+ */
+export function Spoken({ shown, spoken, className }: { shown: ReactNode; spoken: string; className?: string }) {
+  return (
+    <span className={className}>
+      <span aria-hidden="true">{shown}</span>
+      <span className="sr-only">{spoken}</span>
+    </span>
+  );
+}
+
 export function fallbackTeam(id: string): Team {
   return { id, abbr: `#${id}`, name: `Team ${id}`, shortName: `Team ${id}`, logo: null, color: null };
 }

@@ -41,6 +41,19 @@ function rewrite(text: string, seasonType: number, week: number, date?: string, 
   return JSON.stringify(raw);
 }
 
+/** Alle Spiele final, Heim 27, Gast 20. */
+function final(text: string): string {
+  const raw = JSON.parse(text);
+  for (const e of raw.events) {
+    const done = { ...e.status, period: 4, type: { ...e.status.type, id: "3", name: "STATUS_FINAL", state: "post", completed: true, description: "Final", detail: "Final", shortDetail: "Final" } };
+    e.status = done;
+    const c = e.competitions[0];
+    c.status = done;
+    for (const t of c.competitors) t.score = t.homeAway === "home" ? "27" : "20";
+  }
+  return JSON.stringify(raw);
+}
+
 function weekFile(text: string): string {
   const parsed = parseScoreboard(JSON.parse(text), { fetchedAt: "2026-11-02T00:00:00Z" });
   if (!parsed.ok) throw new Error(parsed.error);
@@ -206,7 +219,8 @@ describe("Spielplan Job im Saisonwechsel", () => {
     await writeFile(join(dir, "current.json"), currentJson(3, 3));
     await writeFile(join(dir, "weeks/2026-3-03.json"), weekFile(rewrite(post1, 3, 3, "2027-01-25T20:00Z")));
     const before = await readFile(join(dir, "current.json"), "utf8");
-    expect(await main([], deps(router(proBowl, { "3-5": superBowl })))).toBe(0);
+    const conf = rewrite(post1, 3, 3, "2027-01-25T20:00Z");
+    expect(await main([], deps(router(proBowl, { "3-3": conf, "3-5": superBowl })))).toBe(0);
     expect(logs.join("\n")).toMatch(/Pro Bowl, ruhende Woche/);
     expect(await readFile(join(dir, "current.json"), "utf8")).toBe(before);
     expect((await readdir(join(dir, "weeks"))).sort()).toEqual(["2026-3-03.json", "2026-3-05.json"]);
@@ -219,6 +233,39 @@ describe("Spielplan Job im Saisonwechsel", () => {
       homeRest: 20,
       awayRest: 20,
     });
+  });
+
+  it("ruhende Woche frischt die Woche aus current.json auf, bis sie komplett final ist", async () => {
+    await writeFile(join(dir, "current.json"), currentJson(3, 3));
+    await writeFile(join(dir, "weeks/2026-3-03.json"), weekFile(rewrite(post1, 3, 3, "2027-01-25T20:00Z")));
+    const before = await readFile(join(dir, "current.json"), "utf8");
+    const conf = final(rewrite(post1, 3, 3, "2027-01-25T20:00Z"));
+    expect(await main([], deps(router(proBowl, { "3-3": conf, "3-5": superBowl })))).toBe(0);
+    expect(errors).toEqual([]);
+    expect(logs.join("\n")).toMatch(/2026-3-3 aus current.json noch nicht komplett final/);
+    const games = (await readWeek("weeks/2026-3-03.json")).games;
+    expect(games.every((g) => g.status === "final" && g.homeScore === 27 && g.awayScore === 20)).toBe(true);
+    expect(await readFile(join(dir, "current.json"), "utf8")).toBe(before);
+
+    // Komplett final: kein weiterer Abruf der Conference Woche.
+    urls = [];
+    expect(await main([], deps(router(proBowl, { "3-5": superBowl })))).toBe(0);
+    expect(urls.some((u) => u.includes("seasontype=3&week=3"))).toBe(false);
+    expect(errors).toEqual([]);
+  });
+
+  it("ruhende Offseason frischt einen offenen Super Bowl auf, Fehler dort macht den Lauf rot", async () => {
+    await writeFile(join(dir, "current.json"), currentJson(3, 5));
+    await writeFile(join(dir, "weeks/2026-3-05.json"), weekFile(superBowl));
+    const off = JSON.parse(rewrite(superBowl, 4, 1));
+    off.events = [];
+    expect(await main([], deps(router(JSON.stringify(off), { "3-5": final(superBowl) })))).toBe(0);
+    expect((await readWeek("weeks/2026-3-05.json")).games[0]?.status).toBe("final");
+    expect((await readCurrent()).seasonType).toBe(3);
+
+    await writeFile(join(dir, "weeks/2026-3-05.json"), weekFile(superBowl));
+    expect(await main([], deps(router(JSON.stringify(off))))).toBe(1);
+    expect(errors.join("\n")).toMatch(/2026-3-5: Fehler beim Abruf/);
   });
 
   it("Super Bowl Woche 5 als aktuelle Woche: wird geschrieben, keine kommenden Wochen", async () => {

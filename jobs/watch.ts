@@ -5,7 +5,9 @@
 // zu Ausfällen liest jobs/push.ts nur für die aktuelle Woche.
 // Aus demselben Summary kommt der ESPN FPI predictor nach data/fpi/<saison>-<typ>-<woche>.json (D050),
 // nur für den Schattenvergleich, nie für den Tipp (D009).
-// Aufruf: npm run job:watch [-- --season 2026 --type 2 --week 9].
+// Mit --current nur die aktuelle Woche, mit --next nur die nächste. push.yml ruft beides getrennt auf, damit
+// langsame Abrufe der nächsten Woche den Push Versand nicht verzögern.
+// Aufruf: npm run job:watch [-- --season 2026 --type 2 --week 9] oder npm run job:watch -- --current | --next.
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -61,6 +63,7 @@ interface WatchCtx {
 /**
  * Führt den Wächter aus und liefert den Exit Code. Schreibt nur bei inhaltlicher Änderung.
  * Ohne Argumente: aktuelle Woche aus current.json und die nächste Woche, falls deren Wochendatei existiert.
+ * --current beschränkt auf die aktuelle, --next auf die nächste Woche.
  * Ein Fehler in einer Woche lässt die andere laufen, der Exit Code ist dann 1.
  */
 export async function main(argv: readonly string[], deps: MainDeps = {}): Promise<number> {
@@ -70,14 +73,20 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
   const now = (deps.now ?? nowUtc)();
   const keep = "Ausfall Datei bleibt unverändert.";
 
+  const onlyCurrent = argv.includes("--current");
+  const onlyNext = argv.includes("--next");
   let args;
   try {
-    args = parseCliArgs(argv);
+    args = parseCliArgs(argv.filter((a) => a !== "--current" && a !== "--next"));
   } catch (err) {
     error(`Ungültige Argumente. ${describeError(err)}`);
     return 1;
   }
   const explicit = args.season !== undefined || args.seasonType !== undefined || args.week !== undefined;
+  if ((onlyCurrent && onlyNext) || (explicit && (onlyCurrent || onlyNext))) {
+    error("Ungültige Argumente. --current und --next schliessen sich gegenseitig und eine explizite Woche aus.");
+    return 1;
+  }
   let season = args.season;
   let seasonType = args.seasonType;
   let weekNo = args.week;
@@ -95,8 +104,8 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
 
   const ctx: WatchCtx = { dataDir, now, log, error, fetch: deps.fetch };
   const primary: WeekRef = { season, seasonType, week: weekNo };
-  let exit = await runWeek(primary, ctx);
-  if (!explicit) {
+  let exit = onlyNext ? 0 : await runWeek(primary, ctx);
+  if (!explicit && !onlyCurrent) {
     const next = upcomingWeeks(primary)[0];
     if (next && existsSync(join(dataDir, weekFilePath(next.season, next.seasonType, next.week)))) {
       log(`Nächste Woche ${next.season}-${next.seasonType}-${next.week}`);

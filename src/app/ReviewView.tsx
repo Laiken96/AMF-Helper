@@ -3,7 +3,7 @@ import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
 import { loadReviewPage, parseWeekKey, sameRef, useKeptLoad, type ReviewData, type WeekRef } from "./data";
-import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, formatStand, scoreAria, scoreText } from "./wording";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
@@ -41,8 +41,9 @@ const POINTS_TITLE = "Richtige App Tipps";
 
 /** Strich für nicht gemeldete Wochenpunkte, Vorleser hört "nicht gemeldet". */
 const Missing = () => (
-  <span className="missing" aria-label="nicht gemeldet" title="nicht gemeldet">
-    {"\u2013"}
+  <span className="missing" title="nicht gemeldet">
+    <span aria-hidden="true">{"\u2013"}</span>
+    <span className="sr-only">nicht gemeldet</span>
   </span>
 );
 
@@ -154,16 +155,15 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
                 </abbr>
                 <span>
                   {matchup(tb.gameId)}: getippt{" "}
-                  <span aria-label={scoreAria(tb.predictedAway, tb.predictedHome)}>
-                    {scoreText(tb.predictedAway, tb.predictedHome)}
-                  </span>
+                  <Spoken shown={scoreText(tb.predictedAway, tb.predictedHome)} spoken={scoreAria(tb.predictedAway, tb.predictedHome)} />
                   {", "}
                   {tb.actualAway !== null && tb.actualHome !== null ? (
                     <>
                       Resultat{" "}
-                      <span aria-label={scoreAria(tb.actualAway, tb.actualHome, "Resultat")}>
-                        {scoreText(tb.actualAway, tb.actualHome)}
-                      </span>
+                      <Spoken
+                        shown={scoreText(tb.actualAway, tb.actualHome)}
+                        spoken={scoreAria(tb.actualAway, tb.actualHome, "Resultat")}
+                      />
                       , {tb.diff === null ? "Abstand offen" : `${tb.diff} Punkte Abstand`}
                     </>
                   ) : (

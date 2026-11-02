@@ -189,15 +189,18 @@ export function buildReview(
 /**
  * Abgleich Rangliste gegen App Tipps (D050) für ein beliebiges Kürzel. Vergleicht die gemeldeten Wochenpunkte
  * (Differenz zur Vorwoche) mit den Punkten der App Tipps der Woche. null, solange die Bilanz nicht komplett ist
- * oder Woche bzw. Vorwoche nicht gemeldet sind. Die App Punkte gelten für den Nutzer, der die App Tipps
- * einträgt. Für ein anderes Kürzel misst gap, wie weit dessen Punkte von den App Tipps abweichen.
+ * oder Woche bzw. Vorwoche nicht gemeldet sind. Ebenfalls null, wenn ein gewertetes (finales) Spiel keinen
+ * App Tipp hat (nicht_erfasst oder ohne Quote), denn dann wären die App Punkte kein Massstab für die Woche.
+ * Die App Punkte gelten für den Nutzer, der die App Tipps einträgt. Für ein anderes Kürzel misst gap, wie weit
+ * dessen Punkte von den App Tipps abweichen.
  */
 export function rankingCheck(
-  review: Pick<ReviewFile, "season" | "seasonType" | "week" | "points" | "complete">,
+  review: Pick<ReviewFile, "season" | "seasonType" | "week" | "points" | "complete" | "games">,
   history: StandingsHistory,
   playerId: string,
 ): RankingCheck | null {
   if (!review.complete) return null;
+  if (review.games.some((g) => g.final && g.pickTeamId === null)) return null;
   const reported = reportedWeekPoints(history, review.season, review.seasonType, review.week, playerId);
   if (reported === null) return null;
   return { playerId, reported, appPoints: review.points, gap: reported - review.points };

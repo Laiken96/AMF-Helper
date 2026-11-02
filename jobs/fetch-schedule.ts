@@ -3,20 +3,22 @@
 // Ohne Argumente holt der Job zusätzlich die nächsten 2 Tippwochen (D042), auch über die Grenze zur Postseason,
 // mit denselben Schutzregeln (D019) und ohne current.json anzupassen. Ein Fehler dort lässt die aktuelle Woche gültig.
 // Ruhende Wochen (Preseason, Pro Bowl, Offseason, siehe season-calendar.ts) schreibt der Job ohne Argumente nicht:
-// current.json bleibt auf der letzten Tippwoche, damit Tipps und Pushes ruhen. Ruhetage pro Spiel aus den
+// current.json bleibt auf der letzten Tippwoche, damit Tipps und Pushes ruhen. Deren Wochendatei frischt der Job
+// weiter auf, bis alle Spiele final sind, damit die Bilanz den Endstand bekommt. Ruhetage pro Spiel aus den
 // Wochendateien der zwei Tippwochen davor (D050).
 // Aufruf: npm run job:schedule [-- --season 2026 --type 2 --week 8]
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { scoreboardUrl } from "../src/core/espn";
-import { weekFilePath, type WeekFile } from "../src/core/schema";
-import { dormantReason, nextTipWeeks } from "../src/core/season-calendar";
+import { CurrentFileSchema, WeekFileSchema, weekFilePath, type WeekFile } from "../src/core/schema";
+import { dormantReason, isTipWeek, nextTipWeeks } from "../src/core/season-calendar";
 import {
   FETCH_TIMEOUT_MS,
   USER_AGENT,
   buildOutputs,
   parseCliArgs,
   readExisting,
+  readJsonIfExists,
   readPreviousGames,
   writeFiles,
 } from "./schedule-lib";
@@ -87,6 +89,7 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
   if (dormant !== null && !explicit) {
     log(`Saison ${w.season} Typ ${w.seasonType} Woche ${w.week}: ${dormant}, ruhende Woche ohne Tipps. current.json bleibt.`);
     let exit = 0;
+    if ((await refreshCurrentWeek({ dataDir, now, log, error, fetch: deps.fetch })) !== 0) exit = 1;
     for (const next of upcomingWeeks(w)) {
       if ((await fetchUpcomingWeek(next, { dataDir, now, log, error, fetch: deps.fetch })) !== 0) exit = 1;
     }
@@ -185,6 +188,22 @@ async function fetchUpcomingWeek(
   ctx.log(`Kommende Woche ${label}: ${got.games.length} Spiele`);
   for (const f of result.files) ctx.log(`  geschrieben data/${f.path}`);
   return 0;
+}
+
+/**
+ * In einer ruhenden Woche bleibt current.json auf der letzten Tippwoche. Deren Wochendatei wird weiter
+ * aufgefrischt, bis alle Spiele final oder abgesagt sind, damit der Endstand der Conference Woche oder des
+ * Super Bowl in die Bilanz kommt. current.json selbst bleibt unverändert.
+ */
+async function refreshCurrentWeek(ctx: UpcomingCtx): Promise<number> {
+  const cur = CurrentFileSchema.safeParse(await readJsonIfExists(join(ctx.dataDir, "current.json")));
+  if (!cur.success || !isTipWeek(cur.data)) return 0;
+  const k = { season: cur.data.season, seasonType: cur.data.seasonType, week: cur.data.week };
+  const existing = WeekFileSchema.safeParse(await readJsonIfExists(join(ctx.dataDir, weekFilePath(k.season, k.seasonType, k.week))));
+  if (!existing.success) return 0;
+  if (existing.data.games.every((g) => g.status === "final" || g.status === "canceled")) return 0;
+  ctx.log(`Woche ${k.season}-${k.seasonType}-${k.week} aus current.json noch nicht komplett final, frische sie auf.`);
+  return fetchUpcomingWeek(k, ctx);
 }
 
 /** ESPN Team IDs sind positive ganze Zahlen. Platzhalter für offene Playoff Paarungen haben andere Werte. */

@@ -154,6 +154,26 @@ describe("jobs/watch.ts", () => {
     expect(urls).toHaveLength(1);
   });
 
+  it("--current nur die aktuelle, --next nur die nächste Woche, Kombinationen abgelehnt", async () => {
+    const tnf = weekW9.games.find((g) => g.id === "401873037")!;
+    const nextGame = { ...tnf, id: "401873099", week: 10, kickoffUtc: "2026-11-13T01:15:00Z" };
+    await writeFile(join(dir, "weeks/2026-2-10.json"), JSON.stringify({ ...weekW9, week: 10, games: [nextGame] }));
+    const urls: string[] = [];
+    const any: FetchFn = async (url) => {
+      urls.push(url);
+      return new Response(summaryText, { status: 200 });
+    };
+    expect(await watch(["--current"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(0);
+    expect(urls.map((u) => u.split("event=")[1])).toEqual(["401873037"]);
+    urls.length = 0;
+    expect(await watch(["--next"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(0);
+    expect(urls.map((u) => u.split("event=")[1])).toEqual(["401873099"]);
+    urls.length = 0;
+    expect(await watch(["--current", "--next"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(1);
+    expect(await watch(["--next", "--week", "9"], watchDeps("2026-11-04T12:00:00Z", any))).toBe(1);
+    expect(urls).toEqual([]);
+  });
+
   it("kaputte nächste Woche lässt die aktuelle laufen, Exit 1", async () => {
     await writeFile(join(dir, "weeks/2026-2-10.json"), "{kaputt");
     expect(await watch([], watchDeps("2026-11-04T12:00:00Z", fetchSummary()))).toBe(1);

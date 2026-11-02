@@ -1,20 +1,13 @@
 // Ranglisten Meldung per Issue Formular (D032). Reine Logik ohne Netz, Schreiber ist jobs/standings.ts.
 // Ein Issue Formular schreibt pro Feld "### Label" und danach den Wert. Leere Felder heissen "_No response_".
 import { z } from "zod";
-import { StandingsFileSchema as StandingsFileV1Schema } from "./tips-schema";
+import { STANDINGS_SCHEMA_VERSION, StandingsFileSchema, type StandingsFile } from "./tips-schema";
 import { STANDINGS_HISTORY_SCHEMA_VERSION, StandingsHistorySchema, type StandingsHistory } from "./review-schema";
-import { previousTipWeek, weekOrder } from "./season-calendar";
+import { LAST_POSTSEASON_WEEK, PRO_BOWL_WEEK, REGULAR_WEEKS, isTipWeek, previousTipWeek, weekOrder } from "./season-calendar";
 
-/**
- * Version von data/standings.json. 2 ergänzt season (Saison der Rangliste). Das Schema liest Version 1 weiter,
- * dort fehlt season. Das Basisschema liegt in tips-schema.ts und muss dieselben Versionen akzeptieren.
- */
-export const STANDINGS_SCHEMA_VERSION = 2 as const;
-export const StandingsFileSchema = StandingsFileV1Schema.extend({
-  schemaVersion: z.union([z.literal(1), z.literal(STANDINGS_SCHEMA_VERSION)]),
-  season: z.number().int().optional(), // fehlt in Version 1
-});
-export type StandingsFile = z.infer<typeof StandingsFileSchema>;
+// Version und Schema von data/standings.json liegen nur in tips-schema.ts (Version 2 mit season, Version 1
+// bleibt lesbar). Hier nur weitergereicht, damit Jobs und Tests sie wie bisher aus standings.ts holen.
+export { STANDINGS_SCHEMA_VERSION, StandingsFileSchema, type StandingsFile };
 
 /**
  * Gilt die Rangliste für diese Saison? Ohne season (Version 1, Stand 2026) gilt sie. Aus einer anderen Saison
@@ -96,7 +89,16 @@ export interface StandingsReport {
 
 export type ParseReportResult = { ok: true; report: StandingsReport } | { ok: false; errors: string[] };
 
-/** Liest Saison, Woche und die fünf Punktestände aus dem Body. Sammelt alle Fehler. */
+/** Verständlicher Grund, warum eine gemeldete Woche keine Tippwoche ist (Saisonkalender, D051). */
+function tipWeekError(seasonType: number, week: number): string {
+  if (seasonType === 3 && week === PRO_BOWL_WEEK) {
+    return `Postseason Woche ${week} ist der Pro Bowl ohne Tipps. Der Super Bowl ist Postseason Woche ${LAST_POSTSEASON_WEEK}`;
+  }
+  if (seasonType === 3) return `Postseason Woche ${week} gibt es nicht, Tippwochen sind 1 bis 3 und ${LAST_POSTSEASON_WEEK}`;
+  return `Regular Season Woche ${week} gibt es nicht, Tippwochen sind 1 bis ${REGULAR_WEEKS}. Playoffs als Postseason melden`;
+}
+
+/** Liest Saison, Woche und die fünf Punktestände aus dem Body. Nur echte Tippwochen. Sammelt alle Fehler. */
 export function parseReportBody(body: string): ParseReportResult {
   const sections = parseFormSections(body);
   const errors: string[] = [];
@@ -118,7 +120,7 @@ export function parseReportBody(body: string): ParseReportResult {
     if (p.points !== null && p.points > MAX_POINTS) errors.push(`${p.id}: ${p.points} Punkte ist mehr als ${MAX_POINTS}, Tippfehler?`);
   }
   if (season !== null && (season < 2000 || season > 2100)) errors.push(`Saison ${season} ist unplausibel`);
-  if (week !== null && (week < 1 || week > 23)) errors.push(`Woche ${week} muss zwischen 1 und 23 liegen`);
+  if (week !== null && seasonType !== null && !isTipWeek({ seasonType, week })) errors.push(tipWeekError(seasonType, week));
   if (errors.length > 0 || season === null || week === null || seasonType === null) return { ok: false, errors };
   return { ok: true, report: { season, seasonType, week, players: players.map((p) => ({ id: p.id, points: p.points! })) } };
 }

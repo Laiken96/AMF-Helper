@@ -121,6 +121,23 @@ describe("rankingCheck", () => {
     expect(rankingCheck(reviewOf({}), h, "XY")).toBeNull();
   });
 
+  it("null, wenn ein gewertetes Spiel keinen App Tipp hat", () => {
+    const game = (gameId: string, pickTeamId: string | null, final = true) => ({
+      gameId,
+      pickTeamId,
+      favoriteTeamId: pickTeamId,
+      winnerTeamId: final ? "1" : null,
+      final,
+      correct: final && pickTeamId !== null ? pickTeamId === "1" : null,
+      deviation: false,
+      deviationEffect: null,
+    });
+    expect(rankingCheck(reviewOf({ games: [game("a", "1"), game("b", "2")] }), h, "JA")).not.toBeNull();
+    expect(rankingCheck(reviewOf({ games: [game("a", "1"), game("b", null)] }), h, "JA")).toBeNull();
+    // Abgesagtes Spiel ohne Tipp ist nicht gewertet und stört den Abgleich nicht.
+    expect(rankingCheck(reviewOf({ games: [game("a", "1"), game("b", null, false)] }), h, "JA")).not.toBeNull();
+  });
+
   it("withRankingCheck setzt und entfernt das Feld", () => {
     const r = withRankingCheck(reviewOf({}), { playerId: "JA", reported: 5, appPoints: 4, gap: 1 });
     expect(r.rankingCheck?.gap).toBe(1);
@@ -148,7 +165,10 @@ describe("build-review mit Rangliste", () => {
   beforeEach(async () => {
     dir = await mkdtemp(join(tmpdir(), "nfl-rank-"));
     await mkdir(join(dir, "tips"));
-    await writeFile(join(dir, "tips/2026-2-08.json"), read("./fixtures/tips-2026-2-08.json"));
+    // Nur das Spiel mit App Tipp, sonst verhindern die nicht erfassten Spiele den Abgleich.
+    const tips = JSON.parse(read("./fixtures/tips-2026-2-08.json"));
+    tips.tips = tips.tips.filter((t: { pickTeamId: string | null }) => t.pickTeamId !== null);
+    await writeFile(join(dir, "tips/2026-2-08.json"), JSON.stringify(tips));
     await writeFile(join(dir, "standings.json"), read("./fixtures/standings.json"));
   });
   afterEach(async () => {
@@ -188,6 +208,18 @@ describe("build-review mit Rangliste", () => {
     const text = await readFile(join(dir, "reviews/2026-2-08.json"), "utf8");
     expect(await reviewMain([], deps("2026-11-06T10:00:00Z"))).toBe(0);
     expect(await readFile(join(dir, "reviews/2026-2-08.json"), "utf8")).toBe(text);
+  });
+
+  it("nicht erfasste Spiele: Bilanz ohne Abgleich, auch mit gemeldeter Woche und Vorwoche", async () => {
+    await writeFile(join(dir, "tips/2026-2-08.json"), read("./fixtures/tips-2026-2-08.json"));
+    await writeFile(
+      join(dir, "standings-history.json"),
+      JSON.stringify(hist(entry(2, 7, [64, 62, 61, 46, 43]), entry(2, 8, [71, 69, 68, 51, 45]))),
+    );
+    expect(await reviewMain([], deps("2026-11-04T10:00:00Z"))).toBe(0);
+    const r = await review();
+    expect(r.complete).toBe(true);
+    expect(r.rankingCheck).toBeUndefined();
   });
 
   it("ungültige Rangliste blockiert die Bilanz nicht", async () => {

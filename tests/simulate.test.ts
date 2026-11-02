@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { DEFAULT_PROB_POOL, mulberry32, observedPickRate, simulateFirstPlace } from "../src/core/simulate";
+import { DEFAULT_PROB_POOL, DEFAULT_UPSET_RATE, mulberry32, observedPickRate, simulateFirstPlace } from "../src/core/simulate";
 
 // Stand nach Week 8 laut D022: Spitze 71, Nutzer 45, Tippquoten aus abgegebenen Tipps durch mögliche Spiele.
 const players = [
@@ -52,6 +52,56 @@ describe("simulateFirstPlace", () => {
     const { results } = simulateFirstPlace({ players: close, me: "JA", remainingWeeks: 5, seed: 3, runs: 3000 });
     expect(results[0]!.winChance).toBeGreaterThan(0.95);
     expect(results[0]!.winChance).toBeGreaterThanOrEqual(results[3]!.winChance);
+  });
+
+  it("Plausibilität: 2 Punkte Rückstand auf 9 Wochen ist ohne Abweichung aufholbar", () => {
+    const two = [
+      { id: "MS", points: 71, pickRate: 1 },
+      { id: "LM", points: 66, pickRate: 0.95 },
+      { id: "JA", points: 69, pickRate: 1 },
+    ];
+    const { results } = simulateFirstPlace({ players: two, me: "JA", remainingWeeks: 9, seed: 5, runs: 3000 });
+    expect(results[0]!.winChance).toBeGreaterThan(0.2);
+    expect(results[0]!.winChance).toBeLessThan(1);
+    expect(DEFAULT_UPSET_RATE).toBeGreaterThanOrEqual(0.12);
+    expect(DEFAULT_UPSET_RATE).toBeLessThanOrEqual(0.15);
+  });
+
+  it("ohne Streuung tippen Gegner exakt den Favoriten, dann ist ein Rückstand ohne Abweichung nie aufholbar", () => {
+    const flat = [
+      { id: "A", points: 71, upsetRate: 0 },
+      { id: "JA", points: 69 },
+    ];
+    const { results } = simulateFirstPlace({ players: flat, me: "JA", remainingWeeks: 9, seed: 5, runs: 1000 });
+    expect(results[0]!.winChance).toBe(0);
+    expect(results[1]!.winChance).toBeGreaterThan(0);
+  });
+
+  it("Streuquote der Gegner trifft im Mittel der Woche die Vorgabe und gilt nicht für den eigenen Spieler", () => {
+    // Ein Gegner mit 0 Punkten, eine Woche mit 10 Münzwurf Spielen: ohne Unterschied zwischen Favorit und
+    // Aussenseiter gleich viele Punkte. Eigene Streuquote wird ignoriert, Grundtipp ist der Favorit.
+    const coin = Array.from({ length: 10 }, () => 0.5);
+    const out = simulateFirstPlace({
+      players: [{ id: "A", points: 0, upsetRate: 1 }, { id: "JA", points: 0, upsetRate: 1 }],
+      me: "JA",
+      remainingWeeks: 1,
+      knownWeeks: [coin],
+      ks: [0],
+      runs: 4000,
+      seed: 2,
+    });
+    expect(out.results[0]!.meanPoints).toBeGreaterThan(4.8);
+    expect(out.results[0]!.meanPoints).toBeLessThan(5.2);
+    // Sichere Favoriten: die eigene Streuquote 1 ändert nichts, der Grundtipp bleibt der Favorit.
+    const sure = simulateFirstPlace({
+      players: [{ id: "A", points: 0 }, { id: "JA", points: 0, upsetRate: 1 }],
+      me: "JA",
+      remainingWeeks: 1,
+      knownWeeks: [[1, 1]],
+      ks: [0],
+      runs: 10,
+    });
+    expect(sure.results[0]).toEqual({ k: 0, winChance: 0.5, meanPoints: 2 });
   });
 
   it("ohne Restwochen entscheidet der Stand, Gleichstand zählt anteilig", () => {
