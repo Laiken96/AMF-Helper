@@ -293,3 +293,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Zwei Jobs bei cron-job.org starten die Workflows per workflow_dispatch über die GitHub API: "NFL Push Wächter" alle 10 Minuten (push.yml), "NFL Daten" stündlich um Minute 47 (data.yml). Authentifizierung mit einem fein granulierten Token nur für das Repo AMF-Helper und nur Actions Read and write, gültig bis 2026-11-02 plus 1 Jahr (02.11.2027). Die Zeitpläne in den Workflows bleiben aktiv, Doppelläufe sind unschädlich (push-log verhindert doppelte Meldungen, concurrency serialisiert). Support Ticket 4939976 bei GitHub wurde am 2026-11-02 ohne Prüfung geschlossen (Gratis Tarif nur Selbsthilfe), cron-job.org ist damit die Dauerlösung
 - Begründung: GitHub startete push.yml nach Zeitplan nie und data.yml erst nach über 8 Stunden einmal. Ursache von aussen nicht feststellbar, Antwort des Supports dauert Tage, Erinnerungen müssen ab Donnerstag sicher laufen. Testläufe 2026-11-02 12:20 und 12:24 UTC grün, echter Push "Tippliste W8 bereit" zugestellt
 - Verworfen: warten, Auslösen über geplante Aufgaben einer Claude Sitzung (nicht dauerhaft), Token ohne Ablauf
+
+## D042 Abnahme ans Projektende verschoben
+
+- Datum: 2026-11-02
+- Entscheid: Entscheid des Nutzers. Die Definition of Done gilt als erreicht (alle sechs Punkte gebaut, live, automatisiert, Gerätetest Duo bestanden). Gate 3 ist damit freigegeben. Die formelle Abnahme an einer echten Woche entfällt jetzt und erfolgt am Projektende zusammen mit allen Features. Reihenfolge der weiteren Sprints: Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus, danach Gesamtabnahme. Die Automatik läuft ab Week 9 trotzdem, gemeldete Fehler werden sofort behoben
+- Begründung: Wunsch des Nutzers, die App vollständig zu bauen und am Schluss abzunehmen. Product Owner Hinweis dokumentiert: Fehler im Grundsystem werden dadurch später sichtbar und überlagern sich mit Fehlern neuer Features
+- Verworfen: Abnahme Week 9 vor neuen Features (Regel 2 in CLAUDE.md, hier bewusst aufgehoben)

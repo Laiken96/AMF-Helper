@@ -1,7 +1,7 @@
 # NFL Dashboard
 
 Angelegt: 2026-11-02
-Status: Sprint 4 gebaut am 2026-11-02, alle DoD Punkte gebaut, Abnahme an Week 9 offen
+Status: DoD erreicht (D042), Ausbau aller Features, Gesamtabnahme am Projektende
 
 ## Problem
 

@@ -3,7 +3,7 @@
 ## Harte Regeln
 
 1. Nach jedem Sprintschritt: commit und push, CLAUDE.md aktualisieren, DECISIONS.md ergänzen, REGRESSION.md ergänzen, Kontext leeren.
-2. Kein neues Feature, solange die Definition of Done in PROJEKT.md offen ist.
+2. Kein neues Feature, solange die Definition of Done in PROJEKT.md offen ist. Seit D042 gilt sie als erreicht, die Abnahme erfolgt am Projektende.
 3. Keine Änderung am Datenformat unter data/ ohne Anpassung von schema_version und zod Schema.
 4. Keine Secrets im Browser Code. Schreibzugriff nur über GitHub Actions.
 5. Bei Widerspruch zwischen Auftrag und DECISIONS.md: anhalten und nachfragen, nicht selbst entscheiden.
@@ -43,4 +43,4 @@ Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, 
 
 ## Nächster Schritt
 
-DoD Abnahme an Week 9 (Donnerstag bis Dienstag). Danach Gate 3 vor Sprint 5 (Liveticker).
+Sprints laut PLAN.md (D042): Wochen blättern und Liveticker (Frontend), News und KI Zweitmeinung (Daten), danach Gesamtabnahme.
