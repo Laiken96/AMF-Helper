@@ -39,12 +39,12 @@ Das Projekt ist fertig, wenn in einer kompletten Regular Season Woche (Donnersta
 
 keine
 
-Begründung: öffentliche Sportdaten, Tipps der Freunde unter Kürzel, eine Push Subscription des eigenen Geräts. Werden Namen der Freunde gespeichert oder kommt Login dazu, wechselt die Datenklasse auf personendaten und der Datenschutz Check ist vor Gate 2 fällig.
+Begründung: öffentliche Sportdaten, Tipps der Freunde unter Kürzel, eine Push Subscription des eigenen Geräts als GitHub Secret. Achtung: Ist das Repo öffentlich, sind auch data/ und die Gruppentipps öffentlich. Werden Namen der Freunde gespeichert oder kommt Login dazu, wechselt die Datenklasse auf personendaten und der Datenschutz Check ist vor Gate 2 fällig.
 
 ## Release Blocker
 
-- Quellen nur über Adapter mit Schema Validierung und gemeinsamem Server Cache
+- Quellen nur über Adapter mit Schema Validierung, bei Fehler letzte gültige Daten anzeigen
 - Alle Zeiten in UTC gespeichert, Anzeige Europe/Zurich, Test über den Wechsel US Sommerzeit
 - Tipps werden bei Kickoff gesperrt und sind danach nicht mehr änderbar
 - Keine API Keys im Repository
-- Supabase Migrationen versioniert unter supabase/migrations
+- Datenformat der JSON Dateien unter data/ versioniert (Feld schema_version) und per zod validiert

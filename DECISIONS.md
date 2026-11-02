@@ -117,3 +117,17 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Tippschluss gilt pro Spiel beim Kickoff. Status: ungeprüft. Sperrlogik und Push Planung lesen den Tippschluss aus einer Einstellung (pro Kickoff oder Wochenfrist), damit ein Irrtum ohne Umbau korrigierbar ist
 - Begründung: Nutzer vermutet Kickoff, der Chat Loop arbeitet ebenfalls so. Prüfung durch den Nutzer auf der Tippseite bis Ende Sprint 1
 - Verworfen: fest einprogrammierter Tippschluss
+
+## D017 Nur GitHub statt Vercel und Supabase
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt D001 Hosting und Datenbank sowie D003 Server Cache. Statische Web App (Vite, React, TypeScript) auf GitHub Pages. Datenjobs in TypeScript (Node) über GitHub Actions. Daten als JSON Dateien im Repo unter data/, jede Änderung ist ein Commit. Liveticker ruft ESPN direkt aus dem Browser ab (CORS am 2026-11-02 geprüft, erlaubt)
+- Begründung: Entscheid des Nutzers. 1 Nutzer, winzige Datenmenge, keine zusätzlichen Konten, kein Server, Git Historie ist zugleich Backup. Eine Sprache für App und Jobs, der ESPN Adapter wird geteilt
+- Verworfen: Vercel und Supabase (zwei Konten, Supabase pausiert bei Inaktivität). Python Jobs (zweite Sprache, nflverse erst in Sprint 7 nötig). Kommt Login für Freunde, wird das Backend neu entschieden
+
+## D018 Erfassung der Gruppentipps
+
+- Datum: 2026-11-02
+- Entscheid: Ergänzt D011. Gruppentipps werden über ein GitHub Issue Formular erfasst, eine Action liest es aus und schreibt die JSON Datei. Kein Token in der Web App
+- Begründung: GitHub Pages kann nicht ins Repo schreiben, das Issue Formular funktioniert in der GitHub App am Handy
+- Verworfen: persönlicher Token im Browser (Sicherheitsrisiko), manuelles Editieren von JSON

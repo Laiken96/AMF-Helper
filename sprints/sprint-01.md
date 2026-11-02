@@ -1,30 +1,28 @@
 # Sprint 1 Gerüst und Spielplan
 
 ## Ziel
-Die öffentliche Vercel URL zeigt alle Spiele der aktuellen NFL Woche mit Teams und korrekter Kickoff Zeit in Europe/Zurich.
+Die GitHub Pages URL zeigt alle Spiele der aktuellen NFL Woche mit Teams und korrekter Kickoff Zeit in Europe/Zurich.
 
 ## Kontext
-Lies CLAUDE.md, PROJEKT.md und DECISIONS.md. Relevant: D001 Stack, D002 Datenquellen, D003 Cache, D006 Zeit und Wochenlogik, D016 Tippschluss als Einstellung.
+Lies CLAUDE.md, PROJEKT.md und DECISIONS.md. Relevant: D017 Stack, D002 Datenquellen, D006 Zeit und Wochenlogik, D016 Tippschluss als Einstellung.
 
 ## Umfang
-- Next.js (TypeScript, App Router) Projekt im Repo Root, Deployment auf Vercel
-- Supabase Projekt Region Frankfurt, Migration supabase/migrations/0001_init.sql mit Tabellen teams, games, api_cache, settings
-- settings enthält den Schlüssel lock_mode mit Wert per_kickoff (Alternative weekly)
-- games enthält season, week, season_type, kickoff_utc, home_id, away_id, status, Scores, espn_id
-- lib/espn/adapter.ts: holt das ESPN Scoreboard, validiert mit zod, bildet auf das eigene Modell ab. Bei Schemafehler klare Fehlermeldung und letzte gültige Daten aus der DB
-- lib/cache.ts: api_cache mit TTL und Single Flight, TTL 30 min ausserhalb von Spielen
-- Seed der 32 Teams aus ESPN
-- Seite /woche: Spiele der Woche gruppiert nach Kickoff Slot, Zeiten Europe/Zurich, Woche über season und week aus ESPN
-- Environment Variablen nur über .env.local und Vercel, .env.example mit Platzhaltern
+- Vite, React, TypeScript App, Build als statische Seite mit base Pfad für GitHub Pages
+- src/core/schema.ts: zod Schemas und Typen für data/ (Datenvertrag, schema_version 1)
+- src/core/espn.ts: Adapter ESPN Scoreboard zu eigenem Modell, mit zod validiert
+- src/core/time.ts: Umrechnung UTC zu Europe/Zurich, Gruppierung nach Kickoff Slot
+- jobs/fetch-schedule.ts: holt Scoreboard und Teams, schreibt data/teams.json, data/weeks/<season>-<type>-<week>.json, data/current.json, data/settings.json (lock_mode per_kickoff). Bei Fehler bleibt der letzte gültige Stand, Exit Code ungleich 0
+- .github/workflows/data.yml: Cron und manueller Start, Job ausführen, data/ committen
+- .github/workflows/pages.yml: Tests, Build und Deployment auf GitHub Pages bei Push auf main
+- Seite Woche: Spiele gruppiert nach Kickoff Slot, Zeiten Europe/Zurich, Stand der Daten sichtbar, Fehler und Leerzustand sauber
 
-NICHT anfassen: Quoten, Tipps, Push, Liveticker, News, Login. Keine UI Politur über ein sauberes Grundlayout hinaus.
+NICHT anfassen: Quoten, Tipps, Push, Liveticker, News, PWA.
 
 ## Abnahmekriterien
-- npm run build grün, npm run lint grün
-- Unit Tests grün für: ESPN Adapter mit gespeichertem Beispiel JSON, Adapter mit kaputtem JSON (Fehlerpfad), Zeitumrechnung über den Wechsel US Sommerzeit, Sonntagnachtspiel wird der richtigen Woche zugeordnet
-- Datenbank aus Null reproduzierbar: supabase db reset erzeugt alle Tabellen nur aus dem Repo
-- Vercel URL zeigt die aktuelle Woche, Zeiten stimmen mit der ESPN App überein (manuell 3 Spiele vergleichen)
-- Leerfall: Bye Teams und Wochen ohne Spiel erzeugen keinen Fehler
+- npm run build, npm run typecheck und npm test grün
+- Tests für: Adapter mit echtem ESPN Fixture, Adapter mit kaputtem JSON, Zeitumrechnung über den Wechsel US Sommerzeit, Sonntagnachtspiel bleibt in seiner NFL Woche, Woche mit Bye Teams, leere Woche
+- npm run job:schedule erzeugt gültige Dateien unter data/, die das App Schema besteht
+- GitHub Pages URL zeigt die aktuelle Woche, Zeiten stimmen mit der ESPN App überein (manuell 3 Spiele vergleichen)
 - REGRESSION.md hat mindestens 5 Testschritte inklusive Fehler und Leerfall
 
 ## Abschluss
@@ -34,7 +32,7 @@ NICHT anfassen: Quoten, Tipps, Push, Liveticker, News, Login. Keine UI Politur �
 4. Neue Testschritte in REGRESSION.md nachtragen
 5. Kontext leeren
 
-## Aufgabe für den Nutzer in diesem Sprint
-- Vercel und Supabase Konto bereitstellen, Keys als Environment Variablen setzen
-- Auf der Tippseite prüfen, ob Tippschluss pro Kickoff oder pro Woche gilt, Ergebnis in D016 nachtragen
-- Anzahl Personen in der Freundesgruppe nennen
+## Aufgabe für den Nutzer
+- Sichtbarkeit des Repos klären (Pages im Gratis Tarif nur bei öffentlichem Repo)
+- Pages in den Repo Einstellungen auf "GitHub Actions" stellen und auf main mergen
+- Tippschluss auf der Tippseite prüfen (D016), Grösse der Freundesgruppe nennen
