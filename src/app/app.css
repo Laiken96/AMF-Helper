@@ -2175,3 +2175,147 @@ a.step-today:hover {
 .view-bilanz .tiles .box-meta {
   min-height: calc(2 * 1.4em);
 }
+
+/* ---------- Auswahl eines Spiels (List Detail) ---------- */
+
+.tip-select {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tip-select:hover .tip-vs {
+  color: var(--text-2);
+}
+
+.tip.selected {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  background: var(--surface-2);
+}
+
+.hero-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+}
+
+.hero-split-nav {
+  grid-column: 1 / -1;
+}
+
+.hero-nav-arrow,
+.hero-nav-home {
+  flex: none;
+  min-height: 44px;
+  border: 0;
+  border-radius: 22px;
+  background: rgba(11, 14, 19, 0.6);
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-nav-arrow {
+  width: 44px;
+  display: grid;
+  place-content: center;
+}
+
+.hero-nav-arrow:disabled {
+  color: #8d96a3;
+  cursor: default;
+}
+
+.hero-nav-arrow:not(:disabled):hover,
+.hero-nav-home:hover {
+  background: rgba(11, 14, 19, 0.85);
+}
+
+.hero-nav-pos {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #e4e8ee;
+  white-space: nowrap;
+}
+
+.hero-nav-home {
+  margin-left: auto;
+  padding: 0 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Blatt von unten */
+html.sheet-open,
+html.sheet-open body,
+html.sheet-open .page {
+  overflow: hidden !important;
+}
+
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 110;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.sheet {
+  width: 100%;
+  max-width: 680px;
+  max-height: calc(100dvh - var(--sat) - 16px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px calc(var(--sar) + 12px) calc(var(--sab) + 16px) calc(var(--sal) + 12px);
+  border-radius: 22px 22px 0 0;
+  background: var(--bg);
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.6);
+}
+
+.sheet-head {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 44px;
+}
+
+.sheet-grip {
+  position: absolute;
+  left: 50%;
+  top: 2px;
+  width: 40px;
+  height: 5px;
+  margin-left: -20px;
+  border-radius: 3px;
+  background: var(--active);
+}
+
+.sheet .hero-nav-home {
+  font-size: 12px;
+  padding: 0 10px;
+}

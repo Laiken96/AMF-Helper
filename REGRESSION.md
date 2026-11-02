@@ -651,3 +651,9 @@ R100 Bilanz Wochenwähler
     Schritt: In Bilanz vor und zurück blättern.
     Erwartet: Pfeile aktiv, Week 9 und 10 zeigen Hinweis "Bilanz folgt ..." im gleichen Aufbau, Wechsel ohne Leerzustand.
     Status: bestanden lokal 2026-11-02 (50 bis 91 ms)
+
+R101 Spielauswahl im Spielbereich
+    Vorbedingung: Tipps, Week 9.
+    Schritt: Duo quer: Zeile antippen, Pfeile, "Zum nächsten Tippschluss", Häkchen setzen. iPhone und Duo hoch: Zeile antippen, im Blatt durchklicken, schliessen.
+    Erwartet: Spielbereich zeigt gewähltes Spiel ohne Layoutsprung, Zeile markiert, Häkchen ändert Auswahl nicht, Blatt sperrt Hintergrund und schliesst per Knopf und Escape.
+    Status: bestanden lokal 2026-11-02, offen Nutzer am Gerät
