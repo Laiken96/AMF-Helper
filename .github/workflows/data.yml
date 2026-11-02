@@ -1,0 +1,75 @@
+# Datenjob Spielplan: holt das ESPN Scoreboard und committet Änderungen unter data/.
+# Geplante Läufe (schedule) startet GitHub nur auf dem Default Branch, also erst nach dem Merge auf main.
+# Manueller Start über workflow_dispatch geht auf jedem Branch.
+name: Daten Spielplan
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Saison, z. B. 2026 (leer für aktuelle Woche)"
+        required: false
+      type:
+        description: "Saisontyp 1 Preseason, 2 Regular, 3 Postseason (leer für aktuell)"
+        required: false
+      week:
+        description: "Woche (leer für aktuell)"
+        required: false
+
+permissions:
+  contents: write
+  actions: write # für den Start von pages.yml nach neuen Daten
+
+concurrency:
+  group: data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Spielplan holen
+        env:
+          IN_SEASON: ${{ inputs.season }}
+          IN_TYPE: ${{ inputs.type }}
+          IN_WEEK: ${{ inputs.week }}
+        run: |
+          args=()
+          [ -n "$IN_SEASON" ] && args+=(--season "$IN_SEASON")
+          [ -n "$IN_TYPE" ] && args+=(--type "$IN_TYPE")
+          [ -n "$IN_WEEK" ] && args+=(--week "$IN_WEEK")
+          npm run job:schedule -- "${args[@]}"
+
+      - name: Änderungen committen
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain -- data)" ]; then
+            echo "Keine Änderungen unter data/"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "data: Spielplan aktualisiert"
+          git pull --rebase
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes mit GITHUB_TOKEN starten keine push Workflows, daher Pages hier explizit neu bauen.
+      - name: Pages neu bauen
+        if: steps.commit.outputs.pushed == 'true' && github.ref_name == github.event.repository.default_branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
