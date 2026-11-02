@@ -1,5 +1,5 @@
 // Tipplogik Sprint 2. Reine Funktionen ohne Node APIs, nutzbar in Jobs und App.
-// Regeln siehe sprints/sprint-02.md, D010, D021, D023, D024, D025.
+// Regeln siehe sprints/sprint-02.md, D010, D023, D024, D025, D026.
 import { compareGames } from "./espn";
 import type { Game, WeekFile } from "./schema";
 import {
@@ -17,8 +17,11 @@ export const LEVEL_KLAR = 0.75;
 export const LEVEL_FAVORIT = 0.6;
 /** Tiebreaker ohne Over/Under: Favorit 23, Aussenseiter 20. */
 export const STANDARD_TIEBREAKER = { favorite: 23, underdog: 20 } as const;
-/** Ab dieser Woche der Regular Season gilt Saisonende für D021. */
-export const LATE_SEASON_WEEK = 15;
+/** Wochen der Regular Season und Länge des Saisonendes nach D026. */
+export const REGULAR_SEASON_WEEKS = 18;
+export const LATE_SEASON_WEEKS = 3;
+/** Vorsprung des getippten Aussenseiters im Tiebreaker nach D026. */
+export const UPSET_MARGIN = 3;
 
 export type TipLevel = GameTip["level"];
 export type Tiebreaker = TipsFile["tiebreakers"][number];
@@ -83,20 +86,38 @@ export function tipLevel(favoriteProb: number | null): TipLevel {
   return "unklar";
 }
 
-/** Rückstand des eigenen Kürzels auf Platz 1. Wirft, wenn das Kürzel fehlt. */
-export function deficitToLeader(standings: StandingsFile): number {
+/**
+ * Rückstand auf den Spieler direkt vor dem eigenen Kürzel (Ziel nach D022, D026).
+ * Ziel ist der Spieler mit den wenigsten Punkten über den eigenen, bei Gleichstand der erste in der Liste.
+ * In Führung oder gleichauf mit der Spitze ergibt 0. Wirft, wenn das Kürzel fehlt.
+ */
+export function gapToTarget(standings: StandingsFile): number {
   const mine = standings.players.find((p) => p.id === standings.me);
   if (!mine) throw new Error(`Kürzel ${standings.me} fehlt in der Rangliste`);
-  const top = Math.max(...standings.players.map((p) => p.points));
-  return Math.max(0, top - mine.points);
+  let target: number | null = null;
+  for (const p of standings.players) {
+    if (p.id === mine.id || p.points <= mine.points) continue;
+    if (target === null || p.points < target) target = p.points;
+  }
+  return target === null ? 0 : target - mine.points;
 }
 
-/** Erlaubte Abweichungen nach D021. Postseason zählt wie Saisonende. */
-export function maxDeviations(deficit: number, seasonType: number, week: number): number {
-  if (deficit <= 0) return 0;
-  if (deficit <= 2) return 1;
-  const late = seasonType === 3 || (seasonType === 2 && week >= LATE_SEASON_WEEK);
-  return late ? 3 : 2;
+/** Verbleibende Regular Season Wochen inklusive der aktuellen, mindestens 1. Postseason zählt als 1. */
+export function remainingWeeks(seasonType: number, week: number): number {
+  if (seasonType === 3) return 1;
+  return Math.max(1, REGULAR_SEASON_WEEKS - week + 1);
+}
+
+/** Erlaubte Abweichungen nach D026 aus dem Rückstand pro Restwoche. */
+export function maxDeviations(gap: number, seasonType: number, week: number): number {
+  if (gap <= 0) return 0;
+  const remaining = remainingWeeks(seasonType, week);
+  const late = seasonType === 3 || remaining <= LATE_SEASON_WEEKS;
+  if (late && gap > 2) return 3;
+  const perWeek = gap / remaining;
+  if (perWeek <= 1) return 0;
+  if (perWeek <= 2) return 1;
+  return 2;
 }
 
 /** Gesperrt ab Kickoff oder sobald das Spiel nicht mehr geplant ist (D023). */
@@ -132,8 +153,17 @@ export function chooseDeviations(tips: readonly GameTip[], max: number): Set<str
   return new Set(candidates.slice(0, budget).map(({ t }) => t.gameId));
 }
 
-/** Resultatvorschlag aus Over/Under und Spread. Favorit = (OU + |spread|)/2, Aussenseiter = (OU minus |spread|)/2. */
-export function tiebreakerFor(game: Game, odds: Odds | null, slot: TiebreakerSlot): Tiebreaker {
+/**
+ * Resultatvorschlag aus Over/Under und Spread. Favorit = (OU + |spread|)/2, Aussenseiter = (OU minus |spread|)/2.
+ * Ohne Over/Under 23 zu 20. Der Sieger folgt dem Tipp (D026): ist der Tipp eine Abweichung,
+ * gewinnt der getippte Aussenseiter mit 3 Punkten Vorsprung bei gleichem Total.
+ */
+export function tiebreakerFor(
+  game: Game,
+  odds: Odds | null,
+  slot: TiebreakerSlot,
+  pick: { pickTeamId: string | null; deviation: boolean } = { pickTeamId: null, deviation: false },
+): Tiebreaker {
   const homeFavorite = odds === null || odds.spreadHome <= 0;
   let fav: number = STANDARD_TIEBREAKER.favorite;
   let dog: number = STANDARD_TIEBREAKER.underdog;
@@ -146,11 +176,21 @@ export function tiebreakerFor(game: Game, odds: Odds | null, slot: TiebreakerSlo
     if (spread > 0 && fav <= dog) fav = dog + 1;
     basis = "quote";
   }
+  let winnerHome = homeFavorite;
+  if (pick.pickTeamId === game.homeId) winnerHome = true;
+  else if (pick.pickTeamId === game.awayId) winnerHome = false;
+  let winner = fav;
+  let loser = dog;
+  if (pick.deviation && pick.pickTeamId !== null) {
+    const total = odds?.overUnder ?? STANDARD_TIEBREAKER.favorite + STANDARD_TIEBREAKER.underdog;
+    winner = Math.round((total + UPSET_MARGIN) / 2);
+    loser = Math.max(0, winner - UPSET_MARGIN);
+  }
   return {
     gameId: game.id,
     slot,
-    homePoints: homeFavorite ? fav : dog,
-    awayPoints: homeFavorite ? dog : fav,
+    homePoints: winnerHome ? winner : loser,
+    awayPoints: winnerHome ? loser : winner,
     basis,
   };
 }
@@ -171,7 +211,7 @@ export interface BuildTipsInput {
  */
 export function buildTipsFile(input: BuildTipsInput): TipsFile {
   const { week, now } = input;
-  const max = maxDeviations(deficitToLeader(input.standings), week.seasonType, week.week);
+  const max = maxDeviations(gapToTarget(input.standings), week.seasonType, week.week);
   const sameWeek =
     input.existing !== null &&
     input.existing.season === week.season &&
@@ -238,7 +278,7 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
   const tiebreakers = tiebreakerGames(games).map(({ slot, game }) => {
     const tip = tipById.get(game.id)!;
     const prevTb = prevTbs.find((t) => t.slot === slot && t.gameId === game.id);
-    return tip.locked && prevTb ? prevTb : tiebreakerFor(game, tip.odds, slot);
+    return tip.locked && prevTb ? prevTb : tiebreakerFor(game, tip.odds, slot, tip);
   });
 
   return TipsFileSchema.parse({
