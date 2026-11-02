@@ -57,6 +57,7 @@ export interface SeasonSummary {
     marketOnOpinions: BrierScore; // nur Spiele mit KI Meinung, gewichtet aus opinionCompare
     ai: BrierScore;
     fpi: BrierScore; // nur mit fpiPickProb
+    marketOnFpi: BrierScore; // Markt auf denselben Spielen wie fpi
   };
   tiebreaker: { count: number; meanDiff: number | null };
   weekRows: SeasonWeekRow[];
@@ -111,6 +112,7 @@ export function buildSeasonSummary(input: SeasonInput): SeasonSummary {
   const bandAcc = new Map<BandId, { games: number; hits: number; probSum: number }>();
   const market = { n: 0, sq: 0 };
   const fpi = { n: 0, sq: 0 };
+  const marketFpi = { n: 0, sq: 0 };
   const opin = { mN: 0, mSum: 0, aN: 0, aSum: 0 };
   const tb = { n: 0, sum: 0 };
   const weekRows: SeasonWeekRow[] = [];
@@ -161,6 +163,10 @@ export function buildSeasonSummary(input: SeasonInput): SeasonSummary {
       if (q !== null && q >= 0 && q <= 1) {
         fpi.n++;
         fpi.sq += (q - pickHit) ** 2;
+        if (pPick !== null) {
+          marketFpi.n++;
+          marketFpi.sq += (pPick - pickHit) ** 2;
+        }
       }
     }
     const c = review.opinionCompare;
@@ -225,6 +231,7 @@ export function buildSeasonSummary(input: SeasonInput): SeasonSummary {
       marketOnOpinions: { n: opin.mN, value: rate(opin.mSum, opin.mN) },
       ai: { n: opin.aN, value: rate(opin.aSum, opin.aN) },
       fpi: { n: fpi.n, value: rate(fpi.sq, fpi.n) },
+      marketOnFpi: { n: marketFpi.n, value: rate(marketFpi.sq, marketFpi.n) },
     },
     tiebreaker: { count: tb.n, meanDiff: tb.n > 0 ? round4(tb.sum / tb.n) : null },
     weekRows,
@@ -241,4 +248,21 @@ export function favoriteProbPool(tips: readonly TipsFile[]): number[] {
     }
   }
   return out.map((p) => Math.max(p, 1 - p));
+}
+
+/**
+ * FPI Siegwahrscheinlichkeit des getippten Teams aus den FPI Dateien (data/fpi), für fpiPickProb.
+ * null, wenn das Spiel fehlt oder das getippte Team weder Heim noch Gast ist.
+ */
+export function fpiPickProbLookup(
+  files: readonly { games: readonly { gameId: string; homeId: string; awayId: string; pHome: number; pAway: number }[] }[],
+): (tip: GameTip) => number | null {
+  const byId = new Map(files.flatMap((f) => f.games.map((g) => [g.gameId, g] as const)));
+  return (tip) => {
+    const g = byId.get(tip.gameId);
+    if (!g || tip.pickTeamId === null) return null;
+    if (tip.pickTeamId === g.homeId) return g.pHome;
+    if (tip.pickTeamId === g.awayId) return g.pAway;
+    return null;
+  };
 }
