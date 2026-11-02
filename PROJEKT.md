@@ -16,14 +16,21 @@ Für ein Tippspiel unter Freunden (Sieger pro Spiel plus Tiebreaker Resultat) we
 
 ## Definition of Done
 
-Für eine komplette Regular Season Woche zeigt die Web App am Donnerstag für jedes Spiel einen Tipp mit Siegwahrscheinlichkeit aus Quoten, markierte Abweichungs Kandidaten und einen Tiebreaker Vorschlag, meldet vor jedem Tippschluss geänderte Ausfälle der Startspieler, und zeigt am Dienstag danach die eigene Bilanz der Woche im Vergleich zur Gruppe.
+Das Projekt ist fertig, wenn in einer kompletten Regular Season Woche (Donnerstag bis Dienstag) alle sechs Punkte erfüllt sind. Prüfung durch den Nutzer an einer echten Spielwoche, Ergebnis wird in REGRESSION.md festgehalten.
+
+1. Onboarding: Beim ersten Start erklärt die App, dass Erinnerungen per Web Push kommen, dass dies am iPhone nur nach "Zum Home Bildschirm" funktioniert, fragt die Erlaubnis ab und sendet eine Testnachricht. Der Push Status ist jederzeit in den Einstellungen sichtbar und neu auslösbar.
+2. Tippliste: Donnerstag bis 19:00 steht für jedes Spiel der Woche ein Tipp mit Siegwahrscheinlichkeit aus den Quoten, der Lage (klar, Favorit, unklar), markierten Abweichungs Kandidaten und einem Resultatvorschlag für das Tiebreaker Spiel. Dazu kommt ein Push "Tippliste bereit".
+3. Ausfall Wächter: Spätestens 20 Minuten vor jedem Tippschluss (Kickoff Slot) kommt ein Push mit geänderten Ausfällen von Quarterback und Startspielern seit Donnerstag oder mit "keine Änderung". Ändert sich dadurch ein Tipp, ist das in der Tippliste markiert.
+4. Sperre: Jeder Tipp ist ab Kickoff gesperrt und danach nicht mehr änderbar.
+5. Bilanz: Dienstag zeigt die App die eigenen Punkte der Woche, die Abweichung beim Tiebreaker Resultat, die Punkte der Gruppe (nach Erfassung der Gruppentipps, die erst nach Tippschluss sichtbar sind) und für jede Abweichung, ob sie gegenüber dem Favoriten Tipp einen Punkt gebracht oder gekostet hat. Dazu kommt ein Push "Bilanz bereit".
+6. Zeiten: Alle Zeiten in App und Push stimmen mit Europe/Zurich überein, geprüft an einer Woche mit Sonntagnacht und Montagnacht Spiel.
 
 ## Nicht im Scope
 
 - Echtgeld Wetten, Wettschein Verwaltung oder Anbindung an Buchmacher
 - Automatisches Eintragen der Tipps auf der Tippseite (Tipps setzt der Nutzer selbst)
 - Eigene Tippspiel Plattform für die Freunde
-- Native App (nur Web App, am Handy als PWA)
+- Native App (nur Web App, am Handy als PWA mit Web Push)
 - Fantasy Football, Spielerprojektionen
 - Video, Highlights, Streams, News Volltexte
 - Andere Ligen in Version 1
@@ -32,7 +39,7 @@ Für eine komplette Regular Season Woche zeigt die Web App am Donnerstag für je
 
 keine
 
-Begründung: öffentliche Sportdaten plus Tipps der Freunde ohne Namen (Kürzel). Werden Namen der Freunde gespeichert oder kommt Login dazu, wechselt die Datenklasse auf personendaten und der Datenschutz Check ist vor Gate 2 fällig.
+Begründung: öffentliche Sportdaten, Tipps der Freunde unter Kürzel, eine Push Subscription des eigenen Geräts. Werden Namen der Freunde gespeichert oder kommt Login dazu, wechselt die Datenklasse auf personendaten und der Datenschutz Check ist vor Gate 2 fällig.
 
 ## Release Blocker
 

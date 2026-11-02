@@ -38,7 +38,7 @@ Reihenfolge nach D008: zuerst ersetzt die App den Chat Loop, danach kommen Livet
 |---|---|---|---|
 | 1 | Gerüst: Next.js, Vercel, Supabase EU, Migration 0001, Teams, Spielplan der Woche | Daten, Frontend | Öffentliche URL zeigt alle Spiele der Woche mit korrekter Zürcher Zeit |
 | 2 | Tippliste: Quoten Import, Siegwahrscheinlichkeit, Tipp, Lage (klar, Favorit, unklar), Tiebreaker Vorschlag, Sperre bei Kickoff | Daten, Modell, Frontend | Donnerstag 19:00 steht für jedes Spiel ein Tipp mit Prozentwert, Ansicht gleich wie die Tabelle aus dem Chat Loop |
-| 3 | Ausfall Wächter: Injuries und Inactives je Spiel, Änderung seit Donnerstag markiert, Countdown bis Tippschluss | Daten, Frontend, QA | Sonntag 17:40 zeigt die App jede Änderung bei Startspielern der 19:00 Spiele |
+| 3 | Web Push und Ausfall Wächter: PWA, Onboarding mit Push Erklärung und Testnachricht, Injuries und Inactives je Spiel, Push 20 min vor jedem Tippschluss | Daten, Frontend, QA | DoD Punkte 1 und 3 an einem echten Sonntag erfüllt |
 | 4 | Gruppe und Bilanz: Gruppentipps erfassen, Abweichungs Kandidaten nach D010, Wochenbilanz eigene Tipps vs Gruppe | Modell, Frontend | Dienstag zeigt die App Punkte der Woche für dich und die Gruppe |
 | 5 | Liveticker: Scoreboard mit Polling nach Spielplan, Game Detail mit Play by Play | Daten, Frontend, QA | Sonntag: Rückstand max 30 s auf ESPN, max 4 ESPN Requests pro Minute |
 | 6 | News: RSS ESPN, CBS, PFT, Dedup, Teamfilter | Daten | 3 Quellen, 0 Duplikate, Update alle 30 min |
@@ -58,4 +58,4 @@ Definition of Done ist nach Sprint 4 erreicht. Sprint 5 und 6 erfüllen den ursp
 - Supabase Free pausiert nach 7 Tagen ohne Aktivität: Ping Job
 - Zeitzonen und Wochenzuordnung: D006
 - Saisontiming: Regular Season endet am 10. Januar 2027. Sprint 2 bis 4 müssen an echten Spielwochen abgenommen werden, sonst wartet die Abnahme bis September 2027
-- Benachrichtigung: Der Chat Loop meldet sich aktiv, eine Web App nicht. Ohne Lösung (offene Frage) geht der wichtigste Nutzen verloren
+- Benachrichtigung: Web Push (D012). GitHub Actions Cron startet teils verspätet, deshalb Push Job 40 min vor Tippschluss planen, damit er sicher 20 min davor ankommt

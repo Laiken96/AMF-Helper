@@ -82,3 +82,24 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Tipps der Freunde werden manuell erfasst (Formular oder Screenshot Upload mit Auswertung), gespeichert unter Kürzel
 - Begründung: Die externe Tippseite hat vermutlich keine API. Ungeprüft
 - Verworfen: Scraping der Tippseite
+
+## D012 Web Push als Erinnerung
+
+- Datum: 2026-11-02
+- Entscheid: Erinnerungen per Web Push (PWA, VAPID Keys als Environment Variablen). Beim ersten Start erklärt ein Onboarding den Push, den nötigen Homescreen Schritt am iPhone, fragt die Erlaubnis ab und sendet eine Testnachricht
+- Begründung: Entscheid des Nutzers. Ersetzt die aktiven Meldungen des Chat Loops. Ohne Onboarding scheitert Push am iPhone still
+- Verworfen: E Mail, Chat Loop als Erinnerung
+
+## D013 Tippseite
+
+- Datum: 2026-11-02
+- Entscheid: Ziel ist das Football Bromance Tippspiel (tippspiel.footballbromance.com). 1 Punkt pro richtigem Sieger, bei Gleichstand entscheidet der Resultattipp im Tiebreaker. Tipps anderer sind erst nach Tippschluss sichtbar. Keine Anbindung an die Seite
+- Begründung: Angaben des Nutzers. Die Teilnahmebedingungen (Ziffer 7) erlauben den Ausschluss bei automatisierten Eingaben, deshalb bleibt Tippen strikt manuell
+- Verworfen: Scraping oder automatisches Eintragen
+
+## D014 Abweichungen ohne Live Gruppentipps
+
+- Datum: 2026-11-02
+- Entscheid: Ergänzt D010. Da Gruppentipps erst nach Tippschluss sichtbar sind, schätzt die App das Gruppenverhalten aus den erfassten Vorwochen (Anteil Favoriten Tipps je Wahrscheinlichkeitsband). Bis 3 Wochen erfasst sind, gilt die Annahme, dass die Gruppe den Favoriten tippt
+- Begründung: Angabe des Nutzers zu Frage 3
+- Verworfen: Abweichungen ohne jede Gruppenbasis
