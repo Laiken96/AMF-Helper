@@ -30,4 +30,4 @@ Kickoff. Noch kein Code.
 
 ## Nächster Schritt
 
-Gate 1: Nutzer bestätigt PROJEKT.md. Danach Sprint 1 laut PLAN.md.
+Sprint 1 laut sprints/sprint-01.md.

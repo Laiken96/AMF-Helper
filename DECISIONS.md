@@ -103,3 +103,17 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ergänzt D010. Da Gruppentipps erst nach Tippschluss sichtbar sind, schätzt die App das Gruppenverhalten aus den erfassten Vorwochen (Anteil Favoriten Tipps je Wahrscheinlichkeitsband). Bis 3 Wochen erfasst sind, gilt die Annahme, dass die Gruppe den Favoriten tippt
 - Begründung: Angabe des Nutzers zu Frage 3
 - Verworfen: Abweichungen ohne jede Gruppenbasis
+
+## D015 Gegner ist die Freundesgruppe
+
+- Datum: 2026-11-02
+- Entscheid: Optimiert wird auf die Rangliste gegen die Freunde, nicht auf den Wochensieg im öffentlichen Tippspiel. Pro Woche höchstens 2 Abweichungs Kandidaten, Schwelle aus D010 bleibt
+- Begründung: Angabe des Nutzers. In einer kleinen Gruppe kosten viele Abweichungen im Schnitt mehr Punkte als sie bringen
+- Verworfen: aggressive Abweichungs Strategie für grosse öffentliche Pools
+
+## D016 Tippschluss pro Kickoff
+
+- Datum: 2026-11-02
+- Entscheid: Tippschluss gilt pro Spiel beim Kickoff. Status: ungeprüft. Sperrlogik und Push Planung lesen den Tippschluss aus einer Einstellung (pro Kickoff oder Wochenfrist), damit ein Irrtum ohne Umbau korrigierbar ist
+- Begründung: Nutzer vermutet Kickoff, der Chat Loop arbeitet ebenfalls so. Prüfung durch den Nutzer auf der Tippseite bis Ende Sprint 1
+- Verworfen: fest einprogrammierter Tippschluss

@@ -48,7 +48,7 @@ Definition of Done ist nach Sprint 4 erreicht. Sprint 5 und 6 erfüllen den ursp
 
 ## Gates
 
-- Gate 1 vor Sprint 1: Nutzer bestätigt PROJEKT.md (Problem, DoD, Nicht im Scope). Offen
+- Gate 1 vor Sprint 1: bestanden am 2026-11-02
 - Gate 2 vor erstem Freund als Nutzer: BETRIEB.md, Backup, Rollback, Datenschutz falls Login
 - Gate 3 vor Sprint 5 und jedem weiteren Feature
 
