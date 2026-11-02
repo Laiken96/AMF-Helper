@@ -3,17 +3,17 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-02T21:47:17Z",
+  "updatedAt": "2026-11-02T22:47:20Z",
   "maxDeviations": 2,
   "tips": [
     {
       "gameId": "401873037",
       "kickoffUtc": "2026-11-06T01:15:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 8.5,
         "overUnder": 42.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.2645,
       "pickTeamId": "30",
@@ -29,10 +29,10 @@
       "gameId": "401873038",
       "kickoffUtc": "2026-11-08T14:30:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 3,
-        "overUnder": 51.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "overUnder": 52.5,
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.4121,
       "pickTeamId": "1",
@@ -48,10 +48,10 @@
       "gameId": "401873039",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -2.5,
         "overUnder": 43.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.5735,
       "pickTeamId": "5",
@@ -67,10 +67,10 @@
       "gameId": "401873040",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 6,
         "overUnder": 51.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.3284,
       "pickTeamId": "6",
@@ -86,10 +86,10 @@
       "gameId": "401873041",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 3,
         "overUnder": 43.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.4121,
       "pickTeamId": "7",
@@ -105,10 +105,10 @@
       "gameId": "401873042",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 7,
         "overUnder": 50.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.302,
       "pickTeamId": "8",
@@ -124,10 +124,10 @@
       "gameId": "401873043",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 5.5,
         "overUnder": 47.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.3419,
       "pickTeamId": "14",
@@ -143,10 +143,10 @@
       "gameId": "401873044",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 3.5,
-        "overUnder": 39.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "overUnder": 40.5,
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.3977,
       "pickTeamId": "19",
@@ -162,10 +162,10 @@
       "gameId": "401873045",
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -9.5,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.7592,
       "pickTeamId": "12",
@@ -181,10 +181,10 @@
       "gameId": "401873046",
       "kickoffUtc": "2026-11-08T21:05:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 4.5,
         "overUnder": 40.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.3694,
       "pickTeamId": "34",
@@ -200,14 +200,14 @@
       "gameId": "401873047",
       "kickoffUtc": "2026-11-08T21:25:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": -9.5,
+        "provider": "Draft Kings",
+        "spreadHome": -10,
         "overUnder": 51.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
-      "pHome": 0.7592,
+      "pHome": 0.7706,
       "pickTeamId": "25",
-      "pickProb": 0.7592,
+      "pickProb": 0.7706,
       "level": "klar",
       "deviation": false,
       "firstPickTeamId": "25",
@@ -219,10 +219,10 @@
       "gameId": "401873048",
       "kickoffUtc": "2026-11-08T21:25:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -11.5,
         "overUnder": 44.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.8029,
       "pickTeamId": "26",
@@ -238,10 +238,10 @@
       "gameId": "401873049",
       "kickoffUtc": "2026-11-08T21:25:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -3,
         "overUnder": 47.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.5879,
       "pickTeamId": "17",
@@ -257,14 +257,14 @@
       "gameId": "401873050",
       "kickoffUtc": "2026-11-09T01:20:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": -5.5,
+        "provider": "Draft Kings",
+        "spreadHome": -4.5,
         "overUnder": 47.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
-      "pHome": 0.6581,
+      "pHome": 0.6306,
       "pickTeamId": "3",
-      "pickProb": 0.6581,
+      "pickProb": 0.6306,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "3",
@@ -276,10 +276,10 @@
       "gameId": "401873051",
       "kickoffUtc": "2026-11-10T01:15:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 3.5,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-02T21:47:17Z"
+        "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "pHome": 0.3977,
       "pickTeamId": "2",

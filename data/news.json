@@ -1,7 +1,133 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T21:46:45Z",
+  "updatedAt": "2026-11-02T22:47:21Z",
   "items": [
+    {
+      "id": "c6c1d3d3a439ed02",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-to-sign-qb-cam-miller-to-practice-squad",
+      "title": "Packers to sign QB Cam Miller to practice squad",
+      "summary": "The Packers are signing free agent quarterback Cam Miller to the practice squad, Jeremy Fowler of ESPN reports.",
+      "publishedAt": "2026-11-02T22:43:02Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "938052169f1ea1cc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-lost-linebacker-jimmy-rolder-to-season-ending-hamstring-injury-vs-vikings",
+      "title": "Lions lost linebacker Jimmy Rolder to season-ending hamstring injury vs. Vikings",
+      "summary": "Lions linebacker Jimmy Rolder will miss the rest of the season after suffering a hamstring injury on Sunday against the Vikings.",
+      "publishedAt": "2026-11-02T22:36:50Z",
+      "teamIds": [
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "1f3e83fb206f865b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-waive-s-elliott-davison",
+      "title": "Patriots waive S Elliott Davison",
+      "summary": "The Patriots waived safety Elliott Davison, the team announced Monday.",
+      "publishedAt": "2026-11-02T22:28:26Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "72d703da81d0c932",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cardinals-name-gardner-minshew-carson-beck-no-2-jacoby-brissett",
+      "title": "Cardinals name Gardner Minshew as starter, Carson Beck No. 2: What's next for Jacoby Brissett?",
+      "summary": "Brissett has been demoted to third string after Arizona's comeback win against the Cowboys",
+      "publishedAt": "2026-11-02T22:27:10Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
+    {
+      "id": "74632b6bb2b3391a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-garrett-will-practice-this-week",
+      "title": "Myles Garrett will practice this week",
+      "summary": "The Rams will make a decision on his Week 9 status later in the week.",
+      "publishedAt": "2026-11-02T22:27:05Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "f917f18108a448ed",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-nfl-caleb-williams-shoe-dispute-takes-center-stage-on-monday-night",
+      "title": "The NFL, Caleb Williams shoe dispute takes center stage on Monday night",
+      "summary": "Monday night's game between the Bears and Seahawks in Seattle comes with a subplot.",
+      "publishedAt": "2026-11-02T22:23:00Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "4cdef2fe983d78b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-wr-kendrick-bournes-ankle-injury-could-end-his-season",
+      "title": "Cardinals WR Kendrick Bourne's ankle injury could end his season",
+      "summary": "Cardinals wide receiver Kendrick Bourne had a non-contact injury with 21 seconds left in the first half of the team's 33-30 overtime win over the Cowboys.",
+      "publishedAt": "2026-11-02T22:06:28Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
+    {
+      "id": "911e4cc5c69afc28",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-seahawks-vs-bears-monday-night-football-betting",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Seahawks vs. Bears, Monday Night Football betting",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Seahawks vs. Bears on Monday Night Football",
+      "publishedAt": "2026-11-02T22:00:52Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "50678651f50c296d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-name-gardner-minshew-starting-quarterback-carson-beck-his-backup",
+      "title": "Cardinals name Gardner Minshew starting quarterback, Carson Beck his backup",
+      "summary": "Jacoby Brissett, who started the first eight games, will now serve as Arizona's emergency third QB.",
+      "publishedAt": "2026-11-02T21:51:05Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "c310a258336a5bd8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-suffered-new-ankle-injury-sunday-did-not-aggravate-previous-one",
+      "title": "Jeremiyah Love suffered a new ankle injury on Sunday",
+      "summary": "Cardinals running back Jeremiyah Love's return to the lineup on Sunday came to an early end.",
+      "publishedAt": "2026-11-02T21:50:23Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "70042fbe819bc766",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-waive-rb-audric-estime",
+      "title": "Browns waive RB Audric Estime",
+      "summary": "The Browns waived running back Audric Estime on Monday, the team announced.",
+      "publishedAt": "2026-11-02T21:44:09Z",
+      "teamIds": [
+        "5"
+      ]
+    },
     {
       "id": "f549cba67b2619df",
       "source": "pft",
@@ -613,7 +739,7 @@
       "id": "264f5909e7353397",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/seahawks-vs-bears-how-to-watch-prediction-odds-caleb-williams",
-      "title": "Seahawks vs. Bears: Caleb Williams faces toughest test yet in Seattle defense",
+      "title": "Seahawks vs. Bears prediction: Caleb Williams faces toughest test yet in Seattle defense",
       "summary": "The Bears take their surging offense into Seattle for a matchup with one of the NFL's best defenses",
       "publishedAt": "2026-11-02T12:37:52Z",
       "teamIds": [
@@ -1591,134 +1717,6 @@
       "summary": "Will receivers Charlie Becker and Nick Marsh both go early? What makes Chris Cole stand out among the linebackers? Here's draft spin off CFB Week 9.",
       "publishedAt": "2026-11-01T21:06:52Z",
       "teamIds": []
-    },
-    {
-      "id": "32ba6f25c10a18ac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylen-waddle-zach-allen-garett-bolles-brandon-jones-active-for-broncos",
-      "title": "Jaylen Waddle, Zach Allen, Garett Bolles, Brandon Jones active for Broncos",
-      "summary": "The Broncos entered Sunday with four players listed as questionable.",
-      "publishedAt": "2026-11-01T20:35:36Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "fc1c7cccd4074174",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carlton-davis-is-active-for-the-patriots-in-miami",
-      "title": "Carlton Davis is active for the Patriots in Miami",
-      "summary": "Cornerback Carlton Davis is back in the lineup for the Patriots.",
-      "publishedAt": "2026-11-01T20:07:17Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "afe1e379a01b1930",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/patriots-vs-dolphins-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-8",
-      "title": "Patriots vs. Dolphins odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 8",
-      "summary": "Claim the latest Polymarket promo code to make predictions for Sunday's Week 8 matchup between New England and Miami",
-      "publishedAt": "2026-11-01T20:00:56Z",
-      "teamIds": [
-        "15",
-        "17"
-      ]
-    },
-    {
-      "id": "1d7ec418a7d9cd8c",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chargers-vs-rams-odds-predictions-use-best-kalshi-promo-code-cbssports55-for-55-bonus-for-nfl-week-8-games",
-      "title": "Chargers vs. Rams odds, predictions: Use best Kalshi promo code CBSSPORTS55 for $55 bonus for NFL Week 8 games",
-      "summary": "The Chargers and Rams face off in an L.A. rivalry showdown, and here's a look at the trading markets available for Sunday's matchup at Kalshi",
-      "publishedAt": "2026-11-01T19:45:43Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "991dfb6014472947",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chiefs-vs-broncos-odds-picks-spread-prediction-start-time-nfl-week-8-betting-preview-best-bets",
-      "title": "Chiefs vs. Broncos odds, picks, spread, prediction: Start time, NFL Week 8 betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Chiefs vs. Broncos in NFL Week 8",
-      "publishedAt": "2026-11-01T19:40:46Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "cc1331ce872cd1e7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-has-gone-eight-straight-starts-without-multiple-tds",
-      "title": "Justin Herbert has gone eight straight starts without multiple TDs",
-      "summary": "As the 0-6 Chargers emerge from their bye with a \"visit\" to the Rams, quarterback Justin Herbert will be trying to reverse a horrible trend.",
-      "publishedAt": "2026-11-01T19:15:50Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "c16dc40a735e28fd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-rule-out-lamar-jackson-with-right-thumb-injury",
-      "title": "Ravens rule out Lamar Jackson with right thumb injury",
-      "summary": "Tyler Huntley has replcaed Jackson.",
-      "publishedAt": "2026-11-01T18:44:47Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "6639c32f9a9f3410",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/deshaun-watson-injury-browns-qb-steelers",
-      "title": "Deshaun Watson injury: Browns QB temporarily exits vs. Steelers after taking a big hit early",
-      "summary": "Shedeur Sanders briefly replaced Watson at quarterback",
-      "publishedAt": "2026-11-01T18:23:43Z",
-      "teamIds": [
-        "5",
-        "23"
-      ]
-    },
-    {
-      "id": "fb5a06c966d38149",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-8-expert-picks-predictions-odds-schedule-2026",
-      "title": "NFL Week 8 odds, predictions, expert picks: Who wins Chiefs vs. Broncos showdown?",
-      "summary": "Here's what our experts and the SportsLine model are forecasting in Week 8",
-      "publishedAt": "2026-11-01T18:03:20Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "6fe55212f9333903",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-jauan-jennings-declined-trade-to-49ers",
-      "title": "Jauan Jennings declined trade to return to 49ers after Vikings had framework set, per report",
-      "summary": "The veteran receiver chose to stay with the undefeated Vikings over a reunion with Kyle Shanahan and Brock Purdy, despite having caught just four passes this season",
-      "publishedAt": "2026-11-01T17:44:29Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "fe5e2223c1b86399",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jonathan-taylor-trade-rumors-colts-not-shopping-around",
-      "title": "Jonathan Taylor trade rumors: Colts not actively shopping around star running back before deadline",
-      "summary": "However, in a meeting with ownership, Taylor was not given any assurances that a deal would not happen, according to CBS Sports' Aditi Kinkhabwala",
-      "publishedAt": "2026-11-01T17:42:39Z",
-      "teamIds": [
-        "11"
-      ]
     }
   ]
 }
