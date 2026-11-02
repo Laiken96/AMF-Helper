@@ -1,5 +1,5 @@
 // Tipplogik Sprint 2. Reine Funktionen ohne Node APIs, nutzbar in Jobs und App.
-// Regeln siehe sprints/sprint-02.md, D010, D021, D023, D024.
+// Regeln siehe sprints/sprint-02.md, D010, D021, D023, D024, D025.
 import { compareGames } from "./espn";
 import type { Game, WeekFile } from "./schema";
 import {
@@ -21,7 +21,34 @@ export const STANDARD_TIEBREAKER = { favorite: 23, underdog: 20 } as const;
 export const LATE_SEASON_WEEK = 15;
 
 export type TipLevel = GameTip["level"];
-export type Tiebreaker = NonNullable<TipsFile["tiebreaker"]>;
+export type Tiebreaker = TipsFile["tiebreakers"][number];
+export type TiebreakerSlot = Tiebreaker["slot"];
+
+const NY_WEEKDAY = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short" });
+
+/** Wochentag eines Kickoffs in America/New_York, z. B. "Thu" (D025). */
+export function weekdayNewYork(kickoffUtc: string): string {
+  return NY_WEEKDAY.format(new Date(kickoffUtc));
+}
+
+/**
+ * Tiebreaker Spiele nach D025: spätestes Spiel am Donnerstag und spätestes am Montag in America/New_York.
+ * Reihenfolge thursday vor monday, fehlende Tage fallen weg.
+ */
+export function tiebreakerGames(games: readonly Game[]): Array<{ slot: TiebreakerSlot; game: Game }> {
+  const sorted = [...games].sort(compareGames);
+  const out: Array<{ slot: TiebreakerSlot; game: Game }> = [];
+  const days: Array<[TiebreakerSlot, string]> = [
+    ["thursday", "Thu"],
+    ["monday", "Mon"],
+  ];
+  for (const [slot, day] of days) {
+    const onDay = sorted.filter((g) => weekdayNewYork(g.kickoffUtc) === day);
+    const latest = onDay[onDay.length - 1];
+    if (latest) out.push({ slot, game: latest });
+  }
+  return out;
+}
 
 /** Fehlerfunktion nach Abramowitz und Stegun 7.1.26, absoluter Fehler unter 1.5e-7. */
 export function erf(x: number): number {
@@ -106,7 +133,7 @@ export function chooseDeviations(tips: readonly GameTip[], max: number): Set<str
 }
 
 /** Resultatvorschlag aus Over/Under und Spread. Favorit = (OU + |spread|)/2, Aussenseiter = (OU minus |spread|)/2. */
-export function tiebreakerFor(game: Game, odds: Odds | null): Tiebreaker {
+export function tiebreakerFor(game: Game, odds: Odds | null, slot: TiebreakerSlot): Tiebreaker {
   const homeFavorite = odds === null || odds.spreadHome <= 0;
   let fav: number = STANDARD_TIEBREAKER.favorite;
   let dog: number = STANDARD_TIEBREAKER.underdog;
@@ -121,6 +148,7 @@ export function tiebreakerFor(game: Game, odds: Odds | null): Tiebreaker {
   }
   return {
     gameId: game.id,
+    slot,
     homePoints: homeFavorite ? fav : dog,
     awayPoints: homeFavorite ? dog : fav,
     basis,
@@ -204,14 +232,14 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
     };
   });
 
-  // Tiebreaker: erstes Spiel nach Kickoff. Gesperrt bleibt der bisherige Vorschlag.
-  let tiebreaker: Tiebreaker | null = null;
-  const first = games[0];
-  if (first) {
-    const firstTip = merged[0]!;
-    const prevTb = sameWeek ? input.existing!.tiebreaker : null;
-    tiebreaker = firstTip.locked && prevTb?.gameId === first.id ? prevTb : tiebreakerFor(first, firstTip.odds);
-  }
+  // Tiebreaker nach D025. Gesperrt bleibt der bisherige Vorschlag.
+  const tipById = new Map(merged.map((t) => [t.gameId, t]));
+  const prevTbs = sameWeek ? input.existing!.tiebreakers : [];
+  const tiebreakers = tiebreakerGames(games).map(({ slot, game }) => {
+    const tip = tipById.get(game.id)!;
+    const prevTb = prevTbs.find((t) => t.slot === slot && t.gameId === game.id);
+    return tip.locked && prevTb ? prevTb : tiebreakerFor(game, tip.odds, slot);
+  });
 
   return TipsFileSchema.parse({
     schemaVersion: TIPS_SCHEMA_VERSION,
@@ -221,7 +249,7 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
     updatedAt: now,
     maxDeviations: max,
     tips: merged,
-    tiebreaker,
+    tiebreakers,
   });
 }
 

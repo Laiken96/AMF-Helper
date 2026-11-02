@@ -478,3 +478,38 @@ body {
   color: var(--text);
   border: 1px solid var(--pending-border);
 }
+
+.tb-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.tb-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 8px;
+}
+
+.tb-day {
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 1.6em;
+}
+
+.tb-list .box-meta {
+  margin-top: 0;
+  flex-basis: 100%;
+  padding-left: calc(1.6em + 8px);
+}
+
+.tb-flag {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--card);
+  font-weight: 700;
+}

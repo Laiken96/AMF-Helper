@@ -263,7 +263,7 @@ const EspnOddsEventSchema = z.looseObject({
             }),
           )
           .nullish(),
-        odds: z.array(z.unknown()).nullish(),
+        odds: z.unknown().optional(),
       }),
     )
     .nullish(),
@@ -336,7 +336,8 @@ export function parseOdds(raw: unknown, fetchedAt: string): Record<string, Odds 
     const comp = ev.data.competitions?.[0];
     const competitors = comp?.competitors ?? [];
     const abbr = (side: string) => competitors.find((c) => c.homeAway === side)?.team?.abbreviation ?? null;
-    out[ev.data.id] = normalizeOdds(comp?.odds?.[0], abbr("home"), abbr("away"), fetchedAt);
+    const first = Array.isArray(comp?.odds) ? (comp.odds as unknown[])[0] : undefined;
+    out[ev.data.id] = normalizeOdds(first, abbr("home"), abbr("away"), fetchedAt);
   }
   return out;
 }

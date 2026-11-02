@@ -77,13 +77,19 @@ export function TipsView() {
 interface TipRow extends GameTip {
   id: string;
   game: Game | undefined;
+  tiebreaker: boolean;
 }
 
 function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map(data.week.games.map((g) => [g.id, g])), [data.week]);
   const rows: TipRow[] = useMemo(
-    () => tips.tips.map((t) => ({ ...t, id: t.gameId, game: gameById.get(t.gameId) })),
+    () => tips.tips.map((t) => ({
+        ...t,
+        id: t.gameId,
+        game: gameById.get(t.gameId),
+        tiebreaker: tips.tiebreakers.some((tb) => tb.gameId === t.gameId),
+      })),
     [tips, gameById],
   );
   const slots = useMemo(() => groupBySlot(rows), [rows]);
@@ -151,6 +157,10 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   );
 }
 
+type Tiebreaker = TipsFile["tiebreakers"][number];
+
+const SLOT_DAY: Record<Tiebreaker["slot"], string> = { thursday: "Do", monday: "Mo" };
+
 function TiebreakerBox({
   tips,
   gameById,
@@ -160,25 +170,30 @@ function TiebreakerBox({
   gameById: Map<string, Game>;
   team: (id: string) => Team;
 }) {
-  const tb = tips.tiebreaker;
-  const game = tb ? gameById.get(tb.gameId) : undefined;
-  const kickoff = tb ? (tips.tips.find((t) => t.gameId === tb.gameId)?.kickoffUtc ?? game?.kickoffUtc) : undefined;
+  if (tips.tiebreakers.length === 0) return null;
   return (
     <section className="box" aria-label="Tiebreaker">
       <h2>Tiebreaker</h2>
-      {tb && game ? (
-        <>
-          <p className="tb-line">
-            {team(game.awayId).abbr} {tb.awayPoints} : {tb.homePoints} {team(game.homeId).abbr}
-          </p>
-          <p className="box-meta">
-            {kickoff ? `Kickoff ${formatKickoffZurich(kickoff)}` : ""}
-            {tb.basis === "standard" ? " · Standardwert ohne Over/Under" : ""}
-          </p>
-        </>
-      ) : (
-        <p className="box-meta">Kein Vorschlag vorhanden</p>
-      )}
+      <ul className="tb-list">
+        {tips.tiebreakers.map((tb) => {
+          const game = gameById.get(tb.gameId);
+          const kickoff = tips.tips.find((t) => t.gameId === tb.gameId)?.kickoffUtc ?? game?.kickoffUtc;
+          return (
+            <li key={tb.gameId}>
+              <span className="tb-day">{SLOT_DAY[tb.slot]}</span>
+              <span className="tb-line">
+                {game
+                  ? `${team(game.awayId).abbr} ${tb.awayPoints} : ${tb.homePoints} ${team(game.homeId).abbr}`
+                  : `${tb.awayPoints} : ${tb.homePoints}`}
+              </span>
+              <span className="box-meta">
+                {kickoff ? `Kickoff ${formatKickoffZurich(kickoff)}` : ""}
+                {tb.basis === "standard" ? " · Standardwert" : ""}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
     </section>
   );
 }
@@ -265,6 +280,7 @@ function TipItem({
       </div>
       <div className="tip-meta">
         <span className="flags">
+          {row.tiebreaker && <span className="flag tb-flag">Resultat tippen</span>}
           {row.deviation && (
             <span className="flag" title="Bewusste Abweichung vom Favoriten">
               <span aria-hidden="true">🎯</span> Abweichung
