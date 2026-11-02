@@ -265,3 +265,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Ergänzt D036 für das Duo aufgeklappt quer. Links bis zum Falz ein Spielbereich für das Spiel mit dem nächsten Tippschluss in Teamfarben: Countdown, Ring mit Siegwahrscheinlichkeit, Tipp, Resultat Tiebreaker, wichtigster Ausfall, Knopf zur Tippseite. Rechts die scrollende Spielliste mit Umschalter Offen oder Alle und Fortschritt. Navigation als senkrechte Kapsel in der rechten Systemspalte, darüber eine Werkzeugkapsel (Aktualisieren, Benachrichtigungen). Keine Navigation links
 - Begründung: Referenz Screenshot des Nutzers (Sport App auf dem Duo quer), entspricht der Apple Empfehlung, Leisten auf dem Duo rechts zu führen
 - Verworfen: Navigationsleiste links aus D036
+
+## D038 Durchgängiges Design über alle Bildschirmformen
+
+- Datum: 2026-11-02
+- Entscheid: Vier Bausteine in allen Layouts gleich: Spielbereich in Teamfarben mit Ring der Siegwahrscheinlichkeit, Tipp, Tiebreaker Resultat, wichtigstem Ausfall und Knopf zur Tippseite. Umschalter Offen oder Alle als Kapsel. Spielzeile mit Teampunkt, Tipp, Gegner, Prozent und Häkchen. Navigation als Kapsel mit fünf Symbolen (Tipps, Bilanz, Spielplan, Rangliste, Mehr). Anordnung je Form: iPhone und Duo aufgeklappt hoch mit schwebender Kapsel unten (Leisten im Hochformat waagrecht), Duo zugeklappt und aufgeklappt quer mit senkrechter Kapsel in der rechten Spalte. Spielbereich im iPhone und Duo hoch oben, im Duo quer als linke Hälfte, im Duo zu kompakt oben
+- Begründung: Wunsch des Nutzers nach durchgängigem Design zwischen Duo quer und hoch, Referenz Sport App
+- Verworfen: Reiter als Textleiste oben aus Entwurf A
