@@ -145,3 +145,60 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: fetchedAt wird nur bei Inhaltsänderung geschrieben, die App beschriftet es als "Letzte Änderung". Ein Ausfall des Jobs wird ab Sprint 3 über den Ausfall Wächter erkannt, nicht über einen stündlichen Commit
 - Begründung: Ein Commit pro Stunde würde die Historie fluten
 - Verworfen: data/status.json mit Zeitpunkt jeder Prüfung
+
+## D021 Abweichungen nach Ranglistenstand
+
+- Datum: 2026-11-02
+- Entscheid: Ergänzt D015. Tippgruppe hat 5 Personen inklusive Nutzer, also 4 Gegner. Anzahl Abweichungs Kandidaten pro Woche hängt vom Rückstand in der Saisonrangliste ab: in Führung 0, bis 2 Punkte Rückstand höchstens 1, mehr Rückstand höchstens 2. Gegen Saisonende mit grossem Rückstand höchstens 3. Status: ungeprüft, Kalibrierung mit den Daten aus Sprint 4
+- Begründung: In einer kleinen Gruppe mit Saisonwertung erhöhen Abweichungen vor allem die Streuung. Das hilft nur, wer zurückliegt. Wer führt, verliert dadurch im Schnitt
+- Verworfen: feste Anzahl Abweichungen pro Woche
+
+## D022 Kein verpasster Tipp hat Vorrang vor Abweichungen
+
+- Datum: 2026-11-02
+- Entscheid: Stand nach Week 8: Nutzer Platz 5 mit 45 Punkten aus 73 Tipps (Quote 62 Prozent, beste der Gruppe), Spitze 71 Punkte aus 117 Tipps. Der Rückstand stammt aus rund 44 nicht abgegebenen Tipps, nicht aus schlechter Qualität. Höchste Priorität hat deshalb, dass kein Tipp mehr fehlt (Push vor jedem Tippschluss, D012). Abweichungen nach D021 bleiben, realistisches Saisonziel ist Platz 4 (6 Punkte Rückstand) mit Favoriten Tipps
+- Begründung: 26 Punkte Rückstand auf Platz 1 bei rund 150 verbleibenden Spielen sind über Abweichungen statistisch kaum aufzuholen. Jeder verpasste Tipp kostet dagegen sicher rund 0.6 Punkte
+- Verworfen: aggressive Abweichungen, um Platz 1 zu jagen
+- Datenschutz: Namen der Gruppe werden nie im öffentlichen Repo gespeichert, nur Kürzel
+
+## D023 Tippschluss verifiziert
+
+- Datum: 2026-11-02
+- Entscheid: D016 ist geprüft. Tipps sind pro Spiel bis zum Kickoff änderbar. lockMode bleibt per_kickoff
+- Begründung: vom Nutzer auf der Tippseite verifiziert
+- Folge für D022: Am Donnerstag werden alle Spiele der Woche sofort mit dem Favoriten getippt (Grundtipp), spätere Checks ändern nur noch. Ein vergessener Check kostet so keinen Punkt mehr, nur eine verpasste Korrektur
+
+## D024 Quoten aus ESPN statt The Odds API
+
+- Datum: 2026-11-02
+- Entscheid: Ändert D002 und D009. Siegwahrscheinlichkeit aus dem Spread im ESPN Scoreboard (Anbieter DraftKings) über Normalverteilung mit Standardabweichung 13.5 Punkte. Tiebreaker Resultat aus Over/Under und Spread. The Odds API erst, wenn ESPN Quoten fehlen oder unzuverlässig sind
+- Begründung: ESPN liefert Spread und Over/Under gratis im bereits genutzten Abruf (am 2026-11-02 für Week 9 geprüft). Kein weiteres Konto, kein Key
+- Verworfen: The Odds API in Sprint 2 (Konto und Key nötig, Mehrwert eines zweiten Buchmachers gering)
+
+## D025 Zwei Tiebreaker pro Woche
+
+- Datum: 2026-11-02
+- Entscheid: Laut FAQ der Tippseite gibt es Resultat Tipps nur für das Thursday Night und das Monday Night Game, beide zählen als Tiebreaker. Zuordnung über den Wochentag in America/New_York, bei mehreren Spielen am selben Tag das späteste. Datenvertrag tiebreakers als Liste mit 0 bis 2 Einträgen
+- Begründung: FAQ der Tippseite, vom Nutzer übermittelt. Ersetzt die Annahme "erstes Spiel der Woche"
+- Verworfen: ein einziger Tiebreaker. Ungeprüft bleibt die Regel bei mehreren Spielen am selben Tag
+
+## D026 Abweichungen nach Rückstand pro Restwoche
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt die Schwellen aus D021. Massgebend ist der Rückstand auf den Spieler direkt vor dem Nutzer (Ziel nach D022), geteilt durch die verbleibenden Regular Season Wochen inklusive der aktuellen (18 minus Woche plus 1). Bis 1 Punkt pro Woche: 0 Abweichungen. Bis 2: 1. Darüber: 2. In den letzten 3 Wochen mit über 2 Punkten Rückstand total: 3. In Führung: 0. Postseason: wie letzte 3 Wochen. Tiebreaker Resultat folgt dem getippten Team, bei Abweichung gewinnt der getippte Aussenseiter mit 3 Punkten Vorsprung bei gleichem Total
+- Begründung: Mit D021 hätte die App in Week 9 zwei Abweichungen mit je rund 41 Prozent vorgeschlagen und damit im Schnitt rund 0.35 Punkte verschenkt, obwohl das Ziel Platz 4 bei 6 Punkten Rückstand ohne Risiko erreichbar ist. Ein Resultat Tipp gegen den eigenen Sieger Tipp ist widersprüchlich
+- Verworfen: Rückstand auf Platz 1 als Massstab, feste Schwellen ohne Restlaufzeit
+
+## D027 Review Ergebnisse Sprint 2
+
+- Datum: 2026-11-02
+- Entscheid: Grundtipp ist immer der Favorit vor einer Abweichung. Häkchen "eingetragen" speichert das getippte Team lokal, weicht der aktuelle Tipp ab, warnt die App. Spiele, die beim ersten Lauf schon vorbei sind, heissen "nicht_erfasst" und bekommen keinen Tiebreaker. Der Tipp Job nimmt die Woche aus data/current.json, damit Spielplan und Tipps nie verschiedene Wochen sehen. Beide Jobs laufen im Workflow auch bei Fehler des anderen, der Lauf wird am Ende rot
+- Begründung: unabhängiger Review und QA Sprint 2
+- Verworfen: Häkchen nur als Ja oder Nein ohne Team
+
+## D028 Ziel ist immer Platz 1
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt das Saisonziel aus D022 und das Ziel in D026. Massstab für die Abweichungen ist immer der Rückstand auf Platz 1, die Formel pro Restwoche aus D026 bleibt. Stand Week 9: 26 Punkte auf 10 Wochen ergibt 2 Abweichungen
+- Begründung: Entscheid des Nutzers, die App spielt immer auf Sieg. Product Owner Hinweis dokumentiert: Abweichungen kosten im Schnitt Punkte, die Chance auf Platz 1 bleibt bei 26 Punkten Rückstand klein, dafür sinkt die Chance auf Platz 4
+- Verworfen: Ziel Platz 4 aus D022

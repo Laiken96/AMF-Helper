@@ -7,6 +7,13 @@ import {
   type TeamsFile,
   type WeekFile,
 } from "../core/schema";
+import {
+  StandingsFileSchema,
+  TipsFileSchema,
+  tipsFilePath,
+  type StandingsFile,
+  type TipsFile,
+} from "../core/tips-schema";
 
 export class LoadError extends Error {}
 
@@ -50,4 +57,51 @@ export async function loadWeekData(): Promise<WeekData> {
     loadJson("teams.json", TeamsFileSchema),
   ]);
   return { current, week, teams };
+}
+
+export interface TipsData extends WeekData {
+  standings: StandingsFile;
+  /** null, wenn für diese Woche noch keine Tippdatei existiert. */
+  tips: TipsFile | null;
+}
+
+/** Wie loadJson, liefert aber null, wenn die Datei fehlt (HTTP 404 oder HTML Antwort statt JSON). */
+async function loadOptionalJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> {
+  let res: Response;
+  try {
+    res = await fetch(dataUrl(path), { cache: "no-cache" });
+  } catch {
+    throw new LoadError(`Netzwerkfehler beim Laden von ${path}. Bitte Verbindung prüfen und neu laden.`);
+  }
+  if (res.status === 404) return null;
+  if (!res.ok) {
+    throw new LoadError(`Datei ${path} konnte nicht geladen werden (HTTP ${res.status}).`);
+  }
+  const contentType = res.headers.get("content-type") ?? "";
+  const text = await res.text();
+  if (contentType.includes("text/html") || /^\s*</.test(text)) return null;
+  let json: unknown;
+  try {
+    json = JSON.parse(text);
+  } catch {
+    throw new LoadError(`Datei ${path} ist kein gültiges JSON.`);
+  }
+  const parsed = schema.safeParse(json);
+  if (!parsed.success) {
+    const first = parsed.error.issues[0];
+    const where = first?.path.length ? ` bei Feld ${first.path.join(".")}` : "";
+    throw new LoadError(`Datei ${path} entspricht nicht dem erwarteten Format${where}.`);
+  }
+  return parsed.data;
+}
+
+export async function loadTipsData(): Promise<TipsData> {
+  const current = await loadJson("current.json", CurrentFileSchema);
+  const [week, teams, standings, tips] = await Promise.all([
+    loadJson(current.weekFile, WeekFileSchema),
+    loadJson("teams.json", TeamsFileSchema),
+    loadJson("standings.json", StandingsFileSchema),
+    loadOptionalJson(tipsFilePath(current.season, current.seasonType, current.week), TipsFileSchema),
+  ]);
+  return { current, week, teams, standings, tips };
 }

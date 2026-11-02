@@ -1,7 +1,7 @@
-# Datenjob Spielplan: holt das ESPN Scoreboard und committet Änderungen unter data/.
+# Datenjobs Spielplan und Tippliste: holen das ESPN Scoreboard und committen Änderungen unter data/.
 # Geplante Läufe (schedule) startet GitHub nur auf dem Default Branch, also erst nach dem Merge auf main.
 # Manueller Start über workflow_dispatch geht auf jedem Branch.
-name: Daten Spielplan
+name: Daten Spielplan und Tipps
 
 on:
   schedule:
@@ -23,8 +23,9 @@ permissions:
   actions: write # für den Start von pages.yml nach neuen Daten
 
 concurrency:
-  # Eigene Gruppe je Auslöser, damit ein Cron Lauf einen manuellen Lauf mit Inputs nicht verdrängt.
-  group: data-${{ github.ref }}-${{ github.event_name }}
+  # Eine gemeinsame Gruppe für alle Auslöser, damit nie zwei Läufe gleichzeitig unter data/ committen.
+  # Dadurch kann ein manueller Lauf einen wartenden Cron Lauf verdrängen. Das ist akzeptiert, weil beide dieselbe Arbeit tun.
+  group: data-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -41,7 +42,11 @@ jobs:
 
       - run: npm ci
 
+      # Beide Datenschritte laufen auch, wenn der andere fehlschlägt. Gültige Ergebnisse werden committet,
+      # der letzte Schritt macht den Lauf trotzdem rot. Ein fehlgeschlagener Job lässt seine Dateien unverändert.
       - name: Spielplan holen
+        id: schedule
+        continue-on-error: true
         env:
           IN_SEASON: ${{ inputs.season }}
           IN_TYPE: ${{ inputs.type }}
@@ -53,6 +58,21 @@ jobs:
           [ -n "$IN_WEEK" ] && args+=(--week "$IN_WEEK")
           npm run job:schedule -- "${args[@]}"
 
+      # Läuft nach dem Spielplan mit denselben Inputs. Ohne Inputs gilt die Woche aus data/current.json.
+      - name: Tipps berechnen
+        id: tips
+        continue-on-error: true
+        env:
+          IN_SEASON: ${{ inputs.season }}
+          IN_TYPE: ${{ inputs.type }}
+          IN_WEEK: ${{ inputs.week }}
+        run: |
+          args=()
+          [ -n "$IN_SEASON" ] && args+=(--season "$IN_SEASON")
+          [ -n "$IN_TYPE" ] && args+=(--type "$IN_TYPE")
+          [ -n "$IN_WEEK" ] && args+=(--week "$IN_WEEK")
+          npm run job:tips -- "${args[@]}"
+
       - name: Änderungen committen
         id: commit
         run: |
@@ -63,7 +83,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git commit -m "data: Spielplan aktualisiert"
+          git commit -m "data: Daten aktualisiert"
           git pull --rebase
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"
@@ -75,3 +95,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
+
+      - name: Fehler der Datenschritte melden
+        if: steps.schedule.outcome == 'failure' || steps.tips.outcome == 'failure'
+        run: |
+          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}"
+          exit 1

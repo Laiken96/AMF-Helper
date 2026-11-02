@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit",
     "test": "vitest run",
-    "job:schedule": "tsx jobs/fetch-schedule.ts"
+    "job:schedule": "tsx jobs/fetch-schedule.ts",
+    "job:tips": "tsx jobs/build-tips.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

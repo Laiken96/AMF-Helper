@@ -2,21 +2,49 @@ import { useEffect, useMemo, useState } from "react";
 import type { Game, Team } from "../core/schema";
 import { groupBySlot } from "../core/time";
 import { LoadError, loadWeekData, type WeekData } from "./data";
+import { TipsView } from "./TipsView";
+import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
+
+type View = "tipps" | "spielplan";
+
+function viewFromHash(): View {
+  return window.location.hash === "#spielplan" ? "spielplan" : "tipps";
+}
+
+export function App() {
+  const [view, setView] = useState<View>(viewFromHash);
+
+  useEffect(() => {
+    const onHash = () => setView(viewFromHash());
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
+
+  return (
+    <>
+      <nav className="nav" aria-label="Ansicht">
+        <div className="nav-inner">
+          <a href="#tipps" className={view === "tipps" ? "active" : undefined} aria-current={view === "tipps" ? "page" : undefined}>
+            Tipps
+          </a>
+          <a
+            href="#spielplan"
+            className={view === "spielplan" ? "active" : undefined}
+            aria-current={view === "spielplan" ? "page" : undefined}
+          >
+            Spielplan
+          </a>
+        </div>
+      </nav>
+      <main className="page">{view === "tipps" ? <TipsView /> : <ScheduleView />}</main>
+    </>
+  );
+}
 
 type State =
   | { kind: "loading" }
   | { kind: "error"; message: string }
   | { kind: "ready"; data: WeekData };
-
-const fetchedFormat = new Intl.DateTimeFormat("de-CH", {
-  timeZone: "Europe/Zurich",
-  weekday: "short",
-  day: "2-digit",
-  month: "2-digit",
-  year: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-});
 
 const STATUS_TEXT: Record<Game["status"], string> = {
   scheduled: "Geplant",
@@ -26,7 +54,7 @@ const STATUS_TEXT: Record<Game["status"], string> = {
   canceled: "Abgesagt",
 };
 
-export function App() {
+function ScheduleView() {
   const [state, setState] = useState<State>({ kind: "loading" });
 
   useEffect(() => {
@@ -44,18 +72,9 @@ export function App() {
     };
   }, []);
 
-  return (
-    <main className="page">
-      {state.kind === "loading" && <p className="notice">Daten werden geladen …</p>}
-      {state.kind === "error" && (
-        <div className="notice notice-error" role="alert">
-          <strong>Daten konnten nicht geladen werden.</strong>
-          <p>{state.message}</p>
-        </div>
-      )}
-      {state.kind === "ready" && <WeekView data={state.data} />}
-    </main>
-  );
+  if (state.kind === "loading") return <p className="notice">Daten werden geladen …</p>;
+  if (state.kind === "error") return <LoadErrorNotice message={state.message} />;
+  return <WeekView data={state.data} />;
 }
 
 function WeekView({ data }: { data: WeekData }) {
@@ -133,21 +152,4 @@ function GameRow({ game, teamById }: { game: Game; teamById: Map<string, Team> }
       </div>
     </li>
   );
-}
-
-function TeamBadge({ team }: { team: Team }) {
-  return (
-    <span className="team" title={team.name}>
-      {team.logo ? (
-        <img src={team.logo} alt="" width={28} height={28} loading="lazy" />
-      ) : (
-        <span className="logo-placeholder" aria-hidden="true" />
-      )}
-      <span className="abbr">{team.abbr}</span>
-    </span>
-  );
-}
-
-function fallbackTeam(id: string): Team {
-  return { id, abbr: `#${id}`, name: `Team ${id}`, shortName: `Team ${id}`, logo: null, color: null };
 }
