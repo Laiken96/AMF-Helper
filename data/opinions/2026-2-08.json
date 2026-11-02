@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 8,
+  "updatedAt": "2026-11-02T19:40:55Z",
+  "model": "claude-haiku-5-5",
+  "opinions": [
+    {
+      "gameId": "401873036",
+      "createdAt": "2026-11-02T19:40:55Z",
+      "winnerTeamId": "26",
+      "pWinner": 0.6,
+      "marketPickTeamId": "26",
+      "marketProb": 0.5879,
+      "reasoning": "Seattle spielt zuhause und ist laut Markt mit 58,8 Prozent und einem Spread von -3 plausibel favorisiert. Bei den Seahawks fehlen OT Charles Cross und RB Velus Jones, QB Drew Lock ist wegen seines Ellbogens fraglich, während bei den Bears RB Kyle Monangai ausfällt und TE Colston Loveland sowie LB TJ Edwards als spielbereit gelten. Das Wetter ist neutral, daher sehe ich Seattle knapp vorn bei etwa 60 Prozent.",
+      "sources": [
+        {
+          "title": "Seattle Seahawks Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/sea/seattle-seahawks"
+        },
+        {
+          "title": "Chicago Bears Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/chi/chicago-bears"
+        },
+        {
+          "title": "Chicago Bears vs. Seattle Seahawks Weather Forecast: Monday Night Football Conditions",
+          "url": "https://dknetwork.draftkings.com/2026/11/01/bears-vs-seahawks-weather-forecast-mnf/"
+        }
+      ]
+    }
+  ]
+}
