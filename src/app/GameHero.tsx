@@ -39,9 +39,12 @@ export function useNow(): number {
   return now;
 }
 
-/** "3 T 21 h", "5 h 12 min" oder "12 min". */
+/**
+ * "3 T 21 h", "5 h 12 min" oder "12 min". Minuten werden aufgerundet: angezeigt wird nie weniger als die
+ * echte Restzeit und höchstens 59 s mehr (59 s Rest ergibt "1 min", nicht "0 min").
+ */
 export function formatCountdown(ms: number): string {
-  const totalMin = Math.max(0, Math.floor(ms / 60_000));
+  const totalMin = Math.max(0, Math.ceil(ms / 60_000));
   const d = Math.floor(totalMin / 1440);
   const h = Math.floor((totalMin % 1440) / 60);
   const m = totalMin % 60;

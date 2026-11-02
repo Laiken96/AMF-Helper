@@ -126,14 +126,17 @@ function TipsList({ data, tips }: { data: TipsData; tips: TipsFile }) {
   const now = useNow();
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map(data.week.games.map((g) => [g.id, g])), [data.week]);
+  // Ab Kickoff gilt ein Spiel in der Anzeige als gesperrt, auch wenn der stündliche Tippjob es noch nicht
+  // gesperrt hat. Nur Darstellung, die Datei bleibt unverändert.
   const rows: TipRow[] = useMemo(
     () => tips.tips.map((t) => ({
         ...t,
+        locked: t.locked || Date.parse(t.kickoffUtc) <= now,
         id: t.gameId,
         game: gameById.get(t.gameId),
         tiebreaker: tips.tiebreakers.some((tb) => tb.gameId === t.gameId),
       })),
-    [tips, gameById],
+    [tips, gameById, now],
   );
 
   const keyFor = (gameId: string) => storageKey(tips.season, tips.seasonType, tips.week, gameId);
@@ -393,7 +396,7 @@ function TipItem({
   const hasFlags = row.tiebreaker || row.deviation || row.changedSinceFirst || row.locked;
 
   return (
-    <li className={classes.join(" ")}>
+    <li className={classes.join(" ")} data-anchor={row.gameId}>
       <div className="tip-row">
         <span className="dot" style={{ background: dot }} aria-hidden="true" />
         <span className={hasPick ? "tip-pick" : "tip-pick nopick"} title={pick?.name}>

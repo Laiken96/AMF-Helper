@@ -27,7 +27,7 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Sprint 4 gebaut am 2026-11-02: Wochenbilanz aus App Tipps und Resultaten, Ranglisten Formular als GitHub Issue mit Workflow (nur Owner), Reiter Bilanz, Push Bilanz bereit (D032 bis D034). 215 Tests grün. Damit sind alle sechs DoD Punkte gebaut, Abnahme an einer echten Woche (Week 9) offen.
+Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, wide nach Breite und rechtem Safe Area Inset (D035 bis D039), Spielbereich in Teamfarben, Navigation als Kapsel, Schriften selbst gehostet unter public/fonts. Ab Kickoff gilt ein Spiel in der App als gesperrt, auch vor dem Tippjob. 215 Tests grün. Offen: Test am echten iPhone Duo (R57 bis R60), Abnahme Week 9.
 
 ## Befehle
 
@@ -39,6 +39,7 @@ Sprint 4 gebaut am 2026-11-02: Wochenbilanz aus App Tipps und Resultaten, Rangli
 - npm run job:watch, npm run job:push: Ausfall Wächter und Push Versand (Versand nur auf main mit Secrets)
 - npm run job:tips [-- --season 2026 --type 2 --week 9]: Tippliste rechnen, ohne Argumente Woche aus data/current.json
 - vite preview braucht dasselbe BASE_PATH wie der Build
+- Layout Tests: ?inset=84 und ?insetBottom=34 simulieren Safe Area Insets
 
 ## Nächster Schritt
 

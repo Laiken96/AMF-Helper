@@ -112,6 +112,18 @@ a:hover {
   color: #ffd27a;
 }
 
+/* Schwebende Kapsel unten: Fokus beim Tabben nie darunter (compact, medium) */
+[data-layout="compact"],
+[data-layout="medium"] {
+  scroll-padding-top: calc(var(--sat) + 8px);
+  scroll-padding-bottom: calc(var(--sab) + 96px);
+}
+
+.tip,
+.game {
+  scroll-margin-top: 12px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

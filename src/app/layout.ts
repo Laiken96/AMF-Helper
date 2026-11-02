@@ -42,6 +42,15 @@ function measureInsetRight(probe: HTMLElement): number {
   return Number.isFinite(v) ? v : 0;
 }
 
+/** ID der ersten Spielzeile (data-anchor), die im Viewport sichtbar ist. */
+function firstVisibleAnchor(): string | null {
+  for (const el of document.querySelectorAll<HTMLElement>("[data-anchor]")) {
+    const r = el.getBoundingClientRect();
+    if (r.bottom > 0 && r.top < window.innerHeight && r.width > 0) return el.dataset.anchor ?? null;
+  }
+  return null;
+}
+
 /** Setzt data-layout am Root und hält es bei resize und orientationchange aktuell. */
 export function useLayout(): Layout {
   const [layout, setLayout] = useState<Layout>(() => {
@@ -58,9 +67,20 @@ export function useLayout(): Layout {
     probe.className = "inset-probe";
     document.body.appendChild(probe);
 
+    let current: Layout | null = null;
     const apply = () => {
       const inset = measureInsetRight(probe);
       const next = chooseLayout(window.innerWidth, inset);
+      // Beim Wechsel die Liste an der ersten sichtbaren Spielzeile halten
+      const anchor = current !== null && current !== next ? firstVisibleAnchor() : null;
+      current = next;
+      if (anchor) {
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => {
+            document.querySelector(`[data-anchor="${CSS.escape(anchor)}"]`)?.scrollIntoView({ block: "start" });
+          }),
+        );
+      }
       document.documentElement.dataset.layout = next;
       if (inset >= DUO_INSET_MIN) document.documentElement.dataset.inset = "duo";
       else delete document.documentElement.dataset.inset;
