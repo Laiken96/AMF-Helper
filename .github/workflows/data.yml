@@ -1,7 +1,8 @@
-# Datenjobs Spielplan, Tippliste und Wochenbilanz: holen das ESPN Scoreboard und committen Änderungen unter data/.
+# Datenjobs Spielplan (mit den nächsten 2 Wochen), Tipps (aktuelle und kommende Wochen mit Quote), Wochenbilanz,
+# News und Wochenindex: holen ESPN und die RSS Feeds und committen Änderungen unter data/.
 # Geplante Läufe (schedule) startet GitHub nur auf dem Default Branch, also erst nach dem Merge auf main.
 # Manueller Start über workflow_dispatch geht auf jedem Branch.
-name: Daten Spielplan, Tipps und Bilanz
+name: Daten Spielplan, Tipps, Bilanz und News
 
 on:
   schedule:
@@ -58,7 +59,8 @@ jobs:
           [ -n "$IN_WEEK" ] && args+=(--week "$IN_WEEK")
           npm run job:schedule -- "${args[@]}"
 
-      # Läuft nach dem Spielplan mit denselben Inputs. Ohne Inputs gilt die Woche aus data/current.json.
+      # Läuft nach dem Spielplan mit denselben Inputs. Ohne Inputs gilt die Woche aus data/current.json,
+      # dazu die kommenden Wochen mit Wochendatei, sobald dort eine Quote existiert (D042).
       - name: Tipps berechnen
         id: tips
         continue-on-error: true
@@ -78,6 +80,18 @@ jobs:
         id: review
         continue-on-error: true
         run: npm run job:review
+
+      # News aus RSS (D042). Eine kaputte Quelle blockiert die anderen nicht, rot nur wenn alle scheitern.
+      - name: News holen
+        id: news
+        continue-on-error: true
+        run: npm run job:news
+
+      # Zuletzt, damit der Index die Dateien dieses Laufs kennt.
+      - name: Wochenindex schreiben
+        id: index
+        continue-on-error: true
+        run: npm run job:index
 
       - name: Änderungen committen
         id: commit
@@ -112,7 +126,9 @@ jobs:
         run: gh workflow run pages.yml --ref "${{ github.ref_name }}"
 
       - name: Fehler der Datenschritte melden
-        if: steps.schedule.outcome == 'failure' || steps.tips.outcome == 'failure' || steps.review.outcome == 'failure'
+        if: >-
+          steps.schedule.outcome == 'failure' || steps.tips.outcome == 'failure' || steps.review.outcome == 'failure' ||
+          steps.news.outcome == 'failure' || steps.index.outcome == 'failure'
         run: |
-          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}, Bilanz: ${{ steps.review.outcome }}"
+          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}, Bilanz: ${{ steps.review.outcome }}, News: ${{ steps.news.outcome }}, Index: ${{ steps.index.outcome }}"
           exit 1

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { Team } from "../core/schema";
+import { compareRef, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
 
 export const fetchedFormat = new Intl.DateTimeFormat("de-CH", {
   timeZone: "Europe/Zurich",
@@ -77,5 +78,72 @@ export function Segmented<T extends string>({
         </button>
       ))}
     </div>
+  );
+}
+
+/** "Week 9", Preseason und Playoffs mit Zusatz. */
+export function weekLabel(ref: WeekRef): string {
+  if (ref.seasonType === 1) return `Preseason ${ref.week}`;
+  if (ref.seasonType === 3) return `Playoffs ${ref.week}`;
+  return `Week ${ref.week}`;
+}
+
+export const PHASE_TEXT: Record<WeekPhase, string> = {
+  vergangen: "Vergangene Woche",
+  aktuell: "Aktuelle Woche",
+  kommend: "Kommende Woche",
+};
+
+const Chevron = ({ dir }: { dir: "left" | "right" }) => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d={dir === "left" ? "M15 5l-7 7 7 7" : "M9 5l7 7-7 7"} />
+  </svg>
+);
+
+/**
+ * Wochenwähler als Kapsel: zurück, Woche, vor. Ziele als Hash Links (#tipps/2026-2-10), damit die Wahl
+ * im Verlauf und in Lesezeichen erhalten bleibt. weeks aufsteigend, value muss nicht enthalten sein.
+ */
+export function WeekStepper({
+  view,
+  weeks,
+  value,
+  current,
+}: {
+  view: string;
+  weeks: readonly WeekRef[];
+  value: WeekRef;
+  current: WeekRef | null;
+}) {
+  const prev = [...weeks].reverse().find((w) => compareRef(w, value) < 0) ?? null;
+  const next = weeks.find((w) => compareRef(w, value) > 0) ?? null;
+  const isCurrent = current !== null && sameRef(value, current);
+  const href = (r: WeekRef) => `#${view}/${weekKey(r)}`;
+  const step = (target: WeekRef | null, dir: "left" | "right") => {
+    const text = dir === "left" ? "Vorherige Woche" : "Nächste Woche";
+    return target ? (
+      <a className="step" href={href(target)} aria-label={`${text}, ${weekLabel(target)}`} title={weekLabel(target)}>
+        <Chevron dir={dir} />
+      </a>
+    ) : (
+      <span className="step step-disabled" role="link" aria-disabled="true" aria-label={`${text}, keine weitere`}>
+        <Chevron dir={dir} />
+      </span>
+    );
+  };
+  return (
+    <nav className="week-stepper" aria-label="Woche wählen">
+      {step(prev, "left")}
+      {isCurrent || !current ? (
+        <span className="step-label" aria-current={isCurrent ? "page" : undefined}>
+          W{value.week}
+        </span>
+      ) : (
+        <a className="step-label step-today" href={href(current)} aria-label={`Zur aktuellen Woche, ${weekLabel(current)}`} title="Zur aktuellen Woche">
+          W{value.week}
+        </a>
+      )}
+      {step(next, "right")}
+    </nav>
   );
 }

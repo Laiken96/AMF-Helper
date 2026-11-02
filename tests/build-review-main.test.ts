@@ -148,4 +148,35 @@ describe("build-review main", () => {
     await main([], deps(respond(w8Text)));
     expect(await index()).toEqual(["reviews/2026-2-10.json", REVIEW, "reviews/2026-2-07.json"]);
   });
+
+  it("mit Meinungsdatei kommt der KI Vergleich, kaputte Meinungsdatei blockiert nicht", async () => {
+    await writeFile(join(dir, "current.json"), current(9));
+    await mkdir(join(dir, "opinions"));
+    const op = {
+      schemaVersion: 1,
+      season: 2026,
+      seasonType: 2,
+      week: 8,
+      updatedAt: "2026-11-02T00:00:00Z",
+      model: "claude-haiku-5-5",
+      opinions: [
+        {
+          gameId: "401873036",
+          createdAt: "2026-11-02T00:00:00Z",
+          winnerTeamId: "26",
+          pWinner: 0.6,
+          marketPickTeamId: "26",
+          marketProb: 0.55,
+          reasoning: "Kurz.",
+          sources: [{ title: "Q", url: "https://example.com/q" }],
+        },
+      ],
+    };
+    await writeFile(join(dir, "opinions/2026-2-08.json"), JSON.stringify(op));
+    expect(await main(["--season", "2026", "--type", "2", "--week", "8"], deps(respond(finalW8()), TUESDAY))).toBe(0);
+    expect((await review()).opinionCompare).toMatchObject({ opinions: 1, scored: 1, aiHits: 1, marketHits: 1 });
+    await writeFile(join(dir, "opinions/2026-2-08.json"), "{kaputt");
+    expect(await main(["--season", "2026", "--type", "2", "--week", "8"], deps(respond(finalW8()), TUESDAY))).toBe(0);
+    expect((await review()).opinionCompare).toBeUndefined();
+  });
 });

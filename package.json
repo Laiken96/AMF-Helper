@@ -14,7 +14,10 @@
     "job:watch": "tsx jobs/watch.ts",
     "job:push": "tsx jobs/push.ts",
     "job:review": "tsx jobs/build-review.ts",
-    "job:standings": "tsx jobs/standings.ts"
+    "job:standings": "tsx jobs/standings.ts",
+    "job:news": "tsx jobs/news.ts",
+    "job:index": "tsx jobs/weeks-index.ts",
+    "job:opinion": "tsx jobs/opinion.ts"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -22,6 +25,7 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",

@@ -64,3 +64,13 @@ Definition of Done ist nach Sprint 4 erreicht. Sprint 5 und 6 erfüllen den ursp
 
 - Wochen blättern: vergangene Wochen (Tipps, Bilanz) und kommende Wochen (Spielplan, Tipps sobald Quoten da sind). Wunsch des Nutzers vom 2026-11-02, zurückgestellt bis zur Abnahme Week 9
 - KI Zweitmeinung zur Profiquote (D040): Claude bewertet pro Spiel Quote, Ausfälle und News und gibt Sieger, Wahrscheinlichkeit und Begründung mit Quellen ab. Zuerst 4 Wochen Schattenmodus (gespeichert, nicht angezeigt), danach Vergleich mit der Quote per Brier Score und Trefferquote in der Bilanz. Anzeige als Zweitmeinung neben dem Tipp nur, wenn der Vergleich es rechtfertigt, sonst nur Briefing. Voraussetzung: API Schlüssel als GitHub Secret
+
+## Ausbau nach D042
+
+| Sprint | Inhalt | Stream |
+|---|---|---|
+| 5 | Wochen blättern: vergangene Wochen mit Tipps und Bilanz, kommende Wochen mit Spielplan und Tipps sobald Quoten da sind | Frontend, Daten (Wochenindex) |
+| 6 | Liveticker: laufende Spiele direkt aus ESPN im Browser, Spielstand, Ballbesitz, letzte Spielzüge, Polling nur bei laufenden Spielen | Frontend |
+| 7 | News: RSS ESPN, CBS, PFT, Teamfilter, Hinweis bei News zu getippten Teams | Daten, Frontend |
+| 8 | KI Zweitmeinung im Schattenmodus (D040), Vergleich in der Bilanz | Daten |
+| 9 | Gesamtabnahme aller Features an einer echten Woche, Post Mortem | Nutzer, QA |

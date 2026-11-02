@@ -6,7 +6,29 @@ import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { fetchJson, main, type FetchFn } from "../jobs/fetch-schedule";
 
 const fixtureText = readFileSync(new URL("./fixtures/espn-scoreboard-2026-w8.json", import.meta.url), "utf8");
+const w9Text = readFileSync(new URL("./fixtures/espn-scoreboard-2026-w9.json", import.meta.url), "utf8");
 const WEEK_PATH = "weeks/2026-2-08.json";
+
+/** Fixture Week 9 als Week n umgeschrieben, damit kommende Wochen ohne Netz testbar sind. */
+function asWeek(n: number, drop = 0): string {
+  const raw = JSON.parse(w9Text);
+  raw.week.number = n;
+  for (const e of raw.events) {
+    if (e.week) e.week.number = n;
+    e.id = `${e.id}${n}`;
+  }
+  raw.events = raw.events.slice(drop);
+  return JSON.stringify(raw);
+}
+
+/** Aktuelle Woche ist Week 8, kommende Wochen 9 und 10 nach Query Parameter. */
+const router = (overrides: Record<number, FetchFn> = {}): FetchFn => async (url, init) => {
+  const week = new URL(url).searchParams.get("week");
+  if (week === null) return new Response(fixtureText);
+  const n = Number(week);
+  if (overrides[n]) return overrides[n]!(url, init);
+  return new Response(asWeek(n));
+};
 
 const respond = (body: string, status = 200): FetchFn => async () => new Response(body, { status });
 const failing: FetchFn = async () => {
@@ -58,9 +80,47 @@ describe("fetchJson", () => {
 });
 
 describe("main", () => {
-  it("schreibt gültige Dateien bei Erfolg", async () => {
-    expect(await main([], deps(respond(fixtureText)))).toBe(0);
+  it("schreibt gültige Dateien bei Erfolg, dazu die nächsten 2 Wochen", async () => {
+    expect(await main([], deps(router()))).toBe(0);
     expect((await readdir(dir)).sort()).toEqual(["current.json", "settings.json", "teams.json", "weeks"]);
+    expect((await readdir(join(dir, "weeks"))).sort()).toEqual(["2026-2-08.json", "2026-2-09.json", "2026-2-10.json"]);
+    const current = JSON.parse(await readFile(join(dir, "current.json"), "utf8"));
+    expect(current.week).toBe(8);
+    const w10 = JSON.parse(await readFile(join(dir, "weeks/2026-2-10.json"), "utf8"));
+    expect(w10.week).toBe(10);
+    expect(w10.games.length).toBeGreaterThan(0);
+  });
+
+  it("Fehler einer kommenden Woche lässt die aktuelle gültig, Exit Code 1", async () => {
+    expect(await main([], deps(router({ 9: respond("boom", 500) })))).toBe(1);
+    expect(errors.join("\n")).toMatch(/2026-2-9.*unverändert/);
+    expect((await readdir(join(dir, "weeks"))).sort()).toEqual(["2026-2-08.json", "2026-2-10.json"]);
+  });
+
+  it("D019 gilt auch für kommende Wochen", async () => {
+    expect(await main([], deps(router()))).toBe(0);
+    const before = await readFile(join(dir, "weeks/2026-2-09.json"), "utf8");
+    const shrink: FetchFn = async () => new Response(asWeek(9, 3));
+    expect(await main([], deps(router({ 9: shrink })))).toBe(1);
+    expect(errors.join("\n")).toMatch(/Spiele fehlen/);
+    expect(await readFile(join(dir, "weeks/2026-2-09.json"), "utf8")).toBe(before);
+  });
+
+  it("falsche Woche von ESPN wird nicht geschrieben", async () => {
+    const wrong: FetchFn = async () => new Response(asWeek(12));
+    expect(await main([], deps(router({ 10: wrong })))).toBe(1);
+    expect(errors.join("\n")).toMatch(/lieferte 2026-2-12/);
+    expect((await readdir(join(dir, "weeks"))).sort()).toEqual(["2026-2-08.json", "2026-2-09.json"]);
+  });
+
+  it("explizite Woche holt keine kommenden Wochen", async () => {
+    const urls: string[] = [];
+    const spy: FetchFn = async (url, init) => {
+      urls.push(url);
+      return router()(url, init);
+    };
+    expect(await main(["--season", "2026", "--type", "2", "--week", "9"], deps(spy))).toBe(0);
+    expect(urls).toHaveLength(1);
   });
 
   for (const [name, fetch] of [
@@ -70,7 +130,7 @@ describe("main", () => {
     ["Schemafehler", respond('{"events":[]}')],
   ] as const) {
     it(`${name} liefert Exit Code 1 und lässt Dateien unverändert`, async () => {
-      expect(await main([], deps(respond(fixtureText)))).toBe(0);
+      expect(await main([], deps(router()))).toBe(0);
       const before = await snapshot();
       expect(await main([], deps(fetch))).toBe(1);
       expect(errors.join("\n")).toMatch(/unverändert/);

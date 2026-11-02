@@ -33,6 +33,19 @@ async function run(raw: unknown, now: string, updateCurrent = true) {
 const readJson = async (p: string) => JSON.parse(await readFile(join(dir, p), "utf8"));
 
 describe("Job Ausgabe", () => {
+  it("fehlende Farbe oder Logo einer neuen Antwort überschreibt bekannte Werte nicht", async () => {
+    await run(fixture(), "2026-11-02T02:00:00Z");
+    const raw = fixture();
+    const team = raw.events[0].competitions[0].competitors[0].team;
+    const before = TeamsFileSchema.parse(await readJson("teams.json")).teams.find((t) => t.id === team.id)!;
+    expect(before.color).not.toBeNull();
+    delete team.color;
+    delete team.logo;
+    await run(raw, "2026-11-02T03:00:00Z");
+    const after = TeamsFileSchema.parse(await readJson("teams.json")).teams.find((t) => t.id === team.id)!;
+    expect(after).toEqual(before);
+  });
+
   it("erzeugte Dateien bestehen die Schemas", async () => {
     const res = await run(fixture(), "2026-11-02T02:00:00Z");
     expect(res.ok).toBe(true);

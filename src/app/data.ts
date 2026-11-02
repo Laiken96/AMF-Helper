@@ -17,6 +17,7 @@ import {
   type StandingsHistory,
 } from "../core/review-schema";
 import { InjuriesFileSchema, injuriesFilePath, type InjuriesFile } from "../core/injuries";
+import { NewsFileSchema, WeeksIndexSchema, type NewsFile, type WeeksIndex } from "../core/extra-schema";
 import {
   StandingsFileSchema,
   TipsFileSchema,
@@ -54,29 +55,6 @@ async function loadJson<S extends z.ZodType>(path: string, schema: S): Promise<z
   return parsed.data;
 }
 
-export interface WeekData {
-  current: CurrentFile;
-  week: WeekFile;
-  teams: TeamsFile;
-}
-
-export async function loadWeekData(): Promise<WeekData> {
-  const current = await loadJson("current.json", CurrentFileSchema);
-  const [week, teams] = await Promise.all([
-    loadJson(current.weekFile, WeekFileSchema),
-    loadJson("teams.json", TeamsFileSchema),
-  ]);
-  return { current, week, teams };
-}
-
-export interface TipsData extends WeekData {
-  standings: StandingsFile;
-  /** null, wenn für diese Woche noch keine Tippdatei existiert. */
-  tips: TipsFile | null;
-  /** null, wenn die Ausfall Datei der Woche fehlt oder nicht lesbar ist. Nur Anzeige im Spielbereich. */
-  injuries: InjuriesFile | null;
-}
-
 /** Wie loadJson, liefert aber null, wenn die Datei fehlt (HTTP 404 oder HTML Antwort statt JSON). */
 async function loadOptionalJson<S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> {
   let res: Response;
@@ -107,19 +85,128 @@ async function loadOptionalJson<S extends z.ZodType>(path: string, schema: S): P
   return parsed.data;
 }
 
-export async function loadTipsData(): Promise<TipsData> {
-  const current = await loadJson("current.json", CurrentFileSchema);
-  const [week, teams, standings, tips, injuries] = await Promise.all([
-    loadJson(current.weekFile, WeekFileSchema),
+/** Woche als Bezug für Wochenwähler und Hash (#tipps/2026-2-10). */
+export interface WeekRef {
+  season: number;
+  seasonType: number;
+  week: number;
+}
+
+export const weekKey = (r: WeekRef): string => `${r.season}-${r.seasonType}-${String(r.week).padStart(2, "0")}`;
+
+export function parseWeekKey(value: string | null | undefined): WeekRef | null {
+  const m = /^(\d{4})-([1-3])-(\d{1,2})$/.exec(value ?? "");
+  if (!m) return null;
+  return { season: Number(m[1]), seasonType: Number(m[2]), week: Number(m[3]) };
+}
+
+export const compareRef = (a: WeekRef, b: WeekRef): number =>
+  a.season - b.season || a.seasonType - b.seasonType || a.week - b.week;
+
+export const sameRef = (a: WeekRef, b: WeekRef): boolean => compareRef(a, b) === 0;
+
+export type WeekPhase = "vergangen" | "aktuell" | "kommend";
+
+export function phaseOf(ref: WeekRef, current: WeekRef): WeekPhase {
+  const c = compareRef(ref, current);
+  return c < 0 ? "vergangen" : c > 0 ? "kommend" : "aktuell";
+}
+
+/** Wochenindex, null wenn er fehlt oder nicht lesbar ist. Darf die App nie blockieren. */
+export async function loadWeeksIndex(): Promise<WeeksIndex | null> {
+  try {
+    const index = await loadOptionalJson("weeks/index.json", WeeksIndexSchema);
+    if (!index) return null;
+    return { ...index, weeks: [...index.weeks].sort(compareRef) };
+  } catch {
+    return null;
+  }
+}
+
+/** News, null wenn die Datei fehlt oder nicht lesbar ist. Neueste zuerst. */
+export async function loadNews(): Promise<NewsFile | null> {
+  try {
+    const news = await loadOptionalJson("news.json", NewsFileSchema);
+    if (!news) return null;
+    return { ...news, items: [...news.items].sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)) };
+  } catch {
+    return null;
+  }
+}
+
+/** Pfade einer Woche aus dem Index, sonst nach Namenskonvention. */
+export function weekPaths(index: WeeksIndex | null, ref: WeekRef) {
+  const entry = index?.weeks.find((w) => sameRef(w, ref));
+  if (entry) return { listed: true, weekFile: entry.weekFile, tipsFile: entry.tipsFile, reviewFile: entry.reviewFile };
+  return {
+    listed: false,
+    weekFile: weekFilePath(ref.season, ref.seasonType, ref.week),
+    tipsFile: tipsFilePath(ref.season, ref.seasonType, ref.week) as string | null,
+    reviewFile: null as string | null,
+  };
+}
+
+export interface WeekNav {
+  current: CurrentFile;
+  index: WeeksIndex | null;
+  /** Gewählte Woche, Standard aus current.json. */
+  ref: WeekRef;
+  phase: WeekPhase;
+}
+
+async function loadNav(requested: WeekRef | null): Promise<WeekNav> {
+  const [current, index] = await Promise.all([loadJson("current.json", CurrentFileSchema), loadWeeksIndex()]);
+  const ref = requested ?? { season: current.season, seasonType: current.seasonType, week: current.week };
+  return { current, index, ref, phase: phaseOf(ref, current) };
+}
+
+/** Wochendatei der gewählten Woche. Die aktuelle Woche ist Pflicht, andere Wochen dürfen fehlen. */
+async function loadWeekFile(nav: WeekNav): Promise<WeekFile | null> {
+  if (nav.phase === "aktuell") return loadJson(nav.current.weekFile, WeekFileSchema);
+  return loadOptionalJson(weekPaths(nav.index, nav.ref).weekFile, WeekFileSchema);
+}
+
+export interface WeekData extends WeekNav {
+  /** null, wenn für eine andere als die aktuelle Woche keine Wochendatei existiert. */
+  week: WeekFile | null;
+  teams: TeamsFile;
+}
+
+export async function loadWeekData(requested: WeekRef | null = null): Promise<WeekData> {
+  const nav = await loadNav(requested);
+  const [week, teams] = await Promise.all([loadWeekFile(nav), loadJson("teams.json", TeamsFileSchema)]);
+  return { ...nav, week, teams };
+}
+
+export interface TipsData extends WeekData {
+  standings: StandingsFile;
+  /** null, wenn für diese Woche noch keine Tippdatei existiert. */
+  tips: TipsFile | null;
+  /** null, wenn die Ausfall Datei der Woche fehlt oder nicht lesbar ist. Nur Anzeige im Spielbereich. */
+  injuries: InjuriesFile | null;
+  /** null, wenn data/news.json fehlt. Nur Schlagzeilen im Spielbereich. */
+  news: NewsFile | null;
+}
+
+export async function loadTipsData(requested: WeekRef | null = null): Promise<TipsData> {
+  const nav = await loadNav(requested);
+  const { ref } = nav;
+  const paths = weekPaths(nav.index, ref);
+  // Aktuelle Woche wie bisher nach Namenskonvention, auch wenn der Index noch keine Tippdatei kennt
+  const tipsPath =
+    paths.tipsFile ?? (nav.phase === "aktuell" ? tipsFilePath(ref.season, ref.seasonType, ref.week) : null);
+  const [week, teams, standings, tips, injuries, news] = await Promise.all([
+    loadWeekFile(nav),
     loadJson("teams.json", TeamsFileSchema),
     loadJson("standings.json", StandingsFileSchema),
-    loadOptionalJson(tipsFilePath(current.season, current.seasonType, current.week), TipsFileSchema),
-    // Ausfälle sind Zusatz: Fehler hier dürfen die Tippliste nie blockieren
-    loadOptionalJson(injuriesFilePath(current.season, current.seasonType, current.week), InjuriesFileSchema).catch(
-      () => null,
-    ),
+    tipsPath ? loadOptionalJson(tipsPath, TipsFileSchema) : Promise.resolve(null),
+    // Ausfälle und News sind Zusatz: Fehler hier dürfen die Tippliste nie blockieren
+    nav.phase === "vergangen"
+      ? Promise.resolve(null)
+      : loadOptionalJson(injuriesFilePath(ref.season, ref.seasonType, ref.week), InjuriesFileSchema).catch(() => null),
+    nav.phase === "vergangen" ? Promise.resolve(null) : loadNews(),
   ]);
-  return { current, week, teams, standings, tips, injuries };
+  return { ...nav, week, teams, standings, tips, injuries, news };
 }
 
 export interface ReviewData {
@@ -150,3 +237,26 @@ export async function loadReviewData(index: string[], path: string): Promise<Rev
   const week = await loadOptionalJson(weekFilePath(review.season, review.seasonType, review.week), WeekFileSchema);
   return { index, path, review, week, teams, standings, history };
 }
+
+/** current.json, null wenn sie fehlt oder nicht lesbar ist. Nur für Zusatzansichten wie Bilanz und News. */
+export async function loadCurrent(): Promise<CurrentFile | null> {
+  try {
+    return await loadJson("current.json", CurrentFileSchema);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Wochen für den Wochenwähler, aufsteigend. null heisst ohne Index und in der aktuellen Woche:
+ * kein Wähler, Verhalten wie vor dem Ausbau.
+ */
+export function navWeeks(nav: WeekNav): WeekRef[] | null {
+  const current: WeekRef = { season: nav.current.season, seasonType: nav.current.seasonType, week: nav.current.week };
+  if (!nav.index && sameRef(nav.ref, current)) return null;
+  const list: WeekRef[] = nav.index ? nav.index.weeks.map(({ season, seasonType, week }) => ({ season, seasonType, week })) : [];
+  for (const r of [current, nav.ref]) if (!list.some((w) => sameRef(w, r))) list.push(r);
+  return list.sort(compareRef);
+}
+
+export const currentRef = (c: CurrentFile): WeekRef => ({ season: c.season, seasonType: c.seasonType, week: c.week });

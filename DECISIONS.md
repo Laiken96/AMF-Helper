@@ -286,3 +286,32 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wunsch des Nutzers nach einer KI Zweitmeinung zur Profiquote kommt in den Backlog nach Gate 3. Ablauf: 4 Wochen Schattenmodus, Zweitmeinung mit Sieger, Wahrscheinlichkeit, Begründung und Quellenlinks wird pro Spiel vor Kickoff gespeichert und gesperrt wie der Tipp, aber nicht angezeigt. Danach Vergleich mit der Quote in der Bilanz (Brier Score, Trefferquote, Fälle mit abweichendem Sieger). Der Tipp selbst bleibt quotenbasiert (D005, D009), die Zweitmeinung ersetzt ihn nicht. Fakten ohne Quelle werden verworfen
 - Begründung: Forschung zeigt keinen belegten Vorteil von Sprachmodellen gegenüber Wettquoten. Messen vor Anzeigen verhindert Scheinsicherheit. Quellenpflicht gegen erfundene Ausfälle
 - Verworfen: KI berechnet den Tipp, Anzeige ohne vorherige Messung
+
+## D041 Externer Auslöser über cron-job.org
+
+- Datum: 2026-11-02
+- Entscheid: Zwei Jobs bei cron-job.org starten die Workflows per workflow_dispatch über die GitHub API: "NFL Push Wächter" alle 10 Minuten (push.yml), "NFL Daten" stündlich um Minute 47 (data.yml). Authentifizierung mit einem fein granulierten Token nur für das Repo AMF-Helper und nur Actions Read and write, gültig bis 2026-11-02 plus 1 Jahr (02.11.2027). Die Zeitpläne in den Workflows bleiben aktiv, Doppelläufe sind unschädlich (push-log verhindert doppelte Meldungen, concurrency serialisiert). Support Ticket 4939976 bei GitHub wurde am 2026-11-02 ohne Prüfung geschlossen (Gratis Tarif nur Selbsthilfe), cron-job.org ist damit die Dauerlösung
+- Begründung: GitHub startete push.yml nach Zeitplan nie und data.yml erst nach über 8 Stunden einmal. Ursache von aussen nicht feststellbar, Antwort des Supports dauert Tage, Erinnerungen müssen ab Donnerstag sicher laufen. Testläufe 2026-11-02 12:20 und 12:24 UTC grün, echter Push "Tippliste W8 bereit" zugestellt
+- Verworfen: warten, Auslösen über geplante Aufgaben einer Claude Sitzung (nicht dauerhaft), Token ohne Ablauf
+
+## D042 Abnahme ans Projektende verschoben
+
+- Datum: 2026-11-02
+- Entscheid: Entscheid des Nutzers. Die Definition of Done gilt als erreicht (alle sechs Punkte gebaut, live, automatisiert, Gerätetest Duo bestanden). Gate 3 ist damit freigegeben. Die formelle Abnahme an einer echten Woche entfällt jetzt und erfolgt am Projektende zusammen mit allen Features. Reihenfolge der weiteren Sprints: Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus, danach Gesamtabnahme. Die Automatik läuft ab Week 9 trotzdem, gemeldete Fehler werden sofort behoben
+- Begründung: Wunsch des Nutzers, die App vollständig zu bauen und am Schluss abzunehmen. Product Owner Hinweis dokumentiert: Fehler im Grundsystem werden dadurch später sichtbar und überlagern sich mit Fehlern neuer Features
+- Verworfen: Abnahme Week 9 vor neuen Features (Regel 2 in CLAUDE.md, hier bewusst aufgehoben)
+
+## D043 Ausbau Daten: News, Wochenindex, KI Zweitmeinung
+
+- Datum: 2026-11-02
+- Entscheid: News aus RSS (ESPN, CBS, PFT) mit eigenem schlanken Parser, höchstens 150 Einträge, nur Titel, Anriss, Link. Spielplan und Tipps zusätzlich für die nächsten 2 Wochen. Wochenindex data/weeks/index.json. KI Zweitmeinung mit claude-haiku-5-5, Web Suche mit höchstens 3 Suchen, Antwort über ein striktes Werkzeug, Quellen zählen nur, wenn ihre URL in den Suchergebnissen stand. Höchstens 2 Versuche pro Spiel, protokolliert in data/opinions/attempts.json (eigenes zod Schema). Kosten rund 0.035 USD pro Spiel, etwa 0.55 USD pro Woche, höchstens 1.10 USD. Bekannte Teamfarben werden nicht durch fehlende Werte späterer Wochen gelöscht
+- Begründung: kleinstes aktuelles Modell genügt für Zusammenfassung und Einschätzung, Websuche liefert belegbare Quellen gegen erfundene Fakten
+- Risiko: ESPN RSS blockiert direkte Abrufe teils (Bot Abwehr). Fällt die Quelle in Actions aus, laufen CBS und PFT weiter
+- Verworfen: strukturierte JSON Ausgabe per output_config (verträgt sich nicht mit Zitaten), schweres RSS Paket
+
+## D044 Ausbau Frontend
+
+- Datum: 2026-11-02
+- Entscheid: Wochenwähler in Tipps, Bilanz und Spiele mit Wahl im Hash (#tipps/2026-2-10). Bilanz startet auf der neuesten vorhandenen Bilanz bis zur aktuellen Woche. Reiter Spielplan heisst Spiele und enthält den Liveticker (Abfrage direkt bei ESPN alle 20 Sekunden nur bei möglichem laufenden Spiel und sichtbarem Tab, Detail mit den letzten 10 Spielzügen). Reiter News mit Filtern Alle, Meine Spiele, Team. Navigation mit 5 Zielen
+- Begründung: Wunsch des Nutzers (Wochen blättern), Ausbauplan D042. Die aktuelle Woche hat bis Dienstag meist noch keine Bilanz
+- Verworfen: Live Daten über GitHub Actions (zu langsam)

@@ -138,4 +138,78 @@ describe("build-tips main", () => {
   it("ungültige Argumente", async () => {
     expect(await main(["--foo"], deps(respond(fixtureText)))).toBe(1);
   });
+
+  describe("kommende Wochen (D042)", () => {
+    const TIPS10 = "tips/2026-2-10.json";
+    const asWeek10 = (withOdds = true): string => {
+      const raw = JSON.parse(fixtureText);
+      raw.week.number = 10;
+      for (const e of raw.events) {
+        if (e.week) e.week.number = 10;
+        e.id = `${e.id}10`;
+        if (!withOdds) delete e.competitions[0].odds;
+      }
+      return JSON.stringify(raw);
+    };
+    const router = (w10: string): FetchFn => async (url) =>
+      new Response(new URL(url).searchParams.get("week") === "10" ? w10 : fixtureText);
+    const leading = JSON.stringify({ ...JSON.parse(standingsText), players: [{ id: "JA", points: 80 }, { id: "MS", points: 71 }] });
+    const read10 = async () => TipsFileSchema.parse(JSON.parse(await readFile(join(dir, TIPS10), "utf8")));
+
+    beforeEach(async () => {
+      await mkdir(join(dir, "weeks"), { recursive: true });
+      await writeFile(join(dir, "weeks/2026-2-10.json"), "{}");
+    });
+
+    it("Tipps für die kommende Woche, sobald eine Quote existiert", async () => {
+      expect(await main([], deps(router(asWeek10())))).toBe(0);
+      expect(urls.some((u) => u.includes("week=10"))).toBe(true);
+      const f = await read10();
+      expect(f.week).toBe(10);
+      expect(f.tips.filter((t) => t.odds !== null).length).toBeGreaterThan(0);
+    });
+
+    it("ohne Quote keine Datei für die kommende Woche", async () => {
+      expect(await main([], deps(router(asWeek10(false))))).toBe(0);
+      await expect(readFile(join(dir, TIPS10), "utf8")).rejects.toThrow();
+    });
+
+    it("ohne Wochendatei wird die kommende Woche nicht abgefragt", async () => {
+      await rm(join(dir, "weeks/2026-2-10.json"));
+      expect(await main([], deps(router(asWeek10())))).toBe(0);
+      expect(urls.some((u) => u.includes("week=10"))).toBe(false);
+    });
+
+    it("Fehler der kommenden Woche: Exit 1, aktuelle Woche geschrieben", async () => {
+      const failing10: FetchFn = async (url) =>
+        new URL(url).searchParams.get("week") === "10" ? new Response("boom", { status: 500 }) : new Response(fixtureText);
+      expect(await main([], deps(failing10))).toBe(1);
+      expect(TipsFileSchema.parse(JSON.parse(await read())).week).toBe(9);
+    });
+
+    it("maxDeviations folgt der Rangliste bis zum ersten Lauf als aktuelle Woche, danach eingefroren", async () => {
+      expect(await main([], deps(router(asWeek10())))).toBe(0);
+      expect((await read10()).maxDeviations).toBe(2);
+      // Neue Rangliste vor Week 10: kommende Woche rechnet neu.
+      await writeFile(join(dir, "standings.json"), leading);
+      expect(await main([], deps(router(asWeek10()), "2026-11-02T05:00:00Z"))).toBe(0);
+      expect((await read10()).maxDeviations).toBe(0);
+      // Week 10 wird aktuell. Erster Lauf friert ein und schreibt die Datei.
+      await writeFile(join(dir, "standings.json"), standingsText);
+      const switchedAt = "2026-11-04T10:00:00Z";
+      await writeFile(
+        join(dir, "current.json"),
+        JSON.stringify({ ...JSON.parse(CURRENT_W9), week: 10, weekFile: "weeks/2026-2-10.json", updatedAt: switchedAt }),
+      );
+      const w10only: FetchFn = async () => new Response(asWeek10());
+      expect(await main([], deps(w10only, "2026-11-04T11:00:00Z"))).toBe(0);
+      const frozen = await read10();
+      expect(frozen.maxDeviations).toBe(2);
+      expect(frozen.updatedAt).toBe("2026-11-04T11:00:00Z");
+      // Spätere Rangliste wirkt nicht mehr auf diese Woche.
+      await writeFile(join(dir, "standings.json"), leading);
+      expect(await main([], deps(w10only, "2026-11-04T12:00:00Z"))).toBe(0);
+      expect((await read10()).maxDeviations).toBe(2);
+    });
+  });
 });

@@ -3,10 +3,11 @@
 ## Harte Regeln
 
 1. Nach jedem Sprintschritt: commit und push, CLAUDE.md aktualisieren, DECISIONS.md ergänzen, REGRESSION.md ergänzen, Kontext leeren.
-2. Kein neues Feature, solange die Definition of Done in PROJEKT.md offen ist.
+2. Kein neues Feature, solange die Definition of Done in PROJEKT.md offen ist. Seit D042 gilt sie als erreicht, die Abnahme erfolgt am Projektende.
 3. Keine Änderung am Datenformat unter data/ ohne Anpassung von schema_version und zod Schema.
 4. Keine Secrets im Browser Code. Schreibzugriff nur über GitHub Actions.
 5. Bei Widerspruch zwischen Auftrag und DECISIONS.md: anhalten und nachfragen, nicht selbst entscheiden.
+6. Vor jedem Merge von main: Merge Ergebnis prüfen. Bei Konflikt in data/ gilt der Stand von main (dort schreibt die Automatik). Nie committen, solange Konfliktmarker existieren (git diff --check).
 
 ## Ziel
 
@@ -27,7 +28,7 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, wide nach Breite und rechtem Safe Area Inset (D035 bis D039), Spielbereich in Teamfarben, Navigation als Kapsel, Schriften selbst gehostet unter public/fonts. Ab Kickoff gilt ein Spiel in der App als gesperrt, auch vor dem Tippjob. 215 Tests grün. Offen: Test am echten iPhone Duo (R57 bis R60), Abnahme Week 9.
+Ausbau Sprint 5 bis 8 gebaut am 2026-11-02 (D042 bis D044): Wochen blättern, Liveticker im Reiter Spiele, News Reiter, KI Zweitmeinung im Schattenmodus (claude-haiku-5-5, Secret ANTHROPIC_API_KEY, läuft nach dem Push Versand). Externer Auslöser cron-job.org (D041). 279 Tests grün. Offen: echte KI Läufe, Liveticker an echtem Spiel, ESPN RSS in Actions, Gesamtabnahme.
 
 ## Befehle
 
@@ -35,6 +36,7 @@ Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, 
 - npm run typecheck, npm test, npm run build: Prüfungen vor jedem Commit
 - npm run job:schedule [-- --season 2026 --type 2 --week 9]: Spielplan holen
 - npm run job:review: Wochenbilanz rechnen
+- npm run job:news, job:opinion, job:weeks: News, KI Zweitmeinung (nur mit Key), Wochenindex
 - npm run job:standings: Ranglisten Meldung aus Issue Event verarbeiten (nur im Workflow)
 - npm run job:watch, npm run job:push: Ausfall Wächter und Push Versand (Versand nur auf main mit Secrets)
 - npm run job:tips [-- --season 2026 --type 2 --week 9]: Tippliste rechnen, ohne Argumente Woche aus data/current.json
@@ -43,4 +45,4 @@ Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, 
 
 ## Nächster Schritt
 
-DoD Abnahme an Week 9 (Donnerstag bis Dienstag). Danach Gate 3 vor Sprint 5 (Liveticker).
+Gesamtabnahme an einer echten Woche (Sprint 9), danach Post Mortem.

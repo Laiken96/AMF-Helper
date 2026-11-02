@@ -227,6 +227,13 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
       </section>
 
       <section className="slot">
+        <h2>Daten</h2>
+        <button type="button" className="btn" onClick={() => window.location.reload()}>
+          Aktualisieren
+        </button>
+      </section>
+
+      <section className="slot">
         <h2>Einführung</h2>
         <button type="button" className="btn" onClick={onShowOnboarding}>
           Einführung erneut anzeigen

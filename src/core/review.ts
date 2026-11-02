@@ -1,11 +1,13 @@
 // Wochenbilanz (Sprint 4, D032): reine Logik ohne Netz. Schreiber ist jobs/build-review.ts.
 import type { Game } from "./schema";
 import type { TipsFile } from "./tips-schema";
+import type { OpinionsFile } from "./extra-schema";
 import {
   REVIEW_SCHEMA_VERSION,
   ReviewFileSchema,
   ReviewIndexSchema,
   type GameReview,
+  type OpinionCompare,
   type ReviewFile,
   type ReviewIndex,
 } from "./review-schema";
@@ -69,8 +71,63 @@ export function tiebreakerDiff(predHome: number, predAway: number, actHome: numb
   return Math.abs(predHome - actHome) + Math.abs(predAway - actAway);
 }
 
-/** Baut die Bilanz einer Woche aus Tippdatei und Spielständen. */
-export function buildReview(tips: TipsFile, games: readonly Game[], now: string): ReviewFile {
+/** Rundet auf 4 Stellen, damit die Datei stabil bleibt. */
+function round4(x: number): number {
+  return Math.round(x * 10_000) / 10_000;
+}
+
+/**
+ * Vergleicht Markt und KI für alle Spiele mit Meinung (D040). Massgebend für den Markt ist der Grundtipp aus
+ * der Quote zum Zeitpunkt der Meinung (marketPickTeamId, marketProb), nicht der spätere App Tipp.
+ */
+export function buildOpinionCompare(opinions: OpinionsFile, games: readonly Game[]): OpinionCompare {
+  const byId = new Map(games.map((g) => [g.id, g]));
+  let scored = 0;
+  let marketHits = 0;
+  let aiHits = 0;
+  let marketSq = 0;
+  let aiSq = 0;
+  let marketBrierN = 0;
+  const disagreements: OpinionCompare["disagreements"] = [];
+  for (const o of opinions.opinions) {
+    const winner = winnerOf(byId.get(o.gameId));
+    if (o.marketPickTeamId !== o.winnerTeamId) {
+      disagreements.push({ gameId: o.gameId, marketPickTeamId: o.marketPickTeamId, aiPickTeamId: o.winnerTeamId, winnerTeamId: winner });
+    }
+    if (winner === null) continue;
+    scored++;
+    const aiHit = o.winnerTeamId === winner ? 1 : 0;
+    aiHits += aiHit;
+    aiSq += (o.pWinner - aiHit) ** 2;
+    if (o.marketPickTeamId !== null) {
+      const marketHit = o.marketPickTeamId === winner ? 1 : 0;
+      marketHits += marketHit;
+      if (o.marketProb !== null) {
+        marketSq += (o.marketProb - marketHit) ** 2;
+        marketBrierN++;
+      }
+    }
+  }
+  return {
+    opinions: opinions.opinions.length,
+    scored,
+    marketHits,
+    aiHits,
+    marketHitRate: scored > 0 ? round4(marketHits / scored) : null,
+    aiHitRate: scored > 0 ? round4(aiHits / scored) : null,
+    marketBrier: marketBrierN > 0 ? round4(marketSq / marketBrierN) : null,
+    aiBrier: scored > 0 ? round4(aiSq / scored) : null,
+    disagreements,
+  };
+}
+
+/** Baut die Bilanz einer Woche aus Tippdatei und Spielständen, mit Meinungsdatei auch den KI Vergleich. */
+export function buildReview(
+  tips: TipsFile,
+  games: readonly Game[],
+  now: string,
+  opinions: OpinionsFile | null = null,
+): ReviewFile {
   const byId = new Map(games.map((g) => [g.id, g]));
   const reviews = tips.tips.map((t) => reviewGame(t, byId.get(t.gameId)));
   const voided = new Set(tips.tips.filter((t) => isVoid(byId.get(t.gameId), t.kickoffUtc, now)).map((t) => t.gameId));
@@ -101,6 +158,7 @@ export function buildReview(tips: TipsFile, games: readonly Game[], now: string)
     tipped: reviews.filter((r) => r.pickTeamId !== null && !voided.has(r.gameId)).length,
     deviationNet: reviews.reduce((s, r) => s + (r.deviationEffect ?? 0), 0),
     tiebreakers,
+    ...(opinions ? { opinionCompare: buildOpinionCompare(opinions, games) } : {}),
   });
 }
 

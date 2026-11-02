@@ -1,6 +1,8 @@
 # Web Push und Ausfall Wächter (D029, D030). Läuft alle 10 Minuten auf ungeraden Minuten wegen Cron Verzögerung.
 # Geplante Läufe startet GitHub nur auf dem Default Branch. Manueller Start über workflow_dispatch geht auf jedem Branch.
 # Ohne Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION bleibt der Lauf grün und sendet nichts.
+# Die KI Zweitmeinung (D040, D042) läuft hier am Schluss, damit die Grenze 6 Stunden vor Kickoff getroffen wird.
+# Ohne Secret ANTHROPIC_API_KEY bleibt auch dieser Schritt grün und erzeugt nichts.
 name: Push und Ausfall Wächter
 
 on:
@@ -18,14 +20,15 @@ permissions:
 
 concurrency:
   # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
-  # (hier nur data/push-log.json und data/injuries), Konflikte beim Push löst git pull --rebase.
+  # (hier nur data/push-log.json, data/injuries und data/opinions), Konflikte beim Push löst git pull --rebase.
   group: push-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   push:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # 10 Minuten für Wächter und Push wie bisher, dazu höchstens 6 für die KI Zweitmeinung am Schluss.
+    timeout-minutes: 16
     steps:
       - uses: actions/checkout@v4
 
@@ -86,8 +89,44 @@ jobs:
           echo "Push nach 3 Versuchen fehlgeschlagen"
           exit 1
 
-      - name: Fehler melden
-        if: steps.watch.outcome == 'failure' || steps.push.outcome == 'failure'
+      # KI Zweitmeinung (D040) erst nach dem Versand und dessen Commit, damit sie Erinnerungen nie verzögert.
+      # Schattenmodus, nicht in der App sichtbar. Höchstens 4 Spiele pro Lauf, jede Anfrage höchstens 60 Sekunden.
+      - name: KI Zweitmeinung
+        id: opinion
+        if: ${{ !cancelled() && inputs.test != 'true' }}
+        timeout-minutes: 6
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run job:opinion
+
+      # Eigener Commit nur für data/opinions, unabhängig vom Push Log. Läuft auch nach Abbruch des Meinungs
+      # Schritts, weil jede Meinung sofort gespeichert wird. Nach 3 Fehlversuchen wird der Lauf rot.
+      - name: Meinungen committen
+        id: opinion_commit
+        if: ${{ !cancelled() && inputs.test != 'true' }}
         run: |
-          echo "Wächter: ${{ steps.watch.outcome }}, Push: ${{ steps.push.outcome }}"
+          if [ -z "$(git status --porcelain -- data/opinions)" ]; then
+            echo "Keine Änderungen an Meinungen"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- data/opinions
+          git commit -m "data: KI Zweitmeinungen aktualisiert"
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep $((i * 5))
+          done
+          echo "Push der Meinungen nach 3 Versuchen fehlgeschlagen"
+          exit 1
+
+      - name: Fehler melden
+        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
+        run: |
+          echo "Wächter: ${{ steps.watch.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
           exit 1

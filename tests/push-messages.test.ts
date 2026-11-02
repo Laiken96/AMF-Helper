@@ -140,6 +140,22 @@ describe("Tippliste bereit", () => {
     expect(m!.payload.title.length).toBeLessThanOrEqual(TITLE_MAX);
   });
 
+  it("nennt nur offene Spiele, gesperrte zählen nicht", () => {
+    const afterTnf = "2026-11-06T02:00:00Z";
+    const m = tipsReadyMessage(tipsW9, games, teams, afterTnf);
+    expect(m?.payload.body).toMatch(/^14 Spiele, /);
+    expect(m?.payload.body).not.toContain("TNF");
+    expect(m?.payload.body).toMatch(/TB MNF \w+@\w+ 22:25$/);
+    const lockedTnf = { ...tipsW9, tips: tipsW9.tips.map((t) => (t.gameId === "401873037" ? { ...t, locked: true } : t)) };
+    expect(tipsReadyMessage(lockedTnf, games, teams)?.payload.body).toMatch(/^14 Spiele, /);
+  });
+
+  it("alle Spiele gesperrt: keine Meldung", () => {
+    const allLocked = { ...tipsW9, tips: tipsW9.tips.map((t) => ({ ...t, locked: true })) };
+    expect(tipsReadyMessage(allLocked, games, teams)).toBeNull();
+    expect(tipsReadyMessage(tipsW9, games, teams, "2026-11-20T00:00:00Z")).toBeNull();
+  });
+
   it("ohne Quote keine Meldung", () => {
     const noOdds = { ...tipsW9, tips: tipsW9.tips.map((t) => ({ ...t, odds: null })) };
     expect(tipsReadyMessage(noOdds, games, teams)).toBeNull();

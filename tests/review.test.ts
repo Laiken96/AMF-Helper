@@ -192,3 +192,59 @@ describe("buildReviewIndex", () => {
     expect(ReviewIndexSchema.safeParse(["../x.json"]).success).toBe(false);
   });
 });
+
+describe("KI Vergleich (opinionCompare)", () => {
+  const op = (id: string, ai: "home" | "away", pWinner: number, market: "home" | "away", marketProb: number) => ({
+    gameId: id,
+    createdAt: "2026-11-01T15:00:00Z",
+    winnerTeamId: (ai === "home" ? "H" : "A") + id,
+    pWinner,
+    marketPickTeamId: (market === "home" ? "H" : "A") + id,
+    marketProb,
+    reasoning: "Kurz.",
+    sources: [{ title: "Quelle", url: "https://example.com/a" }],
+  });
+  const opinions = {
+    schemaVersion: 1 as const,
+    season: 2026,
+    seasonType: 2,
+    week: 8,
+    updatedAt: "2026-11-01T15:00:00Z",
+    model: "claude-haiku-5-5",
+    opinions: [op("1", "home", 0.7, "home", 0.6), op("2", "away", 0.55, "home", 0.65), op("3", "home", 0.8, "away", 0.52), op("4", "home", 0.6, "home", 0.7)],
+  };
+  // Spiel 1 Heim gewinnt, Spiel 2 Heim gewinnt, Spiel 3 Unentschieden, Spiel 4 offen
+  const games = [game("1", 24, 17), game("2", 30, 3), game("3", 20, 20), game("4", null, null, "scheduled")];
+  const tips = tipsFile(["1", "2", "3", "4"].map((id) => tip(id, "home")));
+
+  it("Trefferquote, Brier Score und abweichende Sieger", () => {
+    const r = buildReview(tips, games, NOW, opinions);
+    expect(ReviewFileSchema.parse(r)).toBeTruthy();
+    expect(r.opinionCompare).toEqual({
+      opinions: 4,
+      scored: 2,
+      marketHits: 2,
+      aiHits: 1,
+      marketHitRate: 1,
+      aiHitRate: 0.5,
+      // Markt: (0.6 - 1)^2 und (0.65 - 1)^2, KI: (0.7 - 1)^2 und (0.55 - 0)^2
+      marketBrier: 0.1413,
+      aiBrier: 0.1963,
+      disagreements: [
+        { gameId: "2", marketPickTeamId: "H2", aiPickTeamId: "A2", winnerTeamId: "H2" },
+        { gameId: "3", marketPickTeamId: "A3", aiPickTeamId: "H3", winnerTeamId: null },
+      ],
+    });
+  });
+
+  it("ohne Meinungsdatei fehlt das Feld, alte Bilanzen bleiben gültig", () => {
+    const r = buildReview(tips, games, NOW);
+    expect("opinionCompare" in r).toBe(false);
+    expect(ReviewFileSchema.parse(r)).toEqual(r);
+  });
+
+  it("ohne gewertetes Spiel sind Quoten null", () => {
+    const r = buildReview(tips, [game("4", null, null, "scheduled")], NOW, opinions);
+    expect(r.opinionCompare).toMatchObject({ scored: 0, marketHitRate: null, aiHitRate: null, marketBrier: null, aiBrier: null });
+  });
+});
