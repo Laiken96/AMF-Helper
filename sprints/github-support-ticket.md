@@ -4,7 +4,7 @@ Formular: https://support.github.com/contact (Kategorie Actions). Text auf Engli
 
 ---
 
-**Subject:** Scheduled workflow (cron) never triggers in public repo Laiken96/AMF-Helper, workflow_dispatch works
+**Subject:** Cron schedule never triggers in Laiken96/AMF-Helper, manual runs work
 
 **Body:**
 
