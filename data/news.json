@@ -1,7 +1,99 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T18:47:18Z",
+  "updatedAt": "2026-11-02T19:47:23Z",
   "items": [
+    {
+      "id": "e57a901a2e0c26a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-daniel-jones-remains-colts-starter-gives-us-the-best-chance-to-win",
+      "title": "Shane Steichen: Daniel Jones remains Colts' starter, gives us the best chance to win",
+      "summary": "Colts coach Shane Steichen says he isn't benching quarterback Daniel Jones.",
+      "publishedAt": "2026-11-02T19:44:25Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "f8299015df02c9bc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-provide-update-on-lb-jack-campbell",
+      "title": "Lions provide update on LB Jack Campbell",
+      "summary": "Campbell \"continues to rest and recover.\"",
+      "publishedAt": "2026-11-02T19:43:29Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "78fc3c0c3e5dcf54",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-we-think-were-close-still-open-to-adding-in-a-trade",
+      "title": "Stephen Jones: We think we're close, still open to adding in a trade",
+      "summary": "Blowing a 14-point lead in the fourth quarter of an overtime loss to the Cardinals didn't do much to inspire confidence in the Cowboys from the general public, but it doesn't appear to have led to much of a change in the internal thinking about the team.",
+      "publishedAt": "2026-11-02T19:40:41Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
+    {
+      "id": "8b249a410f721ad4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-rule-de-samson-ebukam-wr-zachariah-branch-out-for-week-9",
+      "title": "Falcons rule DE Samson Ebukam, WR Zachariah Branch out for Week 9",
+      "summary": "The Falcons have ruled out a pair of players for this week's game against the Bengals in Madrid.",
+      "publishedAt": "2026-11-02T19:18:31Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "52455bcef0732e4c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-seahawks-bears-monday-night-football",
+      "title": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Seahawks-Bears, Monday Night Football",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Seahawks vs. Bears on Monday Night Football",
+      "publishedAt": "2026-11-02T19:16:50Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "87bc2af9c4ed9aa8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-giants-pursue-jonathan-taylor-could-they-pivot-to-derrick-henry",
+      "title": "As Giants pursue Jonathan Taylor, could they pivot to Derrick Henry?",
+      "summary": "Quarterback injuries could prompt Baltimore to listen to offers for Henry.",
+      "publishedAt": "2026-11-02T19:10:52Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "ddd6de01e629a391",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-mansoor-delane-day-to-day-with-shoulder-injury",
+      "title": "Andy Reid: Mansoor Delane day-to-day with shoulder injury",
+      "summary": "Chiefs rookie cornerback Mansoor Delane has been battling through a shoulder injury throughout the season.",
+      "publishedAt": "2026-11-02T19:07:03Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "4c7b152622bcbff3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-qb-rankings-mac-jones-kirk-cousins",
+      "title": "2026 NFL trade deadline QB rankings: Mac Jones, Kirk Cousins lead 10 best targets",
+      "summary": "With the Ravens, Eagles and other teams potentially searching for help, we rank 10 quarterbacks who could be available before the Nov. 10 deadline",
+      "publishedAt": "2026-11-02T18:52:17Z",
+      "teamIds": [
+        "33",
+        "21"
+      ]
+    },
     {
       "id": "ecfdac202693d97b",
       "source": "pft",
@@ -1623,24 +1715,6 @@
       "teamIds": [
         "10"
       ]
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "Projecting the 2027 NFL draft order: Which teams could have an early pick?",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-10-27T16:15:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "NFL playoff picture: Updated projections, chances to make the postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-10-27T16:15:53Z",
-      "teamIds": []
     }
   ]
 }
