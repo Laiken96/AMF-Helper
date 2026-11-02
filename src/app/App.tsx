@@ -3,13 +3,15 @@ import type { Game, Team } from "../core/schema";
 import { groupBySlot } from "../core/time";
 import { LoadError, loadWeekData, type WeekData } from "./data";
 import { markOnboardingSeen, onboardingSeen, registerServiceWorker } from "./push";
+import { ReviewView } from "./ReviewView";
 import { Onboarding, SettingsView } from "./SettingsView";
 import { TipsView } from "./TipsView";
 import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
 
-type View = "tipps" | "spielplan" | "einstellungen";
+type View = "tipps" | "bilanz" | "spielplan" | "einstellungen";
 
 function viewFromHash(): View {
+  if (window.location.hash === "#bilanz") return "bilanz";
   if (window.location.hash === "#spielplan") return "spielplan";
   if (window.location.hash === "#einstellungen") return "einstellungen";
   return "tipps";
@@ -17,6 +19,7 @@ function viewFromHash(): View {
 
 const NAV: { view: View; label: string }[] = [
   { view: "tipps", label: "Tipps" },
+  { view: "bilanz", label: "Bilanz" },
   { view: "spielplan", label: "Spielplan" },
   { view: "einstellungen", label: "Einstellungen" },
 ];
@@ -58,6 +61,7 @@ export function App() {
       </nav>
       <main className="page">
         {view === "tipps" && <TipsView />}
+        {view === "bilanz" && <ReviewView />}
         {view === "spielplan" && <ScheduleView />}
         {view === "einstellungen" && <SettingsView onShowOnboarding={() => setShowOnboarding(true)} />}
       </main>

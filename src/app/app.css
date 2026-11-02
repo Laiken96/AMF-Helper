@@ -721,3 +721,177 @@ body {
   flex: none;
   padding: 6px 10px;
 }
+
+/* Sprint 4: Bilanz */
+
+@media (max-width: 420px) {
+  .nav-inner {
+    gap: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .nav a {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0.875rem;
+  }
+}
+
+.week-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.week-picker select {
+  font: inherit;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+}
+
+.notice-pending {
+  background: var(--pending-bg);
+  border-color: var(--pending-border);
+}
+
+.notice a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.big-number {
+  font-size: 2rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.big-number .of {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.dev-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.effect {
+  font-variant-numeric: tabular-nums;
+}
+
+.effect-plus {
+  color: var(--ok);
+}
+
+.effect-minus {
+  color: var(--risk);
+}
+
+.review-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.review-row {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.group-table,
+.season-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  font-variant-numeric: tabular-nums;
+}
+
+.group-table th,
+.group-table td,
+.season-table th,
+.season-table td {
+  padding: 8px 10px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+}
+
+.group-table th:first-child,
+.season-table th:first-child {
+  text-align: left;
+}
+
+.group-table thead th,
+.season-table thead th {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.group-table tbody tr:last-child th,
+.group-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.group-table tr.me th,
+.group-table tr.me td {
+  background: var(--accent);
+  color: var(--card);
+  font-weight: 700;
+}
+
+.season-table .me {
+  background: var(--neutral-bg);
+  font-weight: 700;
+}
+
+.season-table thead th.me {
+  color: var(--accent);
+}
+
+.season-table tfoot th,
+.season-table tfoot td {
+  font-weight: 700;
+  border-bottom: none;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.res {
+  font-weight: 700;
+}
+
+.res-ok {
+  color: var(--ok);
+}
+
+.res-bad {
+  color: var(--risk);
+}
+
+.res-open {
+  color: var(--muted);
+}

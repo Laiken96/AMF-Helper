@@ -57,3 +57,9 @@ export type StandingsHistory = z.infer<typeof StandingsHistorySchema>;
 export function reviewFilePath(season: number, seasonType: number, week: number): string {
   return `reviews/${season}-${seasonType}-${String(week).padStart(2, "0")}.json`;
 }
+
+/** data/reviews/index.json: Review Pfade relativ zu data/, absteigend nach Saison, Typ und Woche. */
+export const ReviewIndexSchema = z.array(z.string().regex(/^reviews\/\d{4}-\d-\d{2}\.json$/));
+export type ReviewIndex = z.infer<typeof ReviewIndexSchema>;
+
+export const REVIEW_INDEX_PATH = "reviews/index.json";
