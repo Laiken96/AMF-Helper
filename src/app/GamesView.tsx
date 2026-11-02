@@ -2,14 +2,9 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { Game, Team } from "../core/schema";
 import { groupBySlot } from "../core/time";
-import { LoadError, currentRef, loadWeekData, navWeeks, parseWeekKey, type WeekData } from "./data";
+import { currentRef, loadWeekData, navWeeks, parseWeekKey, prefetchNeighbours, useKeptLoad, type WeekData } from "./data";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
-import { LoadErrorNotice, PHASE_TEXT, PageHeader, TeamBadge, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
-
-type State =
-  | { kind: "loading" }
-  | { kind: "error"; message: string }
-  | { kind: "ready"; data: WeekData };
+import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
 
 const STATUS_TEXT: Record<Game["status"], string> = {
   scheduled: "Geplant",
@@ -28,29 +23,20 @@ export const clockFormat = new Intl.DateTimeFormat("de-CH", {
 
 /** Reiter Spiele: Spielplan der gewählten Woche mit Liveticker für laufende Spiele. */
 export function GamesView({ arg }: { arg: string | null }) {
-  const [state, setState] = useState<State>({ kind: "loading" });
+  const { data, error, pending } = useKeptLoad(`spiele:${arg ?? ""}`, () => loadWeekData(parseWeekKey(arg)));
 
   useEffect(() => {
-    let active = true;
-    setState({ kind: "loading" });
-    loadWeekData(parseWeekKey(arg))
-      .then((data) => active && setState({ kind: "ready", data }))
-      .catch((err: unknown) => {
-        if (!active) return;
-        const message = err instanceof LoadError ? err.message : "Unerwarteter Fehler beim Laden der Daten.";
-        setState({ kind: "error", message });
-      });
-    return () => {
-      active = false;
-    };
-  }, [arg]);
+    if (data) prefetchNeighbours(data, loadWeekData);
+  }, [data]);
 
-  if (state.kind === "loading") return <p className="notice">Daten werden geladen …</p>;
-  if (state.kind === "error") return <LoadErrorNotice message={state.message} />;
-  return <GamesWeek data={state.data} />;
+  if (error) return <LoadErrorNotice message={error} />;
+  if (!data) return <p className="notice">Daten werden geladen …</p>;
+  return <GamesWeek key={`${data.ref.season}-${data.ref.seasonType}-${data.ref.week}`} data={data} pending={pending} />;
 }
 
-function GamesWeek({ data }: { data: WeekData }) {
+const KICKER: Record<WeekData["phase"], string> = { aktuell: "Spiele · Aktuell", vergangen: "Spiele · Vorbei", kommend: "Spiele · Nächste" };
+
+function GamesWeek({ data, pending }: { data: WeekData; pending: boolean }) {
   const { week, teams, ref, phase } = data;
   const teamById = useMemo(() => new Map(teams.teams.map((t) => [t.id, t])), [teams]);
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
@@ -60,9 +46,13 @@ function GamesWeek({ data }: { data: WeekData }) {
 
   const header = (
     <PageHeader
-      kicker={phase === "aktuell" ? "Spiele" : `Spiele · ${PHASE_TEXT[phase]}`}
+      kicker={weeks ? KICKER[phase] : "Spiele"}
       title={weekLabel(ref)}
-      aside={weeks ? <WeekStepper view="spiele" weeks={weeks} value={ref} current={currentRef(data.current)} /> : undefined}
+      aside={
+        weeks ? (
+          <WeekStepper view="spiele" weeks={weeks} value={ref} current={currentRef(data.current)} pending={pending} />
+        ) : undefined
+      }
       meta={
         week
           ? `Saison ${week.season} · Letzte Änderung ${fetchedFormat.format(new Date(week.fetchedAt))}`

@@ -627,3 +627,15 @@ R96 Konsole und waagrechtes Scrollen
     Schritt: console error und pageerror sammeln, scrollWidth gegen clientWidth messen.
     Erwartet: Keine Konsolenfehler (ausser den gewollten 500 in R89), kein waagrechtes Scrollen in Tipps, Bilanz, Spiele, News.
     Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R97 Wochenwechsel Tempo und Einheitlichkeit
+    Vorbedingung: App geöffnet, Week 8 bis 10 im Index.
+    Schritt: In Tipps mit dem Wochenwähler 8, 9, 10 und zurück wechseln, auf iPhone und Duo quer.
+    Erwartet: Wechsel ohne Leerzustand und ohne Flackern, unter 150 ms bei vorgeladenen Wochen. h1, Wochenwähler, Kacheln und erste Tippzeile in jeder Woche an gleicher Stelle und gleich gross (Toleranz 1 px). Kommende Woche ohne Quoten zeigt Spielbereich mit Hinweis und Zeilen mit "offen".
+    Status: bestanden lokal 2026-11-02 (9 bis 27 ms), offen Nutzer am Gerät
+
+R98 Hintergrundaktualisierung bei offener App
+    Vorbedingung: App sichtbar geöffnet.
+    Schritt: Tippdatei ändert sich auf dem Server (neue Quote).
+    Erwartet: Änderung erscheint spätestens nach 5 Minuten oder sofort per Aktualisieren, ohne Leerzustand und Scrollsprung. Versteckter Tab löst keine Abrufe aus.
+    Status: bestanden lokal 2026-11-02 (page.clock)

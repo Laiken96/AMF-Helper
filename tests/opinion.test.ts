@@ -22,9 +22,9 @@ const fx = JSON.parse(readFileSync(new URL("./fixtures/espn-scoreboard-2026-w9.j
 const parsed = parseScoreboard(fx, { fetchedAt: "2026-11-02T00:00:00Z" });
 if (!parsed.ok) throw new Error(parsed.error);
 const weekW9 = parsed.week;
-const tipsText = readFileSync(new URL("../data/tips/2026-2-09.json", import.meta.url), "utf8");
+const tipsText = readFileSync(new URL("./fixtures/tips-2026-2-09.json", import.meta.url), "utf8");
 const tipsW9 = TipsFileSchema.parse(JSON.parse(tipsText));
-const teamsText = readFileSync(new URL("../data/teams.json", import.meta.url), "utf8");
+const teamsText = readFileSync(new URL("./fixtures/teams.json", import.meta.url), "utf8");
 
 const TNF_ID = "401873037";
 const TNF = "2026-11-06T01:15:00Z";

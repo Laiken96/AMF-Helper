@@ -1,3 +1,4 @@
+import { revalidateData } from "./data";
 import type { ReactNode } from "react";
 
 export type View = "tipps" | "bilanz" | "spiele" | "news" | "einstellungen";
@@ -109,7 +110,7 @@ export function NavCapsule({ view }: { view: View }) {
 export function ToolCapsule() {
   return (
     <div className="tool-capsule" role="group" aria-label="Werkzeuge">
-      <button type="button" aria-label="Aktualisieren" title="Aktualisieren" onClick={() => window.location.reload()}>
+      <button type="button" aria-label="Aktualisieren" title="Aktualisieren" onClick={() => void revalidateData()}>
         <Icon>
           <path d="M21 12a9 9 0 1 1-3-6.7" />
           <path d="M21 4v5h-5" />

@@ -1,3 +1,4 @@
+import { startRevalidation } from "./data";
 import { useCallback, useEffect, useState } from "react";
 import { GamesView } from "./GamesView";
 import { NewsView } from "./NewsView";
@@ -28,6 +29,9 @@ export function App() {
   useEffect(() => {
     void registerServiceWorker();
   }, []);
+
+  // Daten alle 5 Minuten im Hintergrund prüfen, solange die App sichtbar ist
+  useEffect(() => startRevalidation(), []);
 
   const closeOnboarding = useCallback(() => {
     markOnboardingSeen();

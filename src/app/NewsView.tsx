@@ -3,7 +3,7 @@ import type { NewsFile } from "../core/extra-schema";
 import type { Team, TeamsFile, WeekFile } from "../core/schema";
 import type { TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich } from "../core/time";
-import { loadNews, loadTipsData } from "./data";
+import { loadNews, loadTipsData, useDataVersion } from "./data";
 import { useNow } from "./GameHero";
 import { PageHeader, Segmented, fallbackTeam, fetchedFormat } from "./ui";
 
@@ -49,6 +49,7 @@ type Filter = { kind: "alle" } | { kind: "meine" } | { kind: "team"; id: string 
 export function NewsView() {
   const [data, setData] = useState<NewsData | null>(null);
   const now = useNow();
+  const version = useDataVersion();
 
   useEffect(() => {
     let active = true;
@@ -62,7 +63,8 @@ export function NewsView() {
     return () => {
       active = false;
     };
-  }, []);
+    // Neu laden, wenn die Hintergrundprüfung geänderte Dateien gefunden hat
+  }, [version]);
 
   if (!data) return <p className="notice">News werden geladen …</p>;
   if (!data.news || data.news.items.length === 0) {

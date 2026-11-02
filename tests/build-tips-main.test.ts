@@ -8,7 +8,7 @@ import type { FetchFn } from "../jobs/fetch-schedule";
 import { TipsFileSchema } from "../src/core/tips-schema";
 
 const fixtureText = readFileSync(new URL("./fixtures/espn-scoreboard-2026-w9.json", import.meta.url), "utf8");
-const standingsText = readFileSync(new URL("../data/standings.json", import.meta.url), "utf8");
+const standingsText = readFileSync(new URL("./fixtures/standings.json", import.meta.url), "utf8");
 const TIPS = "tips/2026-2-09.json";
 const NOW = "2026-11-02T03:00:00Z";
 const CURRENT_W9 = JSON.stringify({
