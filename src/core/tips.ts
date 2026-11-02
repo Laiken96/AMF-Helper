@@ -126,6 +126,15 @@ function sameOdds(a: Odds | null, b: Odds | null): boolean {
   return a.provider === b.provider && a.spreadHome === b.spreadHome && a.overUnder === b.overUnder;
 }
 
+/**
+ * Erste erfasste Quote eines Tipps (Linienbewegung, D050). Einmal gesetzt bleibt sie. Fehlt sie in einer
+ * Datei aus Version 1, gilt die zuletzt gespeicherte Quote als beste Näherung, sonst die aktuelle.
+ */
+export function firstOddsOf(prev: GameTip | undefined, odds: Odds | null): Odds | null {
+  if (prev?.firstOdds) return prev.firstOdds;
+  return prev?.odds ?? odds;
+}
+
 /** Grundtipp ohne Abweichung: Favorit nach Quote, bei exakt 0.5 das Heimteam. */
 export function favoriteTip(game: Game, odds: Odds | null): Pick<GameTip, "pHome" | "pickTeamId" | "pickProb" | "level"> {
   if (odds === null) return { pHome: null, pickTeamId: null, pickProb: null, level: "offen" };
@@ -248,6 +257,7 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
         level: "nicht_erfasst",
         deviation: false,
         firstPickTeamId: null,
+        firstOdds: null,
         changedSinceFirst: false,
         locked: true,
         lockedAt: now,
@@ -265,6 +275,7 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
       ...favoriteTip(game, odds),
       deviation: false,
       firstPickTeamId: prev?.firstPickTeamId ?? null,
+      firstOdds: firstOddsOf(prev, odds),
       changedSinceFirst: false,
       locked: false,
       lockedAt: null,

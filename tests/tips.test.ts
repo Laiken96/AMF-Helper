@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { Game, WeekFile } from "../src/core/schema";
 import {
@@ -460,5 +461,54 @@ describe("buildTipsFile", () => {
     const a = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
     const b = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: a, now: "2026-11-02T00:00:00Z" });
     expect(sameTipsContent(a, b)).toBe(true);
+  });
+});
+
+describe("Linienbewegung firstOdds (D050)", () => {
+  const games = [game("thu", "2026-11-06T01:15:00Z"), game("sun", "2026-11-08T18:00:00Z")];
+  const T1 = "2026-11-03T12:00:00Z";
+  const T2 = "2026-11-06T02:00:00Z";
+
+  it("erste Quote wird gesetzt und bleibt bei Bewegung unverändert", () => {
+    const first = buildTipsFile({ week: weekOf(games), odds: { thu: odds(3), sun: null }, standings: BEHIND, existing: null, now: T0 });
+    expect(first.schemaVersion).toBe(2);
+    const by1 = Object.fromEntries(first.tips.map((t) => [t.gameId, t]));
+    expect(by1.thu!.firstOdds).toEqual(odds(3));
+    expect(by1.sun!.firstOdds).toBeNull();
+
+    const second = buildTipsFile({ week: weekOf(games), odds: { thu: odds(8.5, 45, T1), sun: odds(-2, 45, T1) }, standings: BEHIND, existing: first, now: T1 });
+    const by2 = Object.fromEntries(second.tips.map((t) => [t.gameId, t]));
+    expect(by2.thu!.odds?.spreadHome).toBe(8.5);
+    expect(by2.thu!.firstOdds).toEqual(odds(3));
+    // Erste Quote erst im zweiten Lauf
+    expect(by2.sun!.firstOdds).toEqual(odds(-2, 45, T1));
+
+    // Nach Kickoff gesperrt, erste Quote bleibt
+    const third = buildTipsFile({ week: weekOf(games), odds: { thu: odds(1, 45, T2), sun: odds(-2, 45, T1) }, standings: BEHIND, existing: second, now: T2 });
+    const thu = third.tips.find((t) => t.gameId === "thu")!;
+    expect(thu.locked).toBe(true);
+    expect(thu.firstOdds).toEqual(odds(3));
+    expect(thu.odds?.spreadHome).toBe(8.5);
+  });
+
+  it("Datei aus Version 1 ohne firstOdds: die gespeicherte Quote gilt als erste", () => {
+    const v1 = buildTipsFile({ week: weekOf(games), odds: { thu: odds(3), sun: odds(-1) }, standings: BEHIND, existing: null, now: T0 });
+    const old = { ...v1, schemaVersion: 1 as const, tips: v1.tips.map(({ firstOdds: _f, ...t }) => t) };
+    expect(TipsFileSchema.parse(old).schemaVersion).toBe(1);
+    const next = buildTipsFile({ week: weekOf(games), odds: { thu: odds(6, 45, T1), sun: odds(-1) }, standings: BEHIND, existing: TipsFileSchema.parse(old), now: T1 });
+    expect(next.schemaVersion).toBe(2);
+    expect(next.tips.find((t) => t.gameId === "thu")!.firstOdds).toEqual(odds(3));
+  });
+
+  it("Fixture aus Version 1 parst weiter", () => {
+    const raw = JSON.parse(readFileSync(new URL("./fixtures/tips-2026-2-08.json", import.meta.url), "utf8"));
+    expect(raw.schemaVersion).toBe(1);
+    const f = TipsFileSchema.parse(raw);
+    expect(f.tips.every((t) => t.firstOdds === undefined)).toBe(true);
+  });
+
+  it("unbekannte Version wird abgelehnt", () => {
+    const raw = JSON.parse(readFileSync(new URL("./fixtures/tips-2026-2-09.json", import.meta.url), "utf8"));
+    expect(TipsFileSchema.safeParse({ ...raw, schemaVersion: 3 }).success).toBe(false);
   });
 });

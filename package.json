@@ -17,7 +17,9 @@
     "job:standings": "tsx jobs/standings.ts",
     "job:news": "tsx jobs/news.ts",
     "job:index": "tsx jobs/weeks-index.ts",
-    "job:opinion": "tsx jobs/opinion.ts"
+    "job:opinion": "tsx jobs/opinion.ts",
+    "job:heartbeat": "tsx jobs/heartbeat.ts",
+    "job:picks": "tsx jobs/picks.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

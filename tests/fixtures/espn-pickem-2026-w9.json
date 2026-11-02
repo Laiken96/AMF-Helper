@@ -1,0 +1,1775 @@
+{
+  "id": 288,
+  "key": "nfl-pickem-2026",
+  "name": "NFL Pick'em",
+  "gameType": "PICKEM",
+  "state": "LIVE",
+  "scoringFormatIds": [
+    1,
+    3,
+    2,
+    7
+  ],
+  "currentScoringPeriod": {
+    "id": 8,
+    "abbrev": "Wk8",
+    "label": "Week 8"
+  },
+  "propositions": [
+    {
+      "id": "197000e0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "DAL @ IND",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873040"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873040"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "197000e1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "DAL",
+          "name": "Cowboys",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873040"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "6"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873040"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197000e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 73077,
+              "outcomeId": "197000e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8405838777951596,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3164,
+              "outcomeId": "197000e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8493959731543624,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "197000e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            }
+          ]
+        },
+        {
+          "id": "197000e2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "IND",
+          "name": "Colts",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873040"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "11"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873040"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197000e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 561,
+              "outcomeId": "197000e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.1506040268456376,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "197000e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 13859,
+              "outcomeId": "197000e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.15941612220484033,
+              "scoringFormatId": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19709d20-52cd-11f1-9faa-c3495999c3c1",
+      "name": "CLE @ NO",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873039"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873039"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "19709d21-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "CLE",
+          "name": "Browns",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873039"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "5"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873039"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19709d21-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 43981,
+              "outcomeId": "19709d21-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.5097827850800937,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 1819,
+              "outcomeId": "19709d21-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.48832214765100673,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "19709d21-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        },
+        {
+          "id": "19709d22-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "NO",
+          "name": "Saints",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873039"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "18"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873039"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 42293,
+              "outcomeId": "19709d22-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.49021721491990633,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 0,
+              "outcomeId": "19709d22-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 1906,
+              "outcomeId": "19709d22-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.5116778523489933,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "19709d22-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1970eb40-52cd-11f1-9faa-c3495999c3c1",
+      "name": "NYG @ PHI",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873044"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873044"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "1970eb41-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "NYG",
+          "name": "Giants",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873044"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "19"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873044"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 2526,
+              "outcomeId": "1970eb41-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.6781208053691276,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "1970eb41-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "1970eb41-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 57172,
+              "outcomeId": "1970eb41-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.6613378986454441,
+              "scoringFormatId": 1
+            }
+          ]
+        },
+        {
+          "id": "1970eb42-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "PHI",
+          "name": "Eagles",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873044"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "21"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873044"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "1970eb42-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 29277,
+              "outcomeId": "1970eb42-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.3386621013545559,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 1199,
+              "outcomeId": "1970eb42-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.3218791946308725,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "1970eb42-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19713960-52cd-11f1-9faa-c3495999c3c1",
+      "name": "DEN @ CAR",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873041"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873041"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "19713961-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "DEN",
+          "name": "Broncos",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873041"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "7"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873041"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19713961-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 73848,
+              "outcomeId": "19713961-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8562384778600994,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3199,
+              "outcomeId": "19713961-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8587919463087248,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "19713961-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        },
+        {
+          "id": "19713962-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "CAR",
+          "name": "Panthers",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873041"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "29"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873041"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19713962-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 12399,
+              "outcomeId": "19713962-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.1437615221399005,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 526,
+              "outcomeId": "19713962-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.14120805369127518,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "19713962-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19718780-52cd-11f1-9faa-c3495999c3c1",
+      "name": "HOU @ LAC",
+      "scoringPeriodId": 9,
+      "date": 1794171900000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873046"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873046"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "19718781-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "HOU",
+          "name": "Texans",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873046"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "34"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873046"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19718781-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 66134,
+              "outcomeId": "19718781-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.7681068524970964,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 2607,
+              "outcomeId": "19718781-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.6998657718120805,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "19718781-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        },
+        {
+          "id": "19718782-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "LAC",
+          "name": "Chargers",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873046"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "24"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873046"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 19966,
+              "outcomeId": "19718782-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.2318931475029036,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 1118,
+              "outcomeId": "19718782-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.30013422818791946,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "19718782-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "19718782-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1971d5a0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "LV @ SF",
+      "scoringPeriodId": 9,
+      "date": 1794173100000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873047"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873047"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "1971d5a1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "LV",
+          "name": "Raiders",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873047"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "13"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873047"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 208,
+              "outcomeId": "1971d5a1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.05583892617449664,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "1971d5a1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "1971d5a1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 5041,
+              "outcomeId": "1971d5a1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.05831993243634092,
+              "scoringFormatId": 1
+            }
+          ]
+        },
+        {
+          "id": "1971d5a2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "SF",
+          "name": "49ers",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873047"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "25"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873047"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "1971d5a2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 81396,
+              "outcomeId": "1971d5a2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9416800675636591,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3517,
+              "outcomeId": "1971d5a2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9441610738255034,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "1971d5a2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197223c0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "ARI @ SEA",
+      "scoringPeriodId": 9,
+      "date": 1794173100000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873048"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873048"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "197223c1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "ARI",
+          "name": "Cardinals",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873048"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "22"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873048"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197223c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 0,
+              "outcomeId": "197223c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 120,
+              "outcomeId": "197223c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.032214765100671144,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 2621,
+              "outcomeId": "197223c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.03050263595842983,
+              "scoringFormatId": 1
+            }
+          ]
+        },
+        {
+          "id": "197223c2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "SEA",
+          "name": "Seahawks",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873048"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "26"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873048"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197223c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 83306,
+              "outcomeId": "197223c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9694973640415702,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3605,
+              "outcomeId": "197223c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9677852348993289,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "197223c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197271e0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "TB @ CHI",
+      "scoringPeriodId": 9,
+      "date": 1794187200000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873050"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873050"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "197271e1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "TB",
+          "name": "Buccaneers",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873050"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "27"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873050"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197271e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 0,
+              "outcomeId": "197271e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 6987,
+              "outcomeId": "197271e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.08148390031138115,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 303,
+              "outcomeId": "197271e1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.08134228187919464,
+              "scoringFormatId": 2
+            }
+          ]
+        },
+        {
+          "id": "197271e2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "CHI",
+          "name": "Bears",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873050"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "3"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873050"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197271e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 3422,
+              "outcomeId": "197271e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9186577181208053,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 78760,
+              "outcomeId": "197271e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9185160996886188,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 0,
+              "outcomeId": "197271e2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196f3d90-52cd-11f1-9faa-c3495999c3c1",
+      "name": "JAX @ BAL",
+      "scoringPeriodId": 9,
+      "date": 1793927700000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873037"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873037"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "196f3d91-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "JAX",
+          "name": "Jaguars",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873037"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "30"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873037"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "196f3d91-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "196f3d91-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 54882,
+              "outcomeId": "196f3d91-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.5936333841710744,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 2533,
+              "outcomeId": "196f3d91-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.68,
+              "scoringFormatId": 2
+            }
+          ]
+        },
+        {
+          "id": "196f3d92-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "BAL",
+          "name": "Ravens",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873037"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "33"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873037"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 37569,
+              "outcomeId": "196f3d92-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.4063666158289256,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 1192,
+              "outcomeId": "196f3d92-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.32,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "196f3d92-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "196f3d92-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197027f0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "NYJ @ KC",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873045"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873045"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "197027f1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "NYJ",
+          "name": "Jets",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873045"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "20"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873045"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 131,
+              "outcomeId": "197027f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.03516778523489933,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "197027f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 2225,
+              "outcomeId": "197027f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.025456792100957634,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 0,
+              "outcomeId": "197027f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        },
+        {
+          "id": "197027f2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "KC",
+          "name": "Chiefs",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873045"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "12"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873045"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 3594,
+              "outcomeId": "197027f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9648322147651007,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 85178,
+              "outcomeId": "197027f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9745432078990424,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 0,
+              "outcomeId": "197027f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "197027f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19707610-52cd-11f1-9faa-c3495999c3c1",
+      "name": "DET @ MIA",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873042"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873042"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "19707611-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "DET",
+          "name": "Lions",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873042"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "8"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873042"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19707611-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 0,
+              "outcomeId": "19707611-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 84928,
+              "outcomeId": "19707611-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9739002798036788,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3583,
+              "outcomeId": "19707611-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9618791946308725,
+              "scoringFormatId": 2
+            }
+          ]
+        },
+        {
+          "id": "19707612-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "MIA",
+          "name": "Dolphins",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873042"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "15"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873042"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19707612-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "19707612-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 2276,
+              "outcomeId": "19707612-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.026099720196321268,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 142,
+              "outcomeId": "19707612-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.038120805369127514,
+              "scoringFormatId": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19711250-52cd-11f1-9faa-c3495999c3c1",
+      "name": "LAR @ WSH",
+      "scoringPeriodId": 9,
+      "date": 1794160800000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873043"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873043"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "19711251-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "LAR",
+          "name": "Rams",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873043"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "14"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873043"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19711251-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 0,
+              "outcomeId": "19711251-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 79910,
+              "outcomeId": "19711251-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9249484917934115,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3432,
+              "outcomeId": "19711251-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.9213422818791946,
+              "scoringFormatId": 2
+            }
+          ]
+        },
+        {
+          "id": "19711252-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "WSH",
+          "name": "Commanders",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873043"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "28"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873043"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "19711252-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 0,
+              "outcomeId": "19711252-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 6484,
+              "outcomeId": "19711252-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.07505150820658842,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 293,
+              "outcomeId": "19711252-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.07865771812080537,
+              "scoringFormatId": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1971fcb0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "GB @ NE",
+      "scoringPeriodId": 9,
+      "date": 1794173100000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873049"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873049"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "1971fcb1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "GB",
+          "name": "Packers",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873049"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "9"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873049"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "1971fcb1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 1330,
+              "outcomeId": "1971fcb1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.35704697986577183,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "1971fcb1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 33636,
+              "outcomeId": "1971fcb1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.39255870407543997,
+              "scoringFormatId": 1
+            }
+          ]
+        },
+        {
+          "id": "1971fcb2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "NE",
+          "name": "Patriots",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873049"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "17"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873049"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 2395,
+              "outcomeId": "1971fcb2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.6429530201342282,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "1971fcb2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 52048,
+              "outcomeId": "1971fcb2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.60744129592456,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 0,
+              "outcomeId": "1971fcb2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197298f0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "BUF @ MIN",
+      "scoringPeriodId": 9,
+      "date": 1794273300000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873051"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873051"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "197298f1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "BUF",
+          "name": "Bills",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873051"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "2"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873051"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197298f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 69915,
+              "outcomeId": "197298f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8152592177989225,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 3047,
+              "outcomeId": "197298f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.817986577181208,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "197298f1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            }
+          ]
+        },
+        {
+          "id": "197298f2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "MIN",
+          "name": "Vikings",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873051"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "16"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873051"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "197298f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 678,
+              "outcomeId": "197298f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.18201342281879196,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "197298f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 15843,
+              "outcomeId": "197298f2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.18474078220107745,
+              "scoringFormatId": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196fb2c0-52cd-11f1-9faa-c3495999c3c1",
+      "name": "CIN @ ATL",
+      "scoringPeriodId": 9,
+      "date": 1794148200000,
+      "status": "OPEN",
+      "scoringFormatIds": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "mappings": [
+        {
+          "type": "COMPETITION_ID",
+          "value": "401873038"
+        },
+        {
+          "type": "EVENT_ID",
+          "value": "401873038"
+        }
+      ],
+      "possibleOutcomes": [
+        {
+          "id": "196fb2c1-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "CIN",
+          "name": "Bengals",
+          "subType": "AWAY",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873038"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "4"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873038"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "196fb2c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 3222,
+              "outcomeId": "196fb2c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8649664429530202,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 0,
+              "outcomeId": "196fb2c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            },
+            {
+              "count": 77869,
+              "outcomeId": "196fb2c1-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.8776641907960732,
+              "scoringFormatId": 1
+            }
+          ]
+        },
+        {
+          "id": "196fb2c2-52cd-11f1-9faa-c3495999c3c1",
+          "abbrev": "ATL",
+          "name": "Falcons",
+          "subType": "HOME",
+          "mappings": [
+            {
+              "type": "COMPETITION_ID",
+              "value": "401873038"
+            },
+            {
+              "type": "COMPETITOR_ID",
+              "value": "1"
+            },
+            {
+              "type": "EVENT_ID",
+              "value": "401873038"
+            }
+          ],
+          "choiceCounters": [
+            {
+              "count": 0,
+              "outcomeId": "196fb2c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 3
+            },
+            {
+              "count": 503,
+              "outcomeId": "196fb2c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.13503355704697986,
+              "scoringFormatId": 2
+            },
+            {
+              "count": 10854,
+              "outcomeId": "196fb2c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.12233580920392682,
+              "scoringFormatId": 1
+            },
+            {
+              "count": 0,
+              "outcomeId": "196fb2c2-52cd-11f1-9faa-c3495999c3c1",
+              "percentage": 0.0,
+              "scoringFormatId": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

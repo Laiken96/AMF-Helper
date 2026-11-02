@@ -21,7 +21,7 @@ permissions:
 
 concurrency:
   # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
-  # (hier nur data/push-log.json, data/injuries und data/opinions), Konflikte beim Push löst git pull --rebase.
+  # (hier nur data/push-log.json, data/injuries, data/fpi und data/opinions), Konflikte beim Push löst git pull --rebase.
   group: push-${{ github.ref }}
   cancel-in-progress: false
 
@@ -48,6 +48,7 @@ jobs:
         run: npm run job:push -- --test
 
       # Der Wächter darf scheitern, die Erinnerungen kommen trotzdem mit dem letzten Stand. Der Lauf wird am Ende rot.
+      # Er erfasst die aktuelle und die nächste Woche (D050) und schreibt dazu den ESPN FPI nach data/fpi.
       - name: Ausfälle prüfen
         id: watch
         if: inputs.test != 'true'
@@ -63,13 +64,14 @@ jobs:
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
         run: npm run job:push
 
-      # Nur push-log und Ausfall Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben.
+      # Nur push-log, Ausfall und FPI Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben,
+      # der FPI ist Schattenvergleich und wartet auf den nächsten Neubau.
       - name: Änderungen committen
         id: commit
         if: inputs.test != 'true'
         run: |
-          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries)" ]; then
-            echo "Keine Änderungen an push-log oder Ausfällen"
+          if [ -z "$(git status --porcelain -- data/push-log.json data/injuries data/fpi)" ]; then
+            echo "Keine Änderungen an push-log, Ausfällen oder FPI"
             exit 0
           fi
           injuries_changed=false
@@ -79,8 +81,9 @@ jobs:
           paths=()
           [ -e data/push-log.json ] && paths+=(data/push-log.json)
           [ -d data/injuries ] && paths+=(data/injuries)
+          [ -d data/fpi ] && paths+=(data/fpi)
           git add -A -- "${paths[@]}"
-          git commit -m "data: Push Log und Ausfälle aktualisiert"
+          git commit -m "data: Push Log, Ausfälle und FPI aktualisiert"
           # Bis zu 3 Versuche, falls data.yml gleichzeitig pusht. Ein misslungener Rebase wird abgebrochen und wiederholt.
           for i in 1 2 3; do
             if git pull --rebase && git push; then

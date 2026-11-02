@@ -150,6 +150,37 @@ export function formatChange(c: InjuryChange): string {
   return `${c.teamAbbr} ${shortName(c.name)}${c.pos ? ` ${c.pos}` : ""} ${statusCode(c.from)}>${statusCode(c.to)}`;
 }
 
+/** Ab dieser Bewegung des Spreads in Punkten erscheint die Linie in der Slot Meldung (D050). */
+export const LINE_MOVE_MIN = 2.5;
+
+/** Spread mit Vorzeichen, z. B. -3, +2.5 oder 0. */
+export function formatSpread(n: number): string {
+  return n > 0 ? `+${n}` : String(n);
+}
+
+/**
+ * Linienbewegung seit der ersten erfassten Quote (D050). Gemeldet bei Favoritenwechsel oder ab 2.5 Punkten
+ * Bewegung. Der Spread steht aus Sicht des aktuellen Favoriten, bei Pick em aus Sicht des Heimteams.
+ * Beispiel "Linie JAX -3 > -8.5". Ohne erste oder aktuelle Quote null.
+ */
+export function lineMoveItem(
+  tip: Pick<TipsFile["tips"][number], "odds" | "firstOdds">,
+  game: Pick<Game, "homeId" | "awayId">,
+  teams: ReadonlyMap<string, Team>,
+): string | null {
+  const first = tip.firstOdds;
+  const cur = tip.odds;
+  if (!first || !cur) return null;
+  const a = first.spreadHome;
+  const b = cur.spreadHome;
+  const favoriteSwitch = a !== 0 && b !== 0 && Math.sign(a) !== Math.sign(b);
+  if (!favoriteSwitch && Math.abs(b - a) < LINE_MOVE_MIN) return null;
+  const home = b <= 0;
+  const team = abbrOf(teams, home ? game.homeId : game.awayId);
+  const view = (spreadHome: number) => (home ? spreadHome : -spreadHome);
+  return `Linie ${team} ${formatSpread(view(a))} > ${formatSpread(view(b))}`;
+}
+
 export interface SlotInput {
   games: readonly Game[];
   tips: TipsFile | null;
@@ -182,10 +213,15 @@ export function slotMessages(input: SlotInput): DueMessage[] {
     const injuryItems = hasBaseline
       ? (input.injuries?.changes ?? []).filter((c) => ids.has(c.gameId)).map(formatChange)
       : [];
+    // Pro Spiel zuerst die Tippänderung, dann die Linienbewegung.
     const tipItems = slot.games.flatMap((g) => {
       const t = tipsById.get(g.id);
-      if (!t || !t.changedSinceFirst) return [];
-      return [`Tipp ${abbrOf(teams, t.firstPickTeamId)}>${abbrOf(teams, t.pickTeamId)}`];
+      if (!t) return [];
+      const items: string[] = [];
+      if (t.changedSinceFirst) items.push(`Tipp ${abbrOf(teams, t.firstPickTeamId)}>${abbrOf(teams, t.pickTeamId)}`);
+      const line = lineMoveItem(t, g, teams);
+      if (line) items.push(line);
+      return items;
     });
     const items = [...tipItems, ...injuryItems];
     const body = items.length > 0 ? fitParts(`${head}. `, items, BODY_MAX) : `${head}. Keine Änderung`;
