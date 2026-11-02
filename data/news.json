@@ -1,7 +1,110 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T14:47:20Z",
+  "updatedAt": "2026-11-02T15:47:22Z",
   "items": [
+    {
+      "id": "d49ae2cad1362b11",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bucs-lb-yaya-diaby-believed-to-have-an-mcl-sprain",
+      "title": "Report: Bucs LB Yaya Diaby believed to have an MCL sprain",
+      "summary": "The Buccaneers shut out the Falcons in Sunday's win, but their defense lost a starter to injury on the way to victory.",
+      "publishedAt": "2026-11-02T15:36:04Z",
+      "teamIds": [
+        "1",
+        "27"
+      ]
+    },
+    {
+      "id": "eb175051ab98cc98",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-bears-vs-seahawks-nfl-monday-night-football",
+      "title": "Use FanDuel promo code to get $200 in bonus bets by targeting Bears vs. Seahawks, NFL Monday Night Football",
+      "summary": "Sign up and bet with the latest FanDuel promo code to wager on Monday to get your bonus bets",
+      "publishedAt": "2026-11-02T15:30:21Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "2709acf92e524fd6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/caleb-downs-cowboys-defense-trey-mcbride",
+      "title": "Trey McBride taunts Caleb Downs as Cowboys rookie's struggles reach alarming level",
+      "summary": "Dallas rebuilt its defense around first-round pick Caleb Downs, but his coverage struggles and costly mistakes were exposed",
+      "publishedAt": "2026-11-02T15:27:01Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "09d145b2c223e34c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-should-explore-a-trade-for-daniel-jones",
+      "title": "The Vikings should explore a trade for Daniel Jones",
+      "summary": "Kevin O'Connell's decision to punt with 3:01 to play speaks volumes about the level of trust in Kyler Murray.",
+      "publishedAt": "2026-11-02T15:11:40Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "3137e22d0f28b4d5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-expect-davon-hamilton-to-miss-the-rest-of-the-season-with-torn-quad",
+      "title": "Jaguars expect DaVon Hamilton to miss the rest of the season with torn quad",
+      "summary": "Jaguars defensive tackle DaVon Hamilton was carted off on Sunday, and the initial prognosis isn't good.",
+      "publishedAt": "2026-11-02T14:54:11Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "94317ae1ac38a840",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bears-vs-seahawks-odds-picks-player-props-experts-nfl-week-8-best-bets-for-monday-night-football",
+      "title": "Bears vs. Seahawks odds, picks, player props: Expert's NFL Week 8 best bets for Monday Night Football",
+      "summary": "Take the points with the underdog in a projected prime-time shootout, plus target high-volume value on Jaxson Smith-Njigba and plus-money tight end props",
+      "publishedAt": "2026-11-02T14:53:36Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "2e4aac4b99c9661d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-says-jets-arent-trading-breece-hall",
+      "title": "Aaron Glenn says Jets aren't trading Breece Hall",
+      "summary": "Breece Hall missed his fifth straight game with a quad injury on Sunday and Braelon Allen continued to shine in his absence.",
+      "publishedAt": "2026-11-02T14:48:02Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "8606bb529fb37397",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bears-seahawks-monday-night-football",
+      "title": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bears-Seahawks, Monday Night Football",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Seahawks vs. Bears on Monday Night Football",
+      "publishedAt": "2026-11-02T14:35:25Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "1d7c1dccf8432474",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lamar-jackson-injury-ravens-contract-extension",
+      "title": "Lamar Jackson injury throws huge wrench into looming contract talks with Ravens",
+      "summary": "Jackson's current contract runs through the 2027 season",
+      "publishedAt": "2026-11-02T14:34:30Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "76f57f72e8eb6611",
       "source": "pft",
@@ -11,6 +114,29 @@
       "publishedAt": "2026-11-02T14:31:23Z",
       "teamIds": [
         "18"
+      ]
+    },
+    {
+      "id": "29f42313effbf647",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-bears-vs-seahawks-monday-night-football-betting",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Bears vs. Seahawks, Monday Night Football betting",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Seahawks vs. Bears on Monday Night Football",
+      "publishedAt": "2026-11-02T13:59:14Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "375770ff6804a321",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-biggest-loser-from-nfl-week-8-fsu-starts-coaching-search-after-firing-mike-norvell",
+      "title": "Cowboys biggest loser from NFL Week 8; FSU starts coaching search after firing Mike Norvell",
+      "summary": "Plus, Lamar Jackson played one snap before suffering another long-term injury",
+      "publishedAt": "2026-11-02T13:57:46Z",
+      "teamIds": [
+        "6"
       ]
     },
     {
@@ -553,6 +679,17 @@
       ]
     },
     {
+      "id": "fa4487aaf83f89e4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-may-explore-trading-for-tyson-bagent",
+      "title": "Ravens may explore trading for Tyson Bagent",
+      "summary": "The Baltimore quarterback room was decimated on Sunday.",
+      "publishedAt": "2026-11-02T02:46:08Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
       "id": "7582024a59c954bd",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-is-the-sixth-fastest-coach-to-200-wins",
@@ -590,6 +727,18 @@
       ]
     },
     {
+      "id": "29ac596c28087cfb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-had-never-blown-a-14-point-fourth-quarter-lead-at-home-before-sunday",
+      "title": "Cowboys had never blown a 14-point, fourth-quarter lead at home before Sunday",
+      "summary": "A third-party contractor yelled \"embarrassing\" to Dak Prescott as he walked back to the Cowboys' locker room after a 24-16 loss to the Bucs in Week 5.",
+      "publishedAt": "2026-11-02T02:06:11Z",
+      "teamIds": [
+        "6",
+        "27"
+      ]
+    },
+    {
       "id": "061f42fded8beeba",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-8-winners-losers-cowboys-joe-burrow",
@@ -599,6 +748,18 @@
       "teamIds": [
         "33",
         "6"
+      ]
+    },
+    {
+      "id": "b0a138945b231339",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-on-zero-completed-passes-whatever-it-takes-to-win",
+      "title": "Baker Mayfield on zero completed passes: Whatever it takes to win",
+      "summary": "The Buccaneers set a franchise-record with 324 rushing yards in Sunday's 16-0 win over the Falcons and they made a little other history as well.",
+      "publishedAt": "2026-11-02T01:56:26Z",
+      "teamIds": [
+        "1",
+        "27"
       ]
     },
     {
@@ -764,6 +925,18 @@
       "teamIds": [
         "21",
         "28"
+      ]
+    },
+    {
+      "id": "83beb9183ce0d41a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-say-jack-campbell-will-remain-hospitalized-overnight",
+      "title": "Lions say Jack Campbell will remain hospitalized overnight",
+      "summary": "Lions linebacker Jack Campbell will be hospitalized overnight after suffering what appeared to be a serious injury on Sunday against the Vikings.",
+      "publishedAt": "2026-11-02T00:25:35Z",
+      "teamIds": [
+        "8",
+        "16"
       ]
     },
     {
@@ -1000,6 +1173,18 @@
       ]
     },
     {
+      "id": "94e7b77a50b30f3e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylen-warren-rushes-for-143-on-his-birthday-steelers-beat-browns-27-6",
+      "title": "Jaylen Warren rushes for 143 on his birthday, Steelers beat Browns 27-6",
+      "summary": "The streak continues for the Steelers and Browns in Pittsburgh.",
+      "publishedAt": "2026-11-01T21:10:59Z",
+      "teamIds": [
+        "5",
+        "23"
+      ]
+    },
+    {
       "id": "2923c58be93bb1a6",
       "source": "espn",
       "url": "https://espn.com/nfl/draft2027/story/_/id/50288294/2027-nfl-draft-ohio-state-receiver-jeremiah-smith-generational",
@@ -1085,6 +1270,17 @@
       "teamIds": [
         "24",
         "14"
+      ]
+    },
+    {
+      "id": "c16dc40a735e28fd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-rule-out-lamar-jackson-with-right-thumb-injury",
+      "title": "Ravens rule out Lamar Jackson with right thumb injury",
+      "summary": "Tyler Huntley has replcaed Jackson.",
+      "publishedAt": "2026-11-01T18:44:47Z",
+      "teamIds": [
+        "33"
       ]
     },
     {
