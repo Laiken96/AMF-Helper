@@ -3,8 +3,8 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-02T03:01:54Z",
-  "maxDeviations": 0,
+  "updatedAt": "2026-11-02T03:03:54Z",
+  "maxDeviations": 2,
   "tips": [
     {
       "gameId": "401873037",
@@ -13,7 +13,7 @@
         "provider": "DraftKings",
         "spreadHome": 8.5,
         "overUnder": 43.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.2645,
       "pickTeamId": "30",
@@ -32,7 +32,7 @@
         "provider": "DraftKings",
         "spreadHome": 3,
         "overUnder": 51.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.4121,
       "pickTeamId": "4",
@@ -51,7 +51,7 @@
         "provider": "DraftKings",
         "spreadHome": -3,
         "overUnder": 43.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.5879,
       "pickTeamId": "18",
@@ -70,7 +70,7 @@
         "provider": "DraftKings",
         "spreadHome": 6,
         "overUnder": 52.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.3284,
       "pickTeamId": "6",
@@ -89,7 +89,7 @@
         "provider": "DraftKings",
         "spreadHome": 3,
         "overUnder": 44.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.4121,
       "pickTeamId": "7",
@@ -108,7 +108,7 @@
         "provider": "DraftKings",
         "spreadHome": 7,
         "overUnder": 48.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.302,
       "pickTeamId": "8",
@@ -155,7 +155,7 @@
         "provider": "DraftKings",
         "spreadHome": -10,
         "overUnder": 45.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.7706,
       "pickTeamId": "12",
@@ -174,7 +174,7 @@
         "provider": "DraftKings",
         "spreadHome": 4.5,
         "overUnder": 42.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.3694,
       "pickTeamId": "34",
@@ -193,7 +193,7 @@
         "provider": "DraftKings",
         "spreadHome": -9.5,
         "overUnder": 51.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.7592,
       "pickTeamId": "25",
@@ -212,7 +212,7 @@
         "provider": "DraftKings",
         "spreadHome": -11.5,
         "overUnder": 44.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.8029,
       "pickTeamId": "26",
@@ -231,15 +231,15 @@
         "provider": "DraftKings",
         "spreadHome": -2.5,
         "overUnder": 47.5,
-        "fetchedAt": "2026-11-02T03:01:54Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.5735,
-      "pickTeamId": "17",
-      "pickProb": 0.5735,
+      "pickTeamId": "9",
+      "pickProb": 0.4265,
       "level": "unklar",
-      "deviation": false,
+      "deviation": true,
       "firstPickTeamId": "17",
-      "changedSinceFirst": false,
+      "changedSinceFirst": true,
       "locked": false,
       "lockedAt": null
     },
@@ -250,7 +250,7 @@
         "provider": "DraftKings",
         "spreadHome": -6,
         "overUnder": 47.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.6716,
       "pickTeamId": "3",
@@ -269,15 +269,15 @@
         "provider": "DraftKings",
         "spreadHome": 2.5,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-02T02:56:30Z"
+        "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.4265,
-      "pickTeamId": "2",
-      "pickProb": 0.5735,
+      "pickTeamId": "16",
+      "pickProb": 0.4265,
       "level": "unklar",
-      "deviation": false,
+      "deviation": true,
       "firstPickTeamId": "2",
-      "changedSinceFirst": false,
+      "changedSinceFirst": true,
       "locked": false,
       "lockedAt": null
     }
@@ -293,8 +293,8 @@
     {
       "gameId": "401873051",
       "slot": "monday",
-      "homePoints": 22,
-      "awayPoints": 25,
+      "homePoints": 25,
+      "awayPoints": 22,
       "basis": "quote"
     }
   ]

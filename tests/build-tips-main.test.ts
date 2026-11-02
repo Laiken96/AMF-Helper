@@ -55,8 +55,8 @@ describe("build-tips main", () => {
     const f = TipsFileSchema.parse(JSON.parse(await read()));
     expect(f.tips).toHaveLength(15);
     // D026: JA 45, Ziel CZ 51, 6 Punkte auf 10 Restwochen ergibt 0
-    expect(f.maxDeviations).toBe(0);
-    expect(f.tips.filter((t) => t.deviation)).toHaveLength(0);
+    expect(f.maxDeviations).toBe(2);
+    expect(f.tips.filter((t) => t.deviation)).toHaveLength(2);
     expect(f.tiebreakers.map((t) => [t.slot, t.gameId])).toEqual([
       ["thursday", "401873037"],
       ["monday", "401873051"],

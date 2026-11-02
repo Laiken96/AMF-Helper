@@ -225,10 +225,9 @@ function TiebreakerBox({
 function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; maxDeviations: number | null }) {
   const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
   const mine = players.find((p) => p.id === standings.me);
-  // Spieler direkt vor mir: knappster mit mehr Punkten (Ziel nach D026)
-  const ahead = mine
-    ? players.filter((p) => p.points > mine.points).sort((a, b) => a.points - b.points)[0]
-    : undefined;
+  // Ziel ist immer Platz 1 (D028)
+  const leader = players[0];
+  const ahead = mine && leader && leader.points > mine.points ? leader : undefined;
   return (
     <section className="box" aria-label="Rangliste">
       <h2>Rangliste nach Week {standings.asOfWeek}</h2>
@@ -243,7 +242,7 @@ function StandingsBox({ standings, maxDeviations }: { standings: StandingsFile; 
       {mine && (
         <p className="box-meta">
           {ahead
-            ? `${ahead.points - mine.points} ${ahead.points - mine.points === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id}, Ziel laut D026`
+            ? `${ahead.points - mine.points} ${ahead.points - mine.points === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id} auf Platz 1`
             : "In Führung"}
         </p>
       )}

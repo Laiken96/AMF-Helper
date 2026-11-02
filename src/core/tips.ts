@@ -87,19 +87,14 @@ export function tipLevel(favoriteProb: number | null): TipLevel {
 }
 
 /**
- * Rückstand auf den Spieler direkt vor dem eigenen Kürzel (Ziel nach D022, D026).
- * Ziel ist der Spieler mit den wenigsten Punkten über den eigenen, bei Gleichstand der erste in der Liste.
- * In Führung oder gleichauf mit der Spitze ergibt 0. Wirft, wenn das Kürzel fehlt.
+ * Rückstand auf Platz 1 (Ziel ist immer der Sieg, D028). In Führung oder gleichauf mit der Spitze ergibt 0.
+ * Wirft, wenn das eigene Kürzel fehlt.
  */
 export function gapToTarget(standings: StandingsFile): number {
   const mine = standings.players.find((p) => p.id === standings.me);
   if (!mine) throw new Error(`Kürzel ${standings.me} fehlt in der Rangliste`);
-  let target: number | null = null;
-  for (const p of standings.players) {
-    if (p.id === mine.id || p.points <= mine.points) continue;
-    if (target === null || p.points < target) target = p.points;
-  }
-  return target === null ? 0 : target - mine.points;
+  const top = Math.max(...standings.players.map((p) => p.points));
+  return Math.max(0, top - mine.points);
 }
 
 /** Verbleibende Regular Season Wochen inklusive der aktuellen, mindestens 1. Postseason zählt als 1. */

@@ -147,16 +147,16 @@ describe("maxDeviations nach D026", () => {
     expect(maxDeviations(2, 3, 1)).toBe(1);
     expect(maxDeviations(0, 3, 1)).toBe(0);
   });
-  it("heutiger Stand: JA 45, Ziel CZ 51, Week 9 ergibt 0", () => {
+  it("heutiger Stand: JA 45, Ziel MS 71 auf Platz 1, Week 9 ergibt 2 (D028)", () => {
     const today = standings({ MS: 71, LM: 69, DH: 68, CZ: 51, JA: 45 });
-    expect(gapToTarget(today)).toBe(6);
-    expect(maxDeviations(gapToTarget(today), 2, 9)).toBe(0);
+    expect(gapToTarget(today)).toBe(26);
+    expect(maxDeviations(gapToTarget(today), 2, 9)).toBe(2);
   });
-  it("Ziel ist der Spieler direkt vor mir", () => {
+  it("Ziel ist immer Platz 1 (D028)", () => {
     expect(gapToTarget(BEHIND)).toBe(26);
     expect(gapToTarget(LEADER)).toBe(0);
     expect(gapToTarget(standings({ MS: 50, JA: 50 }))).toBe(0);
-    expect(gapToTarget(standings({ MS: 60, LM: 52, DH: 52, JA: 50 }))).toBe(2);
+    expect(gapToTarget(standings({ MS: 60, LM: 52, DH: 52, JA: 50 }))).toBe(10);
     expect(() => gapToTarget(standings({ MS: 1 }))).toThrow("JA");
   });
 });

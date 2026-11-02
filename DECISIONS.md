@@ -195,3 +195,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Grundtipp ist immer der Favorit vor einer Abweichung. Häkchen "eingetragen" speichert das getippte Team lokal, weicht der aktuelle Tipp ab, warnt die App. Spiele, die beim ersten Lauf schon vorbei sind, heissen "nicht_erfasst" und bekommen keinen Tiebreaker. Der Tipp Job nimmt die Woche aus data/current.json, damit Spielplan und Tipps nie verschiedene Wochen sehen. Beide Jobs laufen im Workflow auch bei Fehler des anderen, der Lauf wird am Ende rot
 - Begründung: unabhängiger Review und QA Sprint 2
 - Verworfen: Häkchen nur als Ja oder Nein ohne Team
+
+## D028 Ziel ist immer Platz 1
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt das Saisonziel aus D022 und das Ziel in D026. Massstab für die Abweichungen ist immer der Rückstand auf Platz 1, die Formel pro Restwoche aus D026 bleibt. Stand Week 9: 26 Punkte auf 10 Wochen ergibt 2 Abweichungen
+- Begründung: Entscheid des Nutzers, die App spielt immer auf Sieg. Product Owner Hinweis dokumentiert: Abweichungen kosten im Schnitt Punkte, die Chance auf Platz 1 bleibt bei 26 Punkten Rückstand klein, dafür sinkt die Chance auf Platz 4
+- Verworfen: Ziel Platz 4 aus D022
