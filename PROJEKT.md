@@ -1,7 +1,7 @@
 # NFL Dashboard
 
 Angelegt: 2026-11-02
-Status: Sprint 2 gebaut am 2026-11-02, Abnahme Week 9 offen
+Status: Sprint 3 gebaut am 2026-11-02, Push Abnahme am Handy offen
 
 ## Problem
 

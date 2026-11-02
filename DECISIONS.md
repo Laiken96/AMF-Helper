@@ -216,3 +216,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Quelle ist der ESPN Summary Endpoint pro Spiel (injuries, leaders). Wichtig sind alle Quarterbacks und die Team Leader (Passing, Rushing, Receiving). Am Donnerstag wird ein Grundstand gespeichert, vor jedem Kickoff Slot wird verglichen. Gemeldet werden Statuswechsel dieser Spieler und Tippänderungen seit dem Grundtipp
 - Begründung: ESPN liefert keine verlässliche Startaufstellung im selben Abruf, Leader sind ein guter Ersatz für Schlüsselspieler
 - Verworfen: Depth Chart Endpoint (komplex, inoffiziell, viele Abrufe)
+
+## D031 Push Zuverlässigkeit
+
+- Datum: 2026-11-02
+- Entscheid: Slot Meldung im Fenster 2 bis 60 Minuten vor Kickoff (statt 15 bis 60 laut Sprint Auftrag). TTL der Meldung endet beim Kickoff. Push Workflow mit eigener Concurrency Gruppe und Retry beim Push. Echter Versand nur auf main, Testnachricht überall
+- Begründung: Review Sprint 3. Fallen mehrere verzögerte Cron Läufe aus, käme sonst gar keine Erinnerung. Eine späte Erinnerung ist besser als keine (D022). Eine Erinnerung nach Kickoff ist wertlos
+- Verworfen: feste Untergrenze 15 Minuten
