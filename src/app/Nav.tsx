@@ -75,15 +75,16 @@ const ICONS: Record<View, (active: boolean) => ReactNode> = {
   ),
 };
 
-export const NAV: { view: View; label: string }[] = [
+/** short: Text in der Kapsel mit weichem Trennstrich, damit Einstellungen in der schmalen Leiste umbricht. */
+export const NAV: { view: View; label: string; short?: string }[] = [
   { view: "tipps", label: "Tipps" },
   { view: "bilanz", label: "Bilanz" },
   { view: "spiele", label: "Spiele" },
   { view: "news", label: "News" },
-  { view: "einstellungen", label: "Einstellungen" },
+  { view: "einstellungen", label: "Einstellungen", short: "Einstel\u00adlungen" },
 ];
 
-/** Navigation als Kapsel. Waagrecht schwebend unten oder senkrecht in der rechten Spalte (per CSS). */
+/** Navigation als Kapsel. Waagrecht schwebend unten oder senkrecht in der rechten Spalte (per CSS). Aktives Ziel mit Symbol und Text. */
 export function NavCapsule({ view }: { view: View }) {
   return (
     <nav className="nav-capsule" aria-label="Hauptnavigation">
@@ -99,6 +100,10 @@ export function NavCapsule({ view }: { view: View }) {
             aria-current={active ? "page" : undefined}
           >
             {ICONS[item.view](active)}
+            {/* Text nur beim aktiven Ziel sichtbar (D050), die anderen klappen weich zusammen */}
+            <span className="nav-label" aria-hidden="true">
+              {item.short ?? item.label}
+            </span>
           </a>
         );
       })}

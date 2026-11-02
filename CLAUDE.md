@@ -9,7 +9,8 @@
 5. Bei Widerspruch zwischen Auftrag und DECISIONS.md: anhalten und nachfragen, nicht selbst entscheiden.
 6. Vor jedem Merge von main: Merge Ergebnis prüfen. Bei Konflikt in data/ gilt der Stand von main (dort schreibt die Automatik). Nie committen, solange Konfliktmarker existieren (git diff --check).
 7. Tests lesen nie aus data/, nur aus tests/fixtures/ (data/ ändert die Automatik laufend).
-8. Merge nach main (D046): eigene Pull Requests selbst mergen, wenn typecheck, test und build grün und Review und QA bestanden sind, danach Nutzer informieren und Veröffentlichung prüfen. Nachfragen bei Secrets, Kosten, externen Diensten, grösseren Umbauten, Designänderungen, offenen Entscheiden und roten Prüfungen.
+8. Sprache: Jede Antwort an den Nutzer ist auf Deutsch (Schweizer Rechtschreibung, ss statt ß), auch direkt nach englischen System, Hook oder Agentenmeldungen. Keine Semikolons und keine Gedankenstriche. Aufträge an Agenten ebenfalls auf Deutsch, mit der Vorgabe, auf Deutsch zu berichten.
+9. Merge nach main (D046): eigene Pull Requests selbst mergen, wenn typecheck, test und build grün und Review und QA bestanden sind, danach Nutzer informieren und Veröffentlichung prüfen. Nachfragen bei Secrets, Kosten, externen Diensten, grösseren Umbauten, Designänderungen, offenen Entscheiden und roten Prüfungen.
 
 ## Ziel
 
@@ -37,7 +38,7 @@ Stand 2026-11-02 abends, alles auf main und live unter https://laiken96.github.i
 - Secrets: VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION, ANTHROPIC_API_KEY. Token cron-job läuft am 02.11.2027 ab, Erinnerung geplant
 - 442 Tests grün. Code Review umgesetzt (D049). Beta Test und Feature Analyse mit Agenten (D050, D051): Welle 1 live (UI Paket, Ausfälle nächste Woche, Linienbewegung, FPI, Public Picks, Saisonkalender, Abgleich Rangliste, season.ts, simulate.ts, Duo Safe Area Fix R113). Offen Welle 2 Design (Label aktive Navigation, Logos, Wischgeste, Duo zweispaltig alle Reiter, Hellmodus) und Welle 3 (Spieler wählbar, Anzeige FPI, Picks, Spielort, Abgleich, Saisonauswertung und Simulation in der Bilanz, Kalibrierung Aussenseiterquote)
 - Offen: Liveticker an echtem Spiel (MNF CHI@SEA 2026-11-03 01:15 UTC, echte ESPN Antworten als Fixtures sichern, R105), R104 am Gerät, Gerätetests R97 R101, Gesamtabnahme Week 9 (Do 05.11. bis Di 10.11.), danach Post Mortem
-- Arbeitsweise: Entwicklung auf Branch claude/nfl-dashboard-plan-mcwlna, Pull Request nach main (ci.yml muss grün sein), Merge selbst laut Regel 8 (D046). Vor Merge immer main zuerst holen (Regel 6). Agenten pro Stream, danach unabhängiger Review und QA
+- Arbeitsweise: Entwicklung auf Branch claude/nfl-dashboard-plan-mcwlna, Pull Request nach main (ci.yml muss grün sein), Merge selbst laut Regel 9 (D046). Vor Merge immer main zuerst holen (Regel 6). Agenten pro Stream, danach unabhängiger Review und QA
 
 ## Befehle
 

@@ -1,0 +1,154 @@
+/* Duo aufgeklappt quer (wide, D050): Spiele, Bilanz und News mit zwei Bereichen am Falz.
+   Raster wie die Tipps (.tips-split in app.css): links bis zum Falz, 2 px Falz, rechts der Rest.
+   Farben nur über die Variablen aus app.css, damit der Hellmodus greift. */
+
+[data-layout="wide"] .page:has(> .duo-split) {
+  overflow: hidden;
+}
+
+.duo-split {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: calc(50vw - 1px) 2px minmax(0, 1fr);
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+/* Linker Bereich: Abstand zum Falz rechts wie im Spielbereich der Tipps (22 px) */
+.pane-detail,
+.pane-metrics {
+  padding: calc(var(--sat) + 14px) 22px calc(var(--sab) + 18px) calc(var(--sal) + 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ---------- Spiele: Detail des gewählten Spiels ---------- */
+
+.game-detail-card {
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 22px;
+  padding: 18px;
+  min-width: 0;
+}
+
+.game-detail-card section {
+  margin-top: 16px;
+}
+
+.game-detail-card h2 {
+  margin: 0 0 6px;
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+}
+
+.game-detail-card p {
+  margin: 0;
+  color: var(--text-2);
+}
+
+.game-detail-card .live-situation {
+  margin-top: 10px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.game-detail-head h1 {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.game-facts {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.game-facts > div {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 14px;
+}
+
+.game-facts dt {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  align-self: center;
+}
+
+.game-facts dd {
+  margin: 0;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.game-detail-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+/* Antippbare Spielzeile ohne Live Stand */
+.game-pick {
+  padding: 0;
+}
+
+.game-pick .game-btn .details {
+  justify-content: space-between;
+}
+
+.game.selected {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  background: var(--surface-2);
+}
+
+/* ---------- News: zwei Spalten mit Lücke am Falz ---------- */
+/* Inhalt beginnt nach dem linken Abstand der Seite (var(--sal) + 12px). Linke Spalte endet 22 px vor dem Falz,
+   die rechte beginnt 22 px danach. */
+
+[data-layout="wide"] .page.view-news {
+  --news-col: calc(50vw - 34px - var(--sal));
+}
+
+[data-layout="wide"] .page.view-news > * {
+  max-width: none;
+}
+
+[data-layout="wide"] .view-news .news-list,
+[data-layout="wide"] .view-news .news-controls {
+  display: grid;
+  grid-template-columns: var(--news-col) minmax(0, 1fr);
+  column-gap: 44px;
+  row-gap: 8px;
+}
+
+[data-layout="wide"] .view-news .news-controls .segmented,
+[data-layout="wide"] .view-news .news-team {
+  min-width: 0;
+}
+
+[data-layout="wide"] .view-news .news-team {
+  grid-column: 2;
+}
+
+/* Kopf und Hinweise bleiben in der linken Spalte, nichts liegt im Falz */
+[data-layout="wide"] .page.view-news > .header,
+[data-layout="wide"] .page.view-news > .notice {
+  max-width: var(--news-col);
+  margin-left: 0;
+}

@@ -1,12 +1,10 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { createPortal } from "react-dom";
+import { useEffect, useMemo, useState } from "react";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
 import { standingsAppliesTo } from "../core/standings";
 import { tiebreakerGames } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
-import { teamColor, visibleOn } from "./colors";
 import {
   beforeAppStart,
   currentRef,
@@ -18,11 +16,12 @@ import {
   weekKey,
   type TipsData,
 } from "./data";
+import { GameSheet } from "./Sheet";
 import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type HeroTarget, type HeroVariant } from "./GameHero";
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { LoadErrorNotice, PageHeader, Segmented, Spoken, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, deviationReason, formatStand, scoreAria, scoreText, spreadText } from "./wording";
 
 const LEVEL_TEXT: Record<GameTip["level"], string> = {
@@ -82,12 +81,13 @@ function writeFilter(value: Filter): void {
   }
 }
 
+// Farben über CSS Variablen, damit Hell und Dunkel aus demselben Set kommen (theme-light.css)
 const LEVEL_COLOR: Record<GameTip["level"], string> = {
-  klar: "#3DDC97",
-  favorit: "#8FB7FF",
-  unklar: "#F5B83D",
-  offen: "#AEB6C2",
-  nicht_erfasst: "#AEB6C2",
+  klar: "var(--klar)",
+  favorit: "var(--favorit)",
+  unklar: "var(--unklar)",
+  offen: "var(--text-3)",
+  nicht_erfasst: "var(--text-3)",
 };
 
 export function TipsView({ arg = null }: { arg?: string | null }) {
@@ -597,63 +597,6 @@ function TipsList({
   );
 }
 
-/** Spielbereich als Blatt von unten (compact, side, medium). Hintergrund gesperrt, Fokus bleibt im Blatt. */
-function GameSheet({ title, onClose, children }: { title: string; onClose: () => void; children: ReactNode }) {
-  const sheetRef = useRef<HTMLDivElement>(null);
-  const closeRef = useRef<HTMLButtonElement>(null);
-  const onCloseRef = useRef(onClose);
-  onCloseRef.current = onClose;
-
-  useEffect(() => {
-    const opener = document.activeElement as HTMLElement | null;
-    const root = document.documentElement;
-    root.classList.add("sheet-open");
-    closeRef.current?.focus();
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        e.preventDefault();
-        onCloseRef.current();
-        return;
-      }
-      if (e.key !== "Tab" || !sheetRef.current) return;
-      const items = [...sheetRef.current.querySelectorAll<HTMLElement>("a[href], button:not([disabled])")].filter(
-        (el) => el.tabIndex >= 0 && el.offsetParent !== null,
-      );
-      if (items.length === 0) return;
-      const first = items[0]!;
-      const last = items[items.length - 1]!;
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault();
-        last.focus();
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault();
-        first.focus();
-      }
-    };
-    document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      root.classList.remove("sheet-open");
-      if (opener && document.contains(opener)) opener.focus({ preventScroll: true });
-    };
-  }, []);
-
-  return createPortal(
-    <div className="sheet-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div ref={sheetRef} className="sheet" role="dialog" aria-modal="true" aria-label={`Spiel ${title}`}>
-        <div className="sheet-head">
-          <span className="sheet-grip" aria-hidden="true" />
-          <button ref={closeRef} type="button" className="btn btn-close" onClick={onClose}>
-            Schliessen
-          </button>
-        </div>
-        {children}
-      </div>
-    </div>,
-    document.body,
-  );
-}
-
 function TiebreakerBox({
   tips,
   gameById,
@@ -821,8 +764,7 @@ function TipItem({
       : pct !== null
         ? `${row.deviation ? "Abweichung, " : ""}Siegwahrscheinlichkeit ${pct} Prozent`
         : "keine Quote";
-  const infoColor = row.deviation && pct !== null ? "#F5B83D" : LEVEL_COLOR[row.level];
-  const dot = pick ? visibleOn(teamColor(pick.color)) : "#3A414D";
+  const infoColor = row.deviation && pct !== null ? "var(--unklar)" : LEVEL_COLOR[row.level];
   const liveText = live?.state === "in" && game ? `Live ${live.awayScore ?? 0} : ${live.homeScore ?? 0} ${periodText(live)}` : "";
   const finalText = finished && game ? scoreText(game.awayScore!, game.homeScore!) : "";
   const matchup = away && home ? `${away.abbr} @ ${home.abbr}` : `Spiel ${row.gameId}`;
@@ -841,7 +783,7 @@ function TipItem({
           aria-current={selected ? "true" : undefined}
           aria-label={`${matchup}, Tipp ${pick ? pick.abbr : notCaptured ? "keiner" : "offen"}, ${infoAria}${ariaScore}${showResult && row.result ? `, ${RESULT_TEXT[row.result]}` : ""}. Im Spielbereich zeigen`}
         >
-          <span className="dot" style={{ background: dot }} aria-hidden="true" />
+          {pick ? <TeamLogo team={pick} size={24} className="tip-logo" /> : <span className="logo-placeholder tip-logo" aria-hidden="true" />}
           {away && home ? (
             <span className="tip-teams" aria-hidden="true">
               <span className={teamCls(away)} title={away.name}>

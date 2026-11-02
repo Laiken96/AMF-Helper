@@ -6,7 +6,7 @@ import { formatKickoffZurich } from "../core/time";
 import { shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
 import { periodText, type LiveGame } from "./live";
-import { Spoken } from "./ui";
+import { Spoken, TeamLogo } from "./ui";
 import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
 
@@ -341,8 +341,12 @@ export function GameHero({
         <div className="hero-small-body">
           {ring}
           <div className="hero-small-text">
-            <span className="hero-matchup">
-              {scores ? `${away.abbr} ${scores[0]} : ${scores[1]} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
+            <span className="hero-matchup hero-matchup-logos">
+              <TeamLogo team={away} size={24} className="hero-mini-logo" />
+              <span className="hero-matchup-text">
+                {scores ? `${away.abbr} ${scores[0]} : ${scores[1]} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
+              </span>
+              <TeamLogo team={home} size={24} className="hero-mini-logo" />
             </span>
             <span>
               Tipp {pick ? pick.abbr : "offen"}
@@ -364,6 +368,7 @@ export function GameHero({
 
   const teamBlock = (t: Team, score: number | null | undefined, home: boolean) => (
     <div className={home ? "hero-team hero-team-home" : "hero-team"}>
+      <TeamLogo team={t} size={big ? 56 : 40} className="hero-logo" />
       <span className="hero-abbr">{t.abbr}</span>
       <span className="hero-score" aria-hidden={score === undefined ? "true" : undefined}>
         {score ?? "\u00a0"}
