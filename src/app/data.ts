@@ -16,6 +16,7 @@ import {
   type ReviewFile,
   type StandingsHistory,
 } from "../core/review-schema";
+import { InjuriesFileSchema, injuriesFilePath, type InjuriesFile } from "../core/injuries";
 import {
   StandingsFileSchema,
   TipsFileSchema,
@@ -72,6 +73,8 @@ export interface TipsData extends WeekData {
   standings: StandingsFile;
   /** null, wenn für diese Woche noch keine Tippdatei existiert. */
   tips: TipsFile | null;
+  /** null, wenn die Ausfall Datei der Woche fehlt oder nicht lesbar ist. Nur Anzeige im Spielbereich. */
+  injuries: InjuriesFile | null;
 }
 
 /** Wie loadJson, liefert aber null, wenn die Datei fehlt (HTTP 404 oder HTML Antwort statt JSON). */
@@ -106,13 +109,17 @@ async function loadOptionalJson<S extends z.ZodType>(path: string, schema: S): P
 
 export async function loadTipsData(): Promise<TipsData> {
   const current = await loadJson("current.json", CurrentFileSchema);
-  const [week, teams, standings, tips] = await Promise.all([
+  const [week, teams, standings, tips, injuries] = await Promise.all([
     loadJson(current.weekFile, WeekFileSchema),
     loadJson("teams.json", TeamsFileSchema),
     loadJson("standings.json", StandingsFileSchema),
     loadOptionalJson(tipsFilePath(current.season, current.seasonType, current.week), TipsFileSchema),
+    // Ausfälle sind Zusatz: Fehler hier dürfen die Tippliste nie blockieren
+    loadOptionalJson(injuriesFilePath(current.season, current.seasonType, current.week), InjuriesFileSchema).catch(
+      () => null,
+    ),
   ]);
-  return { current, week, teams, standings, tips };
+  return { current, week, teams, standings, tips, injuries };
 }
 
 export interface ReviewData {

@@ -10,6 +10,7 @@ import {
   showTestNotification,
   type PushStatus,
 } from "./push";
+import { PageHeader } from "./ui";
 
 const SECRETS_URL = "https://github.com/Laiken96/AMF-Helper/settings/secrets/actions";
 
@@ -189,10 +190,7 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
 
   return (
     <>
-      <header className="header">
-        <h1>Einstellungen</h1>
-        <p className="meta">Erinnerungen per Push vor jedem Tippschluss</p>
-      </header>
+      <PageHeader title="Einstellungen" meta="Erinnerungen per Push vor jedem Tippschluss" />
 
       <section className="slot">
         <h2>Status</h2>

@@ -6,9 +6,9 @@ import { markOnboardingSeen, onboardingSeen, registerServiceWorker } from "./pus
 import { ReviewView } from "./ReviewView";
 import { Onboarding, SettingsView } from "./SettingsView";
 import { TipsView } from "./TipsView";
-import { LoadErrorNotice, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
-
-type View = "tipps" | "bilanz" | "spielplan" | "einstellungen";
+import { LayoutContext, useLayout } from "./layout";
+import { NavCapsule, ToolCapsule, type View } from "./Nav";
+import { LoadErrorNotice, PageHeader, TeamBadge, fallbackTeam, fetchedFormat } from "./ui";
 
 function viewFromHash(): View {
   if (window.location.hash === "#bilanz") return "bilanz";
@@ -17,16 +17,10 @@ function viewFromHash(): View {
   return "tipps";
 }
 
-const NAV: { view: View; label: string }[] = [
-  { view: "tipps", label: "Tipps" },
-  { view: "bilanz", label: "Bilanz" },
-  { view: "spielplan", label: "Spielplan" },
-  { view: "einstellungen", label: "Einstellungen" },
-];
-
 export function App() {
   const [view, setView] = useState<View>(viewFromHash);
   const [showOnboarding, setShowOnboarding] = useState(() => !onboardingSeen());
+  const layout = useLayout();
 
   useEffect(() => {
     const onHash = () => setView(viewFromHash());
@@ -44,29 +38,21 @@ export function App() {
   }, []);
 
   return (
-    <>
-      <nav className="nav" aria-label="Ansicht">
-        <div className="nav-inner">
-          {NAV.map((item) => (
-            <a
-              key={item.view}
-              href={`#${item.view}`}
-              className={view === item.view ? "active" : undefined}
-              aria-current={view === item.view ? "page" : undefined}
-            >
-              {item.label}
-            </a>
-          ))}
-        </div>
-      </nav>
-      <main className="page">
-        {view === "tipps" && <TipsView />}
-        {view === "bilanz" && <ReviewView />}
-        {view === "spielplan" && <ScheduleView />}
-        {view === "einstellungen" && <SettingsView onShowOnboarding={() => setShowOnboarding(true)} />}
-      </main>
+    <LayoutContext.Provider value={layout}>
+      <div className="app">
+        <main className={`page view-${view}`}>
+          {view === "tipps" && <TipsView />}
+          {view === "bilanz" && <ReviewView />}
+          {view === "spielplan" && <ScheduleView />}
+          {view === "einstellungen" && <SettingsView onShowOnboarding={() => setShowOnboarding(true)} />}
+        </main>
+        <aside className="rail" aria-label="Navigation">
+          {layout === "wide" && <ToolCapsule />}
+          <NavCapsule view={view} />
+        </aside>
+      </div>
       {showOnboarding && <Onboarding onClose={closeOnboarding} />}
-    </>
+    </LayoutContext.Provider>
   );
 }
 
@@ -114,12 +100,11 @@ function WeekView({ data }: { data: WeekData }) {
 
   return (
     <>
-      <header className="header">
-        <h1>Week {week.week}</h1>
-        <p className="meta">
-          Saison {week.season} · Letzte Änderung {fetchedFormat.format(new Date(week.fetchedAt))}
-        </p>
-      </header>
+      <PageHeader
+        kicker="Spielplan"
+        title={`Week ${week.week}`}
+        meta={`Saison ${week.season} · Letzte Änderung ${fetchedFormat.format(new Date(week.fetchedAt))}`}
+      />
 
       {week.games.length === 0 ? (
         <p className="notice">Diese Woche sind keine Spiele angesetzt.</p>
