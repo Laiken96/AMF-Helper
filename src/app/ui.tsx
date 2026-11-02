@@ -3,14 +3,19 @@ import type { Team } from "../core/schema";
 import { friendlyLoadError } from "./wording";
 import { compareRef, retryLoad, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
 
+/** Teamlogo als dekoratives Bild (alt leer, das Kürzel steht immer als Text daneben). Ohne Logo ein neutraler Kreis. */
+export function TeamLogo({ team, size = 28, className }: { team: Team; size?: number; className?: string }) {
+  return team.logo ? (
+    <img className={className} src={team.logo} alt="" width={size} height={size} loading="lazy" decoding="async" />
+  ) : (
+    <span className={className ? `logo-placeholder ${className}` : "logo-placeholder"} aria-hidden="true" />
+  );
+}
+
 export function TeamBadge({ team }: { team: Team }) {
   return (
     <span className="team" title={team.name}>
-      {team.logo ? (
-        <img src={team.logo} alt="" width={28} height={28} loading="lazy" />
-      ) : (
-        <span className="logo-placeholder" aria-hidden="true" />
-      )}
+      <TeamLogo team={team} />
       <span className="abbr">{team.abbr}</span>
     </span>
   );

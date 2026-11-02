@@ -6,7 +6,7 @@ import { formatKickoffZurich } from "../core/time";
 import { shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
 import { periodText, type LiveGame } from "./live";
-import { Spoken } from "./ui";
+import { Spoken, TeamLogo } from "./ui";
 import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
 
@@ -364,6 +364,7 @@ export function GameHero({
 
   const teamBlock = (t: Team, score: number | null | undefined, home: boolean) => (
     <div className={home ? "hero-team hero-team-home" : "hero-team"}>
+      <TeamLogo team={t} size={big ? 56 : 40} className="hero-logo" />
       <span className="hero-abbr">{t.abbr}</span>
       <span className="hero-score" aria-hidden={score === undefined ? "true" : undefined}>
         {score ?? "\u00a0"}

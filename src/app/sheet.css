@@ -1,0 +1,130 @@
+/* Spielblatt von unten (D048, D050): Titel links, Schliessen als X, Wischen nach unten an Griff und Kopf. */
+
+.sheet {
+  transition: transform 320ms cubic-bezier(0.2, 1.25, 0.35, 1);
+  will-change: transform;
+}
+
+/* Während des Wischens folgt das Blatt dem Finger ohne Verzögerung */
+.sheet.sheet-dragging {
+  transition: none;
+}
+
+.sheet.sheet-leaving {
+  transition: transform 200ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sheet-backdrop {
+    animation: sheet-fade 200ms ease-out;
+  }
+
+  .sheet {
+    animation: sheet-in 260ms cubic-bezier(0.2, 0.9, 0.3, 1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet,
+  .sheet.sheet-leaving {
+    transition: none;
+  }
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes sheet-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.sheet-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 12px;
+  min-height: 56px;
+  padding: 20px 2px 4px 4px;
+  /* Kopf bleibt beim Scrollen im Blatt stehen, damit Wischen und X immer erreichbar sind */
+  position: sticky;
+  top: -8px;
+  z-index: 2;
+  margin-top: -8px;
+  background: var(--bg);
+  /* Nur hier wischen, der Inhalt darunter scrollt normal */
+  touch-action: none;
+  cursor: grab;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.sheet.sheet-dragging .sheet-head {
+  cursor: grabbing;
+}
+
+.sheet-grip {
+  top: 8px;
+  background: var(--text-3);
+  opacity: 0.6;
+}
+
+.sheet-title {
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.sheet-close {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 22px;
+  background: var(--surface-2);
+  color: var(--text);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 100ms ease,
+    background-color 100ms ease,
+    filter 100ms ease;
+}
+
+.sheet-close:hover {
+  background: var(--active);
+}
+
+.sheet-close:active {
+  transform: scale(0.97);
+  filter: brightness(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet-close:active {
+    transform: none;
+  }
+}
+
+/* Duo zugeklappt (side): Blatt endet vor dem reservierten Bereich rechts */
+[data-layout="side"] .sheet-backdrop {
+  padding-right: var(--sar);
+}
+
+[data-layout="side"] .sheet {
+  padding-right: 12px;
+}

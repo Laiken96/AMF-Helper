@@ -1,0 +1,133 @@
+/* Hellmodus nach Systemeinstellung (D050). Tauscht nur das Farbset aus app.css :root.
+   Kontrast nach WCAG AA gemessen (Text mind. 4.5 zu 1, Grafik und grosser Text 3 zu 1):
+   --text-3 #545D6A 6.0 auf --bg, 5.5 auf --surface-2. --accent #8A5A00 5.3 auf --bg, --bg darauf ebenso.
+   --klar #087345 5.4 auf --bg, --error #B3261E 5.4 auf --error-bg. Der Spielbereich bleibt dunkel in
+   Teamfarben mit hellem Text wie bisher. */
+
+:root {
+  color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f2f3f6;
+    --surface: #ffffff;
+    --surface-2: #e6e9ee;
+    --active: #d3d8e0;
+    --line: #d5dae1;
+    --text: #0e1116;
+    --text-2: #2f3640;
+    --text-3: #545d6a;
+    --accent: #8a5a00;
+    --accent-hover: #6f4800;
+    --klar: #087345;
+    --favorit: #2456b8;
+    --unklar: #8a5a00;
+    --error: #b3261e;
+    --ok-bg: #dcf2e6;
+    --error-bg: #fbe4e2;
+    --warn-bg: #fbefd6;
+    --icon: #3d4552;
+    --on-active: #0e1116;
+    --disabled: #6b7482;
+    --tick-border: #6b7482;
+    --changed-bg: #fdecea;
+    --fold: #c4cad3;
+    --shadow: rgba(16, 24, 40, 0.16);
+    --bg-clear: rgba(242, 243, 246, 0);
+    --bg-veil: rgba(242, 243, 246, 0.85);
+    --glass: rgba(255, 255, 255, 0.85);
+
+    color-scheme: light;
+  }
+
+  /* Spielbereich (auch im Blatt) behält das dunkle Set: heller Text auf Teamfarben */
+  .hero {
+    --bg: #0b0e13;
+    --surface: #171b22;
+    --surface-2: #1c2129;
+    --active: #3a414d;
+    --line: #2a303a;
+    --text: #f2f4f7;
+    --text-2: #d5dae1;
+    --text-3: #aeb6c2;
+    --accent: #f5b83d;
+    --accent-hover: #ffd27a;
+    --klar: #3ddc97;
+    --favorit: #8fb7ff;
+    --unklar: #f5b83d;
+    --error: #ff8a8a;
+    --icon: #c9d0da;
+    --on-active: #fff;
+    --disabled: #8d96a3;
+
+    color-scheme: dark;
+  }
+
+  /* Leichter Rand statt Schatten, damit helle Flächen auf hellem Grund getrennt bleiben */
+  .tip,
+  .box,
+  .game,
+  .notice:not(.notice-error):not(.notice-pending),
+  .news-item {
+    box-shadow: 0 0 0 1px var(--line);
+  }
+
+  .tip.pending {
+    box-shadow:
+      inset 3px 0 0 var(--accent),
+      0 0 0 1px var(--line);
+  }
+
+  .tip.done {
+    box-shadow:
+      inset 3px 0 0 var(--klar),
+      0 0 0 1px var(--line);
+  }
+
+  .tip.changed-entry {
+    box-shadow:
+      inset 3px 0 0 var(--error),
+      0 0 0 1px var(--line);
+  }
+
+  .game-live {
+    box-shadow:
+      inset 3px 0 0 var(--error),
+      0 0 0 1px var(--line);
+  }
+
+  .week-stepper-pending {
+    box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent) 60%, transparent);
+  }
+
+  [data-layout="compact"] .nav-capsule,
+  [data-layout="medium"] .nav-capsule {
+    box-shadow:
+      0 0 0 1px var(--line),
+      0 8px 24px var(--shadow);
+  }
+
+  [data-layout="side"] .nav-capsule,
+  [data-layout="wide"] .nav-capsule,
+  [data-layout="wide"] .tool-capsule {
+    box-shadow: 0 0 0 1px var(--line);
+  }
+
+  .sheet-backdrop {
+    background: rgba(14, 17, 22, 0.42);
+  }
+
+  .sheet {
+    box-shadow: 0 -8px 32px rgba(16, 24, 40, 0.22);
+  }
+
+  .overlay {
+    background: rgba(14, 17, 22, 0.5);
+  }
+
+  /* Logos: dunkle Teamlogos auf hellem Grund brauchen keinen Ausgleich, gedimmte Verlierer bleiben erkennbar */
+  .team-lose img {
+    opacity: 0.6;
+  }
+}
