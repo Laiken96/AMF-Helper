@@ -26,7 +26,7 @@ const fixture = (name: string) => readFileSync(new URL(`./fixtures/${name}`, imp
 const espnXml = fixture("rss-espn-2026-11-02.xml");
 const cbsXml = fixture("rss-cbs-2026-11-02.xml");
 const pftXml = fixture("rss-pft-2026-11-02.xml");
-const teamsText = readFileSync(new URL("../data/teams.json", import.meta.url), "utf8");
+const teamsText = readFileSync(new URL("./fixtures/teams.json", import.meta.url), "utf8");
 const teams = TeamsFileSchema.parse(JSON.parse(teamsText)).teams;
 const matchers = teamMatchers(teams);
 const NOW = "2026-11-02T12:00:00Z";

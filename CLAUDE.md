@@ -8,6 +8,7 @@
 4. Keine Secrets im Browser Code. Schreibzugriff nur über GitHub Actions.
 5. Bei Widerspruch zwischen Auftrag und DECISIONS.md: anhalten und nachfragen, nicht selbst entscheiden.
 6. Vor jedem Merge von main: Merge Ergebnis prüfen. Bei Konflikt in data/ gilt der Stand von main (dort schreibt die Automatik). Nie committen, solange Konfliktmarker existieren (git diff --check).
+7. Tests lesen nie aus data/, nur aus tests/fixtures/ (data/ ändert die Automatik laufend).
 
 ## Ziel
 

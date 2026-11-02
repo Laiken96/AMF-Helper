@@ -25,9 +25,9 @@ const w9 = parseScoreboard(JSON.parse(readFileSync(new URL("./fixtures/espn-scor
 });
 if (!w9.ok) throw new Error(w9.error);
 const games = w9.week.games;
-const teamsFile = TeamsFileSchema.parse(JSON.parse(readFileSync(new URL("../data/teams.json", import.meta.url), "utf8")));
+const teamsFile = TeamsFileSchema.parse(JSON.parse(readFileSync(new URL("./fixtures/teams.json", import.meta.url), "utf8")));
 const teams = new Map<string, Team>(teamsFile.teams.map((t) => [t.id, t]));
-const tipsW9 = TipsFileSchema.parse(JSON.parse(readFileSync(new URL("../data/tips/2026-2-09.json", import.meta.url), "utf8")));
+const tipsW9 = TipsFileSchema.parse(JSON.parse(readFileSync(new URL("./fixtures/tips-2026-2-09.json", import.meta.url), "utf8")));
 
 const TNF = "2026-11-06T01:15:00Z";
 const minus = (iso: string, min: number) => new Date(Date.parse(iso) - min * 60_000).toISOString().replace(/\.\d{3}Z$/, "Z");

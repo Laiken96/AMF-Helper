@@ -21,8 +21,8 @@ import { StandingsFileSchema } from "../src/core/tips-schema";
 import { StandingsHistorySchema } from "../src/core/review-schema";
 
 const read = (p: string) => readFileSync(new URL(p, import.meta.url), "utf8");
-const standingsText = read("../data/standings.json");
-const historyText = read("../data/standings-history.json");
+const standingsText = read("./fixtures/standings.json");
+const historyText = read("./fixtures/standings-history.json");
 const standings = StandingsFileSchema.parse(JSON.parse(standingsText));
 const history = StandingsHistorySchema.parse(JSON.parse(historyText));
 const NOW = "2026-11-03T20:00:00Z";

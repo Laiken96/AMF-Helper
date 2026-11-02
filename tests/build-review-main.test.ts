@@ -10,8 +10,8 @@ import { ReviewFileSchema, ReviewIndexSchema } from "../src/core/review-schema";
 
 const read = (p: string) => readFileSync(new URL(p, import.meta.url), "utf8");
 const w8Text = read("./fixtures/espn-scoreboard-2026-w8.json");
-const tipsW8 = read("../data/tips/2026-2-08.json");
-const tipsW9 = read("../data/tips/2026-2-09.json");
+const tipsW8 = read("./fixtures/tips-2026-2-08.json");
+const tipsW9 = read("./fixtures/tips-2026-2-09.json");
 const REVIEW = "reviews/2026-2-08.json";
 const NOW = "2026-11-02T03:00:00Z";
 const TUESDAY = "2026-11-03T10:00:00Z";

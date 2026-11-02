@@ -43,7 +43,7 @@ beforeEach(async () => {
     JSON.stringify({ schemaVersion: 1, season: 2026, seasonType: 2, week: 9, weekFile: "weeks/2026-2-09.json", updatedAt: TUESDAY }),
   );
   await writeFile(join(dir, "weeks/2026-2-09.json"), JSON.stringify(parsed.week));
-  await writeFile(join(dir, "teams.json"), read("../data/teams.json"));
+  await writeFile(join(dir, "teams.json"), read("./fixtures/teams.json"));
   sent = [];
   logs = [];
 });
