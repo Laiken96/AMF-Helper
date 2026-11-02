@@ -21,6 +21,7 @@ import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type He
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
+import { standingsFor, tipsForPlayer, usePlayer, type PlayerState } from "./player";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, deviationReason, formatStand, scoreAria, scoreText, spreadText } from "./wording";
 
@@ -94,6 +95,14 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
   // #tipps/2026-2-09/401873037: Woche und gewähltes Spiel. Nur die Woche löst ein Laden aus.
   const [weekArg = null, gameArg = null] = arg ? arg.split("/") : [];
   const { data, error, pending } = useKeptLoad(`tipps:${weekArg ?? ""}`, () => loadTipsData(parseWeekKey(weekArg)));
+  const player = usePlayer(data?.standings ?? null);
+  const mode: Mode | null = !data?.week ? null : !data.tips ? "folgt" : data.phase === "vergangen" ? "vergangen" : "offen";
+  // Anderer Spieler: offene Spiele im Browser neu rechnen (D050). Vergangene Wochen zeigen die Tipps des Hauptnutzers.
+  const shownTips = useMemo(() => {
+    if (!data?.week || !data.tips) return null;
+    if (mode !== "offen") return data.tips;
+    return tipsForPlayer(data.tips, data.week.games, data.standings, player.player, new Date().toISOString());
+  }, [data, mode, player.player]);
 
   // Nachbarwochen im Hintergrund vorladen, damit der nächste Wechsel aus dem Cache kommt
   useEffect(() => {
@@ -114,15 +123,15 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
       </>
     );
   }
-  const mode: Mode = !data.tips ? "folgt" : data.phase === "vergangen" ? "vergangen" : "offen";
-  const tips = data.tips ?? placeholderTips(data.week);
+  const tips = shownTips ?? placeholderTips(data.week);
   return (
     <TipsList
       key={`${data.ref.season}-${data.ref.seasonType}-${data.ref.week}`}
       data={data}
       week={data.week}
       tips={tips}
-      mode={mode}
+      mode={mode ?? "folgt"}
+      player={player}
       pending={pending}
       selectedId={gameArg}
     />
@@ -202,11 +211,13 @@ function TipsList({
   mode,
   pending,
   selectedId,
+  player,
 }: {
   data: TipsData;
   week: WeekFile;
   tips: TipsFile;
   mode: Mode;
+  player: PlayerState;
   pending: boolean;
   /** Gewähltes Spiel aus dem Hash, null heisst Standardspiel. */
   selectedId: string | null;
@@ -217,6 +228,10 @@ function TipsList({
   // Ohne Häkchen und Filter: vergangene Wochen und Wochen ohne Tippdatei
   const passive = mode !== "offen";
   const games = week.games;
+  // Ziel, Rangliste und Begründung aus Sicht des gewählten Spielers (D050)
+  const standings = useMemo(() => standingsFor(data.standings, player.player), [data.standings, player.player]);
+  // Vergangene Woche eines anderen Spielers: die Tipps stammen vom Hauptnutzer
+  const foreignTips = player.other && mode === "vergangen";
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map((games ?? []).map((g) => [g.id, g])), [games]);
   const live = useLiveScores(readOnly ? null : data.ref, readOnly ? null : games);
@@ -320,7 +335,12 @@ function TipsList({
     // team hängt nur von teamById ab
   }, [rows, tips, now, live.games, teamById, mode]);
 
-  const header = <TipsHeader data={data} updatedAt={data.tips ? tips.updatedAt : undefined} pending={pending} />;
+  const header = (
+    <>
+      <TipsHeader data={data} updatedAt={data.tips ? tips.updatedAt : undefined} pending={pending} />
+      <PlayerLine player={player} foreign={foreignTips} />
+    </>
+  );
   // ---------- Auswahl eines Spiels (List Detail, D037) ----------
   const baseHash = `#tipps/${weekKey(data.ref)}`;
   const defaultId = hero?.game.id ?? null;
@@ -329,6 +349,19 @@ function TipsList({
   const select = (id: string | null) => {
     const target = id ? `${baseHash}/${id}` : baseHash;
     if (window.location.hash !== target) window.location.hash = target;
+  };
+  // Pfeile und Rücksprung im Spielbereich ersetzen den Verlaufseintrag, sonst sammelt jeder Klick einen an.
+  // replaceState löst kein hashchange aus, darum das Ereignis selbst senden.
+  const step = (id: string | null) => {
+    const target = id ? `${baseHash}/${id}` : baseHash;
+    if (window.location.hash === target) return;
+    const oldURL = window.location.href;
+    try {
+      window.history.replaceState(window.history.state, "", target);
+      window.dispatchEvent(new HashChangeEvent("hashchange", { oldURL, newURL: window.location.href }));
+    } catch {
+      window.location.hash = target;
+    }
   };
   const wide = layout === "wide";
   // Reihenfolge der Liste mit aktivem Filter. Liegt das gezeigte Spiel ausserhalb, zählt seine Position in Alle.
@@ -346,12 +379,12 @@ function TipsList({
   // Rückstand auf Platz 1 für die Begründung einer Abweichung (Ziel Platz 1, D028). Eine Rangliste aus einer
   // anderen Saison gilt nicht (D051), dann ohne Rückstand in der Begründung.
   const gap = useMemo(() => {
-    if (!standingsAppliesTo(data.standings, data.ref.season)) return null;
-    const players = data.standings.players;
-    const mine = players.find((p) => p.id === data.standings.me);
+    if (foreignTips || !standingsAppliesTo(standings, data.ref.season)) return null;
+    const players = standings.players;
+    const mine = players.find((p) => p.id === standings.me);
     if (!mine || players.length === 0) return null;
     return Math.max(0, Math.max(...players.map((p) => p.points)) - mine.points);
-  }, [data.standings, data.ref.season]);
+  }, [standings, data.ref.season, foreignTips]);
   const deviationNoteOf = (tip: GameTip | undefined, game: Game | undefined): string | null => {
     if (!tip || !game || !tip.deviation || !tip.pickTeamId) return null;
     const pick = team(tip.pickTeamId);
@@ -414,7 +447,7 @@ function TipsList({
             className="hero-nav-arrow"
             disabled={!prevRow}
             aria-label={prevRow ? `Vorheriges Spiel, ${matchupOf(prevRow)}` : "Kein vorheriges Spiel"}
-            onClick={() => prevRow && select(prevRow.gameId)}
+            onClick={() => prevRow && step(prevRow.gameId)}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M15 5l-7 7 7 7" />
@@ -439,7 +472,7 @@ function TipsList({
             className="hero-nav-arrow"
             disabled={!nextRow}
             aria-label={nextRow ? `Nächstes Spiel, ${matchupOf(nextRow)}` : "Kein nächstes Spiel"}
-            onClick={() => nextRow && select(nextRow.gameId)}
+            onClick={() => nextRow && step(nextRow.gameId)}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M9 5l7 7-7 7" />
@@ -451,7 +484,7 @@ function TipsList({
             style={isDefault || !defaultId ? { visibility: "hidden" } : undefined}
             aria-hidden={isDefault || !defaultId ? true : undefined}
             tabIndex={isDefault || !defaultId ? -1 : undefined}
-            onClick={() => select(inSheet ? defaultId : null)}
+            onClick={() => step(inSheet ? defaultId : null)}
           >
             {homeLabel}
           </button>
@@ -488,9 +521,10 @@ function TipsList({
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} open={mode === "folgt"} />
       <StandingsBox
-        standings={data.standings}
+        standings={standings}
         season={data.ref.season}
         maxDeviations={mode === "folgt" ? null : tips.maxDeviations}
+        maxFor={foreignTips ? player.main : null}
       />
     </div>
   );
@@ -643,14 +677,41 @@ function TiebreakerBox({
   );
 }
 
+/** Für wen gerechnet wird, antippbar zu den Einstellungen (D050). */
+function PlayerLine({ player, foreign }: { player: PlayerState; foreign: boolean }) {
+  if (!player.player) return null;
+  const sub = foreign
+    ? `Vergangene Woche, Tipps von ${player.main}`
+    : player.other
+      ? `Im Browser gerechnet, Push für ${player.main}`
+      : null;
+  return (
+    <a className="player-line" href="#einstellungen/spieler" aria-label={`Tipps für ${player.player}${sub ? `, ${sub}` : ""}. Spieler in den Einstellungen ändern`}>
+      <span className="player-badge" aria-hidden="true">
+        {player.player}
+      </span>
+      <span className="player-line-text" aria-hidden="true">
+        <span className="player-line-main">Tipps für {player.player}</span>
+        {sub && <span className="player-line-sub">{sub}</span>}
+      </span>
+      <span className="player-line-change" aria-hidden="true">
+        ändern
+      </span>
+    </a>
+  );
+}
+
 function StandingsBox({
   standings,
   season,
   maxDeviations,
+  maxFor = null,
 }: {
   standings: StandingsFile;
   season: number;
   maxDeviations: number | null;
+  /** Kürzel, für das die Abweichungen gerechnet wurden, wenn es nicht der gewählte Spieler ist. */
+  maxFor?: string | null;
 }) {
   const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
   const mine = players.find((p) => p.id === standings.me);
@@ -677,7 +738,10 @@ function StandingsBox({
         </p>
       )}
       {!applies && <p className="box-meta">Neue Saison, Rückstand erst nach der ersten Meldung</p>}
-      <p className="box-meta strong">Erlaubte Abweichungen diese Woche: {maxDeviations ?? "offen"}</p>
+      <p className="box-meta strong">
+        Erlaubte Abweichungen diese Woche: {maxDeviations ?? "offen"}
+        {maxFor ? ` (für ${maxFor})` : ""}
+      </p>
       <p className="box-meta">
         Rangliste nach Week {standings.asOfWeek}
         {!applies && standings.season !== undefined ? ` der Saison ${standings.season}` : ""}
