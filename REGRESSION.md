@@ -733,3 +733,9 @@ R113 Duo Layout bei verspäteter Safe Area
     Schritt: App starten, in den Hintergrund und zurück.
     Erwartet: Navigation als Leiste rechts vor dem reservierten Bereich, nie die schwebende iPhone Leiste unten. Auch wenn iOS die Safe Area erst nach dem Start meldet.
     Status: bestanden lokal 2026-11-02 (Inset nach dem Laden gesetzt, Wechsel compact zu side), offen Nutzer am Gerät
+
+R114 Design Welle 2
+    Vorbedingung: iPhone und Duo, hell und dunkel.
+    Schritt: Alle Reiter, Spiel in Tipps und Spiele antippen, Blatt nach unten wischen, Duo quer Spiele, Bilanz, News.
+    Erwartet: Aktives Ziel mit Text, Logos ohne kaputte Bilder, Blatt schliesst per Wischen und X, Hellmodus folgt dem System, zwei Bereiche am Falz.
+    Status: bestanden lokal 2026-11-02 (240 Prüfpunkte), offen Nutzer am Gerät
