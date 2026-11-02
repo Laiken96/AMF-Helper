@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-02T12:43:46Z",
+  "updatedAt": "2026-11-02T15:47:20Z",
   "maxDeviations": 2,
   "tips": [
     {
@@ -144,14 +144,14 @@
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "odds": {
         "provider": "DraftKings",
-        "spreadHome": 3,
+        "spreadHome": 3.5,
         "overUnder": 40.5,
-        "fetchedAt": "2026-11-02T12:43:46Z"
+        "fetchedAt": "2026-11-02T15:47:20Z"
       },
-      "pHome": 0.4121,
+      "pHome": 0.3977,
       "pickTeamId": "19",
-      "pickProb": 0.5879,
-      "level": "unklar",
+      "pickProb": 0.6023,
+      "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "19",
       "changedSinceFirst": false,
@@ -239,17 +239,17 @@
       "kickoffUtc": "2026-11-08T21:25:00Z",
       "odds": {
         "provider": "DraftKings",
-        "spreadHome": -3,
-        "overUnder": 47.5,
-        "fetchedAt": "2026-11-02T12:43:46Z"
+        "spreadHome": -2.5,
+        "overUnder": 46.5,
+        "fetchedAt": "2026-11-02T15:47:20Z"
       },
-      "pHome": 0.5879,
-      "pickTeamId": "17",
-      "pickProb": 0.5879,
+      "pHome": 0.5735,
+      "pickTeamId": "9",
+      "pickProb": 0.4265,
       "level": "unklar",
-      "deviation": false,
+      "deviation": true,
       "firstPickTeamId": "17",
-      "changedSinceFirst": false,
+      "changedSinceFirst": true,
       "locked": false,
       "lockedAt": null
     },
@@ -282,12 +282,12 @@
         "fetchedAt": "2026-11-02T03:03:54Z"
       },
       "pHome": 0.4265,
-      "pickTeamId": "16",
-      "pickProb": 0.4265,
+      "pickTeamId": "2",
+      "pickProb": 0.5735,
       "level": "unklar",
-      "deviation": true,
+      "deviation": false,
       "firstPickTeamId": "2",
-      "changedSinceFirst": true,
+      "changedSinceFirst": false,
       "locked": false,
       "lockedAt": null
     }
@@ -303,8 +303,8 @@
     {
       "gameId": "401873051",
       "slot": "monday",
-      "homePoints": 25,
-      "awayPoints": 22,
+      "homePoints": 22,
+      "awayPoints": 25,
       "basis": "quote"
     }
   ]
