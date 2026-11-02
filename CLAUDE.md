@@ -7,6 +7,7 @@
 3. Keine Änderung am Datenformat unter data/ ohne Anpassung von schema_version und zod Schema.
 4. Keine Secrets im Browser Code. Schreibzugriff nur über GitHub Actions.
 5. Bei Widerspruch zwischen Auftrag und DECISIONS.md: anhalten und nachfragen, nicht selbst entscheiden.
+6. Vor jedem Merge von main: Merge Ergebnis prüfen. Bei Konflikt in data/ gilt der Stand von main (dort schreibt die Automatik). Nie committen, solange Konfliktmarker existieren (git diff --check).
 
 ## Ziel
 
