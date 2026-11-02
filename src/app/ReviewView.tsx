@@ -3,6 +3,7 @@ import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
 import { loadReviewPage, parseWeekKey, sameRef, useKeptLoad, type ReviewData, type WeekRef } from "./data";
+import { useLayoutValue } from "./layout";
 import { LoadErrorNotice, PageHeader, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, formatStand, scoreAria, scoreText } from "./wording";
 
@@ -54,6 +55,7 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map((week?.games ?? []).map((g) => [g.id, g])), [week]);
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
+  const wide = useLayoutValue() === "wide";
   const matchup = (gameId: string): string => {
     const g = gameById.get(gameId);
     return g ? `${team(g.awayId).abbr} @ ${team(g.homeId).abbr}` : `Spiel ${gameId}`;
@@ -65,10 +67,10 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
       : data.phase === "vergangen"
         ? "Für diese Woche gibt es keine Bilanz."
         : "Bilanz folgt, sobald das erste Spiel dieser Woche beendet ist.";
-    return (
+    const emptyHeader = <PageHeader kicker="Bilanz" title={weekLabel(ref)} aside={picker} meta={`Saison ${ref.season}`} />;
+    const emptyNotice = <p className="notice notice-pending">{text}</p>;
+    const emptyMetrics = (
       <>
-        <PageHeader kicker="Bilanz" title={weekLabel(ref)} aside={picker} meta={`Saison ${ref.season}`} />
-        <p className="notice notice-pending">{text}</p>
         <div className="tiles">
           <section className="box" aria-label={POINTS_TITLE}>
             <h2>{POINTS_TITLE}</h2>
@@ -86,6 +88,26 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         <SeasonTable history={history} season={ref.season} me={standings.me} />
       </>
     );
+    if (wide) {
+      return (
+        <ReviewSplit
+          metrics={emptyMetrics}
+          list={
+            <>
+              {emptyHeader}
+              {emptyNotice}
+            </>
+          }
+        />
+      );
+    }
+    return (
+      <>
+        {emptyHeader}
+        {emptyNotice}
+        {emptyMetrics}
+      </>
+    );
   }
 
   const deviations = review.games.filter((g) => g.deviation);
@@ -95,15 +117,17 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
   const rate = decided > 0 ? Math.round((review.points / decided) * 100) : null;
   const finals = review.games.filter((g) => g.final).length;
 
-  return (
+  const header = (
+    <PageHeader
+      kicker="Bilanz"
+      title={weekLabel(review)}
+      aside={picker}
+      meta={`Saison ${review.season} · ${formatStand(review.updatedAt)}`}
+    />
+  );
+  const gameList = <GameList review={review} gameById={gameById} team={team} />;
+  const metrics = (
     <>
-      <PageHeader
-        kicker="Bilanz"
-        title={weekLabel(review)}
-        aside={picker}
-        meta={`Saison ${review.season} · ${formatStand(review.updatedAt)}`}
-      />
-
       {!review.complete && (
         <p className="notice notice-pending">
           <strong>Zwischenstand.</strong> {finals} von {review.games.length} Spielen sind beendet, die Bilanz wird
@@ -178,8 +202,41 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
 
       <GroupWeek history={history} week={review} me={standings.me} />
       <SeasonTable history={history} season={review.season} me={standings.me} />
-      <GameList review={review} gameById={gameById} team={team} />
     </>
+  );
+
+  if (wide) {
+    return (
+      <ReviewSplit
+        metrics={metrics}
+        list={
+          <>
+            {header}
+            {gameList}
+          </>
+        }
+      />
+    );
+  }
+  return (
+    <>
+      {header}
+      {metrics}
+      {gameList}
+    </>
+  );
+}
+
+/** wide (D050): Kennzahlen links bis zum Falz, Kopf und Spielliste rechts, beide scrollen unabhängig. */
+function ReviewSplit({ metrics, list }: { metrics: ReactNode; list: ReactNode }) {
+  return (
+    <div className="duo-split">
+      <div className="pane pane-metrics" aria-label="Kennzahlen der Woche" role="region">
+        {metrics}
+      </div>
+      <div className="fold" aria-hidden="true" />
+      <div className="pane pane-list">{list}</div>
+    </div>
   );
 }
 
