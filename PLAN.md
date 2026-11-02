@@ -10,7 +10,7 @@ Rolle Master Control: plant, verteilt Sprints an Agenten, prüft Ergebnisse gege
 | Architekt (Plan) | Struktur, DB Schema, Sprintschnitt | Architekturbericht (erledigt, siehe D001, D003) |
 | Frontend | Next.js Seiten, Polling Hooks, Mobile Layout | UI Komponenten |
 | Daten | ESPN Adapter mit zod, Cache, API Routes, RSS Import | lib/espn, lib/cache, app/api |
-| Modell | Elo, Backtest, Quoten Mischung (Python) | jobs/elo, Backtest Report |
+| Modell | Quoten Umrechnung, Abweichungslogik, Elo Backtest (Python) | jobs/, Backtest Report |
 | QA | Fehlerfälle, Regressionsliste, Sonntagstest | REGRESSION.md Einträge |
 | Review | unabhängiger Code Review pro Sprint ohne Vorwissen des Bauers | Findings Liste |
 
@@ -27,32 +27,35 @@ Vercel API Routes ──► api_cache (Supabase) ──► ESPN JSON API
    ▼
 Supabase Postgres (teams, games, news_items, predictions, prediction_results)
    ▲
-GitHub Actions (Python): RSS alle 30 min, Elo jeden Dienstag, Odds Snapshot, Supabase Ping
+GitHub Actions (Python): Odds Do und So, Injuries vor Tippschluss, Bilanz Dienstag, RSS, Supabase Ping
 ```
 
 ## Sprints
 
+Reihenfolge nach D008: zuerst ersetzt die App den Chat Loop, danach kommen Liveticker und News.
+
 | Nr | Inhalt | Agenten | Abnahme (überprüfbar) |
 |---|---|---|---|
 | 1 | Gerüst: Next.js, Vercel, Supabase EU, Migration 0001, Teams, Spielplan der Woche | Daten, Frontend | Öffentliche URL zeigt alle Spiele der Woche mit korrekter Zürcher Zeit |
-| 2 | Live Scoreboard: Adapter, Cache, Polling nach Spielplan | Daten, Frontend, QA | Sonntag: Rückstand max 30 s auf ESPN, max 4 ESPN Requests pro Minute im Log |
-| 3 | Game Detail: Drives, Play by Play, Ballbesitz | Frontend, Daten | Laufendes Spiel Play für Play verfolgbar, fertige Spiele aus der DB |
-| 4 | News: RSS Import ESPN, CBS, PFT, Dedup, Teamfilter | Daten | 3 Quellen, 0 Duplikate, Update alle 30 min nachweisbar |
-| 5 | Elo MVP plus Backtest, Tipps sperren | Modell, QA | Backtest Brier unter 0.25, jedes Spiel der Woche hat gesperrten Tipp |
-| 6 | Tracking und Quoten: prediction_results, Statistikseite, Elo vs Mischung | Modell, Frontend | Dienstag erscheinen Brier und Trefferquote der Woche automatisch |
-| 7 | Optional nach Gate 3: Claude Begründungen, Magic Link Login für Freunde | Daten, Frontend | Freund sieht Tipps mit Begründung, LLM Kosten pro Woche geloggt |
+| 2 | Tippliste: Quoten Import, Siegwahrscheinlichkeit, Tipp, Lage (klar, Favorit, unklar), Tiebreaker Vorschlag, Sperre bei Kickoff | Daten, Modell, Frontend | Donnerstag 19:00 steht für jedes Spiel ein Tipp mit Prozentwert, Ansicht gleich wie die Tabelle aus dem Chat Loop |
+| 3 | Ausfall Wächter: Injuries und Inactives je Spiel, Änderung seit Donnerstag markiert, Countdown bis Tippschluss | Daten, Frontend, QA | Sonntag 17:40 zeigt die App jede Änderung bei Startspielern der 19:00 Spiele |
+| 4 | Gruppe und Bilanz: Gruppentipps erfassen, Abweichungs Kandidaten nach D010, Wochenbilanz eigene Tipps vs Gruppe | Modell, Frontend | Dienstag zeigt die App Punkte der Woche für dich und die Gruppe |
+| 5 | Liveticker: Scoreboard mit Polling nach Spielplan, Game Detail mit Play by Play | Daten, Frontend, QA | Sonntag: Rückstand max 30 s auf ESPN, max 4 ESPN Requests pro Minute |
+| 6 | News: RSS ESPN, CBS, PFT, Dedup, Teamfilter | Daten | 3 Quellen, 0 Duplikate, Update alle 30 min |
+| 7 | Optional nach Gate 3: Elo Backtest, Kalibrierung der Schwelle aus D010, Begründungen per Claude | Modell | Backtest Report mit Brier Score Quoten vs Elo vs Mischung |
 
-Definition of Done ist nach Sprint 6 erreicht. Sprint 7 ist ein neues Feature und läuft erst nach Gate 3.
+Definition of Done ist nach Sprint 4 erreicht. Sprint 5 und 6 erfüllen den ursprünglichen Wunsch (Liveticker, News) und laufen nach Gate 3.
 
 ## Gates
 
 - Gate 1 vor Sprint 1: Nutzer bestätigt PROJEKT.md (Problem, DoD, Nicht im Scope). Offen
 - Gate 2 vor erstem Freund als Nutzer: BETRIEB.md, Backup, Rollback, Datenschutz falls Login
-- Gate 3 vor Sprint 7 und jedem weiteren Feature
+- Gate 3 vor Sprint 5 und jedem weiteren Feature
 
 ## Risiken
 
 - ESPN API inoffiziell: Schemabruch oder Sperre. Gegenmittel Adapter mit Validierung, letzte gültige Daten anzeigen, Fallback API-Sports
 - Supabase Free pausiert nach 7 Tagen ohne Aktivität: Ping Job
 - Zeitzonen und Wochenzuordnung: D006
-- Saisontiming: Regular Season läuft bis Anfang Januar 2027. Sprint 2 muss an einem echten Sonntag abgenommen werden, sonst wartet die Abnahme bis September 2027
+- Saisontiming: Regular Season endet am 10. Januar 2027. Sprint 2 bis 4 müssen an echten Spielwochen abgenommen werden, sonst wartet die Abnahme bis September 2027
+- Benachrichtigung: Der Chat Loop meldet sich aktiv, eine Web App nicht. Ohne Lösung (offene Frage) geht der wichtigste Nutzen verloren

@@ -5,38 +5,39 @@ Status: Kickoff (Gate 1 offen, Annahmen ungeprüft)
 
 ## Problem
 
-Spielinfos, News, Live Stände und eigene Prognosen zur NFL sind heute auf mehrere Apps, Webseiten und einen manuellen Chat Loop verteilt. Die Tipps entstehen ohne gespeicherte Historie, deshalb ist nicht messbar, ob sie besser sind als Zufall oder der Markt.
+Für ein Tippspiel unter Freunden (Sieger pro Spiel plus Tiebreaker Resultat) werden die Tipps heute in einem Chat Loop erstellt und mit geplanten Checks vor Tippschluss nachgeführt. Quoten, Ausfälle, eigene Bilanz und die Tipps der Gruppe liegen verstreut, es gibt keine gespeicherte Historie, und ob die bewussten Abweichungen von der Masse Punkte bringen, ist nicht messbar.
 
 ## Nutzer
 
-- 1 Hauptnutzer (Entwickler selbst), Situation: Sonntagabend und Nacht europäische Zeit am Laptop oder Handy, unter der Woche kurzer Blick auf News und Tipps der kommenden Woche
-- Später optional bis 5 Freunde mit Lesezugriff
+- 1 Hauptnutzer (Entwickler selbst), tippt manuell auf einer externen Tippseite
+- Situation: Donnerstag Tippliste der Woche, Sonntag 17:40 und 21:00 kurzer Check der Ausfälle mit wenigen Minuten bis Tippschluss, meist am Handy
+- Später optional Freunde aus der Tippgruppe mit Lesezugriff
 - Annahme, ungeprüft (siehe DECISIONS.md D007)
 
 ## Definition of Done
 
-Während eines kompletten NFL Spieltags zeigt die öffentlich erreichbare Web App für jedes Spiel der Woche einen vor Kickoff gesperrten Tipp mit Siegwahrscheinlichkeit, live Scores mit höchstens 30 Sekunden Rückstand auf ESPN, mindestens 3 News Quellen ohne Duplikate, und am Dienstag danach erscheinen Trefferquote und Brier Score der Woche automatisch.
+Für eine komplette Regular Season Woche zeigt die Web App am Donnerstag für jedes Spiel einen Tipp mit Siegwahrscheinlichkeit aus Quoten, markierte Abweichungs Kandidaten und einen Tiebreaker Vorschlag, meldet vor jedem Tippschluss geänderte Ausfälle der Startspieler, und zeigt am Dienstag danach die eigene Bilanz der Woche im Vergleich zur Gruppe.
 
 ## Nicht im Scope
 
 - Echtgeld Wetten, Wettschein Verwaltung oder Anbindung an Buchmacher
-- Push Notifications und native App (nur Web App, auf dem Handy als PWA nutzbar)
-- Fantasy Football, Spielerprojektionen, Draft Tools
-- Video, Highlights, Streams
-- Volltexte von News Artikeln (nur Titel, Anriss, Link)
-- Andere Ligen (College, CFL, AMF/ELF) in Version 1
-- Kommentare, Chat oder Tippspiel zwischen Freunden
+- Automatisches Eintragen der Tipps auf der Tippseite (Tipps setzt der Nutzer selbst)
+- Eigene Tippspiel Plattform für die Freunde
+- Native App (nur Web App, am Handy als PWA)
+- Fantasy Football, Spielerprojektionen
+- Video, Highlights, Streams, News Volltexte
+- Andere Ligen in Version 1
 
 ## Datenklasse
 
 keine
 
-Begründung: Version 1 speichert nur öffentliche Sportdaten. Kommt in Sprint 7 Login für Freunde dazu (E Mail Adresse), wechselt die Datenklasse auf personendaten und der Datenschutz Check ist vor Gate 2 fällig.
+Begründung: öffentliche Sportdaten plus Tipps der Freunde ohne Namen (Kürzel). Werden Namen der Freunde gespeichert oder kommt Login dazu, wechselt die Datenklasse auf personendaten und der Datenschutz Check ist vor Gate 2 fällig.
 
 ## Release Blocker
 
-- ESPN Zugriff nur über Adapter mit Schema Validierung und gemeinsamem Server Cache (kein direkter Client Zugriff auf ESPN)
+- Quellen nur über Adapter mit Schema Validierung und gemeinsamem Server Cache
 - Alle Zeiten in UTC gespeichert, Anzeige Europe/Zurich, Test über den Wechsel US Sommerzeit
-- Tipps werden vor Kickoff gesperrt und sind danach nicht mehr änderbar
-- Keine API Keys im Repository, alle Keys als Environment Variablen
+- Tipps werden bei Kickoff gesperrt und sind danach nicht mehr änderbar
+- Keine API Keys im Repository
 - Supabase Migrationen versioniert unter supabase/migrations

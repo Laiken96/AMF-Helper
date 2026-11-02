@@ -54,3 +54,31 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Verworfen: nichts
 
 ---
+
+## D008 Zweck ist das Tippspiel
+
+- Datum: 2026-11-02
+- Entscheid: Kernnutzen ist die Unterstützung des Tippspiels unter Freunden (Sieger pro Spiel, Tiebreaker Resultat, Abweichungen von der Masse). Liveticker und News sind Zusatz
+- Begründung: abgeleitet aus dem bestehenden Chat Loop. Dort entsteht der Aufwand, dort fehlt die Messbarkeit
+- Verworfen: Dashboard ohne Bezug zum Tippspiel. Ersetzt den Scope Punkt "Tippspiel zwischen Freunden" aus der ersten Fassung von PROJEKT.md
+
+## D009 Quoten vor Elo
+
+- Datum: 2026-11-02
+- Entscheid: Primäre Siegwahrscheinlichkeit sind margenbereinigte Quoten (The Odds API). Elo aus D004 dient als Fallback ohne Quote und als Vergleich im Backtest. Ändert die Reihenfolge aus D004
+- Begründung: Der Loop tippt fast immer den Quotenfavoriten. Der Markt schlägt einfache Elo Modelle bei Sieger Prognosen zuverlässig
+- Verworfen: Elo als Primärquelle
+
+## D010 Abweichungen von der Masse
+
+- Datum: 2026-11-02
+- Entscheid: Ein Spiel wird Abweichungs Kandidat, wenn der Favorit unter 60 Prozent liegt und die Gruppe mehrheitlich den Favoriten tippt. Die Begründung (Rest, Kurzwoche, Bilanz) ist Zusatzinfo, nicht Auslöser
+- Begründung: Eine Abweichung lohnt sich nur, wenn sie knapp ist und die Gruppe anders tippt. Ohne Gruppentipps ist sie Raten
+- Verworfen: Abweichungen nach Bauchgefühl ohne Messung. Schwelle 60 Prozent ungeprüft, wird nach 4 Wochen im Backtest kalibriert
+
+## D011 Gruppentipps
+
+- Datum: 2026-11-02
+- Entscheid: Tipps der Freunde werden manuell erfasst (Formular oder Screenshot Upload mit Auswertung), gespeichert unter Kürzel
+- Begründung: Die externe Tippseite hat vermutlich keine API. Ungeprüft
+- Verworfen: Scraping der Tippseite
