@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T12:44:48Z",
+  "updatedAt": "2026-11-02T12:58:17Z",
   "items": [
     {
       "id": "264f5909e7353397",
@@ -148,9 +148,7 @@
       "title": "Jacobs' attorneys say additional allegations 'unsupported'",
       "summary": "The attorneys for Green Bay's Josh Jacobs called the additional allegations of physical and verbal abuse \"unsupported and stale allegations\" in a statement on Sunday, two days after a police department in Wisconsin released records related to his arrest.",
       "publishedAt": "2026-11-02T06:54:36Z",
-      "teamIds": [
-        "9"
-      ]
+      "teamIds": []
     },
     {
       "id": "745e1a1d1369c901",
@@ -160,8 +158,7 @@
       "summary": "Cardinals coach Mike LaFleur wouldn't commit to next week's starting quarterback after Gardner Minshew replaced Jacoby Brissett in the third quarter Sunday and led Arizona to a comeback win over Dallas.",
       "publishedAt": "2026-11-02T06:54:36Z",
       "teamIds": [
-        "22",
-        "6"
+        "22"
       ]
     },
     {
@@ -277,8 +274,7 @@
       "summary": "Kansas City and Patrick Mahomes got the ball to the Denver 4-yard line with 35 seconds to play but were held out of the end zone on five straight plays.",
       "publishedAt": "2026-11-02T06:54:06Z",
       "teamIds": [
-        "7",
-        "12"
+        "7"
       ]
     },
     {
@@ -312,7 +308,6 @@
       "summary": "Despite matching the largest blown fourth-quarter lead in team history, Cowboys owner Jerry Jones said the loss to Arizona will not trigger a coaching change.",
       "publishedAt": "2026-11-02T06:54:06Z",
       "teamIds": [
-        "22",
         "6"
       ]
     },
@@ -384,8 +379,7 @@
       "summary": "Arizona is 4-0 ATS as a seven-point underdog and has three outright wins in that role, including Sunday's stunning comeback at Dallas.",
       "publishedAt": "2026-11-02T04:04:53Z",
       "teamIds": [
-        "22",
-        "6"
+        "22"
       ]
     },
     {
@@ -432,7 +426,6 @@
       "summary": "Butker's late miss helped give Denver an opportunity to complete its comeback and intensified questions about Kansas City's kicker situation",
       "publishedAt": "2026-11-02T03:19:05Z",
       "teamIds": [
-        "7",
         "12"
       ]
     },
@@ -545,9 +538,7 @@
       "title": "Answering NFL Week 8's biggest questions: Is Tuten ready to be a featured back? Concern for Minnesota?",
       "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
       "publishedAt": "2026-11-02T01:11:17Z",
-      "teamIds": [
-        "16"
-      ]
+      "teamIds": []
     },
     {
       "id": "545c8c3491ad8a78",
@@ -557,8 +548,7 @@
       "summary": "Changes coming in Dallas? Have we seen Lamar's final pass for the Ravens? Could the NFC North go four-for-four? Let's overreact to Sunday's games.",
       "publishedAt": "2026-11-02T01:11:17Z",
       "teamIds": [
-        "33",
-        "6"
+        "33"
       ]
     },
     {
@@ -658,7 +648,6 @@
       "summary": "Drake Maye came alive after halftime and the Patriots improved to 5-3.",
       "publishedAt": "2026-11-02T00:34:10Z",
       "teamIds": [
-        "15",
         "17"
       ]
     },
@@ -776,7 +765,6 @@
       "summary": "The Patriots were down 10 at halftime in Miami, but they're back on top before the end of the third quarter.",
       "publishedAt": "2026-11-01T23:45:42Z",
       "teamIds": [
-        "15",
         "17"
       ]
     },
@@ -957,7 +945,6 @@
       "summary": "Cornerback Carlton Davis is back in the lineup for the Patriots.",
       "publishedAt": "2026-11-01T20:07:17Z",
       "teamIds": [
-        "15",
         "17"
       ]
     },
@@ -1163,7 +1150,6 @@
       "summary": "Titans GM Mike Borgonzi got an offer he couldn't refuse, and now Jeffery Simmons is a Chicago Bear.",
       "publishedAt": "2026-10-31T15:22:21Z",
       "teamIds": [
-        "3",
         "10"
       ]
     },

@@ -166,21 +166,12 @@ function escapeRe(s: string): string {
 }
 
 /**
- * Suchmuster pro Team aus Name, Spitzname und Stadt (z. B. "Chiefs", "Kansas City").
- * Städte mit mehreren Teams (New York, Los Angeles) zählen nicht, sie sind mehrdeutig.
+ * Suchmuster pro Team aus vollem Namen ("Kansas City Chiefs"), Teamname ("Chiefs") und Spitznamen.
+ * Eine Stadt allein zählt nie, sie ist oft ein Personenname ("Dallas Goedert", "Malik Washington").
  */
 export function teamMatchers(teams: readonly Team[]): TeamMatcher[] {
-  const cityOf = (t: Team) =>
-    t.name.endsWith(` ${t.shortName}`) ? t.name.slice(0, t.name.length - t.shortName.length - 1).trim() : null;
-  const cityCount = new Map<string, number>();
-  for (const t of teams) {
-    const c = cityOf(t);
-    if (c) cityCount.set(c, (cityCount.get(c) ?? 0) + 1);
-  }
   return teams.map((t) => {
     const terms = new Set<string>([t.name, t.shortName, ...(TEAM_ALIASES[t.id] ?? [])]);
-    const c = cityOf(t);
-    if (c && cityCount.get(c) === 1) terms.add(c);
     const alt = [...terms].sort((a, b) => b.length - a.length).map(escapeRe).join("|");
     // Gross und Kleinschreibung zählt, damit "bills" oder "jets" als Wort nicht anschlagen.
     return { teamId: t.id, pattern: new RegExp(`(?<![\\w'])(?:${alt})(?![\\w])`) };

@@ -27,11 +27,10 @@ import {
   validateOpinion,
   type OpinionAttempts,
   type OpinionCandidate,
-  type Opinion,
   type UsageTotals,
 } from "../src/core/opinion";
 import { DATA_DIR, upcomingWeeks, type MainDeps } from "./fetch-schedule";
-import { toJson, writeFiles, type PlannedFile } from "./schedule-lib";
+import { toJson, writeFiles } from "./schedule-lib";
 import { describeError, readJsonStrict } from "./watch";
 
 /** Nur der Teil des SDK Clients, den der Job braucht. Tests ersetzen ihn vollständig. */
@@ -58,9 +57,13 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
   },
 ];
 
+/** 60 Sekunden pro Anfrage, höchstens 1 Wiederholung, damit ein Lauf nie lange hängt. */
+export const CLIENT_TIMEOUT_MS = 60_000;
+export const CLIENT_MAX_RETRIES = 1;
+
 async function defaultClient(apiKey: string): Promise<MessagesClient> {
   const mod = await import("@anthropic-ai/sdk");
-  return new mod.default({ apiKey });
+  return new mod.default({ apiKey, timeout: CLIENT_TIMEOUT_MS, maxRetries: CLIENT_MAX_RETRIES });
 }
 
 /** URLs aus Suchergebnissen und Zitaten einer Antwort. Nur diese dürfen als Quelle stehen. */
@@ -75,7 +78,14 @@ export function collectUrls(content: readonly Anthropic.Messages.ContentBlock[],
   }
 }
 
-type AskResult = { ok: true; raw: unknown; seenUrls: Set<string> } | { ok: false; error: string; apiError?: boolean };
+type AskResult =
+  | { ok: true; raw: unknown; seenUrls: Set<string> }
+  | { ok: false; error: string; apiError?: boolean; transient?: boolean };
+
+/** Rate Limit, Überlastung, Serverfehler und Netz (ohne Status) sind vorübergehend. */
+export function isTransient(status: number | undefined): boolean {
+  return status === undefined || status === 408 || status === 429 || status >= 500;
+}
 
 /** Fragt das Modell für ein Spiel. Gibt die Werkzeug Eingabe von submit_opinion zurück. */
 async function askModel(client: MessagesClient, prompt: string, usage: UsageTotals): Promise<AskResult> {
@@ -95,8 +105,14 @@ async function askModel(client: MessagesClient, prompt: string, usage: UsageTota
         messages,
       });
     } catch (err) {
-      const status = typeof err === "object" && err !== null && "status" in err ? ` HTTP ${String((err as { status: unknown }).status)}` : "";
-      return { ok: false, error: `API Fehler${status}: ${describeError(err)}`, apiError: true };
+      const raw = typeof err === "object" && err !== null && "status" in err ? (err as { status: unknown }).status : undefined;
+      const status = typeof raw === "number" ? raw : undefined;
+      return {
+        ok: false,
+        error: `API Fehler${status !== undefined ? ` HTTP ${status}` : ""}: ${describeError(err)}`,
+        apiError: true,
+        transient: isTransient(status),
+      };
     }
     usage.inputTokens += res.usage.input_tokens + (res.usage.cache_read_input_tokens ?? 0) + (res.usage.cache_creation_input_tokens ?? 0);
     usage.outputTokens += res.usage.output_tokens;
@@ -191,46 +207,55 @@ export async function main(argv: readonly string[], deps: OpinionDeps = {}): Pro
 
   const client = deps.client ?? (await defaultClient(apiKey!));
   const usage: UsageTotals = { inputTokens: 0, outputTokens: 0, searches: 0 };
-  const files: PlannedFile[] = [];
+  const saveAttempts = () => writeFiles(dataDir, [{ path: ATTEMPTS_PATH, content: toJson(attempts) }]);
   let budget = MAX_GAMES_PER_RUN;
   let exit = 0;
   let created = 0;
-  for (const w of weeks) {
-    const added: Opinion[] = [];
+  outer: for (const w of weeks) {
+    let existing = w.existing;
     for (const c of w.candidates) {
       if (budget-- <= 0) {
         log(`Obergrenze von ${MAX_GAMES_PER_RUN} Spielen pro Lauf erreicht, Rest im nächsten Lauf.`);
-        break;
+        break outer;
       }
       const label = `${w.key.season}-${w.key.seasonType}-${w.key.week} Spiel ${c.game.id}`;
       const prompt = buildOpinionPrompt({ game: c.game, tip: c.tip, teams, injuries: w.injuries });
+      // Versuch vor dem Aufruf speichern: bricht der Lauf ab, zählt er trotzdem und kostet nicht doppelt.
+      const before = attempts;
+      attempts = recordAttempt(attempts, c.game.id, clock(), "laufend");
+      await saveAttempts();
       const asked = await askModel(client, prompt, usage);
       const at = clock();
       if (!asked.ok) {
         error(`${label}: ${asked.error}`);
-        attempts = recordAttempt(attempts, c.game.id, at, asked.error);
-        if (asked.apiError) exit = 1;
+        if (asked.transient) {
+          // Überlastung, Rate Limit oder Netz: kein inhaltlicher Fehlschlag, zählt nicht als Versuch.
+          attempts = before;
+          exit = 1;
+        } else {
+          attempts = recordAttempt(before, c.game.id, at, asked.error);
+          if (asked.apiError) exit = 1;
+        }
+        await saveAttempts();
         continue;
       }
       const v = validateOpinion({ raw: asked.raw, game: c.game, tip: c.tip, seenUrls: asked.seenUrls, createdAt: at });
       if (!v.ok) {
         log(`${label}: verworfen, ${v.error}`);
-        attempts = recordAttempt(attempts, c.game.id, at, v.error);
+        attempts = recordAttempt(before, c.game.id, at, v.error);
+        await saveAttempts();
         continue;
       }
-      attempts = recordAttempt(attempts, c.game.id, at, "ok");
-      added.push(v.opinion);
+      // Meinung sofort speichern, dann den Versuch als erledigt markieren.
+      existing = mergeOpinions({ existing, week: w.key, added: [v.opinion], model: OPINION_MODEL, now: at });
+      const path = opinionsFilePath(w.key.season, w.key.seasonType, w.key.week);
+      await writeFiles(dataDir, [{ path, content: toJson(existing) }]);
+      attempts = recordAttempt(before, c.game.id, at, "ok");
+      await saveAttempts();
       created++;
-      log(`${label}: Meinung ${v.opinion.winnerTeamId} ${v.opinion.pWinner}, ${v.opinion.sources.length} Quellen`);
-    }
-    if (added.length > 0) {
-      const next = mergeOpinions({ existing: w.existing, week: w.key, added, model: OPINION_MODEL, now: clock() });
-      files.push({ path: opinionsFilePath(w.key.season, w.key.seasonType, w.key.week), content: toJson(next) });
+      log(`${label}: Meinung ${v.opinion.winnerTeamId} ${v.opinion.pWinner}, ${v.opinion.sources.length} Quellen, geschrieben data/${path}`);
     }
   }
-  files.push({ path: ATTEMPTS_PATH, content: toJson(attempts) });
-  await writeFiles(dataDir, files);
-  for (const f of files) log(`  geschrieben data/${f.path}`);
   log(
     `Kosten dieses Laufs: ${costUsd(usage).toFixed(4)} USD (${usage.inputTokens} Input Tokens, ` +
       `${usage.outputTokens} Output Tokens, ${usage.searches} Suchen, ${created} Meinungen, Modell ${OPINION_MODEL})`,

@@ -77,12 +77,20 @@ describe("URL und Teams", () => {
     expect(normalizeUrl("kein link")).toBeNull();
   });
 
-  it("erkennt Namen, Spitznamen und Städte", () => {
+  it("erkennt Namen und Spitznamen", () => {
     const id = (abbr: string) => teams.find((t) => t.abbr === abbr)!.id;
     expect(detectTeams("Five things as Broncos stun Chiefs", matchers).sort()).toEqual([id("DEN"), id("KC")].sort());
-    expect(detectTeams("Kansas City falls at home", matchers)).toEqual([id("KC")]);
+    expect(detectTeams("Kansas City Chiefs fall at home", matchers)).toEqual([id("KC")]);
     expect(detectTeams("Niners and Bucs trade talk", matchers).sort()).toEqual([id("SF"), id("TB")].sort());
     expect(detectTeams("Philadelphia Eagles lose", matchers)).toEqual([id("PHI")]);
+  });
+
+  it("Stadt allein zählt nie, auch nicht als Personenname", () => {
+    const id = (abbr: string) => teams.find((t) => t.abbr === abbr)!.id;
+    expect(detectTeams("Eagles TE Dallas Goedert questionable", matchers)).toEqual([id("PHI")]);
+    expect(detectTeams("Vikings LB Dallas Turner breaks out", matchers)).toEqual([id("MIN")]);
+    expect(detectTeams("Dolphins WR Malik Washington returns", matchers)).toEqual([id("MIA")]);
+    expect(detectTeams("Kansas City falls at home", matchers)).toEqual([]);
   });
 
   it("mehrdeutige Städte und kleingeschriebene Wörter zählen nicht", () => {
