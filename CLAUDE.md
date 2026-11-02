@@ -27,7 +27,7 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, wide nach Breite und rechtem Safe Area Inset (D035 bis D039), Spielbereich in Teamfarben, Navigation als Kapsel, Schriften selbst gehostet unter public/fonts. Ab Kickoff gilt ein Spiel in der App als gesperrt, auch vor dem Tippjob. 215 Tests grün. Offen: Test am echten iPhone Duo (R57 bis R60), Abnahme Week 9.
+Ausbau Sprint 5 bis 8 gebaut am 2026-11-02 (D042 bis D044): Wochen blättern, Liveticker im Reiter Spiele, News Reiter, KI Zweitmeinung im Schattenmodus (claude-haiku-5-5, Secret ANTHROPIC_API_KEY, läuft nach dem Push Versand). Externer Auslöser cron-job.org (D041). 279 Tests grün. Offen: echte KI Läufe, Liveticker an echtem Spiel, ESPN RSS in Actions, Gesamtabnahme.
 
 ## Befehle
 
@@ -35,6 +35,7 @@ Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, 
 - npm run typecheck, npm test, npm run build: Prüfungen vor jedem Commit
 - npm run job:schedule [-- --season 2026 --type 2 --week 9]: Spielplan holen
 - npm run job:review: Wochenbilanz rechnen
+- npm run job:news, job:opinion, job:weeks: News, KI Zweitmeinung (nur mit Key), Wochenindex
 - npm run job:standings: Ranglisten Meldung aus Issue Event verarbeiten (nur im Workflow)
 - npm run job:watch, npm run job:push: Ausfall Wächter und Push Versand (Versand nur auf main mit Secrets)
 - npm run job:tips [-- --season 2026 --type 2 --week 9]: Tippliste rechnen, ohne Argumente Woche aus data/current.json
@@ -43,4 +44,4 @@ Sprint D (Redesign Stil A) gebaut am 2026-11-02: Layouts compact, side, medium, 
 
 ## Nächster Schritt
 
-Sprints laut PLAN.md (D042): Wochen blättern und Liveticker (Frontend), News und KI Zweitmeinung (Daten), danach Gesamtabnahme.
+Gesamtabnahme an einer echten Woche (Sprint 9), danach Post Mortem.

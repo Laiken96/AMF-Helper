@@ -477,3 +477,153 @@ R72 Duo Systemanzeige verdeckt keine Bedienelemente
     Schritt: Rechte Spalte ansehen.
     Erwartet: Uhrzeit, WLAN und Batterie von iOS stehen oben frei. Werkzeugkapsel (Aktualisieren, Glocke) und Navigation sitzen unten gestapelt, nichts überlappt. Lokal mit ?inset=84 bei 951x669: Werkzeugkapsel beginnt bei y 319, Navigation endet bei y 653.
     Status: bestanden lokal und durch Nutzer am iPhone Duo 2026-11-02
+
+---
+
+## Ausbau Sprint 5 bis 8 (Wochen blättern, Liveticker, News, KI Zweitmeinung)
+
+Lokale Prüfungen am 2026-11-02 in einer Kopie des Repos (scratchpad/qaAusbau, node_modules per Symlink) auf Stand 1b94a15. In der Kopie typecheck und 272 Tests grün, Build mit `BASE_PATH=/AMF-Helper/`, vite preview und Playwright (chromium, Service Worker blockiert, Browser Zeitzone Europe/Zurich). Jobs mit echtem Netz und zusätzlich über `main(argv, deps)` mit gemocktem fetch bzw. gemocktem Anthropic Client. App Schritte liefen bei 390x844 (compact), 466x678 mit `?inset=84` (side), 669x951 (medium) und 951x669 (wide). current.json und Week 9 Ergebnisse wurden nur per Playwright route umgebogen, ESPN Scoreboard und Summary per route simuliert, ein XSS Testeintrag nur in dist/data/news.json. Zeit per page.clock. Screenshots unter scratchpad/qaAusbau-shots.
+
+R73 News Job zweimal ohne Duplikate
+    Vorbedingung: Kopie mit data/news.json aus dem Repo (103 Einträge).
+    Schritt: `npm run job:news` zweimal mit echtem Netz. Danach mit gemocktem fetch 3 Feeds mit je 82 Einträgen inklusive doppelter URL (mit und ohne Schrägstrich am Ende, utm Parameter) zweimal laufen lassen.
+    Erwartet: Echtes Netz: CBS 36 und PFT 30 Einträge, Datei unverändert, 103 Einträge mit 103 eindeutigen URLs und IDs. Mock: erster Lauf schreibt genau 150 Einträge (51 ESPN, 50 CBS, 49 PFT), doppelte URL nur einmal, zweiter Lauf meldet "unverändert", Datei bytegleich. Titel und Anriss ohne HTML (aus "<b>bold</b>" wird "bold", img entfernt), Team Erkennung "Chiefs" und "Kansas City" ergibt KC.
+    Status: bestanden lokal 2026-11-02
+
+R74 News Job mit kaputter Quelle
+    Vorbedingung: wie R73.
+    Schritt: Mock mit ESPN Verbindungsfehler und CBS mit HTML statt RSS, PFT gültig. Zusätzlich echter Lauf (ESPN liefert lokal HTTP 202 WAF challenge).
+    Erwartet: Fehlermeldung je Quelle ("ECONNREFUSED", "Kein RSS Dokument", "HTTP 202 Accepted (WAF challenge)"), PFT läuft weiter, bisherige Einträge der kaputten Quellen bleiben, Exit 0. Exit 1 nur, wenn alle drei scheitern.
+    Status: bestanden lokal 2026-11-02. Befund niedrig: Fällt ESPN dauerhaft aus, bleiben die alten ESPN Einträge stehen, bis sie durch die Grenze von 150 verdrängt werden
+
+R75 ESPN RSS in GitHub Actions
+    Vorbedingung: Ausbau auf main, Workflow NFL Daten läuft.
+    Schritt: Log des Schritts News im nächsten Lauf lesen, data/news.json ansehen.
+    Erwartet: Mindestens CBS und PFT liefern. Wenn ESPN mit 202 oder 403 scheitert, steht die Meldung im Log, der Schritt bleibt grün (D043 Risiko).
+    Status: offen GitHub
+
+R76 Spielplan Job mit nächsten Wochen und Wochenindex
+    Vorbedingung: Kopie, current.json auf Week 8.
+    Schritt: `npm run job:schedule`, danach `npm run job:index`, Datei Referenzen des Index gegen das Dateisystem prüfen.
+    Erwartet: current.json bytegleich (Week 8). Kommende Woche 9 mit 15 und Woche 10 mit 14 Spielen geholt. data/weeks/index.json enthält Wochen 8, 9, 10. Week 8 mit weekFile, tipsFile, reviewFile, Week 9 mit weekFile und tipsFile, Week 10 nur weekFile, tipsFile null. Jede genannte Datei existiert.
+    Status: bestanden lokal 2026-11-02. Befund niedrig: opinionFile im Index wird nur im stündlichen Datenjob nachgeführt, die Meinungen schreibt aber der Push Workflow. Der Index hinkt bis zu einer Stunde nach. Ohne Folge, solange die App Meinungen nicht zeigt
+
+R77 KI Zweitmeinung ohne Key
+    Vorbedingung: Kopie, ANTHROPIC_API_KEY nicht gesetzt.
+    Schritt: `npm run job:opinion`.
+    Erwartet: Meldung "Secret ANTHROPIC_API_KEY fehlt, keine KI Zweitmeinung erzeugt.", Exit 0, kein Ordner data/opinions.
+    Status: bestanden lokal 2026-11-02
+
+R78 KI Zweitmeinung im Fenster, nie überschrieben
+    Vorbedingung: Kopie mit Week 9 Tippdatei, gemockter Client über main(argv, deps) mit Suchergebnis und submit_opinion.
+    Schritt: Lauf am 05.11.2026 20:15 UTC (5 h vor JAX at BAL). Zweiter Lauf 10 Minuten später mit anderem Sieger im Mock.
+    Erwartet: Erster Lauf schreibt opinions/2026-2-09.json mit 1 Meinung (JAX 0.64, Markt JAX 0.7355, 1 Quelle) und attempts.json, Kostenzeile im Log (Modell claude-haiku-5-5). Zweiter Lauf: "Keine Meinung fällig.", kein API Aufruf, Datei bytegleich.
+    Status: bestanden lokal 2026-11-02
+
+R79 KI Zweitmeinung nach Kickoff und ausserhalb 6 Stunden
+    Vorbedingung: wie R78, frische Kopie der Daten.
+    Schritt: Lauf am 06.11.2026 01:20 UTC (nach Kickoff TNF) und am 05.11.2026 18:00 UTC (7 h vorher).
+    Erwartet: Beide Male "Keine Meinung fällig.", kein API Aufruf, keine Meinungsdatei.
+    Status: bestanden lokal 2026-11-02
+
+R80 KI Zweitmeinung ohne gültige Quelle
+    Vorbedingung: wie R78.
+    Schritt: Mock antwortet mit einer Quelle, deren URL nicht in den Suchergebnissen steht. Drei Läufe im Abstand von 10 Minuten. Zusätzlich Antwort ohne jede Websuche.
+    Erwartet: "verworfen, keine belegte Quelle", keine Meinungsdatei, attempts.json zählt 1 und 2. Dritter Lauf ruft die API nicht mehr auf (höchstens 2 Versuche). Exit 0.
+    Status: bestanden lokal 2026-11-02. Befund kosmetisch: Logzeile lautet "verworfen, keine belegte Quelle, verworfen"
+
+R81 KI Zweitmeinung mit echtem Key
+    Vorbedingung: Secret ANTHROPIC_API_KEY im Repo gesetzt, Push Workflow läuft alle 10 Minuten (D041), Week 9 Tippliste mit Quoten.
+    Schritt: Ab Donnerstag 05.11. ca. 19:15 UTC Log des Schritts Meinung lesen, data/opinions/2026-2-09.json nach dem Lauf öffnen, Quellen Links anklicken.
+    Erwartet: Genau eine Meinung pro Spiel, erzeugt weniger als 6 Stunden vor Kickoff, deutsche Begründung in 2 bis 3 Sätzen, jede Quelle öffnet einen echten Artikel. Kostenzeile pro Lauf, Woche unter 1.10 USD. Spätere Läufe ändern bestehende Meinungen nicht. Die App zeigt keine Meinung.
+    Status: offen Nutzer
+
+R82 Bilanz Vergleich Markt gegen KI
+    Vorbedingung: Kopie, Week 9 als aktuelle Woche, alle 15 Spiele final simuliert (1 Unentschieden), 14 Meinungen, davon 4 mit anderem Sieger als der Markt, ein Spiel ohne Meinung.
+    Schritt: build-review main mit Zeit 11.11.2026 12:00 UTC, Ergebnis gegen unabhängig gerechnete Sollwerte vergleichen.
+    Erwartet: opinionCompare opinions 14, scored 13 (Unentschieden nicht gewertet), marketHits 9, aiHits 7, marketHitRate 0.6923, aiHitRate 0.5385, marketBrier 0.2286, aiBrier 0.24, disagreements mit den 4 erwarteten Spiel IDs inklusive Sieger. Log "KI Vergleich: 13 gewertet, Markt 9, KI 7, 4 abweichend". Bilanz komplett.
+    Status: bestanden lokal 2026-11-02. Hinweis: marketBrier zählt nur Spiele mit marketProb, aiBrier alle gewerteten. Bei fehlender Marktquote sind die Nenner verschieden
+
+R83 Push Tippliste bereit nur offene Spiele
+    Vorbedingung: Week 9 Tippdatei mit 15 Spielen, 2 Abweichungen (CLE, MIN), Tiebreaker TNF und MNF.
+    Schritt: tipsReadyMessage zu verschiedenen Zeiten auswerten.
+    Erwartet: Do 12:00 UTC "15 Spiele, 2 Abw: CLE MIN. TB TNF JAX@BAL 26:18, MNF BUF@MIN 22:25". Nach TNF Kickoff (gesperrt oder nur Kickoff vorbei) "14 Spiele" ohne TNF Tiebreaker. Spiel mit Status in zählt nicht. So 20:00 UTC "6 Spiele, 1 Abw: MIN". Nach allen Kickoffs keine Meldung.
+    Status: bestanden lokal 2026-11-02
+
+R84 Wochenwähler vor und zurück
+    Vorbedingung: Originaldaten (aktuell Week 8, Index 8 bis 10), Zeit 02.11.2026 13:00 UTC.
+    Schritt: In Tipps und Spiele zweimal "Nächste Woche", dann zweimal "Vorherige Woche". In Bilanz dasselbe versuchen.
+    Erwartet: Tipps und Spiele W8, W9, W10, W9, W8, Hash #tipps/2026-2-10 bzw. #spiele/2026-2-10, an den Enden ist der Pfeil deaktiviert. Bilanz zeigt nur Wochen mit Bilanzdatei, hier nur W8 mit beiden Pfeilen deaktiviert (D044).
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen, 18 Wiederholungen stabil
+
+R85 Wochenwahl per Hash
+    Vorbedingung: wie R84.
+    Schritt: Direkt laden #tipps/2026-2-10, #spiele/2026-2-10, #tipps/2026-2-9, #tipps/2026-2-99, #bilanz/2026-2-9.
+    Erwartet: W10 Tipps mit Hinweis, W10 Spielplan mit 14 Spielen, W9 mit 15 Häkchen (kommend mit Tippdatei), ungültige Woche ohne Absturz, Bilanz W9 "Für Week 9 gibt es noch keine Bilanz."
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R86 Vergangene Woche read only
+    Vorbedingung: current.json per route auf Week 10, Week 9 per route komplett final (9 richtig, 5 falsch, 1 Unentschieden), Zeit 11.11.2026 12:00 UTC.
+    Schritt: #tipps/2026-2-9 öffnen.
+    Erwartet: 15 Ergebnis Marken richtig, falsch bzw. unentschieden, Kasten "9 von 15, Trefferquote 64 %", kein Häkchen, kein Filter Offen und Alle, kein Eingabefeld. Kein waagrechtes Scrollen.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Hinweis: Die echte Week 8 zeigt nur 1 Ergebnis, weil 13 Spiele "nicht erfasst" sind (App startete mitten in Week 8). Screenshots s5-*.png
+
+R87 Kommende Woche ohne Tipps
+    Vorbedingung: Originaldaten und Variante aktuell Week 9.
+    Schritt: #tipps/2026-2-10 öffnen. Zusätzlich aktuelle Woche ohne Tippdatei (current Week 10).
+    Erwartet: Kommende Woche zeigt "Tipps folgen, sobald Quoten verfügbar sind." Aktuelle Woche ohne Datei zeigt "Für diese Woche gibt es noch keine Tipps." Kein Konsolenfehler.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R88 Liveticker mit simuliertem laufenden Spiel
+    Vorbedingung: current.json per route auf Week 9, Zeit 06.11.2026 02:00 UTC, Scoreboard per route mit JAX at BAL in Q3 4:12, 17 : 10, Ballbesitz JAX, "3rd & 4 at BAL 35", letzter Spielzug, Summary mit 14 Spielzügen.
+    Schritt: Spiele öffnen, Karte antippen, Detail lesen, mit Escape schliessen. Tipps öffnen.
+    Erwartet: Karte mit Score 17 : 10, Ballsymbol bei JAX, Down und Distanz, Q3 4:12, letzter Spielzug, Hinweis "Live, aktualisiert alle 20 Sekunden". Detail mit genau 10 Zügen, neuester zuerst (Nummer 14 bis 5). Spielbereich der Tipps zeigt "Läuft, Q3 4:12" mit JAX 17 und BAL 10 statt Countdown. Kein waagrechtes Scrollen.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Screenshots s2-*.png
+
+R89 Liveticker Fehler 500
+    Vorbedingung: wie R88.
+    Schritt: Scoreboard liefert nach einer erfolgreichen Abfrage HTTP 500, danach wieder gültig. Zusätzlich frisches Laden mit 500 ab Beginn.
+    Erwartet: Letzter Stand 17 : 10 bleibt mit "Live Daten gerade nicht erreichbar. Angezeigt wird der Stand von ...", nach der nächsten gültigen Antwort wieder Live. Bei 500 ab Beginn Spielplan mit Hinweis, kein Absturz. Ausser den 500 Meldungen keine Konsolenfehler.
+    Status: bestanden lokal 2026-11-02. Screenshot s3-fehler500-390x844.png
+
+R90 Polling Stopp
+    Vorbedingung: wie R88, page.clock installiert, document.visibilityState per addInitScript steuerbar.
+    Schritt: Abfragen zählen über 2 mal 20 Sekunden. Tab verstecken, 65 Sekunden vorspulen, wieder sichtbar. Detail offen 20 Sekunden, dann versteckt 65 Sekunden. Scoreboard auf final stellen, 100 Sekunden vorspulen. Zusätzlich Originaldaten am Montag 13:00 UTC ohne laufendes Spiel.
+    Erwartet: Abfragen 1, 2, 3 im Takt von 20 Sekunden. Versteckt keine Abfrage, sichtbar sofort eine. Summary 1, 2, dann versteckt keine weitere. Nach final keine Abfrage mehr. Ohne laufendes Spiel null Abfragen an ESPN in Tipps und Spiele.
+    Status: bestanden lokal 2026-11-02 bei 390x844, ohne laufendes Spiel in allen vier Grössen
+
+R91 Liveticker bei echtem laufenden Spiel
+    Vorbedingung: Ausbau auf Pages, Sonntag mit laufenden Spielen, iPhone.
+    Schritt: Spiele öffnen, 2 Minuten beobachten, ein Spiel antippen, App in den Hintergrund und zurück.
+    Erwartet: Score und Uhr ändern sich ohne Neuladen, Ballbesitz und letzter Spielzug passen zur ESPN App, Detail zeigt 10 Spielzüge. Nach Spielende kein weiteres Polling. Keine CORS Fehler.
+    Status: offen Nutzer (Sonntag)
+
+R92 XSS in News
+    Vorbedingung: dist/data/news.json mit Eintrag Titel `QA <img src=x onerror="window.__xss=1"> Chiefs <b>fett</b>` (dazu ein HTML Entity) und Anriss mit script und img onerror.
+    Schritt: News öffnen.
+    Erwartet: Titel und Anriss erscheinen als wörtlicher Text, kein img, script oder b Element in der Liste, window.__xss, __xss2, __xss3 bleiben undefiniert. Zusätzlich entfernt der News Job HTML schon beim Einlesen (R73).
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen. Screenshots s1-news-*.png
+
+R93 News Filter
+    Vorbedingung: Originaldaten plus Testeintrag (104 Einträge), Montag 13:00 UTC.
+    Schritt: Meine Spiele wählen, zurück auf Alle, im Team Feld ein Team wählen. Link Ziel prüfen.
+    Erwartet: Alle 104, Meine Spiele 5 (nur offenes MNF CHI at SEA), Team Auswahl zeigt nur Einträge mit Team Chip (z. B. 6), Links mit target _blank und rel noopener. Kein waagrechtes Scrollen.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R94 Navigation mit 5 Zielen per Tastatur
+    Vorbedingung: Tipps geöffnet.
+    Schritt: Bis 120 mal Tab, Ziele in der Kapsel protokollieren, dann jedes Ziel fokussieren und Enter.
+    Erwartet: Tipps, Bilanz, Spiele, News, Einstellungen erreichbar, Hash #tipps, #bilanz, #spiele, #news, #einstellungen. Kapsel ganz im Bild, auch bei 466x678 mit Inset 84.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
+
+R95 Fehlende Index und News Datei
+    Vorbedingung: weeks/index.json und news.json per route mit 404.
+    Schritt: Tipps, Bilanz, Spiele und News öffnen.
+    Erwartet: App wie vor dem Ausbau ohne Wochenwähler Blockade, News zeigt "Noch keine News vorhanden. Sie erscheinen nach dem nächsten Datenlauf." Kein Seitenfehler.
+    Status: bestanden lokal 2026-11-02 bei 390x844
+
+R96 Konsole und waagrechtes Scrollen
+    Vorbedingung: alle Durchläufe R84 bis R95.
+    Schritt: console error und pageerror sammeln, scrollWidth gegen clientWidth messen.
+    Erwartet: Keine Konsolenfehler (ausser den gewollten 500 in R89), kein waagrechtes Scrollen in Tipps, Bilanz, Spiele, News.
+    Status: bestanden lokal 2026-11-02 in allen vier Grössen
