@@ -63,3 +63,4 @@ Definition of Done ist nach Sprint 4 erreicht. Sprint 5 und 6 erfüllen den ursp
 ## Backlog (nach Gate 3)
 
 - Wochen blättern: vergangene Wochen (Tipps, Bilanz) und kommende Wochen (Spielplan, Tipps sobald Quoten da sind). Wunsch des Nutzers vom 2026-11-02, zurückgestellt bis zur Abnahme Week 9
+- KI Zweitmeinung zur Profiquote (D040): Claude bewertet pro Spiel Quote, Ausfälle und News und gibt Sieger, Wahrscheinlichkeit und Begründung mit Quellen ab. Zuerst 4 Wochen Schattenmodus (gespeichert, nicht angezeigt), danach Vergleich mit der Quote per Brier Score und Trefferquote in der Bilanz. Anzeige als Zweitmeinung neben dem Tipp nur, wenn der Vergleich es rechtfertigt, sonst nur Briefing. Voraussetzung: API Schlüssel als GitHub Secret

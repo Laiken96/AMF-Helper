@@ -279,3 +279,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Redesign nach D036 bis D038 wird sofort umgesetzt (Sprint D), nur Darstellung, keine Änderung an Logik, Datenvertrag, Jobs oder Push. Merge vor Donnerstag, damit die Abnahme Week 9 bereits mit dem neuen Design läuft. Schriften Barlow Condensed und Inter selbst gehostet unter public/fonts statt Google Fonts. Navigation mit 4 Zielen (Tipps, Bilanz, Spielplan, Einstellungen). Layoutwahl per Breite plus gemessenem rechtem Safe Area Inset
 - Begründung: Wunsch des Nutzers. Product Owner Hinweis: Politur vor Abnahme ist ein Risiko, begrenzt durch reine Darstellungsänderung und Review und QA vor Merge. Google Fonts würde bei jedem Aufruf die IP an Google senden
 - Verworfen: Umsetzung erst nach Dienstag, Ranglisten Reiter ohne eigene Seite
+
+## D040 KI Zweitmeinung im Backlog
+
+- Datum: 2026-11-02
+- Entscheid: Wunsch des Nutzers nach einer KI Zweitmeinung zur Profiquote kommt in den Backlog nach Gate 3. Ablauf: 4 Wochen Schattenmodus, Zweitmeinung mit Sieger, Wahrscheinlichkeit, Begründung und Quellenlinks wird pro Spiel vor Kickoff gespeichert und gesperrt wie der Tipp, aber nicht angezeigt. Danach Vergleich mit der Quote in der Bilanz (Brier Score, Trefferquote, Fälle mit abweichendem Sieger). Der Tipp selbst bleibt quotenbasiert (D005, D009), die Zweitmeinung ersetzt ihn nicht. Fakten ohne Quelle werden verworfen
+- Begründung: Forschung zeigt keinen belegten Vorteil von Sprachmodellen gegenüber Wettquoten. Messen vor Anzeigen verhindert Scheinsicherheit. Quellenpflicht gegen erfundene Ausfälle
+- Verworfen: KI berechnet den Tipp, Anzeige ohne vorherige Messung
