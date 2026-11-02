@@ -645,3 +645,9 @@ R99 Ungültiger API Schlüssel zählt nicht als Versuch
     Schritt: Push Wächter läuft im 6 Stunden Fenster eines Spiels.
     Erwartet: Fehler 401 im Log und in attempts.json, Lauf rot, Versuch wird nicht gezählt. Nach Korrektur des Secrets entsteht die Meinung im nächsten Lauf.
     Status: Fehlerfall echt auf GitHub beobachtet 2026-11-02 20:20 (CHI@SEA), Zählung lokal per Test bestanden, Erfolg nach Korrektur offen Nutzer
+
+R100 Bilanz Wochenwähler
+    Vorbedingung: Index mit Week 8 bis 10, Bilanz nur für Week 8.
+    Schritt: In Bilanz vor und zurück blättern.
+    Erwartet: Pfeile aktiv, Week 9 und 10 zeigen Hinweis "Bilanz folgt ..." im gleichen Aufbau, Wechsel ohne Leerzustand.
+    Status: bestanden lokal 2026-11-02 (50 bis 91 ms)

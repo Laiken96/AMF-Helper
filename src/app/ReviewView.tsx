@@ -1,143 +1,24 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
-import {
-  LoadError,
-  compareRef,
-  currentRef,
-  loadCurrent,
-  loadReviewData,
-  loadReviewIndex,
-  loadWeeksIndex,
-  parseWeekKey,
-  sameRef,
-  weekKey,
-  useDataVersion,
-  type ReviewData,
-  type WeekRef,
-} from "./data";
+import { loadReviewPage, parseWeekKey, sameRef, useKeptLoad, type ReviewData, type WeekRef } from "./data";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, fetchedFormat, weekLabel } from "./ui";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
 
-type State =
-  | { kind: "loading" }
-  | { kind: "error"; message: string }
-  | { kind: "empty" }
-  | { kind: "ready"; data: ReviewData; pending?: boolean };
-
-const errorText = (err: unknown) =>
-  err instanceof LoadError ? err.message : "Unerwarteter Fehler beim Laden der Daten.";
-
-const reviewRef = (d: ReviewData): WeekRef => ({
-  season: d.review.season,
-  seasonType: d.review.seasonType,
-  week: d.review.week,
-});
-
-interface ReviewWeek {
-  ref: WeekRef;
-  path: string;
-}
-
-/** Bilanzen aus Wochenindex und reviews/index.json vereint, aufsteigend. Beide Dateien dürfen fehlen. */
-async function loadReviewWeeks(): Promise<ReviewWeek[]> {
-  const [weeksIndex, reviewIndex] = await Promise.all([loadWeeksIndex(), loadReviewIndex()]);
-  const map = new Map<string, ReviewWeek>();
-  for (const path of reviewIndex ?? []) {
-    const m = /(\d{4})-(\d)-(\d{2})\.json$/.exec(path);
-    if (!m) continue;
-    const ref = { season: Number(m[1]), seasonType: Number(m[2]), week: Number(m[3]) };
-    map.set(weekKey(ref), { ref, path });
-  }
-  for (const w of weeksIndex?.weeks ?? []) {
-    if (!w.reviewFile) continue;
-    const ref = { season: w.season, seasonType: w.seasonType, week: w.week };
-    map.set(weekKey(ref), { ref, path: w.reviewFile });
-  }
-  return [...map.values()].sort((a, b) => compareRef(a.ref, b.ref));
-}
-
-/** Standard: aktuelle Woche, sonst die letzte Bilanz davor, sonst die neueste. */
-function defaultWeek(list: ReviewWeek[], current: WeekRef | null): ReviewWeek | undefined {
-  if (current) {
-    const before = list.filter((w) => compareRef(w.ref, current) <= 0);
-    if (before.length > 0) return before[before.length - 1];
-  }
-  return list[list.length - 1];
-}
-
 export function ReviewView({ arg = null }: { arg?: string | null }) {
-  const [list, setList] = useState<ReviewWeek[] | null>(null);
-  const [current, setCurrent] = useState<WeekRef | null>(null);
-  const [state, setState] = useState<State>({ kind: "loading" });
-  const version = useDataVersion();
+  const { data, error, pending } = useKeptLoad(`bilanz:${arg ?? ""}`, () => loadReviewPage(parseWeekKey(arg)));
 
+  // Nachbarwochen vorladen
   useEffect(() => {
-    let active = true;
-    Promise.all([loadReviewWeeks(), loadCurrent()])
-      .then(([weeks, cur]) => {
-        if (!active) return;
-        if (weeks.length === 0) {
-          setState({ kind: "empty" });
-          return;
-        }
-        setCurrent(cur ? currentRef(cur) : null);
-        setList(weeks);
-      })
-      .catch((err: unknown) => active && setState({ kind: "error", message: errorText(err) }));
-    return () => {
-      active = false;
-    };
-  }, [version]);
+    if (!data) return;
+    const i = data.weeks.findIndex((w) => sameRef(w.ref, data.ref));
+    for (const w of [data.weeks[i - 1], data.weeks[i + 1]]) if (w) void loadReviewPage(w.ref).catch(() => undefined);
+  }, [data]);
 
-  const requested = parseWeekKey(arg);
-  const fallback = list ? defaultWeek(list, current) : undefined;
-  const selected = list ? (requested ? list.find((w) => sameRef(w.ref, requested)) : fallback) : undefined;
-  const path = selected?.path ?? null;
-
-  useEffect(() => {
-    if (!list || !path) return;
-    let active = true;
-    // Bisherige Bilanz stehen lassen, bis die neue da ist
-    setState((s) => (s.kind === "ready" ? { ...s, pending: true } : { kind: "loading" }));
-    loadReviewData(
-      list.map((w) => w.path),
-      path,
-    )
-      .then((data) => active && setState({ kind: "ready", data }))
-      .catch((err: unknown) => active && setState({ kind: "error", message: errorText(err) }));
-    return () => {
-      active = false;
-    };
-  }, [list, path, version]);
-
-  // Nachbarbilanzen vorladen
-  useEffect(() => {
-    if (!list || !selected) return;
-    const i = list.indexOf(selected);
-    for (const w of [list[i - 1], list[i + 1]])
-      if (w)
-        void loadReviewData(
-          list.map((x) => x.path),
-          w.path,
-        ).catch(() => undefined);
-  }, [list, selected]);
-
-  const shown = selected?.ref ?? requested;
-  const picker =
-    list && shown ? (
-      <WeekStepper
-        view="bilanz"
-        weeks={list.map((w) => w.ref)}
-        value={state.kind === "ready" && state.pending ? reviewRef(state.data) : shown}
-        current={fallback?.ref ?? null}
-        pending={state.kind === "ready" && state.pending === true}
-      />
-    ) : null;
-
-  if (state.kind === "empty") {
+  if (error) return <LoadErrorNotice message={error} />;
+  if (data === null && !pending) {
     return (
       <>
         <PageHeader title="Bilanz" />
@@ -147,31 +28,11 @@ export function ReviewView({ arg = null }: { arg?: string | null }) {
       </>
     );
   }
-  if (list && requested && !selected) {
-    return (
-      <>
-        <PageHeader kicker="Bilanz" title={weekLabel(requested)} aside={picker} />
-        <p className="notice">Für {weekLabel(requested)} gibt es noch keine Bilanz.</p>
-      </>
-    );
-  }
-  if (state.kind === "loading") {
-    return (
-      <>
-        {picker}
-        <p className="notice">Daten werden geladen …</p>
-      </>
-    );
-  }
-  if (state.kind === "error") {
-    return (
-      <>
-        {picker}
-        <LoadErrorNotice message={state.message} />
-      </>
-    );
-  }
-  return <ReviewContent data={state.data} picker={picker} />;
+  if (!data) return <p className="notice">Daten werden geladen …</p>;
+  const picker = (
+    <WeekStepper view="bilanz" weeks={data.weeks.map((w) => w.ref)} value={data.ref} current={data.home} pending={pending} />
+  );
+  return <ReviewContent data={data} picker={picker} />;
 }
 
 const SLOT_DAY = { thursday: "Do", monday: "Mo" } as const;
@@ -179,7 +40,7 @@ const SLOT_DAY = { thursday: "Do", monday: "Mo" } as const;
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n));
 
 function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }) {
-  const { review, week, standings, history } = data;
+  const { review, week, standings, history, ref } = data;
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map((week?.games ?? []).map((g) => [g.id, g])), [week]);
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
@@ -187,6 +48,34 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
     const g = gameById.get(gameId);
     return g ? `${team(g.awayId).abbr} @ ${team(g.homeId).abbr}` : `Spiel ${gameId}`;
   };
+
+  if (!review) {
+    const text =
+      data.phase === "vergangen"
+        ? "Für diese Woche gibt es keine Bilanz."
+        : "Bilanz folgt, sobald das erste Spiel dieser Woche beendet ist.";
+    return (
+      <>
+        <PageHeader kicker="Bilanz" title={weekLabel(ref)} aside={picker} meta={`Saison ${ref.season}`} />
+        <p className="notice notice-pending">{text}</p>
+        <div className="tiles">
+          <section className="box" aria-label="App Punkte">
+            <h2>App Punkte</h2>
+            <p className="big-number">
+              {"\u2013"} <span className="of">von {week?.games.length ?? "?"}</span>
+            </p>
+            <p className="box-meta">Noch keine Auswertung</p>
+          </section>
+          <section className="box" aria-label="Abweichungen">
+            <h2>Abweichungen</h2>
+            <p>Noch keine Auswertung</p>
+          </section>
+        </div>
+        <GroupWeek history={history} week={ref} me={standings.me} />
+        <SeasonTable history={history} season={ref.season} me={standings.me} />
+      </>
+    );
+  }
 
   const deviations = review.games.filter((g) => g.deviation);
   // Trefferquote nur über entschiedene Tipps, offene Spiele zählen noch nicht
@@ -263,7 +152,7 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         </section>
       )}
 
-      <GroupWeek history={history} review={review} me={standings.me} />
+      <GroupWeek history={history} week={review} me={standings.me} />
       <SeasonTable history={history} season={review.season} me={standings.me} />
       <GameList review={review} gameById={gameById} team={team} />
     </>
@@ -282,7 +171,7 @@ function DeviationLine({ game, team }: { game: GameReview; team: (id: string) =>
   );
 }
 
-function GroupWeek({ history, review, me }: { history: StandingsHistory; review: ReviewFile; me: string }) {
+function GroupWeek({ history, week: review, me }: { history: StandingsHistory; week: WeekRef; me: string }) {
   const rows = groupWeekRows(history, review.season, review.seasonType, review.week);
   if (!rows) {
     return (

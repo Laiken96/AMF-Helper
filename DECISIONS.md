@@ -322,3 +322,17 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Daten werden pro Sitzung einmal geladen und im Speicher gehalten, Nachbarwochen im Hintergrund vorgeladen. Bei sichtbarem Tab alle 5 Minuten Hintergrundprüfung (no-store), bei Rückkehr nach über 60 s und per Aktualisieren Knopf, ersetzt wird nur geänderter Inhalt ohne Leerzustand. Alle Wochen nutzen dieselbe Struktur (Spielbereich, Kacheln, Umschalter, Tippzeile), kommende Wochen ohne Quoten zeigen "offen" und einen Hinweis statt Ring, vergangene Wochen sind nur lesbar. Kopfzeile immer einzeilig
 - Begründung: Gerätetest des Nutzers. Vorher lud jeder Wechsel 8 Dateien neu (0.9 bis 2.2 s mit Leerzustand) und kommende Wochen nutzten grössere Spielplan Karten. Neu 9 bis 27 ms
 - Verworfen: Laden ohne Cache, eigene Darstellung für kommende Wochen
+
+## D046 Selbstständiges Mergen eigener Pull Requests
+
+- Datum: 2026-11-02
+- Entscheid: Feste Freigabe des Nutzers. Claude merged eigene Pull Requests vom Entwicklungsbranch nach main selbst, wenn typecheck, test und build grün sind und Review und QA bestanden haben (bei kleinen Fixes genügt ein Test, der den Fehler abdeckt). Danach kurze Meldung an den Nutzer, was live ging, und Prüfung der Veröffentlichung. Weiterhin nachfragen bei: Änderungen an Secrets, Kosten oder externen Diensten, grösseren Umbauten oder Designänderungen, allem was einen Entscheid des Nutzers braucht, und bei roten Prüfungen
+- Begründung: Wunsch des Nutzers, weniger Rückfragen bei Routine
+- Verworfen: Rückfrage vor jedem Merge
+
+## D047 Bilanz Wochenwähler wie Tipps
+
+- Datum: 2026-11-02
+- Entscheid: Ersetzt den Teil von D044 zur Bilanz Wochenwahl. Die Bilanz nutzt dieselbe Wochenliste wie Tipps und Spiele. Wochen ohne Bilanz zeigen im gleichen Aufbau einen Hinweis. Startwoche bleibt die neueste Woche mit Bilanz
+- Begründung: Nutzerbefund, der Wähler wirkte mit nur einer Bilanzwoche wie defekt
+- Verworfen: Wähler nur über Wochen mit Bilanz
