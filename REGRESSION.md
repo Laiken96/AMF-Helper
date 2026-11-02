@@ -727,3 +727,9 @@ R112 Alte Datenversionen bleiben lesbar
     Schritt: App öffnen und Jobs laufen lassen.
     Erwartet: Alle Dateien parsen, Jobs schreiben Version 2, App zeigt alle Wochen.
     Status: offen (QA Welle 1)
+
+R113 Duo Layout bei verspäteter Safe Area
+    Vorbedingung: iPhone Duo, App vom Home Bildschirm, zugeklappt oder aufgeklappt hoch.
+    Schritt: App starten, in den Hintergrund und zurück.
+    Erwartet: Navigation als Leiste rechts vor dem reservierten Bereich, nie die schwebende iPhone Leiste unten. Auch wenn iOS die Safe Area erst nach dem Start meldet.
+    Status: bestanden lokal 2026-11-02 (Inset nach dem Laden gesetzt, Wechsel compact zu side), offen Nutzer am Gerät
