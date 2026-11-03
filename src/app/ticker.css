@@ -1,0 +1,907 @@
+/* Liveticker im Reiter Spiele (D054). Kopf im Stil Flutlicht wie der Spielbereich der Tipps: Teamfarben
+   Verlauf, heller Text, in Hell und Dunkel gleich. Darunter die Blöcke auf der Fläche des Themas, Farben nur
+   über die Variablen aus app.css, damit der Hellmodus greift. Zahlen in Barlow Condensed. */
+
+.ticker {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border-radius: 22px;
+  overflow: hidden;
+  background: var(--surface);
+  color: var(--text);
+}
+
+/* ---------- Kopf ---------- */
+
+.tk-head {
+  --hero-a: #1c2a35;
+  --hero-b: #241c3a;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px 16px 16px;
+  color: #fff;
+  background:
+    linear-gradient(rgba(11, 14, 19, 0.18), rgba(11, 14, 19, 0.18)),
+    linear-gradient(115deg, var(--hero-a) 0%, color-mix(in srgb, var(--hero-a) 45%, #0b0e13) 42%,
+      color-mix(in srgb, var(--hero-b) 45%, #0b0e13) 62%, var(--hero-b) 100%);
+}
+
+.tk-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tk-live {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(11, 14, 19, 0.6);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.tk-live .live-dot {
+  background: #ff6b6b;
+}
+
+.tk-tv {
+  font-size: 12px;
+  font-weight: 600;
+  color: #e4e8ee;
+}
+
+.tk-teams {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 6px;
+}
+
+.tk-team {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "logo score"
+    "abbr score"
+    "name score"
+    "rec score";
+  column-gap: 8px;
+  align-items: center;
+  min-width: 0;
+}
+
+.tk-team-home {
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas:
+    "score logo"
+    "score abbr"
+    "score name"
+    "score rec";
+  text-align: right;
+  justify-items: end;
+}
+
+.tk-logo {
+  grid-area: logo;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.tk-logo.logo-placeholder {
+  display: block;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.tk-abbr {
+  grid-area: abbr;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.05;
+}
+
+.tk-name {
+  grid-area: name;
+  font-size: 12px;
+  color: #e4e8ee;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.tk-record {
+  grid-area: rec;
+  font-size: 12px;
+  color: #e4e8ee;
+  font-variant-numeric: tabular-nums;
+}
+
+.tk-score {
+  grid-area: score;
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.tk-colon {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 36px;
+  color: #e4e8ee;
+}
+
+.tk-ball {
+  flex: none;
+  display: block;
+}
+
+.tk-sit {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  font-size: 13px;
+  color: #e4e8ee;
+}
+
+.tk-down {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.tk-rz-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #b3261e;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Spielfeld: links Endzone Gast, rechts Endzone Heim */
+.tk-field {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 34px;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+.tk-ez {
+  display: grid;
+  place-content: center;
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.tk-ez:last-child {
+  transform: none;
+}
+
+.tk-grass {
+  position: relative;
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.28) 0 1px, transparent 1px 10%),
+    #1d4a2a;
+  box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.28);
+}
+
+.tk-mid {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  margin-left: -1px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.tk-rz {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(135deg, rgba(255, 107, 107, 0.22) 0 4px, transparent 4px 8px);
+}
+
+.tk-rz-on {
+  background: repeating-linear-gradient(135deg, rgba(255, 107, 107, 0.5) 0 4px, rgba(255, 107, 107, 0.2) 4px 8px);
+}
+
+.tk-rz-label {
+  position: absolute;
+  inset: auto 0 2px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.tk-gain {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  margin-left: -1px;
+  background: #f5d33d;
+}
+
+.tk-ballpos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+/* Pfeil in Angriffsrichtung neben dem Ball */
+.tk-ballpos::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  border: 5px solid transparent;
+}
+
+.tk-dir-right::after {
+  left: 100%;
+  margin-left: 2px;
+  border-left: 7px solid #fff;
+}
+
+.tk-dir-left::after {
+  right: 100%;
+  margin-right: 2px;
+  border-right: 7px solid #fff;
+}
+
+.tk-lines {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-size: 17px;
+  border-radius: 12px;
+  background: rgba(11, 14, 19, 0.55);
+  overflow: hidden;
+}
+
+.tk-lines th,
+.tk-lines td {
+  padding: 4px 6px;
+  text-align: center;
+}
+
+.tk-lines thead th {
+  font-family: var(--font-text);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #e4e8ee;
+}
+
+.tk-lines thead th.tk-now {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.tk-lines tbody th {
+  text-align: left;
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+.tk-lines .tk-total {
+  font-weight: 800;
+  padding-right: 10px;
+}
+
+.tk-last {
+  margin: 0;
+  font-size: 13px;
+  color: #e4e8ee;
+  overflow-wrap: anywhere;
+}
+
+.tk-last-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* ---------- Blöcke ---------- */
+
+.tk-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 16px 16px;
+}
+
+.tk-block {
+  border-top: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+
+.tk-block:first-child,
+.tk-hint + .tk-block {
+  border-top: 0;
+}
+
+.tk-h2 {
+  margin: 0;
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+}
+
+.tk-h2-static {
+  padding: 10px 0 4px;
+}
+
+[data-layout="wide"] .tk-block > .tk-h2 {
+  padding: 10px 0 6px;
+}
+
+.tk-toggle {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.tk-toggle svg {
+  color: var(--text-2);
+}
+
+.tk-chevron {
+  transition: transform 0.15s ease;
+}
+
+.tk-chevron-open {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tk-chevron {
+    transition: none;
+  }
+}
+
+.tk-h3 {
+  margin: 14px 0 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.tk-hint {
+  margin: 4px 0;
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+/* Siegchance */
+.tk-win-now {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+}
+
+.tk-win-big {
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.05;
+}
+
+.tk-win-small {
+  font-size: 13px;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.tk-tip {
+  margin: 4px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.tk-tip-vorne {
+  color: var(--klar);
+}
+
+.tk-tip-hinten {
+  color: var(--error);
+}
+
+.tk-tip-gleich {
+  color: var(--text-2);
+}
+
+.tk-tip-mark {
+  font-size: 11px;
+}
+
+.tk-chart {
+  position: relative;
+  margin-top: 8px;
+  height: 120px;
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.tk-chart svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tk-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.tk-axis {
+  stroke: var(--text-3);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+}
+
+.tk-line {
+  stroke: var(--text);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.tk-chart-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--text);
+  box-shadow: 0 0 0 2px var(--surface-2);
+  transform: translate(-50%, -50%);
+}
+
+.tk-chart-label,
+.tk-chart-mid {
+  position: absolute;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-2);
+  pointer-events: none;
+}
+
+.tk-chart-top {
+  top: 4px;
+  left: 8px;
+}
+
+.tk-chart-bottom {
+  bottom: 4px;
+  left: 8px;
+}
+
+.tk-chart-mid {
+  right: 6px;
+  top: 50%;
+  transform: translateY(-120%);
+  font-weight: 600;
+  color: var(--text-3);
+}
+
+.tk-chart-q {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--text-3);
+  text-align: center;
+}
+
+/* Spielzüge */
+.tk-drive {
+  margin: 2px 0 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--surface-2);
+}
+
+.tk-drive-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.tk-drive-nums {
+  margin: 4px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+}
+
+.tk-drive-nums div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tk-drive-nums dt {
+  font-size: 12px;
+  color: var(--text-2);
+}
+
+.tk-drive-nums dd {
+  margin: 0;
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.play-tag {
+  color: var(--accent);
+}
+
+/* Punkte */
+.tk-scoring {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.tk-scoring li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 2px 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  box-shadow: inset 3px 0 0 var(--accent);
+  font-size: 13px;
+}
+
+.tk-sc-when {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.tk-sc-team {
+  font-weight: 700;
+}
+
+.tk-sc-score {
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.tk-sc-text {
+  grid-column: 1 / -1;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+/* Teamvergleich: gegenüberstehende Balken */
+.tk-stats-head {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--text-2);
+}
+
+.tk-stat-list {
+  margin: 4px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.tk-stat dt {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-2);
+}
+
+.tk-stat dd {
+  margin: 2px 0 0;
+  display: grid;
+  grid-template-columns: 5.2em minmax(0, 1fr) 5.2em;
+  align-items: center;
+  gap: 8px;
+}
+
+.tk-stat-val {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 17px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tk-stat-home {
+  text-align: right;
+}
+
+.tk-bars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+}
+
+.tk-bar {
+  display: flex;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.tk-bar-away {
+  justify-content: flex-end;
+}
+
+.tk-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+}
+
+/* Top Spieler */
+.tk-leaders dl {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.tk-ld {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 3.2em minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.tk-ld dt {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.tk-ld dd {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.tk-ld-away {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.tk-ld-home {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.tk-ld-name {
+  font-weight: 700;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.tk-ld-val {
+  font-size: 12px;
+  color: var(--text-2);
+}
+
+.ticker .game-detail-link {
+  margin-top: 10px;
+}
+
+/* ---------- Karussell bei mehreren laufenden Spielen ---------- */
+
+.tk-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.tk-carousel-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.tk-arrow {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  display: grid;
+  place-content: center;
+  border: 0;
+  border-radius: 22px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.tk-arrow:hover:not(:disabled) {
+  background: var(--active);
+}
+
+.tk-arrow:disabled {
+  color: var(--disabled);
+  cursor: default;
+}
+
+.tk-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 0;
+}
+
+.tk-dot {
+  width: 30px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.tk-dot span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--text-3);
+}
+
+.tk-dot-on span {
+  width: 22px;
+  background: var(--accent);
+}
+
+.tk-count {
+  font-size: 12px;
+  color: var(--text-2);
+  white-space: nowrap;
+}
+
+.tk-track {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  transition: height 0.2s ease;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  border-radius: 22px;
+}
+
+.tk-track::-webkit-scrollbar {
+  display: none;
+}
+
+.tk-track:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.tk-slide {
+  /* Bezugsrahmen für sr-only und absolute Kinder, sonst ragen sie aus dem Karussell und die Seite scrollt quer */
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.tk-rest-title {
+  margin: 10px 4px 0;
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+/* Duo quer: Ticker füllt den linken Bereich bis zum Falz */
+.pane-detail > .ticker {
+  flex: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tk-track {
+    transition: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .ticker {
+    box-shadow: 0 0 0 1px var(--line);
+  }
+
+  .tk-arrow {
+    box-shadow: 0 0 0 1px var(--line);
+  }
+}

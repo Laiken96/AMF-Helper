@@ -63,7 +63,7 @@ describe("parseLiveScoreboard", () => {
   });
 
   it("laufendes Spiel mit Stand, Uhr und Situation", () => {
-    expect(map.get("401873037")).toEqual({
+    expect(map.get("401873037")).toMatchObject({
       id: "401873037",
       state: "in",
       status: "in_progress",

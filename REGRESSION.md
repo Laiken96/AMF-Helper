@@ -769,3 +769,9 @@ R119 Duo volle Breite in Safari
     Schritt: Tipps öffnen.
     Erwartet: App nutzt die volle Breite, Leiste rechts unter Uhr und WLAN.
     Status: bestanden durch Nutzer 2026-11-03. Home Bildschirm App bekommt seit iOS Update nur 867 breit (iOS Verhalten, nicht behebbar in der Web App). Weg des Nutzers: Home Bildschirm App für Push, Safari zum Anschauen. Native Hülle und Meldung an Apple vorerst nicht gewünscht
+
+R120 Liveticker Zentrum (D054)
+    Vorbedingung: Mindestens ein Spiel läuft.
+    Schritt: Reiter Spiele öffnen, bei mehreren Spielen wischen, Blöcke auf und zu klappen, Duo quer ansehen.
+    Erwartet: Grosse Ticker Karte oben mit Logos, Score, Bilanz, Viertel, Ballbesitz, Down und Distanz, Spielfeld, Siegchance mit Tipp Hinweis, Spielzüge, Punkte, Statistik, Ort, Wetter, TV. Duo quer Ticker links, Liste rechts. Keine Fehler bei fehlenden Daten.
+    Status: bestanden lokal 2026-11-03 (152 Prüfungen mit echten Fixtures CHI@SEA), offen Nutzer am Gerät bei einem echten Spiel

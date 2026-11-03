@@ -7,6 +7,7 @@ import { summaryUrl } from "../core/injuries";
 import type { Game, GameStatus } from "../core/schema";
 import type { WeekRef } from "./data";
 import { LIVE_TIMEOUT_MS, timeoutSignal } from "./net";
+import { parseLiveSummary, type LiveSummary } from "./live-summary";
 
 export const LIVE_INTERVAL_MS = 20_000;
 /** Obergrenze für die Wartezeit nach wiederholten Fehlern. */
@@ -34,8 +35,14 @@ const LiveSituationSchema = z.looseObject({
   shortDownDistanceText: z.string().nullish(),
   possessionText: z.string().nullish(),
   isRedZone: z.boolean().nullish(),
+  yardLine: z.number().nullish(),
+  distance: z.number().nullish(),
   lastPlay: z.looseObject({ text: z.string().nullish() }).nullish(),
 });
+
+/** Bilanz und Punkte je Viertel: nur lose gelesen, fehlerhafte Einträge fallen weg. */
+const RecordSchema = z.looseObject({ type: z.string().nullish(), summary: z.string().nullish() });
+const LineSchema = z.looseObject({ value: Score, displayValue: Score });
 
 const LiveEventSchema = z.looseObject({
   id: z.string(),
@@ -49,9 +56,13 @@ const LiveEventSchema = z.looseObject({
             homeAway: z.enum(["home", "away"]),
             score: Score,
             team: z.looseObject({ id: z.string() }),
+            records: z.array(z.unknown()).nullish(),
+            linescores: z.array(z.unknown()).nullish(),
           }),
         ),
         situation: LiveSituationSchema.nullish(),
+        broadcast: z.string().nullish(),
+        broadcasts: z.array(z.looseObject({ names: z.array(z.string()).nullish() })).nullish(),
       }),
     )
     .min(1),
@@ -77,6 +88,38 @@ export interface LiveGame {
   downDistance: string | null;
   redZone: boolean;
   lastPlay: string | null;
+  /** Zusatz für den Ticker (D054), fehlt bei älteren Quellen. */
+  extra?: LiveExtra;
+}
+
+export interface LiveExtra {
+  awayRecord: string | null;
+  homeRecord: string | null;
+  /** Punkte je Viertel, Index 0 ist Q1. */
+  awayLines: (number | null)[];
+  homeLines: (number | null)[];
+  /** Feldposition wie "SEA 31". */
+  fieldText: string | null;
+  /** Abstand zur Torlinie des Heimteams, 0 bis 100. */
+  yardLine: number | null;
+  /** Yards bis zum nächsten First Down. */
+  distance: number | null;
+  broadcast: string | null;
+}
+
+function overallRecord(records: readonly unknown[] | null | undefined): string | null {
+  const list = (records ?? []).flatMap((r) => {
+    const p = RecordSchema.safeParse(r);
+    return p.success ? [p.data] : [];
+  });
+  return clean((list.find((r) => r.type === "total") ?? list[0])?.summary);
+}
+
+function lineScores(lines: readonly unknown[] | null | undefined): (number | null)[] {
+  return (lines ?? []).map((l) => {
+    const p = LineSchema.safeParse(l);
+    return p.success ? (toScore(p.data.value) ?? toScore(p.data.displayValue)) : null;
+  });
 }
 
 const toScore = (v: string | number | null | undefined): number | null => {
@@ -129,6 +172,16 @@ export function parseLiveScoreboard(raw: unknown): Map<string, LiveGame> {
       downDistance: clean(sit?.downDistanceText) ?? clean(sit?.shortDownDistanceText),
       redZone: sit?.isRedZone === true,
       lastPlay: clean(sit?.lastPlay?.text),
+      extra: {
+        awayRecord: overallRecord(away?.records),
+        homeRecord: overallRecord(home?.records),
+        awayLines: lineScores(away?.linescores),
+        homeLines: lineScores(home?.linescores),
+        fieldText: clean(sit?.possessionText),
+        yardLine: typeof sit?.yardLine === "number" ? sit.yardLine : null,
+        distance: typeof sit?.distance === "number" ? sit.distance : null,
+        broadcast: clean(comp.broadcast) ?? clean((comp.broadcasts ?? []).flatMap((b) => b.names ?? []).join(", ")),
+      },
     });
   }
   return out;
@@ -354,4 +407,61 @@ export function useLastPlays(eventId: string | null, running: boolean): PlaysSta
   }, [eventId, running, visible]);
 
   return state;
+}
+
+// ---------- Summary für den Ticker (D054) ----------
+
+export interface SummaryState {
+  summary: LiveSummary | null;
+  error: boolean;
+  updatedAt: number | null;
+}
+
+/**
+ * Summary der gezeigten laufenden Spiele, je Spiel alle 20 Sekunden, nur bei sichtbarem Tab. Backoff und
+ * Zeitlimit wie beim Scoreboard. Spiele, die nicht mehr gezeigt werden, behalten ihren letzten Stand.
+ */
+export function useLiveSummaries(eventIds: readonly string[]): Map<string, SummaryState> {
+  const [states, setStates] = useState<Map<string, SummaryState>>(() => new Map());
+  const visible = usePageVisible();
+  const key = [...new Set(eventIds)].sort().join(",");
+
+  useEffect(() => {
+    if (!visible || !key) return;
+    const stops: (() => void)[] = [];
+    for (const id of key.split(",")) {
+      let cancelled = false;
+      let timer: number | undefined;
+      let ctrl: AbortController | null = null;
+      let failures = 0;
+      const tick = async () => {
+        ctrl = new AbortController();
+        try {
+          const res = await fetch(summaryUrl(id), { signal: timeoutSignal(LIVE_TIMEOUT_MS, ctrl.signal), cache: "no-store" });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const summary = parseLiveSummary(await res.json());
+          failures = 0;
+          if (!cancelled) setStates((m) => new Map(m).set(id, { summary, error: false, updatedAt: Date.now() }));
+        } catch {
+          failures += 1;
+          if (!cancelled)
+            setStates((m) => {
+              const prev = m.get(id);
+              if (prev?.error) return m;
+              return new Map(m).set(id, { summary: prev?.summary ?? null, error: true, updatedAt: prev?.updatedAt ?? null });
+            });
+        }
+        if (!cancelled) timer = window.setTimeout(tick, liveDelay(failures));
+      };
+      void tick();
+      stops.push(() => {
+        cancelled = true;
+        ctrl?.abort();
+        if (timer !== undefined) window.clearTimeout(timer);
+      });
+    }
+    return () => stops.forEach((stop) => stop());
+  }, [key, visible]);
+
+  return states;
 }
