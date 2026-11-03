@@ -387,3 +387,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wunsch des Nutzers. Laufende Spiele stehen als grosse Karte oben im Reiter Spiele, bei mehreren laufenden Spielen waagrecht wischbar, darunter die übrigen Spiele kompakt. Im Duo quer links der Ticker, rechts die Liste. Der Ticker zeigt: Kopf mit grossen Logos, Score, Bilanz, Punkte je Viertel, Uhr, Ballbesitz, Down und Distanz, Feldposition als Grafik, Red Zone. Verlauf der Siegchance mit Hinweis, ob der eigene Tipp vorne liegt. Letzte Spielzüge, aktueller Drive, Punktspielzüge. Teamvergleich als Balken, Top Spieler, Ort, Wetter, TV. Daten direkt aus ESPN Scoreboard und Summary im Browser (D017, CORS geprüft 2026-11-03)
 - Begründung: Der bisherige Ticker war eine Detailansicht ohne Zentrum, ESPN liefert live deutlich mehr Daten
 - Verworfen: Nur Liste mit Detail
+
+## D055 Wochenwechsel nach dem letzten Spiel
+
+- Datum: 2026-11-03
+- Entscheid: Wunsch des Nutzers. Sind alle Spiele der von ESPN gemeldeten Woche beendet oder abgesagt, setzt der Spielplan Job data/current.json auf die nächste Tippwoche, sobald deren Wochendatei vorliegt. Tipps, Push, Wächter und App wechseln damit Dienstag früh nach dem MNF. current.json springt innerhalb einer Saison nie auf eine frühere Woche zurück, auch wenn ESPN noch die alte Woche meldet. Verschobene Spiele halten die Woche offen. Die Bilanz der alten Woche bleibt über den Wochenwähler erreichbar
+- Begründung: ESPN schaltet erst Dienstag oder Mittwoch US Zeit um, die App zeigte bis dahin eine abgeschlossene Woche
+- Verworfen: fester Zeitpunkt Dienstag Mittag, Wechsel wie ESPN

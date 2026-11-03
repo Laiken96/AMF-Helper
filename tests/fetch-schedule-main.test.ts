@@ -147,3 +147,38 @@ describe("main", () => {
     expect(await main(["--foo"], deps(respond(fixtureText)))).toBe(1);
   });
 });
+
+describe("Wochenwechsel nach dem letzten Spiel (D055)", () => {
+  /** Week 8 Fixture mit allen Spielen beendet. */
+  function allFinal(): string {
+    const raw = JSON.parse(fixtureText);
+    for (const e of raw.events) {
+      const st = e.competitions[0].status ?? e.status;
+      st.type = { ...st.type, name: "STATUS_FINAL", state: "post", completed: true };
+      e.competitions[0].status = st;
+      e.status = st;
+    }
+    return JSON.stringify(raw);
+  }
+  const finalRouter: FetchFn = async (url) => {
+    const week = new URL(url).searchParams.get("week");
+    return new Response(week === null ? allFinal() : asWeek(Number(week)));
+  };
+  const current = async () => JSON.parse(await readFile(join(dir, "current.json"), "utf8"));
+
+  it("alle Spiele beendet: nächste Woche wird aktuell", async () => {
+    expect(await main([], deps(finalRouter))).toBe(0);
+    expect(await current()).toMatchObject({ season: 2026, seasonType: 2, week: 9, weekFile: "weeks/2026-2-09.json" });
+  });
+
+  it("ESPN meldet danach noch Week 8: current springt nicht zurück", async () => {
+    await main([], deps(finalRouter));
+    expect(await main([], deps(router()))).toBe(0);
+    expect((await current()).week).toBe(9);
+  });
+
+  it("offene Spiele: current bleibt bei der ESPN Woche", async () => {
+    await main([], deps(router()));
+    expect((await current()).week).toBe(8);
+  });
+});

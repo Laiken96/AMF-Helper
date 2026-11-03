@@ -10,8 +10,9 @@
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { scoreboardUrl } from "../src/core/espn";
-import { CurrentFileSchema, WeekFileSchema, weekFilePath, type WeekFile } from "../src/core/schema";
-import { dormantReason, isTipWeek, nextTipWeeks } from "../src/core/season-calendar";
+import { existsSync } from "node:fs";
+import { CurrentFileSchema, SCHEMA_VERSION, WeekFileSchema, weekFilePath, type WeekFile } from "../src/core/schema";
+import { dormantReason, isTipWeek, nextTipWeeks, weekOrder } from "../src/core/season-calendar";
 import {
   FETCH_TIMEOUT_MS,
   USER_AGENT,
@@ -97,7 +98,14 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
   }
   const existing = await readExisting(dataDir, weekFilePath(w.season, w.seasonType, w.week));
   const previousGames = await readPreviousGames(dataDir, w);
-  const result = buildOutputs({ raw, now, updateCurrent: !explicit, allowShrink: explicit, existing, previousGames });
+  // D055: Sind alle Spiele der ESPN Woche beendet, wird die nächste Tippwoche aktuell, nicht erst beim Wechsel
+  // von ESPN. current.json springt nie zurück auf eine frühere Woche derselben Saison.
+  const settled = weekSettled(probe.week);
+  const prevCur = CurrentFileSchema.safeParse(existing.current);
+  const ahead =
+    prevCur.success && prevCur.data.season === w.season && weekOrder(prevCur.data) > weekOrder(w);
+  const updateCurrent = !explicit && !settled && !ahead;
+  const result = buildOutputs({ raw, now, updateCurrent, allowShrink: explicit, existing, previousGames });
   if (!result.ok) {
     error(`Abgelehnt, bestehende Dateien bleiben unverändert.\n${result.error}`);
     return 1;
@@ -116,7 +124,37 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
   for (const next of upcomingWeeks(w)) {
     if ((await fetchUpcomingWeek(next, { dataDir, now, log, error, fetch: deps.fetch })) !== 0) exit = 1;
   }
+  if (settled && !ahead) {
+    const next = upcomingWeeks(w)[0];
+    const path = next ? weekFilePath(next.season, next.seasonType, next.week) : null;
+    if (next && path && existsSync(join(dataDir, path))) {
+      const current = CurrentFileSchema.parse({
+        schemaVersion: SCHEMA_VERSION,
+        season: next.season,
+        seasonType: next.seasonType,
+        week: next.week,
+        weekFile: path,
+        updatedAt: now,
+      });
+      const same =
+        prevCur.success &&
+        prevCur.data.season === current.season &&
+        prevCur.data.seasonType === current.seasonType &&
+        prevCur.data.week === current.week;
+      if (!same) {
+        await writeFiles(dataDir, [{ path: "current.json", content: `${JSON.stringify(current, null, 2)}\n` }]);
+        log(`  Woche ${w.week} komplett beendet, aktuelle Woche ist jetzt ${next.season}-${next.seasonType}-${next.week} (D055)`);
+      }
+    } else {
+      log(`  Woche ${w.week} komplett beendet, nächste Woche noch nicht vorhanden, current.json bleibt`);
+    }
+  }
   return exit;
+}
+
+/** Alle Spiele beendet oder abgesagt. Verschobene Spiele halten die Woche offen. */
+export function weekSettled(w: Pick<WeekFile, "games">): boolean {
+  return w.games.length > 0 && w.games.every((g) => g.status === "final" || g.status === "canceled");
 }
 
 /** Anzahl kommender Wochen, die der Spielplan Job zusätzlich holt. */
