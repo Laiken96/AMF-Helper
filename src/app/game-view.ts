@@ -43,6 +43,8 @@ export function shownResult(
   now: number,
 ): Exclude<TipResult, "offen"> | null {
   if (!tip) return null;
+  // Ohne echten Tipp (offen oder vor App Start) gibt es kein Ergebnis zum Tipp
+  if (tip.level === "offen" || tip.level === "nicht_erfasst") return null;
   const result = tipResult(tip, game, tip.kickoffUtc, new Date(now).toISOString());
   if (result === "ungewertet") return result;
   const side = final ? winnerSide(awayScore, homeScore) : null;

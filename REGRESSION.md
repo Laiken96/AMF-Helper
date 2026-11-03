@@ -792,4 +792,4 @@ R123 Spielansicht geplant und beendet (D056)
     Vorbedingung: Reiter Spiele, Week 9 geplantes Spiel, Week 8 beendetes Spiel.
     Schritt: Spiel antippen, im Duo quer links ansehen.
     Erwartet: Kopf mit Logos, Teamfarben, Bilanz, Countdown, Ring und Tipp. Karte Abweichung möglich mit Knopf. Fakten als Kacheln. Beendet: Endstand, Viertel, richtig oder falsch, Punktspielzüge, Teamvergleich, Top Spieler.
-    Status: bestanden lokal 2026-11-03 (4 Grössen, hell und dunkel), offen Nutzer am Gerät
+    Status: bestanden lokal 2026-11-03 (4 Grössen, hell und dunkel), Review mergefähig, offen Nutzer am Gerät. Bekannt und selten: Status post ohne Spielstand zeigt Vorspiel Kopf, abgesagtes Spiel ohne Hinweis ungewertet im Kopf, Summary nach Spielende wird pro Sitzung nur einmal geladen
