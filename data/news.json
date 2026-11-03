@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T15:47:18Z",
+  "updatedAt": "2026-11-03T16:47:18Z",
   "items": [
+    {
+      "id": "a63233116370ce3c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-overtake-chiefs-as-favorites-in-afc-west",
+      "title": "Broncos overtake Chiefs as favorites in AFC West",
+      "summary": "There's a new favorite to win the AFC West.",
+      "publishedAt": "2026-11-03T16:31:38Z",
+      "teamIds": [
+        "7",
+        "12"
+      ]
+    },
+    {
+      "id": "87cc884096ef5026",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-jack-campbell-is-improving",
+      "title": "Dan Campbell: Jack Campbell is \"improving\"",
+      "summary": "Lions coach provides update on Jack Campbell's health following neck injury.",
+      "publishedAt": "2026-11-03T16:30:52Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "5cbbdf83a70317c3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfc-north-four-playoff-teams-looking-more-likely-than-ever",
+      "title": "Could NFC North have four playoff teams? After strong Week 8, it's looking more likely than ever",
+      "summary": "The NFC North's worst team is 5-3",
+      "publishedAt": "2026-11-03T16:26:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "9113239f6a626c2b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-has-arrived-as-a-top-tier-quarterback",
+      "title": "Caleb Williams has arrived as a top-tier quarterback",
+      "summary": "Make room for the Bears QB in the Josh Allen, Patrick Mahomes, Joe Burrow club.",
+      "publishedAt": "2026-11-03T16:04:34Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "a745fe6793d0d5e4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/klint-kubiak-ashton-jeantys-disappearance-from-game-plan-vs-jets",
+      "title": "Klint Kubiak addresses Ashton Jeanty's disappearance from game plan vs. Jets",
+      "summary": "Jeanty had just two carries and played less than 40% of the snaps against New York",
+      "publishedAt": "2026-11-03T16:03:59Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "8a06529dcfe1e130",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-place-de-cashius-howell-on-injured-reserve",
+      "title": "Bengals place DE Cashius Howell on injured reserve",
+      "summary": "The Bengals announced that rookie defensive end Cashius Howell had wrist surgery on Monday, but head coach Zac Taylor said he didn't have a specific timeline for Howell's return to action.",
+      "publishedAt": "2026-11-03T16:00:20Z",
+      "teamIds": [
+        "4"
+      ]
+    },
     {
       "id": "7612140e9eded13e",
       "source": "pft",
@@ -13,6 +78,17 @@
         "3",
         "26",
         "10"
+      ]
+    },
+    {
+      "id": "0c39667d182e980b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bears-assert-super-bowl-candidacy-jeffery-simmons",
+      "title": "Bears assert Super Bowl candidacy: After Jeffery Simmons trade and 'MNF' win, NFC runs through Chicago",
+      "summary": "The Bears' blockbuster deal ahead of the NFL trade deadline reshaped the championship picture",
+      "publishedAt": "2026-11-03T15:36:12Z",
+      "teamIds": [
+        "3"
       ]
     },
     {
@@ -1622,86 +1698,6 @@
       "publishedAt": "2026-11-02T13:08:48Z",
       "teamIds": [
         "6"
-      ]
-    },
-    {
-      "id": "ad12605e52d90f9e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-jaylen-warren-breakout-running-back",
-      "title": "Steelers' Jaylen Warren is 'on fire': Why the breakout running back keeps getting better",
-      "summary": "Warren tied his career high with 143 rushing yards on his 28th birthday, continuing a breakout season that has made him the engine of Pittsburgh's offense",
-      "publishedAt": "2026-11-02T13:03:24Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "264f5909e7353397",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/seahawks-vs-bears-how-to-watch-prediction-odds-caleb-williams",
-      "title": "Seahawks vs. Bears prediction: Caleb Williams faces toughest test yet in Seattle defense",
-      "summary": "The Bears take their surging offense into Seattle for a matchup with one of the NFL's best defenses",
-      "publishedAt": "2026-11-02T12:37:52Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "4dae0a1eb7007e84",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/draft/news/ryan-wilsons-2027-nfl-mock-draft-browns-trade-up-for-qb",
-      "title": "Wilson's 2027 NFL mock draft: Browns trade up for QB, five passers land in Round 1",
-      "summary": "Jets, Titans and Browns all have multiple first-round picks",
-      "publishedAt": "2026-11-02T12:37:06Z",
-      "teamIds": [
-        "5",
-        "20",
-        "10"
-      ]
-    },
-    {
-      "id": "d062edf92efab71f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cover-32-nfl-week-8-trade-deadline-jets",
-      "title": "Cover 32: Why Jets have every reason to trade Breece Hall, plus Week 8 games balls, gaffes",
-      "summary": "Tyler Sullivan dives into the biggest items from Week 8, including Joe Burrow's six-touchdown day and Chad Ryland's redemption",
-      "publishedAt": "2026-11-02T12:36:17Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "97b7f87fd26808b8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50352650/seattle-seahawks-trade-rashid-shadeed-jaxon-smith-njigba",
-      "title": "One year after Rashid Shaheed trade, the Seahawks are still waiting for a No. 2 WR to emerge",
-      "summary": "Shaheed was a big part of the Seahawks' Super Bowl run as a returner, but he's been quiet as a receiver.",
-      "publishedAt": "2026-11-02T12:19:00Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "f926f51421008c8f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50341080/bears-ben-johnson-playcalling-caleb-williams",
-      "title": "A child playcaller? The Bears' Ben Johnson was born for this",
-      "summary": "Johnson was in middle school when he first started diagramming plays, and we have one of the originals.",
-      "publishedAt": "2026-11-02T12:19:00Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "a8d8d9ac66370672",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-we-found-a-way-to-win-we-didnt-do-that-the-last-few-years",
-      "title": "Joe Burrow: We found a way to win, we didn't do that the last few years",
-      "summary": "The Bengals apparently need to dig themselves a 13-0 hole before they're ready to start playing football this season.",
-      "publishedAt": "2026-11-02T12:08:25Z",
-      "teamIds": [
-        "4"
       ]
     }
   ]
