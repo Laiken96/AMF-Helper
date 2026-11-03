@@ -380,3 +380,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wahl des Nutzers. Meldet iOS rechts keine Safe Area (Duo, Gerätetest mit Diagnose: App 867 bzw. 382 breit, Systemspalte ausserhalb der App, auch nach Neuinstallation), liegt die Navigationsleiste in den Layouts side und wide bündig am rechten Rand, die Kapseln sind nur links gerundet und schliessen an die Systemspalte an. Ändert D036 und D037 im Punkt "Navigation in der rechten Systemspalte", der am 2026-11-02 am Gerät noch galt (R58, R72), seither gibt iOS der App die Spalte nicht mehr
 - Begründung: Eine Web App kann ausserhalb ihres Fensters nicht zeichnen
 - Verworfen: Leiste links, schwebende Kapsel unten
+
+## D054 Liveticker als Zentrum im Reiter Spiele
+
+- Datum: 2026-11-03
+- Entscheid: Wunsch des Nutzers. Laufende Spiele stehen als grosse Karte oben im Reiter Spiele, bei mehreren laufenden Spielen waagrecht wischbar, darunter die übrigen Spiele kompakt. Im Duo quer links der Ticker, rechts die Liste. Der Ticker zeigt: Kopf mit grossen Logos, Score, Bilanz, Punkte je Viertel, Uhr, Ballbesitz, Down und Distanz, Feldposition als Grafik, Red Zone. Verlauf der Siegchance mit Hinweis, ob der eigene Tipp vorne liegt. Letzte Spielzüge, aktueller Drive, Punktspielzüge. Teamvergleich als Balken, Top Spieler, Ort, Wetter, TV. Daten direkt aus ESPN Scoreboard und Summary im Browser (D017, CORS geprüft 2026-11-03)
+- Begründung: Der bisherige Ticker war eine Detailansicht ohne Zentrum, ESPN liefert live deutlich mehr Daten
+- Verworfen: Nur Liste mit Detail

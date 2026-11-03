@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { tipResult, type TipResult } from "../core/review";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
@@ -21,9 +21,10 @@ import { useLayoutValue } from "./layout";
 import { GameFacts } from "./GameFacts";
 import { GameSheet } from "./Sheet";
 import { useChoices, usePlayer, useShownTips } from "./player";
-import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
+import { periodText, useLastPlays, useLiveScores, useLiveSummaries, type LiveGame, type LiveState } from "./live";
+import { LiveCarousel, LiveTicker } from "./LiveTicker";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
-import { formatStand, statusWord } from "./wording";
+import { formatCountdown, formatStand, statusWord } from "./wording";
 
 const STATUS_TEXT: Record<Game["status"], string> = {
   scheduled: "Geplant",
@@ -99,9 +100,34 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
     return (last ?? sorted[sorted.length - 1])?.id ?? null;
   }, [games, live.games, now]);
 
+  // Laufende Spiele für den Ticker oben (D054), nach Kickoff sortiert
+  const running = useMemo(
+    () =>
+      (games ?? [])
+        .filter((g) => gameState(g, live.games.get(g.id)).running)
+        .sort((a, b) => Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc) || a.id.localeCompare(b.id)),
+    [games, live.games],
+  );
+  const runningIds = running.map((g) => g.id);
+  const nextGame = useMemo(
+    () =>
+      [...(games ?? [])]
+        .filter((g) => g.status === "scheduled" && Date.parse(g.kickoffUtc) > now)
+        .sort((a, b) => Date.parse(a.kickoffUtc) - Date.parse(b.kickoffUtc))[0] ?? null,
+    [games, now],
+  );
+  // Karte im Karussell: Wahl aus dem Hash, sonst die zuletzt gezeigte, sonst die erste
+  const [carouselPick, setCarouselPick] = useState<string | null>(null);
+  const selectedRunning = selectedId && runningIds.includes(selectedId) ? selectedId : null;
+  const activeRunning =
+    selectedRunning ?? (carouselPick && runningIds.includes(carouselPick) ? carouselPick : (runningIds[0] ?? null));
+
   const selectedGame = selectedId ? games?.find((g) => g.id === selectedId) : undefined;
   const shownGame = selectedGame ?? (defaultId ? games?.find((g) => g.id === defaultId) : undefined);
   const shownId = shownGame?.id ?? null;
+  // Summary nur für das gezeigte laufende Spiel: links im Duo quer, sonst die sichtbare Karte
+  const summaryIds = wide ? (shownId && runningIds.includes(shownId) ? [shownId] : []) : activeRunning ? [activeRunning] : [];
+  const summaries = useLiveSummaries(summaryIds);
   const baseHash = `#spiele/${weekKey(ref)}`;
   const select = (id: string | null) => {
     const target = id ? `${baseHash}/${id}` : baseHash;
@@ -146,6 +172,32 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
 
   const tipOf = (gameId: string) => shownTips?.tips.find((t) => t.gameId === gameId);
   const ownOf = (gameId: string) => Boolean(choices[gameId] && tipOf(gameId)?.deviation);
+  const tickerFor = (g: Game) => {
+    const lg = live.games.get(g.id);
+    return lg ? (
+      <LiveTicker
+        game={g}
+        live={lg}
+        summary={summaries.get(g.id)}
+        tip={tipOf(g.id)}
+        team={team}
+        tipsHref={`#tipps/${weekKey(ref)}/${g.id}`}
+      />
+    ) : null;
+  };
+  const matchupLabel = (g: Game) => {
+    const lg = live.games.get(g.id);
+    const a = team(g.awayId).abbr;
+    const h = team(g.homeId).abbr;
+    return lg && lg.awayScore !== null && lg.homeScore !== null ? `${a} ${lg.awayScore} zu ${lg.homeScore} ${h}` : `${a} gegen ${h}`;
+  };
+  const nextHint =
+    running.length === 0 && nextGame && phase !== "vergangen" ? (
+      <p className="notice tk-next">
+        Gerade läuft kein Spiel. Nächstes Spiel {team(nextGame.awayId).abbr} @ {team(nextGame.homeId).abbr},{" "}
+        {formatKickoffZurich(nextGame.kickoffUtc)} Uhr, in {formatCountdown(Date.parse(nextGame.kickoffUtc) - now)}.
+      </p>
+    ) : null;
   const list = (
     <ScheduleList
       games={week.games}
@@ -162,7 +214,9 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
     return (
       <div className="duo-split">
         <div className="pane pane-detail">
-          {shownGame ? (
+          {shownGame && runningIds.includes(shownGame.id) && live.games.get(shownGame.id) ? (
+            tickerFor(shownGame)
+          ) : shownGame ? (
             <section className="game-detail-card" aria-label="Gewähltes Spiel">
               <GameDetail
                 game={shownGame}
@@ -183,29 +237,63 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
         <div className="pane pane-list">
           {header}
           <LiveStatus live={live} />
+          {nextHint}
           {list}
         </div>
       </div>
     );
   }
 
+  // Übrige Spiele kompakt unter dem Ticker, laufende stehen oben als Karte
+  const restList = running.length ? (
+    <>
+      {week.games.length > running.length && <h2 className="tk-rest-title">Weitere Spiele</h2>}
+      <ScheduleList
+        games={week.games.filter((g) => !runningIds.includes(g.id))}
+        byeTeamIds={week.byeTeamIds}
+        team={team}
+        live={live}
+        onOpen={select}
+        selectAll
+      />
+    </>
+  ) : (
+    list
+  );
+  const sheetGame = selectedGame && !runningIds.includes(selectedGame.id) ? selectedGame : undefined;
+
   return (
     <>
       {header}
       <LiveStatus live={live} />
-      {list}
-      {selectedGame && (
-        <GameSheet title={`${team(selectedGame.awayId).abbr} @ ${team(selectedGame.homeId).abbr}`} onClose={() => select(null)}>
+      {running.length > 0 && (
+        <LiveCarousel
+          items={running.map((g) => ({ id: g.id, label: matchupLabel(g) }))}
+          activeId={activeRunning}
+          onActive={(id) => {
+            setCarouselPick(id);
+            if (selectedRunning && selectedRunning !== id) select(null);
+          }}
+          render={(id) => {
+            const g = running.find((x) => x.id === id);
+            return g ? tickerFor(g) : null;
+          }}
+        />
+      )}
+      {nextHint}
+      {restList}
+      {sheetGame && (
+        <GameSheet title={`${team(sheetGame.awayId).abbr} @ ${team(sheetGame.homeId).abbr}`} onClose={() => select(null)}>
           <section className="game-detail-card game-detail-sheet" aria-label="Spieldetail">
             <GameDetail
-              game={selectedGame}
-              live={live.games.get(selectedGame.id)}
-              tip={tipOf(selectedGame.id)}
-              own={ownOf(selectedGame.id)}
+              game={sheetGame}
+              live={live.games.get(sheetGame.id)}
+              tip={tipOf(sheetGame.id)}
+              own={ownOf(sheetGame.id)}
               team={team}
               stale={live.error}
               now={now}
-              tipsHref={`#tipps/${weekKey(ref)}/${selectedGame.id}`}
+              tipsHref={`#tipps/${weekKey(ref)}/${sheetGame.id}`}
               showHead={false}
             />
           </section>
