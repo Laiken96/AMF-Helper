@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T03:29:44Z",
+  "updatedAt": "2026-11-03T04:47:19Z",
   "items": [
+    {
+      "id": "7b3f4951a930f5b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-k-tyler-loop-could-be-headed-for-injured-reserve-with-groin-injury",
+      "title": "Ravens K Tyler Loop could be headed for injured reserve with groin injury",
+      "summary": "When it comes to injuries, the Ravens have far bigger issues than having a healthy kicker.",
+      "publishedAt": "2026-11-03T04:40:44Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "62252c143e5dfa97",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-jeffery-simmons-caleb-williams-lead-bears-to-34-17-rout-of-seahawks",
+      "title": "Monday Night Football: Jeffery Simmons, Caleb Williams lead Bears to 34-17 rout of Seahawks",
+      "summary": "The Bears acquired Simmons on Thursday, and he had six tackles and a sack, and Williams threw for 247 yards.",
+      "publishedAt": "2026-11-03T04:28:10Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "8df4cd1d373d51f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-answer-seahawks-up-lead-to-27-17",
+      "title": "Bears answer Seahawks, up lead to 27-17",
+      "summary": "The Bears have had an answer for the Seahawks all night.",
+      "publishedAt": "2026-11-03T04:01:30Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "c03aed49dc123e51",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-convert-bears-fumble-now-trail-only-20-17",
+      "title": "Seahawks convert Bears' fumble, now trail only 20-17",
+      "summary": "The Bears let the Seahawks back in the game when tight end Colston Loveland fumbled.",
+      "publishedAt": "2026-11-03T03:51:48Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "b9adfce51808d133",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacoby-brissett-becomes-an-obvious-trade-candidate",
+      "title": "Jacoby Brissett becomes an obvious trade candidate",
+      "summary": "By sending eight-game starting quarterback Jacoby Brissett all the way to No. 3 on the depth chart, the Cardinals have sent a clear message to the rest of the league, eight days from the trade deadline.",
+      "publishedAt": "2026-11-03T03:51:09Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "d705903f11026aee",
       "source": "pft",
@@ -1353,12 +1411,13 @@
       "id": "ca6a6e122790b0c0",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-8-grades-cowboys-get-an-f-steelers-surge-to-a",
-      "title": "NFL Week 8 grades for every team: Cowboys get an 'F' for choking, Steelers surge to 'A+'",
+      "title": "NFL Week 8 grades for every team: Bears earn 'A+' for destroying Seahawks, Cowboys get an 'F' for choking",
       "summary": "We're handing out grades for every team that played in Week 8",
       "publishedAt": "2026-11-02T05:02:39Z",
       "teamIds": [
+        "3",
         "6",
-        "23"
+        "26"
       ]
     },
     {
@@ -1663,65 +1722,6 @@
       "publishedAt": "2026-11-02T00:51:13Z",
       "teamIds": [
         "1"
-      ]
-    },
-    {
-      "id": "3b9e1126fc47cdef",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-150-bonus-bets-eagles-commanders-nfl-sunday-night-football",
-      "title": "Use FanDuel promo code to get $150 in bonus bets by targeting Eagles-Commanders, NFL Sunday Night Football",
-      "summary": "Sign up and bet with the latest FanDuel promo code on Sunday to get your bonus bets",
-      "publishedAt": "2026-11-02T00:44:01Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "57dfc06dfff2bf2b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jerry-jones-cowboys-fire-brian-schottenheimer-midseason-cardinals-loss",
-      "title": "Why Jerry Jones 'doesn't see' firing Brian Schottenheimer midseason after disaster Cowboys loss to Cardinals",
-      "summary": "Dallas squandered a 14-point fourth-quarter lead in its overtime loss to Arizona, but Jones says he is not considering an in-season coaching change",
-      "publishedAt": "2026-11-02T00:35:15Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "95d8b6fc8e943608",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-rally-in-second-half-for-24-19-win-in-miami",
-      "title": "Patriots rally in second half for 24-19 win in Miami",
-      "summary": "Drake Maye came alive after halftime and the Patriots improved to 5-3.",
-      "publishedAt": "2026-11-02T00:34:10Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "bc12a229ebfb6b36",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-eagles-commanders-sunday-night-football-betting",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Eagles-Commanders, Sunday Night Football betting",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NFL Week 8 betting on Sunday",
-      "publishedAt": "2026-11-02T00:32:23Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "1b2d38ba1d684419",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/commanders-vs-eagles-odds-nfl-predictions-use-best-kalshi-promo-code-cbssports55-for-55-bonus",
-      "title": "Commanders vs. Eagles odds, NFL predictions: Use best Kalshi promo code CBSSPORTS55 for $55 bonus",
-      "summary": "Here's a closer look at the top trading markets available at Kalshi for Week 8's Sunday Night Football matchup between Washington and Philadelphia",
-      "publishedAt": "2026-11-02T00:27:10Z",
-      "teamIds": [
-        "21",
-        "28"
       ]
     }
   ]
