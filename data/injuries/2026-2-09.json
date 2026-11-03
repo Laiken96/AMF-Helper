@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-05T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-03T00:10:47Z",
+    "takenAt": "2026-11-03T00:50:32Z",
     "games": [
       {
         "gameId": "401873037",
@@ -100,7 +100,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
