@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T00:47:19Z",
+  "updatedAt": "2026-11-03T01:47:20Z",
   "items": [
+    {
+      "id": "e7a2238a8ef6247b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-17-play-drive-on-their-opening-possession-gives-them-a-7-0-lead",
+      "title": "Bears' 17-play drive on their opening possession gives them a 7-0 lead",
+      "summary": "The Bears had an almost perfect drive to open Monday Night Football.",
+      "publishedAt": "2026-11-03T01:45:10Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "89eb8d33e963206e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-joe-fagnano-estimated-as-limited-in-ravens-practice-with-ankle-injury",
+      "title": "QB Joe Fagnano estimated as limited in Ravens' practice with ankle injury",
+      "summary": "The Ravens know Lamar Jackson (right thumb) and Tyler Huntley (toe) won't play Thursday night.",
+      "publishedAt": "2026-11-03T01:33:19Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "5b64f0e23e132fb1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-reinstates-james-pearce-jr-after-eight-game-suspension-falcons",
+      "title": "NFL reinstates James Pearce Jr. after eight-game suspension: Why EDGE returns at critical time for Falcons",
+      "summary": "Pearce's insertion into the lineup could be the lift the Falcons need to emerge as the NFC South's top team",
+      "publishedAt": "2026-11-03T01:09:32Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "c38c0363abcc4f09",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-estimate-de-travon-walker-as-a-non-participant-monday",
+      "title": "Jaguars estimate DE Travon Walker as a non-participant Monday",
+      "summary": "Jaguars defensive tackle DaVon Hamilton (torn quad) and safety Eric Murray (elbow) are out for the season.",
+      "publishedAt": "2026-11-03T00:55:56Z",
+      "teamIds": [
+        "30"
+      ]
+    },
     {
       "id": "bbdaa00267b1599e",
       "source": "pft",
@@ -1678,53 +1722,6 @@
       "teamIds": [
         "21",
         "28"
-      ]
-    },
-    {
-      "id": "5672810faf9a911c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-dominate-second-half-defeat-chargers-24-9",
-      "title": "Rams dominate second half, defeat Chargers 24-9",
-      "summary": "The Rams scored 21 unanswered points to beat the Chargers, sending the cross-town team to 0-7 in 2026.",
-      "publishedAt": "2026-11-02T00:00:36Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "1602769b2bf8005d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-third-td-gives-chiefs-a-24-13-lead",
-      "title": "Patrick Mahomes' third TD gives Chiefs a 24-13 lead",
-      "summary": "The Chiefs have opened it up against the Broncos, taking a 24-13 lead late in the third quarter.",
-      "publishedAt": "2026-11-01T23:53:41Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "1b1e2bf7f97811d9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/eagles-vs-commanders-nfl-week-8-picks-prediction-player-props-experts-best-bets-for-sunday-night-football",
-      "title": "Eagles vs. Commanders NFL Week 8 picks, prediction, player props: Expert's best bets for Sunday Night Football",
-      "summary": "With Jalen Hurts sidelined and Tanner McKee stepping in, Washington has a prime opportunity to cover at home while Jayden Daniels makes plays with his legs",
-      "publishedAt": "2026-11-01T23:45:49Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "f1d575e1086bb868",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-puts-patriots-up-17-13-at-end-of-third-quarter",
-      "title": "Drake Maye puts Patriots up 17-13 at end of third quarter",
-      "summary": "The Patriots were down 10 at halftime in Miami, but they're back on top before the end of the third quarter.",
-      "publishedAt": "2026-11-01T23:45:42Z",
-      "teamIds": [
-        "17"
       ]
     }
   ]
