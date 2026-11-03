@@ -745,3 +745,15 @@ R115 Schwarzer Balken nach schnellem Neustart (Duo aufgeklappt)
     Schritt: App mit kurzem Wischen nach oben schliessen und sofort wieder öffnen.
     Erwartet: Kein schwarzer Balken oben, App wieder 867 x 669.
     Status: Ursache per Diagnose 2026-11-03: iOS verkleinert das Fenster auf 867 x 587 (82 weniger), Safe Area 0, Balken liegt ausserhalb der App. Versuch: Viewport Angabe bei Höhenverlust ab 60 neu setzen. Offen Nutzer am Gerät, Umgehung App im Umschalter ganz schliessen
+
+R116 Favorit als Vorschlag und eigene Abweichung (D052)
+    Vorbedingung: Week 9 vor TNF, alte Tippdatei mit Abweichungen ATL und CLE.
+    Schritt: job:tips, danach App öffnen, CIN@ATL im Blatt, Aussenseiter tippen, Liste, Spiele Reiter, Reload, zurück zum Favoriten.
+    Erwartet: Vorschlag CIN und NO, maxDeviations 0, keine Push Flut. Kandidat markiert, Signale als Text, Wahl überall gleich, Tiebreaker folgt, nach Kickoff gesperrt.
+    Status: bestanden lokal 2026-11-03 (Probelauf mit echter ESPN Antwort, 68 Browserprüfungen), offen Nutzer am Gerät
+
+R117 Saisonansicht und Simulation
+    Vorbedingung: Bilanz, Saison.
+    Schritt: Umschalter Saison, Simulation abwarten, Variante Alle tippen alles.
+    Erwartet: Chance je Rang mit gleicher Tippquote für alle, Annahmen sichtbar, Worker bricht nach 10 s mit Hinweis ab.
+    Status: bestanden lokal 2026-11-03, offen Nutzer am Gerät
