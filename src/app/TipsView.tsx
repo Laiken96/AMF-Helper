@@ -21,7 +21,7 @@ import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type He
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { standingsFor, tipsForPlayer, usePlayer, type PlayerState } from "./player";
+import { standingsFor, usePlayer, useShownTips, type PlayerState } from "./player";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, deviationReason, formatStand, scoreAria, scoreText, spreadText } from "./wording";
 
@@ -98,11 +98,13 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
   const player = usePlayer(data?.standings ?? null);
   const mode: Mode | null = !data?.week ? null : !data.tips ? "folgt" : data.phase === "vergangen" ? "vergangen" : "offen";
   // Anderer Spieler: offene Spiele im Browser neu rechnen (D050). Vergangene Wochen zeigen die Tipps des Hauptnutzers.
-  const shownTips = useMemo(() => {
-    if (!data?.week || !data.tips) return null;
-    if (mode !== "offen") return data.tips;
-    return tipsForPlayer(data.tips, data.week.games, data.standings, player.player, new Date().toISOString());
-  }, [data, mode, player.player]);
+  const shownTips = useShownTips(
+    data?.week ? (data.tips ?? null) : null,
+    data?.week?.games,
+    data?.standings ?? null,
+    data?.phase ?? "aktuell",
+    player.player,
+  );
 
   // Nachbarwochen im Hintergrund vorladen, damit der nächste Wechsel aus dem Cache kommt
   useEffect(() => {
@@ -247,7 +249,7 @@ function TipsList({
         tiebreaker: tips.tiebreakers.some((tb) => tb.gameId === t.gameId),
         result: tipResult(t, gameById.get(t.gameId), t.kickoffUtc, new Date(now).toISOString()),
       })),
-    [tips, gameById, now],
+    [tips, gameById, now, mode],
   );
 
   const keyFor = (gameId: string) => storageKey(tips.season, tips.seasonType, tips.week, gameId);

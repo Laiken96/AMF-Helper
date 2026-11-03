@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from "react";
 import { tipResult, type TipResult } from "../core/review";
 import type { Game, Team } from "../core/schema";
-import type { GameTip, TipsFile } from "../core/tips-schema";
+import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
@@ -20,6 +20,7 @@ import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
 import { GameFacts } from "./GameFacts";
 import { GameSheet } from "./Sheet";
+import { usePlayer, useShownTips } from "./player";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { formatStand, statusWord } from "./wording";
@@ -60,7 +61,7 @@ export function GamesView({ arg }: { arg: string | null }) {
   );
 }
 
-type GamesData = WeekData & { tips: TipsFile | null };
+type GamesData = WeekData & { tips: TipsFile | null; standings?: StandingsFile };
 
 /** Wochendaten mit Tippliste für die Spielinfo. Fehlt die Tippliste oder scheitert ihr Laden, bleibt der Spielplan. */
 function loadGamesData(ref: WeekRef | null = null): Promise<GamesData> {
@@ -78,6 +79,9 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
   const live = useLiveScores(phase === "vergangen" ? null : ref, week?.games ?? null);
   const weeks = navWeeks(data);
+  // Derselbe Tipp wie im Reiter Tipps: für den gewählten Spieler neu gerechnet (D050)
+  const player = usePlayer(data.standings ?? null);
+  const shownTips = useShownTips(data.tips, week?.games, data.standings ?? null, phase, player.player);
 
   // Standardspiel für den Detailbereich: laufendes Spiel, sonst nächstes Spiel, sonst das letzte beendete
   const games = week?.games;
@@ -139,7 +143,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
     );
   }
 
-  const tipOf = (gameId: string) => data.tips?.tips.find((t) => t.gameId === gameId);
+  const tipOf = (gameId: string) => shownTips?.tips.find((t) => t.gameId === gameId);
   const list = (
     <ScheduleList
       games={week.games}

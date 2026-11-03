@@ -1,7 +1,7 @@
 // Spieler wählbar (D050). Ziel Platz 1, Hervorhebung in der Rangliste und Abweichungen gelten für das gewählte
 // Kürzel. Die Tippdatei rechnet der Job für standings.me, für einen anderen Spieler rechnet der Browser die
 // offenen Spiele neu. Push bleibt beim Hauptnutzer. Gespeichert nur lokal, jeder Storage Zugriff ausfalltolerant.
-import { useCallback, useSyncExternalStore } from "react";
+import { useCallback, useMemo, useSyncExternalStore } from "react";
 import type { Game } from "../core/schema";
 import { PLAYER_IDS, standingsAppliesTo } from "../core/standings";
 import {
@@ -14,7 +14,7 @@ import {
   tiebreakerFor,
 } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
-import { loadTipsData, useKeptLoad } from "./data";
+import { loadTipsData, useKeptLoad, type WeekPhase } from "./data";
 
 export const PLAYER_KEY = "nfl-dashboard:spieler";
 
@@ -165,4 +165,34 @@ export function tipsForPlayer(
   });
 
   return { ...tips, maxDeviations: max, tips: out, tiebreakers };
+}
+
+/**
+ * Tippdatei, wie Tipps und Spiele sie zeigen. Offene Wochen rechnen für den gewählten Spieler neu, vergangene
+ * Wochen zeigen die Datei des Hauptnutzers. Eine Funktion für beide Reiter, damit nie zwei Tipps erscheinen.
+ */
+export function shownTipsFor(
+  tips: TipsFile | null,
+  games: readonly Game[] | null | undefined,
+  standings: StandingsFile | null,
+  phase: WeekPhase,
+  player: string | null,
+  now: string,
+): TipsFile | null {
+  if (!tips || !games || !standings || phase === "vergangen") return tips;
+  return tipsForPlayer(tips, games, standings, player, now);
+}
+
+/** shownTipsFor als Hook, neu gerechnet bei neuen Daten oder einem anderen Spieler. */
+export function useShownTips(
+  tips: TipsFile | null,
+  games: readonly Game[] | null | undefined,
+  standings: StandingsFile | null,
+  phase: WeekPhase,
+  player: string | null,
+): TipsFile | null {
+  return useMemo(
+    () => shownTipsFor(tips, games, standings, phase, player, new Date().toISOString()),
+    [tips, games, standings, phase, player],
+  );
 }

@@ -213,6 +213,15 @@ describe("loadFactsData", () => {
     expect((await loadFactsData(ref)).fpi).toBeNull();
   });
 
+  it("Wochen nach der nächsten Tippwoche werden nicht abgefragt", async () => {
+    const current = { schemaVersion: 1, season: 2026, seasonType: 2, week: 9, weekFile: "weeks/2026-2-09.json", updatedAt: "2026-11-02T20:00:00Z" };
+    fetchMock.mockImplementation(async (url: string) => (url.includes("current.json") ? ok(current) : new Response("", { status: 404 })));
+    await loadFactsData({ ...ref, week: 11 });
+    expect(fetchMock.mock.calls.map((c) => String(c[0])).filter((u) => !u.includes("current.json"))).toEqual([]);
+    await loadFactsData({ ...ref, week: 10 });
+    expect(fetchMock.mock.calls.some((c) => String(c[0]).includes("fpi/2026-2-10.json"))).toBe(true);
+  });
+
   it("Wochen vor FACTS_FIRST_WEEK werden nicht abgefragt", async () => {
     await loadFactsData({ ...FACTS_FIRST_WEEK, week: FACTS_FIRST_WEEK.week - 1 });
     expect(fetchMock).not.toHaveBeenCalled();

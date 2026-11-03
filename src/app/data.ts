@@ -28,6 +28,7 @@ import {
 } from "../core/tips-schema";
 import { FpiFileSchema, fpiFilePath, type FpiFile } from "../core/fpi";
 import { PicksFileSchema, picksFilePath, type PicksFile } from "../core/picks";
+import { nextTipWeeks } from "../core/season-calendar";
 import { DATA_TIMEOUT_MS, isTimeout, timeoutSignal } from "./net";
 
 export class LoadError extends Error {}
@@ -120,6 +121,11 @@ const loadJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer
 
 const loadOptionalJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
   cached(`opt:${path}`, () => fetchOptionalJson(path, schema));
+
+/** Pflichtdatei über den Sitzungscache, damit die Hintergrundprüfung sie mit erneuert (Saisonauswertung). */
+export const loadDataFile = loadJson;
+/** Optionale Datei über den Sitzungscache, null wenn sie fehlt. */
+export const loadOptionalDataFile = loadOptionalJson;
 
 let lastCheck = Date.now();
 let running: Promise<boolean> | null = null;
@@ -534,6 +540,22 @@ export interface FactsData {
   picks: PicksFile | null;
 }
 
+/**
+ * Gibt es für die Woche FPI oder Picks Dateien? Wächter und Picks Job schreiben nur die aktuelle und die
+ * nächste Woche, ab FACTS_FIRST_WEEK. Spätere Wochen werden nicht abgefragt (keine 404 in der Konsole).
+ */
+export async function factsMayExist(ref: WeekRef): Promise<boolean> {
+  if (compareRef(ref, FACTS_FIRST_WEEK) < 0) return false;
+  let current: CurrentFile;
+  try {
+    current = await loadJson("current.json", CurrentFileSchema);
+  } catch {
+    return true;
+  }
+  const last = nextTipWeeks({ season: current.season, seasonType: current.seasonType, week: current.week }, 1)[0] ?? current;
+  return compareRef(ref, last) <= 0;
+}
+
 const optionalOrNull = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
   loadOptionalJson(path, schema).catch(() => null);
 
@@ -542,7 +564,7 @@ const optionalOrNull = <S extends z.ZodType>(path: string, schema: S): Promise<z
  * der jeweilige Teil leer, nie eine Fehlermeldung. Nur für die angezeigte Woche, kein Vorladen.
  */
 export async function loadFactsData(ref: WeekRef): Promise<FactsData> {
-  if (compareRef(ref, FACTS_FIRST_WEEK) < 0) return { fpi: null, picks: null };
+  if (!(await factsMayExist(ref))) return { fpi: null, picks: null };
   const [fpi, picks] = await Promise.all([
     optionalOrNull(fpiFilePath(ref.season, ref.seasonType, ref.week), FpiFileSchema),
     optionalOrNull(picksFilePath(ref.season, ref.seasonType, ref.week), PicksFileSchema),

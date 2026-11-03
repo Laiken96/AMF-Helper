@@ -375,6 +375,9 @@ export function GameHero({
     );
   }
 
+  // Neutraler Platz (z. B. Spiele im Ausland): kein echtes Heimteam. Gross nur der Teamname, klein Gast und
+  // nominell Heim. Der Ort mit dem Hinweis neutraler Platz steht in den Fakten
+  const sideText = (home: boolean) => (game.neutralSite ? (home ? "nominell Heim" : "Gast") : home ? "Heim" : "Auswärts");
   const teamBlock = (t: Team, score: number | null | undefined, home: boolean) => (
     <div className={home ? "hero-team hero-team-home" : "hero-team"}>
       <TeamLogo team={t} size={big ? 56 : 40} className="hero-logo" />
@@ -382,7 +385,7 @@ export function GameHero({
       <span className="hero-score" aria-hidden={score === undefined ? "true" : undefined}>
         {score ?? "\u00a0"}
       </span>
-      <span className="hero-sub">{big ? `${t.shortName} · ${home ? "Heim" : "Auswärts"}` : home ? "Heim" : "Auswärts"}</span>
+      <span className="hero-sub">{big ? (game.neutralSite ? t.shortName : `${t.shortName} · ${sideText(home)}`) : sideText(home)}</span>
     </div>
   );
   const teams = (

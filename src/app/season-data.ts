@@ -7,8 +7,16 @@ import { ReviewFileSchema, StandingsHistorySchema, type ReviewFile, type Standin
 import { WeekFileSchema } from "../core/schema";
 import { buildSeasonSummary, fpiPickProbLookup, type SeasonSummary } from "../core/season";
 import { StandingsFileSchema, TipsFileSchema, type StandingsFile, type TipsFile } from "../core/tips-schema";
-import { LoadError, compareRef, loadCurrent, loadWeeksIndex, weekKey, type WeekRef } from "./data";
-import { DATA_TIMEOUT_MS, timeoutSignal } from "./net";
+import {
+  FACTS_FIRST_WEEK,
+  compareRef,
+  loadCurrent,
+  loadDataFile,
+  loadOptionalDataFile,
+  loadWeeksIndex,
+  weekKey,
+  type WeekRef,
+} from "./data";
 import { readStoredPlayer } from "./player";
 
 /** Gewählter Spieler aus dem Onboarding (player.ts), nur gültige Kürzel. null ohne Wahl. */
@@ -17,46 +25,13 @@ export function storedPlayer(): string | null {
   return v && /^[A-Z]{2,3}$/.test(v) ? v : null;
 }
 
-const dataUrl = (path: string) => `${import.meta.env.BASE_URL}data/${path}`;
-
-/** Sitzungscache, geleert bei jeder Aktualisierung der Daten (Ereignis aus data.ts) und nach 5 Minuten. */
-const cache = new Map<string, { at: number; promise: Promise<unknown> }>();
-const MAX_AGE_MS = 5 * 60_000;
-if (typeof window !== "undefined") window.addEventListener("nfl-data-refresh", () => cache.clear());
-
-async function fetchFile<S extends z.ZodType>(path: string, schema: S, optional: boolean): Promise<z.infer<S> | null> {
-  let res: Response;
-  try {
-    res = await fetch(dataUrl(path), { cache: "no-store", signal: timeoutSignal(DATA_TIMEOUT_MS) });
-  } catch {
-    throw new LoadError(`Netzwerkfehler beim Laden von ${path}. Bitte Verbindung prüfen und erneut versuchen.`);
-  }
-  if (optional && res.status === 404) return null;
-  if (!res.ok) throw new LoadError(`Datei ${path} konnte nicht geladen werden (HTTP ${res.status}).`);
-  const text = await res.text();
-  if (optional && /^\s*</.test(text)) return null;
-  let json: unknown;
-  try {
-    json = JSON.parse(text);
-  } catch {
-    throw new LoadError(`Datei ${path} ist kein gültiges JSON.`);
-  }
-  const parsed = schema.safeParse(json);
-  if (!parsed.success) throw new LoadError(`Datei ${path} entspricht nicht dem erwarteten Format.`);
-  return parsed.data;
-}
-
-function load<S extends z.ZodType>(path: string, schema: S, optional = false): Promise<z.infer<S> | null> {
-  const hit = cache.get(path);
-  if (hit && Date.now() - hit.at < MAX_AGE_MS) return hit.promise as Promise<z.infer<S> | null>;
-  const promise = fetchFile(path, schema, optional);
-  cache.set(path, { at: Date.now(), promise });
-  promise.catch(() => cache.delete(path));
-  return promise;
-}
+// Alle Abrufe laufen über den Sitzungscache aus data.ts. So erneuern Aktualisieren, Rückkehr in die App und
+// die 5 Minuten Prüfung (D045) auch die Saisondaten, und ein geänderter Inhalt lädt die Ansicht ohne Leerzustand neu.
+const load = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> => loadDataFile(path, schema);
 
 /** Optionale Datei: Fehler zählen wie eine fehlende Datei. */
-const optional = <S extends z.ZodType>(path: string, schema: S) => load(path, schema, true).catch(() => null);
+const optional = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
+  loadOptionalDataFile(path, schema).catch(() => null);
 
 export interface SeasonData {
   season: number;
@@ -86,8 +61,8 @@ export async function loadSeasonData(): Promise<SeasonData | null> {
         const [review, tips, fpi] = await Promise.all([
           w.reviewFile ? optional(w.reviewFile, ReviewFileSchema) : Promise.resolve(null),
           w.tipsFile ? optional(w.tipsFile, TipsFileSchema) : Promise.resolve(null),
-          // FPI nur für Wochen mit Bilanz, nur dort fliesst es in die Auswertung ein
-          w.reviewFile ? optional(fpiFilePath(w.season, w.seasonType, w.week), FpiFileSchema) : Promise.resolve(null),
+          // FPI nur für Wochen mit Bilanz ab der ersten FPI Datei, nur dort fliesst es in die Auswertung ein
+          w.reviewFile && compareRef(w, FACTS_FIRST_WEEK) >= 0 ? optional(fpiFilePath(w.season, w.seasonType, w.week), FpiFileSchema) : Promise.resolve(null),
         ]);
         return { ref: { season: w.season, seasonType: w.seasonType, week: w.week }, review, tips, fpi, weekFile: w.weekFile };
       }),
