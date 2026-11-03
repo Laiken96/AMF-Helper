@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T22:47:18Z",
+  "updatedAt": "2026-11-03T23:47:20Z",
   "items": [
+    {
+      "id": "dbe9c6c7b4cb1c37",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-sign-ol-blake-freeland-off-bengals-practice-squad",
+      "title": "Jets sign OL Blake Freeland off Bengals' practice squad",
+      "summary": "The Jets signed offensive tackle Blake Freeland off the Bengals' practice squad, the team announced Tuesday.",
+      "publishedAt": "2026-11-03T23:11:41Z",
+      "teamIds": [
+        "4",
+        "20"
+      ]
+    },
+    {
+      "id": "61d0c7d1f6f2a351",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-put-lb-jimmy-rolder-on-ir-waive-db-bishop-fitzgerald",
+      "title": "Lions put LB Jimmy Rolder on IR, waive DB Bishop Fitzgerald",
+      "summary": "The Lions announced that linebacker Jimmy Rolder suffered a season-ending hamstring injury during Sunday's win over the Vikings and they moved him to the injured reserve list.",
+      "publishedAt": "2026-11-03T23:04:32Z",
+      "teamIds": [
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "b208470730c44c75",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-waive-cb-jakorian-bennett-off-of-injured-reserve",
+      "title": "Eagles waive CB Jakorian Bennett off of injured reserve",
+      "summary": "Cornerback Jakorian Bennett returned to practice a few weeks ago, but he won't be returning to the Eagles lineup.",
+      "publishedAt": "2026-11-03T22:57:48Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "8336363ab1003e9b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-has-15-game-winning-drives-most-ever-for-a-qb-in-his-first-three-seasons",
+      "title": "Bo Nix has 15 game-winning drives, most ever for a QB in his first three seasons",
+      "summary": "The Broncos trailed the Chiefs 24-13 with 10 minutes left on Sunday, but anyone who thought the Broncos were out of it hasn't been watching Nix.",
+      "publishedAt": "2026-11-03T22:46:35Z",
+      "teamIds": [
+        "7",
+        "12"
+      ]
+    },
     {
       "id": "3ce951544e10414c",
       "source": "pft",
@@ -1232,6 +1279,18 @@
       ]
     },
     {
+      "id": "be10f8bb9e81159a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football",
+      "title": "Is Jadarian Price playing on MNF? Latest Seahawks RB injury update for game vs. Bears",
+      "summary": "The Seahawks could activate Jadarian Price from injured reserve before Monday night's game, but Mike Macdonald offered few clues about the rookie's status",
+      "publishedAt": "2026-11-02T23:25:03Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
       "id": "287349b94f7b8be9",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-expects-to-see-sacks-start-to-pile-up-for-jared-verse",
@@ -1630,60 +1689,6 @@
       "summary": "The top available players worth adding to your roster or streaming in standard or deeper leagues",
       "publishedAt": "2026-11-02T19:05:16Z",
       "teamIds": []
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Buzz: Lamar Jackson's injury and who got the ball in Week 8",
-      "summary": "All the takeaways from Sunday's slate of games and the fantasy fallout you need to know.",
-      "publishedAt": "2026-11-02T19:05:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "269ee44b06d1d93c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "Tracking pre-deadline trades: Jeffery Simmons to the Bears",
-      "summary": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-      "publishedAt": "2026-11-02T19:03:42Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "4c7b152622bcbff3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-qb-rankings-mac-jones-kirk-cousins",
-      "title": "2026 NFL trade deadline QB rankings: Mac Jones, Kirk Cousins lead 10 best targets",
-      "summary": "With the Ravens, Eagles and other teams potentially searching for help, we rank 10 quarterbacks who could be available before the Nov. 10 deadline",
-      "publishedAt": "2026-11-02T18:52:17Z",
-      "teamIds": [
-        "33",
-        "21"
-      ]
-    },
-    {
-      "id": "ecfdac202693d97b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jason-witten-reportedly-becomes-the-offensive-play-caller-at-oklahoma",
-      "title": "Jason Witten reportedly becomes the offensive play-caller at Oklahoma",
-      "summary": "If, as some believe, former Cowboys tight end Jason Witten is destined to eventually become the head coach of America's team, he's taking the next step in his coaching career with Oklahoma's team.",
-      "publishedAt": "2026-11-02T18:41:44Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "c6eaa6db0ecd54e6",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-quarterback-trade-rumors-lamar-jackson-tyson-bagent",
-      "title": "Should Ravens trade for QB after Lamar Jackson, Tyler Huntley injuries? Possible candidates to watch",
-      "summary": "Baltimore could be without Jackson for the rest of the year",
-      "publishedAt": "2026-11-02T18:35:51Z",
-      "teamIds": [
-        "33"
-      ]
     }
   ]
 }
