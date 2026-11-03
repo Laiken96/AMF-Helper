@@ -187,19 +187,6 @@
   font-size: 14px;
 }
 
-/* Im Spieldetail von Spiele: Zeilen wie die Spielinfo */
-.facts-card .facts-list {
-  gap: 8px;
-}
-
-.facts-card .facts-row {
-  grid-template-columns: 84px minmax(0, 1fr);
-  padding: 8px 10px;
-  border-radius: 10px;
-  background: var(--surface-2);
-  font-size: 14px;
-}
-
 /* Versteckte Vorlesetexte im Spielbereich: an den Anfang des nächsten positionierten Elternelements setzen.
    Sonst liegt ihre Position hinter langen, abgeschnittenen Zeilen (Schlagzeilen, Tiebreaker) und reicht im
    Duo quer über den Falz. */
@@ -267,11 +254,4 @@
 
 .facts-hero .facts-signals li {
   color: #d5dae1;
-}
-
-.facts-card .facts-choice {
-  margin-bottom: 8px;
-  padding: 8px 10px;
-  border-radius: 10px;
-  background: var(--surface-2);
 }

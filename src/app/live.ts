@@ -465,3 +465,98 @@ export function useLiveSummaries(eventIds: readonly string[]): Map<string, Summa
 
   return states;
 }
+
+// ---------- Summary einmal laden: geplante und beendete Spiele (D056) ----------
+
+/** Phase, für die eine Summary geladen wurde. Ein Spiel vor dem Kickoff und nach dem Ende liefert andere Daten. */
+export type SummaryPhase = "pre" | "post";
+
+const summaryCache = new Map<string, LiveSummary>();
+const summaryInflight = new Map<string, Promise<LiveSummary>>();
+
+/** Leert den Speicher, nur für Tests. */
+export function clearGameSummaryCache(): void {
+  summaryCache.clear();
+  summaryInflight.clear();
+}
+
+/** Bereits geladene Summary oder undefined. */
+export function cachedGameSummary(eventId: string, phase: SummaryPhase): LiveSummary | undefined {
+  return summaryCache.get(`${eventId}:${phase}`);
+}
+
+/**
+ * Lädt die Summary eines Spiels genau einmal pro Sitzung und Phase (kein Polling). Gleichzeitige Anfragen teilen
+ * sich einen Abruf. Zeitlimit wie beim Liveticker, Fehler werden nicht gespeichert, ein späterer Aufruf versucht es neu.
+ */
+export function loadGameSummary(
+  eventId: string,
+  phase: SummaryPhase,
+  fetchImpl: typeof fetch = (...args) => fetch(...args),
+  signal?: AbortSignal,
+): Promise<LiveSummary> {
+  const key = `${eventId}:${phase}`;
+  const hit = summaryCache.get(key);
+  if (hit) return Promise.resolve(hit);
+  const running = summaryInflight.get(key);
+  if (running) return running;
+  const p = (async () => {
+    try {
+      const res = await fetchImpl(summaryUrl(eventId), { signal: timeoutSignal(LIVE_TIMEOUT_MS, signal), cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const summary = parseLiveSummary(await res.json());
+      summaryCache.set(key, summary);
+      return summary;
+    } finally {
+      summaryInflight.delete(key);
+    }
+  })();
+  summaryInflight.set(key, p);
+  return p;
+}
+
+export interface GameSummaryState {
+  summary: LiveSummary | null;
+  /** Abruf läuft noch. */
+  loading: boolean;
+  /** Abruf gescheitert, die Ansicht bleibt still ohne die Zusatzdaten. */
+  error: boolean;
+}
+
+/** Summary eines gezeigten Spiels, einmal geladen und im Speicher gehalten. Ohne eventId nichts. */
+export function useGameSummary(eventId: string | null, phase: SummaryPhase): GameSummaryState {
+  const key = eventId ? `${eventId}:${phase}` : null;
+  const [state, setState] = useState<{ key: string | null; summary: LiveSummary | null; error: boolean }>(() => ({
+    key,
+    summary: eventId ? (cachedGameSummary(eventId, phase) ?? null) : null,
+    error: false,
+  }));
+
+  useEffect(() => {
+    if (!eventId || !key) return;
+    const hit = cachedGameSummary(eventId, phase);
+    if (hit) {
+      setState({ key, summary: hit, error: false });
+      return;
+    }
+    let active = true;
+    setState({ key, summary: null, error: false });
+    loadGameSummary(eventId, phase)
+      .then((summary) => {
+        if (active) setState({ key, summary, error: false });
+      })
+      .catch(() => {
+        if (active) setState({ key, summary: null, error: true });
+      });
+    return () => {
+      active = false;
+    };
+  }, [eventId, phase, key]);
+
+  if (!key) return { summary: null, loading: false, error: false };
+  if (state.key !== key) {
+    const hit = eventId ? cachedGameSummary(eventId, phase) : undefined;
+    return { summary: hit ?? null, loading: !hit, error: false };
+  }
+  return { summary: state.summary, loading: state.summary === null && !state.error, error: state.error };
+}
