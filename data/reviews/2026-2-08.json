@@ -3,8 +3,8 @@
   "season": 2026,
   "seasonType": 2,
   "week": 8,
-  "updatedAt": "2026-11-02T23:47:18Z",
-  "complete": false,
+  "updatedAt": "2026-11-03T04:47:19Z",
+  "complete": true,
   "games": [
     {
       "gameId": "401873023",
@@ -140,9 +140,9 @@
       "gameId": "401873036",
       "pickTeamId": "26",
       "favoriteTeamId": "26",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "3",
+      "final": true,
+      "correct": false,
       "deviation": false,
       "deviationEffect": null
     }
@@ -156,20 +156,20 @@
       "slot": "monday",
       "predictedHome": 25,
       "predictedAway": 22,
-      "actualHome": null,
-      "actualAway": null,
-      "diff": null
+      "actualHome": 17,
+      "actualAway": 34,
+      "diff": 20
     }
   ],
   "opinionCompare": {
     "opinions": 1,
-    "scored": 0,
+    "scored": 1,
     "marketHits": 0,
     "aiHits": 0,
-    "marketHitRate": null,
-    "aiHitRate": null,
-    "marketBrier": null,
-    "aiBrier": null,
+    "marketHitRate": 0,
+    "aiHitRate": 0,
+    "marketBrier": 0.3456,
+    "aiBrier": 0.36,
     "disagreements": []
   }
 }
