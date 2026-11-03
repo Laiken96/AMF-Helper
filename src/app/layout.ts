@@ -172,6 +172,10 @@ export function useLayout(): Layout {
       document.documentElement.dataset.layout = next;
       if (inset >= DUO_INSET_MIN) document.documentElement.dataset.inset = "duo";
       else delete document.documentElement.dataset.inset;
+      // Ohne Safe Area rechts (Duo: iOS schneidet die Systemspalte aus der App) liegt die Leiste bündig am
+      // rechten Rand und schliesst an die Systemspalte an (D053).
+      if (inset < 1 && (next === "side" || next === "wide")) document.documentElement.dataset.edge = "flush";
+      else delete document.documentElement.dataset.edge;
       setLayout(next);
       recordSample(probe, reason, next);
     };

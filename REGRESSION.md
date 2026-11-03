@@ -757,3 +757,9 @@ R117 Saisonansicht und Simulation
     Schritt: Umschalter Saison, Simulation abwarten, Variante Alle tippen alles.
     Erwartet: Chance je Rang mit gleicher Tippquote für alle, Annahmen sichtbar, Worker bricht nach 10 s mit Hinweis ab.
     Status: bestanden lokal 2026-11-03, offen Nutzer am Gerät
+
+R118 Duo Leiste bündig rechts (D053)
+    Vorbedingung: iPhone Duo, App vom Home Bildschirm, zugeklappt und aufgeklappt quer.
+    Schritt: Tipps öffnen.
+    Erwartet: Navigation senkrecht ganz rechts in der App, bündig an der Systemspalte, keine schwebende Kapsel, kein Überlauf.
+    Status: bestanden lokal 2026-11-03 (867 x 669 und 382 x 678 mit Bildschirm 466), offen Nutzer am Gerät. R113 zugeklappt am Gerät bestanden (Layout side), R115 Balken nach Versuch nicht mehr reproduzierbar
