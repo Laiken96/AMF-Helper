@@ -732,7 +732,7 @@ R113 Duo Layout bei verspäteter Safe Area
     Vorbedingung: iPhone Duo, App vom Home Bildschirm, zugeklappt oder aufgeklappt hoch.
     Schritt: App starten, in den Hintergrund und zurück.
     Erwartet: Navigation als Leiste rechts vor dem reservierten Bereich, nie die schwebende iPhone Leiste unten. Auch wenn iOS die Safe Area erst nach dem Start meldet.
-    Status: bestanden lokal 2026-11-02 (Inset nach dem Laden gesetzt, Wechsel compact zu side), offen Nutzer am Gerät
+    Status: bestanden lokal 2026-11-02 (Inset nach dem Laden gesetzt, Wechsel compact zu side). Gerätetest 2026-11-03 mit Diagnose: iOS schneidet die Spalte aus der App (Bildschirm 466, App 382, Safe Area rechts 0). Erkennung neu über Bildschirmbreite minus App Breite, lokal bestanden (382 auf 466 ergibt side), offen Nutzer am Gerät
 
 R114 Design Welle 2
     Vorbedingung: iPhone und Duo, hell und dunkel.

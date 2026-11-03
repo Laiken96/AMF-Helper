@@ -9,6 +9,17 @@ export const SIDE_INSET_MIN = 40;
 /** Ab diesem rechten Inset ist die Spalte der reservierte Bereich des Duo (D036, D037). */
 export const DUO_INSET_MIN = 80;
 
+/**
+ * Reservierte Spalte des iPhone Duo, die iOS ganz aus der App herausschneidet (Gerätetest 2026-11-03):
+ * Bildschirm 466 breit, App nur 382, Safe Area rechts 0. Erkannt am Unterschied von 60 bis 120 Punkten
+ * zwischen Bildschirmbreite und App Breite. Im Querformat meldet screen die Hochformat Breite, dann ist
+ * die App breiter als screen und der Wert 0.
+ */
+export function reservedColumn(screenWidth: number, appWidth: number): number {
+  const diff = screenWidth - appWidth;
+  return diff >= 60 && diff <= 120 ? diff : 0;
+}
+
 export function chooseLayout(width: number, insetRight: number): Layout {
   if (width >= WIDE_MIN) return "wide";
   if (insetRight >= SIDE_INSET_MIN) return "side";
@@ -107,7 +118,7 @@ function firstVisibleAnchor(): string | null {
 /** Setzt data-layout am Root und hält es bei resize und orientationchange aktuell. */
 export function useLayout(): Layout {
   const [layout, setLayout] = useState<Layout>(() => {
-    const first = chooseLayout(window.innerWidth, 0);
+    const first = chooseLayout(window.innerWidth, reservedColumn(window.screen.width, window.innerWidth));
     document.documentElement.dataset.layout = first;
     return first;
   });
@@ -124,7 +135,8 @@ export function useLayout(): Layout {
     let reason = "Start";
     const apply = () => {
       const inset = measureInsetRight(probe);
-      const next = chooseLayout(window.innerWidth, inset);
+      const reserved = reservedColumn(window.screen.width, window.innerWidth);
+      const next = chooseLayout(window.innerWidth, Math.max(inset, reserved));
       // Beim Wechsel die Liste an der ersten sichtbaren Spielzeile halten
       const anchor = current !== null && current !== next ? firstVisibleAnchor() : null;
       current = next;
