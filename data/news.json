@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T18:47:19Z",
+  "updatedAt": "2026-11-03T19:35:59Z",
   "items": [
+    {
+      "id": "46f06a1c188507b7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cardinals-jeremiyah-loves-injured-reserve-ankle-2026",
+      "title": "Jeremiyah Love's difficult rookie season takes another hit with trip to injured reserve",
+      "summary": "Love suffered a high ankle sprain against the Cowboys and now heads to injured reserve",
+      "publishedAt": "2026-11-03T19:26:53Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "2334272f725fa842",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-qb-joe-fagnano-practices-tuesday-with-brace-on-ankle",
+      "title": "Ravens QB Joe Fagnano practices Tuesday with brace on ankle",
+      "summary": "Ravens rookie quarterback Joe Fagnano has a heavy brace on his right ankle, but he is on the field for the open portion of practice on Tuesday.",
+      "publishedAt": "2026-11-03T19:15:20Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "e643d2a883305563",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-designate-ol-brady-christensen-for-return-from-ir",
+      "title": "Panthers designate OL Brady Christensen for return from IR",
+      "summary": "Veteran offensive lineman Brady Christensen will be back at Panthers practice this week.",
+      "publishedAt": "2026-11-03T19:04:18Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "5eb10695757513be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jeremiyah-love-headed-to-ir-with-high-ankle-sprain",
+      "title": "Report: Jeremiyah Love headed to IR with high-ankle sprain",
+      "summary": "Arizona will be without one of its top offensive players for at least the next four weeks.",
+      "publishedAt": "2026-11-03T19:03:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "18fd51cc2babed61",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-claims-incorrectly-that-theres-no-correlation-between-coaching-pay-and-winning",
+      "title": "Jerry Jones claims (incorrectly) that there's \"no correlation\" between coaching pay and winning",
+      "summary": "Jerry prefers to hire a cheap, unproven coach — and to hope he strikes gold.",
+      "publishedAt": "2026-11-03T18:49:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "7ad81f736041b1e1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-no-trade-clause-joe-burrow-patrick-mahomes",
+      "title": "2026 NFL trade deadline: 12 players with no-trade clauses, including Joe Burrow, Patrick Mahomes",
+      "summary": "Joe Burrow, Patrick Mahomes and 10 other prominent players would have to approve any trade before the Nov. 10 deadline, but one quarterback may have reason to listen",
+      "publishedAt": "2026-11-03T18:46:48Z",
+      "teamIds": []
+    },
     {
       "id": "ee8dc7d4431f06ec",
       "source": "pft",
@@ -1625,76 +1685,6 @@
       "publishedAt": "2026-11-02T15:11:40Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "3137e22d0f28b4d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-expect-davon-hamilton-to-miss-the-rest-of-the-season-with-torn-quad",
-      "title": "Jaguars expect DaVon Hamilton to miss the rest of the season with torn quad",
-      "summary": "Jaguars defensive tackle DaVon Hamilton was carted off on Sunday, and the initial prognosis isn't good.",
-      "publishedAt": "2026-11-02T14:54:11Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "94317ae1ac38a840",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bears-vs-seahawks-odds-picks-player-props-experts-nfl-week-8-best-bets-for-monday-night-football",
-      "title": "Bears vs. Seahawks odds, picks, player props: Expert's NFL Week 8 best bets for Monday Night Football",
-      "summary": "Take the points with the underdog in a projected prime-time shootout, plus target high-volume value on Jaxson Smith-Njigba and plus-money tight end props",
-      "publishedAt": "2026-11-02T14:53:36Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "946fb5ad12e7ff87",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50349483/week-8-barnwell-lamar-bengals-cowboys-buccaneers-chiefs",
-      "title": "Lamar Jackson out again? Zero completions for Baker Mayfield? Let's make sense of a weird Week 8",
-      "summary": "Jackson's return lasted one snap, the Cardinals upset the Cowboys with their QB2 and RB2, and the Buccaneers won by 16 despite 0 passing yards.",
-      "publishedAt": "2026-11-02T14:49:19Z",
-      "teamIds": [
-        "22",
-        "6",
-        "27"
-      ]
-    },
-    {
-      "id": "2e4aac4b99c9661d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-says-jets-arent-trading-breece-hall",
-      "title": "Aaron Glenn says Jets aren't trading Breece Hall",
-      "summary": "Breece Hall missed his fifth straight game with a quad injury on Sunday and Braelon Allen continued to shine in his absence.",
-      "publishedAt": "2026-11-02T14:48:02Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "8606bb529fb37397",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bears-seahawks-monday-night-football",
-      "title": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bears-Seahawks, Monday Night Football",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Seahawks vs. Bears on Monday Night Football",
-      "publishedAt": "2026-11-02T14:35:25Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "1d7c1dccf8432474",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lamar-jackson-injury-ravens-contract-extension",
-      "title": "Lamar Jackson injury throws huge wrench into looming contract talks with Ravens",
-      "summary": "Jackson's current contract runs through the 2027 season",
-      "publishedAt": "2026-11-02T14:34:30Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
