@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T12:47:20Z",
+  "updatedAt": "2026-11-03T13:47:18Z",
   "items": [
+    {
+      "id": "5879280999bd8273",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-felt-profound-impact-from-jeffery-simmons-in-his-debut",
+      "title": "Bears felt \"profound\" impact from Jeffery Simmons in his debut",
+      "summary": "Simmons made an immediate impact for his new team.",
+      "publishedAt": "2026-11-03T13:06:00Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "5674cbd5035c44ed",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-coordinator-rankings-midseason-packers-jonathan-gannon-steelers",
+      "title": "Ranking NFL's best new coordinators: Packers, Steelers assistants lead top 10 at midseason",
+      "summary": "These 10 coordinators inherited difficult circumstances, adapted to significant injuries and delivered immediate results in their new homes",
+      "publishedAt": "2026-11-03T12:54:54Z",
+      "teamIds": [
+        "9",
+        "23"
+      ]
+    },
+    {
+      "id": "ae23a97b3b8e09e3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-8-lessons-bears-super-bowl-chiefs-kicker",
+      "title": "Six lessons from Week 8: Bears emerge as top-tier Super Bowl contenders, Chiefs must address glaring flaws",
+      "summary": "Jeffery Simmons transforms Chicago's defense and the Chiefs need to address their biggest issue before it's too late",
+      "publishedAt": "2026-11-03T12:46:13Z",
+      "teamIds": [
+        "3",
+        "12"
+      ]
+    },
     {
       "id": "5f938ac56bba4586",
       "source": "cbs",
@@ -1670,41 +1705,6 @@
       "teamIds": [
         "4",
         "10"
-      ]
-    },
-    {
-      "id": "5e2be08a28778b23",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50350934/lions-linebacker-jack-campbell-placed-backboard-carted-off",
-      "title": "Lions All-Pro Campbell carted off in scary scene, taken to hospital",
-      "summary": "Lions All-Pro linebacker Jack Campbell was placed on a backboard and carted off the field early in the fourth quarter Sunday against the Vikings.",
-      "publishedAt": "2026-11-02T06:54:35Z",
-      "teamIds": [
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "14ac33306c07e7c5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50349558/ravens-lamar-jackson-rest-game-thumb-injury",
-      "title": "Lamar headed to IR with 'potentially' season-ending thumb injury",
-      "summary": "Ravens quarterback Lamar Jackson needs to have surgery on his injured right thumb and will be placed on injured reserve, coach Jesse Minter said.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "3b3c9e205e1cf2e8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50352885/steelers-say-browns-verse-kept-mouth-shut",
-      "title": "Steelers answer Verse's trash talk with big win: 'Should have kept his mouth shut'",
-      "summary": "The Steelers got the last word after Browns defensive end Jared Verse's trash talk ahead of Sunday's matchup.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "5",
-        "23"
       ]
     }
   ]
