@@ -1,5 +1,5 @@
 import { useEffect, useState, type CSSProperties, type ReactNode } from "react";
-import type { InjuriesFile, KeyPlayer } from "../core/injuries";
+import type { InjuriesFile } from "../core/injuries";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich } from "../core/time";
@@ -10,9 +10,21 @@ import { Spoken, TeamLogo } from "./ui";
 import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
 import { GameFacts } from "./GameFacts";
+import { absenceText, keyAbsence } from "./facts";
 import { useInSheet } from "./Sheet";
 
 type NewsItem = NewsFile["items"][number];
+
+/** Eigene Abweichung im Spielblatt (D052). Nur bei nicht gesperrten Spielen mit Quote. */
+export interface HeroChoice {
+  /** true, wenn der Aussenseiter gewählt ist. */
+  own: boolean;
+  favoriteAbbr: string;
+  underdogAbbr: string;
+  /** Kickoff vorbei oder Spiel nicht mehr geplant: Wahl gesperrt. */
+  locked: boolean;
+  onToggle: () => void;
+}
 
 /** Nächster offener Tippschluss, wenn der Spielbereich ein laufendes Spiel zeigt. */
 export interface HeroNext {
@@ -64,31 +76,6 @@ export function useNow(): number {
 
 /** Countdown, "3 Tg 21 h". Ausgelagert nach wording.ts, hier für bestehende Importe erneut exportiert. */
 export { formatCountdown };
-
-const ROLE_WEIGHT: Record<KeyPlayer["roles"][number], number> = { passing: 4, rushing: 3, receiving: 3, qb: 1 };
-
-/** Wichtigster Ausfall des Spiels: Schlüsselspieler mit Out vor Doubtful, Leader vor reinem QB Eintrag. */
-export function keyAbsence(injuries: InjuriesFile | null, gameId: string): KeyPlayer | null {
-  const game = injuries?.current.games.find((g) => g.gameId === gameId);
-  if (!game) return null;
-  let best: { p: KeyPlayer; score: number } | null = null;
-  for (const p of game.players) {
-    const s = (p.status ?? "").trim().toLowerCase();
-    const sev = s === "out" ? 2 : s === "doubtful" ? 1 : 0;
-    if (sev === 0) continue;
-    const role = Math.max(...p.roles.map((r) => ROLE_WEIGHT[r]));
-    const score = sev * 10 + role;
-    if (!best || score > best.score) best = { p, score };
-  }
-  return best?.p ?? null;
-}
-
-function absenceText(p: KeyPlayer): string {
-  const detail = [p.pos, p.status].filter(Boolean).join(", ");
-  return (p.status ?? "").toLowerCase() === "out"
-    ? `${p.teamAbbr} ohne ${p.name} (${detail})`
-    : `${p.teamAbbr}: ${p.name} fraglich (${detail})`;
-}
 
 const CIRC = 2 * Math.PI * 56;
 
@@ -171,7 +158,7 @@ export function GameHero({
   result = null,
   reviewHref = "#bilanz",
   nav = null,
-  deviationNote = null,
+  choice = null,
 }: {
   target: HeroTarget | null;
   empty?: HeroEmpty;
@@ -189,8 +176,8 @@ export function GameHero({
   reviewHref?: string;
   /** Pfeile zum Durchblättern der Spiele, oben im Spielbereich. */
   nav?: ReactNode;
-  /** Begründung einer Abweichung (D050), ein ganzer Satz unter Tipp und Resultat. */
-  deviationNote?: string | null;
+  /** Knopf für die eigene Abweichung (D052), nur im Blatt und im grossen Spielbereich. */
+  choice?: HeroChoice | null;
 }) {
   const layout = useLayoutValue();
   const inSheet = useInSheet();
@@ -297,15 +284,31 @@ export function GameHero({
     </div>
   );
 
-  const why = deviationNote ? (
-    <p className="hero-why">
-      <span className="hero-why-tag">Abweichung</span> {deviationNote}
-    </p>
+  // Fakten nur im Blatt und im grossen Spielbereich (wide). Oben in der Liste bleibt der Spielbereich kurz
+  const detailed = inSheet || big;
+  const facts = detailed ? (
+    <GameFacts key={game.id} game={game} tip={tip} team={team} variant="hero" now={now} own={choice?.own ?? false} />
   ) : null;
 
-  // Fakten nur im Blatt und im grossen Spielbereich (wide). Oben in der Liste bleibt der Spielbereich kurz
-  const facts =
-    inSheet || big ? <GameFacts key={game.id} game={game} tip={tip} team={team} variant="hero" /> : null;
+  // Eigene Abweichung (D052): Knopf bei offenen Spielen, nach Kickoff nur noch der Hinweis
+  const why =
+    detailed && choice && variant === "offen" && !isLive ? (
+      choice.locked ? (
+        choice.own ? (
+          <p className="hero-why">
+            <span className="hero-why-tag">Deine Abweichung</span> Kickoff vorbei, die Wahl ist gesperrt.
+          </p>
+        ) : null
+      ) : (
+        <button
+          type="button"
+          className={`hero-choice${choice.own ? " hero-choice-own" : ""}`}
+          onClick={choice.onToggle}
+        >
+          {choice.own ? `Zurück zum Favoriten ${choice.favoriteAbbr}` : `Aussenseiter tippen: ${choice.underdogAbbr}`}
+        </button>
+      )
+    ) : null;
 
   const cta = isFinal ? (
     <a className="hero-cta" href={reviewHref}>

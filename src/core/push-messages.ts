@@ -102,7 +102,7 @@ function gameLabel(teams: ReadonlyMap<string, Team>, g: Pick<Game, "awayId" | "h
 }
 
 /**
- * "Tippliste bereit": Anzahl offener Spiele, deren Abweichungen und Tiebreaker. Gesperrte Spiele (Tipp oder
+ * "Tippliste bereit": Anzahl offener Spiele, Vorschlag der App und Tiebreaker. Gesperrte Spiele (Tipp oder
  * Kickoff vorbei, Spiel nicht mehr geplant) zählen nicht. Null ohne Quote oder ohne offenes Spiel.
  */
 export function tipsReadyMessage(
@@ -123,9 +123,8 @@ export function tipsReadyMessage(
   if (open.length === 0) return null;
   const openIds = new Set(open.map((t) => t.gameId));
   const n = open.length;
-  const devs = open.filter((t) => t.deviation).map((t) => abbrOf(teams, t.pickTeamId));
-  let head = `${n} ${n === 1 ? "Spiel" : "Spiele"}, ${devs.length} Abw.`;
-  if (devs.length > 0) head = `${head.slice(0, -1)}: ${devs.join(" ")}.`;
+  // Offene Spiele tragen seit D052 nie eine Abweichung, der Vorschlag ist immer der Favorit.
+  const head = `${n} ${n === 1 ? "Spiel" : "Spiele"}, Vorschlag Favorit.`;
   const tbs = tips.tiebreakers
     .filter((tb) => openIds.has(tb.gameId))
     .map((tb) => {

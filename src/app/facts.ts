@@ -1,6 +1,9 @@
 // Reine Formatierung für den Block Fakten im Spielbereich und im Spieldetail (D050).
-// Markt, ESPN FPI, Tippverteilung ESPN Pick'em und Spielort. Nur Anzeige, der Tipp ändert sich nie (D009).
+// Markt, ESPN FPI, Tippverteilung ESPN Pick'em, Spielort und Signale für eine eigene Abweichung (D052).
+// Nur Anzeige, der Vorschlag der App ändert sich dadurch nie (D009).
+import { favoriteOf, type DeviationCandidate } from "../core/deviation";
 import type { FpiGame } from "../core/fpi";
+import type { InjuriesFile, KeyPlayer } from "../core/injuries";
 import type { GamePicks } from "../core/picks";
 import type { Game } from "../core/schema";
 import type { GameTip } from "../core/tips-schema";
@@ -193,4 +196,105 @@ export function venueFact(
   const short = shortTeams.length > 0 ? `kurze Woche ${shortTeams.join(", ")}` : null;
   if (!place && !rest && !game.neutralSite) return null;
   return { place, neutral: game.neutralSite, rest, short };
+}
+
+// ---------- Ausfälle (D030) ----------
+
+const ROLE_WEIGHT: Record<KeyPlayer["roles"][number], number> = { passing: 4, rushing: 3, receiving: 3, qb: 1 };
+
+/**
+ * Wichtigster Ausfall des Spiels: Schlüsselspieler mit Out vor Doubtful, Leader vor reinem QB Eintrag.
+ * Mit teamId nur Spieler dieses Teams.
+ */
+export function keyAbsence(injuries: InjuriesFile | null | undefined, gameId: string, teamId?: string): KeyPlayer | null {
+  const game = injuries?.current.games.find((g) => g.gameId === gameId);
+  if (!game) return null;
+  let best: { p: KeyPlayer; score: number } | null = null;
+  for (const p of game.players) {
+    if (teamId !== undefined && p.teamId !== teamId) continue;
+    const s = (p.status ?? "").trim().toLowerCase();
+    const sev = s === "out" ? 2 : s === "doubtful" ? 1 : 0;
+    if (sev === 0) continue;
+    const role = Math.max(...p.roles.map((r) => ROLE_WEIGHT[r]));
+    const score = sev * 10 + role;
+    if (!best || score > best.score) best = { p, score };
+  }
+  return best?.p ?? null;
+}
+
+/** "CIN ohne Joe Burrow (QB, Out)" oder "CIN: Joe Burrow fraglich (QB, Doubtful)". */
+export function absenceText(p: KeyPlayer): string {
+  const detail = [p.pos, p.status].filter(Boolean).join(", ");
+  return (p.status ?? "").toLowerCase() === "out"
+    ? `${p.teamAbbr} ohne ${p.name} (${detail})`
+    : `${p.teamAbbr}: ${p.name} fraglich (${detail})`;
+}
+
+// ---------- Signale für eine eigene Abweichung (D052) ----------
+
+/** Ab dieser Bewegung in Punkten zählt die Linie als Bewegung Richtung Aussenseiter. */
+export const SIGNAL_LINE_PTS = 1;
+/** Ab so vielen Prozentpunkten sieht FPI den Aussenseiter deutlich stärker als der Markt. */
+export const SIGNAL_FPI_PTS = 5;
+
+export type SignalKind = "linie" | "fpi" | "ausfall";
+
+export interface DeviationSignal {
+  kind: SignalKind;
+  /** Kurzer, vollständiger Text, nie nur Farbe. */
+  text: string;
+}
+
+/**
+ * Signale, die für den Aussenseiter sprechen: Linie bewegt sich zu ihm, ESPN FPI sieht ihn mindestens 5
+ * Prozentpunkte stärker als der Markt, wichtiger Ausfall beim Favoriten. Leer ohne Quote.
+ */
+export function deviationSignals(input: {
+  tip: Pick<GameTip, "pHome" | "odds" | "firstOdds">;
+  game: Pick<Game, "id" | "homeId" | "awayId">;
+  fpi?: Pick<FpiGame, "homeId" | "awayId" | "pHome" | "pAway"> | null;
+  injuries?: InjuriesFile | null;
+  abbr: Abbr;
+}): DeviationSignal[] {
+  const { tip, game, abbr } = input;
+  const fav = favoriteOf(tip, game);
+  if (!fav) return [];
+  const dog = abbr(fav.underdogId);
+  const out: DeviationSignal[] = [];
+
+  const first = tip.firstOdds;
+  const cur = tip.odds;
+  if (first && cur) {
+    const homeFav = fav.favoriteId === game.homeId;
+    const view = (s: number) => (homeFav ? s : -s);
+    if (view(cur.spreadHome) - view(first.spreadHome) >= SIGNAL_LINE_PTS) {
+      out.push({
+        kind: "linie",
+        text: `Linie bewegt sich zu ${dog}: ${abbr(fav.favoriteId)} ${signedSpread(view(first.spreadHome))} > ${signedSpread(view(cur.spreadHome))}`,
+      });
+    }
+  }
+
+  const f = input.fpi;
+  if (f && f.homeId === game.homeId && f.awayId === game.awayId) {
+    const fpiDog = pct(fav.underdogId === game.homeId ? f.pHome : f.pAway);
+    const marketDog = pct(1 - fav.favoriteProb);
+    if (fpiDog - marketDog >= SIGNAL_FPI_PTS) {
+      out.push({ kind: "fpi", text: `ESPN FPI sieht ${dog} bei ${fpiDog} %, der Markt bei ${marketDog} %` });
+    }
+  }
+
+  const absent = keyAbsence(input.injuries, game.id, fav.favoriteId);
+  if (absent) out.push({ kind: "ausfall", text: `Ausfall beim Favoriten: ${absenceText(absent)}` });
+  return out;
+}
+
+/**
+ * Hinweis zu einem Kandidaten, ein Satz. Beispiel: "Knappes Spiel, CIN 57 %. ATL tippen nur 28 % bei ESPN."
+ * Ohne Tippverteilung: "Knappes Spiel, CIN 57 %, ohne Tippverteilung."
+ */
+export function candidateText(c: DeviationCandidate, abbr: Abbr): string {
+  const base = `Knappes Spiel, ${abbr(c.favoriteId)} ${pct(c.favoriteProb)} %`;
+  if (c.underdogShare === null) return `${base}, ohne Tippverteilung.`;
+  return `${base}. ${abbr(c.underdogId)} tippen nur ${pct(c.underdogShare)} % bei ESPN.`;
 }

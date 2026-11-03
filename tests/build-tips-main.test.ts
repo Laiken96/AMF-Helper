@@ -54,9 +54,9 @@ describe("build-tips main", () => {
     expect(urls[0]).toContain("dates=2026&seasontype=2&week=9");
     const f = TipsFileSchema.parse(JSON.parse(await read()));
     expect(f.tips).toHaveLength(15);
-    // D026: JA 45, Ziel CZ 51, 6 Punkte auf 10 Restwochen ergibt 0
-    expect(f.maxDeviations).toBe(2);
-    expect(f.tips.filter((t) => t.deviation)).toHaveLength(2);
+    // D052: Vorschlag immer Favorit, keine Abweichung trotz Rückstand
+    expect(f.maxDeviations).toBe(0);
+    expect(f.tips.filter((t) => t.deviation)).toHaveLength(0);
     expect(f.tiebreakers.map((t) => [t.slot, t.gameId])).toEqual([
       ["thursday", "401873037"],
       ["monday", "401873051"],
@@ -187,29 +187,32 @@ describe("build-tips main", () => {
       expect(TipsFileSchema.parse(JSON.parse(await read())).week).toBe(9);
     });
 
-    it("maxDeviations folgt der Rangliste bis zum ersten Lauf als aktuelle Woche, danach eingefroren", async () => {
+    it("maxDeviations bleibt 0, egal welche Rangliste und welcher Modus (D052)", async () => {
       expect(await main([], deps(router(asWeek10())))).toBe(0);
-      expect((await read10()).maxDeviations).toBe(2);
-      // Neue Rangliste vor Week 10: kommende Woche rechnet neu.
+      expect((await read10()).maxDeviations).toBe(0);
       await writeFile(join(dir, "standings.json"), leading);
       expect(await main([], deps(router(asWeek10()), "2026-11-02T05:00:00Z"))).toBe(0);
       expect((await read10()).maxDeviations).toBe(0);
-      // Week 10 wird aktuell. Erster Lauf friert ein und schreibt die Datei.
-      await writeFile(join(dir, "standings.json"), standingsText);
-      const switchedAt = "2026-11-04T10:00:00Z";
-      await writeFile(
-        join(dir, "current.json"),
-        JSON.stringify({ ...JSON.parse(CURRENT_W9), week: 10, weekFile: "weeks/2026-2-10.json", updatedAt: switchedAt }),
-      );
-      const w10only: FetchFn = async () => new Response(asWeek10());
-      expect(await main([], deps(w10only, "2026-11-04T11:00:00Z"))).toBe(0);
-      const frozen = await read10();
-      expect(frozen.maxDeviations).toBe(2);
-      expect(frozen.updatedAt).toBe("2026-11-04T11:00:00Z");
-      // Spätere Rangliste wirkt nicht mehr auf diese Woche.
-      await writeFile(join(dir, "standings.json"), leading);
-      expect(await main([], deps(w10only, "2026-11-04T12:00:00Z"))).toBe(0);
-      expect((await read10()).maxDeviations).toBe(2);
+      expect((await read10()).tips.some((t) => t.deviation)).toBe(false);
     });
+  });
+
+  it("verwirft eingefrorene Abweichungen der bestehenden Datei (D052)", async () => {
+    const legacy = readFileSync(new URL("./fixtures/tips-2026-2-09.json", import.meta.url), "utf8");
+    await mkdir(join(dir, "tips"), { recursive: true });
+    await writeFile(join(dir, TIPS), legacy);
+    const logs: string[] = [];
+    const d = { ...deps(respond(fixtureText)), log: (m: string) => logs.push(m) };
+    expect(await main([], d)).toBe(0);
+    const f = TipsFileSchema.parse(JSON.parse(await read()));
+    expect(f.maxDeviations).toBe(0);
+    expect(f.tips.some((t) => t.deviation)).toBe(false);
+    for (const id of ["401873039", "401873051"]) {
+      const t = f.tips.find((x) => x.gameId === id)!;
+      // Zurück beim Grundtipp, also keine Tippänderung für den Push
+      expect(t.pickTeamId).toBe(t.firstPickTeamId);
+      expect(t.changedSinceFirst).toBe(false);
+    }
+    expect(logs.some((m) => m.includes("Abweichung verworfen (D052): 401873039, 401873051"))).toBe(true);
   });
 });

@@ -214,3 +214,64 @@
   position: relative;
   min-width: 0;
 }
+
+/* Hinweis "Abweichung möglich", eigene Abweichung und Signale (D052). Jedes Signal mit Symbol und Text */
+.facts-choice {
+  display: grid;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.facts-choice-line {
+  margin: 0;
+  color: var(--text);
+}
+
+.facts-choice-tag {
+  display: inline-block;
+  margin-right: 4px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.facts-signals {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 3px;
+}
+
+.facts-signals li {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  color: var(--text-2);
+}
+
+.facts-signals svg {
+  flex: none;
+  margin-top: 2px;
+  color: var(--accent);
+}
+
+.facts-hero .facts-choice {
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.facts-hero .facts-choice-line {
+  color: #f2f4f7;
+}
+
+.facts-hero .facts-signals li {
+  color: #d5dae1;
+}
+
+.facts-card .facts-choice {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-2);
+}

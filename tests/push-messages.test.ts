@@ -3,6 +3,8 @@ import { describe, expect, it } from "vitest";
 import { parseScoreboard } from "../src/core/espn";
 import { TeamsFileSchema, type Team } from "../src/core/schema";
 import { TipsFileSchema, type TipsFile } from "../src/core/tips-schema";
+import { buildTipsFile } from "../src/core/tips";
+import { groupBySlot } from "../src/core/time";
 import type { InjuriesFile } from "../src/core/injuries";
 import type { ReviewFile } from "../src/core/review-schema";
 import {
@@ -133,11 +135,12 @@ describe("Slot Fenster", () => {
 });
 
 describe("Tippliste bereit", () => {
-  it("Anzahl Spiele, Abweichungen und beide Tiebreaker", () => {
+  it("Anzahl Spiele, Vorschlag Favorit und beide Tiebreaker (D052)", () => {
     const m = tipsReadyMessage(tipsW9, games, teams);
     expect(m?.key).toBe("tips-ready:2026-2-9");
     expect(m?.payload.title).toBe("Tippliste W9 bereit");
-    expect(m?.payload.body).toMatch(/^15 Spiele, 2 Abw: \w+ \w+\. TB TNF JAX@BAL 26:18, MNF \w+@\w+ 22:25$/);
+    expect(m?.payload.body).toMatch(/^15 Spiele, Vorschlag Favorit\. TB TNF JAX@BAL 26:18, MNF \w+@\w+ 22:25$/);
+    expect(m?.payload.body).not.toContain("Abw");
     expect(m!.payload.title.length).toBeLessThanOrEqual(TITLE_MAX);
   });
 
@@ -271,5 +274,33 @@ describe("Linienbewegung (D050)", () => {
   it("Slot Meldung nur mit Linie statt Keine Änderung", () => {
     const [m] = slotMessages({ games, tips: withLine(3, 8.5), injuries: injuries([]), teams, now: minus(TNF, 30) });
     expect(m?.payload.body).toBe("JAX@BAL. Linie JAX -3 > -8.5");
+  });
+});
+
+describe("Verwerfen alter Abweichungen (D052)", () => {
+  // Job Lauf auf der Datei von Week 9 mit zwei eingefrorenen Abweichungen, Quoten wie in der Datei
+  const odds = Object.fromEntries(tipsW9.tips.map((t) => [t.gameId, t.odds]));
+  const standings = { schemaVersion: 1 as const, asOfWeek: 8, updatedAt: "2026-11-02T03:00:00Z", me: "JA", players: [{ id: "JA", points: 45 }, { id: "MS", points: 71 }] };
+  const reverted = buildTipsFile({ week: w9.week, odds, standings, existing: tipsW9, now: "2026-11-03T12:00:00Z" });
+
+  it("keine Tippänderung in den Slot Meldungen, auch nicht für die betroffenen Spiele", () => {
+    expect(tipsW9.tips.filter((t) => t.changedSinceFirst).length).toBeGreaterThan(0);
+    expect(reverted.tips.some((t) => t.changedSinceFirst)).toBe(false);
+    for (const slot of groupBySlot(games.filter((g) => g.status === "scheduled"))) {
+      const msgs = slotMessages({ games, tips: reverted, injuries: null, teams, now: minus(slot.kickoffUtc, 30) });
+      for (const m of msgs) expect(m.payload.body).not.toMatch(/Tipp \w+>\w+/);
+    }
+  });
+
+  it("vor dem Verwerfen hätte jede betroffene Slot Meldung eine Tippänderung genannt", () => {
+    const devGames = tipsW9.tips.filter((t) => t.changedSinceFirst).map((t) => t.kickoffUtc);
+    const msgs = devGames.flatMap((k) => slotMessages({ games, tips: tipsW9, injuries: null, teams, now: minus(k, 30) }));
+    expect(msgs.some((m) => /Tipp \w+>\w+/.test(m.payload.body))).toBe(true);
+  });
+
+  it("Tippliste bereit nennt den Vorschlag ohne Abweichung, keine zusätzliche Meldung", () => {
+    const due = dueMessages({ games, tips: reverted, injuries: null, teams, now: "2026-11-05T12:00:00Z", log: EMPTY_PUSH_LOG });
+    expect(due.map((m) => m.key)).toEqual(["tips-ready:2026-2-9"]);
+    expect(due[0]!.payload.body).toMatch(/^15 Spiele, Vorschlag Favorit\./);
   });
 });

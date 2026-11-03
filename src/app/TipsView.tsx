@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
 import { standingsAppliesTo } from "../core/standings";
+import { deviationCandidates } from "../core/deviation";
 import { tiebreakerGames } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
@@ -12,18 +13,28 @@ import {
   navWeeks,
   parseWeekKey,
   prefetchNeighbours,
+  useFactsData,
   useKeptLoad,
   weekKey,
   type TipsData,
 } from "./data";
 import { GameSheet } from "./Sheet";
-import { GameHero, heroHeadlines, useNow, type HeroEmpty, type HeroNext, type HeroTarget, type HeroVariant } from "./GameHero";
+import {
+  GameHero,
+  heroHeadlines,
+  useNow,
+  type HeroChoice,
+  type HeroEmpty,
+  type HeroNext,
+  type HeroTarget,
+  type HeroVariant,
+} from "./GameHero";
 import { LiveStatus } from "./GamesView";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { standingsFor, usePlayer, useShownTips, type PlayerState } from "./player";
+import { choiceLocked, standingsFor, useChoices, usePlayer, useShownTips, type ChoiceState, type PlayerState } from "./player";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
-import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, deviationReason, formatStand, scoreAria, scoreText, spreadText } from "./wording";
+import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, formatStand, scoreAria, scoreText } from "./wording";
 
 const LEVEL_TEXT: Record<GameTip["level"], string> = {
   klar: "klar",
@@ -97,13 +108,15 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
   const { data, error, pending } = useKeptLoad(`tipps:${weekArg ?? ""}`, () => loadTipsData(parseWeekKey(weekArg)));
   const player = usePlayer(data?.standings ?? null);
   const mode: Mode | null = !data?.week ? null : !data.tips ? "folgt" : data.phase === "vergangen" ? "vergangen" : "offen";
-  // Anderer Spieler: offene Spiele im Browser neu rechnen (D050). Vergangene Wochen zeigen die Tipps des Hauptnutzers.
+  // Eigene Abweichung pro Spieler und Woche (D052), Tipps und Spiele zeigen dieselbe Wahl
+  const choice = useChoices(player.player, data?.ref);
   const shownTips = useShownTips(
     data?.week ? (data.tips ?? null) : null,
     data?.week?.games,
     data?.standings ?? null,
     data?.phase ?? "aktuell",
     player.player,
+    choice.choices,
   );
 
   // Nachbarwochen im Hintergrund vorladen, damit der nächste Wechsel aus dem Cache kommt
@@ -134,6 +147,7 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
       tips={tips}
       mode={mode ?? "folgt"}
       player={player}
+      choice={choice}
       pending={pending}
       selectedId={gameArg}
     />
@@ -214,12 +228,14 @@ function TipsList({
   pending,
   selectedId,
   player,
+  choice,
 }: {
   data: TipsData;
   week: WeekFile;
   tips: TipsFile;
   mode: Mode;
   player: PlayerState;
+  choice: ChoiceState;
   pending: boolean;
   /** Gewähltes Spiel aus dem Hash, null heisst Standardspiel. */
   selectedId: string | null;
@@ -230,7 +246,7 @@ function TipsList({
   // Ohne Häkchen und Filter: vergangene Wochen und Wochen ohne Tippdatei
   const passive = mode !== "offen";
   const games = week.games;
-  // Ziel, Rangliste und Begründung aus Sicht des gewählten Spielers (D050)
+  // Rangliste aus Sicht des gewählten Spielers (D050)
   const standings = useMemo(() => standingsFor(data.standings, player.player), [data.standings, player.player]);
   // Vergangene Woche eines anderen Spielers: die Tipps stammen vom Hauptnutzer
   const foreignTips = player.other && mode === "vergangen";
@@ -378,31 +394,31 @@ function TipsList({
   const isDefault = !selectedRow || selectedRow.gameId === defaultId;
   const homeLabel = mode === "offen" ? "Zum nächsten Tippschluss" : mode === "folgt" ? "Zum ersten Spiel" : "Zum letzten Spiel";
 
-  // Rückstand auf Platz 1 für die Begründung einer Abweichung (Ziel Platz 1, D028). Eine Rangliste aus einer
-  // anderen Saison gilt nicht (D051), dann ohne Rückstand in der Begründung.
-  const gap = useMemo(() => {
-    if (foreignTips || !standingsAppliesTo(standings, data.ref.season)) return null;
-    const players = standings.players;
-    const mine = players.find((p) => p.id === standings.me);
-    if (!mine || players.length === 0) return null;
-    return Math.max(0, Math.max(...players.map((p) => p.points)) - mine.points);
-  }, [standings, data.ref.season, foreignTips]);
-  const deviationNoteOf = (tip: GameTip | undefined, game: Game | undefined): string | null => {
-    if (!tip || !game || !tip.deviation || !tip.pickTeamId) return null;
-    const pick = team(tip.pickTeamId);
-    const otherId = tip.pickTeamId === game.homeId ? game.awayId : game.homeId;
-    const baseId = tip.firstPickTeamId && tip.firstPickTeamId !== tip.pickTeamId ? tip.firstPickTeamId : otherId;
-    const baseProb =
-      tip.pickProb === null ? null : baseId === tip.pickTeamId ? tip.pickProb : 1 - tip.pickProb;
-    return deviationReason({
-      pickAbbr: pick.abbr,
-      pickProb: tip.pickProb,
-      baseAbbr: team(baseId).abbr,
-      baseProb,
-      spread: spreadText(tip.odds, team(game.homeId).abbr, team(game.awayId).abbr),
-      maxDeviations: tips.maxDeviations,
-      gap,
-    });
+  // Kandidaten "Abweichung möglich" aus Vorschlag und ESPN Tippverteilung (D052). Nur in offenen Wochen.
+  const facts = useFactsData(mode === "offen" ? data.ref : null);
+  const candidates = useMemo(
+    () => (mode === "offen" ? deviationCandidates(tips, games, facts?.picks ?? null, new Date(now).toISOString()) : new Map()),
+    [mode, tips, games, facts, now],
+  );
+  const ownIds = useMemo(
+    () => new Set(Object.keys(choice.choices).filter((id) => tips.tips.find((t) => t.gameId === id)?.deviation)),
+    [choice.choices, tips],
+  );
+  // Knopf im Spielblatt: Vorschlag der App aus pHome, gewählt ist der Aussenseiter
+  const choiceOf = (row: TipRow | undefined): HeroChoice | null => {
+    if (mode !== "offen" || !row || !row.game || row.pHome === null || row.pickTeamId === null) return null;
+    if (row.level === "offen" || row.level === "nicht_erfasst") return null;
+    const game = row.game;
+    const favId = row.pHome >= 0.5 ? game.homeId : game.awayId;
+    const dogId = favId === game.homeId ? game.awayId : game.homeId;
+    const own = ownIds.has(row.gameId);
+    return {
+      own,
+      favoriteAbbr: team(favId).abbr,
+      underdogAbbr: team(dogId).abbr,
+      locked: choiceLocked(row, game, new Date(now).toISOString()),
+      onToggle: () => choice.setChoice(row.gameId, own ? null : dogId),
+    };
   };
 
   const heroProps = (row: TipRow | undefined, isSelected: boolean) => {
@@ -506,7 +522,7 @@ function TipsList({
         result={hp.result}
         reviewHref={reviewHref}
         nav={nav}
-        deviationNote={hp.target && hp.variant !== "folgt" ? deviationNoteOf(hp.target.tip, hp.target.game) : null}
+        choice={hp.target ? choiceOf(rows.find((r) => r.gameId === hp.target!.game.id)) : null}
       />
     );
   };
@@ -522,12 +538,7 @@ function TipsList({
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} open={mode === "folgt"} />
-      <StandingsBox
-        standings={standings}
-        season={data.ref.season}
-        maxDeviations={mode === "folgt" ? null : tips.maxDeviations}
-        maxFor={foreignTips ? player.main : null}
-      />
+      <StandingsBox standings={standings} season={data.ref.season} />
     </div>
   );
   const pct = countable.length > 0 ? Math.round((doneCount / countable.length) * 100) : 0;
@@ -594,6 +605,8 @@ function TipsList({
                     live={live.games.get(row.gameId)}
                     selected={wide && row.gameId === shownId}
                     previous={row.changedSinceFirst && row.firstPickTeamId ? team(row.firstPickTeamId).abbr : null}
+                    own={ownIds.has(row.gameId)}
+                    candidate={candidates.has(row.gameId)}
                     onSelect={() => select(row.gameId)}
                   />
                 ))}
@@ -685,7 +698,7 @@ function PlayerLine({ player, foreign }: { player: PlayerState; foreign: boolean
   const sub = foreign
     ? `Vergangene Woche, Tipps von ${player.main}`
     : player.other
-      ? `Im Browser gerechnet, Push für ${player.main}`
+      ? `Eigene Wahl für ${player.player}, Push für ${player.main}`
       : null;
   return (
     <a className="player-line" href="#einstellungen/spieler" aria-label={`Tipps für ${player.player}${sub ? `, ${sub}` : ""}. Spieler in den Einstellungen ändern`}>
@@ -703,47 +716,34 @@ function PlayerLine({ player, foreign }: { player: PlayerState; foreign: boolean
   );
 }
 
-function StandingsBox({
-  standings,
-  season,
-  maxDeviations,
-  maxFor = null,
-}: {
-  standings: StandingsFile;
-  season: number;
-  maxDeviations: number | null;
-  /** Kürzel, für das die Abweichungen gerechnet wurden, wenn es nicht der gewählte Spieler ist. */
-  maxFor?: string | null;
-}) {
+function StandingsBox({ standings, season }: { standings: StandingsFile; season: number }) {
   const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
   const mine = players.find((p) => p.id === standings.me);
-  // Ziel ist immer Platz 1 (D028). Rangliste aus einer anderen Saison: kein Rückstand (D051).
+  // Ziel sind möglichst viele Punkte (D052). Rang und Rückstand nur als Information.
+  // Rangliste aus einer anderen Saison: kein Rückstand (D051).
   const applies = standingsAppliesTo(standings, season);
   const leader = players[0];
-  const ahead = applies && mine && leader && leader.points > mine.points ? leader : undefined;
-  const gap = ahead && mine ? ahead.points - mine.points : 0;
+  const rank = mine ? players.filter((p) => p.points > mine.points).length + 1 : null;
+  const gap = applies && mine && leader ? leader.points - mine.points : 0;
+  const ahead = mine ? [...players].reverse().find((p) => p.points > mine.points) : undefined;
+  const gapAhead = ahead && mine ? ahead.points - mine.points : 0;
+  const pts = (n: number) => `${n} ${n === 1 ? "Punkt" : "Punkte"}`;
   return (
     <section className="box" aria-label="Rangliste">
-      <h2>Ziel Platz 1</h2>
-      {mine && applies && (
+      <h2>Ziel: möglichst viele Punkte</h2>
+      {mine && applies && rank !== null && (
         <p className="box-big">
-          {ahead ? (
-            <Spoken shown={`\u2212${gap}`} spoken={`minus ${gap}`} />
-          ) : (
-            "1."
-          )}
+          <Spoken shown={`Rang ${rank}`} spoken={`Rang ${rank} von ${players.length}`} />
         </p>
       )}
       {mine && applies && (
         <p className="box-meta">
-          {ahead ? `${gap} ${gap === 1 ? "Punkt" : "Punkte"} hinter ${ahead.id} auf Platz 1` : "In Führung"}
+          {gap > 0
+            ? `${pts(gap)} hinter ${leader!.id} auf Platz 1${ahead && ahead.id !== leader!.id ? `, ${gapAhead} hinter ${ahead.id}` : ""}`
+            : "In Führung"}
         </p>
       )}
       {!applies && <p className="box-meta">Neue Saison, Rückstand erst nach der ersten Meldung</p>}
-      <p className="box-meta strong">
-        Erlaubte Abweichungen diese Woche: {maxDeviations ?? "offen"}
-        {maxFor ? ` (für ${maxFor})` : ""}
-      </p>
       <p className="box-meta">
         Rangliste nach Week {standings.asOfWeek}
         {!applies && standings.season !== undefined ? ` der Saison ${standings.season}` : ""}
@@ -779,6 +779,8 @@ function TipItem({
   selected = false,
   onSelect,
   previous = null,
+  own = false,
+  candidate = false,
 }: {
   row: TipRow;
   team: (id: string) => Team;
@@ -793,6 +795,10 @@ function TipItem({
   onSelect?: () => void;
   /** Kürzel des Grundtipps, wenn der Tipp seither geändert hat. */
   previous?: string | null;
+  /** Eigene Abweichung des Nutzers (D052). */
+  own?: boolean;
+  /** Kandidat "Abweichung möglich" (D052). */
+  candidate?: boolean;
 }) {
   const notCaptured = row.level === "nicht_erfasst";
   const checked = status === "done";
@@ -821,21 +827,22 @@ function TipItem({
     : notCaptured
       ? ""
       : pct !== null
-        ? `${row.deviation ? "Abw. " : ""}${pct} %`
+        ? `${row.deviation ? (own ? "Deine Abw. " : "Abw. ") : ""}${pct} %`
         : "keine Quote";
   const infoAria = upcoming
     ? "Quote folgt"
     : notCaptured
       ? "kein App Tipp"
       : pct !== null
-        ? `${row.deviation ? "Abweichung, " : ""}Siegwahrscheinlichkeit ${pct} Prozent`
+        ? `${row.deviation ? (own ? "deine Abweichung, " : "Abweichung, ") : ""}${candidate && !row.deviation ? "Abweichung möglich, " : ""}Siegwahrscheinlichkeit ${pct} Prozent`
         : "keine Quote";
   const infoColor = row.deviation && pct !== null ? "var(--unklar)" : LEVEL_COLOR[row.level];
   const liveText = live?.state === "in" && game ? `Live ${live.awayScore ?? 0} : ${live.homeScore ?? 0} ${periodText(live)}` : "";
   const finalText = finished && game ? scoreText(game.awayScore!, game.homeScore!) : "";
   const matchup = away && home ? `${away.abbr} @ ${home.abbr}` : `Spiel ${row.gameId}`;
   const label = pick ? pick.abbr : `Spiel ${matchup}`;
-  const hasFlags = row.tiebreaker || row.deviation || previous !== null || (row.locked && !readOnly && !finished);
+  const showCandidate = candidate && !row.deviation && !row.locked && !readOnly;
+  const hasFlags = row.tiebreaker || row.deviation || showCandidate || previous !== null || (row.locked && !readOnly && !finished);
   const teamCls = (t: Team | null) => (pick && t ? (t.id === pick.id ? "tip-team tip-team-pick" : "tip-team tip-team-other") : "tip-team");
   const ariaScore = finished && game ? `, Endstand ${game.awayScore} zu ${game.homeScore}` : liveText ? `, ${liveText}` : "";
 
@@ -893,8 +900,13 @@ function TipItem({
         <div className="tip-flags">
           {row.tiebreaker && <span className="flag tb-flag">{readOnly || finished ? "Tiebreaker" : "Resultat tippen"}</span>}
           {row.deviation && (
-            <span className="flag flag-dev" title="Bewusste Abweichung vom Favoriten">
-              <span aria-hidden="true">🎯</span> Abweichung
+            <span className="flag flag-dev" title={own ? "Eigene Wahl gegen den Vorschlag der App" : "Abweichung vom Favoriten"}>
+              <span aria-hidden="true">🎯</span> {own ? "deine Abweichung" : "Abweichung"}
+            </span>
+          )}
+          {showCandidate && (
+            <span className="flag flag-candidate" title="Knappes Spiel, Aussenseiter selten getippt">
+              Abweichung möglich
             </span>
           )}
           {previous !== null && (

@@ -1,8 +1,10 @@
 import { useId, useState, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
+import { deviationCandidate } from "../core/deviation";
+import { isLocked } from "../core/tips";
 import type { GameTip } from "../core/tips-schema";
 import { useFactsData } from "./data";
-import { fpiFact, marketFact, picksFact, venueFact } from "./facts";
+import { candidateText, deviationSignals, fpiFact, marketFact, picksFact, venueFact } from "./facts";
 import { Spoken } from "./ui";
 
 const OPEN_KEY = "nfl-facts-open";
@@ -66,19 +68,26 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
 
 /**
  * Block Fakten (D050): Markt mit Linienbewegung, ESPN FPI, Tippverteilung ESPN Pick'em, Spielort und Ruhetage.
+ * Dazu der Hinweis "Abweichung möglich" mit Signalen und die eigene Abweichung (D052), immer sichtbar.
  * hero: im Spielbereich, Markt sichtbar und der Rest einklappbar. card: im Spieldetail von Spiele, alles offen.
- * FPI und Tippverteilung werden nur mit Tippdatei geladen, fehlen sie, fällt der Teil weg.
+ * FPI, Tippverteilung und Ausfälle werden nur mit Tippdatei geladen, fehlen sie, fällt der Teil weg.
  */
 export function GameFacts({
   game,
   tip,
   team,
   variant,
+  now,
+  own = false,
 }: {
   game: Game;
   tip: GameTip | null | undefined;
   team: (id: string) => Team;
   variant: "hero" | "card";
+  /** Zeit in ms für die Sperre ab Kickoff. */
+  now: number;
+  /** true, wenn der angezeigte Tipp die eigene Abweichung ist. */
+  own?: boolean;
 }) {
   const id = useId();
   const [open, setOpen] = useState(readOpen);
@@ -92,6 +101,48 @@ export function GameFacts({
   const away = team(game.awayId);
   const home = team(game.homeId);
   const pickId = tip && tip.level !== "offen" && tip.level !== "nicht_erfasst" ? tip.pickTeamId : null;
+
+  // Kandidat und Signale (D052): aus dem Vorschlag der App (pHome), nicht aus der eigenen Wahl
+  const nowIso = new Date(now).toISOString();
+  const tipOpen = Boolean(tip) && !tip!.locked && !isLocked(game, nowIso);
+  const candidate = tip ? deviationCandidate(tip, game, facts?.picks?.games.find((g) => g.gameId === game.id), nowIso) : null;
+  const signals =
+    tip && tipOpen
+      ? deviationSignals({
+          tip,
+          game,
+          fpi: facts?.fpi?.games.find((g) => g.gameId === game.id),
+          injuries: facts?.injuries,
+          abbr,
+        })
+      : [];
+  const suggestionId = tip && tip.pHome !== null ? (tip.pHome >= 0.5 ? game.homeId : game.awayId) : null;
+  const choice =
+    candidate || (own && pickId) || signals.length > 0 ? (
+      <div className="facts-choice" role="group" aria-label="Abweichung">
+        {own && pickId && (
+          <p className="facts-choice-line">
+            <span className="facts-choice-tag facts-choice-own">Deine Abweichung</span> Du tippst {abbr(pickId)}
+            {suggestionId && suggestionId !== pickId ? `, Vorschlag der App ist ${abbr(suggestionId)}.` : "."}
+          </p>
+        )}
+        {candidate && (
+          <p className="facts-choice-line">
+            <span className="facts-choice-tag">Abweichung möglich</span> {candidateText(candidate, abbr)}
+          </p>
+        )}
+        {signals.length > 0 && (
+          <ul className="facts-signals" aria-label="Signale für den Aussenseiter">
+            {signals.map((sig) => (
+              <li key={sig.kind}>
+                <FlagIcon />
+                <span>{sig.text}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ) : null;
 
   const marketRow = market && (
     <Row label="Markt">
@@ -189,12 +240,13 @@ export function GameFacts({
   );
 
   const more = [fpiRow, picksRow, placeRow, restRow].filter(Boolean);
-  if (!marketRow && more.length === 0) return null;
+  if (!marketRow && more.length === 0 && !choice) return null;
 
   if (variant === "card") {
     return (
       <section aria-label="Fakten" className="facts facts-card">
         <h2>Fakten</h2>
+        {choice}
         <dl className="facts-list">
           {marketRow}
           {more}
@@ -211,6 +263,7 @@ export function GameFacts({
   };
   return (
     <section aria-label="Fakten" className="facts facts-hero">
+      {choice}
       {marketRow && <dl className="facts-list">{marketRow}</dl>}
       {more.length > 0 && (
         <>

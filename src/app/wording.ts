@@ -70,43 +70,6 @@ export function spreadText(odds: Odds | null, homeAbbr: string, awayAbbr: string
   return `Linie ${fav} −${Number.isInteger(size) ? size : size.toFixed(1)}`;
 }
 
-export interface DeviationInput {
-  pickAbbr: string;
-  pickProb: number | null;
-  /** Grundtipp (firstPickTeamId) mit seiner Wahrscheinlichkeit. */
-  baseAbbr: string | null;
-  baseProb: number | null;
-  spread: string | null;
-  maxDeviations: number;
-  /** Rückstand auf Platz 1 in Punkten, 0 bei Führung, null ohne Rangliste. */
-  gap: number | null;
-}
-
-const pctOf = (p: number | null) => (p === null ? null : `${Math.round(p * 100)} %`);
-
-/**
- * Begründung einer Abweichung in zwei Sätzen: was der Grundtipp war und warum bewusst abgewichen wird.
- * Beispiel: "Grundtipp ATL 59 %, Linie ATL −3. Bewusster Aussenseitertipp CIN 41 %, erlaubt sind diese
- * Woche 2 Abweichungen wegen 26 Punkten Rückstand auf Platz 1."
- */
-export function deviationReason(i: DeviationInput): string {
-  const base =
-    i.baseAbbr && i.baseAbbr !== i.pickAbbr
-      ? `Grundtipp ${i.baseAbbr}${pctOf(i.baseProb) ? ` ${pctOf(i.baseProb)}` : ""}`
-      : "Favorit laut Quote";
-  const first = [base, i.spread].filter(Boolean).join(", ");
-  const n = i.maxDeviations;
-  const allowed = `erlaubt ${n === 1 ? "ist" : "sind"} diese Woche ${n} ${n === 1 ? "Abweichung" : "Abweichungen"}`;
-  const why =
-    i.gap === null
-      ? ""
-      : i.gap > 0
-        ? ` wegen ${i.gap} ${i.gap === 1 ? "Punkt" : "Punkten"} Rückstand auf Platz 1`
-        : " trotz Führung";
-  const pick = `${i.pickAbbr}${pctOf(i.pickProb) ? ` ${pctOf(i.pickProb)}` : ""}`;
-  return `${first}. Bewusster Aussenseitertipp ${pick}, ${allowed}${why}.`;
-}
-
 /**
  * Kurzer, verständlicher Text zu einem Ladefehler. Der technische Text mit Dateiname bleibt in den
  * einklappbaren Details.

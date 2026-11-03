@@ -162,12 +162,20 @@ export function possibleGamesThrough(asOfWeek: number, knownCounts: ReadonlyMap<
 }
 
 /** Spieler für simulateFirstPlace. Der eigene Spieler tippt künftig jedes Spiel (Push vor Tippschluss, D022). */
-export function simPlayers(cal: readonly PlayerCalibration[], me: string): SimPlayer[] {
-  return cal.map((c) =>
-    c.id === me
-      ? { id: c.id, points: c.points, pickRate: 1 }
-      : { id: c.id, points: c.points, pickRate: c.pickRate, upsetRate: c.upsetRate },
-  );
+/**
+ * Spieler für die Simulation. Tippquote "geschaetzt": alle, auch der eigene Spieler, mit der aus den Punkten
+ * geschätzten Tippquote. "voll": alle tippen jedes Spiel. So bekommt nie nur der eigene Spieler 100 Prozent
+ * (Review D052). Die Aussenseiterquote gilt nur für Gegner, der eigene Spieler weicht k mal pro Woche ab.
+ */
+export type PickRateMode = "geschaetzt" | "voll";
+
+export function simPlayers(cal: readonly PlayerCalibration[], me: string, mode: PickRateMode = "geschaetzt"): SimPlayer[] {
+  return cal.map((c) => {
+    const pickRate = mode === "voll" ? 1 : c.pickRate;
+    return c.id === me
+      ? { id: c.id, points: c.points, pickRate }
+      : { id: c.id, points: c.points, pickRate, upsetRate: c.upsetRate };
+  });
 }
 
 /** Verbleibende Regular Season Wochen nach dem Stand asOfWeek (Woche 18 ist die letzte). */

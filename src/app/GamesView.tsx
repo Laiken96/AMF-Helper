@@ -20,7 +20,7 @@ import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
 import { GameFacts } from "./GameFacts";
 import { GameSheet } from "./Sheet";
-import { usePlayer, useShownTips } from "./player";
+import { useChoices, usePlayer, useShownTips } from "./player";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { formatStand, statusWord } from "./wording";
@@ -79,9 +79,10 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
   const live = useLiveScores(phase === "vergangen" ? null : ref, week?.games ?? null);
   const weeks = navWeeks(data);
-  // Derselbe Tipp wie im Reiter Tipps: für den gewählten Spieler neu gerechnet (D050)
+  // Derselbe Tipp wie im Reiter Tipps: Vorschlag der App mit der eigenen Wahl des Spielers (D050, D052)
   const player = usePlayer(data.standings ?? null);
-  const shownTips = useShownTips(data.tips, week?.games, data.standings ?? null, phase, player.player);
+  const { choices } = useChoices(player.player, ref);
+  const shownTips = useShownTips(data.tips, week?.games, data.standings ?? null, phase, player.player, choices);
 
   // Standardspiel für den Detailbereich: laufendes Spiel, sonst nächstes Spiel, sonst das letzte beendete
   const games = week?.games;
@@ -144,6 +145,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   }
 
   const tipOf = (gameId: string) => shownTips?.tips.find((t) => t.gameId === gameId);
+  const ownOf = (gameId: string) => Boolean(choices[gameId] && tipOf(gameId)?.deviation);
   const list = (
     <ScheduleList
       games={week.games}
@@ -166,6 +168,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
                 game={shownGame}
                 live={live.games.get(shownGame.id)}
                 tip={tipOf(shownGame.id)}
+                own={ownOf(shownGame.id)}
                 team={team}
                 stale={live.error}
                 now={now}
@@ -198,6 +201,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
               game={selectedGame}
               live={live.games.get(selectedGame.id)}
               tip={tipOf(selectedGame.id)}
+              own={ownOf(selectedGame.id)}
               team={team}
               stale={live.error}
               now={now}
@@ -442,12 +446,12 @@ const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
   ungewertet: "ungewertet",
 };
 
-function tipText(tip: GameTip | undefined, team: (id: string) => Team): string {
+function tipText(tip: GameTip | undefined, team: (id: string) => Team, own = false): string {
   if (!tip) return "keine Tippliste";
   if (tip.level === "nicht_erfasst") return "kein App Tipp, die App lief bei Kickoff noch nicht";
   if (tip.level === "offen" || !tip.pickTeamId) return "offen, noch keine Quote";
   const pct = tip.pickProb === null ? "" : `, ${Math.round(tip.pickProb * 100)} %`;
-  return `${team(tip.pickTeamId).abbr}${pct}, ${LEVEL_TEXT[tip.level]}${tip.deviation ? ", Abweichung" : ""}`;
+  return `${team(tip.pickTeamId).abbr}${pct}, ${LEVEL_TEXT[tip.level]}${tip.deviation ? (own ? ", deine Abweichung" : ", Abweichung") : ""}`;
 }
 
 /**
@@ -458,6 +462,7 @@ function GameDetail({
   game,
   live,
   tip,
+  own = false,
   team,
   stale,
   now,
@@ -467,6 +472,8 @@ function GameDetail({
   game: Game;
   live: LiveGame | undefined;
   tip: GameTip | undefined;
+  /** Angezeigter Tipp ist die eigene Abweichung (D052). */
+  own?: boolean;
   team: (id: string) => Team;
   stale: boolean;
   now: number;
@@ -568,7 +575,7 @@ function GameDetail({
           </div>
           <div>
             <dt>Tipp</dt>
-            <dd>{tipText(tip, team)}</dd>
+            <dd>{tipText(tip, team, own)}</dd>
           </div>
           {final && (
             <div>
@@ -586,7 +593,7 @@ function GameDetail({
           )}
         </dl>
       </section>
-      <GameFacts key={game.id} game={game} tip={tip} team={team} variant="card" />
+      <GameFacts key={game.id} game={game} tip={tip} team={team} variant="card" now={now} own={own} />
       {tip && tip.level !== "nicht_erfasst" && (
         <a className="btn game-detail-link" href={tipsHref}>
           Zur Tippseite

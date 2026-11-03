@@ -1,7 +1,7 @@
 // Tipplogik Sprint 2. Reine Funktionen ohne Node APIs, nutzbar in Jobs und App.
-// Regeln siehe sprints/sprint-02.md, D010, D023, D024, D025, D026.
+// Regeln siehe sprints/sprint-02.md, D010, D023, D024, D025, D052. Seit D052 wählt die App keine Abweichungen
+// mehr, der Vorschlag ist immer der Favorit. Eine Abweichung wählt der Nutzer selbst in der App (player.ts).
 import { compareGames } from "./espn";
-import { standingsAppliesTo } from "./standings";
 import type { Game, WeekFile } from "./schema";
 import {
   TIPS_SCHEMA_VERSION,
@@ -18,10 +18,9 @@ export const LEVEL_KLAR = 0.75;
 export const LEVEL_FAVORIT = 0.6;
 /** Tiebreaker ohne Over/Under: Favorit 23, Aussenseiter 20. */
 export const STANDARD_TIEBREAKER = { favorite: 23, underdog: 20 } as const;
-/** Wochen der Regular Season und Länge des Saisonendes nach D026. */
+/** Wochen der Regular Season. */
 export const REGULAR_SEASON_WEEKS = 18;
-export const LATE_SEASON_WEEKS = 3;
-/** Vorsprung des getippten Aussenseiters im Tiebreaker nach D026. */
+/** Vorsprung des getippten Aussenseiters im Tiebreaker nach D026, gilt für die eigene Abweichung (D052). */
 export const UPSET_MARGIN = 3;
 
 export type TipLevel = GameTip["level"];
@@ -89,7 +88,7 @@ export function tipLevel(favoriteProb: number | null): TipLevel {
 }
 
 /**
- * Rückstand auf Platz 1 (Ziel ist immer der Sieg, D028). In Führung oder gleichauf mit der Spitze ergibt 0.
+ * Rückstand auf Platz 1, nur Information seit D052. In Führung oder gleichauf mit der Spitze ergibt 0.
  * Wirft, wenn das eigene Kürzel fehlt.
  */
 export function gapToTarget(standings: StandingsFile): number {
@@ -97,24 +96,6 @@ export function gapToTarget(standings: StandingsFile): number {
   if (!mine) throw new Error(`Kürzel ${standings.me} fehlt in der Rangliste`);
   const top = Math.max(...standings.players.map((p) => p.points));
   return Math.max(0, top - mine.points);
-}
-
-/** Verbleibende Regular Season Wochen inklusive der aktuellen, mindestens 1. Postseason zählt als 1. */
-export function remainingWeeks(seasonType: number, week: number): number {
-  if (seasonType === 3) return 1;
-  return Math.max(1, REGULAR_SEASON_WEEKS - week + 1);
-}
-
-/** Erlaubte Abweichungen nach D026 aus dem Rückstand pro Restwoche. */
-export function maxDeviations(gap: number, seasonType: number, week: number): number {
-  if (gap <= 0) return 0;
-  const remaining = remainingWeeks(seasonType, week);
-  const late = seasonType === 3 || remaining <= LATE_SEASON_WEEKS;
-  if (late && gap > 2) return 3;
-  const perWeek = gap / remaining;
-  if (perWeek <= 1) return 0;
-  if (perWeek <= 2) return 1;
-  return 2;
 }
 
 /** Gesperrt ab Kickoff oder sobald das Spiel nicht mehr geplant ist (D023). */
@@ -143,20 +124,6 @@ export function favoriteTip(game: Game, odds: Odds | null): Pick<GameTip, "pHome
   const homePick = pHome >= 0.5;
   const pickProb = homePick ? pHome : roundProb(1 - pHome);
   return { pHome, pickTeamId: homePick ? game.homeId : game.awayId, pickProb, level: tipLevel(pickProb) };
-}
-
-/**
- * Wählt die Abweichungen: Spiele mit Lage unklar, nicht gesperrt, aufsteigend nach Favoritenwahrscheinlichkeit.
- * Bereits gesperrte Abweichungen zählen gegen das Wochenbudget. Liefert die gameIds.
- */
-export function chooseDeviations(tips: readonly GameTip[], max: number): Set<string> {
-  const used = tips.filter((t) => t.locked && t.deviation).length;
-  const budget = Math.max(0, max - used);
-  const candidates = tips
-    .map((t, index) => ({ t, index }))
-    .filter(({ t }) => !t.locked && t.level === "unklar" && t.pickProb !== null)
-    .sort((a, b) => a.t.pickProb! - b.t.pickProb! || a.index - b.index);
-  return new Set(candidates.slice(0, budget).map(({ t }) => t.gameId));
 }
 
 /**
@@ -205,21 +172,18 @@ export interface BuildTipsInput {
   week: WeekFile;
   /** Quoten pro gameId aus parseOdds, fehlender Eintrag gilt als null. */
   odds: Readonly<Record<string, Odds | null>>;
+  /** Rangliste, seit D052 ohne Einfluss auf die Tipps. Bleibt im Aufruf, damit der Job sie weiter prüft. */
   standings: StandingsFile;
   /** Bestehende Tippdatei derselben Woche oder null. */
   existing: TipsFile | null;
   now: string;
-  /**
-   * false: maxDeviations aus der Rangliste neu berechnen, obwohl eine Datei existiert. Gilt für kommende
-   * Wochen, die vor ihrem ersten Lauf als aktuelle Woche schon Tipps haben (D034, D042). Standard true.
-   * Sobald ein Spiel der Woche gesperrt ist, bleibt der bestehende Wert immer.
-   */
-  freezeMaxDeviations?: boolean;
 }
 
 /**
  * Baut die Tippdatei der Woche und führt sie mit der bestehenden zusammen.
  * Gesperrte Tipps werden nie neu berechnet, der Grundtipp (firstPickTeamId) wird nie überschrieben.
+ * Nicht gesperrte Spiele bekommen immer den Favoriten (D052). Eine früher gewählte Abweichung eines nicht
+ * gesperrten Spiels fällt damit beim nächsten Lauf weg, gesperrte Abweichungen bleiben unverändert.
  */
 export function buildTipsFile(input: BuildTipsInput): TipsFile {
   const { week, now } = input;
@@ -228,15 +192,6 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
     input.existing.season === week.season &&
     input.existing.seasonType === week.seasonType &&
     input.existing.week === week.week;
-  // Pro Woche eingefroren: eine neue Rangliste wirkt erst ab der nächsten Woche. Abweichungen ungesperrter
-  // Spiele werden mit diesem Wert trotzdem neu gewählt.
-  const frozen =
-    sameWeek && (input.freezeMaxDeviations !== false || input.existing!.tips.some((t) => t.locked));
-  const max = frozen ? input.existing!.maxDeviations : maxDeviations(
-        standingsAppliesTo(input.standings, week.season) ? gapToTarget(input.standings) : 0,
-        week.seasonType,
-        week.week,
-      );
   const prevById = new Map<string, GameTip>(sameWeek ? input.existing!.tips.map((t) => [t.gameId, t]) : []);
   const games = [...week.games].sort(compareGames);
 
@@ -287,28 +242,15 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
     };
   });
 
-  // Schritt 2: Abweichungen nur bei nicht gesperrten Spielen, dann Grundtipp und Änderungsmarke.
-  const deviations = chooseDeviations(tips, max);
-  const gamesById = new Map(games.map((g) => [g.id, g]));
+  // Schritt 2: Grundtipp und Änderungsmarke. Keine Abweichungen mehr (D052).
   const merged = tips.map((tip): GameTip => {
     if (carried.has(tip.gameId)) return tip;
-    const game = gamesById.get(tip.gameId)!;
-    let next = tip;
-    if (deviations.has(tip.gameId)) {
-      const homePick = tip.pickTeamId === game.homeId;
-      next = {
-        ...tip,
-        pickTeamId: homePick ? game.awayId : game.homeId,
-        pickProb: roundProb(1 - tip.pickProb!),
-        deviation: true,
-      };
-    }
-    // Grundtipp: erster Favoritentipp mit Quote vor jeder Abweichung, danach nie überschrieben (D023).
+    // Grundtipp: erster Favoritentipp mit Quote, danach nie überschrieben (D023).
     const firstPickTeamId = tip.firstPickTeamId ?? tip.pickTeamId;
     return {
-      ...next,
+      ...tip,
       firstPickTeamId,
-      changedSinceFirst: firstPickTeamId !== null && next.pickTeamId !== null && next.pickTeamId !== firstPickTeamId,
+      changedSinceFirst: firstPickTeamId !== null && tip.pickTeamId !== null && tip.pickTeamId !== firstPickTeamId,
     };
   });
 
@@ -340,7 +282,8 @@ export function buildTipsFile(input: BuildTipsInput): TipsFile {
     seasonType: week.seasonType,
     week: week.week,
     updatedAt: now,
-    maxDeviations: max,
+    // Feld bleibt im Datenvertrag (Regel 3), seit D052 immer 0.
+    maxDeviations: 0,
     tips: merged,
     tiebreakers,
   });

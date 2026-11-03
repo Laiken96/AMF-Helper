@@ -3,15 +3,12 @@ import { describe, expect, it } from "vitest";
 import type { Game, WeekFile } from "../src/core/schema";
 import {
   buildTipsFile,
-  chooseDeviations,
   erf,
   gapToTarget,
   favoriteTip,
   homeWinProbability,
   isLocked,
-  maxDeviations,
   normalCdf,
-  remainingWeeks,
   sameTipsContent,
   tiebreakerFor,
   tiebreakerGames,
@@ -70,7 +67,7 @@ function standings(points: Record<string, number>, me = "JA"): StandingsFile {
     players: Object.entries(points).map(([id, p]) => ({ id, points: p })),
   };
 }
-const BEHIND = standings({ MS: 71, JA: 45 }); // 26 Punkte Rückstand in Week 9, 2.6 pro Woche ergibt 2 Abweichungen
+const BEHIND = standings({ MS: 71, JA: 45 }); // 26 Punkte Rückstand, seit D052 ohne Einfluss auf die Tipps
 const LEADER = standings({ MS: 40, JA: 45 });
 
 describe("Normalverteilung", () => {
@@ -118,42 +115,9 @@ describe("Lage", () => {
   });
 });
 
-describe("maxDeviations nach D026", () => {
-  it("Restwochen inklusive aktueller Woche", () => {
-    expect(remainingWeeks(2, 9)).toBe(10);
-    expect(remainingWeeks(2, 18)).toBe(1);
-    expect(remainingWeeks(2, 20)).toBe(1);
-    expect(remainingWeeks(3, 2)).toBe(1);
-  });
-  it("Grenzen Rückstand pro Restwoche bei 10 Restwochen", () => {
-    expect(maxDeviations(0, 2, 9)).toBe(0);
-    expect(maxDeviations(10, 2, 9)).toBe(0); // 1.0
-    expect(maxDeviations(11, 2, 9)).toBe(1); // 1.1
-    expect(maxDeviations(20, 2, 9)).toBe(1); // 2.0
-    expect(maxDeviations(21, 2, 9)).toBe(2); // 2.1
-  });
-  it("letzte 3 Wochen mit über 2 Punkten Rückstand ergibt 3", () => {
-    expect(maxDeviations(3, 2, 16)).toBe(3);
-    expect(maxDeviations(3, 2, 15)).toBe(0); // 4 Restwochen, 0.75 pro Woche
-    expect(maxDeviations(5, 2, 15)).toBe(1); // 4 Restwochen, 1.25 pro Woche
-  });
-  it("Saisonende Grenzen", () => {
-    expect(maxDeviations(2, 2, 16)).toBe(0); // 3 Restwochen, 0.67 pro Woche
-    expect(maxDeviations(2, 2, 18)).toBe(1); // 1 Restwoche, 2.0 pro Woche
-    expect(maxDeviations(1, 2, 18)).toBe(0);
-    expect(maxDeviations(3, 2, 18)).toBe(3);
-  });
-  it("Postseason wie letzte 3 Wochen", () => {
-    expect(maxDeviations(3, 3, 1)).toBe(3);
-    expect(maxDeviations(2, 3, 1)).toBe(1);
-    expect(maxDeviations(0, 3, 1)).toBe(0);
-  });
-  it("heutiger Stand: JA 45, Ziel MS 71 auf Platz 1, Week 9 ergibt 2 (D028)", () => {
-    const today = standings({ MS: 71, LM: 69, DH: 68, CZ: 51, JA: 45 });
-    expect(gapToTarget(today)).toBe(26);
-    expect(maxDeviations(gapToTarget(today), 2, 9)).toBe(2);
-  });
-  it("Ziel ist immer Platz 1 (D028)", () => {
+describe("Rückstand auf Platz 1, nur Information (D052)", () => {
+  it("Rückstand auf die Spitze, in Führung 0", () => {
+    expect(gapToTarget(standings({ MS: 71, LM: 69, DH: 68, CZ: 51, JA: 45 }))).toBe(26);
     expect(gapToTarget(BEHIND)).toBe(26);
     expect(gapToTarget(LEADER)).toBe(0);
     expect(gapToTarget(standings({ MS: 50, JA: 50 }))).toBe(0);
@@ -188,24 +152,6 @@ function tip(gameId: string, pickProb: number | null, extra: Partial<GameTip> = 
     ...extra,
   };
 }
-
-describe("Abweichungen", () => {
-  it("wählt die unklaren Spiele mit kleinster Favoritenwahrscheinlichkeit", () => {
-    const tips = [tip("1", 0.59), tip("2", 0.52), tip("3", 0.8), tip("4", 0.55), tip("5", 0.65), tip("6", null)];
-    expect([...chooseDeviations(tips, 2)].sort()).toEqual(["2", "4"]);
-    expect(chooseDeviations(tips, 0).size).toBe(0);
-    expect([...chooseDeviations(tips, 5)].sort()).toEqual(["1", "2", "4"]);
-  });
-  it("nie gesperrte Spiele, gesperrte Abweichungen zählen gegen das Budget", () => {
-    const tips = [
-      tip("1", 0.51, { locked: true, lockedAt: T0 }),
-      tip("2", 0.55),
-      tip("3", 0.58, { locked: true, lockedAt: T0, deviation: true }),
-      tip("4", 0.57),
-    ];
-    expect([...chooseDeviations(tips, 2)]).toEqual(["2"]);
-  });
-});
 
 describe("Tiebreaker", () => {
   const g = game("1", "2026-11-06T01:15:00Z");
@@ -334,47 +280,70 @@ describe("buildTipsFile", () => {
     expect(TipsFileSchema.safeParse(f).success).toBe(true);
   });
 
-  it("erster Lauf: Favoriten, Abweichungen, Grundtipp, Tiebreaker", () => {
+  it("erster Lauf: immer Favoriten, Grundtipp, Tiebreaker folgt dem Favoriten (D052)", () => {
     const f = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
-    expect(f.maxDeviations).toBe(2);
+    // Auch mit 26 Punkten Rückstand keine Abweichung, das Feld bleibt im Datenvertrag mit 0
+    expect(f.maxDeviations).toBe(0);
+    expect(f.tips.some((t) => t.deviation)).toBe(false);
     const by = Object.fromEntries(f.tips.map((t) => [t.gameId, t]));
-    // unklar: a (0.5879), b (0.5735), mon (0.5735). Kleinste zuerst, bei Gleichstand nach Kickoff.
-    expect(by.b).toMatchObject({ deviation: true, pickTeamId: "ab", pickProb: 0.4265, level: "unklar" });
-    expect(by.mon).toMatchObject({ deviation: true, pickTeamId: "hmon" });
+    expect(by.b).toMatchObject({ deviation: false, pickTeamId: "hb", pickProb: 0.5735, level: "unklar" });
+    expect(by.mon).toMatchObject({ deviation: false, pickTeamId: "amon" });
     expect(by.a).toMatchObject({ deviation: false, pickTeamId: "ha" });
     expect(by.c).toMatchObject({ level: "klar", pickTeamId: "hc" });
     expect(by.d).toMatchObject({ level: "offen", pickTeamId: null, firstPickTeamId: null });
-    // Grundtipp ist immer der Favorit vor der Abweichung (D023)
-    expect(by.b).toMatchObject({ firstPickTeamId: "hb", changedSinceFirst: true });
-    expect(by.c).toMatchObject({ firstPickTeamId: "hc", changedSinceFirst: false });
+    expect(by.b).toMatchObject({ firstPickTeamId: "hb", changedSinceFirst: false });
     expect(f.tiebreakers.map((t) => t.slot)).toEqual(["thursday", "monday"]);
     expect(f.tiebreakers[0]).toMatchObject({ gameId: "thu", homePoints: 18, awayPoints: 26 });
-    // Montagsspiel ist Abweichung: getipptes Heimteam gewinnt 25 zu 22
-    expect(f.tiebreakers[1]).toMatchObject({ gameId: "mon", homePoints: 25, awayPoints: 22 });
+    // Montagsspiel: Auswärtsfavorit gewinnt nach Spread und Over/Under 25 zu 22
+    expect(f.tiebreakers[1]).toMatchObject({ gameId: "mon", homePoints: 22, awayPoints: 25 });
   });
 
-  it("ohne Rückstand keine Abweichung", () => {
-    const f = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: null, now: T0 });
-    expect(f.maxDeviations).toBe(0);
-    expect(f.tips.some((t) => t.deviation)).toBe(false);
-  });
-
-  it("maxDeviations bleibt pro Woche eingefroren, Abweichungen werden mit dem Wert neu gewählt", () => {
-    const first = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: null, now: T0 });
-    expect(first.maxDeviations).toBe(0);
-    // Neue Rangliste mit Rückstand während der Woche wirkt erst ab der nächsten Woche.
-    const again = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: first, now: T0 });
-    expect(again.maxDeviations).toBe(0);
-    expect(again.tips.some((t) => t.deviation)).toBe(false);
-    // Umgekehrt bleibt der eingefrorene Wert 2, die Abweichungen folgen den neuen Quoten.
+  it("Rangliste ändert nichts an den Tipps", () => {
     const behind = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
-    const moved = { ...baseOdds, a: odds(-1), b: odds(-7) };
-    const next = buildTipsFile({ week: weekOf(games), odds: moved, standings: LEADER, existing: behind, now: T0 });
-    expect(next.maxDeviations).toBe(2);
-    expect(next.tips.filter((t) => t.deviation).map((t) => t.gameId).sort()).toEqual(["a", "mon"]);
-    // Andere Woche rechnet neu.
-    const otherWeek = buildTipsFile({ week: { ...weekOf(games), week: 10 }, odds: baseOdds, standings: BEHIND, existing: first, now: T0 });
-    expect(otherWeek.maxDeviations).toBeGreaterThan(0);
+    const leader = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: LEADER, existing: null, now: T0 });
+    expect(sameTipsContent(behind, leader)).toBe(true);
+  });
+
+  // Datei aus der Zeit vor D052 mit eingefrorenen Abweichungen, wie Week 9 am 2026-11-02
+  function legacyFile(now: string) {
+    const f = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
+    const flip = (id: string, dog: string, prob: number) =>
+      f.tips.map((t) => (t.gameId === id ? { ...t, pickTeamId: dog, pickProb: prob, deviation: true, changedSinceFirst: true } : t));
+    const tips = flip("b", "ab", 0.4265);
+    const withMon = tips.map((t) => (t.gameId === "mon" ? { ...t, pickTeamId: "hmon", pickProb: 0.4265, deviation: true, changedSinceFirst: true } : t));
+    return {
+      ...f,
+      updatedAt: now,
+      maxDeviations: 2,
+      tips: withMon,
+      tiebreakers: f.tiebreakers.map((tb) => (tb.slot === "monday" ? { ...tb, homePoints: 25, awayPoints: 22 } : tb)),
+    };
+  }
+
+  it("eingefrorene Abweichungen nicht gesperrter Spiele werden verworfen (D052)", () => {
+    const legacy = legacyFile(T0);
+    const next = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: legacy, now: T0 });
+    expect(next.maxDeviations).toBe(0);
+    expect(next.tips.some((t) => t.deviation)).toBe(false);
+    // Zurück zum Favoriten, Grundtipp war schon der Favorit, darum keine Änderungsmarke
+    expect(next.tips.find((t) => t.gameId === "b")).toMatchObject({ pickTeamId: "hb", firstPickTeamId: "hb", changedSinceFirst: false });
+    expect(next.tips.find((t) => t.gameId === "mon")).toMatchObject({ pickTeamId: "amon", firstPickTeamId: "amon", changedSinceFirst: false });
+    expect(next.tips.some((t) => t.changedSinceFirst)).toBe(false);
+    // Tiebreaker folgt wieder dem Favoriten
+    expect(next.tiebreakers[1]).toMatchObject({ gameId: "mon", homePoints: 22, awayPoints: 25 });
+    expect(TipsFileSchema.safeParse(next).success).toBe(true);
+  });
+
+  it("gesperrte Abweichung aus der Zeit vor D052 bleibt unverändert", () => {
+    const g2 = games.map((g) => (g.id === "b" ? { ...g, kickoffUtc: "2026-11-07T18:00:00Z" } : g));
+    const legacy = { ...legacyFile(T0) };
+    const afterB = "2026-11-07T19:00:00Z";
+    const next = buildTipsFile({ week: weekOf(g2), odds: baseOdds, standings: BEHIND, existing: legacy, now: afterB });
+    const prevB = legacy.tips.find((t) => t.gameId === "b")!;
+    expect(next.tips.find((t) => t.gameId === "b")).toEqual({ ...prevB, locked: true, lockedAt: afterB });
+    // Nur das gesperrte Spiel behält die Abweichung
+    expect(next.tips.filter((t) => t.deviation).map((t) => t.gameId)).toEqual(["b"]);
+    expect(next.maxDeviations).toBe(0);
   });
 
   it("Grundtipp bleibt und Änderung wird markiert", () => {
@@ -428,15 +397,6 @@ describe("buildTipsFile", () => {
     const next = buildTipsFile({ week: weekOf(suspended), odds: baseOdds, standings: BEHIND, existing: locked, now: afterThu });
     expect(next.tiebreakers.map((t) => t.slot)).toEqual(["thursday", "monday"]);
     expect(next.tiebreakers[0]).toEqual(first.tiebreakers[0]);
-  });
-
-  it("gesperrte Abweichung bleibt und zählt gegen das Budget", () => {
-    const g2 = games.map((g) => (g.id === "b" ? { ...g, kickoffUtc: "2026-11-07T18:00:00Z" } : g));
-    const first = buildTipsFile({ week: weekOf(g2), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
-    expect(first.tips.find((t) => t.gameId === "b")!.deviation).toBe(true);
-    const next = buildTipsFile({ week: weekOf(g2), odds: baseOdds, standings: BEHIND, existing: first, now: "2026-11-07T19:00:00Z" });
-    expect(next.tips.find((t) => t.gameId === "b")).toMatchObject({ deviation: true, locked: true });
-    expect(next.tips.filter((t) => t.deviation).map((t) => t.gameId).sort()).toEqual(["b", "mon"]);
   });
 
   it("beim ersten Lauf gesperrt ohne Vorgänger: nicht_erfasst, kein Tiebreaker", () => {

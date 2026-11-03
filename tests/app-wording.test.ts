@@ -2,7 +2,6 @@ import { describe, expect, it } from "vitest";
 import { beforeAppStart } from "../src/app/data";
 import {
   SLOT_SHORT,
-  deviationReason,
   formatCountdown,
   formatStand,
   friendlyLoadError,
@@ -49,15 +48,6 @@ describe("Wording D050", () => {
     expect(spreadText(odds(-2.5), "NO", "CLE")).toBe("Linie NO −2.5");
     expect(spreadText(odds(0), "NO", "CLE")).toBe("Linie ausgeglichen");
     expect(spreadText(null, "NO", "CLE")).toBeNull();
-  });
-
-  it("Abweichung begründet mit Grundtipp, Linie und Rückstand", () => {
-    expect(
-      deviationReason({ pickAbbr: "ATL", pickProb: 0.41, baseAbbr: "CIN", baseProb: 0.59, spread: "Linie CIN −3", maxDeviations: 2, gap: 26 }),
-    ).toBe("Grundtipp CIN 59 %, Linie CIN −3. Bewusster Aussenseitertipp ATL 41 %, erlaubt sind diese Woche 2 Abweichungen wegen 26 Punkten Rückstand auf Platz 1.");
-    expect(
-      deviationReason({ pickAbbr: "ATL", pickProb: null, baseAbbr: null, baseProb: null, spread: null, maxDeviations: 1, gap: 1 }),
-    ).toBe("Favorit laut Quote. Bewusster Aussenseitertipp ATL, erlaubt ist diese Woche 1 Abweichung wegen 1 Punkt Rückstand auf Platz 1.");
   });
 
   it("Ladefehler ohne Dateinamen im Haupttext", () => {

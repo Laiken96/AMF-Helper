@@ -183,17 +183,19 @@ describe("calibrationWeekFrom", () => {
 });
 
 describe("simPlayers und Restwochen", () => {
-  it("eigener Spieler tippt alles, Gegner mit Kalibrierung", () => {
-    const p = simPlayers(
-      [
-        { id: "JA", points: 45, pickRate: 0.6, pickRateFromData: true, upsetRate: 0.13, upsetFromData: false, upsetGames: 0, upsetRaw: null },
-        { id: "MS", points: 71, pickRate: 0.95, pickRateFromData: true, upsetRate: 0.2, upsetFromData: true, upsetGames: 32, upsetRaw: 0.3 },
-      ],
-      "JA",
-    );
-    expect(p).toEqual([
-      { id: "JA", points: 45, pickRate: 1 },
+  it("alle mit derselben geschätzten Tippquote, eigener Spieler nicht als Einziger mit 100 Prozent (D052)", () => {
+    const cal = [
+      { id: "JA", points: 45, pickRate: 0.6, pickRateFromData: true, upsetRate: 0.13, upsetFromData: false, upsetGames: 0, upsetRaw: null },
+      { id: "MS", points: 71, pickRate: 0.95, pickRateFromData: true, upsetRate: 0.2, upsetFromData: true, upsetGames: 32, upsetRaw: 0.3 },
+    ];
+    expect(simPlayers(cal, "JA")).toEqual([
+      { id: "JA", points: 45, pickRate: 0.6 },
       { id: "MS", points: 71, pickRate: 0.95, upsetRate: 0.2 },
+    ]);
+    // Zweite Variante: alle tippen jedes Spiel
+    expect(simPlayers(cal, "JA", "voll")).toEqual([
+      { id: "JA", points: 45, pickRate: 1 },
+      { id: "MS", points: 71, pickRate: 1, upsetRate: 0.2 },
     ]);
   });
   it("Regular Season bis Week 18, Postseason 0", () => {
@@ -275,6 +277,14 @@ describe("buildSimSetup", () => {
     expect(out.results.map((r) => r.k)).toEqual([0, 1, 2, 3]);
     for (const r of out.results) expect(r.winChance).toBeLessThan(0.02);
     expect(out.results[0]!.meanPoints).toBeGreaterThan(out.results[3]!.meanPoints);
+    // Chance auf jeden Rang summiert sich auf 1, Rang 1 ist die Chance auf Platz 1
+    for (const r of out.results) {
+      expect(r.rankChances).toHaveLength(5);
+      expect(r.rankChances.reduce((a, b) => a + b, 0)).toBeCloseTo(1, 3);
+      expect(r.rankChances[0]).toBeCloseTo(r.winChance, 3);
+    }
+    const full = simulateFirstPlace(buildSimSetup({ ...base, standings: standings(), runs: 2000, pickRates: "voll" })!.input);
+    expect(full.results.every((r) => r.winChance < 0.02)).toBe(true);
   });
 });
 

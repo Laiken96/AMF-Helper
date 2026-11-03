@@ -1,6 +1,6 @@
-// Aufbau der Simulation Platz 1 aus den Saisondaten (D050, D051). Reine Funktion, nutzbar in App und Skripten.
-// Verbindet Kalibrierung (calibrate.ts) und Simulation (simulate.ts). Die App ändert damit keine Regel,
-// das Ergebnis ist Entscheidungsgrundlage für D026 und D028.
+// Aufbau der Simulation aus den Saisondaten (D050, D051). Reine Funktion, nutzbar in App und Skripten.
+// Verbindet Kalibrierung (calibrate.ts) und Simulation (simulate.ts). Nur Information (D052), die App wählt
+// damit keine Abweichung.
 import {
   calibratePlayers,
   calibrationWeekFrom,
@@ -8,6 +8,7 @@ import {
   remainingRegularWeeks,
   simPlayers,
   type CalibrationWeek,
+  type PickRateMode,
   type PlayerCalibration,
 } from "./calibrate";
 import type { ReviewFile, StandingsHistory } from "./review-schema";
@@ -25,6 +26,8 @@ export interface SimSetupInput {
   me?: string | null;
   /** Spielzahl bekannter Wochen der Regular Season, z. B. aus den Wochendateien. */
   weekGameCounts?: ReadonlyMap<number, number>;
+  /** Tippquote aller Spieler: aus den Punkten geschätzt (Standard) oder voll für alle. */
+  pickRates?: PickRateMode;
   runs?: number;
   seed?: number;
 }
@@ -98,7 +101,7 @@ export function buildSimSetup(src: SimSetupInput): SimSetup | null {
     calibrationWeeks: calWeeks.length,
     players,
     input: {
-      players: simPlayers(players, me),
+      players: simPlayers(players, me, src.pickRates ?? "geschaetzt"),
       me,
       remainingWeeks,
       knownWeeks,
