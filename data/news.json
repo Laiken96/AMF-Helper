@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T16:47:18Z",
+  "updatedAt": "2026-11-03T17:47:27Z",
   "items": [
+    {
+      "id": "4a7fc84bdaaf6283",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-jerry-jones-wants-george-pickens-to-be-more-involved",
+      "title": "Cowboys' Jerry Jones has blunt response on George Pickens' useage: 'He needs the ball coming his way more'",
+      "summary": "Pickens is coming off his lowest snap count since being traded to Dallas",
+      "publishedAt": "2026-11-03T17:24:25Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "bc9c6491c357f686",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jerry-jones-coaching-salaries-cowboys-playoff-drought",
+      "title": "Jerry Jones' coaching philosophy explains why Cowboys can't end playoff drought",
+      "summary": "The Cowboys owner insists coaching investment has no correlation with winning",
+      "publishedAt": "2026-11-03T16:52:14Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "6daff3abbe6dfba7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-i-know-carson-beck-is-prepared-to-go-in-if-need-be",
+      "title": "Mike LaFleur: I know Carson Beck is prepared to go in if need be",
+      "summary": "Cardinals rookie quarterback Carson Beck has earned a promotion.",
+      "publishedAt": "2026-11-03T16:48:11Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "d3cdfa30332cc248",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-credits-mike-kafka-for-big-play-to-amon-ra-st-brown",
+      "title": "Dan Campbell credits Mike Kafka for big play to Amon-Ra St. Brown",
+      "summary": "The Lions ran what may have been the most inventive play of the week in the NFL when wide receiver Amon-Ra St.",
+      "publishedAt": "2026-11-03T16:47:00Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "a63233116370ce3c",
       "source": "pft",
@@ -926,6 +970,18 @@
       ]
     },
     {
+      "id": "264f5909e7353397",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/seahawks-vs-bears-how-to-watch-prediction-odds-caleb-williams",
+      "title": "Seahawks vs. Bears prediction: Caleb Williams faces toughest test yet in Seattle defense",
+      "summary": "The Bears take their surging offense into Seattle for a matchup with one of the NFL's best defenses",
+      "publishedAt": "2026-11-02T22:12:55Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
       "id": "4cdef2fe983d78b7",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-wr-kendrick-bournes-ankle-injury-could-end-his-season",
@@ -1640,64 +1696,6 @@
       "publishedAt": "2026-11-02T13:53:04Z",
       "teamIds": [
         "29"
-      ]
-    },
-    {
-      "id": "c1cdc3e63199ceef",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-i-stand-by-everything-i-say",
-      "title": "Jared Verse: I stand by everything I say",
-      "summary": "Browns defensive end Jared Verse gave the Steelers some fuel ahead of Sunday's games by sharing his thoughts about the team being dirty and vowing to \"make Pittsburgh ours\" in Week 8.",
-      "publishedAt": "2026-11-02T13:43:15Z",
-      "teamIds": [
-        "5",
-        "23"
-      ]
-    },
-    {
-      "id": "962451e593d5978b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-nfl-trade-deadline-george-pickens-destinations",
-      "title": "Cowboys should consider trading George Pickens: 5 logical NFL deadline destinations",
-      "summary": "Pickens received only four targets in Dallas' historic collapse against Arizona, adding urgency to the Cowboys' decision before the NFL trade deadline",
-      "publishedAt": "2026-11-02T13:37:48Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "90b209d2584a59ff",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-early-odds-spreads-ravens-jaguars-lamar-jackson",
-      "title": "NFL Week 9 early odds: Ravens become home underdogs to Jaguars after Lamar Jackson injury",
-      "summary": "A look at where the odds and spreads currently stand heading into Week 9, including a big move in Baltimore",
-      "publishedAt": "2026-11-02T13:28:24Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "b81f837740cef146",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/garrett-wilson-we-have-to-give-our-fans-a-reason-to-come-out",
-      "title": "Garrett Wilson: We have to give our fans a reason to come out",
-      "summary": "If someone flipped on Sunday's game between the Raiders and the Jets in the fourth quarter, they would have been forgiven for wondering if the Raiders were the home team at MetLife Stadium.",
-      "publishedAt": "2026-11-02T13:25:38Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "5740a95198674861",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-cowardice-to-put-the-blame-on-brian-schottenheimer",
-      "title": "Dak Prescott: \"Cowardice\" to put blame for Sunday's loss on Brian Schottenheimer",
-      "summary": "The Cowboys blew a 14-point lead and lost at home for the first time in franchise history on Sunday, so quarterback Dak Prescott may have been understating things when he called it \"one of the toughest\" losses of his career.",
-      "publishedAt": "2026-11-02T13:08:48Z",
-      "teamIds": [
-        "6"
       ]
     }
   ]
