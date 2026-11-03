@@ -159,3 +159,22 @@
     transition: none;
   }
 }
+
+/* D053: Leiste bündig am rechten Rand, wenn rechts keine Safe Area gemeldet wird (Duo, Gerätetest 2026-11-03).
+   Die Kapseln berühren den Rand und sind nur links gerundet, damit sie an die Systemspalte anschliessen. */
+[data-edge="flush"][data-layout="side"] .rail,
+[data-edge="flush"][data-layout="wide"] .rail {
+  width: 64px;
+  padding-right: 0 !important;
+  padding-left: 8px;
+  align-items: flex-end;
+}
+[data-edge="flush"][data-layout="side"] .app,
+[data-edge="flush"][data-layout="wide"] .app {
+  grid-template-columns: minmax(0, 1fr) 64px;
+}
+[data-edge="flush"][data-layout="side"] .nav-capsule,
+[data-edge="flush"][data-layout="wide"] .nav-capsule,
+[data-edge="flush"][data-layout="wide"] .tool-capsule {
+  border-radius: 28px 0 0 28px;
+}

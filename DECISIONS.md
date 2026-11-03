@@ -373,3 +373,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Entscheid des Nutzers. Ziel ist immer die höchste erwartete Punktzahl, nicht mehr Platz 1. Ersetzt D026 und D028 im Umfang der Abweichungen: Die App wählt keine Abweichungen mehr selbst, der Vorschlag ist immer das Team mit der höheren Siegwahrscheinlichkeit, der Tiebreaker folgt ihm. Gilt sofort, auch für Week 9 (noch kein Spiel gesperrt), eingefrorene Abweichungen werden verworfen. Der Nutzer entscheidet selbst: Die App markiert Kandidaten "Abweichung möglich" (knappe Spiele, deren Aussenseiter laut ESPN Tippverteilung selten getippt wird) und zeigt Signale (Linienbewegung, FPI gegen Markt, Ausfälle). Im Spielblatt wählt ein Knopf "Aussenseiter tippen", Tipp, Tiebreaker und Häkchen folgen der Wahl, gespeichert auf dem Gerät. Die Push Erinnerung nennt weiterhin den Vorschlag der App. Rangliste, Rückstand und Simulation bleiben als Information
 - Begründung: Simulation mit echten Daten (Stand Week 8): Chance auf Platz 1 für JA bei 0 bis 3 Abweichungen pro Woche jeweils 0 Prozent, jede Abweichung kostet im Mittel rund 1 bis 2 Punkte. Recherche: in kleinen Runden gewinnt eher der konsequente Favoritentipp. Der Nutzer will trotzdem selbst entscheiden können
 - Verworfen: Ziel Platz 2, Abweichungen nur in den letzten Wochen, Wahl im Push über ein GitHub Issue (Aufwand), Kosten in Punkten und Wirkung auf die Rangliste pro Spiel (Wahl des Nutzers)
+
+## D053 Duo: Leiste bündig am rechten Rand
+
+- Datum: 2026-11-03
+- Entscheid: Wahl des Nutzers. Meldet iOS rechts keine Safe Area (Duo, Gerätetest mit Diagnose: App 867 bzw. 382 breit, Systemspalte ausserhalb der App, auch nach Neuinstallation), liegt die Navigationsleiste in den Layouts side und wide bündig am rechten Rand, die Kapseln sind nur links gerundet und schliessen an die Systemspalte an. Ändert D036 und D037 im Punkt "Navigation in der rechten Systemspalte", der am 2026-11-02 am Gerät noch galt (R58, R72), seither gibt iOS der App die Spalte nicht mehr
+- Begründung: Eine Web App kann ausserhalb ihres Fensters nicht zeichnen
+- Verworfen: Leiste links, schwebende Kapsel unten
