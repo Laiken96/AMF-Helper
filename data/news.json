@@ -1,7 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T21:47:24Z",
+  "updatedAt": "2026-11-03T22:47:18Z",
   "items": [
+    {
+      "id": "3ce951544e10414c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-qb-joe-fagnano-has-full-participation-in-tuesdays-practice",
+      "title": "Ravens QB Joe Fagnano has full participation in Tuesday's practice",
+      "summary": "Lamar Jackson (right thumb) and Tyler Huntley (toe) are expected to land on injured reserve this week.",
+      "publishedAt": "2026-11-03T22:24:10Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "7b551155b377fae4",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-miami-oh-buffalo-college-basketball",
+      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass on Miami (OH)-Buffalo, college basketball",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for college basketball, college football, NFL betting on Tuesday",
+      "publishedAt": "2026-11-03T22:06:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "fe39d8530b78141c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bills-release-c-j-gardner-johnson-days-after-being-suspended-spitting-incident",
+      "title": "Bills release C.J. Gardner-Johnson just days after being suspended for spitting incident",
+      "summary": "Gardner-Johnson signed a one-year deal with Buffalo back in March",
+      "publishedAt": "2026-11-03T22:04:59Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "2163636c677ae509",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-waive-g-trevor-keegan",
+      "title": "Vikings waive G Trevor Keegan",
+      "summary": "The Vikings have let go of an offensive lineman.",
+      "publishedAt": "2026-11-03T22:03:58Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "7fdf0b1241fd6fdf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-place-de-samson-ebukam-on-ir",
+      "title": "Falcons place DE Samson Ebukam on IR",
+      "summary": "The Falcons placed defensive end Samson Ebukam on injured reserve Tuesday, the team announced.",
+      "publishedAt": "2026-11-03T22:02:36Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "4d9ef6a7049c7132",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-miami-oh-buffalo-college-basketball-tuesday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Miami (OH)-Buffalo, college basketball Tuesday",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for college basketball, college football, NFL betting on Tuesday",
+      "publishedAt": "2026-11-03T22:02:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "3c4ebb816522ad0a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bhayshul-tuten-remains-out-of-practice-for-the-jaguars",
+      "title": "Bhayshul Tuten remains out of practice for the Jaguars",
+      "summary": "The Jaguars listed a key offensive player as out of practice for the second straight day on Tuesday.",
+      "publishedAt": "2026-11-03T22:00:38Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "98e68c714156fdd4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-place-daron-payne-javon-kinlaw-jeremy-mcnichols-on-ir",
+      "title": "Commanders place Daron Payne, Javon Kinlaw, Jeremy McNichols on IR",
+      "summary": "The Commanders have placed defensive lineman Daron Payne, defensive lineman Javon Kinlaw and running back Jeremy McNichols on injured reserve, the team announced Tuesday.",
+      "publishedAt": "2026-11-03T21:53:44Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "544730d0a453cd2f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-release-s-c-j-gardner-johnson-after-one-game-suspension",
+      "title": "Bills release S C.J. Gardner-Johnson after one-game suspension",
+      "summary": "C.J.",
+      "publishedAt": "2026-11-03T21:45:24Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "78af9d7a73e58f56",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/giants-sign-greg-newsome-three-year-46-million-extension",
+      "title": "Giants sign Greg Newsome to three-year, $46 million extension, per report",
+      "summary": "Newsome was playing on a one-year deal he signed with New York in March",
+      "publishedAt": "2026-11-03T21:40:41Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "3f103770ec34e234",
       "source": "pft",
@@ -22,6 +128,18 @@
       "publishedAt": "2026-11-03T21:30:10Z",
       "teamIds": [
         "16"
+      ]
+    },
+    {
+      "id": "1fe519082f394def",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-starting-qb-joe-fagnano-jaguars-lamar-jackson-tyler-huntley-injured",
+      "title": "Ravens name Joe Fagnano starter for Week 9 matchup vs. Jaguars with Lamar Jackson, Tyler Huntley injured",
+      "summary": "Joe Fagnano will make his first NFL start Thursday against the Jaguars, with Lamar Jackson and Tyler Huntley likely headed to injured reserve",
+      "publishedAt": "2026-11-03T21:29:18Z",
+      "teamIds": [
+        "33",
+        "30"
       ]
     },
     {
@@ -1565,130 +1683,6 @@
       "publishedAt": "2026-11-02T18:35:51Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "be10f8bb9e81159a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football",
-      "title": "Is Jadarian Price playing on MNF? Latest Seahawks RB injury update for game vs. Bears",
-      "summary": "The Seahawks could activate Jadarian Price from injured reserve before Monday night's game, but Mike Macdonald offered few clues about the rookie's status",
-      "publishedAt": "2026-11-02T18:31:15Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "37cb7750cd959195",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tnf-dips-to-16-56-million-for-panthers-packers",
-      "title": "TNF dips to 16.56 million for Panthers-Packers",
-      "summary": "Thursday Night Football continues to draw larger audiences, generally.",
-      "publishedAt": "2026-11-02T18:30:24Z",
-      "teamIds": [
-        "29",
-        "9"
-      ]
-    },
-    {
-      "id": "5dae4a06811dbdb1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-a-j-brown-well-see-how-he-progresses-during-the-week",
-      "title": "Mike Vrabel on A.J. Brown: We'll see how he progresses during the week",
-      "summary": "Patriots receiver A.J.",
-      "publishedAt": "2026-11-02T18:20:53Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "f7ee505e09ca8f8e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/hammond-isnt-giving-up-on-bears-making-a-move-to-indiana",
-      "title": "Hammond isn't giving up on Bears making a move to Indiana",
-      "summary": "The Bears are where we thought they were.",
-      "publishedAt": "2026-11-02T17:58:21Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "4818a6aa48de806a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pick-six-seahawks-bears-picks-mnf-15-crazy-stats-week-8",
-      "title": "Pick Six: Seahawks, Bears picks for 'MNF'; plus 15 crazy stats from Week 8",
-      "summary": "Here's everything you need to know about the NFL for Nov. 2",
-      "publishedAt": "2026-11-02T17:46:32Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "a55e8168962a78ff",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-still-deciding-if-jordyn-tyson-travis-etienne-will-return-to-practice-this-week",
-      "title": "Saints still deciding if Jordyn Tyson, Travis Etienne will return to practice this week",
-      "summary": "The Saints have yet to see rookie wide receiver Jordyn Tyson in game action, but they would move closer to that moment if the first-round pick is designated for return from injured reserve this week.",
-      "publishedAt": "2026-11-02T17:37:12Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "1a6e7db1e026ad60",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-yaya-diaby-set-to-miss-time-with-grade-2-mcl-sprain",
-      "title": "Report: YaYa Diaby set to miss time with Grade 2 MCL sprain",
-      "summary": "There is some more information on Buccaneers outside linebacker YaYa Diaby, who suffered a knee injury on Sunday.",
-      "publishedAt": "2026-11-02T17:37:01Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "82e3121a3fdd16c2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-dl-naquan-jones",
-      "title": "Texans sign DL Naquan Jones",
-      "summary": "The Texans are making a change on their defensive line as they return from their bye week.",
-      "publishedAt": "2026-11-02T17:14:53Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "7d7556fe23c04ad7",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50358387/nfl-week-9-betting-odds-props-early-picks-predictions",
-      "title": "Early bets for Week 9: Bengals stay hot? Another Cowboys shootout?",
-      "summary": "Which Week 9 lines offered immediate value once odds came out? Here are the early bets we like.",
-      "publishedAt": "2026-11-02T16:44:00Z",
-      "teamIds": [
-        "4",
-        "6"
-      ]
-    },
-    {
-      "id": "d5515541511058ff",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
-      "title": "Week 9 betting odds for every game",
-      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
-      "publishedAt": "2026-11-02T16:44:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "7b5d53922e2df3da",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-andy-borregales-have-confidence-in-him-but-hes-got-to-make-his-kicks",
-      "title": "Mike Vrabel on Andy Borregales: Have confidence in him, but he's got to make his kicks",
-      "summary": "Patriots kicker Andy Borregales missed a 40-yard field goal on Sunday against the Dolphins, but head coach Mike Vrabel hasn't lost confidence in him.",
-      "publishedAt": "2026-11-02T16:43:51Z",
-      "teamIds": [
-        "15",
-        "17"
       ]
     }
   ]

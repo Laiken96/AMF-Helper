@@ -3,18 +3,18 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-03T21:47:23Z",
+  "updatedAt": "2026-11-03T22:47:18Z",
   "source": "espn-pickem",
   "games": [
     {
       "gameId": "401873037",
       "homeId": "33",
       "awayId": "30",
-      "homeShare": 0.163,
-      "awayShare": 0.837,
-      "total": 252782,
+      "homeShare": 0.159,
+      "awayShare": 0.841,
+      "total": 261656,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-03T21:47:23Z",
+      "fetchedAt": "2026-11-03T22:47:18Z",
       "locked": false
     },
     {
@@ -32,11 +32,11 @@
       "gameId": "401873039",
       "homeId": "18",
       "awayId": "5",
-      "homeShare": 0.414,
-      "awayShare": 0.586,
-      "total": 243092,
+      "homeShare": 0.412,
+      "awayShare": 0.588,
+      "total": 251817,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-03T21:47:23Z",
+      "fetchedAt": "2026-11-03T22:47:18Z",
       "locked": false
     },
     {
@@ -87,11 +87,11 @@
       "gameId": "401873044",
       "homeId": "21",
       "awayId": "19",
-      "homeShare": 0.174,
-      "awayShare": 0.826,
-      "total": 243521,
+      "homeShare": 0.171,
+      "awayShare": 0.829,
+      "total": 252255,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-03T21:47:23Z",
+      "fetchedAt": "2026-11-03T22:47:18Z",
       "locked": false
     },
     {
@@ -109,11 +109,11 @@
       "gameId": "401873046",
       "homeId": "24",
       "awayId": "34",
-      "homeShare": 0.182,
-      "awayShare": 0.818,
-      "total": 242651,
+      "homeShare": 0.181,
+      "awayShare": 0.819,
+      "total": 251377,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-03T21:47:23Z",
+      "fetchedAt": "2026-11-03T22:47:18Z",
       "locked": false
     },
     {
@@ -164,11 +164,11 @@
       "gameId": "401873051",
       "homeId": "16",
       "awayId": "2",
-      "homeShare": 0.18,
-      "awayShare": 0.82,
-      "total": 231322,
+      "homeShare": 0.181,
+      "awayShare": 0.819,
+      "total": 250153,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-03T20:47:25Z",
+      "fetchedAt": "2026-11-03T22:47:18Z",
       "locked": false
     }
   ]
