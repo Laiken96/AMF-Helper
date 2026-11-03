@@ -739,3 +739,9 @@ R114 Design Welle 2
     Schritt: Alle Reiter, Spiel in Tipps und Spiele antippen, Blatt nach unten wischen, Duo quer Spiele, Bilanz, News.
     Erwartet: Aktives Ziel mit Text, Logos ohne kaputte Bilder, Blatt schliesst per Wischen und X, Hellmodus folgt dem System, zwei Bereiche am Falz.
     Status: bestanden lokal 2026-11-02 (240 Prüfpunkte), offen Nutzer am Gerät
+
+R115 Schwarzer Balken nach schnellem Neustart (Duo aufgeklappt)
+    Vorbedingung: iPhone Duo aufgeklappt quer, App vom Home Bildschirm.
+    Schritt: App mit kurzem Wischen nach oben schliessen und sofort wieder öffnen.
+    Erwartet: Kein schwarzer Balken oben, App wieder 867 x 669.
+    Status: Ursache per Diagnose 2026-11-03: iOS verkleinert das Fenster auf 867 x 587 (82 weniger), Safe Area 0, Balken liegt ausserhalb der App. Versuch: Viewport Angabe bei Höhenverlust ab 60 neu setzen. Offen Nutzer am Gerät, Umgehung App im Umschalter ganz schliessen

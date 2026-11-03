@@ -133,7 +133,29 @@ export function useLayout(): Layout {
 
     let current: Layout | null = null;
     let reason = "Start";
+    // iOS Fehler (Gerätetest Duo 2026-11-03): nach schnellem Neustart ist das Fenster bei gleicher Breite
+    // um 82 Punkte niedriger, oben bleibt ein schwarzer Balken ausserhalb der App. Versuch: die Viewport
+    // Angabe einmal neu setzen, damit WebKit die Grösse neu berechnet. Höchstens einmal pro 5 Sekunden.
+    const tallest = new Map<number, number>();
+    let lastNudge = 0;
+    const nudgeViewport = () => {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const max = tallest.get(w) ?? 0;
+      if (h > max) tallest.set(w, h);
+      if (max - h < 60 || Date.now() - lastNudge < 5000) return;
+      const meta = document.querySelector<HTMLMetaElement>('meta[name="viewport"]');
+      if (!meta) return;
+      lastNudge = Date.now();
+      const content = meta.content;
+      meta.content = `${content}, height=device-height`;
+      requestAnimationFrame(() => {
+        meta.content = content;
+        window.scrollTo(0, 0);
+      });
+    };
     const apply = () => {
+      nudgeViewport();
       const inset = measureInsetRight(probe);
       const reserved = reservedColumn(window.screen.width, window.innerWidth);
       const next = chooseLayout(window.innerWidth, Math.max(inset, reserved));
