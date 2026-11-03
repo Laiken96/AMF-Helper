@@ -95,12 +95,23 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-03T00:01:11Z",
+    "takenAt": "2026-11-03T00:10:45Z",
     "games": [
       {
         "gameId": "401873036",
         "kickoffUtc": "2026-11-03T01:15:00Z",
         "players": [
+          {
+            "athleteId": "15168",
+            "name": "Case Keenum",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
@@ -193,6 +204,16 @@
       "teamAbbr": "SEA",
       "kind": "wechsel",
       "from": "Questionable",
+      "to": "Out"
+    },
+    {
+      "gameId": "401873036",
+      "athleteId": "15168",
+      "name": "Case Keenum",
+      "pos": "QB",
+      "teamAbbr": "CHI",
+      "kind": "neu",
+      "from": null,
       "to": "Out"
     }
   ]

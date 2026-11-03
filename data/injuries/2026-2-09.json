@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-05T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-03T00:01:13Z",
+    "takenAt": "2026-11-03T00:10:47Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1007,6 +1007,17 @@
         "gameId": "401873050",
         "kickoffUtc": "2026-11-09T01:20:00Z",
         "players": [
+          {
+            "athleteId": "15168",
+            "name": "Case Keenum",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
