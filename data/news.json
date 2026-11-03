@@ -1,7 +1,66 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T13:47:18Z",
+  "updatedAt": "2026-11-03T14:47:26Z",
   "items": [
+    {
+      "id": "59eb43d3567d56e7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-adding-qb-kedon-slovis-off-packers-practice-squad",
+      "title": "Ravens adding QB Kedon Slovis off Packers' practice squad",
+      "summary": "With several quarterbacks injured on their 53-man roster, the Ravens have brought in another.",
+      "publishedAt": "2026-11-03T14:29:05Z",
+      "teamIds": [
+        "33",
+        "9"
+      ]
+    },
+    {
+      "id": "64cc9d5ac245f90c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-to-determine-rb-work-by-whos-playing-the-best-ball-at-the-time",
+      "title": "Raiders to determine RB work by \"who’s playing the best ball at the time\"",
+      "summary": "When the Raiders drafted Ashton Jeanty with the sixth overall pick in 2025, the expectation was that he'd be their top choice in the backfield for years to come.",
+      "publishedAt": "2026-11-03T14:14:22Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "21431347d543a18f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-9-2026-nfl-power-rankings",
+      "title": "PFT's Week 9 2026 NFL power rankings",
+      "summary": "The Bills strengthen their grip on the top spot.",
+      "publishedAt": "2026-11-03T14:07:35Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "4cb3013e54127ef0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-to-sign-lb-k-j-britt-off-patriots-practice-squad",
+      "title": "Lions to sign LB K.J. Britt off Patriots practice squad",
+      "summary": "The Lions lost multiple linebackers to injuries in Sunday's win over the Vikings and they'll add one to the active roster on Tuesday.",
+      "publishedAt": "2026-11-03T13:43:32Z",
+      "teamIds": [
+        "8",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "4cdd8c5d50c8344b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bears-seahawks-super-bowl-nfl-mnf-miami-cfb-college-football-rankings",
+      "title": "Bears crash the Super Bowl conversation by beating Seahawks; Miami up to No. 1 in CFB Power Rankings",
+      "summary": "Plus, winners and losers from a wild opening night of college basketball",
+      "publishedAt": "2026-11-03T13:42:46Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
     {
       "id": "5879280999bd8273",
       "source": "pft",
@@ -1647,64 +1706,6 @@
       "publishedAt": "2026-11-02T06:54:36Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "8a6b90ebd9fde077",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50351129/buccaneers-silence-falcons-pass-completion",
-      "title": "Bucs first team without pass completion since '74, still beat Falcons",
-      "summary": "Baker Mayfield didn't complete a pass, but the Buccaneers beat the Falcons 16-0 behind Bucky Irving and Kenny Gainwell's rushing on a wet, sloppy field.",
-      "publishedAt": "2026-11-02T06:54:36Z",
-      "teamIds": [
-        "1",
-        "27"
-      ]
-    },
-    {
-      "id": "9d071ea3e7db4943",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50355492/chargers-jim-harbaugh-backs-mike-mcdaniel-justin-herbert",
-      "title": "Chargers' woes continue post-bye, but Harbaugh still backing OC, QB",
-      "summary": "Jim Harbaugh continued to back both offensive coordinator Mike McDaniel and quarterback Justin Herbert after the Chargers' latest loss Sunday.",
-      "publishedAt": "2026-11-02T06:54:36Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "d0ae3634ff60e10e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353065/raiders-ashton-jeanty-two-carries-win-jets-comments",
-      "title": "Raiders' Jeanty limited to 2 carries in win after comments about Jets' D",
-      "summary": "Ashton Jeanty had a career low in carries Sunday, which coach Klint Kubiak said was his call but not a response to Jeanty's comments during the week.",
-      "publishedAt": "2026-11-02T06:54:36Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "24e19b53adcdd990",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353208/vikings-acknowledge-justin-jefferson-frustration-loss",
-      "title": "Vikings recognize Jefferson's frustration as WR quiet during -- and after -- loss",
-      "summary": "Justin Jefferson declined to speak with reporters after Sunday's loss, and coach Kevin O'Connell and QB Kyler Murray acknowledged the receiver's disposition.",
-      "publishedAt": "2026-11-02T06:54:35Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "44f77d69f3b9098a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353331/frustrated-chase-spikes-helmet-helping-bengals-win",
-      "title": "Frustrated Chase spikes helmet before helping Bengals to OT victory",
-      "summary": "Visibly frustrated earlier in the game, Cincinnati Bengals star wide receiver Ja'Marr Chase cooled off in time to help his club to a 43-36 overtime victory over the Tennessee Titans on Sunday at Paycor Stadium.",
-      "publishedAt": "2026-11-02T06:54:35Z",
-      "teamIds": [
-        "4",
-        "10"
       ]
     }
   ]
