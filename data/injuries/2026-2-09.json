@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-05T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-03T01:10:33Z",
+    "takenAt": "2026-11-03T01:30:58Z",
     "games": [
       {
         "gameId": "401873037",
@@ -36,8 +36,8 @@
             "status": null
           },
           {
-            "athleteId": "4035671",
-            "name": "Tyler Huntley",
+            "athleteId": "4429582",
+            "name": "Joe Fagnano",
             "pos": "QB",
             "teamId": "33",
             "teamAbbr": "BAL",

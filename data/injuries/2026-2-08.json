@@ -95,7 +95,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-03T00:10:45Z",
+    "takenAt": "2026-11-03T01:30:57Z",
     "games": [
       {
         "gameId": "401873036",
@@ -113,8 +113,8 @@
             "status": "Out"
           },
           {
-            "athleteId": "4259545",
-            "name": "D'Andre Swift",
+            "athleteId": "4426386",
+            "name": "Roschon Johnson",
             "pos": "RB",
             "teamId": "3",
             "teamAbbr": "CHI",
@@ -136,9 +136,9 @@
             "status": null
           },
           {
-            "athleteId": "4685278",
-            "name": "Luther Burden III",
-            "pos": "WR",
+            "athleteId": "4723086",
+            "name": "Colston Loveland",
+            "pos": "TE",
             "teamId": "3",
             "teamAbbr": "CHI",
             "roles": [
@@ -170,19 +170,8 @@
             "status": "Out"
           },
           {
-            "athleteId": "4430878",
-            "name": "Jaxon Smith-Njigba",
-            "pos": "WR",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4887558",
-            "name": "Emanuel Wilson",
+            "athleteId": "4426385",
+            "name": "Zach Charbonnet",
             "pos": "RB",
             "teamId": "26",
             "teamAbbr": "SEA",
