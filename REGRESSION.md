@@ -798,4 +798,4 @@ R124 Duo Home Bildschirm App mit Ausrichtung any
     Vorbedingung: Manifest mit "orientation": "any" live, App vom Home Bildschirm gelöscht und neu hinzugefügt (iOS liest das Manifest nur beim Hinzufügen).
     Schritt: Duo zugeklappt und aufgeklappt, Einstellungen, Technik, Diagnose.
     Erwartet: App 951 bzw. 466 breit statt 867 bzw. 382. Sonst bleibt als Ursache der in iOS 27 ignorierte Status Bar Meta Tag (black-translucent), nur durch Apple behebbar.
-    Status: offen Nutzer am Gerät
+    Status: nicht bestanden 2026-11-03, nach Neuhinzufügen weiterhin 867 bzw. 382. Ursache liegt bei iOS 27.2 (Status Bar Meta Tag ignoriert), in der Web App nicht behebbar. Eintrag orientation any bleibt (schadlos)
