@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T05:47:25Z",
+  "updatedAt": "2026-11-03T09:47:24Z",
   "items": [
+    {
+      "id": "4b20d1c399e6ca48",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-i-want-khalil-mack-to-be-here-and-khalil-mack-wants-to-be-here",
+      "title": "Jim Harbaugh: I want Khalil Mack to be here and Khalil Mack wants to be here",
+      "summary": "Jim Harbaugh shot down a question about the Chargers potentially trading defensive lineman Khalil Mack before next week's deadline.",
+      "publishedAt": "2026-11-03T09:38:04Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "22be5be203c027f9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-felt-great-to-get-my-first-sack-as-a-chicago-bear",
+      "title": "Jeffery Simmons: Felt great to get my first sack as a Chicago Bear",
+      "summary": "\"The emotions, especially during the national anthem, the emotions were coming and coming,\" Simmons said.",
+      "publishedAt": "2026-11-03T08:49:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "211ddf7a57a5e30c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
+      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
+      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "publishedAt": "2026-11-03T05:52:00Z",
+      "teamIds": []
+    },
     {
       "id": "89313992c7243efe",
       "source": "espn",
@@ -1674,42 +1703,6 @@
       "publishedAt": "2026-11-02T04:04:53Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "a7a095fe67788b3b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-steelers-commanders-have-interest-in-brian-thomas-jr",
-      "title": "Chiefs, Steelers, Commanders have interest in Brian Thomas Jr.",
-      "summary": "Contenders usually aren't sellers at the trade deadline.",
-      "publishedAt": "2026-11-02T04:02:35Z",
-      "teamIds": [
-        "12",
-        "23",
-        "28"
-      ]
-    },
-    {
-      "id": "45a829eb40397810",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chiefs-controversial-penalty-andy-reid-broncos",
-      "title": "Andy Reid questions controversial false start that erased Chiefs' apparent winning TD",
-      "summary": "A controversial false start on Jaylon Moore wiped out a go-ahead touchdown before Malcolm Roach sealed the win with a sack on Patrick Mahomes",
-      "publishedAt": "2026-11-02T03:38:43Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "6c666291e30302e9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-loss-to-cardinals-qb-ben-dinucci",
-      "title": "Former Cowboys QB rips Dallas for 'embarrassing' loss to Cardinals: 'They stink'",
-      "summary": "The loss was bad enough, but the way the Cowboys crumbled did not sit well with the 2020 draft pick",
-      "publishedAt": "2026-11-02T03:27:17Z",
-      "teamIds": [
-        "22",
-        "6"
       ]
     }
   ]
