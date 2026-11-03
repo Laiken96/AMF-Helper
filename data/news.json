@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T00:38:24Z",
+  "updatedAt": "2026-11-03T00:47:19Z",
   "items": [
     {
       "id": "bbdaa00267b1599e",
@@ -373,6 +373,18 @@
       "teamIds": [
         "3",
         "26"
+      ]
+    },
+    {
+      "id": "a99ca1b013a3da93",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-jack-campbell-injury-updates-vikings",
+      "title": "Jack Campbell injury updates: Lions LB remains in hospital, but 'indications are positive'",
+      "summary": "The All-Pro linebacker suffered what appeared to be a serious injury vs. the Vikings",
+      "publishedAt": "2026-11-02T20:12:52Z",
+      "teamIds": [
+        "8",
+        "16"
       ]
     },
     {
@@ -1712,18 +1724,6 @@
       "summary": "The Patriots were down 10 at halftime in Miami, but they're back on top before the end of the third quarter.",
       "publishedAt": "2026-11-01T23:45:42Z",
       "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "2ecaea0cd3e584d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-cut-dolphins-lead-to-13-10-on-kyle-williams-touchdown",
-      "title": "Patriots cut Dolphins lead to 13-10 on Kyle Williams touchdown",
-      "summary": "The Patriots are back within a field goal in Miami.",
-      "publishedAt": "2026-11-01T23:24:45Z",
-      "teamIds": [
-        "15",
         "17"
       ]
     }
