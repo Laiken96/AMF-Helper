@@ -95,7 +95,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-02T03:15:23Z",
+    "takenAt": "2026-11-03T00:01:11Z",
     "games": [
       {
         "gameId": "401873036",
@@ -156,7 +156,7 @@
             "roles": [
               "qb"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4430878",
@@ -184,5 +184,16 @@
       }
     ]
   },
-  "changes": []
+  "changes": [
+    {
+      "gameId": "401873036",
+      "athleteId": "3924327",
+      "name": "Drew Lock",
+      "pos": "QB",
+      "teamAbbr": "SEA",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Out"
+    }
+  ]
 }
