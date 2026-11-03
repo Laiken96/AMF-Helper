@@ -775,3 +775,9 @@ R120 Liveticker Zentrum (D054)
     Schritt: Reiter Spiele öffnen, bei mehreren Spielen wischen, Blöcke auf und zu klappen, Duo quer ansehen.
     Erwartet: Grosse Ticker Karte oben mit Logos, Score, Bilanz, Viertel, Ballbesitz, Down und Distanz, Spielfeld, Siegchance mit Tipp Hinweis, Spielzüge, Punkte, Statistik, Ort, Wetter, TV. Duo quer Ticker links, Liste rechts. Keine Fehler bei fehlenden Daten.
     Status: bestanden lokal 2026-11-03 (152 Prüfungen mit echten Fixtures CHI@SEA), offen Nutzer am Gerät bei einem echten Spiel
+
+R121 Ranglisten Meldung mit Label
+    Vorbedingung: Label rangliste existiert im Repo (fehlte bis 2026-11-03, GitHub lässt Formular Labels ohne bestehendes Label still weg).
+    Schritt: Formular Rangliste melden absenden, oder Label rangliste nachträglich setzen.
+    Erwartet: standings.yml läuft (auch bei Ereignis labeled), standings.json und Verlauf aktualisiert, Kommentar im Issue.
+    Status: offen, Meldung Week 8 aus Issue 20 wird nach dem Merge nachverarbeitet

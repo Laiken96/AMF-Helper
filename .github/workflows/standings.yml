@@ -6,7 +6,7 @@ name: Rangliste übernehmen
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
 
 permissions:
   contents: write
