@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T09:47:24Z",
+  "updatedAt": "2026-11-03T11:47:20Z",
   "items": [
+    {
+      "id": "7e14a34e7f800eaf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-we-lost-in-all-three-phases",
+      "title": "Mike Macdonald: We lost in all three phases",
+      "summary": "Monday night's game in Seattle featured a pair of 2025 NFC playoff teams who would like to be back in the postseason this year and it ended with the Bears celebrating a 34-17 win over the defending Super Bowl champions.",
+      "publishedAt": "2026-11-03T11:44:43Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "72359ddcd2575391",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wil-lutz-has-made-113-straight-extra-points-most-in-the-nfl-since-the-2015-rule-change",
+      "title": "Wil Lutz has made 113 straight extra points, most in the NFL since the 2015 rule change",
+      "summary": "It's been three years since Broncos kicker Wil Lutz missed an extra point.",
+      "publishedAt": "2026-11-03T11:15:02Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "f8f0fd6e01e1dfb4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-power-rankings-bills-steelers",
+      "title": "Prisco's NFL Week 9 Power Rankings: Bills take over top spot, Steelers on the rise",
+      "summary": "Pete Prisco shares his Week 9 Power Rankings for the 2026 NFL season, including a big fall for the Seahawks",
+      "publishedAt": "2026-11-03T10:00:49Z",
+      "teamIds": [
+        "2",
+        "23",
+        "26"
+      ]
+    },
     {
       "id": "4b20d1c399e6ca48",
       "source": "pft",
@@ -1668,41 +1703,6 @@
         "3",
         "6",
         "26"
-      ]
-    },
-    {
-      "id": "2630b8f94e55177a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-commanders-roll-to-27-10-victory-over-eagles",
-      "title": "Sunday Night Football: Commanders roll to 27-10 victory over Eagles",
-      "summary": "Philadelphia took a 10-0 lead early, but didn't score again. The Eagles have now lost six consecutive games.",
-      "publishedAt": "2026-11-02T04:30:07Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "fb215c8b555d44c9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chiefs-broncos-five-things-we-learned-bo-nix",
-      "title": "Five things we learned as Broncos stun Chiefs, seize first place in AFC West",
-      "summary": "Denver's quarterback delivered another remarkable finish, while a vastly improved defense and two emerging running backs helped the Broncos take control of the AFC West",
-      "publishedAt": "2026-11-02T04:20:59Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "df128a9c94800505",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/49466506/nfl-betting-buzz-odds-updates-line-moves-spreads",
-      "title": "Betting buzz: The Cardinals are the NFL's ultimate underdogs in a season of upsets",
-      "summary": "Arizona is 4-0 ATS as a seven-point underdog and has three outright wins in that role, including Sunday's stunning comeback at Dallas.",
-      "publishedAt": "2026-11-02T04:04:53Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
