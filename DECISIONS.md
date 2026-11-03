@@ -394,3 +394,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wunsch des Nutzers. Sind alle Spiele der von ESPN gemeldeten Woche beendet oder abgesagt, setzt der Spielplan Job data/current.json auf die nächste Tippwoche, sobald deren Wochendatei vorliegt. Tipps, Push, Wächter und App wechseln damit Dienstag früh nach dem MNF. current.json springt innerhalb einer Saison nie auf eine frühere Woche zurück, auch wenn ESPN noch die alte Woche meldet. Verschobene Spiele halten die Woche offen. Die Bilanz der alten Woche bleibt über den Wochenwähler erreichbar
 - Begründung: ESPN schaltet erst Dienstag oder Mittwoch US Zeit um, die App zeigte bis dahin eine abgeschlossene Woche
 - Verworfen: fester Zeitpunkt Dienstag Mittag, Wechsel wie ESPN
+
+## D056 Spielansicht für alle Spiele im Stil des Livetickers
+
+- Datum: 2026-11-03
+- Entscheid: Wunsch des Nutzers. Geplante und beendete Spiele bekommen im Reiter Spiele dieselbe Gestaltung wie der Liveticker (D054). Vor dem Spiel: Kopf mit grossen Logos, Teamfarben, Bilanz, Countdown bis Kickoff, TV, Ring mit Siegchance und Tipp. Fakten als kompakte Kacheln (Markt, FPI, ESPN Tipps, Ort, Ruhetage, Ausfälle), Abweichung möglich als eigene Karte mit Knopf (D052). Nach dem Spiel: Endstand gross, Punkte je Viertel, Punktspielzüge, Teamvergleich, Top Spieler, richtig oder falsch zum Tipp, Daten aus der ESPN Summary einmal geladen
+- Begründung: Der Nutzer fand die Ansicht geplanter Spiele schlicht und ohne Logos
+- Verworfen: Wetterprognose (Wahl des Nutzers)
