@@ -682,7 +682,7 @@ R105 Liveticker an echtem Spiel
     Vorbedingung: Spiel läuft.
     Schritt: Spiele öffnen, Detail öffnen.
     Erwartet: Score, Viertel, Uhr und letzte Spielzüge aktuell, bei ESPN Fehler längere Abstände bis 5 Minuten, verschobenes Spiel ohne Abruf.
-    Status: offen, erster Einsatz MNF CHI@SEA 2026-11-03 01:15 UTC
+    Status: Grundtest bestanden durch Nutzer 2026-11-03 01:40 (Safari, CHI 7 : 0 SEA, Q1 3:17, Aktualisierung alle 20 s). Echte Antworten als Fixtures gesichert. Neuer Ticker nach D054 offen
 
 ## Ausbau nach Beta Test (D050, D051)
 
@@ -763,3 +763,9 @@ R118 Duo Leiste bündig rechts (D053)
     Schritt: Tipps öffnen.
     Erwartet: Navigation senkrecht ganz rechts in der App, bündig an der Systemspalte, keine schwebende Kapsel, kein Überlauf.
     Status: bestanden lokal 2026-11-03 (867 x 669 und 382 x 678 mit Bildschirm 466), offen Nutzer am Gerät. R113 zugeklappt am Gerät bestanden (Layout side), R115 Balken nach Versuch nicht mehr reproduzierbar
+
+R119 Duo volle Breite in Safari
+    Vorbedingung: iPhone Duo aufgeklappt, Seite im Safari Tab, nicht vom Home Bildschirm.
+    Schritt: Tipps öffnen.
+    Erwartet: App nutzt die volle Breite, Leiste rechts unter Uhr und WLAN.
+    Status: bestanden durch Nutzer 2026-11-03. Home Bildschirm App bekommt seit iOS Update nur 867 breit (iOS Verhalten, nicht behebbar in der Web App). Weg des Nutzers: Home Bildschirm App für Push, Safari zum Anschauen. Native Hülle und Meldung an Apple vorerst nicht gewünscht
