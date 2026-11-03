@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T01:47:20Z",
+  "updatedAt": "2026-11-03T02:47:17Z",
   "items": [
+    {
+      "id": "d9163f19016cda26",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-eagles-will-stick-with-tanner-mckee-sean-mannion-despite-offensive-woes",
+      "title": "Nick Sirianni: Eagles will stick with Tanner McKee, Sean Mannion despite offensive woes",
+      "summary": "The Eagles have lost six in a row and rank 30th in the NFL in points per game, but Nick Sirianni said Monday that he isn't making a change at offensive coordinator or quarterback.",
+      "publishedAt": "2026-11-03T02:04:56Z",
+      "teamIds": [
+        "21"
+      ]
+    },
     {
       "id": "e7a2238a8ef6247b",
       "source": "pft",
@@ -1710,18 +1721,6 @@
       "publishedAt": "2026-11-02T00:16:50Z",
       "teamIds": [
         "7"
-      ]
-    },
-    {
-      "id": "599467e7c3d7f08b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/eagles-commanders-prediction-odds-start-time-betting-preview-sunday-night-football-picks-best-bets",
-      "title": "Eagles vs. Commanders prediction, odds, start time, betting preview: Sunday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Eagles vs. Commanders on Sunday Night Football",
-      "publishedAt": "2026-11-02T00:01:31Z",
-      "teamIds": [
-        "21",
-        "28"
       ]
     }
   ]
