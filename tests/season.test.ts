@@ -176,3 +176,18 @@ describe("Saisonauswertung", () => {
     expect(favoriteProbPool([tips[0]!])).toEqual([0.55, 0.65, 0.6, 0.85, 0.72]);
   });
 });
+
+describe("marketOnFpi", () => {
+  it("Markt Brier auf denselben Spielen wie FPI", () => {
+    const tips = [tipsFile(8, [tip("1", 0.6, false, { fpi: 0.7 }), tip("2", 0.8)])];
+    const s = buildSeasonSummary({
+      season: 2026,
+      reviews: [review(8, [game("1", { winner: "P" }), game("2", { winner: "O" })])],
+      tips,
+      fpiPickProb: (t) => (t as GameTip & { fpi?: number }).fpi ?? null,
+    });
+    expect(s.brier.fpi).toEqual({ n: 1, value: 0.09 });
+    expect(s.brier.marketOnFpi).toEqual({ n: 1, value: 0.16 });
+    expect(s.brier.market.n).toBe(2);
+  });
+});

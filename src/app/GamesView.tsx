@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from "react";
 import { tipResult, type TipResult } from "../core/review";
 import type { Game, Team } from "../core/schema";
-import type { GameTip, TipsFile } from "../core/tips-schema";
+import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
@@ -18,7 +18,9 @@ import {
 } from "./data";
 import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
+import { GameFacts } from "./GameFacts";
 import { GameSheet } from "./Sheet";
+import { useChoices, usePlayer, useShownTips } from "./player";
 import { periodText, useLastPlays, useLiveScores, type LiveGame, type LiveState } from "./live";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { formatStand, statusWord } from "./wording";
@@ -59,7 +61,7 @@ export function GamesView({ arg }: { arg: string | null }) {
   );
 }
 
-type GamesData = WeekData & { tips: TipsFile | null };
+type GamesData = WeekData & { tips: TipsFile | null; standings?: StandingsFile };
 
 /** Wochendaten mit Tippliste für die Spielinfo. Fehlt die Tippliste oder scheitert ihr Laden, bleibt der Spielplan. */
 function loadGamesData(ref: WeekRef | null = null): Promise<GamesData> {
@@ -77,6 +79,10 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
   const live = useLiveScores(phase === "vergangen" ? null : ref, week?.games ?? null);
   const weeks = navWeeks(data);
+  // Derselbe Tipp wie im Reiter Tipps: Vorschlag der App mit der eigenen Wahl des Spielers (D050, D052)
+  const player = usePlayer(data.standings ?? null);
+  const { choices } = useChoices(player.player, ref);
+  const shownTips = useShownTips(data.tips, week?.games, data.standings ?? null, phase, player.player, choices);
 
   // Standardspiel für den Detailbereich: laufendes Spiel, sonst nächstes Spiel, sonst das letzte beendete
   const games = week?.games;
@@ -138,7 +144,8 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
     );
   }
 
-  const tipOf = (gameId: string) => data.tips?.tips.find((t) => t.gameId === gameId);
+  const tipOf = (gameId: string) => shownTips?.tips.find((t) => t.gameId === gameId);
+  const ownOf = (gameId: string) => Boolean(choices[gameId] && tipOf(gameId)?.deviation);
   const list = (
     <ScheduleList
       games={week.games}
@@ -161,6 +168,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
                 game={shownGame}
                 live={live.games.get(shownGame.id)}
                 tip={tipOf(shownGame.id)}
+                own={ownOf(shownGame.id)}
                 team={team}
                 stale={live.error}
                 now={now}
@@ -193,6 +201,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
               game={selectedGame}
               live={live.games.get(selectedGame.id)}
               tip={tipOf(selectedGame.id)}
+              own={ownOf(selectedGame.id)}
               team={team}
               stale={live.error}
               now={now}
@@ -437,30 +446,12 @@ const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
   ungewertet: "ungewertet",
 };
 
-/** Ort aus venueInfo (ab Wochendatei 2), sonst Stadionname. Land nur ausserhalb der USA. */
-function venueText(game: Game): string | null {
-  const v = game.venueInfo;
-  const parts = v
-    ? [v.name ?? game.venue, v.city, v.country && v.country !== "USA" ? v.country : null]
-    : [game.venue];
-  const text = parts.filter((x): x is string => Boolean(x)).join(", ");
-  if (!text) return null;
-  return game.neutralSite ? `${text} (neutraler Ort)` : text;
-}
-
-function tipText(tip: GameTip | undefined, team: (id: string) => Team): string {
+function tipText(tip: GameTip | undefined, team: (id: string) => Team, own = false): string {
   if (!tip) return "keine Tippliste";
   if (tip.level === "nicht_erfasst") return "kein App Tipp, die App lief bei Kickoff noch nicht";
   if (tip.level === "offen" || !tip.pickTeamId) return "offen, noch keine Quote";
   const pct = tip.pickProb === null ? "" : `, ${Math.round(tip.pickProb * 100)} %`;
-  return `${team(tip.pickTeamId).abbr}${pct}, ${LEVEL_TEXT[tip.level]}${tip.deviation ? ", Abweichung" : ""}`;
-}
-
-function restText(game: Game, team: (id: string) => Team): string | null {
-  const a = game.awayRest;
-  const h = game.homeRest;
-  if (a == null || h == null) return null;
-  return `${team(game.awayId).abbr} ${a} Tage, ${team(game.homeId).abbr} ${h} Tage`;
+  return `${team(tip.pickTeamId).abbr}${pct}, ${LEVEL_TEXT[tip.level]}${tip.deviation ? (own ? ", deine Abweichung" : ", Abweichung") : ""}`;
 }
 
 /**
@@ -471,6 +462,7 @@ function GameDetail({
   game,
   live,
   tip,
+  own = false,
   team,
   stale,
   now,
@@ -480,6 +472,8 @@ function GameDetail({
   game: Game;
   live: LiveGame | undefined;
   tip: GameTip | undefined;
+  /** Angezeigter Tipp ist die eigene Abweichung (D052). */
+  own?: boolean;
   team: (id: string) => Team;
   stale: boolean;
   now: number;
@@ -506,8 +500,6 @@ function GameDetail({
           : "falsch"
       : null;
   const shownResult = result === "ungewertet" ? result : (liveResult ?? (result === "offen" ? null : result));
-  const venue = venueText(game);
-  const rest = restText(game, team);
 
   return (
     <div className="game-detail">
@@ -581,21 +573,9 @@ function GameDetail({
             <dt>Kickoff</dt>
             <dd>{formatKickoffZurich(game.kickoffUtc)} Uhr</dd>
           </div>
-          {venue && (
-            <div>
-              <dt>Ort</dt>
-              <dd>{venue}</dd>
-            </div>
-          )}
-          {rest && (
-            <div>
-              <dt>Ruhetage</dt>
-              <dd>{rest}</dd>
-            </div>
-          )}
           <div>
             <dt>Tipp</dt>
-            <dd>{tipText(tip, team)}</dd>
+            <dd>{tipText(tip, team, own)}</dd>
           </div>
           {final && (
             <div>
@@ -612,12 +592,13 @@ function GameDetail({
             </div>
           )}
         </dl>
-        {tip && tip.level !== "nicht_erfasst" && (
-          <a className="btn game-detail-link" href={tipsHref}>
-            Zur Tippseite
-          </a>
-        )}
       </section>
+      <GameFacts key={game.id} game={game} tip={tip} team={team} variant="card" now={now} own={own} />
+      {tip && tip.level !== "nicht_erfasst" && (
+        <a className="btn game-detail-link" href={tipsHref}>
+          Zur Tippseite
+        </a>
+      )}
     </div>
   );
 }

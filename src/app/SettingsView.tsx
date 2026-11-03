@@ -12,7 +12,9 @@ import {
   showTestNotification,
   type PushStatus,
 } from "./push";
-import { PageHeader } from "./ui";
+import { useLayoutValue } from "./layout";
+import { playerChoices, usePlayer, useStandings } from "./player";
+import { PageHeader, Segmented } from "./ui";
 import { TIME_ZONE_TEXT } from "./wording";
 
 const SECRETS_URL = "https://github.com/Laiken96/AMF-Helper/settings/secrets/actions";
@@ -210,6 +212,10 @@ function ReadingGuide() {
   return (
     <ul className="legend">
       <li>
+        <strong>Vorschlag</strong> der App ist immer der Favorit, also das Team mit der höheren Siegwahrscheinlichkeit.
+        Ziel sind möglichst viele Punkte.
+      </li>
+      <li>
         <strong>Prozent</strong> ist die Siegwahrscheinlichkeit des getippten Teams, berechnet aus den Wettquoten.
       </li>
       <li>
@@ -217,7 +223,9 @@ function ReadingGuide() {
         60 %, <span className="legend-tag legend-unklar">unklar</span> darunter, also fast ein Münzwurf.
       </li>
       <li>
-        <strong>Abweichung</strong> heisst bewusst auf den Aussenseiter getippt, um Punkte auf Platz 1 gutzumachen.
+        <strong>Abweichung</strong> entscheidest du selbst: im Spielblatt mit dem Knopf Aussenseiter tippen. Die App
+        markiert knappe Spiele mit selten getipptem Aussenseiter als Abweichung möglich und zeigt Signale dazu. Im
+        Mittel kostet eine Abweichung Punkte, sie bleibt deine Wahl. Ab Kickoff ist die Wahl gesperrt.
       </li>
       <li>
         <strong>Tiebreaker</strong>: für das Thursday Night Game (TNF) und das Monday Night Game (MNF) zusätzlich das
@@ -227,14 +235,52 @@ function ReadingGuide() {
   );
 }
 
+/** Eigenes Kürzel wählen (D050). Rangliste und eigene Abweichungen gelten für diese Person (D052). */
+function PlayerPicker({ compact = false }: { compact?: boolean }) {
+  const standings = useStandings();
+  const { player, main, other, choose } = usePlayer(standings);
+  const choices = playerChoices(standings);
+  return (
+    <div className="player-picker">
+      <Segmented
+        label="Eigenes Kürzel"
+        value={player ?? ""}
+        onChange={choose}
+        disabled={!standings}
+        options={choices.map((id) => ({ value: id, label: id }))}
+      />
+      {!standings ? (
+        <p className="push-hint">Rangliste wird geladen …</p>
+      ) : (
+        <p className="push-hint player-picker-text" aria-live="polite">
+          {other
+            ? `Rangliste und eigene Abweichungen gelten für ${player}. Der Vorschlag der App ist für alle gleich.`
+            : `Rangliste und eigene Abweichungen gelten für ${player}.`}
+          {!compact && main && ` Push Erinnerungen und die Tippliste im Push gelten immer für ${main}.`}
+        </p>
+      )}
+    </div>
+  );
+}
+
 export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => void }) {
   const { status, refresh } = usePushStatus();
   const appMode = isStandalone() ? "App vom Home Bildschirm" : "Browser";
+  const wide = useLayoutValue() === "wide";
 
-  return (
-    <>
-      <PageHeader title="Einstellungen" meta="Erinnerungen per Push vor jedem Tippschluss" />
+  // Aus den Tipps: #einstellungen/spieler springt zur Spielerwahl
+  useEffect(() => {
+    if (window.location.hash.endsWith("/spieler")) document.getElementById("spieler")?.scrollIntoView({ block: "start" });
+  }, []);
 
+  const header = <PageHeader title="Einstellungen" meta="Erinnerungen per Push vor jedem Tippschluss" />;
+  const playerSection = (
+    <section className="slot" id="spieler" aria-labelledby="spieler-title">
+      <h2 id="spieler-title">Spieler</h2>
+      <PlayerPicker />
+    </section>
+  );
+  const pushSection = (
       <section className="slot">
         <h2>Push</h2>
         <dl className="status-list" data-testid="push-status">
@@ -249,7 +295,9 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
         </dl>
         <PushPanel status={status} refresh={refresh} />
       </section>
-
+  );
+  const rest = (
+    <>
       <section className="slot">
         <h2>Anzeige</h2>
         <p className="push-hint settings-line">{TIME_ZONE_TEXT} (Europe/Zurich, Sommer und Winterzeit automatisch).</p>
@@ -283,6 +331,29 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
         {status?.subscription && <SubscriptionBox json={JSON.stringify(status.subscription)} />}
         <LayoutDiagnostics />
       </details>
+    </>
+  );
+
+  // Duo quer: links Spieler und Push bis zum Falz, rechts Anzeige, Leseanleitung und Technik
+  if (wide) {
+    return (
+      <div className="duo-split settings-split">
+        <div className="pane pane-detail settings-pane">
+          {header}
+          {playerSection}
+          {pushSection}
+        </div>
+        <div className="fold" aria-hidden="true" />
+        <div className="pane pane-list settings-pane">{rest}</div>
+      </div>
+    );
+  }
+  return (
+    <>
+      {header}
+      {playerSection}
+      {pushSection}
+      {rest}
     </>
   );
 }
@@ -334,12 +405,21 @@ export function Onboarding({ onClose }: { onClose: () => void }) {
         </div>
 
         <section>
-          <h2>1. So liest du die Tipps</h2>
+          <h2>1. Wer bist du</h2>
+          <p>
+            Wähle dein Kürzel aus der Rangliste. Die App schlägt immer den Favoriten vor, eine Abweichung wählst du
+            selbst. Deine Wahl wird pro Kürzel auf diesem Gerät gespeichert.
+          </p>
+          <PlayerPicker compact />
+        </section>
+
+        <section>
+          <h2>2. So liest du die Tipps</h2>
           <ReadingGuide />
         </section>
 
         <section>
-          <h2>2. Erinnerungen per Push</h2>
+          <h2>3. Erinnerungen per Push</h2>
           <p>
             Vor jedem Tippschluss kommt eine Mitteilung mit den Spielen, Ausfällen und Tippänderungen. Am Donnerstag
             kommt zusätzlich die fertige Tippliste der Woche.

@@ -2912,3 +2912,54 @@ tr.me .missing,
   height: 12px;
   margin: 0 6px;
 }
+
+/* Kandidat "Abweichung möglich" in der Tippliste (D052), Text statt nur Farbe */
+.flag-candidate {
+  padding: 0 7px;
+  border: 1px solid var(--text-3);
+  border-radius: 999px;
+  color: var(--text-2);
+  font-weight: 600;
+}
+
+/* Knopf für die eigene Abweichung im Spielblatt (D052) */
+.hero-choice {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 11px 13px;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  border-radius: 14px;
+  background: rgba(11, 14, 19, 0.55);
+  color: #f2f4f7;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 100ms ease,
+    filter 100ms ease;
+}
+
+.hero-choice-own {
+  border-color: #f5b83d;
+  color: #ffd27a;
+}
+
+.hero-choice:focus-visible {
+  outline: 2px solid #f5b83d;
+  outline-offset: 2px;
+}
+
+.hero-choice:active {
+  transform: scale(0.97);
+  filter: brightness(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-choice {
+    transition: none;
+  }
+}

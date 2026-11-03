@@ -1,15 +1,44 @@
 import { useEffect, useMemo, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
-import type { GameReview, ReviewFile, StandingsHistory } from "../core/review-schema";
+import type { GameReview, RankingCheck, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
 import { loadReviewPage, parseWeekKey, sameRef, useKeptLoad, type ReviewData, type WeekRef } from "./data";
 import { useLayoutValue } from "./layout";
-import { LoadErrorNotice, PageHeader, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { rankingCheckText } from "./review-text";
+import { SeasonView } from "./SeasonView";
+import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, formatStand, scoreAria, scoreText } from "./wording";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
 
+/** Hash Argument der Saisonansicht: #bilanz/saison. */
+export const SEASON_ARG = "saison";
+
+/** Umschalter Woche oder Saison. Ziel als Hash, damit die Wahl im Verlauf bleibt. */
+function ModeToggle({ mode }: { mode: "woche" | "saison" }) {
+  return (
+    <div className="review-mode">
+      <Segmented
+        label="Bilanz zeigen"
+        value={mode}
+        onChange={(v) => {
+          if (v !== mode) window.location.hash = v === "saison" ? `#bilanz/${SEASON_ARG}` : "#bilanz";
+        }}
+        options={[
+          { value: "woche", label: "Woche" },
+          { value: "saison", label: "Saison" },
+        ]}
+      />
+    </div>
+  );
+}
+
 export function ReviewView({ arg = null }: { arg?: string | null }) {
+  if (arg === SEASON_ARG) return <SeasonView toggle={<ModeToggle mode="saison" />} />;
+  return <WeekReview arg={arg} />;
+}
+
+function WeekReview({ arg }: { arg: string | null }) {
   const { data, error, pending } = useKeptLoad(`bilanz:${arg ?? ""}`, () => loadReviewPage(parseWeekKey(arg)));
 
   // Nachbarwochen vorladen
@@ -67,7 +96,12 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
       : data.phase === "vergangen"
         ? "Für diese Woche gibt es keine Bilanz."
         : "Bilanz folgt, sobald das erste Spiel dieser Woche beendet ist.";
-    const emptyHeader = <PageHeader kicker="Bilanz" title={weekLabel(ref)} aside={picker} meta={`Saison ${ref.season}`} />;
+    const emptyHeader = (
+      <>
+        <PageHeader kicker="Bilanz" title={weekLabel(ref)} aside={picker} meta={`Saison ${ref.season}`} />
+        <ModeToggle mode="woche" />
+      </>
+    );
     const emptyNotice = <p className="notice notice-pending">{text}</p>;
     const emptyMetrics = (
       <>
@@ -118,12 +152,15 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
   const finals = review.games.filter((g) => g.final).length;
 
   const header = (
-    <PageHeader
-      kicker="Bilanz"
-      title={weekLabel(review)}
-      aside={picker}
-      meta={`Saison ${review.season} · ${formatStand(review.updatedAt)}`}
-    />
+    <>
+      <PageHeader
+        kicker="Bilanz"
+        title={weekLabel(review)}
+        aside={picker}
+        meta={`Saison ${review.season} · ${formatStand(review.updatedAt)}`}
+      />
+      <ModeToggle mode="woche" />
+    </>
   );
   const gameList = <GameList review={review} gameById={gameById} team={team} />;
   const metrics = (
@@ -200,6 +237,7 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         </section>
       )}
 
+      {review.rankingCheck && <RankingCheckNote check={review.rankingCheck} />}
       <GroupWeek history={history} week={review} me={standings.me} />
       <SeasonTable history={history} season={review.season} me={standings.me} />
     </>
@@ -224,6 +262,15 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
       {metrics}
       {gameList}
     </>
+  );
+}
+
+function RankingCheckNote({ check }: { check: RankingCheck }) {
+  return (
+    <section className="slot">
+      <h2>Abgleich Rangliste {check.playerId}</h2>
+      <p className={check.gap === 0 ? "notice ranking-check" : "notice notice-pending ranking-check"}>{rankingCheckText(check)}</p>
+    </section>
   );
 }
 

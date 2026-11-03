@@ -26,6 +26,9 @@ import {
   type StandingsFile,
   type TipsFile,
 } from "../core/tips-schema";
+import { FpiFileSchema, fpiFilePath, type FpiFile } from "../core/fpi";
+import { PicksFileSchema, picksFilePath, type PicksFile } from "../core/picks";
+import { nextTipWeeks } from "../core/season-calendar";
 import { DATA_TIMEOUT_MS, isTimeout, timeoutSignal } from "./net";
 
 export class LoadError extends Error {}
@@ -118,6 +121,11 @@ const loadJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer
 
 const loadOptionalJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
   cached(`opt:${path}`, () => fetchOptionalJson(path, schema));
+
+/** Pflichtdatei über den Sitzungscache, damit die Hintergrundprüfung sie mit erneuert (Saisonauswertung). */
+export const loadDataFile = loadJson;
+/** Optionale Datei über den Sitzungscache, null wenn sie fehlt. */
+export const loadOptionalDataFile = loadOptionalJson;
 
 let lastCheck = Date.now();
 let running: Promise<boolean> | null = null;
@@ -359,10 +367,9 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
     loadJson("standings.json", StandingsFileSchema),
     tipsPath ? loadOptionalJson(tipsPath, TipsFileSchema) : Promise.resolve(null),
     // Ausfälle und News sind Zusatz: Fehler hier dürfen die Tippliste nie blockieren
-    // Ausfall Dateien schreibt der Wächter nur für die aktuelle Woche, sonst gäbe es vermeidbare 404 Abrufe
-    nav.phase !== "aktuell"
-      ? Promise.resolve(null)
-      : loadOptionalJson(injuriesFilePath(ref.season, ref.seasonType, ref.week), InjuriesFileSchema).catch(() => null),
+    // Der Wächter schreibt Ausfälle der aktuellen und der nächsten Woche (D050), darum auch die angezeigte
+    // kommende Woche. Fehlt die Datei, bleibt es still bei null
+    nav.phase === "vergangen" ? Promise.resolve(null) : loadInjuries(ref),
     nav.phase === "vergangen" ? Promise.resolve(null) : loadNews(),
   ]);
   return { ...nav, week, teams, standings, tips, injuries, news };
@@ -516,4 +523,86 @@ export function prefetchNeighbours(nav: WeekNav, load: (ref: WeekRef) => Promise
   if (!weeks) return;
   const i = weeks.findIndex((w) => sameRef(w, nav.ref));
   for (const r of [weeks[i - 1], weeks[i + 1]]) if (r) void load(r).catch(() => undefined);
+}
+
+// ---------- Fakten: ESPN FPI und Pick'em (D050) ----------
+
+/**
+ * Erste Woche mit Dateien unter data/fpi und data/picks. Frühere Wochen werden nicht abgefragt, damit keine
+ * vermeidbaren 404 Abrufe entstehen.
+ */
+export const FACTS_FIRST_WEEK: WeekRef = { season: 2026, seasonType: 2, week: 8 };
+
+export interface FactsData {
+  /** null, wenn die Datei fehlt oder ungültig ist. */
+  fpi: FpiFile | null;
+  picks: PicksFile | null;
+  /** Ausfälle der Woche für die Signale einer Abweichung (D052), null wenn die Datei fehlt. */
+  injuries: InjuriesFile | null;
+}
+
+/**
+ * Gibt es für die Woche FPI, Picks oder Ausfall Dateien? Wächter und Picks Job schreiben nur die aktuelle und die
+ * nächste Woche, ab FACTS_FIRST_WEEK. Spätere Wochen werden nicht abgefragt (keine 404 in der Konsole).
+ */
+export async function factsMayExist(ref: WeekRef): Promise<boolean> {
+  if (compareRef(ref, FACTS_FIRST_WEEK) < 0) return false;
+  let current: CurrentFile;
+  try {
+    current = await loadJson("current.json", CurrentFileSchema);
+  } catch {
+    return true;
+  }
+  const last = nextTipWeeks({ season: current.season, seasonType: current.seasonType, week: current.week }, 1)[0] ?? current;
+  return compareRef(ref, last) <= 0;
+}
+
+const optionalOrNull = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
+  loadOptionalJson(path, schema).catch(() => null);
+
+/**
+ * FPI und Tippverteilung einer Woche. Beide Dateien sind Zusatz: fehlen sie oder sind sie ungültig, bleibt
+ * der jeweilige Teil leer, nie eine Fehlermeldung. Nur für die angezeigte Woche, kein Vorladen.
+ */
+export async function loadFactsData(ref: WeekRef): Promise<FactsData> {
+  if (!(await factsMayExist(ref))) return { fpi: null, picks: null, injuries: null };
+  const [fpi, picks, injuries] = await Promise.all([
+    optionalOrNull(fpiFilePath(ref.season, ref.seasonType, ref.week), FpiFileSchema),
+    optionalOrNull(picksFilePath(ref.season, ref.seasonType, ref.week), PicksFileSchema),
+    optionalOrNull(injuriesFilePath(ref.season, ref.seasonType, ref.week), InjuriesFileSchema),
+  ]);
+  // Eine Datei einer anderen Woche gilt als fehlend
+  const same = (f: WeekRef | null) => f !== null && sameRef(f, ref);
+  return { fpi: same(fpi) ? fpi : null, picks: same(picks) ? picks : null, injuries: same(injuries) ? injuries : null };
+}
+
+/**
+ * Ausfälle der Woche, nur wo der Wächter schreibt (aktuelle und nächste Woche, ab FACTS_FIRST_WEEK). Fehlt die
+ * Datei (404) oder ist sie ungültig, kommt still null.
+ */
+async function loadInjuries(ref: WeekRef): Promise<InjuriesFile | null> {
+  if (!(await factsMayExist(ref))) return null;
+  const file = await optionalOrNull(injuriesFilePath(ref.season, ref.seasonType, ref.week), InjuriesFileSchema);
+  return file && sameRef(file, ref) ? file : null;
+}
+
+/** Fakten der Woche, null solange geladen wird oder wenn ref null ist. Lädt nach Hintergrundprüfung neu. */
+export function useFactsData(ref: WeekRef | null): FactsData | null {
+  const version = useDataVersion();
+  const key = ref ? weekKey(ref) : null;
+  const [state, setState] = useState<{ key: string; data: FactsData } | null>(null);
+  useEffect(() => {
+    if (!ref || !key) return;
+    let active = true;
+    loadFactsData(ref)
+      .then((data) => {
+        if (active) setState({ key, data });
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+    // ref ändert sich mit key
+  }, [key, version]);
+  return state && state.key === key ? state.data : null;
 }

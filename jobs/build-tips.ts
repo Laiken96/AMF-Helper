@@ -46,8 +46,6 @@ interface WeekCtx {
   error: (msg: string) => void;
   fetch?: MainDeps["fetch"];
   standings: StandingsFile;
-  /** updatedAt aus current.json, nur im Modus current. */
-  currentUpdatedAt?: string;
 }
 
 /**
@@ -89,7 +87,7 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
     return 1;
   }
 
-  const ctx: WeekCtx = { dataDir, now, log, error, fetch: deps.fetch, standings, currentUpdatedAt: current?.updatedAt };
+  const ctx: WeekCtx = { dataDir, now, log, error, fetch: deps.fetch, standings };
   let exit = await runWeek(args, explicit ? "explicit" : "current", ctx);
   if (current) {
     for (const k of upcomingWeeks(current)) {
@@ -168,18 +166,9 @@ async function runWeek(args: ScoreboardQuery, mode: Mode, ctx: WeekCtx): Promise
     }
   }
 
-  // D034 mit D042: maxDeviations friert im ersten Lauf als aktuelle Woche ein. Vorher (kommende Woche)
-  // folgt der Wert der Rangliste. Ein Lauf als aktuelle Woche schreibt die Datei immer, damit updatedAt
-  // danach jünger ist als current.json und der Wert gesperrt bleibt.
-  let freeze = true;
-  if (mode === "upcoming") freeze = false;
-  if (mode === "current" && existing && ctx.currentUpdatedAt !== undefined) {
-    freeze = Date.parse(existing.updatedAt) >= Date.parse(ctx.currentUpdatedAt);
-  }
-
   let next: TipsFile;
   try {
-    next = buildTipsFile({ week, odds, standings: ctx.standings, existing, now, freezeMaxDeviations: freeze });
+    next = buildTipsFile({ week, odds, standings: ctx.standings, existing, now });
   } catch (err) {
     error(`Tipps nicht berechenbar. ${keep} ${err instanceof Error ? err.message : String(err)}`);
     return 1;
@@ -189,15 +178,19 @@ async function runWeek(args: ScoreboardQuery, mode: Mode, ctx: WeekCtx): Promise
   const locked = next.tips.filter((t) => t.locked).length;
   log(
     `Saison ${week.season} Typ ${week.seasonType} Woche ${week.week}${mode === "upcoming" ? " (kommend)" : ""}: ` +
-      `${next.tips.length} Spiele, ${withOdds} mit Quote, ${locked} gesperrt, ${next.maxDeviations} Abweichungen erlaubt`,
+      `${next.tips.length} Spiele, ${withOdds} mit Quote, ${locked} gesperrt, Vorschlag immer Favorit`,
   );
-  const forceWrite = mode === "current" && existing !== null && !freeze;
-  if (existing && !forceWrite && sameTipsContent(existing, next)) {
+  // Verworfene Abweichungen nicht gesperrter Spiele aus der Zeit vor D052 im Log nennen.
+  const dropped = existing
+    ? existing.tips.filter((t) => t.deviation && !next.tips.find((n) => n.gameId === t.gameId)?.deviation).map((t) => t.gameId)
+    : [];
+  if (dropped.length > 0) log(`  Abweichung verworfen (D052): ${dropped.join(", ")}`);
+  if (existing && sameTipsContent(existing, next)) {
     log(`  unverändert data/${path}`);
     return 0;
   }
   await writeFiles(dataDir, [{ path, content: toJson(next) }]);
-  log(`  geschrieben data/${path}${forceWrite ? " (Abweichungen für die Woche eingefroren)" : ""}`);
+  log(`  geschrieben data/${path}`);
   return 0;
 }
 

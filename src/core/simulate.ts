@@ -6,7 +6,8 @@
 // knappe Spiele bekommen öfter einen Aussenseiter Tipp als klare, sichere Favoriten nie. Ohne Streuung hätten alle Gegner pro Woche dieselben Treffer, ein Rückstand liesse sich ohne
 // eigene Abweichung nie aufholen und die Simulation würde Abweichungen systematisch bevorzugen.
 // Der eigene Spieler tippt als Grundtipp immer den Favoriten (D027) und pro Woche k mal den Aussenseiter, und zwar
-// in den knappsten Spielen. Alle k laufen auf denselben Zufallszahlen, damit die Unterschiede zwischen k nicht vom
+// in den knappsten Spielen. Seine Tippquote kommt wie bei den Gegnern aus den Daten (season-sim.ts), damit der
+// Vergleich fair bleibt. Nur Information seit D052, die App wählt damit keine Abweichung. Alle k laufen auf denselben Zufallszahlen, damit die Unterschiede zwischen k nicht vom
 // Zufall stammen.
 
 /** Kleiner PRNG mulberry32, Ergebnis in [0, 1). */
@@ -59,6 +60,8 @@ export interface SimResult {
   k: number;
   winChance: number; // Anteil Platz 1, geteilter Platz 1 zählt anteilig
   meanPoints: number; // mittlerer eigener Endstand
+  /** Chance auf jeden Rang, Index 0 ist Rang 1. Gleichstand verteilt sich anteilig auf die geteilten Ränge. */
+  rankChances: number[];
 }
 
 export interface SimOutput {
@@ -96,6 +99,7 @@ export function simulateFirstPlace(input: SimInput): SimOutput {
   const maxK = Math.max(0, ...ks);
 
   const wins = new Float64Array(ks.length);
+  const ranks = ks.map(() => new Float64Array(n));
   const mySum = new Float64Array(ks.length);
   const totals = new Float64Array(n);
   const myByK = new Float64Array(ks.length);
@@ -170,6 +174,17 @@ export function simulateFirstPlace(input: SimInput): SimOutput {
       mySum[x]! += mine;
       if (n === 1 || mine > best) wins[x]! += 1;
       else if (mine === best) wins[x]! += 1 / (tiedAtBest + 1);
+      // Rang: Gegner mit mehr Punkten davor, bei Gleichstand anteilig über die geteilten Ränge
+      let above = 0;
+      let tied = 0;
+      for (let i = 0; i < n; i++) {
+        if (i === meIdx) continue;
+        if (totals[i]! > mine) above++;
+        else if (totals[i] === mine) tied++;
+      }
+      const share = 1 / (tied + 1);
+      const r = ranks[x]!;
+      for (let j = above; j <= above + tied; j++) r[j]! += share;
     }
   }
   return {
@@ -178,6 +193,7 @@ export function simulateFirstPlace(input: SimInput): SimOutput {
       k,
       winChance: Math.round((wins[x]! / runs) * 10_000) / 10_000,
       meanPoints: Math.round((mySum[x]! / runs) * 100) / 100,
+      rankChances: Array.from(ranks[x]!, (v) => Math.round((v / runs) * 10_000) / 10_000),
     })),
   };
 }

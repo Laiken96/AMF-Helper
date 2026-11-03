@@ -31,13 +31,13 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 
 ## Aktueller Stand
 
-Stand 2026-11-02 abends, alles auf main und live unter https://laiken96.github.io/AMF-Helper/
-- DoD erreicht (D042), Gesamtabnahme am Projektende. Features: Tipps mit Quoten und Abweichungen (Ziel Platz 1, D028), Tiebreaker TNF und MNF, Push vor Tippschluss, Ausfall Wächter, Bilanz mit Ranglisten Formular, Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus (erste echte Meinung CHI@SEA erzeugt, 0.034 USD)
+Stand 2026-11-03 nachts, alles auf main und live unter https://laiken96.github.io/AMF-Helper/
+- DoD erreicht (D042), Gesamtabnahme am Projektende. Features: Tipps mit Quoten, Favorit als Vorschlag (D052), Tiebreaker TNF und MNF, Push vor Tippschluss, Ausfall Wächter, Bilanz mit Ranglisten Formular, Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus (erste echte Meinung CHI@SEA erzeugt, 0.034 USD)
 - Design Stil A für iPhone und iPhone Duo (D035 bis D039, D045, D047, D048 Spielauswahl im Spielbereich)
 - Automatik: cron-job.org startet push.yml alle 10 Minuten und data.yml stündlich Minute 47 (D041), GitHub Zeitpläne unzuverlässig
 - Secrets: VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION, ANTHROPIC_API_KEY. Token cron-job läuft am 02.11.2027 ab, Erinnerung geplant
-- 442 Tests grün. Code Review umgesetzt (D049). Beta Test und Feature Analyse mit Agenten (D050, D051): Welle 1 live (UI Paket, Ausfälle nächste Woche, Linienbewegung, FPI, Public Picks, Saisonkalender, Abgleich Rangliste, season.ts, simulate.ts, Duo Safe Area Fix R113). Offen Welle 2 Design (Label aktive Navigation, Logos, Wischgeste, Duo zweispaltig alle Reiter, Hellmodus) und Welle 3 (Spieler wählbar, Anzeige FPI, Picks, Spielort, Abgleich, Saisonauswertung und Simulation in der Bilanz, Kalibrierung Aussenseiterquote)
-- Offen: Liveticker an echtem Spiel (MNF CHI@SEA 2026-11-03 01:15 UTC, echte ESPN Antworten als Fixtures sichern, R105), R104 am Gerät, Gerätetests R97 R101, Gesamtabnahme Week 9 (Do 05.11. bis Di 10.11.), danach Post Mortem
+- 515 Tests grün. Code Review (D049), Beta Test und Feature Analyse (D050, D051) in drei Wellen umgesetzt: UI Paket, neue Daten (Ausfälle nächste Woche, Linie, FPI, Public Picks, Spielort, Ruhetage), Saisonkalender, Design (Navigation mit Text, Logos, Wischgeste, Hellmodus, Duo quer zweispaltig), Spieler wählbar, Fakten pro Spiel, Bilanz Saison mit Simulation. D052: Ziel möglichst viele Punkte, Vorschlag immer Favorit, Abweichung entscheidet der Nutzer per Knopf. Duo zugeklappt per Bildschirmbreite erkannt (R113), Versuch gegen schwarzen Balken (R115), Diagnose in Einstellungen Technik
+- Offen: Liveticker an echtem Spiel (MNF CHI@SEA 2026-11-03 01:15 UTC, echte ESPN Antworten als Fixtures sichern, R105), R104 R113 R115 R116 am Gerät, Gerätetests R97 R101, Gesamtabnahme Week 9 (Do 05.11. bis Di 10.11.), danach Post Mortem
 - Arbeitsweise: Entwicklung auf Branch claude/nfl-dashboard-plan-mcwlna, Pull Request nach main (ci.yml muss grün sein), Merge selbst laut Regel 9 (D046). Vor Merge immer main zuerst holen (Regel 6). Agenten pro Stream, danach unabhängiger Review und QA
 
 ## Befehle

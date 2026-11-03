@@ -1,0 +1,83 @@
+/* Spieler wählbar (D050): Hinweis oben in den Tipps und Auswahl in Einstellungen und Onboarding.
+   Farben nur über die Variablen aus app.css, damit der Hellmodus greift. */
+
+.player-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 6px 12px 6px 6px;
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.player-line:hover {
+  background: var(--surface-2);
+}
+
+.player-line:active {
+  transform: scale(0.98);
+}
+
+.player-badge {
+  flex: none;
+  display: grid;
+  place-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--bg);
+  font-family: var(--font-num);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
+.player-line-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.player-line-main {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.player-line-sub {
+  font-size: 12px;
+  color: var(--text-3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.player-line-change {
+  flex: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.player-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.player-picker .segmented button {
+  min-height: 44px;
+}
+
+.player-picker .player-picker-text {
+  margin: 0 4px;
+}
+
+.overlay-card .player-picker {
+  margin-top: 10px;
+}

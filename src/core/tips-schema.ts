@@ -30,7 +30,7 @@ export const GameTipSchema = z.object({
   pickTeamId: z.string().nullable(), // aktueller Tipp, null ohne Quote
   pickProb: z.number().min(0).max(1).nullable(), // Wahrscheinlichkeit des getippten Teams
   level: TipLevelSchema,
-  deviation: z.boolean(), // true: bewusste Abweichung vom Favoriten (D010, D021)
+  deviation: z.boolean(), // true: Abweichung vom Favoriten. Seit D052 schreibt der Job nur noch false, gesperrte alte Werte bleiben
   firstPickTeamId: z.string().nullable(), // erster berechneter Tipp der Woche (Grundtipp, D023)
   // Erste erfasste Quote, gesetzt beim ersten Lauf mit Quote und danach nie überschrieben wie firstPickTeamId.
   // Fehlt in Version 1. Bei Dateien aus Version 1 ist es die erste nach dem Update gesehene Quote.
@@ -57,7 +57,7 @@ export const TipsFileSchema = z.object({
   seasonType: z.number().int(),
   week: z.number().int(),
   updatedAt: z.string().datetime(),
-  maxDeviations: z.number().int().min(0), // erlaubte Abweichungen laut D021
+  maxDeviations: z.number().int().min(0), // früher erlaubte Abweichungen (D021, D026), seit D052 immer 0
   tips: z.array(GameTipSchema),
   tiebreakers: z.array(TiebreakerSchema).max(2), // 0 bis 2 Einträge, Woche ohne TNF oder MNF hat weniger
 });

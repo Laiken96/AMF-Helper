@@ -1,0 +1,194 @@
+/* Saisonauswertung und Abgleich Rangliste in der Bilanz (D050). Farben nur über die Variablen aus app.css,
+   damit der Hellmodus greift. Duo quer nutzt das Raster .duo-split aus duo.css. */
+
+.review-mode {
+  padding: 0 4px;
+}
+
+.review-mode .segmented {
+  max-width: 320px;
+}
+
+.season-split .pane-metrics > *,
+.season-split .pane-list > * {
+  flex-shrink: 0;
+}
+
+.season-text {
+  margin: 0;
+  padding: 0 4px;
+  font-size: 14px;
+  color: var(--text-2);
+}
+
+/* ---------- Bänder: Balken Trefferquote, Strich Erwartung ---------- */
+
+.band-list {
+  list-style: none;
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: var(--surface);
+  display: grid;
+  gap: 10px;
+}
+
+.band-row {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  grid-template-areas:
+    "name bar"
+    "name text";
+  column-gap: 12px;
+  row-gap: 4px;
+  align-items: center;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.band-name {
+  grid-area: name;
+  font-weight: 600;
+}
+
+.band-bar {
+  grid-area: bar;
+  position: relative;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.band-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: 5px;
+  background: var(--accent);
+}
+
+.band-mark {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+  margin-left: -1px;
+  background: var(--text);
+}
+
+.band-text {
+  grid-area: text;
+  font-size: 12px;
+  color: var(--text-2);
+}
+
+/* ---------- Rangfolge Brier Score ---------- */
+
+.brier-list {
+  margin: 0;
+  padding: 12px 14px;
+  list-style: none;
+  border-radius: 14px;
+  background: var(--surface);
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.brier-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 8px;
+}
+
+.brier-name {
+  font-weight: 600;
+}
+
+.brier-rank {
+  display: inline-block;
+  min-width: 1.4em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.brier-value {
+  font-weight: 700;
+  text-align: right;
+}
+
+.brier-meta {
+  grid-column: 1 / -1;
+  padding-left: 1.4em;
+  font-size: 12px;
+  color: var(--text-2);
+}
+
+/* ---------- Simulation ---------- */
+
+.sim-table thead th {
+  letter-spacing: 0.04em;
+}
+
+.sim-table td {
+  white-space: nowrap;
+}
+
+.sim-details {
+  margin-top: 8px;
+}
+
+.sim-details summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.sim-details .sim-table {
+  margin-bottom: 6px;
+}
+
+.sim .push-hint {
+  margin-top: 8px;
+}
+
+/* ---------- Wochenliste ---------- */
+
+.season-weeks th a {
+  color: inherit;
+  font-weight: 700;
+}
+
+.season-open {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-3);
+}
+
+.ranking-check {
+  margin: 0;
+}
+
+/* Chance auf Rang (D052): Überschrift der Tabelle links, Abstand zum Umschalter */
+.sim .segmented {
+  margin: 8px 0 12px;
+}
+
+.sim-caption {
+  caption-side: top;
+  text-align: left;
+  padding: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.sim-table + .sim-table {
+  margin-top: 12px;
+}
