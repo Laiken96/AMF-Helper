@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T19:35:59Z",
+  "updatedAt": "2026-11-03T20:47:26Z",
   "items": [
+    {
+      "id": "dabee8655e273129",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sione-vaki-emerges-as-lions-change-of-pace-back-to-jahmyr-gibbs",
+      "title": "Sione Vaki emerges as Lions' change-of-pace back to pair with Jahmyr Gibbs",
+      "summary": "Even though the Lions have only played seven games and most teams have played eight, Lions running back Jahmyr Gibbs is leading the NFL with 191 touches — a huge workload that raises questions about whether Detroit needs a player to share carries with Gibbs, the way David Montgomery had done before he was traded to Houston.",
+      "publishedAt": "2026-11-03T20:24:07Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "5ac981df28f9a987",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
+      "title": "2026 midseason rookie grades: Ranking the early hits, misses and biggest surprises",
+      "summary": "Grading every first-round pick after eight weeks, from breakout stars to disappointing starts. Plus, 10 Day 2 and Day 3 rookies making their mark.",
+      "publishedAt": "2026-11-03T20:07:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "b2f03780353cda57",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-odds-lines-totals-spreads",
+      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Jaguars-Ravens, Jets-Chiefs, Giants-Eagles",
+      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Ravens-Jaguars on TNF.",
+      "publishedAt": "2026-11-03T20:05:56Z",
+      "teamIds": [
+        "33",
+        "30",
+        "12",
+        "19",
+        "20",
+        "21"
+      ]
+    },
     {
       "id": "46f06a1c188507b7",
       "source": "cbs",
@@ -1651,40 +1687,6 @@
       "teamIds": [
         "1",
         "27"
-      ]
-    },
-    {
-      "id": "eb175051ab98cc98",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-bears-vs-seahawks-nfl-monday-night-football",
-      "title": "Use FanDuel promo code to get $200 in bonus bets by targeting Bears vs. Seahawks, NFL Monday Night Football",
-      "summary": "Sign up and bet with the latest FanDuel promo code to wager on Monday to get your bonus bets",
-      "publishedAt": "2026-11-02T15:30:21Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "2709acf92e524fd6",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/caleb-downs-cowboys-defense-trey-mcbride",
-      "title": "Trey McBride taunts Caleb Downs as Cowboys rookie's struggles reach alarming level",
-      "summary": "Dallas rebuilt its defense around first-round pick Caleb Downs, but his coverage struggles and costly mistakes were exposed",
-      "publishedAt": "2026-11-02T15:27:01Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "09d145b2c223e34c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-should-explore-a-trade-for-daniel-jones",
-      "title": "The Vikings should explore a trade for Daniel Jones",
-      "summary": "Kevin O'Connell's decision to punt with 3:01 to play speaks volumes about the level of trust in Kyler Murray.",
-      "publishedAt": "2026-11-02T15:11:40Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]
