@@ -616,7 +616,7 @@ export function LiveTicker({ game, live, summary, tip, team, tipsHref }: TickerP
   const away = team(game.awayId);
   const home = team(game.homeId);
   const s = summary?.summary ?? null;
-  const hasInfo = Boolean(s?.info.venue || s?.info.tempC !== null || s?.info.tv.length || live.extra?.broadcast);
+  const hasInfo = Boolean(s?.info.venue || (s != null && s.info.tempC !== null) || s?.info.tv.length || live.extra?.broadcast);
   const block = (id: SectionId, title: string, content: ReactNode) => (
     <Block id={id} title={title} collapsible={collapsible} open={!collapsible || isOpen(id)} onToggle={toggle}>
       {content}
@@ -783,6 +783,7 @@ export function LiveCarousel({
       <div
         ref={track}
         className="tk-track"
+        role="region"
         tabIndex={0}
         onScroll={onScroll}
         onKeyDown={onKey}

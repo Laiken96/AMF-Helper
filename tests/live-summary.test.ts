@@ -209,3 +209,10 @@ describe("Hilfen", () => {
     expect(winSeries([])).toEqual({ span: 3600, points: [] });
   });
 });
+
+describe("Wetter ohne Zahlencode (Review D054)", () => {
+  it("zeigt keinen reinen Zahlencode als Bedingung", () => {
+    const s = parseLiveSummary(read("espn-summary-2026-w9-401873037.json"));
+    expect(s.info.weather ?? "").not.toMatch(/^\d+$/);
+  });
+});

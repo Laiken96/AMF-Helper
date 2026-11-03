@@ -348,7 +348,9 @@ function parseInfo(raw: unknown): GameInfo {
   const venue = get(raw, "gameInfo", "venue");
   const weather = get(raw, "gameInfo", "weather");
   const temp = num(get(weather, "temperature"));
-  const cond = str(get(weather, "conditionId")) ?? str(get(weather, "displayValue"));
+  // conditionId ist teils ein Zahlencode (z. B. "38"), dann den Text aus displayValue nehmen oder weglassen
+  const textOnly = (v: string | undefined) => (v && !/^\d+$/.test(v) ? v : undefined);
+  const cond = textOnly(str(get(weather, "conditionId"))) ?? textOnly(str(get(weather, "displayValue")));
   const city = [str(get(venue, "address", "city")), str(get(venue, "address", "state"))].filter(Boolean).join(", ");
   const tv: string[] = [];
   const comp = arr(get(raw, "header", "competitions"))[0];
