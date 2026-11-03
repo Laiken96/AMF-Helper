@@ -366,3 +366,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Verworfen: Preseason als ruhend markieren (jeder Leser müsste das Feld prüfen), eigener Workflow für das Lebenszeichen (GitHub Zeitpläne unzuverlässig, D041), Picks alle 10 Minuten in push.yml (unnötige Abrufe und Commits)
 - Offen: Die Simulation Platz 1 nimmt für Gegner eine Aussenseiterquote von 0.13 an (Annahme ohne geprüfte Quelle). Vor einem Entscheid zu D026 und D028 muss die Quote pro Spieler aus den eigenen Daten kalibriert werden (Rangliste gegen Favoritentreffer)
 - Risiko: ESPN Pick'em und FPI sind undokumentiert, fallen sie aus, fehlt nur die Zusatzinfo. Verhalten von ESPN vor der Ansetzung einer Playoff Runde ungeprüft, echte Antworten im Januar als Fixtures sichern
+
+## D052 Ziel möglichst hohe Punktzahl
+
+- Datum: 2026-11-03
+- Entscheid: Entscheid des Nutzers. Ziel ist immer die höchste erwartete Punktzahl, nicht mehr Platz 1. Ersetzt D026 und D028 im Umfang der Abweichungen: Es gibt keine bewussten Aussenseitertipps mehr, getippt wird immer das Team mit der höheren Siegwahrscheinlichkeit. Gilt sofort, auch für Week 9 (noch kein Spiel gesperrt), eingefrorene Abweichungen werden verworfen. Tiebreaker folgt dem Favoriten. Rangliste, Rückstand und Simulation bleiben als Information. Gilt auch für andere gewählte Spieler (D050)
+- Begründung: Simulation mit echten Daten (Stand Week 8): Chance auf Platz 1 für JA bei 0 bis 3 Abweichungen pro Woche jeweils 0 Prozent, jede Abweichung kostet im Mittel rund 1 bis 2 Punkte. Recherche: in kleinen Runden gewinnt eher der konsequente Favoritentipp
+- Verworfen: Ziel Platz 2, Abweichungen nur in den letzten Wochen
