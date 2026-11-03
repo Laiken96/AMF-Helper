@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T11:47:20Z",
+  "updatedAt": "2026-11-03T12:02:14Z",
   "items": [
+    {
+      "id": "b4c36f956d35dd01",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-de-cashius-howell-had-wrist-surgery",
+      "title": "Bengals DE Cashius Howell had wrist surgery",
+      "summary": "The Bengals are set to be without rookie defensive end Cashius Howell in the coming weeks.",
+      "publishedAt": "2026-11-03T11:53:43Z",
+      "teamIds": [
+        "4"
+      ]
+    },
     {
       "id": "7e14a34e7f800eaf",
       "source": "pft",
@@ -1690,19 +1701,6 @@
       "teamIds": [
         "21",
         "28"
-      ]
-    },
-    {
-      "id": "ca6a6e122790b0c0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-8-grades-cowboys-get-an-f-steelers-surge-to-a",
-      "title": "NFL Week 8 grades for every team: Bears earn 'A+' for destroying Seahawks, Cowboys get an 'F' for choking",
-      "summary": "We're handing out grades for every team that played in Week 8",
-      "publishedAt": "2026-11-02T05:02:39Z",
-      "teamIds": [
-        "3",
-        "6",
-        "26"
       ]
     }
   ]
