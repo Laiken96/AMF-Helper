@@ -1,7 +1,93 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T14:47:26Z",
+  "updatedAt": "2026-11-03T15:47:18Z",
   "items": [
+    {
+      "id": "7612140e9eded13e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-jeffery-simmons-has-fit-right-in-he-got-a-game-ball",
+      "title": "Ben Johnson: Jeffery Simmons has fit right in, he got a game ball",
+      "summary": "Fresh off last week's trade from the Titans to the Bears, defensive tackle Jeffrey Simmons had a clear impact on Monday night's win over the Seahawks.",
+      "publishedAt": "2026-11-03T15:39:09Z",
+      "teamIds": [
+        "3",
+        "26",
+        "10"
+      ]
+    },
+    {
+      "id": "7eae941762f1e638",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-on-job-security-i-understand-the-business-but-only-think-about-the-team",
+      "title": "Aaron Glenn on job security: I understand the business, but only think about the team",
+      "summary": "The Jets' loss to the Raiders in Week 8 dropped them to 2-6 and it left their record since hiring head coach Aaron Glenn at an unimpressive 5-20.",
+      "publishedAt": "2026-11-03T15:35:48Z",
+      "teamIds": [
+        "13",
+        "20"
+      ]
+    },
+    {
+      "id": "a69f42959cbd62e6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-wants-to-see-more-targets-for-george-pickens",
+      "title": "Jerry Jones wants to see more targets for George Pickens",
+      "summary": "The 3-5 Cowboys have plenty of problems.",
+      "publishedAt": "2026-11-03T15:35:21Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "521797a6d6be6f6b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-add-starting-qb-kedon-slovis-week-9",
+      "title": "Ravens add possible starting QB just two days ahead of Week 9 showdown with Jaguars",
+      "summary": "With Lamar Jackson and Tyler Huntley sidelined and Joe Fagnano battling an ankle injury, Baltimore could turn to Kedon Slovis",
+      "publishedAt": "2026-11-03T15:17:55Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "ee3a250a3129517c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/teams-are-interested-in-titans-rb-tony-pollard-but-tennessee-isnt-talking-yet",
+      "title": "Teams are interested in Titans RB Tony Pollard, but Tennessee isn't talking (yet)",
+      "summary": "After consistently telling teams that defensive tackle Jeffery Simmons would not be traded, the Titans decided last Tuesday to listen to offers.",
+      "publishedAt": "2026-11-03T15:08:23Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "506cc0843b48c8ae",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-buffalo-miami-oh-college-basketball",
+      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass on Buffalo-Miami (OH), college basketball",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for college basketball, college football, NFL betting on Tuesday",
+      "publishedAt": "2026-11-03T15:05:09Z",
+      "teamIds": []
+    },
+    {
+      "id": "5d77a88dc85e4247",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-buffalo-miami-oh-college-basketball-tuesday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Buffalo-Miami (OH), college basketball Tuesday",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for college basketball, college football, NFL betting on Tuesday",
+      "publishedAt": "2026-11-03T15:00:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "e74fc6c21f785070",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-calms-things-down-in-shoe-dispute-with-nfl",
+      "title": "Caleb Williams chooses to \"calm things down\" in shoe dispute with NFL",
+      "summary": "The battle lines were drawn, in the form of an $11,941 fine for Week 6 and a $23,882 fine for Week 7.",
+      "publishedAt": "2026-11-03T14:46:15Z",
+      "teamIds": []
+    },
     {
       "id": "59eb43d3567d56e7",
       "source": "pft",
@@ -1616,96 +1702,6 @@
       "publishedAt": "2026-11-02T12:08:25Z",
       "teamIds": [
         "4"
-      ]
-    },
-    {
-      "id": "1244c7ff7297cf54",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-sundays-performance-is-the-expectation-for-our-defense",
-      "title": "Joe Brady: Sunday's performance is the expectation for our defense",
-      "summary": "The Bills allowed an average of 28.5 points per game in their first six games of the 2026 season and improving on that was a focus for the team during their bye week.",
-      "publishedAt": "2026-11-02T11:54:42Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "639ff11fc21432cf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/khalil-mack-trying-to-be-where-his-feet-are-at-amid-trade-rumors",
-      "title": "Khalil Mack trying to be where his \"feet are at\" amid trade rumors",
-      "summary": "The Chargers slumped to another defeat on Sunday and most of the attention being paid to the 0-7 team concerns who is going to be hitting the road in the near future.",
-      "publishedAt": "2026-11-02T11:40:36Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "c9bf366dbbb6e130",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-eagles-said-they-wont-trade-me-i-want-to-be-here-to-fix-it",
-      "title": "Saquon Barkley: Eagles said they won't trade me, I want to be here to fix it",
-      "summary": "A report before Sunday's games said that the Eagles will not trade running back Saquon Barkley ahead of the November 10 trade deadline and Barkley said after Sunday night's game against the Commanders that he's received the same message from the team.",
-      "publishedAt": "2026-11-02T11:31:32Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "657b2929a8b23e69",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-wisely-declined-the-vikings-intentional-offsides",
-      "title": "Dan Campbell wisely declined the Vikings' intentional offsides",
-      "summary": "With 2:00 left in the fourth quarter on Sunday in Detroit, the Lions had a 19-15 lead and the ball, facing second-and-2.",
-      "publishedAt": "2026-11-02T11:27:14Z",
-      "teamIds": [
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "385b48c4bf3e4b42",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/larry-csonka-celebrates-vikings-loss-as-1972-dolphins-stand-alone-for-another-year",
-      "title": "Larry Csonka celebrates Vikings' loss as 1972 Dolphins stand alone for another year",
-      "summary": "It's celebration time for the 1972 Dolphins.",
-      "publishedAt": "2026-11-02T09:46:29Z",
-      "teamIds": [
-        "15",
-        "16"
-      ]
-    },
-    {
-      "id": "8141c40ce3c3c394",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-i-am-not-doing-a-good-enough-job-ive-got-to-do-better",
-      "title": "Nick Sirianni: I am not doing a good enough job, I've got to do better",
-      "summary": "The Eagles' head coach took the blame after Sunday night's 27-10 loss to the Commanders.",
-      "publishedAt": "2026-11-02T09:13:03Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "2f4c8ca5a7359d67",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50352501/jacobs-attorneys-say-additional-allegations-unsupported",
-      "title": "Jacobs' attorneys say additional allegations 'unsupported'",
-      "summary": "The attorneys for Green Bay's Josh Jacobs called the additional allegations of physical and verbal abuse \"unsupported and stale allegations\" in a statement on Sunday, two days after a police department in Wisconsin released records related to his arrest.",
-      "publishedAt": "2026-11-02T06:54:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "745e1a1d1369c901",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353468/cardinals-mike-lafleur-noncommittal-starting-qb-gardner-minshew-replaces-jacoby-brissett-win",
-      "title": "LaFleur won't commit to starter after Minshew replaces Brissett, leads Cards' OT win",
-      "summary": "Cardinals coach Mike LaFleur wouldn't commit to next week's starting quarterback after Gardner Minshew replaced Jacoby Brissett in the third quarter Sunday and led Arizona to a comeback win over Dallas.",
-      "publishedAt": "2026-11-02T06:54:36Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
