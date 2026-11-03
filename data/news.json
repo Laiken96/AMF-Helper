@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T22:47:21Z",
+  "updatedAt": "2026-11-02T23:47:18Z",
   "items": [
+    {
+      "id": "287349b94f7b8be9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-expects-to-see-sacks-start-to-pile-up-for-jared-verse",
+      "title": "Todd Monken expects to see sacks start to \"pile up\" for Jared Verse",
+      "summary": "Browns defensive end Jared Verse made a fair amount of noise heading into Sunday's game against the Steelers, but he was mostly silent on the field in Pittsburgh.",
+      "publishedAt": "2026-11-02T23:23:59Z",
+      "teamIds": [
+        "5",
+        "23"
+      ]
+    },
+    {
+      "id": "dd7a9c8408010031",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-admits-calling-amy-adams-strunk-about-jeffery-simmons-trade",
+      "title": "John Harbaugh admits calling Amy Adams Strunk about Jeffery Simmons trade",
+      "summary": "Giants coach John Harbaugh apparently ruffled some feathers in Nashville by making a phone call to Titans owner Amy Adams Strunk in an effort to spark trade discussions for defensive tackle Jeffery Simmons.",
+      "publishedAt": "2026-11-02T23:06:32Z",
+      "teamIds": [
+        "19",
+        "10"
+      ]
+    },
+    {
+      "id": "202b1a715931d9af",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kendrick-bourne-has-a-fractured-tibia-will-miss-the-rest-of-the-season",
+      "title": "Report: Kendrick Bourne has a fractured tibia, will miss the rest of the season",
+      "summary": "Cardinals head coach Mike LaFleur said at his Monday press conference that wide receiver Kendrick Bourne could miss the rest of the season with a leg injury he suffered in Sunday's overtime win over the Cowboys and a report on Monday evening says that will be the case.",
+      "publishedAt": "2026-11-02T23:02:26Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
     {
       "id": "c6c1d3d3a439ed02",
       "source": "pft",
@@ -360,7 +396,7 @@
       "id": "be10f8bb9e81159a",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football",
-      "title": "Is Jadarian Price playing against the Bears? Latest Seahawks RB injury update for 'Monday Night Football'",
+      "title": "Is Jadarian Price playing on MNF? Latest Seahawks RB injury update for game vs. Bears",
       "summary": "The Seahawks could activate Jadarian Price from injured reserve before Monday night's game, but Mike Macdonald offered few clues about the rookie's status",
       "publishedAt": "2026-11-02T18:31:15Z",
       "teamIds": [
@@ -1687,36 +1723,6 @@
       "teamIds": [
         "33"
       ]
-    },
-    {
-      "id": "94e7b77a50b30f3e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylen-warren-rushes-for-143-on-his-birthday-steelers-beat-browns-27-6",
-      "title": "Jaylen Warren rushes for 143 on his birthday, Steelers beat Browns 27-6",
-      "summary": "The streak continues for the Steelers and Browns in Pittsburgh.",
-      "publishedAt": "2026-11-01T21:10:59Z",
-      "teamIds": [
-        "5",
-        "23"
-      ]
-    },
-    {
-      "id": "2923c58be93bb1a6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/50288294/2027-nfl-draft-ohio-state-receiver-jeremiah-smith-generational",
-      "title": "Could Jeremiah Smith be a generational NFL draft receiver prospect?",
-      "summary": "Smith could be the first wideout to be selected No. 1 in the draft in 31 years. What makes him so special?",
-      "publishedAt": "2026-11-01T21:06:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "b942a95da1cf3ff2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
-      "title": "NFL draft risers, notes off Saturday's college games: Need a WR in Round 1? Watch Indiana",
-      "summary": "Will receivers Charlie Becker and Nick Marsh both go early? What makes Chris Cole stand out among the linebackers? Here's draft spin off CFB Week 9.",
-      "publishedAt": "2026-11-01T21:06:52Z",
-      "teamIds": []
     }
   ]
 }
