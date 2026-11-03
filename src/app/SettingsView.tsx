@@ -212,6 +212,10 @@ function ReadingGuide() {
   return (
     <ul className="legend">
       <li>
+        <strong>Vorschlag</strong> der App ist immer der Favorit, also das Team mit der höheren Siegwahrscheinlichkeit.
+        Ziel sind möglichst viele Punkte.
+      </li>
+      <li>
         <strong>Prozent</strong> ist die Siegwahrscheinlichkeit des getippten Teams, berechnet aus den Wettquoten.
       </li>
       <li>
@@ -219,7 +223,9 @@ function ReadingGuide() {
         60 %, <span className="legend-tag legend-unklar">unklar</span> darunter, also fast ein Münzwurf.
       </li>
       <li>
-        <strong>Abweichung</strong> heisst bewusst auf den Aussenseiter getippt, um Punkte auf Platz 1 gutzumachen.
+        <strong>Abweichung</strong> entscheidest du selbst: im Spielblatt mit dem Knopf Aussenseiter tippen. Die App
+        markiert knappe Spiele mit selten getipptem Aussenseiter als Abweichung möglich und zeigt Signale dazu. Im
+        Mittel kostet eine Abweichung Punkte, sie bleibt deine Wahl. Ab Kickoff ist die Wahl gesperrt.
       </li>
       <li>
         <strong>Tiebreaker</strong>: für das Thursday Night Game (TNF) und das Monday Night Game (MNF) zusätzlich das
@@ -229,7 +235,7 @@ function ReadingGuide() {
   );
 }
 
-/** Eigenes Kürzel wählen (D050). Ziel, Rangliste und Abweichungen gelten für diese Person. */
+/** Eigenes Kürzel wählen (D050). Rangliste und eigene Abweichungen gelten für diese Person (D052). */
 function PlayerPicker({ compact = false }: { compact?: boolean }) {
   const standings = useStandings();
   const { player, main, other, choose } = usePlayer(standings);
@@ -248,8 +254,8 @@ function PlayerPicker({ compact = false }: { compact?: boolean }) {
       ) : (
         <p className="push-hint player-picker-text" aria-live="polite">
           {other
-            ? `Ziel Platz 1, Rangliste und Abweichungen gelten für ${player}. Die App rechnet die offenen Spiele dafür im Browser neu.`
-            : `Ziel Platz 1, Rangliste und Abweichungen gelten für ${player}.`}
+            ? `Rangliste und eigene Abweichungen gelten für ${player}. Der Vorschlag der App ist für alle gleich.`
+            : `Rangliste und eigene Abweichungen gelten für ${player}.`}
           {!compact && main && ` Push Erinnerungen und die Tippliste im Push gelten immer für ${main}.`}
         </p>
       )}
@@ -400,7 +406,10 @@ export function Onboarding({ onClose }: { onClose: () => void }) {
 
         <section>
           <h2>1. Wer bist du</h2>
-          <p>Wähle dein Kürzel aus der Rangliste. Ziel Platz 1 und die Abweichungen rechnet die App für dich.</p>
+          <p>
+            Wähle dein Kürzel aus der Rangliste. Die App schlägt immer den Favoriten vor, eine Abweichung wählst du
+            selbst. Deine Wahl wird pro Kürzel auf diesem Gerät gespeichert.
+          </p>
           <PlayerPicker compact />
         </section>
 

@@ -1,4 +1,4 @@
-// Web Worker für die Simulation Platz 1 (D050): 5000 Läufe ohne die Oberfläche zu blockieren.
+// Web Worker für die Simulation der Chance auf Rang (D050, D052): 5000 Läufe ohne die Oberfläche zu blockieren.
 import { simulateFirstPlace, type SimInput } from "../core/simulate";
 
 interface WorkerScope {

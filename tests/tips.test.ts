@@ -15,7 +15,7 @@ import {
   tipLevel,
   weekdayNewYork,
 } from "../src/core/tips";
-import { TipsFileSchema, type GameTip, type Odds, type StandingsFile } from "../src/core/tips-schema";
+import { TipsFileSchema, type Odds, type StandingsFile } from "../src/core/tips-schema";
 
 const T0 = "2026-11-01T12:00:00Z";
 
@@ -134,24 +134,6 @@ describe("Sperre", () => {
     expect(isLocked({ ...g, status: "postponed" }, T0)).toBe(true);
   });
 });
-
-function tip(gameId: string, pickProb: number | null, extra: Partial<GameTip> = {}): GameTip {
-  return {
-    gameId,
-    kickoffUtc: "2026-11-08T18:00:00Z",
-    odds: null,
-    pHome: pickProb,
-    pickTeamId: pickProb === null ? null : `h${gameId}`,
-    pickProb,
-    level: tipLevel(pickProb),
-    deviation: false,
-    firstPickTeamId: null,
-    changedSinceFirst: false,
-    locked: false,
-    lockedAt: null,
-    ...extra,
-  };
-}
 
 describe("Tiebreaker", () => {
   const g = game("1", "2026-11-06T01:15:00Z");

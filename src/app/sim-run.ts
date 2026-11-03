@@ -1,10 +1,22 @@
 // Startet die Simulation im Web Worker, ohne Worker per requestIdleCallback im Hauptthread.
+// Der Worker hat ein Zeitlimit. Danach wird er beendet und die Ansicht zeigt einen Hinweis mit neuem Versuch,
+// statt den Hauptthread mit derselben langen Rechnung zu blockieren.
 import { simulateFirstPlace, type SimInput, type SimOutput } from "../core/simulate";
 
 export interface SimRun {
   output: SimOutput;
   ms: number; // Rechenzeit
   where: "worker" | "idle";
+}
+
+/** Zeitlimit für eine Rechnung im Worker. */
+export const SIM_TIMEOUT_MS = 10_000;
+
+/** Fehler bei überschrittenem Zeitlimit, die Ansicht zeigt dazu einen eigenen Hinweis. */
+export class SimTimeoutError extends Error {
+  constructor() {
+    super("Die Simulation dauerte zu lange");
+  }
 }
 
 let worker: Worker | null = null;
@@ -38,12 +50,20 @@ function runIdle(input: SimInput): Promise<SimRun> {
   });
 }
 
-export function runSimulation(input: SimInput): Promise<SimRun> {
+export function runSimulation(input: SimInput, timeoutMs = SIM_TIMEOUT_MS): Promise<SimRun> {
   const w = getWorker();
   if (!w) return runIdle(input);
   const id = ++seq;
   return new Promise((resolve, reject) => {
+    // Zu lange Rechnung: Worker beenden, der nächste Versuch startet einen neuen
+    const timer = window.setTimeout(() => {
+      cleanup();
+      w.terminate();
+      if (worker === w) worker = null;
+      reject(new SimTimeoutError());
+    }, timeoutMs);
     const cleanup = () => {
+      window.clearTimeout(timer);
       w.removeEventListener("message", onMessage);
       w.removeEventListener("error", onError);
     };

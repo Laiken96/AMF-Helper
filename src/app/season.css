@@ -174,3 +174,21 @@
 .ranking-check {
   margin: 0;
 }
+
+/* Chance auf Rang (D052): Überschrift der Tabelle links, Abstand zum Umschalter */
+.sim .segmented {
+  margin: 8px 0 12px;
+}
+
+.sim-caption {
+  caption-side: top;
+  text-align: left;
+  padding: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.sim-table + .sim-table {
+  margin-top: 12px;
+}

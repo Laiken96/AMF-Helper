@@ -259,7 +259,9 @@ describe("buildSimSetup", () => {
     // D022: 45 Punkte aus 73 Tipps bei rund 120 möglichen Spielen
     expect(ja.pickRate * s.possibleGames).toBeGreaterThan(65);
     expect(ja.pickRate * s.possibleGames).toBeLessThan(85);
-    expect(s.input.players.find((p) => p.id === "JA")!.pickRate).toBe(1);
+    // Fair (D052): JA bekommt dieselbe geschätzte Tippquote wie die Gegner, nicht 100 Prozent
+    expect(s.input.players.find((p) => p.id === "JA")!.pickRate).toBe(ja.pickRate);
+    expect(s.input.players.find((p) => p.id === "JA")!.pickRate).toBeLessThan(1);
   });
 
   it("gewählter Spieler aus dem Onboarding, unbekanntes Kürzel fällt auf me zurück", () => {
