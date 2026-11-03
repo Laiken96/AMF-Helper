@@ -48,7 +48,7 @@ export function shownResult(
   const result = tipResult(tip, game, tip.kickoffUtc, new Date(now).toISOString());
   if (result === "ungewertet") return result;
   const side = final ? winnerSide(awayScore, homeScore) : null;
-  if (side && tip.pickTeamId && tip.level !== "nicht_erfasst" && tip.level !== "offen") {
+  if (side && tip.pickTeamId) {
     if (side === "tie") return "unentschieden";
     return (side === "away" ? game.awayId : game.homeId) === tip.pickTeamId ? "richtig" : "falsch";
   }
