@@ -682,7 +682,7 @@ R105 Liveticker an echtem Spiel
     Vorbedingung: Spiel läuft.
     Schritt: Spiele öffnen, Detail öffnen.
     Erwartet: Score, Viertel, Uhr und letzte Spielzüge aktuell, bei ESPN Fehler längere Abstände bis 5 Minuten, verschobenes Spiel ohne Abruf.
-    Status: Grundtest bestanden durch Nutzer 2026-11-03 01:40 (Safari, CHI 7 : 0 SEA, Q1 3:17, Aktualisierung alle 20 s). Echte Antworten als Fixtures gesichert. Neuer Ticker nach D054 offen
+    Status: Grundtest bestanden durch Nutzer 2026-11-03 01:40 (Safari, CHI 7 : 0 SEA, Q1 3:17, Aktualisierung alle 20 s). Echte Antworten als Fixtures gesichert (Q1 4:20 und Q2 1:08 mit Red Zone, 4 Punktspielzüge, 81 Werte Siegchance), Tests tests/live-real-q2.test.ts grün. Neuer Ticker nach D054 seit 2026-11-03 live, Gerätetest am nächsten Spiel offen
 
 ## Ausbau nach Beta Test (D050, D051)
 
