@@ -95,7 +95,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-03T01:20:33Z",
+    "takenAt": "2026-11-03T01:30:57Z",
     "games": [
       {
         "gameId": "401873036",
@@ -111,6 +111,40 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4426386",
+            "name": "Roschon Johnson",
+            "pos": "RB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431611",
+            "name": "Caleb Williams",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4723086",
+            "name": "Colston Loveland",
+            "pos": "TE",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           },
           {
             "athleteId": "3912547",
