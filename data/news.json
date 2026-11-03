@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T02:47:17Z",
+  "updatedAt": "2026-11-03T03:29:44Z",
   "items": [
+    {
+      "id": "d705903f11026aee",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swifts-td-run-gives-bears-a-20-9-lead-on-seahawks",
+      "title": "D'Andre Swift's TD run gives Bears a 20-9 lead on Seahawks",
+      "summary": "The Bears have taken control in Chicago.",
+      "publishedAt": "2026-11-03T03:23:14Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "2ab58c7453034ca4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/most-cowboys-players-left-facility-on-monday-before-locker-room-media-availability",
+      "title": "Most Cowboys players left facility on Monday before locker-room media availability",
+      "summary": "The day after an embarrassing home loss to the Cardinals — who have never lost at AT&T Stadium — many of the Cowboys' players skipped a session with the media covering the team.",
+      "publishedAt": "2026-11-03T03:06:08Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
+    {
+      "id": "2f24d213a2496eb3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bears-lead-seahawks-13-9-at-halftime",
+      "title": "Monday Night Football: Bears lead Seahawks 13-9 at halftime",
+      "summary": "Jaxon Smith-Njigba caught a 43-yard touchdown with 30 seconds left in the half to draw Seattle closer.",
+      "publishedAt": "2026-11-03T02:51:03Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "9aa4d934a15386f8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-wont-say-much-about-the-soreness-in-matthew-staffords-throwing-arm",
+      "title": "Sean McVay won't say much about the \"soreness\" in Matthew Stafford's throwing arm",
+      "summary": "Rams quarterback Matthew Stafford threw only 25 passes on Sunday.",
+      "publishedAt": "2026-11-03T02:50:45Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "d9163f19016cda26",
       "source": "pft",
@@ -1675,52 +1722,6 @@
       "teamIds": [
         "21",
         "28"
-      ]
-    },
-    {
-      "id": "83beb9183ce0d41a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-say-jack-campbell-will-remain-hospitalized-overnight",
-      "title": "Lions say Jack Campbell will remain hospitalized overnight",
-      "summary": "Lions linebacker Jack Campbell will be hospitalized overnight after suffering what appeared to be a serious injury on Sunday against the Vikings.",
-      "publishedAt": "2026-11-02T00:25:35Z",
-      "teamIds": [
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "e6833eb0bf650f88",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-wild-overtime-win-ends-scorigami",
-      "title": "Bengals wild overtime win ends with final score that's never happened before in NFL history",
-      "summary": "Ladies and gentlemen, we have a scorigami!",
-      "publishedAt": "2026-11-02T00:20:16Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "b973abeace30fac7",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-receive-55-bonus-eagles-vs-commanders-sunday-night-football",
-      "title": "Best Kalshi promo code CBSSPORTS55: Receive $55 bonus for Eagles vs. Commanders on Sunday Night Football",
-      "summary": "New Kalshi users can get a $55 bonus after making $25+ in trades on the NFL Week 8 Eagles vs. Commanders SNF matchup",
-      "publishedAt": "2026-11-02T00:17:25Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "0acc2b8c40430628",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-make-it-a-game-now-trail-24-21",
-      "title": "Broncos make it a game, now trail 24-21",
-      "summary": "Bo Nix's second touchdown pass of the day was much like his first.",
-      "publishedAt": "2026-11-02T00:16:50Z",
-      "teamIds": [
-        "7"
       ]
     }
   ]
