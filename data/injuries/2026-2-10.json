@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-03T16:40:42Z",
+    "takenAt": "2026-11-03T19:10:38Z",
     "games": [
       {
         "gameId": "401873052",
@@ -996,6 +996,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4429582",
+            "name": "Joe Fagnano",
+            "pos": "QB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           },
           {
             "athleteId": "4429615",
