@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 8,
-  "fetchedAt": "2026-11-03T03:29:40Z",
+  "fetchedAt": "2026-11-03T03:47:16Z",
   "source": "espn",
   "games": [
     {
@@ -275,8 +275,8 @@
       "homeId": "26",
       "awayId": "3",
       "status": "in_progress",
-      "statusDetail": "15:00 - 4th",
-      "homeScore": 9,
+      "statusDetail": "11:46 - 4th",
+      "homeScore": 17,
       "awayScore": 20,
       "venue": "Lumen Field",
       "neutralSite": false,
