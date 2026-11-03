@@ -750,7 +750,7 @@ R116 Favorit als Vorschlag und eigene Abweichung (D052)
     Vorbedingung: Week 9 vor TNF, alte Tippdatei mit Abweichungen ATL und CLE.
     Schritt: job:tips, danach App öffnen, CIN@ATL im Blatt, Aussenseiter tippen, Liste, Spiele Reiter, Reload, zurück zum Favoriten.
     Erwartet: Vorschlag CIN und NO, maxDeviations 0, keine Push Flut. Kandidat markiert, Signale als Text, Wahl überall gleich, Tiebreaker folgt, nach Kickoff gesperrt.
-    Status: bestanden lokal 2026-11-03 (Probelauf mit echter ESPN Antwort, 68 Browserprüfungen), offen Nutzer am Gerät
+    Status: bestanden lokal 2026-11-03 (Probelauf mit echter ESPN Antwort, 68 Browserprüfungen), offen Nutzer am Gerät. Bekannt: Bilanz und Abgleich Rangliste werten den Vorschlag der App, nicht die eigene Wahl auf dem Gerät
 
 R117 Saisonansicht und Simulation
     Vorbedingung: Bilanz, Saison.
