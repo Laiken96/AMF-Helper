@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T12:02:14Z",
+  "updatedAt": "2026-11-03T12:47:20Z",
   "items": [
+    {
+      "id": "5f938ac56bba4586",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/khalil-mack-trade-proposals-chargers-bears-nfl-deadline",
+      "title": "Khalil Mack trade proposals: Bears reunion headlines 3 deals Chargers could make before NFL deadline",
+      "summary": "The winless Chargers reportedly remain reluctant to move Mack, but there are some show-stopping deals that could still be possible",
+      "publishedAt": "2026-11-03T12:31:04Z",
+      "teamIds": [
+        "3",
+        "24"
+      ]
+    },
+    {
+      "id": "1924dbaee9f6d8ef",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-03T12:28:11Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "4e1373ff1edd9be9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-may-add-help-at-running-back-after-jeremy-mcnicholss-foot-injury",
+      "title": "Commanders may add help at running back after Jeremy McNichols's foot injury",
+      "summary": "The Commanders may need to add some help at running back this week.",
+      "publishedAt": "2026-11-03T12:04:23Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "1afaac22c584ab05",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/could-tyson-bagent-save-ravens-playoff-hopes-lamar-jackson-injury",
+      "title": "Could Tyson Bagent save Ravens' playoff hopes? Lamar Jackson injury raises a costly trade question",
+      "summary": "OC Declan Doyle knows Bagent from Chicago, but does that familiarity justify a potentially expensive trade for a mostly unproven player?",
+      "publishedAt": "2026-11-03T12:01:54Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "b4c36f956d35dd01",
       "source": "pft",
@@ -11,6 +57,32 @@
       "publishedAt": "2026-11-03T11:53:43Z",
       "teamIds": [
         "4"
+      ]
+    },
+    {
+      "id": "f75da873a847165e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-mock-trade-brian-thomas-jr-chiefs-raiders",
+      "title": "Mock trades for Jaguars' Brian Thomas Jr.: Why Chiefs, Raiders could stand out as top fits",
+      "summary": "Thomas has struggled after an outstanding rookie year",
+      "publishedAt": "2026-11-03T11:50:30Z",
+      "teamIds": [
+        "30",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "6dfe64aaf04b4f38",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-score-predictions-packers-patriots",
+      "title": "NFL Week 9 picks and score predictions: Packers ruin Tom Brady's trip to New England, Jaguars destroy Ravens",
+      "summary": "John Breech makes his Week 9 NFL picks, including Jacksonville cruising past a short-handed Baltimore team and Green Bay spoiling a star-studded weekend in New England",
+      "publishedAt": "2026-11-03T11:47:54Z",
+      "teamIds": [
+        "33",
+        "9",
+        "30"
       ]
     },
     {
@@ -86,6 +158,19 @@
       "publishedAt": "2026-11-03T05:38:58Z",
       "teamIds": [
         "3",
+        "26"
+      ]
+    },
+    {
+      "id": "ca6a6e122790b0c0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-8-grades-cowboys-get-an-f-steelers-surge-to-a",
+      "title": "NFL Week 8 grades for every team: Bears earn 'A+' for destroying Seahawks, Cowboys get an 'F' for choking",
+      "summary": "We're handing out grades for every team that played in Week 8",
+      "publishedAt": "2026-11-03T04:41:03Z",
+      "teamIds": [
+        "3",
+        "6",
         "26"
       ]
     },
@@ -1620,87 +1705,6 @@
       "teamIds": [
         "5",
         "23"
-      ]
-    },
-    {
-      "id": "9508668bb98863a3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353702/nfl-week-8-trolls",
-      "title": "😈 Steelers' dog-themed jabs at Browns headline Week 8 trolls",
-      "summary": "NFL team's remained petty in Week 8, led by jabs from the Pittsburgh Steelers aimed at the Cleveland Browns.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "5",
-        "23"
-      ]
-    },
-    {
-      "id": "a360b6623cbf9aee",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50355124/broncos-use-last-second-goal-line-stand-hold-chiefs",
-      "title": "Broncos' prayers answered as goal-line stand leads to win, top spot in AFC West",
-      "summary": "Kansas City and Patrick Mahomes got the ball to the Denver 4-yard line with 35 seconds to play but were held out of the end zone on five straight plays.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "ba97a46cadcf856f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353308/colts-shane-steichen-evaluate-everything-42-7-loss",
-      "title": "Colts' Steichen to 'evaluate everything,' including QB, after 42-7 drubbing",
-      "summary": "After the Colts' 42-7 loss to the Jaguars on Sunday, the Colts coach Shane Steichen left open the possibility of significant changes, including at quarterback.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "11",
-        "30"
-      ]
-    },
-    {
-      "id": "c3995f00f7897aad",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353796/jets-being-jets-fitzpatrick-sums-team-latest-loss",
-      "title": "'Jets being Jets': Fitzpatrick sums up team's latest puzzling loss",
-      "summary": "After the Jets dropped another one-score game, Minkah Fitzpatrick had a label for the way they lose games: \"Jets being Jets.\"",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "d6696a01515c238b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50353004/jones-backs-schottenheimer-says-cowboys-let-coach-down",
-      "title": "Jones backs Schottenheimer, says Cowboys let coach down in loss",
-      "summary": "Despite matching the largest blown fourth-quarter lead in team history, Cowboys owner Jerry Jones said the loss to Arizona will not trigger a coaching change.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "e6f082ce807a7343",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50356260/daniels-fuels-commanders-comeback-27-10-win-eagles",
-      "title": "Daniels, Commanders 'keep fighting through adversity,' rally past Eagles",
-      "summary": "After falling behind 10-0 in the first half, quarterback Jayden Daniels led the Washington Commanders on a rousing rally, cruising to a 27-10 win over the Philadelphia Eagles at Northwest Stadium, an effort in which he threw for 217 yards and a touchdown.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "f79946410a65c552",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50356092/saquon-barkley-assurances-eagles-dealt",
-      "title": "Barkley receives assurances he won't be dealt, wants to help Eagles 'fix it'",
-      "summary": "Speaking after Sunday night's 27-10 loss to the Washington Commanders, Philadelphia Eagles running back Saquon Barkley told reporters he has received assurances from the front office that he will remain with the club beyond the Nov. 10 trade deadline.",
-      "publishedAt": "2026-11-02T06:54:06Z",
-      "teamIds": [
-        "21",
-        "28"
       ]
     }
   ]
