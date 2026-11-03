@@ -1,7 +1,116 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T20:47:26Z",
+  "updatedAt": "2026-11-03T21:47:24Z",
   "items": [
+    {
+      "id": "3f103770ec34e234",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-put-tyler-loop-on-injured-reserve",
+      "title": "Ravens put Tyler Loop on injured reserve",
+      "summary": "The Ravens' kicker change will last longer than one game.",
+      "publishedAt": "2026-11-03T21:35:49Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "ddfac2beafbc1974",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murrays-hamstring-issue-could-be-cover-for-a-soft-benching",
+      "title": "Kyler Murray's hamstring issue could be cover for a soft benching",
+      "summary": "How can the Vikings bench Kyler Murray without benching Kyler Murray?",
+      "publishedAt": "2026-11-03T21:30:10Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "4c63bf62d62586f3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-officially-place-jeremiyah-love-kendrick-bourne-on-ir",
+      "title": "Cardinals officially place Jeremiyah Love, Kendrick Bourne on IR",
+      "summary": "The Cardinals made the move of running back Jeremiyah Love to injured reserve official on Tuesday.",
+      "publishedAt": "2026-11-03T21:26:50Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "9a31a9f713fb4756",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-daniel-carlson-claim-audric-estime-off-waivers",
+      "title": "Saints release Daniel Carlson, claim Audric Estime off waivers",
+      "summary": "An offensive player is returning to New Orleans.",
+      "publishedAt": "2026-11-03T21:26:10Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "216cdbc0fe38b1fa",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-newsome-giants-agree-on-three-year-extension",
+      "title": "Greg Newsome, Giants agree on three-year extension",
+      "summary": "Cornerback Greg Newsome signed a one-year deal with the Giants as a free agent this offseason, but his stay with the team won't be done once the 2026 season comes to an end.",
+      "publishedAt": "2026-11-03T21:25:43Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "8fa0ac2d0aae5e7a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dt-adetomiwa-adebawore-agrees-to-two-year-extension-with-colts",
+      "title": "DT Adetomiwa Adebawore agrees to two-year extension with Colts",
+      "summary": "The Colts took a break from working on trading away players ahead of next Tuesday's deadline to assure that one member of the team will be sticking around for a while.",
+      "publishedAt": "2026-11-03T21:17:50Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "f009d7d03bc5aa15",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-bets-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-03T21:10:40Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "022d8bbd735925cc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-bears-caleb-williams-gave-fight-against-nfl-over-cleats",
+      "title": "Why Bears' Caleb Williams gave up his fight against the NFL over his unapproved cleats",
+      "summary": "For the first time this season, Caleb Williams actually followed the NFL's uniform policy",
+      "publishedAt": "2026-11-03T21:02:18Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "df277fcd3a5c2549",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-huntley-could-land-on-injured-reserve",
+      "title": "Tyler Huntley could land on injured reserve",
+      "summary": "Lamar Jackson has not undergone surgery on his right thumb yet.",
+      "publishedAt": "2026-11-03T21:01:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "90852523561a1c8e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-says-joe-fagnano-will-be-ravens-qb-on-thursday-night",
+      "title": "Joe Fagnano will be the Ravens QB on Thursday night",
+      "summary": "Lamar Jackson and Tyler Huntley are both injured, so the rookie is the next man up.",
+      "publishedAt": "2026-11-03T20:44:41Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "dabee8655e273129",
       "source": "pft",
@@ -1580,113 +1689,6 @@
       "teamIds": [
         "15",
         "17"
-      ]
-    },
-    {
-      "id": "f99244b3db141542",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkleys-commitment-to-the-eagles-is-impressive",
-      "title": "Saquon Barkley's commitment to the Eagles is impressive",
-      "summary": "The Eagles won't be trading running back Saquon Barkley.",
-      "publishedAt": "2026-11-02T16:32:53Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "ecadb0934a05d9f0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-were-aware-of-what-the-issues-are-and-were-the-only-ones-who-can-fix-them",
-      "title": "Jim Harbaugh: \"We're aware of what the issues are, and we're the only ones who can fix them\"",
-      "summary": "It's gotten ugly for the Chargers, who fell to 0-7 with Sunday's loss to the cross-town Rams.",
-      "publishedAt": "2026-11-02T16:32:37Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "be7a606200986e30",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-lose-davon-hamilton-trade-deadline-options",
-      "title": "Jaguars lose standout DT DaVon Hamilton: Trade partners for Jacksonville include Cowboys, Colts",
-      "summary": "Hamilton has been a stud for one of the league's best run defenses",
-      "publishedAt": "2026-11-02T16:17:48Z",
-      "teamIds": [
-        "6",
-        "11",
-        "30"
-      ]
-    },
-    {
-      "id": "2923c58be93bb1a6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/50288294/2027-nfl-draft-ohio-state-receiver-jeremiah-smith-generational",
-      "title": "Could Jeremiah Smith be a generational NFL draft receiver prospect?",
-      "summary": "Smith could be the first wideout to be selected No. 1 in the draft in 31 years. What makes him so special?",
-      "publishedAt": "2026-11-02T16:16:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "b942a95da1cf3ff2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
-      "title": "NFL draft risers, notes off Saturday's college games: Need a WR in Round 1? Watch Indiana",
-      "summary": "Will receivers Charlie Becker and Nick Marsh both go early? What makes Chris Cole stand out among the linebackers? Here's draft spin off CFB Week 9.",
-      "publishedAt": "2026-11-02T16:16:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "Projecting the 2027 NFL draft order: Which teams could have an early pick?",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-02T16:15:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "NFL playoff picture: Updated projections, chances to make the postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-02T16:15:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "98c36cddb4956535",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-brock-bowers-is-like-justin-jefferson-when-hes-covered-you-still-need-to-throw-it",
-      "title": "Kirk Cousins: Brock Bowers is like Justin Jefferson, when he's covered, you still need to throw it",
-      "summary": "Raiders quarterback Kirk Cousins has played with his share of big-time pass catchers throughout his 15-year career.",
-      "publishedAt": "2026-11-02T16:06:56Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "639a288a29f6868c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/von-miller-defends-cowboys-coaching-staff",
-      "title": "Von Miller defends Cowboys' coaching staff",
-      "summary": "Cowboys linebacker Von Miller got his first sack in eight games with the team during Sunday's mind-boggling home loss to the Cardinals.",
-      "publishedAt": "2026-11-02T15:55:53Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "d49ae2cad1362b11",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bucs-lb-yaya-diaby-believed-to-have-an-mcl-sprain",
-      "title": "Report: Bucs LB Yaya Diaby believed to have an MCL sprain",
-      "summary": "The Buccaneers shut out the Falcons in Sunday's win, but their defense lost a starter to injury on the way to victory.",
-      "publishedAt": "2026-11-02T15:36:04Z",
-      "teamIds": [
-        "1",
-        "27"
       ]
     }
   ]
