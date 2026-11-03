@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-05T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-03T01:30:58Z",
+    "takenAt": "2026-11-03T13:10:37Z",
     "games": [
       {
         "gameId": "401873037",
@@ -607,7 +607,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -884,17 +884,6 @@
             "status": null
           },
           {
-            "athleteId": "3924327",
-            "name": "Drew Lock",
-            "pos": "QB",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4430878",
             "name": "Jaxon Smith-Njigba",
             "pos": "WR",
@@ -996,17 +985,6 @@
         "gameId": "401873050",
         "kickoffUtc": "2026-11-09T01:20:00Z",
         "players": [
-          {
-            "athleteId": "15168",
-            "name": "Case Keenum",
-            "pos": "QB",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
           {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
