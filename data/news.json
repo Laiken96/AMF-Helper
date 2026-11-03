@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T17:47:27Z",
+  "updatedAt": "2026-11-03T18:47:19Z",
   "items": [
+    {
+      "id": "ee8dc7d4431f06ec",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mark-davis-absolutely-no-pressure-whatsoever-from-me-to-start-fernando-mendoza",
+      "title": "Mark Davis: \"Absolutely no pressure whatsoever\" from me to start Fernando Mendoza",
+      "summary": "The Raiders have gotten good play out of quarterback Kirk Cousins through the first eight games of the season, with the team sitting at 4-4 after Sunday’s victory over the Jets.",
+      "publishedAt": "2026-11-03T18:32:56Z",
+      "teamIds": [
+        "13",
+        "20"
+      ]
+    },
+    {
+      "id": "2913f50f63d36334",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-christmas-day-schedule-is-shaping-up-to-be-massive",
+      "title": "The Christmas Day schedule is shaping up to be massive",
+      "summary": "When the schedule is released every May, plenty of standalone games that look good at the time morph into something not quite as appetizing as the season unfolds.",
+      "publishedAt": "2026-11-03T17:52:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "b3bc986c0b9d9fc0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-chris-jones-is-giving-his-all-doing-everything-he-can-do",
+      "title": "Andy Reid: Chris Jones is giving his all, doing everything he can do",
+      "summary": "The Chiefs have lost their last two games.",
+      "publishedAt": "2026-11-03T17:51:17Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "e02bf6ac5dc2b853",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Bears land Jeffery Simmons, Colts enter rebuild",
+      "summary": "Track every completed deal before the Nov. 10 deadline, including Chicago's blockbuster addition of Jeffery Simmons and the Colts' trades of Quenton Nelson and DeForest Buckner",
+      "publishedAt": "2026-11-03T17:37:09Z",
+      "teamIds": [
+        "3",
+        "11"
+      ]
+    },
     {
       "id": "4a7fc84bdaaf6283",
       "source": "cbs",
@@ -1651,51 +1695,6 @@
       "publishedAt": "2026-11-02T14:34:30Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "76f57f72e8eb6611",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-fire-offensive-run-game-coordinator-t-j-paganetti",
-      "title": "Saints fire offensive run game coordinator T.J. Paganetti",
-      "summary": "The Saints made a change to their coaching staff during their bye week.",
-      "publishedAt": "2026-11-02T14:31:23Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "29f42313effbf647",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-bears-vs-seahawks-monday-night-football-betting",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Bears vs. Seahawks, Monday Night Football betting",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Seahawks vs. Bears on Monday Night Football",
-      "publishedAt": "2026-11-02T13:59:14Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "375770ff6804a321",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-biggest-loser-from-nfl-week-8-fsu-starts-coaching-search-after-firing-mike-norvell",
-      "title": "Cowboys biggest loser from NFL Week 8; FSU starts coaching search after firing Mike Norvell",
-      "summary": "Plus, Lamar Jackson played one snap before suffering another long-term injury",
-      "publishedAt": "2026-11-02T13:57:46Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "a104de3222763c86",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-panthers-to-hire-deangelo-hall-to-coach-cornerbacks",
-      "title": "Panthers hire DeAngelo Hall to coach cornerbacks",
-      "summary": "The Panthers dismissed a couple of defensive coaches last week and they are bringing back one of their former assistants to help out in the secondary this week.",
-      "publishedAt": "2026-11-02T13:53:04Z",
-      "teamIds": [
-        "29"
       ]
     }
   ]
