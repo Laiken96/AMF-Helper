@@ -30,9 +30,10 @@ import {
   type HeroVariant,
 } from "./GameHero";
 import { LiveStatus } from "./GamesView";
+import { outsiderChoice } from "./game-view";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { choiceLocked, standingsFor, useChoices, usePlayer, useShownTips, type ChoiceState, type PlayerState } from "./player";
+import { standingsFor, useChoices, usePlayer, useShownTips, type ChoiceState, type PlayerState } from "./player";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, formatStand, scoreAria, scoreText } from "./wording";
 
@@ -406,18 +407,16 @@ function TipsList({
   );
   // Knopf im Spielblatt: Vorschlag der App aus pHome, gewählt ist der Aussenseiter
   const choiceOf = (row: TipRow | undefined): HeroChoice | null => {
-    if (mode !== "offen" || !row || !row.game || row.pHome === null || row.pickTeamId === null) return null;
-    if (row.level === "offen" || row.level === "nicht_erfasst") return null;
-    const game = row.game;
-    const favId = row.pHome >= 0.5 ? game.homeId : game.awayId;
-    const dogId = favId === game.homeId ? game.awayId : game.homeId;
+    if (mode !== "offen" || !row || !row.game) return null;
+    const oc = outsiderChoice(row, row.game, now);
+    if (!oc) return null;
     const own = ownIds.has(row.gameId);
     return {
       own,
-      favoriteAbbr: team(favId).abbr,
-      underdogAbbr: team(dogId).abbr,
-      locked: choiceLocked(row, game, new Date(now).toISOString()),
-      onToggle: () => choice.setChoice(row.gameId, own ? null : dogId),
+      favoriteAbbr: team(oc.favoriteId).abbr,
+      underdogAbbr: team(oc.underdogId).abbr,
+      locked: oc.locked,
+      onToggle: () => choice.setChoice(row.gameId, own ? null : oc.underdogId),
     };
   };
 

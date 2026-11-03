@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { tipResult, type TipResult } from "../core/review";
 import type { Game, Team } from "../core/schema";
-import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
+import type { StandingsFile, TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
@@ -18,21 +17,14 @@ import {
 } from "./data";
 import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
-import { GameFacts } from "./GameFacts";
+import { GameView } from "./GameView";
+import { gameState } from "./game-view";
 import { GameSheet } from "./Sheet";
 import { useChoices, usePlayer, useShownTips } from "./player";
-import { periodText, useLastPlays, useLiveScores, useLiveSummaries, type LiveGame, type LiveState } from "./live";
+import { useLiveScores, useLiveSummaries, type LiveGame, type LiveState } from "./live";
 import { LiveCarousel, LiveTicker } from "./LiveTicker";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
-import { formatCountdown, formatStand, statusWord } from "./wording";
-
-const STATUS_TEXT: Record<Game["status"], string> = {
-  scheduled: "Geplant",
-  in_progress: "Läuft",
-  final: "Beendet",
-  postponed: "Verschoben",
-  canceled: "Abgesagt",
-};
+import { formatCountdown, formatStand } from "./wording";
 
 export const clockFormat = new Intl.DateTimeFormat("de-CH", {
   timeZone: "Europe/Zurich",
@@ -82,7 +74,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   const weeks = navWeeks(data);
   // Derselbe Tipp wie im Reiter Tipps: Vorschlag der App mit der eigenen Wahl des Spielers (D050, D052)
   const player = usePlayer(data.standings ?? null);
-  const { choices } = useChoices(player.player, ref);
+  const { choices, setChoice } = useChoices(player.player, ref);
   const shownTips = useShownTips(data.tips, week?.games, data.standings ?? null, phase, player.player, choices);
 
   // Standardspiel für den Detailbereich: laufendes Spiel, sonst nächstes Spiel, sonst das letzte beendete
@@ -185,6 +177,20 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
       />
     ) : null;
   };
+  const viewFor = (g: Game) => (
+    <GameView
+      game={g}
+      live={live.games.get(g.id)}
+      tip={tipOf(g.id)}
+      tiebreaker={shownTips?.tiebreakers.find((tb) => tb.gameId === g.id)}
+      own={ownOf(g.id)}
+      team={team}
+      now={now}
+      tipsHref={`#tipps/${weekKey(ref)}/${g.id}`}
+      onChoice={phase === "vergangen" ? null : setChoice}
+      tipsPending={!data.tips && phase === "kommend"}
+    />
+  );
   const matchupLabel = (g: Game) => {
     const lg = live.games.get(g.id);
     const a = team(g.awayId).abbr;
@@ -217,18 +223,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
           {shownGame && runningIds.includes(shownGame.id) && live.games.get(shownGame.id) ? (
             tickerFor(shownGame)
           ) : shownGame ? (
-            <section className="game-detail-card" aria-label="Gewähltes Spiel">
-              <GameDetail
-                game={shownGame}
-                live={live.games.get(shownGame.id)}
-                tip={tipOf(shownGame.id)}
-                own={ownOf(shownGame.id)}
-                team={team}
-                stale={live.error}
-                now={now}
-                tipsHref={`#tipps/${weekKey(ref)}/${shownGame.id}`}
-              />
-            </section>
+            viewFor(shownGame)
           ) : (
             <p className="notice">Diese Woche sind keine Spiele angesetzt.</p>
           )}
@@ -284,49 +279,11 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
       {restList}
       {sheetGame && (
         <GameSheet title={`${team(sheetGame.awayId).abbr} @ ${team(sheetGame.homeId).abbr}`} onClose={() => select(null)}>
-          <section className="game-detail-card game-detail-sheet" aria-label="Spieldetail">
-            <GameDetail
-              game={sheetGame}
-              live={live.games.get(sheetGame.id)}
-              tip={tipOf(sheetGame.id)}
-              own={ownOf(sheetGame.id)}
-              team={team}
-              stale={live.error}
-              now={now}
-              tipsHref={`#tipps/${weekKey(ref)}/${sheetGame.id}`}
-              showHead={false}
-            />
-          </section>
+          {viewFor(sheetGame)}
         </GameSheet>
       )}
     </>
   );
-}
-
-/** Anzeigestand eines Spiels aus Wochendatei und Live Daten. Verschoben und abgesagt gelten weder laufend noch final. */
-function gameState(game: Game, live: LiveGame | undefined) {
-  const offStatus =
-    live?.status === "postponed" || live?.status === "canceled"
-      ? live.status
-      : game.status === "postponed" || game.status === "canceled"
-        ? game.status
-        : null;
-  const running = !offStatus && live?.state === "in";
-  const fromLive = !offStatus && live !== undefined && live.state !== "pre";
-  const awayScore = fromLive ? live.awayScore : game.awayScore;
-  const homeScore = fromLive ? live.homeScore : game.homeScore;
-  const status: Game["status"] = offStatus ?? (fromLive ? (running ? "in_progress" : "final") : game.status);
-  const showScore = (status === "in_progress" || status === "final") && awayScore !== null && homeScore !== null;
-  const statusText = offStatus
-    ? STATUS_TEXT[offStatus]
-    : running
-      ? statusWord(periodText(live))
-      : live?.state === "post"
-        ? statusWord(live.detail) || STATUS_TEXT.final
-        : game.status === "scheduled"
-          ? STATUS_TEXT.scheduled
-          : statusWord(game.statusDetail) || STATUS_TEXT[game.status];
-  return { running, awayScore, homeScore, status, showScore, statusText };
 }
 
 /** Hinweis zum Live Stand. Fehler behalten den letzten Stand (D042 Stream Frontend 2). */
@@ -515,178 +472,5 @@ function GameRow({
         <span className="status">{statusText}</span>
       </div>
     </li>
-  );
-}
-
-const LEVEL_TEXT: Record<GameTip["level"], string> = {
-  klar: "klar",
-  favorit: "Favorit",
-  unklar: "unklar",
-  offen: "offen",
-  nicht_erfasst: "nicht erfasst",
-};
-
-const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
-  richtig: "Tipp richtig",
-  falsch: "Tipp falsch",
-  unentschieden: "Unentschieden, zählt als falsch",
-  offen: "Tipp offen",
-  ungewertet: "ungewertet",
-};
-
-function tipText(tip: GameTip | undefined, team: (id: string) => Team, own = false): string {
-  if (!tip) return "keine Tippliste";
-  if (tip.level === "nicht_erfasst") return "kein App Tipp, die App lief bei Kickoff noch nicht";
-  if (tip.level === "offen" || !tip.pickTeamId) return "offen, noch keine Quote";
-  const pct = tip.pickProb === null ? "" : `, ${Math.round(tip.pickProb * 100)} %`;
-  return `${team(tip.pickTeamId).abbr}${pct}, ${LEVEL_TEXT[tip.level]}${tip.deviation ? (own ? ", deine Abweichung" : ", Abweichung") : ""}`;
-}
-
-/**
- * Inhalt des Spieldetails: Spielstand, bei laufendem Spiel Lage und letzte Spielzüge, sonst und zusätzlich
- * die Spielinfo mit Kickoff, Ort, Tipp und Endstand. Genutzt im Detailbereich (wide) und im Blatt.
- */
-function GameDetail({
-  game,
-  live,
-  tip,
-  own = false,
-  team,
-  stale,
-  now,
-  tipsHref,
-  showHead = true,
-}: {
-  game: Game;
-  live: LiveGame | undefined;
-  tip: GameTip | undefined;
-  /** Angezeigter Tipp ist die eigene Abweichung (D052). */
-  own?: boolean;
-  team: (id: string) => Team;
-  stale: boolean;
-  now: number;
-  tipsHref: string;
-  /** Im Blatt steht die Paarung schon im Kopf des Blatts. */
-  showHead?: boolean;
-}) {
-  const away = team(game.awayId);
-  const home = team(game.homeId);
-  const st = gameState(game, live);
-  // Spielzüge nur bei Live Daten zu einem laufenden oder eben beendeten Spiel
-  const withPlays = live !== undefined && st.status !== "postponed" && st.status !== "canceled" && live.state !== "pre";
-  const plays = useLastPlays(withPlays ? game.id : null, st.running);
-  const possession = st.running && live?.possessionTeamId ? team(live.possessionTeamId) : null;
-  const final = st.status === "final" && st.showScore;
-  const result = tip ? tipResult(tip, game, tip.kickoffUtc, new Date(now).toISOString()) : null;
-  // Endstand aus Live Daten zählt auch, bevor die Wochendatei final ist
-  const liveResult =
-    final && tip && tip.pickTeamId && tip.level !== "nicht_erfasst" && st.awayScore !== null && st.homeScore !== null
-      ? st.awayScore === st.homeScore
-        ? "unentschieden"
-        : (st.awayScore > st.homeScore ? game.awayId : game.homeId) === tip.pickTeamId
-          ? "richtig"
-          : "falsch"
-      : null;
-  const shownResult = result === "ungewertet" ? result : (liveResult ?? (result === "offen" ? null : result));
-
-  return (
-    <div className="game-detail">
-      {showHead && (
-        <div className="overlay-head game-detail-head">
-          <h1>
-            {away.abbr} @ {home.abbr}
-          </h1>
-        </div>
-      )}
-      <div className="live-board">
-        <div className="live-board-team">
-          <span className="hero-abbr">{away.abbr}</span>
-          <span className="live-board-score">{st.showScore ? st.awayScore : "\u2013"}</span>
-        </div>
-        <div className="live-board-mid">
-          {st.running ? (
-            <span className="live-tag">
-              <span className="live-dot" aria-hidden="true" />
-              {st.statusText}
-            </span>
-          ) : (
-            <span>{st.statusText}</span>
-          )}
-        </div>
-        <div className="live-board-team live-board-home">
-          <span className="hero-abbr">{home.abbr}</span>
-          <span className="live-board-score">{st.showScore ? st.homeScore : "\u2013"}</span>
-        </div>
-      </div>
-      {st.running && live && (possession || live.downDistance) && (
-        <p className="live-situation">
-          {possession && `Ballbesitz ${possession.abbr}`}
-          {possession && live.downDistance && ", "}
-          {live.downDistance}
-          {live.redZone && ", Red Zone"}
-        </p>
-      )}
-      {withPlays && (
-        <section aria-label="Letzte Spielzüge">
-          <h2>Letzte Spielzüge</h2>
-          {(plays.error || stale) && (
-            <p className="push-hint" role="status">
-              Aktualisierung fehlgeschlagen.{" "}
-              {plays.updatedAt ? `Stand ${clockFormat.format(plays.updatedAt)}.` : "Neuer Versuch in 20 Sekunden."}
-            </p>
-          )}
-          {plays.plays === null ? (
-            !plays.error && <p className="push-hint">Spielzüge werden geladen …</p>
-          ) : plays.plays.length === 0 ? (
-            <p className="push-hint">Noch keine Spielzüge.</p>
-          ) : (
-            <ol className="plays">
-              {plays.plays.map((p) => (
-                <li key={p.id} className={p.scoring ? "play play-score" : "play"}>
-                  <span className="play-when">
-                    {p.period ? (p.period > 4 ? "OT" : `Q${p.period}`) : ""} {p.clock ?? ""}
-                    {p.teamId && <span className="play-team"> {team(p.teamId).abbr}</span>}
-                  </span>
-                  <span className="play-text">{p.text}</span>
-                </li>
-              ))}
-            </ol>
-          )}
-        </section>
-      )}
-      <section aria-label="Spielinfo">
-        <h2>Spielinfo</h2>
-        <dl className="game-facts">
-          <div>
-            <dt>Kickoff</dt>
-            <dd>{formatKickoffZurich(game.kickoffUtc)} Uhr</dd>
-          </div>
-          <div>
-            <dt>Tipp</dt>
-            <dd>{tipText(tip, team, own)}</dd>
-          </div>
-          {final && (
-            <div>
-              <dt>Endstand</dt>
-              <dd>
-                {away.abbr} {st.awayScore} : {st.homeScore} {home.abbr}
-                {shownResult && (
-                  <span className={`res ${shownResult === "richtig" ? "res-ok" : shownResult === "ungewertet" ? "res-open" : "res-bad"}`}>
-                    {" "}
-                    {RESULT_TEXT[shownResult]}
-                  </span>
-                )}
-              </dd>
-            </div>
-          )}
-        </dl>
-      </section>
-      <GameFacts key={game.id} game={game} tip={tip} team={team} variant="card" now={now} own={own} />
-      {tip && tip.level !== "nicht_erfasst" && (
-        <a className="btn game-detail-link" href={tipsHref}>
-          Zur Tippseite
-        </a>
-      )}
-    </div>
   );
 }

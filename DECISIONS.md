@@ -398,6 +398,6 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 ## D056 Spielansicht für alle Spiele im Stil des Livetickers
 
 - Datum: 2026-11-03
-- Entscheid: Wunsch des Nutzers. Geplante und beendete Spiele bekommen im Reiter Spiele dieselbe Gestaltung wie der Liveticker (D054). Vor dem Spiel: Kopf mit grossen Logos, Teamfarben, Bilanz, Countdown bis Kickoff, TV, Ring mit Siegchance und Tipp. Fakten als kompakte Kacheln (Markt, FPI, ESPN Tipps, Ort, Ruhetage, Ausfälle), Abweichung möglich als eigene Karte mit Knopf (D052). Nach dem Spiel: Endstand gross, Punkte je Viertel, Punktspielzüge, Teamvergleich, Top Spieler, richtig oder falsch zum Tipp, Daten aus der ESPN Summary einmal geladen
+- Entscheid: Wunsch des Nutzers. Geplante und beendete Spiele bekommen im Reiter Spiele dieselbe Gestaltung wie der Liveticker (D054). Vor dem Spiel: Kopf mit grossen Logos, Teamfarben, Bilanz, Countdown bis Kickoff, TV, Ring mit Siegchance und Tipp. Fakten als kompakte Kacheln (Markt, FPI, ESPN Tipps, Ort, Ruhetage, Ausfälle), Abweichung möglich als eigene Karte mit Knopf (D052). Nach dem Spiel: Endstand gross, Punkte je Viertel, Punktspielzüge, Teamvergleich, Top Spieler, richtig oder falsch zum Tipp. Die ESPN Summary wird für das geöffnete Spiel einmal geladen (rund 180 KB, ohne Polling), auch vor dem Spiel, sonst fehlen Bilanz und TV
 - Begründung: Der Nutzer fand die Ansicht geplanter Spiele schlicht und ohne Logos
 - Verworfen: Wetterprognose (Wahl des Nutzers)

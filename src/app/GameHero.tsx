@@ -79,7 +79,8 @@ export { formatCountdown };
 
 const CIRC = 2 * Math.PI * 56;
 
-function Ring({
+/** Ring mit Siegwahrscheinlichkeit des getippten Teams, auch in der Spielansicht (D056). */
+export function Ring({
   prob,
   pick,
   pickColor,
@@ -287,7 +288,7 @@ export function GameHero({
   // Fakten nur im Blatt und im grossen Spielbereich (wide). Oben in der Liste bleibt der Spielbereich kurz
   const detailed = inSheet || big;
   const facts = detailed ? (
-    <GameFacts key={game.id} game={game} tip={tip} team={team} variant="hero" now={now} own={choice?.own ?? false} />
+    <GameFacts key={game.id} game={game} tip={tip} team={team} now={now} own={choice?.own ?? false} />
   ) : null;
 
   // Eigene Abweichung (D052): Knopf bei offenen Spielen, nach Kickoff nur noch der Hinweis

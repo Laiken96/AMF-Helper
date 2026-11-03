@@ -4,7 +4,7 @@ import { deviationCandidate } from "../core/deviation";
 import { isLocked } from "../core/tips";
 import type { GameTip } from "../core/tips-schema";
 import { useFactsData } from "./data";
-import { candidateText, deviationSignals, fpiFact, marketFact, picksFact, venueFact } from "./facts";
+import { absenceText, candidateText, deviationSignals, fpiFact, keyAbsence, marketFact, picksFact, venueFact } from "./facts";
 import { Spoken } from "./ui";
 
 const OPEN_KEY = "nfl-facts-open";
@@ -26,7 +26,7 @@ function writeOpen(open: boolean): void {
   }
 }
 
-const FlagIcon = () => (
+export const FlagIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true">
     <path d="M12 8v5" />
     <path d="M12 16.5h.01" />
@@ -66,24 +66,53 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
   );
 }
 
+/** Alle Fakten eines Spiels, geteilt von Spielbereich (Tipps) und Spielansicht (Spiele, D056). */
+export function useGameFactsModel(game: Game, tip: GameTip | null | undefined, team: (id: string) => Team, now: number) {
+  const facts = useFactsData(tip ? { season: game.season, seasonType: game.seasonType, week: game.week } : null);
+  const abbr = (teamId: string) => team(teamId).abbr;
+  const fpiGame = facts?.fpi?.games.find((g) => g.gameId === game.id);
+  const picksGame = facts?.picks?.games.find((g) => g.gameId === game.id);
+  const market = marketFact(tip, game, abbr);
+  const fpi = fpiFact(fpiGame, game, tip, abbr);
+  const picks = picksFact(picksGame, game, tip, abbr);
+  const venue = venueFact(game, abbr);
+  const pickId = tip && tip.level !== "offen" && tip.level !== "nicht_erfasst" ? tip.pickTeamId : null;
+
+  // Kandidat und Signale (D052): aus dem Vorschlag der App (pHome), nicht aus der eigenen Wahl
+  const nowIso = new Date(now).toISOString();
+  const tipOpen = Boolean(tip) && !tip!.locked && !isLocked(game, nowIso);
+  const candidate = tip ? deviationCandidate(tip, game, picksGame, nowIso) : null;
+  const signals =
+    tip && tipOpen ? deviationSignals({ tip, game, fpi: fpiGame, injuries: facts?.injuries, abbr }) : [];
+  const suggestionId = tip && tip.pHome !== null ? (tip.pHome >= 0.5 ? game.homeId : game.awayId) : null;
+  // Ausfälle beim Spiel: wichtigster Ausfall je Team, nur wenn der Wächter das Spiel erfasst hat
+  const injuryGame = facts?.injuries?.current.games.find((g) => g.gameId === game.id);
+  const absences = injuryGame
+    ? [game.awayId, game.homeId].flatMap((id) => {
+        const p = keyAbsence(facts?.injuries, game.id, id);
+        return p ? [{ teamId: id, text: absenceText(p) }] : [];
+      })
+    : null;
+  return { market, fpi, picks, venue, pickId, candidate, signals, suggestionId, absences, tipOpen, abbr };
+}
+
+export type GameFactsModel = ReturnType<typeof useGameFactsModel>;
+
 /**
- * Block Fakten (D050): Markt mit Linienbewegung, ESPN FPI, Tippverteilung ESPN Pick'em, Spielort und Ruhetage.
- * Dazu der Hinweis "Abweichung möglich" mit Signalen und die eigene Abweichung (D052), immer sichtbar.
- * hero: im Spielbereich, Markt sichtbar und der Rest einklappbar. card: im Spieldetail von Spiele, alles offen.
- * FPI, Tippverteilung und Ausfälle werden nur mit Tippdatei geladen, fehlen sie, fällt der Teil weg.
+ * Block Fakten im Spielbereich der Tipps (D050): Markt mit Linienbewegung, ESPN FPI, Tippverteilung ESPN Pick'em,
+ * Spielort und Ruhetage. Dazu der Hinweis "Abweichung möglich" mit Signalen und die eigene Abweichung (D052).
+ * Markt sichtbar, der Rest einklappbar. FPI, Tippverteilung und Ausfälle werden nur mit Tippdatei geladen.
  */
 export function GameFacts({
   game,
   tip,
   team,
-  variant,
   now,
   own = false,
 }: {
   game: Game;
   tip: GameTip | null | undefined;
   team: (id: string) => Team;
-  variant: "hero" | "card";
   /** Zeit in ms für die Sperre ab Kickoff. */
   now: number;
   /** true, wenn der angezeigte Tipp die eigene Abweichung ist. */
@@ -91,32 +120,9 @@ export function GameFacts({
 }) {
   const id = useId();
   const [open, setOpen] = useState(readOpen);
-  const facts = useFactsData(tip ? { season: game.season, seasonType: game.seasonType, week: game.week } : null);
-  const abbr = (teamId: string) => team(teamId).abbr;
-
-  const market = marketFact(tip, game, abbr);
-  const fpi = fpiFact(facts?.fpi?.games.find((g) => g.gameId === game.id), game, tip, abbr);
-  const picks = picksFact(facts?.picks?.games.find((g) => g.gameId === game.id), game, tip, abbr);
-  const venue = venueFact(game, abbr);
+  const { market, fpi, picks, venue, pickId, candidate, signals, suggestionId, abbr } = useGameFactsModel(game, tip, team, now);
   const away = team(game.awayId);
   const home = team(game.homeId);
-  const pickId = tip && tip.level !== "offen" && tip.level !== "nicht_erfasst" ? tip.pickTeamId : null;
-
-  // Kandidat und Signale (D052): aus dem Vorschlag der App (pHome), nicht aus der eigenen Wahl
-  const nowIso = new Date(now).toISOString();
-  const tipOpen = Boolean(tip) && !tip!.locked && !isLocked(game, nowIso);
-  const candidate = tip ? deviationCandidate(tip, game, facts?.picks?.games.find((g) => g.gameId === game.id), nowIso) : null;
-  const signals =
-    tip && tipOpen
-      ? deviationSignals({
-          tip,
-          game,
-          fpi: facts?.fpi?.games.find((g) => g.gameId === game.id),
-          injuries: facts?.injuries,
-          abbr,
-        })
-      : [];
-  const suggestionId = tip && tip.pHome !== null ? (tip.pHome >= 0.5 ? game.homeId : game.awayId) : null;
   const choice =
     candidate || (own && pickId) || signals.length > 0 ? (
       <div className="facts-choice" role="group" aria-label="Abweichung">
@@ -241,19 +247,6 @@ export function GameFacts({
 
   const more = [fpiRow, picksRow, placeRow, restRow].filter(Boolean);
   if (!marketRow && more.length === 0 && !choice) return null;
-
-  if (variant === "card") {
-    return (
-      <section aria-label="Fakten" className="facts facts-card">
-        <h2>Fakten</h2>
-        {choice}
-        <dl className="facts-list">
-          {marketRow}
-          {more}
-        </dl>
-      </section>
-    );
-  }
 
   const toggle = () => {
     setOpen((o) => {

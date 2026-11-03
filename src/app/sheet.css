@@ -128,8 +128,3 @@
 [data-layout="side"] .sheet {
   padding-right: 12px;
 }
-
-/* Spieldetail aus dem Reiter Spiele im Blatt: Paarung steht im Kopf des Blatts */
-.game-detail-sheet .live-board {
-  margin-top: 0;
-}

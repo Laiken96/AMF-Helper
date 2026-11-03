@@ -28,7 +28,7 @@ const clockFormat = new Intl.DateTimeFormat("de-CH", {
 // ---------- Klappbare Blöcke, Wahl im localStorage ----------
 
 const OPEN_KEY = "nfl-ticker-open";
-type SectionId = "plays" | "scoring" | "stats" | "info";
+export type SectionId = "plays" | "scoring" | "stats" | "info";
 const DEFAULT_OPEN: Record<SectionId, boolean> = { plays: true, scoring: true, stats: false, info: false };
 
 function readOpen(): Partial<Record<SectionId, boolean>> {
@@ -71,7 +71,8 @@ const Chevron = ({ open }: { open: boolean }) => (
   </svg>
 );
 
-function Block({
+/** Block im Körper des Tickers, im iPhone klappbar. Auch in der Spielansicht (D056) genutzt. */
+export function Block({
   id,
   title,
   collapsible,
@@ -112,7 +113,7 @@ function Block({
 
 // ---------- Kopf ----------
 
-const Football = () => (
+export const Football = () => (
   <svg className="tk-ball" width="18" height="12" viewBox="0 0 18 12" aria-hidden="true">
     <ellipse cx="9" cy="6" rx="8.5" ry="5.5" fill="#9a5b2a" stroke="#fff" strokeWidth="1" />
     <path d="M5.5 6h7M7 4.6v2.8M9 4.6v2.8M11 4.6v2.8" stroke="#fff" strokeWidth="1" strokeLinecap="round" />
@@ -121,7 +122,8 @@ const Football = () => (
 
 const periodName = (i: number) => (i < 4 ? String(i + 1) : i === 4 ? "OT" : `OT${i - 3}`);
 
-function LineScore({
+/** Punkte je Viertel, period markiert das laufende Viertel (null bei beendeten Spielen). */
+export function LineScore({
   away,
   home,
   awayLines,
@@ -225,6 +227,10 @@ function FieldBar({ live, away, home }: { live: LiveGame; away: Team; home: Team
   );
 }
 
+/** Teamfarben Verlauf des Kopfs, gleich im Ticker und in der Spielansicht. */
+export const headStyle = (away: Team, home: Team): CSSProperties =>
+  ({ "--hero-a": shadeForText(teamColor(away.color)), "--hero-b": shadeForText(teamColor(home.color)) }) as CSSProperties;
+
 function Head({
   live,
   summary,
@@ -265,7 +271,7 @@ function Head({
       ? `${away.abbr} ${live.awayScore} zu ${live.homeScore} ${home.abbr}`
       : `${away.abbr} gegen ${home.abbr}`;
   return (
-    <div className="tk-head" style={{ "--hero-a": shadeForText(teamColor(away.color)), "--hero-b": shadeForText(teamColor(home.color)) } as CSSProperties}>
+    <div className="tk-head" style={headStyle(away, home)}>
       <div className="tk-top">
         <span className="tk-live">
           <span className="live-dot" aria-hidden="true" />
@@ -455,7 +461,7 @@ function Plays({ summary, team }: { summary: LiveSummary; team: (id: string) => 
   );
 }
 
-function Scoring({ summary, team, away, home }: { summary: LiveSummary; team: (id: string) => Team; away: Team; home: Team }) {
+export function Scoring({ summary, team, away, home }: { summary: LiveSummary; team: (id: string) => Team; away: Team; home: Team }) {
   return (
     <ol className="tk-scoring">
       {summary.scoring.map((p) => (
@@ -483,7 +489,7 @@ function Scoring({ summary, team, away, home }: { summary: LiveSummary; team: (i
   );
 }
 
-function StatBars({ rows, away, home }: { rows: StatRow[]; away: Team; home: Team }) {
+export function StatBars({ rows, away, home }: { rows: StatRow[]; away: Team; home: Team }) {
   const awayColor = teamColor(away.color);
   const homeColor = teamColor(home.color);
   return (
@@ -527,7 +533,7 @@ function StatBars({ rows, away, home }: { rows: StatRow[]; away: Team; home: Tea
 
 const CATEGORY_TEXT: Record<LeaderCategory, string> = { pass: "Pass", rush: "Lauf", rec: "Fang" };
 
-function Leaders({ leaders, away, home }: { leaders: Leader[]; away: Team; home: Team }) {
+export function Leaders({ leaders, away, home }: { leaders: Leader[]; away: Team; home: Team }) {
   const cats = (["pass", "rush", "rec"] as const).filter((c) => leaders.some((l) => l.category === c));
   if (cats.length === 0) return null;
   const cell = (c: LeaderCategory, t: Team) => {
