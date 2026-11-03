@@ -781,3 +781,9 @@ R121 Ranglisten Meldung mit Label
     Schritt: Formular Rangliste melden absenden, oder Label rangliste nachträglich setzen.
     Erwartet: standings.yml läuft (auch bei Ereignis labeled), standings.json und Verlauf aktualisiert, Kommentar im Issue.
     Status: bestanden 2026-11-03, Label nachträglich auf Issue 20 gesetzt, Rangliste Week 8 übernommen (MS 73, LM 70, DH 69, CZ 53, JA 46), Issue geschlossen
+
+R122 Wochenwechsel nach dem letzten Spiel (D055)
+    Vorbedingung: Alle Spiele der ESPN Woche beendet, ESPN meldet noch die alte Woche.
+    Schritt: data.yml läuft, danach App öffnen.
+    Erwartet: current.json zeigt die nächste Woche, App startet dort, ein weiterer Lauf setzt nicht zurück.
+    Status: bestanden lokal 2026-11-03 per Test, echt nach dem Merge
