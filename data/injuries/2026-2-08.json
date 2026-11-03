@@ -95,7 +95,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-03T00:10:45Z",
+    "takenAt": "2026-11-03T01:20:33Z",
     "games": [
       {
         "gameId": "401873036",
@@ -111,40 +111,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4259545",
-            "name": "D'Andre Swift",
-            "pos": "RB",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4431611",
-            "name": "Caleb Williams",
-            "pos": "QB",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685278",
-            "name": "Luther Burden III",
-            "pos": "WR",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
           },
           {
             "athleteId": "3912547",
@@ -170,19 +136,8 @@
             "status": "Out"
           },
           {
-            "athleteId": "4430878",
-            "name": "Jaxon Smith-Njigba",
-            "pos": "WR",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4887558",
-            "name": "Emanuel Wilson",
+            "athleteId": "4426385",
+            "name": "Zach Charbonnet",
             "pos": "RB",
             "teamId": "26",
             "teamAbbr": "SEA",
