@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-04T15:01:12Z",
+  "updatedAt": "2026-11-04T19:40:34Z",
   "games": [
     {
       "gameId": "401873037",
@@ -80,9 +80,9 @@
       "kickoffUtc": "2026-11-08T18:00:00Z",
       "homeId": "21",
       "awayId": "19",
-      "pHome": 0.452,
-      "pAway": 0.545,
-      "fetchedAt": "2026-11-03T13:31:00Z",
+      "pHome": 0.467,
+      "pAway": 0.529,
+      "fetchedAt": "2026-11-04T19:40:34Z",
       "locked": false
     },
     {
@@ -120,9 +120,9 @@
       "kickoffUtc": "2026-11-08T21:25:00Z",
       "homeId": "26",
       "awayId": "22",
-      "pHome": 0.819,
-      "pAway": 0.179,
-      "fetchedAt": "2026-11-03T13:31:00Z",
+      "pHome": 0.67,
+      "pAway": 0.328,
+      "fetchedAt": "2026-11-04T19:40:34Z",
       "locked": false
     },
     {
