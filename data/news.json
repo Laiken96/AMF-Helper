@@ -1,7 +1,104 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T17:47:24Z",
+  "updatedAt": "2026-11-04T18:47:20Z",
   "items": [
+    {
+      "id": "6e7a4b61b6f52c1c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-harrison-butker-will-remain-the-chiefs-kicker",
+      "title": "Andy Reid: Harrison Butker will remain the Chiefs' kicker",
+      "summary": "Despite missing a 54-yard field goal late in Sunday's eventual loss to the Broncos, Harrison Butker will remain the Chiefs' kicker.",
+      "publishedAt": "2026-11-04T18:43:45Z",
+      "teamIds": [
+        "7",
+        "12"
+      ]
+    },
+    {
+      "id": "744e02a6fbe3ce7d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-kraft-doug-williams-among-five-contributor-nominees-advancing-in-hall-of-fame-process",
+      "title": "Robert Kraft, Doug Williams among five Contributor nominees advancing in Hall of Fame selection process",
+      "summary": "The Pro Football Hall of Fame announced five nominees who have advanced to the next round of consideration for their 2027 class on Wednesday.",
+      "publishedAt": "2026-11-04T18:41:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "bf482d5f908ac691",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-cam-lampkin-to-53-man-roster-place-dean-connors-on-ir",
+      "title": "Rams sign Cam Lampkin to 53-man roster, place Dean Connors on IR",
+      "summary": "The Rams have made a few roster moves on Wednesday.",
+      "publishedAt": "2026-11-04T18:41:03Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "61f8ae8901fb747e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-ot-braxton-jones-to-miss-rest-of-season-after-knee-surgery",
+      "title": "Bears OT Braxton Jones to miss rest of season after knee surgery",
+      "summary": "The Bears will not get offensive tackle Braxton Jones back in the lineup this season.",
+      "publishedAt": "2026-11-04T18:29:28Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "9faadd5364fd1757",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-will-not-practice-on-wednesday",
+      "title": "A.J. Brown will not practice on Wednesday",
+      "summary": "Patriots receiver A.J.",
+      "publishedAt": "2026-11-04T18:26:48Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "692b4d4e3074a907",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-jack-campbell-issues-statement-after-injury-vikings",
+      "title": "Lions' Jack Campbell issues statement updating condition after scary injury vs. Vikings",
+      "summary": "The Lions linebacker says he has full movement in his lower body and is making progress with his upper body following a scary collision against the Vikings",
+      "publishedAt": "2026-11-04T18:11:08Z",
+      "teamIds": [
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "be46cf853881bd2c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-jonathan-taylor-is-on-our-football-team-wants-to-win-this-game",
+      "title": "Shane Steichen: Jonathan Taylor is on our football team, wants to win this game",
+      "summary": "At this point, running back Jonathan Taylor is on the Colts.",
+      "publishedAt": "2026-11-04T18:01:16Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "96aac1fe3e455a77",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-will-do-individual-work-in-his-return-to-practice-wednesday",
+      "title": "Micah Parsons will do individual work in his return to practice Wednesday",
+      "summary": "Packers head coach Matt LaFleur outlined the plan for defensive end Micah Parsons's return to practice on Wednesday.",
+      "publishedAt": "2026-11-04T17:58:16Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "d50d4a6b73186e93",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-facts-contradict-jerry-joness-belief-regarding-coaching-pay-and-wins",
+      "title": "The facts contradict Jerry Jones's beliefs regarding coaching pay and wins",
+      "summary": "The five highest-paid coaches are all proven winners.",
+      "publishedAt": "2026-11-04T17:51:23Z",
+      "teamIds": []
+    },
     {
       "id": "1966fd884523ac79",
       "source": "pft",
@@ -1531,121 +1628,16 @@
       "teamIds": []
     },
     {
-      "id": "5879280999bd8273",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-felt-profound-impact-from-jeffery-simmons-in-his-debut",
-      "title": "Bears felt \"profound\" impact from Jeffery Simmons in his debut",
-      "summary": "Simmons made an immediate impact for his new team.",
-      "publishedAt": "2026-11-03T13:06:00Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "5674cbd5035c44ed",
+      "id": "f8f0fd6e01e1dfb4",
       "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-coordinator-rankings-midseason-packers-jonathan-gannon-steelers",
-      "title": "Ranking NFL's best new coordinators: Packers, Steelers assistants lead top 10 at midseason",
-      "summary": "These 10 coordinators inherited difficult circumstances, adapted to significant injuries and delivered immediate results in their new homes",
-      "publishedAt": "2026-11-03T12:54:54Z",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-power-rankings-bills-steelers",
+      "title": "Prisco's NFL Week 9 Power Rankings: Bills take over top spot, Steelers on the rise",
+      "summary": "Pete Prisco shares his Week 9 Power Rankings for the 2026 NFL season, including a big fall for the Seahawks",
+      "publishedAt": "2026-11-03T13:33:05Z",
       "teamIds": [
-        "9",
-        "23"
-      ]
-    },
-    {
-      "id": "ae23a97b3b8e09e3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-8-lessons-bears-super-bowl-chiefs-kicker",
-      "title": "Six lessons from Week 8: Bears emerge as top-tier Super Bowl contenders, Chiefs must address glaring flaws",
-      "summary": "Jeffery Simmons transforms Chicago's defense and the Chiefs need to address their biggest issue before it's too late",
-      "publishedAt": "2026-11-03T12:46:13Z",
-      "teamIds": [
-        "3",
-        "12"
-      ]
-    },
-    {
-      "id": "5f938ac56bba4586",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/khalil-mack-trade-proposals-chargers-bears-nfl-deadline",
-      "title": "Khalil Mack trade proposals: Bears reunion headlines 3 deals Chargers could make before NFL deadline",
-      "summary": "The winless Chargers reportedly remain reluctant to move Mack, but there are some show-stopping deals that could still be possible",
-      "publishedAt": "2026-11-03T12:31:04Z",
-      "teamIds": [
-        "3",
-        "24"
-      ]
-    },
-    {
-      "id": "1924dbaee9f6d8ef",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-9-2026",
-      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-03T12:28:11Z",
-      "teamIds": [
-        "12",
-        "28"
-      ]
-    },
-    {
-      "id": "4e1373ff1edd9be9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-may-add-help-at-running-back-after-jeremy-mcnicholss-foot-injury",
-      "title": "Commanders may add help at running back after Jeremy McNichols's foot injury",
-      "summary": "The Commanders may need to add some help at running back this week.",
-      "publishedAt": "2026-11-03T12:04:23Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "1afaac22c584ab05",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/could-tyson-bagent-save-ravens-playoff-hopes-lamar-jackson-injury",
-      "title": "Could Tyson Bagent save Ravens' playoff hopes? Lamar Jackson injury raises a costly trade question",
-      "summary": "OC Declan Doyle knows Bagent from Chicago, but does that familiarity justify a potentially expensive trade for a mostly unproven player?",
-      "publishedAt": "2026-11-03T12:01:54Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "b4c36f956d35dd01",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-de-cashius-howell-had-wrist-surgery",
-      "title": "Bengals DE Cashius Howell had wrist surgery",
-      "summary": "The Bengals are set to be without rookie defensive end Cashius Howell in the coming weeks.",
-      "publishedAt": "2026-11-03T11:53:43Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "f75da873a847165e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-mock-trade-brian-thomas-jr-chiefs-raiders",
-      "title": "Mock trades for Jaguars' Brian Thomas Jr.: Why Chiefs, Raiders could stand out as top fits",
-      "summary": "Thomas has struggled after an outstanding rookie year",
-      "publishedAt": "2026-11-03T11:50:30Z",
-      "teamIds": [
-        "30",
-        "12",
-        "13"
-      ]
-    },
-    {
-      "id": "6dfe64aaf04b4f38",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-score-predictions-packers-patriots",
-      "title": "NFL Week 9 picks and score predictions: Packers ruin Tom Brady's trip to New England, Jaguars destroy Ravens",
-      "summary": "John Breech makes his Week 9 NFL picks, including Jacksonville cruising past a short-handed Baltimore team and Green Bay spoiling a star-studded weekend in New England",
-      "publishedAt": "2026-11-03T11:47:54Z",
-      "teamIds": [
-        "33",
-        "9",
-        "30"
+        "2",
+        "23",
+        "26"
       ]
     }
   ]
