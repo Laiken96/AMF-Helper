@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T15:47:23Z",
+  "updatedAt": "2026-11-04T16:24:48Z",
   "items": [
+    {
+      "id": "b53bc3a5280f381d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-james-pearce-as-a-full-practice-participant",
+      "title": "Falcons list James Pearce as a full practice participant",
+      "summary": "The Falcons held a walkthrough upon arriving in Madrid on Wednesday and they release their estimated practice report for the day after that session came to an end.",
+      "publishedAt": "2026-11-04T16:15:04Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "50c63d8680329a3d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/browns-deshaun-watson-concussion-protocol-shedeur-sanders-week-9-saints",
+      "title": "Browns' Deshaun Watson in concussion protocol: Shedeur Sanders potentially in line to start Week 9 at Saints",
+      "summary": "Watson cleared evaluation Sunday but started having symptoms Monday night",
+      "publishedAt": "2026-11-04T15:31:37Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
     {
       "id": "f12f70545e837fd8",
       "source": "cbs",
@@ -1630,29 +1653,6 @@
       "teamIds": [
         "33",
         "30"
-      ]
-    },
-    {
-      "id": "615de8f81c9ab11a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50361915/harbaugh-reached-simmons-giants-open-call",
-      "title": "Harbaugh reached out on Simmons trade, says Giants 'open for any call'",
-      "summary": "John Harbaugh acknowledged calling Titans owner Amy Adams Strunk about the since-traded Jeffery Simmons with New York open for business ahead of the deadline.",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "19",
-        "10"
-      ]
-    },
-    {
-      "id": "a2bed2c3d99467c1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50361163/cardinals-move-forward-gardner-minshew-starting-qb",
-      "title": "Cardinals name Minshew as starter, move Brissett to QB3",
-      "summary": "The Cardinals named Gardner Minshew as the team's new starting QB while moving Jacoby Brissett below rookie Carson Beck on the depth chart.",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
