@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T04:47:19Z",
+  "updatedAt": "2026-11-04T09:47:18Z",
   "items": [
+    {
+      "id": "7d2f3271c080b1c6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-defense-aiming-for-25th-straight-game-not-allowing-a-75-yard-rusher",
+      "title": "Jaguars' defense aiming for 25th straight game not allowing a 75-yard rusher",
+      "summary": "Down to their third-string quarterback, the Ravens will likely need a big game from Derrick Henry.",
+      "publishedAt": "2026-11-04T09:13:42Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "93dab8a230709bc5",
       "source": "pft",
@@ -1652,18 +1664,6 @@
       "teamIds": [
         "19",
         "10"
-      ]
-    },
-    {
-      "id": "202b1a715931d9af",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kendrick-bourne-has-a-fractured-tibia-will-miss-the-rest-of-the-season",
-      "title": "Report: Kendrick Bourne has a fractured tibia, will miss the rest of the season",
-      "summary": "Cardinals head coach Mike LaFleur said at his Monday press conference that wide receiver Kendrick Bourne could miss the rest of the season with a leg injury he suffered in Sunday's overtime win over the Cowboys and a report on Monday evening says that will be the case.",
-      "publishedAt": "2026-11-02T23:02:26Z",
-      "teamIds": [
-        "22",
-        "6"
       ]
     }
   ]
