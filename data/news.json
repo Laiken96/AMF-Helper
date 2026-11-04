@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T22:40:30Z",
+  "updatedAt": "2026-11-04T23:47:19Z",
   "items": [
+    {
+      "id": "5706e8143bb4d15c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mansoor-delane-travis-kelce-limited-at-chiefs-practice",
+      "title": "Mansoor Delane, Travis Kelce limited at Chiefs practice",
+      "summary": "Chiefs cornerback Mansoor Delane missed last Sunday's loss to the Broncos with a shoulder injury and his outlook for Week 9's home game against the Jets looks a little better after Wednesday's practice.",
+      "publishedAt": "2026-11-04T22:58:27Z",
+      "teamIds": [
+        "7",
+        "12",
+        "20"
+      ]
+    },
+    {
+      "id": "4ee412613eebf63e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-george-pickens-og-tyler-smith-were-limited-in-wednesdays-practice",
+      "title": "WR George Pickens, OG Tyler Smith were limited in Wednesday's practice",
+      "summary": "The Cowboys' injury report has 16 names, with five players sitting out Wednesday's practice with injuries.",
+      "publishedAt": "2026-11-04T22:52:39Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "9618fc355377c77e",
       "source": "pft",
@@ -9,6 +33,15 @@
       "title": "Micah Parsons won't \"pinpoint a day\" I'll be back in the lineup",
       "summary": "Parsons practiced with the team on Wednesday for the first time since tearing his ACL.",
       "publishedAt": "2026-11-04T22:38:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "51cf33cc7bf212da",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-pistons-76ers-nba-college-football-wednesday",
+      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass for Pistons-76ers, NBA, college football",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NBA, college football, NFL betting on Wednesday",
+      "publishedAt": "2026-11-04T22:30:48Z",
       "teamIds": []
     },
     {
@@ -1624,37 +1657,6 @@
       "teamIds": [
         "33"
       ]
-    },
-    {
-      "id": "5494b98d21d07203",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50320658/caddix-shoes-bears-caleb-williams-fines",
-      "title": "Cleats, controversy and the choice of Bears QB Caleb Williams",
-      "summary": "Williams wore Caddix cleats Monday night in Seattle, but the logo was not visible as he tries to \"calm things down.\"",
-      "publishedAt": "2026-11-03T19:14:49Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "3848777a3c4593ec",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50366346/jaguars-wr-brian-thomas-jr-trade-deadline-rumors",
-      "title": "Why trade deadline rumors are swirling around Brian Thomas Jr. in Jacksonville",
-      "summary": "The 2024 first-round pick is sliding down the depth chart. What happened, and could the Jaguars trade him before the Nov. 10 deadline?",
-      "publishedAt": "2026-11-03T19:11:19Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "84f48451d8eea805",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50349677/trade-deadline-rise-quiet-chaotic-more-deals-2026",
-      "title": "The rise of the trade deadline: How it went from annual snoozer to annual chaos",
-      "summary": "There were eight trades on deadline day in 2025, a long way from the zero we saw in 2015. We asked execs and agents what set off this big trade deadline boom.",
-      "publishedAt": "2026-11-03T19:11:19Z",
-      "teamIds": []
     }
   ]
 }
