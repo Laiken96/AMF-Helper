@@ -1,7 +1,152 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T18:47:20Z",
+  "updatedAt": "2026-11-04T19:47:26Z",
   "items": [
+    {
+      "id": "7ad8a8c90a3c2375",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380574/dan-wetzel-dallas-cowboys-jerry-jones-owner-17-billion",
+      "title": "Wetzel: Jerry Jones' stance on coach pay is a sign he remains Cowboys' biggest problem",
+      "summary": "The owner of the most valuable sports franchise insists there's no correlation between coaching salaries and winning. Let's pause for the skepticism.",
+      "publishedAt": "2026-11-04T19:44:53Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "365091f406e8f692",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-sign-dt-ricky-barber-to-their-active-roster",
+      "title": "Commanders sign DT Ricky Barber to their active roster",
+      "summary": "The Commanders have lost a pair of defensive tackles to season-ending injuries and they added one to help fill out the ranks on Wednesday.",
+      "publishedAt": "2026-11-04T19:25:10Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "b98e6f82fad81396",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-have-to-make-a-decision-on-brandon-aiyuk-sooner-or-later",
+      "title": "49ers will have to make a decision on Brandon Aiyuk, sooner or later",
+      "summary": "With 49ers receiver Brandon Aiyuk finally doing what he should have done months ago, the ball will return to the team's court.",
+      "publishedAt": "2026-11-04T19:15:05Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "8edd9634c45ee184",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-eagles-to-start-joe-milton-at-qb-this-week",
+      "title": "Report: Eagles to start Joe Milton at QB this week",
+      "summary": "Eagles head coach Nick Sirianni said on Monday that the team would not be making a quarterback change for their Week 9 game against the Giants, but it appears he has changed his mind.",
+      "publishedAt": "2026-11-04T19:11:06Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "4a78e7ee731a27e1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380067/lions-lb-campbell-full-movement-lower-body-neck-injury",
+      "title": "Lions' Campbell has full movement in lower body after neck injury",
+      "summary": "Lions All-Pro linebacker Jack Campbell released a statement Wednesday saying he has full movement in his lower body and is making progress with movement in his upper body as he recovers from a neck injury, suffered in Sunday's game.",
+      "publishedAt": "2026-11-04T19:06:27Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "5f9d52e094a2d03c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380724/sources-eagles-turn-joe-milton-starting-qb-vs-giants",
+      "title": "Sources: Slumping Eagles turn to Milton as starting QB vs. Giants",
+      "summary": "The Eagles will turn to Joe Milton as their starting QB against the Giants, sources told NFL Network and ESPN.",
+      "publishedAt": "2026-11-04T19:06:27Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "7f809e05dc10dcca",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380113/jets-wr-wilson-protocol-rb-hall-trending-return",
+      "title": "Jets star WR Wilson in concussion protocol but RB Hall trending toward return",
+      "summary": "Jets wide receiver Garrett Wilson is in the concussion protocol, but running back Breece Hall is \"trending in the right direction\" toward returning.",
+      "publishedAt": "2026-11-04T19:06:27Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "d04160626261a71d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380614/coach-sirianni-feels-complete-support-eagles-owner-lurie",
+      "title": "Coach Sirianni feels 'complete support' from Eagles owner Lurie",
+      "summary": "Eagles coach Nick Sirianni says he feels \"complete support\" from team owner Jeffrey Lurie despite Philadelphia's current six-game losing streak.",
+      "publishedAt": "2026-11-04T19:06:27Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "dd9afc6f2a2c7cc6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380713/seahawks-qb-sam-darnold-ruled-quad-injury",
+      "title": "Seahawks QB Darnold ruled out this week, will be week-to-week, coach says",
+      "summary": "Seahawks quarterback Sam Darnold will miss Sunday's game against the Arizona Cardinals because of a quad injury, coach Mike Macdonald announced Wednesday.",
+      "publishedAt": "2026-11-04T19:06:27Z",
+      "teamIds": [
+        "22",
+        "26"
+      ]
+    },
+    {
+      "id": "f8ec2a11dc3bad63",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-out-week-9-with-quad-injury-drew-lock-in-line-to-start",
+      "title": "Sam Darnold out Week 9 with quad injury, Drew Lock in line to start",
+      "summary": "HC Mike Macdonald said Darnold also suffered a cracked rib early in Monday's loss to the Bears.",
+      "publishedAt": "2026-11-04T19:05:28Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "85933e9f8a1e3412",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-s-quentin-lake-justin-herbert-was-throwing-deli-meat-out-there-last-sunday",
+      "title": "Rams S Quentin Lake: Justin Herbert was \"throwing deli meat out there\" last Sunday",
+      "summary": "It's been a rough season for Chargers quarterback Justin Herbert and the Rams took advantage of it last Sunday.",
+      "publishedAt": "2026-11-04T18:59:27Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "7bc66a5ea289caa0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jets-garrett-wilson-enters-concussion-protocol",
+      "title": "Jets' Garrett Wilson enters concussion protocol a week before 2026 NFL trade deadline",
+      "summary": "Could Wilson's status as potential trade bait be impacted by entering the concussion protocol?",
+      "publishedAt": "2026-11-04T18:56:51Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "352e43ef613be572",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-76ers-pistons-nba-college-football-wednesday",
+      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass for 76ers-Pistons, NBA, college football",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NBA, college football, NFL betting on Wednesday",
+      "publishedAt": "2026-11-04T18:49:29Z",
+      "teamIds": []
+    },
     {
       "id": "6e7a4b61b6f52c1c",
       "source": "pft",
@@ -12,6 +157,17 @@
       "teamIds": [
         "7",
         "12"
+      ]
+    },
+    {
+      "id": "d7ec2335483ebb5f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2027-football-hall-of-fame-nominees-robert-kraft",
+      "title": "Robert Kraft named one of five contributor nominees for 2027 Pro Football Hall of Fame class",
+      "summary": "The Patriots owner is one of five contributor nominees still under consideration after falling short of induction in the previous Hall of Fame cycle",
+      "publishedAt": "2026-11-04T18:42:28Z",
+      "teamIds": [
+        "17"
       ]
     },
     {
@@ -253,7 +409,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50378819/browns-qb-watson-concussion-protocol-status-vs-saints-unclear",
       "title": "Browns QB Watson in concussion protocol; status vs. Saints unclear",
-      "summary": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, the team announced Wednesday, leaving his status for Sunday's matchup against the Saints in question.",
+      "summary": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, leaving his status for Sunday's matchup against the Saints in question.",
       "publishedAt": "2026-11-04T16:53:33Z",
       "teamIds": [
         "5",
@@ -1078,6 +1234,18 @@
       ]
     },
     {
+      "id": "ae23a97b3b8e09e3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-8-lessons-bears-super-bowl-chiefs-kicker",
+      "title": "Six lessons from Week 8: Bears emerge as top-tier Super Bowl contenders, Chiefs must address glaring flaws",
+      "summary": "Jeffery Simmons transforms Chicago's defense and the Chiefs need to address their biggest issue before it's too late",
+      "publishedAt": "2026-11-03T20:09:06Z",
+      "teamIds": [
+        "3",
+        "12"
+      ]
+    },
+    {
       "id": "5ac981df28f9a987",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
@@ -1195,6 +1363,18 @@
       "summary": "Arizona will be without one of its top offensive players for at least the next four weeks.",
       "publishedAt": "2026-11-03T19:03:20Z",
       "teamIds": []
+    },
+    {
+      "id": "5674cbd5035c44ed",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-coordinator-rankings-midseason-packers-jonathan-gannon-steelers",
+      "title": "Ranking NFL's best new coordinators: Packers, Steelers assistants lead top 10 at midseason",
+      "summary": "These 10 coordinators inherited difficult circumstances, adapted to significant injuries and delivered immediate results in their new homes",
+      "publishedAt": "2026-11-03T18:55:07Z",
+      "teamIds": [
+        "9",
+        "23"
+      ]
     },
     {
       "id": "18fd51cc2babed61",
@@ -1462,182 +1642,6 @@
       "publishedAt": "2026-11-03T15:36:12Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "7eae941762f1e638",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-on-job-security-i-understand-the-business-but-only-think-about-the-team",
-      "title": "Aaron Glenn on job security: I understand the business, but only think about the team",
-      "summary": "The Jets' loss to the Raiders in Week 8 dropped them to 2-6 and it left their record since hiring head coach Aaron Glenn at an unimpressive 5-20.",
-      "publishedAt": "2026-11-03T15:35:48Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "a69f42959cbd62e6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-wants-to-see-more-targets-for-george-pickens",
-      "title": "Jerry Jones wants to see more targets for George Pickens",
-      "summary": "The 3-5 Cowboys have plenty of problems.",
-      "publishedAt": "2026-11-03T15:35:21Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "521797a6d6be6f6b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-add-starting-qb-kedon-slovis-week-9",
-      "title": "Ravens add possible starting QB just two days ahead of Week 9 showdown with Jaguars",
-      "summary": "With Lamar Jackson and Tyler Huntley sidelined and Joe Fagnano battling an ankle injury, Baltimore could turn to Kedon Slovis",
-      "publishedAt": "2026-11-03T15:17:55Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "ee3a250a3129517c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/teams-are-interested-in-titans-rb-tony-pollard-but-tennessee-isnt-talking-yet",
-      "title": "Teams are interested in Titans RB Tony Pollard, but Tennessee isn't talking (yet)",
-      "summary": "After consistently telling teams that defensive tackle Jeffery Simmons would not be traded, the Titans decided last Tuesday to listen to offers.",
-      "publishedAt": "2026-11-03T15:08:23Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "506cc0843b48c8ae",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-buffalo-miami-oh-college-basketball",
-      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass on Buffalo-Miami (OH), college basketball",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for college basketball, college football, NFL betting on Tuesday",
-      "publishedAt": "2026-11-03T15:05:09Z",
-      "teamIds": []
-    },
-    {
-      "id": "5d77a88dc85e4247",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-buffalo-miami-oh-college-basketball-tuesday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Buffalo-Miami (OH), college basketball Tuesday",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for college basketball, college football, NFL betting on Tuesday",
-      "publishedAt": "2026-11-03T15:00:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "fd4fbc093a6918eb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50360528/colts-jonathan-taylor-trade-deadline",
-      "title": "Colts are right to consider trading Taylor, and what they might get in return",
-      "summary": "As the Colts begin their rebuild, they need draft picks, and Jonathan Taylor is their most valuable asset.",
-      "publishedAt": "2026-11-03T14:51:12Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "e74fc6c21f785070",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-calms-things-down-in-shoe-dispute-with-nfl",
-      "title": "Caleb Williams chooses to \"calm things down\" in shoe dispute with NFL",
-      "summary": "The battle lines were drawn, in the form of an $11,941 fine for Week 6 and a $23,882 fine for Week 7.",
-      "publishedAt": "2026-11-03T14:46:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "59eb43d3567d56e7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-adding-qb-kedon-slovis-off-packers-practice-squad",
-      "title": "Ravens adding QB Kedon Slovis off Packers' practice squad",
-      "summary": "With several quarterbacks injured on their 53-man roster, the Ravens have brought in another.",
-      "publishedAt": "2026-11-03T14:29:05Z",
-      "teamIds": [
-        "33",
-        "9"
-      ]
-    },
-    {
-      "id": "64cc9d5ac245f90c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-to-determine-rb-work-by-whos-playing-the-best-ball-at-the-time",
-      "title": "Raiders to determine RB work by \"who’s playing the best ball at the time\"",
-      "summary": "When the Raiders drafted Ashton Jeanty with the sixth overall pick in 2025, the expectation was that he'd be their top choice in the backfield for years to come.",
-      "publishedAt": "2026-11-03T14:14:22Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "21431347d543a18f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-9-2026-nfl-power-rankings",
-      "title": "PFT's Week 9 2026 NFL power rankings",
-      "summary": "The Bills strengthen their grip on the top spot.",
-      "publishedAt": "2026-11-03T14:07:35Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "4cb3013e54127ef0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-to-sign-lb-k-j-britt-off-patriots-practice-squad",
-      "title": "Lions to sign LB K.J. Britt off Patriots practice squad",
-      "summary": "The Lions lost multiple linebackers to injuries in Sunday's win over the Vikings and they'll add one to the active roster on Tuesday.",
-      "publishedAt": "2026-11-03T13:43:32Z",
-      "teamIds": [
-        "8",
-        "16",
-        "17"
-      ]
-    },
-    {
-      "id": "4cdd8c5d50c8344b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bears-seahawks-super-bowl-nfl-mnf-miami-cfb-college-football-rankings",
-      "title": "Bears crash the Super Bowl conversation by beating Seahawks; Miami up to No. 1 in CFB Power Rankings",
-      "summary": "Plus, winners and losers from a wild opening night of college basketball",
-      "publishedAt": "2026-11-03T13:42:46Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "b9d7dec8693e2bfb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50358866/patriots-drake-maye-deep-passes-20-plus-yards-turnaround",
-      "title": "Drake digs the long ball: How Maye's deep passes are fueling the Patriots' recent surge",
-      "summary": "After struggling on deep passes early, Maye has been one of the best in the league at producing chunk plays in the pass game over the past few weeks.",
-      "publishedAt": "2026-11-03T13:38:24Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "6c3dd84e848171e5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50361464/cincinnati-bengals-hendrickson",
-      "title": "How Cincinnati's decision on Trey Hendrickson has altered the AFC North landscape",
-      "summary": "Hendrickson has two sacks in Baltimore; Lawrence, Allen and Mafe have produced 13.5 in Cincinnati.",
-      "publishedAt": "2026-11-03T13:38:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "f8f0fd6e01e1dfb4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-power-rankings-bills-steelers",
-      "title": "Prisco's NFL Week 9 Power Rankings: Bills take over top spot, Steelers on the rise",
-      "summary": "Pete Prisco shares his Week 9 Power Rankings for the 2026 NFL season, including a big fall for the Seahawks",
-      "publishedAt": "2026-11-03T13:33:05Z",
-      "teamIds": [
-        "2",
-        "23",
-        "26"
       ]
     }
   ]
