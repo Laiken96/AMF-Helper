@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T11:47:18Z",
+  "updatedAt": "2026-11-04T12:47:18Z",
   "items": [
+    {
+      "id": "97f45e9391ddecf0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-wants-seahawks-to-focus-on-recapturing-us",
+      "title": "Mike Macdonald wants Seahawks to \"focus on recapturing us\"",
+      "summary": "After Monday night's loss to the Bears, Seahawks head coach Mike Macdonald said that his team was beaten in all three phases of the game and he revisited that line of thinking on Tuesday.",
+      "publishedAt": "2026-11-04T12:02:18Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
     {
       "id": "9951bca164ffc869",
       "source": "pft",
@@ -1652,18 +1664,6 @@
       "teamIds": [
         "33",
         "30"
-      ]
-    },
-    {
-      "id": "be10f8bb9e81159a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football",
-      "title": "Is Jadarian Price playing on MNF? Latest Seahawks RB injury update for game vs. Bears",
-      "summary": "The Seahawks could activate Jadarian Price from injured reserve before Monday night's game, but Mike Macdonald offered few clues about the rookie's status",
-      "publishedAt": "2026-11-02T23:25:03Z",
-      "teamIds": [
-        "3",
-        "26"
       ]
     }
   ]
