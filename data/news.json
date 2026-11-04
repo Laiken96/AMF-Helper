@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T02:47:18Z",
+  "updatedAt": "2026-11-04T03:47:22Z",
   "items": [
+    {
+      "id": "00fc0555c220fe1f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-j-j-mccarthy-was-a-steal-for-the-giants",
+      "title": "Vic Fangio: J.J. McCarthy was a \"steal\" for the Giants",
+      "summary": "In late September, the Vikings sent quarterback J.J.",
+      "publishedAt": "2026-11-04T02:52:46Z",
+      "teamIds": [
+        "16",
+        "19"
+      ]
+    },
     {
       "id": "cb24464ae3244472",
       "source": "pft",
@@ -1654,18 +1666,6 @@
       "publishedAt": "2026-11-02T22:43:02Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "938052169f1ea1cc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-lost-linebacker-jimmy-rolder-to-season-ending-hamstring-injury-vs-vikings",
-      "title": "Lions lost linebacker Jimmy Rolder to season-ending hamstring injury vs. Vikings",
-      "summary": "Lions linebacker Jimmy Rolder will miss the rest of the season after suffering a hamstring injury on Sunday against the Vikings.",
-      "publishedAt": "2026-11-02T22:36:50Z",
-      "teamIds": [
-        "8",
-        "16"
       ]
     }
   ]
