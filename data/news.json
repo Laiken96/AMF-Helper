@@ -1,7 +1,179 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T16:47:24Z",
+  "updatedAt": "2026-11-04T17:47:24Z",
   "items": [
+    {
+      "id": "1966fd884523ac79",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-campbell-i-have-full-movement-in-my-lower-body-and-am-making-progress-with-movement-in-my-upper-body",
+      "title": "Jack Campbell: I have full movement in my lower body, and am making progress with movement in my upper body",
+      "summary": "The Lions released a statement from Campbell on Wednesday providing an update on his condition after he suffered a significant neck injury on Sunday.",
+      "publishedAt": "2026-11-04T17:42:07Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "5e212bb1c15d0921",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/garrett-wilson-is-in-the-concussion-protocol",
+      "title": "Garrett Wilson is in the concussion protocol",
+      "summary": "The Jets may be without wide receiver Garrett Wilson in Kansas City this weekend.",
+      "publishedAt": "2026-11-04T17:23:59Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "fa5a5fe7257a3dd8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-fox-wins-nfc-special-teams-player-of-the-week",
+      "title": "Jack Fox wins NFC special teams player of the week",
+      "summary": "The Lions handed the Vikings their first loss of the season on Sunday.",
+      "publishedAt": "2026-11-04T17:23:26Z",
+      "teamIds": [
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "40bf96b48cbfac46",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-trade-candidates-quarterback-injuries-lamar-jackson",
+      "title": "Ravens trade candidates: Three quarterbacks Baltimore should consider amid injury crisis",
+      "summary": "With Lamar Jackson sidelined and Tyler Huntley out for the year, Baltimore could look to Jacoby Brissett or Anthony Richardson before the trade deadline to keep its 4-4 season alive",
+      "publishedAt": "2026-11-04T17:21:19Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "cc4d24f511201b7c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-rb-dylan-laube-named-the-afc-special-teams-player-of-the-week",
+      "title": "Raiders RB Dylan Laube named the AFC special teams player of the week",
+      "summary": "There were no kickoff returns for touchdowns in the first seven weeks of the 2026 season, but that streak came to an end in the second quarter of the Week 8 game between the Raiders and Jets at MetLife Stadium.",
+      "publishedAt": "2026-11-04T17:16:23Z",
+      "teamIds": [
+        "13",
+        "20"
+      ]
+    },
+    {
+      "id": "47bd8e5874a77ba0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/alex-anzalone-earns-first-nfc-defensive-player-of-the-week-award",
+      "title": "Alex Anzalone earns first NFC defensive player of the week award",
+      "summary": "The Buccaneers beat the Falcons without completing a pass on Sunday.",
+      "publishedAt": "2026-11-04T17:11:08Z",
+      "teamIds": [
+        "1",
+        "27"
+      ]
+    },
+    {
+      "id": "b785c79ebf4957da",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-s-rayuan-lane-is-the-afc-defensive-player-of-the-week",
+      "title": "Jaguars S Rayuan Lane is the AFC defensive player of the week",
+      "summary": "The Jaguars had to turn to backup safeties due to injuries in last Sunday's game against the Colts and one of them came up with a huge play at the end of the first half.",
+      "publishedAt": "2026-11-04T17:10:02Z",
+      "teamIds": [
+        "11",
+        "30"
+      ]
+    },
+    {
+      "id": "39acbac6ab4de24f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jadeveon-clowney-mock-trades-cowboys-texans-nfl-trade-deadline",
+      "title": "Jadeveon Clowney mock trades: Cowboys reunion headlines four deals Texans can make before NFL trade deadline",
+      "summary": "Clowney's name has surfaced in trade discussions this week",
+      "publishedAt": "2026-11-04T17:05:35Z",
+      "teamIds": [
+        "6",
+        "34"
+      ]
+    },
+    {
+      "id": "a8f46df36d4aa5df",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-allgeier-wins-first-nfc-offensive-player-of-the-week-award",
+      "title": "Tyler Allgeier wins first NFC offensive player of the week award",
+      "summary": "The Cardinals had injury concerns at running back during Sunday's comeback victory over the Cowboys.",
+      "publishedAt": "2026-11-04T17:05:21Z",
+      "teamIds": [
+        "22",
+        "6"
+      ]
+    },
+    {
+      "id": "f1f8fa1819382bc1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-named-the-afc-offensive-player-of-the-week",
+      "title": "Tee Higgins named the AFC offensive player of the week",
+      "summary": "A pair of Bengals wide receivers had big games in Week 8, but only one of them could be named the AFC offensive player of the week.",
+      "publishedAt": "2026-11-04T17:04:39Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "3a649f5b0a51ceb1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50378427/source-commanders-javon-kinlaw-knee-surgery-season",
+      "title": "Source: Commanders lose another DL with Kinlaw (knee) out for season",
+      "summary": "The Commanders lost a second defensive line starter for the season in less than a week as Javon Kinlaw underwent season-ending knee surgery, a source told ESPN's Adam Schefter.",
+      "publishedAt": "2026-11-04T16:53:33Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "4a30553bd366c497",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50378134/sources-ravens-qb-tyler-snoop-huntley-season",
+      "title": "With Lamar sidelined, Ravens QB Huntley also out for season, sources say",
+      "summary": "Tests revealed that Ravens quarterback Tyler \"Snoop\" Huntley suffered a season-ending turf toe injury, sources told ESPN and NFL Network.",
+      "publishedAt": "2026-11-04T16:53:33Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "a532ede11a1b0477",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50378691/brandon-aiyuk-applies-reinstated-plans-report-49ers",
+      "title": "Agent: Aiyuk files to be reinstated, plans to report to 49ers on Friday",
+      "summary": "Brandon Aiyuk has turned in paperwork to be reinstated, agent Drew Rosenhaus told ESPN's Adam Schefter on Wednesday.",
+      "publishedAt": "2026-11-04T16:53:33Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "f6beb752a9b10957",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50378819/browns-qb-watson-concussion-protocol-status-vs-saints-unclear",
+      "title": "Browns QB Watson in concussion protocol; status vs. Saints unclear",
+      "summary": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, the team announced Wednesday, leaving his status for Sunday's matchup against the Saints in question.",
+      "publishedAt": "2026-11-04T16:53:33Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "e1ba4b3956ad4966",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kc-concepcion-browns-are-confident-getting-shedeur-sanders-ready-for-sunday",
+      "title": "KC Concepcion: Browns are confident, getting Shedeur Sanders ready for Sunday",
+      "summary": "The Browns haven't officially named Shedeur Sanders this week's starter, but with Deshaun Watson in the concussion protocol, all signs are pointing in that direction.",
+      "publishedAt": "2026-11-04T16:47:48Z",
+      "teamIds": [
+        "5"
+      ]
+    },
     {
       "id": "12e7942f9da0d345",
       "source": "pft",
@@ -14,6 +186,27 @@
       ]
     },
     {
+      "id": "57de22a89f49bbf0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50370030/trade-deadline-team-preview-goals-buzz-players-deals-2026",
+      "title": "Team-by-team trade deadline outlooks: What does each roster need? Which players could move?",
+      "summary": "We outlined deadline plans for all 32 teams, including who could be dealt before 4 p.m. ET on Tuesday. Here's what you need to know.",
+      "publishedAt": "2026-11-04T16:28:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "bb7dd1a65613f034",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50369642/week-9-buzz-fantasy-predictions-graziano-fowler-2026-trades",
+      "title": "Buzz for Week 9: What we're hearing on the Ravens and Chargers, plus trade deadline intel",
+      "summary": "What now for the Ravens without Lamar Jackson? And what's the latest on the looming trade deadline?",
+      "publishedAt": "2026-11-04T16:28:06Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
       "id": "b53bc3a5280f381d",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-james-pearce-as-a-full-practice-participant",
@@ -22,6 +215,47 @@
       "publishedAt": "2026-11-04T16:15:04Z",
       "teamIds": [
         "1"
+      ]
+    },
+    {
+      "id": "2790dbafda8a0d5f",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50378429/facts-feelings-fantasy-advice-week-9",
+      "title": "Facts vs. Feelings: Dissecting eight potential lineup conundrums for Week 9",
+      "summary": "Breaking down the matchup upside and downside for Dak Prescott, Ashton Jeanty, Jonah Coleman, Nico Collins, Ladd McConkey, Omar Cooper Jr., Chig Okonkwo and Greg Dulcich.",
+      "publishedAt": "2026-11-04T16:05:02Z",
+      "teamIds": []
+    },
+    {
+      "id": "f59785cc4d38fe4c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50371800/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
+      "title": "Matchup rankings for Week 9: Upgrade Chase Brown, be wary of Josh Jacobs, DJ Moore",
+      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
+      "publishedAt": "2026-11-04T16:05:02Z",
+      "teamIds": []
+    },
+    {
+      "id": "da0d6a9c36e1c0e2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50309394/john-harbaugh-new-york-giants-pushing-right-buttons",
+      "title": "Coach John Harbaugh is pushing all the right buttons for the Giants",
+      "summary": "The coach's culture of accountability and expectations has New York (4-2-1) in first place in the NFC East.",
+      "publishedAt": "2026-11-04T15:44:42Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "f8c930887260a7ba",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50371759/nfl-seahawks-bears-sam-darnold-pressure",
+      "title": "Sam Darnold struggling under pressure, but Seahawks preaching patience with O-line",
+      "summary": "Seattle's trade for Quenton Nelson last week shuffled the offensive line ahead of its decisive loss to the Bears. Will the pass protection get better?",
+      "publishedAt": "2026-11-04T15:44:42Z",
+      "teamIds": [
+        "3",
+        "26"
       ]
     },
     {
@@ -257,6 +491,15 @@
       ]
     },
     {
+      "id": "d5e6c72430768cdc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50373566/gary-klint-klay-klein-kubiak-family-legacy-raiders-49ers",
+      "title": "'I think his kids take right after him': Gary Kubiak laid the foundation for his sons Klint, Klay and Klein",
+      "summary": "Klint, Klay and Klein Kubiak are all on their respective NFL journeys. But their father, Gary, helped each along the way.",
+      "publishedAt": "2026-11-04T11:00:10Z",
+      "teamIds": []
+    },
+    {
       "id": "7d2f3271c080b1c6",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-defense-aiming-for-25th-straight-game-not-allowing-a-75-yard-rusher",
@@ -304,7 +547,7 @@
       "id": "796658f6fe6eea3c",
       "source": "espn",
       "url": "https://espn.com/college-football/story/_/id/50373951/russell-wilson-interviews-nc-state-head-coaching-job",
-      "title": "Sources: Ex-QB Wilson interviews with NC State, joins Rivers as HC candidate",
+      "title": "Sources: Ex-QB Wilson interviews with NC State, joins Rivers as candidate",
       "summary": "Russell Wilson interviewed for the head coaching job at NC State on Tuesday, joining Philip Rivers as prominent candidates, sources told ESPN.",
       "publishedAt": "2026-11-04T01:42:25Z",
       "teamIds": []
@@ -432,19 +675,6 @@
       "publishedAt": "2026-11-03T22:55:32Z",
       "teamIds": [
         "2"
-      ]
-    },
-    {
-      "id": "946fb5ad12e7ff87",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50349483/week-8-barnwell-lamar-bengals-cowboys-buccaneers-chiefs",
-      "title": "👀 Barnwell makes sense of a weird Week 8",
-      "summary": "Lamar Jackson's return lasted one snap, the Cardinals upset the Cowboys with their QB2 and RB2, and the Buccaneers won by 16 despite 0 passing yards.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "22",
-        "6",
-        "27"
       ]
     },
     {
@@ -721,8 +951,8 @@
       "id": "c29f98f7534250df",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-      "title": "What Solak thinks about two division races, one coach candidate, potential RB trades",
-      "summary": "Ben Solak offers takes on the Bucs' division chances, which teams should ask about Justin Herbert and more.",
+      "title": "🏈 Seven things Solak thinks for Week 9",
+      "summary": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
       "publishedAt": "2026-11-03T20:56:51Z",
       "teamIds": [
         "27"
@@ -919,6 +1149,19 @@
         "33",
         "12",
         "28"
+      ]
+    },
+    {
+      "id": "946fb5ad12e7ff87",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50349483/week-8-barnwell-lamar-bengals-cowboys-buccaneers-chiefs",
+      "title": "Lamar Jackson out again? Zero completions for Baker Mayfield? Let's make sense of a weird Week 8",
+      "summary": "Jackson's return lasted one snap, the Cardinals upset the Cowboys with their QB2 and RB2, and the Buccaneers won by 16 despite 0 passing yards.",
+      "publishedAt": "2026-11-03T18:18:43Z",
+      "teamIds": [
+        "22",
+        "6",
+        "27"
       ]
     },
     {
@@ -1403,255 +1646,6 @@
         "33",
         "9",
         "30"
-      ]
-    },
-    {
-      "id": "7e14a34e7f800eaf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-we-lost-in-all-three-phases",
-      "title": "Mike Macdonald: We lost in all three phases",
-      "summary": "Monday night's game in Seattle featured a pair of 2025 NFC playoff teams who would like to be back in the postseason this year and it ended with the Bears celebrating a 34-17 win over the defending Super Bowl champions.",
-      "publishedAt": "2026-11-03T11:44:43Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "72359ddcd2575391",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wil-lutz-has-made-113-straight-extra-points-most-in-the-nfl-since-the-2015-rule-change",
-      "title": "Wil Lutz has made 113 straight extra points, most in the NFL since the 2015 rule change",
-      "summary": "It's been three years since Broncos kicker Wil Lutz missed an extra point.",
-      "publishedAt": "2026-11-03T11:15:02Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "f8f0fd6e01e1dfb4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-power-rankings-bills-steelers",
-      "title": "Prisco's NFL Week 9 Power Rankings: Bills take over top spot, Steelers on the rise",
-      "summary": "Pete Prisco shares his Week 9 Power Rankings for the 2026 NFL season, including a big fall for the Seahawks",
-      "publishedAt": "2026-11-03T10:00:49Z",
-      "teamIds": [
-        "2",
-        "23",
-        "26"
-      ]
-    },
-    {
-      "id": "4b20d1c399e6ca48",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-i-want-khalil-mack-to-be-here-and-khalil-mack-wants-to-be-here",
-      "title": "Jim Harbaugh: I want Khalil Mack to be here and Khalil Mack wants to be here",
-      "summary": "Jim Harbaugh shot down a question about the Chargers potentially trading defensive lineman Khalil Mack before next week's deadline.",
-      "publishedAt": "2026-11-03T09:38:04Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "22be5be203c027f9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-felt-great-to-get-my-first-sack-as-a-chicago-bear",
-      "title": "Jeffery Simmons: Felt great to get my first sack as a Chicago Bear",
-      "summary": "\"The emotions, especially during the national anthem, the emotions were coming and coming,\" Simmons said.",
-      "publishedAt": "2026-11-03T08:49:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "211ddf7a57a5e30c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
-      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
-      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
-      "publishedAt": "2026-11-03T05:52:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "89313992c7243efe",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50364209/chicago-bears-seattle-seahawks-mnf-jeffery-simmons-sam-darnold",
-      "title": "Jeffery Simmons makes smashing Bears debut in rout of Seahawks",
-      "summary": "Caleb Williams and Jeffery Simmons had the Bears controlling both sides of the ball on MNF.",
-      "publishedAt": "2026-11-03T05:38:58Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "ca6a6e122790b0c0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-8-grades-cowboys-get-an-f-steelers-surge-to-a",
-      "title": "NFL Week 8 grades for every team: Bears earn 'A+' for destroying Seahawks, Cowboys get an 'F' for choking",
-      "summary": "We're handing out grades for every team that played in Week 8",
-      "publishedAt": "2026-11-03T04:41:03Z",
-      "teamIds": [
-        "3",
-        "6",
-        "26"
-      ]
-    },
-    {
-      "id": "7b3f4951a930f5b7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-k-tyler-loop-could-be-headed-for-injured-reserve-with-groin-injury",
-      "title": "Ravens K Tyler Loop could be headed for injured reserve with groin injury",
-      "summary": "When it comes to injuries, the Ravens have far bigger issues than having a healthy kicker.",
-      "publishedAt": "2026-11-03T04:40:44Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "62252c143e5dfa97",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-jeffery-simmons-caleb-williams-lead-bears-to-34-17-rout-of-seahawks",
-      "title": "Monday Night Football: Jeffery Simmons, Caleb Williams lead Bears to 34-17 rout of Seahawks",
-      "summary": "The Bears acquired Simmons on Thursday, and he had six tackles and a sack, and Williams threw for 247 yards.",
-      "publishedAt": "2026-11-03T04:28:10Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "8df4cd1d373d51f4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-answer-seahawks-up-lead-to-27-17",
-      "title": "Bears answer Seahawks, up lead to 27-17",
-      "summary": "The Bears have had an answer for the Seahawks all night.",
-      "publishedAt": "2026-11-03T04:01:30Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "c03aed49dc123e51",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-convert-bears-fumble-now-trail-only-20-17",
-      "title": "Seahawks convert Bears' fumble, now trail only 20-17",
-      "summary": "The Bears let the Seahawks back in the game when tight end Colston Loveland fumbled.",
-      "publishedAt": "2026-11-03T03:51:48Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "b9adfce51808d133",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacoby-brissett-becomes-an-obvious-trade-candidate",
-      "title": "Jacoby Brissett becomes an obvious trade candidate",
-      "summary": "By sending eight-game starting quarterback Jacoby Brissett all the way to No. 3 on the depth chart, the Cardinals have sent a clear message to the rest of the league, eight days from the trade deadline.",
-      "publishedAt": "2026-11-03T03:51:09Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "d705903f11026aee",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swifts-td-run-gives-bears-a-20-9-lead-on-seahawks",
-      "title": "D'Andre Swift's TD run gives Bears a 20-9 lead on Seahawks",
-      "summary": "The Bears have taken control in Chicago.",
-      "publishedAt": "2026-11-03T03:23:14Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "2ab58c7453034ca4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/most-cowboys-players-left-facility-on-monday-before-locker-room-media-availability",
-      "title": "Most Cowboys players left facility on Monday before locker-room media availability",
-      "summary": "The day after an embarrassing home loss to the Cardinals — who have never lost at AT&T Stadium — many of the Cowboys' players skipped a session with the media covering the team.",
-      "publishedAt": "2026-11-03T03:06:08Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "2f24d213a2496eb3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bears-lead-seahawks-13-9-at-halftime",
-      "title": "Monday Night Football: Bears lead Seahawks 13-9 at halftime",
-      "summary": "Jaxon Smith-Njigba caught a 43-yard touchdown with 30 seconds left in the half to draw Seattle closer.",
-      "publishedAt": "2026-11-03T02:51:03Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "9aa4d934a15386f8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-wont-say-much-about-the-soreness-in-matthew-staffords-throwing-arm",
-      "title": "Sean McVay won't say much about the \"soreness\" in Matthew Stafford's throwing arm",
-      "summary": "Rams quarterback Matthew Stafford threw only 25 passes on Sunday.",
-      "publishedAt": "2026-11-03T02:50:45Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "d9163f19016cda26",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-eagles-will-stick-with-tanner-mckee-sean-mannion-despite-offensive-woes",
-      "title": "Nick Sirianni: Eagles will stick with Tanner McKee, Sean Mannion despite offensive woes",
-      "summary": "The Eagles have lost six in a row and rank 30th in the NFL in points per game, but Nick Sirianni said Monday that he isn't making a change at offensive coordinator or quarterback.",
-      "publishedAt": "2026-11-03T02:04:56Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "e7a2238a8ef6247b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-17-play-drive-on-their-opening-possession-gives-them-a-7-0-lead",
-      "title": "Bears' 17-play drive on their opening possession gives them a 7-0 lead",
-      "summary": "The Bears had an almost perfect drive to open Monday Night Football.",
-      "publishedAt": "2026-11-03T01:45:10Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "89eb8d33e963206e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-joe-fagnano-estimated-as-limited-in-ravens-practice-with-ankle-injury",
-      "title": "QB Joe Fagnano estimated as limited in Ravens' practice with ankle injury",
-      "summary": "The Ravens know Lamar Jackson (right thumb) and Tyler Huntley (toe) won't play Thursday night.",
-      "publishedAt": "2026-11-03T01:33:19Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "5b64f0e23e132fb1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-reinstates-james-pearce-jr-after-eight-game-suspension-falcons",
-      "title": "NFL reinstates James Pearce Jr. after eight-game suspension: Why EDGE returns at critical time for Falcons",
-      "summary": "Pearce's insertion into the lineup could be the lift the Falcons need to emerge as the NFC South's top team",
-      "publishedAt": "2026-11-03T01:09:32Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "1100f3d0d192b380",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50361174/sirianni-no-changes-oc-qb-eagles-six-game-skid",
-      "title": "Sirianni: No changes at OC or QB despite Eagles' 6-game skid",
-      "summary": "Eagles coach Nick Sirianni said Monday that he is not making a change at offensive coordinator or quarterback amid his team's six-game losing streak.",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "21"
       ]
     }
   ]
