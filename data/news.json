@@ -1,7 +1,83 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T14:47:18Z",
+  "updatedAt": "2026-11-04T15:47:23Z",
   "items": [
+    {
+      "id": "f12f70545e837fd8",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-best-bets-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-04T15:30:35Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "d4bbaf82c6dfa18f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nebraska-voters-say-no-to-mobile-sports-betting",
+      "title": "Nebraska voters say no to mobile sports betting",
+      "summary": "If you haven't heard, Tuesday was election day.",
+      "publishedAt": "2026-11-04T15:21:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "72a04c28067e0b6b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-sign-te-carsen-ryan-to-53-man-roster",
+      "title": "Browns sign TE Carsen Ryan to 53-man roster",
+      "summary": "The Browns have made a Wednesday roster move.",
+      "publishedAt": "2026-11-04T15:17:46Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "be8b475b544dcb13",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-files-to-be-reinstated-49ers",
+      "title": "Brandon Aiyuk files to be reinstated, will report to 49ers facility this week, per report",
+      "summary": "San Francisco now has the option to trade or release the disgruntled wide receiver, with an outright cut viewed as the most likely outcome after a turbulent year away from the team",
+      "publishedAt": "2026-11-04T15:17:19Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "4f7a73a978c5f32f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-76ers-pistons-nba-college-football-on-wednesday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for 76ers-Pistons, NBA, college football on Wednesday",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, NFL betting on Wednesday",
+      "publishedAt": "2026-11-04T14:58:52Z",
+      "teamIds": []
+    },
+    {
+      "id": "fe83848b544e8e8f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-announce-deshaun-watson-is-in-concussion-protocol",
+      "title": "Browns announce Deshaun Watson is in concussion protocol",
+      "summary": "Watson developed symptoms on Monday night, after first-quarter helmet-to-helmet hit.",
+      "publishedAt": "2026-11-04T14:45:03Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "af57adf9d53e2e38",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-midseason-all-rookie-team-jalon-daniels-browns-jets",
+      "title": "Midseason All-Rookie Team: QB Jalon Daniels leads team filled with multiple Browns, Jets",
+      "summary": "A dynamic Browns wide receiver duo and Titans standout Carnell Tate highlight the offensive playmakers making an immediate impact through the first eight weeks",
+      "publishedAt": "2026-11-04T14:28:48Z",
+      "teamIds": [
+        "5",
+        "20",
+        "10"
+      ]
+    },
     {
       "id": "cca14bc1bfea491d",
       "source": "pft",
@@ -31,6 +107,41 @@
       "publishedAt": "2026-11-04T14:19:14Z",
       "teamIds": [
         "25"
+      ]
+    },
+    {
+      "id": "0e89aa9734f4063d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-best-bets-bears-surge-vikings-lose",
+      "title": "NFL Week 9 picks, best bets: Bears continue to surge in primetime, Vikings lose second straight vs. Bills",
+      "summary": "Tyler Sullivan picks every game on the Week 9 schedule, including five locks against the spread",
+      "publishedAt": "2026-11-04T14:00:50Z",
+      "teamIds": [
+        "2",
+        "3",
+        "16"
+      ]
+    },
+    {
+      "id": "4640742c1454cdbd",
+      "source": "cbs",
+      "url": "https://cbssports.com/fantasy/football/news/biggest-surprises-from-initial-cfp-rankings-ravens-starting-an-undrafted-rookie-qb-on-tnf",
+      "title": "Biggest surprises from initial CFP Rankings; Ravens starting an undrafted rookie QB on 'TNF'",
+      "summary": "Plus NBA Bracketology and Pete Prisco's Week 9 NFL Power Rankings",
+      "publishedAt": "2026-11-04T13:53:59Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "bb9a519631016866",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-tyler-huntley-injury-update-turf-toe-out-for-season",
+      "title": "Tyler Huntley out for season: Ravens lose top backup with Lamar Jackson already out, per report",
+      "summary": "Baltimore will start undrafted rookie Joe Fagnano on Thursday",
+      "publishedAt": "2026-11-04T13:49:16Z",
+      "teamIds": [
+        "33"
       ]
     },
     {
@@ -1542,117 +1653,6 @@
       "publishedAt": "2026-11-03T00:58:31Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "b5f658626f3a251d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50361646/garrett-return-practice-week-rams-mcvay-says",
-      "title": "Rams to welcome Garrett back to practice this week, McVay says",
-      "summary": "Los Angeles Rams star pass rusher Myles Garrett, who has been on injured reserve since having arthroscopic knee surgery in mid-September, will return to practice this week, coach Sean McVay told reporters Monday.",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "b702a03f11b14a79",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50360681/brandon-aiyuk-hires-drew-rosenhaus-agent-eyes-return-nfl",
-      "title": "WR Aiyuk hires Rosenhaus as agent, eyes return to NFL",
-      "summary": "Brandon Aiyuk has hired agent Drew Rosenhaus, who told ESPN's Adam Schefter that he is \"working on getting him back to work and playing again in the NFL.\"",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "e4438579ea685921",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50360680/lions-lb-jack-campbell-hospital-signs-positive",
-      "title": "Lions LB Campbell still hospitalized, but early signs positive",
-      "summary": "Lions linebacker Jack Campbell is still in the hospital for evaluation and monitoring of a neck injury, but the team said in a statement \"preliminary indications are positive.\"",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "eb99e1db13e30818",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50360755/packers-sticking-rb-jacobs-latest-abuse-allegations",
-      "title": "Packers sticking with RB Jacobs despite latest abuse allegations",
-      "summary": "Packers coach Matt LaFleur says the team is sticking with RB Josh Jacobs despite new allegations of abuse levied by multiple women in addition to a May incident that led to his arrest.",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "c38c0363abcc4f09",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-estimate-de-travon-walker-as-a-non-participant-monday",
-      "title": "Jaguars estimate DE Travon Walker as a non-participant Monday",
-      "summary": "Jaguars defensive tackle DaVon Hamilton (torn quad) and safety Eric Murray (elbow) are out for the season.",
-      "publishedAt": "2026-11-03T00:55:56Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "d77d1381d8b616cb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50362043/falcons-james-pearce-back-suspension-expected-play",
-      "title": "Falcons' James Pearce back from suspension, expected to play",
-      "summary": "Pearce served an eight-game league suspension stemming from a February domestic violence arrest.",
-      "publishedAt": "2026-11-03T00:27:30Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "bbdaa00267b1599e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-te-david-njoku-is-expected-to-return-to-practice-this-week",
-      "title": "Chargers TE David Njoku is expected to return to practice this week",
-      "summary": "Chargers tight end David Njoku likely will return to practice this week, coach Jim Harbaugh said Monday.",
-      "publishedAt": "2026-11-03T00:15:48Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "da5e7281f0b550a9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/best-kalshi-promo-code-cbssports55-get-55-bonus-bears-vs-seahawks-monday-night-football-election",
-      "title": "Best Kalshi promo code CBSSPORTS55: Get $55 bonus for Bears vs. Seahawks, Monday Night Football, election",
-      "summary": "New Kalshi users can get a $55 bonus after making $25+ in trades on the NFL Week 8 Bears vs. Seahawks MNF matchup",
-      "publishedAt": "2026-11-03T00:10:32Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "5c95fe243b6cd0ee",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-seahawks-vs-bears-on-monday-night-football",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Seahawks vs. Bears on Monday Night Football",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Seahawks vs. Bears on Monday Night Football",
-      "publishedAt": "2026-11-03T00:08:43Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "00a7a61ee7f80ee4",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-seahawks-vs-bears-nfl-monday-night-football",
-      "title": "Use FanDuel promo code to get $200 in bonus bets by targeting Seahawks vs. Bears, NFL Monday Night Football",
-      "summary": "Sign up and bet with the latest FanDuel promo code to wager on Monday to get your bonus bets",
-      "publishedAt": "2026-11-03T00:06:26Z",
-      "teamIds": [
-        "3",
-        "26"
       ]
     }
   ]
