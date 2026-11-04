@@ -1,7 +1,112 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T19:47:26Z",
+  "updatedAt": "2026-11-04T20:47:24Z",
   "items": [
+    {
+      "id": "e597da1a455eb9fc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-open-21-day-practice-window-for-lb-denzel-perryman",
+      "title": "Chargers open 21-day practice window for LB Denzel Perryman",
+      "summary": "The Chargers opened the 21-day practice window for tight end David Njoku and linebacker Denzel Perryman, coach Jim Harbaugh announced Wednesday.",
+      "publishedAt": "2026-11-04T20:39:23Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "923b5944b21dac5b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-list-bhayshul-tuten-travon-walker-as-questionable-for-thursday-night",
+      "title": "Jaguars list Bhayshul Tuten, Travon Walker as questionable for Thursday night",
+      "summary": "The Jaguars will be making gameday calls about a pair of starters before facing the Ravens on Thursday night.",
+      "publishedAt": "2026-11-04T20:25:34Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "af533515af34c4b3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jacoby-brissett-trade-ravens-cardinals-lamar-jackson",
+      "title": "Jacoby Brissett trade: Ravens strike deal for Cardinals QB amid injury crisis",
+      "summary": "Baltimore is expected to acquire the veteran quarterback from Arizona after injuries to Lamar Jackson, Tyler Huntley and Joe Fagnano decimated its depth chart",
+      "publishedAt": "2026-11-04T20:23:16Z",
+      "teamIds": [
+        "22",
+        "33"
+      ]
+    },
+    {
+      "id": "de34dd2a8fc1a17c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-sign-lbs-k-j-britt-joe-bachie-to-53-man-roster",
+      "title": "Lions sign LBs K.J. Britt, Joe Bachie to 53-man roster",
+      "summary": "The Lions have made a few roster moves at linebacker.",
+      "publishedAt": "2026-11-04T20:15:03Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "9525231414c44ce2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vega-ioane-set-to-play-for-ravens-thursday-night-jaylinn-hawkins-ruled-out",
+      "title": "Vega Ioane set to play for Ravens Thursday night, Jaylinn Hawkins ruled out",
+      "summary": "The Ravens are set to have right guard Vega Ioane back in the lineup on Thursday night.",
+      "publishedAt": "2026-11-04T20:13:37Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "c792b6820d436c7a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-and-jeff-hafley-agree-dolphins-now-are-like-lions-at-start-of-their-rebuild",
+      "title": "Dan Campbell and Jeff Hafley agree: Dolphins now are like Lions at start of their rebuild",
+      "summary": "In Dan Campbell's first season as the Lions' head coach, he went 3-13-1.",
+      "publishedAt": "2026-11-04T20:08:22Z",
+      "teamIds": [
+        "8",
+        "15"
+      ]
+    },
+    {
+      "id": "be2583b36b6a01ba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-finalizing-trade-for-jacoby-brissett",
+      "title": "Report: Ravens finalizing trade for Jacoby Brissett",
+      "summary": "Brissett is on his way to Baltimore after being benched by the Cardinals.",
+      "publishedAt": "2026-11-04T19:59:38Z",
+      "teamIds": [
+        "22",
+        "33"
+      ]
+    },
+    {
+      "id": "91e0720089fac246",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/eagles-joe-milton-starting-quarterback-giants-tanner-mckee",
+      "title": "Eagles to start Joe Milton at quarterback vs. Giants, replacing Tanner McKee",
+      "summary": "Milton will replace Tanner McKee and become Philadelphia's third starting quarterback of the season when the Eagles face the NFC East-leading Giants",
+      "publishedAt": "2026-11-04T19:52:44Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "bbe247c5750e9017",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/sam-darnold-out-injury-seahawks-qb-drew-lock-cardinals",
+      "title": "Sam Darnold out for Seahawks in Week 9 as Drew Lock gets another start vs. Cardinals",
+      "summary": "Darnold will sit with a quad injury, while Lock is expected to make his second start of the season despite dealing with an elbow issue.",
+      "publishedAt": "2026-11-04T19:46:41Z",
+      "teamIds": [
+        "22",
+        "26"
+      ]
+    },
     {
       "id": "7ad8a8c90a3c2375",
       "source": "espn",
@@ -1547,101 +1652,6 @@
       "teamIds": [
         "7",
         "12"
-      ]
-    },
-    {
-      "id": "87cc884096ef5026",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-jack-campbell-is-improving",
-      "title": "Dan Campbell: Jack Campbell is \"improving\"",
-      "summary": "Lions coach provides update on Jack Campbell's health following neck injury.",
-      "publishedAt": "2026-11-03T16:30:52Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "5cbbdf83a70317c3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfc-north-four-playoff-teams-looking-more-likely-than-ever",
-      "title": "Could NFC North have four playoff teams? After strong Week 8, it's looking more likely than ever",
-      "summary": "The NFC North's worst team is 5-3",
-      "publishedAt": "2026-11-03T16:26:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "Projecting the 2027 NFL draft order: Which teams could have an early pick?",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-03T16:15:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "NFL playoff picture: Updated projections, chances to make the postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-03T16:15:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "9113239f6a626c2b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-has-arrived-as-a-top-tier-quarterback",
-      "title": "Caleb Williams has arrived as a top-tier quarterback",
-      "summary": "Make room for the Bears QB in the Josh Allen, Patrick Mahomes, Joe Burrow club.",
-      "publishedAt": "2026-11-03T16:04:34Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "a745fe6793d0d5e4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/klint-kubiak-ashton-jeantys-disappearance-from-game-plan-vs-jets",
-      "title": "Klint Kubiak addresses Ashton Jeanty's disappearance from game plan vs. Jets",
-      "summary": "Jeanty had just two carries and played less than 40% of the snaps against New York",
-      "publishedAt": "2026-11-03T16:03:59Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "8a06529dcfe1e130",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-place-de-cashius-howell-on-injured-reserve",
-      "title": "Bengals place DE Cashius Howell on injured reserve",
-      "summary": "The Bengals announced that rookie defensive end Cashius Howell had wrist surgery on Monday, but head coach Zac Taylor said he didn't have a specific timeline for Howell's return to action.",
-      "publishedAt": "2026-11-03T16:00:20Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "7612140e9eded13e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-jeffery-simmons-has-fit-right-in-he-got-a-game-ball",
-      "title": "Ben Johnson: Jeffery Simmons has fit right in, he got a game ball",
-      "summary": "Fresh off last week's trade from the Titans to the Bears, defensive tackle Jeffrey Simmons had a clear impact on Monday night's win over the Seahawks.",
-      "publishedAt": "2026-11-03T15:39:09Z",
-      "teamIds": [
-        "3",
-        "26",
-        "10"
-      ]
-    },
-    {
-      "id": "0c39667d182e980b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bears-assert-super-bowl-candidacy-jeffery-simmons",
-      "title": "Bears assert Super Bowl candidacy: After Jeffery Simmons trade and 'MNF' win, NFC runs through Chicago",
-      "summary": "The Bears' blockbuster deal ahead of the NFL trade deadline reshaped the championship picture",
-      "publishedAt": "2026-11-03T15:36:12Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
