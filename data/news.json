@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T09:47:18Z",
+  "updatedAt": "2026-11-04T11:47:18Z",
   "items": [
+    {
+      "id": "9951bca164ffc869",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-young-c-j-stroud-continue-fourth-seasons-without-new-contracts",
+      "title": "Bryce Young, C.J. Stroud continue fourth seasons without new contracts",
+      "summary": "In theory, new deals could be done at any time.",
+      "publishedAt": "2026-11-04T11:17:51Z",
+      "teamIds": []
+    },
+    {
+      "id": "f1e7f588c89ec4dc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-week-9-nfl-expert-picks-jaguars-roll-over-lamar-jackson-less-ravens-cowboys-rebound",
+      "title": "Prisco's Week 9 NFL expert picks: Jaguars roll over Lamar Jackson-less Ravens, Cowboys rebound",
+      "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
+      "publishedAt": "2026-11-04T11:00:43Z",
+      "teamIds": [
+        "33",
+        "2",
+        "6",
+        "30",
+        "16"
+      ]
+    },
     {
       "id": "7d2f3271c080b1c6",
       "source": "pft",
@@ -1640,30 +1664,6 @@
       "teamIds": [
         "3",
         "26"
-      ]
-    },
-    {
-      "id": "287349b94f7b8be9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-expects-to-see-sacks-start-to-pile-up-for-jared-verse",
-      "title": "Todd Monken expects to see sacks start to \"pile up\" for Jared Verse",
-      "summary": "Browns defensive end Jared Verse made a fair amount of noise heading into Sunday's game against the Steelers, but he was mostly silent on the field in Pittsburgh.",
-      "publishedAt": "2026-11-02T23:23:59Z",
-      "teamIds": [
-        "5",
-        "23"
-      ]
-    },
-    {
-      "id": "dd7a9c8408010031",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-admits-calling-amy-adams-strunk-about-jeffery-simmons-trade",
-      "title": "John Harbaugh admits calling Amy Adams Strunk about Jeffery Simmons trade",
-      "summary": "Giants coach John Harbaugh apparently ruffled some feathers in Nashville by making a phone call to Titans owner Amy Adams Strunk in an effort to spark trade discussions for defensive tackle Jeffery Simmons.",
-      "publishedAt": "2026-11-02T23:06:32Z",
-      "teamIds": [
-        "19",
-        "10"
       ]
     }
   ]
