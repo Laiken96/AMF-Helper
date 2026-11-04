@@ -1,7 +1,82 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T21:47:20Z",
+  "updatedAt": "2026-11-04T22:40:30Z",
   "items": [
+    {
+      "id": "9618fc355377c77e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-wont-pinpoint-a-day-ill-be-back-in-the-lineup",
+      "title": "Micah Parsons won't \"pinpoint a day\" I'll be back in the lineup",
+      "summary": "Parsons practiced with the team on Wednesday for the first time since tearing his ACL.",
+      "publishedAt": "2026-11-04T22:38:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "a5f70917dfc4fca0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kellen-moore-confirms-charlie-smyth-will-kick-for-the-saints-this-week",
+      "title": "Kellen Moore confirms Charlie Smyth will kick for the Saints this week",
+      "summary": "The Saints released veteran kicker Daniel Carlson on Tuesday.",
+      "publishedAt": "2026-11-04T22:29:14Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "30a09b72c3fab012",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-pistons-76ers-nba-college-football-on-wednesday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Pistons-76ers, NBA, college football on Wednesday",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, NFL betting on Wednesday",
+      "publishedAt": "2026-11-04T22:18:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "2e9842cb01185e17",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylen-watson-to-undergo-season-ending-shoulder-surgery",
+      "title": "Jaylen Watson to undergo season-ending shoulder surgery",
+      "summary": "The Rams will not have one of their starting cornerbacks for the rest of the year.",
+      "publishedAt": "2026-11-04T22:06:08Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "3f1ba57b108ff403",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-predictions-best-bets-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-04T22:05:32Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "5d0dfc249bd6407b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-bailey-breece-hall-listed-as-limited-in-jets-practice",
+      "title": "David Bailey, Breece Hall listed as limited in Jets practice",
+      "summary": "The Jets played without rookie linebacker David Bailey in Week 8 after he missed practice all week with a groin injury, but Week 9's practice schedule got off to a better start.",
+      "publishedAt": "2026-11-04T21:55:23Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "2e88d5f3bb40b044",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-misses-practice-due-to-a-hamstring-injury",
+      "title": "Cam Skattebo misses practice due to a hamstring injury",
+      "summary": "Giants running back Cam Skattebo said he felt something in his hamstring near the end of the team's Week 7 win over the Texans and it's still an issue coming out of the team's bye week.",
+      "publishedAt": "2026-11-04T21:46:05Z",
+      "teamIds": [
+        "34",
+        "19"
+      ]
+    },
     {
       "id": "3652d53e3b4b0b33",
       "source": "pft",
@@ -45,6 +120,17 @@
       "publishedAt": "2026-11-04T21:31:24Z",
       "teamIds": [
         "25"
+      ]
+    },
+    {
+      "id": "50370801dcefe05d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/matthew-staffords-wife-calls-out-nfl-rams-thanksgiving-eve",
+      "title": "Matthew Stafford's wife calls out NFL over apparent scheduling disadvantage given to Rams",
+      "summary": "Los Angeles will play in the NFL's first-ever Thanksgiving Eve game, which doesn't give the Rams a true bye week",
+      "publishedAt": "2026-11-04T21:27:54Z",
+      "teamIds": [
+        "14"
       ]
     },
     {
@@ -110,6 +196,17 @@
       "publishedAt": "2026-11-04T20:53:47Z",
       "teamIds": [
         "33"
+      ]
+    },
+    {
+      "id": "e02bf6ac5dc2b853",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jacoby Brissett heads to Baltimore",
+      "summary": "Track every completed deal before the Nov. 10 deadline, including Chicago's blockbuster addition of Jeffery Simmons and the Colts' trades of Quenton Nelson and DeForest Buckner",
+      "publishedAt": "2026-11-04T20:49:09Z",
+      "teamIds": [
+        "11"
       ]
     },
     {
@@ -1558,103 +1655,6 @@
       "summary": "There were eight trades on deadline day in 2025, a long way from the zero we saw in 2015. We asked execs and agents what set off this big trade deadline boom.",
       "publishedAt": "2026-11-03T19:11:19Z",
       "teamIds": []
-    },
-    {
-      "id": "e643d2a883305563",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-designate-ol-brady-christensen-for-return-from-ir",
-      "title": "Panthers designate OL Brady Christensen for return from IR",
-      "summary": "Veteran offensive lineman Brady Christensen will be back at Panthers practice this week.",
-      "publishedAt": "2026-11-03T19:04:18Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "5eb10695757513be",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jeremiyah-love-headed-to-ir-with-high-ankle-sprain",
-      "title": "Report: Jeremiyah Love headed to IR with high-ankle sprain",
-      "summary": "Arizona will be without one of its top offensive players for at least the next four weeks.",
-      "publishedAt": "2026-11-03T19:03:20Z",
-      "teamIds": []
-    },
-    {
-      "id": "5674cbd5035c44ed",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-coordinator-rankings-midseason-packers-jonathan-gannon-steelers",
-      "title": "Ranking NFL's best new coordinators: Packers, Steelers assistants lead top 10 at midseason",
-      "summary": "These 10 coordinators inherited difficult circumstances, adapted to significant injuries and delivered immediate results in their new homes",
-      "publishedAt": "2026-11-03T18:55:07Z",
-      "teamIds": [
-        "9",
-        "23"
-      ]
-    },
-    {
-      "id": "18fd51cc2babed61",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-claims-incorrectly-that-theres-no-correlation-between-coaching-pay-and-winning",
-      "title": "Jerry Jones claims (incorrectly) that there's \"no correlation\" between coaching pay and winning",
-      "summary": "Jerry prefers to hire a cheap, unproven coach — and to hope he strikes gold.",
-      "publishedAt": "2026-11-03T18:49:39Z",
-      "teamIds": []
-    },
-    {
-      "id": "7ad81f736041b1e1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-no-trade-clause-joe-burrow-patrick-mahomes",
-      "title": "2026 NFL trade deadline: 12 players with no-trade clauses, including Joe Burrow, Patrick Mahomes",
-      "summary": "Joe Burrow, Patrick Mahomes and 10 other prominent players would have to approve any trade before the Nov. 10 deadline, but one quarterback may have reason to listen",
-      "publishedAt": "2026-11-03T18:46:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "3f1bb638b6272a0a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50360444/cj-stroud-texans-contract",
-      "title": "Inside C.J. Stroud's high-stakes decision not to sign a contract extension -- and what's next",
-      "summary": "Sources say C.J. Stroud turned down a deal similar to Trevor Lawrence's. He's in line for a bigger one.",
-      "publishedAt": "2026-11-03T18:36:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "ee8dc7d4431f06ec",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mark-davis-absolutely-no-pressure-whatsoever-from-me-to-start-fernando-mendoza",
-      "title": "Mark Davis: \"Absolutely no pressure whatsoever\" from me to start Fernando Mendoza",
-      "summary": "The Raiders have gotten good play out of quarterback Kirk Cousins through the first eight games of the season, with the team sitting at 4-4 after Sunday’s victory over the Jets.",
-      "publishedAt": "2026-11-03T18:32:56Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "2c896bfa1ffb49ba",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
-      "title": "Questions, takeaways from Sunday's games: What now for Chiefs, Ravens, Commanders?",
-      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of Sunday's games.",
-      "publishedAt": "2026-11-03T18:18:43Z",
-      "teamIds": [
-        "33",
-        "12",
-        "28"
-      ]
-    },
-    {
-      "id": "946fb5ad12e7ff87",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50349483/week-8-barnwell-lamar-bengals-cowboys-buccaneers-chiefs",
-      "title": "Lamar Jackson out again? Zero completions for Baker Mayfield? Let's make sense of a weird Week 8",
-      "summary": "Jackson's return lasted one snap, the Cardinals upset the Cowboys with their QB2 and RB2, and the Buccaneers won by 16 despite 0 passing yards.",
-      "publishedAt": "2026-11-03T18:18:43Z",
-      "teamIds": [
-        "22",
-        "6",
-        "27"
-      ]
     }
   ]
 }
