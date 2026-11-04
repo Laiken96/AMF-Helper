@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T03:47:22Z",
+  "updatedAt": "2026-11-04T04:47:19Z",
   "items": [
+    {
+      "id": "93dab8a230709bc5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-season-could-highlight-the-unfairness-of-the-eight-division-structure",
+      "title": "2026 season could highlight the unfairness of the eight-division structure",
+      "summary": "It's time to consider ditching the two-conference, eight-division approach.",
+      "publishedAt": "2026-11-04T03:46:58Z",
+      "teamIds": []
+    },
     {
       "id": "00fc0555c220fe1f",
       "source": "pft",
@@ -1655,17 +1664,6 @@
       "teamIds": [
         "22",
         "6"
-      ]
-    },
-    {
-      "id": "c6c1d3d3a439ed02",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-to-sign-qb-cam-miller-to-practice-squad",
-      "title": "Packers to sign QB Cam Miller to practice squad",
-      "summary": "The Packers are signing free agent quarterback Cam Miller to the practice squad, Jeremy Fowler of ESPN reports.",
-      "publishedAt": "2026-11-02T22:43:02Z",
-      "teamIds": [
-        "9"
       ]
     }
   ]
