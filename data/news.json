@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T00:41:03Z",
+  "updatedAt": "2026-11-04T01:47:32Z",
   "items": [
+    {
+      "id": "796658f6fe6eea3c",
+      "source": "espn",
+      "url": "https://espn.com/college-football/story/_/id/50373951/russell-wilson-interviews-nc-state-head-coaching-job",
+      "title": "Sources: Ex-QB Wilson interviews with NC State, joins Rivers as HC candidate",
+      "summary": "Russell Wilson interviewed for the head coaching job at NC State on Tuesday, joining Philip Rivers as prominent candidates, sources told ESPN.",
+      "publishedAt": "2026-11-04T01:42:25Z",
+      "teamIds": []
+    },
+    {
+      "id": "a62de1045e2209ab",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-reverse-course-on-high-maintenance-c-j-gardner-johnson",
+      "title": "Bills reverse course on \"high-maintenance\" C.J. Gardner-Johnson",
+      "summary": "The Bills said they'd be keeping safety C.J.",
+      "publishedAt": "2026-11-04T01:40:06Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "be7de3701b2b2bc9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-russell-wilson-interviews-for-nc-state-head-coaching-job",
+      "title": "Report: Russell Wilson interviews for NC State head-coaching job",
+      "summary": "\"Let Russ coach.\"",
+      "publishedAt": "2026-11-04T00:55:40Z",
+      "teamIds": []
+    },
     {
       "id": "372898f5bd2a30a3",
       "source": "pft",
@@ -1637,41 +1666,6 @@
       "publishedAt": "2026-11-02T22:28:26Z",
       "teamIds": [
         "17"
-      ]
-    },
-    {
-      "id": "72d703da81d0c932",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-name-gardner-minshew-carson-beck-no-2-jacoby-brissett",
-      "title": "Cardinals name Gardner Minshew as starter, Carson Beck No. 2: What's next for Jacoby Brissett?",
-      "summary": "Brissett has been demoted to third string after Arizona's comeback win against the Cowboys",
-      "publishedAt": "2026-11-02T22:27:10Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "74632b6bb2b3391a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-garrett-will-practice-this-week",
-      "title": "Myles Garrett will practice this week",
-      "summary": "The Rams will make a decision on his Week 9 status later in the week.",
-      "publishedAt": "2026-11-02T22:27:05Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "f917f18108a448ed",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-nfl-caleb-williams-shoe-dispute-takes-center-stage-on-monday-night",
-      "title": "The NFL, Caleb Williams shoe dispute takes center stage on Monday night",
-      "summary": "Monday night's game between the Bears and Seahawks in Seattle comes with a subplot.",
-      "publishedAt": "2026-11-02T22:23:00Z",
-      "teamIds": [
-        "3",
-        "26"
       ]
     }
   ]
