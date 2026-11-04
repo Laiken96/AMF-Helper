@@ -1,7 +1,117 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T20:47:24Z",
+  "updatedAt": "2026-11-04T21:47:20Z",
   "items": [
+    {
+      "id": "3652d53e3b4b0b33",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-claim-ol-trevor-keegan-off-waivers",
+      "title": "Buccaneers claim OL Trevor Keegan off waivers",
+      "summary": "The Buccaneers are adding some depth to their offensive line.",
+      "publishedAt": "2026-11-04T21:40:40Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "53fa99d05dad04b4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-rg-isaiah-adams-returns-to-practice",
+      "title": "Cardinals RG Isaiah Adams returns to practice",
+      "summary": "The Cardinals designated right guard Isaiah Adams to return from injured reserve, the team announced Wednesday.",
+      "publishedAt": "2026-11-04T21:39:08Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "570b1c056ec5ea46",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-put-dl-kentavius-street-on-injured-reserve",
+      "title": "Bears put DL Kentavius Street on injured reserve",
+      "summary": "The Bears saw defensive lineman Kentavius Street leave Monday night's win over the Seahawks with a knee injury and it is going to keep him out for an extended period of time.",
+      "publishedAt": "2026-11-04T21:37:35Z",
+      "teamIds": [
+        "3",
+        "26"
+      ]
+    },
+    {
+      "id": "2a8b5256618164e3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-nothings-changed-for-me-with-brandon-aiyuk-ive-moved-on-mentally",
+      "title": "Kyle Shanahan: Nothing's changed for me with Brandon Aiyuk, I've moved on mentally",
+      "summary": "When 49ers head coach Kyle Shanahan was asked in September if the team's injury issues at wide receiver had led him to consider bringing Brandon Aiyuk back, his answer was a strong no.",
+      "publishedAt": "2026-11-04T21:31:24Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "06c41eb37854fad6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dianna-russini-gets-out-the-word-that-shes-coming-back-to-work-next-week",
+      "title": "Dianna Russini gets out the word that she's coming back to work next week",
+      "summary": "The halfway point of the 2026 NFL season arrives this weekend.",
+      "publishedAt": "2026-11-04T21:21:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "6b16c9aa22cacad3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-deshaun-watson-not-ruled-out-yet-but-shedeur-sanders-preparing-to-start",
+      "title": "Todd Monken: Deshaun Watson not ruled out yet, but Shedeur Sanders preparing to start",
+      "summary": "Browns quarterback Deshaun Watson is in the concussion protocol after self-reporting symptoms on Tuesday.",
+      "publishedAt": "2026-11-04T21:13:22Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "cfbcf0364b8f4c92",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/d-j-reed-dj-wonnum-out-of-practice-for-lions-wednesday",
+      "title": "D.J. Reed, DJ Wonnum out of practice for Lions Wednesday",
+      "summary": "The Lions were obviously without linebacker Jack Campbell at practice on Wednesday and two other key defensive players were also on the sideline as the team worked to get ready to face the Dolphins.",
+      "publishedAt": "2026-11-04T21:11:51Z",
+      "teamIds": [
+        "8",
+        "15"
+      ]
+    },
+    {
+      "id": "a7dfd02cefb5fac3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-rb-david-montgomery-wont-return-this-week",
+      "title": "Texans RB David Montgomery won't return this week",
+      "summary": "Texans coach DeMeco Ryans called David Montgomery \"week-to-week\" as the running back seeks to return from a groin injury.",
+      "publishedAt": "2026-11-04T20:59:34Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "ee4316078f6d5aff",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/predicting-the-full-14-team-nfl-playoff-bracket-week-9-bears",
+      "title": "Predicting the full 14-team NFL playoff bracket entering Week 9: Bears make Super Bowl run",
+      "summary": "Are the Bears the best team in the NFC? Our latest playoff projection answers that question",
+      "publishedAt": "2026-11-04T20:55:10Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "04484f005574e3be",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/agents-take-whats-next-lamar-jackson-ravens-contract",
+      "title": "Agent's Take: What's next between Lamar Jackson, Ravens after yet another injury",
+      "summary": "Jackson's contract with the Ravens expires after the 2027 season, but can he and Baltimore reach an agreement before then? What happens if they can't?",
+      "publishedAt": "2026-11-04T20:53:47Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "e597da1a455eb9fc",
       "source": "pft",
@@ -1544,114 +1654,6 @@
         "22",
         "6",
         "27"
-      ]
-    },
-    {
-      "id": "28747fe37d1e7d3a",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
-      "title": "NFL awards: Caleb Williams reenters MVP conversation",
-      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
-      "publishedAt": "2026-11-03T18:16:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "bfdf2525abe547b7",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-      "title": "Bears tied for third-best Super Bowl odds after statement win",
-      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-      "publishedAt": "2026-11-03T18:16:30Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "2913f50f63d36334",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-christmas-day-schedule-is-shaping-up-to-be-massive",
-      "title": "The Christmas Day schedule is shaping up to be massive",
-      "summary": "When the schedule is released every May, plenty of standalone games that look good at the time morph into something not quite as appetizing as the season unfolds.",
-      "publishedAt": "2026-11-03T17:52:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "b3bc986c0b9d9fc0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-chris-jones-is-giving-his-all-doing-everything-he-can-do",
-      "title": "Andy Reid: Chris Jones is giving his all, doing everything he can do",
-      "summary": "The Chiefs have lost their last two games.",
-      "publishedAt": "2026-11-03T17:51:17Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "e02bf6ac5dc2b853",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Bears land Jeffery Simmons, Colts enter rebuild",
-      "summary": "Track every completed deal before the Nov. 10 deadline, including Chicago's blockbuster addition of Jeffery Simmons and the Colts' trades of Quenton Nelson and DeForest Buckner",
-      "publishedAt": "2026-11-03T17:37:09Z",
-      "teamIds": [
-        "3",
-        "11"
-      ]
-    },
-    {
-      "id": "4a7fc84bdaaf6283",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-jerry-jones-wants-george-pickens-to-be-more-involved",
-      "title": "Cowboys' Jerry Jones has blunt response on George Pickens' useage: 'He needs the ball coming his way more'",
-      "summary": "Pickens is coming off his lowest snap count since being traded to Dallas",
-      "publishedAt": "2026-11-03T17:24:25Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "bc9c6491c357f686",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jerry-jones-coaching-salaries-cowboys-playoff-drought",
-      "title": "Jerry Jones' coaching philosophy explains why Cowboys can't end playoff drought",
-      "summary": "The Cowboys owner insists coaching investment has no correlation with winning",
-      "publishedAt": "2026-11-03T16:52:14Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "6daff3abbe6dfba7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-i-know-carson-beck-is-prepared-to-go-in-if-need-be",
-      "title": "Mike LaFleur: I know Carson Beck is prepared to go in if need be",
-      "summary": "Cardinals rookie quarterback Carson Beck has earned a promotion.",
-      "publishedAt": "2026-11-03T16:48:11Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "d3cdfa30332cc248",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-credits-mike-kafka-for-big-play-to-amon-ra-st-brown",
-      "title": "Dan Campbell credits Mike Kafka for big play to Amon-Ra St. Brown",
-      "summary": "The Lions ran what may have been the most inventive play of the week in the NFL when wide receiver Amon-Ra St.",
-      "publishedAt": "2026-11-03T16:47:00Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "a63233116370ce3c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-overtake-chiefs-as-favorites-in-afc-west",
-      "title": "Broncos overtake Chiefs as favorites in AFC West",
-      "summary": "There's a new favorite to win the AFC West.",
-      "publishedAt": "2026-11-03T16:31:38Z",
-      "teamIds": [
-        "7",
-        "12"
       ]
     }
   ]
