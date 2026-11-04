@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T16:24:48Z",
+  "updatedAt": "2026-11-04T16:47:24Z",
   "items": [
+    {
+      "id": "12e7942f9da0d345",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jordyn-tyson-will-return-to-practice-on-wednesday",
+      "title": "Report: Jordyn Tyson will return to practice on Wednesday",
+      "summary": "There is some positive news on the injury front for the Saints as they return from their bye week.",
+      "publishedAt": "2026-11-04T16:34:32Z",
+      "teamIds": [
+        "18"
+      ]
+    },
     {
       "id": "b53bc3a5280f381d",
       "source": "pft",
@@ -1641,18 +1652,6 @@
       "publishedAt": "2026-11-03T00:58:31Z",
       "teamIds": [
         "21"
-      ]
-    },
-    {
-      "id": "1d574f1ee6156595",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50362530/ravens-qb-joe-fagnano-ankle-chance-play-thursday",
-      "title": "Ravens QB Fagnano (ankle) also hurting but has 'chance' to play vs. Jaguars",
-      "summary": "Ravens quarterback Joe Fagnano is dealing with an ankle injury but has \"a chance\" to play Thursday night, coach Jesse Minter said.",
-      "publishedAt": "2026-11-03T00:58:31Z",
-      "teamIds": [
-        "33",
-        "30"
       ]
     }
   ]
