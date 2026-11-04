@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-05T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-04T19:01:10Z",
+    "takenAt": "2026-11-04T19:20:33Z",
     "games": [
       {
         "gameId": "401873037",
@@ -882,6 +882,17 @@
               "passing"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "3924327",
+            "name": "Drew Lock",
+            "pos": "QB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           },
           {
             "athleteId": "4430878",
