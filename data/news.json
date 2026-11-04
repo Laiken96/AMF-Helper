@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T01:47:32Z",
+  "updatedAt": "2026-11-04T02:47:18Z",
   "items": [
+    {
+      "id": "cb24464ae3244472",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-needs-to-display-more-or-any-contrition",
+      "title": "Josh Jacobs needs to display more (or any) contrition",
+      "summary": "In May 2026, Packers running back Josh Jacobs crossed a line that should never be crossed.",
+      "publishedAt": "2026-11-04T02:19:41Z",
+      "teamIds": [
+        "9"
+      ]
+    },
     {
       "id": "796658f6fe6eea3c",
       "source": "espn",
@@ -1655,17 +1666,6 @@
       "teamIds": [
         "8",
         "16"
-      ]
-    },
-    {
-      "id": "1f3e83fb206f865b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-waive-s-elliott-davison",
-      "title": "Patriots waive S Elliott Davison",
-      "summary": "The Patriots waived safety Elliott Davison, the team announced Monday.",
-      "publishedAt": "2026-11-02T22:28:26Z",
-      "teamIds": [
-        "17"
       ]
     }
   ]
