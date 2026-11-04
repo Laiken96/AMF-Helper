@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T13:47:19Z",
+  "updatedAt": "2026-11-04T14:47:18Z",
   "items": [
+    {
+      "id": "cca14bc1bfea491d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/peyton-manning-greg-olsen-emerge-as-the-potential-troy-aikman-replacement",
+      "title": "Peyton Manning, Greg Olsen emerge as the potential Troy Aikman replacement",
+      "summary": "As the clock continues to tick toward a potential, if not inevitable, breakup between ESPN and Troy Aikman, a replacement will be needed on Monday Night Football if/when Aikman leaves.",
+      "publishedAt": "2026-11-04T14:24:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "4506943b622e4947",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bob-heinz-member-of-undefeated-1972-dolphins-no-name-defense-dies-at-79",
+      "title": "Bob Heinz, member of undefeated 1972 Dolphins' \"No-Name Defense,\" dies at 79",
+      "summary": "Bob Heinz, a member of the undefeated 1972 Miami Dolphins' \"No-Name Defense\" and winner of two Super Bowl rings, has died at the age of 79.",
+      "publishedAt": "2026-11-04T14:23:43Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "851c92dfc3fab414",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-files-for-reinstatement-from-49ers-reserve-left-squad-list",
+      "title": "Brandon Aiyuk files for reinstatement from 49ers' reserve/left squad list",
+      "summary": "Wide receiver Brandon Aiyuk has taken a significant step toward getting back on the field.",
+      "publishedAt": "2026-11-04T14:19:14Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "69e03dc6828b3ee0",
       "source": "pft",
@@ -1619,42 +1650,6 @@
       "title": "Use FanDuel promo code to get $200 in bonus bets by targeting Seahawks vs. Bears, NFL Monday Night Football",
       "summary": "Sign up and bet with the latest FanDuel promo code to wager on Monday to get your bonus bets",
       "publishedAt": "2026-11-03T00:06:26Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "6b8ab45ef0e090f7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-zach-charbonnet-jadarian-price-are-active-for-seahawks-vs-bears",
-      "title": "Monday Night Football: Zach Charbonnet, Jadarian Price are active for Seahawks vs. Bears",
-      "summary": "The Seahawks will officially have running backs Zach Charbonnet and Jadarian Price for Monday Night Football.",
-      "publishedAt": "2026-11-03T00:05:22Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "1f737009fb6bb311",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-seahawks-bears-monday-night-football",
-      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass for Seahawks-Bears, Monday Night Football",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Seahawks vs. Bears on Monday Night Football",
-      "publishedAt": "2026-11-03T00:03:49Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "b12c12d398923088",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bears-vs-seahawks-odds-picks-player-props-experts-best-bets-for-monday-night-football-in-nfl-week-8",
-      "title": "Bears vs. Seahawks odds, picks, player props: Expert's best bets for Monday Night Football in NFL Week 8",
-      "summary": "Take the points with the underdog in a projected prime-time shootout, plus target high-volume value on Jaxson Smith-Njigba and plus-money tight end props",
-      "publishedAt": "2026-11-03T00:01:21Z",
       "teamIds": [
         "3",
         "26"
