@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T12:47:18Z",
+  "updatedAt": "2026-11-04T13:47:19Z",
   "items": [
+    {
+      "id": "69e03dc6828b3ee0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-wr-mack-hollins-is-expected-to-practice-on-wednesday",
+      "title": "Patriots WR Mack Hollins is expected to practice on Wednesday",
+      "summary": "The Patriots are set to get one of their top wideouts back at practice on Wednesday.",
+      "publishedAt": "2026-11-04T13:15:09Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "6936c5fbe63905a7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-qb-power-rankings-josh-allen-cam-ward",
+      "title": "Week 9 QB Power Rankings: Familiar name returns to No. 1, Cam Ward crawls out of basement",
+      "summary": "Josh Allen returns to the top spot, Joe Burrow climbs into the top five and Patrick Mahomes moves up once again",
+      "publishedAt": "2026-11-04T13:14:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "e6317713df47950d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-dt-javon-kinlaw-had-mcl-surgery-is-expected-to-miss-rest-of-season",
+      "title": "Commanders DT Javon Kinlaw had MCL surgery, is expected to miss rest of season",
+      "summary": "Commanders defensive tackle Javon Kinlaw's season is reportedly over.",
+      "publishedAt": "2026-11-04T12:53:58Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "253f315ef16638b2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tyler-huntley-to-miss-the-rest-of-2026-season",
+      "title": "Report: Tyler Huntley to miss the rest of 2026 season",
+      "summary": "Huntley injured his toe in last Sunday's loss to the Bills.",
+      "publishedAt": "2026-11-04T12:48:10Z",
+      "teamIds": [
+        "2"
+      ]
+    },
     {
       "id": "97f45e9391ddecf0",
       "source": "pft",
@@ -1616,54 +1658,6 @@
       "teamIds": [
         "3",
         "26"
-      ]
-    },
-    {
-      "id": "de62484dabd31a49",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bears-vs-seahawks-odds-betting-preview-prediction-start-time-monday-night-football-picks-best-bets",
-      "title": "Bears vs. Seahawks odds, betting preview, prediction, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Bears vs. Seahawks on Monday Night Football",
-      "publishedAt": "2026-11-02T23:47:23Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "e50197dea90348bf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-dbs-caleb-downs-p-j-locke-in-concussion-protocol",
-      "title": "Cowboys DBs Caleb Downs, P.J. Locke in concussion protocol",
-      "summary": "The Cowboys had injury to go with the insult of Sunday's 33-30 meltdown overtime loss to the Cardinals.",
-      "publishedAt": "2026-11-02T23:45:29Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "10f8507f23518fd4",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-8-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-bears-seahawks",
-      "title": "Week 8 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Bears-Seahawks",
-      "summary": "Top Week 8 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-02T23:44:24Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "9f25e1fa10faabcd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-qb-joe-fagnano-fighting-through-a-couple-things-has-a-chance-to-play-thursday",
-      "title": "Ravens QB Joe Fagnano \"fighting through a couple things,\" has \"a chance\" to play Thursday",
-      "summary": "The Ravens are short on healthy quarterbacks with Thursday's game against the Jaguars on the horizon.",
-      "publishedAt": "2026-11-02T23:42:18Z",
-      "teamIds": [
-        "33",
-        "30"
       ]
     }
   ]
