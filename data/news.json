@@ -1,7 +1,129 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T22:47:19Z",
+  "updatedAt": "2026-11-05T23:47:19Z",
   "items": [
+    {
+      "id": "5b7272e34e175e8d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-lynch-on-brandon-aiyuk-well-look-for-a-path-that-works-for-both-sides",
+      "title": "John Lynch on Brandon Aiyuk: We'll look for a path that works for both sides",
+      "summary": "Brandon Aiyuk filed for reinstatement from the 49ers' left squad list this week and he's expected to be at the team's facility on Friday to take the next step in resuming his football career.",
+      "publishedAt": "2026-11-05T23:33:15Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "f6ea7f100eeaf830",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-for-thursday-night-football-nfl-week-9",
+      "title": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 9",
+      "summary": "We highlight some first touchdown scorer prediction markets at Kalshi for Jaguars vs. Ravens on Thursday Night Football",
+      "publishedAt": "2026-11-05T23:21:33Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "2bf01ecc8c24294a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-chargers-offense-struggles-mike-mcdaniel-will-move-from-the-sideline-to-the-booth",
+      "title": "As Chargers' offense struggles, Mike McDaniel will move from the sideline to the booth",
+      "summary": "Chargers offensive coordinator Mike McDaniel will get a different perspective on his struggling offense on Sunday against the Texans.",
+      "publishedAt": "2026-11-05T23:19:37Z",
+      "teamIds": [
+        "34",
+        "24"
+      ]
+    },
+    {
+      "id": "d20c1d6dcd058441",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-ravens-jaguars",
+      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Ravens vs. Jaguars",
+      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-05T23:17:25Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "cb24e35d9e38e317",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/back-surgery-will-keep-robert-kraft-from-rob-gronkowskis-patriots-hall-of-fame-induction",
+      "title": "Back surgery will keep Robert Kraft from Rob Gronkowski's Patriots Hall of Fame induction",
+      "summary": "Patriots owner Robert Kraft recently underwent back surgery, which will keep him sidelined on \"injured reserve\" and force him to miss Rob Gronkowski's induction into the Patriots Hall of Fame on Saturday.",
+      "publishedAt": "2026-11-05T23:16:37Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "e0b3ccd7a6ded43a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/breece-hall-up-to-full-practice-thursday-says-hes-ready-to-play-this-week",
+      "title": "Breece Hall up to full practice Thursday, says he's ready to play this week",
+      "summary": "It looks like running back Breece Hall will be back in the Jets lineup this week.",
+      "publishedAt": "2026-11-05T23:09:40Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "5a7f6660f4ecf3bd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-re-sign-wr-cody-white-waive-te-carter-runyon",
+      "title": "Raiders re-sign WR Cody White, waive TE Carter Runyon",
+      "summary": "The Raiders released wide receiver Cody White on Wednesday, but his absence from the team was a short one.",
+      "publishedAt": "2026-11-05T22:57:06Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "9b59d455dcd98017",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-returned-to-practice-as-limited-participant",
+      "title": "Christian McCaffrey returned to practice as limited participant",
+      "summary": "Christian McCaffrey returned to practice Thursday as a limited participant.",
+      "publishedAt": "2026-11-05T22:56:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "b362ad36fb90ab64",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashee-rice-files-for-bankruptcy-citing-more-than-3-45-million-in-debt",
+      "title": "Rashee Rice files for bankruptcy, citing more than $3.45 million in debt",
+      "summary": "Chiefs receiver Rashee Rice is in the final year of his four-year, $6.45 million rookie contract.",
+      "publishedAt": "2026-11-05T22:55:33Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "ba43a96cc2f3c69b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/george-pickens-trade-rumors-cowboys-nfl-deadline",
+      "title": "Cowboys stars reject George Pickens trade talk ahead of NFL deadline",
+      "summary": "As speculation builds about Pickens' future in Dallas, Prescott praised him as a teammate and Lamb explained how the receiver changes opposing defenses",
+      "publishedAt": "2026-11-05T22:52:14Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "d43743bbe312c393",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/talanoa-hufanga-returns-to-broncos-practice",
+      "title": "Talanoa Hufanga returns to Broncos practice",
+      "summary": "The Broncos got a starting safety back on the practice field Thursday.",
+      "publishedAt": "2026-11-05T22:49:02Z",
+      "teamIds": [
+        "7"
+      ]
+    },
     {
       "id": "16a6457ae28472a2",
       "source": "pft",
@@ -1556,131 +1678,6 @@
       "publishedAt": "2026-11-04T17:58:16Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "d50d4a6b73186e93",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-facts-contradict-jerry-joness-belief-regarding-coaching-pay-and-wins",
-      "title": "The facts contradict Jerry Jones's beliefs regarding coaching pay and wins",
-      "summary": "The five highest-paid coaches are all proven winners.",
-      "publishedAt": "2026-11-04T17:51:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "1966fd884523ac79",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-campbell-i-have-full-movement-in-my-lower-body-and-am-making-progress-with-movement-in-my-upper-body",
-      "title": "Jack Campbell: I have full movement in my lower body, and am making progress with movement in my upper body",
-      "summary": "The Lions released a statement from Campbell on Wednesday providing an update on his condition after he suffered a significant neck injury on Sunday.",
-      "publishedAt": "2026-11-04T17:42:07Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "5e212bb1c15d0921",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/garrett-wilson-is-in-the-concussion-protocol",
-      "title": "Garrett Wilson is in the concussion protocol",
-      "summary": "The Jets may be without wide receiver Garrett Wilson in Kansas City this weekend.",
-      "publishedAt": "2026-11-04T17:23:59Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "fa5a5fe7257a3dd8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-fox-wins-nfc-special-teams-player-of-the-week",
-      "title": "Jack Fox wins NFC special teams player of the week",
-      "summary": "The Lions handed the Vikings their first loss of the season on Sunday.",
-      "publishedAt": "2026-11-04T17:23:26Z",
-      "teamIds": [
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "40bf96b48cbfac46",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-trade-candidates-quarterback-injuries-lamar-jackson",
-      "title": "Ravens trade candidates: Three quarterbacks Baltimore should consider amid injury crisis",
-      "summary": "With Lamar Jackson sidelined and Tyler Huntley out for the year, Baltimore could look to Jacoby Brissett or Anthony Richardson before the trade deadline to keep its 4-4 season alive",
-      "publishedAt": "2026-11-04T17:21:19Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "cc4d24f511201b7c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-rb-dylan-laube-named-the-afc-special-teams-player-of-the-week",
-      "title": "Raiders RB Dylan Laube named the AFC special teams player of the week",
-      "summary": "There were no kickoff returns for touchdowns in the first seven weeks of the 2026 season, but that streak came to an end in the second quarter of the Week 8 game between the Raiders and Jets at MetLife Stadium.",
-      "publishedAt": "2026-11-04T17:16:23Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "47bd8e5874a77ba0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/alex-anzalone-earns-first-nfc-defensive-player-of-the-week-award",
-      "title": "Alex Anzalone earns first NFC defensive player of the week award",
-      "summary": "The Buccaneers beat the Falcons without completing a pass on Sunday.",
-      "publishedAt": "2026-11-04T17:11:08Z",
-      "teamIds": [
-        "1",
-        "27"
-      ]
-    },
-    {
-      "id": "b785c79ebf4957da",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-s-rayuan-lane-is-the-afc-defensive-player-of-the-week",
-      "title": "Jaguars S Rayuan Lane is the AFC defensive player of the week",
-      "summary": "The Jaguars had to turn to backup safeties due to injuries in last Sunday's game against the Colts and one of them came up with a huge play at the end of the first half.",
-      "publishedAt": "2026-11-04T17:10:02Z",
-      "teamIds": [
-        "11",
-        "30"
-      ]
-    },
-    {
-      "id": "39acbac6ab4de24f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jadeveon-clowney-mock-trades-cowboys-texans-nfl-trade-deadline",
-      "title": "Jadeveon Clowney mock trades: Cowboys reunion headlines four deals Texans can make before NFL trade deadline",
-      "summary": "Clowney's name has surfaced in trade discussions this week",
-      "publishedAt": "2026-11-04T17:05:35Z",
-      "teamIds": [
-        "6",
-        "34"
-      ]
-    },
-    {
-      "id": "a8f46df36d4aa5df",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-allgeier-wins-first-nfc-offensive-player-of-the-week-award",
-      "title": "Tyler Allgeier wins first NFC offensive player of the week award",
-      "summary": "The Cardinals had injury concerns at running back during Sunday's comeback victory over the Cowboys.",
-      "publishedAt": "2026-11-04T17:05:21Z",
-      "teamIds": [
-        "22",
-        "6"
-      ]
-    },
-    {
-      "id": "f1f8fa1819382bc1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-named-the-afc-offensive-player-of-the-week",
-      "title": "Tee Higgins named the AFC offensive player of the week",
-      "summary": "A pair of Bengals wide receivers had big games in Week 8, but only one of them could be named the AFC offensive player of the week.",
-      "publishedAt": "2026-11-04T17:04:39Z",
-      "teamIds": [
-        "4"
       ]
     }
   ]
