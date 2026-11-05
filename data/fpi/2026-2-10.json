@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-04T20:30:52Z",
+  "updatedAt": "2026-11-05T07:30:51Z",
   "games": [
     {
       "gameId": "401873052",
@@ -40,9 +40,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "18",
       "awayId": "29",
-      "pHome": 0.507,
-      "pAway": 0.489,
-      "fetchedAt": "2026-11-04T07:30:58Z",
+      "pHome": 0.51,
+      "pAway": 0.486,
+      "fetchedAt": "2026-11-05T07:30:51Z",
       "locked": false
     },
     {
