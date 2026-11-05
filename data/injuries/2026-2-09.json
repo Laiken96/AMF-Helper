@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T19:01:09Z",
+    "takenAt": "2026-11-05T21:10:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1169,7 +1169,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4035671",
@@ -1180,7 +1180,7 @@
             "roles": [
               "qb"
             ],
-            "status": "Out"
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4429615",
@@ -2268,6 +2268,26 @@
     ]
   },
   "changes": [
+    {
+      "gameId": "401873037",
+      "athleteId": "3916387",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
+    },
+    {
+      "gameId": "401873037",
+      "athleteId": "4035671",
+      "name": "Tyler Huntley",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "wechsel",
+      "from": "Out",
+      "to": "Injured Reserve"
+    },
     {
       "gameId": "401873044",
       "athleteId": "4595348",
