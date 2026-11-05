@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T21:50:31Z",
+    "takenAt": "2026-11-05T22:20:32Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2227,7 +2227,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "3042519",
@@ -2364,6 +2364,16 @@
       "name": "MarShawn Lloyd",
       "pos": "RB",
       "teamAbbr": "GB",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873051",
+      "athleteId": "4385690",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "teamAbbr": "BUF",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
