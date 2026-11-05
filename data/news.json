@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T00:47:17Z",
+  "updatedAt": "2026-11-05T01:47:20Z",
   "items": [
+    {
+      "id": "620f66bea140de0e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-justin-herbert-respond-to-quentin-lakes-seeing-ghosts-critique",
+      "title": "Jim Harbaugh, Justin Herbert respond to Quentin Lake's \"seeing ghosts\" critique",
+      "summary": "As the football-following world tries to figure out the problem(s) with Chargers quarterback Justin Herbert, Rams safety Quentin Lake provided a scathing critique of Herbert's most recent performance, in a 24-9 loss to the Rams.",
+      "publishedAt": "2026-11-05T01:31:32Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "4921646949899aa7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-has-full-participation-wednesday-myles-garrett-limited-in-return",
+      "title": "Matthew Stafford has full participation Wednesday; Myles Garrett limited in return",
+      "summary": "Rams coach Sean McVay wouldn't allow much about the ice pack on quarterback Matthew Stafford's arm after Sunday's win over the Chargers other than to say it was soreness.",
+      "publishedAt": "2026-11-05T01:20:24Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "8d8ac41ba688d9fe",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-injury-report-micah-parsons-jaylen-watson-rams",
+      "title": "NFL Week 9 injury report: Micah Parsons returns to Packers practice, Rams lose Jaylen Watson for season",
+      "summary": "Parsons has opened his 21-day practice window, while Jackson, Sam Darnold and Deshaun Watson headline the notable quarterback injuries entering Week 9",
+      "publishedAt": "2026-11-05T01:01:12Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "018f8adaa08d9d87",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-says-i-feel-great-after-hamstring-injury-but-he-didnt-practice-on-wednesday",
+      "title": "Christian McCaffrey says \"I feel great\" after hamstring injury, but he didn't practice on Wednesday",
+      "summary": "Thigh injury that became hamstring problem keeps McCaffrey out of practice.",
+      "publishedAt": "2026-11-05T00:57:46Z",
+      "teamIds": []
+    },
     {
       "id": "cc9d74f171b9af9d",
       "source": "pft",
@@ -1610,54 +1655,6 @@
       "publishedAt": "2026-11-03T20:44:41Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "dabee8655e273129",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sione-vaki-emerges-as-lions-change-of-pace-back-to-jahmyr-gibbs",
-      "title": "Sione Vaki emerges as Lions' change-of-pace back to pair with Jahmyr Gibbs",
-      "summary": "Even though the Lions have only played seven games and most teams have played eight, Lions running back Jahmyr Gibbs is leading the NFL with 191 touches — a huge workload that raises questions about whether Detroit needs a player to share carries with Gibbs, the way David Montgomery had done before he was traded to Houston.",
-      "publishedAt": "2026-11-03T20:24:07Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "ae23a97b3b8e09e3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-8-lessons-bears-super-bowl-chiefs-kicker",
-      "title": "Six lessons from Week 8: Bears emerge as top-tier Super Bowl contenders, Chiefs must address glaring flaws",
-      "summary": "Jeffery Simmons transforms Chicago's defense and the Chiefs need to address their biggest issue before it's too late",
-      "publishedAt": "2026-11-03T20:09:06Z",
-      "teamIds": [
-        "3",
-        "12"
-      ]
-    },
-    {
-      "id": "5ac981df28f9a987",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
-      "title": "2026 midseason rookie grades: Ranking the early hits, misses and biggest surprises",
-      "summary": "Grading every first-round pick after eight weeks, from breakout stars to disappointing starts. Plus, 10 Day 2 and Day 3 rookies making their mark.",
-      "publishedAt": "2026-11-03T20:07:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "b2f03780353cda57",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-odds-lines-totals-spreads",
-      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Jaguars-Ravens, Jets-Chiefs, Giants-Eagles",
-      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Ravens-Jaguars on TNF.",
-      "publishedAt": "2026-11-03T20:05:56Z",
-      "teamIds": [
-        "33",
-        "30",
-        "12",
-        "19",
-        "20",
-        "21"
       ]
     }
   ]
