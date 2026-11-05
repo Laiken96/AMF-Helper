@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T05:01:08Z",
+    "takenAt": "2026-11-05T16:01:14Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2017,18 +2017,7 @@
               "qb",
               "passing"
             ],
-            "status": null
-          },
-          {
-            "athleteId": "3924327",
-            "name": "Drew Lock",
-            "pos": "QB",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4430878",
@@ -2278,5 +2267,26 @@
       }
     ]
   },
-  "changes": []
+  "changes": [
+    {
+      "gameId": "401873048",
+      "athleteId": "3912547",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "teamAbbr": "SEA",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873048",
+      "athleteId": "3924327",
+      "name": "Drew Lock",
+      "pos": "QB",
+      "teamAbbr": "SEA",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    }
+  ]
 }
