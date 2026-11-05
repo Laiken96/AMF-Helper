@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T23:10:30Z",
+    "takenAt": "2026-11-05T23:20:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1868,7 +1868,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4038941",
@@ -2348,6 +2348,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873046",
+      "athleteId": "4586312",
+      "name": "Jaylin Noel",
+      "pos": "WR",
+      "teamAbbr": "HOU",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     },
     {
       "gameId": "401873047",
