@@ -1,7 +1,132 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T16:47:19Z",
+  "updatedAt": "2026-11-05T17:47:25Z",
   "items": [
+    {
+      "id": "0a869dc24dd101f9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-cisse-named-defensive-rookie-of-the-month-for-october",
+      "title": "Brandon Cisse named defensive rookie of the month for October",
+      "summary": "Packers cornerback Brandon Cisse has been named defensive rookie of the month, the NFL announced on Thursday.",
+      "publishedAt": "2026-11-05T17:39:15Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "83fb836e6dab43ee",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kaimi-fairbairn-is-the-afc-special-teams-player-of-the-month",
+      "title": "Ka'imi Fairbairn is the AFC special teams player of the month",
+      "summary": "It has not been a successful season for the Texans, but kicker Ka'imi Fairbairn is coming off of a strong October.",
+      "publishedAt": "2026-11-05T17:37:42Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "78ef71a01940300a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/alex-singleton-named-the-afc-defensive-player-of-the-month",
+      "title": "Alex Singleton named the AFC defensive player of the month",
+      "summary": "Broncos linebacker Alex Singleton's strong play in October drew recognition from the NFL on Thursday.",
+      "publishedAt": "2026-11-05T17:32:34Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "af03fb34cdb69860",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chase-mclaughlin-named-nfc-special-teams-player-of-the-month",
+      "title": "Chase McLaughlin named NFC special teams player of the month",
+      "summary": "Buccaneers kicker Chase McLaughlin had a strong October and has been named NFC special teams player of the month.",
+      "publishedAt": "2026-11-05T17:24:28Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "083113a0be1b83f9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/evan-williams-named-nfc-defensive-player-of-the-month",
+      "title": "Evan Williams named NFC defensive player of the month",
+      "summary": "Packers safety Evan Williams has been named NFC defensive player of the month for October.",
+      "publishedAt": "2026-11-05T17:16:29Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "57e6b861aa096973",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-named-nfc-offensive-player-of-the-month",
+      "title": "Malik Nabers named NFC offensive player of the month",
+      "summary": "Giants receiver Malik Nabers had a strong October and now has been recognized for it.",
+      "publishedAt": "2026-11-05T17:12:09Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "47582840b32779e8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-is-the-afc-offensive-player-of-the-month",
+      "title": "Drake Maye is the AFC offensive player of the month",
+      "summary": "Patriots quarterback Drake Maye heard a lot of criticism in September, but it faded away in October.",
+      "publishedAt": "2026-11-05T17:09:07Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "0be6e7f192cd989f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/great-player-bad-pick-ashton-jeanty-jeremiyah-love-drafting-rb-in-top-10",
+      "title": "Great player, bad pick? Ashton Jeanty, Jeremiyah Love and the high price of drafting a RB in the top 10",
+      "summary": "The Raiders and Cardinals spent premium picks on RBs. Their slow starts raise a bigger question about draft value and missed opportunities.",
+      "publishedAt": "2026-11-05T17:02:13Z",
+      "teamIds": [
+        "22",
+        "13"
+      ]
+    },
+    {
+      "id": "665ecb9d2460900e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-are-trending-toward-starting-carson-wentz-on-monday-night",
+      "title": "Report: Vikings are trending toward starting Carson Wentz on Monday night",
+      "summary": "The soft benching of Kyler Murray in favor of backup Carson Wentz could be coming on Monday night against the Bills.",
+      "publishedAt": "2026-11-05T16:49:39Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "08a18b847735bf70",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pick-six-ravens-jags-picks-what-to-know-about-nfl-week-9",
+      "title": "Pick Six: Ravens-Jags picks, plus what you need to know about the NFL heading into Week 9",
+      "summary": "Here's everything you need to know about the NFL for Nov. 5",
+      "publishedAt": "2026-11-05T16:43:13Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "9ca036dae9ad3193",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-nba-league-pass-jaguars-ravens-thursday-night-football",
+      "title": "Use DraftKings promo code to claim $200 bonus + NBA League Pass for Jaguars-Ravens, Thursday Night Football",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Ravens vs. Jaguars betting on Thursday Night Football",
+      "publishedAt": "2026-11-05T16:37:01Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "54286e40ccedb345",
       "source": "pft",
@@ -1544,126 +1669,6 @@
       "title": "Week 9 QB Power Rankings: Familiar name returns to No. 1, Cam Ward crawls out of basement",
       "summary": "Josh Allen returns to the top spot, Joe Burrow climbs into the top five and Patrick Mahomes moves up once again",
       "publishedAt": "2026-11-04T13:14:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "e6317713df47950d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-dt-javon-kinlaw-had-mcl-surgery-is-expected-to-miss-rest-of-season",
-      "title": "Commanders DT Javon Kinlaw had MCL surgery, is expected to miss rest of season",
-      "summary": "Commanders defensive tackle Javon Kinlaw's season is reportedly over.",
-      "publishedAt": "2026-11-04T12:53:58Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "253f315ef16638b2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tyler-huntley-to-miss-the-rest-of-2026-season",
-      "title": "Report: Tyler Huntley to miss the rest of 2026 season",
-      "summary": "Huntley injured his toe in last Sunday's loss to the Bills.",
-      "publishedAt": "2026-11-04T12:48:10Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "97f45e9391ddecf0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-wants-seahawks-to-focus-on-recapturing-us",
-      "title": "Mike Macdonald wants Seahawks to \"focus on recapturing us\"",
-      "summary": "After Monday night's loss to the Bears, Seahawks head coach Mike Macdonald said that his team was beaten in all three phases of the game and he revisited that line of thinking on Tuesday.",
-      "publishedAt": "2026-11-04T12:02:18Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "9951bca164ffc869",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-young-c-j-stroud-continue-fourth-seasons-without-new-contracts",
-      "title": "Bryce Young, C.J. Stroud continue fourth seasons without new contracts",
-      "summary": "In theory, new deals could be done at any time.",
-      "publishedAt": "2026-11-04T11:17:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "f1e7f588c89ec4dc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-week-9-nfl-expert-picks-jaguars-roll-over-lamar-jackson-less-ravens-cowboys-rebound",
-      "title": "Prisco's Week 9 NFL expert picks: Jaguars roll over Lamar Jackson-less Ravens, Cowboys rebound",
-      "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
-      "publishedAt": "2026-11-04T11:00:43Z",
-      "teamIds": [
-        "33",
-        "2",
-        "6",
-        "30",
-        "16"
-      ]
-    },
-    {
-      "id": "d5e6c72430768cdc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50373566/gary-klint-klay-klein-kubiak-family-legacy-raiders-49ers",
-      "title": "'I think his kids take right after him': Gary Kubiak laid the foundation for his sons Klint, Klay and Klein",
-      "summary": "Klint, Klay and Klein Kubiak are all on their respective NFL journeys. But their father, Gary, helped each along the way.",
-      "publishedAt": "2026-11-04T11:00:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "7d2f3271c080b1c6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-defense-aiming-for-25th-straight-game-not-allowing-a-75-yard-rusher",
-      "title": "Jaguars' defense aiming for 25th straight game not allowing a 75-yard rusher",
-      "summary": "Down to their third-string quarterback, the Ravens will likely need a big game from Derrick Henry.",
-      "publishedAt": "2026-11-04T09:13:42Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "93dab8a230709bc5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-season-could-highlight-the-unfairness-of-the-eight-division-structure",
-      "title": "2026 season could highlight the unfairness of the eight-division structure",
-      "summary": "It's time to consider ditching the two-conference, eight-division approach.",
-      "publishedAt": "2026-11-04T03:46:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "00fc0555c220fe1f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-j-j-mccarthy-was-a-steal-for-the-giants",
-      "title": "Vic Fangio: J.J. McCarthy was a \"steal\" for the Giants",
-      "summary": "In late September, the Vikings sent quarterback J.J.",
-      "publishedAt": "2026-11-04T02:52:46Z",
-      "teamIds": [
-        "16",
-        "19"
-      ]
-    },
-    {
-      "id": "cb24464ae3244472",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-needs-to-display-more-or-any-contrition",
-      "title": "Josh Jacobs needs to display more (or any) contrition",
-      "summary": "In May 2026, Packers running back Josh Jacobs crossed a line that should never be crossed.",
-      "publishedAt": "2026-11-04T02:19:41Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "796658f6fe6eea3c",
-      "source": "espn",
-      "url": "https://espn.com/college-football/story/_/id/50373951/russell-wilson-interviews-nc-state-head-coaching-job",
-      "title": "Sources: Ex-QB Wilson interviews with NC State, joins Rivers as candidate",
-      "summary": "Russell Wilson interviewed for the head coaching job at NC State on Tuesday, joining Philip Rivers as prominent candidates, sources told ESPN.",
-      "publishedAt": "2026-11-04T01:42:25Z",
       "teamIds": []
     }
   ]
