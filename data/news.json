@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T09:47:20Z",
+  "updatedAt": "2026-11-05T11:47:18Z",
   "items": [
+    {
+      "id": "386ba806bcefcf31",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-wr-jordyn-tyson-feels-more-explosive-than-i-ever-have-in-return-from-hamstring-injury",
+      "title": "Saints WR Jordyn Tyson feels \"more explosive than I ever have\" in return from hamstring injury",
+      "summary": "The Saints can use all the help they can get after a 2-5 start to the season and one ray of hope is the return of rookie wide receiver Jordyn Tyson to the practice field this week.",
+      "publishedAt": "2026-11-05T11:44:28Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "d8b8a9e929165314",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jacksons-latest-injury-raises-obvious-questions-about-his-future-in-baltimore",
+      "title": "Lamar Jackson's latest injury raises obvious questions about his future in Baltimore",
+      "summary": "The Ravens wanted to re-sign him in 2026, and there's no reason to think they won't want to in 2027.",
+      "publishedAt": "2026-11-05T11:42:15Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "722b71443cb9b7d7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-proactively-replace-entire-surface-at-mile-high-stadium-again",
+      "title": "Broncos proactively replace entire surface at Mile High Stadium, again",
+      "summary": "With four regular-season home games played and four to go, the Broncos are being proactive — again — about the quality of the playing surface at Mile High Stadium.",
+      "publishedAt": "2026-11-05T11:17:33Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "f0572c296e17b073",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-says-j-k-dobbins-remains-a-huge-part-of-what-were-doing",
+      "title": "Sean Payton says J.K. Dobbins remains \"a huge part of what we're doing\"",
+      "summary": "It's been a somewhat strange second year in Denver for veteran running back J.K.",
+      "publishedAt": "2026-11-05T11:02:02Z",
+      "teamIds": []
+    },
     {
       "id": "f0213fd9d4e6e325",
       "source": "pft",
@@ -1611,48 +1653,6 @@
       "teamIds": [
         "22"
       ]
-    },
-    {
-      "id": "9a31a9f713fb4756",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-daniel-carlson-claim-audric-estime-off-waivers",
-      "title": "Saints release Daniel Carlson, claim Audric Estime off waivers",
-      "summary": "An offensive player is returning to New Orleans.",
-      "publishedAt": "2026-11-03T21:26:10Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "216cdbc0fe38b1fa",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-newsome-giants-agree-on-three-year-extension",
-      "title": "Greg Newsome, Giants agree on three-year extension",
-      "summary": "Cornerback Greg Newsome signed a one-year deal with the Giants as a free agent this offseason, but his stay with the team won't be done once the 2026 season comes to an end.",
-      "publishedAt": "2026-11-03T21:25:43Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "8fa0ac2d0aae5e7a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dt-adetomiwa-adebawore-agrees-to-two-year-extension-with-colts",
-      "title": "DT Adetomiwa Adebawore agrees to two-year extension with Colts",
-      "summary": "The Colts took a break from working on trading away players ahead of next Tuesday's deadline to assure that one member of the team will be sticking around for a while.",
-      "publishedAt": "2026-11-03T21:17:50Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "5ac981df28f9a987",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
-      "title": "2026 midseason rookie grades: Ranking the early hits, misses and biggest surprises",
-      "summary": "Grading every first-round pick after eight weeks, from breakout stars to disappointing starts. Plus, 10 Day 2 and Day 3 rookies making their mark.",
-      "publishedAt": "2026-11-03T21:15:29Z",
-      "teamIds": []
     }
   ]
 }
