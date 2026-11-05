@@ -1,7 +1,98 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T21:47:21Z",
+  "updatedAt": "2026-11-05T22:47:19Z",
   "items": [
+    {
+      "id": "16a6457ae28472a2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-returns-to-limited-work-thursday",
+      "title": "Saquon Barkley returns to limited work Thursday",
+      "summary": "Eagles running back Saquon Barkley returned to limited work Thursday after missing Wednesday's practice with hamstring and back injuries.",
+      "publishedAt": "2026-11-05T22:38:10Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "7584c0ebbb48680d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-on-cutting-s-c-j-gardner-johnson-it-was-the-best-interests-of-the-football-team",
+      "title": "Joe Brady on cutting S C.J. Gardner-Johnson: \"It was the best interests of the football team\"",
+      "summary": "On the day the NFL suspended former Bills safety C.J.",
+      "publishedAt": "2026-11-05T22:36:04Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "63a6914113944069",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-moore-limited-dion-dawkins-did-not-practice-on-thursday",
+      "title": "DJ Moore limited, Dion Dawkins did not practice on Thursday",
+      "summary": "The Bills have a lengthy injury report to begin Week 9, with the club playing the Vikings on Monday night.",
+      "publishedAt": "2026-11-05T22:24:27Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "811fbefbd8b03b7f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-downgraded-to-limited-thursday",
+      "title": "Joey Porter Jr. downgraded to limited Thursday",
+      "summary": "The Cowboys downgraded cornerback Joey Porter Jr. to a limited participant in Thursday's practice.",
+      "publishedAt": "2026-11-05T22:13:32Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "e4b9eef3748fb61b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jordan-love-halloween-costume-nfl-fine",
+      "title": "Why Jordan Love could face an NFL fine over Halloween costume",
+      "summary": "Love and his wife dressed as \"blind refs\" less than a week after controversial calls contributed to a Packers loss",
+      "publishedAt": "2026-11-05T22:11:58Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "fd8e034a69496eb9",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-nba-league-pass-ravens-jaguars-thursday-night-football",
+      "title": "Use DraftKings promo code to claim $200 bonus + NBA League Pass for Ravens-Jaguars, Thursday Night Football",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Ravens vs. Jaguars betting on Thursday Night Football",
+      "publishedAt": "2026-11-05T22:03:21Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "5ac3fc0a1a27826d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-treveyon-henderson-hunter-henry-did-not-practice-on-thursday",
+      "title": "A.J. Brown, TreVeyon Henderson, Hunter Henry did not practice on Thursday",
+      "summary": "The Patriots have a lengthy injury report, with several key players remaining out of practice on Thursday.",
+      "publishedAt": "2026-11-05T21:51:55Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "9297046596ce6c66",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-jaguars-ravens-thursday-night-football",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Jaguars-Ravens on Thursday Night Football",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Ravens vs. Jaguars betting on Thursday Night Football",
+      "publishedAt": "2026-11-05T21:51:25Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "3aa8e10e1a861e5a",
       "source": "pft",
@@ -1590,94 +1681,6 @@
       "publishedAt": "2026-11-04T17:04:39Z",
       "teamIds": [
         "4"
-      ]
-    },
-    {
-      "id": "3a649f5b0a51ceb1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50378427/source-commanders-javon-kinlaw-knee-surgery-season",
-      "title": "Source: Commanders lose another DL with Kinlaw (knee) out for season",
-      "summary": "The Commanders lost a second defensive line starter for the season in less than a week as Javon Kinlaw underwent season-ending knee surgery, a source told ESPN's Adam Schefter.",
-      "publishedAt": "2026-11-04T16:53:33Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "4a30553bd366c497",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50378134/sources-ravens-qb-tyler-snoop-huntley-season",
-      "title": "With Lamar sidelined, Ravens QB Huntley also out for season, sources say",
-      "summary": "Tests revealed that Ravens quarterback Tyler \"Snoop\" Huntley suffered a season-ending turf toe injury, sources told ESPN and NFL Network.",
-      "publishedAt": "2026-11-04T16:53:33Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "a532ede11a1b0477",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50378691/brandon-aiyuk-applies-reinstated-plans-report-49ers",
-      "title": "Agent: Aiyuk files to be reinstated, plans to report to 49ers on Friday",
-      "summary": "Brandon Aiyuk has turned in paperwork to be reinstated, agent Drew Rosenhaus told ESPN's Adam Schefter on Wednesday.",
-      "publishedAt": "2026-11-04T16:53:33Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "f6beb752a9b10957",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50378819/browns-qb-watson-concussion-protocol-status-vs-saints-unclear",
-      "title": "Browns QB Watson in concussion protocol; status vs. Saints unclear",
-      "summary": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, leaving his status for Sunday's matchup against the Saints in question.",
-      "publishedAt": "2026-11-04T16:53:33Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "e1ba4b3956ad4966",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kc-concepcion-browns-are-confident-getting-shedeur-sanders-ready-for-sunday",
-      "title": "KC Concepcion: Browns are confident, getting Shedeur Sanders ready for Sunday",
-      "summary": "The Browns haven't officially named Shedeur Sanders this week's starter, but with Deshaun Watson in the concussion protocol, all signs are pointing in that direction.",
-      "publishedAt": "2026-11-04T16:47:48Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "12e7942f9da0d345",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jordyn-tyson-will-return-to-practice-on-wednesday",
-      "title": "Report: Jordyn Tyson will return to practice on Wednesday",
-      "summary": "There is some positive news on the injury front for the Saints as they return from their bye week.",
-      "publishedAt": "2026-11-04T16:34:32Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "57de22a89f49bbf0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50370030/trade-deadline-team-preview-goals-buzz-players-deals-2026",
-      "title": "Team-by-team trade deadline outlooks: What does each roster need? Which players could move?",
-      "summary": "We outlined deadline plans for all 32 teams, including who could be dealt before 4 p.m. ET on Tuesday. Here's what you need to know.",
-      "publishedAt": "2026-11-04T16:28:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "bb7dd1a65613f034",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50369642/week-9-buzz-fantasy-predictions-graziano-fowler-2026-trades",
-      "title": "Buzz for Week 9: What we're hearing on the Ravens and Chargers, plus trade deadline intel",
-      "summary": "What now for the Ravens without Lamar Jackson? And what's the latest on the looming trade deadline?",
-      "publishedAt": "2026-11-04T16:28:06Z",
-      "teamIds": [
-        "33",
-        "24"
       ]
     }
   ]
