@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T23:47:19Z",
+  "updatedAt": "2026-11-05T00:47:17Z",
   "items": [
+    {
+      "id": "cc9d74f171b9af9d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-bosa-returns-to-practice-with-limited-work",
+      "title": "Nick Bosa returns to practice with limited work",
+      "summary": "49ers defensive end Nick Bosa returned to practice Wednesday after missing the team's past five games with a calf injury.",
+      "publishedAt": "2026-11-05T00:41:06Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "9e0d12dabd3c78b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-devonta-smith-dontayvion-wicks-miss-wednesdays-practice",
+      "title": "Saquon Barkley, DeVonta Smith, Dontayvion Wicks miss Wednesday's practice",
+      "summary": "Eagles running back Saquon Barkley missed practice Wednesday with his hamstring and back injuries.",
+      "publishedAt": "2026-11-05T00:18:44Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "712364d2e3bce2ca",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-commanders-somehow-breaks-19-million-viewers",
+      "title": "Eagles-Commanders somehow breaks 19 million viewers",
+      "summary": "When George Costanza pitched the show about nothing to NBC president Russell Dalrymple, Dalrymple asked, \"Well, why am I watching it?\"",
+      "publishedAt": "2026-11-05T00:18:36Z",
+      "teamIds": [
+        "21",
+        "28"
+      ]
+    },
+    {
+      "id": "ccdabe12c152cf4c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/maxx-crosby-i-love-being-a-raider-and-this-is-where-i-want-to-be",
+      "title": "Maxx Crosby: I love being a Raider, and this is where I want to be",
+      "summary": "A report this week indicated the Raiders have no plans to trade Crosby, who wants to stay with the team.",
+      "publishedAt": "2026-11-04T23:46:46Z",
+      "teamIds": [
+        "13"
+      ]
+    },
     {
       "id": "5706e8143bb4d15c",
       "source": "pft",
@@ -1613,49 +1658,6 @@
         "19",
         "20",
         "21"
-      ]
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Rankings for Week 9",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-03T19:46:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: No stopping Bears, Seahawks ease Charbonnet back, Minshew takes over",
-      "summary": "The Bears' offense is full of must-start players, Seahawks backfield still in flux as Charbonnet, Price return",
-      "publishedAt": "2026-11-03T19:46:45Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "46f06a1c188507b7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-jeremiyah-loves-injured-reserve-ankle-2026",
-      "title": "Jeremiyah Love's difficult rookie season takes another hit with trip to injured reserve",
-      "summary": "Love suffered a high ankle sprain against the Cowboys and now heads to injured reserve",
-      "publishedAt": "2026-11-03T19:26:53Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "2334272f725fa842",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-qb-joe-fagnano-practices-tuesday-with-brace-on-ankle",
-      "title": "Ravens QB Joe Fagnano practices Tuesday with brace on ankle",
-      "summary": "Ravens rookie quarterback Joe Fagnano has a heavy brace on his right ankle, but he is on the field for the open portion of practice on Tuesday.",
-      "publishedAt": "2026-11-03T19:15:20Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
