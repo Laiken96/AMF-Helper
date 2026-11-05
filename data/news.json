@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T18:47:21Z",
+  "updatedAt": "2026-11-05T19:47:20Z",
   "items": [
+    {
+      "id": "482b3b45d171a127",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonathan-taylor-no-one-likes-uncertainty",
+      "title": "Jonathan Taylor: No one likes uncertainty",
+      "summary": "Colts running back Jonathan Taylor has spent the last two weeks fielding questions about whether he'll remain with the team and that will come to an end by next Tuesday one way or another.",
+      "publishedAt": "2026-11-05T19:31:06Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "b35afd82ec11bc76",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-qb-change-carson-wentz-start-vs-bills-kyler-murry-injury",
+      "title": "Vikings make QB change: Carson Wentz to start vs. Bills as Kyler Murray deals with injury",
+      "summary": "Wentz is now starting at QB for Minnesota after the underperforming Murray suffered a hamstring strain",
+      "publishedAt": "2026-11-05T19:16:04Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "e6c38b5a60b62f91",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-9-thursday-night-football",
+      "title": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for NFL Week 9 Thursday Night Football",
+      "summary": "We highlight some first touchdown scorer prediction markets at Kalshi for Jaguars vs. Ravens on Thursday Night Football",
+      "publishedAt": "2026-11-05T19:02:24Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "aee72e8094d7dfbb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/an-investigation-regarding-the-jalen-hurts-situation-has-not-begun",
+      "title": "An investigation regarding the Jalen Hurts situation has not begun",
+      "summary": "The return of Eagles quarterback Jalen Hurts to the team's facility on Wednesday is a reminder that plenty of questions remain regarding the decisions made as to his health before flying to London with a blood clot in his leg, playing in London with a blood clot in his leg, and flying back from London with a blood clot in his leg.",
+      "publishedAt": "2026-11-05T18:50:01Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "e454077384221e88",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-vs-ravens-bhayshul-tuten-status-tnf",
+      "title": "Is Bhayshul Tuten playing on TNF? A look at the Jaguars RB's status against Ravens",
+      "summary": "Tuten hasn't practiced all week while dealing with ankle and foot injuries",
+      "publishedAt": "2026-11-05T18:46:14Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "8efff7aa07ab0583",
       "source": "pft",
@@ -407,7 +465,7 @@
       "id": "e5f97d5162f7cc1a",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/ravens-vs-jaguars-how-to-watch-odds-spread-prediction",
-      "title": "Ravens vs. Jaguars: Does Lamar Jackson-less Baltimore have any chance in 'TNF' matchup?",
+      "title": "Ravens vs. Jaguars prediction: Does Lamar Jackson-less Baltimore have any chance in 'TNF' matchup?",
       "summary": "How to watch, what to know and a prediction as Jacksonville heads to Baltimore to open Week 9",
       "publishedAt": "2026-11-05T14:24:36Z",
       "teamIds": [
@@ -1616,59 +1674,6 @@
       "publishedAt": "2026-11-04T15:17:19Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "4f7a73a978c5f32f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-76ers-pistons-nba-college-football-on-wednesday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for 76ers-Pistons, NBA, college football on Wednesday",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, NFL betting on Wednesday",
-      "publishedAt": "2026-11-04T14:58:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "fe83848b544e8e8f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-announce-deshaun-watson-is-in-concussion-protocol",
-      "title": "Browns announce Deshaun Watson is in concussion protocol",
-      "summary": "Watson developed symptoms on Monday night, after first-quarter helmet-to-helmet hit.",
-      "publishedAt": "2026-11-04T14:45:03Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "af57adf9d53e2e38",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-midseason-all-rookie-team-jalon-daniels-browns-jets",
-      "title": "Midseason All-Rookie Team: QB Jalon Daniels leads team filled with multiple Browns, Jets",
-      "summary": "A dynamic Browns wide receiver duo and Titans standout Carnell Tate highlight the offensive playmakers making an immediate impact through the first eight weeks",
-      "publishedAt": "2026-11-04T14:28:48Z",
-      "teamIds": [
-        "5",
-        "20",
-        "10"
-      ]
-    },
-    {
-      "id": "cca14bc1bfea491d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/peyton-manning-greg-olsen-emerge-as-the-potential-troy-aikman-replacement",
-      "title": "Peyton Manning, Greg Olsen emerge as the potential Troy Aikman replacement",
-      "summary": "As the clock continues to tick toward a potential, if not inevitable, breakup between ESPN and Troy Aikman, a replacement will be needed on Monday Night Football if/when Aikman leaves.",
-      "publishedAt": "2026-11-04T14:24:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "4506943b622e4947",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bob-heinz-member-of-undefeated-1972-dolphins-no-name-defense-dies-at-79",
-      "title": "Bob Heinz, member of undefeated 1972 Dolphins' \"No-Name Defense,\" dies at 79",
-      "summary": "Bob Heinz, a member of the undefeated 1972 Miami Dolphins' \"No-Name Defense\" and winner of two Super Bowl rings, has died at the age of 79.",
-      "publishedAt": "2026-11-04T14:23:43Z",
-      "teamIds": [
-        "15"
       ]
     }
   ]
