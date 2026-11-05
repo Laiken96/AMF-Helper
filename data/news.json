@@ -1,7 +1,98 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:47:20Z",
+  "updatedAt": "2026-11-05T15:47:19Z",
   "items": [
+    {
+      "id": "5ac981df28f9a987",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
+      "title": "2026 midseason rookie grades: Ranking the early hits, misses and biggest surprises",
+      "summary": "Grading every first-round pick after eight weeks, from breakout stars to disappointing starts. Plus, 10 Day 2 and Day 3 rookies making their mark.",
+      "publishedAt": "2026-11-05T15:41:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "eb76ce1567fcd5ab",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-vikings-coach-kevin-oconnell-should-be-on-hot-seat",
+      "title": "Why Vikings coach Kevin O'Connell should be on hot seat despite NFL-best 6-1 record",
+      "summary": "O'Connell's handling of his quarterback position and currently sagging offense merits a closer look",
+      "publishedAt": "2026-11-05T15:34:37Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "75c0635a0acd07b0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-by-targeting-jaguars-vs-ravens-thursday-night-football",
+      "title": "Use FanDuel promo code to get $200 bonus bets by targeting Jaguars vs. Ravens on Thursday Night Football",
+      "summary": "Sign up and bet with the latest FanDuel promo code on Thursday to get your bonus bets",
+      "publishedAt": "2026-11-05T15:33:07Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "db70ffaf5cb3aadb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-matthew-stafford-elbow-injury-is-a-something-to-monitor",
+      "title": "The Matthew Stafford elbow injury is a something to monitor",
+      "summary": "A question emerged about Rams quarterback Matthew Stafford's throwing arm after reporters spotted ice on it following Sunday's game against the Chargers.",
+      "publishedAt": "2026-11-05T15:20:28Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "b2452e1fe717541f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/jaguars-vs-ravens-odds-picks-nfl-week-9-prediction-best-bets-player-props-for-thursday-night-football",
+      "title": "Jaguars vs. Ravens odds, picks, NFL Week 9 prediction: Best bets, player props for Thursday Night Football",
+      "summary": "Baltimore turns to third-string quarterback Joe Fagnano with Lamar Jackson sidelined, making Jacksonville a rare double-digit road favorite on Thursday night",
+      "publishedAt": "2026-11-05T15:14:41Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "38db2eddca12d432",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/packers-micah-parsons-update-details-timeline-for-return",
+      "title": "Micah Parsons details why knee recovery has taken so long, refuses to set timeline for Packers return",
+      "summary": "Parsons has been out since tearing his ACL late last season",
+      "publishedAt": "2026-11-05T14:57:12Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "9351218bdfd9df32",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-anderson-jr-justin-herbert-is-playing-out-of-his-mind",
+      "title": "Will Anderson Jr.: Justin Herbert is playing out of his mind",
+      "summary": "It's been a rough 2026 for the Chargers, who are now 0-7 after last Sunday's loss to the Rams.",
+      "publishedAt": "2026-11-05T14:47:20Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "ed09e929f888a587",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/ravens-vs-jaguars-odds-prediction-betting-preview-start-time-thursday-night-football-picks-best-bets",
+      "title": "Ravens vs. Jaguars odds, prediction, betting preview, start time: Thursday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Jaguars vs. Ravens on Thursday Night Football",
+      "publishedAt": "2026-11-05T14:45:36Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "c513ec204d12f64e",
       "source": "pft",
@@ -1577,97 +1668,6 @@
       "publishedAt": "2026-11-03T22:55:32Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "4a5082ce7e6f249b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50371730/rookie-joe-fagnano-start-thursday-night-vs-jaguars",
-      "title": "Undrafted rookie QB Fagnano to start for banged-up Ravens vs. Jaguars",
-      "summary": "Ravens rookie quarterback Joe Fagnano will start Thursday night's game against the Jaguars, coach Jesse Minter announced Tuesday.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "5d96a85c67067a1c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50367539/dt-jeffery-simons-immediate-boon-chicago-bears-defense-win-seattle-seahawks",
-      "title": "Sweet Home Chicago: Simmons stymies Darnold, Seahawks in Bears debut",
-      "summary": "New Bears DT Jeffery Simmons had a sack, six tackles and deflected a pass as Chicago won its third straight Monday, and he also earned a game ball.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "7d6b981bc3627662",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50372292/bills-release-safety-cj-gardner-johnson",
-      "title": "Bills release Gardner-Johnson after he served one-game spitting suspension",
-      "summary": "The Bills have released safety C.J. Gardner-Johnson, the team announced Tuesday.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "eb4dd48a15bdac19",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50372281/giants-cb-greg-newsome-ii-agree-3-year-46m-extension",
-      "title": "Giants, CB Newsome agree to 3-year, $46M extension",
-      "summary": "The Giants have reached agreement with cornerback Greg Newsome II on a three-year, $46 million extension, his agents told ESPN's Adam Schefter.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "f27200efb4ce44a6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50372284/saints-release-veteran-kicker-daniel-carlson-7-games",
-      "title": "Veteran kicker Carlson cut by Saints after posting 2nd-worst FG% in NFL",
-      "summary": "Veteran kicker Daniel Carlson, whose 66.7% accuracy on field goals was tied for second worst in the NFL this season, was released by the Saints on Tuesday.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "ff1d2b3d546a5214",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50371976/source-colts-adetomiwa-adebawore-reach-2-year-35m-deal",
-      "title": "Colts rebuff trade interest in Adebawore, instead extend up-and-coming DL",
-      "summary": "The Colts and defensive tackle Adetomiwa Adebawore have agreed to terms on a two-year, $35 million extension, a source told NFL Network's Mike Garafolo.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "8336363ab1003e9b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-has-15-game-winning-drives-most-ever-for-a-qb-in-his-first-three-seasons",
-      "title": "Bo Nix has 15 game-winning drives, most ever for a QB in his first three seasons",
-      "summary": "The Broncos trailed the Chiefs 24-13 with 10 minutes left on Sunday, but anyone who thought the Broncos were out of it hasn't been watching Nix.",
-      "publishedAt": "2026-11-03T22:46:35Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "3ce951544e10414c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-qb-joe-fagnano-has-full-participation-in-tuesdays-practice",
-      "title": "Ravens QB Joe Fagnano has full participation in Tuesday's practice",
-      "summary": "Lamar Jackson (right thumb) and Tyler Huntley (toe) are expected to land on injured reserve this week.",
-      "publishedAt": "2026-11-03T22:24:10Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
