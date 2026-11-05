@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T11:47:18Z",
+  "updatedAt": "2026-11-05T13:47:20Z",
   "items": [
+    {
+      "id": "9fb2e8024c9e8efe",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-lines-odds-totals-spreads",
+      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Ravens-Jaguars, Jets-Chiefs, Giants-Eagles",
+      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Ravens-Jaguars on TNF.",
+      "publishedAt": "2026-11-05T13:18:41Z",
+      "teamIds": [
+        "33",
+        "30",
+        "12",
+        "19",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "id": "19ebb2bac2068872",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-why-ravens-should-trade-derrick-henry",
+      "title": "Why Ravens should trade Derrick Henry: Don't let Baltimore's QB woes drag down 'King Henry'",
+      "summary": "The running back should have a chance to win his elusive crown before it's too late",
+      "publishedAt": "2026-11-05T13:10:20Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "4980172c6decebea",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-playoff-picture-standings-packers-patriots-2026",
+      "title": "NFL playoff picture: Five games with the biggest postseason implications as Packers face pivotal test",
+      "summary": "SportsLine projections reveal how Packers-Patriots and four other pivotal matchups could alter postseason chances",
+      "publishedAt": "2026-11-05T13:09:54Z",
+      "teamIds": [
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "5d9ec5274d3cae49",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/super-bowl-stock-report-week-9-jeffery-simmons-bears-ravens",
+      "title": "Week 9 Super Bowl stock report: Jeffery Simmons trade legitimizes Bears, QB injuries tank Ravens",
+      "summary": "We assess the NFL title race after Week 8 and identify three upcoming games that could reshape the Super Bowl picture",
+      "publishedAt": "2026-11-05T13:09:21Z",
+      "teamIds": [
+        "33",
+        "3"
+      ]
+    },
+    {
+      "id": "38174f4ec106f381",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-jaguars-ravens",
+      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Jaguars vs. Ravens",
+      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-05T13:04:19Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "386ba806bcefcf31",
       "source": "pft",
@@ -1596,62 +1659,6 @@
       "publishedAt": "2026-11-03T21:45:24Z",
       "teamIds": [
         "2"
-      ]
-    },
-    {
-      "id": "78af9d7a73e58f56",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-sign-greg-newsome-three-year-46-million-extension",
-      "title": "Giants sign Greg Newsome to three-year, $46 million extension, per report",
-      "summary": "Newsome was playing on a one-year deal he signed with New York in March",
-      "publishedAt": "2026-11-03T21:40:41Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "3f103770ec34e234",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-put-tyler-loop-on-injured-reserve",
-      "title": "Ravens put Tyler Loop on injured reserve",
-      "summary": "The Ravens' kicker change will last longer than one game.",
-      "publishedAt": "2026-11-03T21:35:49Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "ddfac2beafbc1974",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murrays-hamstring-issue-could-be-cover-for-a-soft-benching",
-      "title": "Kyler Murray's hamstring issue could be cover for a soft benching",
-      "summary": "How can the Vikings bench Kyler Murray without benching Kyler Murray?",
-      "publishedAt": "2026-11-03T21:30:10Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "1fe519082f394def",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-starting-qb-joe-fagnano-jaguars-lamar-jackson-tyler-huntley-injured",
-      "title": "Ravens name Joe Fagnano starter for Week 9 matchup vs. Jaguars with Lamar Jackson, Tyler Huntley injured",
-      "summary": "Joe Fagnano will make his first NFL start Thursday against the Jaguars, with Lamar Jackson and Tyler Huntley likely headed to injured reserve",
-      "publishedAt": "2026-11-03T21:29:18Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "4c63bf62d62586f3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-officially-place-jeremiyah-love-kendrick-bourne-on-ir",
-      "title": "Cardinals officially place Jeremiyah Love, Kendrick Bourne on IR",
-      "summary": "The Cardinals made the move of running back Jeremiyah Love to injured reserve official on Tuesday.",
-      "publishedAt": "2026-11-03T21:26:50Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
