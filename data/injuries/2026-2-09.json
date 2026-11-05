@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T21:10:31Z",
+    "takenAt": "2026-11-05T21:20:35Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1953,7 +1953,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4361741",
@@ -2304,6 +2304,16 @@
       "name": "Garrett Wilson",
       "pos": "WR",
       "teamAbbr": "NYJ",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873047",
+      "athleteId": "3117251",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
