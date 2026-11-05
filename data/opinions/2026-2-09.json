@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 9,
+  "updatedAt": "2026-11-05T19:20:59Z",
+  "model": "claude-haiku-5-5",
+  "opinions": [
+    {
+      "gameId": "401873037",
+      "createdAt": "2026-11-05T19:20:59Z",
+      "winnerTeamId": "30",
+      "pWinner": 0.78,
+      "marketPickTeamId": "30",
+      "marketProb": 0.7706,
+      "reasoning": "Die Ravens fehlen auf der QB-Position komplett: Lamar Jackson, Tyler Huntley und S Jaylinn Hawkins stehen laut offiziellem Status auf Out, und Joe Fagnano wird wohl als junger Ersatz starten. Jacksonville hat mit Bhayshul Tuten zwar einen fraglichen Starter-RB, doch der Markt sieht die Jaguars mit rund 80 Prozent vorn, und das Wetter ist laut Prognosen unauffällig. Ich halte die Jaguars daher für klar favorisiert, sehe aber wegen der Verletzungen auf beiden Seiten etwas weniger Sicherheit als der Markt.",
+      "sources": [
+        {
+          "title": "Baltimore Ravens: Injury Report - Ravens vs. Jaguars (Game Status)",
+          "url": "https://russellstreetreport.com/2026/11/04/injury-report/injury-report-ravens-vs-jaguars-game-status-wednesday/"
+        },
+        {
+          "title": "Ravens Got Unexpected Injury Update to Starter Days Before Jaguars Game",
+          "url": "https://heavy.com/sports/nfl/baltimore-ravens/unexpected-injury-update-tyler-loop-jaguars/"
+        },
+        {
+          "title": "Jaguars-Ravens Injury Report: Bhayshul Tuten's Injury Could Mean Larger Role For 1 Veteran",
+          "url": "https://www.si.com/nfl/jaguars/onsi/jacksonville-ravens-injury-report-bhayshul-tuten-s-injury-could-mean-larger-role-for-1-veteran"
+        },
+        {
+          "title": "Jaguars vs Ravens Prediction, Top Picks & Odds: Thursday Night Football Week 9",
+          "url": "https://www.covers.com/nfl/jaguars-vs-ravens-prediction-picks-nov-5-2026"
+        }
+      ]
+    }
+  ]
+}
