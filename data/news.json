@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T17:47:25Z",
+  "updatedAt": "2026-11-05T18:47:21Z",
   "items": [
+    {
+      "id": "8efff7aa07ab0583",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-out-for-monday-vs-bills-week-to-week-with-hamstring-injury",
+      "title": "Kyler Murray out for Monday vs. Bills, week-to-week with hamstring injury",
+      "summary": "Carson Wentz will make his second start of the season in place of the injured Murray.",
+      "publishedAt": "2026-11-05T18:40:07Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "cea79efacc800c5a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-was-upset-that-browns-teammates-didnt-react-when-he-took-a-cheap-shot",
+      "title": "Jared Verse was upset that Browns teammates didn't react when he took a cheap shot",
+      "summary": "Browns defensive end Jared Verse was picked up and thrown to the ground by Steelers guard Mason McCormick on Sunday, and McCormick wasn't the only person Verse was upset with afterward.",
+      "publishedAt": "2026-11-05T18:29:52Z",
+      "teamIds": [
+        "5",
+        "23"
+      ]
+    },
+    {
+      "id": "d6809755b7ff9276",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-k-joshua-karty-to-53-man-roster",
+      "title": "Rams sign K Joshua Karty to 53-man roster",
+      "summary": "The Rams now have two kickers on their 53-man roster.",
+      "publishedAt": "2026-11-05T18:15:49Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "176cfe260f42a313",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-was-impressed-with-the-buccaneers-all-run-offense",
+      "title": "Ben Johnson was impressed with the Buccaneers' all-run offense",
+      "summary": "Bears coach Ben Johnson is well known as an offensive innovator and creative play caller.",
+      "publishedAt": "2026-11-05T18:05:07Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "497a8377f5f2d8c2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-tom-coughlin-among-five-coaches-to-advance-in-hall-of-fame-selection-process",
+      "title": "Bill Belichick, Tom Coughlin among five coaches to advance in Hall of Fame selection process",
+      "summary": "Bill Belichick fell short of the necessary votes to be elected to the Pro Football Hall of Fame in 2026, but he may have another chance in 2027.",
+      "publishedAt": "2026-11-05T17:52:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "2e77d057264a2af2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carnell-tate-named-octobers-top-offensive-rookie-player",
+      "title": "Carnell Tate named the offensive rookie of the month for October",
+      "summary": "Titans wide receiver Carnell Tate's second month of NFL games went well for him.",
+      "publishedAt": "2026-11-05T17:44:53Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "0a869dc24dd101f9",
       "source": "pft",
@@ -1604,72 +1670,6 @@
       "teamIds": [
         "15"
       ]
-    },
-    {
-      "id": "851c92dfc3fab414",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-files-for-reinstatement-from-49ers-reserve-left-squad-list",
-      "title": "Brandon Aiyuk files for reinstatement from 49ers' reserve/left squad list",
-      "summary": "Wide receiver Brandon Aiyuk has taken a significant step toward getting back on the field.",
-      "publishedAt": "2026-11-04T14:19:14Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "0e89aa9734f4063d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-best-bets-bears-surge-vikings-lose",
-      "title": "NFL Week 9 picks, best bets: Bears continue to surge in primetime, Vikings lose second straight vs. Bills",
-      "summary": "Tyler Sullivan picks every game on the Week 9 schedule, including five locks against the spread",
-      "publishedAt": "2026-11-04T14:00:50Z",
-      "teamIds": [
-        "2",
-        "3",
-        "16"
-      ]
-    },
-    {
-      "id": "4640742c1454cdbd",
-      "source": "cbs",
-      "url": "https://cbssports.com/fantasy/football/news/biggest-surprises-from-initial-cfp-rankings-ravens-starting-an-undrafted-rookie-qb-on-tnf",
-      "title": "Biggest surprises from initial CFP Rankings; Ravens starting an undrafted rookie QB on 'TNF'",
-      "summary": "Plus NBA Bracketology and Pete Prisco's Week 9 NFL Power Rankings",
-      "publishedAt": "2026-11-04T13:53:59Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "bb9a519631016866",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-tyler-huntley-injury-update-turf-toe-out-for-season",
-      "title": "Tyler Huntley out for season: Ravens lose top backup with Lamar Jackson already out, per report",
-      "summary": "Baltimore will start undrafted rookie Joe Fagnano on Thursday",
-      "publishedAt": "2026-11-04T13:49:16Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "69e03dc6828b3ee0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-wr-mack-hollins-is-expected-to-practice-on-wednesday",
-      "title": "Patriots WR Mack Hollins is expected to practice on Wednesday",
-      "summary": "The Patriots are set to get one of their top wideouts back at practice on Wednesday.",
-      "publishedAt": "2026-11-04T13:15:09Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "6936c5fbe63905a7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-qb-power-rankings-josh-allen-cam-ward",
-      "title": "Week 9 QB Power Rankings: Familiar name returns to No. 1, Cam Ward crawls out of basement",
-      "summary": "Josh Allen returns to the top spot, Joe Burrow climbs into the top five and Patrick Mahomes moves up once again",
-      "publishedAt": "2026-11-04T13:14:00Z",
-      "teamIds": []
     }
   ]
 }
