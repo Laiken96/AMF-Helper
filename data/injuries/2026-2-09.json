@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T22:40:31Z",
+    "takenAt": "2026-11-05T23:10:30Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1744,6 +1744,17 @@
               "receiving"
             ],
             "status": "Questionable"
+          },
+          {
+            "athleteId": "4685201",
+            "name": "Tanner McKee",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           }
         ]
       },
@@ -2304,6 +2315,16 @@
       "name": "Malik Nabers",
       "pos": "WR",
       "teamAbbr": "NYG",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873044",
+      "athleteId": "4685201",
+      "name": "Tanner McKee",
+      "pos": "QB",
+      "teamAbbr": "PHI",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
