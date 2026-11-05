@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T18:20:34Z",
+    "takenAt": "2026-11-05T19:01:09Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1698,7 +1698,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4696981",
@@ -2268,6 +2268,16 @@
     ]
   },
   "changes": [
+    {
+      "gameId": "401873044",
+      "athleteId": "4595348",
+      "name": "Malik Nabers",
+      "pos": "WR",
+      "teamAbbr": "NYG",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
     {
       "gameId": "401873045",
       "athleteId": "4569618",
