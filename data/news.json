@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T01:47:20Z",
+  "updatedAt": "2026-11-05T02:47:21Z",
   "items": [
+    {
+      "id": "72a5b2796b781ddc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-young-a-full-participant-but-with-an-ankle-injury",
+      "title": "Bryce Young a full participant but with an ankle injury",
+      "summary": "Bryce Young was listed with a knee injury on the Panthers' practice reports over the past four weeks.",
+      "publishedAt": "2026-11-05T02:31:51Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "0756a2a38bc57a47",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jalen-hurts-makes-an-appearance-at-team-facility",
+      "title": "Report: Jalen Hurts makes an appearance at team facility",
+      "summary": "Eagles quarterback Jalen Hurts made an appearance at the team's practice facility on Wednesday, Tim McManus of ESPN reports.",
+      "publishedAt": "2026-11-05T02:03:25Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "a342294ae2467f5f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-theres-a-lot-of-stuff-being-said-about-me-thats-completely-false",
+      "title": "Josh Jacobs: \"There's a lot of stuff being said about me that's completely false\"",
+      "summary": "On Friday, Wisconsin authorities released documents in the Josh Jacobs criminal case that included three allegations against him from other women.",
+      "publishedAt": "2026-11-05T01:47:19Z",
+      "teamIds": []
+    },
     {
       "id": "620f66bea140de0e",
       "source": "pft",
@@ -18,7 +49,7 @@
       "id": "4921646949899aa7",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-has-full-participation-wednesday-myles-garrett-limited-in-return",
-      "title": "Matthew Stafford has full participation Wednesday; Myles Garrett limited in return",
+      "title": "Matthew Stafford has full participation with elbow injury; Myles Garrett limited in return",
       "summary": "Rams coach Sean McVay wouldn't allow much about the ice pack on quarterback Matthew Stafford's arm after Sunday's win over the Chargers other than to say it was soreness.",
       "publishedAt": "2026-11-05T01:20:24Z",
       "teamIds": [
@@ -1595,6 +1626,15 @@
       ]
     },
     {
+      "id": "5ac981df28f9a987",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
+      "title": "2026 midseason rookie grades: Ranking the early hits, misses and biggest surprises",
+      "summary": "Grading every first-round pick after eight weeks, from breakout stars to disappointing starts. Plus, 10 Day 2 and Day 3 rookies making their mark.",
+      "publishedAt": "2026-11-03T21:15:29Z",
+      "teamIds": []
+    },
+    {
       "id": "f009d7d03bc5aa15",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-bets-week-9-2026",
@@ -1615,46 +1655,6 @@
       "publishedAt": "2026-11-03T21:02:18Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "df277fcd3a5c2549",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-huntley-could-land-on-injured-reserve",
-      "title": "Tyler Huntley could land on injured reserve",
-      "summary": "Lamar Jackson has not undergone surgery on his right thumb yet.",
-      "publishedAt": "2026-11-03T21:01:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "63d30dac53e684f5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
-      "title": "Week 9 Power Rankings: Updated 1-32 poll, plus the best in-season trade acquisitions ever",
-      "summary": "How does every team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-      "publishedAt": "2026-11-03T20:56:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "c29f98f7534250df",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-      "title": "🏈 Seven things Solak thinks for Week 9",
-      "summary": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-      "publishedAt": "2026-11-03T20:56:51Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "90852523561a1c8e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-says-joe-fagnano-will-be-ravens-qb-on-thursday-night",
-      "title": "Joe Fagnano will be the Ravens QB on Thursday night",
-      "summary": "Lamar Jackson and Tyler Huntley are both injured, so the rookie is the next man up.",
-      "publishedAt": "2026-11-03T20:44:41Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
