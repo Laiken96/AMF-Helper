@@ -1,7 +1,93 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T15:47:19Z",
+  "updatedAt": "2026-11-05T16:47:19Z",
   "items": [
+    {
+      "id": "54286e40ccedb345",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-robinson-remains-limited-on-thursday-injury-report",
+      "title": "Brian Robinson remains limited on Thursday injury report",
+      "summary": "Playing in Spain on Sunday, the Falcons held a full practice overseas on Thursday after staging a walk-through on Wednesday.",
+      "publishedAt": "2026-11-05T16:35:40Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "03b3ad5fc7900f15",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/some-wonder-whether-the-49ers-are-in-play-for-jonathan-taylor",
+      "title": "Some wonder whether the 49ers are in play for Jonathan Taylor",
+      "summary": "As the trade deadline creeps closer, some think a high-profile team is lurking as to the biggest name that remains potentially available.",
+      "publishedAt": "2026-11-05T16:33:11Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "a573ae6e766bafad",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-is-unlikely-to-play-in-week-9",
+      "title": "Mike Evans is unlikely to play in Week 9",
+      "summary": "It is set to be another week without wide receiver Mike Evans for the 49ers.",
+      "publishedAt": "2026-11-05T16:30:53Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "8a3bb6063bf7036d",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-predictions-best-bets-today-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-05T16:28:01Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "713c4f7ca9c6a294",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/packers-josh-jacobs-addresses-latest-allegations",
+      "title": "Josh Jacobs addresses latest allegations after being accused of abuse by three more women",
+      "summary": "Jacobs and his attorneys dismissed the allegations as false",
+      "publishedAt": "2026-11-05T16:21:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "d56698b772fa6a09",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-nfl-week-9-thursday-night-football",
+      "title": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for NFL Week 9 Thursday Night Football",
+      "summary": "We highlight some first touchdown scorer prediction markets at Kalshi for Jaguars vs. Ravens on Thursday Night Football",
+      "publishedAt": "2026-11-05T16:06:33Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "7bebcaa6ec3b5b7b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-9-2026-nfl-picks",
+      "title": "PFT's Week 9 2026 NFL picks",
+      "summary": "A week after 13-1, here's hoping there won't be a 1-14 backslide.",
+      "publishedAt": "2026-11-05T15:56:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "18117f758ebd0c51",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-ive-coached-rams-for-10-years-this-is-the-worst-for-injuries-to-key-players",
+      "title": "Sean McVay: I've coached Rams for 10 years, this is the worst for injuries to key players",
+      "summary": "Rams head coach Sean McVay says he's never had to manage a team dealing with as many injuries to important players as this year's team.",
+      "publishedAt": "2026-11-05T15:49:03Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "5ac981df28f9a987",
       "source": "cbs",
@@ -1579,96 +1665,6 @@
       "summary": "Russell Wilson interviewed for the head coaching job at NC State on Tuesday, joining Philip Rivers as prominent candidates, sources told ESPN.",
       "publishedAt": "2026-11-04T01:42:25Z",
       "teamIds": []
-    },
-    {
-      "id": "a62de1045e2209ab",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-reverse-course-on-high-maintenance-c-j-gardner-johnson",
-      "title": "Bills reverse course on \"high-maintenance\" C.J. Gardner-Johnson",
-      "summary": "The Bills said they'd be keeping safety C.J.",
-      "publishedAt": "2026-11-04T01:40:06Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "be7de3701b2b2bc9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-russell-wilson-interviews-for-nc-state-head-coaching-job",
-      "title": "Report: Russell Wilson interviews for NC State head-coaching job",
-      "summary": "\"Let Russ coach.\"",
-      "publishedAt": "2026-11-04T00:55:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "372898f5bd2a30a3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/iowa-coach-kirk-ferentz-expresses-support-for-former-hawkeyes-lb-jack-campbell",
-      "title": "Iowa coach Kirk Ferentz expresses support for former Hawkeyes LB Jack Campbell",
-      "summary": "Anyone who follows football and who cares about the men who play the game remains deeply concerned about the health and well-being of Lions linebacker Jack Campbell, who remains hospitalized after suffering a neck injury during Sunday's game against the Vikings.",
-      "publishedAt": "2026-11-04T00:31:22Z",
-      "teamIds": [
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "a084e10a8d8157de",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-broncos-racks-up-28-175-million-for-cbs",
-      "title": "Chiefs-Broncos racks up 28.175 million for CBS",
-      "summary": "To no surprise, the top late-afternoon game from Week 8 of the 2026 NFL season generated very big numbers.",
-      "publishedAt": "2026-11-04T00:13:45Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "dbe9c6c7b4cb1c37",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-sign-ol-blake-freeland-off-bengals-practice-squad",
-      "title": "Jets sign OL Blake Freeland off Bengals' practice squad",
-      "summary": "The Jets signed offensive tackle Blake Freeland off the Bengals' practice squad, the team announced Tuesday.",
-      "publishedAt": "2026-11-03T23:11:41Z",
-      "teamIds": [
-        "4",
-        "20"
-      ]
-    },
-    {
-      "id": "61d0c7d1f6f2a351",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-put-lb-jimmy-rolder-on-ir-waive-db-bishop-fitzgerald",
-      "title": "Lions put LB Jimmy Rolder on IR, waive DB Bishop Fitzgerald",
-      "summary": "The Lions announced that linebacker Jimmy Rolder suffered a season-ending hamstring injury during Sunday's win over the Vikings and they moved him to the injured reserve list.",
-      "publishedAt": "2026-11-03T23:04:32Z",
-      "teamIds": [
-        "8",
-        "16"
-      ]
-    },
-    {
-      "id": "b208470730c44c75",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-waive-cb-jakorian-bennett-off-of-injured-reserve",
-      "title": "Eagles waive CB Jakorian Bennett off of injured reserve",
-      "summary": "Cornerback Jakorian Bennett returned to practice a few weeks ago, but he won't be returning to the Eagles lineup.",
-      "publishedAt": "2026-11-03T22:57:48Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "23870820613a7190",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50370763/sources-cards-jeremiyah-love-headed-ir-4-5-weeks",
-      "title": "Cardinals rookie RB Love placed on IR, out 4-5 weeks with high ankle sprain",
-      "summary": "Cardinals running back Jeremiyah Love was placed on injured reserve because of a high ankle sprain that will sideline the rookie for four to five weeks.",
-      "publishedAt": "2026-11-03T22:55:32Z",
-      "teamIds": [
-        "22"
-      ]
     }
   ]
 }
