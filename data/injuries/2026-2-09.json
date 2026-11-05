@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T21:30:54Z",
+    "takenAt": "2026-11-05T21:50:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1760,7 +1760,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3139477",
@@ -2079,7 +2079,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4427095",
@@ -2310,6 +2310,16 @@
     },
     {
       "gameId": "401873045",
+      "athleteId": "15847",
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "teamAbbr": "KC",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873045",
       "athleteId": "4569618",
       "name": "Garrett Wilson",
       "pos": "WR",
@@ -2347,6 +2357,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873049",
+      "athleteId": "4429023",
+      "name": "MarShawn Lloyd",
+      "pos": "RB",
+      "teamAbbr": "GB",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     }
   ]
 }
