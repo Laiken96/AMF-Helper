@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T20:42:44Z",
+  "updatedAt": "2026-11-05T21:47:21Z",
   "items": [
+    {
+      "id": "3aa8e10e1a861e5a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-te-harold-fannin-to-injury-report-deshaun-watson-remains-out",
+      "title": "Browns add TE Harold Fannin to injury report, Deshaun Watson remains out",
+      "summary": "The Browns added their leading receiver to the injury report on Thursday.",
+      "publishedAt": "2026-11-05T21:35:32Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "8fd380aaa097e45d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-doesnt-practice-says-hes-good-for-sunday",
+      "title": "Malik Nabers doesn't practice, says he's good for Sunday",
+      "summary": "Giants wide receiver Malik Nabers was named the NFC offensive player of the month for October on Thursday, but he didn't take part in practice with the team.",
+      "publishedAt": "2026-11-05T21:25:25Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "12db3185426f77e5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-add-lt-tristan-wirfs-to-the-practice-report-with-a-toe-injury",
+      "title": "Bucs add LT Tristan Wirfs to the practice report with a toe injury",
+      "summary": "The Buccaneers added left tackle Tristan Wirfs to the injury report on Thursday.",
+      "publishedAt": "2026-11-05T21:14:39Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "dad3076457a06f47",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-put-lamar-jackson-tyler-huntley-on-ir-sign-austin-reed-to-active-roster",
+      "title": "Ravens put Lamar Jackson, Tyler Huntley on IR; sign Austin Reed to active roster",
+      "summary": "Reed signed with the Ravens this week and is set to be Joe Fagnano's backup Thursday night.",
+      "publishedAt": "2026-11-05T21:14:10Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "e9c6659b4a9cafb3",
       "source": "pft",
@@ -22,6 +66,18 @@
       "publishedAt": "2026-11-05T20:33:22Z",
       "teamIds": [
         "22"
+      ]
+    },
+    {
+      "id": "ceaadda24f7eac3b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-jaguars-vs-ravens-nfl-week-9-tnf-heat-vs-warriors-more",
+      "title": "Today's top games to watch, best bets, odds: Jaguars vs. Ravens NFL Week 9 TNF, Heat vs. Warriors, more",
+      "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-05T20:30:51Z",
+      "teamIds": [
+        "33",
+        "30"
       ]
     },
     {
@@ -1622,58 +1678,6 @@
       "teamIds": [
         "33",
         "24"
-      ]
-    },
-    {
-      "id": "b53bc3a5280f381d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-james-pearce-as-a-full-practice-participant",
-      "title": "Falcons list James Pearce as a full practice participant",
-      "summary": "The Falcons held a walkthrough upon arriving in Madrid on Wednesday and they release their estimated practice report for the day after that session came to an end.",
-      "publishedAt": "2026-11-04T16:15:04Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "2790dbafda8a0d5f",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50378429/facts-feelings-fantasy-advice-week-9",
-      "title": "Facts vs. Feelings: Dissecting eight potential lineup conundrums for Week 9",
-      "summary": "Breaking down the matchup upside and downside for Dak Prescott, Ashton Jeanty, Jonah Coleman, Nico Collins, Ladd McConkey, Omar Cooper Jr., Chig Okonkwo and Greg Dulcich.",
-      "publishedAt": "2026-11-04T16:05:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "f59785cc4d38fe4c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50371800/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
-      "title": "Matchup rankings for Week 9: Upgrade Chase Brown, be wary of Josh Jacobs, DJ Moore",
-      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
-      "publishedAt": "2026-11-04T16:05:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "da0d6a9c36e1c0e2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50309394/john-harbaugh-new-york-giants-pushing-right-buttons",
-      "title": "Coach John Harbaugh is pushing all the right buttons for the Giants",
-      "summary": "The coach's culture of accountability and expectations has New York (4-2-1) in first place in the NFC East.",
-      "publishedAt": "2026-11-04T15:44:42Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "f8c930887260a7ba",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50371759/nfl-seahawks-bears-sam-darnold-pressure",
-      "title": "Sam Darnold struggling under pressure, but Seahawks preaching patience with O-line",
-      "summary": "Seattle's trade for Quenton Nelson last week shuffled the offensive line ahead of its decisive loss to the Bears. Will the pass protection get better?",
-      "publishedAt": "2026-11-04T15:44:42Z",
-      "teamIds": [
-        "3",
-        "26"
       ]
     }
   ]
