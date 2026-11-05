@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T02:47:21Z",
+  "updatedAt": "2026-11-05T04:47:18Z",
   "items": [
+    {
+      "id": "fb7691ddc5873d85",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-confirms-jauan-jennings-decided-not-to-pursue-trade-back-to-49ers",
+      "title": "Kyle Shanahan confirms Jauan Jennings decided not to pursue trade back to 49ers",
+      "summary": "Yes, the 49ers tried to arrange a reunion with receiver Jauan Jennings.",
+      "publishedAt": "2026-11-05T03:52:26Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "72a5b2796b781ddc",
       "source": "pft",
@@ -1644,17 +1655,6 @@
       "teamIds": [
         "12",
         "28"
-      ]
-    },
-    {
-      "id": "022d8bbd735925cc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-bears-caleb-williams-gave-fight-against-nfl-over-cleats",
-      "title": "Why Bears' Caleb Williams gave up his fight against the NFL over his unapproved cleats",
-      "summary": "For the first time this season, Caleb Williams actually followed the NFL's uniform policy",
-      "publishedAt": "2026-11-03T21:02:18Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
