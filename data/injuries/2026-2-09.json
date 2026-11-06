@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T16:30:54Z",
+    "takenAt": "2026-11-06T17:01:09Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1962,8 +1962,8 @@
         "kickoffUtc": "2026-11-08T21:25:00Z",
         "players": [
           {
-            "athleteId": "2578570",
-            "name": "Jacoby Brissett",
+            "athleteId": "4038524",
+            "name": "Gardner Minshew II",
             "pos": "QB",
             "teamId": "22",
             "teamAbbr": "ARI",
