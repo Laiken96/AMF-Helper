@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T02:47:19Z",
+  "updatedAt": "2026-11-06T03:47:17Z",
   "items": [
+    {
+      "id": "32b677e789668c6e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-rule-out-kyle-hamilton-with-a-hip-injury",
+      "title": "Ravens rule out Kyle Hamilton with a hip injury",
+      "summary": "Ravens safety Kyle Hamilton was injured in the second quarter and briefly returned after halftime.",
+      "publishedAt": "2026-11-06T03:34:15Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "b05792d7f0b0cabd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-moves-to-seventh-on-the-nfls-all-time-rushing-list",
+      "title": "Derrick Henry moves to seventh on the NFL's all-time rushing list",
+      "summary": "The Ravens running back passed Jerome Bettis (13,662) and LaDainian Tomlinson (13,684).",
+      "publishedAt": "2026-11-06T03:08:44Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "fb92b658bf53b002",
       "source": "pft",
@@ -1666,29 +1688,6 @@
       "teamIds": [
         "22",
         "26"
-      ]
-    },
-    {
-      "id": "f8ec2a11dc3bad63",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-out-week-9-with-quad-injury-drew-lock-in-line-to-start",
-      "title": "Sam Darnold out Week 9 with quad injury, Drew Lock in line to start",
-      "summary": "HC Mike Macdonald said Darnold also suffered a cracked rib early in Monday's loss to the Bears.",
-      "publishedAt": "2026-11-04T19:05:28Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "85933e9f8a1e3412",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-s-quentin-lake-justin-herbert-was-throwing-deli-meat-out-there-last-sunday",
-      "title": "Rams S Quentin Lake: Justin Herbert was \"throwing deli meat out there\" last Sunday",
-      "summary": "It's been a rough season for Chargers quarterback Justin Herbert and the Rams took advantage of it last Sunday.",
-      "publishedAt": "2026-11-04T18:59:27Z",
-      "teamIds": [
-        "24",
-        "14"
       ]
     }
   ]
