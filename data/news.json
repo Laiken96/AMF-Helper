@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T01:37:05Z",
+  "updatedAt": "2026-11-06T02:47:19Z",
   "items": [
+    {
+      "id": "fb92b658bf53b002",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-jaguars-lead-ravens-17-3-at-halftime",
+      "title": "Thursday Night Football: Jaguars lead Ravens 17-3 at halftime",
+      "summary": "Jaguars QB Trevor Lawrence was 9-of-15 for 197 yards and a touchdown in the first half.",
+      "publishedAt": "2026-11-06T02:42:56Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "330db683d8749bbc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-garrett-remains-limited-participant-thursday",
+      "title": "Myles Garrett remains limited participant Thursday",
+      "summary": "Rams outside linebacker Myles Garrett remained a limited participant in Thursday's practice.",
+      "publishedAt": "2026-11-06T01:55:29Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "df433a3de3ded4cd",
       "source": "pft",
@@ -1667,26 +1690,6 @@
         "24",
         "14"
       ]
-    },
-    {
-      "id": "7bc66a5ea289caa0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jets-garrett-wilson-enters-concussion-protocol",
-      "title": "Jets' Garrett Wilson enters concussion protocol a week before 2026 NFL trade deadline",
-      "summary": "Could Wilson's status as potential trade bait be impacted by entering the concussion protocol?",
-      "publishedAt": "2026-11-04T18:56:51Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "352e43ef613be572",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-76ers-pistons-nba-college-football-wednesday",
-      "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass for 76ers-Pistons, NBA, college football",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NBA, college football, NFL betting on Wednesday",
-      "publishedAt": "2026-11-04T18:49:29Z",
-      "teamIds": []
     }
   ]
 }
