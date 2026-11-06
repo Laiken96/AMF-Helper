@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T12:47:25Z",
+  "updatedAt": "2026-11-06T13:47:21Z",
   "items": [
+    {
+      "id": "e6e81ab8fcf2d1f1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-james-pearce-divine-diablo-as-questionable-for-sunday",
+      "title": "Falcons list James Pearce, Divine Diablo as questionable for Sunday",
+      "summary": "Falcons defensive coordinator Jeff Ulbrich said this week that the Falcons plan to use linebacker James Pearce in a pass rushing role against the Bengals in Madrid this Sunday, but the team didn't guarantee he'll be playing on their final injury report of the week.",
+      "publishedAt": "2026-11-06T13:41:00Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "9a85ea5bff18a878",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-favorites-underdogs-parlays-for-week-9-feature-packers-patriots-bills-vikings",
+      "title": "NFL odds, picks, predictions: Favorites, underdogs parlays for Week 9 feature Packers-Patriots, Bills-Vikings",
+      "summary": "SportsLine football expert Mike Tierney gives out his favorite parlays for Week 9 of the NFL season",
+      "publishedAt": "2026-11-06T13:00:54Z",
+      "teamIds": [
+        "2",
+        "9",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "31309afd7411e13e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/cfl-finals-odds-picks-proven-expert-provides-best-bets-for-winnipeg-vs-montreal-bc-vs-edmonton",
+      "title": "CFL finals odds, picks: Proven expert provides best bets for Winnipeg vs. Montreal, BC vs. Edmonton",
+      "summary": "SportsLine football expert Emory Hunt gives out his best bets for the CFL division finals ahead of the Grey Cup",
+      "publishedAt": "2026-11-06T12:45:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "a74f588fedd7a700",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/giants-malik-nabers-ballin-with-backup-quarterbacks-jj-mccarthy",
+      "title": "Ballin' with backups: Malik Nabers is most QB proof WR since Larry Fitzgerald, DeAndre Hopkins",
+      "summary": "Malik Nabers has four straight 100-yard receiving games with backup QBs entering Sunday's game vs. Philadelphia",
+      "publishedAt": "2026-11-06T12:44:00Z",
+      "teamIds": []
+    },
     {
       "id": "7a35b00b73e22ef8",
       "source": "pft",
@@ -1635,51 +1679,6 @@
       "publishedAt": "2026-11-04T20:55:10Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "04484f005574e3be",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/agents-take-whats-next-lamar-jackson-ravens-contract",
-      "title": "Agent's Take: What's next between Lamar Jackson, Ravens after yet another injury",
-      "summary": "Jackson's contract with the Ravens expires after the 2027 season, but can he and Baltimore reach an agreement before then? What happens if they can't?",
-      "publishedAt": "2026-11-04T20:53:47Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "e02bf6ac5dc2b853",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jacoby Brissett heads to Baltimore",
-      "summary": "Track every completed deal before the Nov. 10 deadline, including Chicago's blockbuster addition of Jeffery Simmons and the Colts' trades of Quenton Nelson and DeForest Buckner",
-      "publishedAt": "2026-11-04T20:49:09Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "e597da1a455eb9fc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-open-21-day-practice-window-for-lb-denzel-perryman",
-      "title": "Chargers open 21-day practice window for LB Denzel Perryman",
-      "summary": "The Chargers opened the 21-day practice window for tight end David Njoku and linebacker Denzel Perryman, coach Jim Harbaugh announced Wednesday.",
-      "publishedAt": "2026-11-04T20:39:23Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "923b5944b21dac5b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-list-bhayshul-tuten-travon-walker-as-questionable-for-thursday-night",
-      "title": "Jaguars list Bhayshul Tuten, Travon Walker as questionable for Thursday night",
-      "summary": "The Jaguars will be making gameday calls about a pair of starters before facing the Ravens on Thursday night.",
-      "publishedAt": "2026-11-04T20:25:34Z",
-      "teamIds": [
-        "33",
-        "30"
       ]
     }
   ]
