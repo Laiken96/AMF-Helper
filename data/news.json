@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T14:47:21Z",
+  "updatedAt": "2026-11-06T15:47:28Z",
   "items": [
+    {
+      "id": "3531ca2754acfa64",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-has-not-yet-reinstated-brandon-aiyuk-from-reserve-left-squad",
+      "title": "NFL has not yet reinstated Brandon Aiyuk from reserve/left squad list",
+      "summary": "It's supposed to be a simple, administrative matter.",
+      "publishedAt": "2026-11-06T15:38:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "4530929d5ddd2ecf",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-76ers-cavaliers-nba-new-mexico-nevada-friday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for 76ers-Cavaliers, NBA, New Mexico-Nevada Friday",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, and NFL betting on Friday",
+      "publishedAt": "2026-11-06T15:12:07Z",
+      "teamIds": []
+    },
+    {
+      "id": "6c7ab66afd68ca83",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-i-told-ravens-players-there-are-no-excuses",
+      "title": "Jesse Minter: I told Ravens' players there are no excuses",
+      "summary": "No team in the NFL has been as bad as the Ravens recently: Baltimore is on a four-game losing streak, and has lost three consecutive games by more than 21 points apiece.",
+      "publishedAt": "2026-11-06T15:04:50Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "88bb8d2d14b3f753",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-underrated-games-madrid-falcons-bengals",
+      "title": "NFL Week 9 underrated games: An international game, two AFC vs. NFC showdowns to add to your watch list",
+      "summary": "A look at three games you should keep an eye on this week",
+      "publishedAt": "2026-11-06T15:00:52Z",
+      "teamIds": []
+    },
+    {
+      "id": "82f587ab45a75909",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-76ers-cavaliers-nba-new-mexico-nevada",
+      "title": "Use DraftKings promo code to get $200 bonus + NBA League Pass for 76ers-Cavaliers, NBA, New Mexico-Nevada",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NBA, college football, NFL betting on Friday",
+      "publishedAt": "2026-11-06T14:58:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "2fd24908c9146f9f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-brandon-aiyuk-return-is-complicated-by-the-money-he-owes-the-49ers",
+      "title": "The Brandon Aiyuk return is complicated by the money he owes the 49ers",
+      "summary": "On the surface, receiver Brandon Aiyuk's effort to become a free agent should be easy.",
+      "publishedAt": "2026-11-06T14:57:09Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "6fcd4e0539a3c9ab",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/texans-vs-chargers-betting-trends-picks-matchup-of-struggling-teams-to-make-nfl-history-for-wrong-reasons",
+      "title": "Texans vs. Chargers betting trends, picks: Matchup of struggling teams to make NFL history for wrong reasons",
+      "summary": "Unwanted NFL history, at least for the two teams involved, will be made Sunday when the Texans visit the Chargers",
+      "publishedAt": "2026-11-06T14:47:36Z",
+      "teamIds": [
+        "34",
+        "24"
+      ]
+    },
     {
       "id": "ed29e94b6f987036",
       "source": "cbs",
@@ -1603,83 +1673,6 @@
       "publishedAt": "2026-11-04T21:39:08Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "570b1c056ec5ea46",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-put-dl-kentavius-street-on-injured-reserve",
-      "title": "Bears put DL Kentavius Street on injured reserve",
-      "summary": "The Bears saw defensive lineman Kentavius Street leave Monday night's win over the Seahawks with a knee injury and it is going to keep him out for an extended period of time.",
-      "publishedAt": "2026-11-04T21:37:35Z",
-      "teamIds": [
-        "3",
-        "26"
-      ]
-    },
-    {
-      "id": "2a8b5256618164e3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-nothings-changed-for-me-with-brandon-aiyuk-ive-moved-on-mentally",
-      "title": "Kyle Shanahan: Nothing's changed for me with Brandon Aiyuk, I've moved on mentally",
-      "summary": "When 49ers head coach Kyle Shanahan was asked in September if the team's injury issues at wide receiver had led him to consider bringing Brandon Aiyuk back, his answer was a strong no.",
-      "publishedAt": "2026-11-04T21:31:24Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "50370801dcefe05d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/matthew-staffords-wife-calls-out-nfl-rams-thanksgiving-eve",
-      "title": "Matthew Stafford's wife calls out NFL over apparent scheduling disadvantage given to Rams",
-      "summary": "Los Angeles will play in the NFL's first-ever Thanksgiving Eve game, which doesn't give the Rams a true bye week",
-      "publishedAt": "2026-11-04T21:27:54Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "06c41eb37854fad6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dianna-russini-gets-out-the-word-that-shes-coming-back-to-work-next-week",
-      "title": "Dianna Russini gets out the word that she's coming back to work next week",
-      "summary": "The halfway point of the 2026 NFL season arrives this weekend.",
-      "publishedAt": "2026-11-04T21:21:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "6b16c9aa22cacad3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-deshaun-watson-not-ruled-out-yet-but-shedeur-sanders-preparing-to-start",
-      "title": "Todd Monken: Deshaun Watson not ruled out yet, but Shedeur Sanders preparing to start",
-      "summary": "Browns quarterback Deshaun Watson is in the concussion protocol after self-reporting symptoms on Tuesday.",
-      "publishedAt": "2026-11-04T21:13:22Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "cfbcf0364b8f4c92",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/d-j-reed-dj-wonnum-out-of-practice-for-lions-wednesday",
-      "title": "D.J. Reed, DJ Wonnum out of practice for Lions Wednesday",
-      "summary": "The Lions were obviously without linebacker Jack Campbell at practice on Wednesday and two other key defensive players were also on the sideline as the team worked to get ready to face the Dolphins.",
-      "publishedAt": "2026-11-04T21:11:51Z",
-      "teamIds": [
-        "8",
-        "15"
-      ]
-    },
-    {
-      "id": "a7dfd02cefb5fac3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-rb-david-montgomery-wont-return-this-week",
-      "title": "Texans RB David Montgomery won't return this week",
-      "summary": "Texans coach DeMeco Ryans called David Montgomery \"week-to-week\" as the running back seeks to return from a groin injury.",
-      "publishedAt": "2026-11-04T20:59:34Z",
-      "teamIds": [
-        "34"
       ]
     }
   ]
