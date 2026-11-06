@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T17:47:22Z",
+  "updatedAt": "2026-11-06T18:47:22Z",
   "items": [
+    {
+      "id": "0e6890dbbfeecf4b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-issue-new-statement-on-stadium-that-officially-puts-illinois-back-in-play",
+      "title": "Bears issue new statement on stadium that officially puts Illinois back in play",
+      "summary": "Indiana is no longer the \"sole focus\" for a new venue.",
+      "publishedAt": "2026-11-06T18:39:58Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "3d054f3a03369891",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shedeur-sanders-to-start-for-the-browns",
+      "title": "Shedeur Sanders to start for the Browns",
+      "summary": "Deshaun Watson will be listed as questionable, remains in concussion protocol.",
+      "publishedAt": "2026-11-06T18:31:33Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "a98334b929f7d4d6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-to-miss-second-straight-game-for-patriots",
+      "title": "A.J. Brown to miss second straight game for Patriots",
+      "summary": "It will be another Sunday without wide receiver A.J.",
+      "publishedAt": "2026-11-06T18:23:10Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "8f2078ef4b761171",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-scrambles-to-rectify-his-comments-about-coaching-pay",
+      "title": "Jerry Jones scrambles to rectify his comments about coaching pay",
+      "summary": "The gaslighting of Cowboys fans continues.",
+      "publishedAt": "2026-11-06T18:17:24Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "e5b3f07efaf162e3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/myles-garrett-injury-status-rams-week-9-vs-commanders",
+      "title": "Myles Garrett on track to be activated ahead of Rams Week 9 matchup vs. Commanders, per report",
+      "summary": "Los Angeles could be getting its star pass rusher back",
+      "publishedAt": "2026-11-06T18:03:08Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
     {
       "id": "3254fd0dd067b775",
       "source": "pft",
@@ -1630,61 +1686,6 @@
       "publishedAt": "2026-11-05T03:52:26Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "72a5b2796b781ddc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-young-a-full-participant-but-with-an-ankle-injury",
-      "title": "Bryce Young a full participant but with an ankle injury",
-      "summary": "Bryce Young was listed with a knee injury on the Panthers' practice reports over the past four weeks.",
-      "publishedAt": "2026-11-05T02:31:51Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "0756a2a38bc57a47",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jalen-hurts-makes-an-appearance-at-team-facility",
-      "title": "Report: Jalen Hurts makes an appearance at team facility",
-      "summary": "Eagles quarterback Jalen Hurts made an appearance at the team's practice facility on Wednesday, Tim McManus of ESPN reports.",
-      "publishedAt": "2026-11-05T02:03:25Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "a342294ae2467f5f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-theres-a-lot-of-stuff-being-said-about-me-thats-completely-false",
-      "title": "Josh Jacobs: \"There's a lot of stuff being said about me that's completely false\"",
-      "summary": "On Friday, Wisconsin authorities released documents in the Josh Jacobs criminal case that included three allegations against him from other women.",
-      "publishedAt": "2026-11-05T01:47:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "620f66bea140de0e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-justin-herbert-respond-to-quentin-lakes-seeing-ghosts-critique",
-      "title": "Jim Harbaugh, Justin Herbert respond to Quentin Lake's \"seeing ghosts\" critique",
-      "summary": "As the football-following world tries to figure out the problem(s) with Chargers quarterback Justin Herbert, Rams safety Quentin Lake provided a scathing critique of Herbert's most recent performance, in a 24-9 loss to the Rams.",
-      "publishedAt": "2026-11-05T01:31:32Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "4921646949899aa7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-has-full-participation-wednesday-myles-garrett-limited-in-return",
-      "title": "Matthew Stafford has full participation with elbow injury; Myles Garrett limited in return",
-      "summary": "Rams coach Sean McVay wouldn't allow much about the ice pack on quarterback Matthew Stafford's arm after Sunday's win over the Chargers other than to say it was soreness.",
-      "publishedAt": "2026-11-05T01:20:24Z",
-      "teamIds": [
-        "24",
-        "14"
       ]
     }
   ]
