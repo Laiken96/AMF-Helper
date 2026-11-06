@@ -1142,12 +1142,23 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T01:20:32Z",
+    "takenAt": "2026-11-06T01:30:50Z",
     "games": [
       {
         "gameId": "401873037",
         "kickoffUtc": "2026-11-06T01:15:00Z",
         "players": [
+          {
+            "athleteId": "3043078",
+            "name": "Derrick Henry",
+            "pos": "RB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
           {
             "athleteId": "4428512",
             "name": "Kedon Slovis",
