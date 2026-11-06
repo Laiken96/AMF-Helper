@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T04:47:17Z",
+  "updatedAt": "2026-11-06T05:47:21Z",
   "items": [
+    {
+      "id": "93506ea696bb86da",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-jefferson-says-his-frustration-came-from-wanting-to-win",
+      "title": "Justin Jefferson says his frustration came from \"wanting to win\"",
+      "summary": "Vikings receiver Justin Jefferson engaged in a rare display of frustration late in Sunday's 19-15 loss to the Lions.",
+      "publishedAt": "2026-11-06T05:22:55Z",
+      "teamIds": [
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "9dcbdb9152889d2f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-kittle-is-skeptical-that-brandon-aiyuk-will-get-in-the-team-facility",
+      "title": "George Kittle is skeptical that Brandon Aiyuk will \"get in\" the team facility",
+      "summary": "As 49ers receiver Brandon Aiyuk attempts to lay the foundation for a return to the NFL, at least one other 49ers player has expressed skepticism about Aiyuk's plan.",
+      "publishedAt": "2026-11-06T05:03:53Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "cb0c565c22d406be",
       "source": "pft",
@@ -1665,28 +1688,6 @@
       "publishedAt": "2026-11-04T19:06:27Z",
       "teamIds": [
         "19",
-        "21"
-      ]
-    },
-    {
-      "id": "7f809e05dc10dcca",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380113/jets-wr-wilson-protocol-rb-hall-trending-return",
-      "title": "Jets star WR Wilson in concussion protocol but RB Hall trending toward return",
-      "summary": "Jets wide receiver Garrett Wilson is in the concussion protocol, but running back Breece Hall is \"trending in the right direction\" toward returning.",
-      "publishedAt": "2026-11-04T19:06:27Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "d04160626261a71d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380614/coach-sirianni-feels-complete-support-eagles-owner-lurie",
-      "title": "Coach Sirianni feels 'complete support' from Eagles owner Lurie",
-      "summary": "Eagles coach Nick Sirianni says he feels \"complete support\" from team owner Jeffrey Lurie despite Philadelphia's current six-game losing streak.",
-      "publishedAt": "2026-11-04T19:06:27Z",
-      "teamIds": [
         "21"
       ]
     }
