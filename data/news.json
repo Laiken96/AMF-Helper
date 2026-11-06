@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T11:47:17Z",
+  "updatedAt": "2026-11-06T12:47:25Z",
   "items": [
+    {
+      "id": "7a35b00b73e22ef8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-lb-foye-oluokun-we-cant-let-wins-mask-stuff",
+      "title": "Jaguars LB Foye Oluokun: We can't let wins mask stuff",
+      "summary": "The Jaguars have taken two more steps toward the playoffs over the last two weeks and they've done it in impressive fashion.",
+      "publishedAt": "2026-11-06T12:30:22Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "246a799cb609f6a5",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/100-days-until-super-bowl-lxi-100-things-to-know",
+      "title": "100 days until Super Bowl LXI: 100 things to know about the playoff race, contenders, predictions",
+      "summary": "We are officially 100 days from the Super Bowl. Here are 100 facts and storylines to get you ready",
+      "publishedAt": "2026-11-06T12:25:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "106633f7e601b173",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-is-having-by-far-the-best-season-of-his-career",
+      "title": "Trevor Lawrence is having by far the best season of his career",
+      "summary": "Trevor Lawrence has so much talent for the quarterback position that if freshmen could declare for the NFL draft, Lawrence probably would have been the first overall pick in 2019, when he had just led Clemson to a national championship as a true freshman.",
+      "publishedAt": "2026-11-06T12:23:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "2d3ee10dd6d0383a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-odds-how-to-watch-streaming-expert-picks",
+      "title": "NFL Week 9 odds, predictions, expert picks, best bets, teasers and more",
+      "summary": "CBS Sports experts pick every Week 9 game against the spread, with most backing Green Bay to upset New England",
+      "publishedAt": "2026-11-06T12:18:38Z",
+      "teamIds": []
+    },
+    {
+      "id": "ceae0c8622fa1b9e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-i-havent-mentioned-going-somewhere-else-lets-try-to-get-better",
+      "title": "Derrick Henry: I haven't mentioned going somewhere else, let's try to get better",
+      "summary": "The Ravens got blown out for the third straight game on Thursday night and they lost their fourth straight overall, which led running back Derrick Henry to call it the \"same story\" after the Jaguars rolled to a 33-10 win in Baltimore.",
+      "publishedAt": "2026-11-06T12:06:28Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "9081415b7bbe6e1b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-bold-predictions-joe-milton-eagles-vikings-josh-allen",
+      "title": "NFL Week 9 bold predictions: Joe Milton-led Eagles upset first-place Giants, Vikings torture Josh Allen",
+      "summary": "Plus, the Dolphins stifle Jared Goff and the roaring Lions offense",
+      "publishedAt": "2026-11-06T11:49:40Z",
+      "teamIds": [
+        "8",
+        "15",
+        "16",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "4e14b93a91bac3b5",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/tee-higgins-states-2026-bengals-offense",
+      "title": "Tee Higgins is putting up historic numbers, and it's changing the Bengals offense",
+      "summary": "Higgins has always been one of the NFL's best contested-catch receivers, but new dimensions in his game have him producing at a historic pace",
+      "publishedAt": "2026-11-06T11:28:02Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "76d72b035fef4ae4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-best-bets-drake-london-madrid-broncos",
+      "title": "Week 9 best bets: Drake London stars in Madrid, Broncos keep rolling with win over Panthers",
+      "summary": "Plus, a backup RB you should keep an eye on",
+      "publishedAt": "2026-11-06T11:25:19Z",
+      "teamIds": [
+        "29",
+        "7"
+      ]
+    },
     {
       "id": "515ba4440fe3504f",
       "source": "pft",
@@ -11,6 +99,28 @@
       "publishedAt": "2026-11-06T11:01:19Z",
       "teamIds": [
         "33"
+      ]
+    },
+    {
+      "id": "2e0930f3c26c50cf",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-realistic-dream-trade-scenario-playoff-contenders",
+      "title": "2026 NFL trade deadline: One realistic, one pipe dream trade scenario for every playoff contender",
+      "summary": "What does each contender need to put them over the top?",
+      "publishedAt": "2026-11-06T11:00:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "99a91f1db32aa3ab",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-odds-best-bets-expert-picks",
+      "title": "NFL Week 9 expert picks, best bets: Bears beat down Bucs, Saints get on track with a win",
+      "summary": "Jordan Dajani gives his picks for Week 9 of the 2026 NFL season",
+      "publishedAt": "2026-11-06T11:00:51Z",
+      "teamIds": [
+        "3",
+        "18",
+        "27"
       ]
     },
     {
@@ -1019,14 +1129,14 @@
       "id": "9c2b30f05aad519a",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-experts-face-off-jaguars-ravens-bengals-falcons",
-      "title": "NFL Week 9 picks: Our experts face off on Jaguars at Ravens, Bengals vs. Falcons and more",
+      "title": "NFL Week 9 picks: Our experts face off on Bengals vs. Falcons, Packers at Patriots and more",
       "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
       "publishedAt": "2026-11-05T14:05:55Z",
       "teamIds": [
         "1",
-        "33",
         "4",
-        "30"
+        "9",
+        "17"
       ]
     },
     {
@@ -1570,121 +1680,6 @@
       "teamIds": [
         "33",
         "30"
-      ]
-    },
-    {
-      "id": "af533515af34c4b3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jacoby-brissett-trade-ravens-cardinals-lamar-jackson",
-      "title": "Jacoby Brissett trade: Ravens strike deal for Cardinals QB amid injury crisis",
-      "summary": "Baltimore is expected to acquire the veteran quarterback from Arizona after injuries to Lamar Jackson, Tyler Huntley and Joe Fagnano decimated its depth chart",
-      "publishedAt": "2026-11-04T20:23:16Z",
-      "teamIds": [
-        "22",
-        "33"
-      ]
-    },
-    {
-      "id": "de34dd2a8fc1a17c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-sign-lbs-k-j-britt-joe-bachie-to-53-man-roster",
-      "title": "Lions sign LBs K.J. Britt, Joe Bachie to 53-man roster",
-      "summary": "The Lions have made a few roster moves at linebacker.",
-      "publishedAt": "2026-11-04T20:15:03Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "9525231414c44ce2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vega-ioane-set-to-play-for-ravens-thursday-night-jaylinn-hawkins-ruled-out",
-      "title": "Vega Ioane set to play for Ravens Thursday night, Jaylinn Hawkins ruled out",
-      "summary": "The Ravens are set to have right guard Vega Ioane back in the lineup on Thursday night.",
-      "publishedAt": "2026-11-04T20:13:37Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "c792b6820d436c7a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-and-jeff-hafley-agree-dolphins-now-are-like-lions-at-start-of-their-rebuild",
-      "title": "Dan Campbell and Jeff Hafley agree: Dolphins now are like Lions at start of their rebuild",
-      "summary": "In Dan Campbell's first season as the Lions' head coach, he went 3-13-1.",
-      "publishedAt": "2026-11-04T20:08:22Z",
-      "teamIds": [
-        "8",
-        "15"
-      ]
-    },
-    {
-      "id": "be2583b36b6a01ba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-finalizing-trade-for-jacoby-brissett",
-      "title": "Report: Ravens finalizing trade for Jacoby Brissett",
-      "summary": "Brissett is on his way to Baltimore after being benched by the Cardinals.",
-      "publishedAt": "2026-11-04T19:59:38Z",
-      "teamIds": [
-        "22",
-        "33"
-      ]
-    },
-    {
-      "id": "91e0720089fac246",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/eagles-joe-milton-starting-quarterback-giants-tanner-mckee",
-      "title": "Eagles to start Joe Milton at quarterback vs. Giants, replacing Tanner McKee",
-      "summary": "Milton will replace Tanner McKee and become Philadelphia's third starting quarterback of the season when the Eagles face the NFC East-leading Giants",
-      "publishedAt": "2026-11-04T19:52:44Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "bbe247c5750e9017",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/sam-darnold-out-injury-seahawks-qb-drew-lock-cardinals",
-      "title": "Sam Darnold out for Seahawks in Week 9 as Drew Lock gets another start vs. Cardinals",
-      "summary": "Darnold will sit with a quad injury, while Lock is expected to make his second start of the season despite dealing with an elbow issue.",
-      "publishedAt": "2026-11-04T19:46:41Z",
-      "teamIds": [
-        "22",
-        "26"
-      ]
-    },
-    {
-      "id": "7ad8a8c90a3c2375",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380574/dan-wetzel-dallas-cowboys-jerry-jones-owner-17-billion",
-      "title": "Wetzel: Jerry Jones' stance on coach pay is a sign he remains Cowboys' biggest problem",
-      "summary": "The owner of the most valuable sports franchise insists there's no correlation between coaching salaries and winning. Let's pause for the skepticism.",
-      "publishedAt": "2026-11-04T19:44:53Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "365091f406e8f692",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-sign-dt-ricky-barber-to-their-active-roster",
-      "title": "Commanders sign DT Ricky Barber to their active roster",
-      "summary": "The Commanders have lost a pair of defensive tackles to season-ending injuries and they added one to help fill out the ranks on Wednesday.",
-      "publishedAt": "2026-11-04T19:25:10Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "b98e6f82fad81396",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-have-to-make-a-decision-on-brandon-aiyuk-sooner-or-later",
-      "title": "49ers will have to make a decision on Brandon Aiyuk, sooner or later",
-      "summary": "With 49ers receiver Brandon Aiyuk finally doing what he should have done months ago, the ball will return to the team's court.",
-      "publishedAt": "2026-11-04T19:15:05Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
