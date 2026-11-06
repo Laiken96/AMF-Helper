@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T03:47:17Z",
+  "updatedAt": "2026-11-06T04:47:17Z",
   "items": [
+    {
+      "id": "cb0c565c22d406be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-jaguars-blow-out-ravens-33-10",
+      "title": "Thursday Night Football: Jaguars blow out Ravens 33-10",
+      "summary": "The Jaguars outgained the Ravens 319 to 227 and forced three Baltimore turnovers.",
+      "publishedAt": "2026-11-06T04:21:24Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "32b677e789668c6e",
       "source": "pft",
@@ -1676,18 +1688,6 @@
       "publishedAt": "2026-11-04T19:06:27Z",
       "teamIds": [
         "21"
-      ]
-    },
-    {
-      "id": "dd9afc6f2a2c7cc6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380713/seahawks-qb-sam-darnold-ruled-quad-injury",
-      "title": "Seahawks QB Darnold ruled out this week, will be week-to-week, coach says",
-      "summary": "Seahawks quarterback Sam Darnold will miss Sunday's game against the Arizona Cardinals because of a quad injury, coach Mike Macdonald announced Wednesday.",
-      "publishedAt": "2026-11-04T19:06:27Z",
-      "teamIds": [
-        "22",
-        "26"
       ]
     }
   ]
