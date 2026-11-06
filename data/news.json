@@ -1,7 +1,91 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T19:47:20Z",
+  "updatedAt": "2026-11-06T20:47:20Z",
   "items": [
+    {
+      "id": "0d631b744e3ca8fe",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-downs-has-no-injury-designation-george-pickens-listed-as-questionable",
+      "title": "Caleb Downs has no injury designation, George Pickens listed as questionable",
+      "summary": "Cowboys safety Caleb Downs is set to play against the Colts on Sunday.",
+      "publishedAt": "2026-11-06T20:42:51Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "52e6b8b87828c50d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-monangai-returns-to-practice-questionable-to-play-sunday",
+      "title": "Kyle Monangai returns to practice, questionable to play Sunday",
+      "summary": "Bears running back Kyle Monangai was on the practice field for the first time in a month on Friday.",
+      "publishedAt": "2026-11-06T20:33:24Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "0d622bd0f6be220c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/draft/news/is-drew-mestemaker-really-qb1-troubling-trend-lessons-from-caleb-williams-trevor-lawrence",
+      "title": "Is Drew Mestemaker really QB1? A troubling trend and lessons from Caleb Williams, Trevor Lawrence",
+      "summary": "The Oklahoma State QB has become a popular QB1 choice, but his mistakes under pressure offer a warning – and some fascinating historical comparisons.",
+      "publishedAt": "2026-11-06T20:16:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "1c187d5239637ec7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-bucs-antonio-brown-takes-plea-deal-in-miami-shooting",
+      "title": "Antonio Brown avoids jail time, receives punishment after plea deal in Miami shooting",
+      "summary": "The former NFL star was accused of opening fire at a man last year",
+      "publishedAt": "2026-11-06T20:03:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "b9eac3501182a46f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-jeffery-simmons-has-had-a-dramatic-impact-on-the-bears",
+      "title": "Ben Johnson: Jeffery Simmons has had a dramatic impact on the Bears",
+      "summary": "Jeffery Simmons has only been a Bear for a week, but he's made a huge impact.",
+      "publishedAt": "2026-11-06T19:58:30Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "32ca003d489f266d",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-cavaliers-76ers-nba-new-mexico-nevada-friday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Cavaliers-76ers, NBA, New Mexico-Nevada Friday",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, and NFL betting on Friday",
+      "publishedAt": "2026-11-06T19:47:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "3dc00b78c6d5d27a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-listed-as-questionable-to-make-saints-debut-this-week",
+      "title": "Jordyn Tyson listed as questionable to make Saints debut this week",
+      "summary": "Saints first-round pick Jordyn Tyson could make his regular season debut against the Browns on Sunday, but the team will wait to make a final determination on his status.",
+      "publishedAt": "2026-11-06T19:46:26Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "3d422cc76455c8a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-jack-campbell-continues-to-improve-we-owe-it-to-him-to-prepare-to-win-sunday",
+      "title": "Dan Campbell: Jack Campbell continues to improve, we owe it to him to prepare to win Sunday",
+      "summary": "The Lions are preparing for this week's game with heavy hearts, as linebacker Jack Campbell remains hospitalized after a spinal injury on Sunday.",
+      "publishedAt": "2026-11-06T19:46:13Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "9d3bb5c2ae9e8ac5",
       "source": "pft",
@@ -1593,103 +1677,6 @@
       "publishedAt": "2026-11-05T13:58:33Z",
       "teamIds": [
         "21"
-      ]
-    },
-    {
-      "id": "14300cf00adff187",
-      "source": "cbs",
-      "url": "https://cbssports.com/college-football/news/miami-loses-malachi-toney-to-high-ankle-sprain-week-9-nfl-picks-and-latest-nba-power-rankings",
-      "title": "Miami loses Malachi Toney to high ankle sprain; Week 9 NFL picks and latest NBA Power Rankings",
-      "summary": "Plus, it's a wild ride on the midseason QB carousel around the NFL",
-      "publishedAt": "2026-11-05T13:56:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "86667415ffef046f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-upset-alert-texans-chargers-vikings-bills",
-      "title": "NFL Week 9 upset alert: Texans allow Chargers their first win, Vikings overtake Josh Allen's Bills",
-      "summary": "Plus, Denver is a road favorite that could be due for a letdown",
-      "publishedAt": "2026-11-05T13:33:54Z",
-      "teamIds": [
-        "2",
-        "34",
-        "24",
-        "16"
-      ]
-    },
-    {
-      "id": "9fb2e8024c9e8efe",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-lines-odds-totals-spreads",
-      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Ravens-Jaguars, Jets-Chiefs, Giants-Eagles",
-      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Ravens-Jaguars on TNF.",
-      "publishedAt": "2026-11-05T13:18:41Z",
-      "teamIds": [
-        "33",
-        "30",
-        "12",
-        "19",
-        "20",
-        "21"
-      ]
-    },
-    {
-      "id": "19ebb2bac2068872",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-why-ravens-should-trade-derrick-henry",
-      "title": "Why Ravens should trade Derrick Henry: Don't let Baltimore's QB woes drag down 'King Henry'",
-      "summary": "The running back should have a chance to win his elusive crown before it's too late",
-      "publishedAt": "2026-11-05T13:10:20Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "4980172c6decebea",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-playoff-picture-standings-packers-patriots-2026",
-      "title": "NFL playoff picture: Five games with the biggest postseason implications as Packers face pivotal test",
-      "summary": "SportsLine projections reveal how Packers-Patriots and four other pivotal matchups could alter postseason chances",
-      "publishedAt": "2026-11-05T13:09:54Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "5d9ec5274d3cae49",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/super-bowl-stock-report-week-9-jeffery-simmons-bears-ravens",
-      "title": "Week 9 Super Bowl stock report: Jeffery Simmons trade legitimizes Bears, QB injuries tank Ravens",
-      "summary": "We assess the NFL title race after Week 8 and identify three upcoming games that could reshape the Super Bowl picture",
-      "publishedAt": "2026-11-05T13:09:21Z",
-      "teamIds": [
-        "33",
-        "3"
-      ]
-    },
-    {
-      "id": "38174f4ec106f381",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-jaguars-ravens",
-      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Jaguars vs. Ravens",
-      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-05T13:04:19Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "386ba806bcefcf31",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-wr-jordyn-tyson-feels-more-explosive-than-i-ever-have-in-return-from-hamstring-injury",
-      "title": "Saints WR Jordyn Tyson feels \"more explosive than I ever have\" in return from hamstring injury",
-      "summary": "The Saints can use all the help they can get after a 2-5 start to the season and one ray of hope is the return of rookie wide receiver Jordyn Tyson to the practice field this week.",
-      "publishedAt": "2026-11-05T11:44:28Z",
-      "teamIds": [
-        "18"
       ]
     }
   ]
