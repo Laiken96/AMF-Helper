@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T05:47:21Z",
+  "updatedAt": "2026-11-06T09:29:56Z",
   "items": [
+    {
+      "id": "50acc17a1329f593",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-point-differential-of-108-this-season-is-50-points-better-than-any-other-team",
+      "title": "Jaguars' point differential of +108 this season is 50 points better than any other team",
+      "summary": "The Jaguars have won four games by more than 21 points this season; no other team has more than one win by more than 21 points.",
+      "publishedAt": "2026-11-06T08:52:36Z",
+      "teamIds": [
+        "30"
+      ]
+    },
     {
       "id": "93506ea696bb86da",
       "source": "pft",
@@ -24,6 +35,15 @@
       "teamIds": [
         "25"
       ]
+    },
+    {
+      "id": "211ddf7a57a5e30c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
+      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
+      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "publishedAt": "2026-11-06T05:01:00Z",
+      "teamIds": []
     },
     {
       "id": "cb0c565c22d406be",
@@ -1663,29 +1683,6 @@
       "title": "Report: Eagles to start Joe Milton at QB this week",
       "summary": "Eagles head coach Nick Sirianni said on Monday that the team would not be making a quarterback change for their Week 9 game against the Giants, but it appears he has changed his mind.",
       "publishedAt": "2026-11-04T19:11:06Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "4a78e7ee731a27e1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380067/lions-lb-campbell-full-movement-lower-body-neck-injury",
-      "title": "Lions' Campbell has full movement in lower body after neck injury",
-      "summary": "Lions All-Pro linebacker Jack Campbell released a statement Wednesday saying he has full movement in his lower body and is making progress with movement in his upper body as he recovers from a neck injury, suffered in Sunday's game.",
-      "publishedAt": "2026-11-04T19:06:27Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "5f9d52e094a2d03c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380724/sources-eagles-turn-joe-milton-starting-qb-vs-giants",
-      "title": "Sources: Slumping Eagles turn to Milton as starting QB vs. Giants",
-      "summary": "The Eagles will turn to Joe Milton as their starting QB against the Giants, sources told NFL Network and ESPN.",
-      "publishedAt": "2026-11-04T19:06:27Z",
       "teamIds": [
         "19",
         "21"
