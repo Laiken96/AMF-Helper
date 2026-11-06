@@ -1,7 +1,66 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T00:47:20Z",
+  "updatedAt": "2026-11-06T01:37:05Z",
   "items": [
+    {
+      "id": "df433a3de3ded4cd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-milton-on-his-first-start-the-nfl-is-about-being-ready-when-your-number-is-called",
+      "title": "Joe Milton on his first start: The NFL is about being ready when your number is called",
+      "summary": "Joe Milton has never started an NFL game.",
+      "publishedAt": "2026-11-06T01:34:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "f1e7f588c89ec4dc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-week-9-nfl-expert-picks-jaguars-roll-over-lamar-jackson-less-ravens-cowboys-rebound",
+      "title": "Prisco's Week 9 NFL expert picks: Bengals rout Falcons in Madrid, Cowboys rebound",
+      "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
+      "publishedAt": "2026-11-06T01:27:51Z",
+      "teamIds": [
+        "1",
+        "2",
+        "4",
+        "6",
+        "16"
+      ]
+    },
+    {
+      "id": "452d454617c43d0a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-score-on-opening-drive-for-7-0-lead-on-ravens",
+      "title": "Jaguars score on opening drive for 7-0 lead on Ravens",
+      "summary": "The Jaguars didn't waste any time in showing off on national television.",
+      "publishedAt": "2026-11-06T01:27:17Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "9012d406d00b3644",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/dak-prescott-cowboys-offensive-identity-comment-brian-schottenheimer",
+      "title": "Dak Prescott delivers blunt assessment of Cowboys' offensive identity: 'Are we proud of it? I don't know'",
+      "summary": "Prescott's frustrations could be boiling over as Dallas reaches its midseason point",
+      "publishedAt": "2026-11-06T01:19:02Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "8a9a8f212a3628b7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/best-kalshi-promo-code-cbssports55-secure-55-bonus-jaguars-vs-ravens-thursday-night-football-picks",
+      "title": "Best Kalshi promo code CBSSPORTS55: Secure $55 bonus for Jaguars vs. Ravens, Thursday Night Football picks",
+      "summary": "New Kalshi users can get a $55 bonus after making $25+ in trades on the NFL Week 9 Jaguars vs. Ravens TNF matchup",
+      "publishedAt": "2026-11-06T00:32:26Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "7fb35ad5e0bcebb2",
       "source": "cbs",
@@ -1628,60 +1687,6 @@
       "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NBA, college football, NFL betting on Wednesday",
       "publishedAt": "2026-11-04T18:49:29Z",
       "teamIds": []
-    },
-    {
-      "id": "6e7a4b61b6f52c1c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-harrison-butker-will-remain-the-chiefs-kicker",
-      "title": "Andy Reid: Harrison Butker will remain the Chiefs' kicker",
-      "summary": "Despite missing a 54-yard field goal late in Sunday's eventual loss to the Broncos, Harrison Butker will remain the Chiefs' kicker.",
-      "publishedAt": "2026-11-04T18:43:45Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "d7ec2335483ebb5f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2027-football-hall-of-fame-nominees-robert-kraft",
-      "title": "Robert Kraft named one of five contributor nominees for 2027 Pro Football Hall of Fame class",
-      "summary": "The Patriots owner is one of five contributor nominees still under consideration after falling short of induction in the previous Hall of Fame cycle",
-      "publishedAt": "2026-11-04T18:42:28Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "744e02a6fbe3ce7d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-kraft-doug-williams-among-five-contributor-nominees-advancing-in-hall-of-fame-process",
-      "title": "Robert Kraft, Doug Williams among five Contributor nominees advancing in Hall of Fame selection process",
-      "summary": "The Pro Football Hall of Fame announced five nominees who have advanced to the next round of consideration for their 2027 class on Wednesday.",
-      "publishedAt": "2026-11-04T18:41:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "bf482d5f908ac691",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-cam-lampkin-to-53-man-roster-place-dean-connors-on-ir",
-      "title": "Rams sign Cam Lampkin to 53-man roster, place Dean Connors on IR",
-      "summary": "The Rams have made a few roster moves on Wednesday.",
-      "publishedAt": "2026-11-04T18:41:03Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "61f8ae8901fb747e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-ot-braxton-jones-to-miss-rest-of-season-after-knee-surgery",
-      "title": "Bears OT Braxton Jones to miss rest of season after knee surgery",
-      "summary": "The Bears will not get offensive tackle Braxton Jones back in the lineup this season.",
-      "publishedAt": "2026-11-04T18:29:28Z",
-      "teamIds": [
-        "3"
-      ]
     }
   ]
 }

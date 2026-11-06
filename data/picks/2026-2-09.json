@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-06T00:47:19Z",
+  "updatedAt": "2026-11-06T01:37:04Z",
   "source": "espn-pickem",
   "games": [
     {
@@ -15,7 +15,7 @@
       "total": 602368,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-06T00:47:19Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873038",
@@ -65,22 +65,22 @@
       "gameId": "401873042",
       "homeId": "15",
       "awayId": "8",
-      "homeShare": 0.02,
-      "awayShare": 0.98,
-      "total": 381670,
+      "homeShare": 0.021,
+      "awayShare": 0.979,
+      "total": 581930,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-05T02:47:20Z",
+      "fetchedAt": "2026-11-06T01:37:04Z",
       "locked": false
     },
     {
       "gameId": "401873043",
       "homeId": "28",
       "awayId": "14",
-      "homeShare": 0.084,
-      "awayShare": 0.916,
-      "total": 515895,
+      "homeShare": 0.085,
+      "awayShare": 0.915,
+      "total": 578967,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-05T21:47:20Z",
+      "fetchedAt": "2026-11-06T01:37:04Z",
       "locked": false
     },
     {
@@ -120,11 +120,11 @@
       "gameId": "401873047",
       "homeId": "25",
       "awayId": "13",
-      "homeShare": 0.946,
-      "awayShare": 0.054,
-      "total": 515393,
+      "homeShare": 0.945,
+      "awayShare": 0.055,
+      "total": 578299,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-05T21:47:20Z",
+      "fetchedAt": "2026-11-06T01:37:04Z",
       "locked": false
     },
     {
@@ -142,11 +142,11 @@
       "gameId": "401873049",
       "homeId": "17",
       "awayId": "9",
-      "homeShare": 0.541,
-      "awayShare": 0.459,
-      "total": 546504,
+      "homeShare": 0.54,
+      "awayShare": 0.46,
+      "total": 575891,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-05T23:47:18Z",
+      "fetchedAt": "2026-11-06T01:37:04Z",
       "locked": false
     },
     {
@@ -164,11 +164,11 @@
       "gameId": "401873051",
       "homeId": "16",
       "awayId": "2",
-      "homeShare": 0.183,
-      "awayShare": 0.817,
-      "total": 461500,
+      "homeShare": 0.184,
+      "awayShare": 0.816,
+      "total": 575562,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-05T17:47:24Z",
+      "fetchedAt": "2026-11-06T01:37:04Z",
       "locked": false
     }
   ]

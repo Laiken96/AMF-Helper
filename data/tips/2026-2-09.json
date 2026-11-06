@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-06T00:47:18Z",
+  "updatedAt": "2026-11-06T01:37:03Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -28,8 +28,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-06T01:37:03Z"
     },
     {
       "gameId": "401873038",
