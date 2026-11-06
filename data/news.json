@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T09:29:56Z",
+  "updatedAt": "2026-11-06T11:47:17Z",
   "items": [
+    {
+      "id": "515ba4440fe3504f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henrys-production-has-plummeted-without-lamar-jackson-this-season",
+      "title": "Derrick Henry's production has plummeted without Lamar Jackson this season",
+      "summary": "Without quarterback Lamar Jackson, the Ravens want to be able to rely on running back Derrick Henry.",
+      "publishedAt": "2026-11-06T11:01:19Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "50acc17a1329f593",
       "source": "pft",
@@ -1674,18 +1685,6 @@
       "publishedAt": "2026-11-04T19:15:05Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "8edd9634c45ee184",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-eagles-to-start-joe-milton-at-qb-this-week",
-      "title": "Report: Eagles to start Joe Milton at QB this week",
-      "summary": "Eagles head coach Nick Sirianni said on Monday that the team would not be making a quarterback change for their Week 9 game against the Giants, but it appears he has changed his mind.",
-      "publishedAt": "2026-11-04T19:11:06Z",
-      "teamIds": [
-        "19",
-        "21"
       ]
     }
   ]
