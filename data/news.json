@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T17:33:38Z",
+  "updatedAt": "2026-11-06T17:47:22Z",
   "items": [
+    {
+      "id": "3254fd0dd067b775",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-myles-garrett-on-track-to-be-activated",
+      "title": "Report: Myles Garrett on track to be activated",
+      "summary": "Garrett has not played since Week 1 due to a knee injury.",
+      "publishedAt": "2026-11-06T17:37:42Z",
+      "teamIds": []
+    },
     {
       "id": "fab764edab1cf593",
       "source": "pft",
@@ -1675,18 +1684,6 @@
       "publishedAt": "2026-11-05T01:20:24Z",
       "teamIds": [
         "24",
-        "14"
-      ]
-    },
-    {
-      "id": "8d8ac41ba688d9fe",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-injury-report-micah-parsons-jaylen-watson-rams",
-      "title": "NFL Week 9 injury report: Micah Parsons returns to Packers practice, Rams lose Jaylen Watson for season",
-      "summary": "Parsons has opened his 21-day practice window, while Jackson, Sam Darnold and Deshaun Watson headline the notable quarterback injuries entering Week 9",
-      "publishedAt": "2026-11-05T01:01:12Z",
-      "teamIds": [
-        "9",
         "14"
       ]
     }
