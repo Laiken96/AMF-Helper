@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T13:47:21Z",
+  "updatedAt": "2026-11-06T14:47:21Z",
   "items": [
+    {
+      "id": "ed29e94b6f987036",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-ravens-nfl-miami-notre-dame-college-football-picks-liv-golf",
+      "title": "Jaguars rout undermanned Ravens; Miami vs. Notre Dame college football picks; LIV Golf shuts down",
+      "summary": "Plus, which teams are on upset alert for Week 9 in the NFL",
+      "publishedAt": "2026-11-06T13:48:26Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "e6e81ab8fcf2d1f1",
       "source": "pft",
@@ -1668,17 +1680,6 @@
       "publishedAt": "2026-11-04T20:59:34Z",
       "teamIds": [
         "34"
-      ]
-    },
-    {
-      "id": "ee4316078f6d5aff",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/predicting-the-full-14-team-nfl-playoff-bracket-week-9-bears",
-      "title": "Predicting the full 14-team NFL playoff bracket entering Week 9: Bears make Super Bowl run",
-      "summary": "Are the Bears the best team in the NFC? Our latest playoff projection answers that question",
-      "publishedAt": "2026-11-04T20:55:10Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
