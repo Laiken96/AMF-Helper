@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T17:01:09Z",
+    "takenAt": "2026-11-06T19:50:32Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1316,7 +1316,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4360689",
@@ -2285,16 +2285,6 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
-    },
-    {
-      "gameId": "401873039",
-      "athleteId": "5083076",
-      "name": "Harold Fannin Jr.",
-      "pos": "TE",
-      "teamAbbr": "CLE",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873044",
