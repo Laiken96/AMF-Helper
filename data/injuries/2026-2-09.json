@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T20:01:06Z",
+    "takenAt": "2026-11-06T20:50:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2056,7 +2056,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429023",
@@ -2342,6 +2342,16 @@
       "name": "Drew Lock",
       "pos": "QB",
       "teamAbbr": "SEA",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873049",
+      "athleteId": "4248528",
+      "name": "Christian Watson",
+      "pos": "WR",
+      "teamAbbr": "GB",
       "kind": "weg",
       "from": "Questionable",
       "to": null
