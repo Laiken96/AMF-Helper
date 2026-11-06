@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T02:50:38Z",
+    "takenAt": "2026-11-06T16:30:54Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1794,7 +1794,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4685247",
@@ -2334,7 +2334,7 @@
       "teamAbbr": "NYJ",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873046",
