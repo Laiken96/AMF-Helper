@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-06T01:37:04Z",
+  "updatedAt": "2026-11-06T01:47:20Z",
   "source": "espn-pickem",
   "games": [
     {
@@ -43,11 +43,11 @@
       "gameId": "401873040",
       "homeId": "11",
       "awayId": "6",
-      "homeShare": 0.132,
-      "awayShare": 0.868,
-      "total": 485396,
+      "homeShare": 0.133,
+      "awayShare": 0.867,
+      "total": 582897,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-05T18:47:20Z",
+      "fetchedAt": "2026-11-06T01:47:20Z",
       "locked": false
     },
     {

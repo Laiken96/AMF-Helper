@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "fetchedAt": "2026-11-06T01:37:02Z",
+  "fetchedAt": "2026-11-06T01:47:19Z",
   "source": "espn",
   "games": [
     {
@@ -15,9 +15,9 @@
       "homeId": "33",
       "awayId": "30",
       "status": "in_progress",
-      "statusDetail": "6:31 - 1st",
+      "statusDetail": "2:00 - 1st",
       "homeScore": 3,
-      "awayScore": 7,
+      "awayScore": 10,
       "venue": "M&T Bank Stadium",
       "neutralSite": false,
       "venueInfo": {
