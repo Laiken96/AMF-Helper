@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T22:40:29Z",
+    "takenAt": "2026-11-06T23:10:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1527,7 +1527,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429795",
@@ -2274,6 +2274,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873042",
+      "athleteId": "4374302",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "teamAbbr": "DET",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873044",
