@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T21:47:18Z",
+  "updatedAt": "2026-11-06T22:47:19Z",
   "items": [
+    {
+      "id": "a7db1776704442fc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-deebo-samuel-christian-kirk-ruled-out",
+      "title": "Mike Evans, Deebo Samuel, Christian Kirk ruled out",
+      "summary": "The 49ers ruled out three wide receivers and have another who is questionable.",
+      "publishedAt": "2026-11-06T22:40:45Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "2862205fd8d7155e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-rule-out-four-players",
+      "title": "Panthers rule out four players",
+      "summary": "The Panthers ruled four players out for Sunday's game against the Broncos.",
+      "publishedAt": "2026-11-06T22:25:18Z",
+      "teamIds": [
+        "29",
+        "7"
+      ]
+    },
+    {
+      "id": "e34273886c8f8c10",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-on-brandon-aiyuks-meeting-with-49ers-i-couldnt-care-less",
+      "title": "Kyle Shanahan on Brandon Aiyuk's meeting with 49ers: I couldn't care less",
+      "summary": "The wide receiver and his agent will meet with team officials later today.",
+      "publishedAt": "2026-11-06T22:16:54Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "ece96f8f41b45865",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rb-cam-skattebo-doubtful-but-wr-malik-nabers-has-no-injury-designation",
+      "title": "RB Cam Skattebo doubtful, but WR Malik Nabers has no injury designation",
+      "summary": "Giants wide receiver Malik Nabers said he would be ready to go despite missing Thursday's practice with a knee injury.",
+      "publishedAt": "2026-11-06T21:53:08Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "21b95ee8e8c0cf0f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-plans-to-meet-with-49ers-at-teams-business-offices-not-team-facility",
+      "title": "Brandon Aiyuk plans to meet with 49ers at team's business offices, not team facility",
+      "summary": "49ers tight end George Kittle was right, sort of.",
+      "publishedAt": "2026-11-06T21:50:45Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "cc73b0e375f7a498",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quenton-nelson-out-this-sunday-week-to-week-with-knee-injury",
+      "title": "Quenton Nelson out this Sunday, week-to-week with knee injury",
+      "summary": "Sam Darnold and Leonard Williams will also miss the Week 9 game against the Cardinals.",
+      "publishedAt": "2026-11-06T21:49:03Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "e7bc970c94284422",
       "source": "pft",
@@ -655,6 +722,20 @@
       "summary": "Trevor Lawrence has so much talent for the quarterback position that if freshmen could declare for the NFL draft, Lawrence probably would have been the first overall pick in 2019, when he had just led Clemson to a national championship as a true freshman.",
       "publishedAt": "2026-11-06T12:23:16Z",
       "teamIds": []
+    },
+    {
+      "id": "9c2b30f05aad519a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-experts-face-off-jaguars-ravens-bengals-falcons",
+      "title": "NFL Week 9 picks: Our experts face off on Bengals vs. Falcons, Packers at Patriots and more",
+      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
+      "publishedAt": "2026-11-06T12:21:38Z",
+      "teamIds": [
+        "1",
+        "4",
+        "9",
+        "17"
+      ]
     },
     {
       "id": "2d3ee10dd6d0383a",
@@ -1589,82 +1670,6 @@
       "title": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for NFL Week 9 Thursday Night Football",
       "summary": "We highlight some first touchdown scorer prediction markets at Kalshi for Jaguars vs. Ravens on Thursday Night Football",
       "publishedAt": "2026-11-05T16:06:33Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "7bebcaa6ec3b5b7b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-9-2026-nfl-picks",
-      "title": "PFT's Week 9 2026 NFL picks",
-      "summary": "A week after 13-1, here's hoping there won't be a 1-14 backslide.",
-      "publishedAt": "2026-11-05T15:56:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "18117f758ebd0c51",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-ive-coached-rams-for-10-years-this-is-the-worst-for-injuries-to-key-players",
-      "title": "Sean McVay: I've coached Rams for 10 years, this is the worst for injuries to key players",
-      "summary": "Rams head coach Sean McVay says he's never had to manage a team dealing with as many injuries to important players as this year's team.",
-      "publishedAt": "2026-11-05T15:49:03Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "5ac981df28f9a987",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-rookie-grades-midseason-surprises",
-      "title": "2026 midseason rookie grades: Ranking the early hits, misses and biggest surprises",
-      "summary": "Grading every first-round pick after eight weeks, from breakout stars to disappointing starts. Plus, 10 Day 2 and Day 3 rookies making their mark.",
-      "publishedAt": "2026-11-05T15:41:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "eb76ce1567fcd5ab",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-vikings-coach-kevin-oconnell-should-be-on-hot-seat",
-      "title": "Why Vikings coach Kevin O'Connell should be on hot seat despite NFL-best 6-1 record",
-      "summary": "O'Connell's handling of his quarterback position and currently sagging offense merits a closer look",
-      "publishedAt": "2026-11-05T15:34:37Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "75c0635a0acd07b0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-by-targeting-jaguars-vs-ravens-thursday-night-football",
-      "title": "Use FanDuel promo code to get $200 bonus bets by targeting Jaguars vs. Ravens on Thursday Night Football",
-      "summary": "Sign up and bet with the latest FanDuel promo code on Thursday to get your bonus bets",
-      "publishedAt": "2026-11-05T15:33:07Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "db70ffaf5cb3aadb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-matthew-stafford-elbow-injury-is-a-something-to-monitor",
-      "title": "The Matthew Stafford elbow injury is a something to monitor",
-      "summary": "A question emerged about Rams quarterback Matthew Stafford's throwing arm after reporters spotted ice on it following Sunday's game against the Chargers.",
-      "publishedAt": "2026-11-05T15:20:28Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "b2452e1fe717541f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/jaguars-vs-ravens-odds-picks-nfl-week-9-prediction-best-bets-player-props-for-thursday-night-football",
-      "title": "Jaguars vs. Ravens odds, picks, NFL Week 9 prediction: Best bets, player props for Thursday Night Football",
-      "summary": "Baltimore turns to third-string quarterback Joe Fagnano with Lamar Jackson sidelined, making Jacksonville a rare double-digit road favorite on Thursday night",
-      "publishedAt": "2026-11-05T15:14:41Z",
       "teamIds": [
         "33",
         "30"
