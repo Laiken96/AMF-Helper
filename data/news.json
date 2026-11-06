@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T18:47:22Z",
+  "updatedAt": "2026-11-06T19:47:20Z",
   "items": [
+    {
+      "id": "9d3bb5c2ae9e8ac5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-confirms-myles-garrett-will-play-on-sunday",
+      "title": "Sean McVay confirms Myles Garrett will play on Sunday",
+      "summary": "The Rams will be welcoming linebacker Myles Garrett back to their lineup on Sunday.",
+      "publishedAt": "2026-11-06T19:24:06Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "fef0aa067e905b9e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mansoor-delane-will-not-play-for-the-chiefs-on-sunday",
+      "title": "Mansoor Delane will not play for the Chiefs on Sunday",
+      "summary": "The Jets will be down a receiver for Sunday's game in Kansas City after ruling out Garrett Wilson and the Chiefs will be short a cornerback.",
+      "publishedAt": "2026-11-06T19:15:07Z",
+      "teamIds": [
+        "12",
+        "20"
+      ]
+    },
+    {
+      "id": "503f0f82b2724a53",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/antonio-brown-pleads-guilty-to-aggravated-assault-with-a-firearm",
+      "title": "Antonio Brown pleads guilty to aggravated assault with a firearm",
+      "summary": "Former NFL receiver Antonio Brown, who was charged with attempted murder after a May 2025 shooting in Miami, has pleaded guilty to a lesser charge.",
+      "publishedAt": "2026-11-06T19:10:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "00b30239624abf68",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-spain-bengals-joe-burrow-full-tourist-in-madrid",
+      "title": "NFL in Spain: Bengals star Joe Burrow goes full tourist in Madrid, reveals the one thing he hates the most",
+      "summary": "The Bengals are fully enjoying their time in the Spanish capital, which has been taken over by Cincinnati fans",
+      "publishedAt": "2026-11-06T19:08:24Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "32e1dd1370039fa3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/browns-name-starting-qb-week-9-saints-shedeur-sanders-deshaun-watson",
+      "title": "Browns name starting QB for Week 9 game vs. Saints: Shedeur Sanders gets nod over Deshaun Watson",
+      "summary": "Sanders briefly replaced Watson during last Sunday's loss in Pittsburgh",
+      "publishedAt": "2026-11-06T18:56:49Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
     {
       "id": "0e6890dbbfeecf4b",
       "source": "pft",
@@ -50,7 +105,7 @@
       "id": "e5b3f07efaf162e3",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/myles-garrett-injury-status-rams-week-9-vs-commanders",
-      "title": "Myles Garrett on track to be activated ahead of Rams Week 9 matchup vs. Commanders, per report",
+      "title": "Myles Garrett on track to be activated ahead of Rams Week 9 matchup vs. Commanders",
       "summary": "Los Angeles could be getting its star pass rusher back",
       "publishedAt": "2026-11-06T18:03:08Z",
       "teamIds": [
@@ -1635,57 +1690,6 @@
       "publishedAt": "2026-11-05T11:44:28Z",
       "teamIds": [
         "18"
-      ]
-    },
-    {
-      "id": "d8b8a9e929165314",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jacksons-latest-injury-raises-obvious-questions-about-his-future-in-baltimore",
-      "title": "Lamar Jackson's latest injury raises obvious questions about his future in Baltimore",
-      "summary": "The Ravens wanted to re-sign him in 2026, and there's no reason to think they won't want to in 2027.",
-      "publishedAt": "2026-11-05T11:42:15Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "722b71443cb9b7d7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-proactively-replace-entire-surface-at-mile-high-stadium-again",
-      "title": "Broncos proactively replace entire surface at Mile High Stadium, again",
-      "summary": "With four regular-season home games played and four to go, the Broncos are being proactive — again — about the quality of the playing surface at Mile High Stadium.",
-      "publishedAt": "2026-11-05T11:17:33Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "f0572c296e17b073",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-says-j-k-dobbins-remains-a-huge-part-of-what-were-doing",
-      "title": "Sean Payton says J.K. Dobbins remains \"a huge part of what we're doing\"",
-      "summary": "It's been a somewhat strange second year in Denver for veteran running back J.K.",
-      "publishedAt": "2026-11-05T11:02:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "f0213fd9d4e6e325",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-and-james-cook-can-both-top-5-000-career-rushing-yards-on-monday-night",
-      "title": "Josh Allen and James Cook can both top 5,000 career rushing yards on Monday night",
-      "summary": "Allen currently has 4,991 career rushing yards, and Cook currently has 4,966.",
-      "publishedAt": "2026-11-05T08:45:39Z",
-      "teamIds": []
-    },
-    {
-      "id": "fb7691ddc5873d85",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-confirms-jauan-jennings-decided-not-to-pursue-trade-back-to-49ers",
-      "title": "Kyle Shanahan confirms Jauan Jennings decided not to pursue trade back to 49ers",
-      "summary": "Yes, the 49ers tried to arrange a reunion with receiver Jauan Jennings.",
-      "publishedAt": "2026-11-05T03:52:26Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
