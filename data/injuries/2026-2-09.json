@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T00:20:34Z",
+    "takenAt": "2026-11-06T00:30:51Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1170,17 +1170,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4035671",
-            "name": "Tyler Huntley",
-            "pos": "QB",
-            "teamId": "33",
-            "teamAbbr": "BAL",
-            "roles": [
-              "qb"
-            ],
-            "status": "Injured Reserve"
           },
           {
             "athleteId": "4428512",
@@ -2317,9 +2306,9 @@
       "name": "Tyler Huntley",
       "pos": "QB",
       "teamAbbr": "BAL",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Out",
-      "to": "Injured Reserve"
+      "to": null
     },
     {
       "gameId": "401873037",
