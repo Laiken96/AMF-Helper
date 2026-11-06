@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T01:50:35Z",
+    "takenAt": "2026-11-06T02:50:38Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1941,7 +1941,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4361741",
@@ -2345,16 +2345,6 @@
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
-    },
-    {
-      "gameId": "401873047",
-      "athleteId": "3117251",
-      "name": "Christian McCaffrey",
-      "pos": "RB",
-      "teamAbbr": "SF",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873048",
