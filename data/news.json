@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T16:47:21Z",
+  "updatedAt": "2026-11-06T17:33:38Z",
   "items": [
+    {
+      "id": "fab764edab1cf593",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tristan-wirfs-to-play-sunday-emeka-egbuka-questionable",
+      "title": "Tristan Wirfs to play Sunday, Emeka Egbuka questionable",
+      "summary": "The Bucs will have left tackle Tristan Wirfs in the lineup as they try to stretch their winning streak to three games on Sunday.",
+      "publishedAt": "2026-11-06T17:30:28Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "b1ebd07cda37dfbc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-returns-to-practice-friday-remains-in-concussion-protocol",
+      "title": "Deshaun Watson returns to practice Friday, remains in concussion protocol",
+      "summary": "Browns quarterback Deshaun Watson is showing signs of progress in his recovery from a concussion.",
+      "publishedAt": "2026-11-06T17:25:01Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "32cba10ae1bde8a0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-game-predictions-best-bets-for-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-06T17:08:53Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "7e6c03e4a890c6b0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/patriots-treveyon-henderson-update-unknown-unexplainable-illness",
+      "title": "Patriots' TreVeyon Henderson provides update on 'unknown and unexplainable' illness",
+      "summary": "The second-year back spent several days in the hospital with neurological symptoms that affected his strength and coordination",
+      "publishedAt": "2026-11-06T16:55:37Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "95bef482ef846a90",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-turner-set-to-play-for-bengals-kyle-dugger-ruled-out",
+      "title": "DJ Turner set to play for Bengals, Kyle Dugger ruled out",
+      "summary": "The Bengals have issued their injury designations for Sunday's game against the Falcons in Madrid.",
+      "publishedAt": "2026-11-06T16:46:47Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "231f92161ad4f3f2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/chargers-mike-mcdaniel-calling-play-from-booth-desperation-move",
+      "title": "Chargers' Mike McDaniel to begin calling play from the booth: Desperation move or possible fix?",
+      "summary": "Los Angeles enters Week 9 with a 0-7 record",
+      "publishedAt": "2026-11-06T16:38:58Z",
+      "teamIds": [
+        "24"
+      ]
+    },
     {
       "id": "56e5c4ae779d6abb",
       "source": "pft",
@@ -1620,73 +1688,6 @@
       "teamIds": [
         "9",
         "14"
-      ]
-    },
-    {
-      "id": "018f8adaa08d9d87",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-says-i-feel-great-after-hamstring-injury-but-he-didnt-practice-on-wednesday",
-      "title": "Christian McCaffrey says \"I feel great\" after hamstring injury, but he didn't practice on Wednesday",
-      "summary": "Thigh injury that became hamstring problem keeps McCaffrey out of practice.",
-      "publishedAt": "2026-11-05T00:57:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "cc9d74f171b9af9d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-bosa-returns-to-practice-with-limited-work",
-      "title": "Nick Bosa returns to practice with limited work",
-      "summary": "49ers defensive end Nick Bosa returned to practice Wednesday after missing the team's past five games with a calf injury.",
-      "publishedAt": "2026-11-05T00:41:06Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "9e0d12dabd3c78b7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-devonta-smith-dontayvion-wicks-miss-wednesdays-practice",
-      "title": "Saquon Barkley, DeVonta Smith, Dontayvion Wicks miss Wednesday's practice",
-      "summary": "Eagles running back Saquon Barkley missed practice Wednesday with his hamstring and back injuries.",
-      "publishedAt": "2026-11-05T00:18:44Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "712364d2e3bce2ca",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-commanders-somehow-breaks-19-million-viewers",
-      "title": "Eagles-Commanders somehow breaks 19 million viewers",
-      "summary": "When George Costanza pitched the show about nothing to NBC president Russell Dalrymple, Dalrymple asked, \"Well, why am I watching it?\"",
-      "publishedAt": "2026-11-05T00:18:36Z",
-      "teamIds": [
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "ccdabe12c152cf4c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/maxx-crosby-i-love-being-a-raider-and-this-is-where-i-want-to-be",
-      "title": "Maxx Crosby: I love being a Raider, and this is where I want to be",
-      "summary": "A report this week indicated the Raiders have no plans to trade Crosby, who wants to stay with the team.",
-      "publishedAt": "2026-11-04T23:46:46Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "5706e8143bb4d15c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mansoor-delane-travis-kelce-limited-at-chiefs-practice",
-      "title": "Mansoor Delane, Travis Kelce limited at Chiefs practice",
-      "summary": "Chiefs cornerback Mansoor Delane missed last Sunday's loss to the Broncos with a shoulder injury and his outlook for Week 9's home game against the Jets looks a little better after Wednesday's practice.",
-      "publishedAt": "2026-11-04T22:58:27Z",
-      "teamIds": [
-        "7",
-        "12",
-        "20"
       ]
     }
   ]
