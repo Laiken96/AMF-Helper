@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T21:10:34Z",
+    "takenAt": "2026-11-06T21:20:32Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1686,7 +1686,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": "Doubtful"
           },
           {
             "athleteId": "3929630",
@@ -2295,6 +2295,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873044",
+      "athleteId": "4696981",
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "teamAbbr": "NYG",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Doubtful"
     },
     {
       "gameId": "401873044",
