@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T22:10:30Z",
+    "takenAt": "2026-11-06T22:40:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1721,17 +1721,6 @@
               "receiving"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4685201",
-            "name": "Tanner McKee",
-            "pos": "QB",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
           }
         ]
       },
@@ -2315,16 +2304,6 @@
       "kind": "wechsel",
       "from": "Questionable",
       "to": "Out"
-    },
-    {
-      "gameId": "401873044",
-      "athleteId": "4685201",
-      "name": "Tanner McKee",
-      "pos": "QB",
-      "teamAbbr": "PHI",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873045",
