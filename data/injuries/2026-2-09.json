@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T01:30:50Z",
+    "takenAt": "2026-11-06T01:50:35Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2008,17 +2008,6 @@
             "status": null
           },
           {
-            "athleteId": "3924327",
-            "name": "Drew Lock",
-            "pos": "QB",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
-          },
-          {
             "athleteId": "4430878",
             "name": "Jaxon Smith-Njigba",
             "pos": "WR",
@@ -2366,6 +2355,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873048",
+      "athleteId": "3924327",
+      "name": "Drew Lock",
+      "pos": "QB",
+      "teamAbbr": "SEA",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873049",
