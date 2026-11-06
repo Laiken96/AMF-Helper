@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T21:40:31Z",
+    "takenAt": "2026-11-06T22:10:30Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1941,7 +1941,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4361741",
@@ -2215,7 +2215,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3042519",
@@ -2357,16 +2357,6 @@
       "to": "Injured Reserve"
     },
     {
-      "gameId": "401873047",
-      "athleteId": "3117251",
-      "name": "Christian McCaffrey",
-      "pos": "RB",
-      "teamAbbr": "SF",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
       "gameId": "401873048",
       "athleteId": "3924327",
       "name": "Drew Lock",
@@ -2405,16 +2395,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873051",
-      "athleteId": "4385690",
-      "name": "Dalton Kincaid",
-      "pos": "TE",
-      "teamAbbr": "BUF",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     }
   ]
 }
