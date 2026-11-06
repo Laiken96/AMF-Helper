@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-05T23:20:29Z",
+    "takenAt": "2026-11-06T00:01:12Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1169,18 +1169,18 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
-            "athleteId": "4035671",
-            "name": "Tyler Huntley",
+            "athleteId": "4428512",
+            "name": "Kedon Slovis",
             "pos": "QB",
             "teamId": "33",
             "teamAbbr": "BAL",
             "roles": [
               "qb"
             ],
-            "status": "Injured Reserve"
+            "status": "Out"
           },
           {
             "athleteId": "4429615",
@@ -1225,7 +1225,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -2281,13 +2281,13 @@
   "changes": [
     {
       "gameId": "401873037",
-      "athleteId": "3916387",
-      "name": "Lamar Jackson",
-      "pos": "QB",
-      "teamAbbr": "BAL",
-      "kind": "neu",
-      "from": null,
-      "to": "Injured Reserve"
+      "athleteId": "4882093",
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "teamAbbr": "JAX",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873037",
@@ -2295,9 +2295,19 @@
       "name": "Tyler Huntley",
       "pos": "QB",
       "teamAbbr": "BAL",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Out",
-      "to": "Injured Reserve"
+      "to": null
+    },
+    {
+      "gameId": "401873037",
+      "athleteId": "4428512",
+      "name": "Kedon Slovis",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873039",
