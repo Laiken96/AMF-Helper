@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T20:50:29Z",
+    "takenAt": "2026-11-06T21:10:34Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1697,7 +1697,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4040715",
@@ -1720,7 +1720,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4685201",
@@ -1941,7 +1941,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4361741",
@@ -2298,6 +2298,26 @@
     },
     {
       "gameId": "401873044",
+      "athleteId": "3929630",
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "teamAbbr": "PHI",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873044",
+      "athleteId": "4241478",
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "teamAbbr": "PHI",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Out"
+    },
+    {
+      "gameId": "401873044",
       "athleteId": "4685201",
       "name": "Tanner McKee",
       "pos": "QB",
@@ -2335,6 +2355,16 @@
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
+    },
+    {
+      "gameId": "401873047",
+      "athleteId": "3117251",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "teamAbbr": "SF",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873048",
