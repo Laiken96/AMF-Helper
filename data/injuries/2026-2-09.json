@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-06T23:30:51Z",
+    "takenAt": "2026-11-07T01:40:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1720,7 +1720,18 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": null
+          },
+          {
+            "athleteId": "4685201",
+            "name": "Tanner McKee",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           }
         ]
       },
@@ -2056,7 +2067,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4427095",
@@ -2311,9 +2322,19 @@
       "name": "DeVonta Smith",
       "pos": "WR",
       "teamAbbr": "PHI",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Questionable",
-      "to": "Out"
+      "to": null
+    },
+    {
+      "gameId": "401873044",
+      "athleteId": "4685201",
+      "name": "Tanner McKee",
+      "pos": "QB",
+      "teamAbbr": "PHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873045",
@@ -2364,16 +2385,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873049",
-      "athleteId": "4429023",
-      "name": "MarShawn Lloyd",
-      "pos": "RB",
-      "teamAbbr": "GB",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     }
   ]
 }
