@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-07T01:40:31Z",
+    "takenAt": "2026-11-07T19:20:28Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2238,7 +2238,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4262921",
@@ -2385,6 +2385,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873051",
+      "athleteId": "3917315",
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "teamAbbr": "MIN",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Out"
     }
   ]
 }
