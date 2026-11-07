@@ -1,7 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:47:25Z",
+  "updatedAt": "2026-11-07T21:47:16Z",
   "items": [
+    {
+      "id": "27dc8b86de845986",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-demarcus-robinson-elevate-khadarel-hodge",
+      "title": "49ers activate Demarcus Robinson, elevate KhaDarel Hodge",
+      "summary": "The 49ers will have two of their Week 1 wideouts back in the lineup for Sunday's game against the Raiders.",
+      "publishedAt": "2026-11-07T21:40:22Z",
+      "teamIds": [
+        "13",
+        "25"
+      ]
+    },
+    {
+      "id": "452d09f3fb810c42",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-activate-wr-pat-bryant",
+      "title": "Broncos activate WR Pat Bryant",
+      "summary": "The Broncos have wide receiver Pat Bryant back for Sunday's game against the Panthers.",
+      "publishedAt": "2026-11-07T21:30:05Z",
+      "teamIds": [
+        "29",
+        "7"
+      ]
+    },
+    {
+      "id": "00267012de965a10",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-lb-jack-campbell-on-injured-reserve",
+      "title": "Lions place LB Jack Campbell on injured reserve",
+      "summary": "The Lions placed linebacker Jack Campbell on injured reserve, the team announced Saturday.",
+      "publishedAt": "2026-11-07T21:27:43Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "8d97d3f21fdf5b2e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-activate-kelvin-banks-jordyn-tyson",
+      "title": "Saints activate Kelvin Banks, Jordyn Tyson",
+      "summary": "The Saints offense will be getting a couple of reinforcements for Sunday's game against the Browns.",
+      "publishedAt": "2026-11-07T21:23:23Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "4d557e70c9806693",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-activate-james-pearce-yasir-abdullah",
+      "title": "Falcons activate James Pearce, Yasir Abdullah",
+      "summary": "Falcons linebacker James Pearce is set to make his 2026 debut.",
+      "publishedAt": "2026-11-07T21:15:08Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "dbcc7803fa764a92",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-activate-mack-hollins-from-ir",
+      "title": "Patriots activate Mack Hollins from IR",
+      "summary": "The Patriots won't have A.J.",
+      "publishedAt": "2026-11-07T21:08:04Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "1edf7762dcc474ad",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wr-jauan-jennings-declined-49ers-interest-because-i-love-where-im-at",
+      "title": "Vikings WR Jauan Jennings declined 49ers interest because \"I love where I'm at\"",
+      "summary": "Wide receiver Jauan Jennings has not played a major role in the Vikings offense through the first eight weeks of the season, but he wasn't interested in switching teams when the possibility presented itself last month.",
+      "publishedAt": "2026-11-07T21:00:18Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "a740dcdffd9e0895",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-last-minute-best-bets-packers-upset-patriots",
+      "title": "NFL Week 9 last-minute best bets: Packers upset Patriots in Foxborough, Rams edge out road win vs. Commanders",
+      "summary": "Need some last-minute advice on how to bet the Week 9 slate? Allow us to be of assistance",
+      "publishedAt": "2026-11-07T20:44:58Z",
+      "teamIds": [
+        "9",
+        "14",
+        "17",
+        "28"
+      ]
+    },
+    {
+      "id": "5f34fbceea49e8a4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rams-myles-garrett-anticipates-matchup-nightmares-first-game-aaron-donald",
+      "title": "Pick your poison: Rams' Myles Garrett anticipates matchup nightmares in first game with Aaron Donald",
+      "summary": "An injured reserve stint delayed the first look at Garrett and Donald in the same lineup, but now they could dominate opposing offenses",
+      "publishedAt": "2026-11-07T20:38:18Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "684bf1d5e9bb5b47",
       "source": "pft",
@@ -1578,104 +1684,6 @@
       "teamIds": [
         "34",
         "24"
-      ]
-    },
-    {
-      "id": "d20c1d6dcd058441",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-ravens-jaguars",
-      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Ravens vs. Jaguars",
-      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-05T23:17:25Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "cb24e35d9e38e317",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/back-surgery-will-keep-robert-kraft-from-rob-gronkowskis-patriots-hall-of-fame-induction",
-      "title": "Back surgery will keep Robert Kraft from Rob Gronkowski's Patriots Hall of Fame induction",
-      "summary": "Patriots owner Robert Kraft recently underwent back surgery, which will keep him sidelined on \"injured reserve\" and force him to miss Rob Gronkowski's induction into the Patriots Hall of Fame on Saturday.",
-      "publishedAt": "2026-11-05T23:16:37Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "e0b3ccd7a6ded43a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/breece-hall-up-to-full-practice-thursday-says-hes-ready-to-play-this-week",
-      "title": "Breece Hall up to full practice Thursday, says he's ready to play this week",
-      "summary": "It looks like running back Breece Hall will be back in the Jets lineup this week.",
-      "publishedAt": "2026-11-05T23:09:40Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "5a7f6660f4ecf3bd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-re-sign-wr-cody-white-waive-te-carter-runyon",
-      "title": "Raiders re-sign WR Cody White, waive TE Carter Runyon",
-      "summary": "The Raiders released wide receiver Cody White on Wednesday, but his absence from the team was a short one.",
-      "publishedAt": "2026-11-05T22:57:06Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "9b59d455dcd98017",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-returned-to-practice-as-limited-participant",
-      "title": "Christian McCaffrey returned to practice as limited participant",
-      "summary": "Christian McCaffrey returned to practice Thursday as a limited participant.",
-      "publishedAt": "2026-11-05T22:56:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "b362ad36fb90ab64",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashee-rice-files-for-bankruptcy-citing-more-than-3-45-million-in-debt",
-      "title": "Rashee Rice files for bankruptcy, citing more than $3.45 million in debt",
-      "summary": "Chiefs receiver Rashee Rice is in the final year of his four-year, $6.45 million rookie contract.",
-      "publishedAt": "2026-11-05T22:55:33Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "ba43a96cc2f3c69b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/george-pickens-trade-rumors-cowboys-nfl-deadline",
-      "title": "Cowboys stars reject George Pickens trade talk ahead of NFL deadline",
-      "summary": "As speculation builds about Pickens' future in Dallas, Prescott praised him as a teammate and Lamb explained how the receiver changes opposing defenses",
-      "publishedAt": "2026-11-05T22:52:14Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "d43743bbe312c393",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/talanoa-hufanga-returns-to-broncos-practice",
-      "title": "Talanoa Hufanga returns to Broncos practice",
-      "summary": "The Broncos got a starting safety back on the practice field Thursday.",
-      "publishedAt": "2026-11-05T22:49:02Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "16a6457ae28472a2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-returns-to-limited-work-thursday",
-      "title": "Saquon Barkley returns to limited work Thursday",
-      "summary": "Eagles running back Saquon Barkley returned to limited work Thursday after missing Wednesday's practice with hamstring and back injuries.",
-      "publishedAt": "2026-11-05T22:38:10Z",
-      "teamIds": [
-        "21"
       ]
     }
   ]
