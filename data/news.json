@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:47:21Z",
+  "updatedAt": "2026-11-07T19:47:18Z",
   "items": [
+    {
+      "id": "9e6bd9a720018dcc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-dt-johnny-newton-from-injured-reserve",
+      "title": "Commanders activate DT Johnny Newton from injured reserve",
+      "summary": "The Commanders are activating defensive tackle Johnny Newton from injured reserve, Ian Rapoport of NFL Media reports.",
+      "publishedAt": "2026-11-07T19:33:43Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "f89306f41da62fda",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-can-become-third-quarterback-with-four-or-more-td-passes-in-four-straight-games",
+      "title": "Joe Burrow can become third quarterback with four or more TD passes in four straight games",
+      "summary": "Bengals quarterback Joe Burrow had seven touchdown passes in his team's first four games of the season.",
+      "publishedAt": "2026-11-07T19:32:26Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "5f969323611018d6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-rb-kendre-miller",
+      "title": "Saints release RB Kendre Miller",
+      "summary": "The Saints, on the last day before their first game since Week 7, have made a change.",
+      "publishedAt": "2026-11-07T19:15:02Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "4d74c38fde9c76dd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-activate-myles-garrett-put-jaylen-watson-on-ir",
+      "title": "Rams activate Myles Garrett, put Jaylen Watson on IR",
+      "summary": "Myles Garrett is officially back on the Rams' active roster.",
+      "publishedAt": "2026-11-07T18:52:34Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "f4547de3288f1041",
       "source": "pft",
@@ -1632,52 +1676,6 @@
       "publishedAt": "2026-11-05T22:11:58Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "fd8e034a69496eb9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-nba-league-pass-ravens-jaguars-thursday-night-football",
-      "title": "Use DraftKings promo code to claim $200 bonus + NBA League Pass for Ravens-Jaguars, Thursday Night Football",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Ravens vs. Jaguars betting on Thursday Night Football",
-      "publishedAt": "2026-11-05T22:03:21Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "5ac3fc0a1a27826d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-treveyon-henderson-hunter-henry-did-not-practice-on-thursday",
-      "title": "A.J. Brown, TreVeyon Henderson, Hunter Henry did not practice on Thursday",
-      "summary": "The Patriots have a lengthy injury report, with several key players remaining out of practice on Thursday.",
-      "publishedAt": "2026-11-05T21:51:55Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "9297046596ce6c66",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-jaguars-ravens-thursday-night-football",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Jaguars-Ravens on Thursday Night Football",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Ravens vs. Jaguars betting on Thursday Night Football",
-      "publishedAt": "2026-11-05T21:51:25Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "3aa8e10e1a861e5a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-te-harold-fannin-to-injury-report-deshaun-watson-remains-out",
-      "title": "Browns add TE Harold Fannin to injury report, Deshaun Watson remains out",
-      "summary": "The Browns added their leading receiver to the injury report on Thursday.",
-      "publishedAt": "2026-11-05T21:35:32Z",
-      "teamIds": [
-        "5"
       ]
     }
   ]
