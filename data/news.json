@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T01:47:16Z",
+  "updatedAt": "2026-11-07T04:47:19Z",
   "items": [
+    {
+      "id": "dc2d4133ca1d4b5a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-protect-college-sports-act-could-be-dead",
+      "title": "The Protect College Sports Act could be dead",
+      "summary": "This week's midterm elections will dramatically reshuffle the deck in Congress.",
+      "publishedAt": "2026-11-07T04:22:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "dc89795eacc0147d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-listed-matthew-stafford-with-elbow-injury-because-reporters-asked-about-ice-on-it",
+      "title": "Rams listed Matthew Stafford with elbow injury because reporters asked about ice on it",
+      "summary": "On Monday, reporters asked Rams coach Sean McVay about quarterback Matthew Stafford having ice on his throwing arm after Sunday's win over the Chargers.",
+      "publishedAt": "2026-11-07T04:01:33Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
     {
       "id": "05e10443fdd13d3e",
       "source": "pft",
@@ -1648,28 +1669,6 @@
       "publishedAt": "2026-11-05T17:37:42Z",
       "teamIds": [
         "34"
-      ]
-    },
-    {
-      "id": "78ef71a01940300a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/alex-singleton-named-the-afc-defensive-player-of-the-month",
-      "title": "Alex Singleton named the AFC defensive player of the month",
-      "summary": "Broncos linebacker Alex Singleton's strong play in October drew recognition from the NFL on Thursday.",
-      "publishedAt": "2026-11-05T17:32:34Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "af03fb34cdb69860",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chase-mclaughlin-named-nfc-special-teams-player-of-the-month",
-      "title": "Chase McLaughlin named NFC special teams player of the month",
-      "summary": "Buccaneers kicker Chase McLaughlin had a strong October and has been named NFC special teams player of the month.",
-      "publishedAt": "2026-11-05T17:24:28Z",
-      "teamIds": [
-        "27"
       ]
     }
   ]
