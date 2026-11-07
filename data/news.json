@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T16:47:18Z",
+  "updatedAt": "2026-11-07T17:47:17Z",
   "items": [
+    {
+      "id": "61ec4974bd4063c0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-anytime-td-best-bets-jonah-coleman-joe-milton-iii",
+      "title": "NFL week 9 anytime TD best bets: Look for Jonah Coleman and Joe Milton III to find end zone",
+      "summary": "Target strong value in the red zone this week with five picks, including rookie runner Jonah Coleman against a reeling Panthers defense",
+      "publishedAt": "2026-11-07T16:50:56Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "d0573d671396ac17",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/trade-deadline-chargers-to-retain-khalil-mack-top-offensive-players-despite-0-7-record",
+      "title": "Chargers not interested in Khalil Mack trade, will retain top offensive players despite 0-7 record, per report",
+      "summary": "The winless Chargers will stick to the status quo",
+      "publishedAt": "2026-11-07T16:35:19Z",
+      "teamIds": [
+        "24"
+      ]
+    },
     {
       "id": "32f9c0b0b7e068a0",
       "source": "cbs",
@@ -1653,29 +1675,6 @@
       "publishedAt": "2026-11-05T20:39:03Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "773591bd35c461ba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-lock-my-elbow-feels-good-felt-great-to-rip-some-balls-yesterday",
-      "title": "Drew Lock: My elbow feels good, felt great to rip some balls yesterday",
-      "summary": "Drew Lock has been dealing with an elbow injury, but he says it's not impacting him as he readies to start against the Cardinals on Sunday.",
-      "publishedAt": "2026-11-05T20:33:22Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "ceaadda24f7eac3b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-jaguars-vs-ravens-nfl-week-9-tnf-heat-vs-warriors-more",
-      "title": "Today's top games to watch, best bets, odds: Jaguars vs. Ravens NFL Week 9 TNF, Heat vs. Warriors, more",
-      "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-05T20:30:51Z",
-      "teamIds": [
-        "33",
-        "30"
       ]
     }
   ]
