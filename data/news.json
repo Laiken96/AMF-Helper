@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:47:17Z",
+  "updatedAt": "2026-11-07T18:47:21Z",
   "items": [
+    {
+      "id": "f4547de3288f1041",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-clears-concussion-protocol-remains-questionable-for-sunday",
+      "title": "Deshaun Watson clears concussion protocol, remains questionable for Sunday",
+      "summary": "Shedeur Sanders will start against the Saints.",
+      "publishedAt": "2026-11-07T18:39:38Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "69a1526f90bc0af3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/saints-motivated-to-face-browns-shedeur-sanders",
+      "title": "Saints motivated to face 'smiling' Shedeur Sanders after Browns QB offers bulletin board material",
+      "summary": "The maligned New Orleans defense will have a chip on its shoulder in Sanders' first start of the season",
+      "publishedAt": "2026-11-07T18:00:37Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "05107a1f173d7370",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rams-quentin-lake-apologizes-justin-herbert-deli-meat-remarks-chargers",
+      "title": "Rams' Quentin Lake apologizes to Justin Herbert for 'deli meat' remarks, Chargers not moving QB via trade",
+      "summary": "Herbert leads the NFL in interceptions and holds the league's worst QBR through seven games",
+      "publishedAt": "2026-11-07T17:20:13Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "a6a928dd8afefcf5",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-rumors-giants-john-harbaugh-reunite-former-running-back",
+      "title": "NFL trade deadline rumors: Could Giants' John Harbaugh reunite with former running back?",
+      "summary": "Harbaugh brought seven players with him from the Ravens when he took the Giants job. Might an eighth be on the way?",
+      "publishedAt": "2026-11-07T17:14:07Z",
+      "teamIds": [
+        "33",
+        "19"
+      ]
+    },
     {
       "id": "61ec4974bd4063c0",
       "source": "cbs",
@@ -1631,50 +1678,6 @@
       "publishedAt": "2026-11-05T21:35:32Z",
       "teamIds": [
         "5"
-      ]
-    },
-    {
-      "id": "8fd380aaa097e45d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-doesnt-practice-says-hes-good-for-sunday",
-      "title": "Malik Nabers doesn't practice, says he's good for Sunday",
-      "summary": "Giants wide receiver Malik Nabers was named the NFC offensive player of the month for October on Thursday, but he didn't take part in practice with the team.",
-      "publishedAt": "2026-11-05T21:25:25Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "12db3185426f77e5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-add-lt-tristan-wirfs-to-the-practice-report-with-a-toe-injury",
-      "title": "Bucs add LT Tristan Wirfs to the practice report with a toe injury",
-      "summary": "The Buccaneers added left tackle Tristan Wirfs to the injury report on Thursday.",
-      "publishedAt": "2026-11-05T21:14:39Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "dad3076457a06f47",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-put-lamar-jackson-tyler-huntley-on-ir-sign-austin-reed-to-active-roster",
-      "title": "Ravens put Lamar Jackson, Tyler Huntley on IR; sign Austin Reed to active roster",
-      "summary": "Reed signed with the Ravens this week and is set to be Joe Fagnano's backup Thursday night.",
-      "publishedAt": "2026-11-05T21:14:10Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "e9c6659b4a9cafb3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/theo-benedet-grady-jarrett-return-to-bears-practice",
-      "title": "Theo Benedet, Grady Jarrett return to Bears practice",
-      "summary": "The Bears got starting linemen from both sides of the ball back at practice on Thursday.",
-      "publishedAt": "2026-11-05T20:39:03Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
