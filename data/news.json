@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T13:47:19Z",
+  "updatedAt": "2026-11-07T14:47:18Z",
   "items": [
+    {
+      "id": "acbc60a8a68e2245",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-rumors-colts-daniel-jones-vikings",
+      "title": "NFL trade deadline rumors: Colts' Daniel Jones could get dealt and there's only one team that makes sense",
+      "summary": "The Vikings are 6-1 despite fielding the league's second-worst passing attack, and a reunion with Kevin O'Connell makes all the sense in the world",
+      "publishedAt": "2026-11-07T14:18:37Z",
+      "teamIds": [
+        "11",
+        "16"
+      ]
+    },
+    {
+      "id": "5f72f50f24983893",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-broncos-are-seeking-a-tight-end-trade-cardinals-rebuffed-request-for-trey-mcbride",
+      "title": "Report: Broncos are seeking a tight end trade, Cardinals rebuffed request for Trey McBride",
+      "summary": "Denver would like to acquire a veteran tight end before Tuesday's trade deadline, but that tight end will apparently not be Arizona's Trey McBride.",
+      "publishedAt": "2026-11-07T14:15:03Z",
+      "teamIds": [
+        "22",
+        "7"
+      ]
+    },
     {
       "id": "e02cce7a318235be",
       "source": "pft",
@@ -1648,29 +1672,6 @@
       "teamIds": [
         "5",
         "23"
-      ]
-    },
-    {
-      "id": "d6809755b7ff9276",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-k-joshua-karty-to-53-man-roster",
-      "title": "Rams sign K Joshua Karty to 53-man roster",
-      "summary": "The Rams now have two kickers on their 53-man roster.",
-      "publishedAt": "2026-11-05T18:15:49Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "176cfe260f42a313",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-was-impressed-with-the-buccaneers-all-run-offense",
-      "title": "Ben Johnson was impressed with the Buccaneers' all-run offense",
-      "summary": "Bears coach Ben Johnson is well known as an offensive innovator and creative play caller.",
-      "publishedAt": "2026-11-05T18:05:07Z",
-      "teamIds": [
-        "3",
-        "27"
       ]
     }
   ]
