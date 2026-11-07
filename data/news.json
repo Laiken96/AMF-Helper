@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T21:47:16Z",
+  "updatedAt": "2026-11-07T22:47:20Z",
   "items": [
+    {
+      "id": "df27a8e2b05e560c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-jake-haener-returns-to-the-giants-practice-squad",
+      "title": "QB Jake Haener returns to the Giants' practice squad",
+      "summary": "The Giants signed quarterback Jake Haener back to the practice squad, the team announced Saturday.",
+      "publishedAt": "2026-11-07T22:01:49Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "51705d7838815d67",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-fines-jaquan-brisker-two-others-for-illegal-week-8-hits",
+      "title": "NFL fines Jaquan Brisker, two others for illegal Week 8 hits that placed opponents in concussion protocol",
+      "summary": "Each of the players on the receiving end of those collisions will miss Week 9",
+      "publishedAt": "2026-11-07T22:01:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "e966cd00cb9a6e40",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mason-mccormick-wasnt-fined-for-dumping-jared-verse-on-his-head",
+      "title": "Mason McCormick wasn't fined for dumping Jared Verse on his head",
+      "summary": "Browns defensive end Jared Verse is getting upset.",
+      "publishedAt": "2026-11-07T21:45:57Z",
+      "teamIds": [
+        "5"
+      ]
+    },
     {
       "id": "27dc8b86de845986",
       "source": "pft",
@@ -1649,41 +1680,6 @@
       "teamIds": [
         "33",
         "30"
-      ]
-    },
-    {
-      "id": "5b7272e34e175e8d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-lynch-on-brandon-aiyuk-well-look-for-a-path-that-works-for-both-sides",
-      "title": "John Lynch on Brandon Aiyuk: We'll look for a path that works for both sides",
-      "summary": "Brandon Aiyuk filed for reinstatement from the 49ers' left squad list this week and he's expected to be at the team's facility on Friday to take the next step in resuming his football career.",
-      "publishedAt": "2026-11-05T23:33:15Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "f6ea7f100eeaf830",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-for-thursday-night-football-nfl-week-9",
-      "title": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 9",
-      "summary": "We highlight some first touchdown scorer prediction markets at Kalshi for Jaguars vs. Ravens on Thursday Night Football",
-      "publishedAt": "2026-11-05T23:21:33Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "2bf01ecc8c24294a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-chargers-offense-struggles-mike-mcdaniel-will-move-from-the-sideline-to-the-booth",
-      "title": "As Chargers' offense struggles, Mike McDaniel will move from the sideline to the booth",
-      "summary": "Chargers offensive coordinator Mike McDaniel will get a different perspective on his struggling offense on Sunday against the Texans.",
-      "publishedAt": "2026-11-05T23:19:37Z",
-      "teamIds": [
-        "34",
-        "24"
       ]
     }
   ]
