@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T23:47:21Z",
+  "updatedAt": "2026-11-07T00:47:18Z",
   "items": [
+    {
+      "id": "e823e1149caf72ea",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfc-north-has-17-3-record-against-non-nfc-north-teams",
+      "title": "NFC North has 17-3 record against non-NFC North teams",
+      "summary": "The NFC North is the best division in the NFL.",
+      "publishedAt": "2026-11-07T00:40:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "23f99ef9e5b644f6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/in-defending-his-willingness-to-spend-jerry-jones-may-have-admitted-to-tampering",
+      "title": "In defending his willingness to spend, Jerry Jones may have admitted to tampering",
+      "summary": "On Friday, Cowboys owner Jerry Jones tried to reverse the perception/reality that he deliberately underspends on coaches.",
+      "publishedAt": "2026-11-07T00:13:26Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "f618da2cca07ef6d",
       "source": "pft",
@@ -11,6 +31,17 @@
       "publishedAt": "2026-11-06T23:42:44Z",
       "teamIds": [
         "14"
+      ]
+    },
+    {
+      "id": "d03a18d41abd6634",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-injury-report-seahawks-quenton-nelson-out-knee-procedure",
+      "title": "NFL Week 9 injury report: Seahawks' Quenton Nelson 'week-to-week' after knee procedure",
+      "summary": "The final injury reports for every NFL team in Week 9",
+      "publishedAt": "2026-11-06T23:42:18Z",
+      "teamIds": [
+        "26"
       ]
     },
     {
@@ -1641,42 +1672,6 @@
       "teamIds": [
         "22",
         "13"
-      ]
-    },
-    {
-      "id": "665ecb9d2460900e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-are-trending-toward-starting-carson-wentz-on-monday-night",
-      "title": "Report: Vikings are trending toward starting Carson Wentz on Monday night",
-      "summary": "The soft benching of Kyler Murray in favor of backup Carson Wentz could be coming on Monday night against the Bills.",
-      "publishedAt": "2026-11-05T16:49:39Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "08a18b847735bf70",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pick-six-ravens-jags-picks-what-to-know-about-nfl-week-9",
-      "title": "Pick Six: Ravens-Jags picks, plus what you need to know about the NFL heading into Week 9",
-      "summary": "Here's everything you need to know about the NFL for Nov. 5",
-      "publishedAt": "2026-11-05T16:43:13Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "9ca036dae9ad3193",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-nba-league-pass-jaguars-ravens-thursday-night-football",
-      "title": "Use DraftKings promo code to claim $200 bonus + NBA League Pass for Jaguars-Ravens, Thursday Night Football",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Ravens vs. Jaguars betting on Thursday Night Football",
-      "publishedAt": "2026-11-05T16:37:01Z",
-      "teamIds": [
-        "33",
-        "30"
       ]
     }
   ]
