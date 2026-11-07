@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T05:47:21Z",
+  "updatedAt": "2026-11-07T09:47:16Z",
   "items": [
+    {
+      "id": "f756d2a09620068c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-is-closing-in-on-the-record-for-most-td-passes-in-a-qbs-first-10-years",
+      "title": "Patrick Mahomes is closing in on the record for most TD passes in a QB's first 10 years",
+      "summary": "Mahomes has 325 career touchdown passes, counting the playoffs. Peyton Manning had 327 in his first 10 seasons.",
+      "publishedAt": "2026-11-07T09:14:34Z",
+      "teamIds": []
+    },
     {
       "id": "8f41ececcd991951",
       "source": "pft",
@@ -1659,17 +1668,6 @@
       "publishedAt": "2026-11-05T17:44:53Z",
       "teamIds": [
         "10"
-      ]
-    },
-    {
-      "id": "0a869dc24dd101f9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-cisse-named-defensive-rookie-of-the-month-for-october",
-      "title": "Brandon Cisse named defensive rookie of the month for October",
-      "summary": "Packers cornerback Brandon Cisse has been named defensive rookie of the month, the NFL announced on Thursday.",
-      "publishedAt": "2026-11-05T17:39:15Z",
-      "teamIds": [
-        "9"
       ]
     }
   ]
