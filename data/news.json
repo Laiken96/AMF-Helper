@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T15:47:20Z",
+  "updatedAt": "2026-11-07T16:47:18Z",
   "items": [
+    {
+      "id": "32f9c0b0b7e068a0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-week-9-odds-best-bets-brinsons-top-player-props-anytime-touchdown-scorers-picks-for-sundays-games",
+      "title": "NFL Week 9 odds, best bets: Brinson's top player props, anytime touchdown scorers picks for Sunday's games",
+      "summary": "Back the Colts as dogs against Dallas, trust New England in Foxborough and target a low rushing total for Ashton Jeanty",
+      "publishedAt": "2026-11-07T16:25:18Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "f6557319734ad278",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-candidates-impact-tiers",
+      "title": "2026 NFL trade deadline candidates: Ranking big-name players into tiers",
+      "summary": "From proven stars like Jonathan Taylor and Maxx Crosby to discount playmakers and depth rentals, here is a look at who could switch teams before the window closes",
+      "publishedAt": "2026-11-07T16:24:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "ea344533a39fb9d2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-rankings-top-25-eagles-colts",
+      "title": "NFL trade deadline: Four Eagles, two more Colts and a starting QB included among top candidates",
+      "summary": "Saquon Barkley, Jonathan Taylor, Kirk Cousins and more could fetch returns at the trade deadline",
+      "publishedAt": "2026-11-07T16:22:22Z",
+      "teamIds": [
+        "11",
+        "21"
+      ]
+    },
+    {
+      "id": "962451e593d5978b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-nfl-trade-deadline-george-pickens-destinations",
+      "title": "Cowboys should consider trading George Pickens: 5 logical destinations at NFL trade deadline",
+      "summary": "Pickens received only four targets in Dallas' historic collapse against Arizona, adding urgency to the Cowboys' decision before the NFL trade deadline",
+      "publishedAt": "2026-11-07T16:21:04Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "c5c07727818c1de2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quentin-lake-apologized-to-justin-herbert-for-deli-meat-and-seeing-ghosts-comments",
+      "title": "Quentin Lake apologized to Justin Herbert for \"deli meat\" and \"seeing ghosts\" comments",
+      "summary": "Rams safety Quentin Lake got plenty of attention for comments he made about intercepting a pass thrown by Chargers quarterback Justin Herbert, but on reflection, Lake didn't like the attention he generated.",
+      "publishedAt": "2026-11-07T15:55:14Z",
+      "teamIds": [
+        "24",
+        "14"
+      ]
+    },
+    {
+      "id": "80e75d6b9781fe7c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-reportedly-tell-derrick-henry-they-have-no-intention-of-trading-him",
+      "title": "Ravens reportedly tell Derrick Henry they have \"no intention\" of trading him",
+      "summary": "Ravens running back Derrick Henry's production has plummeted since quarterback Lamar Jackson was first injured before halftime in a Week 4 win over the Titans.",
+      "publishedAt": "2026-11-07T15:46:50Z",
+      "teamIds": [
+        "33",
+        "10"
+      ]
+    },
     {
       "id": "67c937354d36f73b",
       "source": "cbs",
@@ -787,12 +854,11 @@
       "id": "bd45fbee8518d182",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/ravens-derrick-henry-trade-rumor-thoughts-nfl-trade-deadline",
-      "title": "Frustrated Derrick Henry responds to trade rumors following Ravens brutal 'TNF' loss to Jaguars",
+      "title": "Frustrated Derrick Henry responds to trade rumors, Ravens not expected to deal him, per report",
       "summary": "Henry was not a happy camper after Baltimore's fourth straight setback",
       "publishedAt": "2026-11-06T16:14:11Z",
       "teamIds": [
-        "33",
-        "30"
+        "33"
       ]
     },
     {
@@ -1607,74 +1673,6 @@
       "title": "Today's top games to watch, best bets, odds: Jaguars vs. Ravens NFL Week 9 TNF, Heat vs. Warriors, more",
       "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
       "publishedAt": "2026-11-05T20:30:51Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "f698fdc757ab8539",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bijan-robinson-i-dont-feel-im-playing-like-one-of-the-best-backs-in-the-league",
-      "title": "Bijan Robinson: I don't feel I'm playing like one of the best backs in the league",
-      "summary": "Falcons running back Bijan Robinson has plenty of admirers, but he didn't give himself quite as high a grade as they do on Wednesday.",
-      "publishedAt": "2026-11-05T20:22:16Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "189d322cf02e53fc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-owner-mark-davis-is-not-a-fan-of-gambling-on-sports",
-      "title": "Raiders owner Mark Davis is \"not a fan\" of gambling on sports",
-      "summary": "It's fitting that the owner of the team headquartered in the nation's gambling capital doesn't like gambling on sports.",
-      "publishedAt": "2026-11-05T20:12:03Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "f2bf9dcb11df7f95",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cb-dj-turner-upgraded-to-full-practice-for-bengals",
-      "title": "CB DJ Turner upgraded to full practice for Bengals",
-      "summary": "Cornerback DJ Turner's status took a step in a positive direction on the Bengals' Thursday practice report.",
-      "publishedAt": "2026-11-05T19:51:19Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "482b3b45d171a127",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonathan-taylor-no-one-likes-uncertainty",
-      "title": "Jonathan Taylor: No one likes uncertainty",
-      "summary": "Colts running back Jonathan Taylor has spent the last two weeks fielding questions about whether he'll remain with the team and that will come to an end by next Tuesday one way or another.",
-      "publishedAt": "2026-11-05T19:31:06Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "b35afd82ec11bc76",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-qb-change-carson-wentz-start-vs-bills-kyler-murry-injury",
-      "title": "Vikings make QB change: Carson Wentz to start vs. Bills as Kyler Murray deals with injury",
-      "summary": "Wentz is now starting at QB for Minnesota after the underperforming Murray suffered a hamstring strain",
-      "publishedAt": "2026-11-05T19:16:04Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "e6c38b5a60b62f91",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-9-thursday-night-football",
-      "title": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for NFL Week 9 Thursday Night Football",
-      "summary": "We highlight some first touchdown scorer prediction markets at Kalshi for Jaguars vs. Ravens on Thursday Night Football",
-      "publishedAt": "2026-11-05T19:02:24Z",
       "teamIds": [
         "33",
         "30"
