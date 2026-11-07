@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:47:18Z",
+  "updatedAt": "2026-11-07T20:47:25Z",
   "items": [
+    {
+      "id": "684bf1d5e9bb5b47",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-list-dion-dawkins-as-questionable-to-play-on-monday-night",
+      "title": "Bills list Dion Dawkins as questionable to play on Monday night",
+      "summary": "Dion Dawkins didn't practice at all this week, but the Bills aren't counting him out for Monday night's game against the Vikings.",
+      "publishedAt": "2026-11-07T20:08:04Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "3cb3ef0bfd5d8f28",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-olb-malachi-lawrence-on-ir-activate-olb-marist-liufau-from-ir",
+      "title": "Cowboys place OLB Malachi Lawrence on IR, activate OLB Marist Liufau from IR",
+      "summary": "The Cowboys placed outside linebacker Malachi Lawrence on injured reserve, the team announced Saturday.",
+      "publishedAt": "2026-11-07T19:58:46Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "0ee083572cabbb4a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/philip-rivers-completes-high-school-season-confirms-interview-with-nc-state",
+      "title": "Philip Rivers completes high-school season, confirms interview with NC State",
+      "summary": "It's looking more and more like former NFL and NC State quarterback Philip Rivers will be the next coach of the Wolfpack.",
+      "publishedAt": "2026-11-07T19:55:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "34430e8c1bd398f0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-rule-jauan-jennings-out-for-monday-night",
+      "title": "Vikings rule Jauan Jennings out for Monday night",
+      "summary": "Wide receiver Jauan Jennings passed on a possible trade back to the 49ers in order to remain with the Vikings, but he won't be in Minnesota's lineup against the Bills on Monday night.",
+      "publishedAt": "2026-11-07T19:53:01Z",
+      "teamIds": [
+        "2",
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "9e6bd9a720018dcc",
       "source": "pft",
@@ -1631,51 +1676,6 @@
       "publishedAt": "2026-11-05T22:38:10Z",
       "teamIds": [
         "21"
-      ]
-    },
-    {
-      "id": "7584c0ebbb48680d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-on-cutting-s-c-j-gardner-johnson-it-was-the-best-interests-of-the-football-team",
-      "title": "Joe Brady on cutting S C.J. Gardner-Johnson: \"It was the best interests of the football team\"",
-      "summary": "On the day the NFL suspended former Bills safety C.J.",
-      "publishedAt": "2026-11-05T22:36:04Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "63a6914113944069",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-moore-limited-dion-dawkins-did-not-practice-on-thursday",
-      "title": "DJ Moore limited, Dion Dawkins did not practice on Thursday",
-      "summary": "The Bills have a lengthy injury report to begin Week 9, with the club playing the Vikings on Monday night.",
-      "publishedAt": "2026-11-05T22:24:27Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "811fbefbd8b03b7f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-downgraded-to-limited-thursday",
-      "title": "Joey Porter Jr. downgraded to limited Thursday",
-      "summary": "The Cowboys downgraded cornerback Joey Porter Jr. to a limited participant in Thursday's practice.",
-      "publishedAt": "2026-11-05T22:13:32Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "e4b9eef3748fb61b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jordan-love-halloween-costume-nfl-fine",
-      "title": "Why Jordan Love could face an NFL fine over Halloween costume",
-      "summary": "Love and his wife dressed as \"blind refs\" less than a week after controversial calls contributed to a Packers loss",
-      "publishedAt": "2026-11-05T22:11:58Z",
-      "teamIds": [
-        "9"
       ]
     }
   ]
