@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T04:47:19Z",
+  "updatedAt": "2026-11-07T05:47:21Z",
   "items": [
+    {
+      "id": "8f41ececcd991951",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-could-be-ready-to-make-a-trade-for-a-quarterback-if-they-lose-monday-night",
+      "title": "The Vikings could be ready to make a trade for a quarterback, if they lose Monday night",
+      "summary": "Tuesday could become very interesting, absent a Carson Wentz-led win vs. the Bills.",
+      "publishedAt": "2026-11-07T05:06:48Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
     {
       "id": "dc2d4133ca1d4b5a",
       "source": "pft",
@@ -1658,17 +1670,6 @@
       "publishedAt": "2026-11-05T17:39:15Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "83fb836e6dab43ee",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kaimi-fairbairn-is-the-afc-special-teams-player-of-the-month",
-      "title": "Ka'imi Fairbairn is the AFC special teams player of the month",
-      "summary": "It has not been a successful season for the Texans, but kicker Ka'imi Fairbairn is coming off of a strong October.",
-      "publishedAt": "2026-11-05T17:37:42Z",
-      "teamIds": [
-        "34"
       ]
     }
   ]
