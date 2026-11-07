@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T14:47:18Z",
+  "updatedAt": "2026-11-07T15:47:20Z",
   "items": [
+    {
+      "id": "67c937354d36f73b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-draftkings-betmgm",
+      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, DraftKings, BetMGM",
+      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-07T15:18:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "780ee5b3aa190769",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-predictions-game-best-bets-for-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-07T15:13:32Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "cc481be85a2a1ab7",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-lines-spreads-odds-totals",
+      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Cowboys-Colts, Jets-Chiefs, Giants-Eagles",
+      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Bears-Buccaneers",
+      "publishedAt": "2026-11-07T15:01:49Z",
+      "teamIds": [
+        "3",
+        "6",
+        "11",
+        "12",
+        "19",
+        "20",
+        "21",
+        "27"
+      ]
+    },
+    {
+      "id": "824ee0d45bdc7d1f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-are-in-trade-talks-regarding-qb-daniel-jones",
+      "title": "Report: Colts are in trade talks regarding QB Daniel Jones",
+      "summary": "The list of \"multiple teams\" currently includes the Ravens (who pivoted elsewhere) and the Vikings.",
+      "publishedAt": "2026-11-07T14:54:01Z",
+      "teamIds": [
+        "33",
+        "11",
+        "16"
+      ]
+    },
     {
       "id": "acbc60a8a68e2245",
       "source": "cbs",
@@ -1626,52 +1678,6 @@
       "teamIds": [
         "33",
         "30"
-      ]
-    },
-    {
-      "id": "aee72e8094d7dfbb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/an-investigation-regarding-the-jalen-hurts-situation-has-not-begun",
-      "title": "An investigation regarding the Jalen Hurts situation has not begun",
-      "summary": "The return of Eagles quarterback Jalen Hurts to the team's facility on Wednesday is a reminder that plenty of questions remain regarding the decisions made as to his health before flying to London with a blood clot in his leg, playing in London with a blood clot in his leg, and flying back from London with a blood clot in his leg.",
-      "publishedAt": "2026-11-05T18:50:01Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "e454077384221e88",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-vs-ravens-bhayshul-tuten-status-tnf",
-      "title": "Is Bhayshul Tuten playing on TNF? A look at the Jaguars RB's status against Ravens",
-      "summary": "Tuten hasn't practiced all week while dealing with ankle and foot injuries",
-      "publishedAt": "2026-11-05T18:46:14Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "8efff7aa07ab0583",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-out-for-monday-vs-bills-week-to-week-with-hamstring-injury",
-      "title": "Kyler Murray out for Monday vs. Bills, week-to-week with hamstring injury",
-      "summary": "Carson Wentz will make his second start of the season in place of the injured Murray.",
-      "publishedAt": "2026-11-05T18:40:07Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "cea79efacc800c5a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-was-upset-that-browns-teammates-didnt-react-when-he-took-a-cheap-shot",
-      "title": "Jared Verse was upset that Browns teammates didn't react when he took a cheap shot",
-      "summary": "Browns defensive end Jared Verse was picked up and thrown to the ground by Steelers guard Mason McCormick on Sunday, and McCormick wasn't the only person Verse was upset with afterward.",
-      "publishedAt": "2026-11-05T18:29:52Z",
-      "teamIds": [
-        "5",
-        "23"
       ]
     }
   ]
