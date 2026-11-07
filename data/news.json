@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T00:47:18Z",
+  "updatedAt": "2026-11-07T01:47:16Z",
   "items": [
+    {
+      "id": "05e10443fdd13d3e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-to-have-chip-on-shoulder-after-browns-chirping",
+      "title": "Saints to have \"chip on our shoulder\" after Browns' \"chirping\"",
+      "summary": "The Saints, like all teams, pay attention to the things said by their upcoming opponents.",
+      "publishedAt": "2026-11-07T01:22:02Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "b440747879906d2e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-rosenhaus-after-brandon-aiyuks-meeting-with-49ers-to-be-continued",
+      "title": "Drew Rosenhaus after Brandon Aiyuk's meeting with 49ers: \"To be continued\"",
+      "summary": "First session ends with no resolution.",
+      "publishedAt": "2026-11-07T00:58:00Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "e1739c04e9b343c8",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-nevada-new-mexico-college-football-nba",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Nevada-New Mexico, college football, NBA",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, and NFL betting on Friday",
+      "publishedAt": "2026-11-07T00:53:15Z",
+      "teamIds": []
+    },
     {
       "id": "e823e1149caf72ea",
       "source": "pft",
@@ -10,6 +42,17 @@
       "summary": "The NFC North is the best division in the NFL.",
       "publishedAt": "2026-11-07T00:40:26Z",
       "teamIds": []
+    },
+    {
+      "id": "4bbbcc76be2b8c1a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-returns-49ers-offices-13-million-problem-looms",
+      "title": "Brandon Aiyuk returns to 49ers offices to seek NFL reinstatement as $13 million problem looms",
+      "summary": "The wide receiver says he is 100% healthy and filing for NFL reinstatement, though a $13 million financial dispute remains",
+      "publishedAt": "2026-11-07T00:39:41Z",
+      "teamIds": [
+        "25"
+      ]
     },
     {
       "id": "23f99ef9e5b644f6",
@@ -37,7 +80,7 @@
       "id": "d03a18d41abd6634",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-9-injury-report-seahawks-quenton-nelson-out-knee-procedure",
-      "title": "NFL Week 9 injury report: Seahawks' Quenton Nelson 'week-to-week' after knee procedure",
+      "title": "NFL Week 9 injury report: Mike Evans ruled out, Seahawks' Quenton Nelson 'week-to-week' after knee procedure",
       "summary": "The final injury reports for every NFL team in Week 9",
       "publishedAt": "2026-11-06T23:42:18Z",
       "teamIds": [
@@ -1627,51 +1670,6 @@
       "publishedAt": "2026-11-05T17:24:28Z",
       "teamIds": [
         "27"
-      ]
-    },
-    {
-      "id": "083113a0be1b83f9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/evan-williams-named-nfc-defensive-player-of-the-month",
-      "title": "Evan Williams named NFC defensive player of the month",
-      "summary": "Packers safety Evan Williams has been named NFC defensive player of the month for October.",
-      "publishedAt": "2026-11-05T17:16:29Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "57e6b861aa096973",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-named-nfc-offensive-player-of-the-month",
-      "title": "Malik Nabers named NFC offensive player of the month",
-      "summary": "Giants receiver Malik Nabers had a strong October and now has been recognized for it.",
-      "publishedAt": "2026-11-05T17:12:09Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "47582840b32779e8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-is-the-afc-offensive-player-of-the-month",
-      "title": "Drake Maye is the AFC offensive player of the month",
-      "summary": "Patriots quarterback Drake Maye heard a lot of criticism in September, but it faded away in October.",
-      "publishedAt": "2026-11-05T17:09:07Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "0be6e7f192cd989f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/great-player-bad-pick-ashton-jeanty-jeremiyah-love-drafting-rb-in-top-10",
-      "title": "Great player, bad pick? Ashton Jeanty, Jeremiyah Love and the high price of drafting a RB in the top 10",
-      "summary": "The Raiders and Cardinals spent premium picks on RBs. Their slow starts raise a bigger question about draft value and missed opportunities.",
-      "publishedAt": "2026-11-05T17:02:13Z",
-      "teamIds": [
-        "22",
-        "13"
       ]
     }
   ]
