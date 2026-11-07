@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T10:25:15Z",
+  "updatedAt": "2026-11-07T13:47:19Z",
   "items": [
+    {
+      "id": "e02cce7a318235be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-career-low-numbers-in-2025-justin-jeffersons-production-is-even-lower-in-2026",
+      "title": "After career-low numbers in 2025, Justin Jefferson's production is even lower in 2026",
+      "summary": "Vikings wide receiver Justin Jefferson had his worst season in 2025.",
+      "publishedAt": "2026-11-07T13:08:30Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "6866597997592dd9",
       "source": "pft",
@@ -1661,15 +1672,6 @@
         "3",
         "27"
       ]
-    },
-    {
-      "id": "497a8377f5f2d8c2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-tom-coughlin-among-five-coaches-to-advance-in-hall-of-fame-selection-process",
-      "title": "Bill Belichick, Tom Coughlin among five coaches to advance in Hall of Fame selection process",
-      "summary": "Bill Belichick fell short of the necessary votes to be elected to the Pro Football Hall of Fame in 2026, but he may have another chance in 2027.",
-      "publishedAt": "2026-11-05T17:52:14Z",
-      "teamIds": []
     }
   ]
 }
