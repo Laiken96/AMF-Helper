@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T19:50:28Z",
+    "takenAt": "2026-11-08T20:10:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1946,6 +1946,17 @@
             "status": null
           },
           {
+            "athleteId": "4260394",
+            "name": "Aidan O'Connell",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4432665",
             "name": "Brock Bowers",
             "pos": "TE",
@@ -2000,6 +2011,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430431",
+            "name": "Kurtis Rourke",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2113,7 +2135,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4427095",
@@ -2137,6 +2159,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4431465",
+            "name": "Behren Morton",
+            "pos": "QB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4569173",
@@ -2493,6 +2526,26 @@
       "to": "Out"
     },
     {
+      "gameId": "401873047",
+      "athleteId": "4260394",
+      "name": "Aidan O'Connell",
+      "pos": "QB",
+      "teamAbbr": "LV",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873047",
+      "athleteId": "4430431",
+      "name": "Kurtis Rourke",
+      "pos": "QB",
+      "teamAbbr": "SF",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873048",
       "athleteId": "3912547",
       "name": "Sam Darnold",
@@ -2514,6 +2567,16 @@
     },
     {
       "gameId": "401873049",
+      "athleteId": "4431465",
+      "name": "Behren Morton",
+      "pos": "QB",
+      "teamAbbr": "NE",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873049",
       "athleteId": "4248528",
       "name": "Christian Watson",
       "pos": "WR",
@@ -2521,6 +2584,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873049",
+      "athleteId": "4429023",
+      "name": "MarShawn Lloyd",
+      "pos": "RB",
+      "teamAbbr": "GB",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873051",
