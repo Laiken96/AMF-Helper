@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T00:45:14Z",
+  "updatedAt": "2026-11-08T01:47:21Z",
   "items": [
+    {
+      "id": "26113f449c0216dc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-and-bo-nix-have-won-16-straight-one-score-games",
+      "title": "Broncos and Bo Nix have won 16 straight one-score games",
+      "summary": "The Broncos keep finding ways to win games — especially close games.",
+      "publishedAt": "2026-11-08T01:17:52Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "55562f85b37dd727",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/player-personnel-handbook-implies-that-the-nfl-can-delay-or-deny-brandon-aiyuks-reinstatement",
+      "title": "Player Personnel Handbook implies that the NFL can delay (or deny) Brandon Aiyuk's reinstatement",
+      "summary": "The CBA is silent on the issue.",
+      "publishedAt": "2026-11-08T00:49:16Z",
+      "teamIds": []
+    },
     {
       "id": "a5a65619b06fe961",
       "source": "cbs",
@@ -1652,30 +1672,6 @@
       "title": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Jaguars vs. Ravens, Thursday Night Football",
       "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for Ravens vs. Jaguars betting on Thursday Night Football",
       "publishedAt": "2026-11-06T00:23:27Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "a25f9ffe32b9d288",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-claim-200-bonus-bets-by-targeting-jaguars-vs-ravens-thursday-night-football",
-      "title": "Use FanDuel promo code to claim $200 bonus bets by targeting Jaguars vs. Ravens on Thursday Night Football",
-      "summary": "Sign up and bet with the latest FanDuel promo code on Thursday to get your bonus bets",
-      "publishedAt": "2026-11-06T00:01:28Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "44dd4dd618b197ac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-de-travon-walker-rb-bhayshul-tuten-active-for-jaguars-vs-ravens",
-      "title": "Thursday Night Football: DE Travon Walker, RB Bhayshul Tuten active for Jaguars vs. Ravens",
-      "summary": "The Jaguars will have running back Bhayshul Tuten and defensive end Travon Walker for Thursday Night Football against the Ravens.",
-      "publishedAt": "2026-11-05T23:58:06Z",
       "teamIds": [
         "33",
         "30"
