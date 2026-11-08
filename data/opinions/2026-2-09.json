@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T12:10:59Z",
+  "updatedAt": "2026-11-08T15:06:10Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -238,6 +238,33 @@
         {
           "title": "New York Jets Rule Out 3 Players Less Than 24 Hours Before Chiefs Game",
           "url": "https://heavy.com/sports/nfl/new-york-jets/new-york-jets-rule-out-3-players-less-than-24-hours-before-chiefs-game/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873046",
+      "createdAt": "2026-11-08T15:06:10Z",
+      "winnerTeamId": "34",
+      "pWinner": 0.65,
+      "marketPickTeamId": "34",
+      "marketProb": 0.6581,
+      "reasoning": "Die Texans sind laut Quellen mit 2-5 ebenfalls schwach, aber offensiv deutlich produktiver als die bislang punktlose Offense der Chargers. Auf Seiten Houstons fehlen RB David Montgomery und Safety Reed Blankenship, während Jaylin Noel auf Injured Reserve steht, was der Marktquote bereits entspricht. Ich bleibe daher nah am Markt beim Favoriten Houston, da die Chargers mit mehreren Ausfällen und Zweifelhaften in ihr Heimspiel gehen.",
+      "sources": [
+        {
+          "title": "Texans vs Chargers Prediction, Top Picks & Odds: NFL Week 9",
+          "url": "https://www.covers.com/nfl/texans-vs-chargers-prediction-picks-nov-8-2026"
+        },
+        {
+          "title": "Houston Texans vs. Los Angeles Chargers: Injury Report",
+          "url": "https://www.battleredblog.com/houston-texans-injuries/78825/houston-texans-vs-los-angeles-chargers-injury-report"
+        },
+        {
+          "title": "Chargers-Texans Injury Report: Kayode Awosika, David Njoku Doubtful",
+          "url": "https://sports.yahoo.com/articles/chargers-texans-injury-report-kayode-234508152.html"
+        },
+        {
+          "title": "Texans vs. Chargers (Nov 8, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873046/texans-chargers"
         }
       ]
     }
