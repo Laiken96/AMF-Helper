@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "fetchedAt": "2026-11-02T23:47:16Z",
+  "fetchedAt": "2026-11-08T17:47:16Z",
   "source": "espn",
   "games": [
     {
@@ -14,10 +14,10 @@
       "kickoffUtc": "2026-11-06T01:15:00Z",
       "homeId": "33",
       "awayId": "30",
-      "status": "scheduled",
-      "statusDetail": "11/5 - 8:15 PM EST",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "statusDetail": "Final",
+      "homeScore": 10,
+      "awayScore": 33,
       "venue": "M&T Bank Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -36,10 +36,10 @@
       "kickoffUtc": "2026-11-08T14:30:00Z",
       "homeId": "1",
       "awayId": "4",
-      "status": "scheduled",
-      "statusDetail": "11/8 - 9:30 AM EST",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "statusDetail": "Final",
+      "homeScore": 17,
+      "awayScore": 34,
       "venue": "Santiago Bernabéu",
       "neutralSite": true,
       "venueInfo": {

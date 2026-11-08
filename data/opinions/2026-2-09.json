@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 9,
+  "updatedAt": "2026-11-08T15:31:29Z",
+  "model": "claude-haiku-5-5",
+  "opinions": [
+    {
+      "gameId": "401873037",
+      "createdAt": "2026-11-05T19:20:59Z",
+      "winnerTeamId": "30",
+      "pWinner": 0.78,
+      "marketPickTeamId": "30",
+      "marketProb": 0.7706,
+      "reasoning": "Die Ravens fehlen auf der QB-Position komplett: Lamar Jackson, Tyler Huntley und S Jaylinn Hawkins stehen laut offiziellem Status auf Out, und Joe Fagnano wird wohl als junger Ersatz starten. Jacksonville hat mit Bhayshul Tuten zwar einen fraglichen Starter-RB, doch der Markt sieht die Jaguars mit rund 80 Prozent vorn, und das Wetter ist laut Prognosen unauffällig. Ich halte die Jaguars daher für klar favorisiert, sehe aber wegen der Verletzungen auf beiden Seiten etwas weniger Sicherheit als der Markt.",
+      "sources": [
+        {
+          "title": "Baltimore Ravens: Injury Report - Ravens vs. Jaguars (Game Status)",
+          "url": "https://russellstreetreport.com/2026/11/04/injury-report/injury-report-ravens-vs-jaguars-game-status-wednesday/"
+        },
+        {
+          "title": "Ravens Got Unexpected Injury Update to Starter Days Before Jaguars Game",
+          "url": "https://heavy.com/sports/nfl/baltimore-ravens/unexpected-injury-update-tyler-loop-jaguars/"
+        },
+        {
+          "title": "Jaguars-Ravens Injury Report: Bhayshul Tuten's Injury Could Mean Larger Role For 1 Veteran",
+          "url": "https://www.si.com/nfl/jaguars/onsi/jacksonville-ravens-injury-report-bhayshul-tuten-s-injury-could-mean-larger-role-for-1-veteran"
+        },
+        {
+          "title": "Jaguars vs Ravens Prediction, Top Picks & Odds: Thursday Night Football Week 9",
+          "url": "https://www.covers.com/nfl/jaguars-vs-ravens-prediction-picks-nov-5-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873038",
+      "createdAt": "2026-11-08T08:31:09Z",
+      "winnerTeamId": "4",
+      "pWinner": 0.6,
+      "marketPickTeamId": "4",
+      "marketProb": 0.5879,
+      "reasoning": "Die Bengals sind mit fünf Siegen aus sieben Spielen und einer starken Offensive die bessere Mannschaft, und Atlanta muss ohne Running Back Brian Robinson Jr. (Hamstring) sowie ohne Zachariah Branch auskommen, während Divine Deablo fraglich ist. Cornerback DJ Turner II soll bei Cincinnati spielen können, ob Kyle Dugger fehlt, ist in den Meldungen uneinheitlich. Ich liege mit 60 Prozent leicht unter der Markterwartung von 58.8 Prozent, aber über dem Wert, der sich aus dem Spread von 3 ergibt, da die Falcons mit Pearce Jr.'s Rückkehr und einer soliden Verteidigung eine Überraschung möglich...",
+      "sources": [
+        {
+          "title": "Falcons adjust Week 9 injury report for Bengals game in Madrid with Brian Robinson Jr. downgrade - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/falcons-adjust-week-9-injury-151253352.html"
+        },
+        {
+          "title": "Falcons Suddenly Rule Out Running Back Ahead of Bengals Matchup in Spain - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/falcons-suddenly-rule-running-back-173611640.html"
+        },
+        {
+          "title": "Bengals Get Major DJ Turner Injury Update Ahead of Falcons Game",
+          "url": "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-dj-turner-injury-update-falcons/"
+        },
+        {
+          "title": "Falcons vs. Bengals in Madrid: Preview, Odds and Prediction - BVM Sports",
+          "url": "https://bvmsports.com/2026/11/07/falcons-vs-bengals-in-madrid-preview-odds-and-prediction/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873039",
+      "createdAt": "2026-11-08T12:01:17Z",
+      "winnerTeamId": "18",
+      "pWinner": 0.57,
+      "marketPickTeamId": "18",
+      "marketProb": 0.5879,
+      "reasoning": "Die Saints spielen zu Hause in der Halle, und das Wetter ist kein Faktor. Bei den Browns ist Deshaun Watson wegen einer Gehirnerschütterung fraglich, Shedeur Sanders wird als Starter erwartet, und DT Maliek Collins fehlt. Bei den Saints fehlt RB CJ Donaldson, während OT Kelvin Banks Jr. und WR Jordyn Tyson fraglich sind. Die Browns haben die bessere Bilanz, doch der Quarterback-Wechsel spricht für die Saints, sodass ich nahe an der Marktquote bleibe.",
+      "sources": [
+        {
+          "title": "Saints-Browns Final Injury Report: Banks, Tyson Questionable; Donaldson Out",
+          "url": "https://www.si.com/nfl/saints/onsi/saints-browns-final-injury-report-banks-tyson-questionable-donaldson-out-01m6shmat42y"
+        },
+        {
+          "title": "Browns, Saints final injury report: Deshaun Watson not out, Jordyn Tyson update - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/browns-saints-final-injury-report-225548120.html"
+        },
+        {
+          "title": "Cleveland Browns vs. New Orleans Saints: Week 9 Need to Know - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/cleveland-browns-vs-orleans-saints-203845259.html"
+        },
+        {
+          "title": "Browns add TE Harold Fannin to injury report, Deshaun Watson remains out - NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-te-harold-fannin-to-injury-report-deshaun-watson-remains-out"
+        }
+      ]
+    },
+    {
+      "gameId": "401873040",
+      "createdAt": "2026-11-08T12:01:27Z",
+      "winnerTeamId": "6",
+      "pWinner": 0.63,
+      "marketPickTeamId": "6",
+      "marketProb": 0.6581,
+      "reasoning": "Dallas bleibt knapper Favorit, weil die Colts mit einer Serie von vier Niederlagen in Folge ins Spiel gehen und ihre Defensive ohne mehrere Stammkräfte auskommen muss. Die Cowboys sind aber selbst angeschlagen, besonders in der Secondary und bei Porter, Overshown und Ferguson, weshalb ich leicht unter dem Marktwert von 65.8 Prozent bleibe. Das Dach im Lucas Oil Stadium dürfte das Wetter als Faktor ausschalten.",
+      "sources": [
+        {
+          "title": "Cowboys vs. Colts Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873040/cowboys-colts"
+        },
+        {
+          "title": "Dallas Cowboys Injuries - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/dal/dallas-cowboys"
+        },
+        {
+          "title": "Colts vs. Cowboys injury report: 2 Indianapolis starters still out - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/colts-vs-cowboys-injury-report-012619011.html"
+        },
+        {
+          "title": "Cowboys vs. Colts NFL Week 9 Betting Odds, Picks - SportsInteraction",
+          "url": "https://news.sportsinteraction.com/nfl/story/cowboys-vs-colts-odds-prediction-110826-216037"
+        }
+      ]
+    },
+    {
+      "gameId": "401873041",
+      "createdAt": "2026-11-08T12:01:35Z",
+      "winnerTeamId": "7",
+      "pWinner": 0.57,
+      "marketPickTeamId": "7",
+      "marketProb": 0.5735,
+      "reasoning": "Die Suche zeigt entgegen der Angabe \"keine bekannten Ausfälle\" mehrere Ausfälle auf beiden Seiten: Bei Denver fehlen Jones, Uwazurike und Abrams-Draine, bei Carolina Phillips, Lee, Lewis und Okereke, während Quarterback Bryce Young voll trainiert. Wetterdaten habe ich nicht gefunden, weshalb ich den Markt nur leicht korrigiere und die Broncos knapp vorn sehe.",
+      "sources": [
+        {
+          "title": "Denver Broncos Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/den/denver-broncos"
+        },
+        {
+          "title": "Panthers rule out four players - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/panthers-rule-four-players-222518329.html"
+        },
+        {
+          "title": "Panthers Injury Report - Panthers.com",
+          "url": "https://www.panthers.com/team/injury-report/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873042",
+      "createdAt": "2026-11-08T12:01:46Z",
+      "winnerTeamId": "8",
+      "pWinner": 0.67,
+      "marketPickTeamId": "8",
+      "marketProb": 0.6849,
+      "reasoning": "Die Lions bleiben Favorit, auch wenn sie mit Jack Campbell, Kerby Joseph, Cade Mays, D.J. Reed und DJ Wonnum fünf Stammkräfte verlieren, was die Defense und die Line schwächt. Miami muss ebenfalls mit Unsicherheit bei den Running Backs Jaylen Wright und Kaytron Allen sowie bei Malik Herring planen, und das Wetter gilt als unauffällig. Ich liege daher etwas unter dem Marktwert von 68.5 Prozent, da die Ausfälle bei Detroit schwer wiegen.",
+      "sources": [
+        {
+          "title": "Lions/Dolphins Friday Injury Update - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/lions-dolphins-friday-injury-224644061.html"
+        },
+        {
+          "title": "Lions vs Dolphins Prediction, Picks & Odds: NFL Week 9 - Covers",
+          "url": "https://www.covers.com/nfl/lions-vs-dolphins-prediction-picks-nov-8-2026"
+        },
+        {
+          "title": "Detroit Lions Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"
+        },
+        {
+          "title": "Miami Dolphins Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/mia/miami-dolphins"
+        }
+      ]
+    },
+    {
+      "gameId": "401873043",
+      "createdAt": "2026-11-08T12:10:41Z",
+      "winnerTeamId": "14",
+      "pWinner": 0.62,
+      "marketPickTeamId": "14",
+      "marketProb": 0.6306,
+      "reasoning": "Die Commanders verlieren mit Treylon Burks und Dyami Brown zwei Receiver, während bei den Rams Jaylen Watson ausfällt und Trent McDuffie fraglich ist, sodass beide Secondarys geschwächt sind. Das Wetter ist mit Temperaturen um 61 Grad und moderatem Wind unproblematisch, und der Markt sieht die Rams klar vorn, weshalb ich mich dem Favoriten mit etwas weniger Zuversicht als der Markt anschliesse.",
+      "sources": [
+        {
+          "title": "Game Status: Treylon Burks, Dyami Brown ruled out vs. Rams (Commanders.com)",
+          "url": "https://www.commanders.com/news/game-status-commanders-rams-treylon-burks-dyami-brown"
+        },
+        {
+          "title": "Rams Injury Report: Trent McDuffie's Status Adds to Secondary Concerns (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/articles/rams-injury-report-trent-mcduffies-220000440.html"
+        },
+        {
+          "title": "Commanders vs. Rams Weather Forecast: Wind Could Matter Early (SI)",
+          "url": "https://www.si.com/nfl/commanders/onsi/commanders-rams-weather-forecast-week-9"
+        },
+        {
+          "title": "Rams vs Commanders Prediction, Picks & Odds (Covers)",
+          "url": "https://www.covers.com/nfl/rams-vs-commanders-prediction-picks-nov-8-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873044",
+      "createdAt": "2026-11-08T12:10:50Z",
+      "winnerTeamId": "19",
+      "pWinner": 0.6,
+      "marketPickTeamId": "19",
+      "marketProb": 0.5879,
+      "reasoning": "Die Eagles müssen ohne ihre beiden besten Receiver DeVonta Smith und Dontayvion Wicks auskommen, dazu fehlen mehrere Defensivspieler, und QB Tanner McKee ist nur fraglich, während Joe Milton als Starter vorgesehen ist. Die Giants verlieren mit Cam Skattebo zwar ihren Starter-Running-Back, der Markt sieht sie aber dennoch knapp vorne, und das Wetter am Sonntag gilt als unproblematisch. Daher halte ich die Giants für leicht favorisiert.",
+      "sources": [
+        {
+          "title": "Eagles vs. Giants: Predictions, odds, injuries, and more as trade deadline looms",
+          "url": "https://www.inquirer.com/eagles/eagles-giants-preview-predictions-injury-report-trade-deadline-rumors-20261107.html"
+        },
+        {
+          "title": "Eagles injury update: DeVonta Smith among those ruled out vs. NYG",
+          "url": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-injury-update-devonta-smith-among-those-ruled-out-vs-giants/764887/"
+        },
+        {
+          "title": "Eagles QB unexpectedly ruled questionable vs. Giants: Trade could be next - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/eagles-qb-unexpectedly-ruled-questionable-212949378.html"
+        },
+        {
+          "title": "Giants vs. Eagles (Nov 8, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873044/giants-eagles"
+        }
+      ]
+    },
+    {
+      "gameId": "401873045",
+      "createdAt": "2026-11-08T12:10:59Z",
+      "winnerTeamId": "12",
+      "pWinner": 0.74,
+      "marketPickTeamId": "12",
+      "marketProb": 0.7592,
+      "reasoning": "Die Jets verlieren WR Garrett Wilson (Concussion) und LB Trevin Wallace, und laut Heavy fallen auch CB Nahshon Wright und S VJ Payne aus, obwohl der offizielle Jets-Bericht beide noch als fraglich führt. Bei den Chiefs fehlen DT Peter Woods, CB Mansoor Delane und DT Omarr Norman-Lott, dennoch bleibt Heimvorteil und Mahomes spielt voraussichtlich. Ich folge daher dem Markt mit leicht niedrigerer Quote für KC (0.74 statt 0.759), wegen der Defensivlücken und zwei Auswärtsniederlagen in Serie.",
+      "sources": [
+        {
+          "title": "New York Jets Injury Report Week 9 vs. Chiefs Friday",
+          "url": "https://www.newyorkjets.com/news/jets-injury-report-week-9-vs-chiefs-friday-11-6-2026"
+        },
+        {
+          "title": "Chiefs Announce Triple Injury Setback Ahead of Jets Clash",
+          "url": "https://www.essentiallysports.com/nfl-active-news-chiefs-announce-triple-injury-setback-ahead-of-jets-clash/"
+        },
+        {
+          "title": "New York Jets Rule Out 3 Players Less Than 24 Hours Before Chiefs Game",
+          "url": "https://heavy.com/sports/nfl/new-york-jets/new-york-jets-rule-out-3-players-less-than-24-hours-before-chiefs-game/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873046",
+      "createdAt": "2026-11-08T15:06:10Z",
+      "winnerTeamId": "34",
+      "pWinner": 0.65,
+      "marketPickTeamId": "34",
+      "marketProb": 0.6581,
+      "reasoning": "Die Texans sind laut Quellen mit 2-5 ebenfalls schwach, aber offensiv deutlich produktiver als die bislang punktlose Offense der Chargers. Auf Seiten Houstons fehlen RB David Montgomery und Safety Reed Blankenship, während Jaylin Noel auf Injured Reserve steht, was der Marktquote bereits entspricht. Ich bleibe daher nah am Markt beim Favoriten Houston, da die Chargers mit mehreren Ausfällen und Zweifelhaften in ihr Heimspiel gehen.",
+      "sources": [
+        {
+          "title": "Texans vs Chargers Prediction, Top Picks & Odds: NFL Week 9",
+          "url": "https://www.covers.com/nfl/texans-vs-chargers-prediction-picks-nov-8-2026"
+        },
+        {
+          "title": "Houston Texans vs. Los Angeles Chargers: Injury Report",
+          "url": "https://www.battleredblog.com/houston-texans-injuries/78825/houston-texans-vs-los-angeles-chargers-injury-report"
+        },
+        {
+          "title": "Chargers-Texans Injury Report: Kayode Awosika, David Njoku Doubtful",
+          "url": "https://sports.yahoo.com/articles/chargers-texans-injury-report-kayode-234508152.html"
+        },
+        {
+          "title": "Texans vs. Chargers (Nov 8, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873046/texans-chargers"
+        }
+      ]
+    },
+    {
+      "gameId": "401873047",
+      "createdAt": "2026-11-08T15:31:08Z",
+      "winnerTeamId": "25",
+      "pWinner": 0.72,
+      "marketPickTeamId": "25",
+      "marketProb": 0.7592,
+      "reasoning": "Mehrere Berichte nennen Mike Evans, Deebo Samuel und Christian Kirk als Ausfälle bei den 49ers sowie DT Thomas Booker bei den Raiders, was der Angabe \"keine bekannt\" aus ESPN widerspricht. Das Wetter mit rund 70 Grad und ohne Regen ist unauffällig, und die anfällige Raiders-Defensive spricht für die Heimmannschaft. Ich liege trotz der Receiver-Lücke etwas unter der Marktquote von 75.9 Prozent, bleibe aber bei San Francisco als klarem Favoriten.",
+      "sources": [
+        {
+          "title": "How the Las Vegas Raiders and San Francisco 49ers match up with injuries, predictions, betting lines",
+          "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-49ers-preview-how-they-match-up-injuries-bold-predictions-3911723/"
+        },
+        {
+          "title": "Raiders Gain Major Injury Advantage Over Depleted 49ers Matchup",
+          "url": "https://www.marincountyvisitor.com/raiders-gain-major-injury-advantage-over-depleted-49ers-matchup/"
+        },
+        {
+          "title": "Raiders vs. 49ers Prediction & Odds",
+          "url": "https://sportsbookreview.com/picks/nfl/raiders-vs-49ers-prediction-odds-picks-week-9-2026"
+        },
+        {
+          "title": "Raiders At 49ers Weather Forecast",
+          "url": "https://www.nflweather.com/games/2026/week-9/raiders-at-49ers"
+        }
+      ]
+    },
+    {
+      "gameId": "401873048",
+      "createdAt": "2026-11-08T15:31:20Z",
+      "winnerTeamId": "26",
+      "pWinner": 0.68,
+      "marketPickTeamId": "26",
+      "marketProb": 0.7355,
+      "reasoning": "Seattle bleibt trotz des Ausfalls von QB Sam Darnold der wahrscheinlichere Sieger, denn Ersatzmann Drew Lock ist durch einen Armschaden eingeschränkt und Seattle verliert zusätzlich mehrere Offensiv-Linemen sowie WR Rashid Shaheed. Auch Arizona ist dezimiert, und Gardner Minshew startet für die Cardinals nach dem Brissett-Trade. Ich liege mit 0.68 etwas unter dem Marktwert von 73.6 Prozent, weil ich keine Wetterdaten finden konnte und die Ausfälle auf beiden Seiten hoch sind.",
+      "sources": [
+        {
+          "title": "Seahawks QB Sam Darnold OUT for Week 9 vs Cardinals, Drew Lock to start - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/seahawks-qb-sam-darnold-week-191333091.html"
+        },
+        {
+          "title": "25 Players Highlight Cardinals-Seahawks Week 9 Injury Report",
+          "url": "https://www.si.com/nfl/cardinals/onsi/25-players-highlight-arizona-cardinals-seattle-seahawks-week-9-injury-report"
+        },
+        {
+          "title": "NFL Week 9 injury report: Mike Evans ruled out, Seahawks' Quenton Nelson 'week-to-week' after knee procedure - CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/nfl-week-9-injury-report-seahawks-quenton-nelson-out-knee-procedure/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873049",
+      "createdAt": "2026-11-08T15:31:29Z",
+      "winnerTeamId": "17",
+      "pWinner": 0.6,
+      "marketPickTeamId": "17",
+      "marketProb": 0.5879,
+      "reasoning": "New England bleibt knapp vorne, weil WR A.J. Brown und RB TreVeyon Henderson laut Berichten fehlen, während bei den Packers Micah Parsons, Zaire Franklin, Sean Rhyan und Travis Glover nicht spielen. Green Bay hat zudem das schwächste Laufspiel der Liga, und die Patriots profitieren vom Heimvorteil bei klarem Wetter mit etwa 53 Grad. Ich liege leicht über dem Marktwert von 58.8 Prozent, bleibe aber vorsichtig, da Jordan Love stark spielt und Hunter Henry sowie Carlton Davis fraglich sind. Hinweis: Der ESPN-Vermerk \"keine bekannten Ausfälle\" passt nicht zu den gefundenen Meldungen, daher...",
+      "sources": [
+        {
+          "title": "Packers-Patriots Final Injury Report: Keisean Nixon Provides Fun Clue; Five Out - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/packers-patriots-final-injury-report-210053931.html"
+        },
+        {
+          "title": "Week 9 Injury Report: Patriots vs. Packers - Patriots.com",
+          "url": "https://www.patriots.com/news/week-9-injury-report-patriots-vs-packers"
+        },
+        {
+          "title": "New England Patriots vs. Green Bay Packers - November 08, 2026 - Bleacher Report",
+          "url": "https://bleacherreport.com/game/green-bay-packers-vs-new-england-patriots-2026-11-8-16-25"
+        },
+        {
+          "title": "Patriots-Packers Week 9 preview: Keys to victory, prediction and more - NBC Sports Boston",
+          "url": "https://www.nbcsportsboston.com/nfl/new-england-patriots/packers-week-9-preview-keys-victory-prediction/811748/"
+        }
+      ]
+    }
+  ]
+}
