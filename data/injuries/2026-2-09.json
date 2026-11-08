@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T21:30:52Z",
+    "takenAt": "2026-11-08T21:40:28Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1917,8 +1917,8 @@
             "status": null
           },
           {
-            "athleteId": "4430968",
-            "name": "Kimani Vidal",
+            "athleteId": "4685382",
+            "name": "Omarion Hampton",
             "pos": "RB",
             "teamId": "24",
             "teamAbbr": "LAC",
@@ -1934,6 +1934,18 @@
         "kickoffUtc": "2026-11-08T21:25:00Z",
         "players": [
           {
+            "athleteId": "14880",
+            "name": "Kirk Cousins",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4260394",
             "name": "Aidan O'Connell",
             "pos": "QB",
@@ -1945,8 +1957,19 @@
             "status": "Out"
           },
           {
-            "athleteId": "3043116",
-            "name": "Demarcus Robinson",
+            "athleteId": "4890973",
+            "name": "Ashton Jeanty",
+            "pos": "RB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "16731",
+            "name": "Brandin Cooks",
             "pos": "WR",
             "teamId": "25",
             "teamAbbr": "SF",
@@ -2066,7 +2089,19 @@
             "teamAbbr": "GB",
             "roles": [
               "qb",
+              "passing",
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4701936",
+            "name": "Matthew Golden",
+            "pos": "WR",
+            "teamId": "9",
+            "teamAbbr": "GB",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
