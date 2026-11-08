@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T08:31:09Z",
+  "updatedAt": "2026-11-08T12:01:46Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -57,6 +57,110 @@
         {
           "title": "Falcons vs. Bengals in Madrid: Preview, Odds and Prediction - BVM Sports",
           "url": "https://bvmsports.com/2026/11/07/falcons-vs-bengals-in-madrid-preview-odds-and-prediction/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873039",
+      "createdAt": "2026-11-08T12:01:17Z",
+      "winnerTeamId": "18",
+      "pWinner": 0.57,
+      "marketPickTeamId": "18",
+      "marketProb": 0.5879,
+      "reasoning": "Die Saints spielen zu Hause in der Halle, und das Wetter ist kein Faktor. Bei den Browns ist Deshaun Watson wegen einer Gehirnerschütterung fraglich, Shedeur Sanders wird als Starter erwartet, und DT Maliek Collins fehlt. Bei den Saints fehlt RB CJ Donaldson, während OT Kelvin Banks Jr. und WR Jordyn Tyson fraglich sind. Die Browns haben die bessere Bilanz, doch der Quarterback-Wechsel spricht für die Saints, sodass ich nahe an der Marktquote bleibe.",
+      "sources": [
+        {
+          "title": "Saints-Browns Final Injury Report: Banks, Tyson Questionable; Donaldson Out",
+          "url": "https://www.si.com/nfl/saints/onsi/saints-browns-final-injury-report-banks-tyson-questionable-donaldson-out-01m6shmat42y"
+        },
+        {
+          "title": "Browns, Saints final injury report: Deshaun Watson not out, Jordyn Tyson update - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/browns-saints-final-injury-report-225548120.html"
+        },
+        {
+          "title": "Cleveland Browns vs. New Orleans Saints: Week 9 Need to Know - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/cleveland-browns-vs-orleans-saints-203845259.html"
+        },
+        {
+          "title": "Browns add TE Harold Fannin to injury report, Deshaun Watson remains out - NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-te-harold-fannin-to-injury-report-deshaun-watson-remains-out"
+        }
+      ]
+    },
+    {
+      "gameId": "401873040",
+      "createdAt": "2026-11-08T12:01:27Z",
+      "winnerTeamId": "6",
+      "pWinner": 0.63,
+      "marketPickTeamId": "6",
+      "marketProb": 0.6581,
+      "reasoning": "Dallas bleibt knapper Favorit, weil die Colts mit einer Serie von vier Niederlagen in Folge ins Spiel gehen und ihre Defensive ohne mehrere Stammkräfte auskommen muss. Die Cowboys sind aber selbst angeschlagen, besonders in der Secondary und bei Porter, Overshown und Ferguson, weshalb ich leicht unter dem Marktwert von 65.8 Prozent bleibe. Das Dach im Lucas Oil Stadium dürfte das Wetter als Faktor ausschalten.",
+      "sources": [
+        {
+          "title": "Cowboys vs. Colts Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873040/cowboys-colts"
+        },
+        {
+          "title": "Dallas Cowboys Injuries - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/dal/dallas-cowboys"
+        },
+        {
+          "title": "Colts vs. Cowboys injury report: 2 Indianapolis starters still out - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/colts-vs-cowboys-injury-report-012619011.html"
+        },
+        {
+          "title": "Cowboys vs. Colts NFL Week 9 Betting Odds, Picks - SportsInteraction",
+          "url": "https://news.sportsinteraction.com/nfl/story/cowboys-vs-colts-odds-prediction-110826-216037"
+        }
+      ]
+    },
+    {
+      "gameId": "401873041",
+      "createdAt": "2026-11-08T12:01:35Z",
+      "winnerTeamId": "7",
+      "pWinner": 0.57,
+      "marketPickTeamId": "7",
+      "marketProb": 0.5735,
+      "reasoning": "Die Suche zeigt entgegen der Angabe \"keine bekannten Ausfälle\" mehrere Ausfälle auf beiden Seiten: Bei Denver fehlen Jones, Uwazurike und Abrams-Draine, bei Carolina Phillips, Lee, Lewis und Okereke, während Quarterback Bryce Young voll trainiert. Wetterdaten habe ich nicht gefunden, weshalb ich den Markt nur leicht korrigiere und die Broncos knapp vorn sehe.",
+      "sources": [
+        {
+          "title": "Denver Broncos Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/den/denver-broncos"
+        },
+        {
+          "title": "Panthers rule out four players - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/panthers-rule-four-players-222518329.html"
+        },
+        {
+          "title": "Panthers Injury Report - Panthers.com",
+          "url": "https://www.panthers.com/team/injury-report/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873042",
+      "createdAt": "2026-11-08T12:01:46Z",
+      "winnerTeamId": "8",
+      "pWinner": 0.67,
+      "marketPickTeamId": "8",
+      "marketProb": 0.6849,
+      "reasoning": "Die Lions bleiben Favorit, auch wenn sie mit Jack Campbell, Kerby Joseph, Cade Mays, D.J. Reed und DJ Wonnum fünf Stammkräfte verlieren, was die Defense und die Line schwächt. Miami muss ebenfalls mit Unsicherheit bei den Running Backs Jaylen Wright und Kaytron Allen sowie bei Malik Herring planen, und das Wetter gilt als unauffällig. Ich liege daher etwas unter dem Marktwert von 68.5 Prozent, da die Ausfälle bei Detroit schwer wiegen.",
+      "sources": [
+        {
+          "title": "Lions/Dolphins Friday Injury Update - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/lions-dolphins-friday-injury-224644061.html"
+        },
+        {
+          "title": "Lions vs Dolphins Prediction, Picks & Odds: NFL Week 9 - Covers",
+          "url": "https://www.covers.com/nfl/lions-vs-dolphins-prediction-picks-nov-8-2026"
+        },
+        {
+          "title": "Detroit Lions Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"
+        },
+        {
+          "title": "Miami Dolphins Injury Status - ESPN",
+          "url": "https://www.espn.com/nfl/team/injuries/_/name/mia/miami-dolphins"
         }
       ]
     }
