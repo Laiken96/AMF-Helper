@@ -401,3 +401,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Wunsch des Nutzers. Geplante und beendete Spiele bekommen im Reiter Spiele dieselbe Gestaltung wie der Liveticker (D054). Vor dem Spiel: Kopf mit grossen Logos, Teamfarben, Bilanz, Countdown bis Kickoff, TV, Ring mit Siegchance und Tipp. Fakten als kompakte Kacheln (Markt, FPI, ESPN Tipps, Ort, Ruhetage, Ausfälle), Abweichung möglich als eigene Karte mit Knopf (D052). Nach dem Spiel: Endstand gross, Punkte je Viertel, Punktspielzüge, Teamvergleich, Top Spieler, richtig oder falsch zum Tipp. Die ESPN Summary wird für das geöffnete Spiel einmal geladen (rund 180 KB, ohne Polling), auch vor dem Spiel, sonst fehlen Bilanz und TV
 - Begründung: Der Nutzer fand die Ansicht geplanter Spiele schlicht und ohne Logos
 - Verworfen: Wetterprognose (Wahl des Nutzers)
+
+## D057 Bug Suche 2026-11-08
+
+- Datum: 2026-11-08
+- Entscheid: Entscheide des Nutzers nach der Bug Suche mit vier Agenten. Bilanz und Saisonansicht verrechnen in der App die eigene, auf dem Gerät gespeicherte Wahl (D052) mit Hinweis "inkl. deiner Abweichungen". Der Push "Bilanz bereit" lässt den Teil zu Abweichungen weg. Die Push Erinnerung vor Tippschluss bleibt bei Paarungen und Ausfällen, ohne Tipps, Ausfälle nach Gewicht (Leader Rollen und Start QB zuerst, Ersatz QBs auf der Inaktivliste weglassen). ESPN News über die JSON Schnittstelle statt RSS, Werbeartikel (promo code, bonus code) werden ausgefiltert. In der Tippliste im Duo zugeklappt steht der Stand in einer zweiten Zeile unter den Teams. Zugeklappt zeigt die Leiste auch Aktualisieren und Glocke. Doppeltipp Zoom ist abgeschaltet (touch-action manipulation). Der Viewport Eingriff aus R115 gilt nur noch beim Zurückkehren in der Home Bildschirm App
+- Begründung: Nutzer meldete tote Taps beim schnellen Durchtippen, fehlende Werkzeugkapsel und Bilanzwerte ohne eigene Wahl
+- Verworfen: Tipps in der Push Erinnerung, ESPN News entfernen
