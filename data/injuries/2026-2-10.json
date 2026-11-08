@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T17:10:32Z",
+    "takenAt": "2026-11-08T19:47:18Z",
     "games": [
       {
         "gameId": "401873052",
@@ -418,7 +418,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Injured Reserve"
+            "status": null
           }
         ]
       },
