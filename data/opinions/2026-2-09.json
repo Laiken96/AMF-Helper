@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T15:31:29Z",
+  "updatedAt": "2026-11-08T19:20:44Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -342,6 +342,33 @@
         {
           "title": "Patriots-Packers Week 9 preview: Keys to victory, prediction and more - NBC Sports Boston",
           "url": "https://www.nbcsportsboston.com/nfl/new-england-patriots/packers-week-9-preview-keys-victory-prediction/811748/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873050",
+      "createdAt": "2026-11-08T19:20:44Z",
+      "winnerTeamId": "3",
+      "pWinner": 0.63,
+      "marketPickTeamId": "3",
+      "marketProb": 0.6716,
+      "reasoning": "Die Bears sind zu Hause, haben eine 6-2 Bilanz und fehlen mit Kyle Monangai, der laut ESPN-Insider Ian Rapoport nicht spielen wird. Die Bucs (3-5) müssen ohne Yaya Diaby auskommen, und Tristan Wirfs ist laut mehreren Berichten ungewiss, während die Wetterlage keine große Rolle spielt. Angesichts des Marktes von 67,2 Prozent halte ich die Bears leicht unter dem Marktwert für wahrscheinlich, da der Vorsprung der Bears wegen des kurzen Wochenrhythmus und der Unsicherheit bei Wirfs nicht übermäßig groß ist.",
+      "sources": [
+        {
+          "title": "Bears final injury report: Game designations for Sunday vs. Bucs - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/bears-final-injury-report-game-195433335.html"
+        },
+        {
+          "title": "Buccaneers at Bears: NFL's top 2 rushing attacks meet at Soldier Field in primetime - WGN",
+          "url": "https://wgntv.com/sports/buccaneers-at-bears-nfls-top-2-rushing-attacks-meet-at-soldier-field-in-primetime/"
+        },
+        {
+          "title": "Bucs vs Bears Odds: Spread, Props, and Picks for Sunday - Bleacher Nation",
+          "url": "https://bleachernation.com/betting/2026/11/08/bucs-vs-bears-odds"
+        },
+        {
+          "title": "Buccaneers vs. Bears weather report: Clear skies at Soldier Field - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/buccaneers-vs-bears-weather-report-164520148.html"
         }
       ]
     }
