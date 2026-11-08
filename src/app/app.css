@@ -534,6 +534,11 @@ a:hover {
   font-size: 13px;
 }
 
+/* Kleiner Ring (side): Beschriftung unter dem Wert, grösser gesetzt, weil der Ring verkleinert wird */
+.ring-label-small {
+  font-size: 19px;
+}
+
 .hero-fields {
   padding: 12px 14px;
   border-radius: 14px;
@@ -1905,9 +1910,15 @@ a.step-today:hover {
   color: var(--klar);
 }
 
-.res-badge-falsch {
+.res-badge-falsch,
+.res-badge-unentschieden {
   background: var(--error-bg);
   color: var(--error);
+}
+
+/* Bilanzliste: Ergebnis als Text in der Detailzeile, Farben wie die Marken der Tippliste */
+.details .res-badge {
+  margin-right: 0;
 }
 
 /* ---------- News (Sprint 7) ---------- */
@@ -2205,12 +2216,14 @@ a.step-today:hover {
   place-content: center;
 }
 
-.hero-nav-arrow:disabled {
-  color: #8d96a3;
+/* Ende der Liste: fokussierbar (aria-disabled), deutlich blasser und ohne Fläche */
+.hero-nav-arrow[aria-disabled="true"] {
+  color: rgba(228, 232, 238, 0.32);
+  background: rgba(11, 14, 19, 0.25);
   cursor: default;
 }
 
-.hero-nav-arrow:not(:disabled):hover,
+.hero-nav-arrow:not([aria-disabled="true"]):hover,
 .hero-nav-home:hover {
   background: rgba(11, 14, 19, 0.85);
 }
@@ -2597,6 +2610,12 @@ abbr.tb-day {
 .hero-info-line a {
   position: relative;
   display: block;
+  overflow: visible;
+}
+
+/* Kürzen am inneren Text, der Link selbst schneidet nicht ab, sonst griffe die Trefferfläche (::after) nicht */
+.hero-info-line a > .hero-headline {
+  display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2756,6 +2775,22 @@ a.step-label:active,
 .header h1,
 .kicker {
   white-space: nowrap;
+}
+
+/* Kopfzeile einzeilig (D045): die lange Überzeile wird gekürzt statt den Wochenwähler unter den Titel zu
+   schieben. Unter 340 px darf der Wähler weiter umbrechen */
+@media (min-width: 341px) {
+  .header:has(.week-stepper) .header-main {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .header:has(.week-stepper) .kicker {
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /* Sehr schmal (250 px): Navigation ohne Abstände, 5 mal 44 px */
@@ -2937,4 +2972,68 @@ tr.me .missing,
   .hero-choice {
     transition: none;
   }
+}
+
+/* Teamlogo mit Variante für den Dunkelmodus: picture ohne eigene Box, das Bild bleibt das Layout Element */
+.logo-picture {
+  display: contents;
+}
+
+/* ---------- Bug Suche 2026-11-08 (D057) ---------- */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Hinweis, dass Bilanz und Saison die eigene Wahl enthalten */
+.own-note {
+  font-size: 13px;
+}
+
+/* Spielbereich im Duo zugeklappt: Paarung mit Stand passt ohne Kürzen */
+[data-layout="side"] .hero-matchup {
+  font-size: 22px;
+}
+
+/* Tippliste im Duo zugeklappt: Stand (Endstand oder Live mit Viertel und Uhr) in einer zweiten Zeile unter den
+   Teams, nichts wird abgeschnitten (D057) */
+[data-layout="side"] .tip-select {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "logo teams info"
+    "logo vs info";
+  column-gap: 8px;
+  row-gap: 2px;
+  align-items: center;
+  padding: 4px 0;
+}
+
+[data-layout="side"] .tip-select .tip-logo {
+  grid-area: logo;
+}
+
+[data-layout="side"] .tip-select > .tip-teams,
+[data-layout="side"] .tip-select > .tip-pick {
+  grid-area: teams;
+}
+
+[data-layout="side"] .tip-select > .tip-vs {
+  grid-area: vs;
+  white-space: normal;
+  overflow: visible;
+  text-align: left;
+  line-height: 1.25;
+}
+
+[data-layout="side"] .tip-select > .tip-vs:empty {
+  display: none;
+}
+
+[data-layout="side"] .tip.finished .tip-vs {
+  text-align: left;
+}
+
+[data-layout="side"] .tip-select > .tip-info {
+  grid-area: info;
 }

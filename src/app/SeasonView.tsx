@@ -1,13 +1,15 @@
 // Saisonauswertung in der Bilanz (D050): App gegen reinen Favoritentipp, Abweichungen netto gegen Erwartung,
 // Trefferquote je Wahrscheinlichkeitsband, Brier Score, Tiebreaker und Simulation der Chance auf jeden Rang.
-// Die Simulation ist nur Information (D052), die App wählt damit keine Abweichung.
+// Die Simulation ist nur Information (D052), die App wählt damit keine Abweichung. Die eigene, auf dem Gerät
+// gespeicherte Wahl des gewählten Spielers fliesst in alle Werte ein (D057).
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { DEFAULT_UPSET_RATE } from "../core/simulate";
 import { buildSimSetup, type SimSetup } from "../core/season-sim";
-import { PROB_BANDS, type SeasonSummary } from "../core/season";
+import { PROB_BANDS, buildSeasonSummary, fpiPickProbLookup, type SeasonSummary } from "../core/season";
 import { useKeptLoad } from "./data";
 import { useLayoutValue } from "./layout";
-import { loadSeasonData, seasonWeekHref, storedPlayer, type SeasonData } from "./season-data";
+import { applySeasonChoices, useChoicesFor, usePlayer } from "./player";
+import { loadSeasonData, seasonWeekHref, type SeasonData } from "./season-data";
 import { SimTimeoutError, runSimulation, type SimRun } from "./sim-run";
 import { LoadErrorNotice, PageHeader, Segmented, weekLabel } from "./ui";
 import type { PickRateMode } from "../core/calibrate";
@@ -31,9 +33,28 @@ const BAND_LABEL: Record<(typeof PROB_BANDS)[number]["id"], string> = {
   "80+": "ab 80 %",
 };
 
+/** Saisondaten mit der eigenen Wahl pro Woche. changed zählt Spiele mit eigener Wahl. */
+function useOwnSeason(raw: SeasonData | null, player: string | null): { data: SeasonData | null; changed: number } {
+  const choicesByWeek = useChoicesFor(player, raw?.weeks ?? []);
+  return useMemo(() => {
+    if (!raw || choicesByWeek.size === 0) return { data: raw, changed: 0 };
+    const own = applySeasonChoices(raw.reviews, raw.tips, choicesByWeek);
+    if (own.changed === 0) return { data: raw, changed: 0 };
+    const summary = buildSeasonSummary({
+      season: raw.season,
+      reviews: own.reviews,
+      tips: own.tips,
+      fpiPickProb: raw.fpi.length > 0 ? fpiPickProbLookup(raw.fpi) : undefined,
+    });
+    return { data: { ...raw, reviews: own.reviews, tips: own.tips, summary }, changed: own.changed };
+  }, [raw, choicesByWeek]);
+}
+
 export function SeasonView({ toggle }: { toggle: ReactNode }) {
-  const { data, error, pending } = useKeptLoad("saison", loadSeasonData);
+  const { data: raw, error, pending } = useKeptLoad("saison", loadSeasonData);
   const wide = useLayoutValue() === "wide";
+  const player = usePlayer(raw?.standings ?? null);
+  const { data, changed } = useOwnSeason(raw, player.player);
   if (error) return <LoadErrorNotice message={error} />;
   if (!data) {
     if (pending) return <p className="notice">Daten werden geladen …</p>;
@@ -52,7 +73,17 @@ export function SeasonView({ toggle }: { toggle: ReactNode }) {
       meta={`${data.summary.weeks} ${data.summary.weeks === 1 ? "Woche" : "Wochen"} mit Bilanz · ${data.summary.games} ${data.summary.games === 1 ? "Spiel" : "Spiele"} mit App Tipp gewertet`}
     />
   );
-  const metrics = <SeasonMetrics data={data} />;
+  const metrics = (
+    <>
+      {changed > 0 && (
+        <p className="notice own-note">
+          <strong>inkl. deiner Abweichungen.</strong> {changed} {changed === 1 ? "Spiel zählt" : "Spiele zählen"} mit der
+          eigenen Wahl von {player.player}, gespeichert auf diesem Gerät.
+        </p>
+      )}
+      <SeasonMetrics data={data} me={player.player} />
+    </>
+  );
   const list = <WeekList summary={data.summary} />;
   if (wide) {
     return (
@@ -79,7 +110,7 @@ export function SeasonView({ toggle }: { toggle: ReactNode }) {
   );
 }
 
-function SeasonMetrics({ data }: { data: SeasonData }) {
+function SeasonMetrics({ data, me }: { data: SeasonData; me: string | null }) {
   const s = data.summary;
   return (
     <>
@@ -111,7 +142,7 @@ function SeasonMetrics({ data }: { data: SeasonData }) {
             : `Im Mittel ${num.format(s.tiebreaker.meanDiff)} Punkte daneben (Summe beider Teams, ${s.tiebreaker.count} ${s.tiebreaker.count === 1 ? "Spiel" : "Spiele"}).`}
         </p>
       </section>
-      <SimSection data={data} />
+      <SimSection data={data} me={me} />
     </>
   );
 }
@@ -132,8 +163,7 @@ function DeviationBox({ summary: s }: { summary: SeasonSummary }) {
           </p>
           {d.expectedNet !== null && d.luck !== null && (
             <p className="box-meta">
-              Erwartet laut Quoten {signed(d.expectedNet)}. Das ist der Preis der Strategie. Der Rest ({signed(d.luck)}) ist{" "}
-              {d.luck >= 0 ? "Glück" : "Pech"}.
+              {`Erwartet laut Quoten ${signed(d.expectedNet)}, eine Abweichung kostet im Mittel Punkte. Der Rest (${signed(d.luck)}) ist ${d.luck >= 0 ? "Glück" : "Pech"}.`}
             </p>
           )}
           {d.scored < MIN_DEVIATIONS && (
@@ -237,7 +267,7 @@ function chanceText(chance: number): string {
   return `${num.format(Math.round(chance * 1000) / 10)} %`;
 }
 
-function SimSection({ data }: { data: SeasonData }) {
+function SimSection({ data, me }: { data: SeasonData; me: string | null }) {
   // Tippquote: aus den Punkten geschätzt für alle Spieler, oder alle tippen jedes Spiel (fair, Review D052)
   const [rates, setRates] = useState<PickRateMode>("geschaetzt");
   const setup: SimSetup | null = useMemo(
@@ -248,11 +278,11 @@ function SimSection({ data }: { data: SeasonData }) {
         history: data.history,
         reviews: data.reviews,
         tips: data.tips,
-        me: storedPlayer(),
+        me,
         weekGameCounts: data.weekGameCounts,
         pickRates: rates,
       }),
-    [data, rates],
+    [data, rates, me],
   );
   const [run, setRun] = useState<SimRun | null>(null);
   const [failed, setFailed] = useState<"fehler" | "zeit" | null>(null);
@@ -397,7 +427,8 @@ function SimSection({ data }: { data: SeasonData }) {
           {assumed > 0
             ? `Aussenseiterquote ist eine Annahme (${pct(DEFAULT_UPSET_RATE)}), bis Wochen mit gemeldeter Rangliste und Vorwoche vorliegen.`
             : "Aussenseiterquote aus gemeldeten Wochen, zur Annahme hin gestaucht."}{" "}
-          {setup.me} tippt als Grundtipp den Favoriten, Abweichungen in den knappsten Spielen.
+          {setup.me} tippt immer den Favoriten, so wie die App vorschlägt. Die Zeilen mit Abweichungen zeigen nur, was
+          sie im Mittel kosten.
         </p>
       </details>
       <p className="push-hint">

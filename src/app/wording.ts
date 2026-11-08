@@ -82,3 +82,10 @@ export function friendlyLoadError(message: string): string {
   if (/Format|JSON/.test(message)) return "Die Daten sind unvollständig, vermutlich läuft gerade eine Aktualisierung.";
   return "Unerwarteter Fehler.";
 }
+
+/** Werbeartikel der Wettanbieter (D057), zusätzlich zum Filter im News Job. Gross und klein egal. */
+const PROMO = /\b(promo|bonus)[\s-]*codes?\b/i;
+
+export function isPromo(item: { title: string; summary?: string | null }): boolean {
+  return PROMO.test(item.title) || (typeof item.summary === "string" && PROMO.test(item.summary));
+}

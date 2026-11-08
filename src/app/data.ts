@@ -128,6 +128,37 @@ export const loadDataFile = loadJson;
 export const loadOptionalDataFile = loadOptionalJson;
 
 let lastCheck = Date.now();
+
+// Angezeigte Woche der offenen Ansicht. Die Hintergrundprüfung fragt nur Dateien dieser Woche, der aktuellen
+// Woche und Dateien ohne Wochenbezug neu ab. Vorgeladene Nachbarwochen bleiben aus dem Cache, bis sie angezeigt werden.
+let shownWeek: WeekRef | null = null;
+
+/** Merkt die angezeigte Woche für die Hintergrundprüfung. null ohne Wochenbezug (News, Einstellungen). */
+export function setShownWeek(ref: WeekRef | null): void {
+  shownWeek = ref;
+}
+
+/** Woche im Dateipfad, z. B. tips/2026-2-09.json, null ohne Wochenbezug. */
+export function weekOfPath(path: string): WeekRef | null {
+  const m = /(\d{4})-([1-3])-(\d{2})(?:\.json)?$/.exec(path);
+  return m ? { season: Number(m[1]), seasonType: Number(m[2]), week: Number(m[3]) } : null;
+}
+
+/**
+ * Welche Cache Einträge eine Prüfung neu abfragt: ohne Wochenbezug immer, sonst nur die aktuelle Woche aus
+ * current.json und die angezeigte Woche.
+ */
+export function shouldRevalidate(path: string, current: WeekRef | null, shown: WeekRef | null): boolean {
+  const ref = weekOfPath(path);
+  if (!ref) return true;
+  return (current !== null && sameRef(ref, current)) || (shown !== null && sameRef(ref, shown));
+}
+
+function revalidationFilter(): (key: string) => boolean {
+  const cur = cache.get("req:current.json")?.value as CurrentFile | undefined;
+  const current = cur ? currentRef(cur) : null;
+  return (key: string) => shouldRevalidate(key.replace(/^(req|opt):/, ""), current, shownWeek);
+}
 let running: Promise<boolean> | null = null;
 
 const notifyViews = () => window.dispatchEvent(new Event(REFRESH_EVENT));
@@ -143,8 +174,9 @@ export function revalidateData(): Promise<boolean> {
   lastCheck = Date.now();
   running = (async () => {
     let changed = false;
-    const settled = [...cache.entries()].filter(([, e]) => e.settled);
-    const retry = [...failed.entries()];
+    const relevant = revalidationFilter();
+    const settled = [...cache.entries()].filter(([key, e]) => e.settled && relevant(key));
+    const retry = [...failed.entries()].filter(([key]) => relevant(key));
     await Promise.all([
       ...settled.map(async ([key, e]) => {
         try {
@@ -248,6 +280,25 @@ export interface WeekRef {
 }
 
 export const weekKey = (r: WeekRef): string => `${r.season}-${r.seasonType}-${String(r.week).padStart(2, "0")}`;
+
+/**
+ * Hash einer Ansicht mit Woche und Spiel. Die aktuelle Woche steht nicht im Hash, damit eine Home Bildschirm App
+ * nach dem Wochenwechsel (D055) die neue Woche zeigt: #tipps/401873037 statt #tipps/2026-2-09/401873037.
+ */
+export function viewHash(view: string, ref: WeekRef | null, current: WeekRef | null, gameId: string | null = null): string {
+  const parts = [`#${view}`];
+  if (ref && !(current && sameRef(ref, current))) parts.push(weekKey(ref));
+  if (gameId) parts.push(gameId);
+  return parts.join("/");
+}
+
+/** Liest Woche und Spiel aus dem Hash Argument. Ohne Woche ("401873037") gilt die aktuelle Woche. */
+export function parseViewArg(arg: string | null | undefined): { week: string | null; game: string | null } {
+  if (!arg) return { week: null, game: null };
+  const [first = "", second = ""] = arg.split("/");
+  if (parseWeekKey(first)) return { week: first, game: second || null };
+  return { week: null, game: first || null };
+}
 
 export function parseWeekKey(value: string | null | undefined): WeekRef | null {
   const m = /^(\d{4})-([1-3])-(\d{1,2})$/.exec(value ?? "");
@@ -373,6 +424,15 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
     nav.phase === "vergangen" ? Promise.resolve(null) : loadNews(),
   ]);
   return { ...nav, week, teams, standings, tips, injuries, news };
+}
+
+/** Rangliste, null wenn sie fehlt oder nicht lesbar ist. Für Ansichten, die ohne Tippdaten weiterlaufen. */
+export async function loadStandingsOrNull(): Promise<StandingsFile | null> {
+  try {
+    return await loadJson("standings.json", StandingsFileSchema);
+  } catch {
+    return null;
+  }
 }
 
 export interface ReviewWeek {

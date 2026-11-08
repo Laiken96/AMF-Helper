@@ -6,7 +6,7 @@ import { formatKickoffZurich } from "../core/time";
 import { loadNews, loadTipsData, useDataVersion } from "./data";
 import { useNow } from "./GameHero";
 import { PageHeader, Segmented, fallbackTeam } from "./ui";
-import { formatStand } from "./wording";
+import { formatStand, isPromo } from "./wording";
 
 type NewsItem = NewsFile["items"][number];
 
@@ -68,7 +68,9 @@ export function NewsView() {
   }, [version]);
 
   if (!data) return <p className="notice">News werden geladen …</p>;
-  if (!data.news || data.news.items.length === 0) {
+  // Werbeartikel (promo code, bonus code) blendet auch die App aus, zusätzlich zum Filter im News Job (D057)
+  const news = data.news ? { ...data.news, items: data.news.items.filter((i) => !isPromo(i)) } : null;
+  if (!news || news.items.length === 0) {
     return (
       <>
         <PageHeader kicker="News" title="Schlagzeilen" />
@@ -76,7 +78,7 @@ export function NewsView() {
       </>
     );
   }
-  return <NewsList data={data} news={data.news} now={now} />;
+  return <NewsList data={data} news={news} now={now} />;
 }
 
 function NewsList({ data, news, now }: { data: NewsData; news: NewsFile; now: number }) {

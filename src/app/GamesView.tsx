@@ -5,16 +5,20 @@ import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
   currentRef,
+  loadStandingsOrNull,
   loadTipsData,
   loadWeekData,
   navWeeks,
+  parseViewArg,
   parseWeekKey,
   prefetchNeighbours,
+  setShownWeek,
   useKeptLoad,
-  weekKey,
+  viewHash,
   type WeekData,
   type WeekRef,
 } from "./data";
+import { closeSheetHash, openSheetHash, replaceHash } from "./hash-nav";
 import { useNow } from "./GameHero";
 import { useLayoutValue } from "./layout";
 import { GameView } from "./GameView";
@@ -35,12 +39,17 @@ export const clockFormat = new Intl.DateTimeFormat("de-CH", {
 
 /** Reiter Spiele: Spielplan der gewählten Woche mit Liveticker für laufende Spiele. arg ist Woche und optional Spiel. */
 export function GamesView({ arg }: { arg: string | null }) {
-  const [weekArg = null, gameArg = null] = arg ? arg.split("/") : [];
+  // Aktuelle Woche ohne Woche im Hash (#spiele/401873037), damit die App nach dem Wochenwechsel mitzieht
+  const { week: weekArg, game: gameArg } = parseViewArg(arg);
   const { data, error, pending } = useKeptLoad(`spiele:${weekArg ?? ""}`, () => loadGamesData(parseWeekKey(weekArg)));
 
   useEffect(() => {
     if (data) prefetchNeighbours(data, loadGamesData);
   }, [data]);
+  const shownRef = data?.ref;
+  useEffect(() => {
+    setShownWeek(shownRef ?? null);
+  }, [shownRef]);
 
   if (error) return <LoadErrorNotice message={error} />;
   if (!data) return <p className="notice">Daten werden geladen …</p>;
@@ -54,11 +63,17 @@ export function GamesView({ arg }: { arg: string | null }) {
   );
 }
 
-type GamesData = WeekData & { tips: TipsFile | null; standings?: StandingsFile };
+type GamesData = WeekData & { tips: TipsFile | null; standings: StandingsFile | null };
 
-/** Wochendaten mit Tippliste für die Spielinfo. Fehlt die Tippliste oder scheitert ihr Laden, bleibt der Spielplan. */
+/**
+ * Wochendaten mit Tippliste für die Spielinfo. Scheitert das Laden der Tippdaten, bleibt der Spielplan, die
+ * Rangliste wird dann einzeln geladen. Ohne Rangliste ist keine eigene Wahl möglich (kein Spieler bekannt).
+ */
 function loadGamesData(ref: WeekRef | null = null): Promise<GamesData> {
-  return loadTipsData(ref).catch(async () => ({ ...(await loadWeekData(ref)), tips: null }));
+  return loadTipsData(ref).catch(async () => {
+    const [week, standings] = await Promise.all([loadWeekData(ref), loadStandingsOrNull()]);
+    return { ...week, tips: null, standings };
+  });
 }
 
 const KICKER: Record<WeekData["phase"], string> = { aktuell: "Spiele · Aktuell", vergangen: "Spiele · Vorbei", kommend: "Spiele · Nächste" };
@@ -73,9 +88,12 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   const live = useLiveScores(phase === "vergangen" ? null : ref, week?.games ?? null);
   const weeks = navWeeks(data);
   // Derselbe Tipp wie im Reiter Tipps: Vorschlag der App mit der eigenen Wahl des Spielers (D050, D052)
-  const player = usePlayer(data.standings ?? null);
+  const player = usePlayer(data.standings);
   const { choices, setChoice } = useChoices(player.player, ref);
-  const shownTips = useShownTips(data.tips, week?.games, data.standings ?? null, phase, player.player, choices);
+  const shownTips = useShownTips(data.tips, week?.games, data.standings, phase, player.player, choices);
+  // Ohne Rangliste oder Spieler gäbe es nur den Schlüssel "ohne": dann keine eigene Wahl
+  const canChoose = phase !== "vergangen" && data.standings !== null && player.player !== null;
+  const current = currentRef(data.current);
 
   // Standardspiel für den Detailbereich: laufendes Spiel, sonst nächstes Spiel, sonst das letzte beendete
   const games = week?.games;
@@ -120,11 +138,16 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   // Summary nur für das gezeigte laufende Spiel: links im Duo quer, sonst die sichtbare Karte
   const summaryIds = wide ? (shownId && runningIds.includes(shownId) ? [shownId] : []) : activeRunning ? [activeRunning] : [];
   const summaries = useLiveSummaries(summaryIds);
-  const baseHash = `#spiele/${weekKey(ref)}`;
-  const select = (id: string | null) => {
-    const target = id ? `${baseHash}/${id}` : baseHash;
-    if (window.location.hash !== target) window.location.hash = target;
+  const hashFor = (id: string | null) => viewHash("spiele", ref, current, id);
+  const baseHash = hashFor(null);
+  // Auswahl innerhalb der Woche ersetzt den Verlaufseintrag (wide, Karussell). Nur ein Blatt legt einen Eintrag an,
+  // Schliessen verlässt ihn wieder, damit Zurück das Blatt nicht erneut öffnet
+  const select = (id: string) => {
+    const opensSheet = !wide && !runningIds.includes(id);
+    if (opensSheet) openSheetHash(hashFor(id));
+    else replaceHash(hashFor(id));
   };
+  const closeSheet = () => closeSheetHash(baseHash);
 
   // wide: gewählte Zeile in der Liste sichtbar halten
   useEffect(() => {
@@ -173,7 +196,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
         summary={summaries.get(g.id)}
         tip={tipOf(g.id)}
         team={team}
-        tipsHref={`#tipps/${weekKey(ref)}/${g.id}`}
+        tipsHref={viewHash("tipps", ref, current, g.id)}
       />
     ) : null;
   };
@@ -186,8 +209,8 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
       own={ownOf(g.id)}
       team={team}
       now={now}
-      tipsHref={`#tipps/${weekKey(ref)}/${g.id}`}
-      onChoice={phase === "vergangen" ? null : setChoice}
+      tipsHref={viewHash("tipps", ref, current, g.id)}
+      onChoice={canChoose ? setChoice : null}
       tipsPending={!data.tips && phase === "kommend"}
     />
   );
@@ -197,10 +220,12 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
     const h = team(g.homeId).abbr;
     return lg && lg.awayScore !== null && lg.homeScore !== null ? `${a} ${lg.awayScore} zu ${lg.homeScore} ${h}` : `${a} gegen ${h}`;
   };
+  // Kommende Woche: kein "Gerade läuft kein Spiel", in der aktuellen Woche kann eines laufen
   const nextHint =
     running.length === 0 && nextGame && phase !== "vergangen" ? (
       <p className="notice tk-next">
-        Gerade läuft kein Spiel. Nächstes Spiel {team(nextGame.awayId).abbr} @ {team(nextGame.homeId).abbr},{" "}
+        {phase === "aktuell" ? "Gerade läuft kein Spiel. Nächstes Spiel" : "Nächstes Spiel dieser Woche"}{" "}
+        {team(nextGame.awayId).abbr} @ {team(nextGame.homeId).abbr},{" "}
         {formatKickoffZurich(nextGame.kickoffUtc)} Uhr, in {formatCountdown(Date.parse(nextGame.kickoffUtc) - now)}.
       </p>
     ) : null;
@@ -267,7 +292,8 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
           activeId={activeRunning}
           onActive={(id) => {
             setCarouselPick(id);
-            if (selectedRunning && selectedRunning !== id) select(null);
+            // Wischen ersetzt den Eintrag, sonst sammelt jede Karte einen Verlaufseintrag an
+            if (selectedRunning && selectedRunning !== id) replaceHash(baseHash);
           }}
           render={(id) => {
             const g = running.find((x) => x.id === id);
@@ -278,7 +304,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
       {nextHint}
       {restList}
       {sheetGame && (
-        <GameSheet title={`${team(sheetGame.awayId).abbr} @ ${team(sheetGame.homeId).abbr}`} onClose={() => select(null)}>
+        <GameSheet title={`${team(sheetGame.awayId).abbr} @ ${team(sheetGame.homeId).abbr}`} onClose={closeSheet}>
           {viewFor(sheetGame)}
         </GameSheet>
       )}

@@ -164,3 +164,62 @@ export function gameState(game: Game, live: LiveGame | undefined) {
           : statusWord(game.statusDetail) || STATUS_TEXT[game.status];
   return { running, awayScore, homeScore, status, showScore, statusText };
 }
+
+const LEVEL_WORD: Record<GameTip["level"], string> = {
+  klar: "klar",
+  favorit: "Favorit",
+  unklar: "unklar",
+  offen: "offen",
+  nicht_erfasst: "nicht erfasst",
+};
+
+/**
+ * Marke neben der Siegchance. Die Lage (klar, Favorit, unklar) beschreibt den Favoriten. Bei einer Abweichung
+ * steht stattdessen die Abweichung, sonst stünde "klar" neben z. B. 22 %. short für die Tippliste.
+ */
+export function levelLabel(tip: Pick<GameTip, "level" | "deviation">, own: boolean, short = false): string {
+  if (tip.deviation && tip.level !== "offen" && tip.level !== "nicht_erfasst") {
+    if (short) return own ? "deine Abw." : "Abw.";
+    return own ? "deine Abweichung" : "Abweichung";
+  }
+  return LEVEL_WORD[tip.level];
+}
+
+/** Ergebnis als Text und Farbklasse, gleich in Tippliste, Spielansicht und Bilanz. Unentschieden zählt als falsch. */
+export const RESULT_BADGE: Record<Exclude<TipResult, null>, { text: string; cls: string }> = {
+  richtig: { text: "richtig", cls: "res-badge res-badge-richtig" },
+  falsch: { text: "falsch", cls: "res-badge res-badge-falsch" },
+  unentschieden: { text: "unentschieden", cls: "res-badge res-badge-unentschieden" },
+  offen: { text: "offen", cls: "res-badge res-badge-offen" },
+  ungewertet: { text: "ungewertet", cls: "res-badge res-badge-ungewertet" },
+};
+
+/** Ergebnis einer Bilanzzeile. Final ohne Sieger ist unentschieden. */
+export function reviewResult(row: { final: boolean; pickTeamId: string | null; correct: boolean | null; winnerTeamId: string | null }): TipResult {
+  if (row.pickTeamId === null) return null;
+  if (!row.final || row.correct === null) return "offen";
+  if (row.winnerTeamId === null) return "unentschieden";
+  return row.correct ? "richtig" : "falsch";
+}
+
+/**
+ * Spiel mit Endstand aus den Live Daten, solange die Wochendatei es noch nicht als beendet führt. So zeigen
+ * Tippliste, Spielbereich und Spielansicht gleichzeitig richtig oder falsch.
+ */
+export function withLiveFinal(game: Game, live: LiveGame | undefined): Game {
+  if (!live || game.status === "final") return game;
+  const st = gameState(game, live);
+  if (st.status !== "final" || !st.showScore) return game;
+  return { ...game, status: "final", awayScore: st.awayScore, homeScore: st.homeScore, statusDetail: live.detail ?? game.statusDetail };
+}
+
+export type EntryStatus = "none" | "done" | "changed";
+
+/**
+ * Zeile zählt als offen (Filter Offen, Zähler): nicht gesperrt, mit App Tipp, Häkchen fehlt oder Tipp geändert.
+ * Gesperrte Zeilen zählen nie, eintragen geht nicht mehr. Der Hinweis "Tipp geändert" bleibt in der Zeile.
+ */
+export function entryPending(row: Pick<GameTip, "locked" | "level">, status: EntryStatus, passive: boolean): boolean {
+  if (passive || row.locked || row.level === "nicht_erfasst") return false;
+  return status === "changed" || status === "none";
+}

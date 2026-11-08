@@ -1,25 +1,72 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { Team } from "../core/schema";
+import { darkLogoUrl } from "./colors";
 import { friendlyLoadError } from "./wording";
 import { compareRef, retryLoad, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
 
-/** Teamlogo als dekoratives Bild (alt leer, das Kürzel steht immer als Text daneben). Ohne Logo ein neutraler Kreis. */
-export function TeamLogo({ team, size = 28, className }: { team: Team; size?: number; className?: string }) {
+const LIGHT_QUERY = "(prefers-color-scheme: light)";
+
+function subscribeScheme(listener: () => void): () => void {
+  try {
+    const mq = window.matchMedia(LIGHT_QUERY);
+    mq.addEventListener("change", listener);
+    return () => mq.removeEventListener("change", listener);
+  } catch {
+    return () => undefined;
+  }
+}
+
+/** true im Hellmodus nach Systemeinstellung (D050). Für Farben, die nicht über CSS Variablen laufen. */
+export function usePrefersLight(): boolean {
+  return useSyncExternalStore(
+    subscribeScheme,
+    () => {
+      try {
+        return window.matchMedia(LIGHT_QUERY).matches;
+      } catch {
+        return false;
+      }
+    },
+    () => false,
+  );
+}
+
+/**
+ * Teamlogo als dekoratives Bild (alt leer, das Kürzel steht immer als Text daneben). Ohne Logo ein neutraler Kreis.
+ * Im Dunkelmodus die ESPN Variante für dunkle Flächen, onDark erzwingt sie (Spielbereich und Ticker Kopf sind
+ * immer dunkel). Lädt die Variante nicht, folgt das normale Logo.
+ */
+export function TeamLogo({ team, size = 28, className, onDark = false }: { team: Team; size?: number; className?: string; onDark?: boolean }) {
   // Lädt das Logo nicht (offline, gesperrt, Fehler der Quelle), erscheint der neutrale Kreis statt eines kaputten Bildes
   const [failed, setFailed] = useState<string | null>(null);
-  return team.logo && failed !== team.logo ? (
+  const [darkFailed, setDarkFailed] = useState<string | null>(null);
+  if (!team.logo || failed === team.logo) {
+    return <span className={className ? `logo-placeholder ${className}` : "logo-placeholder"} aria-hidden="true" />;
+  }
+  const dark = darkFailed === team.logo ? null : darkLogoUrl(team.logo);
+  const img = (src: string) => (
     <img
       className={className}
-      src={team.logo}
+      src={src}
       alt=""
       width={size}
       height={size}
       loading="lazy"
       decoding="async"
-      onError={() => setFailed(team.logo)}
+      onError={(e) => {
+        const shown = e.currentTarget.currentSrc || src;
+        if (dark && (onDark || shown === dark)) setDarkFailed(team.logo);
+        else setFailed(team.logo);
+      }}
     />
-  ) : (
-    <span className={className ? `logo-placeholder ${className}` : "logo-placeholder"} aria-hidden="true" />
+  );
+  if (!dark) return img(team.logo);
+  if (onDark) return img(dark);
+  return (
+    <picture className="logo-picture">
+      <source srcSet={dark} media="(prefers-color-scheme: dark)" />
+      {img(team.logo)}
+    </picture>
   );
 }
 

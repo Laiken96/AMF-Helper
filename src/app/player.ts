@@ -6,7 +6,8 @@ import type { Game } from "../core/schema";
 import { PLAYER_IDS } from "../core/standings";
 import { isLocked, roundProb, tiebreakerFor } from "../core/tips";
 import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
-import { loadTipsData, useKeptLoad, type WeekPhase, type WeekRef } from "./data";
+import type { ReviewFile } from "../core/review-schema";
+import { loadTipsData, useKeptLoad, weekKey, type WeekPhase, type WeekRef } from "./data";
 
 export const PLAYER_KEY = "nfl-dashboard:spieler";
 
@@ -233,6 +234,81 @@ export function applyChoices(tips: TipsFile, games: readonly Game[], choices: Ch
   return { ...tips, tips: out, tiebreakers };
 }
 
+// ---------- Häkchen eingetragen pro Spieler ----------
+// Gespeichert wird das getippte Team, damit eine spätere Änderung des Tipps erkannt wird. Alte Einträge ohne
+// Kürzel stammen aus der Zeit vor der Spielerwahl und gehören dem Hauptnutzer.
+
+const ENTERED_PREFIX = "nfl-dashboard:eingetragen:";
+
+type WeekPart = Pick<WeekRef, "season" | "seasonType" | "week">;
+const weekPart = (ref: WeekPart) => `${ref.season}-${ref.seasonType}-${String(ref.week).padStart(2, "0")}`;
+
+/** Schlüssel mit Kürzel, z. B. nfl-dashboard:eingetragen:JA:2026-2-09:401873037. Ohne Kürzel der alte Schlüssel. */
+export function enteredKey(player: string | null, ref: WeekPart, gameId: string): string {
+  return player ? `${ENTERED_PREFIX}${player}:${weekPart(ref)}:${gameId}` : legacyEnteredKey(ref, gameId);
+}
+
+/** Schlüssel vor der Spielerwahl, gilt für den Hauptnutzer. */
+export function legacyEnteredKey(ref: WeekPart, gameId: string): string {
+  return `${ENTERED_PREFIX}${weekPart(ref)}:${gameId}`;
+}
+
+/** Kleinster Ausschnitt von localStorage, für Tests ersetzbar. */
+export interface KeyStore {
+  getItem(key: string): string | null;
+  setItem(key: string, value: string): void;
+  removeItem(key: string): void;
+}
+
+const browserStore = (): KeyStore | null => {
+  try {
+    return window.localStorage;
+  } catch {
+    return null;
+  }
+};
+
+/** Alte Werte "1" oder "true" ohne Team gelten als nicht eingetragen. */
+const enteredValue = (v: string | null): string | null => (v === null || v === "1" || v === "true" ? null : v);
+
+/** Gespeichertes Team oder null. Der Hauptnutzer liest auch alte Einträge ohne Kürzel. */
+export function readEntered(
+  player: string | null,
+  main: string | null,
+  ref: WeekPart,
+  gameId: string,
+  store: KeyStore | null = browserStore(),
+): string | null {
+  if (!store) return null;
+  try {
+    const own = enteredValue(store.getItem(enteredKey(player, ref, gameId)));
+    if (own !== null || !player || player !== main) return own;
+    return enteredValue(store.getItem(legacyEnteredKey(ref, gameId)));
+  } catch {
+    return null;
+  }
+}
+
+/** Setzt oder löscht das Häkchen. Für den Hauptnutzer wird ein alter Eintrag dabei entfernt. */
+export function writeEntered(
+  player: string | null,
+  main: string | null,
+  ref: WeekPart,
+  gameId: string,
+  value: string | null,
+  store: KeyStore | null = browserStore(),
+): void {
+  if (!store) return;
+  try {
+    const key = enteredKey(player, ref, gameId);
+    if (value !== null) store.setItem(key, value);
+    else store.removeItem(key);
+    if (player && player === main) store.removeItem(legacyEnteredKey(ref, gameId));
+  } catch {
+    // Ohne Storage bleibt das Häkchen nur bis zum Neuladen erhalten
+  }
+}
+
 /** Spiel gesperrt für eine neue Wahl: Tipp gesperrt, Kickoff vorbei oder nicht mehr geplant. */
 export function choiceLocked(tip: Pick<GameTip, "locked" | "level">, game: Pick<Game, "kickoffUtc" | "status">, now: string): boolean {
   return tip.locked || tip.level === "nicht_erfasst" || isLocked(game, now);
@@ -270,4 +346,105 @@ export function useShownTips(
     () => shownTipsFor(tips, games, standings, phase, player, choices),
     [tips, games, standings, phase, player, choices],
   );
+}
+
+// ---------- Eigene Wahl in Bilanz und Saison (D057) ----------
+
+/**
+ * Bilanz einer Woche mit der eigenen Wahl. Ein Spiel zählt mit dem gewählten Team, wenn die Bilanz einen App Tipp
+ * hat und die Wahl ein anderes Team ist. Mit games muss das Team zum Spiel gehören. Punkte, Abweichung, Wirkung
+ * und Netto werden neu gerechnet wie in jobs/build-review (Unentschieden zählt als falsch, Wirkung 0).
+ * Der Tiebreaker bleibt der gespeicherte. changed zählt die Spiele mit eigener Wahl.
+ */
+export function applyChoicesToReview(
+  review: ReviewFile,
+  choices: Choices,
+  games: readonly Pick<Game, "id" | "homeId" | "awayId">[] | null = null,
+): { review: ReviewFile; changed: number } {
+  if (Object.keys(choices).length === 0) return { review, changed: 0 };
+  const gameById = games ? new Map(games.map((g) => [g.id, g])) : null;
+  let changed = 0;
+  const rows = review.games.map((r) => {
+    const teamId = choices[r.gameId];
+    if (!teamId || r.pickTeamId === null || teamId === r.pickTeamId) return r;
+    const game = gameById?.get(r.gameId);
+    if (gameById && (!game || (teamId !== game.homeId && teamId !== game.awayId))) return r;
+    changed++;
+    const deviation = r.favoriteTeamId !== null ? teamId !== r.favoriteTeamId : true;
+    const correct = r.final ? teamId === r.winnerTeamId : null;
+    const deviationEffect = deviation && r.final ? (r.winnerTeamId === null ? 0 : r.winnerTeamId === teamId ? 1 : -1) : null;
+    return { ...r, pickTeamId: teamId, deviation, correct, deviationEffect };
+  });
+  if (changed === 0) return { review, changed: 0 };
+  return {
+    review: {
+      ...review,
+      games: rows,
+      points: rows.filter((r) => r.correct === true).length,
+      deviationNet: rows.reduce((s, r) => s + (r.deviationEffect ?? 0), 0),
+    },
+    changed,
+  };
+}
+
+/**
+ * Tippdatei einer vergangenen Woche mit der eigenen Wahl, für die Saisonauswertung (Erwartung laut Quote).
+ * Ohne Spielplan: die Wahl gilt, wenn sie vom Tipp abweicht. Der Tipp wird zum anderen Team mit 1 minus p.
+ */
+export function applyChoicesToTipsLoose(tips: TipsFile, choices: Choices): TipsFile {
+  if (Object.keys(choices).length === 0) return tips;
+  let changed = false;
+  const out = tips.tips.map((t): GameTip => {
+    const teamId = choices[t.gameId];
+    if (!teamId || t.pickTeamId === null || t.pickProb === null || teamId === t.pickTeamId) return t;
+    if (t.level === "offen" || t.level === "nicht_erfasst") return t;
+    changed = true;
+    return { ...t, pickTeamId: teamId, pickProb: roundProb(1 - t.pickProb), deviation: true, changedSinceFirst: false };
+  });
+  return changed ? { ...tips, tips: out } : tips;
+}
+
+/** Bilanzen und Tippdateien einer Saison mit der eigenen Wahl pro Woche. changed zählt Spiele mit eigener Wahl. */
+export function applySeasonChoices(
+  reviews: readonly ReviewFile[],
+  tips: readonly TipsFile[],
+  choicesByWeek: ReadonlyMap<string, Choices>,
+): { reviews: ReviewFile[]; tips: TipsFile[]; changed: number } {
+  let changed = 0;
+  const outReviews = reviews.map((r) => {
+    const c = choicesByWeek.get(weekKey(r));
+    if (!c) return r;
+    const res = applyChoicesToReview(r, c);
+    changed += res.changed;
+    return res.review;
+  });
+  const outTips = tips.map((t) => {
+    const c = choicesByWeek.get(weekKey(t));
+    return c ? applyChoicesToTipsLoose(t, c) : t;
+  });
+  return { reviews: outReviews, tips: outTips, changed };
+}
+
+/**
+ * Eigene Wahl für mehrere Wochen, als Map weekKey zu Wahl. Neu gelesen bei jeder Änderung einer Wahl, auch aus
+ * anderen Tabs. Der Schnappschuss ist der verbundene Text der Einträge, damit useSyncExternalStore stabil bleibt.
+ */
+export function useChoicesFor(player: string | null, refs: readonly WeekRef[]): ReadonlyMap<string, Choices> {
+  const keys = refs.map((r) => choiceKey(player, r));
+  const snapshot = useSyncExternalStore(
+    subscribeChoices,
+    () => keys.map((k) => readChoiceRaw(k) ?? "").join("\u0001"),
+    () => "",
+  );
+  const refKey = refs.map(weekKey).join(",");
+  return useMemo(() => {
+    const raws = snapshot.split("\u0001");
+    const map = new Map<string, Choices>();
+    refs.forEach((r, i) => {
+      const c = parseChoices(raws[i] || null);
+      if (Object.keys(c).length > 0) map.set(weekKey(r), c);
+    });
+    return map;
+    // refKey fasst refs zusammen
+  }, [snapshot, refKey]);
 }
