@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T02:47:18Z",
+  "updatedAt": "2026-11-08T03:47:28Z",
   "items": [
+    {
+      "id": "8401acf81efa916e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-will-become-third-defensive-player-to-play-250-games-with-same-team",
+      "title": "Cam Jordan will become third defensive player to play 250 games with same team",
+      "summary": "When the Saints host the Browns on Sunday, New Orleans defensive end Cam Jordan will reach a rare milestone.",
+      "publishedAt": "2026-11-08T03:05:36Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "7a475c2ef7a91f55",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bears-vs-buccaneers-odds-prediction-where-to-watch",
+      "title": "Bears vs. Buccaneers: Chicago looks to tame Tampa's running game while staying atop the NFC North",
+      "summary": "Plus, where to watch, what to know and a preview from an NFL expert",
+      "publishedAt": "2026-11-08T03:00:52Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
     {
       "id": "3e44094115c07f25",
       "source": "cbs",
@@ -1649,29 +1673,6 @@
       "title": "Jaguars score on opening drive for 7-0 lead on Ravens",
       "summary": "The Jaguars didn't waste any time in showing off on national television.",
       "publishedAt": "2026-11-06T01:27:17Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "9012d406d00b3644",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/dak-prescott-cowboys-offensive-identity-comment-brian-schottenheimer",
-      "title": "Dak Prescott delivers blunt assessment of Cowboys' offensive identity: 'Are we proud of it? I don't know'",
-      "summary": "Prescott's frustrations could be boiling over as Dallas reaches its midseason point",
-      "publishedAt": "2026-11-06T01:19:02Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "8a9a8f212a3628b7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/best-kalshi-promo-code-cbssports55-secure-55-bonus-jaguars-vs-ravens-thursday-night-football-picks",
-      "title": "Best Kalshi promo code CBSSPORTS55: Secure $55 bonus for Jaguars vs. Ravens, Thursday Night Football picks",
-      "summary": "New Kalshi users can get a $55 bonus after making $25+ in trades on the NFL Week 9 Jaguars vs. Ravens TNF matchup",
-      "publishedAt": "2026-11-06T00:32:26Z",
       "teamIds": [
         "33",
         "30"
