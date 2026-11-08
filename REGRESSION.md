@@ -806,7 +806,7 @@ R125 Schnelles Durchtippen ohne tote Taps
     Vorbedingung: iPhone Duo, Home Bildschirm App, Tipps Week 9.
     Schritt: Spiele mit den Pfeilen im Spielbereich schnell durchtippen, Blatt öffnen und per Zurück schliessen, scrollen.
     Erwartet: Jeder Tipp wirkt, kein Doppeltipp Zoom, kein Sprung nach oben, Zurück öffnet das Blatt nicht wieder.
-    Status: bestanden lokal 2026-11-08 (30 Pfeiltipps in 3 Grössen, 0 neue Verlaufseinträge), offen Nutzer am Gerät
+    Status: bestanden lokal 2026-11-08 (30 Pfeiltipps in 3 Grössen, 0 neue Verlaufseinträge). Nutzer meldet danach weiter Hänger im Duo aufgeklappt (Pfeil reagiert nicht, Zum Liveticker blinkt, löst sich nach Sekunden). Zweiter Fix: :has(:active) und strukturelle :has Regeln entfernt (Safari prüfte sie bei jeder Berührung neu), Pfeile wechseln lokal, Hash erst nach 400 ms einmal. Lokal 20 Tipps bei 6facher CPU Drosselung je 140 ms, 1 Hash Änderung. Offen Nutzer am Gerät
 
 R126 Duo zugeklappt Werkzeugkapsel und Tippzeile
     Vorbedingung: Duo zugeklappt.

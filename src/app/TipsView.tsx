@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
 import { standingsAppliesTo } from "../core/standings";
@@ -47,7 +47,7 @@ import {
   type ChoiceState,
   type PlayerState,
 } from "./player";
-import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel, PageSplitMark } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, formatStand, scoreAria, scoreText } from "./wording";
 
 // Häkchen "eingetragen" nur lokal und pro Spieler (player.ts). Gespeichert wird das getippte Team, damit eine
@@ -213,7 +213,7 @@ function TipsList({
   tips,
   mode,
   pending,
-  selectedId,
+  selectedId: hashSelectedId,
   player,
   choice,
 }: {
@@ -229,6 +229,17 @@ function TipsList({
 }) {
   const layout = useLayoutValue();
   const now = useNow();
+  // Pfeile wechseln das Spiel sofort lokal, der Hash folgt einmal nach einer kurzen Pause. Vorher löste jeder
+  // Pfeiltipp über den Hash ein Neuzeichnen der ganzen App aus (Nutzerbug Duo aufgeklappt 2026-11-08).
+  const [localSel, setLocalSel] = useState<{ id: string | null; from: string | null } | null>(null);
+  const selectedId = localSel && localSel.from === hashSelectedId ? localSel.id : hashSelectedId;
+  const stepTimer = useRef<number | null>(null);
+  useEffect(
+    () => () => {
+      if (stepTimer.current !== null) window.clearTimeout(stepTimer.current);
+    },
+    [],
+  );
   const readOnly = mode === "vergangen";
   // Ohne Häkchen und Filter: vergangene Wochen und Wochen ohne Tippdatei
   const passive = mode !== "offen";
@@ -378,7 +389,14 @@ function TipsList({
   const select = (id: string) => (wide ? replaceHash(hashFor(id)) : openSheetHash(hashFor(id)));
   const closeSheet = () => closeSheetHash(baseHash);
   // Pfeile und Rücksprung im Spielbereich ersetzen den Verlaufseintrag, sonst sammelt jeder Klick einen an
-  const step = (id: string | null) => replaceHash(hashFor(id));
+  const step = (id: string | null) => {
+    setLocalSel({ id, from: hashSelectedId });
+    if (stepTimer.current !== null) window.clearTimeout(stepTimer.current);
+    stepTimer.current = window.setTimeout(() => {
+      stepTimer.current = null;
+      replaceHash(hashFor(id));
+    }, 400);
+  };
   // Reihenfolge der Liste mit aktivem Filter. Liegt das gezeigte Spiel ausserhalb, zählt seine Position in Alle.
   const allOrder = groupBySlot(rows).flatMap((sl) => sl.games).filter((r) => r.game);
   const visibleIds = new Set(visible.map((r) => r.gameId));
@@ -635,6 +653,7 @@ function TipsList({
   if (layout === "wide") {
     return (
       <div className="tips-split">
+        <PageSplitMark />
         <div className="pane pane-hero">{heroEl}</div>
         <div className="fold" aria-hidden="true" />
         <div className="pane pane-list">
