@@ -7,6 +7,7 @@ import type { ReviewFile } from "../src/core/review-schema";
 import { tipResult } from "../src/core/review";
 import { buildSeasonSummary } from "../src/core/season";
 import { parseViewArg, shouldRevalidate, viewHash, weekOfPath } from "../src/app/data";
+import { ownSeasonTally } from "../src/app/season-data";
 import { RESULT_BADGE, entryPending, levelLabel, reviewResult, shownResult, withLiveFinal } from "../src/app/game-view";
 import { closeSheetHash, openSheetHash, replaceHash, sheetEntry, type HashWindow } from "../src/app/hash-nav";
 import type { LiveGame } from "../src/app/live";
@@ -200,32 +201,33 @@ describe("Blatt im Verlauf (Fund 1 und 2)", () => {
   });
 });
 
-describe("Häkchen pro Spieler (Fund 4)", () => {
-  it("speichert mit Kürzel und trennt die Spieler", () => {
+describe("Häkchen des Hauptnutzers (Fund 4, D058)", () => {
+  it("speichert mit Kürzel des Hauptnutzers, gleicher Schlüssel wie vor D058", () => {
     const store = new MemoryStore();
-    writeEntered("JA", "JA", W9, "g1", "H", store);
-    writeEntered("MS", "JA", W9, "g1", "A", store);
+    writeEntered("JA", W9, "g1", "H", store);
+    expect(enteredKey("JA", W9, "g1")).toBe("nfl-dashboard:eingetragen:JA:2026-2-09:g1");
     expect(store.map.get(enteredKey("JA", W9, "g1"))).toBe("H");
-    expect(readEntered("JA", "JA", W9, "g1", store)).toBe("H");
-    expect(readEntered("MS", "JA", W9, "g1", store)).toBe("A");
-    expect(readEntered("LM", "JA", W9, "g1", store)).toBeNull();
+    expect(readEntered("JA", W9, "g1", store)).toBe("H");
+    // Ein anderes Kürzel liest nicht die Häkchen des Hauptnutzers
+    expect(readEntered("MS", W9, "g2", store)).toBeNull();
   });
 
-  it("ordnet alte Einträge ohne Kürzel dem Hauptnutzer zu", () => {
+  it("liest alte Einträge ohne Kürzel, der eigene Eintrag geht vor", () => {
     const store = new MemoryStore();
     store.setItem(legacyEnteredKey(W9, "g1"), "H");
-    expect(readEntered("JA", "JA", W9, "g1", store)).toBe("H");
-    expect(readEntered("MS", "JA", W9, "g1", store)).toBeNull();
+    expect(readEntered("JA", W9, "g1", store)).toBe("H");
+    store.setItem(enteredKey("JA", W9, "g1"), "A");
+    expect(readEntered("JA", W9, "g1", store)).toBe("A");
     // Abwählen löscht auch den alten Eintrag, sonst käme das Häkchen zurück
-    writeEntered("JA", "JA", W9, "g1", null, store);
-    expect(readEntered("JA", "JA", W9, "g1", store)).toBeNull();
+    writeEntered("JA", W9, "g1", null, store);
+    expect(readEntered("JA", W9, "g1", store)).toBeNull();
     expect(store.map.size).toBe(0);
   });
 
   it("alte Werte 1 oder true gelten als nicht eingetragen", () => {
     const store = new MemoryStore();
     store.setItem(legacyEnteredKey(W9, "g1"), "1");
-    expect(readEntered("JA", "JA", W9, "g1", store)).toBeNull();
+    expect(readEntered("JA", W9, "g1", store)).toBeNull();
   });
 });
 
@@ -376,6 +378,30 @@ describe("Eigene Wahl in Bilanz und Saison (Fund 11, D057)", () => {
     expect(s.deviations.expectedNet).toBeCloseTo(-0.56, 4);
     const other = applySeasonChoices([review()], [tips], new Map([["2026-2-10", { g1: "A" }]]));
     expect(other.changed).toBe(0);
+  });
+});
+
+describe("Deine Saison in den Tipps (D058)", () => {
+  const w8 = review({ week: 8 });
+  const w9 = review();
+  const W9REF = { season: 2026, seasonType: 2, week: 9 };
+
+  it("zählt richtige und gewertete App Tipps aller Bilanzen", () => {
+    // Pro Woche 1 richtig von 2 gewertet, g3 offen zählt nicht
+    expect(ownSeasonTally([w8, w9], new Map(), null, null)).toEqual({ right: 2, scored: 4 });
+    expect(ownSeasonTally([], new Map(), null, null)).toEqual({ right: 0, scored: 0 });
+  });
+
+  it("rechnet mit der eigenen Wahl wie die Bilanz", () => {
+    // g1 Aussenseiter A gewinnt, g2 Aussenseiter A2 verliert
+    expect(ownSeasonTally([w8], new Map([["2026-2-08", { g1: "A" }]]), null, null)).toEqual({ right: 2, scored: 2 });
+    expect(ownSeasonTally([w8], new Map([["2026-2-08", { g2: "A2" }]]), null, null)).toEqual({ right: 0, scored: 2 });
+  });
+
+  it("die angezeigte Woche zählt aus der Tippliste statt aus ihrer Bilanz", () => {
+    expect(ownSeasonTally([w8, w9], new Map(), W9REF, { right: 3, scored: 3 })).toEqual({ right: 4, scored: 5 });
+    // Woche ohne Bilanz (z. B. laufend) kommt dazu
+    expect(ownSeasonTally([w8], new Map(), W9REF, { right: 1, scored: 1 })).toEqual({ right: 2, scored: 3 });
   });
 });
 

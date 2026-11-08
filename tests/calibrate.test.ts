@@ -15,7 +15,6 @@ import { buildSimSetup } from "../src/core/season-sim";
 import { fpiPickProbLookup } from "../src/core/season";
 import { DEFAULT_UPSET_RATE, simulateFirstPlace } from "../src/core/simulate";
 import type { GameTip, StandingsFile, TipsFile } from "../src/core/tips-schema";
-import { rankingCheckText } from "../src/app/review-text";
 
 const POOL = [0.55, 0.6, 0.65, 0.7, 0.75, 0.8];
 
@@ -298,17 +297,5 @@ describe("fpiPickProbLookup", () => {
     expect(f(t("1", "A"))).toBe(0.37);
     expect(f(t("1", "X"))).toBeNull();
     expect(f(t("2", "H"))).toBeNull();
-  });
-});
-
-describe("rankingCheckText", () => {
-  it("weniger gemeldet als App Tipps", () => {
-    expect(rankingCheckText({ playerId: "JA", reported: 9, appPoints: 10, gap: -1 })).toBe(
-      "Gemeldet 9, App Tipps 10, Differenz 1: Tipp vergessen oder anders eingetragen?",
-    );
-  });
-  it("mehr gemeldet und gleich", () => {
-    expect(rankingCheckText({ playerId: "JA", reported: 11, appPoints: 10, gap: 1 })).toContain("Differenz 1: mehr Punkte");
-    expect(rankingCheckText({ playerId: "JA", reported: 10, appPoints: 10, gap: 0 })).toBe("Gemeldet 10, App Tipps 10: stimmt überein.");
   });
 });

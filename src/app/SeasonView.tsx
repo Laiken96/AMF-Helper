@@ -1,18 +1,13 @@
 // Saisonauswertung in der Bilanz (D050): App gegen reinen Favoritentipp, Abweichungen netto gegen Erwartung,
-// Trefferquote je Wahrscheinlichkeitsband, Brier Score, Tiebreaker und Simulation der Chance auf jeden Rang.
-// Die Simulation ist nur Information (D052), die App wählt damit keine Abweichung. Die eigene, auf dem Gerät
-// gespeicherte Wahl des gewählten Spielers fliesst in alle Werte ein (D057).
-import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { DEFAULT_UPSET_RATE } from "../core/simulate";
-import { buildSimSetup, type SimSetup } from "../core/season-sim";
+// Trefferquote je Wahrscheinlichkeitsband, Brier Score und Tiebreaker. Ohne Gruppentabelle und ohne Simulation
+// (D058). Die eigene, auf dem Gerät gespeicherte Wahl fliesst in alle Werte ein (D057).
+import { useMemo, type ReactNode } from "react";
 import { PROB_BANDS, buildSeasonSummary, fpiPickProbLookup, type SeasonSummary } from "../core/season";
 import { useKeptLoad } from "./data";
 import { useLayoutValue } from "./layout";
 import { applySeasonChoices, useChoicesFor, usePlayer } from "./player";
 import { loadSeasonData, seasonWeekHref, type SeasonData } from "./season-data";
-import { SimTimeoutError, runSimulation, type SimRun } from "./sim-run";
-import { LoadErrorNotice, PageHeader, Segmented, weekLabel, PageSplitMark } from "./ui";
-import type { PickRateMode } from "../core/calibrate";
+import { LoadErrorNotice, PageHeader, weekLabel, PageSplitMark } from "./ui";
 
 /** Ab so vielen gewerteten Spielen gelten Saisonzahlen als aussagekräftig. */
 export const MIN_SEASON_GAMES = 40;
@@ -34,7 +29,7 @@ const BAND_LABEL: Record<(typeof PROB_BANDS)[number]["id"], string> = {
 };
 
 /** Saisondaten mit der eigenen Wahl pro Woche. changed zählt Spiele mit eigener Wahl. */
-function useOwnSeason(raw: SeasonData | null, player: string | null): { data: SeasonData | null; changed: number } {
+function useOwnSeason(raw: SeasonData | null, player: string): { data: SeasonData | null; changed: number } {
   const choicesByWeek = useChoicesFor(player, raw?.weeks ?? []);
   return useMemo(() => {
     if (!raw || choicesByWeek.size === 0) return { data: raw, changed: 0 };
@@ -54,7 +49,7 @@ export function SeasonView({ toggle }: { toggle: ReactNode }) {
   const { data: raw, error, pending } = useKeptLoad("saison", loadSeasonData);
   const wide = useLayoutValue() === "wide";
   const player = usePlayer(raw?.standings ?? null);
-  const { data, changed } = useOwnSeason(raw, player.player);
+  const { data, changed } = useOwnSeason(raw, player);
   if (error) return <LoadErrorNotice message={error} />;
   if (!data) {
     if (pending) return <p className="notice">Daten werden geladen …</p>;
@@ -77,11 +72,11 @@ export function SeasonView({ toggle }: { toggle: ReactNode }) {
     <>
       {changed > 0 && (
         <p className="notice own-note">
-          <strong>inkl. deiner Abweichungen.</strong> {changed} {changed === 1 ? "Spiel zählt" : "Spiele zählen"} mit der
-          eigenen Wahl von {player.player}, gespeichert auf diesem Gerät.
+          <strong>inkl. deiner Abweichungen.</strong> {changed} {changed === 1 ? "Spiel zählt" : "Spiele zählen"} mit deiner
+          eigenen Wahl, gespeichert auf diesem Gerät.
         </p>
       )}
-      <SeasonMetrics data={data} me={player.player} />
+      <SeasonMetrics data={data} />
     </>
   );
   const list = <WeekList summary={data.summary} />;
@@ -111,7 +106,7 @@ export function SeasonView({ toggle }: { toggle: ReactNode }) {
   );
 }
 
-function SeasonMetrics({ data, me }: { data: SeasonData; me: string | null }) {
+function SeasonMetrics({ data }: { data: SeasonData }) {
   const s = data.summary;
   return (
     <>
@@ -143,7 +138,6 @@ function SeasonMetrics({ data, me }: { data: SeasonData; me: string | null }) {
             : `Im Mittel ${num.format(s.tiebreaker.meanDiff)} Punkte daneben (Summe beider Teams, ${s.tiebreaker.count} ${s.tiebreaker.count === 1 ? "Spiel" : "Spiele"}).`}
         </p>
       </section>
-      <SimSection data={data} me={me} />
     </>
   );
 }
@@ -258,183 +252,6 @@ function BrierSection({ summary: s }: { summary: SeasonSummary }) {
           </p>
         </>
       )}
-    </section>
-  );
-}
-
-function chanceText(chance: number): string {
-  if (chance <= 0) return "0 %";
-  if (chance < 0.001) return "unter 0.1 %";
-  return `${num.format(Math.round(chance * 1000) / 10)} %`;
-}
-
-function SimSection({ data, me }: { data: SeasonData; me: string | null }) {
-  // Tippquote: aus den Punkten geschätzt für alle Spieler, oder alle tippen jedes Spiel (fair, Review D052)
-  const [rates, setRates] = useState<PickRateMode>("geschaetzt");
-  const setup: SimSetup | null = useMemo(
-    () =>
-      buildSimSetup({
-        season: data.season,
-        standings: data.standings,
-        history: data.history,
-        reviews: data.reviews,
-        tips: data.tips,
-        me,
-        weekGameCounts: data.weekGameCounts,
-        pickRates: rates,
-      }),
-    [data, rates, me],
-  );
-  const [run, setRun] = useState<SimRun | null>(null);
-  const [failed, setFailed] = useState<"fehler" | "zeit" | null>(null);
-  const [attempt, setAttempt] = useState(0);
-  const inputKey = setup ? JSON.stringify(setup.input) : "";
-  useEffect(() => {
-    if (!setup) return;
-    let active = true;
-    setFailed(null);
-    setRun(null);
-    runSimulation(setup.input).then(
-      (r) => active && setRun(r),
-      (err: unknown) => active && setFailed(err instanceof SimTimeoutError ? "zeit" : "fehler"),
-    );
-    return () => {
-      active = false;
-    };
-    // inputKey fasst alle Eingaben zusammen, gleiche Eingaben rechnen nicht neu
-  }, [inputKey, attempt]);
-
-  if (!setup) {
-    return (
-      <section className="slot">
-        <h2>Chance auf Rang</h2>
-        <p className="season-text">Für die Simulation fehlt eine Rangliste dieser Saison.</p>
-      </section>
-    );
-  }
-  const assumed = setup.players.filter((p) => p.id !== setup.me && !p.upsetFromData).length;
-  const n = setup.players.length;
-  const first = run?.output.results[0];
-  return (
-    <section className="slot sim" data-sim-ms={run ? Math.round(run.ms) : undefined} data-sim-where={run?.where}>
-      <h2>Chance auf Rang</h2>
-      <p className="season-text">
-        Für {setup.me} mit {setup.players.find((p) => p.id === setup.me)?.points ?? 0} Punkten nach Week {setup.asOfWeek},{" "}
-        {setup.remainingWeeks} {setup.remainingWeeks === 1 ? "Woche" : "Wochen"} Regular Season offen,{" "}
-        {setup.input.runs ?? 5000} simulierte Saisonverläufe. Nur Information, die App wählt damit nichts.
-      </p>
-      <Segmented
-        label="Tippquote in der Simulation"
-        value={rates}
-        onChange={setRates}
-        options={[
-          { value: "geschaetzt", label: "Tippquote geschätzt" },
-          { value: "voll", label: "Alle tippen alles" },
-        ]}
-      />
-      {failed ? (
-        <div className="notice notice-error" role="status">
-          <p>
-            {failed === "zeit"
-              ? "Die Simulation dauerte länger als 10 Sekunden und wurde abgebrochen."
-              : "Die Simulation konnte nicht gerechnet werden."}
-          </p>
-          <button type="button" className="btn" onClick={() => setAttempt((a) => a + 1)}>
-            Erneut versuchen
-          </button>
-        </div>
-      ) : !run ? (
-        <p className="season-text" aria-live="polite">
-          Simulation läuft …
-        </p>
-      ) : (
-        <>
-          {first && (
-            <table className="group-table sim-table">
-              <caption className="sim-caption">Nur Favoriten getippt</caption>
-              <thead>
-                <tr>
-                  {first.rankChances.map((_, i) => (
-                    <th key={i} scope="col">
-                      Rang {i + 1}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  {first.rankChances.map((c, i) => (
-                    <td key={i}>{chanceText(c)}</td>
-                  ))}
-                </tr>
-              </tbody>
-            </table>
-          )}
-          <table className="group-table sim-table">
-            <thead>
-              <tr>
-                <th scope="col">Abweichungen pro Woche</th>
-                <th scope="col">Rang 1</th>
-                <th scope="col">Endstand im Mittel</th>
-              </tr>
-            </thead>
-            <tbody>
-              {run.output.results.map((r) => (
-                <tr key={r.k}>
-                  <th scope="row">{r.k}</th>
-                  <td>{chanceText(r.winChance)}</td>
-                  <td>{num.format(Math.round(r.meanPoints))}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </>
-      )}
-      {run && run.output.results.some((r) => r.winChance <= 0) && (
-        <p className="push-hint">0 % heisst: in keinem der {run.output.runs} Läufe auf diesem Rang.</p>
-      )}
-      <details className="sim-details">
-        <summary>Annahmen zu den Spielern</summary>
-        <table className="group-table sim-table">
-          <thead>
-            <tr>
-              <th scope="col">Kürzel</th>
-              <th scope="col">Punkte</th>
-              <th scope="col">Tippquote</th>
-              <th scope="col">Aussenseiter</th>
-            </tr>
-          </thead>
-          <tbody>
-            {setup.players.map((p) => (
-              <tr key={p.id} className={p.id === setup.me ? "me" : undefined}>
-                <th scope="row">{p.id}</th>
-                <td>{p.points}</td>
-                <td>{rates === "voll" ? "100 %" : pct(p.pickRate)}</td>
-                <td>
-                  {p.id === setup.me
-                    ? "Favorit"
-                    : p.upsetFromData
-                      ? `${pct(p.upsetRate)} (${p.upsetGames} Spiele)`
-                      : `${pct(p.upsetRate)} Annahme`}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <p className="push-hint">
-          {rates === "voll"
-            ? `Alle ${n} Spieler tippen jedes Spiel. `
-            : `Tippquote aller Spieler, auch ${setup.me}, aus dem Saisontotal gegen die erwarteten Treffer bei vollem Tippen, ${setup.possibleGames} mögliche Spiele bis Week ${setup.asOfWeek}${setup.assumedWeeks > 0 ? `, davon ${setup.assumedWeeks} Wochen mit angenommener Spielzahl` : ""}. `}
-          {assumed > 0
-            ? `Aussenseiterquote ist eine Annahme (${pct(DEFAULT_UPSET_RATE)}), bis Wochen mit gemeldeter Rangliste und Vorwoche vorliegen.`
-            : "Aussenseiterquote aus gemeldeten Wochen, zur Annahme hin gestaucht."}{" "}
-          {setup.me} tippt immer den Favoriten, so wie die App vorschlägt. Die Zeilen mit Abweichungen zeigen nur, was
-          sie im Mittel kosten.
-        </p>
-      </details>
-      <p className="push-hint">
-        Ziel ist die höchste erwartete Punktzahl. Ob du abweichst, entscheidest du selbst im Spielblatt.
-      </p>
     </section>
   );
 }

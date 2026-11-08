@@ -3,18 +3,16 @@ import type { Game, WeekFile } from "../src/core/schema";
 import { buildTipsFile } from "../src/core/tips";
 import type { Odds, StandingsFile, TipsFile } from "../src/core/tips-schema";
 import {
+  MAIN_FALLBACK,
   applyChoices,
   choiceKey,
   choiceLocked,
+  mainPlayer,
   parseChoices,
-  playerChoices,
   readChoices,
-  readStoredPlayer,
-  resolvePlayer,
   shownTipsFor,
-  standingsFor,
   storeChoice,
-  storePlayer,
+  usePlayer,
 } from "../src/app/player";
 
 const T0 = "2026-11-05T12:00:00Z";
@@ -90,32 +88,20 @@ function build(me: string, now = T0, games = GAMES): TipsFile {
 
 const strip = (f: TipsFile) => ({ ...f, updatedAt: "" });
 
-describe("Spieler Auswahl", () => {
-  it("nimmt ein bekanntes Kürzel, sonst den Hauptnutzer", () => {
-    expect(resolvePlayer("MS", standings())).toBe("MS");
-    expect(resolvePlayer("XY", standings())).toBe("JA");
-    expect(resolvePlayer(null, standings())).toBe("JA");
-    expect(resolvePlayer("MS", null)).toBe("MS");
+describe("Hauptnutzer (D058)", () => {
+  it("gilt immer standings.me, ohne Rangliste das Kürzel JA", () => {
+    expect(mainPlayer(standings())).toBe("JA");
+    expect(mainPlayer(standings("MS"))).toBe("MS");
+    expect(mainPlayer(null)).toBe("JA");
+    expect(mainPlayer(undefined)).toBe(MAIN_FALLBACK);
+    expect(usePlayer(standings("DH"))).toBe("DH");
+    expect(usePlayer(null)).toBe("JA");
   });
 
-  it("listet die Kürzel der Rangliste sortiert, ohne Rangliste die des Formulars", () => {
-    expect(playerChoices(standings())).toEqual(["CZ", "DH", "JA", "LM", "MS"]);
-    expect(playerChoices(null)).toEqual(["CZ", "DH", "JA", "LM", "MS"]);
-  });
-
-  it("wechselt in der Rangliste nur me", () => {
-    const s = standings();
-    expect(standingsFor(s, "DH")).toEqual({ ...s, me: "DH" });
-    expect(standingsFor(s, "JA")).toBe(s);
-    expect(standingsFor(s, "XY")).toBe(s);
-  });
-
-  it("merkt sich die Wahl ohne Storage bis zum Neuladen", () => {
-    // In Node fehlt window, jeder Storage Zugriff wirft und wird abgefangen
-    storePlayer("DH");
-    expect(readStoredPlayer()).toBe("DH");
-    storePlayer(null);
-    expect(readStoredPlayer()).toBe(null);
+  it("Schlüssel der eigenen Wahl bleiben gleich, auch ohne Rangliste", () => {
+    const ref = { season: 2026, seasonType: 2, week: 9 };
+    expect(choiceKey(mainPlayer(null), ref)).toBe(choiceKey(mainPlayer(standings()), ref));
+    expect(choiceKey(mainPlayer(null), ref)).toBe("nfl-dashboard:wahl:JA:2026-2-09");
   });
 });
 
@@ -174,15 +160,16 @@ describe("Eigene Abweichung (D052)", () => {
     expect(applyChoices(noOdds, GAMES, { "2": "a2" })).toBe(noOdds);
   });
 
-  it("Wahl gilt in Tipps und Spielen gleich, vergangene Woche eines anderen Spielers ohne Wahl", () => {
+  it("Wahl gilt in Tipps und Spielen gleich, auch in vergangenen Wochen", () => {
     const file = build("JA");
-    const a = shownTipsFor(file, GAMES, standings(), "aktuell", "JA", { "2": "a2" });
-    const b = shownTipsFor(file, GAMES, standings(), "aktuell", "JA", { "2": "a2" });
+    const a = shownTipsFor(file, GAMES, { "2": "a2" });
+    const b = shownTipsFor(file, GAMES, { "2": "a2" });
     expect(a).toEqual(b);
     expect(a!.tips.find((t) => t.gameId === "2")!.pickTeamId).toBe("a2");
-    expect(shownTipsFor(file, GAMES, standings(), "vergangen", "MS", { "2": "a2" })).toBe(file);
-    expect(shownTipsFor(file, GAMES, standings(), "vergangen", "JA", { "2": "a2" })!.tips.find((t) => t.gameId === "2")!.deviation).toBe(true);
-    expect(shownTipsFor(null, GAMES, standings(), "aktuell", "JA", { "2": "a2" })).toBe(null);
+    expect(a!.tips.find((t) => t.gameId === "2")!.deviation).toBe(true);
+    expect(shownTipsFor(file, GAMES, {})).toBe(file);
+    expect(shownTipsFor(file, null, { "2": "a2" })).toBe(file);
+    expect(shownTipsFor(null, GAMES, { "2": "a2" })).toBe(null);
   });
 
   it("Wahl gesperrt ab Kickoff, bei gesperrtem Tipp und bei nicht erfasstem Spiel", () => {

@@ -819,3 +819,9 @@ R127 Push Ausfälle nach Gewicht und News
     Schritt: Push und News prüfen.
     Erwartet: Leader und Start QB zuerst, keine Ersatz QBs, nicht gelistet statt fit. ESPN News wieder vorhanden, keine Werbeartikel.
     Status: bestanden lokal 2026-11-08 mit echten Daten, echt nach dem Merge. Bekannt: Bilanz Tiebreaker folgt der eigenen Wahl noch nicht
+
+R128 Rangliste ausgeblendet, eigene Bilanz (D058)
+    Vorbedingung: App aktuell.
+    Schritt: Tipps, Bilanz Woche und Saison, Einstellungen, Onboarding ansehen.
+    Erwartet: Keine Rangliste, kein Rang, keine Spielerwahl, keine Simulation, kein Rangliste melden. Kachel Deine Saison mit richtigen App Tipps und Trefferquote, eigene Wahl zählt mit.
+    Status: bestanden lokal 2026-11-08 (148 Prüfungen, 3 Grössen, hell und dunkel), offen Nutzer am Gerät

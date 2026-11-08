@@ -59,8 +59,8 @@ export function GamesView({ arg }: { arg: string | null }) {
 type GamesData = WeekData & { tips: TipsFile | null; standings: StandingsFile | null };
 
 /**
- * Wochendaten mit Tippliste für die Spielinfo. Scheitert das Laden der Tippdaten, bleibt der Spielplan, die
- * Rangliste wird dann einzeln geladen. Ohne Rangliste ist keine eigene Wahl möglich (kein Spieler bekannt).
+ * Wochendaten mit Tippliste für die Spielinfo. Scheitert das Laden der Tippdaten, bleibt der Spielplan, das
+ * Kürzel des Hauptnutzers kommt dann einzeln aus standings.json (D058).
  */
 function loadGamesData(ref: WeekRef | null = null): Promise<GamesData> {
   return loadTipsData(ref).catch(async () => {
@@ -80,12 +80,11 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
   const live = useLiveScores(phase === "vergangen" ? null : ref, week?.games ?? null);
   const weeks = navWeeks(data);
-  // Derselbe Tipp wie im Reiter Tipps: Vorschlag der App mit der eigenen Wahl des Spielers (D050, D052)
+  // Derselbe Tipp wie im Reiter Tipps: Vorschlag der App mit der eigenen Wahl (D052, D058)
   const player = usePlayer(data.standings);
-  const { choices, setChoice } = useChoices(player.player, ref);
-  const shownTips = useShownTips(data.tips, week?.games, data.standings, phase, player.player, choices);
-  // Ohne Rangliste oder Spieler gäbe es nur den Schlüssel "ohne": dann keine eigene Wahl
-  const canChoose = phase !== "vergangen" && data.standings !== null && player.player !== null;
+  const { choices, setChoice } = useChoices(player, ref);
+  const shownTips = useShownTips(data.tips, week?.games, choices);
+  const canChoose = phase !== "vergangen";
   const current = currentRef(data.current);
 
   // Standardspiel für den Detailbereich: laufendes Spiel, sonst nächstes Spiel, sonst das letzte beendete

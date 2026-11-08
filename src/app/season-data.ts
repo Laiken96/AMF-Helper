@@ -1,33 +1,29 @@
-// Loader der Saisonauswertung (D050). Eigene Datei neben data.ts: lädt alle Bilanz, Tipp und FPI Dateien einer
-// Saison und rechnet die Auswertung mit buildSeasonSummary. Grundlage ist die Wochenliste aus
+// Loader der Saisonauswertung (D050, D058). Eigene Datei neben data.ts: lädt alle Bilanz, Tipp und FPI Dateien
+// einer Saison und rechnet die Auswertung mit buildSeasonSummary. Grundlage ist die Wochenliste aus
 // data/weeks/index.json. Fehlende Zusatzdateien (FPI, einzelne Wochen) blockieren die Ansicht nie.
+// Dazu die Kachel Deine Saison in den Tipps: nur die Bilanzen der Saison, mit der eigenen Wahl.
+import { useEffect, useMemo, useState } from "react";
 import type { z } from "zod";
 import { FpiFileSchema, fpiFilePath, type FpiFile } from "../core/fpi";
-import { ReviewFileSchema, StandingsHistorySchema, type ReviewFile, type StandingsHistory } from "../core/review-schema";
-import { WeekFileSchema } from "../core/schema";
+import { ReviewFileSchema, type ReviewFile } from "../core/review-schema";
 import { buildSeasonSummary, fpiPickProbLookup, type SeasonSummary } from "../core/season";
-import { StandingsFileSchema, TipsFileSchema, type StandingsFile, type TipsFile } from "../core/tips-schema";
+import { TipsFileSchema, type StandingsFile, type TipsFile } from "../core/tips-schema";
 import {
   FACTS_FIRST_WEEK,
   compareRef,
   loadCurrent,
-  loadDataFile,
   loadOptionalDataFile,
+  loadStandingsOrNull,
   loadWeeksIndex,
+  sameRef,
+  useDataVersion,
   weekKey,
   type WeekRef,
 } from "./data";
-import { readStoredPlayer } from "./player";
-
-/** Gewählter Spieler aus dem Onboarding (player.ts), nur gültige Kürzel. null ohne Wahl. */
-export function storedPlayer(): string | null {
-  const v = readStoredPlayer();
-  return v && /^[A-Z]{2,3}$/.test(v) ? v : null;
-}
+import { applyChoicesToReview, useChoicesFor, type Choices } from "./player";
 
 // Alle Abrufe laufen über den Sitzungscache aus data.ts. So erneuern Aktualisieren, Rückkehr in die App und
 // die 5 Minuten Prüfung (D045) auch die Saisondaten, und ein geänderter Inhalt lädt die Ansicht ohne Leerzustand neu.
-const load = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S>> => loadDataFile(path, schema);
 
 /** Optionale Datei: Fehler zählen wie eine fehlende Datei. */
 const optional = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
@@ -40,10 +36,8 @@ export interface SeasonData {
   reviews: ReviewFile[];
   tips: TipsFile[];
   fpi: FpiFile[];
-  standings: StandingsFile;
-  history: StandingsHistory;
-  /** Spielzahl pro Regular Season Woche aus Bilanz oder Wochendatei. */
-  weekGameCounts: Map<number, number>;
+  /** Nur für das Kürzel des Hauptnutzers (D058), null wenn standings.json fehlt. */
+  standings: StandingsFile | null;
   summary: SeasonSummary;
 }
 
@@ -53,9 +47,8 @@ export async function loadSeasonData(): Promise<SeasonData | null> {
   if (!index || index.weeks.length === 0) return null;
   const season = current?.season ?? index.weeks[index.weeks.length - 1]!.season;
   const entries = index.weeks.filter((w) => w.season === season).sort(compareRef);
-  const [standings, history, perWeek] = await Promise.all([
-    load("standings.json", StandingsFileSchema) as Promise<StandingsFile>,
-    load("standings-history.json", StandingsHistorySchema) as Promise<StandingsHistory>,
+  const [standings, perWeek] = await Promise.all([
+    loadStandingsOrNull(),
     Promise.all(
       entries.map(async (w) => {
         const [review, tips, fpi] = await Promise.all([
@@ -64,26 +57,13 @@ export async function loadSeasonData(): Promise<SeasonData | null> {
           // FPI nur für Wochen mit Bilanz ab der ersten FPI Datei, nur dort fliesst es in die Auswertung ein
           w.reviewFile && compareRef(w, FACTS_FIRST_WEEK) >= 0 ? optional(fpiFilePath(w.season, w.seasonType, w.week), FpiFileSchema) : Promise.resolve(null),
         ]);
-        return { ref: { season: w.season, seasonType: w.seasonType, week: w.week }, review, tips, fpi, weekFile: w.weekFile };
+        return { ref: { season: w.season, seasonType: w.seasonType, week: w.week }, review, tips, fpi };
       }),
     ),
   ]);
   const reviews = perWeek.flatMap((w) => (w.review ? [w.review] : []));
   const tips = perWeek.flatMap((w) => (w.tips ? [w.tips] : []));
   const fpi = perWeek.flatMap((w) => (w.fpi ? [w.fpi] : []));
-  const weekGameCounts = new Map<number, number>();
-  for (const w of perWeek) {
-    if (w.ref.seasonType !== 2) continue;
-    const n = w.review?.games.length ?? w.tips?.tips.length;
-    if (n !== undefined) weekGameCounts.set(w.ref.week, n);
-  }
-  // Wochen bis zum Ranglistenstand ohne Bilanz und Tipps: Spielzahl aus der Wochendatei, falls vorhanden
-  const missing = perWeek.filter((w) => w.ref.seasonType === 2 && !weekGameCounts.has(w.ref.week) && w.ref.week <= standings.asOfWeek);
-  const files = await Promise.all(missing.map((w) => optional(w.weekFile, WeekFileSchema)));
-  missing.forEach((w, i) => {
-    const f = files[i];
-    if (f) weekGameCounts.set(w.ref.week, f.games.length);
-  });
   const summary = buildSeasonSummary({ season, reviews, tips, fpiPickProb: fpi.length > 0 ? fpiPickProbLookup(fpi) : undefined });
   return {
     season,
@@ -93,10 +73,73 @@ export async function loadSeasonData(): Promise<SeasonData | null> {
     tips,
     fpi,
     standings,
-    history,
-    weekGameCounts,
     summary,
   };
 }
 
 export const seasonWeekHref = (ref: WeekRef) => `#bilanz/${weekKey(ref)}`;
+
+// ---------- Deine Saison in den Tipps (D058) ----------
+
+export interface WeekTally {
+  /** Richtige App Tipps. */
+  right: number;
+  /** Gewertete App Tipps: entschieden, Unentschieden zählt als falsch. */
+  scored: number;
+}
+
+/** Bilanzen einer Saison aus dem Wochenindex. Fehlende oder ungültige Dateien fallen weg. */
+export async function loadSeasonReviews(season: number): Promise<ReviewFile[]> {
+  const index = await loadWeeksIndex();
+  const entries = (index?.weeks ?? []).filter((w) => w.season === season && w.reviewFile);
+  const files = await Promise.all(entries.map((w) => optional(w.reviewFile!, ReviewFileSchema)));
+  return files.flatMap((f) => (f && f.season === season ? [f] : []));
+}
+
+/**
+ * Saison bis jetzt aus den Bilanzen mit der eigenen Wahl (D057), wie in der Bilanz. Die angezeigte Woche zählt
+ * aus shownWeek (Tippliste mit Live Endständen), ihre Bilanz fällt dafür weg. Ohne shownWeek zählt die Bilanz.
+ */
+export function ownSeasonTally(
+  reviews: readonly ReviewFile[],
+  choicesByWeek: ReadonlyMap<string, Choices>,
+  shownRef: WeekRef | null,
+  shownWeek: WeekTally | null,
+): WeekTally {
+  let right = 0;
+  let scored = 0;
+  for (const r of reviews) {
+    if (shownWeek && shownRef && sameRef(r, shownRef)) continue;
+    const c = choicesByWeek.get(weekKey(r));
+    const own = c ? applyChoicesToReview(r, c).review : r;
+    right += own.games.filter((g) => g.correct === true).length;
+    scored += own.games.filter((g) => g.correct !== null).length;
+  }
+  if (shownWeek) {
+    right += shownWeek.right;
+    scored += shownWeek.scored;
+  }
+  return { right, scored };
+}
+
+/** Bilanzen der Saison mit der eigenen Wahl pro Woche. null solange geladen wird. Lädt nach Hintergrundprüfung neu. */
+export function useSeasonReviews(
+  season: number,
+  player: string,
+): { reviews: ReviewFile[]; choices: ReadonlyMap<string, Choices> } | null {
+  const version = useDataVersion();
+  const [state, setState] = useState<{ season: number; reviews: ReviewFile[] } | null>(null);
+  useEffect(() => {
+    let active = true;
+    loadSeasonReviews(season)
+      .then((reviews) => active && setState({ season, reviews }))
+      .catch(() => active && setState({ season, reviews: [] }));
+    return () => {
+      active = false;
+    };
+  }, [season, version]);
+  const reviews = state && state.season === season ? state.reviews : null;
+  const refs = useMemo(() => (reviews ?? []).map((r) => ({ season: r.season, seasonType: r.seasonType, week: r.week })), [reviews]);
+  const choices = useChoicesFor(player, refs);
+  return useMemo(() => (reviews ? { reviews, choices } : null), [reviews, choices]);
+}

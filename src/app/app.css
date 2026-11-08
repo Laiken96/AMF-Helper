@@ -785,33 +785,22 @@ a:hover {
   color: var(--text-3);
 }
 
-.ranking {
-  list-style: none;
-  margin: 4px 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-.ranking li {
-  display: inline-flex;
-  gap: 4px;
-  padding: 2px 7px;
-  border-radius: 999px;
-  background: var(--surface-2);
-  font-size: 12px;
-  color: var(--text-2);
-}
-
-.ranking li.me {
-  background: var(--accent);
-  color: var(--bg);
+/* Deine Saison (D058) */
+.own-season .box-big .of {
+  font-size: 16px;
   font-weight: 700;
+  color: var(--text-3);
 }
 
-.ranking .pts {
-  font-variant-numeric: tabular-nums;
+.box-link {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
 }
 
 [data-layout="side"] .tiles {
@@ -1310,8 +1299,7 @@ a:hover {
   font-variant-numeric: tabular-nums;
 }
 
-.group-table,
-.season-table {
+.group-table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
@@ -1323,21 +1311,17 @@ a:hover {
 }
 
 .group-table th,
-.group-table td,
-.season-table th,
-.season-table td {
+.group-table td {
   padding: 9px 12px;
   text-align: right;
   border-bottom: 1px solid var(--line);
 }
 
-.group-table th:first-child,
-.season-table th:first-child {
+.group-table th:first-child {
   text-align: left;
 }
 
-.group-table thead th,
-.season-table thead th {
+.group-table thead th {
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -1348,35 +1332,6 @@ a:hover {
 .group-table tbody tr:last-child th,
 .group-table tbody tr:last-child td {
   border-bottom: none;
-}
-
-.group-table tr.me th,
-.group-table tr.me td {
-  background: var(--accent);
-  color: var(--bg);
-  font-weight: 700;
-}
-
-.season-table .me {
-  background: var(--surface-2);
-  font-weight: 700;
-}
-
-.season-table thead th.me {
-  color: var(--accent);
-}
-
-.season-table tfoot th,
-.season-table tfoot td {
-  font-weight: 700;
-  border-bottom: none;
-}
-
-.table-scroll {
-  /* position relative, damit absolut gesetzte .sr-only Texte in den Zellen mitscrollen statt die Seite zu verbreitern */
-  position: relative;
-  overflow-x: auto;
-  border-radius: 14px;
 }
 
 .res {
@@ -2283,10 +2238,6 @@ html.sheet-open .page {
   text-align: center;
 }
 
-.missing {
-  color: var(--text-3);
-}
-
 /* Bilanz: Sieger fett, Verlierer gedimmt */
 .team-win .abbr {
   color: var(--text);
@@ -2745,11 +2696,6 @@ a.step-label:active,
 [data-layout="side"] .news-controls .segmented,
 [data-layout="side"] .news-team {
   flex-basis: 100%;
-}
-
-tr.me .missing,
-.me .missing {
-  color: inherit;
 }
 
 .overlay-card section > p {

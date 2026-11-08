@@ -1,4 +1,4 @@
-/* Saisonauswertung und Abgleich Rangliste in der Bilanz (D050). Farben nur über die Variablen aus app.css,
+/* Saisonauswertung in der Bilanz (D050). Farben nur über die Variablen aus app.css,
    damit der Hellmodus greift. Duo quer nutzt das Raster .duo-split aus duo.css. */
 
 .review-mode {
@@ -82,7 +82,7 @@
   color: var(--text-2);
 }
 
-/* ---------- Rangfolge Brier Score ---------- */
+/* ---------- Reihenfolge Brier Score ---------- */
 
 .brier-list {
   margin: 0;
@@ -125,39 +125,6 @@
   color: var(--text-2);
 }
 
-/* ---------- Simulation ---------- */
-
-.sim-table thead th {
-  letter-spacing: 0.04em;
-}
-
-.sim-table td {
-  white-space: nowrap;
-}
-
-.sim-details {
-  margin-top: 8px;
-}
-
-.sim-details summary {
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  padding: 0 4px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--accent);
-  cursor: pointer;
-}
-
-.sim-details .sim-table {
-  margin-bottom: 6px;
-}
-
-.sim .push-hint {
-  margin-top: 8px;
-}
-
 /* ---------- Wochenliste ---------- */
 
 .season-weeks th a {
@@ -169,26 +136,4 @@
   font-size: 12px;
   font-weight: 500;
   color: var(--text-3);
-}
-
-.ranking-check {
-  margin: 0;
-}
-
-/* Chance auf Rang (D052): Überschrift der Tabelle links, Abstand zum Umschalter */
-.sim .segmented {
-  margin: 8px 0 12px;
-}
-
-.sim-caption {
-  caption-side: top;
-  text-align: left;
-  padding: 0 0 6px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-2);
-}
-
-.sim-table + .sim-table {
-  margin-top: 12px;
 }

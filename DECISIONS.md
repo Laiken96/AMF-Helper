@@ -408,3 +408,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Entscheide des Nutzers nach der Bug Suche mit vier Agenten. Bilanz und Saisonansicht verrechnen in der App die eigene, auf dem Gerät gespeicherte Wahl (D052) mit Hinweis "inkl. deiner Abweichungen". Der Push "Bilanz bereit" lässt den Teil zu Abweichungen weg. Die Push Erinnerung vor Tippschluss bleibt bei Paarungen und Ausfällen, ohne Tipps, Ausfälle nach Gewicht (Leader Rollen und Start QB zuerst, Ersatz QBs auf der Inaktivliste weglassen). ESPN News über die JSON Schnittstelle statt RSS, Werbeartikel (promo code, bonus code) werden ausgefiltert. In der Tippliste im Duo zugeklappt steht der Stand in einer zweiten Zeile unter den Teams. Zugeklappt zeigt die Leiste auch Aktualisieren und Glocke. Doppeltipp Zoom ist abgeschaltet (touch-action manipulation). Der Viewport Eingriff aus R115 gilt nur noch beim Zurückkehren in der Home Bildschirm App
 - Begründung: Nutzer meldete tote Taps beim schnellen Durchtippen, fehlende Werkzeugkapsel und Bilanzwerte ohne eigene Wahl
 - Verworfen: Tipps in der Push Erinnerung, ESPN News entfernen
+
+## D058 Rangliste ausgeblendet, nur eigene Bilanz
+
+- Datum: 2026-11-08
+- Entscheid: Entscheid des Nutzers. Das Melden der Rangliste per GitHub Issue ist nicht praktisch. Die App zeigt keine Rangliste mehr: keine Gruppentabelle, kein Saisonverlauf der Gruppe, keine Simulation, kein Abgleich Rangliste, keine Spielerwahl (die App gilt nur für den Hauptnutzer, Kürzel aus standings.me), kein Hinweis "Rangliste melden". Die Kachel "Ziel" zeigt die eigene Saison (richtige App Tipps, Trefferquote). Push "Bilanz bereit" ohne Aufforderung zur Ranglisten Meldung. Workflow standings.yml, Issue Formular, Label und die Dateien data/standings.json und standings-history.json bleiben bestehen, werden aber nicht mehr angezeigt (nur ausblenden). Ersetzt D032 im Umfang der Anzeige sowie D050 Spieler wählbar und Simulation
+- Begründung: Wunsch des Nutzers
+- Verworfen: Workflow und Daten löschen
