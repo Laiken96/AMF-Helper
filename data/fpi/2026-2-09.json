@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T14:30:52Z",
+  "updatedAt": "2026-11-08T18:01:02Z",
   "games": [
     {
       "gameId": "401873037",
@@ -33,7 +33,7 @@
       "pHome": 0.68,
       "pAway": 0.317,
       "fetchedAt": "2026-11-07T07:20:29Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873040",
@@ -43,7 +43,7 @@
       "pHome": 0.386,
       "pAway": 0.611,
       "fetchedAt": "2026-11-06T07:40:36Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873041",
@@ -53,7 +53,7 @@
       "pHome": 0.365,
       "pAway": 0.632,
       "fetchedAt": "2026-11-06T07:40:36Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873042",
@@ -63,7 +63,7 @@
       "pHome": 0.223,
       "pAway": 0.776,
       "fetchedAt": "2026-11-06T07:40:36Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873043",
@@ -73,7 +73,7 @@
       "pHome": 0.269,
       "pAway": 0.729,
       "fetchedAt": "2026-11-06T07:40:36Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873044",
@@ -83,7 +83,7 @@
       "pHome": 0.47,
       "pAway": 0.527,
       "fetchedAt": "2026-11-06T07:40:36Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873045",
@@ -93,7 +93,7 @@
       "pHome": 0.802,
       "pAway": 0.197,
       "fetchedAt": "2026-11-06T07:40:36Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873046",
