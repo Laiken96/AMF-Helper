@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:47:28Z",
+  "updatedAt": "2026-11-08T13:47:20Z",
   "items": [
+    {
+      "id": "8566fb0fe58b1e2b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-are-resisting-trade-interest-in-players-like-jadeveon-clowney",
+      "title": "Texans are resisting trade interest in players like Jadeveon Clowney",
+      "summary": "It's the same story every year.",
+      "publishedAt": "2026-11-08T13:34:57Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "98b663100216e29a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vick-norfolk-state-lose-after-his-order-was-ignored",
+      "title": "Mike Vick, Norfolk State lose after his order was ignored",
+      "summary": "Like a growing number of former NFL players, Mike Vick has become a college football coach.",
+      "publishedAt": "2026-11-08T13:19:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "53a9a693431838d3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/draft/news/nfl-draft-franchise-qbs-cj-carr-darian-mensah-and-brock-purdy-predicament",
+      "title": "Have we been thinking about franchise QBs all wrong? CJ Carr, Darian Mensah and the Brock Purdy predicament",
+      "summary": "Saturday's Miami-Notre Dame showdown offered a reminder that playing quarterback is about more than looking the part.",
+      "publishedAt": "2026-11-08T13:08:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "0551f9f68f41f94c",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/buccaneers-vs-bears-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-9-sunday-night-football",
+      "title": "Buccaneers vs. Bears odds: First touchdown scorer picks, predictions for NFL Week 9 Sunday Night Football",
+      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bears and Buccaneers",
+      "publishedAt": "2026-11-08T13:00:56Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "1660a98be386ec8f",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/cardinals-vs-seahawks-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-in-nfl-week-9",
+      "title": "Cardinals vs. Seahawks odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus in NFL Week 9",
+      "summary": "We'll go over the prediction markets available for NFL Week 9 action between the Cardinals and Seahawks",
+      "publishedAt": "2026-11-08T13:00:53Z",
+      "teamIds": [
+        "22",
+        "26"
+      ]
+    },
+    {
+      "id": "9b47e5c13db7783b",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/cowboys-vs-colts-odds-predictions-picks-use-kalshi-promo-code-cbssports55-for-55-bonus-in-nfl-week-9",
+      "title": "Cowboys vs. Colts odds, predictions, picks: Use Kalshi promo code CBSSPORTS55 for $55 bonus in NFL Week 9",
+      "summary": "The Cowboys and Colts look to spark some success Sunday when they meet in NFL Week 9, and here's a look at the trading markets available at Kalshi",
+      "publishedAt": "2026-11-08T13:00:43Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
     {
       "id": "2965b08d42cfec89",
       "source": "cbs",
@@ -1609,73 +1674,6 @@
         "16",
         "19",
         "21"
-      ]
-    },
-    {
-      "id": "4e14b93a91bac3b5",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/tee-higgins-states-2026-bengals-offense",
-      "title": "Tee Higgins is putting up historic numbers, and it's changing the Bengals offense",
-      "summary": "Higgins has always been one of the NFL's best contested-catch receivers, but new dimensions in his game have him producing at a historic pace",
-      "publishedAt": "2026-11-06T11:28:02Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "76d72b035fef4ae4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-best-bets-drake-london-madrid-broncos",
-      "title": "Week 9 best bets: Drake London stars in Madrid, Broncos keep rolling with win over Panthers",
-      "summary": "Plus, a backup RB you should keep an eye on",
-      "publishedAt": "2026-11-06T11:25:19Z",
-      "teamIds": [
-        "29",
-        "7"
-      ]
-    },
-    {
-      "id": "515ba4440fe3504f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henrys-production-has-plummeted-without-lamar-jackson-this-season",
-      "title": "Derrick Henry's production has plummeted without Lamar Jackson this season",
-      "summary": "Without quarterback Lamar Jackson, the Ravens want to be able to rely on running back Derrick Henry.",
-      "publishedAt": "2026-11-06T11:01:19Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "2e0930f3c26c50cf",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-realistic-dream-trade-scenario-playoff-contenders",
-      "title": "2026 NFL trade deadline: One realistic, one pipe dream trade scenario for every playoff contender",
-      "summary": "What does each contender need to put them over the top?",
-      "publishedAt": "2026-11-06T11:00:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "99a91f1db32aa3ab",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-odds-best-bets-expert-picks",
-      "title": "NFL Week 9 expert picks, best bets: Bears beat down Bucs, Saints get on track with a win",
-      "summary": "Jordan Dajani gives his picks for Week 9 of the 2026 NFL season",
-      "publishedAt": "2026-11-06T11:00:51Z",
-      "teamIds": [
-        "3",
-        "18",
-        "27"
-      ]
-    },
-    {
-      "id": "50acc17a1329f593",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-point-differential-of-108-this-season-is-50-points-better-than-any-other-team",
-      "title": "Jaguars' point differential of +108 this season is 50 points better than any other team",
-      "summary": "The Jaguars have won four games by more than 21 points this season; no other team has more than one win by more than 21 points.",
-      "publishedAt": "2026-11-06T08:52:36Z",
-      "teamIds": [
-        "30"
       ]
     }
   ]
