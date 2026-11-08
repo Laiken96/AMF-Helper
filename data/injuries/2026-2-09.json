@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T12:40:34Z",
+    "takenAt": "2026-11-08T13:20:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1243,6 +1243,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "5344782",
+            "name": "Jack Strand",
+            "pos": "QB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "3915511",
@@ -2282,6 +2293,16 @@
       "name": "Kedon Slovis",
       "pos": "QB",
       "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873038",
+      "athleteId": "5344782",
+      "name": "Jack Strand",
+      "pos": "QB",
+      "teamAbbr": "ATL",
       "kind": "neu",
       "from": null,
       "to": "Out"

@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T12:40:36Z",
+    "takenAt": "2026-11-08T13:20:31Z",
     "games": [
       {
         "gameId": "401873052",
@@ -489,6 +489,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "5344782",
+            "name": "Jack Strand",
+            "pos": "QB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "15847",
