@@ -1,7 +1,108 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T22:47:22Z",
+  "updatedAt": "2026-11-08T23:47:19Z",
   "items": [
+    {
+      "id": "fbab0141a40e7f19",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50426855/john-harbaugh-says-giants-did-pull-offer-jonathan-taylor",
+      "title": "John Harbaugh: Giants did pull offer for Jonathan Taylor but 'things do change'",
+      "summary": "The Giants pulled a recent trade offer for Jonathan Taylor, according to coach John Harbaugh, who added that doesn't mean a deal is completely off the table.",
+      "publishedAt": "2026-11-08T23:40:54Z",
+      "teamIds": [
+        "11",
+        "19"
+      ]
+    },
+    {
+      "id": "4b3eb798239d8795",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50426400/nfl-week-9-trolls",
+      "title": "Saints reference Shedeur Sanders quote after win, leading NFL Week 9 trolls",
+      "summary": "The New Orleans Saints kept the receipts and poked fun at Shedeur Sanders to lead NFL Week 9 trolls.",
+      "publishedAt": "2026-11-08T23:36:30Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "67f14eb394ca37dd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-well-talk-about-possible-staff-changes-during-bye-week",
+      "title": "Nick Sirianni: We'll talk about possible staff changes during bye week",
+      "summary": "The Eagles lost their seventh straight game on Sunday and they'll head into their bye week with little hope of salvaging anything over their final eight regular season games.",
+      "publishedAt": "2026-11-08T23:35:08Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "00b8d9063babe811",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50426731/making-sense-jets-backfield-fantasy",
+      "title": "Making sense of the Jets' backfield in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-08T23:34:18Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "55934452fc7ccc2a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50426656/rams-myles-garrett-three-sacks-return",
+      "title": "Myles Garrett has three sacks in return to help Rams stop Commanders",
+      "summary": "Myles Garrett had three sacks in his return to the field for the Rams in Los Angeles' victory over the Commanders.",
+      "publishedAt": "2026-11-08T23:30:43Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "cb4c903d16e6d3b5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-acrobatic-td-catch-gives-texans-31-9-lead",
+      "title": "Nico Collins' acrobatic TD catch gives Texans 31-9 lead",
+      "summary": "Nico Collins made one of the best touchdown catches you will ever see in the third quarter on Sunday.",
+      "publishedAt": "2026-11-08T23:24:33Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "fa3964bc57aba0c4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-up-24-14-after-intercepting-drake-maye-three-times-in-first-half",
+      "title": "Packers up 24-14 after intercepting Drake Maye three times in first half",
+      "summary": "Drake Maye had a first half to forget against the Packers on Sunday.",
+      "publishedAt": "2026-11-08T23:10:51Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "5b2ebff950f6207b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50426234/are-rams-running-backs-worth-starting-fantasy",
+      "title": "Are the Rams' running backs worth starting in fantasy?",
+      "summary": null,
+      "publishedAt": "2026-11-08T23:03:54Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "28f78c311611f5b5",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/buccaneers-vs-bears-odds-nfl-week-9-sunday-night-football-first-touchdown-scorer-picks-predictions",
+      "title": "Buccaneers vs. Bears odds: NFL Week 9 Sunday Night Football first touchdown scorer picks, predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bears and Buccaneers",
+      "publishedAt": "2026-11-08T22:50:38Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
     {
       "id": "cd13d697af5da3a1",
       "source": "espn",
@@ -9,6 +110,17 @@
       "title": "Sources: Puka Nacua set for tests on late-game knee injury; Rams believe ACL OK",
       "summary": "The Rams do not believe Puka Nacua suffered a torn ACL, but the imaging Monday will tell more, sources said.",
       "publishedAt": "2026-11-08T22:44:59Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "634b5732b504a3bf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-suffered-knee-injury-on-final-offensive-play-of-game",
+      "title": "Puka Nacua suffered knee injury on final offensive play of game",
+      "summary": "MRI will reveal extent of damage; Rams reportedly don't believe it's an ACL tear.",
+      "publishedAt": "2026-11-08T22:40:09Z",
       "teamIds": [
         "14"
       ]
@@ -95,7 +207,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873041",
       "title": "Bo Nix throws for 2 TDs, Broncos win key challenge to beat Panthers 26-21 for fifth straight victory",
-      "summary": "Bo Nix threw for 237 yards and two touchdowns and the Denver Broncos benefitted from a momentum-turning coach’s challenge to beat the Carolina Panthers 26-21 on Sunday for their fifth straight win.",
+      "summary": "The Denver Broncos continue to know how to win close games.",
       "publishedAt": "2026-11-08T21:53:41Z",
       "teamIds": [
         "29",
@@ -175,7 +287,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873044",
       "title": "Winston, McCarthy combine to lead Giants to 19-11 win and hand Eagles 7th straight loss",
-      "summary": "Jameis Winston replaced the injured J.J. McCarthy long enough to throw a go-ahead touchdown pass and help the New York Giants keep their grip on the NFC East and beat Philadelphia 19-11 on Sunday to hand the Eagles their seventh straight loss.",
+      "summary": "J.J. McCarthy may as well have been any New York Giants fan nervously watching on TV as the injured quarterback tossed a football to keep warm and paced around the locker room.",
       "publishedAt": "2026-11-08T21:38:35Z",
       "teamIds": [
         "19",
@@ -198,7 +310,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873043",
       "title": "Puka Nacua, Myles Garrett lead Rams to 20-13 win over Commanders",
-      "summary": "Matt Stafford found star receiver Puka Nacua early and often, Myles Garrett had three sacks and a forced fumble in his return and the Los Angeles Rams held on for their third straight victory, 20-13 over the Washington Commanders on Sunday.",
+      "summary": "There's still room for growth from the star-studded Rams, but they're starting to show again why they were a preseason Super Bowl favorite.",
       "publishedAt": "2026-11-08T21:37:35Z",
       "teamIds": [
         "14",
@@ -305,7 +417,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873045",
       "title": "Kenneth Walker scores 3 TDs as the Chiefs roll past the woeful Jets 35-12 to end their 2-game skid",
-      "summary": "Patrick Mahomes threw for 242 yards with a pair of touchdown passes to Kenneth Walker, who added 102 yards and a score on the ground, and the Kansas City...",
+      "summary": "Chiefs quarterback Patrick Mahomes walked off the field dangling his right arm, which had been bent grotesquely on a strip-sack by the Jets' David Bailey, and for the briefest of moments a pall seemed to descend over Arrowhead Stadium on Sunday.",
       "publishedAt": "2026-11-08T21:14:37Z",
       "teamIds": [
         "12",
@@ -1474,6 +1586,18 @@
       ]
     },
     {
+      "id": "a5a65619b06fe961",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/falcons-vs-bengals-prediction-odds-where-to-watch",
+      "title": "Falcons vs. Bengals prediction: Stars on display in Madrid as Cincinnati seeks first international win",
+      "summary": "The NFL returns to Spain for the second straight season with a matchup that features many of the league's top offensive stars",
+      "publishedAt": "2026-11-08T12:42:20Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
       "id": "2965b08d42cfec89",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/browns-vs-saints-odds-picks-prediction-spread-start-time-nfl-week-9-betting-preview-best-bets",
@@ -1542,135 +1666,6 @@
       "teamIds": [
         "9",
         "17"
-      ]
-    },
-    {
-      "id": "f8d8913d4357f9ce",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-week-9-giants-vs-eagles-odds-picks-prediction-spread-line-start-time-betting-preview-best-bets",
-      "title": "Giants vs. Eagles odds, picks, prediction, spread, line: Start time, betting preview, best bets for NFL Week 9",
-      "summary": "Here's everything bettors need to know for Giants vs. Eagles in NFL Week 9",
-      "publishedAt": "2026-11-08T11:45:38Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "211ddf7a57a5e30c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
-      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
-      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
-      "publishedAt": "2026-11-08T11:01:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "58562dbe8648b634",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-9-nfl-expert-picks",
-      "title": "Prisco's Week 9 NFL expert picks: Cowboys rebound with rout of Colts, Packers edge Patriots",
-      "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
-      "publishedAt": "2026-11-08T11:00:48Z",
-      "teamIds": [
-        "2",
-        "6",
-        "9",
-        "11",
-        "16",
-        "17"
-      ]
-    },
-    {
-      "id": "4b0203cf82bd0490",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50401769/new-england-patriots-notebook-week-9-trade-deadline-plans",
-      "title": "Weekly Patriots notes: What New England could do at the trade deadline, intel",
-      "summary": "The Patriots will upgrade if they can before Tuesday's deadline, but it might be quiet. In fact, New England could even trade away someone like Christian Barmore.",
-      "publishedAt": "2026-11-08T11:00:01Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "f218fb8d2e58afcd",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/jets-vs-chiefs-odds-picks-prediction-spread-start-time-nfl-week-9-betting-preview-best-bets",
-      "title": "Jets vs. Chiefs odds, picks, prediction, spread: Start time, NFL Week 9 betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Jets vs. Chiefs in NFL Week 9",
-      "publishedAt": "2026-11-08T10:00:44Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "02fd23eb5d2aa5cb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-have-told-teams-they-were-offered-a-fourth-round-pick-for-josh-downs",
-      "title": "Report: Colts have told teams they were offered a fourth-round pick for Josh Downs",
-      "summary": "A third-round pick appears to be what the Colts are trying to get to trade Downs.",
-      "publishedAt": "2026-11-08T09:32:24Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "0edd3a059361f675",
-      "source": "espn",
-      "url": "https://espn.com/college-football/story/_/id/50417320/venables-lauds-witten-sooners-shine-play-caller-debut",
-      "title": "Brent Venables lauds Jason Witten as Sooners shine in Oklahoma playcaller's debut",
-      "summary": "In his debut as Oklahoma's offensive playcaller, Jason Witten, a former NFL tight end who coached high school in Texas last year, engineered an impressive Sooners attack that throttled No. 24 Florida in a 23-7 victory.",
-      "publishedAt": "2026-11-08T06:27:11Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "8401acf81efa916e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-will-become-third-defensive-player-to-play-250-games-with-same-team",
-      "title": "Cam Jordan will become third defensive player to play 250 games with same team",
-      "summary": "When the Saints host the Browns on Sunday, New Orleans defensive end Cam Jordan will reach a rare milestone.",
-      "publishedAt": "2026-11-08T03:05:36Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "7a475c2ef7a91f55",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bears-vs-buccaneers-odds-prediction-where-to-watch",
-      "title": "Bears vs. Buccaneers: Chicago looks to tame Tampa's running game while staying atop the NFC North",
-      "summary": "Plus, where to watch, what to know and a preview from an NFL expert",
-      "publishedAt": "2026-11-08T03:00:52Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "ee12e187b8a11452",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
-      "title": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
-      "summary": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-      "publishedAt": "2026-11-08T02:18:40Z",
-      "teamIds": [
-        "24",
-        "21"
-      ]
-    },
-    {
-      "id": "d78ddfedd6020b64",
-      "source": "espn",
-      "url": "https://espn.com/college-football/story/_/id/50410839/hall-famer-jack-ham-hospitalized-medical-emergency",
-      "title": "Hall of Famer Jack Ham hospitalized, in stable condition after medical emergency",
-      "summary": "Hall of Fame linebacker and Penn State radio analyst Jack Ham experienced a medical emergency Saturday in Seattle and was in stable condition.",
-      "publishedAt": "2026-11-08T01:55:42Z",
-      "teamIds": [
-        "23"
       ]
     }
   ]
