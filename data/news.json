@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:47:22Z",
+  "updatedAt": "2026-11-08T10:47:17Z",
   "items": [
+    {
+      "id": "f218fb8d2e58afcd",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/jets-vs-chiefs-odds-picks-prediction-spread-start-time-nfl-week-9-betting-preview-best-bets",
+      "title": "Jets vs. Chiefs odds, picks, prediction, spread: Start time, NFL Week 9 betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Jets vs. Chiefs in NFL Week 9",
+      "publishedAt": "2026-11-08T10:00:44Z",
+      "teamIds": [
+        "12",
+        "20"
+      ]
+    },
     {
       "id": "02fd23eb5d2aa5cb",
       "source": "pft",
@@ -1465,10 +1477,13 @@
       "id": "2d3ee10dd6d0383a",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-9-odds-how-to-watch-streaming-expert-picks",
-      "title": "NFL Week 9 odds, predictions, expert picks, best bets, teasers and more",
+      "title": "NFL Week 9 odds, predictions, expert picks, best bets, teasers: Can Packers upset Patriots?",
       "summary": "CBS Sports experts pick every Week 9 game against the spread, with most backing Green Bay to upset New England",
       "publishedAt": "2026-11-06T12:18:38Z",
-      "teamIds": []
+      "teamIds": [
+        "9",
+        "17"
+      ]
     },
     {
       "id": "ceae0c8622fa1b9e",
@@ -1661,21 +1676,6 @@
       "summary": "Joe Milton has never started an NFL game.",
       "publishedAt": "2026-11-06T01:34:33Z",
       "teamIds": []
-    },
-    {
-      "id": "f1e7f588c89ec4dc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-week-9-nfl-expert-picks-jaguars-roll-over-lamar-jackson-less-ravens-cowboys-rebound",
-      "title": "Prisco's Week 9 NFL expert picks: Bengals rout Falcons in Madrid, Cowboys rebound",
-      "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
-      "publishedAt": "2026-11-06T01:27:51Z",
-      "teamIds": [
-        "1",
-        "2",
-        "4",
-        "6",
-        "16"
-      ]
     }
   ]
 }
