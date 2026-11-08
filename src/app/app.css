@@ -284,6 +284,7 @@ a:hover {
 
 [data-layout="side"] .nav-capsule,
 [data-layout="wide"] .nav-capsule,
+[data-layout="side"] .tool-capsule,
 [data-layout="wide"] .tool-capsule {
   flex-direction: column;
   align-items: center;
@@ -308,7 +309,9 @@ a:hover {
 
 [data-layout="side"] .nav-capsule a,
 [data-layout="wide"] .nav-capsule a,
+[data-layout="side"] .tool-capsule a,
 [data-layout="wide"] .tool-capsule a,
+[data-layout="side"] .tool-capsule button,
 [data-layout="wide"] .tool-capsule button {
   width: 44px;
   height: 44px;
@@ -2022,6 +2025,7 @@ a.step-today:hover {
 }
 
 @media (max-height: 519px) {
+  [data-layout="side"] .tool-capsule,
   [data-layout="wide"] .tool-capsule {
     display: none;
   }

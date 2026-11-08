@@ -175,6 +175,7 @@
 }
 [data-edge="flush"][data-layout="side"] .nav-capsule,
 [data-edge="flush"][data-layout="wide"] .nav-capsule,
+[data-edge="flush"][data-layout="side"] .tool-capsule,
 [data-edge="flush"][data-layout="wide"] .tool-capsule {
   border-radius: 28px 0 0 28px;
 }
