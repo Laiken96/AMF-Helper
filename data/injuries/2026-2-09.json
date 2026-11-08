@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T17:01:07Z",
+    "takenAt": "2026-11-08T17:10:30Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1424,6 +1424,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4683423",
+            "name": "Riley Leonard",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4688813",
@@ -2386,6 +2397,16 @@
       "name": "Taylen Green",
       "pos": "QB",
       "teamAbbr": "CLE",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873040",
+      "athleteId": "4683423",
+      "name": "Riley Leonard",
+      "pos": "QB",
+      "teamAbbr": "IND",
       "kind": "neu",
       "from": null,
       "to": "Out"

@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T17:01:08Z",
+    "takenAt": "2026-11-08T17:10:32Z",
     "games": [
       {
         "gameId": "401873052",
@@ -629,6 +629,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4683423",
+            "name": "Riley Leonard",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4688813",
