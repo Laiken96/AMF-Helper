@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T11:20:34Z",
+    "takenAt": "2026-11-08T12:40:36Z",
     "games": [
       {
         "gameId": "401873052",
@@ -796,7 +796,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4430878",

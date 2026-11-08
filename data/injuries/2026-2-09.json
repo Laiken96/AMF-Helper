@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T11:20:33Z",
+    "takenAt": "2026-11-08T12:40:34Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2005,7 +2005,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4430878",
@@ -2355,6 +2355,16 @@
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
+    },
+    {
+      "gameId": "401873048",
+      "athleteId": "3912547",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "teamAbbr": "SEA",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873048",
