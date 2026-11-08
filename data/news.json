@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T20:34:52Z",
+  "updatedAt": "2026-11-08T20:47:26Z",
   "items": [
+    {
+      "id": "4368e2f031d08b4c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-hopes-to-reverse-struggles-against-demeco-ryans-defenses",
+      "title": "Justin Herbert hopes to reverse struggles against DeMeco Ryans defenses",
+      "summary": "Chargers quarterback Justin Herbert is generally struggling this year.",
+      "publishedAt": "2026-11-08T20:39:33Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "b5ea8900602552b3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lead-colts-20-17-headed-to-third-quarter",
+      "title": "Cowboys lead Colts 20-17 headed to fourth quarter",
+      "summary": "The Cowboys have a 20-17 lead on the Colts headed to the fourth quarter.",
+      "publishedAt": "2026-11-08T20:39:00Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "4cafd82b9773c3ec",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacuas-14th-catch-goes-for-td-rams-lead-20-13",
+      "title": "Puka Nacua's 14th catch goes for TD, Rams lead 20-13",
+      "summary": "Puka Nacua continues to get it done.",
+      "publishedAt": "2026-11-08T20:32:50Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "2705ed27c2177372",
       "source": "pft",
@@ -28,8 +62,8 @@
       "id": "b153e54feb54e094",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/giants-j-j-mccarthy-hip-injury-update-vs-eagles",
-      "title": "Giants' J.J. McCarthy exits game vs. Eagles with hip injury as New York's QB woes continue",
-      "summary": "Jameis Winston entered the Week 9 contest in relief of McCarthy",
+      "title": "Giants' J.J. McCarthy returns against Eagles after hip injury sent QB to locker room",
+      "summary": "Jameis Winston briefly entered the Week 9 contest in relief of McCarthy",
       "publishedAt": "2026-11-08T20:18:19Z",
       "teamIds": [
         "19",
@@ -552,12 +586,10 @@
       "id": "943edfc11b4fc7c1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50393510/nfl-week-9-fashionable-arrivals",
-      "title": "NFL Week 9 arrivals: Bills TE Dalton Kincaid shows love to Sabres",
+      "title": "NFL Week 9 arrivals: Efton Chism III welcomes back Mack Hollins with 'Mack and Chiz' tee",
       "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-08T16:55:10Z",
-      "teamIds": [
-        "2"
-      ]
+      "teamIds": []
     },
     {
       "id": "6a8b7e2ffb6726bc",
@@ -1634,37 +1666,6 @@
       "teamIds": [
         "29"
       ]
-    },
-    {
-      "id": "d0573d671396ac17",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/trade-deadline-chargers-to-retain-khalil-mack-top-offensive-players-despite-0-7-record",
-      "title": "Chargers not interested in Khalil Mack trade, will retain top offensive players despite 0-7 record, per report",
-      "summary": "The winless Chargers will stick to the status quo",
-      "publishedAt": "2026-11-07T16:35:19Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "32f9c0b0b7e068a0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-week-9-odds-best-bets-brinsons-top-player-props-anytime-touchdown-scorers-picks-for-sundays-games",
-      "title": "NFL Week 9 odds, best bets: Brinson's top player props, anytime touchdown scorers picks for Sunday's games",
-      "summary": "Back the Colts as dogs against Dallas, trust New England in Foxborough and target a low rushing total for Ashton Jeanty",
-      "publishedAt": "2026-11-07T16:25:18Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "f6557319734ad278",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-candidates-impact-tiers",
-      "title": "2026 NFL trade deadline candidates: Ranking big-name players into tiers",
-      "summary": "From proven stars like Jonathan Taylor and Maxx Crosby to discount playmakers and depth rentals, here is a look at who could switch teams before the window closes",
-      "publishedAt": "2026-11-07T16:24:31Z",
-      "teamIds": []
     }
   ]
 }
