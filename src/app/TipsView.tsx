@@ -3,8 +3,8 @@ import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
 import { standingsAppliesTo } from "../core/standings";
 import { deviationCandidates } from "../core/deviation";
-import { tiebreakerGames } from "../core/tips";
-import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
+import { gapToTarget, tiebreakerGames } from "../core/tips";
+import { TIPS_SCHEMA_VERSION, type GameTip, type StandingsFile, type TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
@@ -147,7 +147,7 @@ type Mode = "offen" | "vergangen" | "folgt";
 /** Tippliste ohne Quoten für eine Woche ohne Tippdatei: gleiche Zeilen, Status offen, Tiebreaker markiert. */
 function placeholderTips(week: WeekFile): TipsFile {
   return {
-    schemaVersion: 1,
+    schemaVersion: TIPS_SCHEMA_VERSION,
     season: week.season,
     seasonType: week.seasonType,
     week: week.week,
@@ -742,7 +742,7 @@ function StandingsBox({ standings, season }: { standings: StandingsFile; season:
   const applies = standingsAppliesTo(standings, season);
   const leader = players[0];
   const rank = mine ? players.filter((p) => p.points > mine.points).length + 1 : null;
-  const gap = applies && mine && leader ? leader.points - mine.points : 0;
+  const gap = applies && mine ? gapToTarget(standings) : 0;
   const ahead = mine ? [...players].reverse().find((p) => p.points > mine.points) : undefined;
   const gapAhead = ahead && mine ? ahead.points - mine.points : 0;
   const pts = (n: number) => `${n} ${n === 1 ? "Punkt" : "Punkte"}`;

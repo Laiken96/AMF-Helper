@@ -200,6 +200,7 @@ a:hover {
   box-shadow: 0 8px 24px var(--shadow);
 }
 
+/* Anordnung der Navigationsziele in nav.css */
 .nav-capsule a,
 .tool-capsule a,
 .tool-capsule button {
@@ -209,10 +210,14 @@ a:hover {
   border: 0;
   background: transparent;
   color: var(--icon);
-  display: grid;
   place-content: center;
   cursor: pointer;
   text-decoration: none;
+}
+
+.tool-capsule a,
+.tool-capsule button {
+  display: grid;
 }
 
 .nav-capsule a:hover,
@@ -225,10 +230,6 @@ a:hover {
 .nav-capsule a.active {
   background: var(--accent);
   color: var(--bg);
-}
-
-[data-layout="medium"] .nav-capsule a {
-  width: 60px;
 }
 
 [data-layout="medium"] .page {
@@ -483,10 +484,6 @@ a:hover {
   white-space: nowrap;
 }
 
-.hero-countdown-end {
-  align-self: flex-end;
-}
-
 .hero-teams {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
@@ -574,20 +571,6 @@ a:hover {
   line-height: 1.1;
 }
 
-.hero-absence {
-  padding: 10px 14px;
-  border-radius: 14px;
-  background: rgba(11, 14, 19, 0.6);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 13px;
-}
-
-.hero-absence svg {
-  flex: none;
-}
-
 .hero-cta {
   display: block;
   min-height: 44px;
@@ -628,11 +611,6 @@ a:hover {
 
 .hero-split .hero-value {
   font-size: 22px;
-}
-
-.hero-split .hero-absence {
-  padding: 8px 12px;
-  font-size: 12px;
 }
 
 .hero-split .hero-cta {
@@ -717,12 +695,6 @@ a:hover {
 
 .hero-big .hero-value {
   font-size: 28px;
-}
-
-.hero-big .hero-absence {
-  padding: 12px 16px;
-  border-radius: 16px;
-  font-size: 14px;
 }
 
 .hero-big .hero-cta {
@@ -1411,14 +1383,6 @@ a:hover {
   font-weight: 700;
 }
 
-.res-ok {
-  color: var(--klar);
-}
-
-.res-bad {
-  color: var(--error);
-}
-
 .res-open {
   color: var(--text-3);
 }
@@ -1610,10 +1574,6 @@ a:hover {
 
 .overlay-card .btn:not(.btn-primary) {
   background: var(--active);
-}
-
-.btn-close {
-  flex: none;
 }
 
 code {
@@ -1850,47 +1810,7 @@ a.step-today:hover {
   font-size: 48px;
 }
 
-.hero-next {
-  margin: 0;
-  font-size: 13px;
-  font-weight: 600;
-  color: #e4e8ee;
-}
-
-.hero-news {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 4px;
-  font-size: 13px;
-}
-
-.hero-news a {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  color: #e4e8ee;
-  text-decoration: underline;
-  text-decoration-color: rgba(228, 232, 238, 0.45);
-  text-underline-offset: 2px;
-}
-
-.hero-news a:hover {
-  color: #fff;
-}
-
-.hero-small .hero-news {
-  font-size: 12px;
-}
-
 /* ---------- Ergebnis vergangener Wochen ---------- */
-
-.box-of {
-  font-size: 18px;
-  color: var(--text-3);
-}
 
 .res-badge {
   flex: none;
@@ -2281,23 +2201,14 @@ html.sheet-open .page {
   box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.6);
 }
 
-.sheet-head {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  min-height: 44px;
-}
-
+/* Kopf und Griff des Blatts in sheet.css */
 .sheet-grip {
   position: absolute;
   left: 50%;
-  top: 2px;
   width: 40px;
   height: 5px;
   margin-left: -20px;
   border-radius: 3px;
-  background: var(--active);
 }
 
 .sheet .hero-nav-home {
@@ -2798,12 +2709,6 @@ a.step-label:active,
   [data-layout="compact"] .nav-capsule {
     gap: 0;
     padding: 4px;
-  }
-
-  [data-layout="compact"] .nav-capsule a {
-    width: 44px;
-    height: 44px;
-    border-radius: 22px;
   }
 
   .tip-team-pick {

@@ -76,8 +76,13 @@ export function useNow(): number {
   return now;
 }
 
-/** Countdown, "3 Tg 21 h". Ausgelagert nach wording.ts, hier für bestehende Importe erneut exportiert. */
-export { formatCountdown };
+/** Ringfarben für Tipp und Gegner auf der Fläche des Spielbereichs. Ohne Tipp Akzent und Grau. */
+export function ringColors(pick: Team | null, other: Team | null): { pickColor: string; otherColor: string } {
+  return {
+    pickColor: pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D",
+    otherColor: other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D",
+  };
+}
 
 const CIRC = 2 * Math.PI * 56;
 
@@ -143,7 +148,7 @@ export type HeroEmpty = "gesperrt" | "ohne_daten";
 export type HeroVariant = "offen" | "folgt" | "final";
 
 const RESULT_WORD = { richtig: "richtig", falsch: "falsch", unentschieden: "unentschieden", offen: "offen", ungewertet: "ungewertet" } as const;
-export type HeroResult = keyof typeof RESULT_WORD;
+type HeroResult = keyof typeof RESULT_WORD;
 
 const WarnIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5B83D" strokeWidth="2" aria-hidden="true">
@@ -218,8 +223,7 @@ export function GameHero({
   const hasPick = tip.pickTeamId !== null && tip.level !== "offen" && tip.level !== "nicht_erfasst";
   const pick = hasPick ? team(tip.pickTeamId!) : null;
   const other = pick ? (pick.id === home.id ? away : home) : null;
-  const pickColor = pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D";
-  const otherColor = other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D";
+  const { pickColor, otherColor } = ringColors(pick, other);
   const style = {
     "--hero-a": shadeForText(teamColor(away.color)),
     "--hero-b": shadeForText(teamColor(home.color)),

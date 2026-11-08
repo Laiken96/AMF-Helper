@@ -1,5 +1,5 @@
-// Saisonauswertung (D050): reine Funktion ohne IO, nutzbar in App und Jobs. Grundlage für einen neuen Entscheid
-// zu D026 und D028. Eingabe sind alle Bilanz und Tippdateien einer Saison, Dateien anderer Saisons werden ignoriert.
+// Saisonauswertung (D050): reine Funktion ohne IO, nutzbar in App und Jobs. Grundlage von D052,
+// das D026 und D028 bei den Abweichungen ersetzt. Eingabe sind alle Bilanz und Tippdateien einer Saison, Dateien anderer Saisons werden ignoriert.
 import type { GameReview, ReviewFile } from "./review-schema";
 import type { GameTip, TipsFile } from "./tips-schema";
 

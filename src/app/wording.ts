@@ -13,6 +13,14 @@ export function formatStand(iso: string): string {
 }
 
 /** Hinweis zur Zeitzone, einmal im Kopf der Tipps und in den Einstellungen. */
+/** Uhrzeit mit Sekunden in Schweizer Zeit, für "Stand" der Live Daten. */
+export const clockFormat = new Intl.DateTimeFormat("de-CH", {
+  timeZone: "Europe/Zurich",
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit",
+});
+
 export const TIME_ZONE_TEXT = "Zeiten in Schweizer Zeit";
 
 /**

@@ -205,7 +205,7 @@ export function useChoices(player: string | null, ref: WeekRef | null | undefine
  * Wendet die eigene Wahl auf die Tippdatei an (D052). Gilt nur, wenn das gewählte Team zum Spiel gehört, der Tipp
  * eine Quote hat und das Team nicht ohnehin der Vorschlag ist. Der Tipp wird dann zum Aussenseiter mit dessen
  * Wahrscheinlichkeit und deviation true. Der Tiebreaker des Spiels folgt dem getippten Team: der Aussenseiter
- * gewinnt mit 3 Punkten bei gleichem Total (D026). Nach Kickoff lässt die Oberfläche keine neue Wahl zu, eine
+ * gewinnt mit 3 Punkten bei gleichem Total (D026, seit D052 nur für die eigene Wahl). Nach Kickoff lässt die Oberfläche keine neue Wahl zu, eine
  * vorher getroffene Wahl bleibt angezeigt, so wie sie eingetragen wurde.
  */
 export function applyChoices(tips: TipsFile, games: readonly Game[], choices: Choices): TipsFile {

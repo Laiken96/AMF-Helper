@@ -28,14 +28,7 @@ import { useChoices, usePlayer, useShownTips } from "./player";
 import { useLiveScores, useLiveSummaries, type LiveGame, type LiveState } from "./live";
 import { LiveCarousel, LiveTicker } from "./LiveTicker";
 import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
-import { formatCountdown, formatStand } from "./wording";
-
-export const clockFormat = new Intl.DateTimeFormat("de-CH", {
-  timeZone: "Europe/Zurich",
-  hour: "2-digit",
-  minute: "2-digit",
-  second: "2-digit",
-});
+import { clockFormat, formatCountdown, formatStand } from "./wording";
 
 /** Reiter Spiele: Spielplan der gewählten Woche mit Liveticker für laufende Spiele. arg ist Woche und optional Spiel. */
 export function GamesView({ arg }: { arg: string | null }) {

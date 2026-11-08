@@ -5,9 +5,8 @@
 import type { ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, TipsFile } from "../core/tips-schema";
-import { teamColor, visibleOn } from "./colors";
 import { FlagIcon, useGameFactsModel, type GameFactsModel } from "./GameFacts";
-import { Ring } from "./GameHero";
+import { Ring, ringColors } from "./GameHero";
 import {
   gameState,
   kickoffCountdown,
@@ -156,8 +155,7 @@ function PreHead({
   const pickId = pickOf(tip);
   const pick = pickId === home.id ? home : pickId === away.id ? away : null;
   const other = pick ? (pick.id === home.id ? away : home) : null;
-  const pickColor = pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D";
-  const otherColor = other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D";
+  const { pickColor, otherColor } = ringColors(pick, other);
   const off = st.status === "postponed" || st.status === "canceled";
   const pill = off ? st.statusText : kickoffCountdown(game.kickoffUtc, now);
   const ringSize = layout === "side" ? 84 : layout === "wide" ? 120 : 100;

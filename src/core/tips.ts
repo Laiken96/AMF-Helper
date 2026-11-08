@@ -137,7 +137,7 @@ export function favoriteTip(game: Game, odds: Odds | null): Pick<GameTip, "pHome
 
 /**
  * Resultatvorschlag aus Over/Under und Spread. Favorit = (OU + |spread|)/2, Aussenseiter = (OU minus |spread|)/2.
- * Ohne Over/Under 23 zu 20. Der Sieger folgt dem Tipp (D026): ist der Tipp eine Abweichung,
+ * Ohne Over/Under 23 zu 20. Der Sieger folgt dem Tipp (D026, D052): ist der Tipp eine eigene Abweichung,
  * gewinnt der getippte Aussenseiter mit 3 Punkten Vorsprung bei gleichem Total.
  */
 export function tiebreakerFor(

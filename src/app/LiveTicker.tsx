@@ -16,14 +16,7 @@ import {
   type StatRow,
 } from "./live-summary";
 import { TeamLogo, usePrefersLight } from "./ui";
-import { statusWord } from "./wording";
-
-const clockFormat = new Intl.DateTimeFormat("de-CH", {
-  timeZone: "Europe/Zurich",
-  hour: "2-digit",
-  minute: "2-digit",
-  second: "2-digit",
-});
+import { clockFormat, statusWord } from "./wording";
 
 // ---------- Klappbare Blöcke, Wahl im localStorage ----------
 

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } fro
 import type { Team } from "../core/schema";
 import { darkLogoUrl } from "./colors";
 import { friendlyLoadError } from "./wording";
-import { compareRef, retryLoad, sameRef, weekKey, type WeekPhase, type WeekRef } from "./data";
+import { compareRef, retryLoad, sameRef, weekKey, type WeekRef } from "./data";
 
 const LIGHT_QUERY = "(prefers-color-scheme: light)";
 
@@ -186,12 +186,6 @@ export function weekLabel(ref: WeekRef): string {
   if (ref.seasonType === 3) return `Playoffs ${ref.week}`;
   return `Week ${ref.week}`;
 }
-
-export const PHASE_TEXT: Record<WeekPhase, string> = {
-  vergangen: "Vergangene Woche",
-  aktuell: "Aktuelle Woche",
-  kommend: "Kommende Woche",
-};
 
 const Chevron = ({ dir }: { dir: "left" | "right" }) => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
