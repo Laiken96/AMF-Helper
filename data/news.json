@@ -1,7 +1,142 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:47:20Z",
+  "updatedAt": "2026-11-08T14:47:16Z",
   "items": [
+    {
+      "id": "ec8e28b4216753d2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-has-several-million-reasons-to-want-to-be-traded-to-a-contender",
+      "title": "Daniel Jones has several million reasons to want to be traded to a contender",
+      "summary": "A trade would be a financial win-win for Colts and Jones.",
+      "publishedAt": "2026-11-08T14:45:01Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "6be105e49f177e7b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-buccaneers-bears-packers-patriots-nfl-week-9-betting",
+      "title": "Use FanDuel promo code to get $200 bonus bets for Buccaneers-Bears, Packers-Patriots, NFL Week 9 betting",
+      "summary": "Sign up to wager on NFL Week 9 on Sunday with the latest FanDuel promo code to get your bonus bets",
+      "publishedAt": "2026-11-08T14:37:03Z",
+      "teamIds": [
+        "3",
+        "9",
+        "17",
+        "27"
+      ]
+    },
+    {
+      "id": "c5d28054fbc40af7",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/buccaneers-vs-bears-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-in-nfl-week-9",
+      "title": "Buccaneers vs. Bears odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus in NFL Week 9",
+      "summary": "We'll go over the prediction markets available for NFL Week 9's edition of Sunday Night Football featuring Chicago and Tampa Bay",
+      "publishedAt": "2026-11-08T14:30:47Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "ec0fbec87e6b022e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-panthers-broncos-packers-patriots-nfl",
+      "title": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Panthers-Broncos, Packers-Patriots, NFL",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NFL betting",
+      "publishedAt": "2026-11-08T14:28:46Z",
+      "teamIds": [
+        "29",
+        "7",
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "ea58408cac989404",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-rams-commanders-packers-patriots-nfl-betting",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Rams-Commanders, Packers-Patriots, NFL betting",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NFL betting",
+      "publishedAt": "2026-11-08T14:26:11Z",
+      "teamIds": [
+        "9",
+        "14",
+        "17",
+        "28"
+      ]
+    },
+    {
+      "id": "04551f4f17e9d5eb",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/buccaneers-vs-bears-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-9",
+      "title": "Buccaneers vs. Bears odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 9",
+      "summary": "Use the latest Polymarket promo code to make predictions for Sunday Night Football in NFL Week 9",
+      "publishedAt": "2026-11-08T14:25:23Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "100f9f5c750389cb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-unc-are-one-win-away-from-bowl-eligibility",
+      "title": "Bill Belichick, UNC are one win away from bowl eligibility",
+      "summary": "Former Patriots coach Bill Belichick was back in New England on Saturday, for a game between North Carolina and Connecticut.",
+      "publishedAt": "2026-11-08T14:23:54Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "ab7794b5b3d3995c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-betmgm-draftkings",
+      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, BetMGM, DraftKings",
+      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-08T14:10:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "475df6b0de32467f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-pearce-jr-is-active-for-the-falcons",
+      "title": "James Pearce Jr. is active for the Falcons",
+      "summary": "The eight-game suspension of Falcons defensive end James Pearce Jr. has ended.",
+      "publishedAt": "2026-11-08T14:08:20Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "9c72770c7a0964eb",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-odds-spreads-lines-totals",
+      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Cowboys-Colts, Jets-Chiefs, Giants-Eagles",
+      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Bears-Buccaneers",
+      "publishedAt": "2026-11-08T14:00:49Z",
+      "teamIds": [
+        "3",
+        "6",
+        "11",
+        "12",
+        "19",
+        "20",
+        "21",
+        "27"
+      ]
+    },
+    {
+      "id": "653828b8c50cbbc1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jacksons-message-to-teammates-stay-alive-and-ill-be-back",
+      "title": "Lamar Jackson's message to teammates: Stay alive, and I'll be back",
+      "summary": "Jackson is out 6-9 weeks with thumb injury.",
+      "publishedAt": "2026-11-08T13:53:12Z",
+      "teamIds": []
+    },
     {
       "id": "8566fb0fe58b1e2b",
       "source": "pft",
@@ -14,6 +149,42 @@
       ]
     },
     {
+      "id": "4b6857cf58517478",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/lions-vs-dolphins-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-9",
+      "title": "Lions vs. Dolphins odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 9",
+      "summary": "Use the latest Polymarket promo code to make predictions for Lions vs. Dolphins in NFL Week 9 action",
+      "publishedAt": "2026-11-08T13:30:51Z",
+      "teamIds": [
+        "8",
+        "15"
+      ]
+    },
+    {
+      "id": "f7e49d412359e3f3",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/broncos-vs-panthers-odds-picks-prediction-spread-betting-preview-best-bets-for-nfl-week-9",
+      "title": "Broncos vs. Panthers odds, picks, prediction, spread: Betting preview, best bets for NFL Week 9",
+      "summary": "Here's everything bettors need to know for Broncos vs. Panthers in NFL Week 9",
+      "publishedAt": "2026-11-08T13:30:44Z",
+      "teamIds": [
+        "29",
+        "7"
+      ]
+    },
+    {
+      "id": "57f106a9defa0659",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/rams-vs-commanders-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-in-nfl-week-9",
+      "title": "Rams vs. Commanders odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus in NFL Week 9",
+      "summary": "Here's a closer look at the top trading markets available at Kalshi for Sunday's Week 9 matchup between Los Angeles and Washington",
+      "publishedAt": "2026-11-08T13:20:32Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
       "id": "98b663100216e29a",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vick-norfolk-state-lose-after-his-order-was-ignored",
@@ -21,6 +192,30 @@
       "summary": "Like a growing number of former NFL players, Mike Vick has become a college football coach.",
       "publishedAt": "2026-11-08T13:19:31Z",
       "teamIds": []
+    },
+    {
+      "id": "f45cee0350c4a282",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/chargers-vs-texans-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-9",
+      "title": "Chargers vs. Texans odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 9",
+      "summary": "Use the latest Polymarket promo code to make predictions for Chargers vs. Texans in NFL Week 9 action",
+      "publishedAt": "2026-11-08T13:15:37Z",
+      "teamIds": [
+        "34",
+        "24"
+      ]
+    },
+    {
+      "id": "a4ddc5ebb23561dc",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/raiders-vs-49ers-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-in-nfl-week-9",
+      "title": "Raiders vs. 49ers odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus in NFL Week 9",
+      "summary": "Here's a closer look at the top trading markets available at Kalshi for Sunday's Week 9 matchup between Las Vegas and San Francisco",
+      "publishedAt": "2026-11-08T13:10:34Z",
+      "teamIds": [
+        "13",
+        "25"
+      ]
     },
     {
       "id": "53a9a693431838d3",
@@ -1495,185 +1690,6 @@
       "publishedAt": "2026-11-06T15:04:50Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "88bb8d2d14b3f753",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-underrated-games-madrid-falcons-bengals",
-      "title": "NFL Week 9 underrated games: An international game, two AFC vs. NFC showdowns to add to your watch list",
-      "summary": "A look at three games you should keep an eye on this week",
-      "publishedAt": "2026-11-06T15:00:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "82f587ab45a75909",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-76ers-cavaliers-nba-new-mexico-nevada",
-      "title": "Use DraftKings promo code to get $200 bonus + NBA League Pass for 76ers-Cavaliers, NBA, New Mexico-Nevada",
-      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NBA, college football, NFL betting on Friday",
-      "publishedAt": "2026-11-06T14:58:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "2fd24908c9146f9f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-brandon-aiyuk-return-is-complicated-by-the-money-he-owes-the-49ers",
-      "title": "The Brandon Aiyuk return is complicated by the money he owes the 49ers",
-      "summary": "On the surface, receiver Brandon Aiyuk's effort to become a free agent should be easy.",
-      "publishedAt": "2026-11-06T14:57:09Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "6fcd4e0539a3c9ab",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/texans-vs-chargers-betting-trends-picks-matchup-of-struggling-teams-to-make-nfl-history-for-wrong-reasons",
-      "title": "Texans vs. Chargers betting trends, picks: Matchup of struggling teams to make NFL history for wrong reasons",
-      "summary": "Unwanted NFL history, at least for the two teams involved, will be made Sunday when the Texans visit the Chargers",
-      "publishedAt": "2026-11-06T14:47:36Z",
-      "teamIds": [
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "ed29e94b6f987036",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-ravens-nfl-miami-notre-dame-college-football-picks-liv-golf",
-      "title": "Jaguars rout undermanned Ravens; Miami vs. Notre Dame college football picks; LIV Golf shuts down",
-      "summary": "Plus, which teams are on upset alert for Week 9 in the NFL",
-      "publishedAt": "2026-11-06T13:48:26Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "e6e81ab8fcf2d1f1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-james-pearce-divine-diablo-as-questionable-for-sunday",
-      "title": "Falcons list James Pearce, Divine Diablo as questionable for Sunday",
-      "summary": "Falcons defensive coordinator Jeff Ulbrich said this week that the Falcons plan to use linebacker James Pearce in a pass rushing role against the Bengals in Madrid this Sunday, but the team didn't guarantee he'll be playing on their final injury report of the week.",
-      "publishedAt": "2026-11-06T13:41:00Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "9a85ea5bff18a878",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-favorites-underdogs-parlays-for-week-9-feature-packers-patriots-bills-vikings",
-      "title": "NFL odds, picks, predictions: Favorites, underdogs parlays for Week 9 feature Packers-Patriots, Bills-Vikings",
-      "summary": "SportsLine football expert Mike Tierney gives out his favorite parlays for Week 9 of the NFL season",
-      "publishedAt": "2026-11-06T13:00:54Z",
-      "teamIds": [
-        "2",
-        "9",
-        "16",
-        "17"
-      ]
-    },
-    {
-      "id": "31309afd7411e13e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/cfl-finals-odds-picks-proven-expert-provides-best-bets-for-winnipeg-vs-montreal-bc-vs-edmonton",
-      "title": "CFL finals odds, picks: Proven expert provides best bets for Winnipeg vs. Montreal, BC vs. Edmonton",
-      "summary": "SportsLine football expert Emory Hunt gives out his best bets for the CFL division finals ahead of the Grey Cup",
-      "publishedAt": "2026-11-06T12:45:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "a74f588fedd7a700",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-malik-nabers-ballin-with-backup-quarterbacks-jj-mccarthy",
-      "title": "Ballin' with backups: Malik Nabers is most QB proof WR since Larry Fitzgerald, DeAndre Hopkins",
-      "summary": "Malik Nabers has four straight 100-yard receiving games with backup QBs entering Sunday's game vs. Philadelphia",
-      "publishedAt": "2026-11-06T12:44:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "7a35b00b73e22ef8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-lb-foye-oluokun-we-cant-let-wins-mask-stuff",
-      "title": "Jaguars LB Foye Oluokun: We can't let wins mask stuff",
-      "summary": "The Jaguars have taken two more steps toward the playoffs over the last two weeks and they've done it in impressive fashion.",
-      "publishedAt": "2026-11-06T12:30:22Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "246a799cb609f6a5",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/100-days-until-super-bowl-lxi-100-things-to-know",
-      "title": "100 days until Super Bowl LXI: 100 things to know about the playoff race, contenders, predictions",
-      "summary": "We are officially 100 days from the Super Bowl. Here are 100 facts and storylines to get you ready",
-      "publishedAt": "2026-11-06T12:25:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "106633f7e601b173",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-is-having-by-far-the-best-season-of-his-career",
-      "title": "Trevor Lawrence is having by far the best season of his career",
-      "summary": "Trevor Lawrence has so much talent for the quarterback position that if freshmen could declare for the NFL draft, Lawrence probably would have been the first overall pick in 2019, when he had just led Clemson to a national championship as a true freshman.",
-      "publishedAt": "2026-11-06T12:23:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "9c2b30f05aad519a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-picks-experts-face-off-jaguars-ravens-bengals-falcons",
-      "title": "NFL Week 9 picks: Our experts face off on Bengals vs. Falcons, Packers at Patriots and more",
-      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
-      "publishedAt": "2026-11-06T12:21:38Z",
-      "teamIds": [
-        "1",
-        "4",
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "2d3ee10dd6d0383a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-odds-how-to-watch-streaming-expert-picks",
-      "title": "NFL Week 9 odds, predictions, expert picks, best bets, teasers: Can Packers upset Patriots?",
-      "summary": "CBS Sports experts pick every Week 9 game against the spread, with most backing Green Bay to upset New England",
-      "publishedAt": "2026-11-06T12:18:38Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "ceae0c8622fa1b9e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-i-havent-mentioned-going-somewhere-else-lets-try-to-get-better",
-      "title": "Derrick Henry: I haven't mentioned going somewhere else, let's try to get better",
-      "summary": "The Ravens got blown out for the third straight game on Thursday night and they lost their fourth straight overall, which led running back Derrick Henry to call it the \"same story\" after the Jaguars rolled to a 33-10 win in Baltimore.",
-      "publishedAt": "2026-11-06T12:06:28Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "9081415b7bbe6e1b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-bold-predictions-joe-milton-eagles-vikings-josh-allen",
-      "title": "NFL Week 9 bold predictions: Joe Milton-led Eagles upset first-place Giants, Vikings torture Josh Allen",
-      "summary": "Plus, the Dolphins stifle Jared Goff and the roaring Lions offense",
-      "publishedAt": "2026-11-06T11:49:40Z",
-      "teamIds": [
-        "8",
-        "15",
-        "16",
-        "19",
-        "21"
       ]
     }
   ]
