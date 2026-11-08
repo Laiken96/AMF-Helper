@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T16:50:30Z",
+    "takenAt": "2026-11-08T17:01:08Z",
     "games": [
       {
         "gameId": "401873052",
@@ -822,6 +822,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4685522",
+            "name": "Ty Simpson",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },

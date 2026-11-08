@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T16:50:29Z",
+    "takenAt": "2026-11-08T17:01:07Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1647,6 +1647,17 @@
             "status": null
           },
           {
+            "athleteId": "4685522",
+            "name": "Ty Simpson",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4426348",
             "name": "Jayden Daniels",
             "pos": "QB",
@@ -1763,18 +1774,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
-          },
-          {
-            "athleteId": "4685201",
-            "name": "Tanner McKee",
-            "pos": "QB",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
+            "status": "Out"
           }
         ]
       },
@@ -2422,6 +2422,16 @@
     },
     {
       "gameId": "401873043",
+      "athleteId": "4685522",
+      "name": "Ty Simpson",
+      "pos": "QB",
+      "teamAbbr": "LAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873043",
       "athleteId": "4432722",
       "name": "Athan Kaliakmanis",
       "pos": "QB",
@@ -2456,19 +2466,9 @@
       "name": "DeVonta Smith",
       "pos": "WR",
       "teamAbbr": "PHI",
-      "kind": "weg",
+      "kind": "wechsel",
       "from": "Questionable",
-      "to": null
-    },
-    {
-      "gameId": "401873044",
-      "athleteId": "4685201",
-      "name": "Tanner McKee",
-      "pos": "QB",
-      "teamAbbr": "PHI",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873045",
