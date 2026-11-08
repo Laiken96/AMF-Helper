@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "fetchedAt": "2026-11-08T14:47:14Z",
+  "fetchedAt": "2026-11-08T15:21:26Z",
   "source": "espn",
   "games": [
     {
@@ -37,9 +37,9 @@
       "homeId": "1",
       "awayId": "4",
       "status": "in_progress",
-      "statusDetail": "10:27 - 1st",
-      "homeScore": 7,
-      "awayScore": 0,
+      "statusDetail": "12:56 - 2nd",
+      "homeScore": 10,
+      "awayScore": 14,
       "venue": "Santiago Bernabéu",
       "neutralSite": true,
       "venueInfo": {

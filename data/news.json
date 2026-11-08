@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:47:16Z",
+  "updatedAt": "2026-11-08T15:21:29Z",
   "items": [
+    {
+      "id": "ab9daedb89ae7567",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/offensive-fireworks-in-madrid-joe-burrow-hits-jamarr-chase-for-47-yard-touchdown",
+      "title": "Offensive fireworks in Madrid: Joe Burrow hits Ja'Marr Chase for 47-yard touchdown",
+      "summary": "The Falcons' and Bengals' offensive stars are off to a hot start in Madrid.",
+      "publishedAt": "2026-11-08T14:53:55Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "57f7c4cd8e49af16",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-game-predictions-spreads-best-bets-for-week-9-2026",
+      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-08T14:46:53Z",
+      "teamIds": [
+        "12",
+        "28"
+      ]
+    },
+    {
+      "id": "1db218f9e9c2b976",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-take-early-lead-over-bengals-in-madrid",
+      "title": "Falcons take early lead over Bengals in Madrid",
+      "summary": "The Falcons drove into the red zone on the strength of Bijan Robinson's legs, then Michael Penix threw a TD pass.",
+      "publishedAt": "2026-11-08T14:45:42Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
     {
       "id": "ec8e28b4216753d2",
       "source": "pft",
@@ -11,6 +47,18 @@
       "publishedAt": "2026-11-08T14:45:01Z",
       "teamIds": [
         "11"
+      ]
+    },
+    {
+      "id": "2d3ee10dd6d0383a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-odds-how-to-watch-streaming-expert-picks",
+      "title": "NFL Week 9 odds, predictions, expert picks, best bets, teasers: Can Packers upset Patriots?",
+      "summary": "CBS Sports experts pick every Week 9 game against the spread, with most backing Green Bay to upset New England",
+      "publishedAt": "2026-11-08T14:43:18Z",
+      "teamIds": [
+        "9",
+        "17"
       ]
     },
     {
@@ -1650,46 +1698,6 @@
       "publishedAt": "2026-11-06T15:52:22Z",
       "teamIds": [
         "11"
-      ]
-    },
-    {
-      "id": "3531ca2754acfa64",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-has-not-yet-reinstated-brandon-aiyuk-from-reserve-left-squad",
-      "title": "NFL has not yet reinstated Brandon Aiyuk from reserve/left squad list",
-      "summary": "It's supposed to be a simple, administrative matter.",
-      "publishedAt": "2026-11-06T15:38:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "95b017a547722745",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-4-trade-options-steelers-super-bowl-contender",
-      "title": "NFL Trade Deadline: 4 mock trades that would make Steelers a true Super Bowl contender",
-      "summary": "Pittsburgh needs to make the most of its 6-2 start while giving Aaron Rodgers a real chance to win big in his final season",
-      "publishedAt": "2026-11-06T15:30:47Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "4530929d5ddd2ecf",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-76ers-cavaliers-nba-new-mexico-nevada-friday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for 76ers-Cavaliers, NBA, New Mexico-Nevada Friday",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, and NFL betting on Friday",
-      "publishedAt": "2026-11-06T15:12:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "6c7ab66afd68ca83",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-i-told-ravens-players-there-are-no-excuses",
-      "title": "Jesse Minter: I told Ravens' players there are no excuses",
-      "summary": "No team in the NFL has been as bad as the Ravens recently: Baltimore is on a four-game losing streak, and has lost three consecutive games by more than 21 points apiece.",
-      "publishedAt": "2026-11-06T15:04:50Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
