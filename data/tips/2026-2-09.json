@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T17:47:17Z",
+  "updatedAt": "2026-11-08T18:47:15Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -78,8 +78,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873040",
@@ -103,8 +103,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873041",
@@ -128,8 +128,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873042",
@@ -153,8 +153,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873043",
@@ -178,8 +178,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873044",
@@ -203,8 +203,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873045",
@@ -228,8 +228,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T18:47:15Z"
     },
     {
       "gameId": "401873046",
@@ -261,14 +261,14 @@
       "kickoffUtc": "2026-11-08T21:25:00Z",
       "odds": {
         "provider": "DraftKings",
-        "spreadHome": -9.5,
+        "spreadHome": -8.5,
         "overUnder": 51.5,
-        "fetchedAt": "2026-11-08T15:47:18Z"
+        "fetchedAt": "2026-11-08T18:47:15Z"
       },
-      "pHome": 0.7592,
+      "pHome": 0.7355,
       "pickTeamId": "25",
-      "pickProb": 0.7592,
-      "level": "klar",
+      "pickProb": 0.7355,
+      "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "25",
       "firstOdds": {

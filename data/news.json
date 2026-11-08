@@ -1,7 +1,79 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:47:19Z",
+  "updatedAt": "2026-11-08T18:47:16Z",
   "items": [
+    {
+      "id": "a06625163863cf36",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-tosses-7-yard-td-commanders-lead-rams-10-3",
+      "title": "Jayden Daniels tosses 7-yard TD, Commanders lead Rams 10-3",
+      "summary": "The Commanders have gotten the first touchdown in Sunday's matchup with the Rams.",
+      "publishedAt": "2026-11-08T18:43:04Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "07c1c3a1050bf377",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-up-8-6-after-saquon-barkley-td",
+      "title": "Eagles up 8-6 after Saquon Barkley TD",
+      "summary": "The Eagles have won 13 straight home games against the Giants and they have a lead late in the first quarter this Sunday.",
+      "publishedAt": "2026-11-08T18:41:53Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "a5fdfb320851c587",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-lead-panthers-10-0-early",
+      "title": "Broncos lead Panthers 10-0 early",
+      "summary": "The Broncos entered Sunday without an opening-drive touchdown since last December against the Raiders.",
+      "publishedAt": "2026-11-08T18:41:51Z",
+      "teamIds": [
+        "29",
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "f64b105422fb538c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seth-mcgowan-scores-first-career-td-giving-colts-7-3-lead",
+      "title": "Seth McGowan scores first career TD, giving Colts 7-3 lead",
+      "summary": "Colts rookie running back Seth McGowan had only 37 carries for 163 yards before Sunday.",
+      "publishedAt": "2026-11-08T18:33:23Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "4cd3be9126667826",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-up-6-0-after-justin-fields-fumbles-on-a-sneak",
+      "title": "Jets up 6-0 after Justin Fields fumbles on a sneak",
+      "summary": "The Chiefs don't run quarterback sneaks with Patrick Mahomes and they may not do it again with Justin Fields.",
+      "publishedAt": "2026-11-08T18:31:28Z",
+      "teamIds": [
+        "12",
+        "20"
+      ]
+    },
+    {
+      "id": "0aae9012deb14e90",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-rumors-raiders-nfl-trade-deadline-2026",
+      "title": "Kirk Cousins trade rumors: Raiders have received no calls, reportedly want to keep QB",
+      "summary": "Despite speculation connecting Cousins to a reunion with the Vikings, the Raiders reportedly are not interested in moving their starting quarterback",
+      "publishedAt": "2026-11-08T18:20:18Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
     {
       "id": "6cad579e6080bd8e",
       "source": "pft",
@@ -1647,67 +1719,6 @@
       "publishedAt": "2026-11-06T20:33:24Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "0d622bd0f6be220c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/draft/news/is-drew-mestemaker-really-qb1-troubling-trend-lessons-from-caleb-williams-trevor-lawrence",
-      "title": "Is Drew Mestemaker really QB1? A troubling trend and lessons from Caleb Williams, Trevor Lawrence",
-      "summary": "The Oklahoma State QB has become a popular QB1 choice, but his mistakes under pressure offer a warning – and some fascinating historical comparisons.",
-      "publishedAt": "2026-11-06T20:16:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "1c187d5239637ec7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-bucs-antonio-brown-takes-plea-deal-in-miami-shooting",
-      "title": "Antonio Brown avoids jail time, receives punishment after plea deal in Miami shooting",
-      "summary": "The former NFL star was accused of opening fire at a man last year",
-      "publishedAt": "2026-11-06T20:03:20Z",
-      "teamIds": []
-    },
-    {
-      "id": "b9eac3501182a46f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-jeffery-simmons-has-had-a-dramatic-impact-on-the-bears",
-      "title": "Ben Johnson: Jeffery Simmons has had a dramatic impact on the Bears",
-      "summary": "Jeffery Simmons has only been a Bear for a week, but he's made a huge impact.",
-      "publishedAt": "2026-11-06T19:58:30Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "32ca003d489f266d",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-cavaliers-76ers-nba-new-mexico-nevada-friday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Cavaliers-76ers, NBA, New Mexico-Nevada Friday",
-      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college football, and NFL betting on Friday",
-      "publishedAt": "2026-11-06T19:47:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "3dc00b78c6d5d27a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-listed-as-questionable-to-make-saints-debut-this-week",
-      "title": "Jordyn Tyson listed as questionable to make Saints debut this week",
-      "summary": "Saints first-round pick Jordyn Tyson could make his regular season debut against the Browns on Sunday, but the team will wait to make a final determination on his status.",
-      "publishedAt": "2026-11-06T19:46:26Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "3d422cc76455c8a1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-jack-campbell-continues-to-improve-we-owe-it-to-him-to-prepare-to-win-sunday",
-      "title": "Dan Campbell: Jack Campbell continues to improve, we owe it to him to prepare to win Sunday",
-      "summary": "The Lions are preparing for this week's game with heavy hearts, as linebacker Jack Campbell remains hospitalized after a spinal injury on Sunday.",
-      "publishedAt": "2026-11-06T19:46:13Z",
-      "teamIds": [
-        "8"
       ]
     }
   ]
