@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-05T19:20:59Z",
+  "updatedAt": "2026-11-08T08:31:09Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -30,6 +30,33 @@
         {
           "title": "Jaguars vs Ravens Prediction, Top Picks & Odds: Thursday Night Football Week 9",
           "url": "https://www.covers.com/nfl/jaguars-vs-ravens-prediction-picks-nov-5-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873038",
+      "createdAt": "2026-11-08T08:31:09Z",
+      "winnerTeamId": "4",
+      "pWinner": 0.6,
+      "marketPickTeamId": "4",
+      "marketProb": 0.5879,
+      "reasoning": "Die Bengals sind mit fünf Siegen aus sieben Spielen und einer starken Offensive die bessere Mannschaft, und Atlanta muss ohne Running Back Brian Robinson Jr. (Hamstring) sowie ohne Zachariah Branch auskommen, während Divine Deablo fraglich ist. Cornerback DJ Turner II soll bei Cincinnati spielen können, ob Kyle Dugger fehlt, ist in den Meldungen uneinheitlich. Ich liege mit 60 Prozent leicht unter der Markterwartung von 58.8 Prozent, aber über dem Wert, der sich aus dem Spread von 3 ergibt, da die Falcons mit Pearce Jr.'s Rückkehr und einer soliden Verteidigung eine Überraschung möglich...",
+      "sources": [
+        {
+          "title": "Falcons adjust Week 9 injury report for Bengals game in Madrid with Brian Robinson Jr. downgrade - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/falcons-adjust-week-9-injury-151253352.html"
+        },
+        {
+          "title": "Falcons Suddenly Rule Out Running Back Ahead of Bengals Matchup in Spain - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/falcons-suddenly-rule-running-back-173611640.html"
+        },
+        {
+          "title": "Bengals Get Major DJ Turner Injury Update Ahead of Falcons Game",
+          "url": "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-dj-turner-injury-update-falcons/"
+        },
+        {
+          "title": "Falcons vs. Bengals in Madrid: Preview, Odds and Prediction - BVM Sports",
+          "url": "https://bvmsports.com/2026/11/07/falcons-vs-bengals-in-madrid-preview-odds-and-prediction/"
         }
       ]
     }
