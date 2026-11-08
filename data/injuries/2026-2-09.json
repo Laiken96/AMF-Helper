@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T21:20:34Z",
+    "takenAt": "2026-11-08T21:30:52Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1917,9 +1917,9 @@
             "status": null
           },
           {
-            "athleteId": "4429025",
-            "name": "Quentin Johnston",
-            "pos": "WR",
+            "athleteId": "4430968",
+            "name": "Kimani Vidal",
+            "pos": "RB",
             "teamId": "24",
             "teamAbbr": "LAC",
             "roles": [
@@ -1934,18 +1934,6 @@
         "kickoffUtc": "2026-11-08T21:25:00Z",
         "players": [
           {
-            "athleteId": "14880",
-            "name": "Kirk Cousins",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4260394",
             "name": "Aidan O'Connell",
             "pos": "QB",
@@ -1957,31 +1945,9 @@
             "status": "Out"
           },
           {
-            "athleteId": "4432665",
-            "name": "Brock Bowers",
-            "pos": "TE",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4890973",
-            "name": "Ashton Jeanty",
-            "pos": "RB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "3040151",
-            "name": "George Kittle",
-            "pos": "TE",
+            "athleteId": "3043116",
+            "name": "Demarcus Robinson",
+            "pos": "WR",
             "teamId": "25",
             "teamAbbr": "SF",
             "roles": [
@@ -2042,17 +2008,6 @@
             "status": null
           },
           {
-            "athleteId": "4361307",
-            "name": "Trey McBride",
-            "pos": "TE",
-            "teamId": "22",
-            "teamAbbr": "ARI",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4373626",
             "name": "Tyler Allgeier",
             "pos": "RB",
@@ -2064,8 +2019,19 @@
             "status": null
           },
           {
-            "athleteId": "3912547",
-            "name": "Sam Darnold",
+            "athleteId": "4869132",
+            "name": "Reggie Virgil",
+            "pos": "WR",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3924327",
+            "name": "Drew Lock",
             "pos": "QB",
             "teamId": "26",
             "teamAbbr": "SEA",
@@ -2085,17 +2051,6 @@
               "receiving"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4887558",
-            "name": "Emanuel Wilson",
-            "pos": "RB",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           }
         ]
       },
@@ -2111,40 +2066,7 @@
             "teamAbbr": "GB",
             "roles": [
               "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4248528",
-            "name": "Christian Watson",
-            "pos": "WR",
-            "teamId": "9",
-            "teamAbbr": "GB",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4429023",
-            "name": "MarShawn Lloyd",
-            "pos": "RB",
-            "teamId": "9",
-            "teamAbbr": "GB",
-            "roles": [
               "rushing"
-            ],
-            "status": "Out"
-          },
-          {
-            "athleteId": "4427095",
-            "name": "DeMario Douglas",
-            "pos": "WR",
-            "teamId": "17",
-            "teamAbbr": "NE",
-            "roles": [
-              "receiving"
             ],
             "status": null
           },
@@ -2574,16 +2496,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873049",
-      "athleteId": "4429023",
-      "name": "MarShawn Lloyd",
-      "pos": "RB",
-      "teamAbbr": "GB",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
     },
     {
       "gameId": "401873051",
