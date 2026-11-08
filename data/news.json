@@ -1,7 +1,142 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T21:47:19Z",
+  "updatedAt": "2026-11-08T22:47:22Z",
   "items": [
+    {
+      "id": "cd13d697af5da3a1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50425853/sources-rams-puka-nacua-undergo-tests-knee",
+      "title": "Sources: Puka Nacua set for tests on late-game knee injury; Rams believe ACL OK",
+      "summary": "The Rams do not believe Puka Nacua suffered a torn ACL, but the imaging Monday will tell more, sources said.",
+      "publishedAt": "2026-11-08T22:44:59Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "65a072689758eb8e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380155/countering-peanut-punch-james-cook-skattebo",
+      "title": "As the 'Peanut Punch' takes over NFL, how do teams counter it?",
+      "summary": "After Charles Tillman popularized the punch 14 years ago, it has really taken off this season.",
+      "publishedAt": "2026-11-08T22:38:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "bcac12c12b50099c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50425874/what-kind-fantasy-qb-patrick-mahomes-right-now",
+      "title": "What kind of fantasy QB is Patrick Mahomes right now?",
+      "summary": null,
+      "publishedAt": "2026-11-08T22:35:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "08c9437068603970",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-to-get-more-tests-on-right-elbow-after-sundays-injury",
+      "title": "Patrick Mahomes to get more tests on right elbow after Sunday's injury",
+      "summary": "Chiefs quarterback Patrick Mahomes didn't miss any offensive snaps until garbage time in Sunday's 35-12 win over the Jets, but it looked like he might have suffered a serious injury late in the first half.",
+      "publishedAt": "2026-11-08T22:23:10Z",
+      "teamIds": [
+        "12",
+        "20"
+      ]
+    },
+    {
+      "id": "578f855e3cd5939c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873040",
+      "title": "Javonte Williams' late TD run helps Cowboys avoid another 4th-quarter collapse and beat Colts 27-23",
+      "summary": "Javonte Williams scored the go-ahead touchdown on a 1-yard run with 1:08 remaining to cap a 101-yard rushing day, and the Dallas Cowboys rallied to beat the Indianapolis Colts 27-23 on Sunday.",
+      "publishedAt": "2026-11-08T22:21:36Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "1bd92b7e00207197",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50425557/cleveland-browns-vs-new-orleans-saints-game-highlights",
+      "title": "Cleveland Browns vs. New Orleans Saints Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-08T22:17:53Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "08c3248f3d33583c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873039",
+      "title": "Saints hold on for a 23-22 overtime victory over the Browns by stopping a 2-point conversion",
+      "summary": "Tyler Shough floated a 15-yard timing pass to Juwan Johnson toward the right corner of the end zone for a touchdown and the desperate New Orleans Saints stopped a do-or-die, 2-point conversion to outlast the Cleveland Browns 23-22 in overtime on...",
+      "publishedAt": "2026-11-08T22:10:35Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "285736040acb8af1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-questionable-to-return-with-a-hand-injury",
+      "title": "Josh Jacobs questionable to return with a hand injury",
+      "summary": "Packers running back Josh Jacobs may be done for the day in New England.",
+      "publishedAt": "2026-11-08T21:58:18Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "349c45c80e1c37db",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873041",
+      "title": "Bo Nix throws for 2 TDs, Broncos win key challenge to beat Panthers 26-21 for fifth straight victory",
+      "summary": "Bo Nix threw for 237 yards and two touchdowns and the Denver Broncos benefitted from a momentum-turning coach’s challenge to beat the Carolina Panthers 26-21 on Sunday for their fifth straight win.",
+      "publishedAt": "2026-11-08T21:53:41Z",
+      "teamIds": [
+        "29",
+        "7"
+      ]
+    },
+    {
+      "id": "c239f42df7301b33",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-rally-for-27-23-win-over-colts",
+      "title": "Cowboys rally for 27-23 win over Colts",
+      "summary": "Caleb Downs' first career interception allowed the Cowboys to escape with a 27-23 win over the Colts on Sunday.",
+      "publishedAt": "2026-11-08T21:49:27Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "473f131fa8809315",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-hang-on-to-defeat-browns-in-overtime-23-22",
+      "title": "Saints hang on to defeat Browns in overtime, 23-22",
+      "summary": "The Browns and Saints were tied at 6-6 midway through the fourth quarter.",
+      "publishedAt": "2026-11-08T21:49:21Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "82c59c17a436ad61",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-loves-100th-career-passing-td-puts-packers-up-14-0",
+      "title": "Jordan Love's 100th career passing TD puts Packers up 14-0",
+      "summary": "Jordan Love is the fifth quarterback in Packers history to throw 100 touchdown passes while with the team.",
+      "publishedAt": "2026-11-08T21:47:19Z",
+      "teamIds": [
+        "9"
+      ]
+    },
     {
       "id": "28fa29d6578f5dfc",
       "source": "espn",
@@ -18,7 +153,7 @@
       "id": "b458c63ba3e2ff8f",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/10-nfl-trades-deadline-derrick-henry-patriots-budda-baker-bills",
-      "title": "10 NFL trades that need to happen: Derrick Henry to Patriots, Budda Baker to Bills",
+      "title": "10 NFL trades that need to happen: Derrick Henry to Patriots, Budda Baker to Bills among options",
       "summary": "Kirk Cousins returns to Minnesota, George Pickens heads to Las Vegas and more aggressive moves contenders should make before Tuesday's trade deadline",
       "publishedAt": "2026-11-08T21:41:48Z",
       "teamIds": [
@@ -194,7 +329,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873042",
       "title": "Lions grind past Dolphins 19-9 as Jahmyr Gibbs scores and Jake Bates makes 4 field goals",
-      "summary": "Jahmyr Gibbs had a rushing touchdown, Jared Goff threw for 170 yards and the Detroit Lions beat the Miami Dolphins 19-9 on Sunday for their fourth straight victory.",
+      "summary": "The Detroit Lions have repeated a mantra all week in the aftermath of a scary neck injury to All-Pro linebacker Jack Campbell.",
       "publishedAt": "2026-11-08T21:05:35Z",
       "teamIds": [
         "8",
@@ -333,6 +468,18 @@
       "publishedAt": "2026-11-08T20:08:16Z",
       "teamIds": [
         "12"
+      ]
+    },
+    {
+      "id": "69a1526f90bc0af3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/saints-motivated-to-face-browns-shedeur-sanders",
+      "title": "Browns' Shedeur Sanders claims 'smiling' comment about Saints defense was taken out of context",
+      "summary": "However, Sanders claims he doesn't care about how the Saints' defense feels",
+      "publishedAt": "2026-11-08T20:06:00Z",
+      "teamIds": [
+        "5",
+        "18"
       ]
     },
     {
@@ -1524,149 +1671,6 @@
       "publishedAt": "2026-11-08T01:55:42Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "26113f449c0216dc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-and-bo-nix-have-won-16-straight-one-score-games",
-      "title": "Broncos and Bo Nix have won 16 straight one-score games",
-      "summary": "The Broncos keep finding ways to win games — especially close games.",
-      "publishedAt": "2026-11-08T01:17:52Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "55562f85b37dd727",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/player-personnel-handbook-implies-that-the-nfl-can-delay-or-deny-brandon-aiyuks-reinstatement",
-      "title": "Player Personnel Handbook implies that the NFL can delay (or deny) Brandon Aiyuk's reinstatement",
-      "summary": "The CBA is silent on the issue.",
-      "publishedAt": "2026-11-08T00:49:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "a5a65619b06fe961",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/falcons-vs-bengals-prediction-odds-where-to-watch",
-      "title": "Falcons vs. Bengals prediction: Stars on display in Madrid as Cincinnati seeks first international win",
-      "summary": "The NFL returns to Spain for the second straight season with a matchup that features many of the league's top offensive stars",
-      "publishedAt": "2026-11-08T00:01:11Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "83e186101308f788",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-could-end-up-with-both-daniel-jones-and-jonathan-taylor",
-      "title": "Vikings could end up with both Daniel Jones and Jonathan Taylor",
-      "summary": "With Minnesota linked to both players, why not do a package deal?",
-      "publishedAt": "2026-11-07T23:54:16Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "df27a8e2b05e560c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-jake-haener-returns-to-the-giants-practice-squad",
-      "title": "QB Jake Haener returns to the Giants' practice squad",
-      "summary": "The Giants signed quarterback Jake Haener back to the practice squad, the team announced Saturday.",
-      "publishedAt": "2026-11-07T22:01:49Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "51705d7838815d67",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-fines-jaquan-brisker-two-others-for-illegal-week-8-hits",
-      "title": "NFL fines Jaquan Brisker, two others for illegal Week 8 hits that placed opponents in concussion protocol",
-      "summary": "Each of the players on the receiving end of those collisions will miss Week 9",
-      "publishedAt": "2026-11-07T22:01:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "e966cd00cb9a6e40",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mason-mccormick-wasnt-fined-for-dumping-jared-verse-on-his-head",
-      "title": "Mason McCormick wasn't fined for dumping Jared Verse on his head",
-      "summary": "Browns defensive end Jared Verse is getting upset.",
-      "publishedAt": "2026-11-07T21:45:57Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "27dc8b86de845986",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-demarcus-robinson-elevate-khadarel-hodge",
-      "title": "49ers activate Demarcus Robinson, elevate KhaDarel Hodge",
-      "summary": "The 49ers will have two of their Week 1 wideouts back in the lineup for Sunday's game against the Raiders.",
-      "publishedAt": "2026-11-07T21:40:22Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "452d09f3fb810c42",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-activate-wr-pat-bryant",
-      "title": "Broncos activate WR Pat Bryant",
-      "summary": "The Broncos have wide receiver Pat Bryant back for Sunday's game against the Panthers.",
-      "publishedAt": "2026-11-07T21:30:05Z",
-      "teamIds": [
-        "29",
-        "7"
-      ]
-    },
-    {
-      "id": "00267012de965a10",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-lb-jack-campbell-on-injured-reserve",
-      "title": "Lions place LB Jack Campbell on injured reserve",
-      "summary": "The Lions placed linebacker Jack Campbell on injured reserve, the team announced Saturday.",
-      "publishedAt": "2026-11-07T21:27:43Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "00dd18a82d74501d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50411320/jennings-rebuffing-return-49ers-love-where-at",
-      "title": "Vikings WR Jauan Jennings on rebuffing return to 49ers: 'I love where I'm at'",
-      "summary": "Jauan Jennings said he rebuffed the chance to return to the 49ers via trade despite struggling to produce for the Vikings because \"I love where I'm at.\"",
-      "publishedAt": "2026-11-07T21:25:23Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "8d97d3f21fdf5b2e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-activate-kelvin-banks-jordyn-tyson",
-      "title": "Saints activate Kelvin Banks, Jordyn Tyson",
-      "summary": "The Saints offense will be getting a couple of reinforcements for Sunday's game against the Browns.",
-      "publishedAt": "2026-11-07T21:23:23Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "4d557e70c9806693",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-activate-james-pearce-yasir-abdullah",
-      "title": "Falcons activate James Pearce, Yasir Abdullah",
-      "summary": "Falcons linebacker James Pearce is set to make his 2026 debut.",
-      "publishedAt": "2026-11-07T21:15:08Z",
-      "teamIds": [
-        "1"
       ]
     }
   ]
