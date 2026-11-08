@@ -103,9 +103,18 @@ export function isLocked(game: Pick<Game, "kickoffUtc" | "status">, now: string)
   return Date.parse(now) >= Date.parse(game.kickoffUtc) || game.status !== "scheduled";
 }
 
-function sameOdds(a: Odds | null, b: Odds | null): boolean {
+/** Anbieter ohne Leerzeichen und in Kleinschreibung, ESPN liefert "Draft Kings" und "DraftKings". */
+export function normalizeProvider(provider: string): string {
+  return provider.replace(/\s+/g, "").toLowerCase();
+}
+
+export function sameOdds(a: Odds | null, b: Odds | null): boolean {
   if (a === null || b === null) return a === b;
-  return a.provider === b.provider && a.spreadHome === b.spreadHome && a.overUnder === b.overUnder;
+  return (
+    normalizeProvider(a.provider) === normalizeProvider(b.provider) &&
+    a.spreadHome === b.spreadHome &&
+    a.overUnder === b.overUnder
+  );
 }
 
 /**

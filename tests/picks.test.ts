@@ -5,6 +5,7 @@ import { join } from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { parseScoreboard } from "../src/core/espn";
 import {
+  PICKS_MIN_CHANGE,
   PicksFileSchema,
   buildPicksFile,
   parsePickem,
@@ -96,6 +97,31 @@ describe("Pick'em Antwort", () => {
     expect(moved.fetchedAt).toBe(T1);
     const frozen = build(AFTER_TNF, a, response(JSON.stringify(raw))).file.games.find((g) => g.gameId === "401873037")!;
     expect(frozen).toMatchObject({ homeShare: 0.406, fetchedAt: T0, locked: true });
+  });
+});
+
+describe("kleine Schwankungen (D057)", () => {
+  // Stärkt das Heimteam im TNF um den Faktor f und liefert den neuen Heimanteil samt fetchedAt.
+  const shifted = (f: number, existing: ReturnType<typeof buildPicksFile>["file"]) => {
+    const raw = JSON.parse(pickemW9Text);
+    for (const p of raw.propositions) for (const o of p.possibleOutcomes) for (const c of o.choiceCounters) if (o.abbrev === "BAL") c.count = Math.round(c.count * f);
+    return build(T1, existing, response(JSON.stringify(raw))).file;
+  };
+
+  it("unter 0.5 Prozentpunkten bleibt der Eintrag samt fetchedAt, die Datei ist gleich", () => {
+    const a = build(T0).file;
+    const b = shifted(1.01, a); // rund 0.24 Prozentpunkte
+    expect(samePicksContent(a, b)).toBe(true);
+    expect(b.games.find((g) => g.gameId === "401873037")).toMatchObject({ homeShare: 0.406, fetchedAt: T0 });
+  });
+
+  it("ab 0.5 Prozentpunkten neuer Anteil und neues fetchedAt nur für dieses Spiel", () => {
+    const a = build(T0).file;
+    const b = shifted(1.03, a); // rund 0.7 Prozentpunkte
+    const tnf = b.games.find((g) => g.gameId === "401873037")!;
+    expect(tnf.homeShare - 0.406).toBeGreaterThanOrEqual(PICKS_MIN_CHANGE);
+    expect(tnf.fetchedAt).toBe(T1);
+    expect(b.games.filter((g) => g.fetchedAt === T1).map((g) => g.gameId)).toEqual(["401873037"]);
   });
 });
 

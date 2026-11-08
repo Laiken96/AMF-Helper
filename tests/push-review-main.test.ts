@@ -72,7 +72,7 @@ describe("push Bilanz bereit", () => {
     await writeReviews(review(8, true));
     expect(await push([], deps())).toBe(0);
     expect(sent.map((p) => p.title)).toEqual(["Bilanz W8 bereit"]);
-    expect(sent[0]?.body).toBe("App Punkte 1 von 1, Abweichungen netto 0, Tiebreaker Abweichung MNF 4. Rangliste melden");
+    expect(sent[0]?.body).toBe("App Punkte 1 von 1, Tiebreaker Abweichung MNF 4. Rangliste melden");
     const log = PushLogFileSchema.parse(JSON.parse(await readFile(join(dir, "push-log.json"), "utf8")));
     expect(log.entries.map((e) => e.key)).toEqual(["review-ready:2026-2-8"]);
 

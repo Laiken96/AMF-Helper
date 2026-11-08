@@ -85,8 +85,16 @@ export function parsePickem(raw: unknown): PickemParse {
 
 const mapping = (ms: ReadonlyArray<{ type: string; value: string }>, type: string) => ms.find((m) => m.type === type)?.value;
 
-/** Anteile auf 3 Stellen (0.1 Prozent), damit kleine Schwankungen keine neue Datei erzeugen. */
+/** Anteile auf 3 Stellen (0.1 Prozent). */
 const round3 = (p: number) => Math.round(p * 1000) / 1000;
+
+/**
+ * Ab dieser Bewegung des Heimanteils (0.5 Prozentpunkte) gilt ein Anteil als geändert (D057). Bei rund 650000
+ * Tipps pro Spiel bewegt sich die dritte Stelle fast stündlich, das ergab bei jedem Lauf von data.yml eine neue
+ * Datei und einen Pages Neubau. Die App zeigt ganze Prozent. Verglichen wird mit dem gespeicherten Wert, so
+ * kommt auch eine langsame Drift an.
+ */
+export const PICKS_MIN_CHANGE = 0.005;
 
 export interface ShareResult {
   homeShare: number;
@@ -151,8 +159,9 @@ export interface BuildPicksResult {
 /**
  * Ordnet die Propositions den Spielen der Woche zu (EVENT_ID, ersatzweise COMPETITION_ID). Propositions
  * einer anderen Woche fallen weg. Gesperrte Spiele behalten den letzten Stand vor Kickoff, ein beim ersten
- * Lauf schon begonnenes Spiel übernimmt die Zähler, die ESPN mit dem Tippschluss eingefroren hat. Gleiche Anteile
- * behalten den bisherigen Eintrag, damit die Datei nur bei echter Änderung neu geschrieben wird.
+ * Lauf schon begonnenes Spiel übernimmt die Zähler, die ESPN mit dem Tippschluss eingefroren hat. Anteile, die sich
+ * um weniger als PICKS_MIN_CHANGE bewegt haben, behalten den bisherigen Eintrag samt fetchedAt und total, damit
+ * die Datei nur bei echter Änderung neu geschrieben wird.
  */
 export function buildPicksFile(input: BuildPicksInput): BuildPicksResult {
   const { now } = input;
@@ -182,7 +191,7 @@ export function buildPicksFile(input: BuildPicksInput): BuildPicksResult {
     }
     const same =
       old !== undefined &&
-      old.homeShare === shares.homeShare &&
+      Math.abs(old.homeShare - shares.homeShare) < PICKS_MIN_CHANGE - 1e-9 &&
       old.scoringFormatId === shares.scoringFormatId &&
       old.homeId === g.homeId &&
       old.awayId === g.awayId;

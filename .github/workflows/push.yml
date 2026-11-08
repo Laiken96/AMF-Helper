@@ -1,4 +1,6 @@
-# Web Push und Ausfall Wächter (D029, D030). Läuft alle 10 Minuten auf ungeraden Minuten wegen Cron Verzögerung.
+# Web Push und Ausfall Wächter (D029, D030). GitHub Zeitplan alle 10 Minuten zu den Minuten 4, 14, 24 ... wegen
+# Cron Verzögerung, zusätzlich startet cron-job.org den Workflow alle 10 Minuten (D041).
+# Hier nur die aktuelle Woche. Die Ausfälle der nächsten Woche prüft data.yml einmal pro Stunde (D057).
 # Geplante Läufe startet GitHub nur auf dem Default Branch. Manueller Start über workflow_dispatch geht auf jedem Branch.
 # Ohne Secrets VAPID_PRIVATE_KEY und PUSH_SUBSCRIPTION bleibt der Lauf grün und sendet nichts.
 # Die KI Zweitmeinung (D040, D042) läuft hier am Schluss, damit die Grenze 6 Stunden vor Kickoff getroffen wird.
@@ -20,20 +22,22 @@ permissions:
   actions: write # für den Start von pages.yml nach neuen Ausfällen
 
 concurrency:
-  # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Pfade sind disjunkt zu data.yml
-  # (hier nur data/push-log.json, data/injuries, data/fpi und data/opinions), Konflikte beim Push löst git pull --rebase.
+  # Eigene Gruppe, damit lange data.yml Läufe keine Erinnerung verzögern. Die Dateien sind disjunkt zu data.yml
+  # (hier nur data/push-log.json, Ausfälle und FPI der aktuellen Woche und data/opinions, data.yml schreibt die
+  # der nächsten Woche), Konflikte beim Push löst git pull --rebase.
   group: push-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   push:
     runs-on: ubuntu-latest
-    # Wächter aktuelle Woche höchstens 5, Push, Wächter nächste Woche höchstens 5, KI Zweitmeinung höchstens 6.
-    timeout-minutes: 22
+    # Setup rund 2, Wächter höchstens 5, Push höchstens 5, KI Zweitmeinung höchstens 6, Commits je rund 1.
+    # Das Job Limit liegt mit Abstand darüber, damit der Meinungscommit nie durch das Job Limit wegfällt (D057).
+    timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -48,9 +52,8 @@ jobs:
         run: npm run job:push -- --test
 
       # Der Wächter darf scheitern, die Erinnerungen kommen trotzdem mit dem letzten Stand. Der Lauf wird am Ende rot.
-      # Vor dem Versand nur die aktuelle Woche, deren Ausfälle in die Meldungen gehen. Die nächste Woche (D050)
-      # folgt nach dem Versand, damit langsame ESPN Abrufe keine Erinnerung verzögern. Beide schreiben den ESPN FPI
-      # nach data/fpi. Das Zeitlimit hält den Versand auch bei hängenden Abrufen pünktlich.
+      # Nur die aktuelle Woche, deren Ausfälle in die Meldungen gehen. Schreibt auch den ESPN FPI nach data/fpi.
+      # Das Zeitlimit hält den Versand auch bei hängenden Abrufen pünktlich.
       - name: Ausfälle prüfen
         id: watch
         if: inputs.test != 'true'
@@ -61,21 +64,15 @@ jobs:
       - name: Meldungen senden
         id: push
         if: inputs.test != 'true'
+        timeout-minutes: 5
         continue-on-error: true
         env:
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
         run: npm run job:push
 
-      - name: Ausfälle nächste Woche prüfen
-        id: watch_next
-        if: inputs.test != 'true'
-        timeout-minutes: 5
-        continue-on-error: true
-        run: npm run job:watch -- --next
-
-      # Nur push-log, Ausfall und FPI Dateien. Pages Neubau nur, wenn sich Ausfälle geändert haben,
-      # der FPI ist Schattenvergleich und wartet auf den nächsten Neubau.
+      # Nur push-log, Ausfall und FPI Dateien. Pages Neubau nur, wenn sich die Ausfälle der aktuellen Woche
+      # geändert haben. Der FPI ist Schattenvergleich und wartet auf den nächsten Neubau (D057).
       - name: Änderungen committen
         id: commit
         if: inputs.test != 'true'
@@ -84,8 +81,13 @@ jobs:
             echo "Keine Änderungen an push-log, Ausfällen oder FPI"
             exit 0
           fi
+          # Pfad wie injuriesFilePath in src/core/injuries.ts, Woche zweistellig.
+          current_injuries=$(node -p 'const c = require("./data/current.json"); `data/injuries/${c.season}-${c.seasonType}-${String(c.week).padStart(2, "0")}.json`' 2>/dev/null || true)
           injuries_changed=false
-          [ -n "$(git status --porcelain -- data/injuries)" ] && injuries_changed=true
+          if [ -n "$current_injuries" ] && [ -n "$(git status --porcelain -- "$current_injuries")" ]; then
+            injuries_changed=true
+          fi
+          echo "Ausfälle aktuelle Woche ($current_injuries) geändert: $injuries_changed"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           paths=()
@@ -108,7 +110,7 @@ jobs:
           exit 1
 
       # Pushes mit GITHUB_TOKEN starten keine push Workflows, daher Pages hier explizit neu bauen, damit die
-      # App neue Ausfälle zeigt. Nur auf main, wie in data.yml.
+      # App neue Ausfälle der aktuellen Woche zeigt. Nur auf main, wie in data.yml.
       - name: Pages neu bauen
         if: steps.commit.outputs.injuries_pushed == 'true' && github.ref_name == 'main'
         env:
@@ -126,11 +128,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run job:opinion
 
-      # Eigener Commit nur für data/opinions, unabhängig vom Push Log. Läuft auch nach Abbruch des Meinungs
-      # Schritts, weil jede Meinung sofort gespeichert wird. Nach 3 Fehlversuchen wird der Lauf rot.
+      # Eigener Commit nur für data/opinions, unabhängig vom Push Log. Läuft mit always() auch nach Abbruch oder
+      # Zeitüberschreitung, weil jede Meinung und jeder Versuch sofort gespeichert wird. Ginge attempts.json
+      # verloren, würde dasselbe Spiel erneut bezahlt (D043, D057). Nach 3 Fehlversuchen wird der Lauf rot.
       - name: Meinungen committen
         id: opinion_commit
-        if: ${{ !cancelled() && inputs.test != 'true' }}
+        if: ${{ always() && inputs.test != 'true' }}
         run: |
           if [ -z "$(git status --porcelain -- data/opinions)" ]; then
             echo "Keine Änderungen an Meinungen"
@@ -152,7 +155,7 @@ jobs:
           exit 1
 
       - name: Fehler melden
-        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.watch_next.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
+        if: ${{ !cancelled() && (steps.watch.outcome == 'failure' || steps.push.outcome == 'failure' || steps.opinion.outcome == 'failure') }}
         run: |
-          echo "Wächter: ${{ steps.watch.outcome }}, Wächter nächste Woche: ${{ steps.watch_next.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
+          echo "Wächter: ${{ steps.watch.outcome }}, Meinung: ${{ steps.opinion.outcome }}, Push: ${{ steps.push.outcome }}"
           exit 1

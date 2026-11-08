@@ -216,7 +216,7 @@ describe("jobs/push.ts", () => {
     expect(logs.join("\n")).toContain("Secrets VAPID_PRIVATE_KEY oder PUSH_SUBSCRIPTION fehlen");
   });
 
-  it("sendet Tippliste und Slot mit Tippänderung und Ausfall, danach nichts doppelt", async () => {
+  it("sendet Tippliste und Slot mit Ausfall ohne Tippänderung, danach nichts doppelt", async () => {
     await watch([], watchDeps("2026-11-05T06:00:00Z", fetchSummary()));
     await watch([], watchDeps("2026-11-06T00:30:00Z", fetchSummary((s) => setStatus(s, "Tyler Huntley", "Out"))));
     const tipsPath = join(dir, "tips/2026-2-09.json");
@@ -227,7 +227,7 @@ describe("jobs/push.ts", () => {
 
     expect(await push([], pushDeps(at30, ENV))).toBe(0);
     expect(sentPayloads.map((p) => p.title)).toEqual(["Tippliste W9 bereit", "Tippschluss in 30 min"]);
-    expect(sentPayloads[1]?.body).toBe("JAX@BAL. Tipp JAX>BAL, BAL T.Huntley QB Q>O");
+    expect(sentPayloads[1]?.body).toBe("JAX@BAL. BAL T.Huntley QB Q>O");
     const log = PushLogFileSchema.parse(JSON.parse(await readFile(logPath(), "utf8")));
     expect(log.entries.map((e) => e.key)).toEqual(["tips-ready:2026-2-9", "slot:2026-11-06T02:15+01:00"]);
 

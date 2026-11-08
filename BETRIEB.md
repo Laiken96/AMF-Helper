@@ -1,10 +1,10 @@
 # Betrieb NFL Dashboard
 
-Stand 2026-11-02. Einziger Nutzer ist der Entwickler. Vor dem ersten weiteren Nutzer (Gate 2) diese Datei erneut prüfen.
+Stand 2026-11-08. Einziger Nutzer ist der Entwickler. Vor dem ersten weiteren Nutzer (Gate 2) diese Datei erneut prüfen.
 
 ## Umgebungen
 
-- Lokal: Repo klonen, `npm ci`, `npm run dev`. Jobs lokal mit `npm run job:schedule`, `job:tips`, `job:review`, `job:watch`. Push wird lokal nie versendet (nur auf main mit Secrets).
+- Lokal: Repo klonen, `npm ci`, `npm run dev`. Jobs lokal mit `npm run job:schedule`, `job:tips`, `job:picks`, `job:review`, `job:news`, `job:watch -- --current` oder `-- --next`, `job:heartbeat`, `job:index`. Push wird lokal nie versendet (nur auf main mit Secrets).
 - Produktion: GitHub Pages unter https://laiken96.github.io/AMF-Helper/, gebaut aus dem Branch main. Repo öffentlich: https://github.com/Laiken96/AMF-Helper
 - Entwicklung: Branch claude/nfl-dashboard-plan-mcwlna, Übernahme nach main nur per Pull Request.
 
@@ -12,12 +12,23 @@ Stand 2026-11-02. Einziger Nutzer ist der Entwickler. Vor dem ersten weiteren Nu
 
 | Workflow | Datei | Auslöser | Aufgabe |
 |---|---|---|---|
-| Daten Spielplan, Tipps und Bilanz | data.yml | stündlich Minute 17, manuell | ESPN Spielplan (aktuelle und 2 kommende Tippwochen), Tippliste, Bilanz mit Abgleich Rangliste, News, Lebenszeichen, Wochenindex, Commit nach data/, danach Pages neu bauen |
-| Push und Ausfall Wächter | push.yml | alle 10 Minuten (3, 13, 23 ...), manuell mit test true | Ausfälle prüfen, Push versenden, push-log.json committen |
+| Daten Spielplan, Tipps, Bilanz und News | data.yml | GitHub Zeitplan stündlich Minute 17, cron-job.org stündlich Minute 47, manuell | Spielplan (aktuelle und 2 kommende Tippwochen, Wochenwechsel D055), Tippliste, Pick Anteile (job:picks), Ausfälle und FPI der nächsten Woche (job:watch --next), Bilanz mit Abgleich Rangliste, News, Lebenszeichen (job:heartbeat), Wochenindex, Commit nach data/, danach Pages neu bauen |
+| Push und Ausfall Wächter | push.yml | GitHub Zeitplan Minuten 4, 14, 24, 34, 44, 54, cron-job.org alle 10 Minuten, manuell mit test true | Ausfälle und FPI der aktuellen Woche (job:watch --current), Push versenden, push-log.json committen, Pages nur bei geänderten Ausfällen der aktuellen Woche, danach KI Zweitmeinung (job:opinion) mit eigenem Commit |
 | Rangliste übernehmen | standings.yml | Issue mit Label rangliste vom Owner | Ranglistenstand nach data/ übernehmen |
-| Pages | pages.yml | Push auf main, manuell | Tests, Build, Veröffentlichung |
+| Pages | pages.yml | Push auf main, Start durch data.yml oder push.yml, manuell | Tests, Build, Veröffentlichung, bei Fehler ein zweiter Deploy nach 60 Sekunden |
+| CI | ci.yml | Pull Request, manuell | typecheck, test, build ohne Veröffentlichung |
+
+Alle Workflows nutzen Actions mit Node 24 (checkout und setup-node v7, upload-pages-artifact und deploy-pages v5). Die Jobs selbst laufen mit Node 22.
+
+Jobs schreiben nur bei echter Änderung (Zeitstempel allein zählen nicht). Pick Anteile gelten erst ab 0.5 Prozentpunkten Bewegung als geändert, sonst entstünde bei jedem Lauf eine neue Datei und ein Pages Neubau (D057). Die Ausfälle der nächsten Woche laufen seit D057 nur noch stündlich in data.yml statt alle 10 Minuten in push.yml: sie sind nicht zeitkritisch, die Erinnerungen nutzen nur die aktuelle Woche, und ihr Commit fällt mit dem stündlichen Datencommit zusammen statt eigene Pages Neubauten auszulösen.
 
 Externer Auslöser (D041): cron-job.org startet push.yml alle 10 Minuten und data.yml stündlich um Minute 47 per API, da GitHub die Zeitpläne nicht zuverlässig startet. Konto und Jobs beim Nutzer, Token fein granuliert nur Actions auf AMF-Helper, läuft ab am 02.11.2027.
+
+Wochenwechsel (D055): Sind alle Spiele der von ESPN gemeldeten Woche beendet oder abgesagt, setzt der Spielplan Job data/current.json auf die nächste Tippwoche, sobald deren Wochendatei vorliegt, normalerweise Dienstag früh nach dem MNF. Tipps, Push, Wächter und App folgen damit. current.json springt in einer Saison nie zurück, verschobene Spiele halten die Woche offen.
+
+Push Inhalte (D057): "Tippliste bereit" nennt Anzahl Spiele, Vorschlag Favorit und Tiebreaker. Die Erinnerung vor Tippschluss (2 bis 60 Minuten vor Kickoff) nennt nur Paarungen, Ausfälle und Linienbewegungen, keine Tipps. Ausfälle nach Gewicht: Start QB (QB mit Passing Leader Rolle) zuerst, dann Leader Rollen (Passing, Rushing, Receiving), dann Linienbewegung, dann QBs ohne Leader Rolle. Weggelassen werden Ersatz QBs, die neu als Out gelistet sind, und Spieler, die von Out oder IR aus von der Liste verschwinden. Wer sonst von der Liste verschwindet, erscheint als "nicht mehr gelistet". Höchstens 2 Punkte pro Spiel, der Rest als "+N". "Bilanz bereit" nennt App Punkte und Tiebreaker, ohne Abweichungen.
+
+News (D057): ESPN über die JSON Schnittstelle site.api.espn.com (der RSS Feed ist durch eine Bot Abwehr blockiert), CBS und PFT über RSS. Werbeartikel (Titel mit promo code oder bonus code) fallen weg. Scheitert eine Quelle, erscheint eine Warnung im Lauf und ihre bisherigen Einträge bleiben.
 
 Kontrolle: https://github.com/Laiken96/AMF-Helper/actions. Ein roter Lauf bedeutet, dass mindestens ein Schritt fehlschlug. Die Daten bleiben dann auf dem letzten gültigen Stand (D019).
 
@@ -112,6 +123,8 @@ Checkliste Saisonstart (August bis Week 1):
 | Workflow deaktiviert, cron-job.org meldet Fehler | 60 Tage ohne Aktivität | Actions, Workflow wählen, "Enable workflow". Danach data.yml manuell starten, das Lebenszeichen folgt automatisch |
 | current.json bleibt stehen | ruhende Woche (Preseason, Pro Bowl, Offseason) | Normal. Log von data.yml zeigt "ruhende Woche" |
 | App zeigt altes Design | Service Worker oder Cache | App ganz schliessen und neu öffnen |
+| Pages rot trotz zweitem Deploy | GitHub Pages gestört (Timeout, HTTP 400 in progress, HTTP 502) | githubstatus.com prüfen, später pages.yml manuell starten. Die Daten sind davon nicht betroffen |
+| Warnung "Quelle ... fehlgeschlagen" im News Schritt | Quelle blockiert oder geändert | Bleibt es über Tage, Quelle prüfen (curl mit gleichem User Agent), Adapter in src/core/news.ts anpassen. Andere Quellen laufen weiter |
 
 ## Vertretung
 

@@ -1,6 +1,8 @@
-// News aus RSS (Sprint 5 bis 8, D042). Reine Logik ohne Node APIs. Schreiber ist jobs/news.ts.
-// Eigener kleiner Parser statt Paket: die drei Feeds sind einfaches RSS 2.0, gebraucht werden nur
-// item, title, link, description und pubDate. Volltexte (content:encoded) werden verworfen.
+// News aus RSS und der ESPN JSON Schnittstelle (Sprint 5 bis 8, D042, D057). Reine Logik ohne Node APIs.
+// Schreiber ist jobs/news.ts. Eigener kleiner Parser statt Paket: CBS und PFT sind einfaches RSS 2.0, gebraucht
+// werden nur item, title, link, description und pubDate. Volltexte (content:encoded) werden verworfen.
+// ESPN blockiert den RSS Feed seit November 2026 (HTTP 202 mit WAF Challenge), daher die JSON Schnittstelle.
+import { z } from "zod";
 import { EXTRA_SCHEMA_VERSION, NewsFileSchema, type NewsFile } from "./extra-schema";
 import type { Team } from "./schema";
 
@@ -12,10 +14,14 @@ export const TITLE_MAX = 300;
 export const SUMMARY_MAX = 400;
 export const NEWS_FILE_PATH = "news.json";
 
-export const NEWS_FEEDS: ReadonlyArray<{ source: NewsSource; url: string }> = [
-  { source: "espn", url: "https://www.espn.com/espn/rss/nfl/news" },
-  { source: "cbs", url: "https://www.cbssports.com/rss/headlines/nfl/" },
-  { source: "pft", url: "https://profootballtalk.nbcsports.com/feed/" },
+export type FeedFormat = "rss" | "espn-json";
+
+export const ESPN_NEWS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?limit=50";
+
+export const NEWS_FEEDS: ReadonlyArray<{ source: NewsSource; url: string; format: FeedFormat }> = [
+  { source: "espn", url: ESPN_NEWS_URL, format: "espn-json" },
+  { source: "cbs", url: "https://www.cbssports.com/rss/headlines/nfl/", format: "rss" },
+  { source: "pft", url: "https://profootballtalk.nbcsports.com/feed/", format: "rss" },
 ];
 
 export interface RawFeedItem {
@@ -23,6 +29,58 @@ export interface RawFeedItem {
   link: string;
   description: string | null;
   pubDate: string | null;
+  /** Teams aus der Quelle selbst (ESPN Kategorien). Fehlt das Feld, gilt die Erkennung aus dem Text. */
+  teamIds?: string[];
+}
+
+/** Werbeartikel der Wettanbieter (D057), gilt für alle Quellen. */
+export function isPromo(title: string): boolean {
+  return /\b(?:promo|bonus)\s+codes?\b/i.test(title);
+}
+
+/** Ab so vielen Teams in den ESPN Kategorien ist ein Artikel eine Ligaübersicht, dann zählt der Text. */
+export const ESPN_CATEGORY_TEAMS_MAX = 4;
+
+const EspnNewsSchema = z.looseObject({
+  articles: z.array(
+    z.looseObject({
+      headline: z.string().optional(),
+      description: z.string().optional(),
+      published: z.string().optional(),
+      links: z.looseObject({ web: z.looseObject({ href: z.string() }).optional() }).optional(),
+      categories: z
+        .array(z.looseObject({ type: z.string().optional(), uid: z.string().optional(), teamId: z.number().optional() }))
+        .optional()
+        .default([]),
+    }),
+  ),
+});
+
+/**
+ * Liest die Antwort der ESPN News Schnittstelle. Wirft bei unbekannter Struktur. Artikel ohne Titel oder Link
+ * fallen weg. Teams kommen aus den Kategorien vom Typ team der NFL (uid mit l:28), College Teams fallen weg.
+ */
+export function parseEspnNews(raw: unknown): RawFeedItem[] {
+  const r = EspnNewsSchema.safeParse(raw);
+  if (!r.success) throw new Error(`Unbekannte Struktur der ESPN News\n${z.prettifyError(r.error)}`);
+  const out: RawFeedItem[] = [];
+  for (const a of r.data.articles) {
+    const title = plainText(a.headline ?? "");
+    const link = a.links?.web?.href?.trim() ?? "";
+    if (!title || !link) continue;
+    const teamIds = [
+      ...new Set(
+        a.categories
+          .filter((c) => c.type === "team" && c.teamId !== undefined && /~l:28~/.test(c.uid ?? ""))
+          .map((c) => String(c.teamId)),
+      ),
+    ];
+    // ESPN beginnt Anrisse von Agenturmeldungen oft mit einem Strich, der ohne Ortsmarke stehen bleibt.
+    const desc = a.description === undefined ? "" : plainText(a.description).replace(/^[\u2014\u2013-]\s*/, "");
+    // Videos tragen oft den Titel als Anriss, der bringt nichts.
+    out.push({ title, link, description: desc && desc !== title ? desc : null, pubDate: a.published ?? null, teamIds });
+  }
+  return out;
 }
 
 const NAMED_ENTITIES: Record<string, string> = {
@@ -123,9 +181,12 @@ export function parsePubDate(value: string | null): string | null {
   return new Date(ms).toISOString().replace(/\.\d{3}Z$/, "Z");
 }
 
+/** Query Parameter, die eine Meldung kennzeichnen (ESPN Recap ?gameId=) und deshalb in der URL bleiben. */
+const ID_PARAMS = ["gameId"] as const;
+
 /**
- * Normalisierte URL für Dedupe und ID: https, Host klein ohne www, ohne Query, Fragment und
- * abschliessenden Schrägstrich. null bei ungültiger URL.
+ * Normalisierte URL für Dedupe und ID: https, Host klein ohne www, ohne Fragment und abschliessenden
+ * Schrägstrich. Von der Query bleiben nur Parameter, die die Meldung kennzeichnen (ID_PARAMS). null bei ungültiger URL.
  */
 export function normalizeUrl(raw: string): string | null {
   let u: URL;
@@ -137,7 +198,8 @@ export function normalizeUrl(raw: string): string | null {
   if (u.protocol !== "http:" && u.protocol !== "https:") return null;
   const host = u.hostname.toLowerCase().replace(/^www\./, "");
   const path = u.pathname.replace(/\/+$/, "");
-  return `https://${host}${path}`;
+  const keep = ID_PARAMS.filter((k) => u.searchParams.has(k)).map((k) => `${k}=${encodeURIComponent(u.searchParams.get(k)!)}`);
+  return `https://${host}${path}${keep.length > 0 ? `?${keep.join("&")}` : ""}`;
 }
 
 /** Kürzt auf max Zeichen an einer Wortgrenze und hängt "..." an. */
@@ -183,7 +245,10 @@ export function detectTeams(text: string, matchers: readonly TeamMatcher[]): str
   return matchers.filter((m) => m.pattern.test(text)).map((m) => m.teamId);
 }
 
-/** Wandelt die Items eines Feeds in Einträge des Datenvertrags. Ungültige Items fallen weg. */
+/**
+ * Wandelt die Items eines Feeds in Einträge des Datenvertrags. Ungültige Items und Werbeartikel fallen weg.
+ * Bringt die Quelle Teams mit (1 bis ESPN_CATEGORY_TEAMS_MAX bekannte Teams), gelten diese, sonst der Text.
+ */
 export function toNewsItems(
   source: NewsSource,
   raw: readonly RawFeedItem[],
@@ -191,7 +256,9 @@ export function toNewsItems(
   idOf: (normalizedUrl: string) => string,
 ): NewsItem[] {
   const out: NewsItem[] = [];
+  const known = new Set(matchers.map((m) => m.teamId));
   for (const r of raw) {
+    if (isPromo(r.title)) continue;
     const url = normalizeUrl(r.link);
     const publishedAt = parsePubDate(r.pubDate);
     if (url === null || publishedAt === null) continue;
@@ -204,19 +271,29 @@ export function toNewsItems(
       title,
       summary,
       publishedAt,
-      teamIds: detectTeams(`${r.title} ${r.description ?? ""}`, matchers),
+      teamIds: teamsOf(r, known, matchers),
     });
   }
   return out;
 }
 
+function teamsOf(r: RawFeedItem, known: ReadonlySet<string>, matchers: readonly TeamMatcher[]): string[] {
+  const own = (r.teamIds ?? []).filter((id) => known.has(id));
+  if (own.length > 0 && own.length <= ESPN_CATEGORY_TEAMS_MAX) {
+    // Reihenfolge der Teamliste wie bei der Texterkennung.
+    return matchers.filter((m) => own.includes(m.teamId)).map((m) => m.teamId);
+  }
+  return detectTeams(`${r.title} ${r.description ?? ""}`, matchers);
+}
+
 /**
  * Führt bestehende und neue Einträge zusammen: Dedupe über die ID (normalisierte URL), neuere Fassung
- * gewinnt, Erstveröffentlichung bleibt. Absteigend nach publishedAt, höchstens 150.
+ * gewinnt, Erstveröffentlichung bleibt. Absteigend nach publishedAt, höchstens 150. Werbeartikel aus früheren
+ * Läufen fallen dabei weg.
  */
 export function mergeNews(existing: readonly NewsItem[], fresh: readonly NewsItem[], now: string): NewsFile {
   const byId = new Map<string, NewsItem>();
-  for (const it of existing) byId.set(it.id, it);
+  for (const it of existing) if (!isPromo(it.title)) byId.set(it.id, it);
   for (const it of fresh) {
     const prev = byId.get(it.id);
     // Gleiche Meldung aus zweitem Feed oder neuem Abruf: Inhalt aktualisieren, frühestes Datum behalten.

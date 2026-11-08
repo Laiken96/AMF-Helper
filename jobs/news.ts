@@ -1,6 +1,7 @@
-// Datenjob News (D042): liest die RSS Feeds von ESPN, CBS und PFT und schreibt data/news.json.
-// Nur Titel, Anriss ohne HTML und Link. Fehlt eine Quelle, bleiben ihre bisherigen Einträge erhalten
-// und die anderen Quellen laufen weiter. Exit 1 nur, wenn alle Quellen scheitern oder Pflichtdaten fehlen.
+// Datenjob News (D042, D057): liest die ESPN News Schnittstelle (JSON) und die RSS Feeds von CBS und PFT und
+// schreibt data/news.json. Nur Titel, Anriss ohne HTML, Link, Datum und Teams, ohne Werbeartikel. Fehlt eine
+// Quelle, bleiben ihre bisherigen Einträge erhalten, die anderen laufen weiter und das Log zeigt eine Warnung
+// (in GitHub Actions als Annotation). Exit 1 nur, wenn alle Quellen scheitern oder Pflichtdaten fehlen.
 // Aufruf: npm run job:news
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
@@ -11,11 +12,14 @@ import {
   NEWS_FEEDS,
   NEWS_FILE_PATH,
   mergeNews,
+  parseEspnNews,
   parseRss,
   sameNewsContent,
   teamMatchers,
   toNewsItems,
+  type FeedFormat,
   type NewsItem,
+  type RawFeedItem,
 } from "../src/core/news";
 import { DATA_DIR, type MainDeps } from "./fetch-schedule";
 import { FETCH_TIMEOUT_MS, USER_AGENT, toJson, writeFiles } from "./schedule-lib";
@@ -30,9 +34,14 @@ export function newsId(normalizedUrl: string): string {
   return createHash("sha256").update(normalizedUrl).digest("hex").slice(0, 16);
 }
 
-async function fetchText(url: string, fetchFn: NonNullable<MainDeps["fetch"]>): Promise<string> {
+const ACCEPT: Record<FeedFormat, string> = {
+  rss: "application/rss+xml, application/xml, text/xml",
+  "espn-json": "application/json",
+};
+
+async function fetchText(url: string, format: FeedFormat, fetchFn: NonNullable<MainDeps["fetch"]>): Promise<string> {
   const res = await fetchFn(url, {
-    headers: { "User-Agent": USER_AGENT, Accept: "application/rss+xml, application/xml, text/xml" },
+    headers: { "User-Agent": USER_AGENT, Accept: ACCEPT[format] },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
   // 202 mit leerem Körper ist eine Bot Abwehr (z. B. AWS WAF Challenge bei ESPN), kein Feed.
@@ -41,6 +50,19 @@ async function fetchText(url: string, fetchFn: NonNullable<MainDeps["fetch"]>): 
     throw new Error(`HTTP ${res.status} ${res.statusText}${waf ? ` (WAF ${waf})` : ""}`);
   }
   return res.text();
+}
+
+/** Lädt eine Quelle und liefert ihre Rohdaten im gemeinsamen Format. */
+async function loadFeed(url: string, format: FeedFormat, fetchFn: NonNullable<MainDeps["fetch"]>): Promise<RawFeedItem[]> {
+  const text = await fetchText(url, format, fetchFn);
+  if (format === "rss") return parseRss(text);
+  let json: unknown;
+  try {
+    json = JSON.parse(text);
+  } catch {
+    throw new Error(`Antwort ist kein JSON (${text.length} Zeichen)`);
+  }
+  return parseEspnNews(json);
 }
 
 export async function main(argv: readonly string[], deps: MainDeps = {}): Promise<number> {
@@ -77,13 +99,14 @@ export async function main(argv: readonly string[], deps: MainDeps = {}): Promis
   let failed = 0;
   for (const feed of NEWS_FEEDS) {
     try {
-      const items = toNewsItems(feed.source, parseRss(await fetchText(feed.url, fetchFn)), matchers, newsId);
-      if (items.length === 0) throw new Error("Feed ohne gültige Einträge");
+      const items = toNewsItems(feed.source, await loadFeed(feed.url, feed.format, fetchFn), matchers, newsId);
+      if (items.length === 0) throw new Error("Quelle ohne gültige Einträge");
       log(`${feed.source}: ${items.length} Einträge`);
       fresh.push(...items);
     } catch (err) {
       failed++;
-      error(`Quelle ${feed.source} fehlgeschlagen, ihre bisherigen Einträge bleiben. ${describeError(err)}`);
+      // ::warning:: erscheint in GitHub Actions als Annotation in der Übersicht des Laufs.
+      error(`::warning::Warnung: Quelle ${feed.source} fehlgeschlagen, ihre bisherigen Einträge bleiben. ${describeError(err).replace(/\n/g, " ")}`);
     }
   }
   if (failed === NEWS_FEEDS.length) {

@@ -5,8 +5,8 @@
 // zu Ausfällen liest jobs/push.ts nur für die aktuelle Woche.
 // Aus demselben Summary kommt der ESPN FPI predictor nach data/fpi/<saison>-<typ>-<woche>.json (D050),
 // nur für den Schattenvergleich, nie für den Tipp (D009).
-// Mit --current nur die aktuelle Woche, mit --next nur die nächste. push.yml ruft beides getrennt auf, damit
-// langsame Abrufe der nächsten Woche den Push Versand nicht verzögern.
+// Mit --current nur die aktuelle Woche, mit --next nur die nächste. push.yml ruft --current alle 10 Minuten vor
+// dem Versand auf, data.yml --next einmal pro Stunde (D057), die nächste Woche ist nicht zeitkritisch.
 // Aufruf: npm run job:watch [-- --season 2026 --type 2 --week 9] oder npm run job:watch -- --current | --next.
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";

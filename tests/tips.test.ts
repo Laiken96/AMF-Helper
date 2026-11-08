@@ -9,6 +9,8 @@ import {
   homeWinProbability,
   isLocked,
   normalCdf,
+  normalizeProvider,
+  sameOdds,
   sameTipsContent,
   tiebreakerFor,
   tiebreakerGames,
@@ -278,6 +280,19 @@ describe("buildTipsFile", () => {
     expect(f.tiebreakers[0]).toMatchObject({ gameId: "thu", homePoints: 18, awayPoints: 26 });
     // Montagsspiel: Auswärtsfavorit gewinnt nach Spread und Over/Under 25 zu 22
     expect(f.tiebreakers[1]).toMatchObject({ gameId: "mon", homePoints: 22, awayPoints: 25 });
+  });
+
+  it("Anbieter Schreibweise allein ist keine neue Quote, die Datei bleibt gleich", () => {
+    expect(normalizeProvider("Draft Kings")).toBe("draftkings");
+    expect(sameOdds(odds(-3), { ...odds(-3, 45, "2026-11-02T12:00:00Z"), provider: "Draft Kings" })).toBe(true);
+    expect(sameOdds(odds(-3), { ...odds(-3), provider: "ESPN BET" })).toBe(false);
+    const first = buildTipsFile({ week: weekOf(games), odds: baseOdds, standings: BEHIND, existing: null, now: T0 });
+    const later = "2026-11-01T13:00:00Z";
+    const renamed = Object.fromEntries(
+      Object.entries(baseOdds).map(([id, o]) => [id, o && { ...o, provider: "Draft Kings", fetchedAt: later }]),
+    );
+    const second = buildTipsFile({ week: weekOf(games), odds: renamed, standings: BEHIND, existing: first, now: later });
+    expect(sameTipsContent(first, second)).toBe(true);
   });
 
   it("Rangliste ändert nichts an den Tipps", () => {
