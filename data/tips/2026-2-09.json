@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T18:47:15Z",
+  "updatedAt": "2026-11-08T21:47:16Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -253,8 +253,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T21:47:16Z"
     },
     {
       "gameId": "401873047",
@@ -278,8 +278,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T21:47:16Z"
     },
     {
       "gameId": "401873048",
@@ -303,8 +303,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T21:47:16Z"
     },
     {
       "gameId": "401873049",
@@ -328,8 +328,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-08T21:47:16Z"
     },
     {
       "gameId": "401873050",

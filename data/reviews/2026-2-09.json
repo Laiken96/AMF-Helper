@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T19:47:20Z",
+  "updatedAt": "2026-11-08T21:47:19Z",
   "complete": false,
   "games": [
     {
@@ -30,9 +30,9 @@
       "gameId": "401873039",
       "pickTeamId": "18",
       "favoriteTeamId": "18",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "18",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -40,9 +40,9 @@
       "gameId": "401873040",
       "pickTeamId": "6",
       "favoriteTeamId": "6",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "6",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -50,9 +50,9 @@
       "gameId": "401873041",
       "pickTeamId": "7",
       "favoriteTeamId": "7",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "7",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -60,9 +60,9 @@
       "gameId": "401873042",
       "pickTeamId": "8",
       "favoriteTeamId": "8",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "8",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -70,9 +70,9 @@
       "gameId": "401873043",
       "pickTeamId": "14",
       "favoriteTeamId": "14",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "14",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -80,9 +80,9 @@
       "gameId": "401873044",
       "pickTeamId": "19",
       "favoriteTeamId": "19",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "19",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -90,9 +90,9 @@
       "gameId": "401873045",
       "pickTeamId": "12",
       "favoriteTeamId": "12",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "12",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -157,7 +157,7 @@
       "deviationEffect": null
     }
   ],
-  "points": 2,
+  "points": 9,
   "tipped": 15,
   "deviationNet": 0,
   "tiebreakers": [
@@ -182,13 +182,13 @@
   ],
   "opinionCompare": {
     "opinions": 14,
-    "scored": 2,
-    "marketHits": 2,
-    "aiHits": 2,
+    "scored": 9,
+    "marketHits": 9,
+    "aiHits": 9,
     "marketHitRate": 1,
     "aiHitRate": 1,
-    "marketBrier": 0.1112,
-    "aiBrier": 0.1042,
+    "marketBrier": 0.1283,
+    "aiBrier": 0.1329,
     "disagreements": []
   }
 }
