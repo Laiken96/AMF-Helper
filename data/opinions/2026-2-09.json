@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T12:01:46Z",
+  "updatedAt": "2026-11-08T12:10:59Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -161,6 +161,83 @@
         {
           "title": "Miami Dolphins Injury Status - ESPN",
           "url": "https://www.espn.com/nfl/team/injuries/_/name/mia/miami-dolphins"
+        }
+      ]
+    },
+    {
+      "gameId": "401873043",
+      "createdAt": "2026-11-08T12:10:41Z",
+      "winnerTeamId": "14",
+      "pWinner": 0.62,
+      "marketPickTeamId": "14",
+      "marketProb": 0.6306,
+      "reasoning": "Die Commanders verlieren mit Treylon Burks und Dyami Brown zwei Receiver, während bei den Rams Jaylen Watson ausfällt und Trent McDuffie fraglich ist, sodass beide Secondarys geschwächt sind. Das Wetter ist mit Temperaturen um 61 Grad und moderatem Wind unproblematisch, und der Markt sieht die Rams klar vorn, weshalb ich mich dem Favoriten mit etwas weniger Zuversicht als der Markt anschliesse.",
+      "sources": [
+        {
+          "title": "Game Status: Treylon Burks, Dyami Brown ruled out vs. Rams (Commanders.com)",
+          "url": "https://www.commanders.com/news/game-status-commanders-rams-treylon-burks-dyami-brown"
+        },
+        {
+          "title": "Rams Injury Report: Trent McDuffie's Status Adds to Secondary Concerns (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/articles/rams-injury-report-trent-mcduffies-220000440.html"
+        },
+        {
+          "title": "Commanders vs. Rams Weather Forecast: Wind Could Matter Early (SI)",
+          "url": "https://www.si.com/nfl/commanders/onsi/commanders-rams-weather-forecast-week-9"
+        },
+        {
+          "title": "Rams vs Commanders Prediction, Picks & Odds (Covers)",
+          "url": "https://www.covers.com/nfl/rams-vs-commanders-prediction-picks-nov-8-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873044",
+      "createdAt": "2026-11-08T12:10:50Z",
+      "winnerTeamId": "19",
+      "pWinner": 0.6,
+      "marketPickTeamId": "19",
+      "marketProb": 0.5879,
+      "reasoning": "Die Eagles müssen ohne ihre beiden besten Receiver DeVonta Smith und Dontayvion Wicks auskommen, dazu fehlen mehrere Defensivspieler, und QB Tanner McKee ist nur fraglich, während Joe Milton als Starter vorgesehen ist. Die Giants verlieren mit Cam Skattebo zwar ihren Starter-Running-Back, der Markt sieht sie aber dennoch knapp vorne, und das Wetter am Sonntag gilt als unproblematisch. Daher halte ich die Giants für leicht favorisiert.",
+      "sources": [
+        {
+          "title": "Eagles vs. Giants: Predictions, odds, injuries, and more as trade deadline looms",
+          "url": "https://www.inquirer.com/eagles/eagles-giants-preview-predictions-injury-report-trade-deadline-rumors-20261107.html"
+        },
+        {
+          "title": "Eagles injury update: DeVonta Smith among those ruled out vs. NYG",
+          "url": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-injury-update-devonta-smith-among-those-ruled-out-vs-giants/764887/"
+        },
+        {
+          "title": "Eagles QB unexpectedly ruled questionable vs. Giants: Trade could be next - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/eagles-qb-unexpectedly-ruled-questionable-212949378.html"
+        },
+        {
+          "title": "Giants vs. Eagles (Nov 8, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873044/giants-eagles"
+        }
+      ]
+    },
+    {
+      "gameId": "401873045",
+      "createdAt": "2026-11-08T12:10:59Z",
+      "winnerTeamId": "12",
+      "pWinner": 0.74,
+      "marketPickTeamId": "12",
+      "marketProb": 0.7592,
+      "reasoning": "Die Jets verlieren WR Garrett Wilson (Concussion) und LB Trevin Wallace, und laut Heavy fallen auch CB Nahshon Wright und S VJ Payne aus, obwohl der offizielle Jets-Bericht beide noch als fraglich führt. Bei den Chiefs fehlen DT Peter Woods, CB Mansoor Delane und DT Omarr Norman-Lott, dennoch bleibt Heimvorteil und Mahomes spielt voraussichtlich. Ich folge daher dem Markt mit leicht niedrigerer Quote für KC (0.74 statt 0.759), wegen der Defensivlücken und zwei Auswärtsniederlagen in Serie.",
+      "sources": [
+        {
+          "title": "New York Jets Injury Report Week 9 vs. Chiefs Friday",
+          "url": "https://www.newyorkjets.com/news/jets-injury-report-week-9-vs-chiefs-friday-11-6-2026"
+        },
+        {
+          "title": "Chiefs Announce Triple Injury Setback Ahead of Jets Clash",
+          "url": "https://www.essentiallysports.com/nfl-active-news-chiefs-announce-triple-injury-setback-ahead-of-jets-clash/"
+        },
+        {
+          "title": "New York Jets Rule Out 3 Players Less Than 24 Hours Before Chiefs Game",
+          "url": "https://heavy.com/sports/nfl/new-york-jets/new-york-jets-rule-out-3-players-less-than-24-hours-before-chiefs-game/"
         }
       ]
     }
