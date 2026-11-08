@@ -1,7 +1,89 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:47:21Z",
+  "updatedAt": "2026-11-08T16:47:25Z",
   "items": [
+    {
+      "id": "d0a4e21b73b00969",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bijan-robinson-having-big-game-in-madrid",
+      "title": "Bijan Robinson having big game in Madrid",
+      "summary": "Robinson's third-quarter touchdown brought the Falcons within a score.",
+      "publishedAt": "2026-11-08T16:39:12Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "baf43d9986b658e4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-is-inactive-for-the-browns",
+      "title": "Deshaun Watson is inactive for the Browns",
+      "summary": "Watson cleared concussion protocol, but Shedeur Sanders will start for the first time this season.",
+      "publishedAt": "2026-11-08T16:33:52Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "7f6c15f2c51b1b2f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-odds-spreads-totals-lines",
+      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Cowboys-Colts, Jets-Chiefs, Raiders-49ers",
+      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for every game, including Bears vs. Buccaneers",
+      "publishedAt": "2026-11-08T16:24:36Z",
+      "teamIds": [
+        "3",
+        "6",
+        "11",
+        "12",
+        "13",
+        "20",
+        "25",
+        "27"
+      ]
+    },
+    {
+      "id": "36ab06e2029ee721",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-to-sign-odell-beckham-jr-to-53-man-roster",
+      "title": "Report: Vikings to sign Odell Beckham Jr. to 53-man roster",
+      "summary": "The move would set Beckham up for his Vikings debut on Monday night.",
+      "publishedAt": "2026-11-08T16:20:41Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "0126ae0ec2ba4e7f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-week-9-odds-brinsons-best-bets-best-player-props-anytime-touchdown-scorers-picks-for-sunday-matchups",
+      "title": "NFL Week 9 odds, Brinson's best bets: Best player props, anytime touchdown scorers picks for Sunday matchups",
+      "summary": "Back the Colts as dogs against Dallas, trust New England in Foxborough and target a low rushing total for Ashton Jeanty",
+      "publishedAt": "2026-11-08T16:14:59Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "1f833b1ffee84b8f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-return-to-bay-area-and-the-jail-at-levis-stadium-could-be-busy",
+      "title": "Raiders return to Bay Area — and the jail at Levi's Stadium could be busy",
+      "summary": "The Raiders left Oakland, for the second time, after the 2019 season.",
+      "publishedAt": "2026-11-08T16:04:08Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "bdfead706e855196",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-9-2026-expert-ats-picks-predictions-best-bets-player-props-november-8",
+      "title": "NFL picks against the spread, Week 9 2026: Expert ATS picks, predictions, best bets, player props for Nov. 8",
+      "summary": "The SportsLine experts have locked in their top Week 9 picks from this week's NFL schedule, see who they are backing and fading here",
+      "publishedAt": "2026-11-08T15:46:15Z",
+      "teamIds": []
+    },
     {
       "id": "f3cc9d6bd8ed1d0f",
       "source": "pft",
@@ -432,15 +514,16 @@
       "id": "58562dbe8648b634",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/pete-priscos-week-9-nfl-expert-picks",
-      "title": "Prisco's Week 9 NFL expert picks: Bengals rout Falcons in Madrid, Cowboys rebound",
+      "title": "Prisco's Week 9 NFL expert picks: Cowboys rebound with rout of Colts, Packers edge Patriots",
       "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
       "publishedAt": "2026-11-08T11:00:48Z",
       "teamIds": [
-        "1",
         "2",
-        "4",
         "6",
-        "16"
+        "9",
+        "11",
+        "16",
+        "17"
       ]
     },
     {
@@ -1613,90 +1696,6 @@
       "publishedAt": "2026-11-06T16:38:58Z",
       "teamIds": [
         "24"
-      ]
-    },
-    {
-      "id": "56e5c4ae779d6abb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/minkah-fitzpatrick-no-controversy-with-my-quote-everyone-on-the-jets-knows-what-i-meant",
-      "title": "Minkah Fitzpatrick: No controversy with my quote, everyone on the Jets knows what I meant",
-      "summary": "After Sunday's loss to the Raiders, Jets safety Minkah Fitzpatrick said something that caused a bit of a controversy, but Fitzpatrick says there was no controversy with the only people who matter to him.",
-      "publishedAt": "2026-11-06T16:36:41Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "3db19f421688b18f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jacoby-brissett-trade-grades-cardinals-ravens-trade-deadline",
-      "title": "Jacoby Brissett trade grades: Cardinals earn high mark, Ravens stay afloat in mutually beneficial trade",
-      "summary": "The Ravens needed a quarterback, and the Cardinals got valuable draft capital",
-      "publishedAt": "2026-11-06T16:30:50Z",
-      "teamIds": [
-        "22",
-        "33"
-      ]
-    },
-    {
-      "id": "21c2a86f1e5680e8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-steelers-ls-christian-kuntz-their-community-mvp-for-week-9",
-      "title": "NFLPA names Steelers LS Christian Kuntz their Community MVP for Week 9",
-      "summary": "The NFL Players Association announced on Friday that they have named Steelers long snapper Christian Kuntz their Community MVP for Week 9 of the 2026 season.",
-      "publishedAt": "2026-11-06T16:23:59Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "f0919146b9dfcf45",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-draftkings-betmgm",
-      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, DraftKings, BetMGM",
-      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-06T16:22:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "21f65234716fa5a1",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-lines-odds-spreads-totals",
-      "title": "Week 9 NFL odds, lines, totals, spreads for every game, including Cowboys-Colts, Jets-Chiefs, Giants-Eagles",
-      "summary": "Check the Week 9 NFL odds, spreads, moneylines, and totals for all 15 games, including Bears-Buccaneers",
-      "publishedAt": "2026-11-06T16:15:27Z",
-      "teamIds": [
-        "3",
-        "6",
-        "11",
-        "12",
-        "19",
-        "20",
-        "21",
-        "27"
-      ]
-    },
-    {
-      "id": "0c1ce124dba0507d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-rule-out-garrett-wilson-for-week-9",
-      "title": "Jets rule out Garrett Wilson for Week 9",
-      "summary": "The Jets confirmed that they will be without wide receiver Garrett Wilson for Sunday's game in Kansas City.",
-      "publishedAt": "2026-11-06T16:15:10Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "bd45fbee8518d182",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-derrick-henry-trade-rumor-thoughts-nfl-trade-deadline",
-      "title": "Frustrated Derrick Henry responds to trade rumors, Ravens not expected to deal him, per report",
-      "summary": "Henry was not a happy camper after Baltimore's fourth straight setback",
-      "publishedAt": "2026-11-06T16:14:11Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
