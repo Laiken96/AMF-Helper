@@ -28,6 +28,34 @@
           "points": 46
         }
       ]
+    },
+    {
+      "season": 2026,
+      "seasonType": 2,
+      "week": 9,
+      "reportedAt": "2026-11-08T22:02:05Z",
+      "players": [
+        {
+          "id": "MS",
+          "points": 81
+        },
+        {
+          "id": "LM",
+          "points": 78
+        },
+        {
+          "id": "DH",
+          "points": 76
+        },
+        {
+          "id": "JA",
+          "points": 55
+        },
+        {
+          "id": "CZ",
+          "points": 53
+        }
+      ]
     }
   ]
 }

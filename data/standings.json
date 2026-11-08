@@ -1,29 +1,29 @@
 {
   "schemaVersion": 2,
   "season": 2026,
-  "asOfWeek": 8,
-  "updatedAt": "2026-11-03T06:34:20Z",
+  "asOfWeek": 9,
+  "updatedAt": "2026-11-08T22:02:05Z",
   "me": "JA",
   "players": [
     {
       "id": "MS",
-      "points": 73
+      "points": 81
     },
     {
       "id": "LM",
-      "points": 70
+      "points": 78
     },
     {
       "id": "DH",
-      "points": 69
+      "points": 76
+    },
+    {
+      "id": "JA",
+      "points": 55
     },
     {
       "id": "CZ",
       "points": 53
-    },
-    {
-      "id": "JA",
-      "points": 46
     }
   ]
 }
