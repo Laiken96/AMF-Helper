@@ -1,7 +1,198 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:47:25Z",
+  "updatedAt": "2026-11-08T17:47:19Z",
   "items": [
+    {
+      "id": "6cad579e6080bd8e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/philip-rivers-nc-state-are-finalizing-a-deal-to-make-him-the-next-head-coach",
+      "title": "Philip Rivers, NC State are finalizing a deal to make him the next head coach",
+      "summary": "Yes, it looks like Philip Rivers will be the next former NFL player to become a college head coach.",
+      "publishedAt": "2026-11-08T17:37:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "95a70148a895bf6f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-and-the-bengals-beat-the-falcons-34-17-in-madrid",
+      "title": "Ja'Marr Chase and the Bengals beat the Falcons 34-17 in Madrid",
+      "summary": "Bengals wide receiver Ja'Marr Chase had an outstanding game in a victory over the Falcons.",
+      "publishedAt": "2026-11-08T17:34:34Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "b4d11f9fa7ddbf07",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-signing-odell-beckham-jr-giants",
+      "title": "Odell Beckham Jr. set to make Vikings debut after signing to 53-man roster, per report",
+      "summary": "Beckham will be available to play in Monday night's game vs. the Bills",
+      "publishedAt": "2026-11-08T17:21:33Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "58da1558fb6898b0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-and-patrick-mahomes-have-won-12-straight-against-teams-entering-with-losing-record",
+      "title": "Chiefs and Patrick Mahomes have won 12 straight against teams entering with losing record",
+      "summary": "The Chiefs have lost two games in a row.",
+      "publishedAt": "2026-11-08T17:16:10Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "20df0fd41189a6b2",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-commanders-rams-packers-patriots-nfl-betting",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Commanders-Rams, Packers-Patriots, NFL betting",
+      "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NFL betting",
+      "publishedAt": "2026-11-08T17:13:35Z",
+      "teamIds": [
+        "9",
+        "14",
+        "17",
+        "28"
+      ]
+    },
+    {
+      "id": "9793c1c1379ef0a4",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-packers-patriots-buccaneers-bears-nfl-week-9-betting",
+      "title": "Use FanDuel promo code to get $200 bonus bets for Packers-Patriots, Buccaneers-Bears, NFL Week 9 betting",
+      "summary": "Sign up to wager on NFL Week 9 on Sunday with the latest FanDuel promo code to get your bonus bets",
+      "publishedAt": "2026-11-08T17:11:56Z",
+      "teamIds": [
+        "3",
+        "9",
+        "17",
+        "27"
+      ]
+    },
+    {
+      "id": "78d935918aab91da",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-broncos-panthers-packers-patriots-nfl",
+      "title": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Broncos-Panthers, Packers-Patriots, NFL",
+      "summary": "DraftKings offers $200 in bonus bets and three free months of NBA League Pass after your first $5 wager for NFL betting",
+      "publishedAt": "2026-11-08T17:08:36Z",
+      "teamIds": [
+        "29",
+        "7",
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "4fa45904e6b3d214",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-offered-second-round-pick-and-fifth-round-pick-for-jonathan-taylor",
+      "title": "Giants offered second-round pick and fifth-round pick for Jonathan Taylor",
+      "summary": "As the trade deadline creeps closer, the Giants continue to be linked to a potential trade for Colts running back Jonathan Taylor.",
+      "publishedAt": "2026-11-08T17:07:18Z",
+      "teamIds": [
+        "11",
+        "19"
+      ]
+    },
+    {
+      "id": "c221b6e24e543afd",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/nfl-week-9-rams-vs-commanders-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus",
+      "title": "NFL Week 9 Rams vs. Commanders odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+      "summary": "Here's a closer look at the top trading markets available at Kalshi for Sunday's Week 9 matchup between Los Angeles and Washington",
+      "publishedAt": "2026-11-08T17:00:58Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "6ab63b7055faa01a",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/nfl-week-9-lions-vs-dolphins-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus",
+      "title": "NFL Week 9 Lions vs. Dolphins odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus",
+      "summary": "Use the latest Polymarket promo code to make predictions for Lions vs. Dolphins in NFL Week 9 action",
+      "publishedAt": "2026-11-08T17:00:51Z",
+      "teamIds": [
+        "8",
+        "15"
+      ]
+    },
+    {
+      "id": "640b673ffc4d031b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/2026-week-9-nfl-player-props-odds-picks-best-bets-for-sundays-games-include-nico-collins-brock-purdy",
+      "title": "2026 Week 9 NFL player props, odds, picks, best bets for Sunday's games include Nico Collins, Brock Purdy",
+      "summary": "Bet on Week 9 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
+      "publishedAt": "2026-11-08T16:53:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "91c572bf7d3a40eb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-pickens-joey-porter-jr-will-not-play-for-the-cowboys",
+      "title": "George Pickens, Joey Porter Jr. will not play for the Cowboys",
+      "summary": "LB DeMarvion Overshown is also inactive for Sunday's game against the Colts.",
+      "publishedAt": "2026-11-08T16:48:51Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "11bafe15bb3ecf40",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/browns-vs-saints-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-9",
+      "title": "Browns vs. Saints odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 9",
+      "summary": "Here's everything bettors need to know for Browns vs. Saints in NFL Week 9",
+      "publishedAt": "2026-11-08T16:45:37Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "7544d15e0574d445",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/jets-vs-chiefs-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-9",
+      "title": "Jets vs. Chiefs odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 9",
+      "summary": "Here's everything bettors need to know for Jets vs. Chiefs in NFL Week 9",
+      "publishedAt": "2026-11-08T16:40:54Z",
+      "teamIds": [
+        "12",
+        "20"
+      ]
+    },
+    {
+      "id": "13fc7230fa60b1c3",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/nfl-week-9-cowboys-vs-colts-odds-predictions-picks-use-kalshi-promo-code-cbssports55-for-55-bonus",
+      "title": "NFL Week 9 Cowboys vs. Colts odds, predictions, picks: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+      "summary": "The Cowboys and Colts look to spark some success Sunday when they meet in NFL Week 9, and here's a look at the trading markets available at Kalshi",
+      "publishedAt": "2026-11-08T16:40:50Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "a06eb8d76954c4bd",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/giants-vs-eagles-odds-picks-prediction-spread-line-start-time-nfl-week-9-betting-preview-best-bets",
+      "title": "Giants vs. Eagles odds, picks, prediction, spread, line: Start time, NFL Week 9 betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Giants vs. Eagles in NFL Week 9",
+      "publishedAt": "2026-11-08T16:40:46Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
     {
       "id": "d0a4e21b73b00969",
       "source": "pft",
@@ -509,6 +700,15 @@
         "1",
         "4"
       ]
+    },
+    {
+      "id": "211ddf7a57a5e30c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
+      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
+      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "publishedAt": "2026-11-08T11:01:00Z",
+      "teamIds": []
     },
     {
       "id": "58562dbe8648b634",
@@ -1508,194 +1708,6 @@
       "publishedAt": "2026-11-06T19:46:13Z",
       "teamIds": [
         "8"
-      ]
-    },
-    {
-      "id": "9d3bb5c2ae9e8ac5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-confirms-myles-garrett-will-play-on-sunday",
-      "title": "Sean McVay confirms Myles Garrett will play on Sunday",
-      "summary": "The Rams will be welcoming linebacker Myles Garrett back to their lineup on Sunday.",
-      "publishedAt": "2026-11-06T19:24:06Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "fef0aa067e905b9e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mansoor-delane-will-not-play-for-the-chiefs-on-sunday",
-      "title": "Mansoor Delane will not play for the Chiefs on Sunday",
-      "summary": "The Jets will be down a receiver for Sunday's game in Kansas City after ruling out Garrett Wilson and the Chiefs will be short a cornerback.",
-      "publishedAt": "2026-11-06T19:15:07Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "503f0f82b2724a53",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/antonio-brown-pleads-guilty-to-aggravated-assault-with-a-firearm",
-      "title": "Antonio Brown pleads guilty to aggravated assault with a firearm",
-      "summary": "Former NFL receiver Antonio Brown, who was charged with attempted murder after a May 2025 shooting in Miami, has pleaded guilty to a lesser charge.",
-      "publishedAt": "2026-11-06T19:10:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "00b30239624abf68",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-spain-bengals-joe-burrow-full-tourist-in-madrid",
-      "title": "NFL in Spain: Bengals star Joe Burrow goes full tourist in Madrid, reveals the one thing he hates the most",
-      "summary": "The Bengals are fully enjoying their time in the Spanish capital, which has been taken over by Cincinnati fans",
-      "publishedAt": "2026-11-06T19:08:24Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "32e1dd1370039fa3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/browns-name-starting-qb-week-9-saints-shedeur-sanders-deshaun-watson",
-      "title": "Browns name starting QB for Week 9 game vs. Saints: Shedeur Sanders gets nod over Deshaun Watson",
-      "summary": "Sanders briefly replaced Watson during last Sunday's loss in Pittsburgh",
-      "publishedAt": "2026-11-06T18:56:49Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "0e6890dbbfeecf4b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-issue-new-statement-on-stadium-that-officially-puts-illinois-back-in-play",
-      "title": "Bears issue new statement on stadium that officially puts Illinois back in play",
-      "summary": "Indiana is no longer the \"sole focus\" for a new venue.",
-      "publishedAt": "2026-11-06T18:39:58Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "3d054f3a03369891",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shedeur-sanders-to-start-for-the-browns",
-      "title": "Shedeur Sanders to start for the Browns",
-      "summary": "Deshaun Watson will be listed as questionable, remains in concussion protocol.",
-      "publishedAt": "2026-11-06T18:31:33Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "a98334b929f7d4d6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-to-miss-second-straight-game-for-patriots",
-      "title": "A.J. Brown to miss second straight game for Patriots",
-      "summary": "It will be another Sunday without wide receiver A.J.",
-      "publishedAt": "2026-11-06T18:23:10Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "8f2078ef4b761171",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-scrambles-to-rectify-his-comments-about-coaching-pay",
-      "title": "Jerry Jones scrambles to rectify his comments about coaching pay",
-      "summary": "The gaslighting of Cowboys fans continues.",
-      "publishedAt": "2026-11-06T18:17:24Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "e5b3f07efaf162e3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/myles-garrett-injury-status-rams-week-9-vs-commanders",
-      "title": "Myles Garrett on track to be activated ahead of Rams Week 9 matchup vs. Commanders",
-      "summary": "Los Angeles could be getting its star pass rusher back",
-      "publishedAt": "2026-11-06T18:03:08Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "3254fd0dd067b775",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-myles-garrett-on-track-to-be-activated",
-      "title": "Report: Myles Garrett on track to be activated",
-      "summary": "Garrett has not played since Week 1 due to a knee injury.",
-      "publishedAt": "2026-11-06T17:37:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "fab764edab1cf593",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tristan-wirfs-to-play-sunday-emeka-egbuka-questionable",
-      "title": "Tristan Wirfs to play Sunday, Emeka Egbuka questionable",
-      "summary": "The Bucs will have left tackle Tristan Wirfs in the lineup as they try to stretch their winning streak to three games on Sunday.",
-      "publishedAt": "2026-11-06T17:30:28Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "b1ebd07cda37dfbc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-returns-to-practice-friday-remains-in-concussion-protocol",
-      "title": "Deshaun Watson returns to practice Friday, remains in concussion protocol",
-      "summary": "Browns quarterback Deshaun Watson is showing signs of progress in his recovery from a concussion.",
-      "publishedAt": "2026-11-06T17:25:01Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "32cba10ae1bde8a0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-game-predictions-best-bets-for-week-9-2026",
-      "title": "Week 9 NFL odds, picks, predictions: Computer model backs Chiefs and Commanders",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 9 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-06T17:08:53Z",
-      "teamIds": [
-        "12",
-        "28"
-      ]
-    },
-    {
-      "id": "7e6c03e4a890c6b0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/patriots-treveyon-henderson-update-unknown-unexplainable-illness",
-      "title": "Patriots' TreVeyon Henderson provides update on 'unknown and unexplainable' illness",
-      "summary": "The second-year back spent several days in the hospital with neurological symptoms that affected his strength and coordination",
-      "publishedAt": "2026-11-06T16:55:37Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "95bef482ef846a90",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-turner-set-to-play-for-bengals-kyle-dugger-ruled-out",
-      "title": "DJ Turner set to play for Bengals, Kyle Dugger ruled out",
-      "summary": "The Bengals have issued their injury designations for Sunday's game against the Falcons in Madrid.",
-      "publishedAt": "2026-11-06T16:46:47Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "231f92161ad4f3f2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chargers-mike-mcdaniel-calling-play-from-booth-desperation-move",
-      "title": "Chargers' Mike McDaniel to begin calling play from the booth: Desperation move or possible fix?",
-      "summary": "Los Angeles enters Week 9 with a 0-7 record",
-      "publishedAt": "2026-11-06T16:38:58Z",
-      "teamIds": [
-        "24"
       ]
     }
   ]
