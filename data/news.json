@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T10:47:17Z",
+  "updatedAt": "2026-11-08T11:47:16Z",
   "items": [
+    {
+      "id": "58562dbe8648b634",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-9-nfl-expert-picks",
+      "title": "Prisco's Week 9 NFL expert picks: Bengals rout Falcons in Madrid, Cowboys rebound",
+      "summary": "Pete Prisco reveals all of his Week 9 picks, including the Bills handing the Vikings their second straight loss",
+      "publishedAt": "2026-11-08T11:00:48Z",
+      "teamIds": [
+        "1",
+        "2",
+        "4",
+        "6",
+        "16"
+      ]
+    },
     {
       "id": "f218fb8d2e58afcd",
       "source": "cbs",
@@ -1667,15 +1682,6 @@
       "teamIds": [
         "14"
       ]
-    },
-    {
-      "id": "df433a3de3ded4cd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-milton-on-his-first-start-the-nfl-is-about-being-ready-when-your-number-is-called",
-      "title": "Joe Milton on his first start: The NFL is about being ready when your number is called",
-      "summary": "Joe Milton has never started an NFL game.",
-      "publishedAt": "2026-11-06T01:34:33Z",
-      "teamIds": []
     }
   ]
 }
