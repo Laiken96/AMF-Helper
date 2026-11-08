@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T21:10:31Z",
+    "takenAt": "2026-11-08T21:20:34Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1860,17 +1860,6 @@
         "kickoffUtc": "2026-11-08T21:05:00Z",
         "players": [
           {
-            "athleteId": "4258173",
-            "name": "Nico Collins",
-            "pos": "WR",
-            "teamId": "34",
-            "teamAbbr": "HOU",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4429059",
             "name": "Woody Marks",
             "pos": "RB",
@@ -1890,6 +1879,51 @@
             "roles": [
               "qb",
               "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4686422",
+            "name": "Xavier Hutchinson",
+            "pos": "WR",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4038941",
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4241263",
+            "name": "Charlie Kolar",
+            "pos": "TE",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4429025",
+            "name": "Quentin Johnston",
+            "pos": "WR",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "rushing"
             ],
             "status": null
           }
