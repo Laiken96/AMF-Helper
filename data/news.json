@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T03:47:28Z",
+  "updatedAt": "2026-11-08T09:47:22Z",
   "items": [
+    {
+      "id": "02fd23eb5d2aa5cb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-have-told-teams-they-were-offered-a-fourth-round-pick-for-josh-downs",
+      "title": "Report: Colts have told teams they were offered a fourth-round pick for Josh Downs",
+      "summary": "A third-round pick appears to be what the Colts are trying to get to trade Downs.",
+      "publishedAt": "2026-11-08T09:32:24Z",
+      "teamIds": [
+        "11"
+      ]
+    },
     {
       "id": "8401acf81efa916e",
       "source": "pft",
@@ -1664,18 +1675,6 @@
         "4",
         "6",
         "16"
-      ]
-    },
-    {
-      "id": "452d454617c43d0a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-score-on-opening-drive-for-7-0-lead-on-ravens",
-      "title": "Jaguars score on opening drive for 7-0 lead on Ravens",
-      "summary": "The Jaguars didn't waste any time in showing off on national television.",
-      "publishedAt": "2026-11-06T01:27:17Z",
-      "teamIds": [
-        "33",
-        "30"
       ]
     }
   ]
