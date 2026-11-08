@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T14:40:34Z",
+    "takenAt": "2026-11-08T16:40:30Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1282,7 +1282,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4685702",
@@ -1317,6 +1317,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4361259",
+            "name": "Zach Wilson",
+            "pos": "QB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4361370",
@@ -1613,6 +1624,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4432722",
+            "name": "Athan Kaliakmanis",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4575131",
@@ -2290,6 +2312,36 @@
       "name": "Jack Strand",
       "pos": "QB",
       "teamAbbr": "ATL",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873039",
+      "athleteId": "4361259",
+      "name": "Zach Wilson",
+      "pos": "QB",
+      "teamAbbr": "NO",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873039",
+      "athleteId": "3122840",
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "teamAbbr": "CLE",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Out"
+    },
+    {
+      "gameId": "401873043",
+      "athleteId": "4432722",
+      "name": "Athan Kaliakmanis",
+      "pos": "QB",
+      "teamAbbr": "WSH",
       "kind": "neu",
       "from": null,
       "to": "Out"
