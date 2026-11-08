@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T22:47:20Z",
+  "updatedAt": "2026-11-08T00:45:14Z",
   "items": [
+    {
+      "id": "a5a65619b06fe961",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/falcons-vs-bengals-prediction-odds-where-to-watch",
+      "title": "Falcons vs. Bengals: Cincinnati seeks first international win as division contenders travel to Madrid",
+      "summary": "The NFL returns to Spain for the second straight season with a matchup that features many of the league's top offensive stars",
+      "publishedAt": "2026-11-08T00:01:11Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "83e186101308f788",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-could-end-up-with-both-daniel-jones-and-jonathan-taylor",
+      "title": "Vikings could end up with both Daniel Jones and Jonathan Taylor",
+      "summary": "With Minnesota linked to both players, why not do a package deal?",
+      "publishedAt": "2026-11-07T23:54:16Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "df27a8e2b05e560c",
       "source": "pft",
@@ -1653,30 +1676,6 @@
       "title": "Thursday Night Football: DE Travon Walker, RB Bhayshul Tuten active for Jaguars vs. Ravens",
       "summary": "The Jaguars will have running back Bhayshul Tuten and defensive end Travon Walker for Thursday Night Football against the Ravens.",
       "publishedAt": "2026-11-05T23:58:06Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "b2452e1fe717541f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/jaguars-vs-ravens-odds-picks-nfl-week-9-prediction-best-bets-player-props-for-thursday-night-football",
-      "title": "Jaguars vs. Ravens odds, picks, NFL Week 9 prediction: Best bets, player props for Thursday Night Football",
-      "summary": "Baltimore turns to third-string quarterback Joe Fagnano with Lamar Jackson sidelined, making Jacksonville a rare double-digit road favorite on Thursday night",
-      "publishedAt": "2026-11-05T23:45:40Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "cae4dc112cc861f5",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/jaguars-vs-ravens-odds-prediction-betting-preview-start-time-thursday-night-football-picks-best-bets",
-      "title": "Jaguars vs. Ravens odds, prediction, betting preview, start time: Thursday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Jaguars vs. Ravens on Thursday Night Football",
-      "publishedAt": "2026-11-05T23:38:16Z",
       "teamIds": [
         "33",
         "30"
