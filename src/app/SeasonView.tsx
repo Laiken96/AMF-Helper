@@ -11,7 +11,7 @@ import { useLayoutValue } from "./layout";
 import { applySeasonChoices, useChoicesFor, usePlayer } from "./player";
 import { loadSeasonData, seasonWeekHref, type SeasonData } from "./season-data";
 import { SimTimeoutError, runSimulation, type SimRun } from "./sim-run";
-import { LoadErrorNotice, PageHeader, Segmented, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Segmented, weekLabel, PageSplitMark } from "./ui";
 import type { PickRateMode } from "../core/calibrate";
 
 /** Ab so vielen gewerteten Spielen gelten Saisonzahlen als aussagekräftig. */
@@ -88,6 +88,7 @@ export function SeasonView({ toggle }: { toggle: ReactNode }) {
   if (wide) {
     return (
       <div className="duo-split season-split">
+        <PageSplitMark />
         <div className="pane pane-metrics" aria-label="Kennzahlen der Saison" role="region">
           {metrics}
         </div>

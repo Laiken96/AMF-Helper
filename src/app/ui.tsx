@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { Team } from "../core/schema";
 import { darkLogoUrl } from "./colors";
 import { friendlyLoadError } from "./wording";
@@ -242,4 +242,17 @@ export function WeekStepper({
       {step(next, "right")}
     </nav>
   );
+}
+
+/**
+ * Markiert die Seite als geteilt (Duo quer), solange eine geteilte Ansicht sichtbar ist. Ersetzt die frühere
+ * Regel .page:has(> .tips-split), die Safari bei jeder Änderung über die ganze Seite neu prüfte.
+ */
+export function PageSplitMark() {
+  useLayoutEffect(() => {
+    const page = document.querySelector("main.page");
+    page?.classList.add("page-split");
+    return () => page?.classList.remove("page-split");
+  }, []);
+  return null;
 }

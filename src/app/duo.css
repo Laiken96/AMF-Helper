@@ -2,7 +2,7 @@
    Raster wie die Tipps (.tips-split in app.css): links bis zum Falz, 2 px Falz, rechts der Rest.
    Farben nur über die Variablen aus app.css, damit der Hellmodus greift. */
 
-[data-layout="wide"] .page:has(> .duo-split) {
+[data-layout="wide"] .page.page-split {
   overflow: hidden;
 }
 

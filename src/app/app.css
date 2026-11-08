@@ -327,7 +327,7 @@ a:hover {
 
 /* Wide Tipps: Spielbereich bis zum Falz, Liste rechts, beide scrollen unabhängig */
 /* Nur mit geteilter Ansicht, vergangene Wochen und Wochen ohne Tipps scrollen normal */
-[data-layout="wide"] .page.view-tipps:has(> .tips-split) {
+[data-layout="wide"] .page.view-tipps.page-split {
   overflow: hidden;
 }
 
@@ -2588,9 +2588,11 @@ a.step-label:active,
   filter: brightness(0.85);
 }
 
-.tip:has(.tip-select:active),
-.game:has(.game-btn:active),
-.news-item:has(.news-link:active) {
+/* Kein :has(:active) mehr: Safari prüft solche Regeln bei jeder Berührung über die ganze Seite neu,
+   im Duo aufgeklappt mit Liste und Spielbereich blockierte das die App für Sekunden (Nutzerbug 2026-11-08) */
+.tip-select:active,
+.game-btn:active,
+.news-link:active {
   filter: brightness(0.85);
   transform: scale(0.99);
   transition:
@@ -2618,9 +2620,9 @@ a.step-label:active,
   .hero-nav-arrow:active:not(:disabled),
   .hero-nav-home:active,
   .tick:active,
-  .tip:has(.tip-select:active),
-  .game:has(.game-btn:active),
-  .news-item:has(.news-link:active) {
+  .tip-select:active,
+  .game-btn:active,
+  .news-link:active {
     transform: none;
   }
 

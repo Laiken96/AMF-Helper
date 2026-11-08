@@ -14,7 +14,7 @@ import {
 } from "./push";
 import { useLayoutValue } from "./layout";
 import { playerChoices, usePlayer, useStandings } from "./player";
-import { PageHeader, Segmented } from "./ui";
+import { PageHeader, Segmented, PageSplitMark } from "./ui";
 import { TIME_ZONE_TEXT } from "./wording";
 
 const SECRETS_URL = "https://github.com/Laiken96/AMF-Helper/settings/secrets/actions";
@@ -338,6 +338,7 @@ export function SettingsView({ onShowOnboarding }: { onShowOnboarding: () => voi
   if (wide) {
     return (
       <div className="duo-split settings-split">
+        <PageSplitMark />
         <div className="pane pane-detail settings-pane">
           {header}
           {playerSection}

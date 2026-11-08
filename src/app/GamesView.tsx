@@ -27,7 +27,7 @@ import { GameSheet } from "./Sheet";
 import { useChoices, usePlayer, useShownTips } from "./player";
 import { useLiveScores, useLiveSummaries, type LiveGame, type LiveState } from "./live";
 import { LiveCarousel, LiveTicker } from "./LiveTicker";
-import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, TeamBadge, WeekStepper, fallbackTeam, weekLabel, PageSplitMark } from "./ui";
 import { clockFormat, formatCountdown, formatStand } from "./wording";
 
 /** Reiter Spiele: Spielplan der gewählten Woche mit Liveticker für laufende Spiele. arg ist Woche und optional Spiel. */
@@ -237,6 +237,7 @@ function GamesWeek({ data, pending, selectedId }: { data: GamesData; pending: bo
   if (wide) {
     return (
       <div className="duo-split">
+        <PageSplitMark />
         <div className="pane pane-detail">
           {shownGame && runningIds.includes(shownGame.id) && live.games.get(shownGame.id) ? (
             tickerFor(shownGame)

@@ -9,7 +9,7 @@ import { useLiveScores, type LiveState } from "./live";
 import { applyChoicesToReview, useChoices, usePlayer } from "./player";
 import { rankingCheckText } from "./review-text";
 import { SeasonView } from "./SeasonView";
-import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
+import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel, PageSplitMark } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, formatStand, scoreAria, scoreText } from "./wording";
 
 const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
@@ -311,6 +311,7 @@ function RankingCheckNote({ check }: { check: RankingCheck }) {
 function ReviewSplit({ metrics, list }: { metrics: ReactNode; list: ReactNode }) {
   return (
     <div className="duo-split">
+        <PageSplitMark />
       <div className="pane pane-metrics" aria-label="Kennzahlen der Woche" role="region">
         {metrics}
       </div>
