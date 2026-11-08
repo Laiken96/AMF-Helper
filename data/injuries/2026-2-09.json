@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T18:20:29Z",
+    "takenAt": "2026-11-08T18:30:51Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1302,17 +1302,7 @@
             "teamAbbr": "CLE",
             "roles": [
               "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685702",
-            "name": "Quinshon Judkins",
-            "pos": "RB",
-            "teamId": "5",
-            "teamAbbr": "CLE",
-            "roles": [
+              "passing",
               "rushing"
             ],
             "status": null
@@ -1392,17 +1382,6 @@
             "status": null
           },
           {
-            "athleteId": "4361579",
-            "name": "Javonte Williams",
-            "pos": "RB",
-            "teamId": "6",
-            "teamAbbr": "DAL",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4426485",
             "name": "Jonathan Mingo",
             "pos": "WR",
@@ -1410,6 +1389,17 @@
             "teamAbbr": "DAL",
             "roles": [
               "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4429676",
+            "name": "Tyler Goodson",
+            "pos": "RB",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "rushing"
             ],
             "status": null
           },
@@ -1597,13 +1587,24 @@
             "status": null
           },
           {
-            "athleteId": "4569603",
-            "name": "Malik Washington",
-            "pos": "WR",
+            "athleteId": "4711533",
+            "name": "Ollie Gordon II",
+            "pos": "RB",
             "teamId": "15",
             "teamAbbr": "MIA",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4869645",
+            "name": "Caleb Douglas",
+            "pos": "WR",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "receiving"
             ],
             "status": null
           }
