@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T20:10:31Z",
+    "takenAt": "2026-11-08T20:20:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2073,7 +2073,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4430878",
@@ -2541,16 +2541,6 @@
       "name": "Kurtis Rourke",
       "pos": "QB",
       "teamAbbr": "SF",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
-    },
-    {
-      "gameId": "401873048",
-      "athleteId": "3912547",
-      "name": "Sam Darnold",
-      "pos": "QB",
-      "teamAbbr": "SEA",
       "kind": "neu",
       "from": null,
       "to": "Out"
