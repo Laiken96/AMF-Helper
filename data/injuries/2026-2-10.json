@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T13:20:31Z",
+    "takenAt": "2026-11-08T13:50:33Z",
     "games": [
       {
         "gameId": "401873052",
@@ -456,6 +456,17 @@
         "gameId": "401873058",
         "kickoffUtc": "2026-11-15T18:00:00Z",
         "players": [
+          {
+            "athleteId": "14012",
+            "name": "Andy Dalton",
+            "pos": "QB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4360423",
             "name": "Michael Penix Jr.",
