@@ -115,7 +115,7 @@
 }
 
 /* ---------- Einstellungen: zwei Bereiche am Falz ---------- */
-/* Links Spieler und Push, rechts Anzeige, Leseanleitung und Technik. Raster aus .duo-split. */
+/* Links Push, rechts Anzeige, Leseanleitung und Technik. Raster aus .duo-split. */
 
 .settings-split .settings-pane {
   gap: 12px;

@@ -1,18 +1,14 @@
 import { useEffect, useMemo, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
-import type { GameReview, RankingCheck, ReviewFile, StandingsHistory } from "../core/review-schema";
-import { groupWeekRows } from "../core/standings";
-import { loadReviewPage, parseWeekKey, sameRef, setShownWeek, useKeptLoad, type ReviewData, type WeekRef } from "./data";
+import type { GameReview, ReviewFile } from "../core/review-schema";
+import { loadReviewPage, parseWeekKey, sameRef, setShownWeek, useKeptLoad, type ReviewData } from "./data";
 import { RESULT_BADGE, gameState, reviewResult, winnerSide, withLiveFinal } from "./game-view";
 import { useLayoutValue } from "./layout";
 import { useLiveScores, type LiveState } from "./live";
 import { applyChoicesToReview, useChoices, usePlayer } from "./player";
-import { rankingCheckText } from "./review-text";
 import { SeasonView } from "./SeasonView";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel, PageSplitMark } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, formatStand, scoreAria, scoreText } from "./wording";
-
-const RANKING_FORM_URL = "https://github.com/Laiken96/AMF-Helper/issues/new?template=rangliste.yml";
 
 /** Hash Argument der Saisonansicht: #bilanz/saison. */
 export const SEASON_ARG = "saison";
@@ -76,31 +72,13 @@ function WeekReview({ arg }: { arg: string | null }) {
 /** Kachel Titel statt "App Punkte": richtige Tipps der App in dieser Woche. */
 const POINTS_TITLE = "Richtige App Tipps";
 
-/** Strich für nicht gemeldete Wochenpunkte, Vorleser hört "nicht gemeldet". Erste Meldung der Saison eigens. */
-const Missing = ({ first = false }: { first?: boolean }) => {
-  const text = first ? "erste Meldung, Wochenpunkte ab der nächsten Woche" : "nicht gemeldet";
-  return (
-    <span className="missing" title={text}>
-      <span aria-hidden="true">{"\u2013"}</span>
-      <span className="sr-only">{text}</span>
-    </span>
-  );
-};
-
-/** Erste Meldung der Saison: kein früherer Eintrag, gegen den Wochenpunkte gerechnet werden könnten. */
-function firstEntry(history: StandingsHistory, ref: WeekRef): boolean {
-  const order = (e: WeekRef) => e.seasonType * 100 + e.week;
-  return !history.entries.some((e) => e.season === ref.season && order(e) < order(ref)) &&
-    history.entries.some((e) => e.season === ref.season && order(e) === order(ref));
-}
-
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n));
 
 function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }) {
-  const { week, standings, history, ref } = data;
-  // Eigene Wahl des gewählten Spielers verrechnet (D057), mit sichtbarem Hinweis
+  const { week, standings, ref } = data;
+  // Eigene Wahl verrechnet (D057), mit sichtbarem Hinweis
   const player = usePlayer(standings);
-  const { choices } = useChoices(player.player, ref);
+  const { choices } = useChoices(player, ref);
   const own = useMemo(
     () => (data.review ? applyChoicesToReview(data.review, choices, week?.games ?? null) : { review: null, changed: 0 }),
     [data.review, choices, week],
@@ -144,8 +122,6 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
             <p>Noch keine Auswertung</p>
           </section>
         </div>
-        <GroupWeek history={history} week={ref} me={standings.me} />
-        <SeasonTable history={history} season={ref.season} me={standings.me} />
       </>
     );
     if (wide) {
@@ -191,8 +167,8 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
   const gameList = <GameList review={review} gameById={gameById} team={team} live={live} />;
   const ownNote = own.changed > 0 && (
     <p className="notice own-note">
-      <strong>inkl. deiner Abweichungen.</strong> {own.changed} {own.changed === 1 ? "Spiel zählt" : "Spiele zählen"} mit der
-      eigenen Wahl von {player.player}, gespeichert auf diesem Gerät.
+      <strong>inkl. deiner Abweichungen.</strong> {own.changed} {own.changed === 1 ? "Spiel zählt" : "Spiele zählen"} mit deiner
+      eigenen Wahl, gespeichert auf diesem Gerät.
     </p>
   );
   const metrics = (
@@ -270,9 +246,6 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
         </section>
       )}
 
-      {review.rankingCheck && <RankingCheckNote check={review.rankingCheck} />}
-      <GroupWeek history={history} week={review} me={standings.me} />
-      <SeasonTable history={history} season={review.season} me={standings.me} />
     </>
   );
 
@@ -295,15 +268,6 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
       {metrics}
       {gameList}
     </>
-  );
-}
-
-function RankingCheckNote({ check }: { check: RankingCheck }) {
-  return (
-    <section className="slot">
-      <h2>Abgleich Rangliste {check.playerId}</h2>
-      <p className={check.gap === 0 ? "notice ranking-check" : "notice notice-pending ranking-check"}>{rankingCheckText(check)}</p>
-    </section>
   );
 }
 
@@ -330,127 +294,6 @@ function DeviationLine({ game, team }: { game: GameReview; team: (id: string) =>
     <li>
       {pick} statt {fav}: <span className={cls}>{effect === null ? "offen" : signed(effect)}</span>
     </li>
-  );
-}
-
-function GroupWeek({ history, week: review, me }: { history: StandingsHistory; week: WeekRef; me: string }) {
-  const rows = groupWeekRows(history, review.season, review.seasonType, review.week);
-  if (!rows) {
-    return (
-      <section className="slot">
-        <h2>Gruppe Week {review.week}</h2>
-        <p className="notice notice-pending">
-          Rangliste für Week {review.week} noch nicht gemeldet.{" "}
-          <a href={RANKING_FORM_URL} target="_blank" rel="noopener noreferrer">
-            Rangliste für Week {review.week} melden
-          </a>
-        </p>
-      </section>
-    );
-  }
-  const hasWeek = rows.every((r) => r.week !== null);
-  const sorted = [...rows].sort((a, b) => (b.week ?? 0) - (a.week ?? 0) || b.total - a.total || a.id.localeCompare(b.id));
-  return (
-    <section className="slot">
-      <h2>Gruppe Week {review.week}</h2>
-      <table className="group-table">
-        <thead>
-          <tr>
-            <th scope="col">Kürzel</th>
-            <th scope="col">Woche</th>
-            <th scope="col">Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          {sorted.map((r) => (
-            <tr key={r.id} className={r.id === me ? "me" : undefined}>
-              <th scope="row">{r.id}</th>
-              <td>{r.week ?? <Missing first={firstEntry(history, review)} />}</td>
-              <td>{r.total}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      {!hasWeek &&
-        (firstEntry(history, review) ? (
-          <p className="push-hint">Erste Meldung der Saison, Wochenpunkte ab der nächsten Woche.</p>
-        ) : (
-          <MissingHint week={review.week} />
-        ))}
-    </section>
-  );
-}
-
-function SeasonTable({ history, season, me }: { history: StandingsHistory; season: number; me: string }) {
-  const entries = history.entries
-    .filter((e) => e.season === season)
-    .sort((a, b) => a.seasonType - b.seasonType || a.week - b.week);
-  if (entries.length === 0) return null;
-  const latest = entries[entries.length - 1]!;
-  const ids = [...latest.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id)).map((p) => p.id);
-  const isFirst = (e: { seasonType: number; week: number }) => firstEntry(history, { season, seasonType: e.seasonType, week: e.week });
-  const anyMissing = entries.some(
-    (e) => !isFirst(e) && groupWeekRows(history, season, e.seasonType, e.week)?.some((r) => r.week === null),
-  );
-  const firstMissing = entries.some((e) => isFirst(e) && groupWeekRows(history, season, e.seasonType, e.week)?.some((r) => r.week === null));
-  return (
-    <section className="slot">
-      <h2>Saisonverlauf {season}</h2>
-      <div className="table-scroll">
-        <table className="season-table">
-          <thead>
-            <tr>
-              <th scope="col">Woche</th>
-              {ids.map((id) => (
-                <th key={id} scope="col" className={id === me ? "me" : undefined}>
-                  {id}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {entries.map((e) => {
-              const rows = groupWeekRows(history, season, e.seasonType, e.week) ?? [];
-              return (
-                <tr key={`${e.seasonType}-${e.week}`}>
-                  <th scope="row">{e.seasonType === 3 ? `P${e.week}` : e.week}</th>
-                  {ids.map((id) => (
-                    <td key={id} className={id === me ? "me" : undefined}>
-                      {rows.find((r) => r.id === id)?.week ?? <Missing first={isFirst(e)} />}
-                    </td>
-                  ))}
-                </tr>
-              );
-            })}
-          </tbody>
-          <tfoot>
-            <tr>
-              <th scope="row">Total</th>
-              {ids.map((id) => (
-                <td key={id} className={id === me ? "me" : undefined}>
-                  {latest.players.find((p) => p.id === id)?.points ?? <Missing />}
-                </td>
-              ))}
-            </tr>
-          </tfoot>
-        </table>
-      </div>
-      {firstMissing && <p className="push-hint">Erste Meldung: Wochenpunkte erst ab der nächsten Woche.</p>}
-      {anyMissing && <p className="push-hint">Ein Strich heisst nicht gemeldet.</p>}
-    </section>
-  );
-}
-
-/** Hinweis zu Strichen: was gemeldet werden muss, damit Wochenpunkte erscheinen. */
-function MissingHint({ week }: { week: number }) {
-  return (
-    <p className="push-hint">
-      Ein Strich heisst nicht gemeldet. Wochenpunkte entstehen aus der Differenz zweier Ranglisten, dafür braucht es
-      auch die Rangliste der Vorwoche (Week {week - 1}).{" "}
-      <a href={RANKING_FORM_URL} target="_blank" rel="noopener noreferrer">
-        Rangliste melden
-      </a>
-    </p>
   );
 }
 

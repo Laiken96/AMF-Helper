@@ -304,14 +304,14 @@ export function slotMessages(input: SlotInput): DueMessage[] {
 }
 
 /**
- * "Bilanz bereit" für eine komplette Woche (D032). Null, solange noch ein Spiel offen ist. Ohne den Teil zu
+ * "Bilanz bereit" für eine komplette Woche (D032, seit D058 ohne Aufruf zur Meldung). Null, solange noch ein Spiel offen ist. Ohne den Teil zu
  * Abweichungen (D057), die eigene Wahl liegt nur auf dem Gerät und erscheint in der App.
  */
 export function reviewReadyMessage(review: ReviewFile): DueMessage | null {
   if (!review.complete) return null;
   const tbs = review.tiebreakers.map((tb) => `${tb.slot === "thursday" ? "TNF" : "MNF"} ${tb.diff ?? "?"}`);
   const tb = tbs.length > 0 ? tbs.join(", ") : "keine";
-  const body = `App Punkte ${review.points} von ${review.tipped}, Tiebreaker Abweichung ${tb}. Rangliste melden`;
+  const body = `App Punkte ${review.points} von ${review.tipped}, Tiebreaker Abweichung ${tb}`;
   return {
     key: reviewReadyKey(review.season, review.seasonType, review.week),
     ttlSeconds: REVIEW_READY_TTL_S,

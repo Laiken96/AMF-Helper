@@ -269,22 +269,23 @@ describe("Bilanz bereit", () => {
   };
   const now = "2026-11-03T10:00:00Z";
 
-  it("Text mit Punkten, Tiebreaker und Hinweis, ohne Abweichungen (D057)", () => {
+  it("Text mit Punkten und Tiebreaker, ohne Abweichungen (D057) und ohne Ranglisten Meldung (D058)", () => {
     const m = reviewReadyMessage(base)!;
     expect(m.key).toBe("review-ready:2026-2-8");
     expect(m.payload).toEqual({
       title: "Bilanz W8 bereit",
-      body: "App Punkte 9 von 13, Tiebreaker Abweichung TNF 4, MNF 9. Rangliste melden",
+      body: "App Punkte 9 von 13, Tiebreaker Abweichung TNF 4, MNF 9",
       url: "#bilanz",
       tag: "review-ready-2026-2-8",
     });
     expect(m.payload.title.length).toBeLessThanOrEqual(TITLE_MAX);
     expect(m.payload.body.length).toBeLessThanOrEqual(BODY_MAX);
+    expect(m.payload.body).not.toMatch(/Rangliste|melden/);
   });
 
   it("ohne Tiebreaker, Netto der Abweichungen erscheint nie", () => {
     const m = reviewReadyMessage({ ...base, deviationNet: -2, tiebreakers: [] })!;
-    expect(m.payload.body).toBe("App Punkte 9 von 13, Tiebreaker Abweichung keine. Rangliste melden");
+    expect(m.payload.body).toBe("App Punkte 9 von 13, Tiebreaker Abweichung keine");
   });
 
   it("nicht komplette Woche ist nicht fällig", () => {

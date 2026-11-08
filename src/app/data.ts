@@ -13,9 +13,7 @@ import {
   ReviewFileSchema,
   REVIEW_INDEX_PATH,
   ReviewIndexSchema,
-  StandingsHistorySchema,
   type ReviewFile,
-  type StandingsHistory,
 } from "../core/review-schema";
 import { InjuriesFileSchema, injuriesFilePath, type InjuriesFile } from "../core/injuries";
 import { NewsFileSchema, WeeksIndexSchema, type NewsFile, type WeeksIndex } from "../core/extra-schema";
@@ -122,8 +120,6 @@ const loadJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer
 const loadOptionalJson = <S extends z.ZodType>(path: string, schema: S): Promise<z.infer<S> | null> =>
   cached(`opt:${path}`, () => fetchOptionalJson(path, schema));
 
-/** Pflichtdatei über den Sitzungscache, damit die Hintergrundprüfung sie mit erneuert (Saisonauswertung). */
-export const loadDataFile = loadJson;
 /** Optionale Datei über den Sitzungscache, null wenn sie fehlt. */
 export const loadOptionalDataFile = loadOptionalJson;
 
@@ -395,7 +391,8 @@ export async function loadWeekData(requested: WeekRef | null = null): Promise<We
 }
 
 export interface TipsData extends WeekData {
-  standings: StandingsFile;
+  /** Nur für das Kürzel des Hauptnutzers (D058), null wenn standings.json fehlt oder ungültig ist. */
+  standings: StandingsFile | null;
   /** null, wenn für diese Woche noch keine Tippdatei existiert. */
   tips: TipsFile | null;
   /** null, wenn die Ausfall Datei der Woche fehlt oder nicht lesbar ist. Nur Anzeige im Spielbereich. */
@@ -415,7 +412,7 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
   const [week, teams, standings, tips, injuries, news] = await Promise.all([
     loadWeekFile(nav),
     loadJson("teams.json", TeamsFileSchema),
-    loadJson("standings.json", StandingsFileSchema),
+    loadStandingsOrNull(),
     tipsPath ? loadOptionalJson(tipsPath, TipsFileSchema) : Promise.resolve(null),
     // Ausfälle und News sind Zusatz: Fehler hier dürfen die Tippliste nie blockieren
     // Der Wächter schreibt Ausfälle der aktuellen und der nächsten Woche (D050), darum auch die angezeigte
@@ -426,7 +423,7 @@ export async function loadTipsData(requested: WeekRef | null = null): Promise<Ti
   return { ...nav, week, teams, standings, tips, injuries, news };
 }
 
-/** Rangliste, null wenn sie fehlt oder nicht lesbar ist. Für Ansichten, die ohne Tippdaten weiterlaufen. */
+/** standings.json für das Kürzel des Hauptnutzers (D058), null wenn sie fehlt oder nicht lesbar ist. */
 export async function loadStandingsOrNull(): Promise<StandingsFile | null> {
   try {
     return await loadJson("standings.json", StandingsFileSchema);
@@ -455,8 +452,8 @@ export interface ReviewData {
   /** null, wenn die Wochendatei fehlt. Dann fehlen Kürzel pro Spiel. */
   week: WeekFile | null;
   teams: TeamsFile;
-  standings: StandingsFile;
-  history: StandingsHistory;
+  /** Nur für das Kürzel des Hauptnutzers (D058), null wenn standings.json fehlt. */
+  standings: StandingsFile | null;
   /** Woche liegt vor dem Start der App, es gibt keine Daten. */
   beforeStart?: boolean;
 }
@@ -503,17 +500,16 @@ export async function loadReviewPage(requested: WeekRef | null): Promise<ReviewD
   const entry = weeks.find((w) => sameRef(w.ref, ref));
   if (!entry) weeks.splice(weeks.findIndex((w) => compareRef(w.ref, ref) > 0) >>> 0, 0, { ref, path: null });
   const path = entry?.path ?? null;
-  const [review, teams, standings, history, week] = await Promise.all([
+  const [review, teams, standings, week] = await Promise.all([
     path ? loadJson(path, ReviewFileSchema) : Promise.resolve(null),
     loadJson("teams.json", TeamsFileSchema),
-    loadJson("standings.json", StandingsFileSchema),
-    loadJson("standings-history.json", StandingsHistorySchema),
+    loadStandingsOrNull(),
     beforeAppStart(weeksIndex, ref)
       ? Promise.resolve(null)
       : loadOptionalJson(weekFilePath(ref.season, ref.seasonType, ref.week), WeekFileSchema).catch(() => null),
   ]);
   const phase: WeekPhase = current ? phaseOf(ref, current) : "vergangen";
-  return { weeks, ref, home, current, phase, path, review, week, teams, standings, history, beforeStart: beforeAppStart(weeksIndex, ref) };
+  return { weeks, ref, home, current, phase, path, review, week, teams, standings, beforeStart: beforeAppStart(weeksIndex, ref) };
 }
 
 /** current.json, null wenn sie fehlt oder nicht lesbar ist. Nur für Zusatzansichten wie Bilanz und News. */

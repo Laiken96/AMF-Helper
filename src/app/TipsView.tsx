@@ -1,10 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
-import { standingsAppliesTo } from "../core/standings";
 import { deviationCandidates } from "../core/deviation";
-import { gapToTarget, tiebreakerGames } from "../core/tips";
-import { TIPS_SCHEMA_VERSION, type GameTip, type StandingsFile, type TipsFile } from "../core/tips-schema";
+import { tiebreakerGames } from "../core/tips";
+import { TIPS_SCHEMA_VERSION, type GameTip, type TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
@@ -39,18 +38,17 @@ import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
 import {
   readEntered,
-  standingsFor,
   useChoices,
   usePlayer,
   useShownTips,
   writeEntered,
   type ChoiceState,
-  type PlayerState,
 } from "./player";
+import { ownSeasonTally, useSeasonReviews, type WeekTally } from "./season-data";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel, PageSplitMark } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, formatStand, scoreAria, scoreText } from "./wording";
 
-// Häkchen "eingetragen" nur lokal und pro Spieler (player.ts). Gespeichert wird das getippte Team, damit eine
+// Häkchen "eingetragen" nur lokal und pro Kürzel des Hauptnutzers (player.ts). Gespeichert wird das getippte Team, damit eine
 // spätere Änderung des Tipps erkannt wird. Jeder Storage Zugriff ist ausfalltolerant.
 const NO_PICK = "ohne";
 
@@ -91,16 +89,9 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
   const { data, error, pending } = useKeptLoad(`tipps:${weekArg ?? ""}`, () => loadTipsData(parseWeekKey(weekArg)));
   const player = usePlayer(data?.standings ?? null);
   const mode: Mode | null = !data?.week ? null : !data.tips ? "folgt" : data.phase === "vergangen" ? "vergangen" : "offen";
-  // Eigene Abweichung pro Spieler und Woche (D052), Tipps und Spiele zeigen dieselbe Wahl
-  const choice = useChoices(player.player, data?.ref);
-  const shownTips = useShownTips(
-    data?.week ? (data.tips ?? null) : null,
-    data?.week?.games,
-    data?.standings ?? null,
-    data?.phase ?? "aktuell",
-    player.player,
-    choice.choices,
-  );
+  // Eigene Abweichung pro Woche (D052), Tipps und Spiele zeigen dieselbe Wahl
+  const choice = useChoices(player, data?.ref);
+  const shownTips = useShownTips(data?.week ? (data.tips ?? null) : null, data?.week?.games, choice.choices);
 
   // Nachbarwochen im Hintergrund vorladen, damit der nächste Wechsel aus dem Cache kommt
   useEffect(() => {
@@ -221,7 +212,7 @@ function TipsList({
   week: WeekFile;
   tips: TipsFile;
   mode: Mode;
-  player: PlayerState;
+  player: string;
   choice: ChoiceState;
   pending: boolean;
   /** Gewähltes Spiel aus dem Hash, null heisst Standardspiel. */
@@ -244,10 +235,6 @@ function TipsList({
   // Ohne Häkchen und Filter: vergangene Wochen und Wochen ohne Tippdatei
   const passive = mode !== "offen";
   const games = week.games;
-  // Rangliste aus Sicht des gewählten Spielers (D050)
-  const standings = useMemo(() => standingsFor(data.standings, player.player), [data.standings, player.player]);
-  // Vergangene Woche eines anderen Spielers: die Tipps stammen vom Hauptnutzer
-  const foreignTips = player.other && mode === "vergangen";
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const live = useLiveScores(readOnly ? null : data.ref, readOnly ? null : games);
   // Endstand aus den Live Daten zählt sofort, wie in der Spielansicht (shownResult): alle Ansichten zeigen
@@ -272,24 +259,15 @@ function TipsList({
     [tips, gameById, now, mode],
   );
 
-  // Häkchen pro Spieler (D050): der Wechsel des Spielers liest die Häkchen neu
-  const readAll = () => {
+  // Häkchen des Hauptnutzers, beim ersten Zeichnen aus dem Storage gelesen
+  const [entered, setEntered] = useState<Map<string, string>>(() => {
     const m = new Map<string, string>();
     for (const t of tips.tips) {
-      const v = readEntered(player.player, player.main, tips, t.gameId);
+      const v = readEntered(player, tips, t.gameId);
       if (v !== null) m.set(t.gameId, v);
     }
     return m;
-  };
-  const [enteredState, setEntered] = useState<{ player: string | null; map: Map<string, string> }>(() => ({
-    player: player.player,
-    map: readAll(),
-  }));
-  const entered = enteredState.player === player.player ? enteredState.map : readAll();
-  useEffect(() => {
-    if (enteredState.player !== player.player) setEntered({ player: player.player, map: readAll() });
-    // readAll hängt nur an Spieler und Tippdatei
-  }, [player.player, enteredState.player]);
+  });
   const [filter, setFilter] = useState<Filter>(readFilter);
   // Im Filter Offen bleiben eben umgeschaltete Zeilen bis zum nächsten Filterwechsel oder Reload sichtbar
   const [sticky, setSticky] = useState<Set<string>>(() => new Set());
@@ -297,12 +275,12 @@ function TipsList({
   const toggle = (row: TipRow) => {
     const value = entered.get(row.gameId) === pickKey(row) ? null : pickKey(row);
     setSticky((prev) => (prev.has(row.gameId) ? prev : new Set(prev).add(row.gameId)));
-    writeEntered(player.player, player.main, tips, row.gameId, value);
-    setEntered(() => {
-      const next = new Map(entered);
+    writeEntered(player, tips, row.gameId, value);
+    setEntered((prev) => {
+      const next = new Map(prev);
       if (value === null) next.delete(row.gameId);
       else next.set(row.gameId, value);
-      return { player: player.player, map: next };
+      return next;
     });
   };
 
@@ -370,12 +348,7 @@ function TipsList({
     // team hängt nur von teamById ab
   }, [rows, tips, now, live.games, teamById, mode, filter]);
 
-  const header = (
-    <>
-      <TipsHeader data={data} updatedAt={data.tips ? tips.updatedAt : undefined} pending={pending} />
-      <PlayerLine player={player} foreign={foreignTips} />
-    </>
-  );
+  const header = <TipsHeader data={data} updatedAt={data.tips ? tips.updatedAt : undefined} pending={pending} />;
   // ---------- Auswahl eines Spiels (List Detail, D037) ----------
   // Aktuelle Woche ohne Woche im Hash, damit die Home Bildschirm App nach dem Wochenwechsel mitzieht (D055)
   const hashFor = (id: string | null) => viewHash("tipps", data.ref, current, id);
@@ -567,10 +540,15 @@ function TipsList({
     document.querySelector(`[data-anchor="${CSS.escape(shownId)}"]`)?.scrollIntoView({ block: "nearest" });
   }, [wide, shownId, selectedId]);
 
+  // Diese Woche aus den Zeilen, wie die Liste sie zeigt: mit eigener Wahl und Endstand aus Live
+  const weekTally = useMemo((): WeekTally => {
+    const scored = rows.filter((r) => r.result === "richtig" || r.result === "falsch" || r.result === "unentschieden");
+    return { right: scored.filter((r) => r.result === "richtig").length, scored: scored.length };
+  }, [rows]);
   const tiles = (
     <div className="tiles">
       <TiebreakerBox tips={tips} gameById={gameById} team={team} open={mode === "folgt"} />
-      <StandingsBox standings={standings} season={data.ref.season} />
+      <OwnSeasonBox data={data} player={player} week={weekTally} />
     </div>
   );
   const pct = countable.length > 0 ? Math.round((doneCount / countable.length) * 100) : 0;
@@ -729,71 +707,37 @@ function TiebreakerBox({
   );
 }
 
-/** Für wen gerechnet wird, antippbar zu den Einstellungen (D050). */
-function PlayerLine({ player, foreign }: { player: PlayerState; foreign: boolean }) {
-  if (!player.player) return null;
-  const sub = foreign
-    ? `Vergangene Woche, Tipps von ${player.main}`
-    : player.other
-      ? `Eigene Wahl für ${player.player}, Push für ${player.main}`
-      : null;
+/**
+ * Deine Saison (D058): richtige App Tipps und Trefferquote der Saison bis jetzt, mit der eigenen Wahl wie in der
+ * Bilanz. Die angezeigte Woche zählt aus der Tippliste, damit Endstände aus Live sofort mitzählen.
+ */
+function OwnSeasonBox({ data, player, week }: { data: TipsData; player: string; week: WeekTally }) {
+  const reviews = useSeasonReviews(data.ref.season, player);
+  const tally = useMemo(() => (reviews ? ownSeasonTally(reviews.reviews, reviews.choices, data.ref, week) : null), [reviews, data.ref, week]);
+  const weekName = data.phase === "aktuell" ? "Diese Woche" : weekLabel(data.ref);
   return (
-    <a className="player-line" href="#einstellungen/spieler" aria-label={`Tipps für ${player.player}${sub ? `, ${sub}` : ""}. Spieler in den Einstellungen ändern`}>
-      <span className="player-badge" aria-hidden="true">
-        {player.player}
-      </span>
-      <span className="player-line-text" aria-hidden="true">
-        <span className="player-line-main">Tipps für {player.player}</span>
-        {sub && <span className="player-line-sub">{sub}</span>}
-      </span>
-      <span className="player-line-change" aria-hidden="true">
-        ändern
-      </span>
-    </a>
-  );
-}
-
-function StandingsBox({ standings, season }: { standings: StandingsFile; season: number }) {
-  const players = [...standings.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id));
-  const mine = players.find((p) => p.id === standings.me);
-  // Ziel sind möglichst viele Punkte (D052). Rang und Rückstand nur als Information.
-  // Rangliste aus einer anderen Saison: kein Rückstand (D051).
-  const applies = standingsAppliesTo(standings, season);
-  const leader = players[0];
-  const rank = mine ? players.filter((p) => p.points > mine.points).length + 1 : null;
-  const gap = applies && mine ? gapToTarget(standings) : 0;
-  const ahead = mine ? [...players].reverse().find((p) => p.points > mine.points) : undefined;
-  const gapAhead = ahead && mine ? ahead.points - mine.points : 0;
-  const pts = (n: number) => `${n} ${n === 1 ? "Punkt" : "Punkte"}`;
-  // "2 Punkte hinter JA auf Platz 1, 1 Punkt hinter MK"
-  return (
-    <section className="box" aria-label="Rangliste">
-      <h2>Ziel: möglichst viele Punkte</h2>
-      {mine && applies && rank !== null && (
-        <p className="box-big">
-          <Spoken shown={`Rang ${rank}`} spoken={`Rang ${rank} von ${players.length}`} />
-        </p>
+    <section className="box own-season" aria-label="Deine Saison">
+      <h2>Deine Saison</h2>
+      {!tally ? (
+        <p className="box-meta">Wird geladen …</p>
+      ) : tally.scored === 0 ? (
+        <p className="box-meta">Noch kein Tipp gewertet. Sobald das erste Spiel beendet ist, steht hier deine Bilanz.</p>
+      ) : (
+        <>
+          <p className="box-big">
+            {tally.right} <span className="of">von {tally.scored}</span>
+          </p>
+          <p className="box-meta">
+            Richtige App Tipps, Trefferquote {Math.round((tally.right / tally.scored) * 100)} %
+          </p>
+        </>
       )}
-      {mine && applies && (
-        <p className="box-meta">
-          {gap > 0
-            ? `${pts(gap)} hinter ${leader!.id} auf Platz 1${ahead && ahead.id !== leader!.id ? `, ${pts(gapAhead)} hinter ${ahead.id}` : ""}`
-            : "In Führung"}
-        </p>
-      )}
-      {!applies && <p className="box-meta">Neue Saison, Rückstand erst nach der ersten Meldung</p>}
       <p className="box-meta">
-        Rangliste nach <span className="nowrap">Week {standings.asOfWeek}</span>
-        {!applies && standings.season !== undefined ? ` der Saison ${standings.season}` : ""}
+        {weekName}: {week.scored === 0 ? "noch kein Spiel gewertet" : `${week.right} von ${week.scored} richtig`}
       </p>
-      <ol className="ranking">
-        {players.map((p) => (
-          <li key={p.id} className={p.id === standings.me ? "me" : undefined}>
-            <span>{p.id}</span>
-            <span className="pts">{p.points}</span>
-          </li>
-        ))}
-      </ol>
+      <a className="box-link" href="#bilanz/saison">
+        Zur Saisonbilanz
+      </a>
     </section>
   );
 }
