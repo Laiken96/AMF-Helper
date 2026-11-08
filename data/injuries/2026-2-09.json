@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T13:50:31Z",
+    "takenAt": "2026-11-08T14:40:34Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1234,8 +1234,8 @@
             "status": null
           },
           {
-            "athleteId": "4426502",
-            "name": "Drake London",
+            "athleteId": "4361409",
+            "name": "Jahan Dotson",
             "pos": "WR",
             "teamId": "1",
             "teamAbbr": "ATL",
@@ -1265,40 +1265,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "3915511",
-            "name": "Joe Burrow",
-            "pos": "QB",
-            "teamId": "4",
-            "teamAbbr": "CIN",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4239993",
-            "name": "Tee Higgins",
-            "pos": "WR",
-            "teamId": "4",
-            "teamAbbr": "CIN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4362238",
-            "name": "Chase Brown",
-            "pos": "RB",
-            "teamId": "4",
-            "teamAbbr": "CIN",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           }
         ]
       },
