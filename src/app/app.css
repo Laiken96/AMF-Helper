@@ -116,6 +116,12 @@ body {
   overflow-x: hidden;
 }
 
+/* Kein Doppeltipp Zoom auf iOS: schnelle Folgetipps (z. B. Pfeile im Spielbereich) wurden sonst verschluckt
+   oder zoomten die Seite. Zoomen mit zwei Fingern bleibt möglich. */
+html {
+  touch-action: manipulation;
+}
+
 a {
   color: var(--accent);
 }
