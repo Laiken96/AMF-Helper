@@ -5,13 +5,13 @@
 import type { ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameTip, TipsFile } from "../core/tips-schema";
-import { teamColor, visibleOn } from "./colors";
 import { FlagIcon, useGameFactsModel, type GameFactsModel } from "./GameFacts";
-import { Ring } from "./GameHero";
+import { Ring, ringColors } from "./GameHero";
 import {
   gameState,
   kickoffCountdown,
   kickoffLine,
+  levelLabel,
   outsiderChoice,
   resultText,
   shownResult,
@@ -28,14 +28,6 @@ import { Spoken, TeamLogo } from "./ui";
 import { SLOT_SHORT, scoreAria, scoreText } from "./wording";
 
 type Tiebreaker = TipsFile["tiebreakers"][number];
-
-const LEVEL_TEXT: Record<GameTip["level"], string> = {
-  klar: "klar",
-  favorit: "Favorit",
-  unklar: "unklar",
-  offen: "offen",
-  nicht_erfasst: "nicht erfasst",
-};
 
 const CheckIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -163,22 +155,21 @@ function PreHead({
   const pickId = pickOf(tip);
   const pick = pickId === home.id ? home : pickId === away.id ? away : null;
   const other = pick ? (pick.id === home.id ? away : home) : null;
-  const pickColor = pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D";
-  const otherColor = other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D";
+  const { pickColor, otherColor } = ringColors(pick, other);
   const off = st.status === "postponed" || st.status === "canceled";
   const pill = off ? st.statusText : kickoffCountdown(game.kickoffUtc, now);
   const ringSize = layout === "side" ? 84 : layout === "wide" ? 120 : 100;
   const logoSize = layout === "side" ? 52 : 64;
   const col = (t: Team, record: string | null, side: "away" | "home") => (
     <div className={`gv-team gv-team-${side}`}>
-      <TeamLogo team={t} size={logoSize} className="tk-logo gv-logo" />
+      <TeamLogo team={t} size={logoSize} className="tk-logo gv-logo" onDark />
       <span className="tk-abbr">{t.abbr}</span>
       <span className="tk-name">{t.shortName}</span>
       {record && <span className="tk-record">Bilanz {record}</span>}
     </div>
   );
   const tipValue = pick ? `${pick.abbr} gewinnt` : tip?.level === "nicht_erfasst" ? "kein App Tipp" : tipsPending ? "folgt" : "offen";
-  const tipSub = pick && tip ? (own ? "deine Abweichung" : LEVEL_TEXT[tip.level]) : tipsPending ? "sobald Quoten da sind" : null;
+  const tipSub = pick && tip ? levelLabel(tip, own) : tipsPending ? "sobald Quoten da sind" : null;
   const slot = tiebreaker ? ` · ${SLOT_SHORT[tiebreaker.slot]}` : "";
   return (
     <div className="tk-head gv-head" style={headStyle(away, home)}>
@@ -262,7 +253,7 @@ function PostHead({
     const lose = side !== null && side !== "tie" && !win;
     return (
       <div className={`tk-team tk-team-${s}${win ? " gv-win" : ""}${lose ? " gv-lose" : ""}`}>
-        <TeamLogo team={t} size={56} className="tk-logo" />
+        <TeamLogo team={t} size={56} className="tk-logo" onDark />
         <span className="tk-abbr">
           {t.abbr}
           {win && <span className="gv-win-tag">Sieg</span>}
@@ -332,14 +323,23 @@ function ChoiceCard({
 }) {
   const { candidate, signals, abbr, pickId, suggestionId } = model;
   const isOwn = own && pickId !== null;
-  if (!candidate && !isOwn && signals.length === 0) return null;
+  // Gleiche Regel wie im Blatt der Tipps: Knopf bei jedem nicht gesperrten Spiel mit Tipp (D052).
+  // Die Karte "Abweichung möglich" nur bei Kandidaten, sonst nur Signale und Knopf
   const choice = onChoice ? outsiderChoice(tip, game, now) : null;
+  const showButton = choice !== null && !choice.locked;
+  if (!candidate && !isOwn && signals.length === 0 && !showButton) return null;
+  const tag = isOwn ? "Deine Abweichung" : candidate ? "Abweichung möglich" : signals.length > 0 ? "Signale zum Aussenseiter" : null;
   return (
-    <section className={`gv-choice${isOwn ? " gv-choice-own" : ""}`} aria-label="Abweichung">
-      <p className="gv-choice-tag">
-        <FlagIcon />
-        {isOwn ? "Deine Abweichung" : "Abweichung möglich"}
-      </p>
+    <section
+      className={`gv-choice${isOwn ? " gv-choice-own" : ""}${tag === null ? " gv-choice-plain" : ""}`}
+      aria-label={tag ?? "Eigene Wahl"}
+    >
+      {tag && (
+        <p className="gv-choice-tag">
+          <FlagIcon />
+          {tag}
+        </p>
+      )}
       {isOwn && (
         <p className="gv-choice-text">
           Du tippst {abbr(pickId!)}

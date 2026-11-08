@@ -798,4 +798,24 @@ R124 Duo Home Bildschirm App mit Ausrichtung any
     Vorbedingung: Manifest mit "orientation": "any" live, App vom Home Bildschirm gelöscht und neu hinzugefügt (iOS liest das Manifest nur beim Hinzufügen).
     Schritt: Duo zugeklappt und aufgeklappt, Einstellungen, Technik, Diagnose.
     Erwartet: App 951 bzw. 466 breit statt 867 bzw. 382. Sonst bleibt als Ursache der in iOS 27 ignorierte Status Bar Meta Tag (black-translucent), nur durch Apple behebbar.
-    Status: offen Nutzer am Gerät
+    Status: nicht bestanden 2026-11-03, nach Neuhinzufügen weiterhin 867 bzw. 382. Ursache liegt bei iOS 27.2 (Status Bar Meta Tag ignoriert), in der Web App nicht behebbar. Eintrag orientation any bleibt (schadlos)
+
+## Bug Suche 2026-11-08 (D057)
+
+R125 Schnelles Durchtippen ohne tote Taps
+    Vorbedingung: iPhone Duo, Home Bildschirm App, Tipps Week 9.
+    Schritt: Spiele mit den Pfeilen im Spielbereich schnell durchtippen, Blatt öffnen und per Zurück schliessen, scrollen.
+    Erwartet: Jeder Tipp wirkt, kein Doppeltipp Zoom, kein Sprung nach oben, Zurück öffnet das Blatt nicht wieder.
+    Status: bestanden lokal 2026-11-08 (30 Pfeiltipps in 3 Grössen, 0 neue Verlaufseinträge), offen Nutzer am Gerät
+
+R126 Duo zugeklappt Werkzeugkapsel und Tippzeile
+    Vorbedingung: Duo zugeklappt.
+    Schritt: Tipps öffnen.
+    Erwartet: Aktualisieren und Glocke in der Leiste, Stand und Live in zweiter Zeile ohne Abschneiden.
+    Status: bestanden lokal 2026-11-08, offen Nutzer am Gerät
+
+R127 Push Ausfälle nach Gewicht und News
+    Vorbedingung: Slot mit vielen Ausfällen, data.yml Lauf.
+    Schritt: Push und News prüfen.
+    Erwartet: Leader und Start QB zuerst, keine Ersatz QBs, nicht gelistet statt fit. ESPN News wieder vorhanden, keine Werbeartikel.
+    Status: bestanden lokal 2026-11-08 mit echten Daten, echt nach dem Merge. Bekannt: Bilanz Tiebreaker folgt der eigenen Wahl noch nicht

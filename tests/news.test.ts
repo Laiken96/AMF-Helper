@@ -10,8 +10,10 @@ import {
   NEWS_MAX_ITEMS,
   decodeEntities,
   detectTeams,
+  isPromo,
   mergeNews,
   normalizeUrl,
+  parseEspnNews,
   parsePubDate,
   parseRss,
   plainText,
@@ -26,6 +28,8 @@ const fixture = (name: string) => readFileSync(new URL(`./fixtures/${name}`, imp
 const espnXml = fixture("rss-espn-2026-11-02.xml");
 const cbsXml = fixture("rss-cbs-2026-11-02.xml");
 const pftXml = fixture("rss-pft-2026-11-02.xml");
+// Gekürzte echte Antwort der ESPN News Schnittstelle vom 2026-11-08 (12 von 50 Artikeln, ohne Bilder).
+const espnJson = fixture("espn-news-2026-11-08.json");
 const teamsText = readFileSync(new URL("./fixtures/teams.json", import.meta.url), "utf8");
 const teams = TeamsFileSchema.parse(JSON.parse(teamsText)).teams;
 const matchers = teamMatchers(teams);
@@ -106,6 +110,63 @@ describe("URL und Teams", () => {
   });
 });
 
+describe("ESPN News JSON", () => {
+  const raw = parseEspnNews(JSON.parse(espnJson));
+  const items = toNewsItems("espn", raw, matchers, newsId);
+
+  it("liest Titel, Anriss, Link und Datum aus der echten Antwort", () => {
+    expect(raw).toHaveLength(12);
+    expect(items).toHaveLength(12);
+    for (const it of items) {
+      expect(it.url).toMatch(/^https:\/\/espn\.com\//);
+      expect(it.publishedAt).toMatch(/^2026-11-0[6-8]T/);
+      expect(it.title.length).toBeGreaterThan(10);
+    }
+    const lamar = items.find((i) => /Lamar Jackson/.test(i.title));
+    expect(lamar).toMatchObject({ url: "https://espn.com/nfl/story/_/id/50407561/sources-lamar-jackson-told-ravens-plans-return-26", teamIds: ["33"] });
+    expect(lamar?.summary).toBeTruthy();
+  });
+
+  it("Recap behält gameId, Anriss ohne führenden Strich", () => {
+    const recap = items.find((i) => /Burrow powers/.test(i.title))!;
+    expect(recap.url).toBe("https://espn.com/nfl/recap?gameId=401873038");
+    expect(recap.summary).toMatch(/^Joe Burrow/);
+    expect(recap.teamIds).toEqual(["1", "4"]);
+  });
+
+  it("Teams aus den Kategorien, College Teams fallen weg, Ligaübersichten über den Text", () => {
+    const draft = items.find((i) => /2027 NFL draft/.test(i.title))!;
+    expect(draft.teamIds).toEqual([]);
+    const deadline = items.find((i) => /trade deadline updates/.test(i.title))!;
+    expect(deadline.teamIds.length).toBeLessThanOrEqual(4);
+    const college = items.find((i) => /Venables/.test(i.title))!;
+    expect(college.teamIds).toEqual(["6"]);
+  });
+
+  it("unbekannte Struktur wirft", () => {
+    expect(() => parseEspnNews({ feed: [] })).toThrow(/Unbekannte Struktur/);
+  });
+});
+
+describe("Werbeartikel", () => {
+  it("promo code und bonus code in jeder Schreibweise", () => {
+    expect(isPromo("Use FanDuel promo code to get $200 bonus bets")).toBe(true);
+    expect(isPromo("Use BetMGM Bonus Code CBSSPORTS to get $1,500")).toBe(true);
+    expect(isPromo("NFL Week 9 odds: Use Kalshi PROMO CODES for $55")).toBe(true);
+    expect(isPromo("Bonus bets explained, coaches promote assistant")).toBe(false);
+  });
+
+  it("echter CBS Feed: Werbeartikel fallen weg, auch alte Einträge beim Zusammenführen", () => {
+    const raw = parseRss(cbsXml);
+    const promos = raw.filter((r) => /(promo|bonus) code/i.test(r.title));
+    expect(promos.length).toBeGreaterThan(0);
+    const items = toNewsItems("cbs", raw, matchers, newsId);
+    expect(items.some((i) => isPromo(i.title))).toBe(false);
+    const old: NewsItem = { id: "alt", source: "cbs", url: "https://x.com/a", title: promos[0]!.title, summary: null, publishedAt: NOW, teamIds: [] };
+    expect(mergeNews([old], items, NOW).items.some((i) => i.id === "alt")).toBe(false);
+  });
+});
+
 describe("Zusammenführen", () => {
   const item = (n: number, at: string, url = `https://x.com/${n}`): NewsItem => ({
     id: newsId(url),
@@ -167,7 +228,7 @@ describe("news main", () => {
     return f();
   };
   const ok = {
-    [NEWS_FEEDS[0]!.url]: () => new Response(espnXml),
+    [NEWS_FEEDS[0]!.url]: () => new Response(espnJson),
     [NEWS_FEEDS[1]!.url]: () => new Response(cbsXml),
     [NEWS_FEEDS[2]!.url]: () => new Response(pftXml),
   };
@@ -189,7 +250,7 @@ describe("news main", () => {
     const cbsBefore = (await read()).items.filter((i) => i.source === "cbs").length;
     const broken = { ...ok, [NEWS_FEEDS[1]!.url]: () => new Response("<html>Wartung</html>") };
     expect(await main([], deps(byUrl(broken)))).toBe(0);
-    expect(errors.join("\n")).toMatch(/cbs fehlgeschlagen/);
+    expect(errors.join("\n")).toMatch(/^::warning::Warnung: Quelle cbs fehlgeschlagen/);
     expect((await read()).items.filter((i) => i.source === "cbs").length).toBe(cbsBefore);
   });
 

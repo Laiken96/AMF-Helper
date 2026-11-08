@@ -13,6 +13,14 @@ export function formatStand(iso: string): string {
 }
 
 /** Hinweis zur Zeitzone, einmal im Kopf der Tipps und in den Einstellungen. */
+/** Uhrzeit mit Sekunden in Schweizer Zeit, für "Stand" der Live Daten. */
+export const clockFormat = new Intl.DateTimeFormat("de-CH", {
+  timeZone: "Europe/Zurich",
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit",
+});
+
 export const TIME_ZONE_TEXT = "Zeiten in Schweizer Zeit";
 
 /**
@@ -81,4 +89,11 @@ export function friendlyLoadError(message: string): string {
   if (/HTTP/.test(message)) return "Der Server hat nicht geantwortet.";
   if (/Format|JSON/.test(message)) return "Die Daten sind unvollständig, vermutlich läuft gerade eine Aktualisierung.";
   return "Unerwarteter Fehler.";
+}
+
+/** Werbeartikel der Wettanbieter (D057), zusätzlich zum Filter im News Job. Gross und klein egal. */
+const PROMO = /\b(promo|bonus)[\s-]*codes?\b/i;
+
+export function isPromo(item: { title: string; summary?: string | null }): boolean {
+  return PROMO.test(item.title) || (typeof item.summary === "string" && PROMO.test(item.summary));
 }

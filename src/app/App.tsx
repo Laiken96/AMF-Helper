@@ -53,7 +53,7 @@ export function App() {
           </ErrorBoundary>
         </main>
         <aside className="rail" aria-label="Navigation">
-          {layout === "wide" && <ToolCapsule />}
+          {(layout === "wide" || layout === "side") && <ToolCapsule />}
           <NavCapsule view={view} />
         </aside>
       </div>

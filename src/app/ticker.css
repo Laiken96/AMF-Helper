@@ -809,13 +809,14 @@
 
 .tk-dots {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   min-width: 0;
 }
 
+/* Schmal, die Trefferfläche bleibt 44 px hoch und reicht seitlich über den Punkt hinaus */
 .tk-dot {
-  width: 30px;
+  width: 22px;
   height: 44px;
   padding: 0;
   border: 0;
@@ -834,7 +835,7 @@
 }
 
 .tk-dot-on span {
-  width: 22px;
+  width: 16px;
   background: var(--accent);
 }
 

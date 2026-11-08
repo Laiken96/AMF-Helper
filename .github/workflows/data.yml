@@ -1,5 +1,7 @@
-# Datenjobs Spielplan (mit den nächsten 2 Wochen), Tipps (aktuelle und kommende Wochen mit Quote), Wochenbilanz,
-# News, Lebenszeichen und Wochenindex: holen ESPN und die RSS Feeds und committen Änderungen unter data/.
+# Datenjobs Spielplan (mit den nächsten 2 Wochen), Tipps (aktuelle und kommende Wochen mit Quote), Pick Anteile,
+# Ausfälle und FPI der nächsten Woche, Wochenbilanz, News, Lebenszeichen und Wochenindex: holen ESPN, die ESPN News
+# Schnittstelle und die RSS Feeds und committen Änderungen unter data/. GitHub Zeitplan Minute 17, zusätzlich
+# startet cron-job.org den Workflow stündlich um Minute 47 (D041).
 # Ruhende Wochen (Preseason, Pro Bowl, Offseason) schreibt der Spielplan nicht, current.json bleibt dann stehen.
 # Geplante Läufe (schedule) startet GitHub nur auf dem Default Branch, also erst nach dem Merge auf main.
 # Manueller Start über workflow_dispatch geht auf jedem Branch.
@@ -33,11 +35,12 @@ concurrency:
 jobs:
   schedule:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # Bisher rund 2 Minuten, dazu höchstens 5 für die Ausfälle der nächsten Woche.
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -82,13 +85,23 @@ jobs:
         continue-on-error: true
         run: npm run job:picks
 
+      # Ausfälle und FPI der nächsten Woche (D050) einmal pro Stunde statt alle 10 Minuten in push.yml (D057).
+      # Nicht zeitkritisch, die Erinnerungen nutzen nur die aktuelle Woche. Nach dem Spielplan, damit ein
+      # Wochenwechsel (D055) schon gilt. Eigene Dateien, push.yml schreibt nur die der aktuellen Woche.
+      - name: Ausfälle nächste Woche prüfen
+        id: watch_next
+        timeout-minutes: 5
+        continue-on-error: true
+        run: npm run job:watch -- --next
+
       # Wochenbilanz nach den Tipps (D032). Ohne Inputs alle Wochen mit Tippdatei, deren Bilanz fehlt oder offen ist.
       - name: Bilanz berechnen
         id: review
         continue-on-error: true
         run: npm run job:review
 
-      # News aus RSS (D042). Eine kaputte Quelle blockiert die anderen nicht, rot nur wenn alle scheitern.
+      # News aus der ESPN Schnittstelle und RSS (D042, D057). Eine kaputte Quelle blockiert die anderen nicht und
+      # erscheint als Warnung im Lauf, rot nur wenn alle scheitern.
       - name: News holen
         id: news
         continue-on-error: true
@@ -142,7 +155,8 @@ jobs:
       - name: Fehler der Datenschritte melden
         if: >-
           steps.schedule.outcome == 'failure' || steps.tips.outcome == 'failure' || steps.review.outcome == 'failure' ||
-          steps.news.outcome == 'failure' || steps.index.outcome == 'failure' || steps.heartbeat.outcome == 'failure'
+          steps.news.outcome == 'failure' || steps.index.outcome == 'failure' || steps.heartbeat.outcome == 'failure' ||
+          steps.watch_next.outcome == 'failure'
         run: |
-          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}, Bilanz: ${{ steps.review.outcome }}, News: ${{ steps.news.outcome }}, Index: ${{ steps.index.outcome }}, Lebenszeichen: ${{ steps.heartbeat.outcome }}"
+          echo "Spielplan: ${{ steps.schedule.outcome }}, Tipps: ${{ steps.tips.outcome }}, Ausfälle nächste Woche: ${{ steps.watch_next.outcome }}, Bilanz: ${{ steps.review.outcome }}, News: ${{ steps.news.outcome }}, Index: ${{ steps.index.outcome }}, Lebenszeichen: ${{ steps.heartbeat.outcome }}"
           exit 1

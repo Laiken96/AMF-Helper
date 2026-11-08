@@ -135,7 +135,12 @@ export function useLayout(): Layout {
     let reason = "Start";
     // iOS Fehler (Gerätetest Duo 2026-11-03): nach schnellem Neustart ist das Fenster bei gleicher Breite
     // um 82 Punkte niedriger, oben bleibt ein schwarzer Balken ausserhalb der App. Versuch: die Viewport
-    // Angabe einmal neu setzen, damit WebKit die Grösse neu berechnet. Höchstens einmal pro 5 Sekunden.
+    // Angabe einmal neu setzen, damit WebKit die Grösse neu berechnet. Nur in der Home Bildschirm App und nur
+    // beim Zurückkehren (pageshow, Rückkehr), nie beim Scrollen oder Zoomen, und ohne Scrollsprung. Vorher
+    // lief er bei jeder Grössenänderung und brach Berührungen ab (Bug Suche 2026-11-08).
+    const standalone =
+      (navigator as Navigator & { standalone?: boolean }).standalone === true ||
+      window.matchMedia("(display-mode: standalone)").matches;
     const tallest = new Map<number, number>();
     let lastNudge = 0;
     const nudgeViewport = () => {
@@ -143,6 +148,7 @@ export function useLayout(): Layout {
       const h = window.innerHeight;
       const max = tallest.get(w) ?? 0;
       if (h > max) tallest.set(w, h);
+      if (!standalone || (reason !== "pageshow" && reason !== "Rückkehr")) return;
       if (max - h < 60 || Date.now() - lastNudge < 5000) return;
       const meta = document.querySelector<HTMLMetaElement>('meta[name="viewport"]');
       if (!meta) return;
@@ -151,7 +157,6 @@ export function useLayout(): Layout {
       meta.content = `${content}, height=device-height`;
       requestAnimationFrame(() => {
         meta.content = content;
-        window.scrollTo(0, 0);
       });
     };
     const apply = () => {

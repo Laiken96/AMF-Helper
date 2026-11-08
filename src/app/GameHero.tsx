@@ -7,7 +7,7 @@ import { shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
 import { periodText, type LiveGame } from "./live";
 import { Spoken, TeamLogo } from "./ui";
-import { SLOT_SHORT, formatCountdown, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
+import { SLOT_SHORT, formatCountdown, isPromo, scoreAria, scoreText, statusWord, tippschlussText } from "./wording";
 import type { NewsFile } from "../core/extra-schema";
 import { GameFacts } from "./GameFacts";
 import { absenceText, keyAbsence } from "./facts";
@@ -32,11 +32,13 @@ export interface HeroNext {
   kickoffUtc: string;
 }
 
-/** Bis zu zwei aktuelle Schlagzeilen zu den beiden Teams, neueste zuerst. Älter als 7 Tage zählt nicht. */
+/** Bis zu zwei aktuelle Schlagzeilen zu den beiden Teams, neueste zuerst. Älter als 7 Tage und Werbung zählen nicht. */
 export function heroHeadlines(items: readonly NewsItem[] | undefined, teamIds: readonly string[], now: number, max = 2): NewsItem[] {
   if (!items) return [];
   return items
-    .filter((i) => now - Date.parse(i.publishedAt) < 7 * 24 * 3600_000 && i.teamIds.some((id) => teamIds.includes(id)))
+    .filter(
+      (i) => now - Date.parse(i.publishedAt) < 7 * 24 * 3600_000 && i.teamIds.some((id) => teamIds.includes(id)) && !isPromo(i),
+    )
     .slice(0, max);
 }
 
@@ -74,8 +76,13 @@ export function useNow(): number {
   return now;
 }
 
-/** Countdown, "3 Tg 21 h". Ausgelagert nach wording.ts, hier für bestehende Importe erneut exportiert. */
-export { formatCountdown };
+/** Ringfarben für Tipp und Gegner auf der Fläche des Spielbereichs. Ohne Tipp Akzent und Grau. */
+export function ringColors(pick: Team | null, other: Team | null): { pickColor: string; otherColor: string } {
+  return {
+    pickColor: pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D",
+    otherColor: other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D",
+  };
+}
 
 const CIRC = 2 * Math.PI * 56;
 
@@ -87,6 +94,7 @@ export function Ring({
   otherColor,
   size,
   withLabel,
+  caption = null,
 }: {
   prob: number | null;
   pick: Team | null;
@@ -94,10 +102,15 @@ export function Ring({
   otherColor: string;
   size: number;
   withLabel: boolean;
+  /** Ersetzt "Sieg XY" unter dem Wert, z. B. "vor Spiel" bei laufendem Spiel. Auch im kleinen Ring. */
+  caption?: string | null;
 }) {
   const pct = prob === null ? null : Math.round(prob * 100);
   const label =
-    pct === null || !pick ? "Siegwahrscheinlichkeit offen, keine Quote" : `Siegwahrscheinlichkeit ${pick.abbr} ${pct} Prozent`;
+    pct === null || !pick
+      ? "Siegwahrscheinlichkeit offen, keine Quote"
+      : `Siegwahrscheinlichkeit ${pick.abbr} ${pct} Prozent${caption ? `, ${caption}` : ""}`;
+  const showLabel = pct !== null && pick !== null && (withLabel || caption !== null);
   return (
     <svg className="ring" width={size} height={size} viewBox="0 0 140 140" role="img" aria-label={label}>
       <circle cx="70" cy="70" r="56" fill="none" stroke={pct === null ? "#3A414D" : otherColor} strokeWidth="13" />
@@ -113,12 +126,12 @@ export function Ring({
           transform="rotate(-90 70 70)"
         />
       )}
-      <text x="70" y={withLabel ? 70 : 83} textAnchor="middle" fill="#FFFFFF" className="ring-value">
+      <text x="70" y={showLabel ? 70 : 83} textAnchor="middle" fill="#FFFFFF" className="ring-value">
         {pct === null ? "offen" : `${pct} %`}
       </text>
-      {withLabel && pick && pct !== null && (
-        <text x="70" y="92" textAnchor="middle" fill="#F2F4F7" className="ring-label">
-          Sieg {pick.abbr}
+      {showLabel && (
+        <text x="70" y={withLabel ? 92 : 98} textAnchor="middle" fill="#F2F4F7" className={withLabel ? "ring-label" : "ring-label ring-label-small"}>
+          {caption ?? `Sieg ${pick!.abbr}`}
         </text>
       )}
     </svg>
@@ -135,7 +148,7 @@ export type HeroEmpty = "gesperrt" | "ohne_daten";
 export type HeroVariant = "offen" | "folgt" | "final";
 
 const RESULT_WORD = { richtig: "richtig", falsch: "falsch", unentschieden: "unentschieden", offen: "offen", ungewertet: "ungewertet" } as const;
-export type HeroResult = keyof typeof RESULT_WORD;
+type HeroResult = keyof typeof RESULT_WORD;
 
 const WarnIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5B83D" strokeWidth="2" aria-hidden="true">
@@ -158,6 +171,7 @@ export function GameHero({
   variant = "offen",
   result = null,
   reviewHref = "#bilanz",
+  tickerHref = "#spiele",
   nav = null,
   choice = null,
 }: {
@@ -175,6 +189,8 @@ export function GameHero({
   /** Ergebnis des Tipps, nur bei variant final. */
   result?: HeroResult | null;
   reviewHref?: string;
+  /** Liveticker des gezeigten Spiels im Reiter Spiele. */
+  tickerHref?: string;
   /** Pfeile zum Durchblättern der Spiele, oben im Spielbereich. */
   nav?: ReactNode;
   /** Knopf für die eigene Abweichung (D052), nur im Blatt und im grossen Spielbereich. */
@@ -207,8 +223,7 @@ export function GameHero({
   const hasPick = tip.pickTeamId !== null && tip.level !== "offen" && tip.level !== "nicht_erfasst";
   const pick = hasPick ? team(tip.pickTeamId!) : null;
   const other = pick ? (pick.id === home.id ? away : home) : null;
-  const pickColor = pick ? visibleOn(teamColor(pick.color), "#1B2230", 3) : "#F5B83D";
-  const otherColor = other ? visibleOn(teamColor(other.color), "#1B2230", 1.8) : "#3A414D";
+  const { pickColor, otherColor } = ringColors(pick, other);
   const style = {
     "--hero-a": shadeForText(teamColor(away.color)),
     "--hero-b": shadeForText(teamColor(home.color)),
@@ -270,7 +285,7 @@ export function GameHero({
   for (const h of headlines)
     lines.push(
       <a key={h.id} href={h.url} target="_blank" rel="noopener noreferrer">
-        {h.title}
+        <span className="hero-headline">{h.title}</span>
         <span className="sr-only"> (öffnet in neuem Tab)</span>
       </a>,
     );
@@ -315,8 +330,9 @@ export function GameHero({
     <a className="hero-cta" href={reviewHref}>
       Zur Bilanz
     </a>
-  ) : isLive && !next ? (
-    <a className="hero-cta" href="#spiele">
+  ) : isLive ? (
+    // Läuft das Spiel, gibt es nichts mehr einzutragen
+    <a className="hero-cta" href={tickerHref}>
       Zum Liveticker
     </a>
   ) : (
@@ -332,7 +348,16 @@ export function GameHero({
         <span aria-hidden="true">{layout === "side" ? "Quote folgt" : "Tipps folgen, sobald Quoten verfügbar sind"}</span>
       </div>
     ) : (
-      <Ring prob={prob} pick={pick} pickColor={pickColor} otherColor={otherColor} size={ringSize} withLabel={layout !== "side"} />
+      // Bei laufendem Spiel zeigt der Ring die Quote vor dem Spiel, die Live Siegchance steht im Reiter Spiele
+      <Ring
+        prob={prob}
+        pick={pick}
+        pickColor={pickColor}
+        otherColor={otherColor}
+        size={ringSize}
+        withLabel={layout !== "side"}
+        caption={isLive ? "vor Spiel" : null}
+      />
     );
 
   const head = (
@@ -354,11 +379,11 @@ export function GameHero({
           {ring}
           <div className="hero-small-text">
             <span className="hero-matchup hero-matchup-logos">
-              <TeamLogo team={away} size={24} className="hero-mini-logo" />
+              <TeamLogo team={away} size={24} className="hero-mini-logo" onDark />
               <span className="hero-matchup-text">
                 {scores ? `${away.abbr} ${scores[0]} : ${scores[1]} ${home.abbr}` : `${away.abbr} @ ${home.abbr}`}
               </span>
-              <TeamLogo team={home} size={24} className="hero-mini-logo" />
+              <TeamLogo team={home} size={24} className="hero-mini-logo" onDark />
             </span>
             <span>
               Tipp {pick ? pick.abbr : noAppTip ? "kein App Tipp" : "offen"}
@@ -384,7 +409,7 @@ export function GameHero({
   const sideText = (home: boolean) => (game.neutralSite ? (home ? "nominell Heim" : "Gast") : home ? "Heim" : "Auswärts");
   const teamBlock = (t: Team, score: number | null | undefined, home: boolean) => (
     <div className={home ? "hero-team hero-team-home" : "hero-team"}>
-      <TeamLogo team={t} size={big ? 56 : 40} className="hero-logo" />
+      <TeamLogo team={t} size={big ? 56 : 40} className="hero-logo" onDark />
       <span className="hero-abbr">{t.abbr}</span>
       <span className="hero-score" aria-hidden={score === undefined ? "true" : undefined}>
         {score ?? "\u00a0"}

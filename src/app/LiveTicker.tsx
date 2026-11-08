@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useId, useRef, useState, type CSSProperties, type KeyboardEvent, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameTip } from "../core/tips-schema";
-import { shadeForText, teamColor, visibleOn } from "./colors";
+import { SURFACE_DARK, SURFACE_LIGHT, shadeForText, teamColor, visibleOn } from "./colors";
 import { useLayoutValue } from "./layout";
 import { periodText, type LiveGame, type SummaryState } from "./live";
 import {
@@ -15,15 +15,8 @@ import {
   type LiveSummary,
   type StatRow,
 } from "./live-summary";
-import { TeamLogo } from "./ui";
-import { statusWord } from "./wording";
-
-const clockFormat = new Intl.DateTimeFormat("de-CH", {
-  timeZone: "Europe/Zurich",
-  hour: "2-digit",
-  minute: "2-digit",
-  second: "2-digit",
-});
+import { TeamLogo, usePrefersLight } from "./ui";
+import { clockFormat, statusWord } from "./wording";
 
 // ---------- Klappbare Blöcke, Wahl im localStorage ----------
 
@@ -251,7 +244,7 @@ function Head({
   const tv = live.extra?.broadcast ?? (summary?.info.tv.length ? summary.info.tv.join(", ") : null);
   const team = (t: Team, score: number | null, record: string | null, side: "away" | "home") => (
     <div className={`tk-team tk-team-${side}`}>
-      <TeamLogo team={t} size={56} className="tk-logo" />
+      <TeamLogo team={t} size={56} className="tk-logo" onDark />
       <span className="tk-abbr">
         {side === "home" && poss?.id === t.id && <Football />}
         {t.abbr}
@@ -322,6 +315,8 @@ function WinChart({ summary, away, home, tip }: { summary: LiveSummary; away: Te
   // useId enthält Doppelpunkte oder Klammern, in url(#...) nur Buchstaben und Ziffern
   const clipTop = `tk${useId().replace(/[^a-zA-Z0-9]/g, "")}t`;
   const clipBottom = `${clipTop}b`;
+  // Kurve auf der Fläche des Blocks: dunkel oder im Hellmodus weiss
+  const surface = usePrefersLight() ? SURFACE_LIGHT : SURFACE_DARK;
   const { span, points } = winSeries(summary.winProb);
   if (points.length === 0) return null;
   const W = 300;
@@ -338,8 +333,8 @@ function WinChart({ summary, away, home, tip }: { summary: LiveSummary; away: Te
   const hasPick = tip && tip.pickTeamId && tip.level !== "offen" && tip.level !== "nicht_erfasst";
   const pick = hasPick ? (tip.pickTeamId === home.id ? home : tip.pickTeamId === away.id ? away : null) : null;
   const standing = pick ? tipStanding(last.y, pick.id, home.id) : null;
-  const homeColor = visibleOn(teamColor(home.color), "#171B22", 2);
-  const awayColor = visibleOn(teamColor(away.color), "#171B22", 2);
+  const homeColor = visibleOn(teamColor(home.color), surface, 2);
+  const awayColor = visibleOn(teamColor(away.color), surface, 2);
   return (
     <section className="tk-block tk-win" aria-label="Siegchance">
       <h2 className="tk-h2 tk-h2-static">Siegchance</h2>
@@ -490,8 +485,9 @@ export function Scoring({ summary, team, away, home }: { summary: LiveSummary; t
 }
 
 export function StatBars({ rows, away, home }: { rows: StatRow[]; away: Team; home: Team }) {
-  const awayColor = teamColor(away.color);
-  const homeColor = teamColor(home.color);
+  const surface = usePrefersLight() ? SURFACE_LIGHT : SURFACE_DARK;
+  const awayColor = visibleOn(teamColor(away.color), surface, 1.6);
+  const homeColor = visibleOn(teamColor(home.color), surface, 1.6);
   return (
     <div className="tk-stats">
       <div className="tk-stats-head" aria-hidden="true">
@@ -512,10 +508,10 @@ export function StatBars({ rows, away, home }: { rows: StatRow[]; away: Team; ho
                 </span>
                 <span className="tk-bars" aria-hidden="true">
                   <span className="tk-bar tk-bar-away">
-                    <span style={{ width: w(r.away.value), background: visibleOn(awayColor, "#171B22", 1.6) }} />
+                    <span style={{ width: w(r.away.value), background: awayColor }} />
                   </span>
                   <span className="tk-bar tk-bar-home">
-                    <span style={{ width: w(r.home.value), background: visibleOn(homeColor, "#171B22", 1.6) }} />
+                    <span style={{ width: w(r.home.value), background: homeColor }} />
                   </span>
                 </span>
                 <span className="tk-stat-val tk-stat-home">
@@ -759,6 +755,8 @@ export function LiveCarousel({
         <button type="button" className="tk-arrow" onClick={() => go(index - 1)} disabled={index === 0} aria-label="Vorheriges laufendes Spiel">
           <Arrow dir="left" />
         </button>
+        {/* Ab 6 Spielen nur der Zähler, sonst würden die Punkte umbrechen */}
+        {items.length < 6 && (
         <div className="tk-dots" role="group" aria-label="Spiel wählen">
           {items.map((it, i) => (
             <button
@@ -773,6 +771,7 @@ export function LiveCarousel({
             </button>
           ))}
         </div>
+        )}
         <span className="tk-count" aria-live="polite">
           {index + 1} von {items.length}
         </span>

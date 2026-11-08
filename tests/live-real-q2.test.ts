@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { parseLastPlays, parseLiveScoreboard, periodText } from "../src/app/live";
+import { parseLiveScoreboard, periodText } from "../src/app/live";
 import { parseLiveSummary } from "../src/app/live-summary";
 
 // Echte ESPN Antworten MNF CHI@SEA, 2026-11-03 02:31 UTC, 2. Viertel 1:08, Ball in der Red Zone (R105)
@@ -27,7 +27,7 @@ describe("Liveticker mit echten Daten im 2. Viertel", () => {
   });
 
   it("letzte Spielzüge aus der echten Summary", () => {
-    const plays = parseLastPlays(read("espn-summary-2026-w8-401873036-live-q2.json"));
+    const plays = parseLiveSummary(read("espn-summary-2026-w8-401873036-live-q2.json")).plays;
     expect(plays.length).toBeGreaterThan(0);
     expect(plays.length).toBeLessThanOrEqual(10);
   });

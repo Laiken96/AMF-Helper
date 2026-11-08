@@ -173,6 +173,20 @@
   box-shadow: inset 0 0 0 1.5px var(--accent);
 }
 
+/* Nur der Knopf, kein Kandidat: ohne Rahmen, damit "Abweichung möglich" auffällt, wo es zutrifft */
+.gv-choice-plain {
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.gv-choice-plain .gv-choice-btn {
+  margin-top: 0;
+  background: transparent;
+  color: var(--text);
+  box-shadow: inset 0 0 0 1.5px var(--line);
+}
+
 .gv-choice-tag {
   margin: 0;
   display: flex;

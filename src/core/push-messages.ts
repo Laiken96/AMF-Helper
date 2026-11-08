@@ -4,7 +4,7 @@ import { z } from "zod";
 import type { PushPayload } from "./push-config";
 import type { Game, Team } from "./schema";
 import type { TipsFile } from "./tips-schema";
-import type { InjuriesFile, InjuryChange } from "./injuries";
+import type { InjuriesFile, InjuryChange, KeyRole } from "./injuries";
 import type { ReviewFile } from "./review-schema";
 import { groupBySlot } from "./time";
 
@@ -145,8 +145,61 @@ export function tipsReadyMessage(
   };
 }
 
+/**
+ * Text einer Ausfall Änderung, z. B. "BAL L.Jackson QB Q>O". Verschwindet ein Spieler von der Liste (kind weg),
+ * heisst das nicht sicher fit, daher "Q>nicht gelistet".
+ */
 export function formatChange(c: InjuryChange): string {
-  return `${c.teamAbbr} ${shortName(c.name)}${c.pos ? ` ${c.pos}` : ""} ${statusCode(c.from)}>${statusCode(c.to)}`;
+  const who = `${c.teamAbbr} ${shortName(c.name)}${c.pos ? ` ${c.pos}` : ""}`;
+  if (c.kind === "weg" || c.to === null) return `${who} ${statusCode(c.from)}>nicht gelistet`;
+  return `${who} ${statusCode(c.from)}>${statusCode(c.to)}`;
+}
+
+/** Status, deren Wegfall von der Liste nichts aussagt (Kaderwechsel statt Rückkehr), D057. */
+const SILENT_REMOVAL = new Set(["Out", "Injured Reserve"]);
+
+/** Höchstens so viele Punkte pro Spiel in der Slot Meldung (D057). */
+export const SLOT_ITEMS_PER_GAME = 2;
+
+/** Schwere des neuen Status für die Reihenfolge bei gleichem Gewicht. */
+function severity(status: string | null): number {
+  if (status === null) return 0;
+  if (status === "Questionable") return 1;
+  if (status === "Doubtful") return 2;
+  return 3; // Out, Injured Reserve, Suspension, PUP und Unbekanntes
+}
+
+/**
+ * Gewicht einer Ausfall Änderung für die Slot Meldung (D057), null heisst weglassen. Start QB (QB mit
+ * Passing Leader Rolle) 4, übrige Leader Rollen (passing, rushing, receiving) 3, QB ohne Leader Rolle 1.
+ * Weggelassen werden Spieler, die von Out oder IR aus von der Liste verschwinden, und QBs ohne Leader Rolle,
+ * die neu als Out gelistet sind (Ersatz QBs auf der Inaktivliste).
+ */
+export function changeWeight(c: InjuryChange, roles: readonly KeyRole[]): number | null {
+  if (c.to === null && c.from !== null && SILENT_REMOVAL.has(c.from)) return null;
+  const leader = roles.some((r) => r !== "qb");
+  if (!leader && c.kind === "neu" && c.to === "Out") return null;
+  if (roles.includes("passing") && (roles.includes("qb") || c.pos === "QB")) return 4;
+  if (leader) return 3;
+  return 1;
+}
+
+/** Gewicht der Linienbewegung, nach den Leader Rollen und vor QBs ohne Leader Rolle. */
+const LINE_WEIGHT = 2;
+
+/** Rollen je Spiel und Athlet aus aktuellem Stand und Grundstand. */
+function rolesIndex(injuries: InjuriesFile | null): Map<string, KeyRole[]> {
+  const out = new Map<string, KeyRole[]>();
+  for (const state of [injuries?.current, injuries?.baseline]) {
+    for (const g of state?.games ?? []) {
+      for (const p of g.players) {
+        const key = `${g.gameId}:${p.athleteId}`;
+        const prev = out.get(key) ?? [];
+        out.set(key, [...new Set([...prev, ...p.roles])]);
+      }
+    }
+  }
+  return out;
 }
 
 /** Ab dieser Bewegung des Spreads in Punkten erscheint die Linie in der Slot Meldung (D050). */
@@ -198,31 +251,47 @@ export function inSlotWindow(kickoffUtc: string, now: string): boolean {
   return m >= SLOT_WINDOW_MIN && m <= SLOT_WINDOW_MAX;
 }
 
-/** "Tippschluss in X min" für jeden Slot, dessen Kickoff 2 bis 60 Minuten entfernt ist. */
+/**
+ * "Tippschluss in X min" für jeden Slot, dessen Kickoff 2 bis 60 Minuten entfernt ist. Inhalt nach D057:
+ * Paarungen, Ausfälle nach Gewicht (changeWeight) und Linienbewegungen, keine Tipps. Pro Spiel höchstens
+ * SLOT_ITEMS_PER_GAME Punkte, über alle Spiele absteigend nach Gewicht, bei Gleichstand der schwerere Status,
+ * danach Reihenfolge der Spiele. Was nicht in BODY_MAX passt, erscheint als "+N".
+ */
 export function slotMessages(input: SlotInput): DueMessage[] {
   const { teams, now } = input;
   const open = input.games.filter((g) => g.status === "scheduled");
   const tipsById = new Map((input.tips?.tips ?? []).map((t) => [t.gameId, t]));
   const hasBaseline = input.injuries?.baseline != null;
+  const roles = rolesIndex(input.injuries);
   const out: DueMessage[] = [];
   for (const slot of groupBySlot(open)) {
     if (!inSlotWindow(slot.kickoffUtc, now)) continue;
-    const ids = new Set(slot.games.map((g) => g.id));
     const head = slot.games.length <= 4 ? slot.games.map((g) => gameLabel(teams, g)).join(" ") : `${slot.games.length} Spiele`;
-    const injuryItems = hasBaseline
-      ? (input.injuries?.changes ?? []).filter((c) => ids.has(c.gameId)).map(formatChange)
-      : [];
-    // Pro Spiel zuerst die Tippänderung, dann die Linienbewegung.
-    const tipItems = slot.games.flatMap((g) => {
+    interface Point {
+      text: string;
+      weight: number;
+      sev: number;
+      order: number;
+    }
+    const points: Point[] = [];
+    slot.games.forEach((g, gi) => {
+      const own: Point[] = [];
       const t = tipsById.get(g.id);
-      if (!t) return [];
-      const items: string[] = [];
-      if (t.changedSinceFirst) items.push(`Tipp ${abbrOf(teams, t.firstPickTeamId)}>${abbrOf(teams, t.pickTeamId)}`);
-      const line = lineMoveItem(t, g, teams);
-      if (line) items.push(line);
-      return items;
+      const line = t ? lineMoveItem(t, g, teams) : null;
+      if (line) own.push({ text: line, weight: LINE_WEIGHT, sev: 0, order: gi * 1000 });
+      if (hasBaseline) {
+        (input.injuries?.changes ?? [])
+          .filter((c) => c.gameId === g.id)
+          .forEach((c, ci) => {
+            const w = changeWeight(c, roles.get(`${c.gameId}:${c.athleteId}`) ?? []);
+            if (w !== null) own.push({ text: formatChange(c), weight: w, sev: severity(c.to), order: gi * 1000 + ci + 1 });
+          });
+      }
+      const byWeight = (a: Point, b: Point) => b.weight - a.weight || b.sev - a.sev || a.order - b.order;
+      points.push(...own.sort(byWeight).slice(0, SLOT_ITEMS_PER_GAME));
     });
-    const items = [...tipItems, ...injuryItems];
+    points.sort((a, b) => b.weight - a.weight || b.sev - a.sev || a.order - b.order);
+    const items = points.map((p) => p.text);
     const body = items.length > 0 ? fitParts(`${head}. `, items, BODY_MAX) : `${head}. Keine Änderung`;
     const minutes = Math.floor(minutesUntil(slot.kickoffUtc, now));
     out.push({
@@ -234,19 +303,15 @@ export function slotMessages(input: SlotInput): DueMessage[] {
   return out;
 }
 
-/** Vorzeichen immer sichtbar, z. B. +1, 0, -2. */
-function signed(n: number): string {
-  return n > 0 ? `+${n}` : String(n);
-}
-
-/** "Bilanz bereit" für eine komplette Woche (D032). Null, solange noch ein Spiel offen ist. */
+/**
+ * "Bilanz bereit" für eine komplette Woche (D032). Null, solange noch ein Spiel offen ist. Ohne den Teil zu
+ * Abweichungen (D057), die eigene Wahl liegt nur auf dem Gerät und erscheint in der App.
+ */
 export function reviewReadyMessage(review: ReviewFile): DueMessage | null {
   if (!review.complete) return null;
   const tbs = review.tiebreakers.map((tb) => `${tb.slot === "thursday" ? "TNF" : "MNF"} ${tb.diff ?? "?"}`);
   const tb = tbs.length > 0 ? tbs.join(", ") : "keine";
-  const body =
-    `App Punkte ${review.points} von ${review.tipped}, Abweichungen netto ${signed(review.deviationNet)}, ` +
-    `Tiebreaker Abweichung ${tb}. Rangliste melden`;
+  const body = `App Punkte ${review.points} von ${review.tipped}, Tiebreaker Abweichung ${tb}. Rangliste melden`;
   return {
     key: reviewReadyKey(review.season, review.seasonType, review.week),
     ttlSeconds: REVIEW_READY_TTL_S,

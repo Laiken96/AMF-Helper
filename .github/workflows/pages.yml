@@ -1,3 +1,6 @@
+# Veröffentlichung auf GitHub Pages. Actions mit Node 24 (checkout und setup-node v7, upload-pages-artifact und
+# deploy-pages v5). Der Deploy hat einen zweiten Versuch nach kurzer Pause, weil GitHub Pages zeitweise mit
+# Timeout, HTTP 400 "in progress" oder HTTP 502 abbricht (D057).
 name: Pages
 
 on:
@@ -18,8 +21,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -29,16 +32,36 @@ jobs:
       - run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
+      # Eigenes Zeitlimit der Action (7 Minuten statt 10), sie bricht den hängenden Deploy dann selbst ab.
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+        timeout-minutes: 9
+        with:
+          timeout: 420000
+
+      # Ein laufender oder hängender Deploy blockiert den nächsten kurz, daher erst warten.
+      - name: Pause vor dem zweiten Versuch
+        if: steps.deployment.outcome == 'failure'
+        run: |
+          echo "::warning::Erster Deploy fehlgeschlagen, zweiter Versuch in 60 Sekunden"
+          sleep 60
+
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        timeout-minutes: 9
+        with:
+          timeout: 420000

@@ -110,6 +110,7 @@
 
   [data-layout="side"] .nav-capsule,
   [data-layout="wide"] .nav-capsule,
+  [data-layout="side"] .tool-capsule,
   [data-layout="wide"] .tool-capsule {
     box-shadow: 0 0 0 1px var(--line);
   }

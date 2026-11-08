@@ -3,21 +3,25 @@ import type { Game, Team, WeekFile } from "../core/schema";
 import { tipResult, type TipResult } from "../core/review";
 import { standingsAppliesTo } from "../core/standings";
 import { deviationCandidates } from "../core/deviation";
-import { tiebreakerGames } from "../core/tips";
-import type { GameTip, StandingsFile, TipsFile } from "../core/tips-schema";
+import { gapToTarget, tiebreakerGames } from "../core/tips";
+import { TIPS_SCHEMA_VERSION, type GameTip, type StandingsFile, type TipsFile } from "../core/tips-schema";
 import { formatKickoffZurich, groupBySlot } from "../core/time";
 import {
   beforeAppStart,
   currentRef,
   loadTipsData,
   navWeeks,
+  parseViewArg,
   parseWeekKey,
   prefetchNeighbours,
+  setShownWeek,
   useFactsData,
   useKeptLoad,
+  viewHash,
   weekKey,
   type TipsData,
 } from "./data";
+import { closeSheetHash, openSheetHash, replaceHash } from "./hash-nav";
 import { GameSheet } from "./Sheet";
 import {
   GameHero,
@@ -30,48 +34,25 @@ import {
   type HeroVariant,
 } from "./GameHero";
 import { LiveStatus } from "./GamesView";
-import { outsiderChoice } from "./game-view";
+import { RESULT_BADGE, entryPending, levelLabel, outsiderChoice, withLiveFinal, type EntryStatus } from "./game-view";
 import { useLayoutValue } from "./layout";
 import { periodText, useLiveScores, type LiveGame } from "./live";
-import { standingsFor, useChoices, usePlayer, useShownTips, type ChoiceState, type PlayerState } from "./player";
+import {
+  readEntered,
+  standingsFor,
+  useChoices,
+  usePlayer,
+  useShownTips,
+  writeEntered,
+  type ChoiceState,
+  type PlayerState,
+} from "./player";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamLogo, WeekStepper, fallbackTeam, weekLabel } from "./ui";
 import { SLOT_LONG, SLOT_SHORT, TIME_ZONE_TEXT, formatStand, scoreAria, scoreText } from "./wording";
 
-const LEVEL_TEXT: Record<GameTip["level"], string> = {
-  klar: "klar",
-  favorit: "Favorit",
-  unklar: "unklar",
-  offen: "offen",
-  nicht_erfasst: "nicht erfasst",
-};
-
-// Häkchen "eingetragen" nur lokal. Gespeichert wird das getippte Team, damit eine spätere
-// Änderung des Tipps erkannt wird. Jeder Storage Zugriff ist ausfalltolerant.
+// Häkchen "eingetragen" nur lokal und pro Spieler (player.ts). Gespeichert wird das getippte Team, damit eine
+// spätere Änderung des Tipps erkannt wird. Jeder Storage Zugriff ist ausfalltolerant.
 const NO_PICK = "ohne";
-
-function storageKey(season: number, seasonType: number, week: number, gameId: string): string {
-  return `nfl-dashboard:eingetragen:${season}-${seasonType}-${String(week).padStart(2, "0")}:${gameId}`;
-}
-
-/** Gespeichertes Team oder null. Alte Einträge ("1" oder "true") gelten als nicht eingetragen. */
-function readEntered(key: string): string | null {
-  try {
-    const v = window.localStorage.getItem(key);
-    if (v === null || v === "1" || v === "true") return null;
-    return v;
-  } catch {
-    return null;
-  }
-}
-
-function writeEntered(key: string, value: string | null): void {
-  try {
-    if (value !== null) window.localStorage.setItem(key, value);
-    else window.localStorage.removeItem(key);
-  } catch {
-    // Ohne Storage bleibt das Häkchen nur bis zum Neuladen erhalten.
-  }
-}
 
 const pickKey = (t: GameTip): string => t.pickTeamId ?? NO_PICK;
 
@@ -104,8 +85,9 @@ const LEVEL_COLOR: Record<GameTip["level"], string> = {
 };
 
 export function TipsView({ arg = null }: { arg?: string | null }) {
-  // #tipps/2026-2-09/401873037: Woche und gewähltes Spiel. Nur die Woche löst ein Laden aus.
-  const [weekArg = null, gameArg = null] = arg ? arg.split("/") : [];
+  // #tipps/2026-2-09/401873037: Woche und gewähltes Spiel, für die aktuelle Woche ohne Woche (#tipps/401873037).
+  // Nur die Woche löst ein Laden aus.
+  const { week: weekArg, game: gameArg } = parseViewArg(arg);
   const { data, error, pending } = useKeptLoad(`tipps:${weekArg ?? ""}`, () => loadTipsData(parseWeekKey(weekArg)));
   const player = usePlayer(data?.standings ?? null);
   const mode: Mode | null = !data?.week ? null : !data.tips ? "folgt" : data.phase === "vergangen" ? "vergangen" : "offen";
@@ -124,6 +106,10 @@ export function TipsView({ arg = null }: { arg?: string | null }) {
   useEffect(() => {
     if (data) prefetchNeighbours(data, loadTipsData);
   }, [data]);
+  const shownRef = data?.ref;
+  useEffect(() => {
+    setShownWeek(shownRef ?? null);
+  }, [shownRef]);
 
   if (error) return <LoadErrorNotice message={error} />;
   if (!data) return <p className="notice">Daten werden geladen …</p>;
@@ -161,7 +147,7 @@ type Mode = "offen" | "vergangen" | "folgt";
 /** Tippliste ohne Quoten für eine Woche ohne Tippdatei: gleiche Zeilen, Status offen, Tiebreaker markiert. */
 function placeholderTips(week: WeekFile): TipsFile {
   return {
-    schemaVersion: 1,
+    schemaVersion: TIPS_SCHEMA_VERSION,
     season: week.season,
     seasonType: week.seasonType,
     week: week.week,
@@ -195,9 +181,10 @@ const KICKER: Record<TipsData["phase"], string> = { aktuell: "Tipps · Aktuell",
 
 function TipsHeader({ data, updatedAt, pending }: { data: TipsData; updatedAt?: string; pending: boolean }) {
   const weeks = navWeeks(data);
-  const meta = updatedAt
-    ? `Saison ${data.ref.season} · ${formatStand(updatedAt)} · ${TIME_ZONE_TEXT}`
-    : `Saison ${data.ref.season} · ${TIME_ZONE_TEXT}`;
+  // Im Duo (side, wide) ist die Zeile schmal: ohne Zeitzonenzusatz, er steht in den Einstellungen
+  const layout = useLayoutValue();
+  const zone = layout === "side" || layout === "wide" ? "" : ` · ${TIME_ZONE_TEXT}`;
+  const meta = updatedAt ? `Saison ${data.ref.season} · ${formatStand(updatedAt)}${zone}` : `Saison ${data.ref.season}${zone}`;
   return (
     <PageHeader
       kicker={weeks ? KICKER[data.phase] : "Tipps"}
@@ -212,7 +199,6 @@ function TipsHeader({ data, updatedAt, pending }: { data: TipsData; updatedAt?: 
   );
 }
 
-type EntryStatus = "none" | "done" | "changed";
 
 interface TipRow extends GameTip {
   id: string;
@@ -252,8 +238,14 @@ function TipsList({
   // Vergangene Woche eines anderen Spielers: die Tipps stammen vom Hauptnutzer
   const foreignTips = player.other && mode === "vergangen";
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
-  const gameById = useMemo(() => new Map((games ?? []).map((g) => [g.id, g])), [games]);
   const live = useLiveScores(readOnly ? null : data.ref, readOnly ? null : games);
+  // Endstand aus den Live Daten zählt sofort, wie in der Spielansicht (shownResult): alle Ansichten zeigen
+  // gleichzeitig richtig oder falsch, auch bevor der stündliche Job die Wochendatei final schreibt
+  const gameById = useMemo(
+    () => new Map((games ?? []).map((g) => [g.id, withLiveFinal(g, live.games.get(g.id))])),
+    [games, live.games],
+  );
+  const current = currentRef(data.current);
   const reviewHref = `#bilanz/${weekKey(data.ref)}`;
   // Ab Kickoff gilt ein Spiel in der Anzeige als gesperrt, auch wenn der stündliche Tippjob es noch nicht
   // gesperrt hat. Nur Darstellung, die Datei bleibt unverändert.
@@ -269,15 +261,24 @@ function TipsList({
     [tips, gameById, now, mode],
   );
 
-  const keyFor = (gameId: string) => storageKey(tips.season, tips.seasonType, tips.week, gameId);
-  const [entered, setEntered] = useState<Map<string, string>>(() => {
+  // Häkchen pro Spieler (D050): der Wechsel des Spielers liest die Häkchen neu
+  const readAll = () => {
     const m = new Map<string, string>();
     for (const t of tips.tips) {
-      const v = readEntered(keyFor(t.gameId));
+      const v = readEntered(player.player, player.main, tips, t.gameId);
       if (v !== null) m.set(t.gameId, v);
     }
     return m;
-  });
+  };
+  const [enteredState, setEntered] = useState<{ player: string | null; map: Map<string, string> }>(() => ({
+    player: player.player,
+    map: readAll(),
+  }));
+  const entered = enteredState.player === player.player ? enteredState.map : readAll();
+  useEffect(() => {
+    if (enteredState.player !== player.player) setEntered({ player: player.player, map: readAll() });
+    // readAll hängt nur an Spieler und Tippdatei
+  }, [player.player, enteredState.player]);
   const [filter, setFilter] = useState<Filter>(readFilter);
   // Im Filter Offen bleiben eben umgeschaltete Zeilen bis zum nächsten Filterwechsel oder Reload sichtbar
   const [sticky, setSticky] = useState<Set<string>>(() => new Set());
@@ -285,12 +286,12 @@ function TipsList({
   const toggle = (row: TipRow) => {
     const value = entered.get(row.gameId) === pickKey(row) ? null : pickKey(row);
     setSticky((prev) => (prev.has(row.gameId) ? prev : new Set(prev).add(row.gameId)));
-    writeEntered(keyFor(row.gameId), value);
-    setEntered((prev) => {
-      const next = new Map(prev);
+    writeEntered(player.player, player.main, tips, row.gameId, value);
+    setEntered(() => {
+      const next = new Map(entered);
       if (value === null) next.delete(row.gameId);
       else next.set(row.gameId, value);
-      return next;
+      return { player: player.player, map: next };
     });
   };
 
@@ -306,8 +307,9 @@ function TipsList({
     if (v === undefined) return "none";
     return v === pickKey(r) ? "done" : "changed";
   };
-  const isPending = (r: TipRow) =>
-    !passive && r.level !== "nicht_erfasst" && (statusOf(r) === "changed" || (statusOf(r) === "none" && !r.locked));
+  // Gesperrte Zeilen zählen nie als offen, auch mit geändertem Tipp: eintragen geht nicht mehr.
+  // Der Hinweis "Tipp geändert" bleibt in der Zeile stehen.
+  const isPending = (r: TipRow) => entryPending(r, statusOf(r), passive);
   const countable = rows.filter((r) => r.level !== "nicht_erfasst");
   const notCapturedCount = rows.length - countable.length;
   const doneCount = countable.filter((r) => statusOf(r) === "done").length;
@@ -336,23 +338,26 @@ function TipsList({
     const running = rows
       .filter((r) => r.game && live.games.get(r.gameId)?.state === "in")
       .sort((a, b) => Number(b.tiebreaker) - Number(a.tiebreaker) || byKickoff(a, b))[0];
-    const pick = running ?? next;
+    // Filter Offen: Standard ist das nächste offene Spiel, laufende Spiele stehen im Reiter Spiele.
+    // Filter Alle: ein laufendes Spiel zuerst
+    const pick = filter === "offen" ? (next ?? running) : (running ?? next);
+    const showsRunning = pick !== undefined && pick === running;
     const target: HeroTarget | null =
       pick && pick.game
         ? { tip: pick, game: pick.game, tiebreaker: tips.tiebreakers.find((tb) => tb.gameId === pick.gameId) }
         : null;
     const nextInfo: HeroNext | null =
-      running && next?.game
+      showsRunning && next?.game
         ? { matchup: `${team(next.game.awayId).abbr} @ ${team(next.game.homeId).abbr}`, kickoffUtc: next.kickoffUtc }
         : null;
     return {
       hero: target,
       heroEmpty: (open.length > 0 ? "ohne_daten" : "gesperrt") as HeroEmpty,
-      heroLive: running ? (live.games.get(running.gameId) ?? null) : null,
+      heroLive: showsRunning && running ? (live.games.get(running.gameId) ?? null) : null,
       heroNext: nextInfo,
     };
     // team hängt nur von teamById ab
-  }, [rows, tips, now, live.games, teamById, mode]);
+  }, [rows, tips, now, live.games, teamById, mode, filter]);
 
   const header = (
     <>
@@ -361,28 +366,19 @@ function TipsList({
     </>
   );
   // ---------- Auswahl eines Spiels (List Detail, D037) ----------
-  const baseHash = `#tipps/${weekKey(data.ref)}`;
+  // Aktuelle Woche ohne Woche im Hash, damit die Home Bildschirm App nach dem Wochenwechsel mitzieht (D055)
+  const hashFor = (id: string | null) => viewHash("tipps", data.ref, current, id);
+  const baseHash = hashFor(null);
   const defaultId = hero?.game.id ?? null;
   const selectedRow = selectedId ? rows.find((r) => r.gameId === selectedId && r.game) : undefined;
   const shownRow = selectedRow ?? (defaultId ? rows.find((r) => r.gameId === defaultId) : undefined);
-  const select = (id: string | null) => {
-    const target = id ? `${baseHash}/${id}` : baseHash;
-    if (window.location.hash !== target) window.location.hash = target;
-  };
-  // Pfeile und Rücksprung im Spielbereich ersetzen den Verlaufseintrag, sonst sammelt jeder Klick einen an.
-  // replaceState löst kein hashchange aus, darum das Ereignis selbst senden.
-  const step = (id: string | null) => {
-    const target = id ? `${baseHash}/${id}` : baseHash;
-    if (window.location.hash === target) return;
-    const oldURL = window.location.href;
-    try {
-      window.history.replaceState(window.history.state, "", target);
-      window.dispatchEvent(new HashChangeEvent("hashchange", { oldURL, newURL: window.location.href }));
-    } catch {
-      window.location.hash = target;
-    }
-  };
   const wide = layout === "wide";
+  // wide wählt nur das Spiel im Spielbereich: Eintrag ersetzen. Sonst öffnet die Auswahl ein Blatt mit genau
+  // einem Verlaufseintrag, den Schliessen wieder verlässt (Zurück öffnet das Blatt nicht erneut)
+  const select = (id: string) => (wide ? replaceHash(hashFor(id)) : openSheetHash(hashFor(id)));
+  const closeSheet = () => closeSheetHash(baseHash);
+  // Pfeile und Rücksprung im Spielbereich ersetzen den Verlaufseintrag, sonst sammelt jeder Klick einen an
+  const step = (id: string | null) => replaceHash(hashFor(id));
   // Reihenfolge der Liste mit aktivem Filter. Liegt das gezeigte Spiel ausserhalb, zählt seine Position in Alle.
   const allOrder = groupBySlot(rows).flatMap((sl) => sl.games).filter((r) => r.game);
   const visibleIds = new Set(visible.map((r) => r.gameId));
@@ -456,15 +452,29 @@ function TipsList({
       hp.game && !readOnly
         ? heroHeadlines(data.news?.items, [hp.game.awayId, hp.game.homeId], now, layout === "side" ? 1 : 2)
         : [];
+    // Am Ende der Liste bleibt der Pfeil fokussierbar (aria-disabled statt disabled), sonst fiele der Fokus
+    // beim letzten Schritt auf die Seite. Der Fokus wechselt dann auf den anderen Pfeil.
+    const arrowStep = (e: { currentTarget: HTMLElement }, row: TipRow | undefined, dir: "prev" | "next") => {
+      if (!row) return;
+      const i = visibleOrder.findIndex((r) => r.gameId === row.gameId);
+      const atEnd = dir === "next" ? i === visibleOrder.length - 1 : i === 0;
+      const group = e.currentTarget.closest(".hero-nav");
+      step(row.gameId);
+      if (atEnd && group) {
+        window.requestAnimationFrame(() =>
+          group.querySelector<HTMLElement>(dir === "next" ? ".hero-nav-prev" : ".hero-nav-next")?.focus(),
+        );
+      }
+    };
     const nav =
       useSelection && shownRow ? (
         <div className="hero-nav" role="group" aria-label="Spiel wählen">
           <button
             type="button"
-            className="hero-nav-arrow"
-            disabled={!prevRow}
+            className="hero-nav-arrow hero-nav-prev"
+            aria-disabled={!prevRow || undefined}
             aria-label={prevRow ? `Vorheriges Spiel, ${matchupOf(prevRow)}` : "Kein vorheriges Spiel"}
-            onClick={() => prevRow && step(prevRow.gameId)}
+            onClick={(e) => arrowStep(e, prevRow, "prev")}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M15 5l-7 7 7 7" />
@@ -481,15 +491,19 @@ function TipsList({
                 </span>
               </>
             ) : (
-              "ausserhalb Filter"
+              // Kurz, damit der Zähler auch im Duo quer nicht abgeschnitten wird
+              <>
+                <span aria-hidden="true">{live.games.get(shownRow.gameId)?.state === "in" ? "Live" : "\u2013"}</span>
+                <span className="sr-only">Spiel ausserhalb des Filters</span>
+              </>
             )}
           </span>
           <button
             type="button"
-            className="hero-nav-arrow"
-            disabled={!nextRow}
+            className="hero-nav-arrow hero-nav-next"
+            aria-disabled={!nextRow || undefined}
             aria-label={nextRow ? `Nächstes Spiel, ${matchupOf(nextRow)}` : "Kein nächstes Spiel"}
-            onClick={() => nextRow && step(nextRow.gameId)}
+            onClick={(e) => arrowStep(e, nextRow, "next")}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M9 5l7 7-7 7" />
@@ -521,6 +535,7 @@ function TipsList({
         result={hp.result}
         reviewHref={reviewHref}
         nav={nav}
+        tickerHref={hp.game ? viewHash("spiele", data.ref, current, hp.game.id) : "#spiele"}
         choice={hp.target ? choiceOf(rows.find((r) => r.gameId === hp.target!.game.id)) : null}
       />
     );
@@ -637,7 +652,7 @@ function TipsList({
       {tiles}
       {list}
       {selectedRow && (
-        <GameSheet title={matchupOf(selectedRow)} onClose={() => select(null)}>
+        <GameSheet title={matchupOf(selectedRow)} onClose={closeSheet}>
           {renderHero(true)}
         </GameSheet>
       )}
@@ -680,7 +695,11 @@ function TiebreakerBox({
                 {game && ` ${team(game.homeId).abbr}`}
               </span>
               <span className="box-meta">
-                {kickoff ? `Kickoff ${formatKickoffZurich(kickoff)}` : ""}
+                {kickoff && (
+                  <>
+                    Kickoff <span className="nowrap">{formatKickoffZurich(kickoff)}</span>
+                  </>
+                )}
                 {open ? " · Resultat offen" : tb.basis === "standard" ? " · Standardwert" : ""}
               </span>
             </li>
@@ -723,10 +742,11 @@ function StandingsBox({ standings, season }: { standings: StandingsFile; season:
   const applies = standingsAppliesTo(standings, season);
   const leader = players[0];
   const rank = mine ? players.filter((p) => p.points > mine.points).length + 1 : null;
-  const gap = applies && mine && leader ? leader.points - mine.points : 0;
+  const gap = applies && mine ? gapToTarget(standings) : 0;
   const ahead = mine ? [...players].reverse().find((p) => p.points > mine.points) : undefined;
   const gapAhead = ahead && mine ? ahead.points - mine.points : 0;
   const pts = (n: number) => `${n} ${n === 1 ? "Punkt" : "Punkte"}`;
+  // "2 Punkte hinter JA auf Platz 1, 1 Punkt hinter MK"
   return (
     <section className="box" aria-label="Rangliste">
       <h2>Ziel: möglichst viele Punkte</h2>
@@ -738,13 +758,13 @@ function StandingsBox({ standings, season }: { standings: StandingsFile; season:
       {mine && applies && (
         <p className="box-meta">
           {gap > 0
-            ? `${pts(gap)} hinter ${leader!.id} auf Platz 1${ahead && ahead.id !== leader!.id ? `, ${gapAhead} hinter ${ahead.id}` : ""}`
+            ? `${pts(gap)} hinter ${leader!.id} auf Platz 1${ahead && ahead.id !== leader!.id ? `, ${pts(gapAhead)} hinter ${ahead.id}` : ""}`
             : "In Führung"}
         </p>
       )}
       {!applies && <p className="box-meta">Neue Saison, Rückstand erst nach der ersten Meldung</p>}
       <p className="box-meta">
-        Rangliste nach Week {standings.asOfWeek}
+        Rangliste nach <span className="nowrap">Week {standings.asOfWeek}</span>
         {!applies && standings.season !== undefined ? ` der Saison ${standings.season}` : ""}
       </p>
       <ol className="ranking">
@@ -758,14 +778,6 @@ function StandingsBox({ standings, season }: { standings: StandingsFile; season:
     </section>
   );
 }
-
-const RESULT_TEXT: Record<Exclude<TipResult, null>, string> = {
-  richtig: "richtig",
-  falsch: "falsch",
-  unentschieden: "unentschieden",
-  offen: "offen",
-  ungewertet: "ungewertet",
-};
 
 function TipItem({
   row,
@@ -806,7 +818,7 @@ function TipItem({
   const pick = hasPick ? team(row.pickTeamId!) : null;
   const away = game ? team(game.awayId) : null;
   const home = game ? team(game.homeId) : null;
-  const pending = !readOnly && !upcoming && !notCaptured && (status === "changed" || (status === "none" && !row.locked));
+  const pending = entryPending(row, status, readOnly || upcoming);
   // Beendetes Spiel: Endstand und Ergebnis direkt in der Zeile, auch in der laufenden Woche
   const finished = Boolean(game && game.status === "final" && game.awayScore !== null && game.homeScore !== null);
   const decided = row.result === "richtig" || row.result === "falsch" || row.result === "unentschieden";
@@ -826,7 +838,7 @@ function TipItem({
     : notCaptured
       ? ""
       : pct !== null
-        ? `${row.deviation ? (own ? "Deine Abw. " : "Abw. ") : ""}${pct} %`
+        ? `${pct} %`
         : "keine Quote";
   const infoAria = upcoming
     ? "Quote folgt"
@@ -836,6 +848,9 @@ function TipItem({
         ? `${row.deviation ? (own ? "deine Abweichung, " : "Abweichung, ") : ""}${candidate && !row.deviation ? "Abweichung möglich, " : ""}Siegwahrscheinlichkeit ${pct} Prozent`
         : "keine Quote";
   const infoColor = row.deviation && pct !== null ? "var(--unklar)" : LEVEL_COLOR[row.level];
+  // Bei einer Abweichung beschreibt die Marke die Abweichung, nicht die Lage des Favoriten (sonst "klar" neben 22 %)
+  const levelTag = levelLabel(row, own, true);
+  const levelCls = row.deviation && pct !== null ? "level level-tag-unklar" : `level level-tag-${row.level}`;
   const liveText = live?.state === "in" && game ? `Live ${live.awayScore ?? 0} : ${live.homeScore ?? 0} ${periodText(live)}` : "";
   const finalText = finished && game ? scoreText(game.awayScore!, game.homeScore!) : "";
   const matchup = away && home ? `${away.abbr} @ ${home.abbr}` : `Spiel ${row.gameId}`;
@@ -853,7 +868,7 @@ function TipItem({
           className="tip-select"
           onClick={onSelect}
           aria-current={selected ? "true" : undefined}
-          aria-label={`${matchup}, Tipp ${pick ? pick.abbr : notCaptured ? "keiner" : "offen"}, ${infoAria}${ariaScore}${showResult && row.result ? `, ${RESULT_TEXT[row.result]}` : ""}. Im Spielbereich zeigen`}
+          aria-label={`${matchup}, Tipp ${pick ? pick.abbr : notCaptured ? "keiner" : "offen"}, ${infoAria}${ariaScore}${showResult && row.result ? `, ${RESULT_BADGE[row.result].text}` : ""}. Im Spielbereich zeigen`}
         >
           {pick ? <TeamLogo team={pick} size={24} className="tip-logo" /> : <span className="logo-placeholder tip-logo" aria-hidden="true" />}
           {away && home ? (
@@ -875,12 +890,12 @@ function TipItem({
           {info && (
             <span className="tip-info" aria-hidden="true">
               <span style={{ color: infoColor }}>{info}</span>
-              <span className={`level level-tag-${row.level}`}>{LEVEL_TEXT[row.level]}</span>
+              <span className={levelCls}>{levelTag}</span>
             </span>
           )}
         </button>
         {showResult && row.result ? (
-          <span className={`res-badge res-badge-${row.result}`}>{RESULT_TEXT[row.result]}</span>
+          <span className={RESULT_BADGE[row.result].cls}>{RESULT_BADGE[row.result].text}</span>
         ) : upcoming || readOnly || notCaptured ? (
           <span className="tick-spacer" aria-hidden="true" />
         ) : (

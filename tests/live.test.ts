@@ -6,11 +6,11 @@ import {
   LIVE_MAX_BACKOFF_MS,
   liveDelay,
   maybeLive,
-  parseLastPlays,
   parseLiveScoreboard,
   periodText,
   type LiveGame,
 } from "../src/app/live";
+import { parseLiveSummary } from "../src/app/live-summary";
 
 // Nachgebaute ESPN Antworten (synthetic), Struktur aus der echten Scoreboard Fixture Week 9
 const read = (name: string) => JSON.parse(readFileSync(new URL(`./fixtures/${name}`, import.meta.url), "utf8")) as unknown;
@@ -170,9 +170,9 @@ describe("maybeLive", () => {
   });
 });
 
-describe("parseLastPlays", () => {
+describe("Spielzüge aus parseLiveSummary", () => {
   it("neueste zuerst, ohne Doppel und leere Texte, Team aus Spielzug oder Drive", () => {
-    const plays = parseLastPlays(summary());
+    const plays = parseLiveSummary(summary()).plays;
     expect(plays.map((p) => p.id)).toEqual([
       "401873037902",
       "401873037901",
@@ -185,6 +185,7 @@ describe("parseLastPlays", () => {
     expect(plays[0]).toEqual({
       id: "401873037902",
       text: "L.Jackson pass short right to Z.Flowers for 12 yards",
+      type: "Pass Reception",
       period: 3,
       clock: "4:12",
       teamId: "33",
@@ -195,15 +196,15 @@ describe("parseLastPlays", () => {
   });
 
   it("begrenzt auf limit", () => {
-    expect(parseLastPlays(summary(), 2).map((p) => p.id)).toEqual(["401873037902", "401873037901"]);
+    expect(parseLiveSummary(summary(), 2).plays.map((p) => p.id)).toEqual(["401873037902", "401873037901"]);
   });
 
   it("Summary ohne drives (vor Kickoff) liefert eine leere Liste", () => {
-    expect(parseLastPlays(read("espn-summary-2026-w9-401873037.json"))).toEqual([]);
+    expect(parseLiveSummary(read("espn-summary-2026-w9-401873037.json")).plays).toEqual([]);
   });
 
   it("wirft bei falschem Format", () => {
-    expect(() => parseLastPlays("kein Objekt")).toThrow();
+    expect(() => parseLiveSummary("kein Objekt")).toThrow();
   });
 });
 

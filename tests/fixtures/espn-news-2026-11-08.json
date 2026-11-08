@@ -1,0 +1,901 @@
+{
+ "header": "NFL News",
+ "articles": [
+  {
+   "id": 50422166,
+   "type": "Recap",
+   "headline": "Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
+   "description": "— Joe Burrow threw for three touchdowns and rushed for another and the Cincinnati Bengals' offense kept rolling to defeat the Atlanta Falcons 34-17 in Madrid on Sunday for their fourth straight win.",
+   "lastModified": "2026-11-08T18:33:49Z",
+   "published": "2026-11-08T18:33:49Z",
+   "categories": [
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:1",
+     "description": "Atlanta Falcons",
+     "teamId": 1
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:4",
+     "description": "Cincinnati Bengals",
+     "teamId": 4
+    },
+    {
+     "type": "event",
+     "uid": "s:20~l:28~e:401873038",
+     "description": "Cincinnati Bengals @ Atlanta Falcons"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "http://www.espn.com/nfl/recap?gameId=401873038"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50043471,
+   "type": "Story",
+   "headline": "2026 NFL trade deadline updates: Jacoby Brissett, Jeffery Simmons on the move",
+   "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including Jacoby Brissett to Baltimore.",
+   "lastModified": "2026-11-08T18:10:06Z",
+   "published": "2026-11-08T18:10:06Z",
+   "categories": [
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "topic",
+     "description": "event"
+    },
+    {
+     "type": "topic",
+     "description": "daily"
+    },
+    {
+     "type": "topic",
+     "description": "transaction"
+    },
+    {
+     "type": "contributor",
+     "description": "ESPN Staff Profile"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50421706,
+   "type": "Media",
+   "headline": "Cincinnati Bengals vs. Atlanta Falcons: Game Highlights",
+   "description": "Cincinnati Bengals vs. Atlanta Falcons: Game Highlights",
+   "lastModified": "2026-11-08T18:39:45Z",
+   "published": "2026-11-08T18:39:45Z",
+   "categories": [
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4239993",
+     "description": "Tee Higgins"
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4360423",
+     "description": "Michael Penix Jr"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:4",
+     "description": "Cincinnati Bengals",
+     "teamId": 4
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:1",
+     "description": "Atlanta Falcons",
+     "teamId": 1
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4430807",
+     "description": "Bijan Robinson"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:3915511",
+     "description": "Joe Burrow"
+    },
+    {
+     "type": "editorialindicator",
+     "description": "SC4U  - Eligible"
+    },
+    {
+     "type": "editorialindicator",
+     "description": "SC4U - Full Highlight"
+    },
+    {
+     "type": "event",
+     "uid": "s:20~l:28~e:401873038",
+     "description": "Cincinnati Bengals @ Atlanta Falcons"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/video/clip/_/id/50421706/game-highlights"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 49881131,
+   "type": "Story",
+   "headline": "2027 NFL draft questions, latest intel, risers, CFB standouts",
+   "description": "How did CFB Week 10 shake up the quarterback class? CJ Carr and LaNorris Sellers rising? Here's our weekly draft spin, including top standouts.",
+   "lastModified": "2026-11-08T17:43:10Z",
+   "published": "2026-11-08T17:43:10Z",
+   "categories": [
+    {
+     "type": "league",
+     "description": "NFL Draft"
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:23",
+     "description": "NCAA Football"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:87",
+     "description": "Notre Dame Fighting Irish",
+     "teamId": 87
+    },
+    {
+     "type": "team",
+     "description": "University of Notre Dame",
+     "teamId": 87
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:2579",
+     "description": "South Carolina Gamecocks",
+     "teamId": 2579
+    },
+    {
+     "type": "team",
+     "description": "University of South Carolina",
+     "teamId": 2579
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:251",
+     "description": "Texas Longhorns",
+     "teamId": 251
+    },
+    {
+     "type": "team",
+     "description": "University of Texas",
+     "teamId": 251
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:99",
+     "description": "LSU Tigers",
+     "teamId": 99
+    },
+    {
+     "type": "team",
+     "description": "Louisiana State University",
+     "teamId": 99
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:249",
+     "description": "North Texas Mean Green",
+     "teamId": 249
+    },
+    {
+     "type": "team",
+     "description": "University of North Texas",
+     "teamId": 249
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:2390",
+     "description": "Miami Hurricanes",
+     "teamId": 2390
+    },
+    {
+     "type": "team",
+     "description": "University of Miami",
+     "teamId": 2390
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:2633",
+     "description": "Tennessee Volunteers",
+     "teamId": 2633
+    },
+    {
+     "type": "team",
+     "description": "University of Tennessee",
+     "teamId": 2633
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:61",
+     "description": "Georgia Bulldogs",
+     "teamId": 61
+    },
+    {
+     "type": "team",
+     "description": "University of Georgia",
+     "teamId": 61
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:153",
+     "description": "North Carolina Tar Heels",
+     "teamId": 153
+    },
+    {
+     "type": "team",
+     "description": "University of North Carolina",
+     "teamId": 153
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:248",
+     "description": "Houston Cougars",
+     "teamId": 248
+    },
+    {
+     "type": "team",
+     "description": "University of Houston",
+     "teamId": 248
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50421090,
+   "type": "HeadlineNews",
+   "headline": "Cowboys WR Pickens, CB Porter, LB Overshown inactive against Colts",
+   "description": "The Cowboys will be without wide receiver George Pickens, cornerback Joey Porter Jr. and linebacker DeMarvion Overshown against the Colts.",
+   "lastModified": "2026-11-08T17:42:57Z",
+   "published": "2026-11-08T17:42:57Z",
+   "categories": [
+    {
+     "type": "topic",
+     "description": "news"
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:6",
+     "description": "Dallas Cowboys",
+     "teamId": 6
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4426354",
+     "description": "George Pickens"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4426506",
+     "description": "Joey Porter Jr"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4362088",
+     "description": "DeMarvion Overshown"
+    },
+    {
+     "type": "contributor",
+     "description": "Todd Archer"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50421090/cowboys-wr-pickens-cb-porter-lb-overshown-inactive-vs-colts"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50408146,
+   "type": "Story",
+   "headline": "How to bet Buccaneers-Bears: Tips, analysis and our top prop plays",
+   "description": "Odds, analysis and picks to help you bet Sunday's Tampa Bay Buccaneers-Chicago Bears game.",
+   "lastModified": "2026-11-08T15:25:01Z",
+   "published": "2026-11-08T15:25:01Z",
+   "categories": [
+    {
+     "type": "league",
+     "description": "Sports Betting"
+    },
+    {
+     "type": "topic",
+     "description": "news – sports betting"
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "topic",
+     "description": "news - nfl"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:27",
+     "description": "Tampa Bay Buccaneers",
+     "teamId": 27
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:3",
+     "description": "Chicago Bears",
+     "teamId": 3
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4431611",
+     "description": "Caleb Williams"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4723086",
+     "description": "Colston Loveland"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4685278",
+     "description": "Luther Burden III"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/espn/betting/story/_/id/50408146/nfl-week-9-odds-betting-picks-buccaneers-bears-preview"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50419727,
+   "type": "HeadlineNews",
+   "headline": "J.J. McCarthy wowing Giants after initial concerns over QB's 'maturity,' VP says",
+   "description": "Chris Mara said the Giants were concerned by J.J. McCarthy's maturity before the 2024 draft but says the QB has impressed his new team \"on and off the field.\"",
+   "lastModified": "2026-11-08T14:23:10Z",
+   "published": "2026-11-08T14:23:10Z",
+   "categories": [
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:19",
+     "description": "New York Giants",
+     "teamId": 19
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:16",
+     "description": "Minnesota Vikings",
+     "teamId": 16
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4433970",
+     "description": "JJ McCarthy"
+    },
+    {
+     "type": "topic",
+     "description": "news"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50419727/jj-mccarthy-wowing-giants-concerns-maturity"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50407561,
+   "type": "HeadlineNews",
+   "headline": "Sources: Lamar Jackson told Ravens teammates he plans to return this season",
+   "description": "Lamar Jackson told his Ravens teammates that he plans to return later this season, sources told NFL Network.",
+   "lastModified": "2026-11-08T14:19:32Z",
+   "published": "2026-11-08T14:19:32Z",
+   "categories": [
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:33",
+     "description": "Baltimore Ravens",
+     "teamId": 33
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:3916387",
+     "description": "Lamar Jackson"
+    },
+    {
+     "type": "topic",
+     "description": "news"
+    },
+    {
+     "type": "contributor",
+     "description": "Ian Rapoport"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50407561/sources-lamar-jackson-told-ravens-plans-return-26"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50417320,
+   "type": "HeadlineNews",
+   "headline": "Venables lauds Witten after Sooners shine in Oklahoma playcaller's debut",
+   "description": "In his debut as Oklahoma's offensive playcaller, Jason Witten, a former NFL tight end who coached high school in Texas last year, engineered an impressive Sooners attack that throttled No. 25 Florida in a 23-7 victory Saturday to push them to 5-4.",
+   "lastModified": "2026-11-08T06:27:11Z",
+   "published": "2026-11-08T06:27:11Z",
+   "categories": [
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:201",
+     "description": "Oklahoma Sooners",
+     "teamId": 201
+    },
+    {
+     "type": "team",
+     "description": "University of Oklahoma",
+     "teamId": 201
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:23~t:57",
+     "description": "Florida Gators",
+     "teamId": 57
+    },
+    {
+     "type": "team",
+     "description": "University of Florida",
+     "teamId": 57
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:23",
+     "description": "NCAA Football"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:4915980",
+     "description": "John Mateer"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:5295814",
+     "description": "Tramell Jones Jr"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:5080703",
+     "description": "Isaiah Sategna III"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:5125593",
+     "description": "Bailey Stockton"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:5207928",
+     "description": "Courtland Guillory"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:4878109",
+     "description": "Hayden Hansen"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:4907786",
+     "description": "Rocky Beers"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:23~a:5295815",
+     "description": "Duke Clark"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:6",
+     "description": "Dallas Cowboys",
+     "teamId": 6
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/college-football/story/_/id/50417320/venables-lauds-witten-sooners-shine-play-caller-debut"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50374069,
+   "type": "Story",
+   "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
+   "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
+   "lastModified": "2026-11-08T02:18:40Z",
+   "published": "2026-11-08T02:18:40Z",
+   "categories": [
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:22",
+     "description": "Arizona Cardinals",
+     "teamId": 22
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:1",
+     "description": "Atlanta Falcons",
+     "teamId": 1
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:33",
+     "description": "Baltimore Ravens",
+     "teamId": 33
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:2",
+     "description": "Buffalo Bills",
+     "teamId": 2
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:29",
+     "description": "Carolina Panthers",
+     "teamId": 29
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:3",
+     "description": "Chicago Bears",
+     "teamId": 3
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:4",
+     "description": "Cincinnati Bengals",
+     "teamId": 4
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:5",
+     "description": "Cleveland Browns",
+     "teamId": 5
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:6",
+     "description": "Dallas Cowboys",
+     "teamId": 6
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:7",
+     "description": "Denver Broncos",
+     "teamId": 7
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:8",
+     "description": "Detroit Lions",
+     "teamId": 8
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:9",
+     "description": "Green Bay Packers",
+     "teamId": 9
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:34",
+     "description": "Houston Texans",
+     "teamId": 34
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:11",
+     "description": "Indianapolis Colts",
+     "teamId": 11
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:30",
+     "description": "Jacksonville Jaguars",
+     "teamId": 30
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:12",
+     "description": "Kansas City Chiefs",
+     "teamId": 12
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:13",
+     "description": "Las Vegas Raiders",
+     "teamId": 13
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:24",
+     "description": "Los Angeles Chargers",
+     "teamId": 24
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:14",
+     "description": "Los Angeles Rams",
+     "teamId": 14
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:15",
+     "description": "Miami Dolphins",
+     "teamId": 15
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:16",
+     "description": "Minnesota Vikings",
+     "teamId": 16
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:17",
+     "description": "New England Patriots",
+     "teamId": 17
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:18",
+     "description": "New Orleans Saints",
+     "teamId": 18
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:19",
+     "description": "New York Giants",
+     "teamId": 19
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:20",
+     "description": "New York Jets",
+     "teamId": 20
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:21",
+     "description": "Philadelphia Eagles",
+     "teamId": 21
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:23",
+     "description": "Pittsburgh Steelers",
+     "teamId": 23
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:25",
+     "description": "San Francisco 49ers",
+     "teamId": 25
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:26",
+     "description": "Seattle Seahawks",
+     "teamId": 26
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:27",
+     "description": "Tampa Bay Buccaneers",
+     "teamId": 27
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:10",
+     "description": "Tennessee Titans",
+     "teamId": 10
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:28",
+     "description": "Washington Commanders",
+     "teamId": 28
+    },
+    {
+     "type": "contributor",
+     "description": "Anthony Gharib"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50410541,
+   "type": "HeadlineNews",
+   "headline": "Saints activate WR Jordyn Tyson, LT Kelvin Banks, cut RB Kendre Miller",
+   "description": "Saints rookie wide receiver Jordyn Tyson and left tackle Kelvin Banks Jr. have been activated from injured reserve ahead of Sunday's game against the Browns.",
+   "lastModified": "2026-11-07T21:08:08Z",
+   "published": "2026-11-07T21:08:08Z",
+   "categories": [
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4880281",
+     "description": "Jordyn Tyson"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4685260",
+     "description": "Kelvin Banks Jr"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:18",
+     "description": "New Orleans Saints",
+     "teamId": 18
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4599739",
+     "description": "Kendre Miller"
+    },
+    {
+     "type": "contributor",
+     "description": "Katherine Terrell"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50410541/sources-saints-activate-wr-jordyn-tyson-lt-kelvin-banks"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50402740,
+   "type": "HeadlineNews",
+   "headline": "Seahawks' Quenton Nelson, Sam Darnold among starters ruled out",
+   "description": "New Seahawks trade acquisition Quenton Nelson will have a \"minor procedure\" and is one of six starters, including QB Sam Darnold, who won't play vs. the Cardinals.",
+   "lastModified": "2026-11-07T03:11:40Z",
+   "published": "2026-11-07T03:11:40Z",
+   "categories": [
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:3129308",
+     "description": "Quenton Nelson"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:3912547",
+     "description": "Sam Darnold"
+    },
+    {
+     "type": "team",
+     "uid": "s:20~l:28~t:26",
+     "description": "Seattle Seahawks",
+     "teamId": 26
+    },
+    {
+     "type": "league",
+     "uid": "s:20~l:28",
+     "description": "NFL"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:2971622",
+     "description": "Leonard Williams"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4426376",
+     "description": "Charles Cross"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:3924327",
+     "description": "Drew Lock"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:3120358",
+     "description": "Uchenna Nwosu"
+    },
+    {
+     "type": "athlete",
+     "uid": "s:20~l:28~a:4032473",
+     "description": "Rashid Shaheed"
+    },
+    {
+     "type": "contributor",
+     "description": "Brady Henderson"
+    }
+   ],
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nfl/story/_/id/50402740/seahawks-quenton-nelson-sam-darnold-starters-ruled-out"
+    }
+   },
+   "premium": false
+  }
+ ]
+}

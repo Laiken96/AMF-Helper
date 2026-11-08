@@ -2,8 +2,11 @@ import { useEffect, useMemo, type ReactNode } from "react";
 import type { Game, Team } from "../core/schema";
 import type { GameReview, RankingCheck, ReviewFile, StandingsHistory } from "../core/review-schema";
 import { groupWeekRows } from "../core/standings";
-import { loadReviewPage, parseWeekKey, sameRef, useKeptLoad, type ReviewData, type WeekRef } from "./data";
+import { loadReviewPage, parseWeekKey, sameRef, setShownWeek, useKeptLoad, type ReviewData, type WeekRef } from "./data";
+import { RESULT_BADGE, gameState, reviewResult, winnerSide, withLiveFinal } from "./game-view";
 import { useLayoutValue } from "./layout";
+import { useLiveScores, type LiveState } from "./live";
+import { applyChoicesToReview, useChoices, usePlayer } from "./player";
 import { rankingCheckText } from "./review-text";
 import { SeasonView } from "./SeasonView";
 import { LoadErrorNotice, PageHeader, Segmented, Spoken, TeamBadge, WeekStepper, fallbackTeam, weekLabel } from "./ui";
@@ -47,6 +50,10 @@ function WeekReview({ arg }: { arg: string | null }) {
     const i = data.weeks.findIndex((w) => sameRef(w.ref, data.ref));
     for (const w of [data.weeks[i - 1], data.weeks[i + 1]]) if (w) void loadReviewPage(w.ref).catch(() => undefined);
   }, [data]);
+  const shownRef = data?.ref;
+  useEffect(() => {
+    setShownWeek(shownRef ?? null);
+  }, [shownRef]);
 
   if (error) return <LoadErrorNotice message={error} />;
   if (data === null && !pending) {
@@ -69,18 +76,37 @@ function WeekReview({ arg }: { arg: string | null }) {
 /** Kachel Titel statt "App Punkte": richtige Tipps der App in dieser Woche. */
 const POINTS_TITLE = "Richtige App Tipps";
 
-/** Strich für nicht gemeldete Wochenpunkte, Vorleser hört "nicht gemeldet". */
-const Missing = () => (
-  <span className="missing" title="nicht gemeldet">
-    <span aria-hidden="true">{"\u2013"}</span>
-    <span className="sr-only">nicht gemeldet</span>
-  </span>
-);
+/** Strich für nicht gemeldete Wochenpunkte, Vorleser hört "nicht gemeldet". Erste Meldung der Saison eigens. */
+const Missing = ({ first = false }: { first?: boolean }) => {
+  const text = first ? "erste Meldung, Wochenpunkte ab der nächsten Woche" : "nicht gemeldet";
+  return (
+    <span className="missing" title={text}>
+      <span aria-hidden="true">{"\u2013"}</span>
+      <span className="sr-only">{text}</span>
+    </span>
+  );
+};
+
+/** Erste Meldung der Saison: kein früherer Eintrag, gegen den Wochenpunkte gerechnet werden könnten. */
+function firstEntry(history: StandingsHistory, ref: WeekRef): boolean {
+  const order = (e: WeekRef) => e.seasonType * 100 + e.week;
+  return !history.entries.some((e) => e.season === ref.season && order(e) < order(ref)) &&
+    history.entries.some((e) => e.season === ref.season && order(e) === order(ref));
+}
 
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n));
 
 function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }) {
-  const { review, week, standings, history, ref } = data;
+  const { week, standings, history, ref } = data;
+  // Eigene Wahl des gewählten Spielers verrechnet (D057), mit sichtbarem Hinweis
+  const player = usePlayer(standings);
+  const { choices } = useChoices(player.player, ref);
+  const own = useMemo(
+    () => (data.review ? applyChoicesToReview(data.review, choices, week?.games ?? null) : { review: null, changed: 0 }),
+    [data.review, choices, week],
+  );
+  const review = own.review;
+  const live = useLiveScores(data.phase === "vergangen" ? null : ref, data.phase === "vergangen" ? null : (week?.games ?? null));
   const teamById = useMemo(() => new Map(data.teams.teams.map((t) => [t.id, t])), [data.teams]);
   const gameById = useMemo(() => new Map((week?.games ?? []).map((g) => [g.id, g])), [week]);
   const team = (id: string): Team => teamById.get(id) ?? fallbackTeam(id);
@@ -162,9 +188,16 @@ function ReviewContent({ data, picker }: { data: ReviewData; picker: ReactNode }
       <ModeToggle mode="woche" />
     </>
   );
-  const gameList = <GameList review={review} gameById={gameById} team={team} />;
+  const gameList = <GameList review={review} gameById={gameById} team={team} live={live} />;
+  const ownNote = own.changed > 0 && (
+    <p className="notice own-note">
+      <strong>inkl. deiner Abweichungen.</strong> {own.changed} {own.changed === 1 ? "Spiel zählt" : "Spiele zählen"} mit der
+      eigenen Wahl von {player.player}, gespeichert auf diesem Gerät.
+    </p>
+  );
   const metrics = (
     <>
+      {ownNote}
       {!review.complete && (
         <p className="notice notice-pending">
           <strong>Zwischenstand.</strong> {finals} von {review.games.length} Spielen sind beendet, die Bilanz wird
@@ -331,13 +364,18 @@ function GroupWeek({ history, week: review, me }: { history: StandingsHistory; w
           {sorted.map((r) => (
             <tr key={r.id} className={r.id === me ? "me" : undefined}>
               <th scope="row">{r.id}</th>
-              <td>{r.week ?? <Missing />}</td>
+              <td>{r.week ?? <Missing first={firstEntry(history, review)} />}</td>
               <td>{r.total}</td>
             </tr>
           ))}
         </tbody>
       </table>
-      {!hasWeek && <MissingHint week={review.week} />}
+      {!hasWeek &&
+        (firstEntry(history, review) ? (
+          <p className="push-hint">Erste Meldung der Saison, Wochenpunkte ab der nächsten Woche.</p>
+        ) : (
+          <MissingHint week={review.week} />
+        ))}
     </section>
   );
 }
@@ -349,7 +387,11 @@ function SeasonTable({ history, season, me }: { history: StandingsHistory; seaso
   if (entries.length === 0) return null;
   const latest = entries[entries.length - 1]!;
   const ids = [...latest.players].sort((a, b) => b.points - a.points || a.id.localeCompare(b.id)).map((p) => p.id);
-  const anyMissing = entries.some((e) => groupWeekRows(history, season, e.seasonType, e.week)?.some((r) => r.week === null));
+  const isFirst = (e: { seasonType: number; week: number }) => firstEntry(history, { season, seasonType: e.seasonType, week: e.week });
+  const anyMissing = entries.some(
+    (e) => !isFirst(e) && groupWeekRows(history, season, e.seasonType, e.week)?.some((r) => r.week === null),
+  );
+  const firstMissing = entries.some((e) => isFirst(e) && groupWeekRows(history, season, e.seasonType, e.week)?.some((r) => r.week === null));
   return (
     <section className="slot">
       <h2>Saisonverlauf {season}</h2>
@@ -373,7 +415,7 @@ function SeasonTable({ history, season, me }: { history: StandingsHistory; seaso
                   <th scope="row">{e.seasonType === 3 ? `P${e.week}` : e.week}</th>
                   {ids.map((id) => (
                     <td key={id} className={id === me ? "me" : undefined}>
-                      {rows.find((r) => r.id === id)?.week ?? <Missing />}
+                      {rows.find((r) => r.id === id)?.week ?? <Missing first={isFirst(e)} />}
                     </td>
                   ))}
                 </tr>
@@ -392,6 +434,7 @@ function SeasonTable({ history, season, me }: { history: StandingsHistory; seaso
           </tfoot>
         </table>
       </div>
+      {firstMissing && <p className="push-hint">Erste Meldung: Wochenpunkte erst ab der nächsten Woche.</p>}
       {anyMissing && <p className="push-hint">Ein Strich heisst nicht gemeldet.</p>}
     </section>
   );
@@ -414,15 +457,19 @@ function GameList({
   review,
   gameById,
   team,
+  live,
 }: {
   review: ReviewFile;
   gameById: Map<string, Game>;
   team: (id: string) => Team;
+  live: LiveState;
 }) {
   if (review.games.length === 0) return null;
   const withTip = review.games.filter((g) => g.pickTeamId !== null);
   const without = review.games.filter((g) => g.pickTeamId === null);
-  const row = (g: GameReview) => <ReviewGameRow key={g.gameId} g={g} game={gameById.get(g.gameId)} team={team} />;
+  const row = (g: GameReview) => (
+    <ReviewGameRow key={g.gameId} g={g} game={gameById.get(g.gameId)} team={team} live={live.games.get(g.gameId)} />
+  );
   return (
     <section className="slot">
       <h2>Spiele</h2>
@@ -439,10 +486,28 @@ function GameList({
   );
 }
 
-function ReviewGameRow({ g, game, team }: { g: GameReview; game: Game | undefined; team: (id: string) => Team }) {
-  const result = g.correct === null ? (g.pickTeamId ? "offen" : "") : g.correct ? "richtig" : "falsch";
-  const resultCls = g.correct === null ? "res res-open" : g.correct ? "res res-ok" : "res res-bad";
-  const scored = game && game.awayScore !== null && game.homeScore !== null && game.status !== "scheduled";
+function ReviewGameRow({
+  g,
+  game: fileGame,
+  team,
+  live,
+}: {
+  g: GameReview;
+  game: Game | undefined;
+  team: (id: string) => Team;
+  live: Parameters<typeof gameState>[1];
+}) {
+  // Wie im Reiter Spiele: laufend mit Live Stand, geplant als "Geplant", Endstand aus Live sofort
+  const game = fileGame ? withLiveFinal(fileGame, live) : undefined;
+  const st = game ? gameState(game, live) : null;
+  const liveSide = !g.final && game?.status === "final" ? winnerSide(game.awayScore, game.homeScore) : null;
+  const liveWinner = liveSide === "away" ? game!.awayId : liveSide === "home" ? game!.homeId : null;
+  const result = reviewResult(
+    liveSide && g.pickTeamId ? { final: true, pickTeamId: g.pickTeamId, winnerTeamId: liveWinner, correct: liveWinner === g.pickTeamId } : g,
+  );
+  const scored = st ? st.showScore : false;
+  const awayScore = st?.awayScore ?? null;
+  const homeScore = st?.homeScore ?? null;
   // Sieger fett, Verlierer gedimmt, nur bei beendetem Spiel
   const side = (score: number | null | undefined, other: number | null | undefined) =>
     game?.status !== "final" || score == null || other == null || score === other
@@ -458,7 +523,7 @@ function ReviewGameRow({ g, game, team }: { g: GameReview; game: Game | undefine
             <span className={side(game.awayScore, game.homeScore)}>
               <TeamBadge team={team(game.awayId)} />
             </span>
-            {scored ? <span className="score">{scoreText(game.awayScore!, game.homeScore!)}</span> : <span className="at">@</span>}
+            {scored ? <span className="score">{scoreText(awayScore!, homeScore!)}</span> : <span className="at">@</span>}
             <span className={`${side(game.homeScore, game.awayScore)} team-wrap-home`}>
               <TeamBadge team={team(game.homeId)} />
             </span>
@@ -473,7 +538,14 @@ function ReviewGameRow({ g, game, team }: { g: GameReview; game: Game | undefine
             Tipp {team(g.pickTeamId).abbr}
             {g.deviation ? ", Abweichung" : ""}
           </span>
-          <span className={resultCls}>{g.final ? result : "nicht beendet"}</span>
+          {result && result !== "offen" ? (
+            <span className={RESULT_BADGE[result].cls}>{RESULT_BADGE[result].text}</span>
+          ) : (
+            <span className={st?.running ? "status live-tag" : "res res-open"}>
+              {st?.running && <span className="live-dot" aria-hidden="true" />}
+              {st ? st.statusText : "offen"}
+            </span>
+          )}
         </div>
       )}
     </li>

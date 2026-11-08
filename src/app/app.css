@@ -116,6 +116,12 @@ body {
   overflow-x: hidden;
 }
 
+/* Kein Doppeltipp Zoom auf iOS: schnelle Folgetipps (z. B. Pfeile im Spielbereich) wurden sonst verschluckt
+   oder zoomten die Seite. Zoomen mit zwei Fingern bleibt möglich. */
+html {
+  touch-action: manipulation;
+}
+
 a {
   color: var(--accent);
 }
@@ -194,6 +200,7 @@ a:hover {
   box-shadow: 0 8px 24px var(--shadow);
 }
 
+/* Anordnung der Navigationsziele in nav.css */
 .nav-capsule a,
 .tool-capsule a,
 .tool-capsule button {
@@ -203,10 +210,14 @@ a:hover {
   border: 0;
   background: transparent;
   color: var(--icon);
-  display: grid;
   place-content: center;
   cursor: pointer;
   text-decoration: none;
+}
+
+.tool-capsule a,
+.tool-capsule button {
+  display: grid;
 }
 
 .nav-capsule a:hover,
@@ -219,10 +230,6 @@ a:hover {
 .nav-capsule a.active {
   background: var(--accent);
   color: var(--bg);
-}
-
-[data-layout="medium"] .nav-capsule a {
-  width: 60px;
 }
 
 [data-layout="medium"] .page {
@@ -284,6 +291,7 @@ a:hover {
 
 [data-layout="side"] .nav-capsule,
 [data-layout="wide"] .nav-capsule,
+[data-layout="side"] .tool-capsule,
 [data-layout="wide"] .tool-capsule {
   flex-direction: column;
   align-items: center;
@@ -308,7 +316,9 @@ a:hover {
 
 [data-layout="side"] .nav-capsule a,
 [data-layout="wide"] .nav-capsule a,
+[data-layout="side"] .tool-capsule a,
 [data-layout="wide"] .tool-capsule a,
+[data-layout="side"] .tool-capsule button,
 [data-layout="wide"] .tool-capsule button {
   width: 44px;
   height: 44px;
@@ -474,10 +484,6 @@ a:hover {
   white-space: nowrap;
 }
 
-.hero-countdown-end {
-  align-self: flex-end;
-}
-
 .hero-teams {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
@@ -525,6 +531,11 @@ a:hover {
   font-size: 13px;
 }
 
+/* Kleiner Ring (side): Beschriftung unter dem Wert, grösser gesetzt, weil der Ring verkleinert wird */
+.ring-label-small {
+  font-size: 19px;
+}
+
 .hero-fields {
   padding: 12px 14px;
   border-radius: 14px;
@@ -558,20 +569,6 @@ a:hover {
   font-weight: 800;
   font-size: 24px;
   line-height: 1.1;
-}
-
-.hero-absence {
-  padding: 10px 14px;
-  border-radius: 14px;
-  background: rgba(11, 14, 19, 0.6);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 13px;
-}
-
-.hero-absence svg {
-  flex: none;
 }
 
 .hero-cta {
@@ -614,11 +611,6 @@ a:hover {
 
 .hero-split .hero-value {
   font-size: 22px;
-}
-
-.hero-split .hero-absence {
-  padding: 8px 12px;
-  font-size: 12px;
 }
 
 .hero-split .hero-cta {
@@ -703,12 +695,6 @@ a:hover {
 
 .hero-big .hero-value {
   font-size: 28px;
-}
-
-.hero-big .hero-absence {
-  padding: 12px 16px;
-  border-radius: 16px;
-  font-size: 14px;
 }
 
 .hero-big .hero-cta {
@@ -1397,14 +1383,6 @@ a:hover {
   font-weight: 700;
 }
 
-.res-ok {
-  color: var(--klar);
-}
-
-.res-bad {
-  color: var(--error);
-}
-
 .res-open {
   color: var(--text-3);
 }
@@ -1596,10 +1574,6 @@ a:hover {
 
 .overlay-card .btn:not(.btn-primary) {
   background: var(--active);
-}
-
-.btn-close {
-  flex: none;
 }
 
 code {
@@ -1836,47 +1810,7 @@ a.step-today:hover {
   font-size: 48px;
 }
 
-.hero-next {
-  margin: 0;
-  font-size: 13px;
-  font-weight: 600;
-  color: #e4e8ee;
-}
-
-.hero-news {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 4px;
-  font-size: 13px;
-}
-
-.hero-news a {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  color: #e4e8ee;
-  text-decoration: underline;
-  text-decoration-color: rgba(228, 232, 238, 0.45);
-  text-underline-offset: 2px;
-}
-
-.hero-news a:hover {
-  color: #fff;
-}
-
-.hero-small .hero-news {
-  font-size: 12px;
-}
-
 /* ---------- Ergebnis vergangener Wochen ---------- */
-
-.box-of {
-  font-size: 18px;
-  color: var(--text-3);
-}
 
 .res-badge {
   flex: none;
@@ -1896,9 +1830,15 @@ a.step-today:hover {
   color: var(--klar);
 }
 
-.res-badge-falsch {
+.res-badge-falsch,
+.res-badge-unentschieden {
   background: var(--error-bg);
   color: var(--error);
+}
+
+/* Bilanzliste: Ergebnis als Text in der Detailzeile, Farben wie die Marken der Tippliste */
+.details .res-badge {
+  margin-right: 0;
 }
 
 /* ---------- News (Sprint 7) ---------- */
@@ -2022,6 +1962,7 @@ a.step-today:hover {
 }
 
 @media (max-height: 519px) {
+  [data-layout="side"] .tool-capsule,
   [data-layout="wide"] .tool-capsule {
     display: none;
   }
@@ -2195,12 +2136,14 @@ a.step-today:hover {
   place-content: center;
 }
 
-.hero-nav-arrow:disabled {
-  color: #8d96a3;
+/* Ende der Liste: fokussierbar (aria-disabled), deutlich blasser und ohne Fläche */
+.hero-nav-arrow[aria-disabled="true"] {
+  color: rgba(228, 232, 238, 0.32);
+  background: rgba(11, 14, 19, 0.25);
   cursor: default;
 }
 
-.hero-nav-arrow:not(:disabled):hover,
+.hero-nav-arrow:not([aria-disabled="true"]):hover,
 .hero-nav-home:hover {
   background: rgba(11, 14, 19, 0.85);
 }
@@ -2258,23 +2201,14 @@ html.sheet-open .page {
   box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.6);
 }
 
-.sheet-head {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  min-height: 44px;
-}
-
+/* Kopf und Griff des Blatts in sheet.css */
 .sheet-grip {
   position: absolute;
   left: 50%;
-  top: 2px;
   width: 40px;
   height: 5px;
   margin-left: -20px;
   border-radius: 3px;
-  background: var(--active);
 }
 
 .sheet .hero-nav-home {
@@ -2587,6 +2521,12 @@ abbr.tb-day {
 .hero-info-line a {
   position: relative;
   display: block;
+  overflow: visible;
+}
+
+/* Kürzen am inneren Text, der Link selbst schneidet nicht ab, sonst griffe die Trefferfläche (::after) nicht */
+.hero-info-line a > .hero-headline {
+  display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2748,17 +2688,27 @@ a.step-label:active,
   white-space: nowrap;
 }
 
+/* Kopfzeile einzeilig (D045): die lange Überzeile wird gekürzt statt den Wochenwähler unter den Titel zu
+   schieben. Unter 340 px darf der Wähler weiter umbrechen */
+@media (min-width: 341px) {
+  .header:has(.week-stepper) .header-main {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .header:has(.week-stepper) .kicker {
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 /* Sehr schmal (250 px): Navigation ohne Abstände, 5 mal 44 px */
 @media (max-width: 340px) {
   [data-layout="compact"] .nav-capsule {
     gap: 0;
     padding: 4px;
-  }
-
-  [data-layout="compact"] .nav-capsule a {
-    width: 44px;
-    height: 44px;
-    border-radius: 22px;
   }
 
   .tip-team-pick {
@@ -2927,4 +2877,68 @@ tr.me .missing,
   .hero-choice {
     transition: none;
   }
+}
+
+/* Teamlogo mit Variante für den Dunkelmodus: picture ohne eigene Box, das Bild bleibt das Layout Element */
+.logo-picture {
+  display: contents;
+}
+
+/* ---------- Bug Suche 2026-11-08 (D057) ---------- */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Hinweis, dass Bilanz und Saison die eigene Wahl enthalten */
+.own-note {
+  font-size: 13px;
+}
+
+/* Spielbereich im Duo zugeklappt: Paarung mit Stand passt ohne Kürzen */
+[data-layout="side"] .hero-matchup {
+  font-size: 22px;
+}
+
+/* Tippliste im Duo zugeklappt: Stand (Endstand oder Live mit Viertel und Uhr) in einer zweiten Zeile unter den
+   Teams, nichts wird abgeschnitten (D057) */
+[data-layout="side"] .tip-select {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "logo teams info"
+    "logo vs info";
+  column-gap: 8px;
+  row-gap: 2px;
+  align-items: center;
+  padding: 4px 0;
+}
+
+[data-layout="side"] .tip-select .tip-logo {
+  grid-area: logo;
+}
+
+[data-layout="side"] .tip-select > .tip-teams,
+[data-layout="side"] .tip-select > .tip-pick {
+  grid-area: teams;
+}
+
+[data-layout="side"] .tip-select > .tip-vs {
+  grid-area: vs;
+  white-space: normal;
+  overflow: visible;
+  text-align: left;
+  line-height: 1.25;
+}
+
+[data-layout="side"] .tip-select > .tip-vs:empty {
+  display: none;
+}
+
+[data-layout="side"] .tip.finished .tip-vs {
+  text-align: left;
+}
+
+[data-layout="side"] .tip-select > .tip-info {
+  grid-area: info;
 }

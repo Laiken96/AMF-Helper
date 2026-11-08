@@ -103,9 +103,18 @@ export function isLocked(game: Pick<Game, "kickoffUtc" | "status">, now: string)
   return Date.parse(now) >= Date.parse(game.kickoffUtc) || game.status !== "scheduled";
 }
 
-function sameOdds(a: Odds | null, b: Odds | null): boolean {
+/** Anbieter ohne Leerzeichen und in Kleinschreibung, ESPN liefert "Draft Kings" und "DraftKings". */
+export function normalizeProvider(provider: string): string {
+  return provider.replace(/\s+/g, "").toLowerCase();
+}
+
+export function sameOdds(a: Odds | null, b: Odds | null): boolean {
   if (a === null || b === null) return a === b;
-  return a.provider === b.provider && a.spreadHome === b.spreadHome && a.overUnder === b.overUnder;
+  return (
+    normalizeProvider(a.provider) === normalizeProvider(b.provider) &&
+    a.spreadHome === b.spreadHome &&
+    a.overUnder === b.overUnder
+  );
 }
 
 /**
@@ -128,7 +137,7 @@ export function favoriteTip(game: Game, odds: Odds | null): Pick<GameTip, "pHome
 
 /**
  * Resultatvorschlag aus Over/Under und Spread. Favorit = (OU + |spread|)/2, Aussenseiter = (OU minus |spread|)/2.
- * Ohne Over/Under 23 zu 20. Der Sieger folgt dem Tipp (D026): ist der Tipp eine Abweichung,
+ * Ohne Over/Under 23 zu 20. Der Sieger folgt dem Tipp (D026, D052): ist der Tipp eine eigene Abweichung,
  * gewinnt der getippte Aussenseiter mit 3 Punkten Vorsprung bei gleichem Total.
  */
 export function tiebreakerFor(

@@ -53,12 +53,27 @@ export function shadeForText(hex: string): string {
   return BG;
 }
 
-/** Hellt sehr dunkle Teamfarben auf, damit Punkt und Ring auf dunkler Fläche sichtbar bleiben. */
-export function visibleOn(hex: string, surface = "#171B22", min = 2.4): string {
+/** Fläche der Ticker Blöcke: dunkel wie bisher, im Hellmodus weiss (theme-light.css --surface). */
+export const SURFACE_DARK = "#171B22";
+export const SURFACE_LIGHT = "#FFFFFF";
+
+/**
+ * Passt Teamfarben an die Fläche an, damit Punkt, Ring, Kurve und Balken sichtbar bleiben: auf dunkler Fläche
+ * aufhellen, auf heller Fläche (Hellmodus) abdunkeln.
+ */
+export function visibleOn(hex: string, surface = SURFACE_DARK, min = 2.4): string {
   const base = parseHex(hex) ?? parseHex(FALLBACK_TEAM_COLOR)!;
+  const light = luminance(parseHex(surface) ?? [0, 0, 0]) > 0.4;
+  const target: Rgb = light ? [0, 0, 0] : [255, 255, 255];
   for (let t = 0; t <= 1; t += 0.05) {
-    const c = toHex(mix(base, [255, 255, 255], t));
+    const c = toHex(mix(base, target, t));
     if (contrast(c, surface) >= min) return c;
   }
-  return "#FFFFFF";
+  return light ? "#000000" : "#FFFFFF";
+}
+
+/** ESPN Variante für dunkle Flächen: /500/ wird zu /500-dark/. Andere Adressen bleiben ohne Variante. */
+export function darkLogoUrl(url: string | null): string | null {
+  if (!url || !url.includes("/teamlogos/") || !url.includes("/500/")) return null;
+  return url.replace("/500/", "/500-dark/");
 }

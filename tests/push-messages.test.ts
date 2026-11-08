@@ -5,15 +5,17 @@ import { TeamsFileSchema, type Team } from "../src/core/schema";
 import { TipsFileSchema, type TipsFile } from "../src/core/tips-schema";
 import { buildTipsFile } from "../src/core/tips";
 import { groupBySlot } from "../src/core/time";
-import type { InjuriesFile } from "../src/core/injuries";
+import { InjuriesFileSchema, type InjuriesFile } from "../src/core/injuries";
 import type { ReviewFile } from "../src/core/review-schema";
 import {
   BODY_MAX,
   EMPTY_PUSH_LOG,
   TITLE_MAX,
   appendLog,
+  changeWeight,
   dueMessages,
   fitParts,
+  formatChange,
   inSlotWindow,
   lineMoveItem,
   reviewReadyMessage,
@@ -116,9 +118,9 @@ describe("Slot Fenster", () => {
     expect(m?.payload).toMatchObject({ title: "Tippschluss in 42 min", body: "JAX@BAL. Keine Änderung", url: "#tipps" });
   });
 
-  it("Tippänderung und Ausfall im Text", () => {
+  it("Ausfall im Text, keine Tippänderung (D057)", () => {
     const [m] = slotMessages({ games, tips: withChangedTnf(), injuries: injuries([qToO]), teams, now: minus(TNF, 30) });
-    expect(m?.payload.body).toBe("JAX@BAL. Tipp JAX>BAL, BAL L.Jackson QB Q>O");
+    expect(m?.payload.body).toBe("JAX@BAL. BAL L.Jackson QB Q>O");
   });
 
   it("ohne Grundstand keine Ausfälle in der Meldung", () => {
@@ -126,11 +128,83 @@ describe("Slot Fenster", () => {
     expect(m?.payload.body).toBe("JAX@BAL. Keine Änderung");
   });
 
-  it("lange Listen bleiben unter 180 Zeichen", () => {
+  it("höchstens 2 Punkte pro Spiel", () => {
     const many = Array.from({ length: 30 }, (_, i) => ({ ...qToO, athleteId: String(i), name: `Spieler Nummer${i}` }));
     const [m] = slotMessages({ games, tips: tipsW9, injuries: injuries(many), teams, now: minus(TNF, 30) });
+    expect(m!.payload.body).toBe("JAX@BAL. BAL S.Nummer0 QB Q>O, BAL S.Nummer1 QB Q>O");
+  });
+
+  it("lange Listen über viele Spiele bleiben unter 180 Zeichen", () => {
+    const sunday = groupBySlot(games.filter((g) => g.status === "scheduled")).find((s) => s.games.length >= 5)!;
+    const many = sunday.games.flatMap((g, gi) =>
+      [0, 1].map((i) => ({ ...qToO, gameId: g.id, athleteId: `${gi}-${i}`, name: `Spieler Nummer${gi}${i}` })),
+    );
+    const [m] = slotMessages({ games, tips: null, injuries: injuries(many), teams, now: minus(sunday.kickoffUtc, 30) });
     expect(m!.payload.body.length).toBeLessThanOrEqual(BODY_MAX);
     expect(m!.payload.body).toMatch(/ \+\d+$/);
+  });
+});
+
+describe("Ausfälle nach Gewicht (D057)", () => {
+  // Echter Stand data/injuries/2026-2-09.json auf main vom 2026-11-08 18:40 UTC. Slot So 08.11. 19:00 MEZ mit
+  // 7 Spielen. Vorher gesendet: "7 Spiele. Linie DAL -6 > -3.5, NO Z.Wilson QB fit>O, CLE D.Watson QB Q>O,
+  // CLE T.Green QB fit>O, CAR H.King QB fit>O, DEN S.Ehlinger QB fit>O, DET A.St. Brown WR Q>fit +8".
+  const real = InjuriesFileSchema.parse(
+    JSON.parse(readFileSync(new URL("./fixtures/injuries-2026-2-09-2026-11-08.json", import.meta.url), "utf8")),
+  );
+  const SUNDAY_1 = "2026-11-08T18:00:00Z";
+  const slot = () => slotMessages({ games, tips: null, injuries: real, teams, now: "2026-11-08T17:01:07Z" })[0]!;
+
+  it("echter Slot 08.11. 19:00: Leader und Start QB zuerst, keine Ersatz QBs", () => {
+    expect(games.filter((g) => g.kickoffUtc === SUNDAY_1)).toHaveLength(7);
+    const m = slot();
+    expect(m.key).toBe("slot:2026-11-08T19:00+01:00");
+    expect(m.payload.body).toBe(
+      "7 Spiele. CLE D.Watson QB Q>O, DET A.St. Brown WR Q>nicht gelistet, NYG C.Skattebo RB Q>nicht gelistet, " +
+        "PHI S.Barkley RB Q>nicht gelistet, KC T.Kelce TE Q>nicht gelistet",
+    );
+    expect(m.payload.body).not.toMatch(/fit>O|Z\.Wilson|T\.Green|H\.King|S\.Ehlinger/);
+    expect(m.payload.body.length).toBeLessThanOrEqual(BODY_MAX);
+  });
+
+  it("echter Slot: höchstens 2 Punkte pro Spiel, D.Smith fällt im Spiel NYG@PHI weg", () => {
+    // NYG@PHI hat drei Leader Änderungen (Skattebo, Barkley, D.Smith), Kelce folgt als +1.
+    expect(real.changes.filter((c) => c.gameId === "401873044")).toHaveLength(3);
+    expect(slot().payload.body).not.toMatch(/D\.Smith/);
+    const onlyKc = { ...real, changes: real.changes.filter((c) => c.teamAbbr === "KC") };
+    const kc = slotMessages({ games, tips: null, injuries: onlyKc, teams, now: "2026-11-08T17:01:07Z" })[0]!;
+    expect(kc.payload.body).toBe("7 Spiele. KC T.Kelce TE Q>nicht gelistet");
+  });
+
+  it("echter Slot So 22:25: Start QB Darnold vor Lock, Lock nicht gelistet", () => {
+    const msgs = slotMessages({ games, tips: null, injuries: real, teams, now: "2026-11-08T20:40:00Z" });
+    const m = msgs.find((x) => x.key === "slot:2026-11-08T22:25+01:00")!;
+    expect(m.payload.body).toBe(
+      "LV@SF ARI@SEA GB@NE. SEA S.Darnold QB fit>O, GB C.Watson WR Q>nicht gelistet, SEA D.Lock QB Q>nicht gelistet",
+    );
+  });
+
+  it("Gewichte", () => {
+    const c = { ...qToO };
+    expect(changeWeight(c, ["qb", "passing"])).toBe(4);
+    expect(changeWeight(c, ["receiving"])).toBe(3);
+    expect(changeWeight(c, ["qb"])).toBe(1);
+    expect(changeWeight({ ...c, kind: "neu", from: null }, ["qb"])).toBeNull();
+    expect(changeWeight({ ...c, kind: "neu", from: null }, ["qb", "passing"])).toBe(4);
+    expect(changeWeight({ ...c, kind: "neu", from: null, to: "Questionable" }, ["qb"])).toBe(1);
+  });
+
+  it("Spieler verschwindet von der Liste: eigener Text, von Out oder IR ganz unterdrückt", () => {
+    const gone = { ...qToO, kind: "weg" as const, from: "Questionable", to: null };
+    expect(formatChange(gone)).toBe("BAL L.Jackson QB Q>nicht gelistet");
+    expect(changeWeight(gone, ["qb", "passing"])).toBe(4);
+    expect(changeWeight({ ...gone, from: "Out" }, ["qb", "passing"])).toBeNull();
+    expect(changeWeight({ ...gone, from: "Injured Reserve" }, ["receiving"])).toBeNull();
+    const [m] = slotMessages({ games, tips: null, injuries: injuries([{ ...gone, from: "Out" }]), teams, now: minus(TNF, 30) });
+    expect(m?.payload.body).toBe("JAX@BAL. Keine Änderung");
+    const [q] = slotMessages({ games, tips: null, injuries: injuries([gone]), teams, now: minus(TNF, 30) });
+    expect(q?.payload.body).toBe("JAX@BAL. BAL L.Jackson QB Q>nicht gelistet");
+    expect(q?.payload.body).not.toMatch(/>fit/);
   });
 });
 
@@ -195,12 +269,12 @@ describe("Bilanz bereit", () => {
   };
   const now = "2026-11-03T10:00:00Z";
 
-  it("Text mit Punkten, Abweichungen netto, Tiebreaker und Hinweis", () => {
+  it("Text mit Punkten, Tiebreaker und Hinweis, ohne Abweichungen (D057)", () => {
     const m = reviewReadyMessage(base)!;
     expect(m.key).toBe("review-ready:2026-2-8");
     expect(m.payload).toEqual({
       title: "Bilanz W8 bereit",
-      body: "App Punkte 9 von 13, Abweichungen netto +1, Tiebreaker Abweichung TNF 4, MNF 9. Rangliste melden",
+      body: "App Punkte 9 von 13, Tiebreaker Abweichung TNF 4, MNF 9. Rangliste melden",
       url: "#bilanz",
       tag: "review-ready-2026-2-8",
     });
@@ -208,9 +282,9 @@ describe("Bilanz bereit", () => {
     expect(m.payload.body.length).toBeLessThanOrEqual(BODY_MAX);
   });
 
-  it("negatives Netto und ohne Tiebreaker", () => {
+  it("ohne Tiebreaker, Netto der Abweichungen erscheint nie", () => {
     const m = reviewReadyMessage({ ...base, deviationNet: -2, tiebreakers: [] })!;
-    expect(m.payload.body).toBe("App Punkte 9 von 13, Abweichungen netto -2, Tiebreaker Abweichung keine. Rangliste melden");
+    expect(m.payload.body).toBe("App Punkte 9 von 13, Tiebreaker Abweichung keine. Rangliste melden");
   });
 
   it("nicht komplette Woche ist nicht fällig", () => {
@@ -266,9 +340,9 @@ describe("Linienbewegung (D050)", () => {
     expect(lineMoveItem({ firstOdds: odds(3), odds: null }, tnfGame, teams)).toBeNull();
   });
 
-  it("Slot Meldung mit Tippänderung, Linie und Ausfall", () => {
+  it("Slot Meldung mit Linie und Ausfall, Tippänderung fällt weg (D057)", () => {
     const [m] = slotMessages({ games, tips: withLine(-3, 1, true), injuries: injuries([qToO]), teams, now: minus(TNF, 30) });
-    expect(m?.payload.body).toBe("JAX@BAL. Tipp JAX>BAL, Linie JAX +3 > -1, BAL L.Jackson QB Q>O");
+    expect(m?.payload.body).toBe("JAX@BAL. Linie JAX +3 > -1, BAL L.Jackson QB Q>O");
   });
 
   it("Slot Meldung nur mit Linie statt Keine Änderung", () => {
@@ -292,10 +366,11 @@ describe("Verwerfen alter Abweichungen (D052)", () => {
     }
   });
 
-  it("vor dem Verwerfen hätte jede betroffene Slot Meldung eine Tippänderung genannt", () => {
+  it("auch die alte Datei mit Abweichungen ergibt keine Tippänderung mehr (D057)", () => {
     const devGames = tipsW9.tips.filter((t) => t.changedSinceFirst).map((t) => t.kickoffUtc);
     const msgs = devGames.flatMap((k) => slotMessages({ games, tips: tipsW9, injuries: null, teams, now: minus(k, 30) }));
-    expect(msgs.some((m) => /Tipp \w+>\w+/.test(m.payload.body))).toBe(true);
+    expect(msgs.length).toBeGreaterThan(0);
+    expect(msgs.some((m) => /Tipp \w+>\w+/.test(m.payload.body))).toBe(false);
   });
 
   it("Tippliste bereit nennt den Vorschlag ohne Abweichung, keine zusätzliche Meldung", () => {
