@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T18:10:31Z",
+    "takenAt": "2026-11-08T18:20:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1302,7 +1302,17 @@
             "teamAbbr": "CLE",
             "roles": [
               "qb",
-              "passing",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685702",
+            "name": "Quinshon Judkins",
+            "pos": "RB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
               "rushing"
             ],
             "status": null
@@ -1404,6 +1414,30 @@
             "status": null
           },
           {
+            "athleteId": "3917792",
+            "name": "Daniel Jones",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4242335",
+            "name": "Jonathan Taylor",
+            "pos": "RB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "rushing",
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4683423",
             "name": "Riley Leonard",
             "pos": "QB",
@@ -1421,6 +1455,17 @@
         "kickoffUtc": "2026-11-08T18:00:00Z",
         "players": [
           {
+            "athleteId": "4241416",
+            "name": "Chuba Hubbard",
+            "pos": "RB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4428993",
             "name": "Haynes King",
             "pos": "QB",
@@ -1430,6 +1475,29 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4683243",
+            "name": "Mitchell Evans",
+            "pos": "TE",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685720",
+            "name": "Bryce Young",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
           },
           {
             "athleteId": "3051876",
@@ -1515,6 +1583,29 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4242512",
+            "name": "Malik Willis",
+            "pos": "QB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4569603",
+            "name": "Malik Washington",
+            "pos": "WR",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           }
         ]
       },
@@ -1522,6 +1613,40 @@
         "gameId": "401873043",
         "kickoffUtc": "2026-11-08T18:00:00Z",
         "players": [
+          {
+            "athleteId": "12483",
+            "name": "Matthew Stafford",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4426515",
+            "name": "Puka Nacua",
+            "pos": "WR",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4430737",
+            "name": "Kyren Williams",
+            "pos": "RB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
           {
             "athleteId": "4685522",
             "name": "Ty Simpson",
@@ -1617,6 +1742,40 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "3121023",
+            "name": "Dallas Goedert",
+            "pos": "TE",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3929630",
+            "name": "Saquon Barkley",
+            "pos": "RB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4360698",
+            "name": "Joe Milton",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
           }
         ]
       },
@@ -1624,6 +1783,30 @@
         "gameId": "401873045",
         "kickoffUtc": "2026-11-08T18:00:00Z",
         "players": [
+          {
+            "athleteId": "3139477",
+            "name": "Patrick Mahomes",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4567048",
+            "name": "Kenneth Walker III",
+            "pos": "RB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "rushing",
+              "receiving"
+            ],
+            "status": null
+          },
           {
             "athleteId": "4567747",
             "name": "Garrett Nussmeier",
