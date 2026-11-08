@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T18:30:51Z",
+    "takenAt": "2026-11-08T18:40:31Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1302,15 +1302,25 @@
             "teamAbbr": "CLE",
             "roles": [
               "qb",
-              "passing",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685702",
+            "name": "Quinshon Judkins",
+            "pos": "RB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
               "rushing"
             ],
             "status": null
           },
           {
-            "athleteId": "4870653",
-            "name": "KC Concepcion",
-            "pos": "WR",
+            "athleteId": "5081397",
+            "name": "Dylan Sampson",
+            "pos": "RB",
             "teamId": "5",
             "teamAbbr": "CLE",
             "roles": [
@@ -1660,17 +1670,6 @@
             "status": "Out"
           },
           {
-            "athleteId": "3930066",
-            "name": "Van Jefferson",
-            "pos": "WR",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4426348",
             "name": "Jayden Daniels",
             "pos": "QB",
@@ -1700,7 +1699,8 @@
             "teamId": "28",
             "teamAbbr": "WSH",
             "roles": [
-              "rushing"
+              "rushing",
+              "receiving"
             ],
             "status": null
           }
@@ -1756,17 +1756,6 @@
             "status": null
           },
           {
-            "athleteId": "3929630",
-            "name": "Saquon Barkley",
-            "pos": "RB",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4360698",
             "name": "Joe Milton",
             "pos": "QB",
@@ -1774,7 +1763,8 @@
             "teamAbbr": "PHI",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           }
@@ -1797,14 +1787,24 @@
             "status": null
           },
           {
+            "athleteId": "4428331",
+            "name": "Rashee Rice",
+            "pos": "WR",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4567048",
             "name": "Kenneth Walker III",
             "pos": "RB",
             "teamId": "12",
             "teamAbbr": "KC",
             "roles": [
-              "rushing",
-              "receiving"
+              "rushing"
             ],
             "status": null
           },
