@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-08T16:40:30Z",
+    "takenAt": "2026-11-08T16:50:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -1281,6 +1281,17 @@
             "roles": [
               "qb",
               "passing"
+            ],
+            "status": "Out"
+          },
+          {
+            "athleteId": "4431325",
+            "name": "Taylen Green",
+            "pos": "QB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "qb"
             ],
             "status": "Out"
           },
@@ -1443,6 +1454,17 @@
             "status": null
           },
           {
+            "athleteId": "4428993",
+            "name": "Haynes King",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4685472",
             "name": "Tetairoa McMillan",
             "pos": "WR",
@@ -1464,6 +1486,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4241820",
+            "name": "Sam Ehlinger",
+            "pos": "QB",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4241985",
@@ -1526,7 +1559,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429795",
@@ -1696,7 +1729,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Doubtful"
+            "status": "Out"
           },
           {
             "athleteId": "3929630",
@@ -1782,6 +1815,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "15864",
@@ -2337,6 +2381,46 @@
       "to": "Out"
     },
     {
+      "gameId": "401873039",
+      "athleteId": "4431325",
+      "name": "Taylen Green",
+      "pos": "QB",
+      "teamAbbr": "CLE",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873041",
+      "athleteId": "4428993",
+      "name": "Haynes King",
+      "pos": "QB",
+      "teamAbbr": "CAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873041",
+      "athleteId": "4241820",
+      "name": "Sam Ehlinger",
+      "pos": "QB",
+      "teamAbbr": "DEN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873042",
+      "athleteId": "4374302",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "teamAbbr": "DET",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
       "gameId": "401873043",
       "athleteId": "4432722",
       "name": "Athan Kaliakmanis",
@@ -2354,7 +2438,7 @@
       "teamAbbr": "NYG",
       "kind": "wechsel",
       "from": "Questionable",
-      "to": "Doubtful"
+      "to": "Out"
     },
     {
       "gameId": "401873044",
@@ -2395,6 +2479,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873045",
+      "athleteId": "4567747",
+      "name": "Garrett Nussmeier",
+      "pos": "QB",
+      "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873045",

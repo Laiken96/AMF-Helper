@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-08T16:40:31Z",
+    "takenAt": "2026-11-08T16:50:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -44,7 +44,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Doubtful"
+            "status": "Out"
           },
           {
             "athleteId": "4426348",
@@ -118,7 +118,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429795",
@@ -257,6 +257,17 @@
             "status": null
           },
           {
+            "athleteId": "4428993",
+            "name": "Haynes King",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4685472",
             "name": "Tetairoa McMillan",
             "pos": "WR",
@@ -339,6 +350,17 @@
             "roles": [
               "qb",
               "passing"
+            ],
+            "status": "Out"
+          },
+          {
+            "athleteId": "4431325",
+            "name": "Taylen Green",
+            "pos": "QB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "qb"
             ],
             "status": "Out"
           },
@@ -567,6 +589,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
