@@ -1,7 +1,85 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T04:47:23Z",
+  "updatedAt": "2026-11-09T05:47:21Z",
   "items": [
+    {
+      "id": "018db507839e2747",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50429795/titans-wr-ridley-involved-incident-nashville-airport",
+      "title": "Titans WR Calvin Ridley involved in incident at Nashville airport",
+      "summary": "Titans WR Calvin Ridley was involved in an incident at Nashville International Airport over the weekend, details of which have not been released.",
+      "publishedAt": "2026-11-09T05:34:27Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "017fdcaf77a289c7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50429684/giants-malik-nabers-takes-issue-fox-telecast",
+      "title": "Giants' Malik Nabers takes issue with Greg Olsen, Fox for comments during game",
+      "summary": "Malik Nabers took the issue with Fox play-by-play man Joe Davis and analyst Greg Olsen for criticizing his body language during the Giants' win Sunday.",
+      "publishedAt": "2026-11-09T05:27:00Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "e8df839e5775c268",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873050",
+      "title": "Williams connects with Loveland to set up Santos' winning field goal as Bears edge Buccaneers 27-24",
+      "summary": "Caleb Williams found a wide-open Colston Loveland for a 38-yard catch to set up Cairo Santos' 38-yard field goal as time expired, and the Chicago Bears picked up a sloppy 27-24 victory over Baker Mayfield and the Tampa Bay Buccaneers on Sunday night.",
+      "publishedAt": "2026-11-09T05:15:35Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "128a2d580ef9a0aa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs",
+      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams",
+      "summary": "See where every team picks in the first round and which positions each franchise could target in the 2027 NFL Draft",
+      "publishedAt": "2026-11-09T05:03:13Z",
+      "teamIds": []
+    },
+    {
+      "id": "4416f452d5966951",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50429568/bears-survive-take-bucs-walk-field-goal",
+      "title": "Bears survive, take down Bucs with walk-off field goal",
+      "summary": null,
+      "publishedAt": "2026-11-09T05:02:12Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "4354b322d3ba8218",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/titans-calvin-ridley-involved-in-incident-nashville-airport",
+      "title": "Titans' Calvin Ridley involved in 'incident' at Nashville International Airport, per report",
+      "summary": "Ridley has been the subject of trade rumors in recent weeks",
+      "publishedAt": "2026-11-09T04:55:07Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "f2799f680a34be35",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-bears-overcome-five-giveaways-beat-bucs-27-24",
+      "title": "Sunday Night Football: Bears overcome five giveaways, beat Bucs 27-24",
+      "summary": "Caleb Williams threw four interceptions, but the Buccaneers could not capitalize on the opportunities enough to win.",
+      "publishedAt": "2026-11-09T04:53:49Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
     {
       "id": "845cd480034280d5",
       "source": "espn",
@@ -1224,8 +1302,8 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 9 scoring leaders through Sunday's 4 p.m. ET games",
-      "summary": "Kenneth Walker III led Sunday afternoon fantasy scorers, and the Packers piled on the points in New England.",
+      "title": "Fantasy buzz: Week 9 scoring leaders through Sunday's games",
+      "summary": "Kenneth Walker III led Sunday's fantasy scorers, and Jordan Love and the Packers receivers had a field day.",
       "publishedAt": "2026-11-08T21:40:45Z",
       "teamIds": [
         "9"
@@ -1611,84 +1689,6 @@
       "teamIds": [
         "9",
         "17"
-      ]
-    },
-    {
-      "id": "17e884f6d08d2016",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lead-struggling-colts-17-7-at-halftime",
-      "title": "Cowboys lead struggling Colts 17-7 at halftime",
-      "summary": "Colts offensive players Daniel Jones, Jonathan Taylor and Josh Downs have had their names in trade talk speculation.",
-      "publishedAt": "2026-11-08T19:49:40Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "09c20d3693bc6463",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-take-8-6-lead-over-giants-into-halftime",
-      "title": "Eagles take 8-6 lead over Giants into halftime",
-      "summary": "The first half of Sunday's game between the Giants and Eagles was a pretty dull affair, but it did feature a very memorable punt.",
-      "publishedAt": "2026-11-08T19:44:38Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "3b1a217a61e98fe0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaxon-smith-njigba-can-do-something-no-one-has-done-since-1960",
-      "title": "Jaxon Smith-Njigba can do something no one has done since 1960",
-      "summary": "Maybe this year they'll send Jaxon Smith-Njigba a trophy without a typo.",
-      "publishedAt": "2026-11-08T19:35:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "0c4db4ba57c49cd6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-lead-panthers-13-7-at-the-half",
-      "title": "Broncos lead Panthers 13-7 at the half",
-      "summary": "The Broncos lead the Panthers 13-7 at halftime.",
-      "publishedAt": "2026-11-08T19:35:32Z",
-      "teamIds": [
-        "29",
-        "7"
-      ]
-    },
-    {
-      "id": "7d5f04e6e6d54acc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-hurts-elbow-but-returns-before-halftime-chiefs-lead-14-12",
-      "title": "Patrick Mahomes hurts elbow, but returns before halftime; Chiefs lead 14-12",
-      "summary": "Chiefs quarterback Patrick Mahomes took a big hit from Jets first-round pick David Bailey on a sack late in the first half and lost the ball for the second Chiefs turnover of the day.",
-      "publishedAt": "2026-11-08T19:34:54Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "11699af9407c0a62",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50357331/fantasy-football-injuries-nfl-week-9-inactive-active",
-      "title": "Fantasy football Week 9 inactives: Who's in and who's out?",
-      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
-      "publishedAt": "2026-11-08T19:34:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "4107d2d3548e1c16",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-have-10-6-lead-over-rams-at-halftime",
-      "title": "Commanders have 10-6 lead over Rams at halftime",
-      "summary": "The Commanders have a 10-6 lead over the Rams at halftime.",
-      "publishedAt": "2026-11-08T19:32:13Z",
-      "teamIds": [
-        "14",
-        "28"
       ]
     }
   ]
