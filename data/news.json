@@ -1,7 +1,118 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:47:23Z",
+  "updatedAt": "2026-11-09T16:47:24Z",
   "items": [
+    {
+      "id": "b4d663e9695fc005",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-announce-jessie-bates-trade",
+      "title": "Jaguars announce Jessie Bates trade",
+      "summary": "The Jaguars announced their trade for safety Jessie Bates on Monday.",
+      "publishedAt": "2026-11-09T16:39:03Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "f8bd31be7edaa06e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-benched-zavion-thomas-after-15-yard-penalty",
+      "title": "Ben Johnson benched Zavion Thomas after 15-yard penalty",
+      "summary": "Bears rookie wide receiver Zavion Thomas hasn't had a lot of production so far this season, and he may have even less after head coach Ben Johnson benched him during Sunday night's win over the Buccaneers.",
+      "publishedAt": "2026-11-09T16:36:25Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "26553c5342672b0b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50433369/panthers-rasheed-walker-analyzes-protection-bryce-young",
+      "title": "Rasheed Walker keeps 'analyzing issue' in protecting Bryce Young's blind side",
+      "summary": "The left tackle can't let Sunday's sack-fumble ignite a prolonged pass protection slump over the coming weeks.",
+      "publishedAt": "2026-11-09T16:33:09Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "0d746162c4dd2316",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/espn-cfp-strike-deal-to-expand-college-playoff-to-24-teams",
+      "title": "ESPN, CFP strike deal to expand college playoff to 24 teams",
+      "summary": "For any business, there are two ways to maximize profit.",
+      "publishedAt": "2026-11-09T16:27:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "6f004dd9e9bf0773",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50414792/nfl-week-10-betting-odds-props-early-picks-predictions",
+      "title": "Early bets for Week 10: 49ers triumph in Dallas, low scoring in Texans-Browns?",
+      "summary": "Which Week 10 lines offered immediate value once odds came out? Here are the early bets we like.",
+      "publishedAt": "2026-11-09T16:27:41Z",
+      "teamIds": [
+        "5",
+        "6",
+        "34",
+        "25"
+      ]
+    },
+    {
+      "id": "2b76023c3c2e02bb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-calvin-ridleys-airport-incident-was-a-very-minor-miscommunication",
+      "title": "Robert Saleh: Calvin Ridley's airport incident was \"a very minor miscommunication\"",
+      "summary": "News emerged on Sunday night that Titans receiver Calvin Ridley was involved in an incident over the weekend at Nashville International Airport.",
+      "publishedAt": "2026-11-09T16:20:21Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "7317ea1e6c37fa48",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-loves-mvp-case-surges",
+      "title": "Jordan Love's MVP case surges",
+      "summary": "On Sunday night, Bears quarterback Caleb Williams had four turnovers.",
+      "publishedAt": "2026-11-09T16:03:16Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "4bea156864951573",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50433376/stephen-trolls-michael-irvin-choosing-miami-cowboys",
+      "title": "Stephen A. trolls Michael Irvin for choosing Miami over Cowboys",
+      "summary": null,
+      "publishedAt": "2026-11-09T15:58:13Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "c53970ede1b39ebf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marvin-harrison-jr-s-production-hasnt-improved-since-trade-from-cardinals-to-texans",
+      "title": "Marvin Harrison Jr.'s production hasn't improved since trade from Cardinals to Texans",
+      "summary": "After four unproductive games with the Cardinals to start this season, wide receiver Marvin Harrison Jr. was traded to the Texans.",
+      "publishedAt": "2026-11-09T15:53:58Z",
+      "teamIds": [
+        "22",
+        "34"
+      ]
+    },
+    {
+      "id": "abda66f87743d1d5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luke-goedeke-airs-grievances-about-jeffery-simmons",
+      "title": "Luke Goedeke airs grievances about Jeffery Simmons",
+      "summary": "Goedeke claims Simmons holds the tackle so DE can run free.",
+      "publishedAt": "2026-11-09T15:44:40Z",
+      "teamIds": []
+    },
     {
       "id": "ebe72dfa12b18f83",
       "source": "espn",
@@ -216,8 +327,8 @@
       "id": "858195562ad626d6",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50432277/sources-jaguars-get-jessie-bates-iii-trade-falcons",
-      "title": "Sources: Jaguars bolster secondary, land Jessie Bates III in trade with Falcons",
-      "summary": "The Jaguars bolstered their secondary one day before the NFL trade deadline, acquiring veteran safety Jessie Bates III from the Falcons, sources told ESPN.",
+      "title": "Jaguars bolster secondary, land Jessie Bates III in trade with Falcons",
+      "summary": "The Jaguars bolstered their secondary one day before the NFL trade deadline, acquiring veteran safety Jessie Bates III from the Falcons.",
       "publishedAt": "2026-11-09T13:36:38Z",
       "teamIds": [
         "1",
@@ -1554,120 +1665,6 @@
       "publishedAt": "2026-11-08T23:24:33Z",
       "teamIds": [
         "34"
-      ]
-    },
-    {
-      "id": "fa3964bc57aba0c4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-up-24-14-after-intercepting-drake-maye-three-times-in-first-half",
-      "title": "Packers up 24-14 after intercepting Drake Maye three times in first half",
-      "summary": "Drake Maye had a first half to forget against the Packers on Sunday.",
-      "publishedAt": "2026-11-08T23:10:51Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "b6f81c8411049712",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aj-barner-scores-td-run-td-catch-as-seahawks-lead-cardinals-14-3",
-      "title": "AJ Barner scores TD run, TD catch as Seahawks lead Cardinals 14-3",
-      "summary": "Drew Lock and the Seahawks lead Gardner Minshew and the Cardinals.",
-      "publishedAt": "2026-11-08T23:10:32Z",
-      "teamIds": [
-        "22",
-        "26"
-      ]
-    },
-    {
-      "id": "45508d0971d05d7f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dallas-goedert-on-whether-hell-be-traded-for-the-right-price-everybodys-available",
-      "title": "Dallas Goedert on whether he'll be traded: \"For the right price, everybody's available\"",
-      "summary": "Eagles tight end Dallas Goedert has been in the league long enough that he understands how the business works.",
-      "publishedAt": "2026-11-08T23:06:56Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "0ad7900537d29c7d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-2026-ranking-20-impact-players",
-      "title": "NFL trade deadline 2026: Ranking 20 players who could have the biggest impact if dealt",
-      "summary": "With the 2026 NFL trade deadline approaching, we rank 20 rumored targets by the impact they could have on the playoff and Super Bowl races",
-      "publishedAt": "2026-11-08T23:05:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "19e94fd9c2e17675",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/puka-nacua-injury-rams-wr-undergo-mri-knee-injury-on-final-snap",
-      "title": "Puka Nacua injury: Rams WR to undergo MRI after suffering knee injury on final snap, per report",
-      "summary": "The Rams do not believe Nacua suffered a torn ACL, but the wide receiver will undergo imaging on Monday to confirm",
-      "publishedAt": "2026-11-08T23:04:34Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "5b2ebff950f6207b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50426234/are-rams-running-backs-worth-starting-fantasy",
-      "title": "Are the Rams' running backs worth starting in fantasy?",
-      "summary": null,
-      "publishedAt": "2026-11-08T23:03:54Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "32a23c85d63c1116",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaden-dugger-pick-six-puts-49ers-up-28-10-early-in-third-quarter",
-      "title": "Jaden Dugger pick-six puts 49ers up 28-10 early in third quarter",
-      "summary": "Things are starting to get out of hand in Santa Clara.",
-      "publishedAt": "2026-11-08T22:59:06Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "28f78c311611f5b5",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/buccaneers-vs-bears-odds-nfl-week-9-sunday-night-football-first-touchdown-scorer-picks-predictions",
-      "title": "Buccaneers vs. Bears odds: NFL Week 9 Sunday Night Football first touchdown scorer picks, predictions",
-      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bears and Buccaneers",
-      "publishedAt": "2026-11-08T22:50:38Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "6cd7259f88169946",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-roll-chargers-in-first-half-take-24-9-lead-to-locker-room",
-      "title": "Texans roll Chargers in first half, take 24-9 lead to locker room",
-      "summary": "The Texans have figured out how to fix their defense: Play the Chargers.",
-      "publishedAt": "2026-11-08T22:50:01Z",
-      "teamIds": [
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "9262ead8a32b159b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-golden-sets-career-high-for-receiving-yards-in-a-game-in-first-half-against-patriots",
-      "title": "Matthew Golden sets career high for receiving yards in a game in first half against Patriots",
-      "summary": "Bengals wide receiver Ja'Marr Chase opened Sunday's schedule with a monster first half against the Falcons in Madrid and Packers wideout Matthew Golden is closing out the afternoon slate with an even bigger half.",
-      "publishedAt": "2026-11-08T22:48:21Z",
-      "teamIds": [
-        "1",
-        "4",
-        "9",
-        "17"
       ]
     }
   ]
