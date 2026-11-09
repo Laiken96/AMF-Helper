@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:47:19Z",
+  "updatedAt": "2026-11-09T12:47:22Z",
   "items": [
+    {
+      "id": "1afc86d5c680b3af",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-cover-32-week-9-2026",
+      "title": "Cover 32: What every team should do at NFL trade deadline, plus game balls and gaffes from Week 9",
+      "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
+      "publishedAt": "2026-11-09T12:37:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "08d1cadafe7a7a56",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-early-odds-trade-deadline-chiefs-cowboys-colts",
+      "title": "NFL Week 10 early odds: Trade deadline could shake up lines for Chiefs, Colts and more",
+      "summary": "A Jonathan Taylor trade or a Chiefs acquisition could reshape several spreads, adding another layer of uncertainty",
+      "publishedAt": "2026-11-09T12:09:03Z",
+      "teamIds": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "8639af4c58c6ad88",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-expect-terrance-ferguson-to-miss-another-couple-weeks-with-hamstring-injury",
+      "title": "Rams expect Terrance Ferguson to miss \"another couple weeks\" with hamstring injury",
+      "summary": "The Rams planned to have tight end Terrance Ferguson come off of injured reserve to play against the Commanders in Week 9, but he wound up being ruled out after Friday's practice.",
+      "publishedAt": "2026-11-09T12:00:28Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "029364e91e38d3af",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-vs-bills-prediction-odds-line-josh-allen-monday-night-football",
+      "title": "Vikings vs. Bills prediction, odds, line: Josh Allen faces NFL's top defense on Monday night",
+      "summary": "Josh Allen and Buffalo's explosive offense face Brian Flores' dominant defense, while Carson Wentz replaces the injured Kyler Murray",
+      "publishedAt": "2026-11-09T11:55:20Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "d3d7a1bd6b12bb89",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-bears-barked-out-the-buccaneers-cadence-causing-a-false-start",
+      "title": "Baker Mayfield: Bears barked out the Buccaneers' cadence, causing a false start",
+      "summary": "The Buccaneers were flagged for five false starts on Sunday night, and quarterback Baker Mayfield said at least one of them was caused by an illegal tactic by the Bears.",
+      "publishedAt": "2026-11-09T11:50:40Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "3d299cc366a2879d",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50413261/nfl-week-9-odds-betting-preview-bills-vikings-prop-tips",
+      "title": "How to bet Bills-Vikings: Analysis, best bets and top prop plays",
+      "summary": "Odds, analysis and picks to help you bet Monday night's Buffalo Bills-Minnesota Vikings game.",
+      "publishedAt": "2026-11-09T11:46:26Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
     {
       "id": "bcc5c9171e9d1ff9",
       "source": "pft",
@@ -1610,76 +1679,6 @@
       "teamIds": [
         "14",
         "28"
-      ]
-    },
-    {
-      "id": "dabeac3f392afd7e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873045",
-      "title": "Kenneth Walker scores 3 TDs as the Chiefs roll past the woeful Jets 35-12 to end their 2-game skid",
-      "summary": "Chiefs quarterback Patrick Mahomes walked off the field dangling his right arm, which had been bent grotesquely on a strip-sack by the Jets' David Bailey, and for the briefest of moments a pall seemed to descend over Arrowhead Stadium on Sunday.",
-      "publishedAt": "2026-11-08T21:14:37Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "9e856d53cd3ab22c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-crush-jets-35-12-to-end-two-game-losing-streak",
-      "title": "Chiefs crush Jets 35-12 to end two-game losing streak",
-      "summary": "Kenneth Walker scored three touchdowns as the Chiefs moved to 6-2 on the season.",
-      "publishedAt": "2026-11-08T21:07:06Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "01ba56228ec7f6a8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873042",
-      "title": "Lions grind past Dolphins 19-9 as Jahmyr Gibbs scores and Jake Bates makes 4 field goals",
-      "summary": "The Detroit Lions have repeated a mantra all week in the aftermath of a scary neck injury to All-Pro linebacker Jack Campbell.",
-      "publishedAt": "2026-11-08T21:05:35Z",
-      "teamIds": [
-        "8",
-        "15"
-      ]
-    },
-    {
-      "id": "baeb91a6b83d466e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-defense-shuts-down-malik-willis-and-the-dolphins-in-19-9-win",
-      "title": "Lions' defense shuts down Malik Willis and the Dolphins in 19-9 win",
-      "summary": "It wasn't pretty, but the Lions got the job done in Miami.",
-      "publishedAt": "2026-11-08T20:50:41Z",
-      "teamIds": [
-        "8",
-        "15"
-      ]
-    },
-    {
-      "id": "7c9955ad6ddba6e3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kc-concepcion-scores-first-career-touchdown-browns-lead-13-9-in-fourth-quarter",
-      "title": "KC Concepcion scores first career touchdown, Browns lead 13-9 in fourth quarter",
-      "summary": "There has been a touchdown in New Orleans — and it's the first for a first-round rookie.",
-      "publishedAt": "2026-11-08T20:43:48Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "4368e2f031d08b4c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-hopes-to-reverse-struggles-against-demeco-ryans-defenses",
-      "title": "Justin Herbert hopes to reverse struggles against DeMeco Ryans defenses",
-      "summary": "Chargers quarterback Justin Herbert is generally struggling this year.",
-      "publishedAt": "2026-11-08T20:39:33Z",
-      "teamIds": [
-        "24"
       ]
     }
   ]
