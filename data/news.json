@@ -1,7 +1,182 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T16:47:24Z",
+  "updatedAt": "2026-11-09T17:47:19Z",
   "items": [
+    {
+      "id": "bace52391cfd1a69",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50433758/giants-feel-fairly-good-qb-mccarthy-playing-thursday",
+      "title": "Giants 'feel fairly good' about QB J.J. McCarthy (hip) playing Thursday",
+      "summary": "Giants coach John Harbaugh says he feels \"fairly good\" about quarterback J.J. McCarthy's availability this week after he suffered a hip injury in Sunday's win against the Eagles.",
+      "publishedAt": "2026-11-09T17:46:29Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "ab439d53b790634c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50433760/source-browns-returning-deshaun-watson-qb1-week-10",
+      "title": "Source: Browns returning to Watson as QB1 despite Sanders' strong fill-in start",
+      "summary": "The Browns plan to start Deshaun Watson in Week 10 against the Texans, a source told ESPN's Jeremy Fowler on Monday.",
+      "publishedAt": "2026-11-09T17:29:47Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "1e103bb1748e395a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jj-mccarthy-injury-giants-qb-on-track-commanders-thursday-night-football",
+      "title": "JJ McCarthy injury: Giants QB is on track to face Commanders on 'Thursday Night Football'",
+      "summary": "McCarthy suffered a hip injury during Sunday's win over the Eagles but returned to play",
+      "publishedAt": "2026-11-09T17:25:59Z",
+      "teamIds": [
+        "19",
+        "21",
+        "28"
+      ]
+    },
+    {
+      "id": "ea02022027fa9eef",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50433783/audric-es-hot-waiver-add-week-10",
+      "title": "Clay: Audric Estime a 'hot waiver add' in Week 10",
+      "summary": null,
+      "publishedAt": "2026-11-09T17:25:38Z",
+      "teamIds": []
+    },
+    {
+      "id": "c8c3a88d1dc71f2f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50433312/las-vegas-raiders-2026-trade-deadline-approach",
+      "title": "Why the Raiders are better off standing pat at the NFL trade deadline",
+      "summary": "The NFL trade deadline is on Tuesday at 4 p.m. ET. Has Kubiak, Raiders given hints that they might not make moves?",
+      "publishedAt": "2026-11-09T17:17:18Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "14699aa9f8ce2f76",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50433747/the-conundrum-picking-broncos-wide-receivers-fantasy",
+      "title": "The conundrum picking Broncos' wide receivers in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-09T17:16:34Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "aa60951169500341",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-says-it-looks-like-qb-j-j-mccarthy-hip-will-be-able-to-play-on-thursday",
+      "title": "John Harbaugh says it \"looks like\" QB J.J. McCarthy (hip) will be able to play on Thursday",
+      "summary": "The NFL has fully embraced a full slate of Thursday night games, justifying the health-and-safety realities by pointing to in-game injury rates when a team has a full week to rest and when it has a four-day turnaround.",
+      "publishedAt": "2026-11-09T17:14:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "4b5975dfd56af559",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+      "title": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+      "summary": "The Super Bowl will air on ESPN on Feb. 14, 2027. We have all-time lists, predictions and unforgettable moments.",
+      "publishedAt": "2026-11-09T17:14:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "327f3e4c6e990f16",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50433690/the-cam-skattebo-show-week-10",
+      "title": "Yates: It should be the Cam Skattebo show in Week 10",
+      "summary": null,
+      "publishedAt": "2026-11-09T17:11:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "a5b4bbfee8b907b7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bills-vikings-picks-monday-night-nfl-week-9-losers-jaguars-trade-jessie-bates",
+      "title": "Bills-Vikings picks for Monday night, plus NFL Week 9 losers and Jaguars make trade for Pro Bowl safety",
+      "summary": "Here's everything you need to know about the NFL for Nov. 9",
+      "publishedAt": "2026-11-09T17:08:36Z",
+      "teamIds": [
+        "2",
+        "30",
+        "16"
+      ]
+    },
+    {
+      "id": "3fad966a042d00a7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-expect-cam-skattebo-to-play-on-thursday-night",
+      "title": "Giants expect Cam Skattebo to play on Thursday night",
+      "summary": "The Giants played without running back Cam Skattebo in Sunday's 19-11 win over the Eagles, but they do not expect his absence from the lineup to linger.",
+      "publishedAt": "2026-11-09T17:08:12Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "878e2ad1fc1e9214",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/browns-starting-qb-deshaun-watson-shedeur-sanders-texans-2026",
+      "title": "Browns plan to start Deshaun Watson vs. Texans despite Shedeur Sanders' breakout performance",
+      "summary": "The Browns will reportedly start Deshaun Watson against the Texans despite an encouraging performance from Shedeur Sanders",
+      "publishedAt": "2026-11-09T17:06:11Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "687a833bbb0ae989",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/maxx-crosby-on-trade-deadline-i-expect-to-play-for-the-raiders",
+      "title": "Maxx Crosby on trade deadline: I expect to play for the Raiders",
+      "summary": "Earlier this year, Maxx Crosby was supposed to be traded from the Raiders to the Ravens.",
+      "publishedAt": "2026-11-09T17:03:36Z",
+      "teamIds": [
+        "33",
+        "13"
+      ]
+    },
+    {
+      "id": "c605c8d9b8eeb677",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-browns-to-start-deshaun-watson-against-texans",
+      "title": "Report: Browns to start Deshaun Watson against Texans",
+      "summary": "Watson did not play Sunday, but the team is expected to turn back to him in Week 10.",
+      "publishedAt": "2026-11-09T16:56:58Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "65a072689758eb8e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50380155/countering-peanut-punch-james-cook-skattebo",
+      "title": "As the 'Peanut Punch' takes over NFL, how do teams counter it?",
+      "summary": "After Charles Tillman popularized the punch 14 years ago, it has really taken off this season.",
+      "publishedAt": "2026-11-09T16:55:50Z",
+      "teamIds": []
+    },
+    {
+      "id": "340c39f2e4e18717",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-dont-expect-ben-brown-to-play-in-week-10-waiting-for-rhamondre-stevenson-mri-results",
+      "title": "Patriots don't expect Ben Brown to play in Week 10, waiting for Rhamondre Stevenson MRI results",
+      "summary": "The Patriots expect to be without guard Ben Brown when they face the Lions in Germany in Week 10.",
+      "publishedAt": "2026-11-09T16:49:00Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
     {
       "id": "b4d663e9695fc005",
       "source": "pft",
@@ -23,6 +198,17 @@
       "teamIds": [
         "3",
         "27"
+      ]
+    },
+    {
+      "id": "a76b35a9f8e21dd4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nick-sirianni-eagles-hot-seat-coaching-changes-2026",
+      "title": "Nick Sirianni says Eagles could make coaching changes as struggling offense enters bye week",
+      "summary": "Philadelphia has lost seven straight games, and Nick Sirianni is evaluating everything",
+      "publishedAt": "2026-11-09T16:35:02Z",
+      "teamIds": [
+        "21"
       ]
     },
     {
@@ -68,6 +254,18 @@
       "publishedAt": "2026-11-09T16:20:21Z",
       "teamIds": [
         "10"
+      ]
+    },
+    {
+      "id": "75d77c8c4a07779b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-bills-vikings-mnf",
+      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Bills-Vikings, MNF",
+      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-09T16:11:44Z",
+      "teamIds": [
+        "2",
+        "16"
       ]
     },
     {
@@ -729,12 +927,10 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 9 scoring leaders through Sunday's games",
-      "summary": "Kenneth Walker III led Sunday's fantasy scorers, and Jordan Love and the Packers receivers had a field day.",
+      "title": "Fantasy buzz: Who got the ball in Week 9?",
+      "summary": "Eric Moody breaks down which players saw a boost in workload and which ones didn't after Sunday's NFL games.",
       "publishedAt": "2026-11-09T04:52:49Z",
-      "teamIds": [
-        "9"
-      ]
+      "teamIds": []
     },
     {
       "id": "845cd480034280d5",
@@ -1235,6 +1431,18 @@
       ]
     },
     {
+      "id": "28f78c311611f5b5",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/buccaneers-vs-bears-odds-nfl-week-9-sunday-night-football-first-touchdown-scorer-picks-predictions",
+      "title": "Buccaneers vs. Bears odds: NFL Week 9 Sunday Night Football first touchdown scorer picks, predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bears and Buccaneers",
+      "publishedAt": "2026-11-09T00:44:48Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
       "id": "dfb50bb1d2df23ba",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50392903/nfl-week-9-fantasy-football-winners-losers-injuries-rankings",
@@ -1455,216 +1663,6 @@
       "teamIds": [
         "22",
         "26"
-      ]
-    },
-    {
-      "id": "65595521b5e8d7db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-appears-to-injure-middle-finger-on-left-hand",
-      "title": "Justin Herbert appears to injure middle finger on left hand",
-      "summary": "The Chargers quarterback left in the fourth quarter, but the score was 41-15 when he departed.",
-      "publishedAt": "2026-11-09T00:15:18Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "2403a5ef303c3643",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonathan-taylor-if-this-was-my-last-game-as-a-colt-i-want-to-thank-indianapolis",
-      "title": "Jonathan Taylor: If this was my last game as a Colt, I want to thank Indianapolis",
-      "summary": "Moments after today's loss to the Cowboys — and 48 hours before the NFL trade deadline — Colts running back Jonathan Taylor acknowledged he might have played his last game in Indianapolis.",
-      "publishedAt": "2026-11-09T00:10:54Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "b5622c750fbace04",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-dt-gracen-halton-carted-off-with-an-air-cast-in-fourth-quarter",
-      "title": "49ers DT Gracen Halton carted off with an air cast in fourth quarter",
-      "summary": "The 49ers have lost another defensive player.",
-      "publishedAt": "2026-11-09T00:09:30Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "0b53014737d41f69",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-on-reportedly-pulling-jonathan-taylor-trade-offer-things-do-change",
-      "title": "John Harbaugh on reportedly pulling Jonathan Taylor trade offer: Things do change",
-      "summary": "The Giants have been linked to a pursuit of Colts running back Jonathan Taylor for the last few weeks and a report ahead of Sunday's game against the Eagles suggested it's unlikely that they'll be trading for him before Tuesday afternoon's deadline.",
-      "publishedAt": "2026-11-09T00:08:37Z",
-      "teamIds": [
-        "11",
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "8416dc3605288be1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-on-harrison-butker-im-not-making-any-decisions-right-now",
-      "title": "Andy Reid on Harrison Butker: \"I'm not making any decisions right now\"",
-      "summary": "Chiefs kicker Harrison Butker missed another one on Sunday, a 51-yard field goal after getting a mulligan on a missed 56-yarder.",
-      "publishedAt": "2026-11-09T00:05:32Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "e9a30d3052e46247",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-emeka-egbuka-active-kyle-monangai-inactive-for-bucs-bears",
-      "title": "Sunday Night Football: Emeka Egbuka active, Kyle Monangai inactive for Bucs-Bears",
-      "summary": "The Buccaneers will have one of their key offensive players for Sunday night's game against the Bears.",
-      "publishedAt": "2026-11-09T00:04:17Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "e638c43ad32e3909",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-hip-feels-pretty-good-will-do-my-best-to-be-ready-for-thursday",
-      "title": "J.J. McCarthy: Hip feels pretty good, will do my best to be ready for Thursday",
-      "summary": "J.J.",
-      "publishedAt": "2026-11-08T23:56:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "0be41586358b2992",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-score-first-td-since-oct-11-going-37-possessions-without-one",
-      "title": "Chargers score first TD since Oct. 11, going 37 possessions without one",
-      "summary": "The streak is over.",
-      "publishedAt": "2026-11-08T23:56:32Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "7f6ad42250e2d5dc",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/buccaneers-vs-bears-picks-prediction-player-props-experts-best-bets-for-nfl-week-9-sunday-night-football",
-      "title": "Buccaneers vs. Bears picks, prediction, player props: Expert's best bets for NFL Week 9 Sunday Night Football",
-      "summary": "Targeting a 6-point favorite, anytime touchdown value at +380 and key player props featuring Baker Mayfield and Luther Burden III",
-      "publishedAt": "2026-11-08T23:50:37Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "63ed0db2db83c642",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/how-browns-shadeur-sanders-fared-season-debut-saints",
-      "title": "How Shedeur Sanders fared in first 2026 start: Browns QB shines late vs. Saints",
-      "summary": "Sanders sparked a high-scoring finish that has analysts calling for him to keep the job over Deshaun Watson",
-      "publishedAt": "2026-11-08T23:46:01Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "68ba74166c97dadc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-sets-record-for-most-receptions-by-a-te-in-first-three-seasons",
-      "title": "Brock Bowers sets record for most receptions by a TE in first three seasons",
-      "summary": "Brock Bowers is good — really good.",
-      "publishedAt": "2026-11-08T23:44:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "fbab0141a40e7f19",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50426855/john-harbaugh-says-giants-did-pull-offer-jonathan-taylor",
-      "title": "John Harbaugh: Giants did pull offer for Jonathan Taylor but 'things do change'",
-      "summary": "The Giants pulled a recent trade offer for Jonathan Taylor, according to coach John Harbaugh, who added that doesn't mean a deal is completely off the table.",
-      "publishedAt": "2026-11-08T23:40:54Z",
-      "teamIds": [
-        "11",
-        "19"
-      ]
-    },
-    {
-      "id": "f4ef1ba767ebdb76",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-overreactions-joe-burrow-mvp-shedeur-sanders-deserves-to-remain-starter",
-      "title": "NFL Week 9 overreactions: Joe Burrow or Jordan Love for MVP? Shedeur Sanders deserves to remain starter?",
-      "summary": "Plus, speaking of MVPs, last year's is struggling",
-      "publishedAt": "2026-11-08T23:38:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "4b3eb798239d8795",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50426400/nfl-week-9-trolls",
-      "title": "Saints reference Shedeur Sanders quote after win, leading NFL Week 9 trolls",
-      "summary": "The New Orleans Saints kept the receipts and poked fun at Shedeur Sanders to lead NFL Week 9 trolls.",
-      "publishedAt": "2026-11-08T23:36:30Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "67f14eb394ca37dd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-well-talk-about-possible-staff-changes-during-bye-week",
-      "title": "Nick Sirianni: We'll talk about possible staff changes during bye week",
-      "summary": "The Eagles lost their seventh straight game on Sunday and they'll head into their bye week with little hope of salvaging anything over their final eight regular season games.",
-      "publishedAt": "2026-11-08T23:35:08Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "7e1c0b83172374c4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-winners-and-losers-jamarr-chase-bengals-commanders",
-      "title": "NFL Week 9 winners and losers: Ja'Marr Chase, Packers WRs go ballistic while Drake Maye's turnover woes return",
-      "summary": "Ja'Marr Chase's historic first half in Madrid led Sunday's standout performances",
-      "publishedAt": "2026-11-08T23:34:48Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "00b8d9063babe811",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50426731/making-sense-jets-backfield-fantasy",
-      "title": "Making sense of the Jets' backfield in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-08T23:34:18Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "55934452fc7ccc2a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50426656/rams-myles-garrett-three-sacks-return",
-      "title": "Myles Garrett has 3 sacks in return to help Rams stop Commanders",
-      "summary": "Myles Garrett had three sacks in his return to the field for the Rams in Los Angeles' victory over the Commanders.",
-      "publishedAt": "2026-11-08T23:30:43Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "cb4c903d16e6d3b5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-acrobatic-td-catch-gives-texans-31-9-lead",
-      "title": "Nico Collins' acrobatic TD catch gives Texans 31-9 lead",
-      "summary": "Nico Collins made one of the best touchdown catches you will ever see in the third quarter on Sunday.",
-      "publishedAt": "2026-11-08T23:24:33Z",
-      "teamIds": [
-        "34"
       ]
     }
   ]
