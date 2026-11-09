@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "fetchedAt": "2026-11-09T02:47:16Z",
+  "fetchedAt": "2026-11-09T03:47:15Z",
   "source": "espn",
   "games": [
     {
@@ -301,9 +301,9 @@
       "homeId": "3",
       "awayId": "27",
       "status": "in_progress",
-      "statusDetail": "0:30 - 2nd",
-      "homeScore": 17,
-      "awayScore": 3,
+      "statusDetail": "2:49 - 3rd",
+      "homeScore": 24,
+      "awayScore": 13,
       "venue": "Soldier Field",
       "neutralSite": false,
       "venueInfo": {

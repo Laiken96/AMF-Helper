@@ -1,7 +1,97 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T02:47:19Z",
+  "updatedAt": "2026-11-09T03:47:19Z",
   "items": [
+    {
+      "id": "c4889b1ee9ee0052",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50429192/drew-lock-overcomes-oblique-injury-seahawks-top-cardinals",
+      "title": "Drew Lock overcomes oblique injury in fill-in start for Sam Darnold, Seahawks",
+      "summary": "Already dealing with an injury to his throwing elbow, Drew Lock hurt his oblique in the third quarter of Seattle's 17-3 win over the Arizona Cardinals at Lumen Field.",
+      "publishedAt": "2026-11-09T03:43:38Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "5c7832544db6a3da",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50428998/grateful-tank-dell-105-receiving-yards-2nd-game-back-knee-injury",
+      "title": "'Grateful' Tank Dell has 105 receiving yards in 2nd game back from knee injury",
+      "summary": "Texans WR Tank Dell scored a touchdown Sunday in his second game back from a gruesome knee injury.",
+      "publishedAt": "2026-11-09T03:41:08Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "0955295b6940eaf3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/video-emerges-of-parking-lot-brawl-at-raiders-49ers-game",
+      "title": "Video emerges of parking lot brawl at Raiders-49ers game",
+      "summary": "It remains to be seen whether the first Raiders game at Levi's Stadium in eight years matched or exceeded the 32 arrests made in the building in 2018.",
+      "publishedAt": "2026-11-09T03:29:27Z",
+      "teamIds": [
+        "13",
+        "25"
+      ]
+    },
+    {
+      "id": "596b80677bfd57c9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50429092/packers-josh-jacobs-dealing-fractured-finger",
+      "title": "Packers' Josh Jacobs dealing with broken finger, status for Vikings tilt TBD",
+      "summary": "Josh Jacobs broke the ring finger on his right hand while trying to stiff-arm a defender and is unsure if he'll be able to play next week against the Vikings.",
+      "publishedAt": "2026-11-09T03:24:36Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "84429f7fee445311",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-score-to-start-third-quarter-trail-bears-17-13",
+      "title": "Bucs score to start third quarter, trail Bears 17-13",
+      "summary": "In his halftime interview with NBC, Buccaneers head coach Todd Bowles said that he didn't go for a touchdown to close the second quarter largely because his team was going to receive the second-half kickoff with a chance to double up.",
+      "publishedAt": "2026-11-09T03:21:15Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "1d262a99cf38e5f7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-despite-three-caleb-williams-ints-bears-lead-17-6-at-halftime",
+      "title": "Sunday Night Football: Despite three Caleb Williams INTs, Bears lead 17-6 at halftime",
+      "summary": "The Buccaneers scored just three points off of Williams' interceptions in the first half.",
+      "publishedAt": "2026-11-09T02:59:15Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "90ab6ac14242f308",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/in-broncos-panthers-replay-was-used-to-determine-whether-replay-should-be-used",
+      "title": "In Broncos-Panthers, replay was used to determine whether replay should be used",
+      "summary": "In Sunday's Broncos-Panthers game, Denver coach Sean Payton activated the replay process at a key moment, turning an incompletion into an interception.",
+      "publishedAt": "2026-11-09T02:53:58Z",
+      "teamIds": [
+        "29",
+        "7"
+      ]
+    },
+    {
+      "id": "0269d9c1c7df2382",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50428766/sunday-top-plays-nfl",
+      "title": "Sunday's top plays from around the NFL",
+      "summary": null,
+      "publishedAt": "2026-11-09T02:48:09Z",
+      "teamIds": []
+    },
     {
       "id": "176457613347996a",
       "source": "espn",
@@ -485,6 +575,15 @@
       ]
     },
     {
+      "id": "943edfc11b4fc7c1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50393510/nfl-week-9-fashionable-arrivals",
+      "title": "NFL Week 9 arrivals: Caleb Williams rocks Supreme mascot zip-up before 'SNF'",
+      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-09T00:31:42Z",
+      "teamIds": []
+    },
+    {
       "id": "ffc0fa5b21df5c75",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873047",
@@ -774,6 +873,18 @@
       ]
     },
     {
+      "id": "b6f81c8411049712",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aj-barner-scores-td-run-td-catch-as-seahawks-lead-cardinals-14-3",
+      "title": "AJ Barner scores TD run, TD catch as Seahawks lead Cardinals 14-3",
+      "summary": "Drew Lock and the Seahawks lead Gardner Minshew and the Cardinals.",
+      "publishedAt": "2026-11-08T23:10:32Z",
+      "teamIds": [
+        "22",
+        "26"
+      ]
+    },
+    {
       "id": "45508d0971d05d7f",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dallas-goedert-on-whether-hell-be-traded-for-the-right-price-everybodys-available",
@@ -816,6 +927,17 @@
       ]
     },
     {
+      "id": "32a23c85d63c1116",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaden-dugger-pick-six-puts-49ers-up-28-10-early-in-third-quarter",
+      "title": "Jaden Dugger pick-six puts 49ers up 28-10 early in third quarter",
+      "summary": "Things are starting to get out of hand in Santa Clara.",
+      "publishedAt": "2026-11-08T22:59:06Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
       "id": "28f78c311611f5b5",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/buccaneers-vs-bears-odds-nfl-week-9-sunday-night-football-first-touchdown-scorer-picks-predictions",
@@ -828,6 +950,32 @@
       ]
     },
     {
+      "id": "6cd7259f88169946",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-roll-chargers-in-first-half-take-24-9-lead-to-locker-room",
+      "title": "Texans roll Chargers in first half, take 24-9 lead to locker room",
+      "summary": "The Texans have figured out how to fix their defense: Play the Chargers.",
+      "publishedAt": "2026-11-08T22:50:01Z",
+      "teamIds": [
+        "34",
+        "24"
+      ]
+    },
+    {
+      "id": "9262ead8a32b159b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-golden-sets-career-high-for-receiving-yards-in-a-game-in-first-half-against-patriots",
+      "title": "Matthew Golden sets career high for receiving yards in a game in first half against Patriots",
+      "summary": "Bengals wide receiver Ja'Marr Chase opened Sunday's schedule with a monster first half against the Falcons in Madrid and Packers wideout Matthew Golden is closing out the afternoon slate with an even bigger half.",
+      "publishedAt": "2026-11-08T22:48:21Z",
+      "teamIds": [
+        "1",
+        "4",
+        "9",
+        "17"
+      ]
+    },
+    {
       "id": "cd13d697af5da3a1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50425853/sources-rams-puka-nacua-undergo-tests-knee",
@@ -836,6 +984,18 @@
       "publishedAt": "2026-11-08T22:44:59Z",
       "teamIds": [
         "14"
+      ]
+    },
+    {
+      "id": "f5309b7b64cc1dac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-dominating-raiders-lead-21-10-at-halftime",
+      "title": "49ers dominating Raiders, lead 21-10 at halftime",
+      "summary": "The 49ers offense has been tough to stop all year and that has remained the case in Sunday’s game against the Raiders.",
+      "publishedAt": "2026-11-08T22:41:25Z",
+      "teamIds": [
+        "13",
+        "25"
       ]
     },
     {
@@ -1531,163 +1691,6 @@
       "teamIds": [
         "8",
         "16"
-      ]
-    },
-    {
-      "id": "cfd5173bc48f9cca",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescotts-fourth-down-td-gives-cowboys-10-7-lead",
-      "title": "Dak Prescott's fourth-down TD throw gives Cowboys 10-7 lead",
-      "summary": "Dak Prescott lost a fumble that allowed the Colts to take a 7-3 lead.",
-      "publishedAt": "2026-11-08T18:51:41Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "3e74f57a54cd4b1c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50422661/joe-burrow-jamarr-chase-matchup-proof-fantasy",
-      "title": "Eric Moody: Joe Burrow, Ja'Marr Chase are matchup-proof in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-08T18:50:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "d3e83d1c211c260f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50409762/week-9-sunday-highlights-best-plays-touchdowns-2026",
-      "title": "Week 9 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for Sunday's top moments, TDs and analysis.",
-      "publishedAt": "2026-11-08T18:47:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "07d80199e3fd6deb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walkers-ninth-td-of-the-season-puts-chiefs-up-7-6",
-      "title": "Kenneth Walker's ninth TD of the season puts Chiefs up 7-6",
-      "summary": "Kenneth Walker scored eight touchdowns during the Chiefs' 5-0 start to the 2026 season, but he was shut out in back-to-back losses over the last two weeks.",
-      "publishedAt": "2026-11-08T18:47:40Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "91fc8357883cbdcf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tirico-will-miss-sunday-nights-bucs-bears-game-due-to-a-health-issue",
-      "title": "Mike Tirico will miss Sunday night's Bucs-Bears game due to a \"health issue\"",
-      "summary": "Mike Tirico's 300th NFL game will be delayed by one week.",
-      "publishedAt": "2026-11-08T18:43:36Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "a06625163863cf36",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-tosses-7-yard-td-commanders-lead-rams-10-3",
-      "title": "Jayden Daniels tosses 7-yard TD, Commanders lead Rams 10-3",
-      "summary": "The Commanders have gotten the first touchdown in Sunday's matchup with the Rams.",
-      "publishedAt": "2026-11-08T18:43:04Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "07c1c3a1050bf377",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-up-8-6-after-saquon-barkley-td",
-      "title": "Eagles up 8-6 after Saquon Barkley TD",
-      "summary": "The Eagles have won 13 straight home games against the Giants and they have a lead late in the first quarter this Sunday.",
-      "publishedAt": "2026-11-08T18:41:53Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "a5fdfb320851c587",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-lead-panthers-10-0-early",
-      "title": "Broncos lead Panthers 10-0 early",
-      "summary": "The Broncos entered Sunday without an opening-drive touchdown since last December against the Raiders.",
-      "publishedAt": "2026-11-08T18:41:51Z",
-      "teamIds": [
-        "29",
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "f99efd3c516fcda9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50421706/game-highlights",
-      "title": "Cincinnati Bengals vs. Atlanta Falcons: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-08T18:39:45Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "f64b105422fb538c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seth-mcgowan-scores-first-career-td-giving-colts-7-3-lead",
-      "title": "Seth McGowan scores first career TD, giving Colts 7-3 lead",
-      "summary": "Colts rookie running back Seth McGowan had only 37 carries for 163 yards before Sunday.",
-      "publishedAt": "2026-11-08T18:33:23Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "4cd3be9126667826",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-up-6-0-after-justin-fields-fumbles-on-a-sneak",
-      "title": "Jets up 6-0 after Justin Fields fumbles on a sneak",
-      "summary": "The Chiefs don't run quarterback sneaks with Patrick Mahomes and they may not do it again with Justin Fields.",
-      "publishedAt": "2026-11-08T18:31:28Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "85df7e1df0d15f66",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50369510/week-9-sunday-games-takeaways-questions-2026",
-      "title": "NFL Week 9: Big takeaways, questions and fantasy spin from Sunday's games",
-      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 9.",
-      "publishedAt": "2026-11-08T18:24:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "0aae9012deb14e90",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/kirk-cousins-rumors-raiders-nfl-trade-deadline-2026",
-      "title": "Kirk Cousins trade rumors: Raiders have received no calls, reportedly want to keep QB",
-      "summary": "Despite speculation connecting Cousins to a reunion with the Vikings, the Raiders reportedly are not interested in moving their starting quarterback",
-      "publishedAt": "2026-11-08T18:20:18Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "646b63056a60cb96",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50421721/cincinnati-bengals-real-madrid-spain-touchdown-celebrations",
-      "title": "Bengals' Burrow, Chase, Higgins add Spanish flair to TD celebrations in Madrid",
-      "summary": "The Bengals' first-half lead called for celebrations inspired by being in Spain.",
-      "publishedAt": "2026-11-08T18:19:56Z",
-      "teamIds": [
-        "4"
       ]
     }
   ]
