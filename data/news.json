@@ -1,7 +1,141 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T12:47:22Z",
+  "updatedAt": "2026-11-09T13:47:28Z",
   "items": [
+    {
+      "id": "3700951a95d8554d",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49309401/fantasy-football-knockout-rankings-top-200",
+      "title": "Fantasy football Knockout league: Top 126 rankings for leagues starting Week 10",
+      "summary": "Rankings for knockout leagues, where the lowest-scoring team is eliminated and the last team standing wins.",
+      "publishedAt": "2026-11-09T13:45:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "f1c642cee39c5855",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50422009/week-9-barnwell-nfc-north-packers-lions-bears-vikings",
+      "title": "Is the NFC North the best division ever? Sizing up wins for Packers, Lions, Bears",
+      "summary": "The Packers, Bears, Lions and Vikings are a combined 25-8 and all hold playoff spots right now. Can anyone stop the NFC North -- and who will win the division?",
+      "publishedAt": "2026-11-09T13:45:32Z",
+      "teamIds": [
+        "3",
+        "8",
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "a15b04bc973a23bd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50402717/biggest-nfl-upsets-super-bowl-era",
+      "title": "What are the biggest NFL upsets in the Super Bowl era?",
+      "summary": "Major underdogs reigned supreme several times in the 1960s.",
+      "publishedAt": "2026-11-09T13:42:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "f2dc8e0169c2ecb5",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50432491/rex-ryan-blown-away-extraordinary-jordan-love-season",
+      "title": "Rex Ryan blown away by 'extraordinary' Jordan Love this season",
+      "summary": null,
+      "publishedAt": "2026-11-09T13:36:41Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "858195562ad626d6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50432277/sources-jaguars-get-jessie-bates-iii-trade-falcons",
+      "title": "Sources: Jaguars bolster secondary, land Jessie Bates III in trade with Falcons",
+      "summary": "The Jaguars bolstered their secondary one day before the NFL trade deadline, acquiring veteran safety Jessie Bates III from the Falcons, sources told ESPN.",
+      "publishedAt": "2026-11-09T13:36:38Z",
+      "teamIds": [
+        "1",
+        "30"
+      ]
+    },
+    {
+      "id": "a7d4344824d50fa7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/caleb-williams-four-interceptions-bears-buccaneers-2026",
+      "title": "Caleb Williams unfazed by four-interception game in Bears win: 'I don't get gun shy'",
+      "summary": "Williams threw four interceptions for the first time in his football career but responded by putting Chicago in position for a game-winning field goal",
+      "publishedAt": "2026-11-09T13:36:38Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "269ee44b06d1d93c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+      "title": "2026 NFL trade deadline updates: Jessie Bates III, Jacoby Brissett on the move",
+      "summary": "The NFL trade deadline is Tuesday, and deals are flying. We're tracking all moves, including Jessie Bates III to Jacksonville.",
+      "publishedAt": "2026-11-09T13:33:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "2528cc71424ff164",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jessie-bates-trade-jaguars-falcons-nfl-deadline-2026",
+      "title": "Jaguars acquire All-Pro safety Jessie Bates III from Falcons ahead of NFL trade deadline",
+      "summary": "Bates, who is in the final year of his contract, heads to Jacksonville in exchange for two future draft picks",
+      "publishedAt": "2026-11-09T13:26:42Z",
+      "teamIds": [
+        "1",
+        "30"
+      ]
+    },
+    {
+      "id": "5e3be32e12b07942",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50432366/schefter-confirms-falcons-trading-safety-jessie-bates-iii-jaguars",
+      "title": "Schefter confirms Falcons trading safety Jessie Bates III to the Jaguars",
+      "summary": null,
+      "publishedAt": "2026-11-09T13:15:40Z",
+      "teamIds": [
+        "1",
+        "30"
+      ]
+    },
+    {
+      "id": "19093607eabb3fb1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-will-mcdonald-requests-a-trade-away-from-the-jets",
+      "title": "Report: Will McDonald requests a trade away from the Jets",
+      "summary": "The Jets have balked at the idea of trading running back Breece Hall or wide receiver Garrett Wilson during their latest losing season, but linebacker Will McDonald is hoping they'll be amenable to shipping him out of town.",
+      "publishedAt": "2026-11-09T13:14:26Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "ad219bd3bb7ee1be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-agree-to-trade-for-falcons-s-jessie-bates",
+      "title": "Jaguars agree to trade for Falcons S Jessie Bates",
+      "summary": "Jacksonville makes a move to improve their defense ahead of Tuesday's trade deadline.",
+      "publishedAt": "2026-11-09T13:06:46Z",
+      "teamIds": [
+        "1",
+        "30"
+      ]
+    },
+    {
+      "id": "75694a72ab6656da",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/bills-vs-vikings-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-9-monday-night-football",
+      "title": "Bills vs. Vikings odds: First touchdown scorer picks, predictions for NFL Week 9 Monday Night Football",
+      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
+      "publishedAt": "2026-11-09T13:00:47Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
     {
       "id": "1afc86d5c680b3af",
       "source": "cbs",
@@ -1538,147 +1672,6 @@
       "teamIds": [
         "2",
         "17"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 9 scoring leaders through Sunday's games",
-      "summary": "Kenneth Walker III led Sunday's fantasy scorers, and Jordan Love and the Packers receivers had a field day.",
-      "publishedAt": "2026-11-08T21:40:45Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "6c93aa268f561bdf",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873044",
-      "title": "Winston, McCarthy combine to lead Giants to 19-11 win and hand Eagles 7th straight loss",
-      "summary": "J.J. McCarthy may as well have been any New York Giants fan nervously watching on TV as the injured quarterback tossed a football to keep warm and paced around the locker room.",
-      "publishedAt": "2026-11-08T21:38:35Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "c4eafe5e12953db3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-pick-off-drake-maye-jump-out-to-7-0-lead",
-      "title": "Packers pick off Drake Maye, jump out to 7-0 lead",
-      "summary": "The Packers are out to a quick lead in New England.",
-      "publishedAt": "2026-11-08T21:37:39Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "274bb9fd55ddb8a3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873043",
-      "title": "Puka Nacua, Myles Garrett lead Rams to 20-13 win over Commanders",
-      "summary": "There's still room for growth from the star-studded Rams, but they're starting to show again why they were a preseason Super Bowl favorite.",
-      "publishedAt": "2026-11-08T21:37:35Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "004e0addc5ef8287",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-end-13-year-losing-streak-in-philadelphia",
-      "title": "Giants get first win in Philadelphia since 2013",
-      "summary": "The 19-11 win keeps the Giants in firm control of the NFC East.",
-      "publishedAt": "2026-11-08T21:28:31Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "db12d777ea247add",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50424796/rams-outlast-commanders-defensive-showcase",
-      "title": "Rams outlast Commanders with defensive showcase",
-      "summary": null,
-      "publishedAt": "2026-11-08T21:27:40Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "d35cffad94054bda",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50424762/detroit-lions-vs-miami-dolphins-game-highlights",
-      "title": "Detroit Lions vs. Miami Dolphins Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-08T21:27:33Z",
-      "teamIds": [
-        "8",
-        "15"
-      ]
-    },
-    {
-      "id": "f4d3126923f251a2",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50424771/game-highlights",
-      "title": "New York Giants vs. Philadelphia Eagles: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-08T21:25:37Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "a39a60fdb724f3a4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-beat-panthers-26-21-for-fifth-consecutive-win",
-      "title": "Broncos beat Panthers 26-21 for fifth consecutive win",
-      "summary": "Nik Bonitto had a strip-sack of Bryce Young with 1:18 left to seal it.",
-      "publishedAt": "2026-11-08T21:23:27Z",
-      "teamIds": [
-        "29",
-        "7"
-      ]
-    },
-    {
-      "id": "b825bddc2a73af4d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50424764/chiefs-take-care-business-home",
-      "title": "Chiefs take care of business at home",
-      "summary": null,
-      "publishedAt": "2026-11-08T21:21:50Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "215cb0d49f824bcb",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50424751/game-highlights",
-      "title": "Denver Broncos vs. Carolina Panthers: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-08T21:21:15Z",
-      "teamIds": [
-        "29",
-        "7"
-      ]
-    },
-    {
-      "id": "3106595015e95c1b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-garrett-picks-up-3-0-sacks-in-return-rams-beat-commanders-20-13",
-      "title": "Myles Garrett picks up 3.0 sacks in return, Rams beat Commanders 20-13",
-      "summary": "Puka Nacua also caught 14 passes for 150 yards as Los Angeles has now won three in a row.",
-      "publishedAt": "2026-11-08T21:17:50Z",
-      "teamIds": [
-        "14",
-        "28"
       ]
     }
   ]
