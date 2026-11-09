@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-09T01:30:50Z",
+    "takenAt": "2026-11-09T01:40:29Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2176,6 +2176,30 @@
             "teamId": "3",
             "teamAbbr": "CHI",
             "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3052587",
+            "name": "Baker Mayfield",
+            "pos": "QB",
+            "teamId": "27",
+            "teamAbbr": "TB",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4596448",
+            "name": "Bucky Irving",
+            "pos": "RB",
+            "teamId": "27",
+            "teamAbbr": "TB",
+            "roles": [
+              "rushing",
               "receiving"
             ],
             "status": null
