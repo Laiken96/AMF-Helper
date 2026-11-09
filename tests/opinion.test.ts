@@ -121,7 +121,9 @@ describe("opinion main", () => {
     const req = (create.mock.calls[0] as unknown[])[0] as Record<string, unknown>;
     expect(req.model).toBe(OPINION_MODEL);
     expect(JSON.stringify(req.tools)).toContain("web_search_20250305");
-    expect(JSON.stringify(req.messages)).toContain("Spread aus Sicht Heimteam 8.5");
+    // Blind (D059): keine Quote und keine Marktwahrscheinlichkeit im Prompt
+    expect(JSON.stringify(req.messages)).not.toMatch(/Spread|Over\/Under|Markt|Prozent/);
+    expect(JSON.stringify(req.messages)).toContain("Jacksonville Jaguars");
     const f = await readOpinions();
     expect(f.model).toBe(OPINION_MODEL);
     expect(f.opinions).toHaveLength(1);

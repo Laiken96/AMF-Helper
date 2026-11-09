@@ -32,7 +32,7 @@ Vite, React, TypeScript als statische Web App auf GitHub Pages. Datenjobs in Typ
 ## Aktueller Stand
 
 Stand 2026-11-08 abends, alles auf main und live unter https://laiken96.github.io/AMF-Helper/
-- DoD erreicht (D042), Gesamtabnahme am Projektende. Features: Tipps mit Quoten, Favorit als Vorschlag (D052), Tiebreaker TNF und MNF, Push vor Tippschluss, Ausfall Wächter, Bilanz der eigenen Tipps (Rangliste ausgeblendet, D058), Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus (erste echte Meinung CHI@SEA erzeugt, 0.034 USD)
+- DoD erreicht (D042), Gesamtabnahme am Projektende. Features: Tipps mit Quoten, Favorit als Vorschlag (D052), Tiebreaker TNF und MNF, Push vor Tippschluss, Ausfall Wächter, Bilanz der eigenen Tipps (Rangliste ausgeblendet, D058), Wochen blättern, Liveticker, News, KI Zweitmeinung im Schattenmodus, seit D059 blind ohne Quote im Prompt, Auswertung nach Week 13
 - Design Stil A für iPhone und iPhone Duo (D035 bis D039, D045, D047, D048 Spielauswahl im Spielbereich)
 - Automatik: cron-job.org startet push.yml alle 10 Minuten und data.yml stündlich Minute 47 (D041), GitHub Zeitpläne unzuverlässig
 - Secrets: VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION, ANTHROPIC_API_KEY. Token cron-job läuft am 02.11.2027 ab, Erinnerung geplant
