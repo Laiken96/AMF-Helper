@@ -3,21 +3,21 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-09T21:47:17Z",
+  "updatedAt": "2026-11-09T22:47:17Z",
   "maxDeviations": 0,
   "tips": [
     {
       "gameId": "401873052",
       "kickoffUtc": "2026-11-13T01:15:00Z",
       "odds": {
-        "provider": "Draft Kings",
-        "spreadHome": -1.5,
+        "provider": "DraftKings",
+        "spreadHome": -2.5,
         "overUnder": 42.5,
-        "fetchedAt": "2026-11-09T17:47:17Z"
+        "fetchedAt": "2026-11-09T22:47:17Z"
       },
-      "pHome": 0.5442,
+      "pHome": 0.5735,
       "pickTeamId": "19",
-      "pickProb": 0.5442,
+      "pickProb": 0.5735,
       "level": "unklar",
       "deviation": false,
       "firstPickTeamId": "19",
@@ -61,13 +61,13 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "odds": {
         "provider": "DraftKings",
-        "spreadHome": 7,
+        "spreadHome": 7.5,
         "overUnder": 50.5,
-        "fetchedAt": "2026-11-09T21:47:17Z"
+        "fetchedAt": "2026-11-09T22:47:17Z"
       },
-      "pHome": 0.302,
+      "pHome": 0.2893,
       "pickTeamId": "2",
-      "pickProb": 0.698,
+      "pickProb": 0.7107,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "2",
@@ -235,14 +235,14 @@
       "gameId": "401873061",
       "kickoffUtc": "2026-11-15T21:05:00Z",
       "odds": {
-        "provider": "Draft Kings",
-        "spreadHome": 7,
-        "overUnder": 43.5,
-        "fetchedAt": "2026-11-09T20:47:33Z"
+        "provider": "DraftKings",
+        "spreadHome": 7.5,
+        "overUnder": 40.5,
+        "fetchedAt": "2026-11-09T22:47:17Z"
       },
-      "pHome": 0.302,
+      "pHome": 0.2893,
       "pickTeamId": "14",
-      "pickProb": 0.698,
+      "pickProb": 0.7107,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "14",
@@ -361,8 +361,8 @@
     {
       "gameId": "401873052",
       "slot": "thursday",
-      "homePoints": 22,
-      "awayPoints": 21,
+      "homePoints": 23,
+      "awayPoints": 20,
       "basis": "quote"
     },
     {

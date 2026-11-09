@@ -1,7 +1,236 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:47:20Z",
+  "updatedAt": "2026-11-09T22:47:20Z",
   "items": [
+    {
+      "id": "c528e1ac5f971173",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435879/rams-nacua-likely-hit-ir-mcl-pcl-sprain-turf-toe",
+      "title": "Rams WR Puka Nacua likely to hit IR with MCL and PCL sprain, turf toe",
+      "summary": "Los Angeles Rams wide receiver Puka Nacua is likely going on injured reserve due to an MCL/PCL sprain as well as turf toe, according to head coach Sean McVay.",
+      "publishedAt": "2026-11-09T22:43:42Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "ba0a8d7b2e072fb6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435608/cardinals-wr-michael-wilson-neck-miss-rest-season",
+      "title": "Cardinals WR Michael Wilson (neck) to miss rest of season",
+      "summary": "Cardinals wide receiver Michael Wilson will miss the rest of the season after suffering a neck fracture on the fourth play of Sunday's game that he played through.",
+      "publishedAt": "2026-11-09T22:42:07Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "156fdbfcf73c0fe6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50436023/josh-jacobs-needs-surgery-finger",
+      "title": "Packers coach: Josh Jacobs needs surgery on finger",
+      "summary": null,
+      "publishedAt": "2026-11-09T22:39:30Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "7780e59d7f7c84d2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/gardner-minshew-having-tests-on-right-arm-after-injury-on-sunday",
+      "title": "Gardner Minshew having tests on right arm after injury on Sunday",
+      "summary": "Cardinals quarterback Gardner Minshew remained in Sunday's loss to the Seahawks after hurting his right arm late in the first half, but his status for the team's Week 10 game against the Rams is not certain.",
+      "publishedAt": "2026-11-09T22:39:14Z",
+      "teamIds": [
+        "22",
+        "14",
+        "26"
+      ]
+    },
+    {
+      "id": "a4f8257347740acd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435848/49ers-receiver-brandon-aiyuk-reinstated-nfl",
+      "title": "Brandon Aiyuk reinstated by NFL; 49ers have two-game roster exemption",
+      "summary": "The NFL reinstated San Francisco 49ers wide receiver Brandon Aiyuk on Monday after he reported for a physical, according to the league's transaction wire.",
+      "publishedAt": "2026-11-09T22:36:53Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "4aedbb271515505a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50435981/michael-wilson-miss-rest-season",
+      "title": "Cardinals coach: Michael Wilson will miss the rest of the season",
+      "summary": null,
+      "publishedAt": "2026-11-09T22:35:52Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "82f5d691afb666ef",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-headed-to-ir-with-mcl-pcl-knee-sprains-turf-toe",
+      "title": "Puka Nacua headed to IR with MCL, PCL knee sprains, turf toe",
+      "summary": "The Rams wide receiver was injured on the team's final play from scrimmage on Sunday.",
+      "publishedAt": "2026-11-09T22:31:14Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "438ca1d1fea0521b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435515/sirianni-says-did-not-give-eagles-fans-middle-finger",
+      "title": "Nick Sirianni says he did not give booing Eagles fans middle finger",
+      "summary": "A social media video sparked questions about whether Eagles coach Nick Sirianni purposefully lifted his middle finger toward fans after a loss to the Giants.",
+      "publishedAt": "2026-11-09T22:25:51Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "40e8dd85a9e7a96c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50435954/did-not-give-fans-middle-finger",
+      "title": "Nick Sirianni: I did not give fans the middle finger",
+      "summary": null,
+      "publishedAt": "2026-11-09T22:25:48Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "f5235e3cc63d6ccd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-reinstates-wr-brandon-aiyuk-from-reserve-left-squad-list",
+      "title": "NFL reinstates WR Brandon Aiyuk from reserve/left squad list",
+      "summary": "49ers' get a two-week roster exemption.",
+      "publishedAt": "2026-11-09T22:22:32Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "00c10182655620dc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435639/jaguars-get-eagles-jordan-davis-blockbuster-trade",
+      "title": "Sources: Jaguars acquire Eagles DT Jordan Davis in blockbuster trade",
+      "summary": "The Jaguars traded a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis on Monday.",
+      "publishedAt": "2026-11-09T22:21:47Z",
+      "teamIds": [
+        "30",
+        "21"
+      ]
+    },
+    {
+      "id": "dda4a783b5c14e8c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-downplays-on-field-exchange-between-darius-robinson-josh-sweat",
+      "title": "Mike LaFleur downplays on-field exchange between Darius Robinson, Josh Sweat",
+      "summary": "Cardinals teammates Darius Robinson and Josh Sweat got into an on-field disagreement during Sunday's 17-3 loss to the Seahawks.",
+      "publishedAt": "2026-11-09T22:19:52Z",
+      "teamIds": [
+        "22",
+        "26"
+      ]
+    },
+    {
+      "id": "4d15b20da04ad897",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435393/dolphins-coach-jeff-hafley-laments-penalties-vs-lions",
+      "title": "Jeff Hafley calls out Dolphins' discipline after 11 penalties",
+      "summary": "Jeff Hafley said penalties helped negate what was arguably Miami's best defensive performance of the season.",
+      "publishedAt": "2026-11-09T22:17:14Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "e19785ab6bfe1c61",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50435727/dan-orlovsky-stunned-jags-trade-eagles-jordan-davis",
+      "title": "Dan Orlovsky stunned by Jags' trade for Eagles' Jordan Davis",
+      "summary": null,
+      "publishedAt": "2026-11-09T22:09:26Z",
+      "teamIds": [
+        "30",
+        "21"
+      ]
+    },
+    {
+      "id": "2739eed3914bbc9e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-place-joshua-palmer-on-ir-elevate-geno-stone-trent-sherfield",
+      "title": "Bills place Joshua Palmer on IR, elevate Geno Stone, Trent Sherfield",
+      "summary": "The Bills have made a few moves in advance of Monday night’s matchup with the Vikings.",
+      "publishedAt": "2026-11-09T22:04:39Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "930acbb60e4558dc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-officially-sign-odell-beckham-jr-to-active-roster",
+      "title": "Vikings officially sign Odell Beckham Jr. to active roster",
+      "summary": "Wide receiver Odell Beckham Jr. is officially set to make his Vikings debut against the Bills on Monday night.",
+      "publishedAt": "2026-11-09T22:01:01Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "bb674216d2fdb0fb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-trade-dt-jordan-davis-to-jaguars",
+      "title": "Eagles trade DT Jordan Davis to Jaguars",
+      "summary": "The Jaguars have gone all-in, and (as to 2027) the Eagles have checked out.",
+      "publishedAt": "2026-11-09T22:00:48Z",
+      "teamIds": [
+        "30",
+        "21"
+      ]
+    },
+    {
+      "id": "b70d9a4b51ab3337",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435612/raiders-kubiak-confidence-dc-leonard-amid-struggles",
+      "title": "Raiders' Klint Kubiak expresses confidence in DC Rob Leonard amid struggles",
+      "summary": "Raiders coach Klint Kubiak expressed confidence in first-time DC Rob Leonard after Las Vegas' sixth straight game of allowing 30-plus points.",
+      "publishedAt": "2026-11-09T21:59:01Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "f0cd1165172c0440",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-wr-michael-wilson-out-for-season-with-a-neck-injury",
+      "title": "Cardinals WR Michael Wilson out for season with a neck injury",
+      "summary": "The Cardinals have lost their top wide receiver for the rest of the season.",
+      "publishedAt": "2026-11-09T21:51:23Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "a29290c10763856f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/eagles-coach-nick-sirianni-denies-giving-fans-middle-finger-division-loss-absolutely-not",
+      "title": "Eagles coach Nick Sirianni denies giving his fans the middle finger after division loss: 'Absolutely not'",
+      "summary": "Sirianni said the accusations were a 'surprise' to him, which come after Philadelphia's first home loss to the Giants in 13 years.",
+      "publishedAt": "2026-11-09T21:49:18Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
     {
       "id": "57bf0dc57d9bab3c",
       "source": "espn",
@@ -913,11 +1142,11 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Andre Cisco, Davon Godchaux on the move",
-      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Andre Cisco to the Lions.",
+      "title": "2026 NFL trade deadline updates: Jordan Davis, Andre Cisco on the move",
+      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Jessie Bates III, Davon Godchaux and Jordan Davis to the Jaguars.",
       "publishedAt": "2026-11-09T13:33:46Z",
       "teamIds": [
-        "8"
+        "30"
       ]
     },
     {
@@ -1272,7 +1501,7 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
       "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
-      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "summary": "Jordan Davis, Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
       "publishedAt": "2026-11-09T05:01:00Z",
       "teamIds": []
     },
@@ -1303,10 +1532,12 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Who got the ball in Week 9?",
-      "summary": "Eric Moody breaks down which players saw a boost in workload and which ones didn't after Sunday's NFL games.",
+      "title": "Fantasy buzz: Cardinals' Michael Wilson out for season with neck injury",
+      "summary": "With Michael Wilson out for the season, the Cardinals depth at the skill positions will be severely tested.",
       "publishedAt": "2026-11-09T04:52:49Z",
-      "teamIds": []
+      "teamIds": [
+        "22"
+      ]
     },
     {
       "id": "845cd480034280d5",
@@ -1451,225 +1682,6 @@
       "summary": null,
       "publishedAt": "2026-11-09T02:48:09Z",
       "teamIds": []
-    },
-    {
-      "id": "176457613347996a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50428583/49ers-gracen-halton-season-broken-ankle",
-      "title": "49ers lose DT Gracen Halton to season-ending ankle fracture",
-      "summary": "Gracen Halton suffered a broken left ankle against the Raiders, an injury that will end his rookie season after eight games.",
-      "publishedAt": "2026-11-09T02:37:12Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "56f2925a2b7215b7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mri-shows-patrick-mahomes-avoided-serious-injury",
-      "title": "Report: MRI shows Patrick Mahomes avoided serious injury",
-      "summary": "The Chiefs quarterback injured his right elbow in the second quarter Sunday.",
-      "publishedAt": "2026-11-09T02:30:51Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "3798a5e2b574455a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-becomes-an-option-for-a-contender-like-the-vikings",
-      "title": "Kirk Cousins becomes an option for a contender, like the Vikings",
-      "summary": "With a switch from veteran quarterback Kirk Cousins to rookie Fernando Mendoza seemingly inevitable, the question becomes whether the Raiders will explore trading Cousins to a quarterback-needy contender.",
-      "publishedAt": "2026-11-09T02:25:59Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "9ec29f66abdadf7f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50428624/kenneth-walker-iii-alleviates-workload-concerns-huge-performance",
-      "title": "Kenneth Walker III alleviates workload concerns with huge performance",
-      "summary": null,
-      "publishedAt": "2026-11-09T02:25:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "7e4512e4590963f6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
-      "title": "How active NFL players continue to redefine all-time sack list",
-      "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
-      "publishedAt": "2026-11-09T02:11:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "d83b612383b18b54",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50428280/herbert-injures-finger-chargers-loss-testing",
-      "title": "Herbert to undergo testing after exiting Chargers' 44-22 loss with finger injury",
-      "summary": "Los Angeles Chargers quarterback Justin Herbert, who was sacked eight times and threw his NFL-leading 11th interception, left Sunday's 44-22 loss to the Houston Texans in the second half with an injury to the middle finger on his left (non-throwing) hand.",
-      "publishedAt": "2026-11-09T02:11:17Z",
-      "teamIds": [
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "0c1ef4edebeecfb3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drew-lock-suffers-oblique-injury-week-10-status-seahawks-could-start-jalen-milroe",
-      "title": "Drew Lock suffers oblique injury, Week 10 status up in the air: Seahawks could have to start Jalen Milroe",
-      "summary": "Lock was already filling in for Sam Darnold, who missed Week 9 with quad and rib injuries",
-      "publishedAt": "2026-11-09T02:10:50Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "d46f9d9523cd0d53",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-fractured-his-finger-in-sundays-win",
-      "title": "Josh Jacobs fractured his finger in Sunday's win",
-      "summary": "The Packers rolled to a 45-27 win in New England on Sunday, but running back Josh Jacobs wasn't around for much of the game.",
-      "publishedAt": "2026-11-09T01:59:02Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "99c34e2f5e799554",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-christian-gonzalez-we-expect-more-he-expects-more",
-      "title": "Mike Vrabel on Christian Gonzalez: We expect more, he expects more",
-      "summary": "The Packers put up 45 points in Sunday's road win over the Patriots and that marked the most points scored by a visiting team in the history of Gillette Stadium.",
-      "publishedAt": "2026-11-09T01:53:47Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "80bd86b3e05ff2a1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-are-expected-to-take-best-offer-for-jonathan-taylor-at-deadline",
-      "title": "Colts are expected to take best offer for Jonathan Taylor at deadline",
-      "summary": "The trade chatter regarding Colts running back Jonathan Taylor has lasted for two weeks.",
-      "publishedAt": "2026-11-09T01:51:25Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "960da18d86374d9f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/josh-jacobs-breaks-finger-packers-win-over-patriots-trade-deadline",
-      "title": "Josh Jacobs breaks finger during Packers' win, will undergo surgery and could miss a maximum of three weeks",
-      "summary": "Jacobs hopes to play through the issue, but grip struggles could force Green Bay to pursue running back help before Tuesday's trade deadline",
-      "publishedAt": "2026-11-09T01:48:30Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "b0a6eacab6eae902",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luther-burden-scores-56-yard-touchdown-bears-lead-bucs-14-0",
-      "title": "Luther Burden scores 56-yard touchdown, Bears lead Bucs 14-0",
-      "summary": "The last time the Bears played at home, Luther Burden went off for 130 yards.",
-      "publishedAt": "2026-11-09T01:47:57Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "2229a5885256fdcf",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50427823/reid-no-decision-harrison-butker-chiefs-future",
-      "title": "Reid: No decision now on Harrison Butker's Chiefs future",
-      "summary": "Chiefs coach Andy Reid said he hasn't made a decision on kicker Harrison Butker, who leads the NFL this season with seven missed field goal attempts.",
-      "publishedAt": "2026-11-09T01:44:59Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "2fa469cf44365ae5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-garrett-on-three-sack-game-it-was-a-weight-off-my-shoulders-to-get-back-to-who-i-am",
-      "title": "Myles Garrett on three-sack game: It was a weight off my shoulders to get back to who I am",
-      "summary": "Myles Garrett was Myles Garrett on Sunday.",
-      "publishedAt": "2026-11-09T01:41:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "e81bd17d6fb01953",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-td-pass-gives-bears-early-7-0-lead",
-      "title": "Caleb Williams TD pass gives Bears early 7-0 lead",
-      "summary": "It took a couple of attempts, but Caleb Williams and Rome Odunze connected for a score on Chicago’s opening drive to take a 7-0 lead over Tampa Bay.",
-      "publishedAt": "2026-11-09T01:36:50Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "90fc9c53cf04da50",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/patrick-mahomes-injury-update-mri-chiefs-qb-elbow",
-      "title": "Patrick Mahomes injury update: MRI reveals no significant damage to Chiefs QB's elbow",
-      "summary": "An MRI revealed no significant injury after Mahomes' right elbow bent awkwardly",
-      "publishedAt": "2026-11-09T01:35:13Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "e53161a1c951ea07",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-grades-cowboys-bengals-patriots-packers",
-      "title": "NFL Week 9 grades for every team: Patriots among two teams with failing grades, Cowboys barely pass",
-      "summary": "We're handing out grades for every team that played in Week 9",
-      "publishedAt": "2026-11-09T01:24:44Z",
-      "teamIds": [
-        "6",
-        "17"
-      ]
-    },
-    {
-      "id": "50e31ad2900b909f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/daniel-jones-trade-rumors-colts-nfl-deadline",
-      "title": "Daniel Jones trade rumors: Colts tell QB he will not be dealt before NFL deadline, per report",
-      "summary": "The 2-7 Colts have taken Daniel Jones off the market, even as Jonathan Taylor and several teammates remain names to watch",
-      "publishedAt": "2026-11-09T01:22:46Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "11759cb960332635",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-proud-of-shedeur-sanders-not-getting-into-qb-questions",
-      "title": "Todd Monken \"proud\" of Shedeur Sanders, \"not getting into\" QB questions",
-      "summary": "The Browns fell short in overtime on Sunday, but head coach Todd Monken said he liked what he saw from quarterback Shedeur Sanders in New Orleans.",
-      "publishedAt": "2026-11-09T01:21:47Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "028d057984b91218",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50426665/why-jonah-coleman-league-winning-rb-fantasy",
-      "title": "Why Jonah Coleman could be a 'league-winning' RB in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-09T01:20:16Z",
-      "teamIds": [
-        "7"
-      ]
     }
   ]
 }
