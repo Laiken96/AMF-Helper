@@ -1,7 +1,127 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T10:47:35Z",
+  "updatedAt": "2026-11-09T11:47:19Z",
   "items": [
+    {
+      "id": "bcc5c9171e9d1ff9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-sundays-game-definitely-up-there-with-best-ive-ever-played",
+      "title": "Jordan Love: Sunday's game \"definitely up there\" with best I've ever played",
+      "summary": "Packers quarterback Jordan Love ran for a touchdown to stake the team to a lead 100 seconds into Sunday's game in New England, but he used his right arm as his main weapon over the rest of the 45-27 win.",
+      "publishedAt": "2026-11-09T11:42:20Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "21d0ca8f8b75656d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-wr-luther-burden-suffered-a-concussion-on-sunday-night",
+      "title": "Bears WR Luther Burden suffered a concussion on Sunday night",
+      "summary": "Bears wide receiver Luther Burden went for a medical evaluation near the end of Sunday night's win over the Buccaneers and head coach Ben Johnson updated his condition after the game.",
+      "publishedAt": "2026-11-09T11:29:40Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "f628ffbfadcd8219",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carl-granderson-saints-defense-was-disrespected-so-we-came-in-ready-to-play",
+      "title": "Carl Granderson: Saints defense was disrespected, so we came in ready to play",
+      "summary": "Browns quarterback Shedeur Sanders's response to questions about the Saints defense leading into Sunday's game drew the ire of Saints linebacker Carl Granderson and they remained on his mind after a 23-22 overtime win.",
+      "publishedAt": "2026-11-09T11:21:30Z",
+      "teamIds": [
+        "5",
+        "18"
+      ]
+    },
+    {
+      "id": "88b10e7ce24fa370",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-thinks-joe-burrow-has-another-step-in-him",
+      "title": "Tee Higgins thinks Joe Burrow has \"another step in him\"",
+      "summary": "The Bengals extended their winning streak to four games against the Falcons in Madrid on Sunday and they continued to use their aerial attack to fuel their success.",
+      "publishedAt": "2026-11-09T11:08:47Z",
+      "teamIds": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "abe341128dba476c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-whos-buying-whos-selling",
+      "title": "2026 NFL trade deadline: Who's buying, who's selling, plus biggest names, led by Jonathan Taylor",
+      "summary": "Plus, there are a few wild cards in play ahead of Tuesday's deadline",
+      "publishedAt": "2026-11-09T11:00:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "74e704485b4097e1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/are-broncos-nfls-luckiest-super-bowl-contender",
+      "title": "Are the Broncos the NFL's luckiest Super Bowl contender? Their 7-2 start is unlike anything we've ever seen",
+      "summary": "Denver keeps winning despite historically troubling numbers. Here's how they're pulling it off -- and what history says happens next.",
+      "publishedAt": "2026-11-09T11:00:48Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "9b184b4de55e4b4e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50427816/bengals-joe-burrow-steelers-afc-north",
+      "title": "Joe Burrow reaching new heights as Bengals face big test",
+      "summary": "Burrow led the Bengals to their fourth straight win, and AFC North rival Pittsburgh is on deck.",
+      "publishedAt": "2026-11-09T11:00:10Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-09T11:00:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-09T11:00:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "8cc9a09970c88b98",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50408415/vikings-justin-jefferson-miraculous-catch-bills-2022",
+      "title": "Inside Justin Jefferson's miraculous catch for Vikings versus Bills in 2022",
+      "summary": "In 2022 against the Bills, Jefferson leaped up and came down with one of \"the greatest catches of all time.\"",
+      "publishedAt": "2026-11-09T11:00:01Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "691887bb362fec79",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-fox-tried-to-create-a-narrative-about-me-being-a-bad-teammate",
+      "title": "Malik Nabers: Fox tried to \"create a narrative\" about me being a bad teammate",
+      "summary": "Giants wide receiver Malik Nabers took to social media on Sunday night to express his displeasure with how he was portrayed during the Fox broadcast of his team's 19-11 win over the Eagles.",
+      "publishedAt": "2026-11-09T10:55:16Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
     {
       "id": "5ba634501829e549",
       "source": "pft",
@@ -1560,129 +1680,6 @@
       "publishedAt": "2026-11-08T20:39:33Z",
       "teamIds": [
         "24"
-      ]
-    },
-    {
-      "id": "b5ea8900602552b3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lead-colts-20-17-headed-to-third-quarter",
-      "title": "Cowboys lead Colts 20-17 headed to fourth quarter",
-      "summary": "The Cowboys have a 20-17 lead on the Colts headed to the fourth quarter.",
-      "publishedAt": "2026-11-08T20:39:00Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "4cafd82b9773c3ec",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacuas-14th-catch-goes-for-td-rams-lead-20-13",
-      "title": "Puka Nacua's 14th catch goes for TD, Rams lead 20-13",
-      "summary": "Puka Nacua continues to get it done.",
-      "publishedAt": "2026-11-08T20:32:50Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "2705ed27c2177372",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-returns-giants-up-13-8-in-fourth-quarter",
-      "title": "J.J. McCarthy returns; Giants up 13-8 in fourth quarter",
-      "summary": "McCarthy was called questionable to return from a hip injury.",
-      "publishedAt": "2026-11-08T20:30:09Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "d9dd8508193b89aa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50423176/broncos-wr-jaylen-waddle-cb-riley-moss-suffer-concussions",
-      "title": "Broncos WR Jaylen Waddle, CB Riley Moss suffer concussions against Panthers",
-      "summary": "Broncos wide receiver Jaylen Waddle and cornerback Riley Moss both suffered concussions against the Panthers.",
-      "publishedAt": "2026-11-08T20:29:15Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "b153e54feb54e094",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-j-j-mccarthy-hip-injury-update-vs-eagles",
-      "title": "Giants' J.J. McCarthy returns against Eagles after hip injury sent QB to locker room",
-      "summary": "Jameis Winston briefly entered the Week 9 contest in relief of McCarthy",
-      "publishedAt": "2026-11-08T20:18:19Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "1f44a02abdfefc04",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-zack-baun-questionable-to-return-in-philadelphia",
-      "title": "J.J. McCarthy, Zack Baun questionable to return in Philadelphia",
-      "summary": "McCarthy and Baun were injured on the same play in the third quarter.",
-      "publishedAt": "2026-11-08T20:16:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "87a68b5084399ef4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/hunter-henry-keisean-nixon-are-active-for-patriots-packers-clash",
-      "title": "Hunter Henry, Keisean Nixon are active for Patriots-Packers clash",
-      "summary": "The Patriots will be missing wide receivers A.J.",
-      "publishedAt": "2026-11-08T20:11:27Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "ef65f09a2a3e6981",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-goes-for-it-on-fourth-down-jahmyr-gibbs-finds-the-end-zone",
-      "title": "Dan Campbell goes for it on fourth down, Jahmyr Gibbs finds the end zone",
-      "summary": "Lions coach Dan Campbell loves to go for it on fourth down, and it's paying off today.",
-      "publishedAt": "2026-11-08T20:08:18Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "3283849cd98db1bd",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chiefs-looking-to-trade-for-wide-receiver-nfl-trade-deadline",
-      "title": "Chiefs looking to trade for wide receiver, GM Brett Veach tells NFL on CBS' Tracy Wolfson",
-      "summary": "Kansas City has one of the NFL's least-productive wide receiver corps in 2026",
-      "publishedAt": "2026-11-08T20:08:16Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "69a1526f90bc0af3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/saints-motivated-to-face-browns-shedeur-sanders",
-      "title": "Browns' Shedeur Sanders claims 'smiling' comment about Saints defense was taken out of context",
-      "summary": "However, Sanders claims he doesn't care about how the Saints' defense feels",
-      "publishedAt": "2026-11-08T20:06:00Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "3c6c8e98f57daae8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-heads-to-locker-room-after-zach-baun-hit-in-third-quarter",
-      "title": "J.J. McCarthy heads to locker room after Zack Baun hit in third quarter",
-      "summary": "Jameis Winston may be back in the saddle for the Giants.",
-      "publishedAt": "2026-11-08T20:04:58Z",
-      "teamIds": [
-        "19"
       ]
     }
   ]
