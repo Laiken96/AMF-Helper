@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T19:47:22Z",
+  "updatedAt": "2026-11-09T20:47:36Z",
   "items": [
+    {
+      "id": "b95be3f9c142cdbd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50433470/san-francisco-49ers-jaden-dugger-jordan-watkins",
+      "title": "The key behind 49ers' 7-1 start? Big contributions from the team's youth",
+      "summary": "While the 49ers' stars have shown out, Jordan Watkins, Jaden Dugger and Kaelon Black have also led the team to its best start since 2019.",
+      "publishedAt": "2026-11-09T20:41:22Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "a451ac0e1849e1da",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-bills-vs-vikings-on-mnf-nuggets-vs-rockets-and-more",
+      "title": "Today's top games to watch, best bets, odds: Bills vs. Vikings on MNF, Nuggets vs. Rockets and more",
+      "summary": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-09T20:30:48Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "29f094760b1c1d63",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50434942/saints-center-erik-mccoy-miss-biceps-injury",
+      "title": "Saints starting center Erik McCoy to miss time with biceps injury, coach says",
+      "summary": "Saints starting center Erik McCoy will miss time with a biceps injury, coach Kellen Moore said Monday.",
+      "publishedAt": "2026-11-09T20:30:33Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "0ad59ff27ad392b0",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/bills-vs-vikings-odds-first-touchdown-scorer-picks-nfl-predictions-monday-night-football",
+      "title": "Bills vs. Vikings odds: First touchdown scorer picks, NFL predictions for Monday Night Football",
+      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
+      "publishedAt": "2026-11-09T20:17:23Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "5ac680616d95de32",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-on-giving-up-defensive-play-calling-im-looking-at-everything",
+      "title": "Aaron Glenn on giving up defensive play-calling: I'm looking at everything",
+      "summary": "Jets head coach Aaron Glenn took over as the team's defensive play-caller this season and things got off to a pretty good start in September.",
+      "publishedAt": "2026-11-09T20:04:36Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "d4d8f8e520c5938b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-on-harrison-butker-i-havent-made-any-decisions-yet",
+      "title": "Andy Reid on Harrison Butker: I haven’t made any decisions yet",
+      "summary": "The Chiefs have a clear and obvious kicking problem.",
+      "publishedAt": "2026-11-09T19:59:18Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "56f6b9d952c08680",
       "source": "espn",
@@ -12,6 +80,29 @@
       "teamIds": [
         "8",
         "20"
+      ]
+    },
+    {
+      "id": "e2c960913bd80896",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/zac-taylor-bengals-are-good-where-we-are-expect-nothing-at-the-trade-deadline",
+      "title": "Zac Taylor: Bengals are good where we are, expect nothing at the trade deadline",
+      "summary": "Bengals head coach Zac Taylor says nothing is happening in Cincinnati at the NFL trade deadline.",
+      "publishedAt": "2026-11-09T19:43:40Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "f5f634d7385ef0b2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-vikings-game-carries-major-significance-for-both-teams",
+      "title": "Bills-Vikings game carries major significance for both teams",
+      "summary": "The Bills and Vikings have identical 0-4 records in the Super Bowl.",
+      "publishedAt": "2026-11-09T19:43:34Z",
+      "teamIds": [
+        "2",
+        "16"
       ]
     },
     {
@@ -353,12 +444,13 @@
       "id": "878e2ad1fc1e9214",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/browns-starting-qb-deshaun-watson-shedeur-sanders-texans-2026",
-      "title": "Browns plan to start Deshaun Watson vs. Texans despite Shedeur Sanders' breakout performance",
-      "summary": "The Browns will reportedly start Deshaun Watson against the Texans despite an encouraging performance from Shedeur Sanders",
+      "title": "Browns QB update: Todd Monken hasn't decided between Deshaun Watson and Shedeur Sanders for Week 10",
+      "summary": "Sanders' performance against the Saints might earn another chance to start Sunday vs. the Texans",
       "publishedAt": "2026-11-09T17:06:11Z",
       "teamIds": [
         "5",
-        "34"
+        "34",
+        "18"
       ]
     },
     {
@@ -568,8 +660,8 @@
       "id": "adf6fdaea4080ce1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Jessie Bates III, Andre Cisco, more",
-      "summary": "Does Jessie Bates III lift the Jaguars' defense? Wise move for the Lions to add Andre Cisco? Let's evaluate nine trades before the deadline.",
+      "title": "NFL trade deadline grades: Deals for Jessie Bates III, Davon Godchaux, more",
+      "summary": "Do Jessie Bates III and Davon Godchaux lift the Jaguars' defense? Wise move for Lions to add Andre Cisco? Let's evaluate 11 trades before the deadline.",
       "publishedAt": "2026-11-09T15:31:29Z",
       "teamIds": [
         "8",
@@ -580,7 +672,7 @@
       "id": "e02bf6ac5dc2b853",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jessie Bates III heads to Jacksonville",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Andre Cisco heads to Detroit",
       "summary": "Track every completed deal before the Nov. 10 deadline, including Chicago's blockbuster addition of Jeffery Simmons and the Colts' trades of Quenton Nelson and DeForest Buckner",
       "publishedAt": "2026-11-09T15:28:18Z",
       "teamIds": [
@@ -789,7 +881,7 @@
       "id": "2528cc71424ff164",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/jessie-bates-trade-jaguars-falcons-nfl-deadline-2026",
-      "title": "Jaguars acquire All-Pro safety Jessie Bates III from Falcons ahead of NFL trade deadline",
+      "title": "Jaguars-Falcons trade grades: Jacksonville acquires All-Pro safety Jessie Bates III to bolster defense",
       "summary": "Bates, who is in the final year of his contract, heads to Jacksonville in exchange for two future draft picks",
       "publishedAt": "2026-11-09T13:26:42Z",
       "teamIds": [
@@ -881,7 +973,7 @@
       "id": "029364e91e38d3af",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/vikings-vs-bills-prediction-odds-line-josh-allen-monday-night-football",
-      "title": "Vikings vs. Bills prediction, odds, line: Josh Allen faces NFL's top defense on Monday night",
+      "title": "Vikings vs. Bills prediction: Josh Allen faces NFL's top defense on Monday night",
       "summary": "Josh Allen and Buffalo's explosive offense face Brian Flores' dominant defense, while Carson Wentz replaces the injured Kyler Murray",
       "publishedAt": "2026-11-09T11:55:20Z",
       "teamIds": [
@@ -1421,12 +1513,11 @@
       "id": "960da18d86374d9f",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/josh-jacobs-breaks-finger-packers-win-over-patriots-trade-deadline",
-      "title": "Josh Jacobs breaks finger during Packers' win over Patriots, could Green Bay trade for a RB?",
+      "title": "Josh Jacobs breaks finger during Packers' win, will undergo surgery and could miss a maximum of three weeks",
       "summary": "Jacobs hopes to play through the issue, but grip struggles could force Green Bay to pursue running back help before Tuesday's trade deadline",
       "publishedAt": "2026-11-09T01:48:30Z",
       "teamIds": [
-        "9",
-        "17"
+        "9"
       ]
     },
     {
@@ -1583,92 +1674,6 @@
       "teamIds": [
         "9",
         "17"
-      ]
-    },
-    {
-      "id": "11699af9407c0a62",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50357331/fantasy-football-injuries-nfl-week-9-inactive-active",
-      "title": "Fantasy football Week 9 inactives: Who's in and who's out?",
-      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
-      "publishedAt": "2026-11-09T01:02:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "2847878314ea383f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50427757/game-highlights",
-      "title": "Green Bay Packers vs. New England Patriots: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-09T00:59:23Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "2b9c667b3f6eb11f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50427746/game-highlights",
-      "title": "Houston Texans vs. Los Angeles Chargers: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-09T00:59:16Z",
-      "teamIds": [
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "f4ef1ba767ebdb76",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-overreactions-joe-burrow-mvp-shedeur-sanders-deserves-to-remain-starter",
-      "title": "NFL Week 9 overreactions: Joe Burrow or Jordan Love for MVP? Shedeur Sanders deserves to remain starter?",
-      "summary": "Plus, speaking of MVPs, last year's is struggling",
-      "publishedAt": "2026-11-09T00:56:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "d3e83d1c211c260f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50409762/week-9-sunday-highlights-best-plays-touchdowns-2026",
-      "title": "Week 9 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for Sunday's top moments, TDs and analysis.",
-      "publishedAt": "2026-11-09T00:55:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "1591067083bd97e6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50422026/week-9-overreactions-2026-graziano-trade-deadline-bengals-cowboys",
-      "title": "Judging overreactions to NFL Week 9 -- and what they mean for the trade deadline",
-      "summary": "Is it time for the Bengals to make a push? Should the Giants aggressively go after a running back? Will the receiver market go wild? We're overreacting to Sunday's games.",
-      "publishedAt": "2026-11-09T00:55:26Z",
-      "teamIds": [
-        "4",
-        "19"
-      ]
-    },
-    {
-      "id": "ba5b416f49dd0acd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50427666/multi-drop-game-irks-colts-wr-downs-trade-deadline-nears",
-      "title": "Multidrop game in Colts' loss irks WR Josh Downs as trade deadline looms",
-      "summary": "Veteran receiver Josh Downs, who recently requested a trade away from the Indianapolis Colts, authored one of the most forgettable performances of his career Sunday, a multidrop effort at Lucas Oil Stadium in his team's 27-23 loss to the Dallas Cowboys.",
-      "publishedAt": "2026-11-09T00:49:04Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "7cd1b2849139e7fd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-dt-gracen-halton-has-season-ending-broken-ankle-kyle-shanahan-says",
-      "title": "49ers DT Gracen Halton has season-ending broken ankle, Kyle Shanahan says",
-      "summary": "49ers rookie defensive tackle Gracen Halton's fourth-quarter injury didn't look good at the time, and unfortunately, it was as bad as it looked.",
-      "publishedAt": "2026-11-09T00:48:49Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
