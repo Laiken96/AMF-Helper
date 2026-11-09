@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:47:19Z",
+  "updatedAt": "2026-11-09T07:47:23Z",
   "items": [
+    {
+      "id": "0ebbbe93639c5c1d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50430415/caleb-williams-4-interceptions-bears-win-buccaneers",
+      "title": "Caleb Williams unfazed by 4 interceptions as Bears pull out win vs. Bucs",
+      "summary": "Caleb Williams refused to let his four interceptions rattle his confidence as he put the Bears in position to beat the Buccaneers on a walk-off field goal.",
+      "publishedAt": "2026-11-09T07:43:28Z",
+      "teamIds": [
+        "3"
+      ]
+    },
     {
       "id": "018db507839e2747",
       "source": "espn",
@@ -1675,17 +1686,6 @@
       "teamIds": [
         "29",
         "7"
-      ]
-    },
-    {
-      "id": "2a8a8cf13b4aafb5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-take-13-10-lead-with-blake-corum-touchdown",
-      "title": "Rams take 13-10 lead with Blake Corum touchdown",
-      "summary": "The Rams have pulled in front.",
-      "publishedAt": "2026-11-08T19:53:49Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
