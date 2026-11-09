@@ -825,3 +825,9 @@ R128 Rangliste ausgeblendet, eigene Bilanz (D058)
     Schritt: Tipps, Bilanz Woche und Saison, Einstellungen, Onboarding ansehen.
     Erwartet: Keine Rangliste, kein Rang, keine Spielerwahl, keine Simulation, kein Rangliste melden. Kachel Deine Saison mit richtigen App Tipps und Trefferquote, eigene Wahl zählt mit.
     Status: bestanden lokal 2026-11-08 (148 Prüfungen, 3 Grössen, hell und dunkel), offen Nutzer am Gerät
+
+R129 KI Zweitmeinung blind (D059)
+    Vorbedingung: Spiel im 6 Stunden Fenster, Week 10.
+    Schritt: push.yml Meinungsschritt.
+    Erwartet: Prompt ohne Spread, Over/Under und Marktwahrscheinlichkeit, Meinung mit Quellen gespeichert, marketPickTeamId und marketProb weiter in der Datei für den Vergleich.
+    Status: bestanden lokal 2026-11-09 per Test, echt ab Week 10, Auswertung nach Week 13

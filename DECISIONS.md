@@ -415,3 +415,10 @@ Jeder Entscheid vier Zeilen. Neue Einträge unten anhängen, alte nie löschen. 
 - Entscheid: Entscheid des Nutzers. Das Melden der Rangliste per GitHub Issue ist nicht praktisch. Die App zeigt keine Rangliste mehr: keine Gruppentabelle, kein Saisonverlauf der Gruppe, keine Simulation, kein Abgleich Rangliste, keine Spielerwahl (die App gilt nur für den Hauptnutzer, Kürzel aus standings.me), kein Hinweis "Rangliste melden". Die Kachel "Ziel" zeigt die eigene Saison (richtige App Tipps, Trefferquote). Push "Bilanz bereit" ohne Aufforderung zur Ranglisten Meldung. Workflow standings.yml, Issue Formular, Label und die Dateien data/standings.json und standings-history.json bleiben bestehen, werden aber nicht mehr angezeigt (nur ausblenden). Ersetzt D032 im Umfang der Anzeige sowie D050 Spieler wählbar und Simulation
 - Begründung: Wunsch des Nutzers
 - Verworfen: Workflow und Daten löschen
+
+## D059 KI Zweitmeinung blind
+
+- Datum: 2026-11-09
+- Entscheid: Entscheid des Nutzers. Der Prompt der KI Zweitmeinung enthält keine Quote und keine Marktwahrscheinlichkeit mehr, und das Modell soll nicht nach Quoten oder Buchmacher Tipps suchen. Die Marktwerte werden weiter zur Meinung gespeichert, nur für den Vergleich. Der Schattenmodus (D040) beginnt für die blinde Messung neu mit Week 10 und läuft 4 Wochen bis Week 13, danach Entscheid mit Trefferquote, Brier Score und Fällen mit abweichendem Sieger
+- Begründung: In Week 9 übernahm das Modell in 14 von 14 Spielen den Favoriten des Marktes, die Prozente lagen meist 1 bis 5 Punkte daneben (Brier 0.133 gegen Markt 0.128). Mit Quote im Prompt kann die Zweitmeinung keinen eigenen Wert zeigen
+- Verworfen: Begründung jetzt schon im Spielblatt zeigen, Abschalten (Wahl des Nutzers)
