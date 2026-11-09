@@ -1,16 +1,152 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T17:47:19Z",
+  "updatedAt": "2026-11-09T18:47:25Z",
   "items": [
+    {
+      "id": "eb6b0cb156473d16",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-schedule-flex-giants-jaguars-steelers-eagles",
+      "title": "NFL Week 11 schedule flex: Giants-Jaguars moves to 4:25, Steelers-Eagles shifts to 1 p.m.",
+      "summary": "New York and Jacksonville will receive a larger Week 11 spotlight as the league swaps their start time with the intrastate matchup between Pittsburgh and Philadelphia",
+      "publishedAt": "2026-11-09T18:41:00Z",
+      "teamIds": [
+        "30",
+        "19",
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "2ec5caca4ede2e1b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-agree-to-acquire-s-andre-cisco-from-jets",
+      "title": "Lions agree to acquire S Andre Cisco from Jets",
+      "summary": "Detroit is bringing in some secondary help.",
+      "publishedAt": "2026-11-09T18:38:58Z",
+      "teamIds": [
+        "8",
+        "20"
+      ]
+    },
+    {
+      "id": "c1bbdf2dbd101992",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50392822/bills-vs-vikings-watch-monday-night-football-week-9",
+      "title": "Bills vs. Vikings: Where to watch 'Monday Night Football'",
+      "summary": "Here's what to know about the Week 9 matchup.",
+      "publishedAt": "2026-11-09T18:36:29Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "c0a0c7b659201158",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/seahawks-plan-to-start-drew-lock-in-week-10-despite-oblique-injury-sam-darnold-to-miss-another-game",
+      "title": "Seahawks plan to start Drew Lock in Week 10 despite oblique injury, Sam Darnold to miss another game",
+      "summary": "Lock will make his third start of the season as the Seattle quarterback group battles multiple injuries",
+      "publishedAt": "2026-11-09T18:30:04Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "bdc02413e6ce5f47",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-patrick-mahomes-day-to-day-with-elbow-injury",
+      "title": "Andy Reid: Patrick Mahomes day-to-day with elbow injury",
+      "summary": "Reid said he had seen Mahomes on Monday and the QB was in \"good spirits.\"",
+      "publishedAt": "2026-11-09T18:26:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "fa031aa02d9c560d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-agree-to-trade-dt-davon-godchaux-to-jaguars",
+      "title": "Report: Saints agree to trade DT Davon Godchaux to Jaguars",
+      "summary": "The Jaguars weren't done trading when they swung a deal to acquire safety Jessie Bates on Monday morning.",
+      "publishedAt": "2026-11-09T18:25:20Z",
+      "teamIds": [
+        "30",
+        "18"
+      ]
+    },
+    {
+      "id": "f75b27e52221b961",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50434265/watch-2026-nfl-trade-deadline-coverage",
+      "title": "Where to watch 2026 NFL trade deadline coverage",
+      "summary": "The NFL trade deadline is Tuesday.",
+      "publishedAt": "2026-11-09T18:23:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "785f781195f93bac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-moves-jaguars-giants-game-in-week-11-to-a-4-25-p-m-et-kickoff",
+      "title": "NFL moves Jaguars-Giants game in Week 11 to a 4:25 p.m. ET kickoff",
+      "summary": "The NFL announced a couple of changes to kickoff times for Week 11 of the 2026 season.",
+      "publishedAt": "2026-11-09T18:11:26Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "dfbde595f7306b1f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50434130/seahawks-start-drew-lock-vs-raiders-mike-macdonald-says",
+      "title": "Seahawks to start QB Drew Lock vs. Raiders, giving Sam Darnold more time to heal",
+      "summary": "The Seahawks plan to start quarterback Drew Lock on Sunday against the Raiders, giving Sam Darnold more time to recover from his injuries.",
+      "publishedAt": "2026-11-09T18:04:13Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "0a5417ce3ec92a2e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-brady-there-was-some-deli-meat-given-out-by-drake-maye-today",
+      "title": "Tom Brady: \"There was some deli meat given out by Drake Maye today\"",
+      "summary": "The quarterback with a statue outside the stadium returned for the first time to call a game in his capacity as a broadcaster for Fox.",
+      "publishedAt": "2026-11-09T18:03:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "2dcc33b1897efb45",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-ruled-out-for-week-10-drew-lock-in-line-to-start",
+      "title": "Sam Darnold ruled out for Week 10, Drew Lock in line to start",
+      "summary": "Sam Darnold will be out for at least another week, but the Seahawks' regular backup quarterback should be able to play in the Week 10 matchup against the Raiders.",
+      "publishedAt": "2026-11-09T17:58:37Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
     {
       "id": "bace52391cfd1a69",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50433758/giants-feel-fairly-good-qb-mccarthy-playing-thursday",
-      "title": "Giants 'feel fairly good' about QB J.J. McCarthy (hip) playing Thursday",
+      "title": "Harbaugh: Giants 'feel fairly good' about McCarthy (hip) playing vs. Commanders",
       "summary": "Giants coach John Harbaugh says he feels \"fairly good\" about quarterback J.J. McCarthy's availability this week after he suffered a hip injury in Sunday's win against the Eagles.",
       "publishedAt": "2026-11-09T17:46:29Z",
       "teamIds": [
         "19"
+      ]
+    },
+    {
+      "id": "0d37ac187a359ee9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cam-skattebo-injury-update-giants-rb-thursday-night-commanders",
+      "title": "Cam Skattebo injury update: Giants RB 'full go' for Thursday night vs. Commanders",
+      "summary": "Cam Skattebo is set to return from a hamstring injury as the NFC East-leading Giants prepare for a rematch with the Commanders",
+      "publishedAt": "2026-11-09T17:38:15Z",
+      "teamIds": [
+        "19",
+        "28"
       ]
     },
     {
@@ -51,7 +187,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50433312/las-vegas-raiders-2026-trade-deadline-approach",
       "title": "Why the Raiders are better off standing pat at the NFL trade deadline",
-      "summary": "The NFL trade deadline is on Tuesday at 4 p.m. ET. Has Kubiak, Raiders given hints that they might not make moves?",
+      "summary": "The NFL trade deadline is on Tuesday at 4 p.m. ET. Have Kubiak, Raiders given hints that they might not make moves?",
       "publishedAt": "2026-11-09T17:17:18Z",
       "teamIds": [
         "13"
@@ -525,12 +661,13 @@
       "id": "858195562ad626d6",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50432277/sources-jaguars-get-jessie-bates-iii-trade-falcons",
-      "title": "Jaguars bolster secondary, land Jessie Bates III in trade with Falcons",
-      "summary": "The Jaguars bolstered their secondary one day before the NFL trade deadline, acquiring veteran safety Jessie Bates III from the Falcons.",
+      "title": "Jaguars bolster defense, trade for safety Jessie Bates, DT Davon Godchaux",
+      "summary": "The Jaguars bolstered their defense, acquiring safety Jessie Bates III from the Falcons and defensive tackle Davon Godchaux from the Saints.",
       "publishedAt": "2026-11-09T13:36:38Z",
       "teamIds": [
         "1",
-        "30"
+        "30",
+        "18"
       ]
     },
     {
@@ -548,10 +685,12 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Jessie Bates III, Jacoby Brissett on the move",
-      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Jessie Bates III to Jacksonville.",
+      "title": "2026 NFL trade deadline updates: Andre Cisco, Davon Godchaux on the move",
+      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Andre Cisco to the Lions.",
       "publishedAt": "2026-11-09T13:33:46Z",
-      "teamIds": []
+      "teamIds": [
+        "8"
+      ]
     },
     {
       "id": "2528cc71424ff164",
@@ -1387,6 +1526,15 @@
       ]
     },
     {
+      "id": "f4ef1ba767ebdb76",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-overreactions-joe-burrow-mvp-shedeur-sanders-deserves-to-remain-starter",
+      "title": "NFL Week 9 overreactions: Joe Burrow or Jordan Love for MVP? Shedeur Sanders deserves to remain starter?",
+      "summary": "Plus, speaking of MVPs, last year's is struggling",
+      "publishedAt": "2026-11-09T00:56:38Z",
+      "teamIds": []
+    },
+    {
       "id": "d3e83d1c211c260f",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50409762/week-9-sunday-highlights-best-plays-touchdowns-2026",
@@ -1518,151 +1666,6 @@
       "publishedAt": "2026-11-09T00:41:55Z",
       "teamIds": [
         "21"
-      ]
-    },
-    {
-      "id": "79b25fef9a5ae586",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/buccaneers-vs-bears-prediction-odds-betting-preview-start-time-sunday-night-football-picks-best-bets",
-      "title": "Buccaneers vs. Bears prediction, odds, betting preview, start time: Sunday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Buccaneers vs. Bears on Sunday Night Football",
-      "publishedAt": "2026-11-09T00:40:45Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "df03e9235eada7d6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873048",
-      "title": "AJ Barner has a TD catch and runs for a score in Seahawks' 17-3 win over Cardinals",
-      "summary": "AJ Barner's breakout came just when the Seahawks needed it.",
-      "publishedAt": "2026-11-09T00:39:35Z",
-      "teamIds": [
-        "22",
-        "26"
-      ]
-    },
-    {
-      "id": "d4e821152e31c99c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50427474/game-highlights",
-      "title": "Arizona Cardinals vs. Seattle Seahawks: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-09T00:37:40Z",
-      "teamIds": [
-        "22",
-        "26"
-      ]
-    },
-    {
-      "id": "a606fec90c97b6ec",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/colts-jonathan-taylor-says-goodbye-indianapolis-nfl-trade-deadline",
-      "title": "Jonathan Taylor says goodbye to Indianapolis as trade deadline nears: 'Just know it was a pleasure'",
-      "summary": "Taylor expressed gratitude to the city and fans following Sunday's loss as Indianapolis faces a Tuesday deadline decision",
-      "publishedAt": "2026-11-09T00:36:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "ccfa254f8ee4809f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50427266/chiefs-patrick-mahomes-brushes-injury-scare",
-      "title": "Chiefs' Patrick Mahomes brushes off injury scare during rout of Jets",
-      "summary": "Chiefs quarterback Patrick Mahomes was able to play through pain in his right arm after absorbing a massive hit during Sunday's 35-12 victory over the Jets.",
-      "publishedAt": "2026-11-09T00:33:12Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "c1a387bebbcfc19c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-blow-out-chargers-44-22-as-c-j-stroud-throws-five-tds",
-      "title": "Texans blow out Chargers 44-22 as C.J. Stroud throws five TDs",
-      "summary": "The Texans might not be back, considering it was the Chargers they blew out, but they can't be counted out just yet either.",
-      "publishedAt": "2026-11-09T00:32:34Z",
-      "teamIds": [
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "943edfc11b4fc7c1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50393510/nfl-week-9-fashionable-arrivals",
-      "title": "NFL Week 9 arrivals: Caleb Williams rocks Supreme mascot zip-up before 'SNF'",
-      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-09T00:31:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "ffc0fa5b21df5c75",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873047",
-      "title": "49ers capitalize on 5 2nd-half takeaways to cruise past Raiders 38-17",
-      "summary": "Jaden Dugger set the tone for the second half when he returned an interception from Kirk Cousins on the first play for a touchdown.",
-      "publishedAt": "2026-11-09T00:29:36Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "4b6db2e591d212ce",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50427403/49ers-move-7-1-38-17-win-raiders",
-      "title": "49ers move to 7-1 after 38-17 win over the Raiders",
-      "summary": null,
-      "publishedAt": "2026-11-09T00:27:24Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "b3f5e7ed482addd8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50427153/dak-prescott-cowboys-make-playoffs-making-trade",
-      "title": "Dak Prescott: Cowboys can make playoffs without making trade",
-      "summary": "Dallas quarterback Dak Prescott said the Cowboys have enough talent to be a playoff team without a trade deadline addition.",
-      "publishedAt": "2026-11-09T00:27:12Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "6c34a3165e07de7b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/39286200/best-nfl-coaches-all-ranked-wins",
-      "title": "Who are the winningest NFL coaches of all time?",
-      "summary": "From Belichick to Reid, there are many iconic coaches in NFL history. Who has the best career record? Check out the stat breakdown now.",
-      "publishedAt": "2026-11-09T00:26:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "a0576930b9611e95",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-beat-raiders-38-17-improve-to-7-1-in-2026",
-      "title": "49ers beat Raiders 38-17, improve to 7-1 in 2026",
-      "summary": "San Francisco picked up five takeaways to beat Las Vegas in Week 9.",
-      "publishedAt": "2026-11-09T00:23:07Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "f39cdcc683237b53",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-lock-and-the-seahawks-earn-an-easy-win-over-the-cardinals",
-      "title": "Drew Lock and the Seahawks earn an easy win over the Cardinals",
-      "summary": "As he has been all season, Seahawks quarterback Drew Lock was a steady hand running the offense.",
-      "publishedAt": "2026-11-09T00:22:42Z",
-      "teamIds": [
-        "22",
-        "26"
       ]
     }
   ]

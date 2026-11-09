@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-04T05:47:17Z",
+  "fetchedAt": "2026-11-09T18:47:18Z",
   "source": "espn",
   "games": [
     {
@@ -71,28 +71,6 @@
       },
       "homeRest": 7,
       "awayRest": 6
-    },
-    {
-      "id": "401873069",
-      "season": 2026,
-      "seasonType": 2,
-      "week": 11,
-      "kickoffUtc": "2026-11-22T18:00:00Z",
-      "homeId": "19",
-      "awayId": "30",
-      "status": "scheduled",
-      "statusDetail": "11/22 - 1:00 PM EST",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "MetLife Stadium",
-      "neutralSite": false,
-      "venueInfo": {
-        "name": "MetLife Stadium",
-        "city": "East Rutherford",
-        "country": "USA"
-      },
-      "homeRest": 10,
-      "awayRest": 7
     },
     {
       "id": "401873070",
@@ -183,6 +161,28 @@
       "awayRest": 7
     },
     {
+      "id": "401873076",
+      "season": 2026,
+      "seasonType": 2,
+      "week": 11,
+      "kickoffUtc": "2026-11-22T18:00:00Z",
+      "homeId": "21",
+      "awayId": "23",
+      "status": "scheduled",
+      "statusDetail": "11/22 - 1:00 PM EST",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Lincoln Financial Field",
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA"
+      },
+      "homeRest": 14,
+      "awayRest": 7
+    },
+    {
       "id": "401873074",
       "season": 2026,
       "seasonType": 2,
@@ -205,6 +205,28 @@
       "awayRest": 7
     },
     {
+      "id": "401873069",
+      "season": 2026,
+      "seasonType": 2,
+      "week": 11,
+      "kickoffUtc": "2026-11-22T21:25:00Z",
+      "homeId": "19",
+      "awayId": "30",
+      "status": "scheduled",
+      "statusDetail": "11/22 - 4:25 PM EST",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "MetLife Stadium",
+      "neutralSite": false,
+      "venueInfo": {
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA"
+      },
+      "homeRest": 10,
+      "awayRest": 7
+    },
+    {
       "id": "401873075",
       "season": 2026,
       "seasonType": 2,
@@ -221,28 +243,6 @@
       "venueInfo": {
         "name": "Empower Field at Mile High",
         "city": "Denver",
-        "country": "USA"
-      },
-      "homeRest": 14,
-      "awayRest": 7
-    },
-    {
-      "id": "401873076",
-      "season": 2026,
-      "seasonType": 2,
-      "week": 11,
-      "kickoffUtc": "2026-11-22T21:25:00Z",
-      "homeId": "21",
-      "awayId": "23",
-      "status": "scheduled",
-      "statusDetail": "11/22 - 4:25 PM EST",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Lincoln Financial Field",
-      "neutralSite": false,
-      "venueInfo": {
-        "name": "Lincoln Financial Field",
-        "city": "Philadelphia",
         "country": "USA"
       },
       "homeRest": 14,
