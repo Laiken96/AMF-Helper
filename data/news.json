@@ -1,7 +1,100 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T14:47:27Z",
+  "updatedAt": "2026-11-09T15:47:23Z",
   "items": [
+    {
+      "id": "ebe72dfa12b18f83",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50432490/jaguars-trade-jessie-bates-iii-falcons-draft",
+      "title": "How does Jessie Bates III help the Jaguars defense? Are Falcons still contending?",
+      "summary": "The Falcons decided it was wiser to get something for Bates now rather than letting him walk in free agency.",
+      "publishedAt": "2026-11-09T15:41:46Z",
+      "teamIds": [
+        "1",
+        "30"
+      ]
+    },
+    {
+      "id": "05a54609a02d0421",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50433187/caleb-williams-performance-vs-bucs-was-bad-look",
+      "title": "Stephen A.: Caleb Williams' performance vs. the Bucs was a 'bad look'",
+      "summary": null,
+      "publishedAt": "2026-11-09T15:41:03Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "adf6fdaea4080ce1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+      "title": "NFL trade deadline grades: Deals for Jessie Bates III, Jacoby Brissett, more",
+      "summary": "Does Jessie Bates III lift the Jaguars' defense? Wise move for the Ravens to add Jacoby Brissett? Let's evaluate nine trades before the deadline.",
+      "publishedAt": "2026-11-09T15:31:29Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "e02bf6ac5dc2b853",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jessie Bates III heads to Jacksonville",
+      "summary": "Track every completed deal before the Nov. 10 deadline, including Chicago's blockbuster addition of Jeffery Simmons and the Colts' trades of Quenton Nelson and DeForest Buckner",
+      "publishedAt": "2026-11-09T15:28:18Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "ac288c8aaac57cd3",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bills-vs-vikings-odds-picks-player-props-experts-best-bets-for-monday-night-football-in-nfl-week-9",
+      "title": "Bills vs. Vikings odds, picks, player props: Expert's best bets for Monday Night Football in NFL Week 9",
+      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 9",
+      "publishedAt": "2026-11-09T15:24:23Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "61551d11d7e18536",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lawsuit-is-filed-over-shirtless-bill-belichick-video",
+      "title": "Lawsuit is filed over shirtless Bill Belichick video",
+      "summary": "On Saturday, former Patriots coach Bill Belichick returned to New England, for a game between North Carolina and Connecticut.",
+      "publishedAt": "2026-11-09T15:18:01Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "4cf6680a2d896f36",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-has-an-nfl-high-6-game-winning-drives-this-season-and-a-record-16-through-3-seasons",
+      "title": "Bo Nix has an NFL-high 6 game-winning drives this season, and a record 16 through 3 seasons",
+      "summary": "Denver was losing at the start of the fourth quarter in Carolina on Sunday, but that doesn't much matter to Broncos quarterback Bo Nix.",
+      "publishedAt": "2026-11-09T15:12:26Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "9a801fbf0c154509",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jessie-bates-iii-join-exclusive-club-after-trade-falcons-jaguars",
+      "title": "Jessie Bates III in line to join exclusive club after trade from Falcons to Jaguars",
+      "summary": "Bates will take his game to new heights in more ways than one in Jacksonville",
+      "publishedAt": "2026-11-09T14:53:53Z",
+      "teamIds": [
+        "1",
+        "30"
+      ]
+    },
     {
       "id": "63806aa15207c90c",
       "source": "pft",
@@ -18,7 +111,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50432695/jets-pass-rusher-mcdonald-iv-requests-trade",
       "title": "Sources: Jets DE Will McDonald IV, frustrated by lack of use, requests trade",
-      "summary": "Jets pass rusher Will McDonald IV, frustrated by a lack of playing time, has requested a trade, sources told NFL Network's Ian Rapoport.",
+      "summary": "Jets DE Will McDonald IV, frustrated by lack of playing time, has requested a trade, sources told NFL Network's Ian Rapoport. Jets say they have no plans to trade him.",
       "publishedAt": "2026-11-09T14:36:49Z",
       "teamIds": [
         "20"
@@ -147,7 +240,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
       "title": "2026 NFL trade deadline updates: Jessie Bates III, Jacoby Brissett on the move",
-      "summary": "The NFL trade deadline is Tuesday, and deals are flying. We're tracking all moves, including Jessie Bates III to Jacksonville.",
+      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Jessie Bates III to Jacksonville.",
       "publishedAt": "2026-11-09T13:33:46Z",
       "teamIds": []
     },
@@ -1575,94 +1668,6 @@
         "4",
         "9",
         "17"
-      ]
-    },
-    {
-      "id": "cd13d697af5da3a1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50425853/sources-rams-puka-nacua-undergo-tests-knee",
-      "title": "Sources: Puka Nacua set for tests on late-game knee injury; Rams believe ACL OK",
-      "summary": "The Rams do not believe Puka Nacua suffered a torn ACL, but the imaging Monday will tell more, sources said.",
-      "publishedAt": "2026-11-08T22:44:59Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "f5309b7b64cc1dac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-dominating-raiders-lead-21-10-at-halftime",
-      "title": "49ers dominating Raiders, lead 21-10 at halftime",
-      "summary": "The 49ers offense has been tough to stop all year and that has remained the case in Sunday’s game against the Raiders.",
-      "publishedAt": "2026-11-08T22:41:25Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "634b5732b504a3bf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-suffered-knee-injury-on-final-offensive-play-of-game",
-      "title": "Puka Nacua suffered knee injury on final offensive play of game",
-      "summary": "MRI will reveal extent of damage; Rams reportedly don't believe it's an ACL tear.",
-      "publishedAt": "2026-11-08T22:40:09Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "65a072689758eb8e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50380155/countering-peanut-punch-james-cook-skattebo",
-      "title": "As the 'Peanut Punch' takes over NFL, how do teams counter it?",
-      "summary": "After Charles Tillman popularized the punch 14 years ago, it has really taken off this season.",
-      "publishedAt": "2026-11-08T22:38:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "bcac12c12b50099c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50425874/what-kind-fantasy-qb-patrick-mahomes-right-now",
-      "title": "What kind of fantasy QB is Patrick Mahomes right now?",
-      "summary": null,
-      "publishedAt": "2026-11-08T22:35:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "08c9437068603970",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-to-get-more-tests-on-right-elbow-after-sundays-injury",
-      "title": "Patrick Mahomes to get more tests on right elbow after Sunday's injury",
-      "summary": "Chiefs quarterback Patrick Mahomes didn't miss any offensive snaps until garbage time in Sunday's 35-12 win over the Jets, but it looked like he might have suffered a serious injury late in the first half.",
-      "publishedAt": "2026-11-08T22:23:10Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "578f855e3cd5939c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873040",
-      "title": "Javonte Williams' late TD run helps Cowboys avoid another 4th-quarter collapse and beat Colts 27-23",
-      "summary": "With the Dallas Cowboys trailing by three points and on the verge of yet another fourth-quarter collapse, Dak Prescott needed 29 seconds to bail them out.",
-      "publishedAt": "2026-11-08T22:21:36Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "1bd92b7e00207197",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50425557/cleveland-browns-vs-new-orleans-saints-game-highlights",
-      "title": "Cleveland Browns vs. New Orleans Saints Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-08T22:17:53Z",
-      "teamIds": [
-        "5",
-        "18"
       ]
     }
   ]
