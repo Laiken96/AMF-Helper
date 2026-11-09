@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-09T18:47:22Z",
+    "takenAt": "2026-11-09T21:47:18Z",
     "games": [
       {
         "gameId": "401873052",
@@ -80,17 +80,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4432722",
-            "name": "Athan Kaliakmanis",
-            "pos": "QB",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -258,17 +247,6 @@
             "status": null
           },
           {
-            "athleteId": "4428993",
-            "name": "Haynes King",
-            "pos": "QB",
-            "teamId": "29",
-            "teamAbbr": "CAR",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4685472",
             "name": "Tetairoa McMillan",
             "pos": "WR",
@@ -305,17 +283,6 @@
             "status": null
           },
           {
-            "athleteId": "4361259",
-            "name": "Zach Wilson",
-            "pos": "QB",
-            "teamId": "18",
-            "teamAbbr": "NO",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4361370",
             "name": "Chris Olave",
             "pos": "WR",
@@ -341,17 +308,6 @@
             "roles": [
               "qb",
               "passing"
-            ],
-            "status": "Out"
-          },
-          {
-            "athleteId": "4431325",
-            "name": "Taylen Green",
-            "pos": "QB",
-            "teamId": "5",
-            "teamAbbr": "CLE",
-            "roles": [
-              "qb"
             ],
             "status": "Out"
           },
@@ -492,17 +448,6 @@
         "kickoffUtc": "2026-11-15T18:00:00Z",
         "players": [
           {
-            "athleteId": "14012",
-            "name": "Andy Dalton",
-            "pos": "QB",
-            "teamId": "1",
-            "teamAbbr": "ATL",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4360423",
             "name": "Michael Penix Jr.",
             "pos": "QB",
@@ -537,17 +482,6 @@
             "status": null
           },
           {
-            "athleteId": "5344782",
-            "name": "Jack Strand",
-            "pos": "QB",
-            "teamId": "1",
-            "teamAbbr": "ATL",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "15847",
             "name": "Travis Kelce",
             "pos": "TE",
@@ -580,17 +514,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4567747",
-            "name": "Garrett Nussmeier",
-            "pos": "QB",
-            "teamId": "12",
-            "teamAbbr": "KC",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -620,17 +543,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4683423",
-            "name": "Riley Leonard",
-            "pos": "QB",
-            "teamId": "11",
-            "teamAbbr": "IND",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4688813",
@@ -767,7 +679,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4361307",
@@ -824,17 +736,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4685522",
-            "name": "Ty Simpson",
-            "pos": "QB",
-            "teamId": "14",
-            "teamAbbr": "LAR",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -853,17 +754,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4260394",
-            "name": "Aidan O'Connell",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4432665",
@@ -897,18 +787,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
-          },
-          {
-            "athleteId": "3924327",
-            "name": "Drew Lock",
-            "pos": "QB",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4430878",
@@ -1005,17 +884,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4430431",
-            "name": "Kurtis Rourke",
-            "pos": "QB",
-            "teamId": "25",
-            "teamAbbr": "SF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -1121,17 +989,6 @@
             "status": "Injured Reserve"
           },
           {
-            "athleteId": "4428512",
-            "name": "Kedon Slovis",
-            "pos": "QB",
-            "teamId": "33",
-            "teamAbbr": "BAL",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4429615",
             "name": "Zay Flowers",
             "pos": "WR",
@@ -1152,7 +1009,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4612826",

@@ -1,7 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:47:36Z",
+  "updatedAt": "2026-11-09T21:47:20Z",
   "items": [
+    {
+      "id": "57bf0dc57d9bab3c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435349/packers-rb-josh-jacobs-needs-surgery-fractured-finger",
+      "title": "Matt LaFleur: Packers' Josh Jacobs needs surgery on finger; IR not ruled out",
+      "summary": "Packers running back Josh Jacobs needs surgery on the fractured ring finger on his right hand, coach Matt LaFleur said.",
+      "publishedAt": "2026-11-09T21:39:47Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "f63eb87bb9c6fd3e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-to-have-surgery-on-fractured-finger-out-indefinitely",
+      "title": "Josh Jacobs to have surgery on fractured finger, out indefinitely",
+      "summary": "Packers running back Josh Jacobs is set to miss more time after leaving Sunday's win over the Patriots in the first quarter.",
+      "publishedAt": "2026-11-09T21:24:32Z",
+      "teamIds": [
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "176e0a63371550af",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-not-ready-to-name-starter-at-qb-for-week-10",
+      "title": "Todd Monken not ready to name starter at QB for Week 10",
+      "summary": "Shedeur Sanders has given Todd Monken something to think about.",
+      "publishedAt": "2026-11-09T21:21:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "06da714c22f153d0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-does-not-address-lamar-jacksons-injury-says-hell-keep-conversations-with-qb-private",
+      "title": "Jesse Minter does not address Lamar Jackson's injury, says he'll keep conversations with QB private",
+      "summary": "Over the weekend, reporting emerged that Ravens quarterback Lamar Jackson told teammates that he intends to return to play in 2026.",
+      "publishedAt": "2026-11-09T20:51:09Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "b95be3f9c142cdbd",
       "source": "espn",
@@ -74,8 +117,8 @@
       "id": "56f6b9d952c08680",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50434559/sources-jets-trade-safety-andre-cisco-lions",
-      "title": "Sources: Jets trade safety Andre Cisco to injury-plagued Lions",
-      "summary": "The Lions added to their injury-plagued secondary Monday, acquiring safety Andre Cisco in a trade with the Jets, sources told ESPN.",
+      "title": "Jets trade safety Andre Cisco to injury-plagued Lions for draft pick",
+      "summary": "The Lions added to their injury-plagued secondary Monday, acquiring safety Andre Cisco in a trade with the Jets.",
       "publishedAt": "2026-11-09T19:46:30Z",
       "teamIds": [
         "8",
@@ -1161,6 +1204,15 @@
       ]
     },
     {
+      "id": "d3e83d1c211c260f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50409762/week-9-sunday-highlights-best-plays-touchdowns-2026",
+      "title": "Week 9 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for Sunday's top moments, TDs and analysis.",
+      "publishedAt": "2026-11-09T05:55:59Z",
+      "teamIds": []
+    },
+    {
       "id": "018db507839e2747",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50429795/titans-wr-ridley-involved-incident-nashville-airport",
@@ -1617,63 +1669,6 @@
       "publishedAt": "2026-11-09T01:20:16Z",
       "teamIds": [
         "7"
-      ]
-    },
-    {
-      "id": "ba5a46d3f344e9cb",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50426934/can-isaiah-likely-remain-elite-fantasy-te-jj-mccarthy-qb",
-      "title": "Can Isaiah Likely remain an elite fantasy TE with J.J. McCarthy at QB?",
-      "summary": null,
-      "publishedAt": "2026-11-09T01:17:52Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "c39d21612d25af9c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-has-a-possible-fracture-in-his-left-middle-finger",
-      "title": "Justin Herbert has a possible fracture in his left middle finger",
-      "summary": "The Chargers quarterback was injured in the fourth quarter of the 44-22 loss to the Texans.",
-      "publishedAt": "2026-11-09T01:16:56Z",
-      "teamIds": [
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "7b9f990905d28820",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50426396/jets-frustrated-geno-smith-membou",
-      "title": "Jets begin to unravel on and off field as losing streak hits 4 games",
-      "summary": "New York players were seen slamming helmets during their 35-12 loss in Kansas City, where they failed to score a TD.",
-      "publishedAt": "2026-11-09T01:13:16Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "dcc237ae1ef8ec47",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-lock-has-an-oblique-injury-up-in-the-air-for-week-10",
-      "title": "Drew Lock has an oblique injury, \"up in the air\" for Week 10",
-      "summary": "The Seahawks have another injury issue at quarterback.",
-      "publishedAt": "2026-11-09T01:09:58Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "8181ae0204541953",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873049",
-      "title": "Jordan Love accounts for 4 touchdowns, Packers force 4 turnovers in 45-27 win over Patriots",
-      "summary": "If Jordan Love has played a better game than he did on Sunday, he can't remember it.",
-      "publishedAt": "2026-11-09T01:05:36Z",
-      "teamIds": [
-        "9",
-        "17"
       ]
     }
   ]
