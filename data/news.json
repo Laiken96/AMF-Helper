@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T00:47:20Z",
+  "updatedAt": "2026-11-09T00:59:33Z",
   "items": [
+    {
+      "id": "1591067083bd97e6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50422026/week-9-overreactions-2026-graziano-trade-deadline-bengals-cowboys",
+      "title": "Judging overreactions to NFL Week 9 -- and what they mean for the trade deadline",
+      "summary": "Is it time for the Bengals to make a push? Should the Giants aggressively go after a RB? Will the WR market go wild? We're overreacting to Sunday's games.",
+      "publishedAt": "2026-11-09T00:55:26Z",
+      "teamIds": [
+        "4",
+        "19"
+      ]
+    },
+    {
+      "id": "ba5b416f49dd0acd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50427666/multi-drop-game-irks-colts-wr-downs-trade-deadline-nears",
+      "title": "Multi-drop game in Colts' loss irks WR Josh Downs as trade deadline looms",
+      "summary": null,
+      "publishedAt": "2026-11-09T00:49:04Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "7cd1b2849139e7fd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-dt-gracen-halton-has-season-ending-broken-ankle-kyle-shanahan-says",
+      "title": "49ers DT Gracen Halton has season-ending broken ankle, Kyle Shanahan says",
+      "summary": "49ers rookie defensive tackle Gracen Halton's fourth-quarter injury didn't look good at the time, and unfortunately, it was as bad as it looked.",
+      "publishedAt": "2026-11-09T00:48:49Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "dfb50bb1d2df23ba",
       "source": "espn",
@@ -355,7 +390,7 @@
       "id": "f4ef1ba767ebdb76",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-9-overreactions-joe-burrow-mvp-shedeur-sanders-deserves-to-remain-starter",
-      "title": "NFL Week 9 overreactions: Joe Burrow for MVP? Shedeur Sanders deserves to remain starter?",
+      "title": "NFL Week 9 overreactions: Joe Burrow or Jordan Love for MVP? Shedeur Sanders deserves to remain starter?",
       "summary": "Plus, speaking of MVPs, last year's is struggling",
       "publishedAt": "2026-11-08T23:38:24Z",
       "teamIds": []
@@ -994,6 +1029,18 @@
       ]
     },
     {
+      "id": "7445038d5a5f23ce",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/packers-vs-patriots-odds-picks-prediction-spread-line-start-time-nfl-week-9-betting-preview-best-bets",
+      "title": "Packers vs. Patriots odds, picks, prediction, spread, line: Start time, NFL Week 9 betting preview, best bets",
+      "summary": "Here's everything bettors need to know about wagering on Packers vs. Patriots in NFL Week 9",
+      "publishedAt": "2026-11-08T20:00:49Z",
+      "teamIds": [
+        "9",
+        "17"
+      ]
+    },
+    {
       "id": "ea1bc91e49207179",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-stretch-lead-to-21-12-on-travis-kelce-td-on-fourth-down",
@@ -1350,6 +1397,15 @@
       "teamIds": []
     },
     {
+      "id": "ab7794b5b3d3995c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-betmgm-draftkings",
+      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, BetMGM, DraftKings",
+      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-08T17:52:17Z",
+      "teamIds": []
+    },
+    {
       "id": "b942a95da1cf3ff2",
       "source": "espn",
       "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
@@ -1632,60 +1688,6 @@
       "publishedAt": "2026-11-08T16:06:30Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "85ae881703d01ee2",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50415617/how-ben-johnson-became-bears-head-coach",
-      "title": "How Ben Johnson became the Bears head coach",
-      "summary": null,
-      "publishedAt": "2026-11-08T16:05:34Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "1f833b1ffee84b8f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-return-to-bay-area-and-the-jail-at-levis-stadium-could-be-busy",
-      "title": "Raiders return to Bay Area — and the jail at Levi's Stadium could be busy",
-      "summary": "The Raiders left Oakland, for the second time, after the 2019 season.",
-      "publishedAt": "2026-11-08T16:04:08Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "bdfead706e855196",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-9-2026-expert-ats-picks-predictions-best-bets-player-props-november-8",
-      "title": "NFL picks against the spread, Week 9 2026: Expert ATS picks, predictions, best bets, player props for Nov. 8",
-      "summary": "The SportsLine experts have locked in their top Week 9 picks from this week's NFL schedule, see who they are backing and fading here",
-      "publishedAt": "2026-11-08T15:46:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "f3cc9d6bd8ed1d0f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-explodes-for-142-receiving-yards-in-first-25-minutes-of-play-in-madrid",
-      "title": "Ja'Marr Chase explodes for 142 receiving yards in first 25 minutes of play in Madrid",
-      "summary": "The Bengals' star wide receiver is having the best first half of his career.",
-      "publishedAt": "2026-11-08T15:42:04Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "dbd8422ece8b2204",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/packers-vs-patriots-odds-picks-prediction-spread-line-nfl-week-9-start-time-betting-preview-best-bets",
-      "title": "Packers vs. Patriots odds, picks, prediction, spread, line: NFL Week 9 start time, betting preview, best bets",
-      "summary": "Here's everything bettors need to know about wagering on Packers vs. Patriots in NFL Week 9",
-      "publishedAt": "2026-11-08T15:40:15Z",
-      "teamIds": [
-        "9",
-        "17"
       ]
     }
   ]
