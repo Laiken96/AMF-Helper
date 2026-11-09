@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T21:47:19Z",
+  "updatedAt": "2026-11-09T00:47:20Z",
   "complete": false,
   "games": [
     {
@@ -100,9 +100,9 @@
       "gameId": "401873046",
       "pickTeamId": "34",
       "favoriteTeamId": "34",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "34",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -110,9 +110,9 @@
       "gameId": "401873047",
       "pickTeamId": "25",
       "favoriteTeamId": "25",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "25",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -120,9 +120,9 @@
       "gameId": "401873048",
       "pickTeamId": "26",
       "favoriteTeamId": "26",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "26",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -130,9 +130,9 @@
       "gameId": "401873049",
       "pickTeamId": "17",
       "favoriteTeamId": "17",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "9",
+      "final": true,
+      "correct": false,
       "deviation": false,
       "deviationEffect": null
     },
@@ -157,7 +157,7 @@
       "deviationEffect": null
     }
   ],
-  "points": 9,
+  "points": 12,
   "tipped": 15,
   "deviationNet": 0,
   "tiebreakers": [
@@ -182,13 +182,13 @@
   ],
   "opinionCompare": {
     "opinions": 14,
-    "scored": 9,
-    "marketHits": 9,
-    "aiHits": 9,
-    "marketHitRate": 1,
-    "aiHitRate": 1,
-    "marketBrier": 0.1283,
-    "aiBrier": 0.1329,
+    "scored": 13,
+    "marketHits": 12,
+    "aiHits": 12,
+    "marketHitRate": 0.9231,
+    "aiHitRate": 0.9231,
+    "marketBrier": 0.1342,
+    "aiBrier": 0.143,
     "disagreements": []
   }
 }
