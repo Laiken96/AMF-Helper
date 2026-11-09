@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-08T19:20:44Z",
+  "updatedAt": "2026-11-09T19:20:54Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -369,6 +369,33 @@
         {
           "title": "Buccaneers vs. Bears weather report: Clear skies at Soldier Field - Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/buccaneers-vs-bears-weather-report-164520148.html"
+        }
+      ]
+    },
+    {
+      "gameId": "401873051",
+      "createdAt": "2026-11-09T19:20:54Z",
+      "winnerTeamId": "2",
+      "pWinner": 0.62,
+      "marketPickTeamId": "2",
+      "marketProb": 0.6023,
+      "reasoning": "Die Vikings müssen ohne den verletzten Quarterback Kyler Murray (Hamstring) antreten, Carson Wentz startet, und auch RB Demond Claiborne sowie WR Jauan Jennings fehlen. Bei den Bills sind Dion Dawkins und Alec Anderson fraglich, doch die Vikings-Offense wirkt mit Wentz deutlich schwächer, weshalb die Bills mit Josh Allen als Favorit gehen. Das Stadion ist überdacht, Wetter spielt keine Rolle.",
+      "sources": [
+        {
+          "title": "Carson Wentz starting for Vikings with Kyler Murray out (Star Tribune)",
+          "url": "https://www.startribune.com/kyler-murray-injury-minnesota-vikings-carson-wentz-starting-qb-buffalo-bills-monday-night-football/601911276"
+        },
+        {
+          "title": "Bills vs. Vikings Injury Report (ESPN)",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873051/bills-vikings"
+        },
+        {
+          "title": "Vikings-Bills Final Injury Report (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/articles/vikings-bills-final-injury-report-231710323.html"
+        },
+        {
+          "title": "NFL Monday Night Football preview: Vikings defense vs. Josh Allen and Bills (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/nfl/article/nfl-monday-night-football-preview-vikings-defense-gets-a-tough-test-vs-josh-allen-and-bills-152839820.html"
         }
       ]
     }
