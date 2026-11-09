@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:47:23Z",
+  "updatedAt": "2026-11-09T09:47:20Z",
   "items": [
+    {
+      "id": "c37ff1e52a4339de",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-i-could-throw-100-picks-and-i-wouldnt-get-gun-shy",
+      "title": "Caleb Williams: I could throw 100 picks and I wouldn't get gun-shy",
+      "summary": "Williams threw four interceptions on Sunday night but still led the Bears to a win over the Buccaneers.",
+      "publishedAt": "2026-11-09T09:11:08Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
     {
       "id": "0ebbbe93639c5c1d",
       "source": "espn",
@@ -67,6 +79,15 @@
         "3",
         "27"
       ]
+    },
+    {
+      "id": "211ddf7a57a5e30c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
+      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
+      "summary": "Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "publishedAt": "2026-11-09T05:01:00Z",
+      "teamIds": []
     },
     {
       "id": "4354b322d3ba8218",
@@ -1662,30 +1683,6 @@
       "teamIds": [
         "9",
         "17"
-      ]
-    },
-    {
-      "id": "ea1bc91e49207179",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-stretch-lead-to-21-12-on-travis-kelce-td-on-fourth-down",
-      "title": "Chiefs stretch lead to 21-12 on Travis Kelce TD on fourth down",
-      "summary": "The Chiefs couldn't get the job done near the end zone at the end of last Sunday's loss to the Broncos, but they had more success early in the third quarter this Sunday.",
-      "publishedAt": "2026-11-08T19:59:27Z",
-      "teamIds": [
-        "7",
-        "12"
-      ]
-    },
-    {
-      "id": "8193002d1132e060",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-take-14-13-lead-on-bryce-youngs-second-td-pass",
-      "title": "Panthers take 14-13 lead on Bryce Young's second TD pass",
-      "summary": "The Panthers lead the Broncos 14-13 after the first drive of the second half.",
-      "publishedAt": "2026-11-08T19:59:22Z",
-      "teamIds": [
-        "29",
-        "7"
       ]
     }
   ]
