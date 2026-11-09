@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-09T01:47:20Z",
+    "takenAt": "2026-11-09T06:47:17Z",
     "games": [
       {
         "gameId": "401873052",
@@ -47,6 +47,17 @@
             "status": "Out"
           },
           {
+            "athleteId": "2976212",
+            "name": "Stefon Diggs",
+            "pos": "WR",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4426348",
             "name": "Jayden Daniels",
             "pos": "QB",
@@ -54,7 +65,8 @@
             "teamAbbr": "WSH",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -68,28 +80,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4575131",
-            "name": "Jacory Croskey-Merritt",
-            "pos": "RB",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "5081432",
-            "name": "Antonio Williams",
-            "pos": "WR",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
           }
         ]
       },
@@ -298,7 +288,8 @@
             "teamAbbr": "NO",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -321,17 +312,6 @@
             "teamAbbr": "NO",
             "roles": [
               "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4599739",
-            "name": "Kendre Miller",
-            "pos": "RB",
-            "teamId": "18",
-            "teamAbbr": "NO",
-            "roles": [
-              "rushing"
             ],
             "status": null
           }
@@ -376,11 +356,22 @@
             "status": null
           },
           {
-            "athleteId": "5083076",
-            "name": "Harold Fannin Jr.",
-            "pos": "TE",
+            "athleteId": "4832800",
+            "name": "Denzel Boston",
+            "pos": "WR",
             "teamId": "5",
             "teamAbbr": "CLE",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4258173",
+            "name": "Nico Collins",
+            "pos": "WR",
+            "teamId": "34",
+            "teamAbbr": "HOU",
             "roles": [
               "receiving"
             ],
@@ -406,17 +397,6 @@
             "roles": [
               "qb",
               "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4586312",
-            "name": "Jaylin Noel",
-            "pos": "WR",
-            "teamId": "34",
-            "teamAbbr": "HOU",
-            "roles": [
-              "receiving"
             ],
             "status": null
           }
@@ -716,15 +696,15 @@
             "status": null
           },
           {
-            "athleteId": "4429023",
-            "name": "MarShawn Lloyd",
+            "athleteId": "4819231",
+            "name": "Kaleb Johnson",
             "pos": "RB",
             "teamId": "9",
             "teamAbbr": "GB",
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "3042519",

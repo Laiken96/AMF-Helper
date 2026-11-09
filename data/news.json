@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:47:21Z",
+  "updatedAt": "2026-11-09T06:47:19Z",
   "items": [
     {
       "id": "018db507839e2747",
@@ -18,7 +18,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50429684/giants-malik-nabers-takes-issue-fox-telecast",
       "title": "Giants' Malik Nabers takes issue with Greg Olsen, Fox for comments during game",
-      "summary": "Malik Nabers took the issue with Fox play-by-play man Joe Davis and analyst Greg Olsen for criticizing his body language during the Giants' win Sunday.",
+      "summary": "Malik Nabers took issue with Fox play-by-play man Joe Davis and analyst Greg Olsen for criticizing his body language during the Giants' win Sunday.",
       "publishedAt": "2026-11-09T05:27:00Z",
       "teamIds": [
         "19"
@@ -29,7 +29,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873050",
       "title": "Williams connects with Loveland to set up Santos' winning field goal as Bears edge Buccaneers 27-24",
-      "summary": "Caleb Williams found a wide-open Colston Loveland for a 38-yard catch to set up Cairo Santos' 38-yard field goal as time expired, and the Chicago Bears picked up a sloppy 27-24 victory over Baker Mayfield and the Tampa Bay Buccaneers on Sunday night.",
+      "summary": "Caleb Williams and the Chicago Bears played one of their worst games of the season — and won.",
       "publishedAt": "2026-11-09T05:15:35Z",
       "teamIds": [
         "3",
@@ -500,6 +500,15 @@
         "9",
         "17"
       ]
+    },
+    {
+      "id": "11699af9407c0a62",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50357331/fantasy-football-injuries-nfl-week-9-inactive-active",
+      "title": "Fantasy football Week 9 inactives: Who's in and who's out?",
+      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
+      "publishedAt": "2026-11-09T01:02:08Z",
+      "teamIds": []
     },
     {
       "id": "2847878314ea383f",
@@ -1677,18 +1686,6 @@
       "publishedAt": "2026-11-08T19:53:49Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "1017495b194d98e3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bill-belichick-surprise-return-patriots-new-england-week-9-showdown-packers",
-      "title": "Bill Belichick makes surprise return to Patriots ahead of New England's Week 9 showdown vs. Packers",
-      "summary": "Belichick has kept his distance since leaving New England after parting ways in 2023.",
-      "publishedAt": "2026-11-08T19:53:05Z",
-      "teamIds": [
-        "9",
-        "17"
       ]
     }
   ]
