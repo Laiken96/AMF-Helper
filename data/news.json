@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T09:47:20Z",
+  "updatedAt": "2026-11-09T10:47:35Z",
   "items": [
+    {
+      "id": "5ba634501829e549",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ashton-jeanty-had-5-catches-for-5-yards-on-another-awful-day-for-raiders-running-backs",
+      "title": "Ashton Jeanty had 5 catches for -5 yards on another awful day for Raiders' running backs",
+      "summary": "The Raiders' running back situation has been awful all season, but it hit a new low in Sunday's loss to the 49ers.",
+      "publishedAt": "2026-11-09T10:04:42Z",
+      "teamIds": [
+        "13",
+        "25"
+      ]
+    },
     {
       "id": "c37ff1e52a4339de",
       "source": "pft",
@@ -1671,18 +1683,6 @@
       "publishedAt": "2026-11-08T20:04:58Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "7445038d5a5f23ce",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/packers-vs-patriots-odds-picks-prediction-spread-line-start-time-nfl-week-9-betting-preview-best-bets",
-      "title": "Packers vs. Patriots odds, picks, prediction, spread, line: Start time, NFL Week 9 betting preview, best bets",
-      "summary": "Here's everything bettors need to know about wagering on Packers vs. Patriots in NFL Week 9",
-      "publishedAt": "2026-11-08T20:00:49Z",
-      "teamIds": [
-        "9",
-        "17"
       ]
     }
   ]
