@@ -1,7 +1,140 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T01:47:22Z",
+  "updatedAt": "2026-11-09T02:47:19Z",
   "items": [
+    {
+      "id": "176457613347996a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50428583/49ers-gracen-halton-season-broken-ankle",
+      "title": "49ers lose DT Gracen Halton to season-ending ankle fracture",
+      "summary": "Gracen Halton suffered a broken left ankle against the Raiders, an injury that will end his rookie season after eight games.",
+      "publishedAt": "2026-11-09T02:37:12Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "56f2925a2b7215b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mri-shows-patrick-mahomes-avoided-serious-injury",
+      "title": "Report: MRI shows Patrick Mahomes avoided serious injury",
+      "summary": "The Chiefs quarterback injured his right elbow in the second quarter Sunday.",
+      "publishedAt": "2026-11-09T02:30:51Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "3798a5e2b574455a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-becomes-an-option-for-a-contender-like-the-vikings",
+      "title": "Kirk Cousins becomes an option for a contender, like the Vikings",
+      "summary": "With a switch from veteran quarterback Kirk Cousins to rookie Fernando Mendoza seemingly inevitable, the question becomes whether the Raiders will explore trading Cousins to a quarterback-needy contender.",
+      "publishedAt": "2026-11-09T02:25:59Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "9ec29f66abdadf7f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50428624/kenneth-walker-iii-alleviates-workload-concerns-huge-performance",
+      "title": "Kenneth Walker III alleviates workload concerns with huge performance",
+      "summary": null,
+      "publishedAt": "2026-11-09T02:25:07Z",
+      "teamIds": []
+    },
+    {
+      "id": "7e4512e4590963f6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
+      "title": "How active NFL players continue to redefine all-time sack list",
+      "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
+      "publishedAt": "2026-11-09T02:11:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "d83b612383b18b54",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50428280/herbert-injures-finger-chargers-loss-testing",
+      "title": "Herbert to undergo testing after exiting Chargers' 44-22 loss with finger injury",
+      "summary": "Los Angeles Chargers quarterback Justin Herbert, who was sacked eight times and threw his NFL-leading 11th interception, left Sunday's 44-22 loss to the Houston Texans in the second half with an injury to the middle finger on his left (non-throwing) hand.",
+      "publishedAt": "2026-11-09T02:11:17Z",
+      "teamIds": [
+        "34",
+        "24"
+      ]
+    },
+    {
+      "id": "0c1ef4edebeecfb3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drew-lock-suffers-oblique-injury-week-10-status-seahawks-could-start-jalen-milroe",
+      "title": "Drew Lock suffers oblique injury, Week 10 status up in the air: Seahawks could have to start Jalen Milroe",
+      "summary": "Lock was already filling in for Sam Darnold, who missed Week 9 with quad and rib injuries",
+      "publishedAt": "2026-11-09T02:10:50Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "d46f9d9523cd0d53",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-fractured-his-finger-in-sundays-win",
+      "title": "Josh Jacobs fractured his finger in Sunday's win",
+      "summary": "The Packers rolled to a 45-27 win in New England on Sunday, but running back Josh Jacobs wasn't around for much of the game.",
+      "publishedAt": "2026-11-09T01:59:02Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "99c34e2f5e799554",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-christian-gonzalez-we-expect-more-he-expects-more",
+      "title": "Mike Vrabel on Christian Gonzalez: We expect more, he expects more",
+      "summary": "The Packers put up 45 points in Sunday's road win over the Patriots and that marked the most points scored by a visiting team in the history of Gillette Stadium.",
+      "publishedAt": "2026-11-09T01:53:47Z",
+      "teamIds": [
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "80bd86b3e05ff2a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-are-expected-to-take-best-offer-for-jonathan-taylor-at-deadline",
+      "title": "Colts are expected to take best offer for Jonathan Taylor at deadline",
+      "summary": "The trade chatter regarding Colts running back Jonathan Taylor has lasted for two weeks.",
+      "publishedAt": "2026-11-09T01:51:25Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "960da18d86374d9f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/josh-jacobs-breaks-finger-packers-win-over-patriots-trade-deadline",
+      "title": "Josh Jacobs breaks finger during Packers' win over Patriots, could Green Bay trade for a RB?",
+      "summary": "Jacobs hopes to play through the issue, but grip struggles could force Green Bay to pursue running back help before Tuesday's trade deadline",
+      "publishedAt": "2026-11-09T01:48:30Z",
+      "teamIds": [
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "b0a6eacab6eae902",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luther-burden-scores-56-yard-touchdown-bears-lead-bucs-14-0",
+      "title": "Luther Burden scores 56-yard touchdown, Bears lead Bucs 14-0",
+      "summary": "The last time the Bears played at home, Luther Burden went off for 130 yards.",
+      "publishedAt": "2026-11-09T01:47:57Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
     {
       "id": "2229a5885256fdcf",
       "source": "espn",
@@ -116,7 +249,7 @@
       "id": "7b9f990905d28820",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50426396/jets-frustrated-geno-smith-membou",
-      "title": "Jets begin to unravel on and off field as losing streak hits four games",
+      "title": "Jets begin to unravel on and off field as losing streak hits 4 games",
       "summary": "New York players were seen slamming helmets during their 35-12 loss in Kansas City, where they failed to score a TD.",
       "publishedAt": "2026-11-09T01:13:16Z",
       "teamIds": [
@@ -139,7 +272,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873049",
       "title": "Jordan Love accounts for 4 touchdowns, Packers force 4 turnovers in 45-27 win over Patriots",
-      "summary": "Jordan Love threw for 372 yards and three touchdowns and ran for a score, and the Green Bay Packers scored 21 points off four New England Patriots turnovers to roll to a 45-27 win on Sunday.",
+      "summary": "If Jordan Love has played a better game than he did on Sunday, he can't remember it.",
       "publishedAt": "2026-11-09T01:05:36Z",
       "teamIds": [
         "9",
@@ -219,7 +352,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873046",
       "title": "C.J. Stroud tosses 5 TD passes as Texans rout winless Chargers 44-22. LA finally scores a TD",
-      "summary": "C.J. Stroud threw five touchdown passes, including a pair of season-best 63-yarders to Tank Dell and Kayshon Boutte, and the Houston Texans routed the winless Chargers 44-22 on Sunday and sent Los Angeles to its eighth straight defeat in front of...",
+      "summary": "C.J. Stroud had been feeling lousy all week, barely practiced and woke up with chills on game day. Then he had his version of Michael Jordan's flu game.",
       "publishedAt": "2026-11-09T00:44:35Z",
       "teamIds": [
         "34",
@@ -300,7 +433,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873048",
       "title": "AJ Barner has a TD catch and runs for a score in Seahawks' 17-3 win over Cardinals",
-      "summary": "AJ Barner caught a touchdown pass and ran for a score, and the Seattle Seahawks beat the Arizona Cardinals 17-3 on Sunday without starting quarterback Sam Darnold.",
+      "summary": "AJ Barner's breakout came just when the Seahawks needed it.",
       "publishedAt": "2026-11-09T00:39:35Z",
       "teamIds": [
         "22",
@@ -1556,132 +1689,6 @@
       "teamIds": [
         "4"
       ]
-    },
-    {
-      "id": "269ee44b06d1d93c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Jacoby Brissett, Jeffery Simmons on the move",
-      "summary": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including Jacoby Brissett to Baltimore.",
-      "publishedAt": "2026-11-08T18:10:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "ab7794b5b3d3995c",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-betmgm-draftkings",
-      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, BetMGM, DraftKings",
-      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-08T17:52:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "b942a95da1cf3ff2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
-      "title": "2027 NFL draft questions, latest intel, risers, CFB standouts",
-      "summary": "How did CFB Week 10 shake up the quarterback class? CJ Carr and LaNorris Sellers rising? Here's our weekly draft spin, including top standouts.",
-      "publishedAt": "2026-11-08T17:43:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "7550bae96b2ab84b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50421090/cowboys-wr-pickens-cb-porter-lb-overshown-inactive-vs-colts",
-      "title": "Cowboys WR Pickens, CB Porter, LB Overshown inactive against Colts",
-      "summary": "The Cowboys will be without wide receiver George Pickens, cornerback Joey Porter Jr. and linebacker DeMarvion Overshown against the Colts.",
-      "publishedAt": "2026-11-08T17:42:57Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "6cad579e6080bd8e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/philip-rivers-nc-state-are-finalizing-a-deal-to-make-him-the-next-head-coach",
-      "title": "Philip Rivers, NC State are finalizing a deal to make him the next head coach",
-      "summary": "Yes, it looks like Philip Rivers will be the next former NFL player to become a college head coach.",
-      "publishedAt": "2026-11-08T17:37:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "95a70148a895bf6f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-and-the-bengals-beat-the-falcons-34-17-in-madrid",
-      "title": "Ja'Marr Chase and the Bengals beat the Falcons 34-17 in Madrid",
-      "summary": "Bengals wide receiver Ja'Marr Chase had an outstanding game in a victory over the Falcons.",
-      "publishedAt": "2026-11-08T17:34:34Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "ffe051a2375942d1",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50389829/week-9-nfl-odds-touchdown-props-best-bets-sunday-games",
-      "title": "Week 9 betting preview: Analysis, best bets, TD predictions for Sunday",
-      "summary": "Our experts dive into the odds and player props for Week 9 and offer their betting tips and favorite plays.",
-      "publishedAt": "2026-11-08T17:24:34Z",
-      "teamIds": [
-        "1",
-        "7",
-        "9",
-        "13"
-      ]
-    },
-    {
-      "id": "b4d11f9fa7ddbf07",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-signing-odell-beckham-jr-giants",
-      "title": "Odell Beckham Jr. set to make Vikings debut after signing to 53-man roster, per report",
-      "summary": "Beckham will be available to play in Monday night's game vs. the Bills",
-      "publishedAt": "2026-11-08T17:21:33Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "58da1558fb6898b0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-and-patrick-mahomes-have-won-12-straight-against-teams-entering-with-losing-record",
-      "title": "Chiefs and Patrick Mahomes have won 12 straight against teams entering with losing record",
-      "summary": "The Chiefs have lost two games in a row.",
-      "publishedAt": "2026-11-08T17:16:10Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "4fa45904e6b3d214",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-offered-second-round-pick-and-fifth-round-pick-for-jonathan-taylor",
-      "title": "Giants offered second-round pick and fifth-round pick for Jonathan Taylor",
-      "summary": "As the trade deadline creeps closer, the Giants continue to be linked to a potential trade for Colts running back Jonathan Taylor.",
-      "publishedAt": "2026-11-08T17:07:18Z",
-      "teamIds": [
-        "11",
-        "19"
-      ]
-    },
-    {
-      "id": "3490c0ed00d9bad2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 9",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-08T16:59:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "943edfc11b4fc7c1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50393510/nfl-week-9-fashionable-arrivals",
-      "title": "NFL Week 9 arrivals: Caleb Williams rocks Supreme mascot zip-up before 'SNF'",
-      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-08T16:55:10Z",
-      "teamIds": []
     }
   ]
 }

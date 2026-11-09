@@ -3,17 +3,17 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-09T01:47:19Z",
+  "updatedAt": "2026-11-09T02:47:16Z",
   "maxDeviations": 0,
   "tips": [
     {
       "gameId": "401873052",
       "kickoffUtc": "2026-11-13T01:15:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -1.5,
-        "overUnder": 42.5,
-        "fetchedAt": "2026-11-08T23:47:15Z"
+        "overUnder": 43.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
       "pHome": 0.5442,
       "pickTeamId": "19",
@@ -35,10 +35,10 @@
       "gameId": "401873053",
       "kickoffUtc": "2026-11-15T14:30:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -2.5,
-        "overUnder": 49.5,
-        "fetchedAt": "2026-11-09T00:59:29Z"
+        "overUnder": 50.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
       "pHome": 0.5735,
       "pickTeamId": "8",
@@ -60,10 +60,10 @@
       "gameId": "401873054",
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 8.5,
-        "overUnder": 50.5,
-        "fetchedAt": "2026-11-09T00:47:17Z"
+        "overUnder": 51.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
       "pHome": 0.2645,
       "pickTeamId": "2",
@@ -110,10 +110,10 @@
       "gameId": "401873056",
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 4.5,
-        "overUnder": 38.5,
-        "fetchedAt": "2026-11-09T00:47:17Z"
+        "overUnder": 39.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
       "pHome": 0.3694,
       "pickTeamId": "34",
@@ -135,14 +135,14 @@
       "gameId": "401873057",
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": 10,
-        "overUnder": 45.5,
-        "fetchedAt": "2026-11-08T15:47:18Z"
+        "provider": "Draft Kings",
+        "spreadHome": 9.5,
+        "overUnder": 46.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
-      "pHome": 0.2294,
+      "pHome": 0.2408,
       "pickTeamId": "30",
-      "pickProb": 0.7706,
+      "pickProb": 0.7592,
       "level": "klar",
       "deviation": false,
       "firstPickTeamId": "30",
@@ -160,15 +160,15 @@
       "gameId": "401873058",
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": 3,
+        "provider": "Draft Kings",
+        "spreadHome": 3.5,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-08T13:47:18Z"
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
-      "pHome": 0.4121,
+      "pHome": 0.3977,
       "pickTeamId": "12",
-      "pickProb": 0.5879,
-      "level": "unklar",
+      "pickProb": 0.6023,
+      "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "12",
       "firstOdds": {
@@ -235,10 +235,10 @@
       "gameId": "401873061",
       "kickoffUtc": "2026-11-15T21:05:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": 7.5,
-        "overUnder": 46.5,
-        "fetchedAt": "2026-11-09T01:47:19Z"
+        "overUnder": 45.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
       "pHome": 0.2893,
       "pickTeamId": "14",
@@ -310,10 +310,10 @@
       "gameId": "401873064",
       "kickoffUtc": "2026-11-16T01:20:00Z",
       "odds": {
-        "provider": "DraftKings",
+        "provider": "Draft Kings",
         "spreadHome": -3.5,
-        "overUnder": 48.5,
-        "fetchedAt": "2026-11-08T22:47:18Z"
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-09T02:47:16Z"
       },
       "pHome": 0.6023,
       "pickTeamId": "4",
@@ -361,7 +361,7 @@
     {
       "gameId": "401873052",
       "slot": "thursday",
-      "homePoints": 22,
+      "homePoints": 23,
       "awayPoints": 21,
       "basis": "quote"
     },
