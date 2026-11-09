@@ -1,7 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T03:47:19Z",
+  "updatedAt": "2026-11-09T04:47:23Z",
   "items": [
+    {
+      "id": "845cd480034280d5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50429190/balling-jordan-love-wows-teammates-big-performance-patriots",
+      "title": "'Balling' Jordan Love wows teammates with big performance at Patriots",
+      "summary": "Packers quarterback Jordan Love's performance in Sunday's win over the Patriots left some of his teammates in awe and others speechless.",
+      "publishedAt": "2026-11-09T04:21:48Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "2f5b2760e2de7d13",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50429154/rams-outlast-commanders-defensive-showcase",
+      "title": "Rams outlast Commanders with defensive showcase",
+      "summary": null,
+      "publishedAt": "2026-11-09T04:21:42Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "00cbfd760e5c1940",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-wr-calvin-ridley-was-involved-in-an-incident-at-nashville-international-airport",
+      "title": "Titans WR Calvin Ridley was involved in an incident at Nashville International Airport",
+      "summary": "The Titans had a bye in Week 9.",
+      "publishedAt": "2026-11-09T04:13:51Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "85df7e1df0d15f66",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50369510/week-9-sunday-games-takeaways-questions-2026",
+      "title": "NFL Week 9: Big takeaways, questions and fantasy spin from Sunday's games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 9.",
+      "publishedAt": "2026-11-09T03:54:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "73b06f27fe66de6a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-caleb-williams-fourth-int-jaylon-johnson-nabs-pick-six-off-baker-mayfield",
+      "title": "After Caleb Williams' fourth INT, Jaylon Johnson nabs pick-six off Baker Mayfield",
+      "summary": "Though they didn't score off a blocked punt in the third quarter, the Buccaneers did get another takeaway with a fourth interception off Caleb Williams.",
+      "publishedAt": "2026-11-09T03:48:07Z",
+      "teamIds": [
+        "27"
+      ]
+    },
     {
       "id": "c4889b1ee9ee0052",
       "source": "espn",
@@ -392,6 +446,15 @@
         "34",
         "24"
       ]
+    },
+    {
+      "id": "d3e83d1c211c260f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50409762/week-9-sunday-highlights-best-plays-touchdowns-2026",
+      "title": "Week 9 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for Sunday's top moments, TDs and analysis.",
+      "publishedAt": "2026-11-09T00:55:43Z",
+      "teamIds": []
     },
     {
       "id": "1591067083bd97e6",
@@ -1626,71 +1689,6 @@
       "teamIds": [
         "14",
         "28"
-      ]
-    },
-    {
-      "id": "ab2a1d70d5a935a8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-browns-tied-3-3-at-halftime",
-      "title": "Saints-Browns tied 3-3 at halftime",
-      "summary": "The Browns and Saints haven’t been able to put much on the board, and the two teams are tied 3-3 at halftime.",
-      "publishedAt": "2026-11-08T19:27:09Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "2f78fb9fd1d82933",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873038",
-      "title": "Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
-      "summary": "Joe Burrow threw for three touchdowns and rushed for another and the Cincinnati Bengals' offense kept rolling to defeat the Atlanta Falcons 34-17 in Madrid on Sunday for their fourth straight win.",
-      "publishedAt": "2026-11-08T19:21:34Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "5b9498d3d45ec68f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50422850/why-adam-rank-drop-kyle-pitts-just-yet-fantasy",
-      "title": "Why Adam Rank can't drop Kyle Pitts just yet in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-08T19:16:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "29faf1efdf7b2f84",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50422832/what-adam-rank-loves-bijan-robinson-fantasy-performance-vs-bengals",
-      "title": "What Adam Rank loves from Bijan Robinson's fantasy performance vs. Bengals",
-      "summary": null,
-      "publishedAt": "2026-11-08T19:11:57Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "beb17b1d12fc5601",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50422793/can-fantasy-managers-trust-chase-brown",
-      "title": "Can fantasy managers trust Chase Brown?",
-      "summary": null,
-      "publishedAt": "2026-11-08T19:05:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "c6592d42a405c577",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-campbell-is-determined-to-return-to-football",
-      "title": "Jack Campbell is \"determined\" to return to football",
-      "summary": "Lions linebacker Jack Campbell remains hospitalized, one week after suffering a neck injury during a Week 8 win over the Vikings.",
-      "publishedAt": "2026-11-08T18:59:36Z",
-      "teamIds": [
-        "8",
-        "16"
       ]
     }
   ]
