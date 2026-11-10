@@ -1,7 +1,83 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:47:23Z",
+  "updatedAt": "2026-11-10T14:47:19Z",
   "items": [
+    {
+      "id": "235e9c630915763b",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50442321/nfl-betting-favorites-win-14-15-games-fuel-best-week-bettors",
+      "title": "NFL betting favorites win 14 of 15 games, fuel best week for bettors",
+      "summary": "NFL favorites won 14 of 15 games in Week 9, a historic run of chalk that cost sportsbooks and left the betting public smiling.",
+      "publishedAt": "2026-11-10T14:42:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "d49b90fec3625373",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-vikings-quarterback-options-kirk-cousins",
+      "title": "2026 NFL trade deadline: Ranking Vikings quarterback options with Kirk Cousins as best fit in Minnesota",
+      "summary": "After Carson Wentz exposed Minnesota's offensive problems on national television, the 6-2 Vikings must consider an aggressive move",
+      "publishedAt": "2026-11-10T14:23:34Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "12d0a88f6614d2e1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-definitely-a-curve-to-getting-jessie-bates-ready-this-week",
+      "title": "Liam Coen: \"Definitely a curve\" to getting Jessie Bates ready this week",
+      "summary": "The Jaguars made three trades on Monday, but their deal for safety Jessie Bates was the only one that was completed when head coach Liam Coen met with reporters on Monday.",
+      "publishedAt": "2026-11-10T14:15:55Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "82f99dbc40278f2a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-10-2026-nfl-power-rankings",
+      "title": "PFT's Week 10 2026 NFL power rankings",
+      "summary": "The Bills benefit from facing another backup QB.",
+      "publishedAt": "2026-11-10T14:11:06Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "d88fd1c891df8dd7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50442157/does-puka-nacua-injury-put-rams-season-jeopardy",
+      "title": "Does Puka Nacua's injury put the Rams' season in jeopardy?",
+      "summary": null,
+      "publishedAt": "2026-11-10T14:08:29Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "132c9420333f81f2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-17-28-time-of-possession-was-their-lowest-in-franchise-history",
+      "title": "Vikings' 17:28 time of possession was their lowest in franchise history",
+      "summary": "The Minnesota Vikings have played 1,064 games in the history of their franchise, which started in 1961.",
+      "publishedAt": "2026-11-10T14:03:28Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "a4125003afa1c06d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/josh-allen-bills-vikings-mnf-nfl-trade-deadline-market",
+      "title": "Josh Allen, Bills suffocate Vikings; NFL trade deadline day arrives with big names on the market",
+      "summary": "Plus, Georgia has taken over the top spot in our CFB Power Rankings",
+      "publishedAt": "2026-11-10T13:49:55Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
     {
       "id": "07c2415fe935f39e",
       "source": "espn",
@@ -764,6 +840,15 @@
       "teamIds": [
         "14"
       ]
+    },
+    {
+      "id": "e02bf6ac5dc2b853",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jordan Davis heads to Jacksonville",
+      "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday",
+      "publishedAt": "2026-11-09T22:28:55Z",
+      "teamIds": []
     },
     {
       "id": "a2978a08a028d310",
@@ -1587,97 +1672,6 @@
       "publishedAt": "2026-11-09T16:20:21Z",
       "teamIds": [
         "10"
-      ]
-    },
-    {
-      "id": "75d77c8c4a07779b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-9-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-bills-vikings-mnf",
-      "title": "Week 9 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Bills-Vikings, MNF",
-      "summary": "Top Week 9 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-09T16:11:44Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "7317ea1e6c37fa48",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-loves-mvp-case-surges",
-      "title": "Jordan Love's MVP case surges",
-      "summary": "On Sunday night, Bears quarterback Caleb Williams had four turnovers.",
-      "publishedAt": "2026-11-09T16:03:16Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "4bea156864951573",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50433376/stephen-trolls-michael-irvin-choosing-miami-cowboys",
-      "title": "Stephen A. trolls Michael Irvin for choosing Miami over Cowboys",
-      "summary": null,
-      "publishedAt": "2026-11-09T15:58:13Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "c53970ede1b39ebf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marvin-harrison-jr-s-production-hasnt-improved-since-trade-from-cardinals-to-texans",
-      "title": "Marvin Harrison Jr.'s production hasn't improved since trade from Cardinals to Texans",
-      "summary": "After four unproductive games with the Cardinals to start this season, wide receiver Marvin Harrison Jr. was traded to the Texans.",
-      "publishedAt": "2026-11-09T15:53:58Z",
-      "teamIds": [
-        "22",
-        "34"
-      ]
-    },
-    {
-      "id": "abda66f87743d1d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luke-goedeke-airs-grievances-about-jeffery-simmons",
-      "title": "Luke Goedeke airs grievances about Jeffery Simmons",
-      "summary": "Goedeke claims Simmons holds the tackle so DE can run free.",
-      "publishedAt": "2026-11-09T15:44:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "ebe72dfa12b18f83",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50432490/jaguars-trade-jessie-bates-iii-falcons-draft",
-      "title": "Are Jaguars all-in after trades for Bates, Davis? Plus Eagles, Falcons reaction",
-      "summary": "Jacksonville made a trio of trades Monday. What it means for Eagles and Falcons ... and the Jaguars' Super Bowl hopes.",
-      "publishedAt": "2026-11-09T15:41:46Z",
-      "teamIds": [
-        "1",
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "05a54609a02d0421",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50433187/caleb-williams-performance-vs-bucs-was-bad-look",
-      "title": "Stephen A.: Caleb Williams' performance vs. the Bucs was a 'bad look'",
-      "summary": null,
-      "publishedAt": "2026-11-09T15:41:03Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "adf6fdaea4080ce1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-      "summary": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-      "publishedAt": "2026-11-09T15:31:29Z",
-      "teamIds": [
-        "30"
       ]
     }
   ]
