@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:47:25Z",
+  "updatedAt": "2026-11-10T12:47:23Z",
   "items": [
+    {
+      "id": "5bc42cf5fc626fce",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49998196/fantasy-football-waiver-wire-pickups-week",
+      "title": "Fantasy football: Live Week 10 free agent pickups advice with ESPN expert",
+      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
+      "publishedAt": "2026-11-10T12:31:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "81736f95a375bfcd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-on-trade-deadline-approach-if-you-put-it-on-a-scale-now-outweighs-the-future",
+      "title": "John Harbaugh on trade deadline approach: If you put it on a scale, now outweighs the future",
+      "summary": "There have been a number of big moves on the trade front over the last couple of weeks as teams with eyes on competing for the Super Bowl have made big swings to improve their chances.",
+      "publishedAt": "2026-11-10T12:12:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "690b83525ad7232a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-bills-defense-showing-what-we-can-do-over-last-two-weeks",
+      "title": "Greg Rousseau: Bills defense showing \"what we can do\" over last two weeks",
+      "summary": "The Bills gave up at least 29 points in five of their first six games of the season and opponents averaged over 386 yards of offense in those contests.",
+      "publishedAt": "2026-11-10T11:57:09Z",
+      "teamIds": [
+        "2"
+      ]
+    },
     {
       "id": "ffbe25e9e113d69c",
       "source": "espn",
@@ -538,12 +567,12 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Rams' Puka Nacua likely heading to IR, Cardinals' Michael Wilson out for season",
-      "summary": "With Michael Wilson out for the season, the Cardinals' depth at the skill positions will be severely tested.",
+      "title": "Fantasy buzz: James Cook III helps Bills overcome tough Vikings defense",
+      "summary": "Buffalo's offense struggled on Monday night, but James Cook III was able to do enough to defeat Vikings.",
       "publishedAt": "2026-11-09T23:03:52Z",
       "teamIds": [
-        "22",
-        "14"
+        "2",
+        "16"
       ]
     },
     {
@@ -1645,40 +1674,6 @@
       "publishedAt": "2026-11-09T15:18:01Z",
       "teamIds": [
         "17"
-      ]
-    },
-    {
-      "id": "4cf6680a2d896f36",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-has-an-nfl-high-6-game-winning-drives-this-season-and-a-record-16-through-3-seasons",
-      "title": "Bo Nix has an NFL-high 6 game-winning drives this season, and a record 16 through 3 seasons",
-      "summary": "Denver was losing at the start of the fourth quarter in Carolina on Sunday, but that doesn't much matter to Broncos quarterback Bo Nix.",
-      "publishedAt": "2026-11-09T15:12:26Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "9a801fbf0c154509",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jessie-bates-iii-join-exclusive-club-after-trade-falcons-jaguars",
-      "title": "Jessie Bates III in line to join exclusive club after trade from Falcons to Jaguars",
-      "summary": "Bates will take his game to new heights in more ways than one in Jacksonville",
-      "publishedAt": "2026-11-09T14:53:53Z",
-      "teamIds": [
-        "1",
-        "30"
-      ]
-    },
-    {
-      "id": "63806aa15207c90c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-had-one-final-shot-at-the-end-zone-and-they-blew-it",
-      "title": "Commanders had one final shot at the end zone, and they blew it",
-      "summary": "The Commanders, in key moments of games, continue to have a little too much Backward Hat Energy.",
-      "publishedAt": "2026-11-09T14:41:53Z",
-      "teamIds": [
-        "28"
       ]
     }
   ]
