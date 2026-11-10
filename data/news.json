@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:15:02Z",
+  "updatedAt": "2026-11-10T02:47:22Z",
   "items": [
+    {
+      "id": "adf78cb0488e5c1b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-makes-appearance-on-the-pat-mcafee-alt-cast",
+      "title": "Tony Romo makes appearance on the Pat McAfee alt cast",
+      "summary": "Tony Romo has made a return to sports media.",
+      "publishedAt": "2026-11-10T02:32:25Z",
+      "teamIds": []
+    },
     {
       "id": "1008cd31537b8bbf",
       "source": "pft",
@@ -1671,17 +1680,6 @@
       "summary": "Plus, there are a few wild cards in play ahead of Tuesday's deadline",
       "publishedAt": "2026-11-09T11:00:56Z",
       "teamIds": []
-    },
-    {
-      "id": "74e704485b4097e1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/are-broncos-nfls-luckiest-super-bowl-contender",
-      "title": "Are the Broncos the NFL's luckiest Super Bowl contender? Their 7-2 start is unlike anything we've ever seen",
-      "summary": "Denver keeps winning despite historically troubling numbers. Here's how they're pulling it off -- and what history says happens next.",
-      "publishedAt": "2026-11-09T11:00:48Z",
-      "teamIds": [
-        "7"
-      ]
     }
   ]
 }
