@@ -1,13 +1,170 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T21:47:24Z",
+  "updatedAt": "2026-11-10T22:47:25Z",
   "items": [
+    {
+      "id": "269ee44b06d1d93c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+      "title": "2026 NFL trade deadline updates: Josh Downs, Kirk Cousins on the move",
+      "summary": "We're officially past the NFL trade deadline. We followed the action on 18 in-season deals, including six on Tuesday.",
+      "publishedAt": "2026-11-10T22:42:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "586afe01c26a77a0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50446573/giants-nabers-calls-fox-analyst-olsen-body-language-criticism-lie",
+      "title": "Giants' Nabers calls Fox analyst Olsen's body language critique a 'lie'",
+      "summary": "Giants wide receiver Malik Nabers said Tuesday he posted on social media after the game because he thought the critique from Fox play-by-play announcer Joe Davis and analyst Greg Olsen about his body language and being a bad teammate was a \"lie.\"",
+      "publishedAt": "2026-11-10T22:37:03Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "df031cd2dc1d86c1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-winners-losers-kirk-cousins-vikings-jaguars",
+      "title": "NFL trade deadline winners and losers: Kirk Cousins heads home, Bengals seemingly fail to understand the rules",
+      "summary": "Kirk Cousins heads back to Minnesota, the Jaguars go all-in for a championship run and a front-office blunder leaves Cincinnati red-faced",
+      "publishedAt": "2026-11-10T22:34:10Z",
+      "teamIds": [
+        "4",
+        "30"
+      ]
+    },
+    {
+      "id": "c0d7b2473dad60fa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50446499/falcons-trade-center-neuzil-ravens-guard-vorhees-pick",
+      "title": "Falcons trade center Ryan Neuzil to Ravens for guard Andrew Vorhees, pick",
+      "summary": "The Ravens acquired Falcons starting center Ryan Neuzil in exchange for backup guard Andrew Vorhees and a 2028 sixth-round pick.",
+      "publishedAt": "2026-11-10T22:33:56Z",
+      "teamIds": [
+        "1",
+        "33"
+      ]
+    },
+    {
+      "id": "34928ca59f68831c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-qb-gardner-minshew-and-wr-michael-wilson-on-ir",
+      "title": "Cardinals place QB Gardner Minshew and WR Michael Wilson on IR",
+      "summary": "The Cardinals placed quarterback Gardner Minshew and wide receiver Michael Wilson on injured reserve Tuesday, the team announced.",
+      "publishedAt": "2026-11-10T22:32:29Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "f0bb483b5432bcf1",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50431710/fantasy-football-waivers-free-agent-pickups-nfl-week-10",
+      "title": "Fantasy football free agent pickups: Douglas, Rodgers, Estime lead top options",
+      "summary": "Eric Karabell lists who he thinks are the top available players worth adding for the week ahead.",
+      "publishedAt": "2026-11-10T22:31:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "07f54843a0c87acf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-release-te-nick-vannett-waive-g-kyle-hergel",
+      "title": "Ravens release TE Nick Vannett, waive G Kyle Hergel",
+      "summary": "The Ravens parted ways with guard Andrew Vorhees in a trade with the Falcons on Tuesday and they also cut a couple of other players from the active roster.",
+      "publishedAt": "2026-11-10T22:27:04Z",
+      "teamIds": [
+        "1",
+        "33"
+      ]
+    },
+    {
+      "id": "8a596ba028426615",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-put-dt-gracen-halton-on-ir",
+      "title": "49ers put DT Gracen Halton on IR",
+      "summary": "49ers rookie defensive tackle Gracen Halton was placed on injured reserve on Tuesday.",
+      "publishedAt": "2026-11-10T22:21:19Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "e0015d464b8376f3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/fernando-mendoza-inherits-a-raiders-team-nfl-history-offers-two-wildly-different-outcomes",
+      "title": "Fernando Mendoza inherits a 4-5 Raiders team and NFL history offers two wildly different outcomes",
+      "summary": "Jared Goff lost all seven rookie starts, Lamar Jackson went 6-1 and made the playoffs. Now Mendoza faces the same challenge.",
+      "publishedAt": "2026-11-10T22:11:39Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "fbe0d061819d8f86",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-on-giants-not-adding-a-running-back-they-know-what-i-can-do",
+      "title": "Cam Skattebo on Giants not adding a running back: They know what I can do",
+      "summary": "Cam Skattebo is set to return to the Giants lineup for Thursday night's game against the Commanders and he won't be looking over his shoulder at any new additions to the team's running back depth chart.",
+      "publishedAt": "2026-11-10T22:06:06Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "bd56867f8cfcd9aa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/chiefs-agree-to-acquire-wr-josh-downs-in-trade-with-colts-per-report",
+      "title": "Chiefs agree to acquire WR Josh Downs in trade with Colts, per report",
+      "summary": "Indianapolis' rebuild is a benefit to Kansas City, which secured much-needed help in its receiving corps",
+      "publishedAt": "2026-11-10T21:56:20Z",
+      "teamIds": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "5564284f744bc57d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/josh-downs-trade-grades-chiefs-colts",
+      "title": "Josh Downs trade grades: Chiefs, Patrick Mahomes get help, Colts get value for disgruntled WR",
+      "summary": "Downs asked for a trade, and now he'll catch passes from Patrick Mahomes",
+      "publishedAt": "2026-11-10T21:53:51Z",
+      "teamIds": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "915bf0dbabb06da9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-release-wr-odell-beckham-jr-but-will-re-sign-him-to-the-practice-squad",
+      "title": "Vikings release WR Odell Beckham Jr., but will re-sign him to the practice squad",
+      "summary": "The Vikings terminated the contract of wide receiver Odell Beckham Jr. on Tuesday, the team announced.",
+      "publishedAt": "2026-11-10T21:48:43Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "739464fb033be6ca",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444528/kirk-cousins-trade-minnesota-vikings-las-vegas-raiders",
+      "title": "What the Kirk Cousins trade means for the Vikings and the Raiders",
+      "summary": "We answered big questions surrounding the trade of quarterback Kirk Cousins from the Raiders to the Vikings.",
+      "publishedAt": "2026-11-10T21:47:33Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
     {
       "id": "4bb7204fe4146b0d",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
       "title": "Rest-of-season rankings: Cousins, Jefferson, Mendoza biggest deadline winners",
-      "summary": "Need to make or assess a trade offer? Deciding between two free agents? These rankings are designed to help.",
+      "summary": "Need to make or assess a trade offer? With the NFL trade deadline passed, these rankings are designed to help.",
       "publishedAt": "2026-11-10T21:45:30Z",
       "teamIds": []
     },
@@ -27,7 +184,7 @@
       "id": "d934140e8f1f0923",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
-      "title": "2026 NFL trade deadline winners, losers: From Kirk Cousins to the Bengals",
+      "title": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
       "summary": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
       "publishedAt": "2026-11-10T21:42:38Z",
       "teamIds": [
@@ -51,7 +208,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50445819/dolphins-put-qb-malik-willis-ir-groin-injury",
       "title": "Dolphins put QB Malik Willis on IR with groin injury",
-      "summary": "The Dolphins have put quarterback Malik Wills on injured reserve because of a groin injury. He's eligible to return in Week 14",
+      "summary": "The Dolphins have put quarterback Malik Wills on injured reserve because of a groin injury. He's eligible to return in Week 14.",
       "publishedAt": "2026-11-10T21:32:33Z",
       "teamIds": [
         "15"
@@ -218,8 +375,8 @@
       "id": "8e24e8c254a7b280",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50445309/sources-broncos-land-daiyan-henley-trade-chargers",
-      "title": "Sources: Broncos land LB Daiyan Henley in trade with Chargers before deadline",
-      "summary": "The Broncos have acquired Daiyan Henley from the Chargers in a trade just before Tuesday's deadline, sources told ESPN and NFL Network.",
+      "title": "Broncos land LB Daiyan Henley in trade with Chargers before deadline",
+      "summary": "The Broncos have acquired Daiyan Henley from the Chargers in a trade just before Tuesday's deadline.",
       "publishedAt": "2026-11-10T20:45:12Z",
       "teamIds": [
         "7",
@@ -277,8 +434,8 @@
       "id": "e02bf6ac5dc2b853",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Vikings reunite with Kirk Cousins",
-      "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday",
+      "title": "2026 NFL trade deadline tracker: Vikings reunite with Kirk Cousins as in-season moves wrap up",
+      "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday and a Tuesday splash at the quarterback position",
       "publishedAt": "2026-11-10T20:38:58Z",
       "teamIds": [
         "16"
@@ -1306,12 +1463,12 @@
       "id": "adf6fdaea4080ce1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Kirk Cousins, Daiyan Henley, Amani Hooker",
-      "summary": "Was getting Cousins a home run for the Vikings? Did the 49ers make a smart move to pick up Keenan Allen?",
+      "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
+      "summary": "Was getting Cousins a home run for the Vikings? Did the Chiefs make a smart move to pick up Josh Downs?",
       "publishedAt": "2026-11-10T12:22:53Z",
       "teamIds": [
-        "16",
-        "25"
+        "12",
+        "16"
       ]
     },
     {
@@ -1474,166 +1631,6 @@
       "publishedAt": "2026-11-10T05:02:48Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "6453dfe090f8dfee",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435734/bills-vikings-josh-allen-carson-wentz-mnf",
-      "title": "Josh Allen leads Bills to win over tough Vikings defense",
-      "summary": "The Vikings kept Allen in check for much of the game, but he helped the Bills earn a low-scoring victory.",
-      "publishedAt": "2026-11-10T04:44:52Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "be8a9a62689b975e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/six-lessons-nfl-week-9-arvell-reese-c-j-stroud",
-      "title": "Six lessons learned from NFL Week 9: Arvell Reese a superstar in the making, C.J. Stroud having career year",
-      "summary": "Plus, there's a bell cow running back emerging for one of the NFL's best teams",
-      "publishedAt": "2026-11-10T04:44:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "abccceb6e9baa28c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873051",
-      "title": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
-      "summary": "The Buffalo Bills knew they weren't bound for many style points or likely to reach their league-leading scoring average against Minnesota's relentlessly...",
-      "publishedAt": "2026-11-10T04:43:36Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "e53161a1c951ea07",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-9-grades-cowboys-bengals-patriots-packers",
-      "title": "NFL Week 9 grades for every team: Bills earn impressive mark for beating Vikings, Cowboys barely pass",
-      "summary": "We're handing out grades for every team that played in Week 9",
-      "publishedAt": "2026-11-10T04:34:29Z",
-      "teamIds": [
-        "2",
-        "6",
-        "16"
-      ]
-    },
-    {
-      "id": "f2ed5509baed16bf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wear-down-vikings-23-6",
-      "title": "Monday Night Football: Bills wear down Vikings, 23-6",
-      "summary": "The Bills had 79 plays and held the ball for 42:32.",
-      "publishedAt": "2026-11-10T04:32:41Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "79946be766b5fd7e",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50439406/josh-allen-bills-outlast-vikings-23-6-mnf",
-      "title": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
-      "summary": null,
-      "publishedAt": "2026-11-10T04:29:51Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "75ea439ad2228ed6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-need-to-trade-for-a-quarterback-tomorrow",
-      "title": "The Vikings need to trade for a quarterback tomorrow",
-      "summary": "Failure to act leads to one conclusion: The Vikings are dysfunctional.",
-      "publishedAt": "2026-11-10T04:11:10Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "f3a8ee67ec2f4bba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-has-foot-stepped-on-but-stays-in-game",
-      "title": "Carson Wentz has foot stepped on, but stays in game",
-      "summary": "Vikings quarterback Carson Wentz had his foot stepped on by offensive lineman Joe Huber with 7 seconds remaining in the third quarter.",
-      "publishedAt": "2026-11-10T04:09:30Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "4c781626d9a82151",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-rb-rhamondre-stevenson-will-miss-multiple-weeks-with-a-knee-issue",
-      "title": "Patriots RB Rhamondre Stevenson will miss multiple weeks with a knee issue",
-      "summary": "Patriots running back Rhamondre Stevenson will miss multiple weeks with a knee issue.",
-      "publishedAt": "2026-11-10T03:21:18Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "8cf510477f46e10f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50438482/patriots-rhamondre-stevenson-dealing-knee-tendon-issue",
-      "title": "Source: Pats' Rhamondre Stevenson expected to miss time with knee tendon issue",
-      "summary": "Patriots top running back Rhamondre Stevenson is dealing with a knee tendon issue that is not expected to require surgery but could sideline him for a short period of time, a source told ESPN's Adam Schefter.",
-      "publishedAt": "2026-11-10T03:19:17Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "f3b1443643124e0b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-may-plan-for-jordan-davis-to-play-more-than-52-percent-of-the-time",
-      "title": "Jaguars may plan for Jordan Davis to play more than 52 percent of the time",
-      "summary": "The good news for defensive tackle Jordan Davis is that he's been traded to a team in a state with no income tax.",
-      "publishedAt": "2026-11-10T03:18:18Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "eefe3efee3b02208",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-could-return-after-the-seahawks-bye-week",
-      "title": "Sam Darnold could return after the Seahawks' bye week",
-      "summary": "Seahawks quarterback Sam Darnold will not play in Sunday's game against the Raiders, but he could return after the team's bye week.",
-      "publishedAt": "2026-11-10T03:06:24Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "4e223f6cd46f910c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-lead-vikings-10-6-at-halftime",
-      "title": "Monday Night Football: Bills lead Vikings 10-6 at halftime",
-      "summary": "Josh Allen threw a 25-yard touchdown pass to Keleki Latu with 44 seconds left in the first half for the halftime lead.",
-      "publishedAt": "2026-11-10T02:59:20Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "93a909f9284ac397",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/can-carson-beck-convince-cardinals-not-to-draft-a-qb",
-      "title": "Can Carson Beck convince the Cardinals not to draft a QB? He has eight games to make his case",
-      "summary": "The third-round rookie has eight games to prove he can be this year's Tyler Shough, but history says that won't be easy",
-      "publishedAt": "2026-11-10T02:36:01Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
