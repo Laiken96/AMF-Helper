@@ -1,7 +1,183 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T17:56:44Z",
+  "updatedAt": "2026-11-10T18:47:23Z",
   "items": [
+    {
+      "id": "beeb4820f4783dc1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444360/sources-vikings-id-qb-kirk-cousins-prime-trade-target",
+      "title": "Sources: Vikings have identified Raiders QB Kirk Cousins as prime trade target",
+      "summary": "The Vikings have identified Raiders quarterback Kirk Cousins as a prime trade candidate ahead of Tuesday's deadline, league sources told ESPN's Adam Schefter.",
+      "publishedAt": "2026-11-10T18:43:06Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "a87076e256e75b81",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869463/2026-fantasy-football-expected-points-xfpa-position-qb-rb-wr-te",
+      "title": "2026 expected fantasy points against (xFPA) by position",
+      "summary": "Measuring the best defenses against specific positions by using expected points vs. actual fantasy production.",
+      "publishedAt": "2026-11-10T18:39:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "fd25c2bae22175be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-have-identified-kirk-cousins-as-prime-trade-candidate",
+      "title": "Report: Vikings \"have identified\" Kirk Cousins as \"prime trade candidate\"",
+      "summary": "Yes, the Vikings will be adding a quarterback today.",
+      "publishedAt": "2026-11-10T18:38:35Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "28cc9f5301ade78c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-trade-vikings-raiders-rumors",
+      "title": "Kirk Cousins trade rumors: Vikings eye stunning reunion as Raiders prepare to unleash No. 1 pick",
+      "summary": "Minnesota's 6-2 start is being dragged down by dreadful quarterback play, while Las Vegas looks ready to hand the offense over to rookie Fernando Mendoza",
+      "publishedAt": "2026-11-10T18:38:07Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "af1eb0bdc5b525e0",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869668/2026-fantasy-football-expected-fantasy-points-xfp-te",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for TEs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-10T18:35:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "5d67837c042d9f80",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869659/fantasy-football-2026-expected-fantasy-points-xfp-wr",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-10T18:33:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "33cf91fb12b5eb9b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869631/2026-fantasy-football-expected-fantasy-points-xfp-rb",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for RBs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-10T18:31:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "200a5d920c3934d7",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869566/2026-fantasy-football-expected-fantasy-points-xfp-qb",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for QBs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-10T18:29:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "14a0a051c07584cb",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
+      "title": "NFL expected touchdown (xTD) leaderboard for 2026",
+      "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
+      "publishedAt": "2026-11-10T18:25:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "b2e49bc3c1fddd05",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-jonathan-taylor-mock-trades",
+      "title": "Jonathan Taylor mock trades: How Giants, Broncos, Vikings could target Colts star RB",
+      "summary": "The Colts need to replenish their draft assets, and dealing their three-time Pro Bowl running back could produce a significant return",
+      "publishedAt": "2026-11-10T18:24:30Z",
+      "teamIds": [
+        "7",
+        "11",
+        "16",
+        "19"
+      ]
+    },
+    {
+      "id": "5981c1b08209b3c6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
+      "title": "Fantasy football 2026 defensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
+      "publishedAt": "2026-11-10T18:23:05Z",
+      "teamIds": []
+    },
+    {
+      "id": "eb3ec793316c8038",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444069/sources-falcons-cutting-kicker-nick-folk-signing-jake-moody",
+      "title": "Source: Falcons cutting kicker Nick Folk, signing Jake Moody",
+      "summary": "ESPN has confirmed that the Falcons are releasing kicker Nick Folk and signing Jake Moody.",
+      "publishedAt": "2026-11-10T18:21:07Z",
+      "teamIds": [
+        "1",
+        "33"
+      ]
+    },
+    {
+      "id": "8ad5845f106af302",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
+      "title": "Fantasy football 2026 offensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
+      "publishedAt": "2026-11-10T18:19:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "3490c0ed00d9bad2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 10",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-10T18:13:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "8e50d9feb604ce37",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-vikings-will-trade-for-a-quarterback-today",
+      "title": "Source: Vikings will trade for a quarterback today",
+      "summary": "The clock is ticking toward 4:00 p.m. ET.",
+      "publishedAt": "2026-11-10T18:07:53Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "193d3dcf80a9e1d5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kendre-miller-to-visit-cowboys-on-tuesday",
+      "title": "Report: Kendre Miller to visit Cowboys on Tuesday",
+      "summary": "The Cowboys need a running back with Tyler Goodson injured and they're reportedly set to meet with a veteran option on Tuesday.",
+      "publishedAt": "2026-11-10T18:05:10Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "2a0a4a8d2d7c7ff4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-call-off-arnold-ebiketie-trade-eagles-compensatory-pick-formula-nick-korte",
+      "title": "Bengals call off Arnold Ebiketie trade with Eagles after nearly botching compensatory pick situation",
+      "summary": "The Bengals were in line to lose a 2027 third-round pick awarded from Trey Hendrickson's departure",
+      "publishedAt": "2026-11-10T17:58:58Z",
+      "teamIds": [
+        "4",
+        "21"
+      ]
+    },
     {
       "id": "960e724d0a77ac87",
       "source": "espn",
@@ -1029,12 +1205,11 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Jordan Davis, Andre Cisco on the move",
-      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Bengals nixing a trade for Eagles' Arnold Ebiketie.",
+      "title": "2026 NFL trade deadline updates: Keenan Allen, Jordan Davis on the move",
+      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the 49ers trading for Keenan Allen.",
       "publishedAt": "2026-11-10T00:30:16Z",
       "teamIds": [
-        "4",
-        "21"
+        "25"
       ]
     },
     {
@@ -1276,6 +1451,18 @@
       ]
     },
     {
+      "id": "0ad59ff27ad392b0",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/bills-vs-vikings-odds-first-touchdown-scorer-picks-nfl-predictions-monday-night-football",
+      "title": "Bills vs. Vikings odds: First touchdown scorer picks, NFL predictions for Monday Night Football",
+      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
+      "publishedAt": "2026-11-09T22:44:31Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
       "id": "c528e1ac5f971173",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50435879/rams-nacua-likely-hit-ir-mcl-pcl-sprain-turf-toe",
@@ -1367,7 +1554,7 @@
       "id": "e02bf6ac5dc2b853",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jordan Davis heads to Jacksonville",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Arnold Ebiketie agreement gets called off",
       "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday",
       "publishedAt": "2026-11-09T22:28:55Z",
       "teamIds": []
@@ -1439,208 +1626,6 @@
       "teamIds": [
         "22",
         "26"
-      ]
-    },
-    {
-      "id": "4d15b20da04ad897",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435393/dolphins-coach-jeff-hafley-laments-penalties-vs-lions",
-      "title": "Jeff Hafley calls out Dolphins' discipline after 11 penalties",
-      "summary": "Jeff Hafley said penalties helped negate what was arguably Miami's best defensive performance of the season.",
-      "publishedAt": "2026-11-09T22:17:14Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "e19785ab6bfe1c61",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50435727/dan-orlovsky-stunned-jags-trade-eagles-jordan-davis",
-      "title": "Dan Orlovsky stunned by Jags' trade for Eagles' Jordan Davis",
-      "summary": null,
-      "publishedAt": "2026-11-09T22:09:26Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "2739eed3914bbc9e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-place-joshua-palmer-on-ir-elevate-geno-stone-trent-sherfield",
-      "title": "Bills place Joshua Palmer on IR, elevate Geno Stone, Trent Sherfield",
-      "summary": "The Bills have made a few moves in advance of Monday night’s matchup with the Vikings.",
-      "publishedAt": "2026-11-09T22:04:39Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "930acbb60e4558dc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-officially-sign-odell-beckham-jr-to-active-roster",
-      "title": "Vikings officially sign Odell Beckham Jr. to active roster",
-      "summary": "Wide receiver Odell Beckham Jr. is officially set to make his Vikings debut against the Bills on Monday night.",
-      "publishedAt": "2026-11-09T22:01:01Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "211ddf7a57a5e30c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
-      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
-      "summary": "Jordan Davis, Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
-      "publishedAt": "2026-11-09T22:01:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "bb674216d2fdb0fb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-trade-dt-jordan-davis-to-jaguars",
-      "title": "Eagles trade DT Jordan Davis to Jaguars",
-      "summary": "The Jaguars have gone all-in, and (as to 2027) the Eagles have checked out.",
-      "publishedAt": "2026-11-09T22:00:48Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "b70d9a4b51ab3337",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435612/raiders-kubiak-confidence-dc-leonard-amid-struggles",
-      "title": "Raiders' Klint Kubiak expresses confidence in DC Rob Leonard amid struggles",
-      "summary": "Raiders coach Klint Kubiak expressed confidence in first-time DC Rob Leonard after Las Vegas' sixth straight game of allowing 30-plus points.",
-      "publishedAt": "2026-11-09T21:59:01Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "f0cd1165172c0440",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-wr-michael-wilson-out-for-season-with-a-neck-injury",
-      "title": "Cardinals WR Michael Wilson out for season with a neck injury",
-      "summary": "The Cardinals have lost their top wide receiver for the rest of the season.",
-      "publishedAt": "2026-11-09T21:51:23Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "a29290c10763856f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/eagles-coach-nick-sirianni-denies-giving-fans-middle-finger-division-loss-absolutely-not",
-      "title": "Eagles coach Nick Sirianni denies giving his fans the middle finger after division loss: 'Absolutely not'",
-      "summary": "Sirianni said the accusations were a 'surprise' to him, which come after Philadelphia's first home loss to the Giants in 13 years.",
-      "publishedAt": "2026-11-09T21:49:18Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "57bf0dc57d9bab3c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435349/packers-rb-josh-jacobs-needs-surgery-fractured-finger",
-      "title": "Matt LaFleur: Packers' Josh Jacobs needs surgery on finger; IR not ruled out",
-      "summary": "Packers running back Josh Jacobs needs surgery on the fractured ring finger on his right hand, coach Matt LaFleur said.",
-      "publishedAt": "2026-11-09T21:39:47Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "f63eb87bb9c6fd3e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-to-have-surgery-on-fractured-finger-out-indefinitely",
-      "title": "Josh Jacobs to have surgery on fractured finger, out indefinitely",
-      "summary": "Packers running back Josh Jacobs is set to miss more time after leaving Sunday's win over the Patriots in the first quarter.",
-      "publishedAt": "2026-11-09T21:24:32Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "176e0a63371550af",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-not-ready-to-name-starter-at-qb-for-week-10",
-      "title": "Todd Monken not ready to name starter at QB for Week 10",
-      "summary": "Shedeur Sanders has given Todd Monken something to think about.",
-      "publishedAt": "2026-11-09T21:21:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "06da714c22f153d0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-does-not-address-lamar-jacksons-injury-says-hell-keep-conversations-with-qb-private",
-      "title": "Jesse Minter does not address Lamar Jackson's injury, says he'll keep conversations with QB private",
-      "summary": "Over the weekend, reporting emerged that Ravens quarterback Lamar Jackson told teammates that he intends to return to play in 2026.",
-      "publishedAt": "2026-11-09T20:51:09Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "b95be3f9c142cdbd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50433470/san-francisco-49ers-jaden-dugger-jordan-watkins",
-      "title": "The key behind 49ers' 7-1 start? Big contributions from the team's youth",
-      "summary": "While the 49ers' stars have shown out, Jordan Watkins, Jaden Dugger and Kaelon Black have also led the team to its best start since 2019.",
-      "publishedAt": "2026-11-09T20:41:22Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "960da18d86374d9f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/josh-jacobs-breaks-finger-packers-win-over-patriots-trade-deadline",
-      "title": "Josh Jacobs breaks finger during Packers' win, will undergo surgery and could miss a maximum of three weeks",
-      "summary": "Jacobs hopes to play through the issue, but grip struggles could force Green Bay to pursue running back help before Tuesday's trade deadline",
-      "publishedAt": "2026-11-09T20:41:06Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "2528cc71424ff164",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jessie-bates-trade-jaguars-falcons-nfl-deadline-2026",
-      "title": "Jaguars-Falcons trade grades: Jacksonville acquires All-Pro safety Jessie Bates III to bolster defense",
-      "summary": "Bates, who is in the final year of his contract, heads to Jacksonville in exchange for two future draft picks",
-      "publishedAt": "2026-11-09T20:39:31Z",
-      "teamIds": [
-        "1",
-        "30"
-      ]
-    },
-    {
-      "id": "a451ac0e1849e1da",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-bills-vs-vikings-on-mnf-nuggets-vs-rockets-and-more",
-      "title": "Today's top games to watch, best bets, odds: Bills vs. Vikings on MNF, Nuggets vs. Rockets and more",
-      "summary": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-09T20:30:48Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "29f094760b1c1d63",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50434942/saints-center-erik-mccoy-miss-biceps-injury",
-      "title": "Saints starting center Erik McCoy to miss time with biceps injury, coach says",
-      "summary": "Saints starting center Erik McCoy will miss time with a biceps injury, coach Kellen Moore said Monday.",
-      "publishedAt": "2026-11-09T20:30:33Z",
-      "teamIds": [
-        "18"
       ]
     }
   ]
