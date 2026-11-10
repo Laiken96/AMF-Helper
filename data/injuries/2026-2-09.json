@@ -1142,7 +1142,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-09T01:40:29Z",
+    "takenAt": "2026-11-10T01:20:34Z",
     "games": [
       {
         "gameId": "401873037",
@@ -2234,49 +2234,15 @@
             "status": null
           },
           {
-            "athleteId": "4385690",
-            "name": "Dalton Kincaid",
-            "pos": "TE",
-            "teamId": "2",
-            "teamAbbr": "BUF",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "3042519",
-            "name": "Aaron Jones Sr.",
-            "pos": "RB",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "3917315",
             "name": "Kyler Murray",
             "pos": "QB",
             "teamId": "16",
             "teamAbbr": "MIN",
             "roles": [
-              "qb",
-              "passing"
+              "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4262921",
-            "name": "Justin Jefferson",
-            "pos": "WR",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
           }
         ]
       }
