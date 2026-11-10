@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-09T18:47:20Z",
+  "updatedAt": "2026-11-10T01:47:18Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -378,8 +378,8 @@
         "fetchedAt": "2026-11-02T22:47:20Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-10T01:47:18Z"
     }
   ],
   "tiebreakers": [

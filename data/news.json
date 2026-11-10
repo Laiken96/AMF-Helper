@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:47:24Z",
+  "updatedAt": "2026-11-10T01:47:22Z",
   "items": [
+    {
+      "id": "103e36f8253f6979",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/imaging-showed-no-fracture-in-justin-herberts-finger",
+      "title": "Imaging showed no fracture in Justin Herbert's finger",
+      "summary": "Herbert injured his left middle finger on the final of eight sacks he took Sunday.",
+      "publishedAt": "2026-11-10T01:31:55Z",
+      "teamIds": []
+    },
+    {
+      "id": "6f26ba7adfaa9cb7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-gives-defensive-coordinator-rob-leonard-a-vote-of-confidence",
+      "title": "Klint Kubiak gives defensive coordinator Rob Leonard a vote of confidence",
+      "summary": "The Raiders defense allowed 38 points in the loss to the 49ers on Sunday, the sixth consecutive game of giving up 30-plus points.",
+      "publishedAt": "2026-11-10T01:19:50Z",
+      "teamIds": [
+        "13",
+        "25"
+      ]
+    },
+    {
+      "id": "943edfc11b4fc7c1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50393510/nfl-week-9-fashionable-arrivals",
+      "title": "NFL Week 9 arrivals: Justin Jefferson rocks black leather trench coat before 'MNF'",
+      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-10T01:12:56Z",
+      "teamIds": []
+    },
     {
       "id": "f08ba45a6146e1cc",
       "source": "espn",
@@ -29,7 +59,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50434826/texans-cj-stroud-five-tds-chargers",
       "title": "A 'confident' C.J. Stroud soaks in five-TD day against Chargers",
-      "summary": "Stroud matched his career high with 5 TD passes and added 384 passing yards in the win.",
+      "summary": "Stroud matched his career high with five TD passes and added 384 passing yards in the win.",
       "publishedAt": "2026-11-10T00:27:55Z",
       "teamIds": [
         "34"
@@ -195,6 +225,18 @@
       ]
     },
     {
+      "id": "128a2d580ef9a0aa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs",
+      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams after Jags-Eagles trade",
+      "summary": "See where every team picks in the first round and which positions each franchise could target in the 2027 NFL Draft",
+      "publishedAt": "2026-11-09T22:58:02Z",
+      "teamIds": [
+        "30",
+        "21"
+      ]
+    },
+    {
       "id": "9aeecc190abe63f9",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-gardner-minshew-will-likely-need-season-ending-elbow-surgery",
@@ -253,7 +295,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50435608/cardinals-wr-michael-wilson-neck-miss-rest-season",
       "title": "Sources: Cardinals' Gardner Minshew has UCL injury; Michael Wilson out for year",
-      "summary": "Cardinals quarterback Gardner Minshew will likely need season-ending surgery on his right UCL, sources told ESPN. Michael Wilson, Arizona's top wide receiver, is also out for the season with a neck injury.",
+      "summary": "Cardinals quarterback Gardner Minshew probably will need season-ending surgery on his right UCL, sources told ESPN. Michael Wilson, Arizona's top wide receiver, is also out for the season because of a neck injury.",
       "publishedAt": "2026-11-09T22:42:07Z",
       "teamIds": [
         "22"
@@ -440,6 +482,15 @@
         "2",
         "16"
       ]
+    },
+    {
+      "id": "211ddf7a57a5e30c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
+      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
+      "summary": "Jordan Davis, Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "publishedAt": "2026-11-09T22:01:00Z",
+      "teamIds": []
     },
     {
       "id": "bb674216d2fdb0fb",
@@ -1630,60 +1681,6 @@
       "publishedAt": "2026-11-09T11:00:10Z",
       "teamIds": [
         "4"
-      ]
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-09T11:00:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-09T11:00:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "8cc9a09970c88b98",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50408415/vikings-justin-jefferson-miraculous-catch-bills-2022",
-      "title": "Inside Justin Jefferson's miraculous catch for Vikings versus Bills in 2022",
-      "summary": "In 2022 against the Bills, Jefferson leaped up and came down with one of \"the greatest catches of all time.\"",
-      "publishedAt": "2026-11-09T11:00:01Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "691887bb362fec79",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-fox-tried-to-create-a-narrative-about-me-being-a-bad-teammate",
-      "title": "Malik Nabers: Fox tried to \"create a narrative\" about me being a bad teammate",
-      "summary": "Giants wide receiver Malik Nabers took to social media on Sunday night to express his displeasure with how he was portrayed during the Fox broadcast of his team's 19-11 win over the Eagles.",
-      "publishedAt": "2026-11-09T10:55:16Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "5ba634501829e549",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ashton-jeanty-had-5-catches-for-5-yards-on-another-awful-day-for-raiders-running-backs",
-      "title": "Ashton Jeanty had 5 catches for -5 yards on another awful day for Raiders' running backs",
-      "summary": "The Raiders' running back situation has been awful all season, but it hit a new low in Sunday's loss to the 49ers.",
-      "publishedAt": "2026-11-09T10:04:42Z",
-      "teamIds": [
-        "13",
-        "25"
       ]
     }
   ]
