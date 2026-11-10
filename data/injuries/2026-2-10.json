@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-10T19:10:30Z",
+    "takenAt": "2026-11-10T19:40:34Z",
     "games": [
       {
         "gameId": "401873052",
@@ -744,18 +744,6 @@
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
           {
-            "athleteId": "14880",
-            "name": "Kirk Cousins",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4432665",
             "name": "Brock Bowers",
             "pos": "TE",
@@ -763,6 +751,18 @@
             "teamAbbr": "LV",
             "roles": [
               "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4837248",
+            "name": "Fernando Mendoza",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb",
+              "passing"
             ],
             "status": null
           },
