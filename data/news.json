@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:47:21Z",
+  "updatedAt": "2026-11-10T04:47:23Z",
   "items": [
+    {
+      "id": "6453dfe090f8dfee",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435734/bills-vikings-josh-allen-carson-wentz-mnf",
+      "title": "Josh Allen leads Bills to win over tough Vikings' defense",
+      "summary": "The Vikings kept Allen in check for much of the game, but he helped the Bills earn a low-scoring victory.",
+      "publishedAt": "2026-11-10T04:44:52Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "be8a9a62689b975e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/six-lessons-nfl-week-9-arvell-reese-c-j-stroud",
+      "title": "Six lessons learned from NFL Week 9: Arvell Reese a superstar in the making, C.J. Stroud having career year",
+      "summary": "Plus, there's a bell cow running back emerging for one of the NFL's best teams",
+      "publishedAt": "2026-11-10T04:44:19Z",
+      "teamIds": []
+    },
+    {
+      "id": "abccceb6e9baa28c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873051",
+      "title": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
+      "summary": "Josh Allen threw a touchdown pass with 44 seconds left before halftime, James Cook rushed 31 times for 107 yards and a late score, and the Buffalo Bills beat Minnesota 23-6 on Monday night, sending Vikings deeper into their unrelenting offensive slump.",
+      "publishedAt": "2026-11-10T04:43:36Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "f2ed5509baed16bf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wear-down-vikings-23-6",
+      "title": "Monday Night Football: Bills wear down Vikings, 23-6",
+      "summary": "The Bills had 79 plays and held the ball for 42:32.",
+      "publishedAt": "2026-11-10T04:32:41Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "79946be766b5fd7e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50439406/josh-allen-bills-outlast-vikings-23-6-mnf",
+      "title": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
+      "summary": null,
+      "publishedAt": "2026-11-10T04:29:51Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "75ea439ad2228ed6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-need-to-trade-for-a-quarterback-tomorrow",
+      "title": "The Vikings need to trade for a quarterback tomorrow",
+      "summary": "Failure to act leads to one conclusion: The Vikings are dysfunctional.",
+      "publishedAt": "2026-11-10T04:11:10Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "f3a8ee67ec2f4bba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-has-foot-stepped-on-but-stays-in-game",
+      "title": "Carson Wentz has foot stepped on, but stays in game",
+      "summary": "Vikings quarterback Carson Wentz had his foot stepped on by offensive lineman Joe Huber with 7 seconds remaining in the third quarter.",
+      "publishedAt": "2026-11-10T04:09:30Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "4c781626d9a82151",
       "source": "pft",
@@ -1502,12 +1581,13 @@
       "id": "e53161a1c951ea07",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-9-grades-cowboys-bengals-patriots-packers",
-      "title": "NFL Week 9 grades for every team: Patriots among two teams with failing grades, Cowboys barely pass",
+      "title": "NFL Week 9 grades for every team: Bills earn impressive mark for beating Vikings, Cowboys barely pass",
       "summary": "We're handing out grades for every team that played in Week 9",
       "publishedAt": "2026-11-09T13:43:16Z",
       "teamIds": [
+        "2",
         "6",
-        "17"
+        "16"
       ]
     },
     {
@@ -1598,87 +1678,6 @@
       "publishedAt": "2026-11-09T13:14:26Z",
       "teamIds": [
         "20"
-      ]
-    },
-    {
-      "id": "ad219bd3bb7ee1be",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-agree-to-trade-for-falcons-s-jessie-bates",
-      "title": "Jaguars agree to trade for Falcons S Jessie Bates",
-      "summary": "Jacksonville makes a move to improve their defense ahead of Tuesday's trade deadline.",
-      "publishedAt": "2026-11-09T13:06:46Z",
-      "teamIds": [
-        "1",
-        "30"
-      ]
-    },
-    {
-      "id": "75694a72ab6656da",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bills-vs-vikings-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-9-monday-night-football",
-      "title": "Bills vs. Vikings odds: First touchdown scorer picks, predictions for NFL Week 9 Monday Night Football",
-      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
-      "publishedAt": "2026-11-09T13:00:47Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "1afc86d5c680b3af",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-cover-32-week-9-2026",
-      "title": "Cover 32: What every team should do at NFL trade deadline, plus game balls and gaffes from Week 9",
-      "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
-      "publishedAt": "2026-11-09T12:37:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "08d1cadafe7a7a56",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-early-odds-trade-deadline-chiefs-cowboys-colts",
-      "title": "NFL Week 10 early odds: Trade deadline could shake up lines for Chiefs, Colts and more",
-      "summary": "A Jonathan Taylor trade or a Chiefs acquisition could reshape several spreads, adding another layer of uncertainty",
-      "publishedAt": "2026-11-09T12:09:03Z",
-      "teamIds": [
-        "11",
-        "12"
-      ]
-    },
-    {
-      "id": "8639af4c58c6ad88",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-expect-terrance-ferguson-to-miss-another-couple-weeks-with-hamstring-injury",
-      "title": "Rams expect Terrance Ferguson to miss \"another couple weeks\" with hamstring injury",
-      "summary": "The Rams planned to have tight end Terrance Ferguson come off of injured reserve to play against the Commanders in Week 9, but he wound up being ruled out after Friday's practice.",
-      "publishedAt": "2026-11-09T12:00:28Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "029364e91e38d3af",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-vs-bills-prediction-odds-line-josh-allen-monday-night-football",
-      "title": "Vikings vs. Bills prediction: Josh Allen faces NFL's top defense on Monday night",
-      "summary": "Josh Allen and Buffalo's explosive offense face Brian Flores' dominant defense, while Carson Wentz replaces the injured Kyler Murray",
-      "publishedAt": "2026-11-09T11:55:20Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "d3d7a1bd6b12bb89",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-bears-barked-out-the-buccaneers-cadence-causing-a-false-start",
-      "title": "Baker Mayfield: Bears barked out the Buccaneers' cadence, causing a false start",
-      "summary": "The Buccaneers were flagged for five false starts on Sunday night, and quarterback Baker Mayfield said at least one of them was caused by an illegal tactic by the Bears.",
-      "publishedAt": "2026-11-09T11:50:40Z",
-      "teamIds": [
-        "3",
-        "27"
       ]
     }
   ]

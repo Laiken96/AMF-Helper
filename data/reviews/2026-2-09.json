@@ -3,8 +3,8 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "updatedAt": "2026-11-09T19:47:21Z",
-  "complete": false,
+  "updatedAt": "2026-11-10T04:47:23Z",
+  "complete": true,
   "games": [
     {
       "gameId": "401873037",
@@ -150,14 +150,14 @@
       "gameId": "401873051",
       "pickTeamId": "2",
       "favoriteTeamId": "2",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "2",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     }
   ],
-  "points": 13,
+  "points": 14,
   "tipped": 15,
   "deviationNet": 0,
   "tiebreakers": [
@@ -175,20 +175,26 @@
       "slot": "monday",
       "predictedHome": 21,
       "predictedAway": 25,
-      "actualHome": null,
-      "actualAway": null,
-      "diff": null
+      "actualHome": 6,
+      "actualAway": 23,
+      "diff": 17
     }
   ],
   "opinionCompare": {
     "opinions": 15,
-    "scored": 14,
-    "marketHits": 13,
-    "aiHits": 13,
-    "marketHitRate": 0.9286,
-    "aiHitRate": 0.9286,
-    "marketBrier": 0.1324,
-    "aiBrier": 0.1426,
+    "scored": 15,
+    "marketHits": 14,
+    "aiHits": 14,
+    "marketHitRate": 0.9333,
+    "aiHitRate": 0.9333,
+    "marketBrier": 0.1341,
+    "aiBrier": 0.1427,
     "disagreements": []
+  },
+  "rankingCheck": {
+    "playerId": "JA",
+    "reported": 9,
+    "appPoints": 14,
+    "gap": -5
   }
 }
