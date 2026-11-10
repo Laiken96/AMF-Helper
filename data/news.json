@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:47:20Z",
+  "updatedAt": "2026-11-10T06:47:28Z",
   "items": [
     {
       "id": "047c484a72dcdd67",
@@ -50,7 +50,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873051",
       "title": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
-      "summary": "Josh Allen threw a touchdown pass with 44 seconds left before halftime, James Cook rushed 31 times for 107 yards and a late score, and the Buffalo Bills beat Minnesota 23-6 on Monday night, sending Vikings deeper into their unrelenting offensive slump.",
+      "summary": "The Buffalo Bills knew they weren't bound for many style points or likely to reach their league-leading scoring average against Minnesota's relentlessly...",
       "publishedAt": "2026-11-10T04:43:36Z",
       "teamIds": [
         "2",
@@ -241,6 +241,17 @@
       "publishedAt": "2026-11-10T00:43:34Z",
       "teamIds": [
         "16"
+      ]
+    },
+    {
+      "id": "269ee44b06d1d93c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+      "title": "2026 NFL trade deadline updates: Jordan Davis, Andre Cisco on the move",
+      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Jessie Bates III, Davon Godchaux and Jordan Davis to the Jaguars.",
+      "publishedAt": "2026-11-10T00:30:16Z",
+      "teamIds": [
+        "30"
       ]
     },
     {
@@ -790,6 +801,18 @@
       "publishedAt": "2026-11-09T20:41:06Z",
       "teamIds": [
         "9"
+      ]
+    },
+    {
+      "id": "2528cc71424ff164",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jessie-bates-trade-jaguars-falcons-nfl-deadline-2026",
+      "title": "Jaguars-Falcons trade grades: Jacksonville acquires All-Pro safety Jessie Bates III to bolster defense",
+      "summary": "Bates, who is in the final year of his contract, heads to Jacksonville in exchange for two future draft picks",
+      "publishedAt": "2026-11-09T20:39:31Z",
+      "teamIds": [
+        "1",
+        "30"
       ]
     },
     {
@@ -1651,30 +1674,6 @@
       "publishedAt": "2026-11-09T13:36:41Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "858195562ad626d6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50432277/sources-jaguars-get-jessie-bates-iii-trade-falcons",
-      "title": "Jaguars bolster defense, trade for safety Jessie Bates, DT Davon Godchaux",
-      "summary": "The Jaguars bolstered their defense, acquiring safety Jessie Bates III from the Falcons and defensive tackle Davon Godchaux from the Saints.",
-      "publishedAt": "2026-11-09T13:36:38Z",
-      "teamIds": [
-        "1",
-        "30",
-        "18"
-      ]
-    },
-    {
-      "id": "a7d4344824d50fa7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/caleb-williams-four-interceptions-bears-buccaneers-2026",
-      "title": "Caleb Williams unfazed by four-interception game in Bears win: 'I don't get gun shy'",
-      "summary": "Williams threw four interceptions for the first time in his football career but responded by putting Chicago in position for a game-winning field goal",
-      "publishedAt": "2026-11-09T13:36:38Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
