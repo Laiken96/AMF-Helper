@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-10T13:47:20Z",
+    "takenAt": "2026-11-10T15:47:18Z",
     "games": [
       {
         "gameId": "401873066",
@@ -660,7 +660,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685247",
