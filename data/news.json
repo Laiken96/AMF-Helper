@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:47:23Z",
+  "updatedAt": "2026-11-10T13:47:23Z",
   "items": [
+    {
+      "id": "07c2415fe935f39e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50442030/will-daniel-jones-become-minnesota-vikings-player-today",
+      "title": "Will Daniel Jones become a Minnesota Vikings player today?",
+      "summary": null,
+      "publishedAt": "2026-11-10T13:45:16Z",
+      "teamIds": [
+        "11",
+        "16"
+      ]
+    },
+    {
+      "id": "d21059a5542e1b9d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dt-jordan-elliott-to-work-out-for-bears",
+      "title": "Report: DT Jordan Elliott to work out for Bears",
+      "summary": "Defensive tackle Jordan Elliott is getting another look from an NFL team.",
+      "publishedAt": "2026-11-10T13:35:40Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "db917a1ce56a14bb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-week-10-picks-score-predictions-lions-patriots-bengals",
+      "title": "NFL Week 10 picks and score predictions: Lions run over Patriots in Germany, Bengals survive",
+      "summary": "John Breech predicts every Week 10 game, including a Lions victory over the Patriots in Munich",
+      "publishedAt": "2026-11-10T12:57:48Z",
+      "teamIds": [
+        "4",
+        "8",
+        "17"
+      ]
+    },
     {
       "id": "5bc42cf5fc626fce",
       "source": "espn",
@@ -1642,38 +1678,6 @@
       "publishedAt": "2026-11-09T15:31:29Z",
       "teamIds": [
         "30"
-      ]
-    },
-    {
-      "id": "e02bf6ac5dc2b853",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Jordan Davis heads to Jacksonville",
-      "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday",
-      "publishedAt": "2026-11-09T15:28:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "ac288c8aaac57cd3",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bills-vs-vikings-odds-picks-player-props-experts-best-bets-for-monday-night-football-in-nfl-week-9",
-      "title": "Bills vs. Vikings odds, picks, player props: Expert's best bets for Monday Night Football in NFL Week 9",
-      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 9",
-      "publishedAt": "2026-11-09T15:24:23Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "61551d11d7e18536",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lawsuit-is-filed-over-shirtless-bill-belichick-video",
-      "title": "Lawsuit is filed over shirtless Bill Belichick video",
-      "summary": "On Saturday, former Patriots coach Bill Belichick returned to New England, for a game between North Carolina and Connecticut.",
-      "publishedAt": "2026-11-09T15:18:01Z",
-      "teamIds": [
-        "17"
       ]
     }
   ]
