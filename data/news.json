@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:47:28Z",
+  "updatedAt": "2026-11-10T07:47:21Z",
   "items": [
+    {
+      "id": "8964047abecf8c5f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50440119/vikings-kevin-oconnell-defers-qb-trade-question-gm-poor-mnf-outing-carson-wentz",
+      "title": "Vikings left at QB crossroads after Carson Wentz's poor MNF showing vs. Bills",
+      "summary": "After a historically poor performance by Carson Wentz on Monday night, Vikings coach Kevin O'Connell was asked whether the team might trade for a QB ahead of Tuesday's deadline. He deferred the question to GM Nolan Teasley.",
+      "publishedAt": "2026-11-10T07:42:36Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "047c484a72dcdd67",
       "source": "pft",
@@ -1664,17 +1675,6 @@
       "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
       "publishedAt": "2026-11-09T13:36:43Z",
       "teamIds": []
-    },
-    {
-      "id": "f2dc8e0169c2ecb5",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50432491/rex-ryan-blown-away-extraordinary-jordan-love-season",
-      "title": "Rex Ryan blown away by 'extraordinary' Jordan Love this season",
-      "summary": null,
-      "publishedAt": "2026-11-09T13:36:41Z",
-      "teamIds": [
-        "9"
-      ]
     }
   ]
 }
