@@ -1,13 +1,205 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T19:47:21Z",
+  "updatedAt": "2026-11-10T20:47:20Z",
   "items": [
+    {
+      "id": "25a6b241488f1a60",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444528/kirk-cousin-trade-minnesota-vikings-las-vegas-raiders",
+      "title": "What the Kirk Cousins trade means for the Vikings and Raiders",
+      "summary": "We answered big questions surrounding the trade of quarterback Kirk Cousins from the Raiders to the Vikings.",
+      "publishedAt": "2026-11-10T20:45:36Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "1748963b67f4bb4e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50359951/nfl-trade-deadline-2026-fantasy-football-impacts",
+      "title": "Fantasy impacts of the NFL trade deadline: What to know on Cousins, Allen trades",
+      "summary": "NFL trade deadline day is here. We have the latest fantasy news and analysis for every key deal.",
+      "publishedAt": "2026-11-10T20:45:24Z",
+      "teamIds": [
+        "11",
+        "13",
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "8e24e8c254a7b280",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50445309/sources-broncos-land-daiyan-henley-trade-chargers",
+      "title": "Sources: Broncos land LB Daiyan Henley in trade with Chargers before deadline",
+      "summary": "The Broncos have acquired Daiyan Henley from the Chargers in a trade just before Tuesday's deadline, sources told ESPN and NFL Network.",
+      "publishedAt": "2026-11-10T20:45:12Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "3e28ce4702031549",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50445427/kimes-tannenbaum-surprised-chargers-trading-daiyan-henley",
+      "title": "Kimes, Tannenbaum surprised by Chargers trading Daiyan Henley",
+      "summary": null,
+      "publishedAt": "2026-11-10T20:44:21Z",
+      "teamIds": [
+        "2",
+        "7",
+        "11",
+        "24"
+      ]
+    },
+    {
+      "id": "e02bf6ac5dc2b853",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
+      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Vikings reunite with Kirk Cousins",
+      "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday",
+      "publishedAt": "2026-11-10T20:38:58Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "343fbc46e3785ddb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-trade-daiyan-henley-to-broncos-for-2027-fourth-2028-fifth-round-picks",
+      "title": "Chargers trade Daiyan Henley to Broncos for 2027 fourth, 2028 fifth-round picks",
+      "summary": "The last-place team in the AFC West is trading a player to the first-place team in the AFC West.",
+      "publishedAt": "2026-11-10T20:27:52Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "cb8e4c2acea008eb",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50445295/schefter-explains-how-vikings-cousins-reunion-came-be",
+      "title": "Schefter explains how the Vikings-Cousins reunion came to be",
+      "summary": null,
+      "publishedAt": "2026-11-10T20:26:53Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "72ee76d8ede049e6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-despite-multiple-offers-colts-will-not-trade-jonathan-taylor",
+      "title": "Report: Despite multiple offers, Colts will not trade Jonathan Taylor",
+      "summary": "It turns out Jonathan Taylor will not be on the move.",
+      "publishedAt": "2026-11-10T20:19:19Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "4339c51c5e04789f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-can-become-the-first-quarterback-to-play-an-18-game-regular-season",
+      "title": "Kirk Cousins can become the first quarterback to play an 18-game regular season",
+      "summary": "With the Raiders trading him to the Vikings, Kirk Cousins has an opportunity to do something no quarterback has done before: Play 18 games in a single regular season.",
+      "publishedAt": "2026-11-10T20:15:00Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "b3a046f929ce3177",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-in-line-to-make-first-start-vs-seahawks-on-sunday",
+      "title": "Fernando Mendoza in line to make first start vs. Seahawks on Sunday",
+      "summary": "So you want to be a quarterback in the NFL.",
+      "publishedAt": "2026-11-10T20:04:07Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "25fb5880e29806cc",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50445098/eisen-fired-kirk-cousins-return-vikings",
+      "title": "Eisen fired up over Kirk Cousins' return to the Vikings",
+      "summary": null,
+      "publishedAt": "2026-11-10T20:04:06Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "eb2ce4f9081f98f1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50444959/mcafee-co-react-bills-trade-amani-hooker",
+      "title": "McAfee & Co. react to Bills' trade for Amani Hooker",
+      "summary": null,
+      "publishedAt": "2026-11-10T19:53:14Z",
+      "teamIds": [
+        "2",
+        "10"
+      ]
+    },
+    {
+      "id": "7c7610c14df8e0d7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50444954/kirk-cousins-trade-great-fit-vikings-raiders",
+      "title": "Jeff Saturday: Kirk Cousins trade a 'great fit' for Vikings and Raiders",
+      "summary": null,
+      "publishedAt": "2026-11-10T19:53:06Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "1ace63005a7a1fbb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/keenan-allen-trade-grades-49ers-colts",
+      "title": "Keenan Allen trade grades: 49ers acquire WR help from Colts for Day 3 pick, per report",
+      "summary": "San Francisco adds a veteran receiver at the trade deadline",
+      "publishedAt": "2026-11-10T19:50:21Z",
+      "teamIds": [
+        "11",
+        "25"
+      ]
+    },
+    {
+      "id": "58d2a57a28235a77",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-bring-kirk-cousins-back-to-minnesota",
+      "title": "Vikings bring Kirk Cousins back to Minnesota",
+      "summary": "Raiders get a 2027 third-round pick for Cousins.",
+      "publishedAt": "2026-11-10T19:48:14Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "f9a61590cb27dd5f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/amani-hooker-trade-grades-bills-titans",
+      "title": "Amani Hooker trade: Bills gets secondary help from Titans for second-round pick, per report",
+      "summary": "Buffalo had a clear need in the secondary, and they addressed it with one of the NFL's best safeties",
+      "publishedAt": "2026-11-10T19:45:12Z",
+      "teamIds": [
+        "2",
+        "10"
+      ]
+    },
     {
       "id": "fc0841dc6db39d14",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50444457/sources-49ers-acquire-keenan-allen-trade-colts",
-      "title": "Sources: 49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
-      "summary": "The 49ers are completing a trade with the Colts for Keenan Allen in a move that will bolster their injury-plagued WR corps, sources told NFL Network and ESPN.",
+      "title": "49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
+      "summary": "The 49ers completed a trade with the Colts for Keenan Allen in a move that will bolster their injury-plagued WR corps.",
       "publishedAt": "2026-11-10T19:43:47Z",
       "teamIds": [
         "11",
@@ -116,8 +308,8 @@
       "id": "beeb4820f4783dc1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50444360/sources-vikings-id-qb-kirk-cousins-prime-trade-target",
-      "title": "Sources: Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
-      "summary": "Vikings are trading for quarterback Kirk Cousins, sending a 2027 third-round pick to the Raiders, league sources told ESPN and NFL Network.",
+      "title": "Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
+      "summary": "The Vikings are trading for quarterback Kirk Cousins, sending a 2027 third-round pick to the Raiders.",
       "publishedAt": "2026-11-10T18:43:06Z",
       "teamIds": [
         "13",
@@ -148,7 +340,7 @@
       "id": "28cc9f5301ade78c",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/kirk-cousins-trade-vikings-raiders-rumors",
-      "title": "Kirk Cousins trade rumors: Vikings eye stunning reunion as Raiders prepare to unleash No. 1 pick",
+      "title": "Vikings trade for Kirk Cousins: Minnesota turns to familiar face to salvage its season, Raiders begin new era",
       "summary": "Minnesota's 6-2 start is being dragged down by dreadful quarterback play, while Las Vegas looks ready to hand the offense over to rookie Fernando Mendoza",
       "publishedAt": "2026-11-10T18:38:07Z",
       "teamIds": [
@@ -898,7 +1090,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
       "title": "NFL trade deadline grades: Deals for Keenan Allen, Jordan Davis, Jessie Bates",
-      "summary": "Did the 49ers make a smart move to pick up Allen? What about the Jaguars' Monday trade spree? Let's evaluate 13 deals.",
+      "summary": "Did the 49ers make a smart move to pick up Keenan Allen? How did the Jaguars do with their flurry of trades? Let's evaluate 13 deals.",
       "publishedAt": "2026-11-10T12:22:53Z",
       "teamIds": [
         "30",
@@ -1316,11 +1508,11 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Kirk Cousins, Keenan Allen on the move",
-      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Vikings trading for Kirk Cousins.",
+      "title": "2026 NFL trade deadline updates: Josh Downs, Kirk Cousins on the move",
+      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Chiefs trading for Josh Downs.",
       "publishedAt": "2026-11-10T00:30:16Z",
       "teamIds": [
-        "16"
+        "12"
       ]
     },
     {
@@ -1447,187 +1639,6 @@
         "5",
         "34",
         "18"
-      ]
-    },
-    {
-      "id": "fbbb8c8a7b8778d3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-lg-steve-avila-will-miss-time-after-aggravating-hamstring-injury",
-      "title": "Rams LG Steve Avila will miss time after aggravating hamstring injury",
-      "summary": "The Rams will place wide receiver Puka Nacua on injured reserve with MCL and PCL knee sprains and turf toe.",
-      "publishedAt": "2026-11-09T23:30:56Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "94280f7f6879812f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-gardner-minshew-feared-torn-ucl-could-out-for-season-report",
-      "title": "Cardinals' Gardner Minshew feared to have suffered a torn UCL, could be out for season, per report",
-      "summary": "Carson Beck would get the start if Minshew is sidelined",
-      "publishedAt": "2026-11-09T23:29:35Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "c0441299f23f2834",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jordan-davis-trade-grades-eagles-jaguars",
-      "title": "Jordan Davis trade grades: Eagles kickstart rebuild, Jaguars push for 2026 AFC and Super Bowl titles",
-      "summary": "Grading how both squads made out in the biggest trade on the eve of the NFL's Nov. 10 trade deadline",
-      "publishedAt": "2026-11-09T23:26:41Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: James Cook III helps Bills overcome tough Vikings defense",
-      "summary": "Buffalo's offense struggled on Monday night, but James Cook III was able to do enough to defeat Vikings.",
-      "publishedAt": "2026-11-09T23:03:52Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "1389c4785fef93bd",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-michael-wilson-out-for-the-year-neck-fracture-fantasy-football",
-      "title": "Cardinals Michael Wilson out for the year with neck fracture, how it impacts fantasy football",
-      "summary": "Wilson was the top wide receiver for the Cardinals this season, who have lost a lot of depth at the position.",
-      "publishedAt": "2026-11-09T23:01:57Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "128a2d580ef9a0aa",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs",
-      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams after Jags-Eagles trade",
-      "summary": "See where every team picks in the first round and which positions each franchise could target in the 2027 NFL Draft",
-      "publishedAt": "2026-11-09T22:58:02Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "9aeecc190abe63f9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-gardner-minshew-will-likely-need-season-ending-elbow-surgery",
-      "title": "Report: Gardner Minshew will likely need season-ending elbow surgery",
-      "summary": "Minshew suffered a torn ulnar collateral ligament on Sunday.",
-      "publishedAt": "2026-11-09T22:56:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "58ac646b83795375",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-brandon-aiyuks-reinstatement-means-absolutely-nothing-to-49ers",
-      "title": "Kyle Shanahan: Brandon Aiyuk's reinstatement means \"absolutely nothing\" to 49ers",
-      "summary": "Brandon Aiyuk was reinstated from the 49ers' reserve/left squad list on Monday, but head coach Kyle Shanahan's tune has not changed about the wide receiver.",
-      "publishedAt": "2026-11-09T22:55:29Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "ddff3f3f6b645a3d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-say-jaguars-made-an-offer-they-couldnt-refuse-for-jordan-davis",
-      "title": "Eagles say Jaguars made an offer they couldn't refuse for Jordan Davis",
-      "summary": "The Eagles announced the trade that sent defensive tackle Jordan Davis to the Jaguars, saying the \"Jaguars made an offer that executive vice president/General Manager Howie Roseman simply could not refuse.\"",
-      "publishedAt": "2026-11-09T22:55:24Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "9e28ff64d63ee6cf",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/rams-all-pro-puka-nacua-likely-to-go-on-injured-reserve",
-      "title": "Rams All-Pro Puka Nacua likely to go on injured reserve with knee, toe injuries",
-      "summary": "The Rams will now likely be without both Puka Nacua and Davante Adams",
-      "publishedAt": "2026-11-09T22:45:37Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "0ad59ff27ad392b0",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bills-vs-vikings-odds-first-touchdown-scorer-picks-nfl-predictions-monday-night-football",
-      "title": "Bills vs. Vikings odds: First touchdown scorer picks, NFL predictions for Monday Night Football",
-      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
-      "publishedAt": "2026-11-09T22:44:31Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "c528e1ac5f971173",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435879/rams-nacua-likely-hit-ir-mcl-pcl-sprain-turf-toe",
-      "title": "Rams WR Puka Nacua likely to hit IR with MCL and PCL sprain, turf toe",
-      "summary": "Los Angeles Rams wide receiver Puka Nacua is likely going on injured reserve due to an MCL/PCL sprain as well as turf toe, according to coach Sean McVay.",
-      "publishedAt": "2026-11-09T22:43:42Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "ba0a8d7b2e072fb6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435608/cardinals-wr-michael-wilson-neck-miss-rest-season",
-      "title": "Sources: Cardinals' Gardner Minshew has UCL injury; Michael Wilson out for year",
-      "summary": "Cardinals quarterback Gardner Minshew probably will need season-ending surgery on his right UCL, sources told ESPN. Michael Wilson, Arizona's top wide receiver, is also out for the season because of a neck injury.",
-      "publishedAt": "2026-11-09T22:42:07Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "156fdbfcf73c0fe6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50436023/josh-jacobs-needs-surgery-finger",
-      "title": "Packers coach: Josh Jacobs needs surgery on finger",
-      "summary": null,
-      "publishedAt": "2026-11-09T22:39:30Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "7780e59d7f7c84d2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/gardner-minshew-having-tests-on-right-arm-after-injury-on-sunday",
-      "title": "Gardner Minshew having tests on right arm after injury on Sunday",
-      "summary": "Cardinals quarterback Gardner Minshew remained in Sunday's loss to the Seahawks after hurting his right arm late in the first half, but his status for the team's Week 10 game against the Rams is not certain.",
-      "publishedAt": "2026-11-09T22:39:14Z",
-      "teamIds": [
-        "22",
-        "14",
-        "26"
-      ]
-    },
-    {
-      "id": "a4f8257347740acd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435848/49ers-receiver-brandon-aiyuk-reinstated-nfl",
-      "title": "Brandon Aiyuk reinstated by NFL; 49ers have 2-game roster exemption for receiver",
-      "summary": "The NFL reinstated San Francisco 49ers wide receiver Brandon Aiyuk on Monday after he reported for a physical, according to the league's transaction wire.",
-      "publishedAt": "2026-11-09T22:36:53Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]

@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-10T19:47:19Z",
+    "takenAt": "2026-11-10T20:47:18Z",
     "games": [
       {
         "gameId": "401873066",
@@ -70,9 +70,9 @@
             "status": null
           },
           {
-            "athleteId": "4688813",
-            "name": "Josh Downs",
-            "pos": "WR",
+            "athleteId": "4431459",
+            "name": "Tyler Warren",
+            "pos": "TE",
             "teamId": "11",
             "teamAbbr": "IND",
             "roles": [
@@ -859,7 +859,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4262921",
