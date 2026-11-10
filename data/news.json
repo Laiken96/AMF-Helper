@@ -1,12 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:47:23Z",
+  "updatedAt": "2026-11-10T05:47:20Z",
   "items": [
+    {
+      "id": "047c484a72dcdd67",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-oconnell-on-potential-quarterback-trade-ill-defer-to-nolan-teasley-on-that",
+      "title": "Kevin O'Connell on potential quarterback trade: \"I'll defer to Nolan [Teasley] on that\"",
+      "summary": "Vikings coach doesn't rule out making a deal by Tuesday's deadline.",
+      "publishedAt": "2026-11-10T05:27:29Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "62fb95488e7c4edc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/receiver-needy-teams-should-call-about-justin-jefferson",
+      "title": "Receiver-needy teams should call about Justin Jefferson",
+      "summary": "If the Vikings aren't going to upgrade at QB, they should give Jefferson a chance at a championship.",
+      "publishedAt": "2026-11-10T05:02:48Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "6453dfe090f8dfee",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50435734/bills-vikings-josh-allen-carson-wentz-mnf",
-      "title": "Josh Allen leads Bills to win over tough Vikings' defense",
+      "title": "Josh Allen leads Bills to win over tough Vikings defense",
       "summary": "The Vikings kept Allen in check for much of the game, but he helped the Bills earn a low-scoring victory.",
       "publishedAt": "2026-11-10T04:44:52Z",
       "teamIds": [
@@ -800,6 +822,18 @@
       "title": "Bills vs. Vikings odds: First touchdown scorer picks, NFL predictions for Monday Night Football",
       "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
       "publishedAt": "2026-11-09T20:17:23Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "029364e91e38d3af",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-vs-bills-prediction-odds-line-josh-allen-monday-night-football",
+      "title": "Vikings vs. Bills prediction: Josh Allen faces NFL's top defense on Monday night",
+      "summary": "Josh Allen and Buffalo's explosive offense face Brian Flores' dominant defense, while Carson Wentz replaces the injured Kyler Murray",
+      "publishedAt": "2026-11-09T20:13:34Z",
       "teamIds": [
         "2",
         "16"
@@ -1600,6 +1634,15 @@
       "teamIds": []
     },
     {
+      "id": "1afc86d5c680b3af",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-cover-32-week-9-2026",
+      "title": "Cover 32: What every team should do at NFL trade deadline, plus game balls and gaffes from Week 9",
+      "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
+      "publishedAt": "2026-11-09T13:36:43Z",
+      "teamIds": []
+    },
+    {
       "id": "f2dc8e0169c2ecb5",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50432491/rex-ryan-blown-away-extraordinary-jordan-love-season",
@@ -1632,52 +1675,6 @@
       "publishedAt": "2026-11-09T13:36:38Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "269ee44b06d1d93c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Jordan Davis, Andre Cisco on the move",
-      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Jessie Bates III, Davon Godchaux and Jordan Davis to the Jaguars.",
-      "publishedAt": "2026-11-09T13:33:46Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "2528cc71424ff164",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jessie-bates-trade-jaguars-falcons-nfl-deadline-2026",
-      "title": "Jaguars-Falcons trade grades: Jacksonville acquires All-Pro safety Jessie Bates III to bolster defense",
-      "summary": "Bates, who is in the final year of his contract, heads to Jacksonville in exchange for two future draft picks",
-      "publishedAt": "2026-11-09T13:26:42Z",
-      "teamIds": [
-        "1",
-        "30"
-      ]
-    },
-    {
-      "id": "5e3be32e12b07942",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50432366/schefter-confirms-falcons-trading-safety-jessie-bates-iii-jaguars",
-      "title": "Schefter confirms Falcons trading safety Jessie Bates III to the Jaguars",
-      "summary": null,
-      "publishedAt": "2026-11-09T13:15:40Z",
-      "teamIds": [
-        "1",
-        "30"
-      ]
-    },
-    {
-      "id": "19093607eabb3fb1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-will-mcdonald-requests-a-trade-away-from-the-jets",
-      "title": "Report: Will McDonald requests a trade away from the Jets",
-      "summary": "The Jets have balked at the idea of trading running back Breece Hall or wide receiver Garrett Wilson during their latest losing season, but linebacker Will McDonald is hoping they'll be amenable to shipping him out of town.",
-      "publishedAt": "2026-11-09T13:14:26Z",
-      "teamIds": [
-        "20"
       ]
     }
   ]
