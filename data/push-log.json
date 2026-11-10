@@ -66,6 +66,18 @@
       "sentAt": "2026-11-10T00:20:34Z",
       "title": "Tippschluss in 54 min",
       "body": "BUF@MIN. MIN K.Murray QB Q>O"
+    },
+    {
+      "key": "tips-ready:2026-2-10",
+      "sentAt": "2026-11-10T04:50:32Z",
+      "title": "Tippliste W10 bereit",
+      "body": "14 Spiele, Vorschlag Favorit. TB TNF WSH@NYG 20:23, MNF LAC@BAL 17:22"
+    },
+    {
+      "key": "review-ready:2026-2-9",
+      "sentAt": "2026-11-10T04:50:32Z",
+      "title": "Bilanz W9 bereit",
+      "body": "App Punkte 14 von 15, Tiebreaker Abweichung TNF 15, MNF 17"
     }
   ]
 }
