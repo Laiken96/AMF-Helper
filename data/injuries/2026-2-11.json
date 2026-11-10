@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-10T15:47:18Z",
+    "takenAt": "2026-11-10T16:47:20Z",
     "games": [
       {
         "gameId": "401873066",
@@ -523,7 +523,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -626,7 +626,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685382",
@@ -726,17 +726,6 @@
             "status": null
           },
           {
-            "athleteId": "4433970",
-            "name": "J.J. McCarthy",
-            "pos": "QB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
-          },
-          {
             "athleteId": "4595348",
             "name": "Malik Nabers",
             "pos": "WR",
@@ -756,7 +745,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -859,7 +848,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4262921",

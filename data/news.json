@@ -1,7 +1,188 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:47:19Z",
+  "updatedAt": "2026-11-10T16:47:22Z",
   "items": [
+    {
+      "id": "bfe22df31a84ccd9",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50443286/caleb-douglas-not-starting-fantasy",
+      "title": "Dopp: Caleb Douglas is not someone you will be starting in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-10T16:46:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "04ec972f6f51224e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50443229/bengals-trade-eagles-lb-arnold-ebiketie-sources-say",
+      "title": "Bengals trade for Eagles LB Arnold Ebiketie, sources say",
+      "summary": "The Bengals have added edge rusher Arnold Ebiketie in a trade with the Eagles, sources told NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-10T16:41:22Z",
+      "teamIds": [
+        "4",
+        "21"
+      ]
+    },
+    {
+      "id": "43f7b10108c22010",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50117108/fantasy-football-2026-strength-schedule-rest-season",
+      "title": "Strength of schedule (SOS) cheat sheet: Every team's year-to-date and rest-of-season ratings",
+      "summary": "Ranking each team's remaining schedule and how it might impact every position's fantasy performance.",
+      "publishedAt": "2026-11-10T16:41:21Z",
+      "teamIds": []
+    },
+    {
+      "id": "e5383142ea6d1279",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50443204/sources-vikings-asking-qbs-ahead-trade-deadline",
+      "title": "Sources: Vikings inquiring about QBs ahead of trade deadline",
+      "summary": "The Vikings have started making calls around the league about trading for a quarterback ahead of Tuesday's deadline, sources told ESPN and NFL Network.",
+      "publishedAt": "2026-11-10T16:39:01Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "b03a27436a4b927c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50442965/blake-corum-one-luckiest-rbs-nfl",
+      "title": "Mike Clay: Blake Corum has been one of the luckiest RBs in the NFL",
+      "summary": null,
+      "publishedAt": "2026-11-10T16:38:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "3a60a9cb9a201883",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50442960/why-dopp-doesnt-lions-matchup-corey-kiner",
+      "title": "Why Dopp doesn’t like the Lions matchup for Corey Kiner",
+      "summary": null,
+      "publishedAt": "2026-11-10T16:36:54Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "0c561322462a9158",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50442951/dopp-clay-differ-dj-moore-rest-season-outlook",
+      "title": "Dopp, Clay differ on DJ Moore's rest of season outlook",
+      "summary": null,
+      "publishedAt": "2026-11-10T16:34:05Z",
+      "teamIds": []
+    },
+    {
+      "id": "98a3a8b72bce9e6c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dolphins-dt-zach-sieler-to-have-season-ending-biceps-surgery",
+      "title": "Report: Dolphins DT Zach Sieler to have season-ending biceps surgery",
+      "summary": "The Dolphins will reportedly be without one of their top defensive players for the rest of the season.",
+      "publishedAt": "2026-11-10T16:28:31Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 10: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-10T16:20:50Z",
+      "teamIds": []
+    },
+    {
+      "id": "1130a626dd8e650c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-agree-to-acquire-arnold-ebiketie-from-eagles",
+      "title": "Bengals agree to acquire Arnold Ebiketie from Eagles",
+      "summary": "The Bengals are bringing in some help for their defensive front.",
+      "publishedAt": "2026-11-10T16:20:08Z",
+      "teamIds": [
+        "4",
+        "21"
+      ]
+    },
+    {
+      "id": "b9b0df9c1d329bd4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-add-qb-joey-aguilar-off-jaguars-practice-squad",
+      "title": "Cardinals add QB Joey Aguilar off Jaguars' practice squad",
+      "summary": "After trading quarterback Jacoby Brissett, and then losing his replacement Gardner Minshew to a potentially season-ending elbow injury, the Cardinals are bringing in quarterback reinforcements.",
+      "publishedAt": "2026-11-10T16:18:22Z",
+      "teamIds": [
+        "22",
+        "30"
+      ]
+    },
+    {
+      "id": "1191314c402965eb",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50443081/sportsbook-liability-burrow-overtakes-allen-mvp-favorite",
+      "title": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
+      "summary": "Bengals QB Joe Burrow has overtaken Bills star Josh Allen as the betting favorite for NFL MVP honors, a development that could prove costly for sportsbooks.",
+      "publishedAt": "2026-11-10T16:17:01Z",
+      "teamIds": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "id": "9f5d831ac167e7b9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-as-expected-are-making-calls-about-adding-a-quarterback",
+      "title": "The Vikings, as expected, are making calls about adding a quarterback",
+      "summary": "The clock is ticking, and it won't be cheap to trade for a starter.",
+      "publishedAt": "2026-11-10T16:15:05Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "944878381b54adb4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50442903/jaguars-not-planning-trade-wr-brian-thomas-jr",
+      "title": "Sources: Jaguars telling teams they aren't trading WR Brian Thomas Jr.",
+      "summary": "The Jaguars plan to keep wide receiver Brian Thomas Jr. through the trade deadline, sources told ESPN's Jeremy Fowler.",
+      "publishedAt": "2026-11-10T16:03:28Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "6da76839a6b63637",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/puka-nacua-injury-nfl-trade-deadline-five-receivers-rams-should-target-george-pickens",
+      "title": "After Puka Nacua injury, five receivers the Rams should target at the 2026 trade deadline",
+      "summary": "With Puka Nacua and Davante Adams both out, the Rams suddenly need some help at wide receiver",
+      "publishedAt": "2026-11-10T16:02:40Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "19fc08bd64e36549",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-plan-to-keep-brian-thomas-jr-at-trade-deadline",
+      "title": "Report: Jaguars plan to keep Brian Thomas Jr. at trade deadline",
+      "summary": "The Jaguars have been bringing players in to fortify the roster for a deep postseason run.",
+      "publishedAt": "2026-11-10T15:54:12Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "86a2b07b1ca307e9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-davis-is-a-little-disappointed-to-be-traded-by-eagles",
+      "title": "Jordan Davis is \"a little disappointed\" to be traded by Eagles",
+      "summary": "For players with no-trade clauses and most starting-level quarterbacks, there's no reason to worry about a rogue wind blowing them to a new team in a new city.",
+      "publishedAt": "2026-11-10T15:46:34Z",
+      "teamIds": [
+        "21"
+      ]
+    },
     {
       "id": "c77daa7e48532354",
       "source": "espn",
@@ -713,11 +894,11 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Jordan Davis, Andre Cisco on the move",
-      "summary": "The NFL trade deadline is Tuesday at 4 p.m. ET. We're following all the action, including Jessie Bates III, Davon Godchaux and Jordan Davis to the Jaguars.",
+      "title": "2026 NFL trade deadline updates: Arnold Ebiketie, Jordan Davis on the move",
+      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including Arnold Ebiketie to the Bengals.",
       "publishedAt": "2026-11-10T00:30:16Z",
       "teamIds": [
-        "30"
+        "4"
       ]
     },
     {
@@ -831,6 +1012,19 @@
       "publishedAt": "2026-11-09T23:36:12Z",
       "teamIds": [
         "19"
+      ]
+    },
+    {
+      "id": "878e2ad1fc1e9214",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/browns-starting-qb-deshaun-watson-shedeur-sanders-texans-2026",
+      "title": "Browns QB update: Todd Monken hasn't decided between Deshaun Watson and Shedeur Sanders for Week 10",
+      "summary": "Sanders' performance against the Saints might earn another chance to start Sunday vs. the Texans",
+      "publishedAt": "2026-11-09T23:34:07Z",
+      "teamIds": [
+        "5",
+        "34",
+        "18"
       ]
     },
     {
@@ -1450,210 +1644,6 @@
         "8",
         "20"
       ]
-    },
-    {
-      "id": "08fa8d047b299b52",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-trade-acquire-saints-dt-davon-godchaux-second-defensive-move-report",
-      "title": "Jaguars agree to trade for Saints DT Davon Godchaux in second defensive trade of the day, per report",
-      "summary": "Jacksonville is among the most active buyers ahead of the NFL trade deadline",
-      "publishedAt": "2026-11-09T19:09:56Z",
-      "teamIds": [
-        "30",
-        "18"
-      ]
-    },
-    {
-      "id": "43e9473602bb5e02",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-olsen-accuses-media-of-putting-words-in-my-mouth-about-malik-nabers",
-      "title": "Greg Olsen accuses media of putting \"words in my mouth\" about Malik Nabers",
-      "summary": "After Sunday's win over the Eagles, Giants receiver Malik Nabers had some things to say about things Fox's Greg Olsen had to say about Nabers during the game.",
-      "publishedAt": "2026-11-09T19:05:10Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "eb6b0cb156473d16",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-schedule-flex-giants-jaguars-steelers-eagles",
-      "title": "NFL Week 11 schedule flex: Giants-Jaguars moves to 4:25, Steelers-Eagles shifts to 1 p.m.",
-      "summary": "New York and Jacksonville will receive a larger Week 11 spotlight as the league swaps their start time with the intrastate matchup between Pittsburgh and Philadelphia",
-      "publishedAt": "2026-11-09T18:41:00Z",
-      "teamIds": [
-        "30",
-        "19",
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "2ec5caca4ede2e1b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-agree-to-acquire-s-andre-cisco-from-jets",
-      "title": "Lions agree to acquire S Andre Cisco from Jets",
-      "summary": "Detroit is bringing in some secondary help.",
-      "publishedAt": "2026-11-09T18:38:58Z",
-      "teamIds": [
-        "8",
-        "20"
-      ]
-    },
-    {
-      "id": "c1bbdf2dbd101992",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50392822/bills-vs-vikings-watch-monday-night-football-week-9",
-      "title": "Bills vs. Vikings: Where to watch 'Monday Night Football'",
-      "summary": "Here's what to know about the Week 9 matchup.",
-      "publishedAt": "2026-11-09T18:36:29Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "c0a0c7b659201158",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/seahawks-plan-to-start-drew-lock-in-week-10-despite-oblique-injury-sam-darnold-to-miss-another-game",
-      "title": "Seahawks plan to start Drew Lock in Week 10 despite oblique injury, Sam Darnold to miss another game",
-      "summary": "Lock will make his third start of the season as the Seattle quarterback group battles multiple injuries",
-      "publishedAt": "2026-11-09T18:30:04Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "bdc02413e6ce5f47",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-patrick-mahomes-day-to-day-with-elbow-injury",
-      "title": "Andy Reid: Patrick Mahomes day-to-day with elbow injury",
-      "summary": "Reid said he had seen Mahomes on Monday and the QB was in \"good spirits.\"",
-      "publishedAt": "2026-11-09T18:26:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "fa031aa02d9c560d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-agree-to-trade-dt-davon-godchaux-to-jaguars",
-      "title": "Report: Saints agree to trade DT Davon Godchaux to Jaguars",
-      "summary": "The Jaguars weren't done trading when they swung a deal to acquire safety Jessie Bates on Monday morning.",
-      "publishedAt": "2026-11-09T18:25:20Z",
-      "teamIds": [
-        "30",
-        "18"
-      ]
-    },
-    {
-      "id": "f75b27e52221b961",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50434265/watch-2026-nfl-trade-deadline-coverage",
-      "title": "Where to watch 2026 NFL trade deadline coverage",
-      "summary": "The NFL trade deadline is Tuesday.",
-      "publishedAt": "2026-11-09T18:23:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "785f781195f93bac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-moves-jaguars-giants-game-in-week-11-to-a-4-25-p-m-et-kickoff",
-      "title": "NFL moves Jaguars-Giants game in Week 11 to a 4:25 p.m. ET kickoff",
-      "summary": "The NFL announced a couple of changes to kickoff times for Week 11 of the 2026 season.",
-      "publishedAt": "2026-11-09T18:11:26Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "dfbde595f7306b1f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50434130/seahawks-start-drew-lock-vs-raiders-mike-macdonald-says",
-      "title": "Seahawks to start QB Drew Lock vs. Raiders, giving Sam Darnold more time to heal",
-      "summary": "The Seahawks plan to start quarterback Drew Lock on Sunday against the Raiders, giving Sam Darnold more time to recover from his injuries.",
-      "publishedAt": "2026-11-09T18:04:13Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "0a5417ce3ec92a2e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-brady-there-was-some-deli-meat-given-out-by-drake-maye-today",
-      "title": "Tom Brady: \"There was some deli meat given out by Drake Maye today\"",
-      "summary": "The quarterback with a statue outside the stadium returned for the first time to call a game in his capacity as a broadcaster for Fox.",
-      "publishedAt": "2026-11-09T18:03:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "2dcc33b1897efb45",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-ruled-out-for-week-10-drew-lock-in-line-to-start",
-      "title": "Sam Darnold ruled out for Week 10, Drew Lock in line to start",
-      "summary": "Sam Darnold will be out for at least another week, but the Seahawks' regular backup quarterback should be able to play in the Week 10 matchup against the Raiders.",
-      "publishedAt": "2026-11-09T17:58:37Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "bace52391cfd1a69",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50433758/giants-feel-fairly-good-qb-mccarthy-playing-thursday",
-      "title": "Harbaugh: Giants 'feel fairly good' about McCarthy (hip) playing vs. Commanders",
-      "summary": "Giants coach John Harbaugh says he feels \"fairly good\" about quarterback J.J. McCarthy's availability this week after he suffered a hip injury in Sunday's win against the Eagles.",
-      "publishedAt": "2026-11-09T17:46:29Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "0d37ac187a359ee9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cam-skattebo-injury-update-giants-rb-thursday-night-commanders",
-      "title": "Cam Skattebo injury update: Giants RB 'full go' for Thursday night vs. Commanders",
-      "summary": "Cam Skattebo is set to return from a hamstring injury as the NFC East-leading Giants prepare for a rematch with the Commanders",
-      "publishedAt": "2026-11-09T17:38:15Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "ab439d53b790634c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50433760/source-browns-returning-deshaun-watson-qb1-week-10",
-      "title": "Source: Browns returning to Watson as QB1 despite Sanders' strong fill-in start",
-      "summary": "The Browns plan to start Deshaun Watson in Week 10 against the Texans, a source told ESPN's Jeremy Fowler on Monday.",
-      "publishedAt": "2026-11-09T17:29:47Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "1e103bb1748e395a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jj-mccarthy-injury-giants-qb-on-track-commanders-thursday-night-football",
-      "title": "JJ McCarthy injury: Giants QB is on track to face Commanders on 'Thursday Night Football'",
-      "summary": "McCarthy suffered a hip injury during Sunday's win over the Eagles but returned to play",
-      "publishedAt": "2026-11-09T17:25:59Z",
-      "teamIds": [
-        "19",
-        "21",
-        "28"
-      ]
-    },
-    {
-      "id": "ea02022027fa9eef",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50433783/audric-es-hot-waiver-add-week-10",
-      "title": "Clay: Audric Estime a 'hot waiver add' in Week 10",
-      "summary": null,
-      "publishedAt": "2026-11-09T17:25:38Z",
-      "teamIds": []
     }
   ]
 }
