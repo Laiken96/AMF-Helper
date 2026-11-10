@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-10T15:20:32Z",
+    "takenAt": "2026-11-10T15:50:31Z",
     "games": [
       {
         "gameId": "401873052",
@@ -23,17 +23,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4433970",
-            "name": "J.J. McCarthy",
-            "pos": "QB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
           },
           {
             "athleteId": "4595348",
@@ -55,7 +44,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "2976212",
@@ -216,7 +205,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685247",
@@ -309,7 +298,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685702",
@@ -650,7 +639,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4262921",
@@ -724,7 +713,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Doubtful"
           },
           {
             "athleteId": "4430737",
@@ -787,7 +776,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4430878",
@@ -1009,7 +998,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4612826",
