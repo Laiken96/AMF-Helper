@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:47:22Z",
+  "updatedAt": "2026-11-10T03:47:21Z",
   "items": [
+    {
+      "id": "4c781626d9a82151",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-rb-rhamondre-stevenson-will-miss-multiple-weeks-with-a-knee-issue",
+      "title": "Patriots RB Rhamondre Stevenson will miss multiple weeks with a knee issue",
+      "summary": "Patriots running back Rhamondre Stevenson will miss multiple weeks with a knee issue.",
+      "publishedAt": "2026-11-10T03:21:18Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "8cf510477f46e10f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50438482/patriots-rhamondre-stevenson-dealing-knee-tendon-issue",
+      "title": "Source: Pats' Rhamondre Stevenson expected to miss time with knee tendon issue",
+      "summary": "Patriots top running back Rhamondre Stevenson is dealing with a knee tendon issue that is not expected to require surgery but could sideline him for a short period of time, a source told ESPN's Adam Schefter.",
+      "publishedAt": "2026-11-10T03:19:17Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "f3b1443643124e0b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-may-plan-for-jordan-davis-to-play-more-than-52-percent-of-the-time",
+      "title": "Jaguars may plan for Jordan Davis to play more than 52 percent of the time",
+      "summary": "The good news for defensive tackle Jordan Davis is that he's been traded to a team in a state with no income tax.",
+      "publishedAt": "2026-11-10T03:18:18Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "eefe3efee3b02208",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-could-return-after-the-seahawks-bye-week",
+      "title": "Sam Darnold could return after the Seahawks' bye week",
+      "summary": "Seahawks quarterback Sam Darnold will not play in Sunday's game against the Raiders, but he could return after the team's bye week.",
+      "publishedAt": "2026-11-10T03:06:24Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "4e223f6cd46f910c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-lead-vikings-10-6-at-halftime",
+      "title": "Monday Night Football: Bills lead Vikings 10-6 at halftime",
+      "summary": "Josh Allen threw a 25-yard touchdown pass to Keleki Latu with 44 seconds left in the first half for the halftime lead.",
+      "publishedAt": "2026-11-10T02:59:20Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "93a909f9284ac397",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/can-carson-beck-convince-cardinals-not-to-draft-a-qb",
+      "title": "Can Carson Beck convince the Cardinals not to draft a QB? He has eight games to make his case",
+      "summary": "The third-round rookie has eight games to prove he can be this year's Tyler Shough, but history says that won't be easy",
+      "publishedAt": "2026-11-10T02:36:01Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "adf78cb0488e5c1b",
       "source": "pft",
@@ -1612,74 +1680,6 @@
         "3",
         "27"
       ]
-    },
-    {
-      "id": "3d299cc366a2879d",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50413261/nfl-week-9-odds-betting-preview-bills-vikings-prop-tips",
-      "title": "How to bet Bills-Vikings: Analysis, best bets and top prop plays",
-      "summary": "Odds, analysis and picks to help you bet Monday night's Buffalo Bills-Minnesota Vikings game.",
-      "publishedAt": "2026-11-09T11:46:26Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "bcc5c9171e9d1ff9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-sundays-game-definitely-up-there-with-best-ive-ever-played",
-      "title": "Jordan Love: Sunday's game \"definitely up there\" with best I've ever played",
-      "summary": "Packers quarterback Jordan Love ran for a touchdown to stake the team to a lead 100 seconds into Sunday's game in New England, but he used his right arm as his main weapon over the rest of the 45-27 win.",
-      "publishedAt": "2026-11-09T11:42:20Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "21d0ca8f8b75656d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-wr-luther-burden-suffered-a-concussion-on-sunday-night",
-      "title": "Bears WR Luther Burden suffered a concussion on Sunday night",
-      "summary": "Bears wide receiver Luther Burden went for a medical evaluation near the end of Sunday night's win over the Buccaneers and head coach Ben Johnson updated his condition after the game.",
-      "publishedAt": "2026-11-09T11:29:40Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "f628ffbfadcd8219",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carl-granderson-saints-defense-was-disrespected-so-we-came-in-ready-to-play",
-      "title": "Carl Granderson: Saints defense was disrespected, so we came in ready to play",
-      "summary": "Browns quarterback Shedeur Sanders's response to questions about the Saints defense leading into Sunday's game drew the ire of Saints linebacker Carl Granderson and they remained on his mind after a 23-22 overtime win.",
-      "publishedAt": "2026-11-09T11:21:30Z",
-      "teamIds": [
-        "5",
-        "18"
-      ]
-    },
-    {
-      "id": "88b10e7ce24fa370",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-thinks-joe-burrow-has-another-step-in-him",
-      "title": "Tee Higgins thinks Joe Burrow has \"another step in him\"",
-      "summary": "The Bengals extended their winning streak to four games against the Falcons in Madrid on Sunday and they continued to use their aerial attack to fuel their success.",
-      "publishedAt": "2026-11-09T11:08:47Z",
-      "teamIds": [
-        "1",
-        "4"
-      ]
-    },
-    {
-      "id": "abe341128dba476c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-whos-buying-whos-selling",
-      "title": "2026 NFL trade deadline: Who's buying, who's selling, plus biggest names, led by Jonathan Taylor",
-      "summary": "Plus, there are a few wild cards in play ahead of Tuesday's deadline",
-      "publishedAt": "2026-11-09T11:00:56Z",
-      "teamIds": []
     }
   ]
 }

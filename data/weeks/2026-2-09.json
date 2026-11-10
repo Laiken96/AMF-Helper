@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 9,
-  "fetchedAt": "2026-11-10T02:47:18Z",
+  "fetchedAt": "2026-11-10T03:47:16Z",
   "source": "espn",
   "games": [
     {
@@ -323,9 +323,9 @@
       "homeId": "16",
       "awayId": "2",
       "status": "in_progress",
-      "statusDetail": "0:32 - 2nd",
-      "homeScore": 3,
-      "awayScore": 10,
+      "statusDetail": "15:00 - 4th",
+      "homeScore": 6,
+      "awayScore": 13,
       "venue": "U.S. Bank Stadium",
       "neutralSite": false,
       "venueInfo": {
