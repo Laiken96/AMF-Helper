@@ -1,12 +1,203 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:47:20Z",
+  "updatedAt": "2026-11-10T21:47:24Z",
   "items": [
+    {
+      "id": "4bb7204fe4146b0d",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
+      "title": "Rest-of-season rankings: Cousins, Jefferson, Mendoza biggest deadline winners",
+      "summary": "Need to make or assess a trade offer? Deciding between two free agents? These rankings are designed to help.",
+      "publishedAt": "2026-11-10T21:45:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Malik Willis placed on IR, are there any Dolphins you should start?",
+      "summary": "What does the Miami Dolphins' fantasy football outlook show with starting QB Malik Willis placed on IR?",
+      "publishedAt": "2026-11-10T21:45:08Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "d934140e8f1f0923",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
+      "title": "2026 NFL trade deadline winners, losers: From Kirk Cousins to the Bengals",
+      "summary": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
+      "publishedAt": "2026-11-10T21:42:38Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "5152b885ebbd4baf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-bring-back-wr-xavier-smith-sign-him-off-49ers-practice-squad",
+      "title": "Rams bring back WR Xavier Smith, sign him off 49ers practice squad",
+      "summary": "The Rams did not bring in a receiver via trade before the deadline, but they have acquired one who knows their system.",
+      "publishedAt": "2026-11-10T21:33:49Z",
+      "teamIds": [
+        "14",
+        "25"
+      ]
+    },
+    {
+      "id": "ce2a89a06d6fc559",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50445819/dolphins-put-qb-malik-willis-ir-groin-injury",
+      "title": "Dolphins put QB Malik Willis on IR with groin injury",
+      "summary": "The Dolphins have put quarterback Malik Wills on injured reserve because of a groin injury. He's eligible to return in Week 14",
+      "publishedAt": "2026-11-10T21:32:33Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "5bbec01a5bd417ab",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cowboys-to-sign-rb-kendre-miller-to-the-practice-squad",
+      "title": "Report: Cowboys to sign RB Kendre Miller to the practice squad",
+      "summary": "The Cowboys are expected to sign running back Kendre Miller to the practice squad, Joseph Hoyt of the Dallas Morning News reports.",
+      "publishedAt": "2026-11-10T21:29:38Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "07988c0cf1866d1f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-trade-for-ol-ryan-neuzil-send-ol-andrew-vorhees-to-falcons",
+      "title": "Ravens trade for OL Ryan Neuzil, send OL Andrew Vorhees to Falcons",
+      "summary": "The Falcons and Ravens executed one last trade before the 4 p.m.",
+      "publishedAt": "2026-11-10T21:26:34Z",
+      "teamIds": [
+        "1",
+        "33"
+      ]
+    },
+    {
+      "id": "5fa4baabc5451c6d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50445576/chiefs-trade-colts-wr-josh-downs",
+      "title": "Chiefs snag needed help at WR, trade for Colts' Josh Downs",
+      "summary": "The Chiefs have obtained needed help at wide receiver, acquiring Josh Downs in a trade with the Colts.",
+      "publishedAt": "2026-11-10T21:23:51Z",
+      "teamIds": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "aee8d1fd7f482790",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-cam-skattebo-return-to-full-participation-tuesday",
+      "title": "J.J. McCarthy, Cam Skattebo return to full participation Tuesday",
+      "summary": "Giants quarterback J.J.",
+      "publishedAt": "2026-11-10T21:22:17Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "e948f73f7c931fb6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50445818/orlovsky-perplexed-colts-not-trading-jonathan-taylor",
+      "title": "Orlovsky perplexed by the Colts not trading Jonathan Taylor",
+      "summary": null,
+      "publishedAt": "2026-11-10T21:17:26Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "ee4608fd102a53b0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-waive-cb-alijah-huzzie",
+      "title": "Jaguars waive CB Alijah Huzzie",
+      "summary": "The Jaguars spent Monday adding players to their roster and they moved in the other direction on Tuesday.",
+      "publishedAt": "2026-11-10T21:07:06Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "428a60b0ec0c1293",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50445612/chiefs-trade-josh-downs-no-brainer",
+      "title": "Mike Tannenbaum: Chiefs' trade for Josh Downs is a 'no-brainer'",
+      "summary": null,
+      "publishedAt": "2026-11-10T21:01:18Z",
+      "teamIds": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "dcbdf1d9096a8ffd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dolphins-to-place-qb-malik-willis-on-ir-with-core-muscle-injury",
+      "title": "Dolphins place QB Malik Willis on IR with core muscle injury",
+      "summary": "The Dolphins placed quarterback Malik Willis on injured reserve, the team announced.",
+      "publishedAt": "2026-11-10T20:59:56Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "7bc1e8721628e1c9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jonathan-taylor-stays-with-colts-nfl-trade-deadline",
+      "title": "Jonathan Taylor stays with Colts: Why Indianapolis demanded a first-round pick",
+      "summary": "Indianapolis may be rebuilding, but Taylor's team-friendly contract and place among the NFL's most productive running backs gave the franchise little reason to accept a discounted offer",
+      "publishedAt": "2026-11-10T20:57:01Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "ae582bca86262a58",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-trade-grades-vikings-raiders-fernando-mendoza",
+      "title": "Kirk Cousins trade grades: Vikings hope to salvage offense; Raiders get 'A,' turn to Fernando Mendoza",
+      "summary": "Cousins returns to the place he played from 2018-23",
+      "publishedAt": "2026-11-10T20:56:33Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "d77a9884697d3491",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-announce-return-of-kirk-cousins",
+      "title": "Vikings announce return of Kirk Cousins",
+      "summary": "It's official.",
+      "publishedAt": "2026-11-10T20:56:31Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "7ba1a645b7755207",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-kirk-cousins-contract-points-to-a-revised-deal-or-termination-after-2026",
+      "title": "The Kirk Cousins contract points to a revised deal or termination after 2026",
+      "summary": "The last time the Vikings brought back a key former player for a third-round pick, the reunion didn't last long.",
+      "publishedAt": "2026-11-10T20:46:27Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "25a6b241488f1a60",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50444528/kirk-cousin-trade-minnesota-vikings-las-vegas-raiders",
-      "title": "What the Kirk Cousins trade means for the Vikings and Raiders",
+      "title": "What the Kirk Cousins trade means for the Vikings and the Raiders",
       "summary": "We answered big questions surrounding the trade of quarterback Kirk Cousins from the Raiders to the Vikings.",
       "publishedAt": "2026-11-10T20:45:36Z",
       "teamIds": [
@@ -18,15 +209,10 @@
       "id": "1748963b67f4bb4e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/50359951/nfl-trade-deadline-2026-fantasy-football-impacts",
-      "title": "Fantasy impacts of the NFL trade deadline: What to know on Cousins, Allen trades",
-      "summary": "NFL trade deadline day is here. We have the latest fantasy news and analysis for every key deal.",
+      "title": "Fantasy impacts of the NFL trade deadline: Breaking down fantasy-relevant moves",
+      "summary": "NFL trade deadline day has come and gone, but we have the latest fantasy news and analysis for every key deal.",
       "publishedAt": "2026-11-10T20:45:24Z",
-      "teamIds": [
-        "11",
-        "13",
-        "16",
-        "25"
-      ]
+      "teamIds": []
     },
     {
       "id": "8e24e8c254a7b280",
@@ -41,6 +227,17 @@
       ]
     },
     {
+      "id": "9124b575b26d3fea",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-release-wr-david-moore",
+      "title": "Panthers release WR David Moore",
+      "summary": "The Panthers have not announced any trades ahead of the deadline yet, but they have opened up a spot on their 53-man roster.",
+      "publishedAt": "2026-11-10T20:44:30Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
       "id": "3e28ce4702031549",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50445427/kimes-tannenbaum-surprised-chargers-trading-daiyan-henley",
@@ -52,6 +249,28 @@
         "7",
         "11",
         "24"
+      ]
+    },
+    {
+      "id": "cf0d9e6f58ad0a2e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-agree-to-trade-for-wr-josh-downs",
+      "title": "Chiefs agree to trade for WR Josh Downs",
+      "summary": "Josh Downs has gotten his wish.",
+      "publishedAt": "2026-11-10T20:43:57Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "1b33673621990c68",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-wr-nick-westbrook-ikhine-from-the-practice-squad",
+      "title": "Colts sign WR Nick Westbrook-Ikhine from the practice squad",
+      "summary": "The Colts signed wide receiver Nick Westbrook-Ikhine to the 53-player roster from the practice squad, the team announced.",
+      "publishedAt": "2026-11-10T20:41:01Z",
+      "teamIds": [
+        "11"
       ]
     },
     {
@@ -210,8 +429,8 @@
       "id": "21881ffd5643fc45",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50444810/bills-trade-titans-safety-amani-hooker",
-      "title": "Sources: Bills fill major need at safety, trade for Titans' Amani Hooker",
-      "summary": "The Bills traded for Titans safety Amani Hooker, giving up a second-round pick in exchange for Hooker and a fifth-round pick, sources told ESPN's Adam Schefter.",
+      "title": "Bills fill major need at safety, trade for Titans' Amani Hooker",
+      "summary": "The Bills traded for Titans safety Amani Hooker, giving up a second-round pick in exchange for Hooker and a fifth-round pick.",
       "publishedAt": "2026-11-10T19:43:02Z",
       "teamIds": [
         "2",
@@ -278,9 +497,7 @@
       "publishedAt": "2026-11-10T19:14:13Z",
       "teamIds": [
         "11",
-        "12",
-        "25",
-        "27"
+        "25"
       ]
     },
     {
@@ -309,7 +526,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50444360/sources-vikings-id-qb-kirk-cousins-prime-trade-target",
       "title": "Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
-      "summary": "The Vikings are trading for quarterback Kirk Cousins, sending a 2027 third-round pick to the Raiders.",
+      "summary": "Vikings are trading for quarterback Kirk Cousins, sending a 2027 third-round pick to the Raiders.",
       "publishedAt": "2026-11-10T18:43:06Z",
       "teamIds": [
         "13",
@@ -528,7 +745,7 @@
       "id": "021f4c14da10fd00",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50443653/source-dolphins-captain-zach-sieler-rest-season",
-      "title": "Source: Dolphins captain Zach Sieler out for rest of season with ruptured biceps",
+      "title": "Dolphins captain Zach Sieler out for rest of season with ruptured biceps",
       "summary": "Dolphins DT Zach Sieler will miss the rest of the season with a ruptured biceps, a source told ESPN, leaving Miami without a critical team leader and captain.",
       "publishedAt": "2026-11-10T17:30:27Z",
       "teamIds": [
@@ -1089,11 +1306,11 @@
       "id": "adf6fdaea4080ce1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Keenan Allen, Jordan Davis, Jessie Bates",
-      "summary": "Did the 49ers make a smart move to pick up Keenan Allen? How did the Jaguars do with their flurry of trades? Let's evaluate 13 deals.",
+      "title": "NFL trade deadline grades: Deals for Kirk Cousins, Daiyan Henley, Amani Hooker",
+      "summary": "Was getting Cousins a home run for the Vikings? Did the 49ers make a smart move to pick up Keenan Allen?",
       "publishedAt": "2026-11-10T12:22:53Z",
       "teamIds": [
-        "30",
+        "16",
         "25"
       ]
     },
@@ -1417,228 +1634,6 @@
       "publishedAt": "2026-11-10T02:36:01Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "adf78cb0488e5c1b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-makes-appearance-on-the-pat-mcafee-alt-cast",
-      "title": "Tony Romo makes appearance on the Pat McAfee alt cast",
-      "summary": "Tony Romo has made a return to sports media.",
-      "publishedAt": "2026-11-10T02:32:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "1008cd31537b8bbf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-ferguson-tyler-goodson-will-miss-multiple-weeks-for-cowboys",
-      "title": "Jake Ferguson, Tyler Goodson will miss multiple weeks for Cowboys",
-      "summary": "The Cowboys will play \"multiple weeks\" without starting tight end Jake Ferguson and backup running back Tyler Goodson, coach Brian Schottenheimer said Monday.",
-      "publishedAt": "2026-11-10T01:54:59Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "103e36f8253f6979",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/imaging-showed-no-fracture-in-justin-herberts-finger",
-      "title": "Imaging showed no fracture in Justin Herbert's finger",
-      "summary": "Herbert injured his left middle finger on the final of eight sacks he took Sunday.",
-      "publishedAt": "2026-11-10T01:31:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "6f26ba7adfaa9cb7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-gives-defensive-coordinator-rob-leonard-a-vote-of-confidence",
-      "title": "Klint Kubiak gives defensive coordinator Rob Leonard a vote of confidence",
-      "summary": "The Raiders defense allowed 38 points in the loss to the 49ers on Sunday, the sixth consecutive game of giving up 30-plus points.",
-      "publishedAt": "2026-11-10T01:19:50Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "943edfc11b4fc7c1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50393510/nfl-week-9-fashionable-arrivals",
-      "title": "NFL Week 9 arrivals: Justin Jefferson rocks black leather trench coat before 'MNF'",
-      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-10T01:12:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "f08ba45a6146e1cc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50437202/chargers-harbaugh-says-x-rays-herbert-finger-negative",
-      "title": "Chargers' Jim Harbaugh says X-rays on QB Justin Herbert's finger negative",
-      "summary": "X-rays on the injured middle finger of Chargers quarterback Justin Herbert's left hand came back negative for a fracture, coach Jim Harbaugh said Monday.",
-      "publishedAt": "2026-11-10T00:46:38Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "81a7663601ac702c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50433036/how-aaron-jones-sr-helped-military-veteran",
-      "title": "How Aaron Jones Sr. helped this military veteran",
-      "summary": null,
-      "publishedAt": "2026-11-10T00:43:34Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "ebe72dfa12b18f83",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50432490/jaguars-trade-jessie-bates-iii-falcons-draft",
-      "title": "Are Jaguars all-in after trades for Bates, Davis? Plus Eagles, Falcons reaction",
-      "summary": "Jacksonville made a trio of trades Monday. What it means for Eagles and Falcons ... and the Jaguars' Super Bowl hopes.",
-      "publishedAt": "2026-11-10T00:39:55Z",
-      "teamIds": [
-        "1",
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "269ee44b06d1d93c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Josh Downs, Kirk Cousins on the move",
-      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Chiefs trading for Josh Downs.",
-      "publishedAt": "2026-11-10T00:30:16Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "b000c74fb497af31",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50434826/texans-cj-stroud-five-tds-chargers",
-      "title": "A 'confident' C.J. Stroud soaks in five-TD day against Chargers",
-      "summary": "Stroud matched his career high with five TD passes and added 384 passing yards in the win.",
-      "publishedAt": "2026-11-10T00:27:55Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "3a0cf680477768ba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cardinals-to-sign-josh-johnson-off-bengals-practice-squad",
-      "title": "Report: Cardinals to sign Josh Johnson off Bengals practice squad",
-      "summary": "Quarterback Josh Johnson's long list of NFL teams is getting a little longer.",
-      "publishedAt": "2026-11-10T00:26:33Z",
-      "teamIds": [
-        "22",
-        "4"
-      ]
-    },
-    {
-      "id": "34cea1d9b31b97d7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50436869/russini-returning-sports-media-show-column-betus",
-      "title": "Dianna Russini returning to sports media with show, column for BetUS",
-      "summary": "Dianna Russini is returning to sports media with a new weekly football show and column for the Costa Rica-based gambling company BetUS.",
-      "publishedAt": "2026-11-10T00:24:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "a6e02870bf6e2c63",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-on-puka-nacua-injury-id-be-lying-if-i-said-i-wasnt-questioning-that-play-call",
-      "title": "Sean McVay on Puka Nacua injury: I'd be lying if I said I wasn't questioning that play call",
-      "summary": "Rams wide receiver Puka Nacua is set to go on injured reserve after suffering MCL, PCL and turf toe injuries in Sunday's win over the Commanders.",
-      "publishedAt": "2026-11-10T00:14:56Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "d806d5e8292e22cf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-lt-dion-dawkins-lg-alec-anderson-are-inactive-vs-vikings",
-      "title": "Monday Night Football: Bills LT Dion Dawkins, LG Alec Anderson are inactive vs. Vikings",
-      "summary": "The Bills will not have the left side of their offensive line when they play the Vikings to cap Week 9.",
-      "publishedAt": "2026-11-10T00:06:30Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "9b0c57fc83b35f9d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50436652/worried-puka-longevity",
-      "title": "Marcus Spears: 'I'm worried about Puka and his longevity'",
-      "summary": null,
-      "publishedAt": "2026-11-09T23:47:46Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "6e90a643c1b5d390",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bills-vs-vikings-odds-picks-player-props-experts-nfl-week-9-best-bets-for-monday-night-football",
-      "title": "Bills vs. Vikings odds, picks, player props: Expert's NFL Week 9 best bets for Monday Night Football",
-      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 9",
-      "publishedAt": "2026-11-09T23:45:49Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "5e01d18076cec2aa",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bills-vs-vikings-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
-      "title": "Bills vs. Vikings odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Bills vs. Vikings on Monday Night Football",
-      "publishedAt": "2026-11-09T23:45:45Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "193e1da6c506ddbd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50436570/cowboys-ferguson-goodson-multiple-weeks",
-      "title": "Schottenheimer: Cowboys will be without Ferguson, Goodson for 'multiple weeks'",
-      "summary": "The Dallas Cowboys will be without starting tight end Jake Ferguson and No. 2 running back Tyler Goodson for \"multiple weeks,\" coach Brian Schottenheimer told reporters Monday, a day after his team posted a 27-23 victory against the Indianapolis Colts.",
-      "publishedAt": "2026-11-09T23:39:50Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "2fae968cef94221a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-list-j-j-mccarthy-as-limited-on-mondays-practice-report",
-      "title": "Giants list J.J. McCarthy as limited on Monday's practice report",
-      "summary": "The Giants didn't hold a practice on Monday, but they say quarterback J.J.",
-      "publishedAt": "2026-11-09T23:36:12Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "878e2ad1fc1e9214",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/browns-starting-qb-deshaun-watson-shedeur-sanders-texans-2026",
-      "title": "Browns QB update: Todd Monken hasn't decided between Deshaun Watson and Shedeur Sanders for Week 10",
-      "summary": "Sanders' performance against the Saints might earn another chance to start Sunday vs. the Texans",
-      "publishedAt": "2026-11-09T23:34:07Z",
-      "teamIds": [
-        "5",
-        "34",
-        "18"
       ]
     }
   ]
