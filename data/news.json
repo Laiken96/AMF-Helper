@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:47:21Z",
+  "updatedAt": "2026-11-10T09:47:22Z",
   "items": [
+    {
+      "id": "7b0d83435fe5e5e3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-jefferson-vikings-offense-didnt-get-it-done-weve-got-to-figure-it-out",
+      "title": "Justin Jefferson: Vikings' offense didn't get it done, we've got to figure it out",
+      "summary": "Jefferson finished with three catches for 58 yards in the Vikings' 23-6 loss to the Bills.",
+      "publishedAt": "2026-11-10T09:29:54Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
     {
       "id": "8964047abecf8c5f",
       "source": "espn",
@@ -1665,15 +1677,6 @@
       "title": "What are the biggest NFL upsets in the Super Bowl era?",
       "summary": "Major underdogs reigned supreme several times in the 1960s.",
       "publishedAt": "2026-11-09T13:42:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "1afc86d5c680b3af",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-cover-32-week-9-2026",
-      "title": "Cover 32: What every team should do at NFL trade deadline, plus game balls and gaffes from Week 9",
-      "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
-      "publishedAt": "2026-11-09T13:36:43Z",
       "teamIds": []
     }
   ]
