@@ -1,13 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T17:47:23Z",
+  "updatedAt": "2026-11-10T17:56:44Z",
   "items": [
+    {
+      "id": "960e724d0a77ac87",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50443983/bills-spencer-brown-breaks-new-philosophy-coach-joe-brady",
+      "title": "Bills' Spencer Brown breaks down the new philosophy under coach Joe Brady",
+      "summary": null,
+      "publishedAt": "2026-11-10T17:49:06Z",
+      "teamIds": [
+        "2"
+      ]
+    },
     {
       "id": "4e2bd7bad927c1db",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50443891/bengals-nix-agreed-trade-eagles-sources-say",
-      "title": "Bengals nix agreed upon trade with Eagles, sources say",
-      "summary": "A trade that would've sent Eagles edge rusher Arnold Ebiketie to Cincinnati has been called off, sources told ESPN's Adam Schefter NFL Network's Ian Rapoport.",
+      "title": "Bengals nix agreed-upon trade with Eagles, sources say",
+      "summary": "A trade that would've sent Eagles edge rusher Arnold Ebiketie to Cincinnati has been called off, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
       "publishedAt": "2026-11-10T17:44:37Z",
       "teamIds": [
         "4",
@@ -1019,10 +1030,11 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
       "title": "2026 NFL trade deadline updates: Jordan Davis, Andre Cisco on the move",
-      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Bengals nixing a trade for Arnold Ebiketie.",
+      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Bengals nixing a trade for Eagles' Arnold Ebiketie.",
       "publishedAt": "2026-11-10T00:30:16Z",
       "teamIds": [
-        "4"
+        "4",
+        "21"
       ]
     },
     {
@@ -1629,18 +1641,6 @@
       "publishedAt": "2026-11-09T20:30:33Z",
       "teamIds": [
         "18"
-      ]
-    },
-    {
-      "id": "0ad59ff27ad392b0",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bills-vs-vikings-odds-first-touchdown-scorer-picks-nfl-predictions-monday-night-football",
-      "title": "Bills vs. Vikings odds: First touchdown scorer picks, NFL predictions for Monday Night Football",
-      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Bills and Vikings",
-      "publishedAt": "2026-11-09T20:17:23Z",
-      "teamIds": [
-        "2",
-        "16"
       ]
     }
   ]
