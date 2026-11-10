@@ -1,13 +1,123 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T18:47:23Z",
+  "updatedAt": "2026-11-10T19:47:21Z",
   "items": [
+    {
+      "id": "fc0841dc6db39d14",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444457/sources-49ers-acquire-keenan-allen-trade-colts",
+      "title": "Sources: 49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
+      "summary": "The 49ers are completing a trade with the Colts for Keenan Allen in a move that will bolster their injury-plagued WR corps, sources told NFL Network and ESPN.",
+      "publishedAt": "2026-11-10T19:43:47Z",
+      "teamIds": [
+        "11",
+        "25"
+      ]
+    },
+    {
+      "id": "21881ffd5643fc45",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444810/bills-trade-titans-safety-amani-hooker",
+      "title": "Sources: Bills fill major need at safety, trade for Titans' Amani Hooker",
+      "summary": "The Bills traded for Titans safety Amani Hooker, giving up a second-round pick in exchange for Hooker and a fifth-round pick, sources told ESPN's Adam Schefter.",
+      "publishedAt": "2026-11-10T19:43:02Z",
+      "teamIds": [
+        "2",
+        "10"
+      ]
+    },
+    {
+      "id": "211ddf7a57a5e30c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
+      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
+      "summary": "Jordan Davis, Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
+      "publishedAt": "2026-11-10T19:40:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "bfdf2525abe547b7",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
+      "publishedAt": "2026-11-10T19:31:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "28747fe37d1e7d3a",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
+      "title": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
+      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
+      "publishedAt": "2026-11-10T19:25:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "0fa0264b75b9acf3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-agree-to-trade-s-amani-hooker-to-bills",
+      "title": "Titans agree to trade S Amani Hooker to Bills",
+      "summary": "The Bills are bringing in some help for their secondary.",
+      "publishedAt": "2026-11-10T19:20:46Z",
+      "teamIds": [
+        "2",
+        "10"
+      ]
+    },
+    {
+      "id": "f7c9e417e8c69db5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-49ers-game-at-levis-stadium-resulted-in-11-arrests-and-45-ejections",
+      "title": "Raiders-49ers game at Levi's Stadium resulted in 11 arrests and 45 ejections",
+      "summary": "Technically, it counts as progress.",
+      "publishedAt": "2026-11-10T19:18:40Z",
+      "teamIds": [
+        "13",
+        "25"
+      ]
+    },
+    {
+      "id": "bbad693de54abf3a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50444620/rich-eisen-reacts-49ers-trade-keenan-allen",
+      "title": "'Great move': Rich Eisen reacts to 49ers' trade for Keenan Allen",
+      "summary": null,
+      "publishedAt": "2026-11-10T19:14:13Z",
+      "teamIds": [
+        "11",
+        "12",
+        "25",
+        "27"
+      ]
+    },
+    {
+      "id": "1afc86d5c680b3af",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-cover-32-week-9-2026",
+      "title": "Cover 32: What every team should do at 2026 NFL trade deadline, plus game balls and gaffes from Week 9",
+      "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
+      "publishedAt": "2026-11-10T19:05:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "b855fce3d39c7dde",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-agree-to-trade-keenan-allen-to-49ers",
+      "title": "Colts agree to trade Keenan Allen to 49ers",
+      "summary": "Dealing with several of injuries at the position, San Francisco is adding depth at receiver.",
+      "publishedAt": "2026-11-10T18:47:29Z",
+      "teamIds": [
+        "11",
+        "25"
+      ]
+    },
     {
       "id": "beeb4820f4783dc1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50444360/sources-vikings-id-qb-kirk-cousins-prime-trade-target",
-      "title": "Sources: Vikings have identified Raiders QB Kirk Cousins as prime trade target",
-      "summary": "The Vikings have identified Raiders quarterback Kirk Cousins as a prime trade candidate ahead of Tuesday's deadline, league sources told ESPN's Adam Schefter.",
+      "title": "Sources: Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
+      "summary": "Vikings are trading for quarterback Kirk Cousins, sending a 2027 third-round pick to the Raiders, league sources told ESPN and NFL Network.",
       "publishedAt": "2026-11-10T18:43:06Z",
       "teamIds": [
         "13",
@@ -787,11 +897,12 @@
       "id": "adf6fdaea4080ce1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-      "summary": "The Jaguars made a splash, but did they massively overpay for Jordan Davis? What about Jessie Bates III? Let's evaluate 12 trades.",
+      "title": "NFL trade deadline grades: Deals for Keenan Allen, Jordan Davis, Jessie Bates",
+      "summary": "Did the 49ers make a smart move to pick up Allen? What about the Jaguars' Monday trade spree? Let's evaluate 13 deals.",
       "publishedAt": "2026-11-10T12:22:53Z",
       "teamIds": [
-        "30"
+        "30",
+        "25"
       ]
     },
     {
@@ -1205,11 +1316,11 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Keenan Allen, Jordan Davis on the move",
-      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the 49ers trading for Keenan Allen.",
+      "title": "2026 NFL trade deadline updates: Kirk Cousins, Keenan Allen on the move",
+      "summary": "The NFL trade deadline is at 4 p.m. ET. We're following all the action, including the Vikings trading for Kirk Cousins.",
       "publishedAt": "2026-11-10T00:30:16Z",
       "teamIds": [
-        "25"
+        "16"
       ]
     },
     {
@@ -1517,115 +1628,6 @@
       "publishedAt": "2026-11-09T22:36:53Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "4aedbb271515505a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50435981/michael-wilson-miss-rest-season",
-      "title": "Cardinals coach: Michael Wilson will miss the rest of the season",
-      "summary": null,
-      "publishedAt": "2026-11-09T22:35:52Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "cf6052f38f8fd1dd",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-nfl-trade-deadline-evolved-from-afterthought-to-hectic-new-normal",
-      "title": "Why NFL trade deadline evolved from afterthought to hectic: In-season transaction boom is league's new normal",
-      "summary": "After a record-breaking trade deadline in 2025 and with an active transaction wire in 2026, the times are a-changin' in the NFL",
-      "publishedAt": "2026-11-09T22:31:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "82f5d691afb666ef",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-headed-to-ir-with-mcl-pcl-knee-sprains-turf-toe",
-      "title": "Puka Nacua headed to IR with MCL, PCL knee sprains, turf toe",
-      "summary": "The Rams wide receiver was injured on the team's final play from scrimmage on Sunday.",
-      "publishedAt": "2026-11-09T22:31:14Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "e02bf6ac5dc2b853",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades",
-      "title": "2026 NFL trade deadline tracker: Latest deals, grades as Arnold Ebiketie agreement gets called off",
-      "summary": "Track every completed deal before the Nov. 10 deadline, including Jacksonville's blockbuster Monday",
-      "publishedAt": "2026-11-09T22:28:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "a2978a08a028d310",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jordan-davis-traded-jaguars-acquire-former-first-round-pick-from-eagles",
-      "title": "Jordan Davis traded: Jaguars going all in, acquire former first-round pick from Eagles",
-      "summary": "Davis is the third defender the AFC South-leading Jacksonville Jaguars have traded for on Monday",
-      "publishedAt": "2026-11-09T22:25:52Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "438ca1d1fea0521b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435515/sirianni-says-did-not-give-eagles-fans-middle-finger",
-      "title": "Nick Sirianni says he did not give booing Eagles fans middle finger",
-      "summary": "A social media video sparked questions about whether Eagles coach Nick Sirianni purposefully lifted his middle finger toward fans after a loss to the Giants.",
-      "publishedAt": "2026-11-09T22:25:51Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "40e8dd85a9e7a96c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50435954/did-not-give-fans-middle-finger",
-      "title": "Nick Sirianni: I did not give fans the middle finger",
-      "summary": null,
-      "publishedAt": "2026-11-09T22:25:48Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "f5235e3cc63d6ccd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-reinstates-wr-brandon-aiyuk-from-reserve-left-squad-list",
-      "title": "NFL reinstates WR Brandon Aiyuk from reserve/left squad list",
-      "summary": "49ers' get a two-week roster exemption.",
-      "publishedAt": "2026-11-09T22:22:32Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "00c10182655620dc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435639/jaguars-get-eagles-jordan-davis-blockbuster-trade",
-      "title": "Jaguars acquire Eagles DT Jordan Davis in blockbuster trade",
-      "summary": "The Jaguars traded a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis on Monday.",
-      "publishedAt": "2026-11-09T22:21:47Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "dda4a783b5c14e8c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-downplays-on-field-exchange-between-darius-robinson-josh-sweat",
-      "title": "Mike LaFleur downplays on-field exchange between Darius Robinson, Josh Sweat",
-      "summary": "Cardinals teammates Darius Robinson and Josh Sweat got into an on-field disagreement during Sunday's 17-3 loss to the Seahawks.",
-      "publishedAt": "2026-11-09T22:19:52Z",
-      "teamIds": [
-        "22",
-        "26"
       ]
     }
   ]
