@@ -1,7 +1,79 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:47:24Z",
+  "updatedAt": "2026-11-10T11:47:25Z",
   "items": [
+    {
+      "id": "ffbe25e9e113d69c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
+      "title": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
+      "summary": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
+      "publishedAt": "2026-11-10T11:43:29Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-10T11:24:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-10T11:22:45Z",
+      "teamIds": []
+    },
+    {
+      "id": "50490ae7852e8911",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-this-one-felt-pretty-terrible",
+      "title": "Carson Wentz: This one felt pretty terrible",
+      "summary": "The Vikings' quarterback had perhaps the worst game any NFL quarterback has had this season in Monday night's loss to the Bills.",
+      "publishedAt": "2026-11-10T11:21:52Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "c637736e2d505797",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50435694/nfl-power-rankings-week-10-most-important-games-remaining",
+      "title": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
+      "summary": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
+      "publishedAt": "2026-11-10T11:21:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "b7f20e89a81f3dfa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50437256/commanders-lose-another-one-score-game",
+      "title": "Commanders running low on time to 'put it all together'",
+      "summary": "Dan Quinn knows it's repetitive to say the Commanders are close, but now they're painted into a corner.",
+      "publishedAt": "2026-11-10T11:00:01Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "9348e1c95a96fa85",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-cb-christian-gonzalez-had-a-game-so-bad-he-did-something-never-seen-before",
+      "title": "Patriots CB Christian Gonzalez had a game so bad, he did something never seen before",
+      "summary": "When Christian Gonzalez signed a four-year, $135 million contract with the Patriots before the season, it was a new record for a cornerback.",
+      "publishedAt": "2026-11-10T10:56:38Z",
+      "teamIds": [
+        "17"
+      ]
+    },
     {
       "id": "92d3c92324b10496",
       "source": "pft",
@@ -102,6 +174,19 @@
       "publishedAt": "2026-11-10T04:43:36Z",
       "teamIds": [
         "2",
+        "16"
+      ]
+    },
+    {
+      "id": "e53161a1c951ea07",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-9-grades-cowboys-bengals-patriots-packers",
+      "title": "NFL Week 9 grades for every team: Bills earn impressive mark for beating Vikings, Cowboys barely pass",
+      "summary": "We're handing out grades for every team that played in Week 9",
+      "publishedAt": "2026-11-10T04:34:29Z",
+      "teamIds": [
+        "2",
+        "6",
         "16"
       ]
     },
@@ -1594,92 +1679,6 @@
       "publishedAt": "2026-11-09T14:41:53Z",
       "teamIds": [
         "28"
-      ]
-    },
-    {
-      "id": "d8061acf899a744b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50432695/jets-pass-rusher-mcdonald-iv-requests-trade",
-      "title": "Sources: Jets DE Will McDonald IV, frustrated by lack of use, requests trade",
-      "summary": "Jets DE Will McDonald IV, frustrated by lack of playing time, has requested a trade, sources told NFL Network's Ian Rapoport. Jets say they have no plans to trade him.",
-      "publishedAt": "2026-11-09T14:36:49Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "98e5b5f970362620",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 10 betting odds: Lines and totals for every game",
-      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
-      "publishedAt": "2026-11-09T14:34:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "3f12480b826db1b8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-i-lied-when-i-said-sacks-dont-matter-sacks-are-everything",
-      "title": "Chris Jones: I lied when I said sacks don't matter, sacks are everything",
-      "summary": "The Chiefs came into Sunday's game against the Jets with nine sacks on the season and that didn't stop them from winning five of their first seven games, but it did lead to a lot of questions about whether the pass rush would come to life.",
-      "publishedAt": "2026-11-09T14:30:51Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "f0bb483b5432bcf1",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50431710/fantasy-football-waivers-free-agent-pickups-nfl-week-10",
-      "title": "Fantasy football free agent pickups: Douglas, Rodgers, Estime lead top options",
-      "summary": "Eric Karabell lists who he thinks are the top available players worth adding for the week ahead.",
-      "publishedAt": "2026-11-09T14:16:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "dcc6a7756b931a8a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/andy-reid-harrison-butker-chiefs-field-goal-kicker",
-      "title": "Andy Reid noncommittal on Harrison Butker's Chiefs future after another missed field goal",
-      "summary": "Butker has made a career-low 63.2% of his field-goal attempts this season, while five-time All-Pro Justin Tucker waits on Kansas City's practice squad",
-      "publishedAt": "2026-11-09T13:53:46Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "844cb5d9353abe0a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bears-overcome-caleb-williams-interceptions-for-snf-win-resetting-cfp-race-after-week-10",
-      "title": "Bears overcome Caleb Williams' interceptions for 'SNF' win; resetting CFP race after Week 10",
-      "summary": "Plus, NFL trade deadline is a day away, and we project AP Top 25 after college basketball's opening week",
-      "publishedAt": "2026-11-09T13:53:29Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "3700951a95d8554d",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49309401/fantasy-football-knockout-rankings-top-200",
-      "title": "Fantasy football Knockout league: Top 126 rankings for leagues starting Week 10",
-      "summary": "Rankings for knockout leagues, where the lowest-scoring team is eliminated and the last team standing wins.",
-      "publishedAt": "2026-11-09T13:45:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "f1c642cee39c5855",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50422009/week-9-barnwell-nfc-north-packers-lions-bears-vikings",
-      "title": "Is the NFC North the best division ever? Sizing up wins for Packers, Lions, Bears",
-      "summary": "The Packers, Bears, Lions and Vikings are a combined 25-8 and all hold playoff spots right now. Can anyone stop the NFC North -- and who will win the division?",
-      "publishedAt": "2026-11-09T13:45:32Z",
-      "teamIds": [
-        "3",
-        "8",
-        "9",
-        "16"
       ]
     }
   ]
