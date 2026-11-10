@@ -1,13 +1,126 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:47:24Z",
+  "updatedAt": "2026-11-10T00:47:24Z",
   "items": [
+    {
+      "id": "f08ba45a6146e1cc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50437202/chargers-harbaugh-says-x-rays-herbert-finger-negative",
+      "title": "Chargers' Jim Harbaugh says X-rays on QB Justin Herbert's finger negative",
+      "summary": "X-rays on the injured middle finger of Chargers quarterback Justin Herbert's left hand came back negative for a fracture, coach Jim Harbaugh said Monday.",
+      "publishedAt": "2026-11-10T00:46:38Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "81a7663601ac702c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50433036/how-aaron-jones-sr-helped-military-veteran",
+      "title": "How Aaron Jones Sr. helped this military veteran",
+      "summary": null,
+      "publishedAt": "2026-11-10T00:43:34Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "b000c74fb497af31",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50434826/texans-cj-stroud-five-tds-chargers",
+      "title": "A 'confident' C.J. Stroud soaks in five-TD day against Chargers",
+      "summary": "Stroud matched his career high with 5 TD passes and added 384 passing yards in the win.",
+      "publishedAt": "2026-11-10T00:27:55Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "3a0cf680477768ba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cardinals-to-sign-josh-johnson-off-bengals-practice-squad",
+      "title": "Report: Cardinals to sign Josh Johnson off Bengals practice squad",
+      "summary": "Quarterback Josh Johnson's long list of NFL teams is getting a little longer.",
+      "publishedAt": "2026-11-10T00:26:33Z",
+      "teamIds": [
+        "22",
+        "4"
+      ]
+    },
+    {
+      "id": "34cea1d9b31b97d7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50436869/russini-returning-sports-media-show-column-betus",
+      "title": "Dianna Russini returning to sports media with show, column for BetUS",
+      "summary": "Dianna Russini is returning to sports media with a new weekly football show and column for the Costa Rica-based gambling company BetUS.",
+      "publishedAt": "2026-11-10T00:24:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "a6e02870bf6e2c63",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-on-puka-nacua-injury-id-be-lying-if-i-said-i-wasnt-questioning-that-play-call",
+      "title": "Sean McVay on Puka Nacua injury: I'd be lying if I said I wasn't questioning that play call",
+      "summary": "Rams wide receiver Puka Nacua is set to go on injured reserve after suffering MCL, PCL and turf toe injuries in Sunday's win over the Commanders.",
+      "publishedAt": "2026-11-10T00:14:56Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "d806d5e8292e22cf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-lt-dion-dawkins-lg-alec-anderson-are-inactive-vs-vikings",
+      "title": "Monday Night Football: Bills LT Dion Dawkins, LG Alec Anderson are inactive vs. Vikings",
+      "summary": "The Bills will not have the left side of their offensive line when they play the Vikings to cap Week 9.",
+      "publishedAt": "2026-11-10T00:06:30Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "9b0c57fc83b35f9d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50436652/worried-puka-longevity",
+      "title": "Marcus Spears: 'I'm worried about Puka and his longevity'",
+      "summary": null,
+      "publishedAt": "2026-11-09T23:47:46Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "6e90a643c1b5d390",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bills-vs-vikings-odds-picks-player-props-experts-nfl-week-9-best-bets-for-monday-night-football",
+      "title": "Bills vs. Vikings odds, picks, player props: Expert's NFL Week 9 best bets for Monday Night Football",
+      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 9",
+      "publishedAt": "2026-11-09T23:45:49Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "5e01d18076cec2aa",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bills-vs-vikings-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
+      "title": "Bills vs. Vikings odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Bills vs. Vikings on Monday Night Football",
+      "publishedAt": "2026-11-09T23:45:45Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
     {
       "id": "193e1da6c506ddbd",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50436570/cowboys-ferguson-goodson-multiple-weeks",
       "title": "Schottenheimer: Cowboys will be without Ferguson, Goodson for 'multiple weeks'",
-      "summary": "The Dallas Cowboys will be without starting tight end Jake Ferguson and No. 2 running back Tyler Goodson for \"multiple weeks,\" coach Brian Schottenheimer told reporters on Monday, a day after his team posted a 27-23 victory against the Indianapolis Colts.",
+      "summary": "The Dallas Cowboys will be without starting tight end Jake Ferguson and No. 2 running back Tyler Goodson for \"multiple weeks,\" coach Brian Schottenheimer told reporters Monday, a day after his team posted a 27-23 victory against the Indianapolis Colts.",
       "publishedAt": "2026-11-09T23:39:50Z",
       "teamIds": [
         "6"
@@ -56,6 +169,18 @@
       "teamIds": [
         "30",
         "21"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Rams' Puka Nacua likely heading to IR, Cardinals' Michael Wilson out for season",
+      "summary": "With Michael Wilson out for the season, the Cardinals' depth at the skill positions will be severely tested.",
+      "publishedAt": "2026-11-09T23:03:52Z",
+      "teamIds": [
+        "22",
+        "14"
       ]
     },
     {
@@ -1050,12 +1175,13 @@
       "id": "ebe72dfa12b18f83",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50432490/jaguars-trade-jessie-bates-iii-falcons-draft",
-      "title": "How does Jessie Bates III help the Jaguars defense? Are Falcons still contending?",
-      "summary": "The Falcons decided it was wiser to get something for Bates now rather than letting him walk in free agency.",
+      "title": "Are Jaguars all-in after trades for Bates, Davis? Plus Eagles, Falcons reaction",
+      "summary": "Jacksonville made a trio of trades Monday. What it means for Eagles and Falcons ... and the Jaguars' Super Bowl hopes.",
       "publishedAt": "2026-11-09T15:41:46Z",
       "teamIds": [
         "1",
-        "30"
+        "30",
+        "21"
       ]
     },
     {
@@ -1558,128 +1684,6 @@
       "teamIds": [
         "13",
         "25"
-      ]
-    },
-    {
-      "id": "c37ff1e52a4339de",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-i-could-throw-100-picks-and-i-wouldnt-get-gun-shy",
-      "title": "Caleb Williams: I could throw 100 picks and I wouldn't get gun-shy",
-      "summary": "Williams threw four interceptions on Sunday night but still led the Bears to a win over the Buccaneers.",
-      "publishedAt": "2026-11-09T09:11:08Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "0ebbbe93639c5c1d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50430415/caleb-williams-4-interceptions-bears-win-buccaneers",
-      "title": "Caleb Williams unfazed by 4 interceptions as Bears pull out win vs. Bucs",
-      "summary": "Caleb Williams refused to let his four interceptions rattle his confidence as he put the Bears in position to beat the Buccaneers on a walk-off field goal.",
-      "publishedAt": "2026-11-09T07:43:28Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "d3e83d1c211c260f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50409762/week-9-sunday-highlights-best-plays-touchdowns-2026",
-      "title": "Week 9 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for Sunday's top moments, TDs and analysis.",
-      "publishedAt": "2026-11-09T05:55:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "018db507839e2747",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50429795/titans-wr-ridley-involved-incident-nashville-airport",
-      "title": "Titans WR Calvin Ridley involved in incident at Nashville airport",
-      "summary": "Titans WR Calvin Ridley was involved in an incident at Nashville International Airport over the weekend, details of which have not been released.",
-      "publishedAt": "2026-11-09T05:34:27Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "017fdcaf77a289c7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50429684/giants-malik-nabers-takes-issue-fox-telecast",
-      "title": "Giants' Malik Nabers takes issue with Greg Olsen, Fox for comments during game",
-      "summary": "Malik Nabers took issue with Fox play-by-play man Joe Davis and analyst Greg Olsen for criticizing his body language during the Giants' win Sunday.",
-      "publishedAt": "2026-11-09T05:27:00Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "e8df839e5775c268",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873050",
-      "title": "Williams connects with Loveland to set up Santos' winning field goal as Bears edge Buccaneers 27-24",
-      "summary": "Caleb Williams and the Chicago Bears played one of their worst games of the season — and won.",
-      "publishedAt": "2026-11-09T05:15:35Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "128a2d580ef9a0aa",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs",
-      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams after Jags-Eagles trade",
-      "summary": "See where every team picks in the first round and which positions each franchise could target in the 2027 NFL Draft",
-      "publishedAt": "2026-11-09T05:03:13Z",
-      "teamIds": [
-        "30",
-        "21"
-      ]
-    },
-    {
-      "id": "4416f452d5966951",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50429568/bears-survive-take-bucs-walk-field-goal",
-      "title": "Bears survive, take down Bucs with walk-off field goal",
-      "summary": null,
-      "publishedAt": "2026-11-09T05:02:12Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "211ddf7a57a5e30c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
-      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
-      "summary": "Jordan Davis, Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
-      "publishedAt": "2026-11-09T05:01:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "4354b322d3ba8218",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/titans-calvin-ridley-involved-in-incident-nashville-airport",
-      "title": "Titans' Calvin Ridley involved in 'incident' at Nashville International Airport, per report",
-      "summary": "Ridley has been the subject of trade rumors in recent weeks",
-      "publishedAt": "2026-11-09T04:55:07Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "f2799f680a34be35",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-bears-overcome-five-giveaways-beat-bucs-27-24",
-      "title": "Sunday Night Football: Bears overcome five giveaways, beat Bucs 27-24",
-      "summary": "Caleb Williams threw four interceptions, but the Buccaneers could not capitalize on the opportunities enough to win.",
-      "publishedAt": "2026-11-09T04:53:49Z",
-      "teamIds": [
-        "3",
-        "27"
       ]
     }
   ]
