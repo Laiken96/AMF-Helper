@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:47:22Z",
+  "updatedAt": "2026-11-10T02:15:02Z",
   "items": [
+    {
+      "id": "1008cd31537b8bbf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-ferguson-tyler-goodson-will-miss-multiple-weeks-for-cowboys",
+      "title": "Jake Ferguson, Tyler Goodson will miss multiple weeks for Cowboys",
+      "summary": "The Cowboys will play \"multiple weeks\" without starting tight end Jake Ferguson and backup running back Tyler Goodson, coach Brian Schottenheimer said Monday.",
+      "publishedAt": "2026-11-10T01:54:59Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "103e36f8253f6979",
       "source": "pft",
@@ -1670,17 +1681,6 @@
       "publishedAt": "2026-11-09T11:00:48Z",
       "teamIds": [
         "7"
-      ]
-    },
-    {
-      "id": "9b184b4de55e4b4e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50427816/bengals-joe-burrow-steelers-afc-north",
-      "title": "Joe Burrow reaching new heights as Bengals face big test",
-      "summary": "Burrow led the Bengals to their fourth straight win, and AFC North rival Pittsburgh is on deck.",
-      "publishedAt": "2026-11-09T11:00:10Z",
-      "teamIds": [
-        "4"
       ]
     }
   ]
