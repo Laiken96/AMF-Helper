@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T23:29:50Z",
+  "updatedAt": "2026-11-10T23:47:19Z",
   "items": [
     {
       "id": "bdea4be9c8b76016",
@@ -11,6 +11,18 @@
       "publishedAt": "2026-11-10T23:27:48Z",
       "teamIds": [
         "11"
+      ]
+    },
+    {
+      "id": "b8e5b8741c400872",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cam-skattebo-responds-after-giants-fail-trade-jonathan-taylor",
+      "title": "Cam Skattebo responds after Giants fail to trade for Jonathan Taylor: 'They know what I can do'",
+      "summary": "New York reportedly pulled an offer of two draft picks for the Colts star, leaving the division-leading offense in the hands of a confident Skattebo",
+      "publishedAt": "2026-11-10T23:20:48Z",
+      "teamIds": [
+        "11",
+        "19"
       ]
     },
     {
@@ -114,8 +126,8 @@
       "id": "f0bb483b5432bcf1",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50431710/fantasy-football-waivers-free-agent-pickups-nfl-week-10",
-      "title": "Fantasy football free agent pickups: Douglas, Rodgers, Estime lead top options",
-      "summary": "Eric Karabell lists who he thinks are the top available players worth adding for the week ahead.",
+      "title": "Fantasy football free agent pickups: Mendoza, Douglas, Estime among top options",
+      "summary": "Eric Karabell lists the top available players in most leagues, including the No. 1 pick in the draft.",
       "publishedAt": "2026-11-10T22:31:37Z",
       "teamIds": []
     },
@@ -1329,6 +1341,19 @@
       ]
     },
     {
+      "id": "8dd13a01e968f18b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-10-power-rankings-bengals-packers-climbing",
+      "title": "Prisco's NFL Week 10 Power Rankings: Top 5 remains same, Bengals and Packers surging thanks to MVP candidates",
+      "summary": "Pete Prisco shares his Week 10 Power Rankings for the 2026 NFL season, including the Vikings dropping five spots",
+      "publishedAt": "2026-11-10T15:09:37Z",
+      "teamIds": [
+        "4",
+        "9",
+        "16"
+      ]
+    },
+    {
       "id": "636cdef188c9ba76",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-we-wouldnt-be-where-we-are-without-kirk-cousins-amazing-decision-making",
@@ -1603,29 +1628,6 @@
       "publishedAt": "2026-11-10T11:00:01Z",
       "teamIds": [
         "28"
-      ]
-    },
-    {
-      "id": "9348e1c95a96fa85",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-cb-christian-gonzalez-had-a-game-so-bad-he-did-something-never-seen-before",
-      "title": "Patriots CB Christian Gonzalez had a game so bad, he did something never seen before",
-      "summary": "When Christian Gonzalez signed a four-year, $135 million contract with the Patriots before the season, it was a new record for a cornerback.",
-      "publishedAt": "2026-11-10T10:56:38Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "92d3c92324b10496",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-cooks-31-carries-vs-vikings-were-the-most-in-any-nfl-game-this-season",
-      "title": "James Cook's 31 carries vs. Vikings were the most in any NFL game this season",
-      "summary": "Against a Vikings defense that has been teeing off on opposing quarterbacks this season, Bills coach Joe Brady knew he needed to lean on his running back on Monday night.",
-      "publishedAt": "2026-11-10T10:06:10Z",
-      "teamIds": [
-        "2",
-        "16"
       ]
     }
   ]
