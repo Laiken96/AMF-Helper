@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T11:47:28Z",
+  "updatedAt": "2026-11-11T12:47:17Z",
   "items": [
+    {
+      "id": "e5462935526f8f39",
+      "source": "espn",
+      "url": "https://espn.com/espn/story/_/id/50452204/jacksonville-jaguars-foyesade-oluokun-leads-way-again-africa-week-9-nfl-exploits",
+      "title": "Jacksonville Jaguars' Foyesade Oluokun leads the way again in Africa's Week 9 NFL exploits",
+      "summary": "Foyesade Oluokun - a seasoned linebacker of Nigerian heritage - had yet another superb week in Week 9, starring for the Jacksonville Jaguars as they beat the Baltimore Ravens to go 6-2 for the NFL season.",
+      "publishedAt": "2026-11-11T12:22:53Z",
+      "teamIds": [
+        "30",
+        "26"
+      ]
+    },
+    {
+      "id": "8fe99b5237f8bd46",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-spytek-fernando-mendoza-passed-every-test-allowed-us-to-make-a-hard-decision",
+      "title": "John Spytek: Fernando Mendoza passed every test, allowed us to make a hard decision",
+      "summary": "It took longer than it has for most quarterbacks drafted first overall, but Fernando Mendoza's time has come in Las Vegas.",
+      "publishedAt": "2026-11-11T12:01:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "f9e260c2dfe275c0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-pretenders-and-contenders-for-week-10-nfc-north-giants-steelers",
+      "title": "NFL pretenders and contenders after Week 9: NFC North is fierce, no faith in Giants and Steelers",
+      "summary": "Breaking down all 14 teams currently in playoff position at the midway point to separate the legitimate Super Bowl threats from the impostors",
+      "publishedAt": "2026-11-11T12:00:59Z",
+      "teamIds": [
+        "19",
+        "23"
+      ]
+    },
+    {
+      "id": "c7621308a4d8986f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fran-tarkenton-raves-about-kirk-cousinss-return-to-minnesota",
+      "title": "Fran Tarkenton raves about Kirk Cousins's return to Minnesota",
+      "summary": "On Monday night, I was explaining to my wife the bizarre situation in Minnesota, where a championship-caliber defense has been paired with an offense that would have trouble scoring a touchdown in the lower divisions of college football.",
+      "publishedAt": "2026-11-11T11:55:00Z",
+      "teamIds": []
+    },
     {
       "id": "619ba67a0b34c589",
       "source": "espn",
@@ -566,6 +608,15 @@
       "teamIds": [
         "15"
       ]
+    },
+    {
+      "id": "98e5b5f970362620",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 10 betting odds: Lines and totals for every game",
+      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
+      "publishedAt": "2026-11-10T21:30:43Z",
+      "teamIds": []
     },
     {
       "id": "5bbec01a5bd417ab",
@@ -1598,61 +1649,6 @@
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-10T15:38:03Z",
       "teamIds": []
-    },
-    {
-      "id": "da9f36b37cf20b8c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 10: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-10T15:37:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "c15d58324739d44c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442817/stephen-holds-kevin-oconnell-responsible-justin-jefferson-frustrations",
-      "title": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
-      "summary": null,
-      "publishedAt": "2026-11-10T15:37:36Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "8dcb1b7741dff3f3",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442777/are-jaguars-now-afc-favorites",
-      "title": "Are the Jaguars now the AFC favorites?",
-      "summary": null,
-      "publishedAt": "2026-11-10T15:33:04Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "5d9842b0773ffcbb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-trades-for-jessie-bates-jordan-davis-could-complicate-deadline-deals",
-      "title": "Jaguars trades for Jessie Bates, Jordan Davis could complicate deadline deals",
-      "summary": "It's Let's Make A Deal day in the NFL, with the window on trades closing at 4:00 p.m.",
-      "publishedAt": "2026-11-10T15:31:55Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "8dd13a01e968f18b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-10-power-rankings-bengals-packers-climbing",
-      "title": "Prisco's NFL Week 10 Power Rankings: Top 5 remains same, Bengals and Packers surging thanks to MVP candidates",
-      "summary": "Pete Prisco shares his Week 10 Power Rankings for the 2026 NFL season, including the Vikings dropping five spots",
-      "publishedAt": "2026-11-10T15:09:37Z",
-      "teamIds": [
-        "4",
-        "9",
-        "16"
-      ]
     }
   ]
 }
