@@ -1,7 +1,102 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T14:47:22Z",
+  "updatedAt": "2026-11-11T15:23:45Z",
   "items": [
+    {
+      "id": "81b9987b811fb8ed",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50452443/facts-feelings-fantasy-advice-week-10",
+      "title": "Facts vs. Feelings: Seven starts, streams and stashes for Week 10 and beyond",
+      "summary": "Whether you feel like streaming Aaron Rodgers or stashing Jordyn Tyson, Liz Loza has the facts to support the case.",
+      "publishedAt": "2026-11-11T15:18:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "069e559804a9d930",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/browns-start-deshaun-watson-over-shedeur-sanders-texans",
+      "title": "Browns to start Deshaun Watson over Shedeur Sanders in Week 10 vs. Texans, per report",
+      "summary": "Watson missed last week's overtime loss vs. New Orleans due to a concussion",
+      "publishedAt": "2026-11-11T15:06:19Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "6b168801d325ef28",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-ended-up-buying-a-third-round-pick-for-650-000",
+      "title": "Raiders ended up buying a third-round pick for $650,000",
+      "summary": "Did the Raiders get enough for Kirk Cousins?",
+      "publishedAt": "2026-11-11T15:05:31Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "4a40bdbc0ddda5bf",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-10-qb-power-rankings-joe-burrow-jordan-love-caleb-williams",
+      "title": "Week 10 QB Power Rankings: There's a new No. 1, while Caleb Williams drops out of top 10",
+      "summary": "Joe Burrow swipes the top spot, Jordan Love climbs into the top five, C.J. Stroud cracks the top 10 and Caleb Williams falls",
+      "publishedAt": "2026-11-11T15:04:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "3c0ef02b7de04090",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50452849/quinshon-judkins-week-10-fantasy-outlook",
+      "title": "Quinshon Judkins' Week 10 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-11T15:04:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "1bf36c7de6dfa2d8",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50452857/why-jeff-saturday-no-hope-cowboys",
+      "title": "Why Jeff Saturday has 'no hope' for the Cowboys",
+      "summary": null,
+      "publishedAt": "2026-11-11T14:59:50Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "84ae8040c18d07d6",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-bets-week-10-2026",
+      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-11T14:55:30Z",
+      "teamIds": [
+        "2",
+        "34"
+      ]
+    },
+    {
+      "id": "d5e901a713d29a7e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/giants-attempted-to-trade-for-falcons-bijan-robinson-trade-deadline",
+      "title": "Giants attempted to trade for Falcons star RB Bijan Robinson at trade deadline, per report",
+      "summary": "After missing out on Jeffery Simmons and Jonathan Taylor, New York took a huge swing on the league's leading rusher before standing pat",
+      "publishedAt": "2026-11-11T14:55:30Z",
+      "teamIds": [
+        "1",
+        "19"
+      ]
+    },
+    {
+      "id": "6bab617e69e75b0b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-isnt-officially-back-in-no-8-yet",
+      "title": "Kirk Cousins isn't officially back in No. 8, yet",
+      "summary": "Kirk Cousins is back in Minnesota.",
+      "publishedAt": "2026-11-11T14:45:39Z",
+      "teamIds": []
+    },
     {
       "id": "01c7470e364220e6",
       "source": "espn",
@@ -1566,103 +1661,6 @@
       "publishedAt": "2026-11-10T16:39:01Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "b03a27436a4b927c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442965/blake-corum-one-luckiest-rbs-nfl",
-      "title": "Mike Clay: Blake Corum has been one of the luckiest RBs in the NFL",
-      "summary": null,
-      "publishedAt": "2026-11-10T16:38:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "3a60a9cb9a201883",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442960/why-dopp-doesnt-lions-matchup-corey-kiner",
-      "title": "Why Dopp doesn’t like the Lions matchup for Corey Kiner",
-      "summary": null,
-      "publishedAt": "2026-11-10T16:36:54Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "0c561322462a9158",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442951/dopp-clay-differ-dj-moore-rest-season-outlook",
-      "title": "Dopp, Clay differ on DJ Moore's rest of season outlook",
-      "summary": null,
-      "publishedAt": "2026-11-10T16:34:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "cfb789c7b099910f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/arnold-ebiketie-trade-bengals-eagles-grades",
-      "title": "Arnold Ebiketie trade: Bengals acquire edge defender as Eagles continue teardown in Philly",
-      "summary": "Ebiketie will be on his third team in the last 12 months",
-      "publishedAt": "2026-11-10T16:29:35Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "98a3a8b72bce9e6c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dolphins-dt-zach-sieler-to-have-season-ending-biceps-surgery",
-      "title": "Report: Dolphins DT Zach Sieler to have season-ending biceps surgery",
-      "summary": "The Dolphins will reportedly be without one of their top defensive players for the rest of the season.",
-      "publishedAt": "2026-11-10T16:28:31Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 10: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-10T16:20:50Z",
-      "teamIds": []
-    },
-    {
-      "id": "1130a626dd8e650c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-agree-to-acquire-arnold-ebiketie-from-eagles",
-      "title": "Bengals agree to acquire Arnold Ebiketie from Eagles",
-      "summary": "The Bengals are bringing in some help for their defensive front.",
-      "publishedAt": "2026-11-10T16:20:08Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "b9b0df9c1d329bd4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-add-qb-joey-aguilar-off-jaguars-practice-squad",
-      "title": "Cardinals add QB Joey Aguilar off Jaguars' practice squad",
-      "summary": "After trading quarterback Jacoby Brissett, and then losing his replacement Gardner Minshew to a potentially season-ending elbow injury, the Cardinals are bringing in quarterback reinforcements.",
-      "publishedAt": "2026-11-10T16:18:22Z",
-      "teamIds": [
-        "22",
-        "30"
-      ]
-    },
-    {
-      "id": "1191314c402965eb",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50443081/sportsbook-liability-burrow-overtakes-allen-mvp-favorite",
-      "title": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
-      "summary": "Bengals QB Joe Burrow has overtaken Bills star Josh Allen as the betting favorite for NFL MVP honors, a development that could prove costly for sportsbooks.",
-      "publishedAt": "2026-11-10T16:17:01Z",
-      "teamIds": [
-        "2",
-        "4"
       ]
     }
   ]
