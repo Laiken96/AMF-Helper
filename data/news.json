@@ -1,7 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T13:47:18Z",
+  "updatedAt": "2026-11-11T14:47:22Z",
   "items": [
+    {
+      "id": "01c7470e364220e6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50452748/matthew-stafford-week-10-fantasy-outlook",
+      "title": "Matthew Stafford's Week 10 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-11T14:37:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "d071481d25cbe3fa",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50452689/was-right-move-raiders-name-mendoza-qb1-cousins-trade",
+      "title": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
+      "summary": null,
+      "publishedAt": "2026-11-11T14:30:07Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "28a84d075afebcb4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-browns-still-plan-on-starting-deshaun-watson-against-texans",
+      "title": "Browns plan on starting Deshaun Watson against Texans",
+      "summary": "Head coach Todd Monken declined to announce a decision earlier this week.",
+      "publishedAt": "2026-11-11T14:20:12Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "65fb36a9e158ad88",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50452660/christian-watson-week-10-fantasy-outlook",
+      "title": "Christian Watson's Week 10 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-11T14:19:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "df2ed32fd5e89951",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50452604/chuba-hubbard-week-10-fantasy-outlook",
+      "title": "Chuba Hubbard's Week 10 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-11T14:02:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "b3c57c6663e0c4f3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/raiders-fernando-mendoza-offensive-rookie-year-favorite-first-nfl-start",
+      "title": "Fernando Mendoza new favorite to win Offensive Rookie of the Year ahead of his first NFL start",
+      "summary": "A wide-open race puts the No. 1 overall pick atop the odds board before his first career start, though a brutal schedule against top defenses looms",
+      "publishedAt": "2026-11-11T13:57:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "f6877d0a7e81d6ce",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-reunion-vikings-raiders-nfl-trade-deadline-georgia-utah-alabama-ucla-cfp-rankings",
+      "title": "Kirk Cousins' reunion with Vikings headlines NFL trade deadline; Georgia tops CFP Top 25 rankings",
+      "summary": "Plus winners and losers from the first Celtics vs. 76ers showdown since their blockbuster trade",
+      "publishedAt": "2026-11-11T13:46:59Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "fb1b182e85e83c78",
       "source": "cbs",
@@ -28,6 +99,17 @@
         "16",
         "17",
         "19",
+        "28"
+      ]
+    },
+    {
+      "id": "f72b6f25ee42b99a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-gm-adam-peters-ball-needs-to-go-in-the-end-zone-on-final-play",
+      "title": "Commanders GM Adam Peters: Ball needs to go in the end zone on final play",
+      "summary": "The Commanders' operation at the end of games came under the microscope again in Week 9.",
+      "publishedAt": "2026-11-11T13:42:41Z",
+      "teamIds": [
         "28"
       ]
     },
@@ -1582,88 +1664,6 @@
         "2",
         "4"
       ]
-    },
-    {
-      "id": "9f5d831ac167e7b9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-as-expected-are-making-calls-about-adding-a-quarterback",
-      "title": "The Vikings, as expected, are making calls about adding a quarterback",
-      "summary": "The clock is ticking, and it won't be cheap to trade for a starter.",
-      "publishedAt": "2026-11-10T16:15:05Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "944878381b54adb4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50442903/jaguars-not-planning-trade-wr-brian-thomas-jr",
-      "title": "Sources: Jaguars telling teams they aren't trading WR Brian Thomas Jr.",
-      "summary": "The Jaguars plan to keep wide receiver Brian Thomas Jr. through the trade deadline, sources told ESPN's Jeremy Fowler.",
-      "publishedAt": "2026-11-10T16:03:28Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "6da76839a6b63637",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/puka-nacua-injury-nfl-trade-deadline-five-receivers-rams-should-target-george-pickens",
-      "title": "After Puka Nacua injury, five receivers the Rams should target at the 2026 trade deadline",
-      "summary": "With Puka Nacua and Davante Adams both out, the Rams suddenly need some help at wide receiver",
-      "publishedAt": "2026-11-10T16:02:40Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "19fc08bd64e36549",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-plan-to-keep-brian-thomas-jr-at-trade-deadline",
-      "title": "Report: Jaguars plan to keep Brian Thomas Jr. at trade deadline",
-      "summary": "The Jaguars have been bringing players in to fortify the roster for a deep postseason run.",
-      "publishedAt": "2026-11-10T15:54:12Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "86a2b07b1ca307e9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-davis-is-a-little-disappointed-to-be-traded-by-eagles",
-      "title": "Jordan Davis is \"a little disappointed\" to be traded by Eagles",
-      "summary": "For players with no-trade clauses and most starting-level quarterbacks, there's no reason to worry about a rogue wind blowing them to a new team in a new city.",
-      "publishedAt": "2026-11-10T15:46:34Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "c77daa7e48532354",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49742016/2026-win-rates-team-player-rankings-pass-rush-run-stop-blocking",
-      "title": "2026 NFL pass rush, run stop, blocking win rate rankings",
-      "summary": "Our win rate metrics stack the NFL's top teams and players in run blocking, run stopping, pass protection and pass rushing.",
-      "publishedAt": "2026-11-10T15:42:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "31d818ab2355ab08",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 10: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-10T15:40:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "20f4695456852672",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 10: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-10T15:39:54Z",
-      "teamIds": []
     }
   ]
 }
