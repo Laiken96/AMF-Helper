@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T00:47:23Z",
+  "updatedAt": "2026-11-11T01:47:23Z",
   "items": [
+    {
+      "id": "123b28b856416f8d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50447756/raiders-name-fernando-mendoza-starting-qb-trading-kirk-cousins",
+      "title": "Raiders name Fernando Mendoza starting QB after trading Kirk Cousins",
+      "summary": "No. 1 pick Fernando Mendoza was officially named the Raiders' starting quarterback Tuesday after the team traded Kirk Cousins to the Vikings.",
+      "publishedAt": "2026-11-11T01:45:03Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "1b391bfab94d6c36",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-ranking-all-18-deals-kirk-cousins-jeffery-simmons",
+      "title": "NFL trade deadline: Ranking all 18 in-season deals as Kirk Cousins, Jeffery Simmons reshape Super Bowl race",
+      "summary": "The Jaguars, Bears and Bills are among the teams that pulled off home-run moves",
+      "publishedAt": "2026-11-11T01:27:42Z",
+      "teamIds": [
+        "2",
+        "3",
+        "30"
+      ]
+    },
+    {
+      "id": "c5a95a51bfd69015",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-spytek-first-real-call-on-kirk-cousins-came-this-morning",
+      "title": "John Spytek: First \"real\" call on Kirk Cousins came this morning",
+      "summary": "As NFL trades slip into hibernation until March, it's important to remember something the next time players can be sent from one team to another.",
+      "publishedAt": "2026-11-11T01:25:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "9bfaf5a354985c40",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50447694/get-ready-chargers-vs-ravens-monday-night-football",
+      "title": "Get ready for Chargers vs. Ravens on Monday Night Football",
+      "summary": null,
+      "publishedAt": "2026-11-11T01:06:12Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "63841015d58fd218",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-aftermath-vikings-chiefs-improve",
+      "title": "NFL trade deadline aftermath: Which teams improved, which teams should have made moves",
+      "summary": "The Vikings and Chiefs were among the teams that got better, but the Chargers really dropped the ball on Tuesday",
+      "publishedAt": "2026-11-11T00:55:18Z",
+      "teamIds": [
+        "12",
+        "24",
+        "16"
+      ]
+    },
+    {
+      "id": "d0d556bc977f0919",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-dl-tim-keenan-to-the-active-roster-from-the-practice-squad",
+      "title": "Raiders sign DL Tim Keenan to the active roster from the practice squad",
+      "summary": "The Raiders traded quarterback Kirk Cousins to the Vikings, leaving an open roster spot.",
+      "publishedAt": "2026-11-11T00:52:56Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
     {
       "id": "8eddf801dd2f85dd",
       "source": "pft",
@@ -1567,67 +1637,6 @@
       "publishedAt": "2026-11-10T12:22:53Z",
       "teamIds": [
         "12",
-        "16"
-      ]
-    },
-    {
-      "id": "81736f95a375bfcd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-on-trade-deadline-approach-if-you-put-it-on-a-scale-now-outweighs-the-future",
-      "title": "John Harbaugh on trade deadline approach: If you put it on a scale, now outweighs the future",
-      "summary": "There have been a number of big moves on the trade front over the last couple of weeks as teams with eyes on competing for the Super Bowl have made big swings to improve their chances.",
-      "publishedAt": "2026-11-10T12:12:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "690b83525ad7232a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-bills-defense-showing-what-we-can-do-over-last-two-weeks",
-      "title": "Greg Rousseau: Bills defense showing \"what we can do\" over last two weeks",
-      "summary": "The Bills gave up at least 29 points in five of their first six games of the season and opponents averaged over 386 yards of offense in those contests.",
-      "publishedAt": "2026-11-10T11:57:09Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "ffbe25e9e113d69c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
-      "title": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
-      "summary": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
-      "publishedAt": "2026-11-10T11:43:29Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-10T11:24:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-10T11:22:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "50490ae7852e8911",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-this-one-felt-pretty-terrible",
-      "title": "Carson Wentz: This one felt pretty terrible",
-      "summary": "The Vikings' quarterback had perhaps the worst game any NFL quarterback has had this season in Monday night's loss to the Bills.",
-      "publishedAt": "2026-11-10T11:21:52Z",
-      "teamIds": [
-        "2",
         "16"
       ]
     }
