@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T23:47:19Z",
+  "updatedAt": "2026-11-11T00:47:23Z",
   "items": [
+    {
+      "id": "8eddf801dd2f85dd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-upgrade-wr-treylon-burks-to-full-practice-participation",
+      "title": "Commanders upgrade WR Treylon Burks to limited practice participation",
+      "summary": "Commanders wide receiver Treylon Burks missed last Sunday's loss to the Rams with a foot injury, but he's moving toward a return to the lineup.",
+      "publishedAt": "2026-11-11T00:02:25Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "dcaca1c6a8adab0e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-i-felt-like-it-was-a-lie-to-attack-my-character",
+      "title": "Malik Nabers: I felt like it was a lie for Fox broadcast to attack my character",
+      "summary": "\"Don't tell the world something that's not me.\"",
+      "publishedAt": "2026-11-10T23:48:57Z",
+      "teamIds": []
+    },
     {
       "id": "bdea4be9c8b76016",
       "source": "espn",
@@ -1608,26 +1629,6 @@
       "teamIds": [
         "2",
         "16"
-      ]
-    },
-    {
-      "id": "c637736e2d505797",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50435694/nfl-power-rankings-week-10-most-important-games-remaining",
-      "title": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
-      "summary": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
-      "publishedAt": "2026-11-10T11:21:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "b7f20e89a81f3dfa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50437256/commanders-lose-another-one-score-game",
-      "title": "Commanders running low on time to 'put it all together'",
-      "summary": "Dan Quinn knows it's repetitive to say the Commanders are close, but now they're painted into a corner.",
-      "publishedAt": "2026-11-10T11:00:01Z",
-      "teamIds": [
-        "28"
       ]
     }
   ]
