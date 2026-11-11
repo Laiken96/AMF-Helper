@@ -1,17 +1,140 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T16:47:20Z",
+  "updatedAt": "2026-11-11T17:47:20Z",
   "items": [
+    {
+      "id": "f3ed16421676c377",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
+      "title": "Todd Monken: I intend for Deshaun Watson being our starting QB",
+      "summary": "Monken said he doesn't anticipate making a quarterback change while confirming Watson's Week 10 return.",
+      "publishedAt": "2026-11-11T17:38:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "c3c305be778ea5be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rex-ryan-is-arrested-after-running-over-feet-of-pedestrians-with-his-truck",
+      "title": "Rex Ryan is arrested after allegedly running over feet of pedestrians with his truck",
+      "summary": "No, it's not The Onion.",
+      "publishedAt": "2026-11-11T17:30:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "93362e73dce8aaba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-k-cam-little-is-the-afc-special-teams-player-of-the-week",
+      "title": "Jaguars K Cam Little is the AFC special teams player of the week",
+      "summary": "Jaguars kicker Cam Little has gained a reputation for long field goals over his three years in the NFL, but he didn't have to show off his big leg against the Ravens last Thursday.",
+      "publishedAt": "2026-11-11T17:21:29Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
+    {
+      "id": "ff829be1cdbd3a81",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-bates-wins-nfc-special-teams-player-of-the-week",
+      "title": "Jake Bates wins NFC special teams player of the week",
+      "summary": "For the first time since 2024, Jake Bates is the NFC special teams player of the week.",
+      "publishedAt": "2026-11-11T17:19:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "749bf63a29f9c066",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-named-the-afc-defensive-player-of-the-week",
+      "title": "Chris Jones named the AFC defensive player of the week",
+      "summary": "Chiefs defensive tackle Chris Jones only had a half-sack in the team's first seven games this season, but things went a lot better for him on that front in Week 9.",
+      "publishedAt": "2026-11-11T17:16:13Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "261f44fc2af5a07f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-odds-lines-totals-spreads",
+      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Commanders-Giants, 49ers-Cowboys",
+      "summary": "NFL Week 10 spreads and totals for every game, including Commanders-Giants, 49ers-Cowboys and Steelers-Bengals",
+      "publishedAt": "2026-11-11T17:13:58Z",
+      "teamIds": [
+        "4",
+        "6",
+        "19",
+        "23",
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "8c6e83ab15d646fc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/arvell-reese-wins-first-nfc-defensive-player-of-the-week-award",
+      "title": "Arvell Reese wins first NFC defensive player of the week award",
+      "summary": "Giants rookie linebacker Arvell Reese was all over the field in Sunday's victory over the Eagles.",
+      "publishedAt": "2026-11-11T17:12:07Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "id": "92a3589443c50614",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-named-afc-offensive-player-of-the-week-for-second-time-this-season",
+      "title": "C.J. Stroud named AFC offensive player of the week for second time this season",
+      "summary": "Texans quarterback C.J.",
+      "publishedAt": "2026-11-11T17:10:55Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "9f3df789f9d427f3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-wins-fifth-career-nfc-offensive-player-of-the-week-award",
+      "title": "Jordan Love wins fifth career NFC offensive player of the week award",
+      "summary": "Jordan Love has been outstanding throughout the 2026 season, but he had an especially strong game against the Patriots on Sunday.",
+      "publishedAt": "2026-11-11T17:05:57Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "dadce732d192e6d5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-designate-de-b-j-green-for-return",
+      "title": "Jaguars designate DE B.J. Green for return",
+      "summary": "The Jaguars have welcomed three new players to the team this week and they will also be reintegrating a current member of the team into practice.",
+      "publishedAt": "2026-11-11T17:02:17Z",
+      "teamIds": [
+        "30"
+      ]
+    },
     {
       "id": "f4cecdacfc05f870",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/draft/news/renners-2027-nfl-three-round-mock-draft-trade-deadline-first-three-rounds-eagles-jets-titans",
-      "title": "Renner's 2027 NFL three-round mock draft: How the trade deadline affected the first three rounds",
+      "title": "Renner's post-deadline 2027 NFL mock draft: How the trade deadline affected the first three rounds",
       "summary": "The Eagles and Titans rebuild after the deadline, while the Chargers land a new weapon for Justin Herbert in Jeremiah Smith",
       "publishedAt": "2026-11-11T16:44:08Z",
       "teamIds": [
         "24",
         "21",
+        "10"
+      ]
+    },
+    {
+      "id": "d429119233d15935",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-sign-lb-mohamoud-diabate-off-panthers-practice-squad",
+      "title": "Titans sign LB Mohamoud Diabate off Panthers practice squad",
+      "summary": "The Titans have added a linebacker.",
+      "publishedAt": "2026-11-11T16:43:34Z",
+      "teamIds": [
+        "29",
         "10"
       ]
     },
@@ -976,6 +1099,17 @@
       ]
     },
     {
+      "id": "bf43d5fb7df052f8",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50442966/2026-fantasy-football-knockout-leagues-pickups-week-10",
+      "title": "Gibbs, Allen, JSN and more Knockout league pickups for Week 10",
+      "summary": "As the number of teams shrink, the number of stars available in Knockout leagues grows. Here are the ones to get.",
+      "publishedAt": "2026-11-10T21:31:22Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
       "id": "98e5b5f970362620",
       "source": "espn",
       "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
@@ -1531,134 +1665,6 @@
       "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
       "publishedAt": "2026-11-10T18:31:20Z",
       "teamIds": []
-    },
-    {
-      "id": "200a5d920c3934d7",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869566/2026-fantasy-football-expected-fantasy-points-xfp-qb",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for QBs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-10T18:29:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "14a0a051c07584cb",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
-      "title": "NFL expected touchdown (xTD) leaderboard for 2026",
-      "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
-      "publishedAt": "2026-11-10T18:25:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "b2e49bc3c1fddd05",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-jonathan-taylor-mock-trades",
-      "title": "Jonathan Taylor mock trades: How Giants, Broncos, Vikings could target Colts star RB",
-      "summary": "The Colts need to replenish their draft assets, and dealing their three-time Pro Bowl running back could produce a significant return",
-      "publishedAt": "2026-11-10T18:24:30Z",
-      "teamIds": [
-        "7",
-        "11",
-        "16",
-        "19"
-      ]
-    },
-    {
-      "id": "5981c1b08209b3c6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
-      "title": "Fantasy football 2026 defensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
-      "publishedAt": "2026-11-10T18:23:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "eb3ec793316c8038",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50444069/sources-falcons-cutting-kicker-nick-folk-signing-jake-moody",
-      "title": "Source: Falcons cutting kicker Nick Folk, signing Jake Moody",
-      "summary": "ESPN has confirmed that the Falcons are releasing kicker Nick Folk and signing Jake Moody.",
-      "publishedAt": "2026-11-10T18:21:07Z",
-      "teamIds": [
-        "1",
-        "33"
-      ]
-    },
-    {
-      "id": "8ad5845f106af302",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
-      "title": "Fantasy football 2026 offensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
-      "publishedAt": "2026-11-10T18:19:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "3490c0ed00d9bad2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 10",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-10T18:13:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "8e50d9feb604ce37",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-vikings-will-trade-for-a-quarterback-today",
-      "title": "Source: Vikings will trade for a quarterback today",
-      "summary": "The clock is ticking toward 4:00 p.m. ET.",
-      "publishedAt": "2026-11-10T18:07:53Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "193d3dcf80a9e1d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kendre-miller-to-visit-cowboys-on-tuesday",
-      "title": "Report: Kendre Miller to visit Cowboys on Tuesday",
-      "summary": "The Cowboys need a running back with Tyler Goodson injured and they're reportedly set to meet with a veteran option on Tuesday.",
-      "publishedAt": "2026-11-10T18:05:10Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "2a0a4a8d2d7c7ff4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-call-off-arnold-ebiketie-trade-eagles-compensatory-pick-formula-nick-korte",
-      "title": "Bengals call off Arnold Ebiketie trade with Eagles after nearly botching compensatory pick situation",
-      "summary": "The Bengals were in line to lose a 2027 third-round pick awarded from Trey Hendrickson's departure",
-      "publishedAt": "2026-11-10T17:58:58Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "960e724d0a77ac87",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50443983/bills-spencer-brown-breaks-new-philosophy-coach-joe-brady",
-      "title": "Bills' Spencer Brown breaks down the new philosophy under coach Joe Brady",
-      "summary": null,
-      "publishedAt": "2026-11-10T17:49:06Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "4e2bd7bad927c1db",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443891/bengals-nix-agreed-trade-eagles-sources-say",
-      "title": "Bengals nix agreed-upon trade with Eagles, sources say",
-      "summary": "A trade that would've sent Eagles edge rusher Arnold Ebiketie to Cincinnati has been called off, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
-      "publishedAt": "2026-11-10T17:44:37Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
     }
   ]
 }
