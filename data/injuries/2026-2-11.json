@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-11T22:47:08Z",
+    "takenAt": "2026-11-11T23:47:17Z",
     "games": [
       {
         "gameId": "401873066",
@@ -32,7 +32,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4432577",
@@ -278,7 +278,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4569603",
@@ -850,17 +850,6 @@
         "kickoffUtc": "2026-11-23T01:20:00Z",
         "players": [
           {
-            "athleteId": "2573079",
-            "name": "Carson Wentz",
-            "pos": "QB",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
-          },
-          {
             "athleteId": "3042519",
             "name": "Aaron Jones Sr.",
             "pos": "RB",
@@ -881,7 +870,7 @@
               "qb",
               "passing"
             ],
-            "status": "Doubtful"
+            "status": null
           },
           {
             "athleteId": "4262921",

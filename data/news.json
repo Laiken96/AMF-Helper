@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T22:47:10Z",
+  "updatedAt": "2026-11-11T23:47:20Z",
   "items": [
+    {
+      "id": "2f69112348d0813b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-to-sign-k-riley-patterson",
+      "title": "Report: Ravens to sign K Riley Patterson",
+      "summary": "The Ravens have reportedly settled on their next kicker.",
+      "publishedAt": "2026-11-11T23:35:35Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "00615e03dd98a67d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50455771/kirk-cousins-reintroduced-vikings-starting-qb",
+      "title": "Kirk Cousins says call with Kevin O'Connell convinced him to OK Vikings trade",
+      "summary": "Kirk Cousins has rejoined the Vikings after not quite three years away, relishing his familiarity with the Twin Cities area, the people in the organization.",
+      "publishedAt": "2026-11-11T23:25:16Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "dec85f4cdf7f9b29",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-s-amani-hooker-amazing-to-be-on-a-team-thats-winning",
+      "title": "Bills S Amani Hooker: \"Amazing\" to be on a team that's winning",
+      "summary": "Safety Amani Hooker was catapulted up the standings this week.",
+      "publishedAt": "2026-11-11T23:23:53Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "344df97ff3a56de6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-wr-denzel-boston-is-expected-back-at-practice-thursday",
+      "title": "Browns WR Denzel Boston is expected back at practice Thursday",
+      "summary": "The Browns practiced without wide receiver Denzel Boston on Wednesday, but they don't expect his absence to be an extended one.",
+      "publishedAt": "2026-11-11T23:05:52Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "ffc649b7d8dcabe7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-limited-in-return-to-practice-patriots-rule-out-three",
+      "title": "A.J. Brown limited in return to practice, Patriots rule out three",
+      "summary": "The Patriots ruled three players out for Sunday's game against the Lions in Munich on Wednesday, but there was some encouraging news about wide receiver A.J.",
+      "publishedAt": "2026-11-11T22:53:04Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "058de7878bf247ba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-de-james-pearce-did-not-practice-wednesday",
+      "title": "Falcons DE James Pearce did not practice Wednesday",
+      "summary": "Falcons defensive end James Pearce Jr. made his season debut on Sunday after serving an eight-game suspension.",
+      "publishedAt": "2026-11-11T22:51:06Z",
+      "teamIds": [
+        "1"
+      ]
+    },
     {
       "id": "cfdcdbe808f53315",
       "source": "pft",
@@ -1585,73 +1652,6 @@
       "teamIds": [
         "11",
         "12"
-      ]
-    },
-    {
-      "id": "915bf0dbabb06da9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-release-wr-odell-beckham-jr-but-will-re-sign-him-to-the-practice-squad",
-      "title": "Vikings release WR Odell Beckham Jr., but will re-sign him to the practice squad",
-      "summary": "The Vikings terminated the contract of wide receiver Odell Beckham Jr. on Tuesday, the team announced.",
-      "publishedAt": "2026-11-10T21:48:43Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "739464fb033be6ca",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50444528/kirk-cousins-trade-minnesota-vikings-las-vegas-raiders",
-      "title": "What the Kirk Cousins trade means for the Vikings and the Raiders",
-      "summary": "We answered big questions surrounding the trade of quarterback Kirk Cousins from the Raiders to the Vikings.",
-      "publishedAt": "2026-11-10T21:47:33Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "4bb7204fe4146b0d",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
-      "title": "Rest-of-season rankings: Cousins, Jefferson, Mendoza biggest deadline winners",
-      "summary": "Need to make or assess a trade offer? With the NFL trade deadline passed, these rankings are designed to help.",
-      "publishedAt": "2026-11-10T21:45:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Should you deal for one of the five most traded players in fantasy?",
-      "summary": "Meet the most traded players in fantasy football this week, and whether you should hold or trade for them too.",
-      "publishedAt": "2026-11-10T21:45:08Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "d934140e8f1f0923",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
-      "title": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
-      "summary": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-      "publishedAt": "2026-11-10T21:42:38Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "5152b885ebbd4baf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-bring-back-wr-xavier-smith-sign-him-off-49ers-practice-squad",
-      "title": "Rams bring back WR Xavier Smith, sign him off 49ers practice squad",
-      "summary": "The Rams did not bring in a receiver via trade before the deadline, but they have acquired one who knows their system.",
-      "publishedAt": "2026-11-10T21:33:49Z",
-      "teamIds": [
-        "14",
-        "25"
       ]
     }
   ]
