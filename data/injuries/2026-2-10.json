@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-11T17:40:33Z",
+    "takenAt": "2026-11-11T19:30:47Z",
     "games": [
       {
         "gameId": "401873052",
@@ -743,6 +743,17 @@
         "gameId": "401873062",
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
+          {
+            "athleteId": "4260394",
+            "name": "Aidan O'Connell",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4432665",
             "name": "Brock Bowers",
