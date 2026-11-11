@@ -1,7 +1,101 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T10:47:22Z",
+  "updatedAt": "2026-11-11T11:47:28Z",
   "items": [
+    {
+      "id": "619ba67a0b34c589",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50434740/nfl-trades-protected-draft-picks",
+      "title": "Why protected picks aren't common in NFL trades",
+      "summary": "It's common for NBA teams to protect picks they trade, but things are different in the NFL. Here's why.",
+      "publishedAt": "2026-11-11T11:41:04Z",
+      "teamIds": [
+        "5",
+        "11",
+        "14"
+      ]
+    },
+    {
+      "id": "61787d5bfa9384c6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50442897/2026-trade-deadline-barnwell-questions-cousins-downs",
+      "title": "Questions on 2026 NFL trade deadline deals: Does Kirk Cousins lift the Vikings?",
+      "summary": "Let's make sense of Kirk Cousins to the Vikings, Josh Downs to the Chiefs, the Jaguars getting aggressive, a wild Bengals comp-pick mixup and four teams' deadline silence.",
+      "publishedAt": "2026-11-11T11:18:10Z",
+      "teamIds": [
+        "4",
+        "30",
+        "12",
+        "16"
+      ]
+    },
+    {
+      "id": "e562e0664a7c64aa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50442934/week-10-buzz-fantasy-predictions-graziano-fowler-2026-trades",
+      "title": "NFL Week 10 latest intel, buzz questions, fantasy tips, post-trade deadline news",
+      "summary": "No deals for Jonathan Taylor, Daniel Jones or Brian Thomas Jr.? Vikings seeking QB answers with their Kirk Cousins trade? Here's the latest intel.",
+      "publishedAt": "2026-11-11T11:17:19Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "f79bc98f03557bec",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonah-jackson-on-luke-goedekes-grievances-this-is-football-man",
+      "title": "Jonah Jackson on Luke Goedeke's grievances: \"This is football, man\"",
+      "summary": "After Sunday night's game between the Buccaneers and Bears, Tampa Bay tackle Luke Goedeke had some grievances to air about Chicago defensive tackle Jeffery Simmons.",
+      "publishedAt": "2026-11-11T11:03:17Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "de9005cf0d05fbe4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50445806/cowboys-quinnen-williams-trade-deadline",
+      "title": "Cowboys rave about Quinnen Williams a year after trade deadline deal",
+      "summary": "Voted a captain by his teammates, Williams is making a difference in Dallas on and off the field.",
+      "publishedAt": "2026-11-11T11:00:22Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "77081e544642ab56",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50443533/denver-broncos-defense-seals-wins-big-plays-2026-season",
+      "title": "Big plays by Broncos defense in late-game situations keying Denver's 7-2 start",
+      "summary": "The offense has gotten a lot of the credit for the Broncos' late-game heroics, but the defense's knack for big plays is just as important.",
+      "publishedAt": "2026-11-11T11:00:10Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "4b8a7c43a1825a24",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50447827/philadelphia-eagles-trade-haul-2027-draft-picks",
+      "title": "The Philadelphia Eagles' 2026 trade haul is likely to age well over time",
+      "summary": "Whether Philadelphia wants to go after its QB of the future or build up around Jalen Hurts, it has options.",
+      "publishedAt": "2026-11-11T11:00:02Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "80dcfae9fe7a8384",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50442969/titans-cam-ward-bye",
+      "title": "Where does Cam Ward stand coming out of the bye?",
+      "summary": "Ward has nine games left to convince the Titans he should be their QB when they open the new stadium in 2027.",
+      "publishedAt": "2026-11-11T11:00:02Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "7f50e04040a865cb",
       "source": "pft",
@@ -1557,89 +1651,6 @@
       "teamIds": [
         "4",
         "9",
-        "16"
-      ]
-    },
-    {
-      "id": "636cdef188c9ba76",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-we-wouldnt-be-where-we-are-without-kirk-cousins-amazing-decision-making",
-      "title": "Klint Kubiak: We wouldn't be where we are without Kirk Cousins' \"amazing\" decision-making",
-      "summary": "The Raiders signed Kirk Cousins in April with the idea that he would start for the entire season while No. 1 overall pick Fernando Mendoza develops.",
-      "publishedAt": "2026-11-10T15:04:33Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "cfa4a9cbe2c2d038",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-doesnt-expect-a-significant-trade-for-cowboys-on-tuesday",
-      "title": "Jerry Jones doesn't expect a \"significant trade\" for Cowboys on Tuesday",
-      "summary": "Cowboys owner Jerry Jones has said repeatedly that he's open for business on the trade front, but every deal needs a partner and it doesn't sound like the Cowboys are finding much luck on that front.",
-      "publishedAt": "2026-11-10T15:00:33Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "98e5b5f970362620",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 10 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
-      "publishedAt": "2026-11-10T14:55:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "79660fd9acf03f76",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-brady-sells-stake-in-birmingham-city-football-club",
-      "title": "Tom Brady sells stake in Birmingham City Football Club",
-      "summary": "Tom Brady has a lot on his plate (but not any deli meat).",
-      "publishedAt": "2026-11-10T14:53:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "8f50ffb11426f53b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-10-2026",
-      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-10T14:45:49Z",
-      "teamIds": [
-        "2",
-        "34"
-      ]
-    },
-    {
-      "id": "99a8905aad7d60a7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-on-benching-christian-mahogany-thats-why-i-have-team-rules",
-      "title": "Dan Campbell on benching Christian Mahogany: That's why I have team rules",
-      "summary": "Lions guard Christian Mahogany had played every snap for five consecutive games until Sunday in Miami, when Mahogany didn't play at all and backup Miles Frazier took his place.",
-      "publishedAt": "2026-11-10T14:45:00Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "235e9c630915763b",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50442321/nfl-betting-favorites-win-14-15-games-fuel-best-week-bettors",
-      "title": "NFL betting favorites win 14 of 15 games, fuel best week for bettors",
-      "summary": "NFL favorites won 14 of 15 games in Week 9, a historic run of chalk that cost sportsbooks and left the betting public smiling.",
-      "publishedAt": "2026-11-10T14:42:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "d49b90fec3625373",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-vikings-quarterback-options-kirk-cousins",
-      "title": "2026 NFL trade deadline: Ranking Vikings quarterback options with Kirk Cousins as best fit in Minnesota",
-      "summary": "After Carson Wentz exposed Minnesota's offensive problems on national television, the 6-2 Vikings must consider an aggressive move",
-      "publishedAt": "2026-11-10T14:23:34Z",
-      "teamIds": [
         "16"
       ]
     }
