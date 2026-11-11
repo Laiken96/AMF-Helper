@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-11T19:30:47Z",
+    "takenAt": "2026-11-11T19:40:29Z",
     "games": [
       {
         "gameId": "401873052",
@@ -628,6 +628,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "2573079",
+            "name": "Carson Wentz",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           },
           {
             "athleteId": "3042519",
