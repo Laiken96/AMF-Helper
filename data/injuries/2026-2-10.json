@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-12T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-11T21:20:32Z",
+    "takenAt": "2026-11-11T21:30:45Z",
     "games": [
       {
         "gameId": "401873052",
@@ -97,7 +97,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4374302",
@@ -108,7 +108,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4429795",
@@ -735,7 +735,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Doubtful"
+            "status": "Out"
           },
           {
             "athleteId": "4430737",
