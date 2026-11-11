@@ -1,7 +1,58 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T12:47:17Z",
+  "updatedAt": "2026-11-11T13:47:18Z",
   "items": [
+    {
+      "id": "fb1b182e85e83c78",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-best-bets-steelers-joe-burrows-bengals-chiefs",
+      "title": "NFL Week 10 picks, best bets: Steelers cool off Joe Burrow's Bengals, Chiefs roll in Atlanta",
+      "summary": "Tyler Sullivan picks every game on the Week 10 schedule, including five locks against the spread",
+      "publishedAt": "2026-11-11T13:43:17Z",
+      "teamIds": [
+        "4",
+        "12",
+        "23"
+      ]
+    },
+    {
+      "id": "402e1ef8d593d81e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks",
+      "title": "Prisco's Week 10 NFL picks: Giants over Commanders on 'TNF,' Lions top Patriots in Munich",
+      "summary": "Pete Prisco reveals all of his Week 10 picks, including the Packers to spoil Kirk Cousins' return with the Vikings",
+      "publishedAt": "2026-11-11T13:43:03Z",
+      "teamIds": [
+        "8",
+        "9",
+        "16",
+        "17",
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "f0727970bbc8b354",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-gm-james-gladstone-we-value-draft-picks-but-dont-always-use-them-in-april",
+      "title": "Jaguars GM James Gladstone: We value draft picks, but don't always use them in April",
+      "summary": "Jaguars General Manager James Gladstone doesn't view this week's moves to acquire safety Jessie Bates, defensive tackle Jordan Davis, and defensive tackle Davon Godchaux in the same light as many others around the football world have characterized them.",
+      "publishedAt": "2026-11-11T13:28:13Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "cb38841676672bd0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ranking-nfls-greatest-in-season-trades-kirk-cousins-vikings",
+      "title": "Ranking NFL's greatest in-season trades of all-time: Where Kirk Cousins to Vikings ranks among top 10",
+      "summary": "Tuesday's trade is already among the most notable in-season deals in league history",
+      "publishedAt": "2026-11-11T12:59:10Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "e5462935526f8f39",
       "source": "espn",
@@ -1612,42 +1663,6 @@
       "title": "Fantasy football rankings for Week 10: Running back",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-10T15:39:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "d1c0f679b410049a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 10: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-10T15:39:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "c74dc9607c70469a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 10: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-10T15:38:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "8f3391d81c68c176",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 10: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-10T15:38:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "0d7c7545ac711865",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 10: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-10T15:38:03Z",
       "teamIds": []
     }
   ]
