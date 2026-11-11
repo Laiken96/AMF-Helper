@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T18:47:22Z",
+  "updatedAt": "2026-11-11T19:47:20Z",
   "items": [
+    {
+      "id": "c48aa6373a42e8eb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50454416/titans-ridley-addresses-incident-valet-airport",
+      "title": "Titans' Calvin Ridley addresses incident with valet at Nashville airport",
+      "summary": "Titans WR Calvin Ridley addressed the incident that occurred over the weekend at Nashville International Airport involving a valet as he attempted to recover the keys to his truck.",
+      "publishedAt": "2026-11-11T19:46:53Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "4bb394e4e5e28f1f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50454351/bengals-zac-taylor-apologizes-failed-trade-eagles",
+      "title": "Bengals' Zac Taylor apologizes for failed trade with Eagles: 'It was on our end'",
+      "summary": "Bengals coach Zac Taylor apologized for the failed trade for Eagles edge rusher Arnold Ebiketie ahead of Tuesday's deadline.",
+      "publishedAt": "2026-11-11T19:33:41Z",
+      "teamIds": [
+        "4",
+        "21"
+      ]
+    },
+    {
+      "id": "3eb467f518d11ec6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-make-josh-uche-a-team-captain-after-three-other-captains-go-on-injured-reserve",
+      "title": "Dolphins make Josh Uche a team captain after three other captains go on injured reserve",
+      "summary": "Before the season, the Dolphins named six team captains.",
+      "publishedAt": "2026-11-11T19:32:41Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "9d700c9bbea79005",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-shocked-vikings-acquired-kirk-cousins-for-only-a-third-round-pick",
+      "title": "Matt LaFleur \"shocked\" Vikings acquired Kirk Cousins for only a third-round pick",
+      "summary": "Packers head coach Matt LaFleur was Kirk Cousins' position coach when the quarterback came into the league.",
+      "publishedAt": "2026-11-11T19:14:14Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "4da1c79400175eea",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-jonathan-taylor-trade-candidates-offseason-moves-after-staying-put-deadline",
+      "title": "NFL trade deadline: Jonathan Taylor leads candidates for offseason moves after staying put",
+      "summary": "Just because these players were not dealt at the deadline, that does not mean they will suit up for their current team in 2027",
+      "publishedAt": "2026-11-11T18:49:24Z",
+      "teamIds": []
+    },
     {
       "id": "456dc95174bd01fb",
       "source": "pft",
@@ -1120,6 +1175,15 @@
       ]
     },
     {
+      "id": "bfdf2525abe547b7",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
+      "publishedAt": "2026-11-10T22:10:36Z",
+      "teamIds": []
+    },
+    {
       "id": "fbe0d061819d8f86",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-on-giants-not-adding-a-running-back-they-know-what-i-can-do",
@@ -1581,87 +1645,15 @@
       ]
     },
     {
-      "id": "eb2ce4f9081f98f1",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50444959/mcafee-co-react-bills-trade-amani-hooker",
-      "title": "McAfee & Co. react to Bills' trade for Amani Hooker",
-      "summary": null,
-      "publishedAt": "2026-11-10T19:53:14Z",
-      "teamIds": [
-        "2",
-        "10"
-      ]
-    },
-    {
-      "id": "7c7610c14df8e0d7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50444954/kirk-cousins-trade-great-fit-vikings-raiders",
-      "title": "Jeff Saturday: Kirk Cousins trade a 'great fit' for Vikings and Raiders",
-      "summary": null,
-      "publishedAt": "2026-11-10T19:53:06Z",
+      "id": "28cc9f5301ade78c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-trade-vikings-raiders-rumors",
+      "title": "Vikings trade for Kirk Cousins: Minnesota turns to familiar face to salvage its season, Raiders begin new era",
+      "summary": "Minnesota's 6-2 start is being dragged down by dreadful quarterback play, while Las Vegas looks ready to hand the offense over to rookie Fernando Mendoza",
+      "publishedAt": "2026-11-10T19:58:32Z",
       "teamIds": [
         "13",
         "16"
-      ]
-    },
-    {
-      "id": "1ace63005a7a1fbb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/keenan-allen-trade-grades-49ers-colts",
-      "title": "Keenan Allen trade grades: 49ers acquire WR help from Colts for Day 3 pick, per report",
-      "summary": "San Francisco adds a veteran receiver at the trade deadline",
-      "publishedAt": "2026-11-10T19:50:21Z",
-      "teamIds": [
-        "11",
-        "25"
-      ]
-    },
-    {
-      "id": "58d2a57a28235a77",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-bring-kirk-cousins-back-to-minnesota",
-      "title": "Vikings bring Kirk Cousins back to Minnesota",
-      "summary": "Raiders get a 2027 third-round pick for Cousins.",
-      "publishedAt": "2026-11-10T19:48:14Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "f9a61590cb27dd5f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/amani-hooker-trade-grades-bills-titans",
-      "title": "Amani Hooker trade: Bills gets secondary help from Titans for second-round pick, per report",
-      "summary": "Buffalo had a clear need in the secondary, and they addressed it with one of the NFL's best safeties",
-      "publishedAt": "2026-11-10T19:45:12Z",
-      "teamIds": [
-        "2",
-        "10"
-      ]
-    },
-    {
-      "id": "fc0841dc6db39d14",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50444457/sources-49ers-acquire-keenan-allen-trade-colts",
-      "title": "49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
-      "summary": "The 49ers completed a trade with the Colts for Keenan Allen in a move that will bolster their injury-plagued WR corps.",
-      "publishedAt": "2026-11-10T19:43:47Z",
-      "teamIds": [
-        "11",
-        "25"
-      ]
-    },
-    {
-      "id": "21881ffd5643fc45",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50444810/bills-trade-titans-safety-amani-hooker",
-      "title": "Bills fill major need at safety, trade for Titans' Amani Hooker",
-      "summary": "The Bills traded for Titans safety Amani Hooker, giving up a second-round pick in exchange for Hooker and a fifth-round pick.",
-      "publishedAt": "2026-11-10T19:43:02Z",
-      "teamIds": [
-        "2",
-        "10"
       ]
     }
   ]

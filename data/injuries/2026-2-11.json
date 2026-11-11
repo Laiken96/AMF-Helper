@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-10T22:47:22Z",
+    "takenAt": "2026-11-11T19:47:18Z",
     "games": [
       {
         "gameId": "401873066",
@@ -799,6 +799,17 @@
             "status": null
           },
           {
+            "athleteId": "4260394",
+            "name": "Aidan O'Connell",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4432665",
             "name": "Brock Bowers",
             "pos": "TE",
@@ -838,6 +849,17 @@
         "gameId": "401873077",
         "kickoffUtc": "2026-11-23T01:20:00Z",
         "players": [
+          {
+            "athleteId": "2573079",
+            "name": "Carson Wentz",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
           {
             "athleteId": "3042519",
             "name": "Aaron Jones Sr.",
