@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:47:20Z",
+  "updatedAt": "2026-11-11T10:47:22Z",
   "items": [
+    {
+      "id": "7f50e04040a865cb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-more-likely-to-miss-the-playoffs-than-make-the-playoffs-according-to-betting-odds",
+      "title": "Rams more likely to miss the playoffs than make the playoffs, according to betting odds",
+      "summary": "After opening the season as the betting favorites to win the Super Bowl, the Rams are now underdogs to make the playoffs.",
+      "publishedAt": "2026-11-11T10:39:06Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "4c18b48dfc6a7190",
       "source": "pft",
@@ -1630,17 +1641,6 @@
       "publishedAt": "2026-11-10T14:23:34Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "12d0a88f6614d2e1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-definitely-a-curve-to-getting-jessie-bates-ready-this-week",
-      "title": "Liam Coen: \"Definitely a curve\" to getting Jessie Bates ready this week",
-      "summary": "The Jaguars made three trades on Monday, but their deal for safety Jessie Bates was the only one that was completed when head coach Liam Coen met with reporters on Monday.",
-      "publishedAt": "2026-11-10T14:15:55Z",
-      "teamIds": [
-        "30"
       ]
     }
   ]
