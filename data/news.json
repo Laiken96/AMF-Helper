@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T15:23:45Z",
+  "updatedAt": "2026-11-11T15:47:24Z",
   "items": [
+    {
+      "id": "8c87b14c3093850c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50453097/stephen-some-words-kevin-oconnell-vikings-trade-kirk-cousins",
+      "title": "Stephen A. has some words for Kevin O'Connell after Vikings trade for Kirk Cousins",
+      "summary": null,
+      "publishedAt": "2026-11-11T15:45:53Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "0b4ff9c9d3b1e1e6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50453200/mark-andrews-week-10-fantasy-outlook",
+      "title": "Mark Andrews' Week 10 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-11T15:44:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "b38c072b9925b2ca",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-called-falcons-about-a-potential-bijan-robinson-trade",
+      "title": "Report: Giants called Falcons about a potential Bijan Robinson trade",
+      "summary": "The Giants didn't make any big deals at the trade deadline, but they tried to make a very big one.",
+      "publishedAt": "2026-11-11T15:39:05Z",
+      "teamIds": [
+        "1",
+        "19"
+      ]
+    },
+    {
+      "id": "a90d591ff765e425",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-packers-jordan-love-is-2026-midseason-mvp",
+      "title": "Why Packers' Jordan Love is the 2026 midseason MVP: Green Bay QB doing a lot with no help",
+      "summary": "Love is doing more with less and doing it better than every other quarterback in the NFL through nine weeks of the 2026 season",
+      "publishedAt": "2026-11-11T15:28:15Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "3fe670c7e235a1e6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50445909/fantasy-football-bye-week-replacements-byemageddon",
+      "title": "Fantasy football: Prep for Week 11 'Bye-mageddon' by stashing these players now",
+      "summary": "Stash these players ahead of Week 11, when six NFL teams' worth of fantasy football stars will be on bye.",
+      "publishedAt": "2026-11-11T15:26:26Z",
+      "teamIds": []
+    },
     {
       "id": "81b9987b811fb8ed",
       "source": "espn",
@@ -1608,59 +1660,6 @@
       "publishedAt": "2026-11-10T17:02:15Z",
       "teamIds": [
         "26"
-      ]
-    },
-    {
-      "id": "1c5261ec1e3ced58",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/dolphins-zach-sieler-injury-2026",
-      "title": "Dolphins lose captain Zach Sieler for season with ruptured biceps",
-      "summary": "The Dolphins captain ruptured his biceps on the opening play against the Lions but remarkably finished the game",
-      "publishedAt": "2026-11-10T16:47:24Z",
-      "teamIds": [
-        "8",
-        "15"
-      ]
-    },
-    {
-      "id": "bfe22df31a84ccd9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50443286/caleb-douglas-not-starting-fantasy",
-      "title": "Dopp: Caleb Douglas is not someone you will be starting in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-10T16:46:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "04ec972f6f51224e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443229/bengals-trade-eagles-lb-arnold-ebiketie-sources-say",
-      "title": "Bengals trade for Eagles LB Arnold Ebiketie, sources say",
-      "summary": "The Bengals have added edge rusher Arnold Ebiketie in a trade with the Eagles, sources told NFL Network's Ian Rapoport.",
-      "publishedAt": "2026-11-10T16:41:22Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "43f7b10108c22010",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50117108/fantasy-football-2026-strength-schedule-rest-season",
-      "title": "Strength of schedule (SOS) cheat sheet: Every team's year-to-date and rest-of-season ratings",
-      "summary": "Ranking each team's remaining schedule and how it might impact every position's fantasy performance.",
-      "publishedAt": "2026-11-10T16:41:21Z",
-      "teamIds": []
-    },
-    {
-      "id": "e5383142ea6d1279",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443204/sources-vikings-asking-qbs-ahead-trade-deadline",
-      "title": "Sources: Vikings inquiring about QBs ahead of trade deadline",
-      "summary": "The Vikings have started making calls around the league about trading for a quarterback ahead of Tuesday's deadline, sources told ESPN and NFL Network.",
-      "publishedAt": "2026-11-10T16:39:01Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]
