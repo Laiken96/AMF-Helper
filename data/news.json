@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T02:47:24Z",
+  "updatedAt": "2026-11-11T03:47:18Z",
   "items": [
+    {
+      "id": "9cd8dd58d3b31846",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cba-allows-49ers-to-not-pay-brandon-aiyuk-during-two-week-roster-exemption",
+      "title": "CBA allows 49ers to not pay Brandon Aiyuk during two-week roster exemption",
+      "summary": "When unusual situations emerge in the NFL, it becomes a piece-by-piece exercise in figuring out the specific rules that apply.",
+      "publishedAt": "2026-11-11T03:12:24Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "adf6fdaea4080ce1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+      "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
+      "summary": "Was getting Kirk Cousins a home run for the Vikings? Did the Chiefs make a smart move to pick up Josh Downs?",
+      "publishedAt": "2026-11-11T02:53:07Z",
+      "teamIds": [
+        "12",
+        "16"
+      ]
+    },
+    {
+      "id": "6152fa43f02c3bbf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-denies-giving-subtle-middle-finger-to-fans",
+      "title": "Nick Sirianni denies giving subtle middle finger to fans",
+      "summary": "After Sunday's loss to the Giants — Philadelphia's seventh loss in a row — a video emerged of Eagles coach Nick Sirianni leaving the field, along with Dom DiSandro.",
+      "publishedAt": "2026-11-11T02:47:22Z",
+      "teamIds": [
+        "19",
+        "21"
+      ]
+    },
     {
       "id": "42fcddb552aa808e",
       "source": "espn",
@@ -197,7 +232,7 @@
       "id": "269ee44b06d1d93c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
-      "title": "2026 NFL trade deadline updates: Josh Downs, Kirk Cousins on the move",
+      "title": "2026 NFL trade deadline updates: Kirk Cousins, Josh Downs on the move",
       "summary": "We're officially past the NFL trade deadline. We followed the action on 18 in-season deals, including six on Tuesday.",
       "publishedAt": "2026-11-10T22:42:58Z",
       "teamIds": []
@@ -630,6 +665,19 @@
       "publishedAt": "2026-11-10T20:38:58Z",
       "teamIds": [
         "16"
+      ]
+    },
+    {
+      "id": "db917a1ce56a14bb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-week-10-picks-score-predictions-lions-patriots-bengals",
+      "title": "NFL Week 10 picks and score predictions: Lions run over Patriots in Germany, Bengals survive",
+      "summary": "John Breech predicts every Week 10 game, including a Lions victory over the Patriots in Munich",
+      "publishedAt": "2026-11-10T20:31:11Z",
+      "teamIds": [
+        "4",
+        "8",
+        "17"
       ]
     },
     {
@@ -1593,52 +1641,6 @@
       "publishedAt": "2026-11-10T14:08:29Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "132c9420333f81f2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-17-28-time-of-possession-was-their-lowest-in-franchise-history",
-      "title": "Vikings' 17:28 time of possession was their lowest in franchise history",
-      "summary": "The Minnesota Vikings have played 1,064 games in the history of their franchise, which started in 1961.",
-      "publishedAt": "2026-11-10T14:03:28Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "a4125003afa1c06d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/josh-allen-bills-vikings-mnf-nfl-trade-deadline-market",
-      "title": "Josh Allen, Bills suffocate Vikings; NFL trade deadline day arrives with big names on the market",
-      "summary": "Plus, Georgia has taken over the top spot in our CFB Power Rankings",
-      "publishedAt": "2026-11-10T13:49:55Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "07c2415fe935f39e",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442030/will-daniel-jones-become-minnesota-vikings-player-today",
-      "title": "Will Daniel Jones become a Minnesota Vikings player today?",
-      "summary": null,
-      "publishedAt": "2026-11-10T13:45:16Z",
-      "teamIds": [
-        "11",
-        "16"
-      ]
-    },
-    {
-      "id": "d21059a5542e1b9d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dt-jordan-elliott-to-work-out-for-bears",
-      "title": "Report: DT Jordan Elliott to work out for Bears",
-      "summary": "Defensive tackle Jordan Elliott is getting another look from an NFL team.",
-      "publishedAt": "2026-11-10T13:35:40Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
