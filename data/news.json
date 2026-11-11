@@ -1,7 +1,142 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T17:47:20Z",
+  "updatedAt": "2026-11-11T18:47:22Z",
   "items": [
+    {
+      "id": "456dc95174bd01fb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-brees-throws-his-hat-in-the-ring-for-monday-night-football-gig",
+      "title": "Drew Brees throws his hat in the ring for Monday Night Football gig",
+      "summary": "If ESPN ultimately doesn't bring Troy Aikman back for ESPN in 2027, there won't be a shortage of folks interested in taking over the spot.",
+      "publishedAt": "2026-11-11T18:46:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "161d11de4da0e5fc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50454081/chiefs-sticking-harrison-butker-kicker-vs-falcons",
+      "title": "Chiefs sticking with struggling Harrison Butker as kicker this week",
+      "summary": "Harrison Butker will remain the Chiefs' kicker for Sunday's game against the Falcons, coach Andy Reid announced.",
+      "publishedAt": "2026-11-11T18:44:41Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "47d56b320fa79a41",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873052",
+      "title": "J.J. McCarthy makes his first Giants home start against the desperate Commanders",
+      "summary": "Riffing off John Harbaugh's stated aim of going 1-0 each week, Malik Nabers thinks the New York Giants' game Thursday night against Washington is worth double after their meeting last...",
+      "publishedAt": "2026-11-11T18:44:35Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "e97aec3fa2a56e93",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/xavier-legette-mike-jackson-jonathon-brooks-return-to-panthers-practice",
+      "title": "Xavier Legette, Mike Jackson, Jonathon Brooks return to Panthers practice",
+      "summary": "The Panthers started the clock on the return of three players from injured reserve on Wednesday.",
+      "publishedAt": "2026-11-11T18:40:26Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "280e9faede4f7f81",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50453997/tomlin-focused-broadcast-role-not-coaching-return",
+      "title": "Mike Tomlin: 'Excited' about broadcast role, hasn't considered coaching return",
+      "summary": "Mike Tomlin, now an analyst with NBC Sports after leaving his job coaching the Steelers, said he hasn't \"given one iota of thought about coaching.\"",
+      "publishedAt": "2026-11-11T18:37:25Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "28ae5dff98744578",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-harrison-mevis-riley-patterson-among-kickers-working-out-for-ravens",
+      "title": "Report: Harrison Mevis, Riley Patterson among kickers working out for Ravens",
+      "summary": "The Ravens need a new kicker after Jake Moody departed their practice squad to sign with the Falcons.",
+      "publishedAt": "2026-11-11T18:36:38Z",
+      "teamIds": [
+        "1",
+        "33"
+      ]
+    },
+    {
+      "id": "a701d6a8b31ab0a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/calvin-ridley-discusses-airport-incident",
+      "title": "Calvin Ridley discusses airport incident",
+      "summary": "Titans receiver Calvin Ridley was involved in an incident over the weekend at the Nashville International Airport.",
+      "publishedAt": "2026-11-11T18:29:58Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "210c318aab92b166",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-josh-jacobs-could-return-in-2-3-weeks-from-broken-finger",
+      "title": "Report: Josh Jacobs could return in 2-3 weeks from broken finger",
+      "summary": "There is some more clarity around running back Josh Jacobs' timeline for return from his broken finger.",
+      "publishedAt": "2026-11-11T18:15:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "d137f0a0ce80394b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50453897/rex-ryan-facing-charges-alleged-hit-run",
+      "title": "Ex-NFL coach Rex Ryan facing charges after alleged hit-and-run",
+      "summary": "Former NFL head coach Rex Ryan is facing charges after allegedly striking two pedestrians with his pickup truck and leaving the scene in Nashville, Tennessee.",
+      "publishedAt": "2026-11-11T18:13:49Z",
+      "teamIds": []
+    },
+    {
+      "id": "a0245bae4c1ef180",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50453932/browns-todd-monken-explains-call-start-deshaun-watson",
+      "title": "Browns' Monken: Watson over Sanders QB decision based on 'full body of work'",
+      "summary": "Browns coach Todd Monken said Wednesday his intention all along was to stick with Deshaun Watson as QB1 based on his \"full body of work\" this season.",
+      "publishedAt": "2026-11-11T18:13:33Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "abfdbd49fe8822ac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-on-coaching-again-ill-cross-that-bridge-when-i-come-to-it",
+      "title": "Mike Tomlin on coaching again: \"I'll cross that bridge when I come to it\"",
+      "summary": "Tomlin says he hasn't thought about it, but that \"some of that’s going to come up in the not-too-distant future.\"",
+      "publishedAt": "2026-11-11T18:02:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "9e6da023df45f4dd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-will-stick-with-harrison-butker-as-their-kicker",
+      "title": "Chiefs will stick with Harrison Butker as their kicker",
+      "summary": "Harrison Butker keeps missing field goals, but the Chiefs are not ready to make a change at kicker.",
+      "publishedAt": "2026-11-11T17:54:31Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "a5824bc5e0b21c5d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/former-nfl-head-coach-rex-ryan-arrested-nashville-police-striking-two-pedestrians-truck",
+      "title": "Former NFL head coach Rex Ryan arrested by Nashville police for allegedly striking two pedestrians with truck",
+      "summary": "The incident occurred before midnight on Thursday, Nov. 5",
+      "publishedAt": "2026-11-11T17:38:59Z",
+      "teamIds": []
+    },
     {
       "id": "f3ed16421676c377",
       "source": "pft",
@@ -997,6 +1132,24 @@
       ]
     },
     {
+      "id": "5981c1b08209b3c6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
+      "title": "Fantasy football 2026 defensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
+      "publishedAt": "2026-11-10T22:03:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ad5845f106af302",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
+      "title": "Fantasy football 2026 offensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
+      "publishedAt": "2026-11-10T22:02:40Z",
+      "teamIds": []
+    },
+    {
       "id": "bd56867f8cfcd9aa",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/chiefs-agree-to-acquire-wr-josh-downs-in-trade-with-colts-per-report",
@@ -1510,161 +1663,6 @@
         "2",
         "10"
       ]
-    },
-    {
-      "id": "211ddf7a57a5e30c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/2026-nfl-trade-deadline-live-updates-tracker-deals-news-rumors-analysis",
-      "title": "2026 NFL Trade Deadline live updates: Tracker, deals, news, rumors, analysis",
-      "summary": "Jordan Davis, Jeffery Simmons, DeForest Buckner, Quenton Nelson and more big-name NFL players are on the move.",
-      "publishedAt": "2026-11-10T19:40:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "bfdf2525abe547b7",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-      "publishedAt": "2026-11-10T19:31:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "28747fe37d1e7d3a",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
-      "title": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
-      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
-      "publishedAt": "2026-11-10T19:25:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "0fa0264b75b9acf3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-agree-to-trade-s-amani-hooker-to-bills",
-      "title": "Titans agree to trade S Amani Hooker to Bills",
-      "summary": "The Bills are bringing in some help for their secondary.",
-      "publishedAt": "2026-11-10T19:20:46Z",
-      "teamIds": [
-        "2",
-        "10"
-      ]
-    },
-    {
-      "id": "f7c9e417e8c69db5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-49ers-game-at-levis-stadium-resulted-in-11-arrests-and-45-ejections",
-      "title": "Raiders-49ers game at Levi's Stadium resulted in 11 arrests and 45 ejections",
-      "summary": "Technically, it counts as progress.",
-      "publishedAt": "2026-11-10T19:18:40Z",
-      "teamIds": [
-        "13",
-        "25"
-      ]
-    },
-    {
-      "id": "bbad693de54abf3a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50444620/rich-eisen-reacts-49ers-trade-keenan-allen",
-      "title": "'Great move': Rich Eisen reacts to 49ers' trade for Keenan Allen",
-      "summary": null,
-      "publishedAt": "2026-11-10T19:14:13Z",
-      "teamIds": [
-        "11",
-        "25"
-      ]
-    },
-    {
-      "id": "1afc86d5c680b3af",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-cover-32-week-9-2026",
-      "title": "Cover 32: What every team should do at 2026 NFL trade deadline, plus game balls and gaffes from Week 9",
-      "summary": "Tyler Sullivan analyzes which contenders should go all-in and who needs to sell before it's too late",
-      "publishedAt": "2026-11-10T19:05:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "b855fce3d39c7dde",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-agree-to-trade-keenan-allen-to-49ers",
-      "title": "Colts agree to trade Keenan Allen to 49ers",
-      "summary": "Dealing with several of injuries at the position, San Francisco is adding depth at receiver.",
-      "publishedAt": "2026-11-10T18:47:29Z",
-      "teamIds": [
-        "11",
-        "25"
-      ]
-    },
-    {
-      "id": "beeb4820f4783dc1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50444360/sources-vikings-id-qb-kirk-cousins-prime-trade-target",
-      "title": "Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
-      "summary": "Vikings are trading for quarterback Kirk Cousins, sending a 2027 third-round pick to the Raiders.",
-      "publishedAt": "2026-11-10T18:43:06Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "a87076e256e75b81",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869463/2026-fantasy-football-expected-points-xfpa-position-qb-rb-wr-te",
-      "title": "2026 expected fantasy points against (xFPA) by position",
-      "summary": "Measuring the best defenses against specific positions by using expected points vs. actual fantasy production.",
-      "publishedAt": "2026-11-10T18:39:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "fd25c2bae22175be",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-have-identified-kirk-cousins-as-prime-trade-candidate",
-      "title": "Report: Vikings \"have identified\" Kirk Cousins as \"prime trade candidate\"",
-      "summary": "Yes, the Vikings will be adding a quarterback today.",
-      "publishedAt": "2026-11-10T18:38:35Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "28cc9f5301ade78c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/kirk-cousins-trade-vikings-raiders-rumors",
-      "title": "Vikings trade for Kirk Cousins: Minnesota turns to familiar face to salvage its season, Raiders begin new era",
-      "summary": "Minnesota's 6-2 start is being dragged down by dreadful quarterback play, while Las Vegas looks ready to hand the offense over to rookie Fernando Mendoza",
-      "publishedAt": "2026-11-10T18:38:07Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "af1eb0bdc5b525e0",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869668/2026-fantasy-football-expected-fantasy-points-xfp-te",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for TEs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-10T18:35:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "5d67837c042d9f80",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869659/fantasy-football-2026-expected-fantasy-points-xfp-wr",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-10T18:33:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "33cf91fb12b5eb9b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869631/2026-fantasy-football-expected-fantasy-points-xfp-rb",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for RBs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-10T18:31:20Z",
-      "teamIds": []
     }
   ]
 }
