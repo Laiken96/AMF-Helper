@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T01:47:23Z",
+  "updatedAt": "2026-11-11T02:47:24Z",
   "items": [
+    {
+      "id": "42fcddb552aa808e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50448300/patrick-brittany-mahomes-fourth-child-announcement",
+      "title": "Patrick and Brittany Mahomes announce baby No. 4 on NFL trade deadline day",
+      "summary": "The couple shared the news on a busy trade deadline day that also brought receiver Josh Downs to Kansas City.",
+      "publishedAt": "2026-11-11T02:17:21Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "5f5be099e82c77b2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/in-kirk-cousins-the-vikings-landed-their-first-choice",
+      "title": "In Kirk Cousins, the Vikings landed their first choice",
+      "summary": "After last night's abysmal performance by the offense against the Bills, the Vikings mobilized to trade for a quarterback.",
+      "publishedAt": "2026-11-11T02:09:30Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "8e5c697b0cf39225",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-ravens-averages-13-96-million-on-prime-video",
+      "title": "Jaguars-Ravens averages 13.96 million on Prime Video",
+      "summary": "When it comes to interpreting press releases regarding the audiences for sporting events, there's a rule of thumb.",
+      "publishedAt": "2026-11-11T01:51:32Z",
+      "teamIds": [
+        "33",
+        "30"
+      ]
+    },
     {
       "id": "123b28b856416f8d",
       "source": "espn",
@@ -1604,40 +1639,6 @@
       "publishedAt": "2026-11-10T13:35:40Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "db917a1ce56a14bb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-week-10-picks-score-predictions-lions-patriots-bengals",
-      "title": "NFL Week 10 picks and score predictions: Lions run over Patriots in Germany, Bengals survive",
-      "summary": "John Breech predicts every Week 10 game, including a Lions victory over the Patriots in Munich",
-      "publishedAt": "2026-11-10T12:57:48Z",
-      "teamIds": [
-        "4",
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "5bc42cf5fc626fce",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49998196/fantasy-football-waiver-wire-pickups-week",
-      "title": "Fantasy football: Live Week 10 free agent pickups advice with ESPN expert",
-      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
-      "publishedAt": "2026-11-10T12:31:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "adf6fdaea4080ce1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
-      "summary": "Was getting Cousins a home run for the Vikings? Did the Chiefs make a smart move to pick up Josh Downs?",
-      "publishedAt": "2026-11-10T12:22:53Z",
-      "teamIds": [
-        "12",
-        "16"
       ]
     }
   ]
