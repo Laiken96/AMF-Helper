@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:47:18Z",
+  "updatedAt": "2026-11-11T05:47:22Z",
   "items": [
+    {
+      "id": "a8b8832f0b3a252f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50450311/why-giants-trade-attempts-just-happen",
+      "title": "Why Giants' trade attempts 'just didn't happen'",
+      "summary": "Jordan Raanan explains how steep asking prices for Jonathan Taylor and Bijan Robinson kept the Giants from making a move before the trade deadline.",
+      "publishedAt": "2026-11-11T04:59:42Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "9cd8dd58d3b31846",
       "source": "pft",
@@ -1630,17 +1641,6 @@
       "publishedAt": "2026-11-10T14:11:06Z",
       "teamIds": [
         "2"
-      ]
-    },
-    {
-      "id": "d88fd1c891df8dd7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50442157/does-puka-nacua-injury-put-rams-season-jeopardy",
-      "title": "Does Puka Nacua's injury put the Rams' season in jeopardy?",
-      "summary": null,
-      "publishedAt": "2026-11-10T14:08:29Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
