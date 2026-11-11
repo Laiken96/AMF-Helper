@@ -1,7 +1,93 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T15:47:24Z",
+  "updatedAt": "2026-11-11T16:47:20Z",
   "items": [
+    {
+      "id": "f4cecdacfc05f870",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/draft/news/renners-2027-nfl-three-round-mock-draft-trade-deadline-first-three-rounds-eagles-jets-titans",
+      "title": "Renner's 2027 NFL three-round mock draft: How the trade deadline affected the first three rounds",
+      "summary": "The Eagles and Titans rebuild after the deadline, while the Chargers land a new weapon for Justin Herbert in Jeremiah Smith",
+      "publishedAt": "2026-11-11T16:44:08Z",
+      "teamIds": [
+        "24",
+        "21",
+        "10"
+      ]
+    },
+    {
+      "id": "35c221d92a34c04a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/miami-of-ohio-penalized-for-patriots-style-video-board-trickery-on-field-goal-attempt",
+      "title": "Miami of Ohio penalized for Patriots-style video board trickery on field goal attempt",
+      "summary": "At the start of this season, a former NFL analytics staffer publicized a longstanding effort by the Patriots to confuse opposing kickers with the video board behind the goal posts, showing an image of the goal posts meant to cause an optical illusion and make it harder for a kicker to put the ball through the uprights.",
+      "publishedAt": "2026-11-11T16:36:22Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "30026b26036e1255",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50453373/sources-giants-eyed-bijan-robinson-trade-deadline",
+      "title": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
+      "summary": "The Giants made a call to the Falcons before the NFL trade deadline inquiring about star running back Bijan Robinson, multiple sources told ESPN.",
+      "publishedAt": "2026-11-11T16:33:25Z",
+      "teamIds": [
+        "1",
+        "19"
+      ]
+    },
+    {
+      "id": "985c5cd0742a58f9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-mishandled-the-jonathan-taylor-situation",
+      "title": "Colts mishandled the Jonathan Taylor situation",
+      "summary": "When the dust settled on the trade deadline, the Colts still had running back Jonathan Taylor under contract.",
+      "publishedAt": "2026-11-11T16:30:12Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "a6483bc421e7361c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50453345/should-justin-jefferson-ranked-higher-chris-olave-week-10",
+      "title": "Should Justin Jefferson be ranked higher than Chris Olave in Week 10?",
+      "summary": null,
+      "publishedAt": "2026-11-11T16:27:51Z",
+      "teamIds": []
+    },
+    {
+      "id": "aaf0cbde6db06f9e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-traded-vikings-raiders-gave-option-stay-leave-franchise-per-report",
+      "title": "Kirk Cousins traded to Vikings: Raiders gave QB option to stay or leave franchise, per report",
+      "summary": "Minnesota gave up a third round pick to bring back Cousins",
+      "publishedAt": "2026-11-11T16:21:15Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "b372c0a4e66a74c9",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50453359/dopp-clay-differ-their-preferred-week-10-te",
+      "title": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
+      "summary": null,
+      "publishedAt": "2026-11-11T16:12:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "4d4a1ab64a0dab54",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50453337/should-managers-start-geno-smith-jordan-love-dopp-clay-debate",
+      "title": "Should managers start Geno Smith over Jordan Love? Dopp and Clay debate",
+      "summary": null,
+      "publishedAt": "2026-11-11T16:05:48Z",
+      "teamIds": []
+    },
     {
       "id": "8c87b14c3093850c",
       "source": "espn",
@@ -38,7 +124,7 @@
       "id": "a90d591ff765e425",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/why-packers-jordan-love-is-2026-midseason-mvp",
-      "title": "Why Packers' Jordan Love is the 2026 midseason MVP: Green Bay QB doing a lot with no help",
+      "title": "Why Packers' Jordan Love is the 2026 midseason MVP: Green Bay QB dominating with no help",
       "summary": "Love is doing more with less and doing it better than every other quarterback in the NFL through nine weeks of the 2026 season",
       "publishedAt": "2026-11-11T15:28:15Z",
       "teamIds": [
@@ -847,8 +933,8 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Malik Willis placed on IR, are there any Dolphins you should start?",
-      "summary": "What does the Miami Dolphins' fantasy football outlook show with starting QB Malik Willis placed on IR?",
+      "title": "Fantasy buzz: Should you deal for one of the five most traded players in fantasy?",
+      "summary": "Meet the most traded players in fantasy football this week, and whether you should hold or trade for them too.",
       "publishedAt": "2026-11-10T21:45:08Z",
       "teamIds": [
         "2",
@@ -1572,94 +1658,6 @@
       "teamIds": [
         "4",
         "21"
-      ]
-    },
-    {
-      "id": "d8968719a44f3272",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/not-many-players-are-truly-untradeable",
-      "title": "Not many players are truly untradeable",
-      "summary": "In recent days (including today), reports have emerged that certain players will not be traded.",
-      "publishedAt": "2026-11-10T17:39:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "5392d02edb075b70",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-call-off-trade-for-arnold-ebiketie",
-      "title": "Bengals call off trade for Arnold Ebiketie",
-      "summary": "Tuesday morning brought word that the Bengals had agreed to acquire pass rusher Arnold Ebiketie in a trade with the Eagles, but that agreement will not be finalized ahead of the 4 p.m.",
-      "publishedAt": "2026-11-10T17:33:13Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "021f4c14da10fd00",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443653/source-dolphins-captain-zach-sieler-rest-season",
-      "title": "Dolphins captain Zach Sieler out for rest of season with ruptured biceps",
-      "summary": "Dolphins DT Zach Sieler will miss the rest of the season with a ruptured biceps, a source told ESPN, leaving Miami without a critical team leader and captain.",
-      "publishedAt": "2026-11-10T17:30:27Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "9e37a4ba68512727",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-signing-k-jake-moody-releasing-k-nick-folk",
-      "title": "Falcons signing K Jake Moody, releasing K Nick Folk",
-      "summary": "The Falcons are swapping out one kicker for another.",
-      "publishedAt": "2026-11-10T17:27:41Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "6f004dd9e9bf0773",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50414792/nfl-week-10-betting-odds-props-early-picks-predictions",
-      "title": "Early bets for Week 10: 49ers triumph in Dallas, low scoring in Texans-Browns?",
-      "summary": "Which Week 10 lines offered immediate value once odds came out? Here are the early bets we like.",
-      "publishedAt": "2026-11-10T17:12:58Z",
-      "teamIds": [
-        "5",
-        "6",
-        "34",
-        "25"
-      ]
-    },
-    {
-      "id": "746c44dde0c67a1b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-likely-will-be-cut-by-4-00-p-m-et-today",
-      "title": "Brandon Aiyuk likely will be cut by 4:00 p.m. ET today",
-      "summary": "A key fact has come into focus regarding the Brandon Aiyuk situation.",
-      "publishedAt": "2026-11-10T17:05:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "0f9284bacc89a0c9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50443323/why-demario-douglas-fantasy-upside-week-10-vs-lions",
-      "title": "Why DeMario Douglas has fantasy upside in Week 10 vs. Lions",
-      "summary": null,
-      "publishedAt": "2026-11-10T17:03:24Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "bf43d5fb7df052f8",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50442966/2026-fantasy-football-knockout-leagues-pickups-week-10",
-      "title": "Gibbs, Allen, JSN and more Knockout league pickups for Week 10",
-      "summary": "As the number of teams shrink, the number of stars available in Knockout leagues grows. Here are the ones to get.",
-      "publishedAt": "2026-11-10T17:02:15Z",
-      "teamIds": [
-        "26"
       ]
     }
   ]
