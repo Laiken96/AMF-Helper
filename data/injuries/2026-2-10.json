@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T23:40:29Z",
+    "takenAt": "2026-11-12T23:50:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1436,7 +1436,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3916148",
@@ -1533,7 +1533,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4567048",
@@ -1596,7 +1596,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4569603",
@@ -1785,17 +1785,6 @@
         "gameId": "401873062",
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
-          {
-            "athleteId": "4260394",
-            "name": "Aidan O'Connell",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
           {
             "athleteId": "4432665",
             "name": "Brock Bowers",
@@ -2172,14 +2161,24 @@
       "to": "Questionable"
     },
     {
-      "gameId": "401873057",
-      "athleteId": "4882093",
-      "name": "Bhayshul Tuten",
-      "pos": "RB",
-      "teamAbbr": "JAX",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
+      "gameId": "401873058",
+      "athleteId": "3139477",
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "teamAbbr": "KC",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873059",
+      "athleteId": "4242512",
+      "name": "Malik Willis",
+      "pos": "QB",
+      "teamAbbr": "MIA",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
     },
     {
       "gameId": "401873060",
@@ -2190,6 +2189,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873062",
+      "athleteId": "4260394",
+      "name": "Aidan O'Connell",
+      "pos": "QB",
+      "teamAbbr": "LV",
+      "kind": "weg",
+      "from": "Out",
+      "to": null
     },
     {
       "gameId": "401873065",
