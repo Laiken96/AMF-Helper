@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T19:47:22Z",
+  "updatedAt": "2026-11-12T20:47:25Z",
   "items": [
+    {
+      "id": "3ff7b4ec5ee9181b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50463704/myles-garrett-details-range-emotions-was-sidelined-injury",
+      "title": "Myles Garrett details range of emotions when he was sidelined with injury",
+      "summary": null,
+      "publishedAt": "2026-11-12T20:42:00Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "389aaf99df3c39b3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacoby-brissett-the-last-week-has-definitely-been-a-crash-course",
+      "title": "Jacoby Brissett: The last week has definitely been a crash course",
+      "summary": "Jacoby Brissett has been a member of the Ravens for less than a week, but he's set to start at quarterback in the team's game against the Chargers on Monday night.",
+      "publishedAt": "2026-11-12T20:33:43Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "3e34f6b9a4e7c696",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-will-wear-no-8-again-for-vikings",
+      "title": "Kirk Cousins will wear No. 8 again for Vikings",
+      "summary": "Vikings fans won't need to buy new Kirk Cousins jerseys.",
+      "publishedAt": "2026-11-12T20:28:00Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "17b5d9127969e11b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50463938/still-colts-jonathan-taylor-focused-being-leader",
+      "title": "Jonathan Taylor focused on being leader for Colts with trade deadline drama over",
+      "summary": "Colts running back Jonathan Taylor said he has turned his attention toward the future after the team's big moves ahead of the NFL trade deadline.",
+      "publishedAt": "2026-11-12T20:24:51Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "b304a0a0549984af",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-im-going-into-sunday-with-the-same-confidence-i-always-have",
+      "title": "Christian Gonzalez: I'm going into Sunday with the same confidence I always have",
+      "summary": "Patriots cornerback Christian Gonzalez is coming off a terrible game against the Packers, but he said on Thursday that it won't be hanging over his head in Munich this Sunday.",
+      "publishedAt": "2026-11-12T20:12:23Z",
+      "teamIds": [
+        "9",
+        "17"
+      ]
+    },
+    {
+      "id": "b73f19f35b6c3339",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873056",
+      "title": "Deshaun Watson downplays facing Texans as Browns try to stay unbeaten at home, in playoff picture",
+      "summary": "Deshaun Watson isn't buying the hype, insisting that it's no longer a big deal when he plays against his former team, the Houston Texans.",
+      "publishedAt": "2026-11-12T20:09:35Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
     {
       "id": "7d32802c5b571620",
       "source": "espn",
@@ -1574,71 +1643,6 @@
       "teamIds": [
         "10"
       ]
-    },
-    {
-      "id": "4bb394e4e5e28f1f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50454351/bengals-zac-taylor-apologizes-failed-trade-eagles",
-      "title": "Bengals' Zac Taylor apologizes for failed trade with Eagles: 'It was on our end'",
-      "summary": "Bengals coach Zac Taylor apologized for the failed trade for Eagles edge rusher Arnold Ebiketie ahead of Tuesday's deadline.",
-      "publishedAt": "2026-11-11T19:33:41Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "3eb467f518d11ec6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-make-josh-uche-a-team-captain-after-three-other-captains-go-on-injured-reserve",
-      "title": "Dolphins make Josh Uche a team captain after three other captains go on injured reserve",
-      "summary": "Before the season, the Dolphins named six team captains.",
-      "publishedAt": "2026-11-11T19:32:41Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "0f2cafc8c6ced40f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-trade-deadline-grades-every-team",
-      "title": "2026 NFL trade deadline grades for every team: Four teams earn an A, Rams and Chargers among disappointments",
-      "summary": "The 2026 NFL trade deadline has come and gone, and we've got a full report card for the league",
-      "publishedAt": "2026-11-11T19:24:36Z",
-      "teamIds": [
-        "24",
-        "14"
-      ]
-    },
-    {
-      "id": "9d700c9bbea79005",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-shocked-vikings-acquired-kirk-cousins-for-only-a-third-round-pick",
-      "title": "Matt LaFleur \"shocked\" Vikings acquired Kirk Cousins for only a third-round pick",
-      "summary": "Packers head coach Matt LaFleur was Kirk Cousins' position coach when the quarterback came into the league.",
-      "publishedAt": "2026-11-11T19:14:14Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "4da1c79400175eea",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-trade-deadline-jonathan-taylor-trade-candidates-offseason-moves-after-staying-put-deadline",
-      "title": "NFL trade deadline: Jonathan Taylor leads candidates for offseason moves after staying put",
-      "summary": "Just because these players were not dealt at the deadline, that does not mean they will suit up for their current team in 2027",
-      "publishedAt": "2026-11-11T18:49:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "456dc95174bd01fb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-brees-throws-his-hat-in-the-ring-for-monday-night-football-gig",
-      "title": "Drew Brees throws his hat in the ring for Monday Night Football gig",
-      "summary": "If ESPN ultimately doesn't bring Troy Aikman back for ESPN in 2027, there won't be a shortage of folks interested in taking over the spot.",
-      "publishedAt": "2026-11-11T18:46:39Z",
-      "teamIds": []
     }
   ]
 }
