@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T18:30:55Z",
+    "takenAt": "2026-11-12T18:50:31Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1258,7 +1258,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685247",
@@ -2100,16 +2100,6 @@
       "kind": "neu",
       "from": null,
       "to": "Doubtful"
-    },
-    {
-      "gameId": "401873054",
-      "athleteId": "4569618",
-      "name": "Garrett Wilson",
-      "pos": "WR",
-      "teamAbbr": "NYJ",
-      "kind": "wechsel",
-      "from": "Questionable",
-      "to": "Out"
     },
     {
       "gameId": "401873056",
