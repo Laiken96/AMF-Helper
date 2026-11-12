@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T20:50:32Z",
+    "takenAt": "2026-11-12T21:31:08Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1150,7 +1150,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4429795",
@@ -1195,7 +1195,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Doubtful"
+            "status": "Questionable"
           }
         ]
       },
@@ -1458,7 +1458,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4688380",
@@ -2099,7 +2099,17 @@
       "teamAbbr": "NE",
       "kind": "neu",
       "from": null,
-      "to": "Doubtful"
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873053",
+      "athleteId": "4374302",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "teamAbbr": "DET",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873056",
@@ -2117,6 +2127,16 @@
       "name": "Denzel Boston",
       "pos": "WR",
       "teamAbbr": "CLE",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873057",
+      "athleteId": "3916148",
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "teamAbbr": "TEN",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
