@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T21:31:08Z",
+    "takenAt": "2026-11-12T21:40:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1235,7 +1235,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "15864",
@@ -2107,6 +2107,16 @@
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
       "teamAbbr": "DET",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873054",
+      "athleteId": "4385690",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "teamAbbr": "BUF",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
