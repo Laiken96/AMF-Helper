@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T22:10:33Z",
+    "takenAt": "2026-11-12T22:20:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1258,7 +1258,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685247",
@@ -1395,7 +1395,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4432577",
@@ -2113,30 +2113,10 @@
     },
     {
       "gameId": "401873054",
-      "athleteId": "4569618",
-      "name": "Garrett Wilson",
-      "pos": "WR",
-      "teamAbbr": "NYJ",
-      "kind": "wechsel",
-      "from": "Questionable",
-      "to": "Out"
-    },
-    {
-      "gameId": "401873054",
       "athleteId": "4385690",
       "name": "Dalton Kincaid",
       "pos": "TE",
       "teamAbbr": "BUF",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873056",
-      "athleteId": "4429059",
-      "name": "Woody Marks",
-      "pos": "RB",
-      "teamAbbr": "HOU",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
