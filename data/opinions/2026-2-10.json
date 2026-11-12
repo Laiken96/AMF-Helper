@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 10,
+  "updatedAt": "2026-11-12T19:20:55Z",
+  "model": "claude-haiku-5-5",
+  "opinions": [
+    {
+      "gameId": "401873052",
+      "createdAt": "2026-11-12T19:20:55Z",
+      "winnerTeamId": "19",
+      "pWinner": 0.62,
+      "marketPickTeamId": "19",
+      "marketProb": 0.5735,
+      "reasoning": "Die Giants spielen zu Hause, stehen mit 5-2-1 deutlich besser da als die Commanders (2-5-1) und haben die letzten Spiele gewonnen. Bei den Commanders fehlt Center Lucas Patrick (Doubtful, Concussion) und mehrere Spieler sind fraglich, während bei den Giants Skattebo und McCarthy laut ESPN fraglich sind, die übrigen Meldungen aber eine Rückkehr nahelegen; der Regen und die Kälte im MetLife könnten das Laufspiel der Commanders begünstigen.",
+      "sources": [
+        {
+          "title": "Commanders vs. Giants (Nov 12, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873052/commanders-giants"
+        },
+        {
+          "title": "Giants Week 10 injury report vs. Commanders for TNF - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/giants-week-10-injury-report-163956439.html"
+        },
+        {
+          "title": "Commanders vs Giants Prediction, Picks & Odds Tonight: Thursday Night Football Week 10",
+          "url": "https://www.covers.com/nfl/commanders-vs-giants-prediction-picks-nov-12-2026"
+        },
+        {
+          "title": "Commanders-Giants Weather Forecast: Will Rain Clear Before Kickoff? - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/commanders-giants-weather-forecast-rain-201029587.html"
+        }
+      ]
+    }
+  ]
+}
