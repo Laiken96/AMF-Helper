@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T17:01:07Z",
+    "takenAt": "2026-11-12T17:30:53Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1447,7 +1447,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "3916148",
@@ -2107,6 +2107,16 @@
       "name": "Denzel Boston",
       "pos": "WR",
       "teamAbbr": "CLE",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873057",
+      "athleteId": "4882093",
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "teamAbbr": "JAX",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
