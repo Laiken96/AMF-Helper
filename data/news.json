@@ -1,7 +1,68 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T17:47:22Z",
+  "updatedAt": "2026-11-12T18:47:20Z",
   "items": [
+    {
+      "id": "8558eb8249ffe4c3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/denzel-boston-remains-out-of-thursdays-practice-with-toe-injury",
+      "title": "Denzel Boston remains out of Thursday's practice with toe injury",
+      "summary": "On Wednesday, Browns head coach Todd Monken said he was anticipating rookie receiver Denzel Boston would practice on Thursday.",
+      "publishedAt": "2026-11-12T18:32:08Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "ea7e05cadc971d9e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-upset-with-how-hes-playing-met-with-team-psychiatrist-about-mental-block",
+      "title": "Jared Verse upset with how he's playing, met with team psychiatrist about \"mental block\"",
+      "summary": "Browns defensive end Jared Verse still doesn't have a sack this season, and he says his struggles are more mental than physical.",
+      "publishedAt": "2026-11-12T18:22:15Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "c2fb8cff9bde977f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-chiefs-49ers-showed-interest-in-trading-for-garrett-wilson",
+      "title": "Report: Chiefs, 49ers showed interest in trading for Garrett Wilson",
+      "summary": "The Chiefs and 49ers both traded for a receiver at this week's deadline, as Kansas City acquired Josh Downs and San Francisco brought in Keenan Allen.",
+      "publishedAt": "2026-11-12T17:59:24Z",
+      "teamIds": [
+        "12",
+        "25"
+      ]
+    },
+    {
+      "id": "2b890884fc505147",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462343/how-aj-brown-status-affects-demario-douglas-fantasy-stock-week-10",
+      "title": "How A.J. Brown's status affects DeMario Douglas' fantasy stock in Week 10",
+      "summary": null,
+      "publishedAt": "2026-11-12T17:57:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "31d818ab2355ab08",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 10: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-12T17:49:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "20f4695456852672",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 10: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-12T17:48:29Z",
+      "teamIds": []
+    },
     {
       "id": "d1c0f679b410049a",
       "source": "espn",
@@ -30,11 +91,22 @@
       "teamIds": []
     },
     {
+      "id": "e9af4a6c1dc9ef37",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-ol-cordell-volson-to-their-practice-squad",
+      "title": "Seahawks sign OL Cordell Volson to their practice squad",
+      "summary": "The Seahawks have added a veteran guard to their practice squad.",
+      "publishedAt": "2026-11-12T17:43:04Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
       "id": "0c5ae40f170495e9",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50463010/browns-jared-verse-met-psychiatrist-end-sack-slump",
       "title": "Browns' Jared Verse says he met with team psychiatrist to try to snap sack slump",
-      "summary": "Browns defensive end Jared Verse said Thursday that he recently met with the team's psychiatrist to get past his slump of not registering sacks.",
+      "summary": "Browns defensive end Jared Verse said Thursday that he recently met with the team's psychiatrist to try to get past his slump of not registering sacks.",
       "publishedAt": "2026-11-12T17:41:50Z",
       "teamIds": [
         "5"
@@ -327,6 +399,17 @@
       "publishedAt": "2026-11-12T15:52:25Z",
       "teamIds": [
         "19"
+      ]
+    },
+    {
+      "id": "aaf0cbde6db06f9e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kirk-cousins-traded-vikings-raiders-gave-option-stay-leave-franchise-per-report",
+      "title": "Why Kirk Cousins made decision to return to Minnesota, reunite with Vikings",
+      "summary": "Cousins said one phone call on Tuesday helped him make his decision",
+      "publishedAt": "2026-11-12T15:51:09Z",
+      "teamIds": [
+        "16"
       ]
     },
     {
@@ -1042,6 +1125,19 @@
       ]
     },
     {
+      "id": "f4cecdacfc05f870",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/draft/news/renners-2027-nfl-three-round-mock-draft-trade-deadline-first-three-rounds-eagles-jets-titans",
+      "title": "Renner's post-deadline 2027 NFL mock draft: How the trade deadline affected the first three rounds",
+      "summary": "The Eagles and Titans rebuild after the deadline, while the Chargers land a new weapon for Justin Herbert in Jeremiah Smith",
+      "publishedAt": "2026-11-11T22:57:15Z",
+      "teamIds": [
+        "24",
+        "21",
+        "10"
+      ]
+    },
+    {
       "id": "ffc649b7d8dcabe7",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-limited-in-return-to-practice-patriots-rule-out-three",
@@ -1546,93 +1642,6 @@
         "1",
         "33"
       ]
-    },
-    {
-      "id": "a701d6a8b31ab0a1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/calvin-ridley-discusses-airport-incident",
-      "title": "Calvin Ridley discusses airport incident",
-      "summary": "Titans receiver Calvin Ridley was involved in an incident over the weekend at the Nashville International Airport.",
-      "publishedAt": "2026-11-11T18:29:58Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "4a40bdbc0ddda5bf",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-10-qb-power-rankings-joe-burrow-jordan-love-caleb-williams",
-      "title": "Week 10 QB Power Rankings: There's a new No. 1, while Caleb Williams drops out of top 10",
-      "summary": "Joe Burrow swipes the top spot, Jordan Love climbs into the top five, C.J. Stroud cracks the top 10 and Caleb Williams falls",
-      "publishedAt": "2026-11-11T18:16:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "210c318aab92b166",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-josh-jacobs-could-return-in-2-3-weeks-from-broken-finger",
-      "title": "Report: Josh Jacobs could return in 2-3 weeks from broken finger",
-      "summary": "There is some more clarity around running back Josh Jacobs' timeline for return from his broken finger.",
-      "publishedAt": "2026-11-11T18:15:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "d137f0a0ce80394b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50453897/rex-ryan-facing-charges-alleged-hit-run",
-      "title": "Ex-NFL coach Rex Ryan facing charges after alleged hit-and-run",
-      "summary": "Former NFL head coach Rex Ryan is facing charges after allegedly striking two pedestrians with his pickup truck and leaving the scene in Nashville, Tennessee.",
-      "publishedAt": "2026-11-11T18:13:49Z",
-      "teamIds": []
-    },
-    {
-      "id": "a0245bae4c1ef180",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50453932/browns-todd-monken-explains-call-start-deshaun-watson",
-      "title": "Browns' Monken: Watson over Sanders QB decision based on 'full body of work'",
-      "summary": "Browns coach Todd Monken said Wednesday his intention all along was to stick with Deshaun Watson as QB1 based on his \"full body of work\" this season.",
-      "publishedAt": "2026-11-11T18:13:33Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "abfdbd49fe8822ac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-on-coaching-again-ill-cross-that-bridge-when-i-come-to-it",
-      "title": "Mike Tomlin on coaching again: \"I'll cross that bridge when I come to it\"",
-      "summary": "Tomlin says he hasn't thought about it, but that \"some of that’s going to come up in the not-too-distant future.\"",
-      "publishedAt": "2026-11-11T18:02:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "9e6da023df45f4dd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-will-stick-with-harrison-butker-as-their-kicker",
-      "title": "Chiefs will stick with Harrison Butker as their kicker",
-      "summary": "Harrison Butker keeps missing field goals, but the Chiefs are not ready to make a change at kicker.",
-      "publishedAt": "2026-11-11T17:54:31Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "a5824bc5e0b21c5d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/former-nfl-head-coach-rex-ryan-arrested-nashville-police-striking-two-pedestrians-truck",
-      "title": "Former NFL head coach Rex Ryan arrested by Nashville police for allegedly striking two pedestrians with truck",
-      "summary": "The incident occurred before midnight on Thursday, Nov. 5",
-      "publishedAt": "2026-11-11T17:38:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "f3ed16421676c377",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
-      "title": "Todd Monken: I intend for Deshaun Watson being our starting QB",
-      "summary": "Monken said he doesn't anticipate making a quarterback change while confirming Watson's Week 10 return.",
-      "publishedAt": "2026-11-11T17:38:04Z",
-      "teamIds": []
     }
   ]
 }
