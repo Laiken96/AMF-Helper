@@ -1,7 +1,120 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T23:47:20Z",
+  "updatedAt": "2026-11-12T00:47:23Z",
   "items": [
+    {
+      "id": "e3f8be7b6fa3acff",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50456455/source-ravens-now-third-kicker-sign-riley-patterson",
+      "title": "Source: Ravens, now on third kicker, sign journeyman Riley Patterson",
+      "summary": "The Raven signed journeyman kicker Riley Patterson after his workout for the team on Wednesday, according to NFL Network.",
+      "publishedAt": "2026-11-12T00:42:29Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "6da14a7ca846546c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50456677/dolphins-quarterback-malik-willis-return-starter",
+      "title": "Dolphins hopeful QB Malik Willis will be back this season",
+      "summary": "Coach Jeff Hafley said Miami sees Malik Willis as its starter regardless of when he returns from his groin injury.",
+      "publishedAt": "2026-11-12T00:41:09Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "ee3316e726f7489d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-a-full-participant-wednesday-myles-garrett-limited",
+      "title": "Matthew Stafford a full participant Wednesday; Myles Garrett limited",
+      "summary": "Rams quarterback Matthew Stafford (right elbow) had full participation on Wednesday.",
+      "publishedAt": "2026-11-12T00:38:13Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "96f999ac8f253e38",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50456405/fernando-mendoza-relishes-once-life-opportunity-raiders-starting-qb",
+      "title": "Fernando Mendoza relishes 'once-in-a-lifetime' opportunity as Raiders' QB1",
+      "summary": "No. 1 pick Fernando Mendoza said Wednesday it's a \"once-in-a-lifetime\" opportunity to be the Raiders' starting quarterback, while his teammates and coach expressed their confidence in his ability to lead the offense.",
+      "publishedAt": "2026-11-12T00:27:53Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "f301475305b244b4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-is-not-happy-with-colts-roster-purge",
+      "title": "Daniel Jones is \"not happy\" with Colts' roster purge",
+      "summary": "The Colts had a mini-fire sale in recent weeks, trading away four starters for future assets.",
+      "publishedAt": "2026-11-12T00:23:04Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "818afd382a222cb1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-did-not-practice-drew-lock-was-limited",
+      "title": "Sam Darnold did not practice Wednesday; Drew Lock was limited",
+      "summary": "The Seahawks have already ruled out Sam Darnold for Week 10, with the starting quarterback's return potentially coming in Week 12 after the bye.",
+      "publishedAt": "2026-11-12T00:18:57Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "43c1615c66b4069a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-nfl-trade-deadline-arnold-ebiketie-zac-taylor",
+      "title": "Bengals nearly made a costly trade-deadline blunder, and Zac Taylor had to explain it",
+      "summary": "The Bengals agreed to acquire Ebiketie from the Eagles before discovering the deal could cost them way more than they thought",
+      "publishedAt": "2026-11-12T00:08:56Z",
+      "teamIds": [
+        "4",
+        "21"
+      ]
+    },
+    {
+      "id": "8d1603dbae44ec96",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50455775/kirk-cousins-minnesota-trade-great-clips",
+      "title": "Kirk Cousins makes first comments on Minnesota trade at Great Clips",
+      "summary": "Kirk Cousins offered some thoughts on his trade to Minnesota after the news broke in the most on-brand location imaginable.",
+      "publishedAt": "2026-11-12T00:07:39Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "50b6ebc12ff6b65b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-bears-generates-21-5-million-on-sunday-night",
+      "title": "Bucs-Bears generates 21.5 million on Sunday night",
+      "summary": "The Bears have become a significant draw — and it helps when they're in a close game.",
+      "publishedAt": "2026-11-12T00:05:46Z",
+      "teamIds": [
+        "3",
+        "27"
+      ]
+    },
+    {
+      "id": "690c787478478d58",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-limited-in-his-return-to-practice",
+      "title": "Deebo Samuel limited in his return to practice",
+      "summary": "49ers wide receiver Deebo Samuel was limited in his return to practice on Wednesday.",
+      "publishedAt": "2026-11-11T23:55:26Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "2f69112348d0813b",
       "source": "pft",
@@ -790,6 +903,18 @@
       ]
     },
     {
+      "id": "739464fb033be6ca",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50444528/kirk-cousins-trade-minnesota-vikings-las-vegas-raiders",
+      "title": "What the Kirk Cousins trade means for the Vikings and the Raiders",
+      "summary": "We answered big questions surrounding the trade of quarterback Kirk Cousins from the Raiders to the Vikings.",
+      "publishedAt": "2026-11-11T16:18:32Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
       "id": "b372c0a4e66a74c9",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50453359/dopp-clay-differ-their-preferred-week-10-te",
@@ -1535,123 +1660,6 @@
       "publishedAt": "2026-11-10T22:32:51Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "34928ca59f68831c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-qb-gardner-minshew-and-wr-michael-wilson-on-ir",
-      "title": "Cardinals place QB Gardner Minshew and WR Michael Wilson on IR",
-      "summary": "The Cardinals placed quarterback Gardner Minshew and wide receiver Michael Wilson on injured reserve Tuesday, the team announced.",
-      "publishedAt": "2026-11-10T22:32:29Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "f0bb483b5432bcf1",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50431710/fantasy-football-waivers-free-agent-pickups-nfl-week-10",
-      "title": "Fantasy football free agent pickups: Mendoza, Douglas, Estime among top options",
-      "summary": "Eric Karabell lists the top available players in most leagues, including the No. 1 pick in the draft.",
-      "publishedAt": "2026-11-10T22:31:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "07f54843a0c87acf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-release-te-nick-vannett-waive-g-kyle-hergel",
-      "title": "Ravens release TE Nick Vannett, waive G Kyle Hergel",
-      "summary": "The Ravens parted ways with guard Andrew Vorhees in a trade with the Falcons on Tuesday and they also cut a couple of other players from the active roster.",
-      "publishedAt": "2026-11-10T22:27:04Z",
-      "teamIds": [
-        "1",
-        "33"
-      ]
-    },
-    {
-      "id": "8a596ba028426615",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-put-dt-gracen-halton-on-ir",
-      "title": "49ers put DT Gracen Halton on IR",
-      "summary": "49ers rookie defensive tackle Gracen Halton was placed on injured reserve on Tuesday.",
-      "publishedAt": "2026-11-10T22:21:19Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "e0015d464b8376f3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/fernando-mendoza-inherits-a-raiders-team-nfl-history-offers-two-wildly-different-outcomes",
-      "title": "Fernando Mendoza inherits a 4-5 Raiders team and NFL history offers two wildly different outcomes",
-      "summary": "Jared Goff lost all seven rookie starts, Lamar Jackson went 6-1 and made the playoffs. Now Mendoza faces the same challenge.",
-      "publishedAt": "2026-11-10T22:11:39Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "bfdf2525abe547b7",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-      "publishedAt": "2026-11-10T22:10:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "fbe0d061819d8f86",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-on-giants-not-adding-a-running-back-they-know-what-i-can-do",
-      "title": "Cam Skattebo on Giants not adding a running back: They know what I can do",
-      "summary": "Cam Skattebo is set to return to the Giants lineup for Thursday night's game against the Commanders and he won't be looking over his shoulder at any new additions to the team's running back depth chart.",
-      "publishedAt": "2026-11-10T22:06:06Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "5981c1b08209b3c6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
-      "title": "Fantasy football 2026 defensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
-      "publishedAt": "2026-11-10T22:03:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ad5845f106af302",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
-      "title": "Fantasy football 2026 offensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
-      "publishedAt": "2026-11-10T22:02:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "bd56867f8cfcd9aa",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chiefs-agree-to-acquire-wr-josh-downs-in-trade-with-colts-per-report",
-      "title": "Chiefs agree to acquire WR Josh Downs in trade with Colts, per report",
-      "summary": "Indianapolis' rebuild is a benefit to Kansas City, which secured much-needed help in its receiving corps",
-      "publishedAt": "2026-11-10T21:56:20Z",
-      "teamIds": [
-        "11",
-        "12"
-      ]
-    },
-    {
-      "id": "5564284f744bc57d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/josh-downs-trade-grades-chiefs-colts",
-      "title": "Josh Downs trade grades: Chiefs, Patrick Mahomes get help, Colts get value for disgruntled WR",
-      "summary": "Downs asked for a trade, and now he'll catch passes from Patrick Mahomes",
-      "publishedAt": "2026-11-10T21:53:51Z",
-      "teamIds": [
-        "11",
-        "12"
       ]
     }
   ]
