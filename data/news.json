@@ -1,7 +1,99 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T14:47:21Z",
+  "updatedAt": "2026-11-12T15:47:20Z",
   "items": [
+    {
+      "id": "00d389435f139540",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-to-sign-k-harrison-mevis-to-practice-squad",
+      "title": "Report: Ravens to sign K Harrison Mevis to practice squad",
+      "summary": "The Ravens had a pair of kickers in for workouts on Wednesday and they'll reportedly keep them both around for a while.",
+      "publishedAt": "2026-11-12T15:18:48Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "d2c3d6e4b1d36f59",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50461920/long-steelers-player-assistant-coach-dick-hoak-dies-86",
+      "title": "Longtime Steelers player, assistant coach Dick Hoak dies at 86",
+      "summary": "Dick Hoak, who spent more than 45 years with the Pittsburgh Steelers as a player and then an assistant coach, winning five Super Bowl rings along the way, has died at age 86.",
+      "publishedAt": "2026-11-12T15:17:50Z",
+      "teamIds": [
+        "8",
+        "23"
+      ]
+    },
+    {
+      "id": "3fb867db68bc6666",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-mvp-odds-week-10-joe-burrow-josh-allen-brock-purdy",
+      "title": "NFL MVP odds: Joe Burrow surpasses Josh Allen for top spot entering Week 10",
+      "summary": "There's a new leader in the MVP conversation with nine weeks to go in the NFL regular season",
+      "publishedAt": "2026-11-12T15:13:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "6b5b2c2c25c9f928",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-super-excited-to-make-his-debut-on-sunday",
+      "title": "Carson Beck \"super excited\" to make his debut on Sunday",
+      "summary": "Cardinals rookie quarterback Carson Beck will make his first start on Sunday against the Rams.",
+      "publishedAt": "2026-11-12T15:13:08Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "abd82d6f285fd45d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50461832/who-edge-steelers-bengals",
+      "title": "Who has the edge in Steelers-Bengals?",
+      "summary": null,
+      "publishedAt": "2026-11-12T14:53:26Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "03a0525c6be6668c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-daiyan-henley-failed-broncos-physical",
+      "title": "Source: Daiyan Henley failed Broncos physical",
+      "summary": "Knee issue caused Denver to scrap trade with Chargers.",
+      "publishedAt": "2026-11-12T14:51:22Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "2d6a07c477a5661a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/giants-vs-commanders-how-to-watch-odds-spread-preview-prediction",
+      "title": "Giants vs. Commanders: New York, Washington look to rebound on 'TNF' after embarrassing Week 5 tie",
+      "summary": "How to watch the 'Thursday Night Football' matchup, plus a preview and prediction",
+      "publishedAt": "2026-11-12T14:49:20Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "7c8c5e16898d8f6c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/commanders-vs-giants-odds-picks-nfl-week-10-prediction-best-bets-player-props-for-thursday-night-football",
+      "title": "Commanders vs. Giants odds, picks, NFL Week 10 prediction: Best bets, player props for Thursday Night Football",
+      "summary": "New York is a 2.5-point home favorite, but backing Jayden Daniels against an erratic J.J. McCarthy in prime time provides strong value to take Washington on the money line",
+      "publishedAt": "2026-11-12T14:49:17Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "df6496f29718c55e",
       "source": "espn",
@@ -1388,6 +1480,18 @@
       "teamIds": []
     },
     {
+      "id": "f9e260c2dfe275c0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-pretenders-and-contenders-for-week-10-nfc-north-giants-steelers",
+      "title": "NFL pretenders and contenders after Week 9: NFC North is fierce, no faith in Giants and Steelers",
+      "summary": "Breaking down all 14 teams currently in playoff position at the midway point to separate the legitimate Super Bowl threats from the impostors",
+      "publishedAt": "2026-11-11T15:56:50Z",
+      "teamIds": [
+        "19",
+        "23"
+      ]
+    },
+    {
       "id": "8c87b14c3093850c",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50453097/stephen-some-words-kevin-oconnell-vikings-trade-kirk-cousins",
@@ -1542,106 +1646,6 @@
       "summary": "Kirk Cousins is back in Minnesota.",
       "publishedAt": "2026-11-11T14:45:39Z",
       "teamIds": []
-    },
-    {
-      "id": "01c7470e364220e6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50452748/matthew-stafford-week-10-fantasy-outlook",
-      "title": "Matthew Stafford's Week 10 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-11T14:37:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "d071481d25cbe3fa",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50452689/was-right-move-raiders-name-mendoza-qb1-cousins-trade",
-      "title": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
-      "summary": null,
-      "publishedAt": "2026-11-11T14:30:07Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "28a84d075afebcb4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-browns-still-plan-on-starting-deshaun-watson-against-texans",
-      "title": "Browns plan on starting Deshaun Watson against Texans",
-      "summary": "Head coach Todd Monken declined to announce a decision earlier this week.",
-      "publishedAt": "2026-11-11T14:20:12Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "65fb36a9e158ad88",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50452660/christian-watson-week-10-fantasy-outlook",
-      "title": "Christian Watson's Week 10 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-11T14:19:39Z",
-      "teamIds": []
-    },
-    {
-      "id": "df2ed32fd5e89951",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50452604/chuba-hubbard-week-10-fantasy-outlook",
-      "title": "Chuba Hubbard's Week 10 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-11T14:02:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "b3c57c6663e0c4f3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/raiders-fernando-mendoza-offensive-rookie-year-favorite-first-nfl-start",
-      "title": "Fernando Mendoza new favorite to win Offensive Rookie of the Year ahead of his first NFL start",
-      "summary": "A wide-open race puts the No. 1 overall pick atop the odds board before his first career start, though a brutal schedule against top defenses looms",
-      "publishedAt": "2026-11-11T13:57:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "f6877d0a7e81d6ce",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/kirk-cousins-reunion-vikings-raiders-nfl-trade-deadline-georgia-utah-alabama-ucla-cfp-rankings",
-      "title": "Kirk Cousins' reunion with Vikings headlines NFL trade deadline; Georgia tops CFP Top 25 rankings",
-      "summary": "Plus winners and losers from the first Celtics vs. 76ers showdown since their blockbuster trade",
-      "publishedAt": "2026-11-11T13:46:59Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "fb1b182e85e83c78",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-best-bets-steelers-joe-burrows-bengals-chiefs",
-      "title": "NFL Week 10 picks, best bets: Steelers cool off Joe Burrow's Bengals, Chiefs roll in Atlanta",
-      "summary": "Tyler Sullivan picks every game on the Week 10 schedule, including five locks against the spread",
-      "publishedAt": "2026-11-11T13:43:17Z",
-      "teamIds": [
-        "4",
-        "12",
-        "23"
-      ]
-    },
-    {
-      "id": "402e1ef8d593d81e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks",
-      "title": "Prisco's Week 10 NFL picks: Giants over Commanders on 'TNF,' Lions top Patriots in Munich",
-      "summary": "Pete Prisco reveals all of his Week 10 picks, including the Packers to spoil Kirk Cousins' return with the Vikings",
-      "publishedAt": "2026-11-11T13:43:03Z",
-      "teamIds": [
-        "8",
-        "9",
-        "16",
-        "17",
-        "19",
-        "28"
-      ]
     }
   ]
 }
