@@ -1,12 +1,209 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T16:47:22Z",
+  "updatedAt": "2026-11-12T17:47:22Z",
   "items": [
+    {
+      "id": "d1c0f679b410049a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 10: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-12T17:44:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "0d7c7545ac711865",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 10: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-12T17:43:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "c74dc9607c70469a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 10: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-12T17:43:09Z",
+      "teamIds": []
+    },
+    {
+      "id": "0c5ae40f170495e9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50463010/browns-jared-verse-met-psychiatrist-end-sack-slump",
+      "title": "Browns' Jared Verse says he met with team psychiatrist to try to snap sack slump",
+      "summary": "Browns defensive end Jared Verse said Thursday that he recently met with the team's psychiatrist to get past his slump of not registering sacks.",
+      "publishedAt": "2026-11-12T17:41:50Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: 12 players to target for the homestretch of the season",
+      "summary": "The NFL trade deadline might be over, but fantasy managers should still consider trading for these players.",
+      "publishedAt": "2026-11-12T17:39:56Z",
+      "teamIds": [
+        "2",
+        "16"
+      ]
+    },
+    {
+      "id": "0ecec9c9698ff988",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50446940/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
+      "title": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
+      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
+      "publishedAt": "2026-11-12T17:39:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "da9f36b37cf20b8c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 10: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-12T17:36:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "8f3391d81c68c176",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 10: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-12T17:35:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "0dba23dcb2fc1b4f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-midseason-awards-expert-picks-super-bowl-mvp-coach-of-year-opoy-more",
+      "title": "2026 NFL midseason awards: Expert picks for Super Bowl winner, MVP, Coach of the Year, OPOY and more",
+      "summary": "The CBS Sports NFL staff predicts winners at the halfway point",
+      "publishedAt": "2026-11-12T17:29:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "57cb978971da23a8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50456429/jaguars-trade-takeaways-james-gladstone-btj",
+      "title": "Three Jaguars trade deadline takeaways, from 'F them picks' to BTJ staying",
+      "summary": "The 6-2 Jaguars aggressively upgraded their defense at the deadline and kept the offense intact. Let's look at the aftermath of the three deals.",
+      "publishedAt": "2026-11-12T17:27:32Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "c5f714652c4ac2ff",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/how-a-six-win-nfc-east-team-could-end-up-making-the-playoffs-commanders-giants",
+      "title": "NFL nightmare: How a six-win NFC East team could end up making the playoffs if Commanders beat the Giants",
+      "summary": "This would be the NFL's worst nightmare",
+      "publishedAt": "2026-11-12T17:20:02Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "7192645634147f46",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-pivoted-to-keenan-allen-after-initially-focusing-on-josh-downs",
+      "title": "49ers pivoted to Keenan Allen trade after initially focusing on Josh Downs",
+      "summary": "The 49ers made a trade for wide receiver Keenan Allen on Tuesday, but he wasn't the only Colts wide receiver on their radar ahead of the trade deadline.",
+      "publishedAt": "2026-11-12T17:16:32Z",
+      "teamIds": [
+        "11",
+        "25"
+      ]
+    },
+    {
+      "id": "978a3d9729c3f59f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pick-six-what-to-know-about-nfl-trade-deadline-week-10",
+      "title": "Pick Six: What to know about the NFL after the trade deadline, ahead of Week 10",
+      "summary": "Picks for Commanders vs. Giants, plus midseason award predictions and full playoff projections",
+      "publishedAt": "2026-11-12T17:11:18Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "f0dbda6c29deca7c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462869/cockcroft-tabs-bills-d-st-one-top-streaming-options-week-10",
+      "title": "Cockcroft tabs Bills D/ST as one of top streaming options in Week 10",
+      "summary": null,
+      "publishedAt": "2026-11-12T17:10:19Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "cbb973f1d50aaa0a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-designate-andrei-iosivas-two-others-for-return-from-ir",
+      "title": "Bengals designate Andrei Iosivas, two others for return from IR",
+      "summary": "The Bengals will have three players back at practice on Thursday.",
+      "publishedAt": "2026-11-12T16:59:01Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "d150e9c45f9af573",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-vs-patriots-matches-up-this-years-two-most-aggressive-head-coaches-on-fourth-downs",
+      "title": "Lions vs. Patriots matches up this year's two most aggressive head coaches on fourth downs",
+      "summary": "When the Lions meet the Patriots in Munich on Sunday, the fans in Germany are likely to see both teams go for it on fourth down.",
+      "publishedAt": "2026-11-12T16:58:28Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "6aa0d5be876f1c92",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873063",
+      "title": "Cowboys host NFC-leading 49ers as they seek elusive winning streak under Schottenheimer",
+      "summary": "Winning streaks have been elusive for the Dallas Cowboys in two seasons under coach Brian Schottenheimer, and the next attempt won't be easy.",
+      "publishedAt": "2026-11-12T16:52:35Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "2febdae1518d80fb",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462707/why-jessie-bates-iii-universal-add-idp-leagues",
+      "title": "Why Jessie Bates III is a ‘universal add’ in IDP leagues",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:52:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "31dc3e7819a97a1a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462705/is-zay-flowers-position-bounce-back-week-10",
+      "title": "Is Zay Flowers in position to bounce back in Week 10?",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:49:29Z",
+      "teamIds": []
+    },
     {
       "id": "3e7611f8774b65e2",
       "source": "espn",
       "url": "https://espn.com/espn/betting/story/_/id/50434703/nfl-week-10-odds-commanders-giants-betting-preview",
-      "title": "How to bet Commanders-Giants: Tips, analysis and prop plays",
+      "title": "Commanders-Giants odds, analysis, betting tips and recommended props",
       "summary": "Odds, analysis and picks to help you bet Thursday's Washington Commanders-New York Giants game.",
       "publishedAt": "2026-11-12T16:45:43Z",
       "teamIds": [
@@ -1070,6 +1267,17 @@
       ]
     },
     {
+      "id": "a90d591ff765e425",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-packers-jordan-love-is-2026-midseason-mvp",
+      "title": "Why Packers' Jordan Love is the 2026 midseason MVP: Green Bay QB dominating with no help",
+      "summary": "Love is doing more with less and doing it better than every other quarterback in the NFL through nine weeks of the 2026 season",
+      "publishedAt": "2026-11-11T21:16:19Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
       "id": "e5675d9bad193e03",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-did-not-practice-wednesday-but-george-pickens-was-limited",
@@ -1351,6 +1559,15 @@
       ]
     },
     {
+      "id": "4a40bdbc0ddda5bf",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-10-qb-power-rankings-joe-burrow-jordan-love-caleb-williams",
+      "title": "Week 10 QB Power Rankings: There's a new No. 1, while Caleb Williams drops out of top 10",
+      "summary": "Joe Burrow swipes the top spot, Jordan Love climbs into the top five, C.J. Stroud cracks the top 10 and Caleb Williams falls",
+      "publishedAt": "2026-11-11T18:16:19Z",
+      "teamIds": []
+    },
+    {
       "id": "210c318aab92b166",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-josh-jacobs-could-return-in-2-3-weeks-from-broken-finger",
@@ -1416,240 +1633,6 @@
       "summary": "Monken said he doesn't anticipate making a quarterback change while confirming Watson's Week 10 return.",
       "publishedAt": "2026-11-11T17:38:04Z",
       "teamIds": []
-    },
-    {
-      "id": "c3c305be778ea5be",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rex-ryan-is-arrested-after-running-over-feet-of-pedestrians-with-his-truck",
-      "title": "Rex Ryan is arrested after allegedly running over feet of pedestrians with his truck",
-      "summary": "No, it's not The Onion.",
-      "publishedAt": "2026-11-11T17:30:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "93362e73dce8aaba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-k-cam-little-is-the-afc-special-teams-player-of-the-week",
-      "title": "Jaguars K Cam Little is the AFC special teams player of the week",
-      "summary": "Jaguars kicker Cam Little has gained a reputation for long field goals over his three years in the NFL, but he didn't have to show off his big leg against the Ravens last Thursday.",
-      "publishedAt": "2026-11-11T17:21:29Z",
-      "teamIds": [
-        "33",
-        "30"
-      ]
-    },
-    {
-      "id": "ff829be1cdbd3a81",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-bates-wins-nfc-special-teams-player-of-the-week",
-      "title": "Jake Bates wins NFC special teams player of the week",
-      "summary": "For the first time since 2024, Jake Bates is the NFC special teams player of the week.",
-      "publishedAt": "2026-11-11T17:19:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "749bf63a29f9c066",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-named-the-afc-defensive-player-of-the-week",
-      "title": "Chris Jones named the AFC defensive player of the week",
-      "summary": "Chiefs defensive tackle Chris Jones only had a half-sack in the team's first seven games this season, but things went a lot better for him on that front in Week 9.",
-      "publishedAt": "2026-11-11T17:16:13Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "261f44fc2af5a07f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-odds-lines-totals-spreads",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Commanders-Giants, 49ers-Cowboys",
-      "summary": "NFL Week 10 spreads and totals for every game, including Commanders-Giants, 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-11T17:13:58Z",
-      "teamIds": [
-        "4",
-        "6",
-        "19",
-        "23",
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "8c6e83ab15d646fc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/arvell-reese-wins-first-nfc-defensive-player-of-the-week-award",
-      "title": "Arvell Reese wins first NFC defensive player of the week award",
-      "summary": "Giants rookie linebacker Arvell Reese was all over the field in Sunday's victory over the Eagles.",
-      "publishedAt": "2026-11-11T17:12:07Z",
-      "teamIds": [
-        "19",
-        "21"
-      ]
-    },
-    {
-      "id": "92a3589443c50614",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-named-afc-offensive-player-of-the-week-for-second-time-this-season",
-      "title": "C.J. Stroud named AFC offensive player of the week for second time this season",
-      "summary": "Texans quarterback C.J.",
-      "publishedAt": "2026-11-11T17:10:55Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "9f3df789f9d427f3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-wins-fifth-career-nfc-offensive-player-of-the-week-award",
-      "title": "Jordan Love wins fifth career NFC offensive player of the week award",
-      "summary": "Jordan Love has been outstanding throughout the 2026 season, but he had an especially strong game against the Patriots on Sunday.",
-      "publishedAt": "2026-11-11T17:05:57Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "dadce732d192e6d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-designate-de-b-j-green-for-return",
-      "title": "Jaguars designate DE B.J. Green for return",
-      "summary": "The Jaguars have welcomed three new players to the team this week and they will also be reintegrating a current member of the team into practice.",
-      "publishedAt": "2026-11-11T17:02:17Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "f4cecdacfc05f870",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/draft/news/renners-2027-nfl-three-round-mock-draft-trade-deadline-first-three-rounds-eagles-jets-titans",
-      "title": "Renner's post-deadline 2027 NFL mock draft: How the trade deadline affected the first three rounds",
-      "summary": "The Eagles and Titans rebuild after the deadline, while the Chargers land a new weapon for Justin Herbert in Jeremiah Smith",
-      "publishedAt": "2026-11-11T16:44:08Z",
-      "teamIds": [
-        "24",
-        "21",
-        "10"
-      ]
-    },
-    {
-      "id": "d429119233d15935",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-sign-lb-mohamoud-diabate-off-panthers-practice-squad",
-      "title": "Titans sign LB Mohamoud Diabate off Panthers practice squad",
-      "summary": "The Titans have added a linebacker.",
-      "publishedAt": "2026-11-11T16:43:34Z",
-      "teamIds": [
-        "29",
-        "10"
-      ]
-    },
-    {
-      "id": "35c221d92a34c04a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/miami-of-ohio-penalized-for-patriots-style-video-board-trickery-on-field-goal-attempt",
-      "title": "Miami of Ohio penalized for Patriots-style video board trickery on field goal attempt",
-      "summary": "At the start of this season, a former NFL analytics staffer publicized a longstanding effort by the Patriots to confuse opposing kickers with the video board behind the goal posts, showing an image of the goal posts meant to cause an optical illusion and make it harder for a kicker to put the ball through the uprights.",
-      "publishedAt": "2026-11-11T16:36:22Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "30026b26036e1255",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50453373/sources-giants-eyed-bijan-robinson-trade-deadline",
-      "title": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
-      "summary": "The Giants made a call to the Falcons before the NFL trade deadline inquiring about star running back Bijan Robinson, multiple sources told ESPN.",
-      "publishedAt": "2026-11-11T16:33:25Z",
-      "teamIds": [
-        "1",
-        "19"
-      ]
-    },
-    {
-      "id": "985c5cd0742a58f9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-mishandled-the-jonathan-taylor-situation",
-      "title": "Colts mishandled the Jonathan Taylor situation",
-      "summary": "When the dust settled on the trade deadline, the Colts still had running back Jonathan Taylor under contract.",
-      "publishedAt": "2026-11-11T16:30:12Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "a6483bc421e7361c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50453345/should-justin-jefferson-ranked-higher-chris-olave-week-10",
-      "title": "Should Justin Jefferson be ranked higher than Chris Olave in Week 10?",
-      "summary": null,
-      "publishedAt": "2026-11-11T16:27:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "aaf0cbde6db06f9e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/kirk-cousins-traded-vikings-raiders-gave-option-stay-leave-franchise-per-report",
-      "title": "Why Kirk Cousins made decision to return to Minnesota, reunite with Vikings",
-      "summary": "Cousins said one phone call on Tuesday helped him make his decision",
-      "publishedAt": "2026-11-11T16:21:15Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "739464fb033be6ca",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50444528/kirk-cousins-trade-minnesota-vikings-las-vegas-raiders",
-      "title": "What the Kirk Cousins trade means for the Vikings and the Raiders",
-      "summary": "We answered big questions surrounding the trade of quarterback Kirk Cousins from the Raiders to the Vikings.",
-      "publishedAt": "2026-11-11T16:18:32Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "b372c0a4e66a74c9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50453359/dopp-clay-differ-their-preferred-week-10-te",
-      "title": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
-      "summary": null,
-      "publishedAt": "2026-11-11T16:12:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "4d4a1ab64a0dab54",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50453337/should-managers-start-geno-smith-jordan-love-dopp-clay-debate",
-      "title": "Should managers start Geno Smith over Jordan Love? Dopp and Clay debate",
-      "summary": null,
-      "publishedAt": "2026-11-11T16:05:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "f9e260c2dfe275c0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-pretenders-and-contenders-for-week-10-nfc-north-giants-steelers",
-      "title": "NFL pretenders and contenders after Week 9: NFC North is fierce, no faith in Giants and Steelers",
-      "summary": "Breaking down all 14 teams currently in playoff position at the midway point to separate the legitimate Super Bowl threats from the impostors",
-      "publishedAt": "2026-11-11T15:56:50Z",
-      "teamIds": [
-        "19",
-        "23"
-      ]
-    },
-    {
-      "id": "8c87b14c3093850c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50453097/stephen-some-words-kevin-oconnell-vikings-trade-kirk-cousins",
-      "title": "Stephen A. has some words for Kevin O'Connell after Vikings trade for Kirk Cousins",
-      "summary": null,
-      "publishedAt": "2026-11-11T15:45:53Z",
-      "teamIds": [
-        "16"
-      ]
     }
   ]
 }

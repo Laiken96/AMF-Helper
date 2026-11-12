@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-12T02:47:19Z",
+    "takenAt": "2026-11-12T17:47:19Z",
     "games": [
       {
         "gameId": "401873066",
@@ -32,7 +32,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4432577",
@@ -711,7 +711,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "2969939",
