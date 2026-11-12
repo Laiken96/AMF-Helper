@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:47:23Z",
+  "updatedAt": "2026-11-12T09:47:19Z",
   "items": [
+    {
+      "id": "acaa1f0d773cedf7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-chargers-announce-daiyan-henley-will-not-be-traded-after-all",
+      "title": "Broncos, Chargers announce Daiyan Henley will not be traded after all",
+      "summary": "More than 24 hours after the NFL trade deadline, the trade of Henley from the Charges to the Broncos was canceled.",
+      "publishedAt": "2026-11-12T09:23:38Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
     {
       "id": "d15dbee451a64fa5",
       "source": "espn",
@@ -1636,18 +1648,6 @@
       "teamIds": [
         "12",
         "24",
-        "16"
-      ]
-    },
-    {
-      "id": "d0d556bc977f0919",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-dl-tim-keenan-to-the-active-roster-from-the-practice-squad",
-      "title": "Raiders sign DL Tim Keenan to the active roster from the practice squad",
-      "summary": "The Raiders traded quarterback Kirk Cousins to the Vikings, leaving an open roster spot.",
-      "publishedAt": "2026-11-11T00:52:56Z",
-      "teamIds": [
-        "13",
         "16"
       ]
     }
