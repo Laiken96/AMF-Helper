@@ -1,7 +1,157 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T15:47:20Z",
+  "updatedAt": "2026-11-12T16:47:22Z",
   "items": [
+    {
+      "id": "3e7611f8774b65e2",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50434703/nfl-week-10-odds-commanders-giants-betting-preview",
+      "title": "How to bet Commanders-Giants: Tips, analysis and prop plays",
+      "summary": "Odds, analysis and picks to help you bet Thursday's Washington Commanders-New York Giants game.",
+      "publishedAt": "2026-11-12T16:45:43Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "fc49c37714bc7df5",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462159/is-cj-stroud-fantasy-starter-vs-browns-week-10",
+      "title": "Is C.J. Stroud a fantasy starter vs. the Browns in Week 10?",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:34:01Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "56c15d8b2b9ad83f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462354/why-daniel-dopp-field-yates-need-see-more-jordyn-tyson-fantasy",
+      "title": "Why Daniel Dopp, Field Yates need to see more out of Jordyn Tyson in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:28:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "f832d49f4ff82afd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50448015/nfl-week-10-uniforms",
+      "title": "NFL Week 10 uniforms: Titans debut Rivalries look, Ravens go all-black",
+      "summary": "Here's a look at what each NFL team is wearing in Week 10, led by the Tennessee Titans' Rivalries look.",
+      "publishedAt": "2026-11-12T16:23:35Z",
+      "teamIds": [
+        "33",
+        "10"
+      ]
+    },
+    {
+      "id": "fc938ecbb43389e5",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462377/why-there-fantasy-risk-jordan-love-vs-vikings",
+      "title": "Why there's fantasy risk with Jordan Love vs. Vikings",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:22:23Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "b9be7556030511a1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462365/what-does-breece-hall-return-mean-jets-backfield-fantasy",
+      "title": "What does Breece Hall's return mean for Jets' backfield in fantasy?",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:17:51Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "d48441aa80a644c1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-10-2026-nfl-picks",
+      "title": "PFT's Week 10 2026 NFL picks",
+      "summary": "I have no explanation for the last two weeks.",
+      "publishedAt": "2026-11-12T16:15:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "6367f67d8cdcc35d",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/commanders-vs-giants-odds-first-touchdown-scorer-picks-predictions-thursday-night-football-nfl-week-10",
+      "title": "Commanders vs. Giants odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 10",
+      "summary": "We go over first touchdown scorer prediction markets at Kalshi for Commanders vs. Giants NFL Week 10 Thursday Night Football",
+      "publishedAt": "2026-11-12T16:15:18Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "8280a721da76cbbf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-trades-show-the-confidence-in-our-team-what-we-have-a-chance-to-do",
+      "title": "Trevor Lawrence: Trades show the confidence in our team, what we have a chance to do",
+      "summary": "The Jaguars signaled they're all-in on the 2026 season by making several trades to fortify their roster before the deadline.",
+      "publishedAt": "2026-11-12T16:12:46Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "4eedcdcf1f2f9e59",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/grey-cup-2026-odds-picks-predictions-montreal-vs-edmonton-best-bets-from-proven-expert",
+      "title": "Grey Cup 2026 odds, picks, predictions: Montreal vs. Edmonton best bets from proven expert",
+      "summary": "SportsLine football expert Emory Hunt gives out his best bets for the 2026 Grey Cup",
+      "publishedAt": "2026-11-12T16:06:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "7ba0be621f3c7a02",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50462211/was-bigger-mistake-giants-cowboys-being-inactive-deadline",
+      "title": "Was it a bigger mistake for the Giants or Cowboys being inactive at the deadline?",
+      "summary": null,
+      "publishedAt": "2026-11-12T16:02:52Z",
+      "teamIds": [
+        "6",
+        "19"
+      ]
+    },
+    {
+      "id": "43b3e7ce9a67ebd0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/revisiting-2026-nfl-draft-giants-arvell-reese-francis-mauigoa",
+      "title": "Revisiting the 2026 NFL Draft: Was Arvell Reese a luxury for Giants? Has Francis Mauigoa turned a corner?",
+      "summary": "New York's top-10 investments are already fueling a 5-2-1 start, with a Defensive Rookie of the Year candidate emerging on defense and a reshaped offensive line",
+      "publishedAt": "2026-11-12T15:52:25Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "df1f5125a203f8bb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/longtime-steelers-player-coach-dick-hoak-dies-at-86",
+      "title": "Longtime Steelers player, coach Dick Hoak dies at 86",
+      "summary": "The Steelers announced the death of their longtime player and coach Dick Hoak at the age of 86.",
+      "publishedAt": "2026-11-12T15:48:35Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a8a1c33471b35bfa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-playoff-picture-five-week-10-games-biggest-postseason-implications",
+      "title": "NFL playoff picture: Five Week 10 games with the biggest postseason implications",
+      "summary": "SportsLine projections say these five games mean the most for the postseason",
+      "publishedAt": "2026-11-12T15:38:34Z",
+      "teamIds": []
+    },
     {
       "id": "00d389435f139540",
       "source": "pft",
@@ -1441,11 +1591,10 @@
       "id": "aaf0cbde6db06f9e",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/kirk-cousins-traded-vikings-raiders-gave-option-stay-leave-franchise-per-report",
-      "title": "Kirk Cousins traded to Vikings: Raiders gave QB option to stay or leave franchise, per report",
-      "summary": "Minnesota gave up a third round pick to bring back Cousins",
+      "title": "Why Kirk Cousins made decision to return to Minnesota, reunite with Vikings",
+      "summary": "Cousins said one phone call on Tuesday helped him make his decision",
       "publishedAt": "2026-11-11T16:21:15Z",
       "teamIds": [
-        "13",
         "16"
       ]
     },
@@ -1501,151 +1650,6 @@
       "teamIds": [
         "16"
       ]
-    },
-    {
-      "id": "0b4ff9c9d3b1e1e6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50453200/mark-andrews-week-10-fantasy-outlook",
-      "title": "Mark Andrews' Week 10 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-11T15:44:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "b38c072b9925b2ca",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-called-falcons-about-a-potential-bijan-robinson-trade",
-      "title": "Report: Giants called Falcons about a potential Bijan Robinson trade",
-      "summary": "The Giants didn't make any big deals at the trade deadline, but they tried to make a very big one.",
-      "publishedAt": "2026-11-11T15:39:05Z",
-      "teamIds": [
-        "1",
-        "19"
-      ]
-    },
-    {
-      "id": "a90d591ff765e425",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-packers-jordan-love-is-2026-midseason-mvp",
-      "title": "Why Packers' Jordan Love is the 2026 midseason MVP: Green Bay QB dominating with no help",
-      "summary": "Love is doing more with less and doing it better than every other quarterback in the NFL through nine weeks of the 2026 season",
-      "publishedAt": "2026-11-11T15:28:15Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "0ecec9c9698ff988",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50446940/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
-      "title": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
-      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
-      "publishedAt": "2026-11-11T15:27:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "3fe670c7e235a1e6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50445909/fantasy-football-bye-week-replacements-byemageddon",
-      "title": "Fantasy football: Prep for Week 11 'Bye-mageddon' by stashing these players now",
-      "summary": "Stash these players ahead of Week 11, when six NFL teams' worth of fantasy football stars will be on bye.",
-      "publishedAt": "2026-11-11T15:26:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "81b9987b811fb8ed",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50452443/facts-feelings-fantasy-advice-week-10",
-      "title": "Facts vs. Feelings: Seven starts, streams and stashes for Week 10 and beyond",
-      "summary": "Whether you feel like streaming Aaron Rodgers or stashing Jordyn Tyson, Liz Loza has the facts to support the case.",
-      "publishedAt": "2026-11-11T15:18:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "069e559804a9d930",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/browns-start-deshaun-watson-over-shedeur-sanders-texans",
-      "title": "Browns to start Deshaun Watson over Shedeur Sanders in Week 10 vs. Texans, per report",
-      "summary": "Watson missed last week's overtime loss vs. New Orleans due to a concussion",
-      "publishedAt": "2026-11-11T15:06:19Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "6b168801d325ef28",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-ended-up-buying-a-third-round-pick-for-650-000",
-      "title": "Raiders ended up buying a third-round pick for $650,000",
-      "summary": "Did the Raiders get enough for Kirk Cousins?",
-      "publishedAt": "2026-11-11T15:05:31Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "4a40bdbc0ddda5bf",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-10-qb-power-rankings-joe-burrow-jordan-love-caleb-williams",
-      "title": "Week 10 QB Power Rankings: There's a new No. 1, while Caleb Williams drops out of top 10",
-      "summary": "Joe Burrow swipes the top spot, Jordan Love climbs into the top five, C.J. Stroud cracks the top 10 and Caleb Williams falls",
-      "publishedAt": "2026-11-11T15:04:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "3c0ef02b7de04090",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50452849/quinshon-judkins-week-10-fantasy-outlook",
-      "title": "Quinshon Judkins' Week 10 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-11T15:04:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "1bf36c7de6dfa2d8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50452857/why-jeff-saturday-no-hope-cowboys",
-      "title": "Why Jeff Saturday has 'no hope' for the Cowboys",
-      "summary": null,
-      "publishedAt": "2026-11-11T14:59:50Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "84ae8040c18d07d6",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-bets-week-10-2026",
-      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-11T14:55:30Z",
-      "teamIds": [
-        "2",
-        "34"
-      ]
-    },
-    {
-      "id": "d5e901a713d29a7e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-attempted-to-trade-for-falcons-bijan-robinson-trade-deadline",
-      "title": "Giants attempted to trade for Falcons star RB Bijan Robinson at trade deadline, per report",
-      "summary": "After missing out on Jeffery Simmons and Jonathan Taylor, New York took a huge swing on the league's leading rusher before standing pat",
-      "publishedAt": "2026-11-11T14:55:30Z",
-      "teamIds": [
-        "1",
-        "19"
-      ]
-    },
-    {
-      "id": "6bab617e69e75b0b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-isnt-officially-back-in-no-8-yet",
-      "title": "Kirk Cousins isn't officially back in No. 8, yet",
-      "summary": "Kirk Cousins is back in Minnesota.",
-      "publishedAt": "2026-11-11T14:45:39Z",
-      "teamIds": []
     }
   ]
 }
