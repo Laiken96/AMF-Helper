@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T20:31:06Z",
+    "takenAt": "2026-11-12T20:50:32Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1481,7 +1481,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -2129,7 +2129,7 @@
       "teamAbbr": "TEN",
       "kind": "neu",
       "from": null,
-      "to": "Out"
+      "to": "Questionable"
     },
     {
       "gameId": "401873057",
