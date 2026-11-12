@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T23:20:31Z",
+    "takenAt": "2026-11-12T23:40:29Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1661,6 +1661,17 @@
             "status": null
           },
           {
+            "athleteId": "2573079",
+            "name": "Carson Wentz",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
+          {
             "athleteId": "3042519",
             "name": "Aaron Jones Sr.",
             "pos": "RB",
@@ -2051,7 +2062,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4612826",
@@ -2062,7 +2073,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4685382",
@@ -2166,6 +2177,36 @@
       "name": "Bhayshul Tuten",
       "pos": "RB",
       "teamAbbr": "JAX",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873060",
+      "athleteId": "2573079",
+      "name": "Carson Wentz",
+      "pos": "QB",
+      "teamAbbr": "MIN",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873065",
+      "athleteId": "4038941",
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "teamAbbr": "LAC",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873065",
+      "athleteId": "4612826",
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "teamAbbr": "LAC",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
