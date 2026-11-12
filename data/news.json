@@ -1,7 +1,108 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T12:47:21Z",
+  "updatedAt": "2026-11-12T13:47:20Z",
   "items": [
+    {
+      "id": "e2996e34b4f96144",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers",
+      "title": "NFL Week 10 picks: Our experts face off on Commanders at Giants, Vikings at Packers and more",
+      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
+      "publishedAt": "2026-11-12T13:26:16Z",
+      "teamIds": [
+        "9",
+        "16",
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "c664e0ad8a4eb6cc",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50461369/ian-rapoport-details-broncos-trade-daiyan-henley-falling-through",
+      "title": "Ian Rapoport details Broncos' trade for Daiyan Henley falling through",
+      "summary": null,
+      "publishedAt": "2026-11-12T13:25:16Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "a6da0c8fd631d870",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-10-super-bowl-stock-report-jaguars-trade-deadline",
+      "title": "Week 10 Super Bowl stock report: Jaguars go all-in at trade deadline, injuries ravage Patriots offense",
+      "summary": "We assess the NFL title race after Week 9 and identify three upcoming games that could reshape the Super Bowl picture",
+      "publishedAt": "2026-11-12T13:12:47Z",
+      "teamIds": [
+        "30",
+        "17"
+      ]
+    },
+    {
+      "id": "234b949c0845b72a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-not-planning-change-to-starting-offensive-line-after-ryan-neuzil-trade",
+      "title": "Ravens not planning change to starting offensive line after Ryan Neuzil trade",
+      "summary": "The Ravens made a trade for center Ryan Neuzil this week, but they aren't planning on throwing him right into the lineup in Week 10.",
+      "publishedAt": "2026-11-12T13:10:30Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "0f3189d8a10e9118",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-commanders-giants",
+      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, Commanders-Giants",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-12T13:02:26Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "b5777e70a1b8aa87",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-shocking-predictions-fernando-mendoza",
+      "title": "It wouldn't shock me if ... NFL Week 10: Fernando Mendoza struggles in first start, new Chiefs WR dominates",
+      "summary": "The No. 1 overall pick doesn't have the softest landing spot to make his first start",
+      "publishedAt": "2026-11-12T12:43:47Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "8a0cfe00ba136f48",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/five-nfl-deadline-trades-become-next-sauce-gardner-bust",
+      "title": "Five NFL deadline trades that could become the next Sauce Gardner bust",
+      "summary": "Jordan Davis must justify a first-round pick, Kirk Cousins must prove he can elevate Minnesota and three other acquisitions face similarly high stakes",
+      "publishedAt": "2026-11-12T12:42:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "1252e06718f7c5b3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-upset-alert-2026-bengals-steelers",
+      "title": "NFL Week 10 upset alert: Why the red-hot Bengals are in danger on 'Sunday Night Football'",
+      "summary": "Pittsburgh's rest advantage and formidable defense could end Cincinnati's winning streak, while Kirk Cousins gives Minnesota new life against Green Bay",
+      "publishedAt": "2026-11-12T12:41:27Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "0ba351ab04116457",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-after-trade-deadline",
+      "title": "Predicting full 14-team NFL playoff bracket after trade deadline: Entire NFC North makes postseason",
+      "summary": "For the first time in NFL history, all four teams from the same division make it to the postseason, and one team makes a run",
+      "publishedAt": "2026-11-12T12:40:48Z",
+      "teamIds": []
+    },
     {
       "id": "adf6fdaea4080ce1",
       "source": "espn",
@@ -1534,111 +1635,6 @@
       "summary": "On Monday night, I was explaining to my wife the bizarre situation in Minnesota, where a championship-caliber defense has been paired with an offense that would have trouble scoring a touchdown in the lower divisions of college football.",
       "publishedAt": "2026-11-11T11:55:00Z",
       "teamIds": []
-    },
-    {
-      "id": "619ba67a0b34c589",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50434740/nfl-trades-protected-draft-picks",
-      "title": "Why protected picks aren't common in NFL trades",
-      "summary": "It's common for NBA teams to protect picks they trade, but things are different in the NFL. Here's why.",
-      "publishedAt": "2026-11-11T11:41:04Z",
-      "teamIds": [
-        "5",
-        "11",
-        "14"
-      ]
-    },
-    {
-      "id": "61787d5bfa9384c6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50442897/2026-trade-deadline-barnwell-questions-cousins-downs",
-      "title": "Questions on 2026 NFL trade deadline deals: Does Kirk Cousins lift the Vikings?",
-      "summary": "Let's make sense of Kirk Cousins to the Vikings, Josh Downs to the Chiefs, the Jaguars getting aggressive, a wild Bengals comp-pick mixup and four teams' deadline silence.",
-      "publishedAt": "2026-11-11T11:18:10Z",
-      "teamIds": [
-        "4",
-        "30",
-        "12",
-        "16"
-      ]
-    },
-    {
-      "id": "e562e0664a7c64aa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50442934/week-10-buzz-fantasy-predictions-graziano-fowler-2026-trades",
-      "title": "NFL Week 10 latest intel, buzz questions, fantasy tips, post-trade deadline news",
-      "summary": "No deals for Jonathan Taylor, Daniel Jones or Brian Thomas Jr.? Vikings seeking QB answers with their Kirk Cousins trade? Here's the latest intel.",
-      "publishedAt": "2026-11-11T11:17:19Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "f79bc98f03557bec",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonah-jackson-on-luke-goedekes-grievances-this-is-football-man",
-      "title": "Jonah Jackson on Luke Goedeke's grievances: \"This is football, man\"",
-      "summary": "After Sunday night's game between the Buccaneers and Bears, Tampa Bay tackle Luke Goedeke had some grievances to air about Chicago defensive tackle Jeffery Simmons.",
-      "publishedAt": "2026-11-11T11:03:17Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "de9005cf0d05fbe4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50445806/cowboys-quinnen-williams-trade-deadline",
-      "title": "Cowboys rave about Quinnen Williams a year after trade deadline deal",
-      "summary": "Voted a captain by his teammates, Williams is making a difference in Dallas on and off the field.",
-      "publishedAt": "2026-11-11T11:00:22Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "77081e544642ab56",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443533/denver-broncos-defense-seals-wins-big-plays-2026-season",
-      "title": "Big plays by Broncos defense in late-game situations keying Denver's 7-2 start",
-      "summary": "The offense has gotten a lot of the credit for the Broncos' late-game heroics, but the defense's knack for big plays is just as important.",
-      "publishedAt": "2026-11-11T11:00:10Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "4b8a7c43a1825a24",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50447827/philadelphia-eagles-trade-haul-2027-draft-picks",
-      "title": "The Philadelphia Eagles' 2026 trade haul is likely to age well over time",
-      "summary": "Whether Philadelphia wants to go after its QB of the future or build up around Jalen Hurts, it has options.",
-      "publishedAt": "2026-11-11T11:00:02Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "80dcfae9fe7a8384",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50442969/titans-cam-ward-bye",
-      "title": "Where does Cam Ward stand coming out of the bye?",
-      "summary": "Ward has nine games left to convince the Titans he should be their QB when they open the new stadium in 2027.",
-      "publishedAt": "2026-11-11T11:00:02Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "7f50e04040a865cb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-more-likely-to-miss-the-playoffs-than-make-the-playoffs-according-to-betting-odds",
-      "title": "Rams more likely to miss the playoffs than make the playoffs, according to betting odds",
-      "summary": "After opening the season as the betting favorites to win the Super Bowl, the Rams are now underdogs to make the playoffs.",
-      "publishedAt": "2026-11-11T10:39:06Z",
-      "teamIds": [
-        "14"
-      ]
     }
   ]
 }
