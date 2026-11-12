@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T23:10:34Z",
+    "takenAt": "2026-11-12T23:20:31Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1139,7 +1139,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429795",
@@ -2106,16 +2106,6 @@
       "name": "Rhamondre Stevenson",
       "pos": "RB",
       "teamAbbr": "NE",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873053",
-      "athleteId": "4374302",
-      "name": "Amon-Ra St. Brown",
-      "pos": "WR",
-      "teamAbbr": "DET",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
