@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T20:10:31Z",
+    "takenAt": "2026-11-12T20:31:06Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1481,7 +1481,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Out"
           }
         ]
       },
@@ -2120,6 +2120,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873057",
+      "athleteId": "4871023",
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "teamAbbr": "TEN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873057",
