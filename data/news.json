@@ -1,7 +1,89 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T13:47:20Z",
+  "updatedAt": "2026-11-12T14:47:21Z",
   "items": [
+    {
+      "id": "df6496f29718c55e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50433086/fantasy-playbook-projections-lineup-locks-week-10-shadow",
+      "title": "Fantasy playbook: Week 10 Shadow Reports, lineup locks and projected scores",
+      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
+      "publishedAt": "2026-11-12T14:31:21Z",
+      "teamIds": []
+    },
+    {
+      "id": "daccf9142ce8552a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50461653/jaguars-most-complete-team-afc",
+      "title": "Andrew Hawkins: The Jaguars are the 'most complete team in the AFC'",
+      "summary": null,
+      "publishedAt": "2026-11-12T14:26:56Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "ad6e362dfb10fec8",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-odds-lines-spreads-totals",
+      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Giants-Commanders, 49ers-Cowboys",
+      "summary": "NFL Week 10 spreads and totals for every game, including Commanders-Giants, 49ers-Cowboys and Steelers-Bengals",
+      "publishedAt": "2026-11-12T14:24:37Z",
+      "teamIds": [
+        "4",
+        "6",
+        "19",
+        "23",
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "788b7a8bd67a4df5",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-best-bets-week-10-2026",
+      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-12T14:15:41Z",
+      "teamIds": [
+        "2",
+        "34"
+      ]
+    },
+    {
+      "id": "d812b30fb890592c",
+      "source": "cbs",
+      "url": "https://cbssports.com/mlb/news/jacob-misiorowski-cam-schlittler-win-cy-young-awards-nfl-expert-picks-for-week-10",
+      "title": "Jacob Misiorowski, Cam Schlittler win Cy Young awards; NFL expert picks for Week 10",
+      "summary": "Plus, the Lakers are surging in our NBA Power Rankings",
+      "publishedAt": "2026-11-12T13:57:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "1e88f39fd7acfa09",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/broncos-chargers-trade-daiyan-henley-will-not-be-finalized",
+      "title": "Broncos announce trade for Chargers LB Daiyan Henley falls through, 'will not be finalized'",
+      "summary": "Henley will return to the Chargers after an initial agreement was reached on Tuesday to send him to Denver",
+      "publishedAt": "2026-11-12T13:56:26Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "1aa30e4a0a9fdd34",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/super-bowl-odds-how-odds-have-changed-through-nfl-week-9",
+      "title": "Super Bowl odds: How title odds have changed in nine weeks since the start of the season",
+      "summary": "The 49ers have surged into the top spot while the Bears and Jaguars make dramatic leaps into the top four, leaving preseason darling Los Angeles searching for answers",
+      "publishedAt": "2026-11-12T13:48:05Z",
+      "teamIds": [
+        "3",
+        "30",
+        "25"
+      ]
+    },
     {
       "id": "e2996e34b4f96144",
       "source": "cbs",
@@ -78,7 +160,7 @@
       "id": "8a0cfe00ba136f48",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/five-nfl-deadline-trades-become-next-sauce-gardner-bust",
-      "title": "Five NFL deadline trades that could become the next Sauce Gardner bust",
+      "title": "Buyer Beware: 5 NFL deadline trades that could become the next Sauce Gardner bust",
       "summary": "Jordan Davis must justify a first-round pick, Kirk Cousins must prove he can elevate Minnesota and three other acquisitions face similarly high stakes",
       "publishedAt": "2026-11-12T12:42:33Z",
       "teamIds": []
@@ -258,7 +340,7 @@
       "id": "d15dbee451a64fa5",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50459330/broncos-say-trade-chargers-lb-henley-not-finalized",
-      "title": "Broncos say trade with Chargers for LB Henley 'will not be finalized'",
+      "title": "Sources: Broncos-Chargers trade nixed due to concerns over Daiyan Henley's knee",
       "summary": "The Broncos announced late Wednesday that their trade to acquire linebacker Daiyan Henley from the Chargers \"will not be finalized.\"",
       "publishedAt": "2026-11-12T06:44:33Z",
       "teamIds": [
@@ -1560,81 +1642,6 @@
         "19",
         "28"
       ]
-    },
-    {
-      "id": "f72b6f25ee42b99a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-gm-adam-peters-ball-needs-to-go-in-the-end-zone-on-final-play",
-      "title": "Commanders GM Adam Peters: Ball needs to go in the end zone on final play",
-      "summary": "The Commanders' operation at the end of games came under the microscope again in Week 9.",
-      "publishedAt": "2026-11-11T13:42:41Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "f0727970bbc8b354",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-gm-james-gladstone-we-value-draft-picks-but-dont-always-use-them-in-april",
-      "title": "Jaguars GM James Gladstone: We value draft picks, but don't always use them in April",
-      "summary": "Jaguars General Manager James Gladstone doesn't view this week's moves to acquire safety Jessie Bates, defensive tackle Jordan Davis, and defensive tackle Davon Godchaux in the same light as many others around the football world have characterized them.",
-      "publishedAt": "2026-11-11T13:28:13Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "cb38841676672bd0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ranking-nfls-greatest-in-season-trades-kirk-cousins-vikings",
-      "title": "Ranking NFL's greatest in-season trades of all-time: Where Kirk Cousins to Vikings ranks among top 10",
-      "summary": "Tuesday's trade is already among the most notable in-season deals in league history",
-      "publishedAt": "2026-11-11T12:59:10Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "e5462935526f8f39",
-      "source": "espn",
-      "url": "https://espn.com/espn/story/_/id/50452204/jacksonville-jaguars-foyesade-oluokun-leads-way-again-africa-week-9-nfl-exploits",
-      "title": "Jacksonville Jaguars' Foyesade Oluokun leads the way again in Africa's Week 9 NFL exploits",
-      "summary": "Foyesade Oluokun - a seasoned linebacker of Nigerian heritage - had yet another superb week in Week 9, starring for the Jacksonville Jaguars as they beat the Baltimore Ravens to go 6-2 for the NFL season.",
-      "publishedAt": "2026-11-11T12:22:53Z",
-      "teamIds": [
-        "30",
-        "26"
-      ]
-    },
-    {
-      "id": "8fe99b5237f8bd46",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-spytek-fernando-mendoza-passed-every-test-allowed-us-to-make-a-hard-decision",
-      "title": "John Spytek: Fernando Mendoza passed every test, allowed us to make a hard decision",
-      "summary": "It took longer than it has for most quarterbacks drafted first overall, but Fernando Mendoza's time has come in Las Vegas.",
-      "publishedAt": "2026-11-11T12:01:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "f9e260c2dfe275c0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-pretenders-and-contenders-for-week-10-nfc-north-giants-steelers",
-      "title": "NFL pretenders and contenders after Week 9: NFC North is fierce, no faith in Giants and Steelers",
-      "summary": "Breaking down all 14 teams currently in playoff position at the midway point to separate the legitimate Super Bowl threats from the impostors",
-      "publishedAt": "2026-11-11T12:00:59Z",
-      "teamIds": [
-        "19",
-        "23"
-      ]
-    },
-    {
-      "id": "c7621308a4d8986f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fran-tarkenton-raves-about-kirk-cousinss-return-to-minnesota",
-      "title": "Fran Tarkenton raves about Kirk Cousins's return to Minnesota",
-      "summary": "On Monday night, I was explaining to my wife the bizarre situation in Minnesota, where a championship-caliber defense has been paired with an offense that would have trouble scoring a touchdown in the lower divisions of college football.",
-      "publishedAt": "2026-11-11T11:55:00Z",
-      "teamIds": []
     }
   ]
 }
