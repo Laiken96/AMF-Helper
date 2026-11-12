@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T22:50:29Z",
+    "takenAt": "2026-11-12T23:01:05Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1065,17 +1065,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4433970",
-            "name": "J.J. McCarthy",
-            "pos": "QB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
           },
           {
             "athleteId": "4595348",
@@ -1097,7 +1086,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "2976212",
@@ -2091,6 +2080,26 @@
     ]
   },
   "changes": [
+    {
+      "gameId": "401873052",
+      "athleteId": "4433970",
+      "name": "J.J. McCarthy",
+      "pos": "QB",
+      "teamAbbr": "NYG",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873052",
+      "athleteId": "4696981",
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "teamAbbr": "NYG",
+      "kind": "weg",
+      "from": "Out",
+      "to": null
+    },
     {
       "gameId": "401873053",
       "athleteId": "4374302",
