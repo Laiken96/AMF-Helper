@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T21:47:23Z",
+  "updatedAt": "2026-11-12T22:47:20Z",
   "items": [
+    {
+      "id": "acef177ff0519924",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873058",
+      "title": "NFL rushing leaders in spotlight as Kenneth Walker III and Chiefs face Bijan Robinson and Falcons",
+      "summary": "The NFL's rushing leaders will be in the spotlight on Sunday when Bijan Robinson and the Atlanta Falcons face Kenneth Walker III and the Kansas City Chiefs.",
+      "publishedAt": "2026-11-12T22:44:35Z",
+      "teamIds": [
+        "1",
+        "12"
+      ]
+    },
+    {
+      "id": "3bd579122ea7e031",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50464938/ravens-qb-brissett-immersed-crash-course-chargers",
+      "title": "Ravens QB Jacoby Brissett immersed in 'crash course' for Chargers tilt",
+      "summary": "New Ravens quarterback Jacoby Brissett says he's focused on Monday's game against the Chargers, not the team's plans at quarterback for the remainder of the season.",
+      "publishedAt": "2026-11-12T22:44:30Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "80bab2cbff0da4a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-montgomery-returns-to-texans-practice-woody-marks-marvin-harrison-jr-dont-practice",
+      "title": "David Montgomery returns to Texans practice; Woody Marks, Marvin Harrison Jr. don't practice",
+      "summary": "The Texans had running back David Montgomery back on the practice field on Thursday, but they were missing a couple of other key offensive players.",
+      "publishedAt": "2026-11-12T22:28:59Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "e261714e9c52b785",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50464810/cowboys-joey-porter-absence-due-injury-not-contract",
+      "title": "Cowboys' Porter: My absence is because of injury, not my contract",
+      "summary": "Cowboys CB Joey Porter Jr. wants it known his absence the past two weeks has everything to do with an ankle injury and nothing to do with a future contract.",
+      "publishedAt": "2026-11-12T22:27:43Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "fd08a6d0129d3deb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50464631/jaguars-jessie-bates-trade-travis-hunter",
+      "title": "Travis Hunter makes Jessie Bates' Jaguars trade a hit with his nephews",
+      "summary": "The safety's young nephews were thrilled to learn their uncle would be Hunter's teammate.",
+      "publishedAt": "2026-11-12T22:19:47Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "f63b1b17723f4aac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rhamondre-stevenson-returns-to-practice-a-j-brown-remains-limited",
+      "title": "Rhamondre Stevenson returns to practice, A.J. Brown remains limited",
+      "summary": "The Patriots had some positive news on their injury report from Thursday's reportedly light practice in Munich.",
+      "publishedAt": "2026-11-12T22:01:56Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "5e426c7a0b39fe91",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873060",
+      "title": "Kirk Cousins begins his 2nd stint with Vikings as they face the Packers in an NFC North showdown",
+      "summary": "Kirk Cousins’ career seemed at a crossroads when he tore his Achilles tendon during his last visit to Lambeau Field.",
+      "publishedAt": "2026-11-12T21:50:35Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
     {
       "id": "c8b3e3dc7ee9052d",
       "source": "espn",
@@ -24,6 +103,18 @@
       "teamIds": [
         "29",
         "18"
+      ]
+    },
+    {
+      "id": "dcdc3dcf9be498cb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/chargers-jim-harbaugh-implores-nfl-investigate-loophole-daiyan-henley-trade",
+      "title": "Chargers' Jim Harbaugh implores NFL to investigate 'loophole' that nixed Daiyan Henley trade",
+      "summary": "The Broncos and Chargers called off their agreed-upon trade following Henley's physical",
+      "publishedAt": "2026-11-12T21:34:59Z",
+      "teamIds": [
+        "7",
+        "24"
       ]
     },
     {
@@ -1556,98 +1647,6 @@
       "publishedAt": "2026-11-11T21:26:25Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "45a7869845920f7c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50454187/nfl-survivor-week-10-survivor-pool-strategy-advice-picks",
-      "title": "NFL survivor power rankings: Why this is the week to use the Rams or the Bills",
-      "summary": "ESPN NFL survivor pool strategy, predictions and ranking the top seven options for Week 10.",
-      "publishedAt": "2026-11-11T21:19:32Z",
-      "teamIds": [
-        "2",
-        "14"
-      ]
-    },
-    {
-      "id": "2bfce023d65016e7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-listed-as-limited-at-lions-practice-due-to-chest-injury",
-      "title": "Jared Goff listed as limited at Lions practice due to chest injury",
-      "summary": "Quarterback Jared Goff landed on the Lions' first injury report of the week.",
-      "publishedAt": "2026-11-11T21:17:16Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "a90d591ff765e425",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-packers-jordan-love-is-2026-midseason-mvp",
-      "title": "Why Packers' Jordan Love is the 2026 midseason MVP: Green Bay QB dominating with no help",
-      "summary": "Love is doing more with less and doing it better than every other quarterback in the NFL through nine weeks of the 2026 season",
-      "publishedAt": "2026-11-11T21:16:19Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "e5675d9bad193e03",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-did-not-practice-wednesday-but-george-pickens-was-limited",
-      "title": "Joey Porter Jr. did not practice Wednesday, but George Pickens was limited",
-      "summary": "Cowboys cornerback Joey Porter Jr.",
-      "publishedAt": "2026-11-11T21:15:56Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "1f0d81e3ea2fec23",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50454952/jets-mcdonald-earned-bigger-role-coach-says",
-      "title": "Jets' Will McDonald has 'earned' bigger role, coach says",
-      "summary": "Jets coach Aaron Glenn said Will McDonald IV has \"earned\" a bigger role after meeting with the pass rusher following his trade request.",
-      "publishedAt": "2026-11-11T21:13:37Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "e3ba5e006b2b4c58",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/agents-take-2026-nfl-trade-deadline-deals-teams-regret-not-making-jonathan-taylor-tony-pollard-brian-thomas",
-      "title": "Agent's Take: Three NFL trade deadline deals teams will regret not making",
-      "summary": "The Giants needed a workhorse, the Rams needed a receiver and the Packers needed a running game, making these three missed deals natural fits",
-      "publishedAt": "2026-11-11T21:11:25Z",
-      "teamIds": [
-        "9",
-        "14",
-        "19"
-      ]
-    },
-    {
-      "id": "f683f609f2a54cfa",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-davante-adams-could-return-after-week-12-game-vs-packers",
-      "title": "Sean McVay: Davante Adams could return after Week 12 game vs. Packers",
-      "summary": "Help is on the way for the Rams receiving corps, but the club likely still has to get through the rest of the month.",
-      "publishedAt": "2026-11-11T21:04:54Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "abc0ffddc44da4ee",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-designate-dl-zach-carter-te-hunter-long-to-return-from-ir",
-      "title": "Cardinals designate DL Zach Carter, TE Hunter Long to return from IR",
-      "summary": "The Cardinals have designated defensive lineman Zach Carter and tight end Hunter Long to return from injured reserve, the team announced Wednesday.",
-      "publishedAt": "2026-11-11T20:57:19Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
