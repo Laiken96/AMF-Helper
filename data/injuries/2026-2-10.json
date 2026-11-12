@@ -4,9 +4,1051 @@
   "seasonType": 2,
   "week": 10,
   "baselineFrom": "2026-11-12T05:00:00Z",
-  "baseline": null,
+  "baseline": {
+    "takenAt": "2026-11-12T05:01:03Z",
+    "games": [
+      {
+        "gameId": "401873052",
+        "kickoffUtc": "2026-11-13T01:15:00Z",
+        "players": [
+          {
+            "athleteId": "2969939",
+            "name": "Jameis Winston",
+            "pos": "QB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4433970",
+            "name": "J.J. McCarthy",
+            "pos": "QB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
+          {
+            "athleteId": "4595348",
+            "name": "Malik Nabers",
+            "pos": "WR",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4696981",
+            "name": "Cam Skattebo",
+            "pos": "RB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "rushing"
+            ],
+            "status": "Out"
+          },
+          {
+            "athleteId": "2976212",
+            "name": "Stefon Diggs",
+            "pos": "WR",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4426348",
+            "name": "Jayden Daniels",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb",
+              "passing",
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873053",
+        "kickoffUtc": "2026-11-15T14:30:00Z",
+        "players": [
+          {
+            "athleteId": "3046779",
+            "name": "Jared Goff",
+            "pos": "QB",
+            "teamId": "8",
+            "teamAbbr": "DET",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4374302",
+            "name": "Amon-Ra St. Brown",
+            "pos": "WR",
+            "teamId": "8",
+            "teamAbbr": "DET",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4429795",
+            "name": "Jahmyr Gibbs",
+            "pos": "RB",
+            "teamId": "8",
+            "teamAbbr": "DET",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4427095",
+            "name": "DeMario Douglas",
+            "pos": "WR",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431452",
+            "name": "Drake Maye",
+            "pos": "QB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4569173",
+            "name": "Rhamondre Stevenson",
+            "pos": "RB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873054",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "3918298",
+            "name": "Josh Allen",
+            "pos": "QB",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4379399",
+            "name": "James Cook III",
+            "pos": "RB",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4385690",
+            "name": "Dalton Kincaid",
+            "pos": "TE",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "15864",
+            "name": "Geno Smith",
+            "pos": "QB",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4569618",
+            "name": "Garrett Wilson",
+            "pos": "WR",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "receiving"
+            ],
+            "status": "Questionable"
+          },
+          {
+            "athleteId": "4685247",
+            "name": "Braelon Allen",
+            "pos": "RB",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873055",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "4241416",
+            "name": "Chuba Hubbard",
+            "pos": "RB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685472",
+            "name": "Tetairoa McMillan",
+            "pos": "WR",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685720",
+            "name": "Bryce Young",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4360689",
+            "name": "Tyler Shough",
+            "pos": "QB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "qb",
+              "passing",
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4361370",
+            "name": "Chris Olave",
+            "pos": "WR",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873056",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "3122840",
+            "name": "Deshaun Watson",
+            "pos": "QB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685702",
+            "name": "Quinshon Judkins",
+            "pos": "RB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4832800",
+            "name": "Denzel Boston",
+            "pos": "WR",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4258173",
+            "name": "Nico Collins",
+            "pos": "WR",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4429059",
+            "name": "Woody Marks",
+            "pos": "RB",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4432577",
+            "name": "C.J. Stroud",
+            "pos": "QB",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873057",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "4360310",
+            "name": "Trevor Lawrence",
+            "pos": "QB",
+            "teamId": "30",
+            "teamAbbr": "JAX",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4432620",
+            "name": "Parker Washington",
+            "pos": "WR",
+            "teamId": "30",
+            "teamAbbr": "JAX",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4882093",
+            "name": "Bhayshul Tuten",
+            "pos": "RB",
+            "teamId": "30",
+            "teamAbbr": "JAX",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3916148",
+            "name": "Tony Pollard",
+            "pos": "RB",
+            "teamId": "10",
+            "teamAbbr": "TEN",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4688380",
+            "name": "Cam Ward",
+            "pos": "QB",
+            "teamId": "10",
+            "teamAbbr": "TEN",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4871023",
+            "name": "Carnell Tate",
+            "pos": "WR",
+            "teamId": "10",
+            "teamAbbr": "TEN",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873058",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "4360423",
+            "name": "Michael Penix Jr.",
+            "pos": "QB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4426502",
+            "name": "Drake London",
+            "pos": "WR",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4430807",
+            "name": "Bijan Robinson",
+            "pos": "RB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "15847",
+            "name": "Travis Kelce",
+            "pos": "TE",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3139477",
+            "name": "Patrick Mahomes",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": "Questionable"
+          },
+          {
+            "athleteId": "4567048",
+            "name": "Kenneth Walker III",
+            "pos": "RB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873059",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "3917792",
+            "name": "Daniel Jones",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4242335",
+            "name": "Jonathan Taylor",
+            "pos": "RB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431459",
+            "name": "Tyler Warren",
+            "pos": "TE",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4242512",
+            "name": "Malik Willis",
+            "pos": "QB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": "Injured Reserve"
+          },
+          {
+            "athleteId": "4569603",
+            "name": "Malik Washington",
+            "pos": "WR",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4711533",
+            "name": "Ollie Gordon II",
+            "pos": "RB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873060",
+        "kickoffUtc": "2026-11-15T18:00:00Z",
+        "players": [
+          {
+            "athleteId": "4036378",
+            "name": "Jordan Love",
+            "pos": "QB",
+            "teamId": "9",
+            "teamAbbr": "GB",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4248528",
+            "name": "Christian Watson",
+            "pos": "WR",
+            "teamId": "9",
+            "teamAbbr": "GB",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4819231",
+            "name": "Kaleb Johnson",
+            "pos": "RB",
+            "teamId": "9",
+            "teamAbbr": "GB",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3042519",
+            "name": "Aaron Jones Sr.",
+            "pos": "RB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3917315",
+            "name": "Kyler Murray",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4262921",
+            "name": "Justin Jefferson",
+            "pos": "WR",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873061",
+        "kickoffUtc": "2026-11-15T21:05:00Z",
+        "players": [
+          {
+            "athleteId": "4038524",
+            "name": "Gardner Minshew II",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4361307",
+            "name": "Trey McBride",
+            "pos": "TE",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4373626",
+            "name": "Tyler Allgeier",
+            "pos": "RB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "12483",
+            "name": "Matthew Stafford",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4426515",
+            "name": "Puka Nacua",
+            "pos": "WR",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "receiving"
+            ],
+            "status": "Out"
+          },
+          {
+            "athleteId": "4430737",
+            "name": "Kyren Williams",
+            "pos": "RB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873062",
+        "kickoffUtc": "2026-11-15T21:05:00Z",
+        "players": [
+          {
+            "athleteId": "4260394",
+            "name": "Aidan O'Connell",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
+            "athleteId": "4432665",
+            "name": "Brock Bowers",
+            "pos": "TE",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4837248",
+            "name": "Fernando Mendoza",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4890973",
+            "name": "Ashton Jeanty",
+            "pos": "RB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3912547",
+            "name": "Sam Darnold",
+            "pos": "QB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4430878",
+            "name": "Jaxon Smith-Njigba",
+            "pos": "WR",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4887558",
+            "name": "Emanuel Wilson",
+            "pos": "RB",
+            "teamId": "26",
+            "teamAbbr": "SEA",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873063",
+        "kickoffUtc": "2026-11-15T21:25:00Z",
+        "players": [
+          {
+            "athleteId": "2577417",
+            "name": "Dak Prescott",
+            "pos": "QB",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4241389",
+            "name": "CeeDee Lamb",
+            "pos": "WR",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4361579",
+            "name": "Javonte Williams",
+            "pos": "RB",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3040151",
+            "name": "George Kittle",
+            "pos": "TE",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3117251",
+            "name": "Christian McCaffrey",
+            "pos": "RB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4361741",
+            "name": "Brock Purdy",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873064",
+        "kickoffUtc": "2026-11-16T01:20:00Z",
+        "players": [
+          {
+            "athleteId": "3915511",
+            "name": "Joe Burrow",
+            "pos": "QB",
+            "teamId": "4",
+            "teamAbbr": "CIN",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4239993",
+            "name": "Tee Higgins",
+            "pos": "WR",
+            "teamId": "4",
+            "teamAbbr": "CIN",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4362238",
+            "name": "Chase Brown",
+            "pos": "RB",
+            "teamId": "4",
+            "teamAbbr": "CIN",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "8439",
+            "name": "Aaron Rodgers",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4047650",
+            "name": "DK Metcalf",
+            "pos": "WR",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4569987",
+            "name": "Jaylen Warren",
+            "pos": "RB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
+        "gameId": "401873065",
+        "kickoffUtc": "2026-11-17T01:15:00Z",
+        "players": [
+          {
+            "athleteId": "3043078",
+            "name": "Derrick Henry",
+            "pos": "RB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3916387",
+            "name": "Lamar Jackson",
+            "pos": "QB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": "Injured Reserve"
+          },
+          {
+            "athleteId": "4429615",
+            "name": "Zay Flowers",
+            "pos": "WR",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4038941",
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": "Questionable"
+          },
+          {
+            "athleteId": "4612826",
+            "name": "Ladd McConkey",
+            "pos": "WR",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685382",
+            "name": "Omarion Hampton",
+            "pos": "RB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      }
+    ]
+  },
   "current": {
-    "takenAt": "2026-11-12T02:10:27Z",
+    "takenAt": "2026-11-12T05:01:03Z",
     "games": [
       {
         "gameId": "401873052",
