@@ -1,7 +1,154 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T22:47:20Z",
+  "updatedAt": "2026-11-12T23:47:19Z",
   "items": [
+    {
+      "id": "2a9c44b0fac2fa21",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dre-greenlaw-trent-williams-were-limited-in-thursdays-practice",
+      "title": "Dre Greenlaw, Trent Williams were limited in Thursday's practice",
+      "summary": "49ers linebacker Dre Greenlaw and left tackle Trent Williams rested during Wednesday's practice, but they had different listings on Thursday's practice report.",
+      "publishedAt": "2026-11-12T23:43:05Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "04f1abd6047d59a7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873061",
+      "title": "Cardinals' rookie QB Carson Beck makes his NFL debut against stellar Rams defense",
+      "summary": "First-year Arizona Cardinals coach Mike LaFleur is earning his paycheck this week as he works to develop an offensive game plan with a rookie...",
+      "publishedAt": "2026-11-12T23:33:35Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "ad20aea20f5facf7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/demarvion-overshown-didnt-know-inactive-players-couldnt-celebrate-on-the-field",
+      "title": "DeMarvion Overshown didn't know inactive players couldn't celebrate on the field",
+      "summary": "The Cowboys had 14 accepted penalties for 153 yards in the 27-23 win over the Colts.",
+      "publishedAt": "2026-11-12T23:32:01Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "dd22c0219708d364",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873062",
+      "title": "Raiders QB Fernando Mendoza’s first start will come against the Seahawks' NFL-best defense",
+      "summary": "The change came quickly Tuesday, but it was not unexpected when the",
+      "publishedAt": "2026-11-12T23:29:36Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "3e0098449e77a267",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50465608/joe-hortiz-says-chargers-were-listening-trade-offers",
+      "title": "GM Joe Hortiz says Chargers were listening to trade offers, none were enticing",
+      "summary": "GM Joe Hortiz pushed back against any narrative that the Chargers were unwilling or reluctant to pick up their phone ahead of Tuesday's trade deadline.",
+      "publishedAt": "2026-11-12T23:28:26Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "848571cc332fd954",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-list-rashod-bateman-vega-ioane-as-limited-in-thursdays-practice",
+      "title": "Ravens list Rashod Bateman, Vega Ioane as limited in Thursday's practice",
+      "summary": "Everyone on the Ravens' active roster practiced on Thursday, but a handful of them were limited participants.",
+      "publishedAt": "2026-11-12T23:26:40Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "2570e0eed4813f8c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/knoxville-chattanooga-fox-affiliates-pass-on-titans-game-for-now",
+      "title": "Knoxville, Chattanooga Fox affiliates pass on Titans game, for now",
+      "summary": "The Tennessee Titans apparently need an asterisk on their name.",
+      "publishedAt": "2026-11-12T23:15:18Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "37551f2bc70b632a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873059",
+      "title": "QB Kyle McCord eager to make his 1st NFL start as Dolphins and Colts meet in battle of reeling teams",
+      "summary": "Miami Dolphins quarterback Kyle McCord has dreamed about this moment his entire life.",
+      "publishedAt": "2026-11-12T23:10:35Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "981a5152eaafa4a0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-get-jakobi-meyers-travon-walker-back-at-practice",
+      "title": "Jaguars get Jakobi Meyers, Travon Walker back at practice",
+      "summary": "The Jaguars got a couple of their top players back on the practice field on Thursday.",
+      "publishedAt": "2026-11-12T23:08:53Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "a4ba50f581285cab",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-pickens-limited-again-thursday",
+      "title": "George Pickens limited again Thursday",
+      "summary": "Cowboys wide receiver George Pickens remained a limited participant on Thursday.",
+      "publishedAt": "2026-11-12T23:08:06Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "fa2a588adf82e9f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-listed-as-full-participant-at-thursdays-practice",
+      "title": "Jared Goff listed as full participant at Thursday's practice",
+      "summary": "Lions quarterback Jared Goff was listed as a limited participant in practice on Wednesday, but it doesn't look like there will be an issue with his availability for Sunday's game against the Patriots.",
+      "publishedAt": "2026-11-12T22:52:50Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "142dacb3d7b74ae5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-broncos-took-advantage-of-a-loophole-the-nfl-should-not-allow",
+      "title": "Jim Harbaugh: Broncos took advantage of a loophole the NFL should not allow",
+      "summary": "The Chargers' head coach is not happy with the Broncos trying to renegotiate the trade for Daiyan Henley after the deadline, or with the NFL allowing it.",
+      "publishedAt": "2026-11-12T22:47:14Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "99fb926c30271a12",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-injuries-keeping-me-off-field-not-my-contract-situation",
+      "title": "Joey Porter Jr.: Injuries keeping me off field, not my contract situation",
+      "summary": "Porter missed practice again on Thursday with an ankle injury.",
+      "publishedAt": "2026-11-12T22:45:28Z",
+      "teamIds": []
+    },
     {
       "id": "acef177ff0519924",
       "source": "espn",
@@ -23,6 +170,18 @@
       "publishedAt": "2026-11-12T22:44:30Z",
       "teamIds": [
         "33"
+      ]
+    },
+    {
+      "id": "e8e9d97c13ccad6d",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-commanders-vs-giants",
+      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, Commanders vs. Giants",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-12T22:43:28Z",
+      "teamIds": [
+        "19",
+        "28"
       ]
     },
     {
@@ -814,7 +973,7 @@
       "id": "2d6a07c477a5661a",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/giants-vs-commanders-how-to-watch-odds-spread-preview-prediction",
-      "title": "Giants vs. Commanders: New York, Washington look to rebound on 'TNF' after embarrassing Week 5 tie",
+      "title": "Giants vs. Commanders prediction: New York, Washington look to rebound on 'TNF' after embarrassing Week 5 tie",
       "summary": "How to watch the 'Thursday Night Football' matchup, plus a preview and prediction",
       "publishedAt": "2026-11-12T14:49:20Z",
       "teamIds": [
@@ -1491,162 +1650,6 @@
       "publishedAt": "2026-11-11T22:29:15Z",
       "teamIds": [
         "2"
-      ]
-    },
-    {
-      "id": "9565afd2e6fee1c4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mahogany-i-need-to-grow-up-and-stop-breaking-team-rules",
-      "title": "Christian Mahogany: I need to grow up and stop breaking team rules",
-      "summary": "Christian Mahogany will return as the Lions' starting left guard on Sunday, a week after his benching for a violation of team rules.",
-      "publishedAt": "2026-11-11T22:23:41Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "f37a0196889d011b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50455318/mcvay-rams-optimistic-wr-adams-return-sooner-later",
-      "title": "Sean McVay: Rams optimistic WR Davante Adams will return 'sooner than later'",
-      "summary": "The Rams are optimistic that injured wide receiver Davante Adams will return from his hamstring injury \"sooner than later,\" coach Sean McVay said.",
-      "publishedAt": "2026-11-11T22:19:19Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "dc715b4ed2e153d7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/3-5-panthers-face-3-5-saints-for-first-place-in-nfc-south",
-      "title": "3-5 Panthers face 3-5 Saints for first place in NFC South",
-      "summary": "It's not often that a matchup of two 3-5 teams carries major playoff implications.",
-      "publishedAt": "2026-11-11T22:12:28Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "60a78b2a7a9c886c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-rb-travis-etienne-has-limited-practice-in-his-return",
-      "title": "Saints RB Travis Etienne has limited practice in his return",
-      "summary": "Saints running back Travis Etienne returned to practice on Wednesday as a limited participant.",
-      "publishedAt": "2026-11-11T22:07:01Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "f05e90f0218e5f61",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-practiced-in-full-on-wednesday-im-in-a-great-spot",
-      "title": "Patrick Mahomes practiced in full on Wednesday: \"I'm in a great spot\"",
-      "summary": "While it looked at first on Sunday like Chiefs quarterback Patrick Mahomes had suffered a significant elbow injury, it turns out he hasn't even missed any practice time.",
-      "publishedAt": "2026-11-11T22:02:56Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "dfdc20b19cf09267",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-plans-to-talk-to-jakobe-thomas-about-no-8",
-      "title": "Kirk Cousins plans to talk to Jakobe Thomas about No. 8",
-      "summary": "Vikings quarterback Kirk Cousins made his official return to the team on Wednesday.",
-      "publishedAt": "2026-11-11T21:57:15Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "ebf0fc031ab09827",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-oconnell-on-kyler-murray-i-want-him-to-get-healthy-you-never-know-what-could-happen",
-      "title": "Kevin O'Connell on Kyler Murray: I want him to get healthy, you never know what could happen",
-      "summary": "The Vikings made Kyler Murray their quarterback choice to open the 2026 season, but it didn't take long for their plans to go awry.",
-      "publishedAt": "2026-11-11T21:56:45Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "e0ba5b4574b1af62",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-has-limited-practice-wednesday",
-      "title": "Micah Parsons has limited practice Wednesday",
-      "summary": "Packers edge rusher Micah Parsons had limited work in Wednesday's practice.",
-      "publishedAt": "2026-11-11T21:47:07Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "c3e2196c6e87e67f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50455074/cardinals-start-rookie-qb-carson-beck-rams",
-      "title": "Cardinals to start rookie QB Carson Beck against Rams",
-      "summary": "The Cardinals will start their third quarterback in three weeks, with rookie Carson Beck getting the nod for Sunday's home game against the Rams.",
-      "publishedAt": "2026-11-11T21:46:01Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "64ed463e968c3d0f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50455241/carson-beck-pro-here",
-      "title": "Cardinals coach: Carson Beck's been a pro since he's been here",
-      "summary": null,
-      "publishedAt": "2026-11-11T21:43:00Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "d2267ad36b42bb35",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-starting-qb-carson-beck-2026",
-      "title": "Cardinals name Carson Beck starting QB: Rookie faces Aaron Donald, Myles Garrett in NFL debut",
-      "summary": "Gardner Minshew's season-ending injury opens the door for Beck, whose first assignment comes against one of the NFL's most accomplished pass-rushing duos",
-      "publishedAt": "2026-11-11T21:42:20Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "a3ebac3c78d0a0ad",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-cam-skattebo-have-no-injury-designations-for-thursday-night",
-      "title": "J.J. McCarthy, Cam Skattebo have no injury designations for Thursday night",
-      "summary": "The Giants opened the week with confidence that quarterback J.J.",
-      "publishedAt": "2026-11-11T21:29:40Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "a1134b7ad6a7a625",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-wont-be-placed-on-ir-but-will-still-be-out-for-an-extended-period",
-      "title": "Puka Nacua won't be placed on IR, but will still be out for an extended period",
-      "summary": "The Rams have experienced a bevy of injuries so far this season.",
-      "publishedAt": "2026-11-11T21:26:38Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "3c4718574bb61e50",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nolan-teasley-this-roster-has-earned-the-right-to-maximize-its-potential-with-kirk-cousins",
-      "title": "Nolan Teasley: This roster has \"earned the right\" to maximize its potential with Kirk Cousins",
-      "summary": "\"We didn't acquire Kirk to not play,\" the Vikings G.M. said.",
-      "publishedAt": "2026-11-11T21:26:25Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]

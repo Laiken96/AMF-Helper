@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-12T22:47:19Z",
+    "takenAt": "2026-11-12T23:47:18Z",
     "games": [
       {
         "gameId": "401873066",
@@ -278,7 +278,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4569603",
@@ -404,7 +404,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429795",
@@ -615,7 +615,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4612826",
@@ -626,7 +626,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4685382",
@@ -660,7 +660,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685247",
@@ -711,7 +711,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "2969939",
@@ -724,17 +724,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4433970",
-            "name": "J.J. McCarthy",
-            "pos": "QB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
           },
           {
             "athleteId": "4595348",
@@ -756,7 +745,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           }
         ]
       },
@@ -849,6 +838,17 @@
         "gameId": "401873077",
         "kickoffUtc": "2026-11-23T01:20:00Z",
         "players": [
+          {
+            "athleteId": "2573079",
+            "name": "Carson Wentz",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
           {
             "athleteId": "3042519",
             "name": "Aaron Jones Sr.",
