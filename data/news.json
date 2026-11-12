@@ -1,7 +1,91 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T20:47:25Z",
+  "updatedAt": "2026-11-12T21:47:23Z",
   "items": [
+    {
+      "id": "c8b3e3dc7ee9052d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50464601/chargers-jim-harbaugh-irked-broncos-nixed-trade",
+      "title": "Chargers' Jim Harbaugh frustrated with Broncos after nixed Daiyan Henley trade",
+      "summary": "Chargers coach Jim Harbaugh on Thursday expressed frustration with the Denver Broncos about a nixed trade this week involving linebacker Daiyan Henley.",
+      "publishedAt": "2026-11-12T21:44:43Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "ec7da1cd3c3a1dfe",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873055",
+      "title": "Despite slow starts, the Panthers and Saints meet with a chance to become sole leaders of NFC South",
+      "summary": "Never mind the Carolina Panthers' three-game losing streak, or that the New Orleans Saints dropped five of their first seven games this season.",
+      "publishedAt": "2026-11-12T21:39:35Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "3c86538f4a433f45",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/50182998/2027-nfl-draft-rankings-kiper-big-board-top-prospects",
+      "title": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position",
+      "summary": "Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November.",
+      "publishedAt": "2026-11-12T21:19:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "5c5b32dda57ece2e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-odds-betting-lines-spreads-totals",
+      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Giants-Commanders, Cowboys-49ers",
+      "summary": "NFL Week 10 spreads and totals for every game, including Commanders-Giants, 49ers-Cowboys and Steelers-Bengals",
+      "publishedAt": "2026-11-12T21:07:24Z",
+      "teamIds": [
+        "4",
+        "6",
+        "19",
+        "23",
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "275a13c58327e472",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-on-josh-downs-you-can-tell-the-intellect-how-he-can-pick-things-up",
+      "title": "Patrick Mahomes on Josh Downs: You can tell the intellect, how he can pick things up",
+      "summary": "The Chiefs brought in a receiver at the trading deadline, acquiring Josh Downs from the Colts.",
+      "publishedAt": "2026-11-12T20:59:59Z",
+      "teamIds": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "6c624d0704d937c9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873057",
+      "title": "Trevor Lawrence sees a 'shot' as the Jaguars add 3 defenders in trades before visiting Tennessee",
+      "summary": "The Jacksonville Jaguars already felt pretty confident both in themselves and what they want for a franchise still searching for its first Super...",
+      "publishedAt": "2026-11-12T20:59:35Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "f8b05c14a06745a2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-re-sign-odell-beckham-jr-to-practice-squad",
+      "title": "Vikings re-sign Odell Beckham Jr. to practice squad",
+      "summary": "Wide receiver Odell Beckham Jr. is back with the Vikings.",
+      "publishedAt": "2026-11-12T20:55:41Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "3ff7b4ec5ee9181b",
       "source": "espn",
@@ -23,6 +107,18 @@
       "teamIds": [
         "33",
         "24"
+      ]
+    },
+    {
+      "id": "e6d11f2b16575850",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-commanders-at-giants-mavs-at-t-wolves-college-football-and-more",
+      "title": "Today's top games to watch, best bets, odds: Commanders at Giants, Mavs at T-Wolves, college football and more",
+      "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-12T20:30:46Z",
+      "teamIds": [
+        "19",
+        "28"
       ]
     },
     {
@@ -1552,96 +1648,6 @@
       "publishedAt": "2026-11-11T20:57:19Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "8eb3e993e1b350f7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-remains-out-of-practice-49ers-call-him-week-to-week",
-      "title": "Mike Evans remains out of practice, 49ers call him week-to-week",
-      "summary": "It looks like the 49ers will be without wide receiver Mike Evans for at least one more game.",
-      "publishedAt": "2026-11-11T20:56:31Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "f1c9fae8e6e53b2e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-on-carson-beck-we-have-all-confidence-hes-ready-to-roll",
-      "title": "Mike LaFleur on Carson Beck: We have all confidence he's ready to roll",
-      "summary": "As expected, Cardinals rookie Carson Beck will make his first start at quarterback on Sunday against the Rams after Gardner Minshew suffered an elbow injury that requires surgery last week.",
-      "publishedAt": "2026-11-11T20:47:33Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "cae56093e07763ba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-plan-for-micah-parsons-to-do-11-on-11-work-this-week",
-      "title": "Packers plan for Micah Parsons to do 11-on-11 work this week",
-      "summary": "Micah Parsons is set to take another step back toward the Packers lineup this week.",
-      "publishedAt": "2026-11-11T20:45:47Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "cf86de41e237bbb9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-get-damien-lewis-jaelan-phillips-back-at-practice",
-      "title": "Panthers get Damien Lewis, Jaelan Phillips back at practice",
-      "summary": "The Panthers designated three players for return from injured reserve on Wednesday and they got a couple of other starters back on the practice field as well.",
-      "publishedAt": "2026-11-11T20:28:14Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "0009e75c1a8b5d62",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-oconnell-too-early-to-commit-wholeheartedly-to-kirk-cousins-starting-sunday",
-      "title": "Kevin O'Connell: Too early to commit wholeheartedly to Kirk Cousins starting Sunday",
-      "summary": "The Vikings traded a third-round pick for Kirk Cousins on Tuesday because they need to improve their quarterback play, but head coach Kevin O'Connell stopped short of saying that Cousins will jump immediately into the lineup this week.",
-      "publishedAt": "2026-11-11T20:16:46Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "4e2a7d45a13064f9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50454635/zac-taylor-says-bengals-take-responsibility-failed-trade-eagles",
-      "title": "Zac Taylor says Bengals take responsibility for failed trade with Eagles",
-      "summary": null,
-      "publishedAt": "2026-11-11T20:01:45Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "ae02945a4e3b6eb0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/zac-taylor-duke-tobin-is-really-apologetic-after-backing-out-of-trade-with-eagles",
-      "title": "Zac Taylor: Duke Tobin is \"really apologetic\" after backing out of trade with Eagles",
-      "summary": "On Tuesday, the Bengals backed out of a trade for edge rusher Arnold Ebiketie after it was revealed that the deal might cost Cincinnati with a future compensatory draft pick.",
-      "publishedAt": "2026-11-11T19:55:07Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "c48aa6373a42e8eb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50454416/titans-ridley-addresses-incident-valet-airport",
-      "title": "Titans' Calvin Ridley addresses incident with valet at Nashville airport",
-      "summary": "Titans WR Calvin Ridley addressed the incident that occurred over the weekend at Nashville International Airport involving a valet as he attempted to recover the keys to his truck.",
-      "publishedAt": "2026-11-11T19:46:53Z",
-      "teamIds": [
-        "10"
       ]
     }
   ]
