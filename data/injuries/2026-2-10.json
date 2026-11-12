@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T17:30:53Z",
+    "takenAt": "2026-11-12T17:40:32Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1395,7 +1395,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4432577",
@@ -2100,6 +2100,16 @@
       "kind": "neu",
       "from": null,
       "to": "Doubtful"
+    },
+    {
+      "gameId": "401873056",
+      "athleteId": "4429059",
+      "name": "Woody Marks",
+      "pos": "RB",
+      "teamAbbr": "HOU",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873056",
