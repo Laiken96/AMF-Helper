@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T04:47:23Z",
+  "updatedAt": "2026-11-12T06:47:23Z",
   "items": [
+    {
+      "id": "d15dbee451a64fa5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50459330/broncos-say-trade-chargers-lb-henley-not-finalized",
+      "title": "Broncos say trade with Chargers for LB Henley 'will not be finalized'",
+      "summary": "The Broncos announced late Wednesday that their trade to acquire linebacker Daiyan Henley from the Chargers \"will not be finalized.\"",
+      "publishedAt": "2026-11-12T06:44:33Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
     {
       "id": "6020405b44c51d1a",
       "source": "pft",
@@ -1637,18 +1649,6 @@
       "teamIds": [
         "13",
         "16"
-      ]
-    },
-    {
-      "id": "8eddf801dd2f85dd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-upgrade-wr-treylon-burks-to-full-practice-participation",
-      "title": "Commanders upgrade WR Treylon Burks to limited practice participation",
-      "summary": "Commanders wide receiver Treylon Burks missed last Sunday's loss to the Rams with a foot injury, but he's moving toward a return to the lineup.",
-      "publishedAt": "2026-11-11T00:02:25Z",
-      "teamIds": [
-        "14",
-        "28"
       ]
     }
   ]
