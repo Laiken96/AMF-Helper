@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T22:40:30Z",
+    "takenAt": "2026-11-12T22:50:29Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1258,7 +1258,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4685247",
@@ -1481,7 +1481,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -2103,16 +2103,6 @@
     },
     {
       "gameId": "401873054",
-      "athleteId": "4569618",
-      "name": "Garrett Wilson",
-      "pos": "WR",
-      "teamAbbr": "NYJ",
-      "kind": "wechsel",
-      "from": "Questionable",
-      "to": "Out"
-    },
-    {
-      "gameId": "401873054",
       "athleteId": "4385690",
       "name": "Dalton Kincaid",
       "pos": "TE",
@@ -2159,7 +2149,7 @@
       "teamAbbr": "TEN",
       "kind": "neu",
       "from": null,
-      "to": "Out"
+      "to": "Questionable"
     },
     {
       "gameId": "401873057",
