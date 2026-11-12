@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T22:30:51Z",
+    "takenAt": "2026-11-12T22:40:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1195,7 +1195,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -1258,7 +1258,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4685247",
@@ -1395,7 +1395,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4432577",
@@ -2093,16 +2093,6 @@
   "changes": [
     {
       "gameId": "401873053",
-      "athleteId": "4569173",
-      "name": "Rhamondre Stevenson",
-      "pos": "RB",
-      "teamAbbr": "NE",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873053",
       "athleteId": "4374302",
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
@@ -2113,10 +2103,30 @@
     },
     {
       "gameId": "401873054",
+      "athleteId": "4569618",
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "teamAbbr": "NYJ",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Out"
+    },
+    {
+      "gameId": "401873054",
       "athleteId": "4385690",
       "name": "Dalton Kincaid",
       "pos": "TE",
       "teamAbbr": "BUF",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873056",
+      "athleteId": "4429059",
+      "name": "Woody Marks",
+      "pos": "RB",
+      "teamAbbr": "HOU",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
