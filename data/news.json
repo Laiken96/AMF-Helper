@@ -1,7 +1,100 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T23:47:19Z",
+  "updatedAt": "2026-11-13T00:47:21Z",
   "items": [
+    {
+      "id": "dd8e79ef051dd6d3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
+      "title": "Cam Skattebo dons custom 'Iron Man' mask for TNF, leads NFL Week 10 arrivals",
+      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-13T00:40:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "acb1db8424a1639d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-is-not-on-chargers-injury-report-as-they-begin-prep-for-ravens",
+      "title": "Justin Herbert is not on Chargers' injury report as they begin prep for Ravens",
+      "summary": "Justin Herbert injured the middle finger on his left hand in Sunday's loss to the Texans.",
+      "publishedAt": "2026-11-13T00:23:06Z",
+      "teamIds": [
+        "33",
+        "34",
+        "24"
+      ]
+    },
+    {
+      "id": "976d8ae7a30f259b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/commanders-vs-giants-odds-picks-prediction-best-bets-player-props-for-nfl-week-10-thursday-night-football",
+      "title": "Commanders vs. Giants odds, picks, prediction: Best bets, player props for NFL Week 10 Thursday Night Football",
+      "summary": "New York is a 2.5-point home favorite, but backing Jayden Daniels against an erratic J.J. McCarthy in prime time provides strong value to take Washington on the money line",
+      "publishedAt": "2026-11-13T00:01:27Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "a39a17ee3beb3979",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/commanders-vs-giants-odds-prediction-betting-preview-start-time-thursday-night-football-picks-best-bets",
+      "title": "Commanders vs. Giants odds, prediction, betting preview, start time: Thursday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Commanders vs. Giants on Thursday Night Football",
+      "publishedAt": "2026-11-13T00:00:54Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "9a01424e8f237d0f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-lt-charles-cross-practices-for-the-first-time-since-week-7",
+      "title": "Seahawks LT Charles Cross practices for the first time since Week 7",
+      "summary": "The Seahawks had their starting left tackle back at practice on Thursday.",
+      "publishedAt": "2026-11-13T00:00:46Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "bb0d7f32c5539069",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873064",
+      "title": "Steelers and Bengals meet for AFC North lead on Sunday night, both 6-2",
+      "summary": "Joe Burrow and the Cincinnati Bengals have been on a record run during their four-game winning streak.",
+      "publishedAt": "2026-11-13T00:00:41Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "c175149597416aec",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873065",
+      "title": "Reunion for Jim Harbaugh and Jesse Minter comes with both the Chargers and Ravens spiraling",
+      "summary": "Jim Harbaugh and Jesse Minter won a national championship together at the college level, then led the Los Angeles Chargers to back-to-back playoff appearances.",
+      "publishedAt": "2026-11-12T23:58:44Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "83c2d638f8d6333e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-giants-lb-malik-harrison-is-inactive",
+      "title": "Thursday Night Football: Giants LB Malik Harrison is inactive",
+      "summary": "The Commanders and Giants had no surprises among their inactives.",
+      "publishedAt": "2026-11-12T23:57:47Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "2a9c44b0fac2fa21",
       "source": "pft",
@@ -1558,98 +1651,6 @@
       "publishedAt": "2026-11-11T23:35:35Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "00615e03dd98a67d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50455771/kirk-cousins-reintroduced-vikings-starting-qb",
-      "title": "Kirk Cousins says call with Kevin O'Connell convinced him to OK Vikings trade",
-      "summary": "Kirk Cousins has rejoined the Vikings after not quite three years away, relishing his familiarity with the Twin Cities area, the people in the organization.",
-      "publishedAt": "2026-11-11T23:25:16Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "dec85f4cdf7f9b29",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-s-amani-hooker-amazing-to-be-on-a-team-thats-winning",
-      "title": "Bills S Amani Hooker: \"Amazing\" to be on a team that's winning",
-      "summary": "Safety Amani Hooker was catapulted up the standings this week.",
-      "publishedAt": "2026-11-11T23:23:53Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "344df97ff3a56de6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-wr-denzel-boston-is-expected-back-at-practice-thursday",
-      "title": "Browns WR Denzel Boston is expected back at practice Thursday",
-      "summary": "The Browns practiced without wide receiver Denzel Boston on Wednesday, but they don't expect his absence to be an extended one.",
-      "publishedAt": "2026-11-11T23:05:52Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "f4cecdacfc05f870",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/draft/news/renners-2027-nfl-three-round-mock-draft-trade-deadline-first-three-rounds-eagles-jets-titans",
-      "title": "Renner's post-deadline 2027 NFL mock draft: How the trade deadline affected the first three rounds",
-      "summary": "The Eagles and Titans rebuild after the deadline, while the Chargers land a new weapon for Justin Herbert in Jeremiah Smith",
-      "publishedAt": "2026-11-11T22:57:15Z",
-      "teamIds": [
-        "24",
-        "21",
-        "10"
-      ]
-    },
-    {
-      "id": "ffc649b7d8dcabe7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-limited-in-return-to-practice-patriots-rule-out-three",
-      "title": "A.J. Brown limited in return to practice, Patriots rule out three",
-      "summary": "The Patriots ruled three players out for Sunday's game against the Lions in Munich on Wednesday, but there was some encouraging news about wide receiver A.J.",
-      "publishedAt": "2026-11-11T22:53:04Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "058de7878bf247ba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-de-james-pearce-did-not-practice-wednesday",
-      "title": "Falcons DE James Pearce did not practice Wednesday",
-      "summary": "Falcons defensive end James Pearce Jr. made his season debut on Sunday after serving an eight-game suspension.",
-      "publishedAt": "2026-11-11T22:51:06Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "cfdcdbe808f53315",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/blake-cashman-t-j-hockenson-miss-practice-for-vikings",
-      "title": "Blake Cashman, T.J. Hockenson miss practice for Vikings",
-      "summary": "Vikings linebacker Blake Cashman may not be available for Sunday's showdown with the Packers.",
-      "publishedAt": "2026-11-11T22:39:44Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "e4c17ae5085c3e58",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50455698/new-bills-safety-amani-hooker-ready-go-vs-jets",
-      "title": "New Bills safety Amani Hooker will be 'ready to go' vs. Jets",
-      "summary": "Amani Cooper said he's confident he'll be able to pick up defensive coordinator Jim Leonhard's scheme by kickoff vs. the Jets.",
-      "publishedAt": "2026-11-11T22:29:15Z",
-      "teamIds": [
-        "2"
       ]
     }
   ]

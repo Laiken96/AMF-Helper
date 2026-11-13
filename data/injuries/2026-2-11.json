@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-12T23:47:18Z",
+    "takenAt": "2026-11-13T00:47:18Z",
     "games": [
       {
         "gameId": "401873066",
@@ -141,7 +141,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4567048",
@@ -308,17 +308,6 @@
         "gameId": "401873071",
         "kickoffUtc": "2026-11-22T18:00:00Z",
         "players": [
-          {
-            "athleteId": "15168",
-            "name": "Case Keenum",
-            "pos": "QB",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
           {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
@@ -626,7 +615,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685382",
@@ -711,7 +700,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "2969939",
@@ -786,17 +775,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4260394",
-            "name": "Aidan O'Connell",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4432665",
@@ -980,6 +958,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4432722",
+            "name": "Athan Kaliakmanis",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       }
