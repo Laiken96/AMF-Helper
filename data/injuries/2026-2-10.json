@@ -1048,15 +1048,26 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T00:40:35Z",
+    "takenAt": "2026-11-13T01:20:30Z",
     "games": [
       {
         "gameId": "401873052",
         "kickoffUtc": "2026-11-13T01:15:00Z",
         "players": [
           {
-            "athleteId": "2969939",
-            "name": "Jameis Winston",
+            "athleteId": "4361050",
+            "name": "Isaiah Likely",
+            "pos": "TE",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4433970",
+            "name": "J.J. McCarthy",
             "pos": "QB",
             "teamId": "19",
             "teamAbbr": "NYG",
@@ -1067,47 +1078,12 @@
             "status": null
           },
           {
-            "athleteId": "4595348",
-            "name": "Malik Nabers",
-            "pos": "WR",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4696981",
             "name": "Cam Skattebo",
             "pos": "RB",
             "teamId": "19",
             "teamAbbr": "NYG",
             "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "2976212",
-            "name": "Stefon Diggs",
-            "pos": "WR",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4426348",
-            "name": "Jayden Daniels",
-            "pos": "QB",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "qb",
-              "passing",
               "rushing"
             ],
             "status": null
