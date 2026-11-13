@@ -1,7 +1,56 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T12:47:19Z",
+  "updatedAt": "2026-11-13T13:47:22Z",
   "items": [
+    {
+      "id": "f0f8faad453d5dbf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-have-more-rushing-yards-than-passing-yards-a-rare-feat-in-todays-nfl",
+      "title": "Buccaneers have more rushing yards than passing yards, a rare feat in today's NFL",
+      "summary": "With the 2026 NFL season at the midway point, one of the bigger statistical oddities belongs to the Buccaneers, who are the only team in the league with more rushing yards than passing yards.",
+      "publishedAt": "2026-11-13T13:25:25Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "c9fc855bd944ea02",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-week-10-picks-odds-best-bets-lions-munich-bills-jets",
+      "title": "NFL Week 10 picks, odds, best bets: Lions cover in Munich, Bills crush Jets",
+      "summary": "After an unusual Week 9 in which 11 favorites covered the spread, here are Jordan Dajani's top five picks",
+      "publishedAt": "2026-11-13T12:50:13Z",
+      "teamIds": [
+        "2",
+        "8",
+        "20"
+      ]
+    },
+    {
+      "id": "b241d327d85f7ae3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/grading-every-nfl-team-at-midway-point-bills-49ers-chargers",
+      "title": "Grading every NFL team at the midway point: Chargers get an 'F,' three teams get solid 'A' grade",
+      "summary": "Buffalo is among the highest-rated teams, while the Eagles sit at the opposite end as a big disappointment",
+      "publishedAt": "2026-11-13T12:40:57Z",
+      "teamIds": [
+        "24",
+        "21"
+      ]
+    },
+    {
+      "id": "c63eb58390a0ac92",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams",
+      "title": "5 bold predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
+      "summary": "Plus, we may have our first coach firing of the season soon",
+      "publishedAt": "2026-11-13T12:40:08Z",
+      "teamIds": [
+        "9",
+        "14",
+        "26"
+      ]
+    },
     {
       "id": "6311911e231f9bd2",
       "source": "espn",
@@ -1622,46 +1671,6 @@
       "teamIds": [
         "11",
         "15"
-      ]
-    },
-    {
-      "id": "e4f7521313cc8633",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-starting-is-a-new-step-but-its-not-a-whirlwind",
-      "title": "Fernando Mendoza: Starting is a \"new step,\" but it's not a whirlwind",
-      "summary": "Everyone knew that it was only a matter of time before Fernando Mendoza became the Raiders' starting quarterback, but the first overall pick in this year's draft said on Wednesday that he was taken by surprise when he learned the time had come.",
-      "publishedAt": "2026-11-12T12:00:05Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "04dd912189da65a1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50448976/2026-nfl-midseason-report-questions-stats-fantasy",
-      "title": "2026 NFL midseason report: Questions, stats for all 32 teams entering second half",
-      "summary": "The 2026 NFL season has hit the midway point. Here's what to watch in the second half, key QB stats and fantasy nuggets for all 32 teams.",
-      "publishedAt": "2026-11-12T11:46:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "fbfb61e5fd56fdd1",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50454993/fantasy-football-start-sit-running-backs-rest-season",
-      "title": "Fantasy football: Which players can you trust from these backfields-by-committee?",
-      "summary": "Matt Bowen looks at some of the toughest backfields to assess and offers his thoughts going forward.",
-      "publishedAt": "2026-11-12T11:43:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "f27e33fd34d363c5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-laughs-as-he-says-hes-tempted-to-ask-assistant-coach-robert-woods-to-suit-up",
-      "title": "Sean McVay laughs as he says he's tempted to ask assistant coach Robert Woods to suit up",
-      "summary": "He didn't sound completely serious, but Rams coach Sean McVay said on Wednesday that he talked to assistant wide receivers coach Robert Woods about whether he could suit up and play while receivers Puka Nacua, Davante Adams and Jordan Whittington are all out with injuries.",
-      "publishedAt": "2026-11-12T11:37:05Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
