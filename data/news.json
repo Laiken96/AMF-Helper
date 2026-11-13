@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:47:28Z",
+  "updatedAt": "2026-11-13T04:47:21Z",
   "items": [
+    {
+      "id": "236488a5c2796f44",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50466279/new-york-giants-washington-commanders-week-10-tnf",
+      "title": "Commanders keep NFC East hopes alive with win over Giants",
+      "summary": "New York couldn't close out a win against Washington, giving up a late touchdown drive; its division lead is now shrinking.",
+      "publishedAt": "2026-11-13T04:43:03Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "2dfeb3d39fe9d373",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50468530/commanders-outlast-giants-24-21-nfc-east-tnf-thriller",
+      "title": "Commanders outlast Giants 24-21 in NFC East TNF thriller",
+      "summary": null,
+      "publishedAt": "2026-11-13T04:35:39Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "05496315b2d2a74e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873052",
+      "title": "Jayden Daniels and Commanders rally to stun the Giants 24-21 and keep their hopes alive another week",
+      "summary": "Jayden Daniels threw his third touchdown pass of the game, a 32-yarder to Stefon Diggs with 57 seconds left, and the Washington Commanders rallied to defeat the New York Giants 24-21 on Thursday night in what was essentially",
+      "publishedAt": "2026-11-13T04:29:36Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "b54f6f4f8540086f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-stefon-diggs-late-td-gives-commanders-24-21-win",
+      "title": "Thursday Night Football: Stefon Diggs' late TD gives Commanders 24-21 win",
+      "summary": "The wide receiver caught a 32-yard touchdown pass from Jayden Daniels with 57 seconds left.",
+      "publishedAt": "2026-11-13T04:29:09Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "e8e53a46d19ae910",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-on-having-no-sacks-they-come-in-bunches",
+      "title": "Aaron Donald on having no sacks: \"They come in bunches\"",
+      "summary": "Rams defensive tackle Aaron Donald has played seven games this season.",
+      "publishedAt": "2026-11-13T04:26:01Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "9ca656a78ee7ee77",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/isaiah-likelys-66-yard-td-has-giants-leading-puts-him-over-100-yards",
+      "title": "Isaiah Likely's 66-yard TD has Giants leading, puts him over 100 yards",
+      "summary": "Isaiah Likely has a career high, with 127 yards on nine catches.",
+      "publishedAt": "2026-11-13T03:49:08Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "ed70123ed7795995",
       "source": "pft",
@@ -611,8 +680,8 @@
       "id": "7d32802c5b571620",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50463340/thursday-night-football-commanders-giants-highlights",
-      "title": "Week 10 Thursday Night Football: Commanders at Giants highlights",
-      "summary": "Follow along for the biggest touchdowns and highlights from the NFC East faceoff at MetLife Stadium.",
+      "title": "Week 10 TNF: Look back at the Commanders-Giants highlights",
+      "summary": "Despite Jayden Daniels throwing two interceptions late in the fourth quarter, the Commanders held on to beat New York.",
       "publishedAt": "2026-11-12T19:39:04Z",
       "teamIds": [
         "19",
@@ -1586,67 +1655,6 @@
       "summary": "One man's chaos is another man's ca-ching.",
       "publishedAt": "2026-11-12T01:21:40Z",
       "teamIds": []
-    },
-    {
-      "id": "86554f59af2d5ffe",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/50068479/2027-nfl-draft-rankings-jordan-reid-top-prospects-players-positions",
-      "title": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports",
-      "summary": "Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect.",
-      "publishedAt": "2026-11-12T01:20:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "b14739ddd09d5339",
-      "source": "espn",
-      "url": "https://espn.com/college-football/story/_/id/50456831/sources-philip-rivers-nc-state-deal-set-finalized",
-      "title": "Sources: Philip Rivers set to return to NC State, deal to be finalized Friday",
-      "summary": "Philip Rivers is set to return to NC State, this time as head football coach, once its trustees finalizes his contract after a meeting Friday, sources said.",
-      "publishedAt": "2026-11-12T01:18:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "dd8abcc837810df1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-week-10-injury-report-mike-evans-puka-nacua",
-      "title": "NFL Week 10 injury report: Mike Evans still not practicing, Puka Nacua facing multi-week absence",
-      "summary": "Here is the latest practice participation, game status and injury news for every team playing Thursday or Sunday in Week 10",
-      "publishedAt": "2026-11-12T01:08:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "24e7820697e836e2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-vikings-racks-up-21-7-million-for-monday-night-football",
-      "title": "Bills-Vikings racks up 21.7 million for Monday Night Football",
-      "summary": "The game itself was not much fun to watch, except for Bills fans.",
-      "publishedAt": "2026-11-12T00:56:34Z",
-      "teamIds": [
-        "2",
-        "16"
-      ]
-    },
-    {
-      "id": "e3f8be7b6fa3acff",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50456455/source-ravens-now-third-kicker-sign-riley-patterson",
-      "title": "Source: Ravens, now on third kicker, sign journeyman Riley Patterson",
-      "summary": "The Raven signed journeyman kicker Riley Patterson after his workout for the team on Wednesday, according to NFL Network.",
-      "publishedAt": "2026-11-12T00:42:29Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "6da14a7ca846546c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50456677/dolphins-quarterback-malik-willis-return-starter",
-      "title": "Dolphins hopeful QB Malik Willis will be back this season",
-      "summary": "Coach Jeff Hafley said Miami sees Malik Willis as its starter regardless of when he returns from his groin injury.",
-      "publishedAt": "2026-11-12T00:41:09Z",
-      "teamIds": [
-        "15"
-      ]
     }
   ]
 }
