@@ -1,7 +1,124 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T13:47:22Z",
+  "updatedAt": "2026-11-13T14:47:20Z",
   "items": [
+    {
+      "id": "3490c0ed00d9bad2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 10",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-13T14:46:19Z",
+      "teamIds": []
+    },
+    {
+      "id": "d64ce7361a78fd69",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50471659/falcons-sign-de-thomas-cb-henderson-multiyear-extensions",
+      "title": "Falcons sign DE Cameron Thomas, CB C.J. Henderson to multiyear extensions",
+      "summary": "The Atlanta Falcons have signed defensive end Cameron Thomas and cornerback C.J. Henderson to multiyear contract extensions, the team announced Friday.",
+      "publishedAt": "2026-11-13T14:45:11Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "c3a54fa5fb68174b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50471662/are-rams-playoff-hopes-puka-nacua-injury",
+      "title": "Are the Rams' playoff hopes over after Puka Nacua's injury?",
+      "summary": null,
+      "publishedAt": "2026-11-13T14:44:40Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "4ec6ee2e1048423d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-injuries-like-lamar-jacksons-typically-take-6-10-weeks-to-heal",
+      "title": "Jesse Minter: Injuries like Lamar Jackson's typically take 6-10 weeks to heal",
+      "summary": "In an unusual move, the Ravens released a written statement from their head coach to update the quarterback's injury status.",
+      "publishedAt": "2026-11-13T14:43:50Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 10: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-13T14:29:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "0b14863a9f802938",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-announce-two-year-contract-extension-with-c-j-henderson",
+      "title": "Falcons announce two-year contract extension with C.J. Henderson",
+      "summary": "Falcons cornerback C.J.",
+      "publishedAt": "2026-11-13T14:27:45Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "cdf1af5e037dba76",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-hub-expert-selections-best-bets-teasers-survivor",
+      "title": "NFL Week 10 Picks Hub: Expert selections, best bets, teasers, survivor picks and more",
+      "summary": "CBSSports.com and SportsLine break down every single NFL game in Week 10",
+      "publishedAt": "2026-11-13T14:17:18Z",
+      "teamIds": []
+    },
+    {
+      "id": "9ff7dac539dff379",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-extend-cameron-thomas-through-2029",
+      "title": "Falcons extend Cameron Thomas through 2029",
+      "summary": "In March, free agent defensive end Cameron Thomas signed a one-year, $3.1 million contract with the Falcons.",
+      "publishedAt": "2026-11-13T14:16:54Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "6e1c75e52847f5cc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-midseason-grades-awards-2nd-half-predictions-commanders-open-up-nfc-east-race",
+      "title": "NFL midseason grades, awards, 2nd-half predictions; Commanders open up NFC East race",
+      "summary": "Plus college football Week 11 picks and predictions",
+      "publishedAt": "2026-11-13T14:11:49Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "a37299d75a90faa4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50471328/whitner-not-amused-hard-count",
+      "title": "'I'd cut Jameis Winston this morning': Whitner not amused by hard count",
+      "summary": null,
+      "publishedAt": "2026-11-13T14:07:41Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "3302a6a4b6176ded",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/fatal-flaw-super-bowl-contenders-49ers-bears-packers",
+      "title": "One fatal flaw of every Super Bowl contender from 49ers depth to Packers run game",
+      "summary": "What could stop your favorite team from winning it all?",
+      "publishedAt": "2026-11-13T13:58:41Z",
+      "teamIds": [
+        "9",
+        "25"
+      ]
+    },
     {
       "id": "f0f8faad453d5dbf",
       "source": "pft",
@@ -65,7 +182,7 @@
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/50463616/fantasy-football-start-sit-sleepers-breakouts-week-10",
       "title": "Don't be surprised if Jordan Love makes history and Mendoza performs like a QB1",
-      "summary": "Elite WRs compensate for the lack of a run game in Green Bay, while there's unwarranted caution for Vegas' QB.",
+      "summary": "Elite WRs compensate for the lack of a running game in Green Bay, while there's unwarranted caution for Vegas' QB.",
       "publishedAt": "2026-11-13T11:52:21Z",
       "teamIds": []
     },
@@ -84,7 +201,7 @@
       "id": "2142942f10b81523",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/50435678/fantasy-football-streamers-last-minute-pickups-week-10",
-      "title": "Fantasy football last-minute pickups: Twelve who can help in deep leagues",
+      "title": "Fantasy football last-minute pickups: 12 players who can help in deeper leagues",
       "summary": "If injuries, bye weeks or tough matchups have you seeking lineup help, Matt Bowen lists potential options.",
       "publishedAt": "2026-11-13T11:39:17Z",
       "teamIds": [
@@ -1058,12 +1175,11 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: 12 players to target for the homestretch of the season",
-      "summary": "The NFL trade deadline might be over, but fantasy managers should still consider trading for these players.",
+      "title": "Fantasy buzz: Likely, Skattebo come up big on TNF but only one is an auto-start",
+      "summary": "The Giants lost on the scoreboard but fantasy managers benefited from big games from Isaiah Likely and Cam Skattebo.",
       "publishedAt": "2026-11-12T17:39:56Z",
       "teamIds": [
-        "2",
-        "16"
+        "19"
       ]
     },
     {
@@ -1546,131 +1662,6 @@
         "3",
         "30",
         "25"
-      ]
-    },
-    {
-      "id": "e2996e34b4f96144",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers",
-      "title": "NFL Week 10 picks: Our experts face off on Commanders at Giants, Vikings at Packers and more",
-      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
-      "publishedAt": "2026-11-12T13:26:16Z",
-      "teamIds": [
-        "9",
-        "16",
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "c664e0ad8a4eb6cc",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50461369/ian-rapoport-details-broncos-trade-daiyan-henley-falling-through",
-      "title": "Ian Rapoport details Broncos' trade for Daiyan Henley falling through",
-      "summary": null,
-      "publishedAt": "2026-11-12T13:25:16Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "a6da0c8fd631d870",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-10-super-bowl-stock-report-jaguars-trade-deadline",
-      "title": "Week 10 Super Bowl stock report: Jaguars go all-in at trade deadline, injuries ravage Patriots offense",
-      "summary": "We assess the NFL title race after Week 9 and identify three upcoming games that could reshape the Super Bowl picture",
-      "publishedAt": "2026-11-12T13:12:47Z",
-      "teamIds": [
-        "30",
-        "17"
-      ]
-    },
-    {
-      "id": "234b949c0845b72a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-not-planning-change-to-starting-offensive-line-after-ryan-neuzil-trade",
-      "title": "Ravens not planning change to starting offensive line after Ryan Neuzil trade",
-      "summary": "The Ravens made a trade for center Ryan Neuzil this week, but they aren't planning on throwing him right into the lineup in Week 10.",
-      "publishedAt": "2026-11-12T13:10:30Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "0f3189d8a10e9118",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-commanders-giants",
-      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, Commanders-Giants",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-12T13:02:26Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "b5777e70a1b8aa87",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-shocking-predictions-fernando-mendoza",
-      "title": "It wouldn't shock me if ... NFL Week 10: Fernando Mendoza struggles in first start, new Chiefs WR dominates",
-      "summary": "The No. 1 overall pick doesn't have the softest landing spot to make his first start",
-      "publishedAt": "2026-11-12T12:43:47Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "8a0cfe00ba136f48",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/five-nfl-deadline-trades-become-next-sauce-gardner-bust",
-      "title": "Buyer Beware: 5 NFL deadline trades that could become the next Sauce Gardner bust",
-      "summary": "Jordan Davis must justify a first-round pick, Kirk Cousins must prove he can elevate Minnesota and three other acquisitions face similarly high stakes",
-      "publishedAt": "2026-11-12T12:42:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "1252e06718f7c5b3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-upset-alert-2026-bengals-steelers",
-      "title": "NFL Week 10 upset alert: Why the red-hot Bengals are in danger on 'Sunday Night Football'",
-      "summary": "Pittsburgh's rest advantage and formidable defense could end Cincinnati's winning streak, while Kirk Cousins gives Minnesota new life against Green Bay",
-      "publishedAt": "2026-11-12T12:41:27Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "0ba351ab04116457",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-after-trade-deadline",
-      "title": "Predicting full 14-team NFL playoff bracket after trade deadline: Entire NFC North makes postseason",
-      "summary": "For the first time in NFL history, all four teams from the same division make it to the postseason, and one team makes a run",
-      "publishedAt": "2026-11-12T12:40:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "adf6fdaea4080ce1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-      "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
-      "summary": "Was getting Kirk Cousins a home run for the Vikings? Did the Chiefs make a smart move to pick up Josh Downs?",
-      "publishedAt": "2026-11-12T12:20:15Z",
-      "teamIds": [
-        "12",
-        "16"
-      ]
-    },
-    {
-      "id": "951b3f2b7249b529",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-qb-kyle-mccord-experience-in-big-games-something-i-can-draw-from",
-      "title": "Dolphins QB Kyle McCord: Experience in big games something I can draw from",
-      "summary": "The Dolphins placed Malik Willis on injured reserve this week and that means Kyle McCord will be making his first NFL start when they face the Colts on Sunday.",
-      "publishedAt": "2026-11-12T12:12:21Z",
-      "teamIds": [
-        "11",
-        "15"
       ]
     }
   ]
