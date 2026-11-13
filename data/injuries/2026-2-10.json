@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-12T23:50:30Z",
+    "takenAt": "2026-11-13T00:01:04Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1111,6 +1111,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4432722",
+            "name": "Athan Kaliakmanis",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1436,7 +1447,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "3916148",
@@ -1766,7 +1777,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4430737",
@@ -2062,7 +2073,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685382",
@@ -2099,6 +2110,16 @@
       "kind": "weg",
       "from": "Out",
       "to": null
+    },
+    {
+      "gameId": "401873052",
+      "athleteId": "4432722",
+      "name": "Athan Kaliakmanis",
+      "pos": "QB",
+      "teamAbbr": "WSH",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873053",
@@ -2161,6 +2182,16 @@
       "to": "Questionable"
     },
     {
+      "gameId": "401873057",
+      "athleteId": "4882093",
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "teamAbbr": "JAX",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
       "gameId": "401873058",
       "athleteId": "3139477",
       "name": "Patrick Mahomes",
@@ -2191,6 +2222,16 @@
       "to": "Questionable"
     },
     {
+      "gameId": "401873061",
+      "athleteId": "4426515",
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "teamAbbr": "LAR",
+      "kind": "weg",
+      "from": "Out",
+      "to": null
+    },
+    {
       "gameId": "401873062",
       "athleteId": "4260394",
       "name": "Aidan O'Connell",
@@ -2209,16 +2250,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873065",
-      "athleteId": "4612826",
-      "name": "Ladd McConkey",
-      "pos": "WR",
-      "teamAbbr": "LAC",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     }
   ]
 }
