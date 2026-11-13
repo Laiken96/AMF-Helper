@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:47:19Z",
+  "updatedAt": "2026-11-13T09:41:58Z",
   "items": [
+    {
+      "id": "d144d414db7a0e6d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-we-needed-that-we-needed-every-bit-of-it",
+      "title": "Dan Quinn: We needed that, we needed every bit of it",
+      "summary": "After the win, the Commanders are 3-5-1, two games behind the division-leading Giants.",
+      "publishedAt": "2026-11-13T09:30:39Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "d36c7b8e6eb157c9",
       "source": "espn",
@@ -1647,17 +1659,6 @@
       "summary": "Rivers, who played for the Wolfpack from 1999 through 2003, is now poised to coach them.",
       "publishedAt": "2026-11-12T03:31:20Z",
       "teamIds": []
-    },
-    {
-      "id": "7e5c2b2ff8d68e0c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-are-in-the-four-quarterback-club-for-now",
-      "title": "Vikings are in the four-quarterback club, for now",
-      "summary": "The Vikings' addition of quarterback Kirk Cousins comes with a surprising decision on the back end.",
-      "publishedAt": "2026-11-12T02:10:11Z",
-      "teamIds": [
-        "16"
-      ]
     }
   ]
 }
