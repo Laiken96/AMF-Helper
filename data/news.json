@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T22:47:33Z",
+  "updatedAt": "2026-11-13T23:40:26Z",
   "items": [
+    {
+      "id": "91ae2d7d7d6b420f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-spreads-lines-picks-predictions-best-bets-week-10-2026",
+      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-13T23:31:04Z",
+      "teamIds": [
+        "2",
+        "34"
+      ]
+    },
+    {
+      "id": "a6be1291b6b07c64",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50475033/49ers-williams-greenlaw-questionable-evans-vs-cowboys",
+      "title": "49ers OT Williams, LB Greenlaw questionable, WR Evans out vs. Cowboys",
+      "summary": "The 49ers are listing left tackle Trent Williams and linebacker Dre Greenlaw as questionable for Sunday's game against the Cowboys, while receiver Mike Evans has been ruled out.",
+      "publishedAt": "2026-11-13T23:06:06Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "f27d468e2418601f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50474994/when-lamar-jackson-return-field",
+      "title": "When will Lamar Jackson return to the field?",
+      "summary": "Jamison Hensley provides an update on Jackson's thumb injury post surgery, projecting a potential return as early as Week 16.",
+      "publishedAt": "2026-11-13T22:48:46Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "40a06cc8c13e4a59",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50474656/colts-look-take-advantage-dolphins-qb-malik-willis",
+      "title": "Colts look to take advantage of Dolphins without QB Malik Willis",
+      "summary": "Stephen Holder previews the Colts matchup against he Dolphins with new faces on offense post the NFL trade deadline.",
+      "publishedAt": "2026-11-13T22:47:11Z",
+      "teamIds": [
+        "11"
+      ]
+    },
     {
       "id": "6ec61fead31fdb7e",
       "source": "espn",
@@ -1603,53 +1648,6 @@
       "teamIds": [
         "4",
         "23"
-      ]
-    },
-    {
-      "id": "c175149597416aec",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873065",
-      "title": "Reunion for Jim Harbaugh and Jesse Minter comes with both the Chargers and Ravens spiraling",
-      "summary": "Jim Harbaugh and Jesse Minter won a national championship together at the college level, then led the Los Angeles Chargers to back-to-back playoff appearances.",
-      "publishedAt": "2026-11-12T23:58:44Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "83c2d638f8d6333e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-giants-lb-malik-harrison-is-inactive",
-      "title": "Thursday Night Football: Giants LB Malik Harrison is inactive",
-      "summary": "The Commanders and Giants had no surprises among their inactives.",
-      "publishedAt": "2026-11-12T23:57:47Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "2a9c44b0fac2fa21",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dre-greenlaw-trent-williams-were-limited-in-thursdays-practice",
-      "title": "Dre Greenlaw, Trent Williams were limited in Thursday's practice",
-      "summary": "49ers linebacker Dre Greenlaw and left tackle Trent Williams rested during Wednesday's practice, but they had different listings on Thursday's practice report.",
-      "publishedAt": "2026-11-12T23:43:05Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "04f1abd6047d59a7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873061",
-      "title": "Cardinals' rookie QB Carson Beck makes his NFL debut against stellar Rams defense",
-      "summary": "First-year Arizona Cardinals coach Mike LaFleur is earning his paycheck this week as he works to develop an offensive game plan with a rookie...",
-      "publishedAt": "2026-11-12T23:33:35Z",
-      "teamIds": [
-        "22",
-        "14"
       ]
     }
   ]
