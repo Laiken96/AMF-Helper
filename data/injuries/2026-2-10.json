@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T17:01:10Z",
+    "takenAt": "2026-11-13T17:50:35Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1458,7 +1458,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4688380",
@@ -2178,16 +2178,6 @@
       "name": "Denzel Boston",
       "pos": "WR",
       "teamAbbr": "CLE",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873057",
-      "athleteId": "3916148",
-      "name": "Tony Pollard",
-      "pos": "RB",
-      "teamAbbr": "TEN",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
