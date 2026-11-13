@@ -1,7 +1,121 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:51:06Z",
+  "updatedAt": "2026-11-13T18:47:24Z",
   "items": [
+    {
+      "id": "b14739ddd09d5339",
+      "source": "espn",
+      "url": "https://espn.com/college-football/story/_/id/50456831/sources-philip-rivers-nc-state-deal-set-finalized",
+      "title": "NC State officially hires Philip Rivers as football coach",
+      "summary": "The NC State board of trustees has finalized a five-year contract for former NFL quarterback Philip Rivers to become head football coach at his alma mater.",
+      "publishedAt": "2026-11-13T18:44:52Z",
+      "teamIds": []
+    },
+    {
+      "id": "ee84c272c62a2f60",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50473143/rookie-wr-carnell-tate-multiple-titans-ruled-out",
+      "title": "Rookie WR Carnell Tate among multiple Titans' starters ruled out vs. Jaguars",
+      "summary": "The Titans will be without multiple starters against the Jaguars on Sunday, including rookie wide receiver Carnell Tate.",
+      "publishedAt": "2026-11-13T18:27:45Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "6786a430200e1488",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-te-elijah-higgins-agree-to-three-year-extension",
+      "title": "Cardinals, TE Elijah Higgins agree to three-year extension",
+      "summary": "The Cardinals are investing further in the tight end position.",
+      "publishedAt": "2026-11-13T18:20:12Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "12532a20f53a2090",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50473202/amon-ra-st-brown-eyes-2028-olympics-flag-football-run-germany",
+      "title": "Amon-Ra St. Brown eyes a 2028 Olympics flag football run for Germany",
+      "summary": "Lions star Amon-Ra St. Brown says he wants to play flag football for Germany at the 2028 Los Angeles Olympics.",
+      "publishedAt": "2026-11-13T18:16:33Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "b94e443089c7d480",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50472986/stephen-not-having-marcus-spears-cowboys-optimism",
+      "title": "Stephen A. is not having Marcus Spears' Cowboys optimism",
+      "summary": null,
+      "publishedAt": "2026-11-13T18:10:36Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "e2996e34b4f96144",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers",
+      "title": "NFL Week 10 picks: Our experts face off on Vikings at Packers, Steelers at Bengals and more",
+      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
+      "publishedAt": "2026-11-13T18:08:43Z",
+      "teamIds": [
+        "4",
+        "9",
+        "16",
+        "23"
+      ]
+    },
+    {
+      "id": "337b8fa771767f2f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/philip-rivers-named-nc-state-head-coach",
+      "title": "Philip Rivers named NC State head coach",
+      "summary": "NC State has made it official: Philip Rivers is the football program's new head coach.",
+      "publishedAt": "2026-11-13T18:05:07Z",
+      "teamIds": []
+    },
+    {
+      "id": "402e1ef8d593d81e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks",
+      "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
+      "summary": "Pete Prisco reveals all of his Week 10 picks, including the Packers to spoil Kirk Cousins' return with the Vikings",
+      "publishedAt": "2026-11-13T18:03:06Z",
+      "teamIds": [
+        "6",
+        "8",
+        "9",
+        "16",
+        "17",
+        "25"
+      ]
+    },
+    {
+      "id": "d51d722c00f178bb",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50473028/daniel-dopp-week-10-draftkings-tournament-lineup",
+      "title": "Daniel Dopp's Week 10 DraftKings tournament lineup",
+      "summary": null,
+      "publishedAt": "2026-11-13T17:57:12Z",
+      "teamIds": []
+    },
+    {
+      "id": "4a7023e2ce07d493",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever",
+      "title": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
+      "summary": "The NFL didn't really think through this part of the schedule",
+      "publishedAt": "2026-11-13T17:38:46Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
     {
       "id": "b691b6231ea60aa5",
       "source": "cbs",
@@ -572,6 +686,17 @@
       "teamIds": [
         "19",
         "28"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Likely, Skattebo come up big on TNF but only one is an auto-start",
+      "summary": "The Giants lost on the scoreboard but fantasy managers benefited from big games from Isaiah Likely and Cam Skattebo.",
+      "publishedAt": "2026-11-13T14:01:39Z",
+      "teamIds": [
+        "19"
       ]
     },
     {
@@ -1551,117 +1676,6 @@
       "summary": "The trade deadline is the trade deadline.",
       "publishedAt": "2026-11-12T18:56:21Z",
       "teamIds": []
-    },
-    {
-      "id": "777cf047606de67a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873053",
-      "title": "A big Munich test for the Lions and Patriots as injuries loom for New England",
-      "summary": "Heading into international games, NFL coaches typically talk up the niceties of “growing the game” globally.",
-      "publishedAt": "2026-11-12T18:49:39Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "8558eb8249ffe4c3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/denzel-boston-remains-out-of-thursdays-practice-with-toe-injury",
-      "title": "Denzel Boston remains out of Thursday's practice with toe injury",
-      "summary": "On Wednesday, Browns head coach Todd Monken said he was anticipating rookie receiver Denzel Boston would practice on Thursday.",
-      "publishedAt": "2026-11-12T18:32:08Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "ea7e05cadc971d9e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-upset-with-how-hes-playing-met-with-team-psychiatrist-about-mental-block",
-      "title": "Jared Verse upset with how he's playing, met with team psychiatrist about \"mental block\"",
-      "summary": "Browns defensive end Jared Verse still doesn't have a sack this season, and he says his struggles are more mental than physical.",
-      "publishedAt": "2026-11-12T18:22:15Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "c2fb8cff9bde977f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-chiefs-49ers-showed-interest-in-trading-for-garrett-wilson",
-      "title": "Report: Chiefs, 49ers showed interest in trading for Garrett Wilson",
-      "summary": "The Chiefs and 49ers both traded for a receiver at this week's deadline, as Kansas City acquired Josh Downs and San Francisco brought in Keenan Allen.",
-      "publishedAt": "2026-11-12T17:59:24Z",
-      "teamIds": [
-        "12",
-        "25"
-      ]
-    },
-    {
-      "id": "2b890884fc505147",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50462343/how-aj-brown-status-affects-demario-douglas-fantasy-stock-week-10",
-      "title": "How A.J. Brown's status affects DeMario Douglas' fantasy stock in Week 10",
-      "summary": null,
-      "publishedAt": "2026-11-12T17:57:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "31d818ab2355ab08",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 10: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-12T17:49:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "20f4695456852672",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 10: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-12T17:48:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "d1c0f679b410049a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 10: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-12T17:44:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "0d7c7545ac711865",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 10: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-12T17:43:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "c74dc9607c70469a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 10: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-12T17:43:09Z",
-      "teamIds": []
-    },
-    {
-      "id": "e9af4a6c1dc9ef37",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-ol-cordell-volson-to-their-practice-squad",
-      "title": "Seahawks sign OL Cordell Volson to their practice squad",
-      "summary": "The Seahawks have added a veteran guard to their practice squad.",
-      "publishedAt": "2026-11-12T17:43:04Z",
-      "teamIds": [
-        "26"
-      ]
     }
   ]
 }
