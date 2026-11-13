@@ -1,7 +1,48 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T02:47:17Z",
+  "updatedAt": "2026-11-13T03:47:28Z",
   "items": [
+    {
+      "id": "ed70123ed7795995",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-jefferson-its-a-joy-to-see-kirk-cousins-take-over-as-a-leader",
+      "title": "Justin Jefferson: It's a joy to see Kirk Cousins take over as a leader",
+      "summary": "Kirk Cousins is back in Minnesota, and perhaps no one is more excited about that than Justin Jefferson.",
+      "publishedAt": "2026-11-13T03:26:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "a0670516e7baf849",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-back-in-front-of-giants-17-14",
+      "title": "Commanders back in front of Giants, 17-14",
+      "summary": "The Commanders answered the Giants with a six-play, 77-yard drive.",
+      "publishedAt": "2026-11-13T03:14:26Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "c9d7b0100dd8d0b6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-gives-giants-a-14-10-lead",
+      "title": "Cam Skattebo gives Giants a 14-10 lead",
+      "summary": "Cam Skattebo has his second touchdown, and the Giants lead for the second time.",
+      "publishedAt": "2026-11-13T03:06:50Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "072edeffd1b4d112",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rex-ryan-incident-was-captured-on-camera",
+      "title": "Report: Rex Ryan incident was captured on camera",
+      "summary": "The recent news that Rex Ryan, of all people, allegedly ran over, of all the things, the feet of a pair of pedestrians in Nashville seems too crazy to be true, absent visual evidence.",
+      "publishedAt": "2026-11-13T03:02:24Z",
+      "teamIds": []
+    },
     {
       "id": "9ed14691ab936c74",
       "source": "pft",
@@ -1605,50 +1646,6 @@
       "publishedAt": "2026-11-12T00:41:09Z",
       "teamIds": [
         "15"
-      ]
-    },
-    {
-      "id": "ee3316e726f7489d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-a-full-participant-wednesday-myles-garrett-limited",
-      "title": "Matthew Stafford a full participant Wednesday; Myles Garrett limited",
-      "summary": "Rams quarterback Matthew Stafford (right elbow) had full participation on Wednesday.",
-      "publishedAt": "2026-11-12T00:38:13Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "96f999ac8f253e38",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50456405/fernando-mendoza-relishes-once-life-opportunity-raiders-starting-qb",
-      "title": "Fernando Mendoza relishes 'once-in-a-lifetime' opportunity as Raiders' QB1",
-      "summary": "No. 1 pick Fernando Mendoza said Wednesday it's a \"once-in-a-lifetime\" opportunity to be the Raiders' starting quarterback, while his teammates and coach expressed their confidence in his ability to lead the offense.",
-      "publishedAt": "2026-11-12T00:27:53Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "f301475305b244b4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-is-not-happy-with-colts-roster-purge",
-      "title": "Daniel Jones is \"not happy\" with Colts' roster purge",
-      "summary": "The Colts had a mini-fire sale in recent weeks, trading away four starters for future assets.",
-      "publishedAt": "2026-11-12T00:23:04Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "818afd382a222cb1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-did-not-practice-drew-lock-was-limited",
-      "title": "Sam Darnold did not practice Wednesday; Drew Lock was limited",
-      "summary": "The Seahawks have already ruled out Sam Darnold for Week 10, with the starting quarterback's return potentially coming in Week 12 after the bye.",
-      "publishedAt": "2026-11-12T00:18:57Z",
-      "teamIds": [
-        "26"
       ]
     }
   ]
