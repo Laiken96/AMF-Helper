@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:47:22Z",
+  "updatedAt": "2026-11-13T17:51:06Z",
   "items": [
     {
       "id": "b691b6231ea60aa5",
@@ -492,6 +492,24 @@
       "teamIds": [
         "33"
       ]
+    },
+    {
+      "id": "8f3391d81c68c176",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 10: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-13T14:39:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "da9f36b37cf20b8c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 10: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-13T14:36:28Z",
+      "teamIds": []
     },
     {
       "id": "2ab0e89861ddf0d2",
@@ -1643,28 +1661,6 @@
       "publishedAt": "2026-11-12T17:43:04Z",
       "teamIds": [
         "26"
-      ]
-    },
-    {
-      "id": "0c5ae40f170495e9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463010/browns-jared-verse-met-psychiatrist-end-sack-slump",
-      "title": "Browns' Jared Verse says he met with team psychiatrist to try to snap sack slump",
-      "summary": "Browns defensive end Jared Verse said Thursday that he recently met with the team's psychiatrist to try to get past his slump of not registering sacks.",
-      "publishedAt": "2026-11-12T17:41:50Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Likely, Skattebo come up big on TNF but only one is an auto-start",
-      "summary": "The Giants lost on the scoreboard but fantasy managers benefited from big games from Isaiah Likely and Cam Skattebo.",
-      "publishedAt": "2026-11-12T17:39:56Z",
-      "teamIds": [
-        "19"
       ]
     }
   ]
