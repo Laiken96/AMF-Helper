@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-13T01:20:30Z",
+  "updatedAt": "2026-11-13T07:30:51Z",
   "games": [
     {
       "gameId": "401873052",
@@ -30,9 +30,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "20",
       "awayId": "2",
-      "pHome": 0.171,
-      "pAway": 0.828,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pHome": 0.173,
+      "pAway": 0.826,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -40,9 +40,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "18",
       "awayId": "29",
-      "pHome": 0.499,
-      "pAway": 0.497,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pHome": 0.5,
+      "pAway": 0.496,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -50,9 +50,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "5",
       "awayId": "34",
-      "pHome": 0.237,
-      "pAway": 0.761,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pHome": 0.233,
+      "pAway": 0.766,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -61,8 +61,8 @@
       "homeId": "10",
       "awayId": "30",
       "pHome": 0.159,
-      "pAway": 0.839,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pAway": 0.84,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -70,9 +70,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "1",
       "awayId": "12",
-      "pHome": 0.217,
-      "pAway": 0.781,
-      "fetchedAt": "2026-11-10T21:50:27Z",
+      "pHome": 0.215,
+      "pAway": 0.783,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -80,9 +80,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "11",
       "awayId": "15",
-      "pHome": 0.819,
-      "pAway": 0.18,
-      "fetchedAt": "2026-11-10T21:50:27Z",
+      "pHome": 0.82,
+      "pAway": 0.178,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -90,9 +90,9 @@
       "kickoffUtc": "2026-11-15T18:00:00Z",
       "homeId": "9",
       "awayId": "16",
-      "pHome": 0.557,
-      "pAway": 0.439,
-      "fetchedAt": "2026-11-10T21:50:27Z",
+      "pHome": 0.552,
+      "pAway": 0.444,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -100,9 +100,9 @@
       "kickoffUtc": "2026-11-15T21:05:00Z",
       "homeId": "22",
       "awayId": "14",
-      "pHome": 0.125,
-      "pAway": 0.874,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pHome": 0.126,
+      "pAway": 0.872,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -110,9 +110,9 @@
       "kickoffUtc": "2026-11-15T21:05:00Z",
       "homeId": "13",
       "awayId": "26",
-      "pHome": 0.259,
-      "pAway": 0.739,
-      "fetchedAt": "2026-11-10T21:50:27Z",
+      "pHome": 0.256,
+      "pAway": 0.742,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -120,9 +120,9 @@
       "kickoffUtc": "2026-11-15T21:25:00Z",
       "homeId": "6",
       "awayId": "25",
-      "pHome": 0.36,
-      "pAway": 0.637,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pHome": 0.359,
+      "pAway": 0.638,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -130,9 +130,9 @@
       "kickoffUtc": "2026-11-16T01:20:00Z",
       "homeId": "4",
       "awayId": "23",
-      "pHome": 0.704,
-      "pAway": 0.293,
-      "fetchedAt": "2026-11-10T07:40:35Z",
+      "pHome": 0.705,
+      "pAway": 0.292,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     },
     {
@@ -140,9 +140,9 @@
       "kickoffUtc": "2026-11-17T01:15:00Z",
       "homeId": "33",
       "awayId": "24",
-      "pHome": 0.453,
-      "pAway": 0.544,
-      "fetchedAt": "2026-11-12T07:40:28Z",
+      "pHome": 0.449,
+      "pAway": 0.548,
+      "fetchedAt": "2026-11-13T07:30:51Z",
       "locked": false
     }
   ]
