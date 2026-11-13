@@ -1,13 +1,46 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T00:47:21Z",
+  "updatedAt": "2026-11-13T01:47:21Z",
   "items": [
+    {
+      "id": "ef8722eef1999998",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50466164/vikings-hyped-welcome-back-leader-kirk-cousins-1st-day-practice",
+      "title": "Vikings 'hyped' to welcome back 'leader' Cousins on 1st day of practice",
+      "summary": "The Minnesota Vikings reveled Thursday in quarterback Kirk Cousins' first full day back with the organization.",
+      "publishedAt": "2026-11-13T01:29:44Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "1096f5dba6b725a3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50466270/rams-wide-receiver-puka-nacua-ir-knee-toe-injuries",
+      "title": "Rams put WR Puka Nacua on IR with knee, toe injuries",
+      "summary": "The Rams, who had said they would not put Puka Nacua on IR, pivoted so they can sign Brennan Presley to the active roster and Tyler Scott to the practice squad.",
+      "publishedAt": "2026-11-13T01:17:02Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "7ee0f4b195d93036",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-place-wr-puka-nacua-on-ir",
+      "title": "Rams place WR Puka Nacua on IR",
+      "summary": "Nacua injured the MCL and PCL in his knee and has turf toe.",
+      "publishedAt": "2026-11-13T00:56:50Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "dd8e79ef051dd6d3",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
       "title": "Cam Skattebo dons custom 'Iron Man' mask for TNF, leads NFL Week 10 arrivals",
-      "summary": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-13T00:40:42Z",
       "teamIds": []
     },
@@ -515,7 +548,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50463340/thursday-night-football-commanders-giants-highlights",
       "title": "Week 10 Thursday Night Football: Commanders at Giants highlights",
-      "summary": "Stay tuned for the biggest touchdowns and highlights from the NFC East faceoff at MetLife Stadium.",
+      "summary": "Follow along for the biggest touchdowns and highlights from the NFC East faceoff at MetLife Stadium.",
       "publishedAt": "2026-11-12T19:39:04Z",
       "teamIds": [
         "19",
@@ -1617,40 +1650,6 @@
       "teamIds": [
         "13",
         "16"
-      ]
-    },
-    {
-      "id": "50b6ebc12ff6b65b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-bears-generates-21-5-million-on-sunday-night",
-      "title": "Bucs-Bears generates 21.5 million on Sunday night",
-      "summary": "The Bears have become a significant draw — and it helps when they're in a close game.",
-      "publishedAt": "2026-11-12T00:05:46Z",
-      "teamIds": [
-        "3",
-        "27"
-      ]
-    },
-    {
-      "id": "690c787478478d58",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-limited-in-his-return-to-practice",
-      "title": "Deebo Samuel limited in his return to practice",
-      "summary": "49ers wide receiver Deebo Samuel was limited in his return to practice on Wednesday.",
-      "publishedAt": "2026-11-11T23:55:26Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "2f69112348d0813b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-to-sign-k-riley-patterson",
-      "title": "Report: Ravens to sign K Riley Patterson",
-      "summary": "The Ravens have reportedly settled on their next kicker.",
-      "publishedAt": "2026-11-11T23:35:35Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]

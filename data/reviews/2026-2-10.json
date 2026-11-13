@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 10,
+  "updatedAt": "2026-11-13T01:47:21Z",
+  "complete": false,
+  "games": [
+    {
+      "gameId": "401873052",
+      "pickTeamId": "19",
+      "favoriteTeamId": "19",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873053",
+      "pickTeamId": "8",
+      "favoriteTeamId": "17",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873054",
+      "pickTeamId": "2",
+      "favoriteTeamId": "2",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873055",
+      "pickTeamId": "18",
+      "favoriteTeamId": "29",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873056",
+      "pickTeamId": "34",
+      "favoriteTeamId": "34",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873057",
+      "pickTeamId": "30",
+      "favoriteTeamId": "30",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873058",
+      "pickTeamId": "12",
+      "favoriteTeamId": "12",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873059",
+      "pickTeamId": "11",
+      "favoriteTeamId": "11",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873060",
+      "pickTeamId": "9",
+      "favoriteTeamId": "9",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873061",
+      "pickTeamId": "14",
+      "favoriteTeamId": "14",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873062",
+      "pickTeamId": "26",
+      "favoriteTeamId": "26",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873063",
+      "pickTeamId": "25",
+      "favoriteTeamId": "25",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873064",
+      "pickTeamId": "4",
+      "favoriteTeamId": "4",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    },
+    {
+      "gameId": "401873065",
+      "pickTeamId": "33",
+      "favoriteTeamId": "24",
+      "winnerTeamId": null,
+      "final": false,
+      "correct": null,
+      "deviation": false,
+      "deviationEffect": null
+    }
+  ],
+  "points": 0,
+  "tipped": 14,
+  "deviationNet": 0,
+  "tiebreakers": [
+    {
+      "gameId": "401873052",
+      "slot": "thursday",
+      "predictedHome": 21,
+      "predictedAway": 20,
+      "actualHome": null,
+      "actualAway": null,
+      "diff": null
+    },
+    {
+      "gameId": "401873065",
+      "slot": "monday",
+      "predictedHome": 22,
+      "predictedAway": 17,
+      "actualHome": null,
+      "actualAway": null,
+      "diff": null
+    }
+  ],
+  "opinionCompare": {
+    "opinions": 1,
+    "scored": 0,
+    "marketHits": 0,
+    "aiHits": 0,
+    "marketHitRate": null,
+    "aiHitRate": null,
+    "marketBrier": null,
+    "aiBrier": null,
+    "disagreements": []
+  }
+}
