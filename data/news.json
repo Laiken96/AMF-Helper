@@ -1,7 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:47:22Z",
+  "updatedAt": "2026-11-13T12:47:19Z",
   "items": [
+    {
+      "id": "6311911e231f9bd2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49965396/fantasy-football-start-sit-lineup-advice-week-10",
+      "title": "Need fantasy football lineup or trade advice? Join our live Q&A with our expert, noon ET",
+      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
+      "publishedAt": "2026-11-13T11:54:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "c4eeadc1bf99819e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50463616/fantasy-football-start-sit-sleepers-breakouts-week-10",
+      "title": "Don't be surprised if Jordan Love makes history and Mendoza performs like a QB1",
+      "summary": "Elite WRs compensate for the lack of a run game in Green Bay, while there's unwarranted caution for Vegas' QB.",
+      "publishedAt": "2026-11-13T11:52:21Z",
+      "teamIds": []
+    },
     {
       "id": "ebd2dd0bfe20e835",
       "source": "espn",
@@ -38,7 +56,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50453355/week-10-picks-predictions-schedule-fantasy-odds-2026",
       "title": "NFL Week 10 preview: Picks, predictions, schedule, betting odds, fantasy tips",
-      "summary": "Patriots vs. Lions in Germany? Kirk Cousins' return to Minnesota? There are 13 more games in Week 10, and we have picks, predictions and more for all of them.",
+      "summary": "Kirk Cousins' return to Minnesota? Patriots vs. Lions in Germany? There are 13 more games in Week 10, and we have picks, predictions and more for all of them.",
       "publishedAt": "2026-11-13T11:23:37Z",
       "teamIds": [
         "8",
@@ -97,8 +115,8 @@
       "id": "3908414d2ce7c10f",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50462723/2026-nfl-playoffs-mvp-super-bowl-breakout-players-divisions",
-      "title": "Intel on NFL playoff races, MVP, Super Bowl and breakouts",
-      "summary": "Who will win the most competitive divisions, and who's in line for awards? We asked sources around the NFL.",
+      "title": "NFL execs on tight playoff races, MVP, Super Bowl picks, breakouts, more",
+      "summary": "Who will win the most competitive divisions, and who's in line for awards? We asked sources around the NFL at midseason.",
       "publishedAt": "2026-11-13T10:42:37Z",
       "teamIds": []
     },
@@ -1645,24 +1663,6 @@
       "teamIds": [
         "14"
       ]
-    },
-    {
-      "id": "2b037cc8715602bf",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50452792/2026-midseason-awards-ranking-mvp-rookies-coaches-barnwell",
-      "title": "2026 NFL midseason award rankings: MVP picks, top rookies, OPOY, DPOY, coaches",
-      "summary": "Joe Burrow for MVP? Arvell Reese as the DROY? Hardware for Jaxon Smith-Njigba and Will Anderson Jr.? We ranked the top contenders to win eight NFL awards through Week 9.",
-      "publishedAt": "2026-11-12T11:22:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "ee61555b8e3c10f9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-week-9-next-gen-stats-outpaced-the-mcafee-alt-cast-again",
-      "title": "For Week 9, Next Gen Stats outpaced the McAfee alt cast again",
-      "summary": "The ESPN announcement of the viewership for a given Monday night game always requires a careful look for any information about the viewership of the multiple weekly alt casts on the Disney-owned networks.",
-      "publishedAt": "2026-11-12T11:21:30Z",
-      "teamIds": []
     }
   ]
 }
