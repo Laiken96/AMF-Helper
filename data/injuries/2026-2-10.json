@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T22:50:30Z",
+    "takenAt": "2026-11-13T23:20:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -2031,6 +2031,17 @@
             "status": "Injured Reserve"
           },
           {
+            "athleteId": "4035671",
+            "name": "Tyler Huntley",
+            "pos": "QB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Injured Reserve"
+          },
+          {
             "athleteId": "4429615",
             "name": "Zay Flowers",
             "pos": "WR",
@@ -2209,6 +2220,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873065",
+      "athleteId": "4035671",
+      "name": "Tyler Huntley",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     }
   ]
 }
