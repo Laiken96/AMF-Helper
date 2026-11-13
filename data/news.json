@@ -1,7 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T18:47:24Z",
+  "updatedAt": "2026-11-13T19:47:26Z",
   "items": [
+    {
+      "id": "bfdc0ded46315b1c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-did-not-practice-friday-with-groin-tightness",
+      "title": "Kenneth Walker did not practice Friday with groin tightness",
+      "summary": "There is a potentially significant injury situation brewing with the Chiefs.",
+      "publishedAt": "2026-11-13T19:39:11Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "1b5ae60de91baf16",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50473514/sources-eagles-release-wr-hollywood-brown-per-request",
+      "title": "Sources: Eagles to release WR Hollywood Brown per request",
+      "summary": "Receiver Hollywood Brown, who has played sparingly over the first half of the season, is being released by the Eagles upon his request, sources told ESPN.",
+      "publishedAt": "2026-11-13T19:32:56Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "d630f4089e53eb94",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-dak-prescott-feels-jason-witten-could-absolutely-be-nfl-head-coach",
+      "title": "Star on the rise: Cowboys' Dak Prescott feels Jason Witten could 'absolutely' be an NFL head coach",
+      "summary": "Dallas' future Hall of Fame tight end has risen quickly from being a Texas high school head coach to being the interim offensive coordinator at the University of Oklahoma",
+      "publishedAt": "2026-11-13T19:09:53Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "cec350e5e7c33ab7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-griffin-iii-is-expected-to-interview-for-baylor-job",
+      "title": "Robert Griffin III is \"expected to interview\" for Baylor job",
+      "summary": "Former Baylor quarterback Robert Griffin III is interested in coaching his former college team.",
+      "publishedAt": "2026-11-13T19:05:21Z",
+      "teamIds": []
+    },
+    {
+      "id": "2fd4f494b3b2f397",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50473329/brown-defense-face-toughest-matchup",
+      "title": "Brown's defense to face its toughest matchup",
+      "summary": "Sarah Shaw [1:33 PM] Daniel Oyefusi previews the Browns-Texans matchup and how C.J. Stroud will fare against Cleveland's defense.",
+      "publishedAt": "2026-11-13T18:57:36Z",
+      "teamIds": [
+        "5"
+      ]
+    },
     {
       "id": "b14739ddd09d5339",
       "source": "espn",
@@ -15,7 +68,7 @@
       "id": "ee84c272c62a2f60",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50473143/rookie-wr-carnell-tate-multiple-titans-ruled-out",
-      "title": "Rookie WR Carnell Tate among multiple Titans' starters ruled out vs. Jaguars",
+      "title": "Rookie WR Carnell Tate among multiple Titans starters ruled out vs. Jaguars",
       "summary": "The Titans will be without multiple starters against the Jaguars on Sunday, including rookie wide receiver Carnell Tate.",
       "publishedAt": "2026-11-13T18:27:45Z",
       "teamIds": [
@@ -608,6 +661,24 @@
       ]
     },
     {
+      "id": "20f4695456852672",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 10: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-13T14:42:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "d1c0f679b410049a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 10: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-13T14:40:57Z",
+      "teamIds": []
+    },
+    {
       "id": "8f3391d81c68c176",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
@@ -617,12 +688,39 @@
       "teamIds": []
     },
     {
+      "id": "c74dc9607c70469a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 10: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-13T14:39:34Z",
+      "teamIds": []
+    },
+    {
       "id": "da9f36b37cf20b8c",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
       "title": "Fantasy football rankings for Week 10: IDP",
       "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
       "publishedAt": "2026-11-13T14:36:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "0d7c7545ac711865",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 10: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-13T14:32:07Z",
+      "teamIds": []
+    },
+    {
+      "id": "31d818ab2355ab08",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 10: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-13T14:31:19Z",
       "teamIds": []
     },
     {
@@ -1564,118 +1662,6 @@
       "teamIds": [
         "14"
       ]
-    },
-    {
-      "id": "389aaf99df3c39b3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacoby-brissett-the-last-week-has-definitely-been-a-crash-course",
-      "title": "Jacoby Brissett: The last week has definitely been a crash course",
-      "summary": "Jacoby Brissett has been a member of the Ravens for less than a week, but he's set to start at quarterback in the team's game against the Chargers on Monday night.",
-      "publishedAt": "2026-11-12T20:33:43Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "e6d11f2b16575850",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-commanders-at-giants-mavs-at-t-wolves-college-football-and-more",
-      "title": "Today's top games to watch, best bets, odds: Commanders at Giants, Mavs at T-Wolves, college football and more",
-      "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-12T20:30:46Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "3e34f6b9a4e7c696",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-will-wear-no-8-again-for-vikings",
-      "title": "Kirk Cousins will wear No. 8 again for Vikings",
-      "summary": "Vikings fans won't need to buy new Kirk Cousins jerseys.",
-      "publishedAt": "2026-11-12T20:28:00Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "17b5d9127969e11b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463938/still-colts-jonathan-taylor-focused-being-leader",
-      "title": "Jonathan Taylor focused on being leader for Colts with trade deadline drama over",
-      "summary": "Colts running back Jonathan Taylor said he has turned his attention toward the future after the team's big moves ahead of the NFL trade deadline.",
-      "publishedAt": "2026-11-12T20:24:51Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "b304a0a0549984af",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-im-going-into-sunday-with-the-same-confidence-i-always-have",
-      "title": "Christian Gonzalez: I'm going into Sunday with the same confidence I always have",
-      "summary": "Patriots cornerback Christian Gonzalez is coming off a terrible game against the Packers, but he said on Thursday that it won't be hanging over his head in Munich this Sunday.",
-      "publishedAt": "2026-11-12T20:12:23Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "b73f19f35b6c3339",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873056",
-      "title": "Deshaun Watson downplays facing Texans as Browns try to stay unbeaten at home, in playoff picture",
-      "summary": "Deshaun Watson isn't buying the hype, insisting that it's no longer a big deal when he plays against his former team, the Houston Texans.",
-      "publishedAt": "2026-11-12T20:09:35Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "7d32802c5b571620",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463340/thursday-night-football-commanders-giants-highlights",
-      "title": "Week 10 TNF: Look back at the Commanders-Giants highlights",
-      "summary": "Despite Jayden Daniels throwing two interceptions late in the fourth quarter, the Commanders held on to beat New York.",
-      "publishedAt": "2026-11-12T19:39:04Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "98e5b5f970362620",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 10 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
-      "publishedAt": "2026-11-12T19:33:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "22df31cd25486381",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873054",
-      "title": "The Bills visit the Jets with a 7-1 record and a chance at their best start since 1991",
-      "summary": "The Buffalo Bills are off to their best start in 33 years, Josh Allen and the high-scoring offense are clicking, and they're tied for the top...",
-      "publishedAt": "2026-11-12T19:03:41Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "a73dce365effcdac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/failed-daiyan-henley-trade-exposes-a-flaw-in-the-nfls-trade-deadline",
-      "title": "Failed Daiyan Henley trade exposes a flaw in the NFL's trade deadline",
-      "summary": "The trade deadline is the trade deadline.",
-      "publishedAt": "2026-11-12T18:56:21Z",
-      "teamIds": []
     }
   ]
 }
