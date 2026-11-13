@@ -1,7 +1,107 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:47:35Z",
+  "updatedAt": "2026-11-13T11:47:22Z",
   "items": [
+    {
+      "id": "ebd2dd0bfe20e835",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50463489/fantasy-football-start-sit-week-10-need-know",
+      "title": "What to know to set your lineup: Cousins' Vikings return elevates Jefferson",
+      "summary": "Adam Rank catches you up on the vital information and insight before you make your toughest lineup decisions.",
+      "publishedAt": "2026-11-13T11:45:02Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "2142942f10b81523",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50435678/fantasy-football-streamers-last-minute-pickups-week-10",
+      "title": "Fantasy football last-minute pickups: Twelve who can help in deep leagues",
+      "summary": "If injuries, bye weeks or tough matchups have you seeking lineup help, Matt Bowen lists potential options.",
+      "publishedAt": "2026-11-13T11:39:17Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "07e71dc8d095fde1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bruce-arians-says-he-wants-to-be-a-head-coach-in-the-nfl-next-season",
+      "title": "Bruce Arians says he wants to be a head coach in the NFL next season",
+      "summary": "Bruce Arians is thinking about coming out of retirement.",
+      "publishedAt": "2026-11-13T11:28:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "8f3a752c879dc12a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50453355/week-10-picks-predictions-schedule-fantasy-odds-2026",
+      "title": "NFL Week 10 preview: Picks, predictions, schedule, betting odds, fantasy tips",
+      "summary": "Patriots vs. Lions in Germany? Kirk Cousins' return to Minnesota? There are 13 more games in Week 10, and we have picks, predictions and more for all of them.",
+      "publishedAt": "2026-11-13T11:23:37Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "6a96192a697d62e5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50462993/lions-packers-bears-vikings-nfc-north",
+      "title": "NFC North: Bears win division? Cousins has Vikes in command?",
+      "summary": "What will Kirk Cousins and Micah Parsons mean for the best division in football, or will the Bears hang on?",
+      "publishedAt": "2026-11-13T11:12:27Z",
+      "teamIds": [
+        "3",
+        "8",
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "de6bb25ae5eccda0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50464709/afc-north-steelers-bengals-rodgers-burrow-week-10",
+      "title": "It's a battle for the AFC North: Steelers at Bengals Week 10 primer",
+      "summary": "Aaron Rodgers and Joe Burrow and their 6-2 teams face off Sunday night, and Ben Baby and Brooke Pryor break down the matchup.",
+      "publishedAt": "2026-11-13T11:00:11Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "63a3e6ebe6631b5c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50462155/raiders-starting-fernando-mendoza-plan-decision-graziano",
+      "title": "Fernando Mendoza and the Raiders' sit-and-learn plan: Is he ready to start?",
+      "summary": "The Raiders had a plan for Fernando Mendoza in Year 1 and stuck to it as long as they could. But he's now QB1 earlier than expected, and they have to trust he's ready.",
+      "publishedAt": "2026-11-13T11:00:10Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "78215a96e798fc7f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50463509/chuba-hubbard-x-factor-spark-carolina-panthers",
+      "title": "Is Chuba Hubbard the biggest X factor to spark a Panthers turnaround?",
+      "summary": "Meet Carolina's team captain, a locker room leader and a relentless running back who is \"chasing greatness myself.\"",
+      "publishedAt": "2026-11-13T11:00:01Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "3908414d2ce7c10f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50462723/2026-nfl-playoffs-mvp-super-bowl-breakout-players-divisions",
+      "title": "Intel on NFL playoff races, MVP, Super Bowl and breakouts",
+      "summary": "Who will win the most competitive divisions, and who's in line for awards? We asked sources around the NFL.",
+      "publishedAt": "2026-11-13T10:42:37Z",
+      "teamIds": []
+    },
     {
       "id": "36520ab56afb5225",
       "source": "pft",
@@ -1562,105 +1662,6 @@
       "title": "For Week 9, Next Gen Stats outpaced the McAfee alt cast again",
       "summary": "The ESPN announcement of the viewership for a given Monday night game always requires a careful look for any information about the viewership of the multiple weekly alt casts on the Disney-owned networks.",
       "publishedAt": "2026-11-12T11:21:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "7e74b3d201bee43f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-optimistic-that-trent-mcduffie-will-play-sunday-vs-cardinals",
-      "title": "Sean McVay optimistic that Trent McDuffie will play Sunday vs. Cardinals",
-      "summary": "Rams cornerback Trent McDuffie has missed three games this season and was listed as a non-participant in Wednesday's practice with a back injury, but the outlook for his ability to play Sunday against the Cardinals is good.",
-      "publishedAt": "2026-11-12T11:14:20Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "70dc22c7333f967d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50454225/jets-2026-trade-deadline-garrett-wilson-geno-smith",
-      "title": "Why 2-7 Jets preferred to keep roster intact at trade deadline",
-      "summary": "A year after making two blockbuster trades, New York stayed quiet at the NFL trade deadline.",
-      "publishedAt": "2026-11-12T11:00:11Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "90e366195c3d4ff8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50453988/kobe-lebron-steph-brady-tips-commanders-jayden-daniels",
-      "title": "How Kobe, LeBron, Steph and Brady are helping Jayden Daniels chase greatness",
-      "summary": "The Commanders QB has tapped into some of sports' all-time greats like Brady and LeBron in search of an edge.",
-      "publishedAt": "2026-11-12T11:00:10Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "b4ca4f27ec93054d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50455566/packers-christian-watson-matthew-golden-3000-yards",
-      "title": "Does Packers' Christian Watson + Matthew Golden = 3,000 yards?",
-      "summary": "Watson and Golden are on pace to join a rare club of WR pairs who combined for 3,000 yards.",
-      "publishedAt": "2026-11-12T11:00:02Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "7e26e03b942f9b4b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-patriots-on-fox-leads-week-9-with-25-7-million",
-      "title": "Packers-Patriots on Fox leads Week 9 with 25.7 million",
-      "summary": "As NFL games go, the 4:25 p.m.",
-      "publishedAt": "2026-11-12T10:53:55Z",
-      "teamIds": [
-        "9",
-        "17"
-      ]
-    },
-    {
-      "id": "acaa1f0d773cedf7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-chargers-announce-daiyan-henley-will-not-be-traded-after-all",
-      "title": "Broncos, Chargers announce Daiyan Henley will not be traded after all",
-      "summary": "More than 24 hours after the NFL trade deadline, the trade of Henley from the Charges to the Broncos was canceled.",
-      "publishedAt": "2026-11-12T09:23:38Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "d15dbee451a64fa5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50459330/broncos-say-trade-chargers-lb-henley-not-finalized",
-      "title": "Sources: Broncos-Chargers trade nixed due to concerns over Daiyan Henley's knee",
-      "summary": "The Broncos announced late Wednesday that their trade to acquire linebacker Daiyan Henley from the Chargers \"will not be finalized.\"",
-      "publishedAt": "2026-11-12T06:44:33Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "6020405b44c51d1a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/keenan-allen-says-his-beef-with-mike-evans-is-in-the-past",
-      "title": "Keenan Allen says his beef with Mike Evans is in the past",
-      "summary": "Keenan Allen says his beef with Mike Evans is in the past.",
-      "publishedAt": "2026-11-12T04:04:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "bc930f4df197b7cd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dianna-russinis-return-includes-no-specifics-about-multiple-controversies",
-      "title": "Dianna Russini's return includes no specifics about multiple controversies",
-      "summary": "As expected, Dianna Russini made her return to sports media on Wednesday, with a one-hour show platformed by an illegal offshore sports book.",
-      "publishedAt": "2026-11-12T03:44:18Z",
       "teamIds": []
     }
   ]
