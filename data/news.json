@@ -1,7 +1,119 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:47:26Z",
+  "updatedAt": "2026-11-13T20:47:32Z",
   "items": [
+    {
+      "id": "2410b6e3e49a5ed8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jerry-jones-on-nfl-expansion-18-game-regular-season",
+      "title": "Jerry Jones reveals when he thinks NFL expands to 18-game season, but process to get there is complicated",
+      "summary": "Jones sees the NFL 'maybe' expanding to an 18-game regular season sooner than one might think",
+      "publishedAt": "2026-11-13T20:36:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "5b3b725ac77c006b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-list-myles-garrett-as-questionable-but-sean-mcvay-expects-him-to-play",
+      "title": "Rams list Myles Garrett as questionable, but Sean McVay expects him to play",
+      "summary": "The Rams are listing Myles Garrett as questionable for Sunday's rematch with the Cardinals, but the club is still expecting him to play.",
+      "publishedAt": "2026-11-13T20:34:05Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "d63a141779d2282d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-eagles-to-release-veteran-ol-fred-johnson",
+      "title": "Report: Eagles to release veteran OL Fred Johnson",
+      "summary": "The Eagles are releasing veteran offensive tackle Fred Johnson, Ian Rapoport of NFL Media reports.",
+      "publishedAt": "2026-11-13T20:29:05Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "dd6a57293c72ff76",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/revisiting-2026-nfl-draft-did-titans-take-right-receiver-4-overall",
+      "title": "Revisiting the 2026 NFL Draft: Did the Titans take the right receiver at No. 4 overall?",
+      "summary": "Carnell Tate has given quarterback Cam Ward a reliable target against zone coverage, but ball security issues and questions about his ultimate ceiling complicate the pick",
+      "publishedAt": "2026-11-13T20:23:40Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "4ab2e914522b1d63",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50473949/panthers-looking-build-momentum",
+      "title": "Panthers looking to build momentum",
+      "summary": "Mike Kaye previews the Panthers matchup against the Saints as the true second half of the NFL season begins.",
+      "publishedAt": "2026-11-13T20:22:32Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "06dc9b79306278da",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/eagles-release-wide-receiver-hollywood-brown-upon-his-request-according-to-report",
+      "title": "Eagles release wide receiver Hollywood Brown upon his request, according to report",
+      "summary": "Brown wasn't used much in the Eagles offense this year",
+      "publishedAt": "2026-11-13T20:19:13Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "26d4047e602b9731",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-will-release-wr-hollywood-brown-at-his-request",
+      "title": "Eagles will release WR Hollywood Brown, at his request",
+      "summary": "Say goodbye to Philadelphia.",
+      "publishedAt": "2026-11-13T20:09:47Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "9f74cf45bf45c9dd",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50473665/jeffery-simmons-high-praise-caleb-williams",
+      "title": "Jeffery Simmons has high praise for Caleb Williams",
+      "summary": null,
+      "publishedAt": "2026-11-13T19:57:28Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "7da525f88873b895",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-says-he-and-liam-coen-are-good-after-misunderstanding-last-year",
+      "title": "Robert Saleh says he and Liam Coen are good after \"misunderstanding\" last year",
+      "summary": "When the Titans face the Jaguars on Sunday, Robert Saleh and Liam Coen will coach against each other for the first time since their run-in last year, when they exchanged words on the field over something Saleh, then the defensive coordinator of the 49ers, said something about Coen that Coen didn't appreciate.",
+      "publishedAt": "2026-11-13T19:51:35Z",
+      "teamIds": [
+        "30",
+        "25",
+        "10"
+      ]
+    },
+    {
+      "id": "27af998d08053316",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-knew-about-the-jameis-winston-who-let-the-dogs-out-cadence",
+      "title": "John Harbaugh knew about the Jameis Winston \"who let the dogs out?\" cadence",
+      "summary": "Thursday night's game between the Commanders and the Giants introduced a new wrinkle to the legend of Jameis Winston.",
+      "publishedAt": "2026-11-13T19:48:35Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "bfdc0ded46315b1c",
       "source": "pft",
@@ -14,6 +126,17 @@
       ]
     },
     {
+      "id": "98b24b959e7d7c7c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cardinals-sign-2-tight-end-elijah-higgins-three-year-extension-per-report",
+      "title": "Cardinals reportedly extend No. 2 TE Elijah Higgins, going all-in on tight ends amid WR injuries",
+      "summary": "Coupled with the McBride extension in 2025, the Cardinals have now signed over $100 million in contracts for their top two tight ends",
+      "publishedAt": "2026-11-13T19:38:19Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
       "id": "1b5ae60de91baf16",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50473514/sources-eagles-release-wr-hollywood-brown-per-request",
@@ -22,6 +145,18 @@
       "publishedAt": "2026-11-13T19:32:56Z",
       "teamIds": [
         "21"
+      ]
+    },
+    {
+      "id": "ba15843ed199e447",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-joey-porter-jr-breaks-silence-on-chatter-that-absence-is-contract-related",
+      "title": "Cowboys' Joey Porter Jr. breaks silence on chatter that absence is contract related",
+      "summary": "Porter Jr. missed Week 5 with a stomach bug and Week 9 at the Indianapolis Colts because of a foot injury",
+      "publishedAt": "2026-11-13T19:26:03Z",
+      "teamIds": [
+        "6",
+        "11"
       ]
     },
     {
@@ -451,6 +586,15 @@
       "title": "Fantasy playbook: Week 10 Shadow Reports, lineup locks and projected scores",
       "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
       "publishedAt": "2026-11-13T15:47:25Z",
+      "teamIds": []
+    },
+    {
+      "id": "98e5b5f970362620",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 10 betting odds: Lines and totals for every game",
+      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
+      "publishedAt": "2026-11-13T15:46:27Z",
       "teamIds": []
     },
     {
@@ -1509,158 +1653,6 @@
       "publishedAt": "2026-11-12T22:28:59Z",
       "teamIds": [
         "34"
-      ]
-    },
-    {
-      "id": "e261714e9c52b785",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50464810/cowboys-joey-porter-absence-due-injury-not-contract",
-      "title": "Cowboys' Porter: My absence is because of injury, not my contract",
-      "summary": "Cowboys CB Joey Porter Jr. wants it known his absence the past two weeks has everything to do with an ankle injury and nothing to do with a future contract.",
-      "publishedAt": "2026-11-12T22:27:43Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "fd08a6d0129d3deb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50464631/jaguars-jessie-bates-trade-travis-hunter",
-      "title": "Travis Hunter makes Jessie Bates' Jaguars trade a hit with his nephews",
-      "summary": "The safety's young nephews were thrilled to learn their uncle would be Hunter's teammate.",
-      "publishedAt": "2026-11-12T22:19:47Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "f63b1b17723f4aac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rhamondre-stevenson-returns-to-practice-a-j-brown-remains-limited",
-      "title": "Rhamondre Stevenson returns to practice, A.J. Brown remains limited",
-      "summary": "The Patriots had some positive news on their injury report from Thursday's reportedly light practice in Munich.",
-      "publishedAt": "2026-11-12T22:01:56Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "5e426c7a0b39fe91",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873060",
-      "title": "Kirk Cousins begins his 2nd stint with Vikings as they face the Packers in an NFC North showdown",
-      "summary": "Kirk Cousins’ career seemed at a crossroads when he tore his Achilles tendon during his last visit to Lambeau Field.",
-      "publishedAt": "2026-11-12T21:50:35Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "c8b3e3dc7ee9052d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50464601/chargers-jim-harbaugh-irked-broncos-nixed-trade",
-      "title": "Chargers' Jim Harbaugh frustrated with Broncos after nixed Daiyan Henley trade",
-      "summary": "Chargers coach Jim Harbaugh on Thursday expressed frustration with the Denver Broncos about a nixed trade this week involving linebacker Daiyan Henley.",
-      "publishedAt": "2026-11-12T21:44:43Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "ec7da1cd3c3a1dfe",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873055",
-      "title": "Despite slow starts, the Panthers and Saints meet with a chance to become sole leaders of NFC South",
-      "summary": "Never mind the Carolina Panthers' three-game losing streak, or that the New Orleans Saints dropped five of their first seven games this season.",
-      "publishedAt": "2026-11-12T21:39:35Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "dcdc3dcf9be498cb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chargers-jim-harbaugh-implores-nfl-investigate-loophole-daiyan-henley-trade",
-      "title": "Chargers' Jim Harbaugh implores NFL to investigate 'loophole' that nixed Daiyan Henley trade",
-      "summary": "The Broncos and Chargers called off their agreed-upon trade following Henley's physical",
-      "publishedAt": "2026-11-12T21:34:59Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "3c86538f4a433f45",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/50182998/2027-nfl-draft-rankings-kiper-big-board-top-prospects",
-      "title": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position",
-      "summary": "Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November.",
-      "publishedAt": "2026-11-12T21:19:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "5c5b32dda57ece2e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-odds-betting-lines-spreads-totals",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Giants-Commanders, Cowboys-49ers",
-      "summary": "NFL Week 10 spreads and totals for every game, including Commanders-Giants, 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-12T21:07:24Z",
-      "teamIds": [
-        "4",
-        "6",
-        "19",
-        "23",
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "275a13c58327e472",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-on-josh-downs-you-can-tell-the-intellect-how-he-can-pick-things-up",
-      "title": "Patrick Mahomes on Josh Downs: You can tell the intellect, how he can pick things up",
-      "summary": "The Chiefs brought in a receiver at the trading deadline, acquiring Josh Downs from the Colts.",
-      "publishedAt": "2026-11-12T20:59:59Z",
-      "teamIds": [
-        "11",
-        "12"
-      ]
-    },
-    {
-      "id": "6c624d0704d937c9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873057",
-      "title": "Trevor Lawrence sees a 'shot' as the Jaguars add 3 defenders in trades before visiting Tennessee",
-      "summary": "The Jacksonville Jaguars already felt pretty confident both in themselves and what they want for a franchise still searching for its first Super...",
-      "publishedAt": "2026-11-12T20:59:35Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "f8b05c14a06745a2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-re-sign-odell-beckham-jr-to-practice-squad",
-      "title": "Vikings re-sign Odell Beckham Jr. to practice squad",
-      "summary": "Wide receiver Odell Beckham Jr. is back with the Vikings.",
-      "publishedAt": "2026-11-12T20:55:41Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "3ff7b4ec5ee9181b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50463704/myles-garrett-details-range-emotions-was-sidelined-injury",
-      "title": "Myles Garrett details range of emotions when he was sidelined with injury",
-      "summary": null,
-      "publishedAt": "2026-11-12T20:42:00Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
