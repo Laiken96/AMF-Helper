@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T09:41:58Z",
+  "updatedAt": "2026-11-13T10:47:35Z",
   "items": [
+    {
+      "id": "36520ab56afb5225",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luke-mccaffrey-knew-the-rules-and-made-a-heads-up-play-causing-a-kickoff-out-of-bounds",
+      "title": "Luke McCaffrey knew the rules and made a heads-up play, causing a kickoff out of bounds",
+      "summary": "Commanders kickoff returner Luke McCaffrey made the smartest play of the game by not returning a kick in Thursday night's win over the Giants.",
+      "publishedAt": "2026-11-13T10:06:19Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "d144d414db7a0e6d",
       "source": "pft",
@@ -1649,15 +1661,6 @@
       "title": "Dianna Russini's return includes no specifics about multiple controversies",
       "summary": "As expected, Dianna Russini made her return to sports media on Wednesday, with a one-hour show platformed by an illegal offshore sports book.",
       "publishedAt": "2026-11-12T03:44:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "35da434db529934f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nc-state-moves-even-closer-to-hiring-philip-rivers",
-      "title": "NC State moves even closer to hiring Philip Rivers",
-      "summary": "Rivers, who played for the Wolfpack from 1999 through 2003, is now poised to coach them.",
-      "publishedAt": "2026-11-12T03:31:20Z",
       "teamIds": []
     }
   ]
