@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:47:24Z",
+  "updatedAt": "2026-11-13T07:47:19Z",
   "items": [
+    {
+      "id": "d36c7b8e6eb157c9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50469309/giants-jameis-winston-barks-let-dogs-vs-commanders",
+      "title": "Giants' Jameis Winston lets 'the dogs out' on 4th down; Commanders don't bite",
+      "summary": "Giants quarterback Jameis Winston broke into a rendition of \"Who Let the Dogs Out\" in an attempt to draw the Commanders offside on fourth down in New York's 24-21 loss.",
+      "publishedAt": "2026-11-13T07:26:59Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "57e5150ac232d762",
       "source": "pft",
@@ -1645,17 +1657,6 @@
       "publishedAt": "2026-11-12T02:10:11Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "b482e1045ce68a84",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50456881/veteran-wr-keenan-allen-feels-energized-trade-49ers",
-      "title": "Veteran WR Keenan Allen feeling energized by trade to 49ers",
-      "summary": "Keenan Allen said while he didn't expect to get traded, landing with a contending team in the 49ers has him feeling energized.",
-      "publishedAt": "2026-11-12T01:28:27Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
