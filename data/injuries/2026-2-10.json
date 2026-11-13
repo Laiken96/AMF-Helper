@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T01:20:30Z",
+    "takenAt": "2026-11-13T01:30:49Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1089,6 +1089,18 @@
             "status": null
           },
           {
+            "athleteId": "4426348",
+            "name": "Jayden Daniels",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4432722",
             "name": "Athan Kaliakmanis",
             "pos": "QB",
@@ -1098,6 +1110,28 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4567156",
+            "name": "Treylon Burks",
+            "pos": "WR",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4697815",
+            "name": "Rachaad White",
+            "pos": "RB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           }
         ]
       },
