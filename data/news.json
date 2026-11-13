@@ -1,7 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:47:23Z",
+  "updatedAt": "2026-11-13T17:47:22Z",
   "items": [
+    {
+      "id": "b691b6231ea60aa5",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/fernando-mendoza-carson-beck-kyle-mccord-make-nfl-history-first-starts",
+      "title": "Fernando Mendoza, Carson Beck, Kyle McCord set to make NFL history with first starts, debuts",
+      "summary": "A look at the three QBs set to make their first starts this week and what they had to say",
+      "publishedAt": "2026-11-13T17:30:52Z",
+      "teamIds": []
+    },
+    {
+      "id": "ea397c81c9614742",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/giants-players-blast-controversial-dpi-penalty-loss-to-commanders",
+      "title": "Giants players blast controversial DPI penalty in loss to Commanders: 'This league is funny, bro'",
+      "summary": "The late-game penalty led to a game-winning Commanders touchdown",
+      "publishedAt": "2026-11-13T17:25:30Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "f82b4abf08ff673e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50472819/sonny-styles-setting-washington-game-winning-drive",
+      "title": "Sonny Styles setting up Washington's game-winning drive",
+      "summary": "John Keim breaks down how Styles anticipated the Giants' offense before delivering a big hit on J.J. McCarthy.",
+      "publishedAt": "2026-11-13T17:24:17Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "e961e31c8c2a7c15",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-rhamondre-stevenson-among-patriots-questionable-for-sunday-vs-lions",
+      "title": "A.J. Brown, Rhamondre Stevenson among Patriots questionable for Sunday vs. Lions",
+      "summary": "The Patriots have several players listed as questionable for Sunday's game against the Lions in Madrid.",
+      "publishedAt": "2026-11-13T17:23:26Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "d72bf2a6b82fef90",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50472084/why-mike-clay-feels-good-rashee-rice-wr2",
+      "title": "Why Mike Clay feels good about Rashee Rice as a WR2",
+      "summary": null,
+      "publishedAt": "2026-11-13T16:59:09Z",
+      "teamIds": []
+    },
+    {
+      "id": "11dca529869baacc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-claim-nikko-remigio-release-dare-ogunbowale",
+      "title": "Texans claim Nikko Remigio, release Dare Ogunbowale",
+      "summary": "The Texans have made a couple of roster moves on Friday.",
+      "publishedAt": "2026-11-13T16:56:46Z",
+      "teamIds": [
+        "34"
+      ]
+    },
     {
       "id": "0837a55cd8be7913",
       "source": "espn",
@@ -10,6 +74,30 @@
       "summary": null,
       "publishedAt": "2026-11-13T16:45:45Z",
       "teamIds": []
+    },
+    {
+      "id": "3c26291b866ddc03",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-list-amon-ra-st-brown-as-questionable-vs-patriots-in-germany",
+      "title": "Lions list Amon-Ra St. Brown as questionable vs. Patriots in Germany",
+      "summary": "Officially, Lions wide receiver Amon-Ra St.",
+      "publishedAt": "2026-11-13T16:45:36Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "cd822d3792388321",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-liam-coen-acquisitions-jessie-bates-iii-jordan-davis-wont-play-week-10-trade-deadline-titans",
+      "title": "Jaguars' trade deadline acquisitions Jessie Bates III and Jordan Davis won't play in Week 10 vs. Titans",
+      "summary": "Bates and Davis have yet to take their bye weeks, while the Jaguars have already had theirs",
+      "publishedAt": "2026-11-13T16:44:25Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
     },
     {
       "id": "887dc7e4eb945cb4",
@@ -764,6 +852,18 @@
       ]
     },
     {
+      "id": "f832d49f4ff82afd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50448015/nfl-week-10-uniforms",
+      "title": "NFL Week 10 uniforms: Titans debut Rivalries look, Ravens go all-black",
+      "summary": "Here's a look at what each NFL team is wearing in Week 10, led by the Tennessee Titans' Rivalries look.",
+      "publishedAt": "2026-11-13T03:27:26Z",
+      "teamIds": [
+        "33",
+        "10"
+      ]
+    },
+    {
       "id": "ed70123ed7795995",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-jefferson-its-a-joy-to-see-kirk-cousins-take-over-as-a-leader",
@@ -892,6 +992,18 @@
         "33",
         "34",
         "24"
+      ]
+    },
+    {
+      "id": "6367f67d8cdcc35d",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/commanders-vs-giants-odds-first-touchdown-scorer-picks-predictions-thursday-night-football-nfl-week-10",
+      "title": "Commanders vs. Giants odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 10",
+      "summary": "We go over first touchdown scorer prediction markets at Kalshi for Commanders vs. Giants NFL Week 10 Thursday Night Football",
+      "publishedAt": "2026-11-13T00:16:23Z",
+      "teamIds": [
+        "19",
+        "28"
       ]
     },
     {
@@ -1553,111 +1665,6 @@
       "publishedAt": "2026-11-12T17:39:56Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "0ecec9c9698ff988",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50446940/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
-      "title": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
-      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
-      "publishedAt": "2026-11-12T17:39:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "da9f36b37cf20b8c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 10: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-12T17:36:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "8f3391d81c68c176",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 10: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-12T17:35:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "0dba23dcb2fc1b4f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-midseason-awards-expert-picks-super-bowl-mvp-coach-of-year-opoy-more",
-      "title": "2026 NFL midseason awards: Expert picks for Super Bowl winner, MVP, Coach of the Year, OPOY and more",
-      "summary": "The CBS Sports NFL staff predicts winners at the halfway point",
-      "publishedAt": "2026-11-12T17:29:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "57cb978971da23a8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50456429/jaguars-trade-takeaways-james-gladstone-btj",
-      "title": "Three Jaguars trade deadline takeaways, from 'F them picks' to BTJ staying",
-      "summary": "The 6-2 Jaguars aggressively upgraded their defense at the deadline and kept the offense intact. Let's look at the aftermath of the three deals.",
-      "publishedAt": "2026-11-12T17:27:32Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "c5f714652c4ac2ff",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/how-a-six-win-nfc-east-team-could-end-up-making-the-playoffs-commanders-giants",
-      "title": "NFL nightmare: How a six-win NFC East team could end up making the playoffs if Commanders beat the Giants",
-      "summary": "This would be the NFL's worst nightmare",
-      "publishedAt": "2026-11-12T17:20:02Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "7192645634147f46",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-pivoted-to-keenan-allen-after-initially-focusing-on-josh-downs",
-      "title": "49ers pivoted to Keenan Allen trade after initially focusing on Josh Downs",
-      "summary": "The 49ers made a trade for wide receiver Keenan Allen on Tuesday, but he wasn't the only Colts wide receiver on their radar ahead of the trade deadline.",
-      "publishedAt": "2026-11-12T17:16:32Z",
-      "teamIds": [
-        "11",
-        "25"
-      ]
-    },
-    {
-      "id": "978a3d9729c3f59f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pick-six-what-to-know-about-nfl-trade-deadline-week-10",
-      "title": "Pick Six: What to know about the NFL after the trade deadline, ahead of Week 10",
-      "summary": "Picks for Commanders vs. Giants, plus midseason award predictions and full playoff projections",
-      "publishedAt": "2026-11-12T17:11:18Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "f0dbda6c29deca7c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50462869/cockcroft-tabs-bills-d-st-one-top-streaming-options-week-10",
-      "title": "Cockcroft tabs Bills D/ST as one of top streaming options in Week 10",
-      "summary": null,
-      "publishedAt": "2026-11-12T17:10:19Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "cbb973f1d50aaa0a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-designate-andrei-iosivas-two-others-for-return-from-ir",
-      "title": "Bengals designate Andrei Iosivas, two others for return from IR",
-      "summary": "The Bengals will have three players back at practice on Thursday.",
-      "publishedAt": "2026-11-12T16:59:01Z",
-      "teamIds": [
-        "4"
       ]
     }
   ]
