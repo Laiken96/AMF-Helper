@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:47:21Z",
+  "updatedAt": "2026-11-13T02:47:17Z",
   "items": [
+    {
+      "id": "9ed14691ab936c74",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-commanders-lead-giants-10-7-at-halftime",
+      "title": "Thursday Night Football: Commanders lead Giants 10-7 at halftime",
+      "summary": "Ben Sinnott caught a 1-yard touchdown pass from Jayden Daniels with 5 seconds remaining in the first half.",
+      "publishedAt": "2026-11-13T02:40:35Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "d2267ad36b42bb35",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cardinals-starting-qb-carson-beck-2026",
+      "title": "Cardinals name Carson Beck starting QB: Rookie faces Aaron Donald, Myles Garrett in NFL debut",
+      "summary": "Gardner Minshew's season-ending injury opens the door for Beck, whose first assignment comes against one of the NFL's most accomplished pass-rushing duos",
+      "publishedAt": "2026-11-13T02:09:28Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "ef8722eef1999998",
       "source": "espn",
@@ -1626,30 +1649,6 @@
       "publishedAt": "2026-11-12T00:18:57Z",
       "teamIds": [
         "26"
-      ]
-    },
-    {
-      "id": "43c1615c66b4069a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-nfl-trade-deadline-arnold-ebiketie-zac-taylor",
-      "title": "Bengals nearly made a costly trade-deadline blunder, and Zac Taylor had to explain it",
-      "summary": "The Bengals agreed to acquire Ebiketie from the Eagles before discovering the deal could cost them way more than they thought",
-      "publishedAt": "2026-11-12T00:08:56Z",
-      "teamIds": [
-        "4",
-        "21"
-      ]
-    },
-    {
-      "id": "8d1603dbae44ec96",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50455775/kirk-cousins-minnesota-trade-great-clips",
-      "title": "Kirk Cousins makes first comments on Minnesota trade at Great Clips",
-      "summary": "Kirk Cousins offered some thoughts on his trade to Minnesota after the news broke in the most on-brand location imaginable.",
-      "publishedAt": "2026-11-12T00:07:39Z",
-      "teamIds": [
-        "13",
-        "16"
       ]
     }
   ]

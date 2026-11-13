@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "fetchedAt": "2026-11-13T01:55:48Z",
+  "fetchedAt": "2026-11-13T02:47:13Z",
   "source": "espn",
   "games": [
     {
@@ -15,9 +15,9 @@
       "homeId": "19",
       "awayId": "28",
       "status": "in_progress",
-      "statusDetail": "13:22 - 2nd",
-      "homeScore": 0,
-      "awayScore": 3,
+      "statusDetail": "Halftime",
+      "homeScore": 7,
+      "awayScore": 10,
       "venue": "MetLife Stadium",
       "neutralSite": false,
       "venueInfo": {
