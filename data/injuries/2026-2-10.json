@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T21:20:31Z",
+    "takenAt": "2026-11-13T21:30:53Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1235,7 +1235,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "15864",
@@ -1672,17 +1672,6 @@
             "status": null
           },
           {
-            "athleteId": "2573079",
-            "name": "Carson Wentz",
-            "pos": "QB",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
-          },
-          {
             "athleteId": "3042519",
             "name": "Aaron Jones Sr.",
             "pos": "RB",
@@ -1703,7 +1692,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4262921",
@@ -2153,16 +2142,6 @@
       "to": "Questionable"
     },
     {
-      "gameId": "401873054",
-      "athleteId": "4385690",
-      "name": "Dalton Kincaid",
-      "pos": "TE",
-      "teamAbbr": "BUF",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
       "gameId": "401873056",
       "athleteId": "4832800",
       "name": "Denzel Boston",
@@ -2204,13 +2183,13 @@
     },
     {
       "gameId": "401873060",
-      "athleteId": "2573079",
-      "name": "Carson Wentz",
+      "athleteId": "3917315",
+      "name": "Kyler Murray",
       "pos": "QB",
       "teamAbbr": "MIN",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873061",
