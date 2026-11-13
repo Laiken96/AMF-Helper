@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-13T00:47:18Z",
+    "takenAt": "2026-11-13T16:47:21Z",
     "games": [
       {
         "gameId": "401873066",
@@ -512,7 +512,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Out"
           }
         ]
       },
