@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T21:47:29Z",
+  "updatedAt": "2026-11-13T22:47:33Z",
   "items": [
+    {
+      "id": "6ec61fead31fdb7e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50474753/vikings-start-reacquired-qb-kirk-cousins-vs-packers",
+      "title": "Vikings to start reacquired QB Kirk Cousins vs. Packers",
+      "summary": "Coach Kevin O'Connell called Kirk Cousins' ability to get reacquainted with the Vikings' offense \"impressive.\"",
+      "publishedAt": "2026-11-13T22:41:55Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "3b072ab0c7098c27",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cbs-joey-porter-jr-daron-bland-are-questionable",
+      "title": "Cowboys CBs Joey Porter Jr., DaRon Bland are questionable",
+      "summary": "The Cowboys added cornerback DaRon Bland to the injury report Friday.",
+      "publishedAt": "2026-11-13T22:30:04Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "b35e22b3de3280d3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50474564/nfl-outlines-aspects-jalen-hurts-investigation-senator",
+      "title": "NFL outlines steps in Jalen Hurts investigation in letter to senator",
+      "summary": "The NFL provided some additional details about the investigation into how Jalen Hurts' blood clots were handled in response to an inquiry from a U.S. senator.",
+      "publishedAt": "2026-11-13T22:23:25Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "ac91dfefb96ce0db",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-has-no-injury-designation-but-four-cbs-are-questionable-for-49ers",
+      "title": "Deebo Samuel has no injury designation, but four CBs are questionable for 49ers",
+      "summary": "The 49ers will see the return of wide receiver Deebo Samuel.",
+      "publishedAt": "2026-11-13T22:16:26Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "4ef0b1dee554cd5a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-cam-skattebo-was-not-supposed-to-push-on-jameis-winston-sneak",
+      "title": "John Harbaugh: Cam Skattebo was not supposed to push on Jameis Winston sneak",
+      "summary": "Giants coach John Harbaugh defended running back Cam Skattebo, who stayed in his stance on a crucial Jameis Winston quarterback sneak during Thursday night's loss to the Commanders.",
+      "publishedAt": "2026-11-13T22:16:00Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "decde01cd1ed90d8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nationwide-ground-stop-potentially-complicates-nfl-college-games",
+      "title": "Nationwide ground stop potentially complicates NFL, college games",
+      "summary": "Some teams could get to game locations by ground. Many would have a hard time.",
+      "publishedAt": "2026-11-13T22:05:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "7489de428605f39d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-hjalte-froholdt-will-miss-his-first-game-since-joining-the-cardinals",
+      "title": "C Hjalte Froholdt will miss his first game since joining the Cardinals",
+      "summary": "Center Hjalte Froholdt will miss his first start since joining the Cardinals in 2023.",
+      "publishedAt": "2026-11-13T21:57:10Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "1f071bae5276525a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday",
+      "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
+      "summary": "Minnesota traded for their old friend on Tuesday at the NFL trade deadline, and he will start for the Vikings right away on Sunday",
+      "publishedAt": "2026-11-13T21:48:22Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
     {
       "id": "ee484115d33a3673",
       "source": "pft",
@@ -1562,97 +1650,6 @@
       "teamIds": [
         "22",
         "14"
-      ]
-    },
-    {
-      "id": "ad20aea20f5facf7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/demarvion-overshown-didnt-know-inactive-players-couldnt-celebrate-on-the-field",
-      "title": "DeMarvion Overshown didn't know inactive players couldn't celebrate on the field",
-      "summary": "The Cowboys had 14 accepted penalties for 153 yards in the 27-23 win over the Colts.",
-      "publishedAt": "2026-11-12T23:32:01Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "dd22c0219708d364",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873062",
-      "title": "Raiders QB Fernando Mendoza’s first start will come against the Seahawks' NFL-best defense",
-      "summary": "The change came quickly Tuesday, but it was not unexpected when the",
-      "publishedAt": "2026-11-12T23:29:36Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "3e0098449e77a267",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50465608/joe-hortiz-says-chargers-were-listening-trade-offers",
-      "title": "GM Joe Hortiz says Chargers were listening to trade offers, none were enticing",
-      "summary": "GM Joe Hortiz pushed back against any narrative that the Chargers were unwilling or reluctant to pick up their phone ahead of Tuesday's trade deadline.",
-      "publishedAt": "2026-11-12T23:28:26Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "848571cc332fd954",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-list-rashod-bateman-vega-ioane-as-limited-in-thursdays-practice",
-      "title": "Ravens list Rashod Bateman, Vega Ioane as limited in Thursday's practice",
-      "summary": "Everyone on the Ravens' active roster practiced on Thursday, but a handful of them were limited participants.",
-      "publishedAt": "2026-11-12T23:26:40Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "2570e0eed4813f8c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/knoxville-chattanooga-fox-affiliates-pass-on-titans-game-for-now",
-      "title": "Knoxville, Chattanooga Fox affiliates pass on Titans game, for now",
-      "summary": "The Tennessee Titans apparently need an asterisk on their name.",
-      "publishedAt": "2026-11-12T23:15:18Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "37551f2bc70b632a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873059",
-      "title": "QB Kyle McCord eager to make his 1st NFL start as Dolphins and Colts meet in battle of reeling teams",
-      "summary": "Miami Dolphins quarterback Kyle McCord has dreamed about this moment his entire life.",
-      "publishedAt": "2026-11-12T23:10:35Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "981a5152eaafa4a0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-get-jakobi-meyers-travon-walker-back-at-practice",
-      "title": "Jaguars get Jakobi Meyers, Travon Walker back at practice",
-      "summary": "The Jaguars got a couple of their top players back on the practice field on Thursday.",
-      "publishedAt": "2026-11-12T23:08:53Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "a4ba50f581285cab",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-pickens-limited-again-thursday",
-      "title": "George Pickens limited again Thursday",
-      "summary": "Cowboys wide receiver George Pickens remained a limited participant on Thursday.",
-      "publishedAt": "2026-11-12T23:08:06Z",
-      "teamIds": [
-        "6"
       ]
     }
   ]

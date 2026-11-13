@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-13T21:47:26Z",
+    "takenAt": "2026-11-13T22:47:30Z",
     "games": [
       {
         "gameId": "401873066",
@@ -278,7 +278,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4569603",
