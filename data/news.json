@@ -1,7 +1,151 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:47:20Z",
+  "updatedAt": "2026-11-13T15:47:23Z",
   "items": [
+    {
+      "id": "cfd4e6fe4ef627e8",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50472215/draftkings-nfl-dfs-values-week-10",
+      "title": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
+      "summary": "Build a winning DFS lineup with our DraftKings NFL Week 10 cheat sheet identifying the best stacks and values",
+      "publishedAt": "2026-11-13T15:43:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "5f73af5bfda3db70",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50472222/ravens-lamar-jackson-injury-typical-line-6-10-weeks",
+      "title": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, source says",
+      "summary": "Ravens coach Jesse Minter updated Lamar Jackson's recovery process, saying timelines are \"challenging to predict.\"",
+      "publishedAt": "2026-11-13T15:43:47Z",
+      "teamIds": [
+        "33",
+        "2",
+        "5",
+        "24"
+      ]
+    },
+    {
+      "id": "b1c1f4ed8404703e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-engages-in-potential-pre-tampering-with-kyle-shanahan",
+      "title": "Troy Aikman engages in potential pre-tampering with Kyle Shanahan",
+      "summary": "If Troy Aikman exits broadcasting after this season (last month, he put the chance at \"50-50\") and if Aikman lands a key position in a front office, the name at the top of his head-coaching wishlist will already be known.",
+      "publishedAt": "2026-11-13T15:36:29Z",
+      "teamIds": []
+    },
+    {
+      "id": "7f9f96fb7c0b64cc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-sts-coordinator-dave-toub-were-confident-harrison-butker-will-come-through-it",
+      "title": "Chiefs STs coordinator Dave Toub: We're confident Harrison Butker will come through it",
+      "summary": "The Chiefs have had a kicking problem for a while.",
+      "publishedAt": "2026-11-13T15:33:25Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "db5b2a63381b40bd",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50472074/john-harbaugh-ashamed-giants-loss",
+      "title": "Stephen A.: 'John Harbaugh should be ashamed of himself' after Giants' loss",
+      "summary": null,
+      "publishedAt": "2026-11-13T15:29:56Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "209001aea19b113e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50464884/fantasy-football-hall-fame-clinton-portis",
+      "title": "ESPN Fantasy Football Hall of Fame recognizes Clinton Portis' 5-touchdown game",
+      "summary": "Clinton Portis scored 5 touchdowns, rushing for over 200 yards in what was for many the first round of the 2003 fantasy football playoffs.",
+      "publishedAt": "2026-11-13T15:29:42Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "c258b7d03326efa7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-have-no-comment-as-to-jim-harbaughs-complaints-about-daiyan-henley-trade",
+      "title": "Broncos have no comment as to Jim Harbaugh's complaints about Daiyan Henley trade",
+      "summary": "The failed Daiyan Henley trade has exposed a previously unknown (by many) loophole in the trade deadline, which could be used by an unscrupulous team to leverage better terms after a deal is otherwise done — and the time for negotiating trades has otherwise ended.",
+      "publishedAt": "2026-11-13T15:12:29Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "ba10949503d312ec",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-announce-lamar-jackson-surgery-broken-dislocated-thumb-out-6-10-weeks",
+      "title": "Ravens announce Lamar Jackson had surgery on broken and dislocated thumb, will be out 6-10 weeks",
+      "summary": "The Ravens will turn to Jacoby Brissett under center in Jackson's absence",
+      "publishedAt": "2026-11-13T15:07:06Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "db4b5cb5c3807a7f",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50463729/week-10-nfl-odds-touchdown-props-best-bets-sunday-games",
+      "title": "Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
+      "summary": "Our experts dive into the odds and player props for Week 10 and offer their betting tips and favorite plays.",
+      "publishedAt": "2026-11-13T15:05:31Z",
+      "teamIds": [
+        "11",
+        "12",
+        "17",
+        "23"
+      ]
+    },
+    {
+      "id": "1ead3e9731c3408e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50471768/will-lamar-jackson-able-return-season-thumb-surgery",
+      "title": "Will Lamar Jackson be able to return this season after thumb surgery?",
+      "summary": null,
+      "publishedAt": "2026-11-13T15:01:56Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "677c218aef349f10",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/seahawks-vs-raiders-picks-fernando-mendoza-era-begins-most-historical-trends-against-no-1-overall-pick",
+      "title": "Seahawks vs. Raiders picks: Fernando Mendoza era begins, most historical trends against No. 1 overall pick",
+      "summary": "Raiders No. 1 overall pick Fernando Mendoza makes his first NFL start Sunday vs. Seattle",
+      "publishedAt": "2026-11-13T15:00:50Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "a794d15ddcb0e4d4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/notre-dame-commanders-sam-hartman-named-the-bachelor-season-30",
+      "title": "Former Notre Dame, current Commanders QB Sam Hartman to star in new season of 'The Bachelor'",
+      "summary": "Hartman is currently on Washington's practice squad",
+      "publishedAt": "2026-11-13T14:57:16Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "76cf367119ab6c61",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/abc-announces-sam-hartman-is-the-bachelor",
+      "title": "ABC announces Sam Hartman is The Bachelor",
+      "summary": "A reality TV series is once again pulling from the NFL well.",
+      "publishedAt": "2026-11-13T14:55:36Z",
+      "teamIds": []
+    },
     {
       "id": "3490c0ed00d9bad2",
       "source": "espn",
@@ -20,6 +164,18 @@
       "publishedAt": "2026-11-13T14:45:11Z",
       "teamIds": [
         "1"
+      ]
+    },
+    {
+      "id": "97f8683de1091941",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-best-bets-fernando-mendoza-seahawks-josh-downs-chiefs",
+      "title": "Week 10 best bets: Fernando Mendoza gets picked, loses in first start; Josh Downs has big impact for KC",
+      "summary": "Plus, another Cowboys letdown against the 49ers?",
+      "publishedAt": "2026-11-13T14:44:47Z",
+      "teamIds": [
+        "6",
+        "25"
       ]
     },
     {
@@ -159,7 +315,7 @@
       "id": "c63eb58390a0ac92",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams",
-      "title": "5 bold predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
+      "title": "5 bold NFL predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
       "summary": "Plus, we may have our first coach firing of the season soon",
       "publishedAt": "2026-11-13T12:40:08Z",
       "teamIds": [
@@ -1499,169 +1655,6 @@
       "publishedAt": "2026-11-12T15:18:48Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "d2c3d6e4b1d36f59",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50461920/long-steelers-player-assistant-coach-dick-hoak-dies-86",
-      "title": "Longtime Steelers player, assistant coach Dick Hoak dies at 86",
-      "summary": "Dick Hoak, who spent more than 45 years with the Pittsburgh Steelers as a player and then an assistant coach, winning five Super Bowl rings along the way, has died at age 86.",
-      "publishedAt": "2026-11-12T15:17:50Z",
-      "teamIds": [
-        "8",
-        "23"
-      ]
-    },
-    {
-      "id": "3fb867db68bc6666",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-mvp-odds-week-10-joe-burrow-josh-allen-brock-purdy",
-      "title": "NFL MVP odds: Joe Burrow surpasses Josh Allen for top spot entering Week 10",
-      "summary": "There's a new leader in the MVP conversation with nine weeks to go in the NFL regular season",
-      "publishedAt": "2026-11-12T15:13:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "6b5b2c2c25c9f928",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-super-excited-to-make-his-debut-on-sunday",
-      "title": "Carson Beck \"super excited\" to make his debut on Sunday",
-      "summary": "Cardinals rookie quarterback Carson Beck will make his first start on Sunday against the Rams.",
-      "publishedAt": "2026-11-12T15:13:08Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "abd82d6f285fd45d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50461832/who-edge-steelers-bengals",
-      "title": "Who has the edge in Steelers-Bengals?",
-      "summary": null,
-      "publishedAt": "2026-11-12T14:53:26Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "03a0525c6be6668c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-daiyan-henley-failed-broncos-physical",
-      "title": "Source: Daiyan Henley failed Broncos physical",
-      "summary": "Knee issue caused Denver to scrap trade with Chargers.",
-      "publishedAt": "2026-11-12T14:51:22Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "2d6a07c477a5661a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-vs-commanders-how-to-watch-odds-spread-preview-prediction",
-      "title": "Giants vs. Commanders prediction: New York, Washington look to rebound on 'TNF' after embarrassing Week 5 tie",
-      "summary": "How to watch the 'Thursday Night Football' matchup, plus a preview and prediction",
-      "publishedAt": "2026-11-12T14:49:20Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "7c8c5e16898d8f6c",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/commanders-vs-giants-odds-picks-nfl-week-10-prediction-best-bets-player-props-for-thursday-night-football",
-      "title": "Commanders vs. Giants odds, picks, NFL Week 10 prediction: Best bets, player props for Thursday Night Football",
-      "summary": "New York is a 2.5-point home favorite, but backing Jayden Daniels against an erratic J.J. McCarthy in prime time provides strong value to take Washington on the money line",
-      "publishedAt": "2026-11-12T14:49:17Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "df6496f29718c55e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50433086/fantasy-playbook-projections-lineup-locks-week-10-shadow",
-      "title": "Fantasy playbook: Week 10 Shadow Reports, lineup locks and projected scores",
-      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
-      "publishedAt": "2026-11-12T14:31:21Z",
-      "teamIds": []
-    },
-    {
-      "id": "daccf9142ce8552a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50461653/jaguars-most-complete-team-afc",
-      "title": "Andrew Hawkins: The Jaguars are the 'most complete team in the AFC'",
-      "summary": null,
-      "publishedAt": "2026-11-12T14:26:56Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "ad6e362dfb10fec8",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-odds-lines-spreads-totals",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Giants-Commanders, 49ers-Cowboys",
-      "summary": "NFL Week 10 spreads and totals for every game, including Commanders-Giants, 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-12T14:24:37Z",
-      "teamIds": [
-        "4",
-        "6",
-        "19",
-        "23",
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "788b7a8bd67a4df5",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-best-bets-week-10-2026",
-      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-12T14:15:41Z",
-      "teamIds": [
-        "2",
-        "34"
-      ]
-    },
-    {
-      "id": "d812b30fb890592c",
-      "source": "cbs",
-      "url": "https://cbssports.com/mlb/news/jacob-misiorowski-cam-schlittler-win-cy-young-awards-nfl-expert-picks-for-week-10",
-      "title": "Jacob Misiorowski, Cam Schlittler win Cy Young awards; NFL expert picks for Week 10",
-      "summary": "Plus, the Lakers are surging in our NBA Power Rankings",
-      "publishedAt": "2026-11-12T13:57:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "1e88f39fd7acfa09",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/broncos-chargers-trade-daiyan-henley-will-not-be-finalized",
-      "title": "Broncos announce trade for Chargers LB Daiyan Henley falls through, 'will not be finalized'",
-      "summary": "Henley will return to the Chargers after an initial agreement was reached on Tuesday to send him to Denver",
-      "publishedAt": "2026-11-12T13:56:26Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "1aa30e4a0a9fdd34",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/super-bowl-odds-how-odds-have-changed-through-nfl-week-9",
-      "title": "Super Bowl odds: How title odds have changed in nine weeks since the start of the season",
-      "summary": "The 49ers have surged into the top spot while the Bears and Jaguars make dramatic leaps into the top four, leaving preseason darling Los Angeles searching for answers",
-      "publishedAt": "2026-11-12T13:48:05Z",
-      "teamIds": [
-        "3",
-        "30",
-        "25"
       ]
     }
   ]
