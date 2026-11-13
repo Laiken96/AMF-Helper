@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:47:32Z",
+  "updatedAt": "2026-11-13T21:47:29Z",
   "items": [
+    {
+      "id": "ee484115d33a3673",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/danielle-hunter-out-will-anderson-jr-questionable-for-texans-browns",
+      "title": "Danielle Hunter out, Will Anderson Jr. questionable for Texans-Browns",
+      "summary": "The Texans will be without at least one of their top edge rushers for Sunday's game against the Browns.",
+      "publishedAt": "2026-11-13T21:39:56Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "745dc2d25c43aaa6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-will-start-for-vikings-on-sunday",
+      "title": "Kirk Cousins will start for Vikings on Sunday",
+      "summary": "The Vikings acquired the quarterback in a trade with the Raiders on Tuesday.",
+      "publishedAt": "2026-11-13T21:38:37Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "b0b0ff0fe044c950",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rt-spencer-brown-is-doubtful-with-ankle-injury",
+      "title": "Bills RT Spencer Brown is doubtful with ankle injury",
+      "summary": "Bills right tackle Spencer Brown (ankle) is doubtful for Sunday's game against the Jets.",
+      "publishedAt": "2026-11-13T21:17:23Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "28f226afa92c5f3f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50474246/andy-reid-delivers-injury-update-kenneth-walker-iii",
+      "title": "Andy Reid delivers injury update on Kenneth Walker III",
+      "summary": null,
+      "publishedAt": "2026-11-13T21:15:49Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "20a5a7de20019c5b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-10-underrated-games-browns-texans-raiders-seahawks",
+      "title": "Week 10 underrated games: 3 games you should watch this week, from divisional matchups to first QB starts",
+      "summary": "A look at three games that should be on your radar this week",
+      "publishedAt": "2026-11-13T21:05:09Z",
+      "teamIds": []
+    },
+    {
+      "id": "57675d5519b24cc3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-de-james-pearce-is-questionable",
+      "title": "Falcons DE James Pearce is questionable",
+      "summary": "Falcons defensive end James Pearce Jr. is questionable for Sunday's game against the Chiefs.",
+      "publishedAt": "2026-11-13T21:05:09Z",
+      "teamIds": [
+        "1",
+        "12"
+      ]
+    },
+    {
+      "id": "94bca8370a5b1a90",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-mansoor-delane-are-questionable-for-chiefs",
+      "title": "Kenneth Walker, Mansoor Delane are questionable for Chiefs",
+      "summary": "The Chiefs officially list running back Kenneth Walker as questionable for Sunday.",
+      "publishedAt": "2026-11-13T20:46:47Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "2410b6e3e49a5ed8",
       "source": "cbs",
@@ -140,8 +219,8 @@
       "id": "1b5ae60de91baf16",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50473514/sources-eagles-release-wr-hollywood-brown-per-request",
-      "title": "Sources: Eagles to release WR Hollywood Brown per request",
-      "summary": "Receiver Hollywood Brown, who has played sparingly over the first half of the season, is being released by the Eagles upon his request, sources told ESPN.",
+      "title": "Eagles release wide receiver Hollywood Brown per request",
+      "summary": "Receiver Hollywood Brown, who has played sparingly over the first half of the season, has been released by the Eagles upon his request.",
       "publishedAt": "2026-11-13T19:32:56Z",
       "teamIds": [
         "21"
@@ -1574,85 +1653,6 @@
       "publishedAt": "2026-11-12T23:08:06Z",
       "teamIds": [
         "6"
-      ]
-    },
-    {
-      "id": "fa2a588adf82e9f4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-listed-as-full-participant-at-thursdays-practice",
-      "title": "Jared Goff listed as full participant at Thursday's practice",
-      "summary": "Lions quarterback Jared Goff was listed as a limited participant in practice on Wednesday, but it doesn't look like there will be an issue with his availability for Sunday's game against the Patriots.",
-      "publishedAt": "2026-11-12T22:52:50Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "142dacb3d7b74ae5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-broncos-took-advantage-of-a-loophole-the-nfl-should-not-allow",
-      "title": "Jim Harbaugh: Broncos took advantage of a loophole the NFL should not allow",
-      "summary": "The Chargers' head coach is not happy with the Broncos trying to renegotiate the trade for Daiyan Henley after the deadline, or with the NFL allowing it.",
-      "publishedAt": "2026-11-12T22:47:14Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "99fb926c30271a12",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-injuries-keeping-me-off-field-not-my-contract-situation",
-      "title": "Joey Porter Jr.: Injuries keeping me off field, not my contract situation",
-      "summary": "Porter missed practice again on Thursday with an ankle injury.",
-      "publishedAt": "2026-11-12T22:45:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "acef177ff0519924",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873058",
-      "title": "NFL rushing leaders in spotlight as Kenneth Walker III and Chiefs face Bijan Robinson and Falcons",
-      "summary": "The NFL's rushing leaders will be in the spotlight on Sunday when Bijan Robinson and the Atlanta Falcons face Kenneth Walker III and the Kansas City Chiefs.",
-      "publishedAt": "2026-11-12T22:44:35Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "3bd579122ea7e031",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50464938/ravens-qb-brissett-immersed-crash-course-chargers",
-      "title": "Ravens QB Jacoby Brissett immersed in 'crash course' for Chargers tilt",
-      "summary": "New Ravens quarterback Jacoby Brissett says he's focused on Monday's game against the Chargers, not the team's plans at quarterback for the remainder of the season.",
-      "publishedAt": "2026-11-12T22:44:30Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "e8e9d97c13ccad6d",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-commanders-vs-giants",
-      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks, Commanders vs. Giants",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-12T22:43:28Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "80bab2cbff0da4a1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-montgomery-returns-to-texans-practice-woody-marks-marvin-harrison-jr-dont-practice",
-      "title": "David Montgomery returns to Texans practice; Woody Marks, Marvin Harrison Jr. don't practice",
-      "summary": "The Texans had running back David Montgomery back on the practice field on Thursday, but they were missing a couple of other key offensive players.",
-      "publishedAt": "2026-11-12T22:28:59Z",
-      "teamIds": [
-        "34"
       ]
     }
   ]
