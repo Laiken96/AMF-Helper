@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T17:50:35Z",
+    "takenAt": "2026-11-13T19:30:53Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1555,7 +1555,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -2211,6 +2211,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873058",
+      "athleteId": "4567048",
+      "name": "Kenneth Walker III",
+      "pos": "RB",
+      "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873059",
