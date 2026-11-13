@@ -1,13 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T04:47:21Z",
+  "updatedAt": "2026-11-13T05:47:24Z",
   "items": [
+    {
+      "id": "57e5150ac232d762",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-expresses-confidence-in-k-dominic-zvada",
+      "title": "John Harbaugh expresses confidence in K Dominic Zvada",
+      "summary": "Giants rookie kicker Dominic Zvada has missed six field goals in nine games.",
+      "publishedAt": "2026-11-13T05:26:40Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "236488a5c2796f44",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50466279/new-york-giants-washington-commanders-week-10-tnf",
       "title": "Commanders keep NFC East hopes alive with win over Giants",
-      "summary": "New York couldn't close out a win against Washington, giving up a late touchdown drive; its division lead is now shrinking.",
+      "summary": "New York couldn't close out a win against Washington, giving up a late touchdown drive. Its division lead is now shrinking.",
       "publishedAt": "2026-11-13T04:43:03Z",
       "teamIds": [
         "19",
@@ -30,8 +41,8 @@
       "id": "05496315b2d2a74e",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873052",
-      "title": "Jayden Daniels and Commanders rally to stun the Giants 24-21 and keep their hopes alive another week",
-      "summary": "Jayden Daniels threw his third touchdown pass of the game, a 32-yarder to Stefon Diggs with 57 seconds left, and the Washington Commanders rallied to defeat the New York Giants 24-21 on Thursday night in what was essentially",
+      "title": "Jayden Daniels and Commanders rally to stun the Giants 24-21 and keep their hopes alive",
+      "summary": "Even after Jayden Daniels threw two interceptions and it looked like the Washington Commanders were hurtling toward a painful loss at the New York Giants, teammates remembered what it was like when the franchise quarterback burst onto the scene in...",
       "publishedAt": "2026-11-13T04:29:36Z",
       "teamIds": [
         "19",
@@ -1646,15 +1657,6 @@
       "teamIds": [
         "25"
       ]
-    },
-    {
-      "id": "83f72b37819809c9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kamario-taylor-lands-7-5-million-deal-to-return-to-mississippi-state",
-      "title": "Kamario Taylor lands $7.5 million deal to return to Mississippi State",
-      "summary": "One man's chaos is another man's ca-ching.",
-      "publishedAt": "2026-11-12T01:21:40Z",
-      "teamIds": []
     }
   ]
 }
