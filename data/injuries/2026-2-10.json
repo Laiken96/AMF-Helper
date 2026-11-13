@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-13T19:30:53Z",
+    "takenAt": "2026-11-13T20:20:48Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1447,7 +1447,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3916148",
@@ -2191,16 +2191,6 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
-    },
-    {
-      "gameId": "401873057",
-      "athleteId": "4882093",
-      "name": "Bhayshul Tuten",
-      "pos": "RB",
-      "teamAbbr": "JAX",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873058",
