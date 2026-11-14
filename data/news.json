@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T12:47:19Z",
+  "updatedAt": "2026-11-14T14:15:57Z",
   "items": [
+    {
+      "id": "8684f375618beb60",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-is-getting-better-were-trying-to-make-sure-he-fully-heals",
+      "title": "Kyle Shanahan: Mike Evans is getting better, we're trying to make sure he fully heals",
+      "summary": "The 49ers have ruled out wide receiver Mike Evans for Sunday's game in Dallas, but head coach Kyle Shanahan says Evans is getting healthy enough to play.",
+      "publishedAt": "2026-11-14T13:53:29Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "088ad2dff2c17826",
       "source": "pft",
@@ -1005,7 +1016,7 @@
       "id": "5f73af5bfda3db70",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50472222/ravens-lamar-jackson-injury-typical-line-6-10-weeks",
-      "title": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, source says",
+      "title": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, sources say",
       "summary": "Ravens coach Jesse Minter's update on Lamar Jackson's recovery process calls such timelines \"challenging to predict.\"",
       "publishedAt": "2026-11-13T15:43:47Z",
       "teamIds": [
@@ -1620,18 +1631,6 @@
       "publishedAt": "2026-11-13T03:49:08Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "f832d49f4ff82afd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50448015/nfl-week-10-uniforms",
-      "title": "NFL Week 10 uniforms: Titans debut Rivalries look, Ravens go all-black",
-      "summary": "Here's a look at what each NFL team is wearing in Week 10, led by the Tennessee Titans' Rivalries look.",
-      "publishedAt": "2026-11-13T03:27:26Z",
-      "teamIds": [
-        "33",
-        "10"
       ]
     }
   ]
