@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T22:47:22Z",
+  "updatedAt": "2026-11-14T23:10:24Z",
   "items": [
     {
       "id": "d462dc8b307de1e1",
@@ -320,6 +320,29 @@
       "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
       "publishedAt": "2026-11-14T18:16:54Z",
       "teamIds": []
+    },
+    {
+      "id": "3490c0ed00d9bad2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 10",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-14T18:08:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "db4b5cb5c3807a7f",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50463729/week-10-nfl-odds-touchdown-props-best-bets-sunday-games",
+      "title": "Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
+      "summary": "Our experts dive into the odds and player props for Week 10 and offer their betting tips and favorite plays.",
+      "publishedAt": "2026-11-14T17:44:31Z",
+      "teamIds": [
+        "11",
+        "12",
+        "17",
+        "23"
+      ]
     },
     {
       "id": "cb3d67e0600feb7e",
@@ -1606,28 +1629,6 @@
       "publishedAt": "2026-11-13T15:29:42Z",
       "teamIds": [
         "7"
-      ]
-    },
-    {
-      "id": "c258b7d03326efa7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-have-no-comment-as-to-jim-harbaughs-complaints-about-daiyan-henley-trade",
-      "title": "Broncos have no comment as to Jim Harbaugh's complaints about Daiyan Henley trade",
-      "summary": "The failed Daiyan Henley trade has exposed a previously unknown (by many) loophole in the trade deadline, which could be used by an unscrupulous team to leverage better terms after a deal is otherwise done — and the time for negotiating trades has otherwise ended.",
-      "publishedAt": "2026-11-13T15:12:29Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "ba10949503d312ec",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-announce-lamar-jackson-surgery-broken-dislocated-thumb-out-6-10-weeks",
-      "title": "Ravens announce Lamar Jackson had surgery on broken and dislocated thumb, will be out 6-10 weeks",
-      "summary": "The Ravens will turn to Jacoby Brissett under center in Jackson's absence",
-      "publishedAt": "2026-11-13T15:07:06Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]
