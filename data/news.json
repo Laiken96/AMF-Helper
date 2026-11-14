@@ -1,7 +1,96 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T15:47:23Z",
+  "updatedAt": "2026-11-14T16:47:29Z",
   "items": [
+    {
+      "id": "ba25894002fa7228",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
+      "title": "Chiefs' Kenneth Walker III (groin) to sit out, sources say",
+      "summary": "Chiefs running back Kenneth Walker III will miss Sunday's game due to a minor groin strain, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-14T16:45:08Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "b2b0539e80b39696",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-to-activate-rb-travis-etienne-for-sundays-game",
+      "title": "Report: Saints to activate RB Travis Etienne for Sunday's game",
+      "summary": "The Saints are getting a key offensive player back.",
+      "publishedAt": "2026-11-14T16:18:04Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "8c94b60e7d9483ee",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-elevate-lb-owen-pappoe-from-practice-squad",
+      "title": "Lions elevate LB Owen Pappoe from practice squad",
+      "summary": "The Lions elevated linebacker Owen Pappoe from the practice squad to the game-day roster, the team announced Saturday.",
+      "publishedAt": "2026-11-14T16:17:12Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "37199a406097fe09",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-first-reached-out-to-raiders-about-kirk-cousins-on-monday-afternoon",
+      "title": "Report: Vikings first reached out to Raiders about Kirk Cousins on \"midday Monday\"",
+      "summary": "As it turns out, the Vikings contacted the Raiders about a possible trade for quarterback Kirk Cousins before Monday night's meltdown from quarterback Carson Wentz.",
+      "publishedAt": "2026-11-14T16:12:32Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "28928205aab1c10e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-10-2026-expert-ats-picks-predictions-best-bets-player-props-for-nov-15",
+      "title": "NFL picks against the spread, Week 10 2026: Expert ATS picks, predictions, best bets, player props for Nov. 15",
+      "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
+      "publishedAt": "2026-11-14T16:01:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "880e0ff1dfd12442",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-spreads-lines-picks-predictions-best-bets-for-week-10-2026",
+      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-14T15:53:38Z",
+      "teamIds": [
+        "2",
+        "34"
+      ]
+    },
+    {
+      "id": "81cfe3497b8d916c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-claim-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-sunday",
+      "title": "Week 10 NFL betting promos: Claim over $3,000 in bonuses from betting apps, sportsbooks for Sunday",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-14T15:51:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "c6b37788596c2b4b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-lines-odds-totals-spreads",
+      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Cowboys-49ers, Steelers-Bengals",
+      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
+      "publishedAt": "2026-11-14T15:47:57Z",
+      "teamIds": [
+        "4",
+        "6",
+        "23",
+        "25"
+      ]
+    },
     {
       "id": "bd55b150171001d1",
       "source": "pft",
@@ -222,7 +311,7 @@
       "id": "7fc622c8c20fa6ff",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown",
-      "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker has new groin injury, Patriots' A.J. Brown questionable",
+      "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker III ruled out, Patriots' A.J. Brown questionable",
       "summary": "The final injury reports for every NFL team playing on Sunday in Week 10",
       "publishedAt": "2026-11-14T01:35:38Z",
       "teamIds": [
@@ -1531,99 +1620,6 @@
       "summary": "Bruce Arians is thinking about coming out of retirement.",
       "publishedAt": "2026-11-13T11:28:15Z",
       "teamIds": []
-    },
-    {
-      "id": "8f3a752c879dc12a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50453355/week-10-picks-predictions-schedule-fantasy-odds-2026",
-      "title": "NFL Week 10 preview: Picks, predictions, schedule, betting odds, fantasy tips",
-      "summary": "Kirk Cousins' return to Minnesota? Patriots vs. Lions in Germany? There are 13 more games in Week 10, and we have picks, predictions and more for all of them.",
-      "publishedAt": "2026-11-13T11:23:37Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "6a96192a697d62e5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50462993/lions-packers-bears-vikings-nfc-north",
-      "title": "NFC North: Bears win division? Cousins has Vikes in command?",
-      "summary": "What will Kirk Cousins and Micah Parsons mean for the best division in football, or will the Bears hang on?",
-      "publishedAt": "2026-11-13T11:12:27Z",
-      "teamIds": [
-        "3",
-        "8",
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "de6bb25ae5eccda0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50464709/afc-north-steelers-bengals-rodgers-burrow-week-10",
-      "title": "It's a battle for the AFC North: Steelers at Bengals Week 10 primer",
-      "summary": "Aaron Rodgers and Joe Burrow and their 6-2 teams face off Sunday night, and Ben Baby and Brooke Pryor break down the matchup.",
-      "publishedAt": "2026-11-13T11:00:11Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "63a3e6ebe6631b5c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50462155/raiders-starting-fernando-mendoza-plan-decision-graziano",
-      "title": "Fernando Mendoza and the Raiders' sit-and-learn plan: Is he ready to start?",
-      "summary": "The Raiders had a plan for Fernando Mendoza in Year 1 and stuck to it as long as they could. But he's now QB1 earlier than expected, and they have to trust he's ready.",
-      "publishedAt": "2026-11-13T11:00:10Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "78215a96e798fc7f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463509/chuba-hubbard-x-factor-spark-carolina-panthers",
-      "title": "Is Chuba Hubbard the biggest X factor to spark a Panthers turnaround?",
-      "summary": "Meet Carolina's team captain, a locker room leader and a relentless running back who is \"chasing greatness myself.\"",
-      "publishedAt": "2026-11-13T11:00:01Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "3908414d2ce7c10f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50462723/2026-nfl-playoffs-mvp-super-bowl-breakout-players-divisions",
-      "title": "NFL execs on tight playoff races, MVP, Super Bowl picks, breakouts, more",
-      "summary": "Who will win the most competitive divisions, and who's in line for awards? We asked sources around the NFL at midseason.",
-      "publishedAt": "2026-11-13T10:42:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "36520ab56afb5225",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luke-mccaffrey-knew-the-rules-and-made-a-heads-up-play-causing-a-kickoff-out-of-bounds",
-      "title": "Luke McCaffrey knew the rules and made a heads-up play, causing a kickoff out of bounds",
-      "summary": "Commanders kickoff returner Luke McCaffrey made the smartest play of the game by not returning a kick in Thursday night's win over the Giants.",
-      "publishedAt": "2026-11-13T10:06:19Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "d144d414db7a0e6d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-we-needed-that-we-needed-every-bit-of-it",
-      "title": "Dan Quinn: We needed that, we needed every bit of it",
-      "summary": "After the win, the Commanders are 3-5-1, two games behind the division-leading Giants.",
-      "publishedAt": "2026-11-13T09:30:39Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
     }
   ]
 }
