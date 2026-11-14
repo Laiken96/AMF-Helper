@@ -1,15 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T16:47:29Z",
+  "updatedAt": "2026-11-14T17:47:19Z",
   "items": [
+    {
+      "id": "03ed9f03cdd43e57",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-broncos-explored-possible-tony-pollard-trade",
+      "title": "Packers, Broncos explored possible Tony Pollard trade",
+      "summary": "One week before the trade deadline, teams had interest in Titans running back Tony Pollard.",
+      "publishedAt": "2026-11-14T16:54:18Z",
+      "teamIds": [
+        "7",
+        "9",
+        "10"
+      ]
+    },
     {
       "id": "ba25894002fa7228",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
-      "title": "Chiefs' Kenneth Walker III (groin) to sit out, sources say",
-      "summary": "Chiefs running back Kenneth Walker III will miss Sunday's game due to a minor groin strain, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
+      "title": "Chiefs' Kenneth Walker III (groin) to sit out vs. Falcons",
+      "summary": "Chiefs running back Kenneth Walker III will miss Sunday's game due to a groin injury.",
       "publishedAt": "2026-11-14T16:45:08Z",
       "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "85c410be646ccc2e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-wont-play-vs-falcons-due-to-groin-injury",
+      "title": "Kenneth Walker won't play vs. Falcons due to groin injury",
+      "summary": "The Chiefs will not have one of their top players for Sunday's game against the Falcons.",
+      "publishedAt": "2026-11-14T16:43:09Z",
+      "teamIds": [
+        "1",
         "12"
       ]
     },
@@ -1600,26 +1625,6 @@
       "teamIds": [
         "16"
       ]
-    },
-    {
-      "id": "2142942f10b81523",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50435678/fantasy-football-streamers-last-minute-pickups-week-10",
-      "title": "Fantasy football last-minute pickups: 12 players who can help in deeper leagues",
-      "summary": "If injuries, bye weeks or tough matchups have you seeking lineup help, Matt Bowen lists potential options.",
-      "publishedAt": "2026-11-13T11:39:17Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "07e71dc8d095fde1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bruce-arians-says-he-wants-to-be-a-head-coach-in-the-nfl-next-season",
-      "title": "Bruce Arians says he wants to be a head coach in the NFL next season",
-      "summary": "Bruce Arians is thinking about coming out of retirement.",
-      "publishedAt": "2026-11-13T11:28:15Z",
-      "teamIds": []
     }
   ]
 }
