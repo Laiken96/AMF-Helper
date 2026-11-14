@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-14T17:40:32Z",
+    "takenAt": "2026-11-14T21:30:59Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1195,7 +1195,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -2120,16 +2120,6 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
-    },
-    {
-      "gameId": "401873053",
-      "athleteId": "4569173",
-      "name": "Rhamondre Stevenson",
-      "pos": "RB",
-      "teamAbbr": "NE",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873053",
