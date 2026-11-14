@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T10:47:18Z",
+  "updatedAt": "2026-11-14T11:47:17Z",
   "items": [
+    {
+      "id": "75c8afdf8ef41a3e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-sent-jordyn-tyson-to-renowned-hamstring-specialist-at-university-of-wisconsin",
+      "title": "Saints sent Jordyn Tyson to renowned hamstring specialist at University of Wisconsin",
+      "summary": "In 2021, the NFL awarded a $4 million grant to Dr.",
+      "publishedAt": "2026-11-14T11:19:20Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "67786c43a213faeb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50475710/nfl-germany-lions-amon-ra-st-brown-munich",
+      "title": "Untold stories of Detroit Lions WR Amon-Ra St. Brown's German upbringing",
+      "summary": "For Amon-Ra St. Brown, Sunday's NFL game in Munich will mark the ultimate convergence of his dual heritage. Here are stories that shed more light.",
+      "publishedAt": "2026-11-14T11:00:11Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "8ebc1e2d7695eaa0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50475264/patriots-lions-germany-week-10-mike-vrabel",
+      "title": "Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
+      "summary": "The Patriots play in Munich, Germany, this week. Catch up on what's happening abroad in this week's Patriots notebook,",
+      "publishedAt": "2026-11-14T11:00:10Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "37d4872aae28479c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50473666/atlanta-falcons-trade-deadline-jessie-bates-morale",
+      "title": "Falcons insist winning still the goal despite trading Jessie Bates III",
+      "summary": "Atlanta wanted to ensure trading away Jessie Bates III didn't send the wrong message to the team.",
+      "publishedAt": "2026-11-14T11:00:03Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "f773969e87c76f70",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50472099/vikings-kirk-cousins-trade-contract",
+      "title": "Despite Cousins trade, are Vikings back to square one at QB?",
+      "summary": "Cousins can give some short-term relief, but his future and the search for a franchise QB remain uncertain.",
+      "publishedAt": "2026-11-14T11:00:01Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "92ba25f0b924856c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50466331/las-vegas-raiders-why-fernando-mendoza-starting",
+      "title": "Why the Raiders named Fernando Mendoza as the starter",
+      "summary": "The Raiders named Fernando Mendoza as the starter shortly after trading Kirk Cousins to the Vikings.",
+      "publishedAt": "2026-11-14T11:00:00Z",
+      "teamIds": [
+        "13"
+      ]
+    },
     {
       "id": "35c130c5b71439c4",
       "source": "pft",
@@ -1569,71 +1635,6 @@
       "publishedAt": "2026-11-13T03:06:50Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "072edeffd1b4d112",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rex-ryan-incident-was-captured-on-camera",
-      "title": "Report: Rex Ryan incident was captured on camera",
-      "summary": "The recent news that Rex Ryan, of all people, allegedly ran over, of all the things, the feet of a pair of pedestrians in Nashville seems too crazy to be true, absent visual evidence.",
-      "publishedAt": "2026-11-13T03:02:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "9ed14691ab936c74",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-commanders-lead-giants-10-7-at-halftime",
-      "title": "Thursday Night Football: Commanders lead Giants 10-7 at halftime",
-      "summary": "Ben Sinnott caught a 1-yard touchdown pass from Jayden Daniels with 5 seconds remaining in the first half.",
-      "publishedAt": "2026-11-13T02:40:35Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "d2267ad36b42bb35",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-starting-qb-carson-beck-2026",
-      "title": "Cardinals name Carson Beck starting QB: Rookie faces Aaron Donald, Myles Garrett in NFL debut",
-      "summary": "Gardner Minshew's season-ending injury opens the door for Beck, whose first assignment comes against one of the NFL's most accomplished pass-rushing duos",
-      "publishedAt": "2026-11-13T02:09:28Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "ef8722eef1999998",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50466164/vikings-hyped-welcome-back-leader-kirk-cousins-1st-day-practice",
-      "title": "Vikings 'hyped' to welcome back 'leader' Cousins on 1st day of practice",
-      "summary": "The Minnesota Vikings reveled Thursday in quarterback Kirk Cousins' first full day back with the organization.",
-      "publishedAt": "2026-11-13T01:29:44Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "1096f5dba6b725a3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50466270/rams-wide-receiver-puka-nacua-ir-knee-toe-injuries",
-      "title": "Rams put WR Puka Nacua on IR with knee, toe injuries",
-      "summary": "The Rams, who had said they would not put Puka Nacua on IR, pivoted so they can sign Brennan Presley to the active roster and Tyler Scott to the practice squad.",
-      "publishedAt": "2026-11-13T01:17:02Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "7ee0f4b195d93036",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-place-wr-puka-nacua-on-ir",
-      "title": "Rams place WR Puka Nacua on IR",
-      "summary": "Nacua injured the MCL and PCL in his knee and has turf toe.",
-      "publishedAt": "2026-11-13T00:56:50Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
