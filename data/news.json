@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T21:47:23Z",
+  "updatedAt": "2026-11-14T22:47:22Z",
   "items": [
+    {
+      "id": "d462dc8b307de1e1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50483551/saints-rb-travis-etienne-activated-ir-game-vs-panthers",
+      "title": "Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
+      "summary": "The New Orleans Saints activated running back Travis Etienne Jr. off injured reserve prior to their game against the Carolina Panthers, the team announced Saturday.",
+      "publishedAt": "2026-11-14T22:13:44Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "91bfce32a072a884",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-put-peter-skoronski-tommy-townsend-on-ir",
+      "title": "Titans put Peter Skoronski, Tommy Townsend on IR",
+      "summary": "The Titans ruled left guard Peter Skoronski out on Friday due to a hamstring injury and his absence is going to last beyond this Sunday's game against the Jaguars.",
+      "publishedAt": "2026-11-14T22:05:53Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "1dd354f9d3beeb87",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-treveyon-henderson-on-injured-reserve",
+      "title": "Patriots place TreVeyon Henderson on injured reserve",
+      "summary": "Patriots running back TreVeyon Henderson's absence from the lineup will stretch through at least Week 15.",
+      "publishedAt": "2026-11-14T21:53:30Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "37eb2b35107e3e93",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jakobe-thomas-gave-kirk-cousins-no-8-for-nothing-other-than-wins",
+      "title": "Jakobe Thomas gave Kirk Cousins No. 8 for nothing (other than wins)",
+      "summary": "The Raiders arguably could have driven a harder bargain over the trade that sent quarterback Kirk Cousins back to the Vikings.",
+      "publishedAt": "2026-11-14T21:52:27Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
     {
       "id": "19f5ac50ae53e3b7",
       "source": "espn",
@@ -201,6 +247,24 @@
       "teamIds": []
     },
     {
+      "id": "20f4695456852672",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 10: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-14T18:18:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "d1c0f679b410049a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 10: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-14T18:18:41Z",
+      "teamIds": []
+    },
+    {
       "id": "a04849111d845265",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-say-pat-freiermuth-is-questionable-for-sunday-night-vs-bengals-with-an-illness",
@@ -219,6 +283,24 @@
       "title": "Fantasy football rankings for Week 10: Quarterback",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-14T18:18:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "8f3391d81c68c176",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 10: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-14T18:18:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "c74dc9607c70469a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 10: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-14T18:17:40Z",
       "teamIds": []
     },
     {
@@ -1546,96 +1628,6 @@
       "publishedAt": "2026-11-13T15:07:06Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "db4b5cb5c3807a7f",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50463729/week-10-nfl-odds-touchdown-props-best-bets-sunday-games",
-      "title": "Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
-      "summary": "Our experts dive into the odds and player props for Week 10 and offer their betting tips and favorite plays.",
-      "publishedAt": "2026-11-13T15:05:31Z",
-      "teamIds": [
-        "11",
-        "12",
-        "17",
-        "23"
-      ]
-    },
-    {
-      "id": "1ead3e9731c3408e",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50471768/will-lamar-jackson-able-return-season-thumb-surgery",
-      "title": "Will Lamar Jackson be able to return this season after thumb surgery?",
-      "summary": null,
-      "publishedAt": "2026-11-13T15:01:56Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "677c218aef349f10",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/seahawks-vs-raiders-picks-fernando-mendoza-era-begins-most-historical-trends-against-no-1-overall-pick",
-      "title": "Seahawks vs. Raiders picks: Fernando Mendoza era begins, most historical trends against No. 1 overall pick",
-      "summary": "Raiders No. 1 overall pick Fernando Mendoza makes his first NFL start Sunday vs. Seattle",
-      "publishedAt": "2026-11-13T15:00:50Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "a794d15ddcb0e4d4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/notre-dame-commanders-sam-hartman-named-the-bachelor-season-30",
-      "title": "Former Notre Dame, current Commanders QB Sam Hartman to star in new season of 'The Bachelor'",
-      "summary": "Hartman is currently on Washington's practice squad",
-      "publishedAt": "2026-11-13T14:57:16Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "c63eb58390a0ac92",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams",
-      "title": "5 bold NFL predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
-      "summary": "Plus, we may have our first coach firing of the season soon",
-      "publishedAt": "2026-11-13T14:56:29Z",
-      "teamIds": [
-        "9",
-        "14",
-        "26"
-      ]
-    },
-    {
-      "id": "76cf367119ab6c61",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/abc-announces-sam-hartman-is-the-bachelor",
-      "title": "ABC announces Sam Hartman is The Bachelor",
-      "summary": "A reality TV series is once again pulling from the NFL well.",
-      "publishedAt": "2026-11-13T14:55:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "3490c0ed00d9bad2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 10",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-13T14:46:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "d64ce7361a78fd69",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50471659/falcons-sign-de-thomas-cb-henderson-multiyear-extensions",
-      "title": "Falcons sign DE Cameron Thomas, CB C.J. Henderson to multiyear extensions",
-      "summary": "The Atlanta Falcons have signed defensive end Cameron Thomas and cornerback C.J. Henderson to multiyear contract extensions, the team announced Friday.",
-      "publishedAt": "2026-11-13T14:45:11Z",
-      "teamIds": [
-        "1"
       ]
     }
   ]
