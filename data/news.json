@@ -1,7 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T19:47:24Z",
+  "updatedAt": "2026-11-14T20:47:22Z",
   "items": [
+    {
+      "id": "ff0fd7b5fabb7450",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50482239/steelers-activate-dt-derrick-harmon-injured-reserve",
+      "title": "Steelers activate DT Derrick Harmon from IR ahead of key Bengals clash",
+      "summary": "The Steelers have activated defensive tackle Derrick Harmon from injured reserve after he missed the past four games with a foot injury.",
+      "publishedAt": "2026-11-14T20:41:30Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "c7074c015ac09701",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50481864/rb-montgomery-de-hunter-texans-ruled-vs-browns",
+      "title": "DE Danielle Hunter, LB Azeez Al-Shaair among Texans ruled out vs. Browns",
+      "summary": "The Texans will be without a number of key starters -- including running back David Montgomery and All-Pro defensive end Danielle Hunter -- when they travel to face the Browns.",
+      "publishedAt": "2026-11-14T20:05:23Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "96cde03c77957fb1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-rb-tyler-goodson-on-injured-reserve",
+      "title": "Cowboys place RB Tyler Goodson on injured reserve",
+      "summary": "The Cowboys said this week that running back Tyler Goodson will miss multiple weeks due to knee and ankle injuries and we learned on Saturday that he'll be out for at least the next four games.",
+      "publishedAt": "2026-11-14T20:01:50Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "5e4be65f3585774e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-reunites-with-jordan-rodgers",
+      "title": "Aaron Rodgers reunites with Jordan Rodgers",
+      "summary": "Aaron Rodgers insists on keeping his personal life private.",
+      "publishedAt": "2026-11-14T19:55:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "129b515014566dc4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-vs-patriots-prediction-odds-where-to-watch-munich",
+      "title": "Lions vs. Patriots prediction: Detroit seeks fifth straight victory, while New England looks to bounce back",
+      "summary": "Everything you need to know to catch the game",
+      "publishedAt": "2026-11-14T19:51:21Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
     {
       "id": "14824bd29654258c",
       "source": "pft",
@@ -1582,53 +1636,6 @@
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-13T14:39:34Z",
       "teamIds": []
-    },
-    {
-      "id": "da9f36b37cf20b8c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 10: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-13T14:36:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "0d7c7545ac711865",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 10: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-13T14:32:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "31d818ab2355ab08",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 10: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-13T14:31:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 10: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-13T14:29:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "0b14863a9f802938",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-announce-two-year-contract-extension-with-c-j-henderson",
-      "title": "Falcons announce two-year contract extension with C.J. Henderson",
-      "summary": "Falcons cornerback C.J.",
-      "publishedAt": "2026-11-13T14:27:45Z",
-      "teamIds": [
-        "1"
-      ]
     }
   ]
 }
