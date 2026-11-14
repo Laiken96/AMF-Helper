@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T11:47:17Z",
+  "updatedAt": "2026-11-14T12:47:19Z",
   "items": [
+    {
+      "id": "088ad2dff2c17826",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ground-stop-nudges-ole-miss-oklahoma-game-to-sunday-and-ou-doesnt-like-that",
+      "title": "Ground stop nudges Ole Miss-Oklahoma game to Sunday (and OU doesn't like that)",
+      "summary": "Friday's nationwide shutdown of the aviation system has resulted in a delayed kickoff for several college football games on Saturday.",
+      "publishedAt": "2026-11-14T12:38:49Z",
+      "teamIds": []
+    },
+    {
+      "id": "0974f2fc73c468e9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-colorado-score-huge-upset-over-no-14-houston",
+      "title": "Deion Sanders, Colorado score huge upset over No. 14 Houston",
+      "summary": "After the loss that dropped the Colorado Buffaloes to 3-6, coach Deion Sanders said, among other things, \"The fans deserve better.\"",
+      "publishedAt": "2026-11-14T12:23:45Z",
+      "teamIds": []
+    },
+    {
+      "id": "51beec985070a3c5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50453290/week-10-predictions-upsets-fantasy-sleepers-stats-2026",
+      "title": "NFL Week 10 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+      "summary": "Touchdown for Chuba Hubbard? Fantasy upside for Aaron Rodgers? Trick play from the Raiders? Let's predict 15 things for Week 10.",
+      "publishedAt": "2026-11-14T11:53:16Z",
+      "teamIds": [
+        "13"
+      ]
+    },
     {
       "id": "75c8afdf8ef41a3e",
       "source": "pft",
@@ -29,7 +58,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50475264/patriots-lions-germany-week-10-mike-vrabel",
       "title": "Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
-      "summary": "The Patriots play in Munich, Germany, this week. Catch up on what's happening abroad in this week's Patriots notebook,",
+      "summary": "New England plays in Munich, Germany, this week. Catch up on what's happening abroad in this week's Patriots notebook.",
       "publishedAt": "2026-11-14T11:00:10Z",
       "teamIds": [
         "17"
@@ -1603,38 +1632,6 @@
       "teamIds": [
         "33",
         "10"
-      ]
-    },
-    {
-      "id": "ed70123ed7795995",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-jefferson-its-a-joy-to-see-kirk-cousins-take-over-as-a-leader",
-      "title": "Justin Jefferson: It's a joy to see Kirk Cousins take over as a leader",
-      "summary": "Kirk Cousins is back in Minnesota, and perhaps no one is more excited about that than Justin Jefferson.",
-      "publishedAt": "2026-11-13T03:26:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "a0670516e7baf849",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-back-in-front-of-giants-17-14",
-      "title": "Commanders back in front of Giants, 17-14",
-      "summary": "The Commanders answered the Giants with a six-play, 77-yard drive.",
-      "publishedAt": "2026-11-13T03:14:26Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "c9d7b0100dd8d0b6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-gives-giants-a-14-10-lead",
-      "title": "Cam Skattebo gives Giants a 14-10 lead",
-      "summary": "Cam Skattebo has his second touchdown, and the Giants lead for the second time.",
-      "publishedAt": "2026-11-13T03:06:50Z",
-      "teamIds": [
-        "19"
       ]
     }
   ]
