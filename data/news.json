@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T04:47:20Z",
+  "updatedAt": "2026-11-14T10:47:18Z",
   "items": [
+    {
+      "id": "35c130c5b71439c4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-can-join-peyton-manning-as-only-qbs-with-4-total-tds-in-5-straight-games",
+      "title": "Joe Burrow can join Peyton Manning as only QBs with 4 total TDs in 5 straight games",
+      "summary": "A big game from Burrow on Sunday night would put him in some very exclusive company in NFL history.",
+      "publishedAt": "2026-11-14T10:01:51Z",
+      "teamIds": []
+    },
     {
       "id": "95713543aef92b30",
       "source": "pft",
@@ -1625,18 +1634,6 @@
       "publishedAt": "2026-11-13T00:56:50Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "2d6a07c477a5661a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-vs-commanders-how-to-watch-odds-spread-preview-prediction",
-      "title": "Giants vs. Commanders prediction: New York, Washington look to rebound on 'TNF' after embarrassing Week 5 tie",
-      "summary": "How to watch the 'Thursday Night Football' matchup, plus a preview and prediction",
-      "publishedAt": "2026-11-13T00:50:51Z",
-      "teamIds": [
-        "19",
-        "28"
       ]
     }
   ]
