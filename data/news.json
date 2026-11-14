@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T02:47:18Z",
+  "updatedAt": "2026-11-14T03:47:22Z",
   "items": [
+    {
+      "id": "95713543aef92b30",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-least-50-different-quarterbacks-will-have-started-games-through-week-10",
+      "title": "At least 50 different quarterbacks will have started games through Week 10",
+      "summary": "Raiders quarterback Fernando Mendoza will make his first career start on Sunday.",
+      "publishedAt": "2026-11-14T03:00:34Z",
+      "teamIds": [
+        "13"
+      ]
+    },
     {
       "id": "50e4fc0e1a4084b9",
       "source": "pft",
@@ -1627,15 +1638,6 @@
         "19",
         "28"
       ]
-    },
-    {
-      "id": "dd8e79ef051dd6d3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
-      "title": "Cam Skattebo dons custom 'Iron Man' mask for TNF, leads NFL Week 10 arrivals",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-13T00:40:42Z",
-      "teamIds": []
     }
   ]
 }
