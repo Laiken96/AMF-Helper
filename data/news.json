@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T00:47:26Z",
+  "updatedAt": "2026-11-14T02:47:18Z",
   "items": [
+    {
+      "id": "50e4fc0e1a4084b9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/faa-lifts-ground-stop-clearing-the-way-for-nfl-teams-to-travel-on-saturday",
+      "title": "FAA lifts ground stop, clearing the way for NFL teams to travel on Saturday",
+      "summary": "Eleven teams will be flying for Sunday games.",
+      "publishedAt": "2026-11-14T02:27:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "a3d5dccbd0182394",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/victims-claim-rex-ryan-almost-killed-them-with-truck-in-nasvhille",
+      "title": "Victims claim Rex Ryan \"almost killed\" them with truck in Nasvhille",
+      "summary": "The victims in last week's Nashville incident involving former NFL coach Rex Ryan have come forward.",
+      "publishedAt": "2026-11-14T02:10:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "7fc622c8c20fa6ff",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown",
+      "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker has new groin injury, Patriots' A.J. Brown questionable",
+      "summary": "The final injury reports for every NFL team playing on Sunday in Week 10",
+      "publishedAt": "2026-11-14T01:35:38Z",
+      "teamIds": [
+        "12",
+        "17"
+      ]
+    },
     {
       "id": "c58fbbe078d8f4a0",
       "source": "espn",
@@ -1606,43 +1636,6 @@
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-13T00:40:42Z",
       "teamIds": []
-    },
-    {
-      "id": "acb1db8424a1639d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-is-not-on-chargers-injury-report-as-they-begin-prep-for-ravens",
-      "title": "Justin Herbert is not on Chargers' injury report as they begin prep for Ravens",
-      "summary": "Justin Herbert injured the middle finger on his left hand in Sunday's loss to the Texans.",
-      "publishedAt": "2026-11-13T00:23:06Z",
-      "teamIds": [
-        "33",
-        "34",
-        "24"
-      ]
-    },
-    {
-      "id": "6367f67d8cdcc35d",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/commanders-vs-giants-odds-first-touchdown-scorer-picks-predictions-thursday-night-football-nfl-week-10",
-      "title": "Commanders vs. Giants odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 10",
-      "summary": "We go over first touchdown scorer prediction markets at Kalshi for Commanders vs. Giants NFL Week 10 Thursday Night Football",
-      "publishedAt": "2026-11-13T00:16:23Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "976d8ae7a30f259b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/commanders-vs-giants-odds-picks-prediction-best-bets-player-props-for-nfl-week-10-thursday-night-football",
-      "title": "Commanders vs. Giants odds, picks, prediction: Best bets, player props for NFL Week 10 Thursday Night Football",
-      "summary": "New York is a 2.5-point home favorite, but backing Jayden Daniels against an erratic J.J. McCarthy in prime time provides strong value to take Washington on the money line",
-      "publishedAt": "2026-11-13T00:01:27Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
     }
   ]
 }
