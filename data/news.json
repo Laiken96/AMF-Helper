@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T19:17:06Z",
+  "updatedAt": "2026-11-14T19:47:24Z",
   "items": [
+    {
+      "id": "14824bd29654258c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-tells-senator-that-jalen-hurts-review-will-include-mutually-agreed-upon-independent-medical-experts",
+      "title": "NFL tells Senator that Jalen Hurts review will include \"mutually agreed-upon independent medical experts\"",
+      "summary": "Five weeks since Eagles quarterback Jalen Hurts played a game in London with a blood clot in his leg, the NFL and NFL Players Association have not yet begun an official investigation of the situation.",
+      "publishedAt": "2026-11-14T19:28:40Z",
+      "teamIds": [
+        "21"
+      ]
+    },
     {
       "id": "8f48546468f10ac2",
       "source": "pft",
@@ -36,6 +47,24 @@
         "11",
         "15"
       ]
+    },
+    {
+      "id": "9401a0edde3d0214",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-major-officiating-changes-week-10-faa-ground-stop",
+      "title": "FAA ground stop forces NFL to reshuffle officiating crews for Week 10",
+      "summary": "The changes include one referee pulling double-duty on Sunday",
+      "publishedAt": "2026-11-14T19:02:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Does Emmett Johnson have RB1 upside while Kenneth Walker III sits?",
+      "summary": "Kansas City rookie Emmett Johnson is expected to be thrust into a starting role for Week 10 with Kenneth Walker III ruled out.",
+      "publishedAt": "2026-11-14T18:56:52Z",
+      "teamIds": []
     },
     {
       "id": "9ee8980694150ae2",
@@ -994,6 +1023,18 @@
       ]
     },
     {
+      "id": "b241d327d85f7ae3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/grading-every-nfl-team-at-midway-point-bills-49ers-chargers",
+      "title": "Grading every NFL team at the midway point: Chargers get an 'F,' three teams get solid 'A' grade",
+      "summary": "Buffalo is among the highest-rated teams, while the Eagles sit at the opposite end as a big disappointment",
+      "publishedAt": "2026-11-13T17:36:16Z",
+      "teamIds": [
+        "24",
+        "21"
+      ]
+    },
+    {
       "id": "b691b6231ea60aa5",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/fernando-mendoza-carson-beck-kyle-mccord-make-nfl-history-first-starts",
@@ -1587,49 +1628,6 @@
       "publishedAt": "2026-11-13T14:27:45Z",
       "teamIds": [
         "1"
-      ]
-    },
-    {
-      "id": "cdf1af5e037dba76",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-hub-expert-selections-best-bets-teasers-survivor",
-      "title": "NFL Week 10 Picks Hub: Expert selections, best bets, teasers, survivor picks and more",
-      "summary": "CBSSports.com and SportsLine break down every single NFL game in Week 10",
-      "publishedAt": "2026-11-13T14:17:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "9ff7dac539dff379",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-extend-cameron-thomas-through-2029",
-      "title": "Falcons extend Cameron Thomas through 2029",
-      "summary": "In March, free agent defensive end Cameron Thomas signed a one-year, $3.1 million contract with the Falcons.",
-      "publishedAt": "2026-11-13T14:16:54Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "6e1c75e52847f5cc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-midseason-grades-awards-2nd-half-predictions-commanders-open-up-nfc-east-race",
-      "title": "NFL midseason grades, awards, 2nd-half predictions; Commanders open up NFC East race",
-      "summary": "Plus college football Week 11 picks and predictions",
-      "publishedAt": "2026-11-13T14:11:49Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "a37299d75a90faa4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50471328/whitner-not-amused-hard-count",
-      "title": "'I'd cut Jameis Winston this morning': Whitner not amused by hard count",
-      "summary": null,
-      "publishedAt": "2026-11-13T14:07:41Z",
-      "teamIds": [
-        "19",
-        "28"
       ]
     }
   ]
