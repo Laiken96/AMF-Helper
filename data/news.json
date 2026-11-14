@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T20:47:22Z",
+  "updatedAt": "2026-11-14T21:47:23Z",
   "items": [
+    {
+      "id": "19f5ac50ae53e3b7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50483113/patriots-place-rb-henderson-ir-unexplained-illness",
+      "title": "Patriots place RB TreVeyon Henderson on IR with still unexplained illness",
+      "summary": "The Patriots placed RB TreVeyon Henderson on injured reserve while he deals with an unexplained neurological issue.",
+      "publishedAt": "2026-11-14T21:44:40Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "5d77fdde06fd3566",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-rb-chris-brooks-wr-skyy-moore",
+      "title": "Packers activate RB Chris Brooks, WR Skyy Moore",
+      "summary": "The Packers will have two offensive players back in the lineup for Sunday's matchup with the Vikings.",
+      "publishedAt": "2026-11-14T21:42:34Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "8bc43761296a83f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-list-ladd-mcconkey-as-questionable-for-monday-night",
+      "title": "Chargers list Ladd McConkey as questionable for Monday night",
+      "summary": "Wide receiver Ladd McConkey is among the Chargers players listed as questionable for Monday night's game against the Ravens.",
+      "publishedAt": "2026-11-14T21:34:26Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "ff0fd7b5fabb7450",
       "source": "espn",
@@ -157,6 +192,15 @@
       ]
     },
     {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 10: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-14T18:19:14Z",
+      "teamIds": []
+    },
+    {
       "id": "a04849111d845265",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-say-pat-freiermuth-is-questionable-for-sunday-night-vs-bengals-with-an-illness",
@@ -167,6 +211,33 @@
         "4",
         "23"
       ]
+    },
+    {
+      "id": "31d818ab2355ab08",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 10: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-14T18:18:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "0d7c7545ac711865",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 10: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-14T18:17:19Z",
+      "teamIds": []
+    },
+    {
+      "id": "da9f36b37cf20b8c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 10: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-14T18:16:54Z",
+      "teamIds": []
     },
     {
       "id": "cb3d67e0600feb7e",
@@ -1566,76 +1637,6 @@
       "teamIds": [
         "1"
       ]
-    },
-    {
-      "id": "97f8683de1091941",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-best-bets-fernando-mendoza-seahawks-josh-downs-chiefs",
-      "title": "Week 10 best bets: Fernando Mendoza gets picked, loses in first start; Josh Downs has big impact for KC",
-      "summary": "Plus, another Cowboys letdown against the 49ers?",
-      "publishedAt": "2026-11-13T14:44:47Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "c3a54fa5fb68174b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50471662/are-rams-playoff-hopes-puka-nacua-injury",
-      "title": "Are the Rams' playoff hopes over after Puka Nacua's injury?",
-      "summary": null,
-      "publishedAt": "2026-11-13T14:44:40Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "4ec6ee2e1048423d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-injuries-like-lamar-jacksons-typically-take-6-10-weeks-to-heal",
-      "title": "Jesse Minter: Injuries like Lamar Jackson's typically take 6-10 weeks to heal",
-      "summary": "In an unusual move, the Ravens released a written statement from their head coach to update the quarterback's injury status.",
-      "publishedAt": "2026-11-13T14:43:50Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "20f4695456852672",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 10: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-13T14:42:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "d1c0f679b410049a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 10: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-13T14:40:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "8f3391d81c68c176",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 10: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-13T14:39:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "c74dc9607c70469a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 10: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-13T14:39:34Z",
-      "teamIds": []
     }
   ]
 }
