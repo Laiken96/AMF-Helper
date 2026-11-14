@@ -1,13 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T14:47:22Z",
+  "updatedAt": "2026-11-14T15:47:23Z",
   "items": [
+    {
+      "id": "bd55b150171001d1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ground-stop-results-in-side-judge-don-willard-serving-as-referee-for-two-games-on-sunday",
+      "title": "Ground stop results in side judge Don Willard serving as referee for two games on Sunday",
+      "summary": "Flight disruptions result in multiple changes to Week 10 officiating assignments.",
+      "publishedAt": "2026-11-14T15:34:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "e120f458539162ca",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50479995/nfl-reassigns-backup-refs-work-games-closer-home",
+      "title": "NFL reassigns backup refs to work games closer to home",
+      "summary": "The NFL, trying to avoid further travel issues from Friday's FAA ground stop, has reassigned officials to Week 10 games within driving distance of their homes.",
+      "publishedAt": "2026-11-14T15:34:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "96a746ceb731d927",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-anytime-td-best-bets-chris-olave-jonathan-taylor",
+      "title": "NFL week 10 anytime TD best bets: Look for Chris Olave, Jonathan Taylor to find the end zone",
+      "summary": "Target a goal-line vulture in Jacksonville, plus-money value on Tee Higgins against Pittsburgh and a fresh red-zone flier for Keenan Allen in San Francisco",
+      "publishedAt": "2026-11-14T15:30:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "c2643a48db041010",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/fernando-mendoza-picks-predictions-best-bets-props-for-first-nfl-start-versus-seahawks-revealed",
+      "title": "Fernando Mendoza picks, predictions, best bets: Props for first NFL start versus Seahawks revealed",
+      "summary": "SportsLine expert Eric Cohen has locked in his best bets for Fernando Mendoza's first NFL start on Sunday for the Las Vegas Raiders against the defending Super Bowl champion Seattle Seahawks",
+      "publishedAt": "2026-11-14T15:12:37Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "2b9e0419dfa14e9e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-i-dont-think-were-far-away-from-18-regular-season-games",
+      "title": "Jerry Jones: \"I don't think we're far away\" from 18 regular-season games",
+      "summary": "As to the timeline, Jones says, \"Next month? No. Next year? Maybe. [The] next year? Maybe.\"",
+      "publishedAt": "2026-11-14T15:07:13Z",
+      "teamIds": []
+    },
     {
       "id": "dfa8585d3ba0d8f0",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50479874/sources-vikings-first-called-kirk-cousins-mnf",
       "title": "Sources: Vikings made initial Kirk Cousins trade call to Raiders before MNF",
-      "summary": "The Vikings initially reached out to the Raiders about a Kirk Cousins trade before their Monday Night Football game against the Bills, sources told ESPN and NFL Network.",
+      "summary": "The Vikings initially reached out to the Raiders about a Kirk Cousins trade before their MNF game against the Bills, sources told ESPN and NFL Network.",
       "publishedAt": "2026-11-14T14:45:58Z",
       "teamIds": [
         "13",
@@ -1572,65 +1620,6 @@
       "title": "Dan Quinn: We needed that, we needed every bit of it",
       "summary": "After the win, the Commanders are 3-5-1, two games behind the division-leading Giants.",
       "publishedAt": "2026-11-13T09:30:39Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "d36c7b8e6eb157c9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50469309/giants-jameis-winston-barks-let-dogs-vs-commanders",
-      "title": "Giants' Jameis Winston lets 'the dogs out' on 4th down; Commanders don't bite",
-      "summary": "Giants quarterback Jameis Winston broke into a rendition of \"Who Let the Dogs Out\" in an attempt to draw the Commanders offside on fourth down in New York's 24-21 loss.",
-      "publishedAt": "2026-11-13T07:26:59Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "57e5150ac232d762",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-expresses-confidence-in-k-dominic-zvada",
-      "title": "John Harbaugh expresses confidence in K Dominic Zvada",
-      "summary": "Giants rookie kicker Dominic Zvada has missed six field goals in nine games.",
-      "publishedAt": "2026-11-13T05:26:40Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "236488a5c2796f44",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50466279/new-york-giants-washington-commanders-week-10-tnf",
-      "title": "Commanders keep NFC East hopes alive with win over Giants",
-      "summary": "New York couldn't close out a win against Washington, giving up a late touchdown drive. Its division lead is now shrinking.",
-      "publishedAt": "2026-11-13T04:43:03Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "2dfeb3d39fe9d373",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50468530/commanders-outlast-giants-24-21-nfc-east-tnf-thriller",
-      "title": "Commanders outlast Giants 24-21 in NFC East TNF thriller",
-      "summary": null,
-      "publishedAt": "2026-11-13T04:35:39Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "05496315b2d2a74e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873052",
-      "title": "Jayden Daniels and Commanders rally to stun the Giants 24-21 and keep their hopes alive",
-      "summary": "Even after Jayden Daniels threw two interceptions and it looked like the Washington Commanders were hurtling toward a painful loss at the New York Giants, teammates remembered what it was like when the franchise quarterback burst onto the scene in...",
-      "publishedAt": "2026-11-13T04:29:36Z",
       "teamIds": [
         "19",
         "28"
