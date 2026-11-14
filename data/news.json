@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T17:47:19Z",
+  "updatedAt": "2026-11-14T18:47:29Z",
   "items": [
+    {
+      "id": "e96e1d938b4a0fc0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers",
+      "title": "NFL Week 10 last-minute picks, best bets: Chiefs, Steelers take advantage of schedule quirk",
+      "summary": "Need some last-minute advice on how to bet the Week 10 slate? Allow us to be of assistance",
+      "publishedAt": "2026-11-14T18:34:35Z",
+      "teamIds": [
+        "12",
+        "23"
+      ]
+    },
+    {
+      "id": "b1c70586ab1839cb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-k-zane-gonzalez-to-53-man-roster-elevate-qb-brady-cook-wr-jalen-reagor",
+      "title": "Dolphins sign K Zane Gonzalez to 53-man roster; elevate QB Brady Cook, WR Jalen Reagor",
+      "summary": "The Dolphins announced a handful of roster moves ahead of Sunday's game against the Colts.",
+      "publishedAt": "2026-11-14T18:33:02Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "a04849111d845265",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-say-pat-freiermuth-is-questionable-for-sunday-night-vs-bengals-with-an-illness",
+      "title": "Steelers say Pat Freiermuth is questionable for Sunday night vs. Bengals with an illness",
+      "summary": "The Steelers might be without tight end Pat Freiermuth on Sunday night against the Bengals.",
+      "publishedAt": "2026-11-14T18:18:26Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "cb3d67e0600feb7e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-will-travel-on-his-own-to-atlanta-for-sundays-game",
+      "title": "Chris Jones will travel on his own to Atlanta for Sunday's game",
+      "summary": "The Chiefs officially ruled out running back Kenneth Walker.",
+      "publishedAt": "2026-11-14T17:41:57Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "03ed9f03cdd43e57",
       "source": "pft",
@@ -1529,12 +1576,10 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Likely, Skattebo come up big on TNF but only one is an auto-start",
-      "summary": "The Giants lost on the scoreboard but fantasy managers benefited from big games from Isaiah Likely and Cam Skattebo.",
+      "title": "Fantasy buzz: Does Emmett Johnson have RB1 upside while Kenneth Walker III sits?",
+      "summary": "Kansas City rookie Emmett Johnson is expected to be thrust into a starting role for Week 10 with Kenneth Walker III ruled out.",
       "publishedAt": "2026-11-13T14:01:39Z",
-      "teamIds": [
-        "19"
-      ]
+      "teamIds": []
     },
     {
       "id": "3302a6a4b6176ded",
@@ -1582,48 +1627,6 @@
       "teamIds": [
         "24",
         "21"
-      ]
-    },
-    {
-      "id": "c63eb58390a0ac92",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams",
-      "title": "5 bold NFL predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
-      "summary": "Plus, we may have our first coach firing of the season soon",
-      "publishedAt": "2026-11-13T12:40:08Z",
-      "teamIds": [
-        "9",
-        "14",
-        "26"
-      ]
-    },
-    {
-      "id": "6311911e231f9bd2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49965396/fantasy-football-start-sit-lineup-advice-week-10",
-      "title": "Need fantasy football lineup or trade advice? Join our live Q&A with our expert, noon ET",
-      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
-      "publishedAt": "2026-11-13T11:54:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "c4eeadc1bf99819e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50463616/fantasy-football-start-sit-sleepers-breakouts-week-10",
-      "title": "Don't be surprised if Jordan Love makes history and Mendoza performs like a QB1",
-      "summary": "Elite WRs compensate for the lack of a running game in Green Bay, while there's unwarranted caution for Vegas' QB.",
-      "publishedAt": "2026-11-13T11:52:21Z",
-      "teamIds": []
-    },
-    {
-      "id": "ebd2dd0bfe20e835",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50463489/fantasy-football-start-sit-week-10-need-know",
-      "title": "What to know to set your lineup: Cousins' Vikings return elevates Jefferson",
-      "summary": "Adam Rank catches you up on the vital information and insight before you make your toughest lineup decisions.",
-      "publishedAt": "2026-11-13T11:45:02Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]
