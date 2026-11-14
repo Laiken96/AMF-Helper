@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T23:40:26Z",
+  "updatedAt": "2026-11-14T00:47:26Z",
   "items": [
+    {
+      "id": "c58fbbe078d8f4a0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50475505/seahawks-raiders-week-10-darnold-lock-shaheed-returns",
+      "title": "Seahawks are hurting with injuries, but two players will return vs. Raiders",
+      "summary": "QB Drew Lock will start again for Darnold. LB Uchenna Nwosu and WR Rashid Shaheed will return to the field in Las Vegas.",
+      "publishedAt": "2026-11-14T00:33:45Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "74a778999079bd08",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-lock-has-another-limited-practice-but-does-not-have-an-injury-designation",
+      "title": "Drew Lock has another limited practice but does not have an injury designation",
+      "summary": "Drew Lock was limited in practice Friday, his sixth consecutive practice without team drills.",
+      "publishedAt": "2026-11-14T00:14:52Z",
+      "teamIds": []
+    },
+    {
+      "id": "1cd71aa22553b8d6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50462045/fantasy-football-injuries-nfl-week-10-inactive-active",
+      "title": "Fantasy football Week 10 inactives: Who's in and who's out?",
+      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
+      "publishedAt": "2026-11-14T00:11:35Z",
+      "teamIds": []
+    },
     {
       "id": "91ae2d7d7d6b420f",
       "source": "cbs",
@@ -1613,41 +1642,6 @@
       "teamIds": [
         "19",
         "28"
-      ]
-    },
-    {
-      "id": "a39a17ee3beb3979",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/commanders-vs-giants-odds-prediction-betting-preview-start-time-thursday-night-football-picks-best-bets",
-      "title": "Commanders vs. Giants odds, prediction, betting preview, start time: Thursday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Commanders vs. Giants on Thursday Night Football",
-      "publishedAt": "2026-11-13T00:00:54Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "9a01424e8f237d0f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-lt-charles-cross-practices-for-the-first-time-since-week-7",
-      "title": "Seahawks LT Charles Cross practices for the first time since Week 7",
-      "summary": "The Seahawks had their starting left tackle back at practice on Thursday.",
-      "publishedAt": "2026-11-13T00:00:46Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "bb0d7f32c5539069",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873064",
-      "title": "Steelers and Bengals meet for AFC North lead on Sunday night, both 6-2",
-      "summary": "Joe Burrow and the Cincinnati Bengals have been on a record run during their four-game winning streak.",
-      "publishedAt": "2026-11-13T00:00:41Z",
-      "teamIds": [
-        "4",
-        "23"
       ]
     }
   ]
