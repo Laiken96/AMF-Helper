@@ -1,7 +1,124 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T14:47:19Z",
+  "updatedAt": "2026-11-15T15:47:20Z",
   "items": [
+    {
+      "id": "398adf4f1b4a8833",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable",
+      "title": "Drake Maye, Aidan Hutchinson injured on same play: Patriots QB out, Lions DE questionable to return",
+      "summary": "Maye and Hutchinson both went down on the final play of the first drive",
+      "publishedAt": "2026-11-15T15:45:44Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "869161a34e7ed72a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50490616/how-travel-issues-impacting-officials-nfl-today",
+      "title": "How travel issues are impacting the officials in the NFL today",
+      "summary": null,
+      "publishedAt": "2026-11-15T15:45:21Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "3e9d1e58f83f7008",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+      "title": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
+      "summary": "Four NFL officials will pull a rare double shift Sunday, officiating two different games as a result of travel issues created by Friday's FAA ground stop.",
+      "publishedAt": "2026-11-15T15:43:21Z",
+      "teamIds": [
+        "4",
+        "11",
+        "15",
+        "23"
+      ]
+    },
+    {
+      "id": "4c38e04a3d6a03d5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50490533/patriots-drake-maye-lions-aidan-hutchinson-injured",
+      "title": "Patriots' Drake Maye, Lions' Aidan Hutchinson both injured on same play in Munich",
+      "summary": "Patriots QB Drake Maye and Lions DE Aidan Hutchinson were injured on the same play Sunday, taking star power out of the Munich game.",
+      "publishedAt": "2026-11-15T15:42:16Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "bf6f5f515da31fb9",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-sundays-games",
+      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Sunday's games",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-15T15:23:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "35bb22ad55e68e29",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-limps-to-locker-room-tommy-devito-in-at-qb-for-patriots-in-germany",
+      "title": "Drake Maye limps to locker room, Tommy DeVito in at QB for Patriots in Germany",
+      "summary": "Maye was injured when Aidan Hutchinson sacked him. Hutchinson was also injured while celebrating the sack.",
+      "publishedAt": "2026-11-15T15:00:28Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "01532b5ef8bbccbf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/german-fan-favorite-amon-ra-st-brown-scores-first-td-in-munich",
+      "title": "German fan favorite Amon-Ra St. Brown scores first TD in Munich",
+      "summary": "Amon-Ra St. Brown, whose mother is German and who spent some of his childhood in Germany, scored the game's first touchdown today.",
+      "publishedAt": "2026-11-15T14:56:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "a157134087d663ad",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-spreads-betting-advice-lines-picks-predictions-for-week-10-2026",
+      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-15T14:55:08Z",
+      "teamIds": [
+        "2",
+        "34"
+      ]
+    },
+    {
+      "id": "2cdc2e7651748157",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-injured-celebrating-after-sacking-drake-maye-in-germany",
+      "title": "Aidan Hutchinson injured celebrating after sacking Drake Maye in Germany",
+      "summary": "The Lions' best defensive player went down after a third-and-goal sack.",
+      "publishedAt": "2026-11-15T14:47:08Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "402e1ef8d593d81e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks",
+      "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
+      "summary": "Pete Prisco reveals all of his Week 10 picks, including the Packers to spoil Kirk Cousins' return with the Vikings",
+      "publishedAt": "2026-11-15T14:33:07Z",
+      "teamIds": [
+        "5",
+        "6",
+        "9",
+        "34",
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "c98ddf1f8bd75dee",
       "source": "cbs",
@@ -586,7 +703,7 @@
       "id": "9401a0edde3d0214",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-major-officiating-changes-week-10-faa-ground-stop",
-      "title": "FAA ground stop forces NFL to reshuffle officiating crews for Week 10",
+      "title": "NFL reshuffles officiating crews for Week 10, including double duty for one crew due to FAA ground stop",
       "summary": "The changes include one referee pulling double-duty on Sunday",
       "publishedAt": "2026-11-14T19:02:32Z",
       "teamIds": []
@@ -1510,117 +1627,6 @@
       "teamIds": [
         "33",
         "10"
-      ]
-    },
-    {
-      "id": "ba15843ed199e447",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-joey-porter-jr-breaks-silence-on-chatter-that-absence-is-contract-related",
-      "title": "Cowboys' Joey Porter Jr. breaks silence on chatter that absence is contract related",
-      "summary": "Porter Jr. missed Week 5 with a stomach bug and Week 9 at the Indianapolis Colts because of a foot injury",
-      "publishedAt": "2026-11-13T19:26:03Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "d630f4089e53eb94",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-dak-prescott-feels-jason-witten-could-absolutely-be-nfl-head-coach",
-      "title": "Star on the rise: Cowboys' Dak Prescott feels Jason Witten could 'absolutely' be an NFL head coach",
-      "summary": "Dallas' future Hall of Fame tight end has risen quickly from being a Texas high school head coach to being the interim offensive coordinator at the University of Oklahoma",
-      "publishedAt": "2026-11-13T19:09:53Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "cec350e5e7c33ab7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-griffin-iii-is-expected-to-interview-for-baylor-job",
-      "title": "Robert Griffin III is \"expected to interview\" for Baylor job",
-      "summary": "Former Baylor quarterback Robert Griffin III is interested in coaching his former college team.",
-      "publishedAt": "2026-11-13T19:05:21Z",
-      "teamIds": []
-    },
-    {
-      "id": "2fd4f494b3b2f397",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50473329/brown-defense-face-toughest-matchup",
-      "title": "Brown's defense to face its toughest matchup",
-      "summary": "Sarah Shaw [1:33 PM] Daniel Oyefusi previews the Browns-Texans matchup and how C.J. Stroud will fare against Cleveland's defense.",
-      "publishedAt": "2026-11-13T18:57:36Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "b14739ddd09d5339",
-      "source": "espn",
-      "url": "https://espn.com/college-football/story/_/id/50456831/sources-philip-rivers-nc-state-deal-set-finalized",
-      "title": "NC State officially hires Philip Rivers as football coach",
-      "summary": "The NC State board of trustees has finalized a five-year contract for former NFL quarterback Philip Rivers to become head football coach at his alma mater.",
-      "publishedAt": "2026-11-13T18:44:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "ee84c272c62a2f60",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50473143/rookie-wr-carnell-tate-multiple-titans-ruled-out",
-      "title": "Rookie WR Carnell Tate among multiple Titans starters ruled out vs. Jaguars",
-      "summary": "The Titans will be without multiple starters against the Jaguars on Sunday, including rookie wide receiver Carnell Tate.",
-      "publishedAt": "2026-11-13T18:27:45Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "6786a430200e1488",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-te-elijah-higgins-agree-to-three-year-extension",
-      "title": "Cardinals, TE Elijah Higgins agree to three-year extension",
-      "summary": "The Cardinals are investing further in the tight end position.",
-      "publishedAt": "2026-11-13T18:20:12Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "12532a20f53a2090",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50473202/amon-ra-st-brown-eyes-2028-olympics-flag-football-run-germany",
-      "title": "Amon-Ra St. Brown eyes a 2028 Olympics flag football run for Germany",
-      "summary": "Lions star Amon-Ra St. Brown says he wants to play flag football for Germany at the 2028 Los Angeles Olympics.",
-      "publishedAt": "2026-11-13T18:16:33Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "b94e443089c7d480",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472986/stephen-not-having-marcus-spears-cowboys-optimism",
-      "title": "Stephen A. is not having Marcus Spears' Cowboys optimism",
-      "summary": null,
-      "publishedAt": "2026-11-13T18:10:36Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "e2996e34b4f96144",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers",
-      "title": "NFL Week 10 picks: Our experts face off on Vikings at Packers, Steelers at Bengals and more",
-      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
-      "publishedAt": "2026-11-13T18:08:43Z",
-      "teamIds": [
-        "4",
-        "9",
-        "16",
-        "23"
       ]
     }
   ]
