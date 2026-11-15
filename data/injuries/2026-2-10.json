@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T16:50:30Z",
+    "takenAt": "2026-11-15T17:01:10Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1183,17 +1183,6 @@
             "status": null
           },
           {
-            "athleteId": "4039034",
-            "name": "Shane Buechele",
-            "pos": "QB",
-            "teamId": "2",
-            "teamAbbr": "BUF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4379399",
             "name": "James Cook III",
             "pos": "RB",
@@ -1236,7 +1225,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685247",
@@ -1265,6 +1254,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4428993",
+            "name": "Haynes King",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4685472",
@@ -1576,6 +1576,17 @@
             "teamAbbr": "KC",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
             ],
             "status": "Out"
           }
@@ -2177,13 +2188,13 @@
     },
     {
       "gameId": "401873054",
-      "athleteId": "4039034",
-      "name": "Shane Buechele",
-      "pos": "QB",
-      "teamAbbr": "BUF",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
+      "athleteId": "4569618",
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "teamAbbr": "NYJ",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873055",
@@ -2191,6 +2202,16 @@
       "name": "Zach Wilson",
       "pos": "QB",
       "teamAbbr": "NO",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873055",
+      "athleteId": "4428993",
+      "name": "Haynes King",
+      "pos": "QB",
+      "teamAbbr": "CAR",
       "kind": "neu",
       "from": null,
       "to": "Out"
@@ -2227,9 +2248,9 @@
     },
     {
       "gameId": "401873058",
-      "athleteId": "4567048",
-      "name": "Kenneth Walker III",
-      "pos": "RB",
+      "athleteId": "4567747",
+      "name": "Garrett Nussmeier",
+      "pos": "QB",
       "teamAbbr": "KC",
       "kind": "neu",
       "from": null,
