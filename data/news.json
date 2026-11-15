@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T02:47:47Z",
+  "updatedAt": "2026-11-15T03:47:22Z",
   "items": [
+    {
+      "id": "de649570e3850ecc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-rejoins-chiefs-after-traveling-on-his-own-to-atlanta",
+      "title": "Chris Jones rejoins Chiefs after traveling on his own to Atlanta",
+      "summary": "On Saturday afternoon, the Chiefs announced that defensive tackle Chris Jones would travel on his own to Atlanta for Sunday's game against the Falcons.",
+      "publishedAt": "2026-11-15T03:04:42Z",
+      "teamIds": [
+        "1",
+        "12"
+      ]
+    },
     {
       "id": "e622bc02d9c382a0",
       "source": "pft",
@@ -1614,17 +1626,6 @@
       "summary": null,
       "publishedAt": "2026-11-13T16:26:45Z",
       "teamIds": []
-    },
-    {
-      "id": "500dd1e65a79af2f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-stayed-in-his-stance-instead-of-pushing-jameis-winstons-tush-on-key-play",
-      "title": "Cam Skattebo stayed in his stance instead of pushing Jameis Winston's tush on key play",
-      "summary": "Giants running back Cam Skattebo stayed in his stance and didn't participate in the play on a key short-yardage snap late in the Giants' loss on Thursday night.",
-      "publishedAt": "2026-11-13T16:07:45Z",
-      "teamIds": [
-        "19"
-      ]
     }
   ]
 }
