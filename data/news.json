@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T05:47:20Z",
+  "updatedAt": "2026-11-15T08:47:20Z",
   "items": [
+    {
+      "id": "7708f880805e0ce7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-jets-renegotiated-andre-cisco-trade-after-concerns-arose-about-his-physical",
+      "title": "Lions, Jets renegotiated Andre Cisco trade after concerns arose about his physical",
+      "summary": "The Broncos-Chargers Daiyan Henley trade wasn't the only one affected by the player's physical.",
+      "publishedAt": "2026-11-15T08:40:30Z",
+      "teamIds": [
+        "7",
+        "8",
+        "24",
+        "20"
+      ]
+    },
     {
       "id": "da9db48b8c5b7502",
       "source": "pft",
@@ -1613,18 +1627,6 @@
       "teamIds": [
         "9",
         "16"
-      ]
-    },
-    {
-      "id": "e9b2a6baea7c3d8b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50472527/chargers-vs-ravens-watch-monday-night-football-week-10",
-      "title": "Chargers vs. Ravens: Where to watch 'Monday Night Football'",
-      "summary": "Here's what to know about the Week 10 matchup.",
-      "publishedAt": "2026-11-13T16:30:30Z",
-      "teamIds": [
-        "33",
-        "24"
       ]
     }
   ]
