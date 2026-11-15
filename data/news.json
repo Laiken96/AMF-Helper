@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T09:47:23Z",
+  "updatedAt": "2026-11-15T10:47:22Z",
   "items": [
+    {
+      "id": "cdf1af5e037dba76",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-hub-expert-selections-best-bets-teasers-survivor",
+      "title": "NFL Week 10 expert picks, odds, best bets, teasers, predictions, survivor picks and more",
+      "summary": "CBSSports.com and SportsLine break down every single NFL game in Week 10",
+      "publishedAt": "2026-11-15T10:01:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "4495226b78dd7df4",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/vikings-vs-packers-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-10",
+      "title": "Vikings vs. Packers odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 10",
+      "summary": "Here's everything bettors need to know for Vikings vs. Packers in NFL Week 10",
+      "publishedAt": "2026-11-15T10:01:11Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "b04d91b45e84e91d",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/panthers-vs-saints-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-10",
+      "title": "Panthers vs. Saints odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 10",
+      "summary": "Here's everything bettors need to know for Panthers vs. Saints in NFL Week 10",
+      "publishedAt": "2026-11-15T10:00:52Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
     {
       "id": "cd4552d5223e94bb",
       "source": "pft",
@@ -1590,41 +1623,6 @@
       "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
       "publishedAt": "2026-11-13T16:40:52Z",
       "teamIds": []
-    },
-    {
-      "id": "84f8dd7a60990b7f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472139/should-managers-concerned-malik-nabers-2-straight-duds",
-      "title": "Should managers be concerned with Malik Nabers after 2 straight duds?",
-      "summary": null,
-      "publishedAt": "2026-11-13T16:38:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "c7ae85debf98c40e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-odds-betting-lines-totals-spreads",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Cowboys-49ers, Steelers-Bengals",
-      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-13T16:36:02Z",
-      "teamIds": [
-        "4",
-        "6",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "1638020c8a476587",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-expects-garrett-wilson-to-clear-concussion-protocol-play-vs-bills",
-      "title": "Aaron Glenn expects Garrett Wilson to clear concussion protocol, play vs. Bills",
-      "summary": "It sounds like Jets receiver Garrett Wilson is on track to return to action on Sunday.",
-      "publishedAt": "2026-11-13T16:34:33Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
     }
   ]
 }
