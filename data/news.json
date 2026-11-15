@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T12:47:18Z",
+  "updatedAt": "2026-11-15T13:47:17Z",
   "items": [
+    {
+      "id": "f60a5da8c24ba300",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-amon-ra-st-brown-active-for-patriots-lions-in-munich",
+      "title": "A.J. Brown, Amon-Ra St. Brown active for Patriots-Lions in Munich",
+      "summary": "Brown returns to the Patriots lineup after missing the last two games.",
+      "publishedAt": "2026-11-15T13:39:22Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "34764de01d6f99eb",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/bengals-vs-steelers-odds-nfl-week-10-sunday-night-football-first-touchdown-scorer-picks-predictions",
+      "title": "Bengals vs. Steelers odds: NFL Week 10 Sunday Night Football first touchdown scorer picks, predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bengals and Steelers",
+      "publishedAt": "2026-11-15T13:30:50Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "cd55b860d2dfd3f2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/demarvion-overshown-wasnt-fined-for-running-onto-field-in-street-clothes",
+      "title": "Demarvion Overshown wasn't fined for running onto field in street clothes",
+      "summary": "In the fourth quarter of a Week 9 game the Cowboys led by only three points, Dallas forced — and recovered — a fumble by Colts running back Jonathan Taylor.",
+      "publishedAt": "2026-11-15T13:21:10Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "17c7f0a03ce51552",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/lions-vs-patriots-odds-picks-prediction-spread-start-time-betting-preview-best-bets-munich-game",
+      "title": "Lions vs. Patriots odds, picks, prediction, spread: Start time, betting preview, best bets for Munich game",
+      "summary": "Here's everything bettors need to know as the Lions and Patriots meet in Munich, Germany in NFL Week 10",
+      "publishedAt": "2026-11-15T13:03:32Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "7d9205f553297029",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/2026-week-10-nfl-player-props-odds-picks-best-bets-for-sundays-games-include-dak-prescott-travis-kelce",
+      "title": "2026 Week 10 NFL player props, odds, picks, best bets for Sunday's games include Dak Prescott, Travis Kelce",
+      "summary": "Bet on Week 10 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
+      "publishedAt": "2026-11-15T12:47:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "533d543d067f368e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-on-louisville-unc-brawl-thats-not-what-were-here-for",
+      "title": "Bill Belichick on Louisville-UNC brawl: \"That's not what we're here for\"",
+      "summary": "Saturday's game between Louisville and North Carolina ended in a brawl, sparked apparently by the Tar Heels being a little too aggressive in defending a victory-formation play.",
+      "publishedAt": "2026-11-15T12:44:07Z",
+      "teamIds": []
+    },
     {
       "id": "6c0f5ce86cdbbad4",
       "source": "espn",
@@ -1559,74 +1625,6 @@
       "publishedAt": "2026-11-13T17:38:46Z",
       "teamIds": [
         "4",
-        "23"
-      ]
-    },
-    {
-      "id": "b241d327d85f7ae3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/grading-every-nfl-team-at-midway-point-bills-49ers-chargers",
-      "title": "Grading every NFL team at the midway point: Chargers get an 'F,' three teams get solid 'A' grade",
-      "summary": "Buffalo is among the highest-rated teams, while the Eagles sit at the opposite end as a big disappointment",
-      "publishedAt": "2026-11-13T17:36:16Z",
-      "teamIds": [
-        "24",
-        "21"
-      ]
-    },
-    {
-      "id": "b691b6231ea60aa5",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/fernando-mendoza-carson-beck-kyle-mccord-make-nfl-history-first-starts",
-      "title": "Fernando Mendoza, Carson Beck, Kyle McCord set to make NFL history with first starts, debuts",
-      "summary": "A look at the three QBs set to make their first starts this week and what they had to say",
-      "publishedAt": "2026-11-13T17:30:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "ea397c81c9614742",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-players-blast-controversial-dpi-penalty-loss-to-commanders",
-      "title": "Giants players blast controversial DPI penalty in loss to Commanders: 'This league is funny, bro'",
-      "summary": "The late-game penalty led to a game-winning Commanders touchdown",
-      "publishedAt": "2026-11-13T17:25:30Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "f82b4abf08ff673e",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472819/sonny-styles-setting-washington-game-winning-drive",
-      "title": "Sonny Styles setting up Washington's game-winning drive",
-      "summary": "John Keim breaks down how Styles anticipated the Giants' offense before delivering a big hit on J.J. McCarthy.",
-      "publishedAt": "2026-11-13T17:24:17Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "e961e31c8c2a7c15",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-rhamondre-stevenson-among-patriots-questionable-for-sunday-vs-lions",
-      "title": "A.J. Brown, Rhamondre Stevenson among Patriots questionable for Sunday vs. Lions",
-      "summary": "The Patriots have several players listed as questionable for Sunday's game against the Lions in Madrid.",
-      "publishedAt": "2026-11-13T17:23:26Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "ffb8d8baa29f113a",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-rams-steelers-part-of-week-10-parlays-involving-favorites-underdogs",
-      "title": "NFL odds, picks, predictions: Rams, Steelers part of Week 10 parlays involving favorites, underdogs",
-      "summary": "SportsLine football expert Mike Tierney locks in his top parlays for Week 10 NFL games",
-      "publishedAt": "2026-11-13T17:02:27Z",
-      "teamIds": [
-        "14",
         "23"
       ]
     }
