@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T16:40:30Z",
+    "takenAt": "2026-11-15T16:50:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1183,6 +1183,17 @@
             "status": null
           },
           {
+            "athleteId": "4039034",
+            "name": "Shane Buechele",
+            "pos": "QB",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4379399",
             "name": "James Cook III",
             "pos": "RB",
@@ -1290,6 +1301,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4361259",
+            "name": "Zach Wilson",
+            "pos": "QB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4361370",
@@ -1468,6 +1490,17 @@
         "kickoffUtc": "2026-11-15T18:00:00Z",
         "players": [
           {
+            "athleteId": "14012",
+            "name": "Andy Dalton",
+            "pos": "QB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4360423",
             "name": "Michael Penix Jr.",
             "pos": "QB",
@@ -1500,6 +1533,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "5344782",
+            "name": "Jack Strand",
+            "pos": "QB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "15847",
@@ -1576,6 +1620,17 @@
             "status": null
           },
           {
+            "athleteId": "4683423",
+            "name": "Riley Leonard",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4242512",
             "name": "Malik Willis",
             "pos": "QB",
@@ -1585,7 +1640,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4569603",
@@ -1670,7 +1725,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4262921",
@@ -1682,6 +1737,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4573398",
+            "name": "Max Brosmer",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2110,6 +2176,26 @@
       "to": "Out"
     },
     {
+      "gameId": "401873054",
+      "athleteId": "4039034",
+      "name": "Shane Buechele",
+      "pos": "QB",
+      "teamAbbr": "BUF",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873055",
+      "athleteId": "4361259",
+      "name": "Zach Wilson",
+      "pos": "QB",
+      "teamAbbr": "NO",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873056",
       "athleteId": "4427238",
       "name": "Dillon Gabriel",
@@ -2150,9 +2236,49 @@
       "to": "Out"
     },
     {
+      "gameId": "401873058",
+      "athleteId": "14012",
+      "name": "Andy Dalton",
+      "pos": "QB",
+      "teamAbbr": "ATL",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873058",
+      "athleteId": "5344782",
+      "name": "Jack Strand",
+      "pos": "QB",
+      "teamAbbr": "ATL",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873059",
+      "athleteId": "4683423",
+      "name": "Riley Leonard",
+      "pos": "QB",
+      "teamAbbr": "IND",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873059",
+      "athleteId": "4242512",
+      "name": "Malik Willis",
+      "pos": "QB",
+      "teamAbbr": "MIA",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
       "gameId": "401873060",
-      "athleteId": "3917315",
-      "name": "Kyler Murray",
+      "athleteId": "4573398",
+      "name": "Max Brosmer",
       "pos": "QB",
       "teamAbbr": "MIN",
       "kind": "neu",
