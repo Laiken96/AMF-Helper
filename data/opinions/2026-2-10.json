@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-15T12:11:00Z",
+  "updatedAt": "2026-11-15T15:10:52Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -242,6 +242,60 @@
         {
           "title": "Vikings at Packers Week 10 Game Preview (vikings.com)",
           "url": "https://www.vikings.com/news/green-bay-packers-game-preview-nfl-week-10-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873061",
+      "createdAt": "2026-11-15T15:10:44Z",
+      "winnerTeamId": "14",
+      "pWinner": 0.68,
+      "marketPickTeamId": "14",
+      "marketProb": 0.7592,
+      "reasoning": "Die Cardinals (3-6) müssen mit dem Rookie Carson Beck antreten, nachdem Gardner Minshew auf Injured Reserve gesetzt wurde, und verloren zuletzt 17-3 gegen Seattle. Die Rams (5-4) haben zwar Ausfälle bei Avila und Ferguson sowie fragliche Spieler wie McDuffie, Garrett wird aber voraussichtlich spielen, weshalb ich sie klar vorne sehe.",
+      "sources": [
+        {
+          "title": "Cardinals place QB Gardner Minshew on injured reserve, opening the door for rookie Carson Beck (AP)",
+          "url": "https://www.azfamily.com/2026/11/11/cardinals-place-qb-gardner-minshew-injured-reserve-opening-door-rookie-carson-beck/"
+        },
+        {
+          "title": "Sean McVay Gives Injury Updates On Rams Stars Myles Garrett, Trent McDuffie",
+          "url": "https://www.foxsports.com/stories/nfl/sean-mcvay-myles-garrett-trent-mcduffie-injury-update-rams-cardinals"
+        },
+        {
+          "title": "Rams Injury Report: Avila, Ferguson Out vs. Cardinals",
+          "url": "https://bvmsports.com/2026/11/13/rams-injury-report-avila-ferguson-out-vs-cardinals/"
+        },
+        {
+          "title": "Los Angeles Rams vs Arizona Cardinals Preview & Start Time, November 15, 2026",
+          "url": "https://www.si.com/nfl/scoreboard/rams-vs-cardinals-11-15-2026-530"
+        }
+      ]
+    },
+    {
+      "gameId": "401873062",
+      "createdAt": "2026-11-15T15:10:52Z",
+      "winnerTeamId": "26",
+      "pWinner": 0.6,
+      "marketPickTeamId": "26",
+      "marketProb": 0.6849,
+      "reasoning": "Seattle ist trotz des Ausfalls von Starter Darnold leicht favorisiert, weil die Verteidigung laut Berichten die wenigsten Yards in der NFL zulässt und Backup Lock in seinen zwei bisherigen Starts beide Partien gewann. Gegen Seattle sprechen die Verletzungen in der Offensivlinie (Nelson, Cross) und im Defensivline-Bereich (Williams) sowie Locks angeschlagener Zustand, während Las Vegas mit Rookie Mendoza im ersten Start zu Hause nur wenige Ausfälle meldet, aber zuletzt meist verlor.",
+      "sources": [
+        {
+          "title": "ESPN: Seahawks vs. Raiders Live Score und Verletzungsliste",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873062/seahawks-raiders"
+        },
+        {
+          "title": "Yahoo Sports: Seahawks-Raiders injury designations",
+          "url": "https://sports.yahoo.com/articles/seahawks-raiders-injury-designations-uchenna-222423809.html"
+        },
+        {
+          "title": "Yahoo Sports: Seahawks rule out QB Sam Darnold for Week 10 vs. Raiders",
+          "url": "https://sports.yahoo.com/nfl/article/seahawks-rule-out-qb-sam-darnold-for-week-10-vs-raiders-drew-lock-dealing-with-oblique-injury-175613358.html"
+        },
+        {
+          "title": "Raiders Wire: QB Sam Darnold ruled OUT for Seahawks Week 10 vs Raiders",
+          "url": "https://sports.yahoo.com/articles/qb-sam-darnold-ruled-seahawks-230709041.html"
         }
       ]
     }
