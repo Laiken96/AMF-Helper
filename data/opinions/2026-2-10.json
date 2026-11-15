@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-15T12:01:51Z",
+  "updatedAt": "2026-11-15T12:11:00Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -161,6 +161,87 @@
         {
           "title": "Jaguars vs Titans Prediction, Picks & Odds: NFL Week 10",
           "url": "https://www.covers.com/nfl/jaguars-vs-titans-prediction-picks-nov-15-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873058",
+      "createdAt": "2026-11-15T12:10:41Z",
+      "winnerTeamId": "12",
+      "pWinner": 0.62,
+      "marketPickTeamId": "12",
+      "marketProb": 0.5879,
+      "reasoning": "Die Chiefs fehlen ohne Kenneth Walker, dazu fallen Norman-Lott, Woods und Moore aus, aber Patrick Mahomes ist ohne Einschränkung dabei. Bei Atlanta fehlen Zachariah Branch und wahrscheinlich Divine Deablo, während mehrere Defensivspieler nur fraglich sind. Insgesamt sehen wir die Chiefs knapp vorne, weil der Quarterback gesund ist und die Falcons personell stärker dezimiert sind.",
+      "sources": [
+        {
+          "title": "Chiefs rule out Kenneth Walker for Falcons game with a groin injury - ABC News",
+          "url": "https://abcnews.com/Sports/wireStory/chiefs-rule-kenneth-walker-nfls-2-rusher-sundays-138145216"
+        },
+        {
+          "title": "Kenneth Walker III out against NFL rushing leader Bijan Robinson's Falcons, Patrick Mahomes off injury report - Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/kenneth-walker-iii-out-against-nfl-rushing-leader-bijan-robinson-falcons-patrick-mahomes-off-injury-report"
+        },
+        {
+          "title": "Falcons vs. Chiefs injury report: James Pearce Jr. questionable to play on Sunday - The Falcoholic",
+          "url": "https://www.thefalcoholic.com/atlanta-falcons-injuries/98375/falcons-vs-chiefs-injury-report-james-pearce-jr-questionable-to-play-on-sunday"
+        },
+        {
+          "title": "Falcons injury report: Zachariah Branch out; James Pearce Jr. questionable vs. Chiefs - Atlanta Falcons",
+          "url": "https://www.atlantafalcons.com/news/falcons-injury-report-zachariah-branch-out-james-pearce-jr-questionable-chiefs"
+        }
+      ]
+    },
+    {
+      "gameId": "401873059",
+      "createdAt": "2026-11-15T12:10:50Z",
+      "winnerTeamId": "11",
+      "pWinner": 0.66,
+      "marketPickTeamId": "11",
+      "marketProb": 0.6306,
+      "reasoning": "Die Colts spielen zu Hause und setzen mit Daniel Jones auf einen erfahrenen Starter, während Miami mit dem Debütanten Kyle McCord antritt, weil Malik Willis auf der Injured Reserve steht. Bei den Dolphins fehlen zudem Center Aaron Brewer und Zach Sieler, Chris Bell ist fraglich. Indianapolis hat ebenfalls Ausfälle (Jalen Travis, Mo Alie-Cox, Akeem Davis-Gaither), dazu fand ich keine Wetterinformationen, daher bleibt der Vorteil moderat.",
+      "sources": [
+        {
+          "title": "Dolphins vs. Colts (Nov 15, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873059/dolphins-colts"
+        },
+        {
+          "title": "Dolphins vs. Colts prediction: Odds, expert picks, QB matchup, injury update - NBC Sports",
+          "url": "https://nbcsports.com/nfl/news/dolphins-vs-colts-prediction-odds-expert-picks-qb-matchup-injury-update-trends-and-stats"
+        },
+        {
+          "title": "Dolphins Hit With More Bad Injury News Ahead of Colts Game - Yardbarker",
+          "url": "https://www.yardbarker.com/nfl/articles/dolphins_hit_with_more_bad_injury_news_ahead_of_colts_game/s1_17098_44556768"
+        },
+        {
+          "title": "Colts activate Arden Key from injured reserve, place two veterans on IR",
+          "url": "https://stampedeblue.com/indianapolis-colts-news/130047/colts-activate-arden-key-from-injured-reserve-place-two-veterans-on-ir"
+        }
+      ]
+    },
+    {
+      "gameId": "401873060",
+      "createdAt": "2026-11-15T12:11:00Z",
+      "winnerTeamId": "9",
+      "pWinner": 0.66,
+      "marketPickTeamId": "9",
+      "marketProb": 0.5735,
+      "reasoning": "Die Vikings müssen ohne Starter-QB Kyler Murray (Hamstring) antreten, Kirk Cousins springt ein, und auch TE T.J. Hockenson sowie LB Blake Cashman fehlen. Die Packers sind zwar ohne Josh Jacobs, Sean Rhyan und Micah Parsons, haben aber Heimvorteil, ein kaltes, aber trockenes Wetter ohne Wind und eine Defensive mit Xavier McKinney, der die meisten Interceptions der NFL hat. Die Passoffensive der Vikings liegt ligaweit im hinteren Bereich, weshalb ich Green Bay klar, aber nicht übermässig favorisiere.",
+      "sources": [
+        {
+          "title": "Packers-Vikings Final Injury Report: Seven Starters Out or Questionable (SI)",
+          "url": "https://www.si.com/nfl/packers/onsi/packers-vikings-final-injury-report-seven-starters-out-or-questionable"
+        },
+        {
+          "title": "Packers-Vikings Final Injury Report (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/articles/packers-vikings-final-injury-report-215541915.html"
+        },
+        {
+          "title": "A Sunny Sunday Sets the Stage for a Mid-November Warmup (NBC26)",
+          "url": "https://www.nbc26.com/weather/a-sunny-sunday-sets-the-stage-for-a-mid-november-warmup"
+        },
+        {
+          "title": "Vikings at Packers Week 10 Game Preview (vikings.com)",
+          "url": "https://www.vikings.com/news/green-bay-packers-game-preview-nfl-week-10-2026"
         }
       ]
     }
