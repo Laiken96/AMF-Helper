@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T04:47:19Z",
+  "updatedAt": "2026-11-15T05:47:20Z",
   "items": [
+    {
+      "id": "da9db48b8c5b7502",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/three-referees-will-be-working-in-other-roles-on-sunday-due-to-the-ground-stop",
+      "title": "Three referees will be working in other roles on Sunday, due to the ground stop",
+      "summary": "The full scope of the adjustments to the usual officiating crews isn't officially known.",
+      "publishedAt": "2026-11-15T04:50:40Z",
+      "teamIds": []
+    },
     {
       "id": "3806cb4f38f744df",
       "source": "pft",
@@ -1617,15 +1626,6 @@
         "33",
         "24"
       ]
-    },
-    {
-      "id": "3c4aecd839997b3b",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50465559/2026-nfl-mvp-favorite-odds-betting-quarterbacks",
-      "title": "Joe Burrow is the MVP favorite, but is there a better betting value?",
-      "summary": "Joe Burrow is the MVP favorite halfway through the season, but is he worth a bet, or are their better values?",
-      "publishedAt": "2026-11-13T16:28:13Z",
-      "teamIds": []
     }
   ]
 }
