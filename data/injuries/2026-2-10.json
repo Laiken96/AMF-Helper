@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T20:10:36Z",
+    "takenAt": "2026-11-15T21:10:29Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1727,21 +1727,9 @@
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
           {
-            "athleteId": "4038524",
-            "name": "Gardner Minshew II",
-            "pos": "QB",
-            "teamId": "22",
-            "teamAbbr": "ARI",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4361307",
-            "name": "Trey McBride",
-            "pos": "TE",
+            "athleteId": "4360739",
+            "name": "Simi Fehoko",
+            "pos": "WR",
             "teamId": "22",
             "teamAbbr": "ARI",
             "roles": [
@@ -1761,6 +1749,18 @@
             "status": null
           },
           {
+            "athleteId": "4430841",
+            "name": "Carson Beck",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "5151948",
             "name": "Joey Aguilar",
             "pos": "QB",
@@ -1770,40 +1770,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "12483",
-            "name": "Matthew Stafford",
-            "pos": "QB",
-            "teamId": "14",
-            "teamAbbr": "LAR",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4426515",
-            "name": "Puka Nacua",
-            "pos": "WR",
-            "teamId": "14",
-            "teamAbbr": "LAR",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4430737",
-            "name": "Kyren Williams",
-            "pos": "RB",
-            "teamId": "14",
-            "teamAbbr": "LAR",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           },
           {
             "athleteId": "4685522",
@@ -1823,8 +1789,8 @@
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
           {
-            "athleteId": "4432665",
-            "name": "Brock Bowers",
+            "athleteId": "4429086",
+            "name": "Michael Mayer",
             "pos": "TE",
             "teamId": "13",
             "teamAbbr": "LV",
@@ -1857,38 +1823,15 @@
             "status": null
           },
           {
-            "athleteId": "3912547",
-            "name": "Sam Darnold",
-            "pos": "QB",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4430878",
-            "name": "Jaxon Smith-Njigba",
-            "pos": "WR",
-            "teamId": "26",
-            "teamAbbr": "SEA",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4887558",
-            "name": "Emanuel Wilson",
+            "athleteId": "4426385",
+            "name": "Zach Charbonnet",
             "pos": "RB",
             "teamId": "26",
             "teamAbbr": "SEA",
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           }
         ]
       },
@@ -2338,16 +2281,6 @@
       "kind": "weg",
       "from": "Out",
       "to": null
-    },
-    {
-      "gameId": "401873062",
-      "athleteId": "4887558",
-      "name": "Emanuel Wilson",
-      "pos": "RB",
-      "teamAbbr": "SEA",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
     },
     {
       "gameId": "401873063",
