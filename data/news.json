@@ -1,7 +1,134 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T16:47:25Z",
+  "updatedAt": "2026-11-15T17:47:23Z",
   "items": [
+    {
+      "id": "0738cad23c3ca3fe",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50490428/how-one-phil-collins-song-changed-air-nfl-forever",
+      "title": "How one Phil Collins song changed the 'Air' in the NFL forever",
+      "summary": "Phil Collins iconic song “In the Air Tonight” blasts through NFL stadiums and players’ headphones on a weekly basis. As Collins is enshrined in the Hall of Fame, players around the league react to what that song means to them.",
+      "publishedAt": "2026-11-15T17:40:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "726ab846fe21a9dd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-leads-the-way-as-lions-blow-past-patriots-in-germany",
+      "title": "Jahmyr Gibbs leads the way as Lions blow past Patriots in Germany",
+      "summary": "Patriots quarterback Drake Maye got injured on the first possession, and New England wasn't competitive after that.",
+      "publishedAt": "2026-11-15T17:35:55Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "b942a95da1cf3ff2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
+      "title": "2027 NFL draft questions, latest intel, risers, CFB standouts",
+      "summary": "Is Jackson Harris the WR3 in the class? And has Boubacar Traore emerged as the No. 3 edge rusher? Here's our weekly draft spin, including top standouts.",
+      "publishedAt": "2026-11-15T17:34:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "38341889f1ab21b1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-could-become-sixth-coach-to-start-0-9-in-division",
+      "title": "Aaron Glenn could become sixth coach to start 0-9 in division",
+      "summary": "Jets coach Aaron Glenn has a 5-21 record during his one-and-a-half-year tenure with the team.",
+      "publishedAt": "2026-11-15T17:31:20Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "dd8e79ef051dd6d3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
+      "title": "Panthers QB Bryce Young leads NFL Week 10 arrivals",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-15T17:28:13Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "5b277656296bdf60",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-saints-battle-for-fourth-win-nfc-south-lead",
+      "title": "Panthers and Saints battle for fourth win — and NFC South lead",
+      "summary": "Sunday begins with the Panthers and Saints at 3-5, and the Falcons and Buccaneers at 3-6.",
+      "publishedAt": "2026-11-15T17:21:23Z",
+      "teamIds": [
+        "1",
+        "29",
+        "18",
+        "27"
+      ]
+    },
+    {
+      "id": "c65174413657ca55",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-heads-to-locker-room-with-hamstring-injury",
+      "title": "A.J. Brown heads to locker room with hamstring injury",
+      "summary": "It's been another tough day in the disappointing first year as a Patriot for wide receiver A.J.",
+      "publishedAt": "2026-11-15T17:09:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "135ed9a1e6dc5cf2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-is-the-first-quarterback-with-20-td-passes-to-change-teams-midseason",
+      "title": "Kirk Cousins is the first quarterback with 20 TD passes to change teams midseason",
+      "summary": "It was a crazy week for the Vikings and for quarterback Kirk Cousins.",
+      "publishedAt": "2026-11-15T17:09:21Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "6d6610fd8dce3261",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-out-of-game-after-suffering-knee-injury-celebrating-a-sack",
+      "title": "Aidan Hutchinson out of game after suffering knee injury celebrating a sack",
+      "summary": "Hutchinson's knee buckled awkwardly as he landed after jumping in the air to celebrate sacking Drake Maye, who was also knocked out of the game.",
+      "publishedAt": "2026-11-15T17:00:19Z",
+      "teamIds": []
+    },
+    {
+      "id": "1f4a2c6b315c494b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
+      "title": "Jordan Addison is out for Vikings in Green Bay",
+      "summary": "Kirk Cousins will be short on targets in his return to the Vikings lineup.",
+      "publishedAt": "2026-11-15T16:49:53Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "1f94282b092ed623",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-10-2026-expert-ats-picks-best-bets-predictions-player-props-nov-15",
+      "title": "NFL picks against the spread, Week 10 2026: Expert ATS picks, best bets, predictions, player props for Nov. 15",
+      "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
+      "publishedAt": "2026-11-15T16:46:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "04b98b15c7f28c8e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/vikings-vs-packers-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets",
+      "title": "Vikings vs. Packers odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Vikings vs. Packers in NFL Week 10",
+      "publishedAt": "2026-11-15T16:45:45Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
     {
       "id": "6e8a29728dca3c94",
       "source": "espn",
@@ -12,6 +139,15 @@
       "teamIds": [
         "27"
       ]
+    },
+    {
+      "id": "16ede7c82062bd70",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-10-best-bets-player-props-anytime-td-scorers-for-sundays-games",
+      "title": "NFL odds, picks: Brinson's Week 10 best bets, player props, anytime TD scorers for Sunday's games",
+      "summary": "Back Kirk Cousins in his return to Minnesota, take the points with New England against Detroit and expect points in an AFC East shootout at MetLife",
+      "publishedAt": "2026-11-15T16:40:50Z",
+      "teamIds": []
     },
     {
       "id": "cdbc594c5e661892",
@@ -1484,149 +1620,6 @@
       "teamIds": [
         "21"
       ]
-    },
-    {
-      "id": "ac91dfefb96ce0db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-has-no-injury-designation-but-four-cbs-are-questionable-for-49ers",
-      "title": "Deebo Samuel has no injury designation, but four CBs are questionable for 49ers",
-      "summary": "The 49ers will see the return of wide receiver Deebo Samuel.",
-      "publishedAt": "2026-11-13T22:16:26Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "4ef0b1dee554cd5a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-cam-skattebo-was-not-supposed-to-push-on-jameis-winston-sneak",
-      "title": "John Harbaugh: Cam Skattebo was not supposed to push on Jameis Winston sneak",
-      "summary": "Giants coach John Harbaugh defended running back Cam Skattebo, who stayed in his stance on a crucial Jameis Winston quarterback sneak during Thursday night's loss to the Commanders.",
-      "publishedAt": "2026-11-13T22:16:00Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "decde01cd1ed90d8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nationwide-ground-stop-potentially-complicates-nfl-college-games",
-      "title": "Nationwide ground stop potentially complicates NFL, college games",
-      "summary": "Some teams could get to game locations by ground. Many would have a hard time.",
-      "publishedAt": "2026-11-13T22:05:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "7489de428605f39d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-hjalte-froholdt-will-miss-his-first-game-since-joining-the-cardinals",
-      "title": "C Hjalte Froholdt will miss his first game since joining the Cardinals",
-      "summary": "Center Hjalte Froholdt will miss his first start since joining the Cardinals in 2023.",
-      "publishedAt": "2026-11-13T21:57:10Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "1f071bae5276525a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday",
-      "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
-      "summary": "Minnesota traded for their old friend on Tuesday at the NFL trade deadline, and he will start for the Vikings right away on Sunday",
-      "publishedAt": "2026-11-13T21:48:22Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "ee484115d33a3673",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/danielle-hunter-out-will-anderson-jr-questionable-for-texans-browns",
-      "title": "Danielle Hunter out, Will Anderson Jr. questionable for Texans-Browns",
-      "summary": "The Texans will be without at least one of their top edge rushers for Sunday's game against the Browns.",
-      "publishedAt": "2026-11-13T21:39:56Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "745dc2d25c43aaa6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-will-start-for-vikings-on-sunday",
-      "title": "Kirk Cousins will start for Vikings on Sunday",
-      "summary": "The Vikings acquired the quarterback in a trade with the Raiders on Tuesday.",
-      "publishedAt": "2026-11-13T21:38:37Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "b0b0ff0fe044c950",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rt-spencer-brown-is-doubtful-with-ankle-injury",
-      "title": "Bills RT Spencer Brown is doubtful with ankle injury",
-      "summary": "Bills right tackle Spencer Brown (ankle) is doubtful for Sunday's game against the Jets.",
-      "publishedAt": "2026-11-13T21:17:23Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "28f226afa92c5f3f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50474246/andy-reid-delivers-injury-update-kenneth-walker-iii",
-      "title": "Andy Reid delivers injury update on Kenneth Walker III",
-      "summary": null,
-      "publishedAt": "2026-11-13T21:15:49Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "20a5a7de20019c5b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-10-underrated-games-browns-texans-raiders-seahawks",
-      "title": "Week 10 underrated games: 3 games you should watch this week, from divisional matchups to first QB starts",
-      "summary": "A look at three games that should be on your radar this week",
-      "publishedAt": "2026-11-13T21:05:09Z",
-      "teamIds": []
-    },
-    {
-      "id": "57675d5519b24cc3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-de-james-pearce-is-questionable",
-      "title": "Falcons DE James Pearce is questionable",
-      "summary": "Falcons defensive end James Pearce Jr. is questionable for Sunday's game against the Chiefs.",
-      "publishedAt": "2026-11-13T21:05:09Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "94bca8370a5b1a90",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-mansoor-delane-are-questionable-for-chiefs",
-      "title": "Kenneth Walker, Mansoor Delane are questionable for Chiefs",
-      "summary": "The Chiefs officially list running back Kenneth Walker as questionable for Sunday.",
-      "publishedAt": "2026-11-13T20:46:47Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "2410b6e3e49a5ed8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jerry-jones-on-nfl-expansion-18-game-regular-season",
-      "title": "Jerry Jones reveals when he thinks NFL expands to 18-game season, but process to get there is complicated",
-      "summary": "Jones sees the NFL 'maybe' expanding to an 18-game regular season sooner than one might think",
-      "publishedAt": "2026-11-13T20:36:20Z",
-      "teamIds": []
     }
   ]
 }

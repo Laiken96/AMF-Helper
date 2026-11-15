@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "fetchedAt": "2026-11-15T16:47:21Z",
+  "fetchedAt": "2026-11-15T17:47:18Z",
   "source": "espn",
   "games": [
     {
@@ -36,10 +36,10 @@
       "kickoffUtc": "2026-11-15T14:30:00Z",
       "homeId": "8",
       "awayId": "17",
-      "status": "in_progress",
-      "statusDetail": "6:03 - 3rd",
-      "homeScore": 28,
-      "awayScore": 3,
+      "status": "final",
+      "statusDetail": "Final",
+      "homeScore": 35,
+      "awayScore": 10,
       "venue": "FC Bayern Munich Stadium",
       "neutralSite": true,
       "venueInfo": {

@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-15T16:47:23Z",
+    "takenAt": "2026-11-15T17:47:21Z",
     "games": [
       {
         "gameId": "401873066",
@@ -79,6 +79,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4683423",
+            "name": "Riley Leonard",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -152,6 +163,17 @@
             "roles": [
               "rushing"
             ],
+            "status": null
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
+            ],
             "status": "Out"
           }
         ]
@@ -217,6 +239,17 @@
             "status": null
           },
           {
+            "athleteId": "4428993",
+            "name": "Haynes King",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4685472",
             "name": "Tetairoa McMillan",
             "pos": "WR",
@@ -256,17 +289,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4039034",
-            "name": "Shane Buechele",
-            "pos": "QB",
-            "teamId": "2",
-            "teamAbbr": "BUF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4379399",
@@ -682,7 +704,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685247",
