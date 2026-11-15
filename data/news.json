@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T23:10:24Z",
+  "updatedAt": "2026-11-15T00:47:29Z",
   "items": [
+    {
+      "id": "fe83c4b5d3933cff",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-saints-game-wont-have-a-replay-assistant-due-to-ground-stop",
+      "title": "Panthers-Saints game won't have a replay assistant, due to ground stop",
+      "summary": "Travel issues will leave at least one game short-staffed.",
+      "publishedAt": "2026-11-15T00:35:29Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "19fc9d0ab5f13511",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-week-9-jalen-pitre-was-fined-twice-for-illegal-use-of-helmet",
+      "title": "For Week 9, Jalen Pitre was fined twice for illegal use of helmet",
+      "summary": "Every Saturday, plenty of players get fined for illegal use of helmet fouls from the prior weekend's game.",
+      "publishedAt": "2026-11-15T00:20:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "f7ef2625117fd1a9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-very-very-impressed-with-how-jacoby-brissett-picked-up-offense",
+      "title": "Jesse Minter: \"Very, very impressed\" with how Jacoby Brissett picked up offense",
+      "summary": "It appears quarterback Jacoby Brissett earned a good grade in his crash course on the Ravens offense.",
+      "publishedAt": "2026-11-14T23:56:04Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "d462dc8b307de1e1",
       "source": "espn",
@@ -1597,39 +1629,6 @@
       "summary": "If Troy Aikman exits broadcasting after this season (last month, he put the chance at \"50-50\") and if Aikman lands a key position in a front office, the name at the top of his head-coaching wishlist will already be known.",
       "publishedAt": "2026-11-13T15:36:29Z",
       "teamIds": []
-    },
-    {
-      "id": "7f9f96fb7c0b64cc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-sts-coordinator-dave-toub-were-confident-harrison-butker-will-come-through-it",
-      "title": "Chiefs STs coordinator Dave Toub: We're confident Harrison Butker will come through it",
-      "summary": "The Chiefs have had a kicking problem for a while.",
-      "publishedAt": "2026-11-13T15:33:25Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "db5b2a63381b40bd",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472074/john-harbaugh-ashamed-giants-loss",
-      "title": "Stephen A.: 'John Harbaugh should be ashamed of himself' after Giants' loss",
-      "summary": null,
-      "publishedAt": "2026-11-13T15:29:56Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "209001aea19b113e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50464884/fantasy-football-hall-fame-clinton-portis",
-      "title": "ESPN Fantasy Football Hall of Fame recognizes Clinton Portis' 5-touchdown game",
-      "summary": "Clinton Portis scored 5 touchdowns, rushing for over 200 yards in what was for many the first round of the 2003 fantasy football playoffs.",
-      "publishedAt": "2026-11-13T15:29:42Z",
-      "teamIds": [
-        "7"
-      ]
     }
   ]
 }
