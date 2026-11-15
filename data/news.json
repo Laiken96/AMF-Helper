@@ -1,7 +1,48 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T13:47:17Z",
+  "updatedAt": "2026-11-15T14:47:19Z",
   "items": [
+    {
+      "id": "c98ddf1f8bd75dee",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-10-2026-expert-ats-picks-predictions-best-bets-player-props-nov-15",
+      "title": "NFL picks against the spread, Week 10 2026: Expert ATS picks, predictions, best bets, player props for Nov. 15",
+      "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
+      "publishedAt": "2026-11-15T14:25:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "74e25106fd3232f9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
+      "title": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
+      "publishedAt": "2026-11-15T14:11:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "32ea10ba524b2131",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-claim-over-3000-bonuses-from-betting-apps-sportsbooks-for-sunday",
+      "title": "Week 10 NFL betting promos: Claim over $3,000 in bonuses from betting apps, sportsbooks for Sunday",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-15T14:10:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "157267c925d29f2f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-lines-odds-spreads-totals",
+      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Cowboys-49ers, Steelers-Bengals",
+      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
+      "publishedAt": "2026-11-15T14:00:56Z",
+      "teamIds": [
+        "4",
+        "6",
+        "23",
+        "25"
+      ]
+    },
     {
       "id": "f60a5da8c24ba300",
       "source": "pft",
@@ -1579,52 +1620,6 @@
         "4",
         "9",
         "16",
-        "23"
-      ]
-    },
-    {
-      "id": "337b8fa771767f2f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/philip-rivers-named-nc-state-head-coach",
-      "title": "Philip Rivers named NC State head coach",
-      "summary": "NC State has made it official: Philip Rivers is the football program's new head coach.",
-      "publishedAt": "2026-11-13T18:05:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "402e1ef8d593d81e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks",
-      "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
-      "summary": "Pete Prisco reveals all of his Week 10 picks, including the Packers to spoil Kirk Cousins' return with the Vikings",
-      "publishedAt": "2026-11-13T18:03:06Z",
-      "teamIds": [
-        "6",
-        "8",
-        "9",
-        "16",
-        "17",
-        "25"
-      ]
-    },
-    {
-      "id": "d51d722c00f178bb",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50473028/daniel-dopp-week-10-draftkings-tournament-lineup",
-      "title": "Daniel Dopp's Week 10 DraftKings tournament lineup",
-      "summary": null,
-      "publishedAt": "2026-11-13T17:57:12Z",
-      "teamIds": []
-    },
-    {
-      "id": "4a7023e2ce07d493",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever",
-      "title": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
-      "summary": "The NFL didn't really think through this part of the schedule",
-      "publishedAt": "2026-11-13T17:38:46Z",
-      "teamIds": [
-        "4",
         "23"
       ]
     }
