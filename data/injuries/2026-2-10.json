@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T11:30:49Z",
+    "takenAt": "2026-11-15T13:10:29Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1150,7 +1150,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4429795",
@@ -1187,6 +1187,17 @@
             "status": null
           },
           {
+            "athleteId": "4431465",
+            "name": "Behren Morton",
+            "pos": "QB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4569173",
             "name": "Rhamondre Stevenson",
             "pos": "RB",
@@ -1195,7 +1206,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -1721,7 +1732,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4361307",
@@ -2123,23 +2134,13 @@
     },
     {
       "gameId": "401873053",
-      "athleteId": "4569173",
-      "name": "Rhamondre Stevenson",
-      "pos": "RB",
+      "athleteId": "4431465",
+      "name": "Behren Morton",
+      "pos": "QB",
       "teamAbbr": "NE",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873053",
-      "athleteId": "4374302",
-      "name": "Amon-Ra St. Brown",
-      "pos": "WR",
-      "teamAbbr": "DET",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873056",
@@ -2190,6 +2191,16 @@
       "kind": "weg",
       "from": "Out",
       "to": null
+    },
+    {
+      "gameId": "401873061",
+      "athleteId": "4038524",
+      "name": "Gardner Minshew II",
+      "pos": "QB",
+      "teamAbbr": "ARI",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     },
     {
       "gameId": "401873062",
