@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-15T17:47:19Z",
+  "updatedAt": "2026-11-15T18:47:14Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -78,8 +78,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873055",
@@ -103,8 +103,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": true,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873056",
@@ -128,8 +128,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873057",
@@ -153,8 +153,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873058",
@@ -178,8 +178,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873059",
@@ -203,8 +203,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873060",
@@ -228,8 +228,8 @@
         "fetchedAt": "2026-11-03T21:47:22Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-15T18:47:14Z"
     },
     {
       "gameId": "401873061",
