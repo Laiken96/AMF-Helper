@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T11:47:25Z",
+  "updatedAt": "2026-11-15T12:47:18Z",
   "items": [
+    {
+      "id": "6c0f5ce86cdbbad4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
+      "title": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
+      "summary": "The Chiefs sought medical opinions from two renowned baseball doctors last week on Patrick Mahomes' injured elbow, sources told ESPN.",
+      "publishedAt": "2026-11-15T12:30:04Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "bc35b68e28aaf770",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/starting-with-patriots-lions-fox-has-three-windows-on-sunday",
+      "title": "Starting with Patriots-Lions, Fox has three windows on Sunday",
+      "summary": "The last of the early-morning 2026 kickoffs happens today, with the Patriots playing the Lions in Germany.",
+      "publishedAt": "2026-11-15T12:28:32Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "b11c91b9463b675d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50485164/sources-raiders-had-fernando-mendoza-plan-even-no-cousins-trade",
+      "title": "Sources: Raiders planned to start Fernando Mendoza soon even if no Cousins trade",
+      "summary": "The Raiders had a plan to start Fernando Mendoza in Week 12 against the Browns even if they had not traded Kirk Cousins, sources told NFL Network.",
+      "publishedAt": "2026-11-15T12:18:34Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "c44f7d4ed67191a6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50484865/sources-vikings-want-keep-kirk-cousins-2027-season",
+      "title": "Sources: Vikings want to keep Kirk Cousins, talked to QB about staying in 2027",
+      "summary": "The Vikings are interested in keeping Kirk Cousins as their QB next season, sources told NFL Network.",
+      "publishedAt": "2026-11-15T12:00:43Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "f543bea36d10b276",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-trade-offers-rejected-titans-plans-for-tony-pollard-come-into-question",
+      "title": "With trade offers rejected, Titans' plans for Tony Pollard come into question",
+      "summary": "All the factors had lined up for a Tony Pollard trade.",
+      "publishedAt": "2026-11-15T11:57:34Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "ba25dabdd2104a52",
       "source": "espn",
@@ -1572,59 +1628,6 @@
       "teamIds": [
         "14",
         "23"
-      ]
-    },
-    {
-      "id": "d72bf2a6b82fef90",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472084/why-mike-clay-feels-good-rashee-rice-wr2",
-      "title": "Why Mike Clay feels good about Rashee Rice as a WR2",
-      "summary": null,
-      "publishedAt": "2026-11-13T16:59:09Z",
-      "teamIds": []
-    },
-    {
-      "id": "11dca529869baacc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-claim-nikko-remigio-release-dare-ogunbowale",
-      "title": "Texans claim Nikko Remigio, release Dare Ogunbowale",
-      "summary": "The Texans have made a couple of roster moves on Friday.",
-      "publishedAt": "2026-11-13T16:56:46Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "0837a55cd8be7913",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472192/where-does-jayden-daniels-rank-fantasy-qbs",
-      "title": "Where does Jayden Daniels rank among fantasy QBs?",
-      "summary": null,
-      "publishedAt": "2026-11-13T16:45:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "3c26291b866ddc03",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-list-amon-ra-st-brown-as-questionable-vs-patriots-in-germany",
-      "title": "Lions list Amon-Ra St. Brown as questionable vs. Patriots in Germany",
-      "summary": "Officially, Lions wide receiver Amon-Ra St.",
-      "publishedAt": "2026-11-13T16:45:36Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "cd822d3792388321",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-liam-coen-acquisitions-jessie-bates-iii-jordan-davis-wont-play-week-10-trade-deadline-titans",
-      "title": "Jaguars' trade deadline acquisitions Jessie Bates III and Jordan Davis won't play in Week 10 vs. Titans",
-      "summary": "Bates and Davis have yet to take their bye weeks, while the Jaguars have already had theirs",
-      "publishedAt": "2026-11-13T16:44:25Z",
-      "teamIds": [
-        "30",
-        "10"
       ]
     }
   ]
