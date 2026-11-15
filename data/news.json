@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T10:47:22Z",
+  "updatedAt": "2026-11-15T11:11:25Z",
   "items": [
+    {
+      "id": "260c8a0cd2971c52",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-fly-to-colorado-tonight-to-begin-acclimating-to-altitude-for-mexico-city-game",
+      "title": "49ers will fly to Colorado tonight to begin acclimating to altitude for Mexico City game",
+      "summary": "The 49ers won't fly home after today's game in Dallas.",
+      "publishedAt": "2026-11-15T11:03:11Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "d679dd074e662f8b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50473944/jets-five-questions-halfway-aaron-glenn-geno-smith",
+      "title": "Five questions for the Jets in the second half of the season",
+      "summary": "After falling to 2-7, New York has to manage its current situation and setting up the future.",
+      "publishedAt": "2026-11-15T11:00:03Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "b3ecee4f11afdb7a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50454197/top-10-super-bowl-individual-defensive-performances",
+      "title": "Ranking the top 10 Super Bowl performances by a defender",
+      "summary": "Not all Super Bowl MVPs were quarterbacks or offensive stars. We listed 10 standout individual defensive performances.",
+      "publishedAt": "2026-11-15T10:56:58Z",
+      "teamIds": []
+    },
     {
       "id": "cdf1af5e037dba76",
       "source": "cbs",
@@ -1593,36 +1624,6 @@
       "teamIds": [
         "30"
       ]
-    },
-    {
-      "id": "ffb8d8baa29f113a",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-rams-steelers-part-of-week-10-parlays-involving-favorites-underdogs",
-      "title": "NFL odds, picks, predictions: Rams, Steelers part of Week 10 parlays involving favorites, underdogs",
-      "summary": "SportsLine football expert Mike Tierney locks in his top parlays for Week 10 NFL games",
-      "publishedAt": "2026-11-13T16:43:27Z",
-      "teamIds": [
-        "14",
-        "23"
-      ]
-    },
-    {
-      "id": "ec1eac7e8f5ccd62",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472265/why-mike-clay-locking-zach-charbonnet-lineup-vs-las-vegas",
-      "title": "Why Mike Clay is locking Zach Charbonnet into his lineup vs. Las Vegas",
-      "summary": null,
-      "publishedAt": "2026-11-13T16:42:12Z",
-      "teamIds": []
-    },
-    {
-      "id": "d0230f5513025df0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-sunday",
-      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Sunday",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-13T16:40:52Z",
-      "teamIds": []
     }
   ]
 }
