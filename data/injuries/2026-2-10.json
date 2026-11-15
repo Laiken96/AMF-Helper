@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T18:10:31Z",
+    "takenAt": "2026-11-15T18:20:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1203,6 +1203,40 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "15864",
+            "name": "Geno Smith",
+            "pos": "QB",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4427366",
+            "name": "Breece Hall",
+            "pos": "RB",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "5083315",
+            "name": "Kenyon Sadiq",
+            "pos": "TE",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           }
         ]
       },
@@ -1217,17 +1251,7 @@
             "teamId": "29",
             "teamAbbr": "CAR",
             "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4372780",
-            "name": "Tommy Tremble",
-            "pos": "TE",
-            "teamId": "29",
-            "teamAbbr": "CAR",
-            "roles": [
+              "rushing",
               "receiving"
             ],
             "status": null
@@ -1274,7 +1298,8 @@
             "teamAbbr": "NO",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -1288,17 +1313,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4569682",
-            "name": "Audric Estime",
-            "pos": "RB",
-            "teamId": "18",
-            "teamAbbr": "NO",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           }
         ]
       },
@@ -1328,6 +1342,17 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4685702",
+            "name": "Quinshon Judkins",
+            "pos": "RB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           },
           {
             "athleteId": "5083076",
@@ -1413,6 +1438,29 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4688380",
+            "name": "Cam Ward",
+            "pos": "QB",
+            "teamId": "10",
+            "teamAbbr": "TEN",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4883647",
+            "name": "Elic Ayomanor",
+            "pos": "WR",
+            "teamId": "10",
+            "teamAbbr": "TEN",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           }
         ]
       },
@@ -1455,6 +1503,17 @@
             "status": null
           },
           {
+            "athleteId": "4430807",
+            "name": "Bijan Robinson",
+            "pos": "RB",
+            "teamId": "1",
+            "teamAbbr": "ATL",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "5344782",
             "name": "Jack Strand",
             "pos": "QB",
@@ -1474,7 +1533,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "3139477",
@@ -1558,7 +1617,28 @@
             "teamAbbr": "MIA",
             "roles": [
               "qb",
-              "passing",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685116",
+            "name": "DJ Herman",
+            "pos": "FB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4711533",
+            "name": "Ollie Gordon II",
+            "pos": "RB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
               "rushing"
             ],
             "status": null
@@ -1569,17 +1649,6 @@
         "gameId": "401873060",
         "kickoffUtc": "2026-11-15T18:00:00Z",
         "players": [
-          {
-            "athleteId": "3149687",
-            "name": "Chris Brooks",
-            "pos": "RB",
-            "teamId": "9",
-            "teamAbbr": "GB",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
           {
             "athleteId": "4036378",
             "name": "Jordan Love",
@@ -1593,13 +1662,24 @@
             "status": null
           },
           {
-            "athleteId": "4431346",
-            "name": "Mark Redman",
-            "pos": "TE",
+            "athleteId": "4248528",
+            "name": "Christian Watson",
+            "pos": "WR",
             "teamId": "9",
             "teamAbbr": "GB",
             "roles": [
               "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4819231",
+            "name": "Kaleb Johnson",
+            "pos": "RB",
+            "teamId": "9",
+            "teamAbbr": "GB",
+            "roles": [
+              "rushing"
             ],
             "status": null
           },
@@ -2113,6 +2193,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873058",
+      "athleteId": "15847",
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873058",
