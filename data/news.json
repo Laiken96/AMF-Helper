@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T17:47:23Z",
+  "updatedAt": "2026-11-15T17:50:05Z",
   "items": [
+    {
+      "id": "2ac2af002e7a8f1b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+      "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 10.",
+      "publishedAt": "2026-11-15T17:49:05Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "6289d0a56186bb51",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873053",
+      "title": "St. Brown and Gibbs score 2 TDs each in Lions' 35-10 rout over Patriots after Maye injured in Munich",
+      "summary": "Detroit Lions receiver Amon-Ra St. Brown caught two touchdown passes in his German homecoming and Jahmyr Gibbs ran for 153 yards and two scores in a 35-10 win over the New England Patriots, who",
+      "publishedAt": "2026-11-15T17:48:41Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
     {
       "id": "0738cad23c3ca3fe",
       "source": "espn",
@@ -1515,6 +1539,18 @@
       ]
     },
     {
+      "id": "1f071bae5276525a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday",
+      "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
+      "summary": "Minnesota traded for their old friend on Tuesday at the NFL trade deadline, and he will start for the Vikings right away on Sunday",
+      "publishedAt": "2026-11-14T01:33:03Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
       "id": "c58fbbe078d8f4a0",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50475505/seahawks-raiders-week-10-darnold-lock-shaheed-returns",
@@ -1586,39 +1622,6 @@
       "publishedAt": "2026-11-13T22:47:11Z",
       "teamIds": [
         "11"
-      ]
-    },
-    {
-      "id": "6ec61fead31fdb7e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50474753/vikings-start-reacquired-qb-kirk-cousins-vs-packers",
-      "title": "Vikings to start reacquired QB Kirk Cousins vs. Packers",
-      "summary": "Coach Kevin O'Connell called Kirk Cousins' ability to get reacquainted with the Vikings' offense \"impressive.\"",
-      "publishedAt": "2026-11-13T22:41:55Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "3b072ab0c7098c27",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cbs-joey-porter-jr-daron-bland-are-questionable",
-      "title": "Cowboys CBs Joey Porter Jr., DaRon Bland are questionable",
-      "summary": "The Cowboys added cornerback DaRon Bland to the injury report Friday.",
-      "publishedAt": "2026-11-13T22:30:04Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "b35e22b3de3280d3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50474564/nfl-outlines-aspects-jalen-hurts-investigation-senator",
-      "title": "NFL outlines steps in Jalen Hurts investigation in letter to senator",
-      "summary": "The NFL provided some additional details about the investigation into how Jalen Hurts' blood clots were handled in response to an inquiry from a U.S. senator.",
-      "publishedAt": "2026-11-13T22:23:25Z",
-      "teamIds": [
-        "21"
       ]
     }
   ]
