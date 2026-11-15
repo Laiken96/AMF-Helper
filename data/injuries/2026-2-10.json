@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T13:10:29Z",
+    "takenAt": "2026-11-15T14:40:32Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1130,42 +1130,8 @@
         "kickoffUtc": "2026-11-15T14:30:00Z",
         "players": [
           {
-            "athleteId": "3046779",
-            "name": "Jared Goff",
-            "pos": "QB",
-            "teamId": "8",
-            "teamAbbr": "DET",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4374302",
-            "name": "Amon-Ra St. Brown",
-            "pos": "WR",
-            "teamId": "8",
-            "teamAbbr": "DET",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4429795",
-            "name": "Jahmyr Gibbs",
-            "pos": "RB",
-            "teamId": "8",
-            "teamAbbr": "DET",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4427095",
-            "name": "DeMario Douglas",
+            "athleteId": "2991662",
+            "name": "Mack Hollins",
             "pos": "WR",
             "teamId": "17",
             "teamAbbr": "NE",
@@ -1182,7 +1148,8 @@
             "teamAbbr": "NE",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -1196,17 +1163,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4569173",
-            "name": "Rhamondre Stevenson",
-            "pos": "RB",
-            "teamId": "17",
-            "teamAbbr": "NE",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           }
         ]
       },
