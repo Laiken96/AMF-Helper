@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T08:47:20Z",
+  "updatedAt": "2026-11-15T09:47:23Z",
   "items": [
+    {
+      "id": "cd4552d5223e94bb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-manning-shakes-off-3-interceptions-throws-game-winning-td-pass-as-texas-beats-lsu",
+      "title": "Arch Manning shakes off 3 interceptions, throws game-winning TD pass as Texas beats LSU",
+      "summary": "As he has been throughout his college football career, Texas quarterback Arch Manning was a mixed bag on Saturday.",
+      "publishedAt": "2026-11-15T09:17:11Z",
+      "teamIds": []
+    },
     {
       "id": "7708f880805e0ce7",
       "source": "pft",
@@ -1615,18 +1624,6 @@
       "teamIds": [
         "2",
         "20"
-      ]
-    },
-    {
-      "id": "f03772e990e70ede",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/top-week-10-battle-to-watch-packers-jordan-love-vikings-defense",
-      "title": "Top Week 10 battle to watch: Packers' surging offensive trio vs. No. 1 Vikings defense",
-      "summary": "A closer look at the key factors in the Week 10 battle between the NFL's most exciting passing offense and the league's No. 1 defense",
-      "publishedAt": "2026-11-13T16:30:44Z",
-      "teamIds": [
-        "9",
-        "16"
       ]
     }
   ]
