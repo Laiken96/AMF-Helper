@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T21:30:49Z",
+    "takenAt": "2026-11-15T21:40:26Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1727,8 +1727,8 @@
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
           {
-            "athleteId": "4360739",
-            "name": "Simi Fehoko",
+            "athleteId": "4039050",
+            "name": "Devin Duvernay",
             "pos": "WR",
             "teamId": "22",
             "teamAbbr": "ARI",
@@ -1823,15 +1823,15 @@
         "kickoffUtc": "2026-11-15T21:05:00Z",
         "players": [
           {
-            "athleteId": "4429086",
-            "name": "Michael Mayer",
+            "athleteId": "4432665",
+            "name": "Brock Bowers",
             "pos": "TE",
             "teamId": "13",
             "teamAbbr": "LV",
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4837248",
@@ -1910,6 +1910,29 @@
             "status": null
           },
           {
+            "athleteId": "3126486",
+            "name": "Deebo Samuel Sr.",
+            "pos": "WR",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4361741",
+            "name": "Brock Purdy",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4430431",
             "name": "Kurtis Rourke",
             "pos": "QB",
@@ -1919,6 +1942,17 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4431466",
+            "name": "Jordan Watkins",
+            "pos": "WR",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           }
         ]
       },
@@ -2283,6 +2317,16 @@
       "kind": "weg",
       "from": "Out",
       "to": null
+    },
+    {
+      "gameId": "401873062",
+      "athleteId": "4432665",
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "teamAbbr": "LV",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873063",
