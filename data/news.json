@@ -1,7 +1,264 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T20:47:19Z",
+  "updatedAt": "2026-11-15T21:47:21Z",
   "items": [
+    {
+      "id": "250e651957042d4e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873056",
+      "title": "Deshaun Watson throws for 312 yards against his old team as the Browns rally past the Texans 27-24",
+      "summary": "Quinshon Judkins barreled into the end zone from 5 yards out with 53 seconds remaining, and the resilient Cleveland Browns stunned the Houston Texans 27-24 on Sunday.",
+      "publishedAt": "2026-11-15T21:39:47Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "103a1242561e7d55",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873054",
+      "title": "Josh Allen powers Bills past Jets 31-12 for best start in 35 years. New York loses Geno Smith twice",
+      "summary": "Josh Allen ran for two touchdowns and threw a TD pass to DJ Moore, and the Buffalo Bills pulled away from the New York Jets for a 31-12 victory Sunday that has them off to their best start in 35 years.",
+      "publishedAt": "2026-11-15T21:34:35Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "4fec83704dd3c6a2",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50494007/jags-come-top-offensive-shootout-titans",
+      "title": "Jags come out on top in offensive shootout with Titans",
+      "summary": null,
+      "publishedAt": "2026-11-15T21:33:06Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "1de4f6f8020d1444",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50493959/game-highlights",
+      "title": "Houston Texans vs. Cleveland Browns: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-15T21:29:43Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "95f3144acde3bb74",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-hold-off-dolphins-24-22",
+      "title": "Colts hold off Dolphins 24-22",
+      "summary": "The Dolphins had a chance for their second win this season, but two missed field goals by Zane Gonzalez and a failed 2-point conversion allowed the Colts to hold onto a 24-22 win.",
+      "publishedAt": "2026-11-15T21:28:47Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "647c2a03bde613e8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-get-another-fourth-quarter-comeback-defeat-texans-27-24",
+      "title": "Browns get another fourth-quarter comeback, defeat Texans 27-24",
+      "summary": "Cleveland is now 4-0 at home for the first time since 1963.",
+      "publishedAt": "2026-11-15T21:28:02Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "26398cfa471a4480",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50493957/game-highlights",
+      "title": "Carolina Panthers vs. New Orleans Saints: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-15T21:27:45Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "dc827620b184ebb6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-pull-out-20-17-win-in-new-orleans-take-lead-in-nfc-south",
+      "title": "Panthers pull out 20-17 win in New Orleans, take lead in NFC South",
+      "summary": "NFC South football has earned a negative reputation over the last few years and Sunday's game between the Panthers and Saints didn't do much to change that, but it did push one of the teams into first place in the race to represent the division in the playoffs.",
+      "publishedAt": "2026-11-15T21:27:36Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "11814900219ba6bb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873058",
+      "title": "Mahomes throws 5 TD passes and rookie Johnson runs for 101 yards as Chiefs overwhelm Falcons 35-13",
+      "summary": "Patrick Mahomes threw five touchdown passes, including one to newly acquired Josh Downs and two to rookie Emmett Johnson, and the Kansas City Chiefs beat the struggling Atlanta...",
+      "publishedAt": "2026-11-15T21:23:35Z",
+      "teamIds": [
+        "1",
+        "12"
+      ]
+    },
+    {
+      "id": "ee80a9895dbcb3dc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873057",
+      "title": "Trevor Lawrence lights up the Titans as the Jaguars roll 40-23 for a sixth win in 7 games",
+      "summary": "Trevor Lawrence threw for 352 yards and three touchdowns as the Jacksonville Jaguars beat the",
+      "publishedAt": "2026-11-15T21:22:35Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "0b28a59db5e3b146",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendozas-first-nfl-td-puts-raiders-up-7-0",
+      "title": "Fernando Mendoza's first NFL TD puts Raiders up 7-0",
+      "summary": "Fernando Mendoza helped secure a national title at Indiana with a scramble for a touchdown and his first NFL touchdown came the same way.",
+      "publishedAt": "2026-11-15T21:21:48Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "bc1a1e21ac9d2538",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873060",
+      "title": "Kirk Cousins has triumphant return as Vikings sack Jordan Love 8 times in 30-10 win over Packers",
+      "summary": "Kirk Cousins threw two touchdown passes to start his second stint with Minnesota and Levi Drake Rodriguez had two of the Vikings’ eight sacks in a 30-10 victory over the Green Bay Packers on Sunday.",
+      "publishedAt": "2026-11-15T21:20:38Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "b37ac0d872cfccb3",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50493724/bills-make-easy-work-jets",
+      "title": "Bills make easy work of Jets",
+      "summary": null,
+      "publishedAt": "2026-11-15T21:19:46Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "315c6c5045f67f22",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
+      "title": "Jets QB Geno Smith suffers ankle injury, replaced by rookie Cade Klubnik",
+      "summary": "Jets quarterback Geno Smith suffered an ankle injury in the third quarter and was replaced by rookie Cade Klubnik on Sunday at MetLife Stadium.",
+      "publishedAt": "2026-11-15T21:16:22Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "8e1ba813b940ef39",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
+      "title": "Texans lose RB Woody Marks to concussion in loss to Browns",
+      "summary": "An already short-handed Texans running back room took another hit Sunday when Woody Marks was ruled out with a concussion sustained against the Browns.",
+      "publishedAt": "2026-11-15T21:16:15Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "4ec736f95e84fd7e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-improve-to-7-2-with-40-23-win-over-titans",
+      "title": "Jaguars improve to 7-2 with 40-23 win over Titans",
+      "summary": "The Jaguars didn't play their best game of the season today in Tennessee, but they didn't need to to beat the Titans.",
+      "publishedAt": "2026-11-15T21:12:59Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "8820566c983fa0f5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-throws-five-tds-chiefs-beat-falcons-35-13",
+      "title": "Patrick Mahomes throws five TDs, Chiefs beat Falcons 35-13",
+      "summary": "Mahomes threw for five touchdowns for the first time since 2022 to help the Chiefs move to 7-2 on the season.",
+      "publishedAt": "2026-11-15T21:12:52Z",
+      "teamIds": [
+        "1",
+        "12"
+      ]
+    },
+    {
+      "id": "d84186b3e75423e8",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50493633/game-highlights",
+      "title": "Minnesota Vikings vs. Green Bay Packers: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-15T21:11:31Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "300ce546909348d9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-raiders-fans-planning-stay-seated-fernando-mendoza-first-td",
+      "title": "Why Raiders fans are planning to stay seated for Fernando Mendoza's first TD",
+      "summary": "Mendoza's mother, Elsa, utilizes a wheelchair because of her multiple sclerosis",
+      "publishedAt": "2026-11-15T21:10:12Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "6f9ea12b62d4ab50",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-pummel-packers-30-10-in-kirk-cousins-return",
+      "title": "Vikings pummel Packers 30-10 in Kirk Cousins' return",
+      "summary": "Cousins threw for 207 yards and two touchdowns in his first game with the team since 2023.",
+      "publishedAt": "2026-11-15T21:07:57Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "81ebafcb013dbed4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rout-jets-31-12-improve-to-5-0-on-the-road-this-season",
+      "title": "Bills rout Jets 31-12, improve to 5-0 on the road this season",
+      "summary": "The Bills have now won five straight games.",
+      "publishedAt": "2026-11-15T21:07:28Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "39f8d8cc11f8a876",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-ruled-out-with-ankle-injury",
+      "title": "Geno Smith ruled out with ankle injury",
+      "summary": "Geno Smith's day is over.",
+      "publishedAt": "2026-11-15T20:50:13Z",
+      "teamIds": []
+    },
     {
       "id": "6d782b853d8007f6",
       "source": "pft",
@@ -30,7 +287,7 @@
       "id": "186d5ea65b857dbc",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/bills-geno-smith-injury-updates-bills-cade-klubnik",
-      "title": "Geno Smith injury: Jets rookie Cade Klubnik makes NFL debut after QB enters concussion protocol",
+      "title": "Jets' Geno Smith ruled out with ankle injury: Rookie QB Cade Klubnik makes NFL debut",
       "summary": "Rookie Cade Klubnik stepped in to open the second half, leading a 10-play, 61-yard scoring drive on his very first NFL possession",
       "publishedAt": "2026-11-15T20:17:53Z",
       "teamIds": [
@@ -434,10 +691,7 @@
       "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
       "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 10.",
       "publishedAt": "2026-11-15T17:49:05Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
+      "teamIds": []
     },
     {
       "id": "6289d0a56186bb51",
@@ -1415,232 +1669,6 @@
       "publishedAt": "2026-11-14T19:06:19Z",
       "teamIds": [
         "29"
-      ]
-    },
-    {
-      "id": "b5e9ef106e8d9e6a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-activate-arden-key-place-mo-alie-cox-and-akeem-davis-gaither-on-ir",
-      "title": "Colts activate Arden Key, place Mo Alie-Cox and Akeem Davis-Gaither on IR",
-      "summary": "The Colts have not won a game since defensive end Arden Key went on injured reserve and he'll be back as they try to snap their five-game losing streak against the Dolphins on Sunday.",
-      "publishedAt": "2026-11-14T19:04:42Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "9401a0edde3d0214",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-major-officiating-changes-week-10-faa-ground-stop",
-      "title": "NFL reshuffles officiating crews for Week 10, including double duty for one crew due to FAA ground stop",
-      "summary": "The changes include one referee pulling double-duty on Sunday",
-      "publishedAt": "2026-11-14T19:02:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Does Emmett Johnson have RB1 upside while Kenneth Walker III sits?",
-      "summary": "Kansas City rookie Emmett Johnson is expected to be thrust into a starting role for Week 10 with Kenneth Walker III ruled out.",
-      "publishedAt": "2026-11-14T18:56:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "9ee8980694150ae2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-rule-david-montgomery-out-for-sunday",
-      "title": "Texans rule David Montgomery out for Sunday",
-      "summary": "Texans running back David Montgomery will not make his return to the lineup in Sunday's game against the Browns.",
-      "publishedAt": "2026-11-14T18:45:07Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "e96e1d938b4a0fc0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers",
-      "title": "NFL Week 10 last-minute picks, best bets: Chiefs, Steelers take advantage of schedule quirk",
-      "summary": "Need some last-minute advice on how to bet the Week 10 slate? Allow us to be of assistance",
-      "publishedAt": "2026-11-14T18:34:35Z",
-      "teamIds": [
-        "12",
-        "23"
-      ]
-    },
-    {
-      "id": "b1c70586ab1839cb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-k-zane-gonzalez-to-53-man-roster-elevate-qb-brady-cook-wr-jalen-reagor",
-      "title": "Dolphins sign K Zane Gonzalez to 53-man roster; elevate QB Brady Cook, WR Jalen Reagor",
-      "summary": "The Dolphins announced a handful of roster moves ahead of Sunday's game against the Colts.",
-      "publishedAt": "2026-11-14T18:33:02Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 10: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-14T18:19:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "20f4695456852672",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 10: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-14T18:18:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "d1c0f679b410049a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 10: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-14T18:18:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "a04849111d845265",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-say-pat-freiermuth-is-questionable-for-sunday-night-vs-bengals-with-an-illness",
-      "title": "Steelers say Pat Freiermuth is questionable for Sunday night vs. Bengals with an illness",
-      "summary": "The Steelers might be without tight end Pat Freiermuth on Sunday night against the Bengals.",
-      "publishedAt": "2026-11-14T18:18:26Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "31d818ab2355ab08",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 10: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-14T18:18:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "8f3391d81c68c176",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 10: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-14T18:18:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "c74dc9607c70469a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 10: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-14T18:17:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "0d7c7545ac711865",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 10: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-14T18:17:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "da9f36b37cf20b8c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 10: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-14T18:16:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "3490c0ed00d9bad2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 10",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-14T18:08:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "db4b5cb5c3807a7f",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50463729/week-10-nfl-odds-touchdown-props-best-bets-sunday-games",
-      "title": "Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
-      "summary": "Our experts dive into the odds and player props for Week 10 and offer their betting tips and favorite plays.",
-      "publishedAt": "2026-11-14T17:44:31Z",
-      "teamIds": [
-        "11",
-        "12",
-        "17",
-        "23"
-      ]
-    },
-    {
-      "id": "cb3d67e0600feb7e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-will-travel-on-his-own-to-atlanta-for-sundays-game",
-      "title": "Chris Jones will travel on his own to Atlanta for Sunday's game",
-      "summary": "The Chiefs officially ruled out running back Kenneth Walker.",
-      "publishedAt": "2026-11-14T17:41:57Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "da7ac590c048350f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-10-best-bets-player-props-anytime-touchdown-scorers-for-sundays-matchups",
-      "title": "NFL odds, picks: Brinson's Week 10 best bets, player props, anytime touchdown scorers for Sunday's matchups",
-      "summary": "Back Kirk Cousins in his return to Minnesota, take the points with New England against Detroit and expect points in an AFC East shootout at MetLife",
-      "publishedAt": "2026-11-14T16:58:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "98e5b5f970362620",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 10 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
-      "publishedAt": "2026-11-14T16:55:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "03ed9f03cdd43e57",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-broncos-explored-possible-tony-pollard-trade",
-      "title": "Packers, Broncos explored possible Tony Pollard trade",
-      "summary": "One week before the trade deadline, teams had interest in Titans running back Tony Pollard.",
-      "publishedAt": "2026-11-14T16:54:18Z",
-      "teamIds": [
-        "7",
-        "9",
-        "10"
-      ]
-    },
-    {
-      "id": "ba25894002fa7228",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
-      "title": "Chiefs' Kenneth Walker III (groin) to sit out vs. Falcons",
-      "summary": "Chiefs running back Kenneth Walker III will miss Sunday's game due to a groin injury.",
-      "publishedAt": "2026-11-14T16:45:08Z",
-      "teamIds": [
-        "12"
       ]
     }
   ]
