@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-14T21:30:59Z",
+    "takenAt": "2026-11-15T01:30:47Z",
     "games": [
       {
         "gameId": "401873052",
@@ -2073,7 +2073,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685382",
@@ -2210,16 +2210,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873065",
-      "athleteId": "4612826",
-      "name": "Ladd McConkey",
-      "pos": "WR",
-      "teamAbbr": "LAC",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873065",
