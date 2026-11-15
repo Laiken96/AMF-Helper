@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T16:10:30Z",
+    "takenAt": "2026-11-15T16:40:30Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1321,6 +1321,17 @@
             "status": null
           },
           {
+            "athleteId": "4427238",
+            "name": "Dillon Gabriel",
+            "pos": "QB",
+            "teamId": "5",
+            "teamAbbr": "CLE",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4685702",
             "name": "Quinshon Judkins",
             "pos": "RB",
@@ -1340,7 +1351,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4258173",
@@ -1448,7 +1459,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Out"
           }
         ]
       },
@@ -2100,13 +2111,23 @@
     },
     {
       "gameId": "401873056",
-      "athleteId": "4832800",
-      "name": "Denzel Boston",
-      "pos": "WR",
+      "athleteId": "4427238",
+      "name": "Dillon Gabriel",
+      "pos": "QB",
       "teamAbbr": "CLE",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
+    },
+    {
+      "gameId": "401873057",
+      "athleteId": "4871023",
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "teamAbbr": "TEN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873058",
