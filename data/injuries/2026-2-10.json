@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T20:01:03Z",
+    "takenAt": "2026-11-15T20:10:36Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1761,6 +1761,17 @@
             "status": null
           },
           {
+            "athleteId": "5151948",
+            "name": "Joey Aguilar",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "12483",
             "name": "Matthew Stafford",
             "pos": "QB",
@@ -1952,6 +1963,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430431",
+            "name": "Kurtis Rourke",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2298,6 +2320,16 @@
       "to": "Out"
     },
     {
+      "gameId": "401873061",
+      "athleteId": "5151948",
+      "name": "Joey Aguilar",
+      "pos": "QB",
+      "teamAbbr": "ARI",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873062",
       "athleteId": "4260394",
       "name": "Aidan O'Connell",
@@ -2313,6 +2345,16 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "teamAbbr": "SEA",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873063",
+      "athleteId": "4430431",
+      "name": "Kurtis Rourke",
+      "pos": "QB",
+      "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
       "to": "Out"
