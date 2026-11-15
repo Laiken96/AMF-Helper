@@ -1,7 +1,171 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T18:47:17Z",
+  "updatedAt": "2026-11-15T19:47:23Z",
   "items": [
+    {
+      "id": "1e32801fd06f78e0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
+      "title": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
+      "summary": "Patriots quarterback Drake Maye suffered an ankle injury in Sunday's loss to the Lions.",
+      "publishedAt": "2026-11-15T19:41:42Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "9feecea27a1091dd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50491838/sources-lions-hutchinson-feared-significant-knee-injury",
+      "title": "Sources: Lions DE Aidan Hutchinson feared to have suffered significant knee injury",
+      "summary": "Lions star Aidan Hutchinson is feared to have suffered a significant injury to his right knee while celebrating a sack, sources told NFL Network.",
+      "publishedAt": "2026-11-15T19:41:12Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "1cd71aa22553b8d6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50462045/fantasy-football-injuries-nfl-week-10-inactive-active",
+      "title": "Fantasy football Week 10 inactives: Who's in and who's out?",
+      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
+      "publishedAt": "2026-11-15T19:40:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "2eec5b3a48340d74",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50492230/is-amon-ra-st-brown-big-week-10-sign-things-come",
+      "title": "Is Amon-Ra St. Brown's big Week 10 a sign of things to come?",
+      "summary": null,
+      "publishedAt": "2026-11-15T19:38:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "ed76da82340c2c48",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-cut-bills-lead-to-10-6-before-halftime",
+      "title": "Jets cut Bills lead to 10-6 before halftime",
+      "summary": "The Bills are trying to stay unbeaten on the road against the Jets on Sunday and they have moved into halftime with a lead.",
+      "publishedAt": "2026-11-15T19:36:16Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "6ad2f3a3ec38e688",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-downs-scores-first-td-with-chiefs-kansas-city-leads-atlanta-14-3-at-halftime",
+      "title": "Josh Downs scores first TD with Chiefs, Kansas City leads Atlanta 14-3 at halftime",
+      "summary": "Josh Downs is making an impact in his Kansas City debut.",
+      "publishedAt": "2026-11-15T19:35:22Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "65f8bb9d2011aa70",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/more-tests-coming-for-drake-maye-after-suffering-ankle-injury-vs-lions",
+      "title": "More tests coming for Drake Maye, after suffering ankle injury vs. Lions",
+      "summary": "Patriots quarterback Drake Maye suffered an ankle injury at the end of the opening drive of Sunday's game against the Lions in Germany.",
+      "publishedAt": "2026-11-15T19:33:19Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "bc17d830a366c53f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-take-7-0-lead-into-halftime-in-new-orleans",
+      "title": "Panthers take 7-0 lead into halftime in New Orleans",
+      "summary": "The Panthers got on the board midway through the second quarter against the Saints and those remained the only points of the first half in New Orleans.",
+      "publishedAt": "2026-11-15T19:30:45Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "1f3f3f29c8bafd58",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-lead-dolphins-14-7-at-halftime",
+      "title": "Colts lead Dolphins 14-7 at halftime",
+      "summary": "Laquon Treadwell caught a 7-yard touchdown pass from Daniel Jones with 39 seconds left in the first half, giving the Colts a 14-7 lead over the Dolphins at halftime.",
+      "publishedAt": "2026-11-15T19:30:31Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "0cf0145af1a04efd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-lead-browns-17-10-at-halftime",
+      "title": "Texans lead Browns 17-10 at halftime",
+      "summary": "The Texans got out to a 17-0 lead in Cleveland, but the Browns have made it a game with 10 straight points.",
+      "publishedAt": "2026-11-15T19:29:02Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "80aea154b548fe3a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-reportedly-has-significant-knee-injury",
+      "title": "Aidan Hutchinson reportedly has \"significant\" knee injury",
+      "summary": "Reports conflict on whether it's known to be season-ending.",
+      "publishedAt": "2026-11-15T19:14:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "a768c4576b243815",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-lead-packers-17-0-after-kirk-cousins-int-overturned-by-replay",
+      "title": "Vikings lead Packers 17-0 after Kirk Cousins' INT overturned by replay",
+      "summary": "Kirk Cousins nearly had his first interception since his return to the Vikings.",
+      "publishedAt": "2026-11-15T19:12:44Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "dbee71a4fddeefb7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chuba-hubbard-comes-through-on-fourth-down-to-put-panthers-up-7-0",
+      "title": "Chuba Hubbard comes through on fourth down to put Panthers up 7-0",
+      "summary": "Panthers running back Chuba Hubbard is on his way to a big day in New Orleans.",
+      "publishedAt": "2026-11-15T19:04:12Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "4b0bb71b053ac52a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-on-aidan-hutchinson-well-know-more-when-we-get-back-in-the-states",
+      "title": "Dan Campbell on Aidan Hutchinson: \"We'll know more when we get back in the States\"",
+      "summary": "The Lions got their seventh win of the season on Sunday, 35-10 over the Patriots in Germany.",
+      "publishedAt": "2026-11-15T18:53:52Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "4b5975dfd56af559",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+      "title": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+      "summary": "The Super Bowl will air on ESPN on Feb. 14, 2027. We have all-time lists, predictions and unforgettable moments.",
+      "publishedAt": "2026-11-15T18:52:06Z",
+      "teamIds": []
+    },
     {
       "id": "19f1806e126af412",
       "source": "pft",
@@ -101,7 +265,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873053",
       "title": "St. Brown and Gibbs score 2 TDs each in Lions' 35-10 rout over Patriots after Maye injured in Munich",
-      "summary": "Detroit Lions receiver Amon-Ra St. Brown caught two touchdown passes in his German homecoming and Jahmyr Gibbs ran for 153 yards and two scores in a 35-10 win over the New England Patriots, who",
+      "summary": "Amon-Ra St. Brown wore lederhosen, carried a German flag onto the field, and then went out and scored two touchdowns.",
       "publishedAt": "2026-11-15T17:48:41Z",
       "teamIds": [
         "8",
@@ -395,7 +559,7 @@
       "id": "398adf4f1b4a8833",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable",
-      "title": "Drake Maye, Aidan Hutchinson injured on same play: Patriots QB out, Lions DE questionable to return",
+      "title": "Drake Maye, Aidan Hutchinson injured on same play: Injury updates for Patriots QB, Lions DE",
       "summary": "Maye and Hutchinson both went down on the final play of the first drive",
       "publishedAt": "2026-11-15T15:45:44Z",
       "teamIds": [
@@ -1473,163 +1637,6 @@
       "publishedAt": "2026-11-14T13:53:29Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "088ad2dff2c17826",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ground-stop-nudges-ole-miss-oklahoma-game-to-sunday-and-ou-doesnt-like-that",
-      "title": "Ground stop nudges Ole Miss-Oklahoma game to Sunday (and OU doesn't like that)",
-      "summary": "Friday's nationwide shutdown of the aviation system has resulted in a delayed kickoff for several college football games on Saturday.",
-      "publishedAt": "2026-11-14T12:38:49Z",
-      "teamIds": []
-    },
-    {
-      "id": "0974f2fc73c468e9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-colorado-score-huge-upset-over-no-14-houston",
-      "title": "Deion Sanders, Colorado score huge upset over No. 14 Houston",
-      "summary": "After the loss that dropped the Colorado Buffaloes to 3-6, coach Deion Sanders said, among other things, \"The fans deserve better.\"",
-      "publishedAt": "2026-11-14T12:23:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "51beec985070a3c5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50453290/week-10-predictions-upsets-fantasy-sleepers-stats-2026",
-      "title": "NFL Week 10 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
-      "summary": "Touchdown for Chuba Hubbard? Fantasy upside for Aaron Rodgers? Trick play from the Raiders? Let's predict 15 things for Week 10.",
-      "publishedAt": "2026-11-14T11:53:16Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "75c8afdf8ef41a3e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-sent-jordyn-tyson-to-renowned-hamstring-specialist-at-university-of-wisconsin",
-      "title": "Saints sent Jordyn Tyson to renowned hamstring specialist at University of Wisconsin",
-      "summary": "In 2021, the NFL awarded a $4 million grant to Dr.",
-      "publishedAt": "2026-11-14T11:19:20Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "67786c43a213faeb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50475710/nfl-germany-lions-amon-ra-st-brown-munich",
-      "title": "Untold stories of Detroit Lions WR Amon-Ra St. Brown's German upbringing",
-      "summary": "For Amon-Ra St. Brown, Sunday's NFL game in Munich will mark the ultimate convergence of his dual heritage. Here are stories that shed more light.",
-      "publishedAt": "2026-11-14T11:00:11Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "8ebc1e2d7695eaa0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50475264/patriots-lions-germany-week-10-mike-vrabel",
-      "title": "Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
-      "summary": "New England plays in Munich, Germany, this week. Catch up on what's happening abroad in this week's Patriots notebook.",
-      "publishedAt": "2026-11-14T11:00:10Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "37d4872aae28479c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50473666/atlanta-falcons-trade-deadline-jessie-bates-morale",
-      "title": "Falcons insist winning still the goal despite trading Jessie Bates III",
-      "summary": "Atlanta wanted to ensure trading away Jessie Bates III didn't send the wrong message to the team.",
-      "publishedAt": "2026-11-14T11:00:03Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "f773969e87c76f70",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50472099/vikings-kirk-cousins-trade-contract",
-      "title": "Despite Cousins trade, are Vikings back to square one at QB?",
-      "summary": "Cousins can give some short-term relief, but his future and the search for a franchise QB remain uncertain.",
-      "publishedAt": "2026-11-14T11:00:01Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "92ba25f0b924856c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50466331/las-vegas-raiders-why-fernando-mendoza-starting",
-      "title": "Why the Raiders named Fernando Mendoza as the starter",
-      "summary": "The Raiders named Fernando Mendoza as the starter shortly after trading Kirk Cousins to the Vikings.",
-      "publishedAt": "2026-11-14T11:00:00Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "35c130c5b71439c4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-can-join-peyton-manning-as-only-qbs-with-4-total-tds-in-5-straight-games",
-      "title": "Joe Burrow can join Peyton Manning as only QBs with 4 total TDs in 5 straight games",
-      "summary": "A big game from Burrow on Sunday night would put him in some very exclusive company in NFL history.",
-      "publishedAt": "2026-11-14T10:01:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "95713543aef92b30",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-least-50-different-quarterbacks-will-have-started-games-through-week-10",
-      "title": "At least 50 different quarterbacks will have started games through Week 10",
-      "summary": "Raiders quarterback Fernando Mendoza will make his first career start on Sunday.",
-      "publishedAt": "2026-11-14T03:00:34Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "50e4fc0e1a4084b9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/faa-lifts-ground-stop-clearing-the-way-for-nfl-teams-to-travel-on-saturday",
-      "title": "FAA lifts ground stop, clearing the way for NFL teams to travel on Saturday",
-      "summary": "Eleven teams will be flying for Sunday games.",
-      "publishedAt": "2026-11-14T02:27:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "a3d5dccbd0182394",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/victims-claim-rex-ryan-almost-killed-them-with-truck-in-nasvhille",
-      "title": "Victims claim Rex Ryan \"almost killed\" them with truck in Nasvhille",
-      "summary": "The victims in last week's Nashville incident involving former NFL coach Rex Ryan have come forward.",
-      "publishedAt": "2026-11-14T02:10:27Z",
-      "teamIds": []
-    },
-    {
-      "id": "7fc622c8c20fa6ff",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown",
-      "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker III ruled out, Patriots' A.J. Brown questionable",
-      "summary": "The final injury reports for every NFL team playing on Sunday in Week 10",
-      "publishedAt": "2026-11-14T01:35:38Z",
-      "teamIds": [
-        "12",
-        "17"
-      ]
-    },
-    {
-      "id": "1f071bae5276525a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday",
-      "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
-      "summary": "Minnesota traded for their old friend on Tuesday at the NFL trade deadline, and he will start for the Vikings right away on Sunday",
-      "publishedAt": "2026-11-14T01:33:03Z",
-      "teamIds": [
-        "9",
-        "16"
       ]
     }
   ]
