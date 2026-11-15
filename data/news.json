@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T02:47:20Z",
+  "updatedAt": "2026-11-15T02:47:47Z",
   "items": [
     {
       "id": "e622bc02d9c382a0",
@@ -45,6 +45,15 @@
       "title": "Rex Ryan will appear on ESPN's Sunday pregame show, despite arrest",
       "summary": "ESPN hasn't said much about analyst Rex Ryan following his recent arrest in Nashville for running over the feet of two pedestrians with his truck.",
       "publishedAt": "2026-11-15T00:52:45Z",
+      "teamIds": []
+    },
+    {
+      "id": "df6496f29718c55e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50433086/fantasy-playbook-projections-lineup-locks-week-10-shadow",
+      "title": "Fantasy playbook: Week 10 Shadow Reports, lineup locks and projected scores",
+      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
+      "publishedAt": "2026-11-15T00:49:57Z",
       "teamIds": []
     },
     {
@@ -1615,20 +1624,6 @@
       "publishedAt": "2026-11-13T16:07:45Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "caebb02dfdeea3f2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-bold-predictions-joe-burrow-lights-up-steelers-tony-pollard-bulldozes-jags",
-      "title": "NFL Week 10 bold predictions: Joe Burrow lights up first-place Steelers, Tony Pollard bulldozes new-look Jags",
-      "summary": "Plus, the Packers ruin Kirk Cousins' Vikings return",
-      "publishedAt": "2026-11-13T16:00:24Z",
-      "teamIds": [
-        "9",
-        "30",
-        "16",
-        "23"
       ]
     }
   ]
