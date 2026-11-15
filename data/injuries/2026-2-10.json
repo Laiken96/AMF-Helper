@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T21:10:29Z",
+    "takenAt": "2026-11-15T21:20:31Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1772,6 +1772,29 @@
             "status": "Out"
           },
           {
+            "athleteId": "12483",
+            "name": "Matthew Stafford",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4430737",
+            "name": "Kyren Williams",
+            "pos": "RB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4685522",
             "name": "Ty Simpson",
             "pos": "QB",
@@ -1807,17 +1830,7 @@
             "teamAbbr": "LV",
             "roles": [
               "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4890973",
-            "name": "Ashton Jeanty",
-            "pos": "RB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
+              "passing",
               "rushing"
             ],
             "status": null
