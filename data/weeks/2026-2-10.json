@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "fetchedAt": "2026-11-15T21:47:18Z",
+  "fetchedAt": "2026-11-15T22:47:20Z",
   "source": "espn",
   "games": [
     {
@@ -213,9 +213,9 @@
       "homeId": "22",
       "awayId": "14",
       "status": "in_progress",
-      "statusDetail": "13:38 - 2nd",
+      "statusDetail": "15:00 - 3rd",
       "homeScore": 6,
-      "awayScore": 3,
+      "awayScore": 17,
       "venue": "State Farm Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -235,9 +235,9 @@
       "homeId": "13",
       "awayId": "26",
       "status": "in_progress",
-      "statusDetail": "11:12 - 2nd",
+      "statusDetail": "9:28 - 3rd",
       "homeScore": 10,
-      "awayScore": 7,
+      "awayScore": 14,
       "venue": "Allegiant Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -257,9 +257,9 @@
       "homeId": "6",
       "awayId": "25",
       "status": "in_progress",
-      "statusDetail": "6:56 - 1st",
-      "homeScore": 3,
-      "awayScore": 7,
+      "statusDetail": "1:10 - 2nd",
+      "homeScore": 16,
+      "awayScore": 17,
       "venue": "AT&T Stadium",
       "neutralSite": false,
       "venueInfo": {
