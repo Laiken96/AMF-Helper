@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T22:47:25Z",
+  "updatedAt": "2026-11-15T22:56:59Z",
   "items": [
+    {
+      "id": "6d1d61fe9c747164",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50495228/parker-washington-firmly-wr1-radar-week-11",
+      "title": "Eric Moody: Parker Washington firmly on the WR1 radar in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-15T22:55:21Z",
+      "teamIds": []
+    },
+    {
+      "id": "b5d9d921262c3927",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50495181/raiders-lose-te-brock-bowers-ankle-injury-vs-seahawks",
+      "title": "Raiders lose TE Brock Bowers to ankle injury vs. Seahawks",
+      "summary": "Brock Bowers was ruled out of Sunday's matchup against the Seahawks after suffering a right ankle injury in the opening quarter.",
+      "publishedAt": "2026-11-15T22:54:58Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "f99b7d3e6b1d8cba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jadarian-price-puts-seahawks-up-14-10-in-third-quarter",
+      "title": "Jadarian Price puts Seahawks up 14-10 in third quarter",
+      "summary": "Fernando Mendoza isn't the only rookie who has scored his first NFL touchdown in Las Vegas on Sunday.",
+      "publishedAt": "2026-11-15T22:49:52Z",
+      "teamIds": [
+        "26"
+      ]
+    },
     {
       "id": "f9a382e1472cd547",
       "source": "espn",
@@ -362,7 +393,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873057",
       "title": "Trevor Lawrence lights up the Titans as the Jaguars roll 40-23 for a sixth win in 7 games",
-      "summary": "Trevor Lawrence threw for 352 yards and three touchdowns as the Jacksonville Jaguars beat the",
+      "summary": "Trevor Lawrence has found a way to play even better, and he's elevating the Jacksonville offense right along with him.",
       "publishedAt": "2026-11-15T21:22:35Z",
       "teamIds": [
         "30",
@@ -385,7 +416,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873060",
       "title": "Kirk Cousins has triumphant return as Vikings sack Jordan Love 8 times in 30-10 win over Packers",
-      "summary": "Kirk Cousins threw two touchdown passes to start his second stint with Minnesota and Levi Drake Rodriguez had two of the Vikings’ eight sacks in a 30-10 victory over the Green Bay Packers on Sunday.",
+      "summary": "Kirk Cousins began his second stint with Minnesota by showing just how much of a difference he can make for the Vikings' offense.",
       "publishedAt": "2026-11-15T21:20:38Z",
       "teamIds": [
         "9",
@@ -932,6 +963,15 @@
       ]
     },
     {
+      "id": "cdf1af5e037dba76",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-hub-expert-selections-best-bets-teasers-survivor",
+      "title": "NFL Week 10 expert picks, odds, best bets, teasers, predictions, survivor picks and more",
+      "summary": "CBSSports.com and SportsLine break down every single NFL game in Week 10",
+      "publishedAt": "2026-11-15T18:01:34Z",
+      "teamIds": []
+    },
+    {
       "id": "2ac2af002e7a8f1b",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
@@ -950,6 +990,18 @@
       "teamIds": [
         "8",
         "17"
+      ]
+    },
+    {
+      "id": "3c0723ee8291801b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch",
+      "title": "Bengals vs. Steelers prediction: AFC North rivals to battle for first place in the division on 'SNF'",
+      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3",
+      "publishedAt": "2026-11-15T17:48:31Z",
+      "teamIds": [
+        "4",
+        "23"
       ]
     },
     {
@@ -1548,6 +1600,18 @@
       "teamIds": []
     },
     {
+      "id": "129b515014566dc4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-vs-patriots-prediction-odds-where-to-watch-munich",
+      "title": "Lions vs. Patriots prediction: Detroit seeks fifth straight victory, while New England looks to bounce back",
+      "summary": "Everything you need to know to catch the game",
+      "publishedAt": "2026-11-15T12:36:28Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
       "id": "6c0f5ce86cdbbad4",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
@@ -1580,71 +1644,6 @@
       "teamIds": [
         "13"
       ]
-    },
-    {
-      "id": "c44f7d4ed67191a6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50484865/sources-vikings-want-keep-kirk-cousins-2027-season",
-      "title": "Sources: Vikings want to keep Kirk Cousins, talked to QB about staying in 2027",
-      "summary": "The Vikings are interested in keeping Kirk Cousins as their QB next season, sources told NFL Network.",
-      "publishedAt": "2026-11-15T12:00:43Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "f543bea36d10b276",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-trade-offers-rejected-titans-plans-for-tony-pollard-come-into-question",
-      "title": "With trade offers rejected, Titans' plans for Tony Pollard come into question",
-      "summary": "All the factors had lined up for a Tony Pollard trade.",
-      "publishedAt": "2026-11-15T11:57:34Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "ba25dabdd2104a52",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50446201/nfl-week-10-odds-betting-picks-steelers-bengals-preview",
-      "title": "Steelers-Bengals odds, analysis, betting tips and recommended props",
-      "summary": "Odds, analysis and picks to help you bet Sunday's Pittsburgh Steelers-Cincinnati Bengals game.",
-      "publishedAt": "2026-11-15T11:42:07Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "260c8a0cd2971c52",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-fly-to-colorado-tonight-to-begin-acclimating-to-altitude-for-mexico-city-game",
-      "title": "49ers will fly to Colorado tonight to begin acclimating to altitude for Mexico City game",
-      "summary": "The 49ers won't fly home after today's game in Dallas.",
-      "publishedAt": "2026-11-15T11:03:11Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "d679dd074e662f8b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50473944/jets-five-questions-halfway-aaron-glenn-geno-smith",
-      "title": "Five questions for the Jets in the second half of the season",
-      "summary": "After falling to 2-7, New York has to manage its current situation and setting up the future.",
-      "publishedAt": "2026-11-15T11:00:03Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "b3ecee4f11afdb7a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50454197/top-10-super-bowl-individual-defensive-performances",
-      "title": "Ranking the top 10 Super Bowl performances by a defender",
-      "summary": "Not all Super Bowl MVPs were quarterbacks or offensive stars. We listed 10 standout individual defensive performances.",
-      "publishedAt": "2026-11-15T10:56:58Z",
-      "teamIds": []
     }
   ]
 }
