@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-12T19:20:55Z",
+  "updatedAt": "2026-11-15T08:31:10Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -30,6 +30,33 @@
         {
           "title": "Commanders-Giants Weather Forecast: Will Rain Clear Before Kickoff? - Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/commanders-giants-weather-forecast-rain-201029587.html"
+        }
+      ]
+    },
+    {
+      "gameId": "401873053",
+      "createdAt": "2026-11-15T08:31:10Z",
+      "winnerTeamId": "8",
+      "pWinner": 0.66,
+      "marketPickTeamId": "8",
+      "marketProb": 0.5735,
+      "reasoning": "Die Lions (6-2) kommen mit vier Siegen in Folge nach München und sind gesünder aufgestellt, da die Patriots (5-4) ohne RB TreVeyon Henderson, OL Ben Brown und CB Carlton Davis III antreten und A.J. Brown sowie Rhamondre Stevenson nur fraglich sind. WR Amon-Ra St. Brown ist mit Rippenproblemen ebenfalls fraglich, gilt aber als sehr wahrscheinlicher Einsatz, während Detroit Kerby Joseph, Cade Mays und D.J. Reed verliert. Da New England zuletzt mehrfach den Ball verlor und Detroit zu den besten Teams bei Ballgewinnen gehört, sehe ich die Lions leicht im Vorteil.",
+      "sources": [
+        {
+          "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker III ruled out, Patriots' A.J. Brown questionable - CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/"
+        },
+        {
+          "title": "Patriots vs. Lions Wednesday injury report: A.J. Brown returns, three ruled out - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/patriots-vs-lions-wednesday-injury-232012850.html"
+        },
+        {
+          "title": "Lions' Amon-Ra St. Brown: Listed as questionable for Sunday - CBS Sports",
+          "url": "https://www.cbssports.com/fantasy/football/news/lions-amon-ra-st-brown-listed-as-questionable-for-sunday/"
+        },
+        {
+          "title": "Patriots-Lions Week 10 preview: Keys to victory, prediction and more - NBC Boston",
+          "url": "https://www.nbcboston.com/news/sports/nfl/new-england-patriots/lions-week-10-preview-keys-victory-prediction/4048561/"
         }
       ]
     }
