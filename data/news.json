@@ -1,7 +1,154 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T15:47:20Z",
+  "updatedAt": "2026-11-15T16:47:25Z",
   "items": [
+    {
+      "id": "6e8a29728dca3c94",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50486637/sources-baker-mayfield-status-uncertain-vs-lions",
+      "title": "Sources: Baker Mayfield's status uncertain for Bucs' Week 11 game vs. Lions",
+      "summary": "Baker Mayfield's status against the Lions in Week 11 is in question because of an injury he suffered to his foot and ankle area, sources told NFL Network.",
+      "publishedAt": "2026-11-15T16:43:34Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "cdbc594c5e661892",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-jahmyr-gibbs-ties-nfl-record-germany-patriots",
+      "title": "Lions running back Jahmyr Gibbs ties NFL record during Germany game vs. Patriots",
+      "summary": "Gibbs is making NFL history in Germany",
+      "publishedAt": "2026-11-15T16:38:51Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "81f5d58a19db3848",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-anderson-to-play-against-browns",
+      "title": "Will Anderson to play against Browns",
+      "summary": "All of the inactives for Sunday's 1 p.m. ET kickoffs.",
+      "publishedAt": "2026-11-15T16:34:21Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "70ad5eae4c1a2abc",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/2026-week-10-nfl-player-props-picks-odds-best-bets-for-sundays-games-include-dak-prescott-travis-kelce",
+      "title": "2026 Week 10 NFL player props, picks, odds, best bets for Sunday's games include Dak Prescott, Travis Kelce",
+      "summary": "Bet on Week 10 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
+      "publishedAt": "2026-11-15T16:33:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "52ee5e07c32d1cac",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/panthers-vs-saints-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets",
+      "title": "Panthers vs. Saints odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Panthers vs. Saints in NFL Week 10",
+      "publishedAt": "2026-11-15T16:22:19Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "8b77c30710adec83",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-colts-will-stage-a-someone-has-to-win-game",
+      "title": "Dolphins, Colts will stage a \"someone has to win\" game",
+      "summary": "The Colts need a lot more than a horseshoe to turn their season around.",
+      "publishedAt": "2026-11-15T16:18:43Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "8ef179bdf70a9f7c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-uncertain-for-week-11-due-to-lower-leg-injury",
+      "title": "Report: Baker Mayfield uncertain for Week 11 due to lower-leg injury",
+      "summary": "The Buccaneers are on their bye week and they're hoping that quarterback Baker Mayfield will be able to play when they return to action in Week 11.",
+      "publishedAt": "2026-11-15T16:15:32Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "4e1d8ca3a5a03c58",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/four-officials-in-all-will-make-the-road-trip-from-indy-to-cincinnati",
+      "title": "Four officials in all will make the road trip from Indy to Cincinnati",
+      "summary": "It's officially a road trip.",
+      "publishedAt": "2026-11-15T16:06:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "71a36f60f20b7bc6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-totals-171-yards-in-first-half-as-lions-roll-over-patriots",
+      "title": "Jahmyr Gibbs totals 171 yards in first half as Lions roll over Patriots",
+      "summary": "For the second consecutive week, the Patriots' defense is having a rough game.",
+      "publishedAt": "2026-11-15T16:06:22Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "996b6ef52f0d0fc6",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds",
+      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
+      "publishedAt": "2026-11-15T16:02:44Z",
+      "teamIds": [
+        "2",
+        "4",
+        "6",
+        "20",
+        "23",
+        "25"
+      ]
+    },
+    {
+      "id": "9fabd4d40cb650b6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50477594/sb-xxiii",
+      "title": "Jerry Rice's 'I scored a touchdown' story: SB XXIII",
+      "summary": null,
+      "publishedAt": "2026-11-15T15:59:14Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "3a5d7d0340055ebe",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50490679/what-hutchinson-maye-injuries-mean-lions-patriots",
+      "title": "What Hutchinson, Maye injuries mean for Lions, Patriots",
+      "summary": null,
+      "publishedAt": "2026-11-15T15:57:18Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "6c251ef3172810cf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-out-for-game-with-ankle-injury-after-getting-sacked-by-aidan-hutchinson",
+      "title": "Drake Maye out for game with ankle injury after getting sacked by Aidan Hutchinson",
+      "summary": "Hutchinson was also injured after he got up and celebrated.",
+      "publishedAt": "2026-11-15T15:45:47Z",
+      "teamIds": []
+    },
     {
       "id": "398adf4f1b4a8833",
       "source": "cbs",
@@ -1480,154 +1627,6 @@
       "summary": "Jones sees the NFL 'maybe' expanding to an 18-game regular season sooner than one might think",
       "publishedAt": "2026-11-13T20:36:20Z",
       "teamIds": []
-    },
-    {
-      "id": "5b3b725ac77c006b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-list-myles-garrett-as-questionable-but-sean-mcvay-expects-him-to-play",
-      "title": "Rams list Myles Garrett as questionable, but Sean McVay expects him to play",
-      "summary": "The Rams are listing Myles Garrett as questionable for Sunday's rematch with the Cardinals, but the club is still expecting him to play.",
-      "publishedAt": "2026-11-13T20:34:05Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "d63a141779d2282d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-eagles-to-release-veteran-ol-fred-johnson",
-      "title": "Report: Eagles to release veteran OL Fred Johnson",
-      "summary": "The Eagles are releasing veteran offensive tackle Fred Johnson, Ian Rapoport of NFL Media reports.",
-      "publishedAt": "2026-11-13T20:29:05Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "dd6a57293c72ff76",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/revisiting-2026-nfl-draft-did-titans-take-right-receiver-4-overall",
-      "title": "Revisiting the 2026 NFL Draft: Did the Titans take the right receiver at No. 4 overall?",
-      "summary": "Carnell Tate has given quarterback Cam Ward a reliable target against zone coverage, but ball security issues and questions about his ultimate ceiling complicate the pick",
-      "publishedAt": "2026-11-13T20:23:40Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "4ab2e914522b1d63",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50473949/panthers-looking-build-momentum",
-      "title": "Panthers looking to build momentum",
-      "summary": "Mike Kaye previews the Panthers matchup against the Saints as the true second half of the NFL season begins.",
-      "publishedAt": "2026-11-13T20:22:32Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "06dc9b79306278da",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/eagles-release-wide-receiver-hollywood-brown-upon-his-request-according-to-report",
-      "title": "Eagles release wide receiver Hollywood Brown upon his request, according to report",
-      "summary": "Brown wasn't used much in the Eagles offense this year",
-      "publishedAt": "2026-11-13T20:19:13Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "26d4047e602b9731",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-will-release-wr-hollywood-brown-at-his-request",
-      "title": "Eagles will release WR Hollywood Brown, at his request",
-      "summary": "Say goodbye to Philadelphia.",
-      "publishedAt": "2026-11-13T20:09:47Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "9f74cf45bf45c9dd",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50473665/jeffery-simmons-high-praise-caleb-williams",
-      "title": "Jeffery Simmons has high praise for Caleb Williams",
-      "summary": null,
-      "publishedAt": "2026-11-13T19:57:28Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "7da525f88873b895",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-says-he-and-liam-coen-are-good-after-misunderstanding-last-year",
-      "title": "Robert Saleh says he and Liam Coen are good after \"misunderstanding\" last year",
-      "summary": "When the Titans face the Jaguars on Sunday, Robert Saleh and Liam Coen will coach against each other for the first time since their run-in last year, when they exchanged words on the field over something Saleh, then the defensive coordinator of the 49ers, said something about Coen that Coen didn't appreciate.",
-      "publishedAt": "2026-11-13T19:51:35Z",
-      "teamIds": [
-        "30",
-        "25",
-        "10"
-      ]
-    },
-    {
-      "id": "27af998d08053316",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-knew-about-the-jameis-winston-who-let-the-dogs-out-cadence",
-      "title": "John Harbaugh knew about the Jameis Winston \"who let the dogs out?\" cadence",
-      "summary": "Thursday night's game between the Commanders and the Giants introduced a new wrinkle to the legend of Jameis Winston.",
-      "publishedAt": "2026-11-13T19:48:35Z",
-      "teamIds": [
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "bfdc0ded46315b1c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-did-not-practice-friday-with-groin-tightness",
-      "title": "Kenneth Walker did not practice Friday with groin tightness",
-      "summary": "There is a potentially significant injury situation brewing with the Chiefs.",
-      "publishedAt": "2026-11-13T19:39:11Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "98b24b959e7d7c7c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-sign-2-tight-end-elijah-higgins-three-year-extension-per-report",
-      "title": "Cardinals reportedly extend No. 2 TE Elijah Higgins, going all-in on tight ends amid WR injuries",
-      "summary": "Coupled with the McBride extension in 2025, the Cardinals have now signed over $100 million in contracts for their top two tight ends",
-      "publishedAt": "2026-11-13T19:38:19Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "1b5ae60de91baf16",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50473514/sources-eagles-release-wr-hollywood-brown-per-request",
-      "title": "Eagles release wide receiver Hollywood Brown per request",
-      "summary": "Receiver Hollywood Brown, who has played sparingly over the first half of the season, has been released by the Eagles upon his request.",
-      "publishedAt": "2026-11-13T19:32:56Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "f832d49f4ff82afd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50448015/nfl-week-10-uniforms",
-      "title": "NFL Week 10 uniforms: Titans debut Rivalries look, Ravens go all-black",
-      "summary": "Here's a look at what each NFL team is wearing in Week 10, led by the Tennessee Titans' Rivalries look.",
-      "publishedAt": "2026-11-13T19:27:16Z",
-      "teamIds": [
-        "33",
-        "10"
-      ]
     }
   ]
 }
