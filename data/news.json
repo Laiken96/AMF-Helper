@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T03:47:22Z",
+  "updatedAt": "2026-11-15T04:47:19Z",
   "items": [
+    {
+      "id": "3806cb4f38f744df",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/game-between-bill-belichicks-unc-and-louisville-ends-in-a-brawl",
+      "title": "Game between Bill Belichick's UNC and Louisville ends in a brawl",
+      "summary": "Saturday's not alright for fighting.",
+      "publishedAt": "2026-11-15T04:30:07Z",
+      "teamIds": []
+    },
     {
       "id": "de649570e3850ecc",
       "source": "pft",
@@ -1616,15 +1625,6 @@
       "title": "Joe Burrow is the MVP favorite, but is there a better betting value?",
       "summary": "Joe Burrow is the MVP favorite halfway through the season, but is he worth a bet, or are their better values?",
       "publishedAt": "2026-11-13T16:28:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "2d7c649f61dbeaf4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50472214/why-cam-ward-fantasy-option-keep-eye-on",
-      "title": "Why Cam Ward is a fantasy option to keep an eye on",
-      "summary": null,
-      "publishedAt": "2026-11-13T16:26:45Z",
       "teamIds": []
     }
   ]
