@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T00:47:29Z",
+  "updatedAt": "2026-11-15T01:47:23Z",
   "items": [
+    {
+      "id": "e622bc02d9c382a0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-dt-derrick-harmon",
+      "title": "Steelers activate DT Derrick Harmon",
+      "summary": "Defensive tackle Derrick Harmon is set to return to the Steelers lineup against the Bengals on Sunday night.",
+      "publishedAt": "2026-11-15T01:14:05Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "3c0723ee8291801b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch",
+      "title": "Bengals vs. Steelers prediction: AFC North rivals to battle for first place in the division on 'SNF'",
+      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3",
+      "publishedAt": "2026-11-15T01:01:05Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "aa9a125653ebb260",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/lions-vs-patriots-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-munich-game",
+      "title": "Lions vs. Patriots odds, picks, prediction, spread: Start time, betting preview, best bets for Munich game",
+      "summary": "Here's everything bettors need to know as the Lions and Patriots meet in Munich, Germany in NFL Week 10",
+      "publishedAt": "2026-11-15T01:00:51Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "6a73dcc6f4db859f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rex-ryan-will-appear-on-espns-sunday-pregame-show-despite-arrest",
+      "title": "Rex Ryan will appear on ESPN's Sunday pregame show, despite arrest",
+      "summary": "ESPN hasn't said much about analyst Rex Ryan following his recent arrest in Nashville for running over the feet of two pedestrians with his truck.",
+      "publishedAt": "2026-11-15T00:52:45Z",
+      "teamIds": []
+    },
     {
       "id": "fe83c4b5d3933cff",
       "source": "pft",
@@ -22,6 +67,18 @@
       "summary": "Every Saturday, plenty of players get fined for illegal use of helmet fouls from the prior weekend's game.",
       "publishedAt": "2026-11-15T00:20:00Z",
       "teamIds": []
+    },
+    {
+      "id": "2a19642d67c18e1f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-spreads-betting-lines-picks-predictions-for-week-10-2026",
+      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-15T00:03:38Z",
+      "teamIds": [
+        "2",
+        "34"
+      ]
     },
     {
       "id": "f7ef2625117fd1a9",
@@ -1578,56 +1635,6 @@
       "title": "Fantasy playbook: Week 10 Shadow Reports, lineup locks and projected scores",
       "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
       "publishedAt": "2026-11-13T15:47:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "98e5b5f970362620",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50414742/2026-nfl-week-10-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 10 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 10.",
-      "publishedAt": "2026-11-13T15:46:27Z",
-      "teamIds": []
-    },
-    {
-      "id": "da7ac590c048350f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-10-best-bets-player-props-anytime-touchdown-scorers-for-sundays-matchups",
-      "title": "NFL odds, picks: Brinson's Week 10 best bets, player props, anytime touchdown scorers for Sunday's matchups",
-      "summary": "Back Kirk Cousins in his return to Minnesota, take the points with New England against Detroit and expect points in an AFC East shootout at MetLife",
-      "publishedAt": "2026-11-13T15:45:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "cfd4e6fe4ef627e8",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50472215/draftkings-nfl-dfs-values-week-10",
-      "title": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
-      "summary": "Build a winning DFS lineup with our DraftKings NFL Week 10 cheat sheet identifying the best stacks and values",
-      "publishedAt": "2026-11-13T15:43:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "5f73af5bfda3db70",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50472222/ravens-lamar-jackson-injury-typical-line-6-10-weeks",
-      "title": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, sources say",
-      "summary": "Ravens coach Jesse Minter's update on Lamar Jackson's recovery process calls such timelines \"challenging to predict.\"",
-      "publishedAt": "2026-11-13T15:43:47Z",
-      "teamIds": [
-        "33",
-        "2",
-        "5",
-        "24"
-      ]
-    },
-    {
-      "id": "b1c1f4ed8404703e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-engages-in-potential-pre-tampering-with-kyle-shanahan",
-      "title": "Troy Aikman engages in potential pre-tampering with Kyle Shanahan",
-      "summary": "If Troy Aikman exits broadcasting after this season (last month, he put the chance at \"50-50\") and if Aikman lands a key position in a front office, the name at the top of his head-coaching wishlist will already be known.",
-      "publishedAt": "2026-11-13T15:36:29Z",
       "teamIds": []
     }
   ]
