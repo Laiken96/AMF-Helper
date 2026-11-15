@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T17:01:10Z",
+    "takenAt": "2026-11-15T18:10:31Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1183,56 +1183,22 @@
             "status": null
           },
           {
+            "athleteId": "4373678",
+            "name": "Khalil Shakir",
+            "pos": "WR",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4379399",
             "name": "James Cook III",
             "pos": "RB",
             "teamId": "2",
             "teamAbbr": "BUF",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4385690",
-            "name": "Dalton Kincaid",
-            "pos": "TE",
-            "teamId": "2",
-            "teamAbbr": "BUF",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "15864",
-            "name": "Geno Smith",
-            "pos": "QB",
-            "teamId": "20",
-            "teamAbbr": "NYJ",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4569618",
-            "name": "Garrett Wilson",
-            "pos": "WR",
-            "teamId": "20",
-            "teamAbbr": "NYJ",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685247",
-            "name": "Braelon Allen",
-            "pos": "RB",
-            "teamId": "20",
-            "teamAbbr": "NYJ",
             "roles": [
               "rushing"
             ],
@@ -1256,6 +1222,17 @@
             "status": null
           },
           {
+            "athleteId": "4372780",
+            "name": "Tommy Tremble",
+            "pos": "TE",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4428993",
             "name": "Haynes King",
             "pos": "QB",
@@ -1265,17 +1242,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4685472",
-            "name": "Tetairoa McMillan",
-            "pos": "WR",
-            "teamId": "29",
-            "teamAbbr": "CAR",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
           },
           {
             "athleteId": "4685720",
@@ -1290,6 +1256,17 @@
             "status": null
           },
           {
+            "athleteId": "4239996",
+            "name": "Travis Etienne Jr.",
+            "pos": "RB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4360689",
             "name": "Tyler Shough",
             "pos": "QB",
@@ -1297,8 +1274,7 @@
             "teamAbbr": "NO",
             "roles": [
               "qb",
-              "passing",
-              "rushing"
+              "passing"
             ],
             "status": null
           },
@@ -1314,13 +1290,13 @@
             "status": "Out"
           },
           {
-            "athleteId": "4361370",
-            "name": "Chris Olave",
-            "pos": "WR",
+            "athleteId": "4569682",
+            "name": "Audric Estime",
+            "pos": "RB",
             "teamId": "18",
             "teamAbbr": "NO",
             "roles": [
-              "receiving"
+              "rushing"
             ],
             "status": null
           }
@@ -1354,33 +1330,11 @@
             "status": "Out"
           },
           {
-            "athleteId": "4685702",
-            "name": "Quinshon Judkins",
-            "pos": "RB",
+            "athleteId": "5083076",
+            "name": "Harold Fannin Jr.",
+            "pos": "TE",
             "teamId": "5",
             "teamAbbr": "CLE",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4832800",
-            "name": "Denzel Boston",
-            "pos": "WR",
-            "teamId": "5",
-            "teamAbbr": "CLE",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4258173",
-            "name": "Nico Collins",
-            "pos": "WR",
-            "teamId": "34",
-            "teamAbbr": "HOU",
             "roles": [
               "receiving"
             ],
@@ -1408,6 +1362,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4686422",
+            "name": "Xavier Hutchinson",
+            "pos": "WR",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           }
         ]
       },
@@ -1428,8 +1393,8 @@
             "status": null
           },
           {
-            "athleteId": "4432620",
-            "name": "Parker Washington",
+            "athleteId": "4879194",
+            "name": "Josh Cameron",
             "pos": "WR",
             "teamId": "30",
             "teamAbbr": "JAX",
@@ -1448,40 +1413,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "3916148",
-            "name": "Tony Pollard",
-            "pos": "RB",
-            "teamId": "10",
-            "teamAbbr": "TEN",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4688380",
-            "name": "Cam Ward",
-            "pos": "QB",
-            "teamId": "10",
-            "teamAbbr": "TEN",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4871023",
-            "name": "Carnell Tate",
-            "pos": "WR",
-            "teamId": "10",
-            "teamAbbr": "TEN",
-            "roles": [
-              "receiving"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -1501,21 +1432,9 @@
             "status": "Out"
           },
           {
-            "athleteId": "4360423",
-            "name": "Michael Penix Jr.",
-            "pos": "QB",
-            "teamId": "1",
-            "teamAbbr": "ATL",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4426502",
-            "name": "Drake London",
-            "pos": "WR",
+            "athleteId": "4360248",
+            "name": "Kyle Pitts Sr.",
+            "pos": "TE",
             "teamId": "1",
             "teamAbbr": "ATL",
             "roles": [
@@ -1524,13 +1443,14 @@
             "status": null
           },
           {
-            "athleteId": "4430807",
-            "name": "Bijan Robinson",
-            "pos": "RB",
+            "athleteId": "4360423",
+            "name": "Michael Penix Jr.",
+            "pos": "QB",
             "teamId": "1",
             "teamAbbr": "ATL",
             "roles": [
-              "rushing"
+              "qb",
+              "passing"
             ],
             "status": null
           },
@@ -1569,17 +1489,6 @@
             "status": null
           },
           {
-            "athleteId": "4567048",
-            "name": "Kenneth Walker III",
-            "pos": "RB",
-            "teamId": "12",
-            "teamAbbr": "KC",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4567747",
             "name": "Garrett Nussmeier",
             "pos": "QB",
@@ -1589,6 +1498,17 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4832955",
+            "name": "Emmett Johnson",
+            "pos": "RB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           }
         ]
       },
@@ -1620,17 +1540,6 @@
             "status": null
           },
           {
-            "athleteId": "4431459",
-            "name": "Tyler Warren",
-            "pos": "TE",
-            "teamId": "11",
-            "teamAbbr": "IND",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4683423",
             "name": "Riley Leonard",
             "pos": "QB",
@@ -1642,35 +1551,14 @@
             "status": "Out"
           },
           {
-            "athleteId": "4242512",
-            "name": "Malik Willis",
+            "athleteId": "4433971",
+            "name": "Kyle McCord",
             "pos": "QB",
             "teamId": "15",
             "teamAbbr": "MIA",
             "roles": [
               "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4569603",
-            "name": "Malik Washington",
-            "pos": "WR",
-            "teamId": "15",
-            "teamAbbr": "MIA",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4711533",
-            "name": "Ollie Gordon II",
-            "pos": "RB",
-            "teamId": "15",
-            "teamAbbr": "MIA",
-            "roles": [
+              "passing",
               "rushing"
             ],
             "status": null
@@ -1681,6 +1569,17 @@
         "gameId": "401873060",
         "kickoffUtc": "2026-11-15T18:00:00Z",
         "players": [
+          {
+            "athleteId": "3149687",
+            "name": "Chris Brooks",
+            "pos": "RB",
+            "teamId": "9",
+            "teamAbbr": "GB",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
           {
             "athleteId": "4036378",
             "name": "Jordan Love",
@@ -1694,9 +1593,9 @@
             "status": null
           },
           {
-            "athleteId": "4248528",
-            "name": "Christian Watson",
-            "pos": "WR",
+            "athleteId": "4431346",
+            "name": "Mark Redman",
+            "pos": "TE",
             "teamId": "9",
             "teamAbbr": "GB",
             "roles": [
@@ -1705,13 +1604,14 @@
             "status": null
           },
           {
-            "athleteId": "4819231",
-            "name": "Kaleb Johnson",
-            "pos": "RB",
-            "teamId": "9",
-            "teamAbbr": "GB",
+            "athleteId": "14880",
+            "name": "Kirk Cousins",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
             "roles": [
-              "rushing"
+              "qb",
+              "passing"
             ],
             "status": null
           },
@@ -1727,20 +1627,8 @@
             "status": null
           },
           {
-            "athleteId": "3917315",
-            "name": "Kyler Murray",
-            "pos": "QB",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4262921",
-            "name": "Justin Jefferson",
+            "athleteId": "4430656",
+            "name": "Myles Price",
             "pos": "WR",
             "teamId": "16",
             "teamAbbr": "MIN",
@@ -2222,16 +2110,6 @@
       "name": "Dillon Gabriel",
       "pos": "QB",
       "teamAbbr": "CLE",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
-    },
-    {
-      "gameId": "401873057",
-      "athleteId": "4871023",
-      "name": "Carnell Tate",
-      "pos": "WR",
-      "teamAbbr": "TEN",
       "kind": "neu",
       "from": null,
       "to": "Out"
