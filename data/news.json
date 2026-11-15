@@ -1,7 +1,155 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T22:56:59Z",
+  "updatedAt": "2026-11-15T23:47:20Z",
   "items": [
+    {
+      "id": "4ea5951aeb7f9f7d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50495965/kirk-cousins-emotional-getting-win-return-vikings",
+      "title": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
+      "summary": "Kirk Cousins was emotional discussing his return to the Vikings after their victory over the Packers.",
+      "publishedAt": "2026-11-15T23:45:00Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "22bcc349ea643aad",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
+      "title": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
+      "summary": "Jordan Love and the Packers expressed their frustration after a 30-10 loss to the Vikings.",
+      "publishedAt": "2026-11-15T23:42:47Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "897e2c1681662682",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50495406/bijan-robinson-says-falcons-deserved-boos-loss-chiefs",
+      "title": "Bijan Robinson: Falcons deserved boos in loss to Chiefs",
+      "summary": "Fans at Mercedes-Benz Stadium booed the Falcons after another poor offensive showing Sunday.",
+      "publishedAt": "2026-11-15T23:38:40Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "4524110ca65aae8a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50495783/browns-deshaun-watson-savors-special-win-vs-texans",
+      "title": "Browns' Deshaun Watson relishes 'special' win vs. Texans after engineering rally",
+      "summary": "Deshaun Watson, who delivered his sixth game-winning drive of the season, called the 27-24 victory over the Texans, his former team, \"definitely special.\"",
+      "publishedAt": "2026-11-15T23:37:54Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "5f880ca99f149c04",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuels-70-yard-td-run-gives-49ers-31-19-lead",
+      "title": "Deebo Samuel's 70-yard TD run gives 49ers 31-19 lead",
+      "summary": "Welcome back, Deebo Samuel.",
+      "publishedAt": "2026-11-15T23:36:03Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "39d02e20391579c9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-lead-cowboys-24-19-in-third-quarter",
+      "title": "49ers lead Cowboys 24-19 in third quarter",
+      "summary": "The 49ers opened the second half with a five-play, 81-yard drive to take a 24-16 lead on the Cowboys.",
+      "publishedAt": "2026-11-15T23:25:14Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "fd257cd827f87023",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut",
+      "title": "Raiders' Brock Bowers ruled out with ankle injury as Fernando Mendoza makes first career start",
+      "summary": "Mendoza will be without his top target for the rest of his starting debut",
+      "publishedAt": "2026-11-15T23:24:50Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "974396eea20e5366",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-overreactions-patriots-lions-demeco-ryans-texans",
+      "title": "NFL Week 10 overreactions: Patriots to miss playoffs? Texans' DeMeco Ryans on the hot seat?",
+      "summary": "Drake Maye got hurt, and New England got blown out in Germany as the Pats playoff hopes slip away",
+      "publishedAt": "2026-11-15T23:24:44Z",
+      "teamIds": [
+        "34",
+        "17"
+      ]
+    },
+    {
+      "id": "916550fcaded2046",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/chiefs-trade-deadline-move-josh-downs-unlocks-mvp-patrick-mahomes",
+      "title": "Chiefs trade deadline move for Josh Downs unlocks MVP Patrick Mahomes of old",
+      "summary": "Mahomes' MVP is back thanks to his new downfield deep threat: NFL trade deadline WR addition Josh Downs",
+      "publishedAt": "2026-11-15T23:10:59Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "4ea8397845ccb397",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
+      "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
+      "summary": "We're handing out grades for every team that played in Week 10",
+      "publishedAt": "2026-11-15T23:07:48Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "9d04b712189e194d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-rule-out-ladd-mcconkey-for-monday-night-at-baltimore",
+      "title": "Chargers rule out Ladd McConkey for Monday night at Baltimore",
+      "summary": "It's been a disappointing season for Chargers wide receiver Ladd McConkey, and it won't get any better this week.",
+      "publishedAt": "2026-11-15T23:03:38Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "b124f36e3616ea78",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/blake-corum-scores-for-sixth-consecutive-game-rams-lead-24-6",
+      "title": "Blake Corum scores for sixth consecutive game, Rams lead 24-6",
+      "summary": "Blake Corum won't stop scoring, and the Rams have increased their lead early in the second half.",
+      "publishedAt": "2026-11-15T23:00:59Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "94a21740cfa18193",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-lead-cowboys-17-16-at-halftime",
+      "title": "49ers lead Cowboys 17-16 at halftime",
+      "summary": "The 49ers and Cowboys are in a shootout at AT&T Stadium.",
+      "publishedAt": "2026-11-15T22:59:28Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
     {
       "id": "6d1d61fe9c747164",
       "source": "espn",
@@ -141,7 +289,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873059",
       "title": "Colts' struggling offense does just enough to beat Dolphins 24-22 and snap 5-game skid",
-      "summary": "Daniel Jones threw a touchdown pass, Seth McGowan scored on a 4-yard run and Adetomiwa Adebawore recovered a fumble in the end zone Sunday to help the Indianapolis Colts hold on for a 24-22 victory over the Miami Dolphins.",
+      "summary": "The Indianapolis Colts got the respite they needed.",
       "publishedAt": "2026-11-15T22:02:38Z",
       "teamIds": [
         "11",
@@ -225,7 +373,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873055",
       "title": "Hubbard helps the Panthers top the Saints, 20-17, and retain first place in the NFC South",
-      "summary": "Chuba Hubbard gained 172 yards from scrimmage and ran for two touchdowns, and Ryan Fitzgerald's 54-yard field goal as time expired lifted the Carolina Panthers to a 20-17 victory over the New Orleans Saints on Sunday with the NFC South Division lead...",
+      "summary": "Chuba Hubbard made long gains out of short passes, pushed through tacklers and pulled the mistake-prone Carolina Panthers out of a three-game slide.",
       "publishedAt": "2026-11-15T21:54:36Z",
       "teamIds": [
         "29",
@@ -272,7 +420,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873056",
       "title": "Deshaun Watson throws for 312 yards against his old team as the Browns rally past the Texans 27-24",
-      "summary": "Quinshon Judkins barreled into the end zone from 5 yards out with 53 seconds remaining, and the resilient Cleveland Browns stunned the Houston Texans 27-24 on Sunday.",
+      "summary": "Deshaun Watson can talk all he wants about how playing the Houston Texans is just another game.",
       "publishedAt": "2026-11-15T21:39:47Z",
       "teamIds": [
         "5",
@@ -381,7 +529,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873058",
       "title": "Mahomes throws 5 TD passes and rookie Johnson runs for 101 yards as Chiefs overwhelm Falcons 35-13",
-      "summary": "Patrick Mahomes threw five touchdown passes, including one to newly acquired Josh Downs and two to rookie Emmett Johnson, and the Kansas City Chiefs beat the struggling Atlanta...",
+      "summary": "Some new names had the Kansas City Chiefs looking very young — and very strong.",
       "publishedAt": "2026-11-15T21:23:35Z",
       "teamIds": [
         "1",
@@ -1500,150 +1648,6 @@
       "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
       "publishedAt": "2026-11-15T14:25:30Z",
       "teamIds": []
-    },
-    {
-      "id": "74e25106fd3232f9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
-      "title": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for all of Sunday's top moments, TDs and analysis from ESPN's NFL reporters.",
-      "publishedAt": "2026-11-15T14:11:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "32ea10ba524b2131",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-claim-over-3000-bonuses-from-betting-apps-sportsbooks-for-sunday",
-      "title": "Week 10 NFL betting promos: Claim over $3,000 in bonuses from betting apps, sportsbooks for Sunday",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-15T14:10:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "157267c925d29f2f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-lines-odds-spreads-totals",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Cowboys-49ers, Steelers-Bengals",
-      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-15T14:00:56Z",
-      "teamIds": [
-        "4",
-        "6",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "f60a5da8c24ba300",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-amon-ra-st-brown-active-for-patriots-lions-in-munich",
-      "title": "A.J. Brown, Amon-Ra St. Brown active for Patriots-Lions in Munich",
-      "summary": "Brown returns to the Patriots lineup after missing the last two games.",
-      "publishedAt": "2026-11-15T13:39:22Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "34764de01d6f99eb",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bengals-vs-steelers-odds-nfl-week-10-sunday-night-football-first-touchdown-scorer-picks-predictions",
-      "title": "Bengals vs. Steelers odds: NFL Week 10 Sunday Night Football first touchdown scorer picks, predictions",
-      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bengals and Steelers",
-      "publishedAt": "2026-11-15T13:30:50Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "cd55b860d2dfd3f2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/demarvion-overshown-wasnt-fined-for-running-onto-field-in-street-clothes",
-      "title": "Demarvion Overshown wasn't fined for running onto field in street clothes",
-      "summary": "In the fourth quarter of a Week 9 game the Cowboys led by only three points, Dallas forced — and recovered — a fumble by Colts running back Jonathan Taylor.",
-      "publishedAt": "2026-11-15T13:21:10Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "17c7f0a03ce51552",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/lions-vs-patriots-odds-picks-prediction-spread-start-time-betting-preview-best-bets-munich-game",
-      "title": "Lions vs. Patriots odds, picks, prediction, spread: Start time, betting preview, best bets for Munich game",
-      "summary": "Here's everything bettors need to know as the Lions and Patriots meet in Munich, Germany in NFL Week 10",
-      "publishedAt": "2026-11-15T13:03:32Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "7d9205f553297029",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/2026-week-10-nfl-player-props-odds-picks-best-bets-for-sundays-games-include-dak-prescott-travis-kelce",
-      "title": "2026 Week 10 NFL player props, odds, picks, best bets for Sunday's games include Dak Prescott, Travis Kelce",
-      "summary": "Bet on Week 10 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
-      "publishedAt": "2026-11-15T12:47:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "533d543d067f368e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-on-louisville-unc-brawl-thats-not-what-were-here-for",
-      "title": "Bill Belichick on Louisville-UNC brawl: \"That's not what we're here for\"",
-      "summary": "Saturday's game between Louisville and North Carolina ended in a brawl, sparked apparently by the Tar Heels being a little too aggressive in defending a victory-formation play.",
-      "publishedAt": "2026-11-15T12:44:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "129b515014566dc4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-vs-patriots-prediction-odds-where-to-watch-munich",
-      "title": "Lions vs. Patriots prediction: Detroit seeks fifth straight victory, while New England looks to bounce back",
-      "summary": "Everything you need to know to catch the game",
-      "publishedAt": "2026-11-15T12:36:28Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "6c0f5ce86cdbbad4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
-      "title": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
-      "summary": "The Chiefs sought medical opinions from two renowned baseball doctors last week on Patrick Mahomes' injured elbow, sources told ESPN.",
-      "publishedAt": "2026-11-15T12:30:04Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "bc35b68e28aaf770",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/starting-with-patriots-lions-fox-has-three-windows-on-sunday",
-      "title": "Starting with Patriots-Lions, Fox has three windows on Sunday",
-      "summary": "The last of the early-morning 2026 kickoffs happens today, with the Patriots playing the Lions in Germany.",
-      "publishedAt": "2026-11-15T12:28:32Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "b11c91b9463b675d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50485164/sources-raiders-had-fernando-mendoza-plan-even-no-cousins-trade",
-      "title": "Sources: Raiders planned to start Fernando Mendoza soon even if no Cousins trade",
-      "summary": "The Raiders had a plan to start Fernando Mendoza in Week 12 against the Browns even if they had not traded Kirk Cousins, sources told NFL Network.",
-      "publishedAt": "2026-11-15T12:18:34Z",
-      "teamIds": [
-        "13"
-      ]
     }
   ]
 }
