@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-15T15:31:04Z",
+  "updatedAt": "2026-11-15T19:20:46Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -323,6 +323,33 @@
         {
           "title": "Cowboys vs 49ers: How to watch, game time, TV schedule, streaming, radio",
           "url": "https://sports.yahoo.com/articles/cowboys-vs-49ers-watch-game-130000831.html"
+        }
+      ]
+    },
+    {
+      "gameId": "401873064",
+      "createdAt": "2026-11-15T19:20:46Z",
+      "winnerTeamId": "4",
+      "pWinner": 0.62,
+      "marketPickTeamId": "4",
+      "marketProb": 0.6023,
+      "reasoning": "Die Bengals spielen zu Hause, und Kyle Dugger fehlt weiter in der Secondary, während Starter Dalton Risner und Myles Hinton wegen Krankheit nur fraglich sind, was die Offensivlinie vor Joe Burrow unter Druck setzen könnte. Die Steelers haben mit Pat Freiermuth (Krankheit, fraglich) und der Rückkehr von Derrick Harmon aus dem IR gemischte Meldungen, und sie gewannen das Hinspiel 30:27. Trotz des knappen Ausgangs spricht der Heimvorteil mit der starken Bengals-Offensive für Cincinnati.",
+      "sources": [
+        {
+          "title": "Bengals, Steelers release latest injury reports ahead of primetime matchup - WLWT",
+          "url": "https://www.wlwt.com/article/cincinnati-bengals-pittsburgh-steelers-primetime-sunday-injuries/74428475"
+        },
+        {
+          "title": "Bengals Make Two Late Additions To Injury Report - Steelers Depot",
+          "url": "https://steelersdepot.com/2026/11/bengals-make-two-late-additions-to-injury-report/"
+        },
+        {
+          "title": "Steelers activate DT Derrick Harmon - NBC Sports",
+          "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-dt-derrick-harmon"
+        },
+        {
+          "title": "Bengals Get Surprise Steelers Injury News Ahead of Sunday Night Showdown - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/bengals-surprise-steelers-injury-news-222045391.html"
         }
       ]
     }
