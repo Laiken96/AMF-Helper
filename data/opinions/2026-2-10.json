@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-15T15:10:52Z",
+  "updatedAt": "2026-11-15T15:31:04Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -296,6 +296,33 @@
         {
           "title": "Raiders Wire: QB Sam Darnold ruled OUT for Seahawks Week 10 vs Raiders",
           "url": "https://sports.yahoo.com/articles/qb-sam-darnold-ruled-seahawks-230709041.html"
+        }
+      ]
+    },
+    {
+      "gameId": "401873063",
+      "createdAt": "2026-11-15T15:31:04Z",
+      "winnerTeamId": "25",
+      "pWinner": 0.66,
+      "marketPickTeamId": "25",
+      "marketProb": 0.6306,
+      "reasoning": "Die 49ers kommen mit 7-1 gegen die 4-5 Cowboys und haben laut NFL.com mehr Punkte pro Spiel erzielt, dazu gab es zuletzt vier Siege in Folge gegen Dallas. Beide Teams sind angeschlagen: Bei San Francisco fehlt Mike Evans sicher und Trent Williams, Dre Greenlaw sowie die Cornerbacks Lenoir und Green sind fraglich, bei Dallas fallen Donovan Ezeiruaku, P.J. Locke, Jake Ferguson und Tyler Goodson aus, Joey Porter Jr. ist fraglich. Trotz der Ausfälle sehe ich die 49ers aufgrund ihrer stärkeren Bilanz und Offensive leicht vorne.",
+      "sources": [
+        {
+          "title": "49ers OT Williams, LB Greenlaw questionable, WR Evans out vs. Cowboys",
+          "url": "https://espn.com/nfl/story/_/id/50475033/49ers-williams-greenlaw-questionable-evans-vs-cowboys"
+        },
+        {
+          "title": "Cowboys injury report: Cowboys injuries Friday, Pickens and Porter Jr. status",
+          "url": "https://www.bloggingtheboys.com/dallas-cowboys-injuries/226515/final-game-status-george-pickens-joey-porter-jr"
+        },
+        {
+          "title": "San Francisco 49ers at Dallas Cowboys 2026 REG 10 - Game Center",
+          "url": "https://www.nfl.com/games/49ers-at-cowboys-2026-reg-10"
+        },
+        {
+          "title": "Cowboys vs 49ers: How to watch, game time, TV schedule, streaming, radio",
+          "url": "https://sports.yahoo.com/articles/cowboys-vs-49ers-watch-game-130000831.html"
         }
       ]
     }
