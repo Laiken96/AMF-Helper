@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T19:50:31Z",
+    "takenAt": "2026-11-15T20:01:03Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1781,7 +1781,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4430737",
@@ -1793,6 +1793,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4685522",
+            "name": "Ty Simpson",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1844,7 +1855,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4430878",
@@ -1866,7 +1877,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Out"
           }
         ]
       },
@@ -2088,7 +2099,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4685382",
@@ -2272,9 +2283,19 @@
       "name": "Puka Nacua",
       "pos": "WR",
       "teamAbbr": "LAR",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Out",
-      "to": "Injured Reserve"
+      "to": null
+    },
+    {
+      "gameId": "401873061",
+      "athleteId": "4685522",
+      "name": "Ty Simpson",
+      "pos": "QB",
+      "teamAbbr": "LAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873062",
@@ -2288,9 +2309,9 @@
     },
     {
       "gameId": "401873062",
-      "athleteId": "3912547",
-      "name": "Sam Darnold",
-      "pos": "QB",
+      "athleteId": "4887558",
+      "name": "Emanuel Wilson",
+      "pos": "RB",
       "teamAbbr": "SEA",
       "kind": "neu",
       "from": null,
@@ -2305,6 +2326,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873065",
+      "athleteId": "4612826",
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "teamAbbr": "LAC",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873065",
