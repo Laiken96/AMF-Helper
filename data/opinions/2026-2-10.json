@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-15T08:31:10Z",
+  "updatedAt": "2026-11-15T12:01:51Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -57,6 +57,110 @@
         {
           "title": "Patriots-Lions Week 10 preview: Keys to victory, prediction and more - NBC Boston",
           "url": "https://www.nbcboston.com/news/sports/nfl/new-england-patriots/lions-week-10-preview-keys-victory-prediction/4048561/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873054",
+      "createdAt": "2026-11-15T12:01:15Z",
+      "winnerTeamId": "2",
+      "pWinner": 0.72,
+      "marketPickTeamId": "2",
+      "marketProb": 0.7355,
+      "reasoning": "Die Bills kommen mit 7-1 Siegen und einer starken Bilanz, während die Jets mit 2-7 vier Niederlagen in Folge kassiert haben. Bei den Jets ist Garrett Wilson zwar questionable, laut Trainer Aaron Glenn aber wohl einsatzbereit, und mit Trevin Wallace fällt ein weiterer Spieler aus. Bei den Bills fehlt mit Spencer Brown der rechte Tackle voraussichtlich, das Wetter in East Rutherford sieht laut Prognose unkritisch aus, daher ein klarer, aber nicht überwältigender Vorteil für Buffalo.",
+      "sources": [
+        {
+          "title": "Buffalo Bills vs. New York Jets Live Score (ESPN)",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873054/bills-jets"
+        },
+        {
+          "title": "Jets vs Bills Injury Report (Jet Nation)",
+          "url": "https://www.jetnation.com/2026/11/13/jets-vs-bills-injury-report/"
+        },
+        {
+          "title": "Jets receiver Garrett Wilson nears concussion clearance and is expected to play Sunday vs. Bills (Washington Post)",
+          "url": "https://www.washingtonpost.com/sports/nfl/2026/11/13/jets-garrett-wilson/d7627e92-df82-11f1-912c-4fbb80d73f7f_story.html"
+        },
+        {
+          "title": "MetLife Stadium Weather Forecast (NFLWeather.com)",
+          "url": "https://www.nflweather.com/stadium/metlife-stadium"
+        }
+      ]
+    },
+    {
+      "gameId": "401873055",
+      "createdAt": "2026-11-15T12:01:28Z",
+      "winnerTeamId": "18",
+      "pWinner": 0.6,
+      "marketPickTeamId": "18",
+      "marketProb": 0.5442,
+      "reasoning": "Die Saints spielen zuhause im Caesars Superdome und haben die beiden letzten Duelle gewonnen, während die Panthers nach drei Niederlagen in Folge ihre Offensive nur schwer in Gang bekommen. Bei Carolina fehlt mit Bobby Okereke ein wichtiger Linebacker, und Jaelan Phillips ist nach dem Abschlusstraining nur eingeschränkt einsatzbereit. New Orleans muss dagegen auf Erik McCoy im Zentrum verzichten und hat eine angeschlagene Offensivline, weshalb die Partie knapp bleiben dürfte.",
+      "sources": [
+        {
+          "title": "Saints, Panthers release Wednesday injury reports ahead of Sunday matchup",
+          "url": "https://crescentcitysports.com/saints-panthers-release-wednesday-injury-reports-ahead-of-sunday-matchup/"
+        },
+        {
+          "title": "Panthers news: Jaelan Phillips gets concerning injury downgrade before Saints game",
+          "url": "https://clutchpoints.com/nfl/carolina-panthers/panthers-news-jaelan-phillips-gets-concerning-injury-downgrade-before-saints-game"
+        },
+        {
+          "title": "Panthers Get Rough Update on Saints $52M RB Before Sunday Night Showdown",
+          "url": "https://heavy.com/sports/nfl/carolina-panthers/rough-update-saints-52m-rb-travis-etienne/"
+        },
+        {
+          "title": "SAINTS vs PANTHERS WEEK 10 BREAKDOWN",
+          "url": "https://bvmsports.com/2026/11/14/%F0%9F%94%A5-saints-vs-panthers-week-10-breakdown-winner-takes-1st-place-in-nfc-south-%F0%9F%8F%88/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873056",
+      "createdAt": "2026-11-15T12:01:39Z",
+      "winnerTeamId": "5",
+      "pWinner": 0.56,
+      "marketPickTeamId": "34",
+      "marketProb": 0.6306,
+      "reasoning": "Die Texans verlieren mit Danielle Hunter laut NBC und SI einen Top-Edge-Rusher, und Will Anderson Jr. ist fraglich, was die Pass-Rush-Tiefe deutlich schwächt. Die Browns sind zu Hause ungeschlagen, aber Denzel Boston (Zehe) ist fraglich und Ronnie Hickman fällt aus, sodass Cleveland ebenfalls geschwächt antritt, daher nur ein knapper Vorteil für die Browns.",
+      "sources": [
+        {
+          "title": "Texans vs. Browns (Nov 15, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873056/texans-browns"
+        },
+        {
+          "title": "Danielle Hunter out, Will Anderson Jr. questionable for Texans-Browns - NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/danielle-hunter-out-will-anderson-jr-questionable-for-texans-browns"
+        },
+        {
+          "title": "Texans Rule Out Two Key Players Ahead of Browns Matchup on Sunday - SI",
+          "url": "https://www.si.com/nfl/browns/onsi/texans-rule-out-two-key-players-ahead-of-browns-matchup-on-sunday-01m7bcwd06xn"
+        },
+        {
+          "title": "Browns Facing Big Opportunity With Texans Injury Report",
+          "url": "https://www.brownsnation.com/browns-facing-big-opportunity-with-texans-injury-report/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873057",
+      "createdAt": "2026-11-15T12:01:51Z",
+      "winnerTeamId": "30",
+      "pWinner": 0.8,
+      "marketPickTeamId": "30",
+      "marketProb": 0.7817,
+      "reasoning": "Die Jaguars gehen als klar stärkeres Team mit einer Bilanz von etwa 6-2 gegen die Titans (1-7) in das Spiel, und die Titans kommen nach einem Bye, was ihnen nur begrenzt hilft. Die Jaguars-Defense zählt mit den zweitwenigsten zugelassenen Punkten zu den besten der Liga, während die Titans offensiv schwach sind. Gegen die Einschätzung spricht, dass CBS für Jessie Bates III und Jordan Davis einen Coach's Decision-Status für das Spiel in Tennessee führt, was im Widerspruch zu ESPNs Meldung ohne bekannte Ausfälle steht; die Titans-Verletzungslage für diese Woche konnte ich nicht zuverlässig...",
+      "sources": [
+        {
+          "title": "Jaguars at Titans Week 10 Preview: Turnovers, Rest and Tennessee's Upset Path",
+          "url": "https://www.footballnationusa.com/post/jaguars-at-titans-week-10-preview-turnovers-rest-upset-path"
+        },
+        {
+          "title": "Jacksonville Jaguars Injury Report and Status 2026-27 - CBS Sports",
+          "url": "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/"
+        },
+        {
+          "title": "Jaguars vs Titans Prediction, Picks & Odds: NFL Week 10",
+          "url": "https://www.covers.com/nfl/jaguars-vs-titans-prediction-picks-nov-15-2026"
         }
       ]
     }
