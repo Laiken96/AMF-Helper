@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-15T19:47:21Z",
+    "takenAt": "2026-11-15T20:47:17Z",
     "games": [
       {
         "gameId": "401873066",
@@ -32,7 +32,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4432577",
@@ -107,7 +107,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4361307",
@@ -130,6 +130,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "5151948",
+            "name": "Joey Aguilar",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "15847",
@@ -670,7 +681,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4685382",
@@ -693,7 +704,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4569618",
@@ -949,6 +960,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430431",
+            "name": "Kurtis Rourke",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },

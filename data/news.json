@@ -1,7 +1,186 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T19:47:23Z",
+  "updatedAt": "2026-11-15T20:47:19Z",
   "items": [
+    {
+      "id": "6d782b853d8007f6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-to-locker-room-jets-turn-back-to-cade-klubnik",
+      "title": "Geno Smith to locker room, Jets turn back to Cade Klubnik",
+      "summary": "Geno Smith cleared a concussion evaluation early in the second half against the Bills on Sunday, but he returned to the sideline medical tent after playing one drive in the third quarter.",
+      "publishedAt": "2026-11-15T20:26:06Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "f51b628f2e88ba57",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/woody-marks-ruled-out-of-texans-browns-with-a-concussion",
+      "title": "Woody Marks ruled out of Texans-Browns with a concussion",
+      "summary": "If the Texans are going to beat the Browns, they'll have to do it without one of their key offensive players.",
+      "publishedAt": "2026-11-15T20:23:31Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "186d5ea65b857dbc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bills-geno-smith-injury-updates-bills-cade-klubnik",
+      "title": "Geno Smith injury: Jets rookie Cade Klubnik makes NFL debut after QB enters concussion protocol",
+      "summary": "Rookie Cade Klubnik stepped in to open the second half, leading a 10-play, 61-yard scoring drive on his very first NFL possession",
+      "publishedAt": "2026-11-15T20:17:53Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "01dc19a74919afc4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-is-96-yards-from-becoming-first-cowboys-player-with-six-straight-1-000-yard-seasons",
+      "title": "CeeDee Lamb is 96 yards from becoming first Cowboys' player with six straight 1,000-yard seasons",
+      "summary": "It may not happen today, but it'll happen at some point.",
+      "publishedAt": "2026-11-15T20:13:52Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "9b5015e930bbe290",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cyrus-allens-first-touchdown-catch-gives-chiefs-21-3-lead",
+      "title": "Cyrus Allen's first touchdown catch gives Chiefs 21-3 lead",
+      "summary": "The Chiefs have connected on a deep ball and a rookie has scored his first touchdown.",
+      "publishedAt": "2026-11-15T20:11:52Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "e7748c1445b888de",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-cleared-to-return-after-concussion-evaluation-bills-lead-17-9",
+      "title": "Geno Smith cleared to return after concussion evaluation, Bills lead 17-9",
+      "summary": "Geno Smith did not play on the opening possession of the second half, but he has returned to Sunday's game against the Bills.",
+      "publishedAt": "2026-11-15T20:09:40Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "1743ec889cbda4ab",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50492174/never-forget-germany-trip",
+      "title": "Lions' Amon-Ra St. Brown: Germany trip one he'll 'never forget'",
+      "summary": "Amon-Ra St. Brown, who spent childhood summers visiting Germany, said Sunday after the Lions' win in Munich that this is a trip he'll \"never forget.\"",
+      "publishedAt": "2026-11-15T20:03:38Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "c10d2ef820791704",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kc-concepcion-6-yard-touchdown-run-ties-browns-texans-at-17-17",
+      "title": "KC Concepcion 6-yard touchdown run ties Browns-Texans at 17-17",
+      "summary": "After going down 17-0 early, the Browns have tied it up against the Texans.",
+      "publishedAt": "2026-11-15T20:03:25Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "a0b92d2b2cd32d28",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-finally-on-the-board-tie-panthers-7-7-in-third-quarter",
+      "title": "Saints finally on the board, tie Panthers 7-7 in third quarter",
+      "summary": "Alvin Kamara didn't touch the ball in the first half of Sunday's game, but he finally got the ball in the third quarter and he gave the Saints their first points of the afternoon.",
+      "publishedAt": "2026-11-15T20:03:01Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "75196744ae20c71f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-aidan-hutchinson-injury-update-patriots-germany",
+      "title": "Lions' Aidan Hutchinson feared to have possible season-ending injury after sack celebration, per report",
+      "summary": "According to the report, the Lions will get a second opinion once they return to the United States",
+      "publishedAt": "2026-11-15T20:00:58Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "1d5bfb79023fdd9f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cade-klubnik-in-for-jets-geno-smith-being-evaluated-for-a-concussion",
+      "title": "Cade Klubnik in for Jets, Geno Smith being evaluated for a concussion",
+      "summary": "The Jets have turned to Cade Klubnik at quarterback to start the second half of Sunday's game against the Bills.",
+      "publishedAt": "2026-11-15T19:53:18Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "e27257a0edf760c8",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50492443/who-some-qbs-fantasy-managers-turn-place-drake-maye",
+      "title": "Who are some QBs that fantasy managers can turn to in place of Drake Maye?",
+      "summary": null,
+      "publishedAt": "2026-11-15T19:52:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "e6fa3edf576a2548",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50492437/jahmyr-gibbs-definition-fantasy-mvp",
+      "title": "Michael Florio: Jahmyr Gibbs the definition of a fantasy MVP",
+      "summary": null,
+      "publishedAt": "2026-11-15T19:50:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "735db09545fa4c41",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/trent-mcduffie-active-for-rams-cardinals",
+      "title": "Trent McDuffie active for Rams-Cardinals",
+      "summary": "The Rams will have one of their star defenders back for Sunday's game against the Cardinals.",
+      "publishedAt": "2026-11-15T19:49:34Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "57337d8612c0ba18",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-vikings-dominate-lead-17-0-at-halftime",
+      "title": "Kirk Cousins, Vikings dominate, lead 17-0 at halftime",
+      "summary": "Kirk Cousins is back, and so are the Vikings.",
+      "publishedAt": "2026-11-15T19:45:03Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "f247dd34e8e99a0f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thomas-booker-donte-thornton-are-inactive-for-the-raiders",
+      "title": "Thomas Booker, Dont'e Thornton are inactive for the Raiders",
+      "summary": "The Raiders had a pair of players listed as questionable on their final injury report of the week and neither of them will be in the lineup for Fernando Mendoza's first NFL start.",
+      "publishedAt": "2026-11-15T19:43:38Z",
+      "teamIds": [
+        "13"
+      ]
+    },
     {
       "id": "1e32801fd06f78e0",
       "source": "espn",
@@ -317,12 +496,10 @@
       "id": "dd8e79ef051dd6d3",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
-      "title": "Panthers QB Bryce Young leads NFL Week 10 arrivals",
+      "title": "Fernando Mendoza steps into starting role in style, leads NFL Week 10 arrivals",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-15T17:28:13Z",
-      "teamIds": [
-        "29"
-      ]
+      "teamIds": []
     },
     {
       "id": "5b277656296bdf60",
@@ -1464,179 +1641,6 @@
       "publishedAt": "2026-11-14T16:45:08Z",
       "teamIds": [
         "12"
-      ]
-    },
-    {
-      "id": "85c410be646ccc2e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-wont-play-vs-falcons-due-to-groin-injury",
-      "title": "Kenneth Walker won't play vs. Falcons due to groin injury",
-      "summary": "The Chiefs will not have one of their top players for Sunday's game against the Falcons.",
-      "publishedAt": "2026-11-14T16:43:09Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "b2b0539e80b39696",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-to-activate-rb-travis-etienne-for-sundays-game",
-      "title": "Report: Saints to activate RB Travis Etienne for Sunday's game",
-      "summary": "The Saints are getting a key offensive player back.",
-      "publishedAt": "2026-11-14T16:18:04Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "8c94b60e7d9483ee",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-elevate-lb-owen-pappoe-from-practice-squad",
-      "title": "Lions elevate LB Owen Pappoe from practice squad",
-      "summary": "The Lions elevated linebacker Owen Pappoe from the practice squad to the game-day roster, the team announced Saturday.",
-      "publishedAt": "2026-11-14T16:17:12Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "37199a406097fe09",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-vikings-first-reached-out-to-raiders-about-kirk-cousins-on-monday-afternoon",
-      "title": "Report: Vikings first reached out to Raiders about Kirk Cousins on \"midday Monday\"",
-      "summary": "As it turns out, the Vikings contacted the Raiders about a possible trade for quarterback Kirk Cousins before Monday night's meltdown from quarterback Carson Wentz.",
-      "publishedAt": "2026-11-14T16:12:32Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "28928205aab1c10e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-10-2026-expert-ats-picks-predictions-best-bets-player-props-for-nov-15",
-      "title": "NFL picks against the spread, Week 10 2026: Expert ATS picks, predictions, best bets, player props for Nov. 15",
-      "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
-      "publishedAt": "2026-11-14T16:01:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "880e0ff1dfd12442",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-spreads-lines-picks-predictions-best-bets-for-week-10-2026",
-      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-14T15:53:38Z",
-      "teamIds": [
-        "2",
-        "34"
-      ]
-    },
-    {
-      "id": "81cfe3497b8d916c",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-claim-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-sunday",
-      "title": "Week 10 NFL betting promos: Claim over $3,000 in bonuses from betting apps, sportsbooks for Sunday",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-14T15:51:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "c6b37788596c2b4b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-lines-odds-totals-spreads",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Cowboys-49ers, Steelers-Bengals",
-      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-14T15:47:57Z",
-      "teamIds": [
-        "4",
-        "6",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "bd55b150171001d1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ground-stop-results-in-side-judge-don-willard-serving-as-referee-for-two-games-on-sunday",
-      "title": "Ground stop results in side judge Don Willard serving as referee for two games on Sunday",
-      "summary": "Flight disruptions result in multiple changes to Week 10 officiating assignments.",
-      "publishedAt": "2026-11-14T15:34:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "e120f458539162ca",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50479995/nfl-reassigns-backup-refs-work-games-closer-home",
-      "title": "NFL reassigns backup refs to work games closer to home",
-      "summary": "The NFL, trying to avoid further travel issues from Friday's FAA ground stop, has reassigned officials to Week 10 games within driving distance of their homes.",
-      "publishedAt": "2026-11-14T15:34:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "96a746ceb731d927",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-anytime-td-best-bets-chris-olave-jonathan-taylor",
-      "title": "NFL week 10 anytime TD best bets: Look for Chris Olave, Jonathan Taylor to find the end zone",
-      "summary": "Target a goal-line vulture in Jacksonville, plus-money value on Tee Higgins against Pittsburgh and a fresh red-zone flier for Keenan Allen in San Francisco",
-      "publishedAt": "2026-11-14T15:30:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "c2643a48db041010",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/fernando-mendoza-picks-predictions-best-bets-props-for-first-nfl-start-versus-seahawks-revealed",
-      "title": "Fernando Mendoza picks, predictions, best bets: Props for first NFL start versus Seahawks revealed",
-      "summary": "SportsLine expert Eric Cohen has locked in his best bets for Fernando Mendoza's first NFL start on Sunday for the Las Vegas Raiders against the defending Super Bowl champion Seattle Seahawks",
-      "publishedAt": "2026-11-14T15:12:37Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "2b9e0419dfa14e9e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-i-dont-think-were-far-away-from-18-regular-season-games",
-      "title": "Jerry Jones: \"I don't think we're far away\" from 18 regular-season games",
-      "summary": "As to the timeline, Jones says, \"Next month? No. Next year? Maybe. [The] next year? Maybe.\"",
-      "publishedAt": "2026-11-14T15:07:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "dfa8585d3ba0d8f0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50479874/sources-vikings-first-called-kirk-cousins-mnf",
-      "title": "Sources: Vikings made initial Kirk Cousins trade call to Raiders before MNF",
-      "summary": "The Vikings initially reached out to the Raiders about a Kirk Cousins trade before their MNF game against the Bills, sources told ESPN and NFL Network.",
-      "publishedAt": "2026-11-14T14:45:58Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "99ca57aa52f9fcc5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-takes-1-3-career-record-vs-patriots-into-germany-game",
-      "title": "Jared Goff takes 1-3 career record vs. Patriots into Germany game",
-      "summary": "For his career, Lions quarterback Jared Goff has a record of 101-67-1 as a starter.",
-      "publishedAt": "2026-11-14T14:24:41Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "8684f375618beb60",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-is-getting-better-were-trying-to-make-sure-he-fully-heals",
-      "title": "Kyle Shanahan: Mike Evans is getting better, we're trying to make sure he fully heals",
-      "summary": "The 49ers have ruled out wide receiver Mike Evans for Sunday's game in Dallas, but head coach Kyle Shanahan says Evans is getting healthy enough to play.",
-      "publishedAt": "2026-11-14T13:53:29Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
