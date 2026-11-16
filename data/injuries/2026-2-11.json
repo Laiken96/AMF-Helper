@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-15T23:47:18Z",
+    "takenAt": "2026-11-16T00:47:20Z",
     "games": [
       {
         "gameId": "401873066",
@@ -644,6 +644,17 @@
             "status": null
           },
           {
+            "athleteId": "4429955",
+            "name": "Will Howard",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4569987",
             "name": "Jaylen Warren",
             "pos": "RB",
@@ -653,6 +664,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4714771",
+            "name": "Drew Allar",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -851,7 +873,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4837248",

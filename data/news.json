@@ -1,7 +1,170 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T23:47:20Z",
+  "updatedAt": "2026-11-16T00:47:23Z",
   "items": [
+    {
+      "id": "e7a5b97fad292f62",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+      "title": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+      "summary": "Even with an elbow injury, Patrick Mahomes was able to have his best performance of the year to lead the Chiefs to a dominant 35-13 win over the Falcons.",
+      "publishedAt": "2026-11-16T00:41:33Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "797f89cc8e9d13ab",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/steelers-vs-bengals-prediction-odds-betting-preview-start-time-sunday-night-football-picks-best-bets",
+      "title": "Steelers vs. Bengals prediction, odds, betting preview, start time: Sunday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Steelers vs. Bengals on Sunday Night Football",
+      "publishedAt": "2026-11-16T00:38:50Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "4135ea23073f226f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50496557/game-highlights",
+      "title": "Los Angeles Rams vs. Arizona Cardinals: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-16T00:27:44Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "efa6d721d2aeeee7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50496498/game-highlights",
+      "title": "Seattle Seahawks vs. Las Vegas Raiders: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-16T00:25:13Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "b8fd3122efa396ef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50496110/colts-sticking-daniel-jones-qb-dreadful-start",
+      "title": "Citing short week, Colts sticking with Daniel Jones at QB despite dreadful start",
+      "summary": "Colts coach Shane Steichen said the team will stick with Daniel Jones as starter despite a two-interception start that earned him a 2026-worst 1.7 QBR.",
+      "publishedAt": "2026-11-16T00:18:28Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "8279de4daee1dbaf",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873062",
+      "title": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
+      "summary": "Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza.",
+      "publishedAt": "2026-11-16T00:10:35Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "c79204931bc7fa4b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873061",
+      "title": "Rams win their 4th straight game, overcoming a slow start to crush the Cardinals 34-6",
+      "summary": "Matthew Stafford threw for 249 yards and three touchdowns, Blake Corum gained 100 yards on the ground and the Los Angeles Rams overcame a slow start to earn their fourth straight win by beating the Arizona Cardinals 34-6 on Sunday.",
+      "publishedAt": "2026-11-16T00:05:36Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "74e25106fd3232f9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
+      "title": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for all of Sunday's top moments, TDs and analysis from ESPN's NFL reporters.",
+      "publishedAt": "2026-11-16T00:05:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "00a1ac38bc451d43",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-deshon-elliott-inactive-after-suffering-pregame-knee-injury",
+      "title": "Sunday Night Football: DeShon Elliott inactive after suffering pregame knee injury",
+      "summary": "The Steelers will unexpectedly be missing one of their key members in the secondary for Sunday night's game against the Bengals.",
+      "publishedAt": "2026-11-16T00:02:58Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "9bd4eaa6c40f1d31",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
+      "title": "Week 10 winners and losers: Mahomes has biggest game in years; Taylor struggles",
+      "summary": "Jahmyr Gibbs, Patrick Mahomes and Emmett Johnson put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
+      "publishedAt": "2026-11-16T00:00:44Z",
+      "teamIds": [
+        "29",
+        "9"
+      ]
+    },
+    {
+      "id": "e958a7495c93ffed",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-shut-down-raiders-in-second-half-of-21-13-win",
+      "title": "Seahawks shut down Raiders in second half of 21-13 win",
+      "summary": "The Raiders led 10-7 at halftime, but the Seahawks took over in the final 30 minutes.",
+      "publishedAt": "2026-11-15T23:58:19Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "a4481c0388aea61c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-roll-to-34-6-victory-over-cardinals",
+      "title": "Rams roll to 34-6 victory over Cardinals",
+      "summary": "After winning four in a row, Los Angeles heads into a Week 11 bye at 6-4.",
+      "publishedAt": "2026-11-15T23:55:30Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "48cc7d94d10bd14e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/back-from-madrid-bengals-face-steelers-team-that-is-back-from-a-bye",
+      "title": "Back from Madrid, Bengals face Steelers team that is back from a bye",
+      "summary": "The Bengals host the Steelers on Sunday night in Week 10.",
+      "publishedAt": "2026-11-15T23:49:28Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "1b0a4bdbc42e458b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bengals-vs-steelers-picks-nfl-week-10-prediction-player-props-experts-best-bets-for-sunday-night-football",
+      "title": "Bengals vs. Steelers picks, NFL Week 10 prediction, player props: Expert's best bets for Sunday Night Football",
+      "summary": "Back the Over on the 49.5-point total and capitalize on plus-money anytime touchdown value with Tee Higgins and Darnell Washington",
+      "publishedAt": "2026-11-15T23:45:50Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
     {
       "id": "4ea5951aeb7f9f7d",
       "source": "espn",
@@ -74,8 +237,8 @@
       "id": "fd257cd827f87023",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut",
-      "title": "Raiders' Brock Bowers ruled out with ankle injury as Fernando Mendoza makes first career start",
-      "summary": "Mendoza will be without his top target for the rest of his starting debut",
+      "title": "Raiders' Brock Bowers suffers ankle injury, misses majority of Fernando Mendoza's first career start",
+      "summary": "Mendoza was without his top target for much of his starting debut",
       "publishedAt": "2026-11-15T23:24:50Z",
       "teamIds": [
         "13"
@@ -277,7 +440,7 @@
       "id": "841eb119c6410275",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50493599/amon-ra-st-brown-german-roots-lederhosen-munich",
-      "title": "Amon-Ra St. Brown talks lederhosen, Lions' 'Human Centipede' celebration",
+      "title": "Amon-Ra St. Brown talks lederhosen, Lions' 'human centipede' celebration",
       "summary": "Inspired by his mother, St. Brown paired a memorable performance with a coordinated Bavarian look alongside his Lions teammates.",
       "publishedAt": "2026-11-15T22:10:41Z",
       "teamIds": [
@@ -1144,8 +1307,8 @@
       "id": "3c0723ee8291801b",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch",
-      "title": "Bengals vs. Steelers prediction: AFC North rivals to battle for first place in the division on 'SNF'",
-      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3",
+      "title": "Bengals vs. Steelers prediction: First place in AFC North up for grabs in rivalry battle on 'SNF'",
+      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3. Plus, how to watch, what to know, and a prediction",
       "publishedAt": "2026-11-15T17:48:31Z",
       "teamIds": [
         "4",
@@ -1197,7 +1360,7 @@
       "id": "dd8e79ef051dd6d3",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
-      "title": "Fernando Mendoza steps into starting role in style, leads NFL Week 10 arrivals",
+      "title": "Ja'Marr Chase steps into 'SNF' in style, leads NFL Week 10 arrivals",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-15T17:28:13Z",
       "teamIds": []
@@ -1492,162 +1655,6 @@
       "teamIds": [
         "25"
       ]
-    },
-    {
-      "id": "3a5d7d0340055ebe",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50490679/what-hutchinson-maye-injuries-mean-lions-patriots",
-      "title": "What Hutchinson, Maye injuries mean for Lions, Patriots",
-      "summary": null,
-      "publishedAt": "2026-11-15T15:57:18Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "6c251ef3172810cf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-out-for-game-with-ankle-injury-after-getting-sacked-by-aidan-hutchinson",
-      "title": "Drake Maye out for game with ankle injury after getting sacked by Aidan Hutchinson",
-      "summary": "Hutchinson was also injured after he got up and celebrated.",
-      "publishedAt": "2026-11-15T15:45:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "398adf4f1b4a8833",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable",
-      "title": "Drake Maye, Aidan Hutchinson injured on same play: Injury updates for Patriots QB, Lions DE",
-      "summary": "Maye and Hutchinson both went down on the final play of the first drive",
-      "publishedAt": "2026-11-15T15:45:44Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "869161a34e7ed72a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50490616/how-travel-issues-impacting-officials-nfl-today",
-      "title": "How travel issues are impacting the officials in the NFL today",
-      "summary": null,
-      "publishedAt": "2026-11-15T15:45:21Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "3e9d1e58f83f7008",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
-      "title": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
-      "summary": "Four NFL officials will pull a rare double shift Sunday, officiating two games as a result of travel issues created by Friday's FAA ground stop.",
-      "publishedAt": "2026-11-15T15:43:21Z",
-      "teamIds": [
-        "4",
-        "11",
-        "15",
-        "23"
-      ]
-    },
-    {
-      "id": "4c38e04a3d6a03d5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50490533/patriots-drake-maye-lions-aidan-hutchinson-injured",
-      "title": "Patriots' Drake Maye, Lions' Aidan Hutchinson both injured on same play in Munich",
-      "summary": "Patriots QB Drake Maye and Lions DE Aidan Hutchinson were injured on the same play Sunday, taking star power out of the Munich game.",
-      "publishedAt": "2026-11-15T15:42:16Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "9401a0edde3d0214",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-major-officiating-changes-week-10-faa-ground-stop",
-      "title": "NFL reshuffles officiating crews for Week 10, including double duty for one crew due to FAA ground stop",
-      "summary": "The changes include one referee pulling double-duty on Sunday",
-      "publishedAt": "2026-11-15T15:32:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "bf6f5f515da31fb9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-sundays-games",
-      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Sunday's games",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-15T15:23:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "35bb22ad55e68e29",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-limps-to-locker-room-tommy-devito-in-at-qb-for-patriots-in-germany",
-      "title": "Drake Maye limps to locker room, Tommy DeVito in at QB for Patriots in Germany",
-      "summary": "Maye was injured when Aidan Hutchinson sacked him. Hutchinson was also injured while celebrating the sack.",
-      "publishedAt": "2026-11-15T15:00:28Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "01532b5ef8bbccbf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/german-fan-favorite-amon-ra-st-brown-scores-first-td-in-munich",
-      "title": "German fan favorite Amon-Ra St. Brown scores first TD in Munich",
-      "summary": "Amon-Ra St. Brown, whose mother is German and who spent some of his childhood in Germany, scored the game's first touchdown today.",
-      "publishedAt": "2026-11-15T14:56:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "a157134087d663ad",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-spreads-betting-advice-lines-picks-predictions-for-week-10-2026",
-      "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 10 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-15T14:55:08Z",
-      "teamIds": [
-        "2",
-        "34"
-      ]
-    },
-    {
-      "id": "2cdc2e7651748157",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-injured-celebrating-after-sacking-drake-maye-in-germany",
-      "title": "Aidan Hutchinson injured celebrating after sacking Drake Maye in Germany",
-      "summary": "The Lions' best defensive player went down after a third-and-goal sack.",
-      "publishedAt": "2026-11-15T14:47:08Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "402e1ef8d593d81e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks",
-      "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
-      "summary": "Pete Prisco reveals all of his Week 10 picks, including the Packers to spoil Kirk Cousins' return with the Vikings",
-      "publishedAt": "2026-11-15T14:33:07Z",
-      "teamIds": [
-        "5",
-        "6",
-        "9",
-        "34",
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "c98ddf1f8bd75dee",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-10-2026-expert-ats-picks-predictions-best-bets-player-props-nov-15",
-      "title": "NFL picks against the spread, Week 10 2026: Expert ATS picks, predictions, best bets, player props for Nov. 15",
-      "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
-      "publishedAt": "2026-11-15T14:25:30Z",
-      "teamIds": []
     }
   ]
 }
