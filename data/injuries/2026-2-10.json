@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-16T01:30:47Z",
+    "takenAt": "2026-11-16T01:40:41Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1995,6 +1995,18 @@
             "status": null
           },
           {
+            "athleteId": "8439",
+            "name": "Aaron Rodgers",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4429955",
             "name": "Will Howard",
             "pos": "QB",
@@ -2004,6 +2016,17 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4569987",
+            "name": "Jaylen Warren",
+            "pos": "RB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           },
           {
             "athleteId": "4714771",
