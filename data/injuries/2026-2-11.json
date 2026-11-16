@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-16T06:47:20Z",
+    "takenAt": "2026-11-16T17:47:25Z",
     "games": [
       {
         "gameId": "401873066",
@@ -130,17 +130,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "5151948",
-            "name": "Joey Aguilar",
-            "pos": "QB",
-            "teamId": "22",
-            "teamAbbr": "ARI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "15847",
@@ -333,7 +322,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4569603",

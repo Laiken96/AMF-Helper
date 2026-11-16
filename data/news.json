@@ -1,7 +1,144 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T16:47:22Z",
+  "updatedAt": "2026-11-16T17:47:26Z",
   "items": [
+    {
+      "id": "94d2aa2611a059f3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502772/sources-cowboys-rg-booker-cb-bland-high-ankle-sprains",
+      "title": "Sources: Cowboys RG Tyler Booker, CB DaRon Bland have high ankle sprains",
+      "summary": "The Cowboys are looking at multiple week absences for right guard Tyler Booker and cornerback DaRon Bland because of high ankle sprains, sources told ESPN.",
+      "publishedAt": "2026-11-16T17:42:08Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "b9925efdd5082195",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50498566/jaguars-outscoring-opponents-10-weeks",
+      "title": "Jaguars outscoring opponents by 125 points through 10 weeks: Three reasons why",
+      "summary": "Sunday's victory over the Titans was Jacksonville's fifth win by 17 or more points this season -- the most in the NFL.",
+      "publishedAt": "2026-11-16T17:35:23Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "dbe1e477645f6376",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50502301/why-emmett-johnson-see-more-production-later-season",
+      "title": "Why Emmett Johnson could see more production later in season",
+      "summary": null,
+      "publishedAt": "2026-11-16T17:33:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "18650fe2d5d81523",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50502327/is-sam-laporta-starting-fantasy-te-right-now",
+      "title": "Is Sam LaPorta a starting fantasy TE right now?",
+      "summary": null,
+      "publishedAt": "2026-11-16T17:31:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "8a15a7dda5799dfb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lamar-jackson-injuries-lost-years-ravens",
+      "title": "The lost years of Lamar Jackson -- and the greatness still within reach",
+      "summary": "Injuries keep taking pieces of his prime. How much greatness is still ahead? Is this conversation helpful so far?",
+      "publishedAt": "2026-11-16T17:21:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "ba8e0a5fc434c086",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wont-be-leaving-minnesota-for-altitude-acclimation",
+      "title": "Vikings won't be leaving Minnesota for altitude acclimation",
+      "summary": "With quarterback Kirk Cousins back and the Minnesota defense playing at a championship level, the sky is the limit for the Vikings.",
+      "publishedAt": "2026-11-16T17:19:57Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "47fcfb7573cdcfec",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502248/jets-aaron-glenn-ceded-defensive-playcalling-sunday",
+      "title": "Jets Aaron Glenn ceded defensive playcalling to DC Brian Duker on Sunday",
+      "summary": "Amid a prolonged defensive slide, Aaron Glenn handed the playcalling duties Sunday to defensive coordinator Brian Duker, Glenn revealed Monday.",
+      "publishedAt": "2026-11-16T17:13:57Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "fd6cbc551c9dd18a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-add-qb-cooper-rush-to-practice-squad",
+      "title": "Buccaneers add QB Cooper Rush to practice squad",
+      "summary": "Cooper Rush is headed to a different team in the NFC South.",
+      "publishedAt": "2026-11-16T17:09:22Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "18a7d97efedb1cff",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50502491/why-stephen-takes-exception-curt-cignetti-defense-lincoln-riley",
+      "title": "Why Stephen A. takes exception to Curt Cignetti's defense of Lincoln Riley",
+      "summary": null,
+      "publishedAt": "2026-11-16T17:05:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "f844e6e38d144e30",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-aaron-donald-never-ceases-to-amaze-me-hes-one-of-one",
+      "title": "Sean McVay: Aaron Donald never ceases to amaze me, he's one-of-one",
+      "summary": "For the first time in 1,050 days, Rams defensive tackle Aaron Donald recorded a sack when he brought down rookie Carson Beck during the second quarter of Sunday's victory over the Cardinals.",
+      "publishedAt": "2026-11-16T16:59:11Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
+    {
+      "id": "3d06ce6f51f7f3d8",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50501190/orlovskys-problem-hutchinsons-injury-celebrating",
+      "title": "Orlovsky’s problem with Hutchinson’s injury from celebrating",
+      "summary": null,
+      "publishedAt": "2026-11-16T16:57:58Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "7f2e0afe6ae75bac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cowboys-rg-tyler-booker-has-a-high-ankle-sprain",
+      "title": "Report: Cowboys RG Tyler Booker has a high-ankle sprain",
+      "summary": "The Cowboys may be without right guard Tyler Booker in the coming weeks.",
+      "publishedAt": "2026-11-16T16:55:17Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "b1a2bab9ef0eef7d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-had-dc-brian-duker-calling-jets-defensive-plays-on-sunday",
+      "title": "Aaron Glenn had DC Brian Duker calling Jets defensive plays on Sunday",
+      "summary": "The Jets's eighth loss of the 2026 season had things in common with the previous seven, but Sunday's outing against the Bills was different in one significant way.",
+      "publishedAt": "2026-11-16T16:48:23Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
     {
       "id": "811f1f4a321121dc",
       "source": "espn",
@@ -59,7 +196,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50502385/titans-getting-more-adding-more-qb-cam-ward-plate",
       "title": "Titans getting more after adding more to QB Cam Ward's plate",
-      "summary": "The Titans offense has functioned better since putting more on quarterback Cam Ward's plate, even if it hasn't translated to more wins yet.",
+      "summary": "The Titans offense has functioned better since putting more on quarterback Cam Ward's plate, even if it hasn't led to more wins yet.",
       "publishedAt": "2026-11-16T16:38:29Z",
       "teamIds": [
         "10"
@@ -1518,140 +1655,6 @@
         "13",
         "26"
       ]
-    },
-    {
-      "id": "6c34a3165e07de7b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/39286200/best-nfl-coaches-all-ranked-wins",
-      "title": "Who are the winningest NFL coaches of all time?",
-      "summary": "From Belichick to Reid, there are many iconic coaches in NFL history. Who has the best career record? Check out the stat breakdown now.",
-      "publishedAt": "2026-11-15T22:37:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "58707d100ab7c937",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50494901/trevor-lawrence-needs-must-start-fantasy-qb-every-week",
-      "title": "Adam Rank: Trevor Lawrence needs to be a must-start fantasy QB every week",
-      "summary": null,
-      "publishedAt": "2026-11-15T22:35:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "11c8b81d5579848d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/emotional-kirk-cousins-its-been-a-tough-three-years-theres-more-to-the-story-being-written",
-      "title": "Emotional Kirk Cousins: \"It's been a tough three years. There's more to the story being written.\"",
-      "summary": "In first game at Lambeau Field since tearing his Achilles tendon there, Cousins fights back tears.",
-      "publishedAt": "2026-11-15T22:21:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "b28421ed83da180f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-lead-seahawks-10-7-at-halftime",
-      "title": "Raiders lead Seahawks 10-7 at halftime",
-      "summary": "It didn't take long for Fernando Mendoza to show that he brings a different skill set to the Raiders offense than Kirk Cousins.",
-      "publishedAt": "2026-11-15T22:20:50Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "78215a96e798fc7f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463509/chuba-hubbard-x-factor-spark-carolina-panthers",
-      "title": "Is Chuba Hubbard the biggest X factor to spark a Panthers turnaround?",
-      "summary": "Meet Carolina's team captain, a locker room leader and a relentless running back who is \"chasing greatness myself.\"",
-      "publishedAt": "2026-11-15T22:16:58Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "841eb119c6410275",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50493599/amon-ra-st-brown-german-roots-lederhosen-munich",
-      "title": "Amon-Ra St. Brown talks lederhosen, Lions' 'human centipede' celebration",
-      "summary": "Inspired by his mother, St. Brown paired a memorable performance with a coordinated Bavarian look alongside his Lions teammates.",
-      "publishedAt": "2026-11-15T22:10:41Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "937de3e4ac8de995",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873059",
-      "title": "Colts' struggling offense does just enough to beat Dolphins 24-22 and snap 5-game skid",
-      "summary": "The Indianapolis Colts got the respite they needed.",
-      "publishedAt": "2026-11-15T22:02:38Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "f76be8d21ddf53b3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-records-first-sack-since-coming-out-of-retirement",
-      "title": "Aaron Donald records first sack since coming out of retirement",
-      "summary": "The first sack of the season has come for Aaron Donald.",
-      "publishedAt": "2026-11-15T22:02:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "8c927118e96b548c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-pickens-td-has-cowboys-with-a-10-7-lead",
-      "title": "George Pickens' TD has Cowboys with a 10-7 lead",
-      "summary": "George Pickens is back and has his first touchdown since Oct. 26.",
-      "publishedAt": "2026-11-15T22:02:24Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "599c356dd14efa42",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50494318/kirk-cousins-emotional-victory-vikings-return",
-      "title": "Kirk Cousins emotional after victory in Vikings return",
-      "summary": null,
-      "publishedAt": "2026-11-15T22:00:18Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Who got the ball in Week 10?",
-      "summary": "Which players saw ample fantasy football opportunities in Week 10, and which were limited?",
-      "publishedAt": "2026-11-15T21:59:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "77080ce973870b18",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50494327/miami-dolphins-vs-indianapolis-colts-game-highlights",
-      "title": "Miami Dolphins vs. Indianapolis Colts Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:59:18Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "efdbe29027d26cd2",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50494330/why-fantasy-managers-keep-riding-hot-hand-patrick-mahomes",
-      "title": "Why fantasy managers should keep riding the hot hand with Patrick Mahomes",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:56:21Z",
-      "teamIds": []
     }
   ]
 }
