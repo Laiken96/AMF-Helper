@@ -1,7 +1,110 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T19:47:34Z",
+  "updatedAt": "2026-11-16T20:47:24Z",
   "items": [
+    {
+      "id": "3b68c2fbadf326c3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50503981/drake-maye-ankle-injury-patriots-tommy-devito-stats",
+      "title": "Drake Maye ankle injury: Is the Patriots' season over? Can Tommy DeVito step up?",
+      "summary": "If the QB doesn't return in 2026, New England faces an uphill battle against some of the NFL's best teams.",
+      "publishedAt": "2026-11-16T20:43:50Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "7858ab90a8158480",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50504228/lafleur-plans-parsons-return-thanksgiving-eve",
+      "title": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving eve",
+      "summary": "The Packers still hope Micah Parsons will be ready to make his return for the Thanksgiving eve game at the Rams in Week 12.",
+      "publishedAt": "2026-11-16T20:42:42Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "3cbb9eef6676fe95",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-it-looks-like-josh-downs-patrick-mahomes-have-a-little-connection-going",
+      "title": "Andy Reid: It looks like Josh Downs, Patrick Mahomes have a little connection going",
+      "summary": "The early returns from the Chiefs' trade for receiver Josh Downs were undoubtedly positive, as the wideout caught four passes on five targets for 53 yards with an 18-yard touchdown.",
+      "publishedAt": "2026-11-16T20:40:21Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "eeeff1edcf0fcc01",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50504016/can-bengals-keep-winning-throwing-much",
+      "title": "Can the Bengals keep winning while throwing so much?",
+      "summary": null,
+      "publishedAt": "2026-11-16T20:17:29Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "48ad7b3edb578eed",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-chargers-vs-ravens-on-mnf-blazers-vs-timberwolves-and-more",
+      "title": "Today's top games to watch, best bets, odds: Chargers vs. Ravens on MNF, Blazers vs. Timberwolves and more",
+      "summary": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-16T20:09:12Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "6b6cd350c16fb380",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/chargers-ravens-odds-first-touchdown-scorer-picks-nfl-predictions-monday-night-football-week-10",
+      "title": "Chargers vs. Ravens odds: First touchdown scorer picks, NFL predictions for Monday Night Football Week 10",
+      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Chargers and Ravens to end Week 10",
+      "publishedAt": "2026-11-16T20:07:30Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "554f2ac02da2f27f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-cb-marco-wilson-to-the-active-roster",
+      "title": "Panthers sign CB Marco Wilson to the active roster",
+      "summary": "Cornerback Marco Wilson had a hand in one of the Panthers' two takeaways in Sunday's win over the Saints and he moved up to a spot on the active roster on Monday.",
+      "publishedAt": "2026-11-16T19:59:58Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "c7aaf824f1ac03e3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-were-playing-unacceptable-football-our-fans-deserve-better",
+      "title": "Stephen Jones: We're playing \"unacceptable\" football, our fans deserve better",
+      "summary": "Sunday's loss to the 49ers dropped the Cowboys to 4-6 on the season and magnified the season-long struggles that the team has had on the defensive side of the ball.",
+      "publishedAt": "2026-11-16T19:54:14Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "482c1954fc59344d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quenton-nelson-is-not-healthy-enough-to-practice-yet-seahawks-are-unsure-when-he-will-be",
+      "title": "Quenton Nelson is not healthy enough to practice yet, Seahawks are unsure when he will be",
+      "summary": "When the Seahawks traded for Quenton Nelson, they added one of the best guards in the NFL — when he's healthy.",
+      "publishedAt": "2026-11-16T19:47:09Z",
+      "teamIds": [
+        "26"
+      ]
+    },
     {
       "id": "ecb75ef917f6a430",
       "source": "pft",
@@ -1549,111 +1652,6 @@
       "publishedAt": "2026-11-16T00:18:28Z",
       "teamIds": [
         "11"
-      ]
-    },
-    {
-      "id": "8279de4daee1dbaf",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873062",
-      "title": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
-      "summary": "The lead-up to Sunday's Seattle-Las Vegas matchup was almost all about Fernando Mendoza, at last receiving his first start as the Raiders' quarterback.",
-      "publishedAt": "2026-11-16T00:10:35Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "c79204931bc7fa4b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873061",
-      "title": "Rams win their 4th straight game, overcoming a slow start to crush the Cardinals 34-6",
-      "summary": "Beaux Limmer was snapping the ball, Xavier Smith and Davis Allen were catching it and Kamren Kinchens came up with a key interception.",
-      "publishedAt": "2026-11-16T00:05:36Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "74e25106fd3232f9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
-      "title": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for all of Sunday's top moments, TDs and analysis from ESPN's NFL reporters.",
-      "publishedAt": "2026-11-16T00:05:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "3c0723ee8291801b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch",
-      "title": "Bengals vs. Steelers prediction: First place in AFC North up for grabs in rivalry battle on 'SNF'",
-      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3. Plus, how to watch, what to know, and a prediction",
-      "publishedAt": "2026-11-16T00:03:46Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "00a1ac38bc451d43",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-deshon-elliott-inactive-after-suffering-pregame-knee-injury",
-      "title": "Sunday Night Football: DeShon Elliott inactive after suffering pregame knee injury",
-      "summary": "The Steelers will unexpectedly be missing one of their key members in the secondary for Sunday night's game against the Bengals.",
-      "publishedAt": "2026-11-16T00:02:58Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "9bd4eaa6c40f1d31",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
-      "title": "Week 10 winners and losers: McCaffrey, Gibbs and Mahomes dominate Sunday",
-      "summary": "Christian McCafffrey, Jahmyr Gibbs and Patrick Mahomes put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
-      "publishedAt": "2026-11-16T00:00:44Z",
-      "teamIds": [
-        "29",
-        "9"
-      ]
-    },
-    {
-      "id": "e958a7495c93ffed",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-shut-down-raiders-in-second-half-of-21-13-win",
-      "title": "Seahawks shut down Raiders in second half of 21-13 win",
-      "summary": "The Raiders led 10-7 at halftime, but the Seahawks took over in the final 30 minutes.",
-      "publishedAt": "2026-11-15T23:58:19Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "a4481c0388aea61c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-roll-to-34-6-victory-over-cardinals",
-      "title": "Rams roll to 34-6 victory over Cardinals",
-      "summary": "After winning four in a row, Los Angeles heads into a Week 11 bye at 6-4.",
-      "publishedAt": "2026-11-15T23:55:30Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "48cc7d94d10bd14e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/back-from-madrid-bengals-face-steelers-team-that-is-back-from-a-bye",
-      "title": "Back from Madrid, Bengals face Steelers team that is back from a bye",
-      "summary": "The Bengals host the Steelers on Sunday night in Week 10.",
-      "publishedAt": "2026-11-15T23:49:28Z",
-      "teamIds": [
-        "4",
-        "23"
       ]
     }
   ]
