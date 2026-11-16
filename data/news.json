@@ -1,7 +1,100 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T11:41:26Z",
+  "updatedAt": "2026-11-16T12:15:43Z",
   "items": [
+    {
+      "id": "c7ac34578ec76986",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-downs-excited-to-keep-building-connection-with-patrick-mahomes",
+      "title": "Josh Downs \"excited to keep building\" connection with Patrick Mahomes",
+      "summary": "Chiefs wide receiver Josh Downs didn't waste any time making an impact for his new team.",
+      "publishedAt": "2026-11-16T12:12:01Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "8f07ca5c4f009bd0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50497412/nfl-referee-ref-crew-two-games",
+      "title": "Inside how one NFL ref crew worked two games in a day",
+      "summary": "Final stats: 242 plays, 6 hours and 15 minutes, 30 penalties, one Pedialyte consumed, unknown step count.",
+      "publishedAt": "2026-11-16T12:10:41Z",
+      "teamIds": [
+        "4",
+        "11",
+        "15",
+        "23"
+      ]
+    },
+    {
+      "id": "98170e0bdd5edb3c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aidan-hutchinson-injury-lions-nfl-celebrations",
+      "title": "Aidan Hutchinson injury: Lions star joins bizarre list of NFL players hurt while celebrating",
+      "summary": "Aidan Hutchinson's sack celebration ended with a significant knee injury, recalling some of the strangest and most painful mishaps in NFL history",
+      "publishedAt": "2026-11-16T12:03:49Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "946feb90d179704d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-vs-chargers-how-to-watch-spread-odds-preview-prediction",
+      "title": "Ravens vs. Chargers: Can LA get its first win on 'MNF' against the injury-plagued Ravens?",
+      "summary": "Plus, how to watch, odds, a preview and a prediction for the Monday night matchup",
+      "publishedAt": "2026-11-16T12:02:55Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "c240413dae167e96",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-steelers-sunday-night-football-2026-scorigami",
+      "title": "Bengals' blowout win over Steelers makes NFL history with 1,100th 'scorigami'",
+      "summary": "Cincinnati's 38-18 victory became the 1,100th unique final score in NFL history",
+      "publishedAt": "2026-11-16T12:01:40Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "fa62351745217280",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-results-cover-32-2026-mvp",
+      "title": "Cover 32: Two NFL awards are already in the bag, plus game balls, biggest gaffes from Week 10",
+      "summary": "Tyler Sullivan dives into all of the biggest items from Week 10 in the NFL, including a historic day from Jahmyr Gibbs and statement return to Minnesota for Kirk Cousins",
+      "publishedAt": "2026-11-16T11:55:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "f1cd36ffdac988d6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-praises-tory-hortons-tremendous-play-on-late-kickoff-return",
+      "title": "Mike Macdonald praises Tory Horton's \"tremendous play\" on late kickoff return",
+      "summary": "After the Raiders cut the Seahawks' lead to 21-13 by kicking a field goal with 2:04 left in Sunday's game, they wanted to force a touchback that would allow them to use the two-minute warning as a third timeout in hopes of getting the ball back.",
+      "publishedAt": "2026-11-16T11:54:54Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "26d6e6cfeaec0625",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-found-it-definitely-special-to-beat-the-texans",
+      "title": "Deshaun Watson found it \"definitely special\" to beat the Texans",
+      "summary": "Browns quarterback Deshaun Watson led a game-winning drive in the fourth quarter on Sunday, which isn't surprising given the way the 2026 season has unfolded in Cleveland.",
+      "publishedAt": "2026-11-16T11:41:00Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
     {
       "id": "e034e6aa0edd92d0",
       "source": "espn",
@@ -96,7 +189,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50497417/patriots-defense-struggles-lions-drake-maye",
       "title": "Patriots need to fix defensive effort -- especially if Drake Maye misses time",
-      "summary": "New England has given up 80 points over last two games. The bye week will allow the team to reset.",
+      "summary": "New England has given up 80 points over the past two games. The bye week will allow the team to reset.",
       "publishedAt": "2026-11-16T11:00:10Z",
       "teamIds": [
         "17"
@@ -1588,89 +1681,6 @@
         "2",
         "20"
       ]
-    },
-    {
-      "id": "e27257a0edf760c8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50492443/who-some-qbs-fantasy-managers-turn-place-drake-maye",
-      "title": "Who are some QBs that fantasy managers can turn to in place of Drake Maye?",
-      "summary": null,
-      "publishedAt": "2026-11-15T19:52:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "e6fa3edf576a2548",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50492437/jahmyr-gibbs-definition-fantasy-mvp",
-      "title": "Michael Florio: Jahmyr Gibbs the definition of a fantasy MVP",
-      "summary": null,
-      "publishedAt": "2026-11-15T19:50:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "735db09545fa4c41",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/trent-mcduffie-active-for-rams-cardinals",
-      "title": "Trent McDuffie active for Rams-Cardinals",
-      "summary": "The Rams will have one of their star defenders back for Sunday's game against the Cardinals.",
-      "publishedAt": "2026-11-15T19:49:34Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "57337d8612c0ba18",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-vikings-dominate-lead-17-0-at-halftime",
-      "title": "Kirk Cousins, Vikings dominate, lead 17-0 at halftime",
-      "summary": "Kirk Cousins is back, and so are the Vikings.",
-      "publishedAt": "2026-11-15T19:45:03Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "f247dd34e8e99a0f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thomas-booker-donte-thornton-are-inactive-for-the-raiders",
-      "title": "Thomas Booker, Dont'e Thornton are inactive for the Raiders",
-      "summary": "The Raiders had a pair of players listed as questionable on their final injury report of the week and neither of them will be in the lineup for Fernando Mendoza's first NFL start.",
-      "publishedAt": "2026-11-15T19:43:38Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "1e32801fd06f78e0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
-      "title": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
-      "summary": "Patriots quarterback Drake Maye suffered an ankle injury in Sunday's loss to the Lions.",
-      "publishedAt": "2026-11-15T19:41:42Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "9feecea27a1091dd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50491838/sources-lions-hutchinson-feared-significant-knee-injury",
-      "title": "Sources: Lions DE Aidan Hutchinson feared to have suffered significant knee injury",
-      "summary": "Lions star Aidan Hutchinson is feared to have suffered a significant injury to his right knee while celebrating a sack, sources told NFL Network.",
-      "publishedAt": "2026-11-15T19:41:12Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "1cd71aa22553b8d6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50462045/fantasy-football-injuries-nfl-week-10-inactive-active",
-      "title": "Fantasy football Week 10 inactives: Who's in and who's out?",
-      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
-      "publishedAt": "2026-11-15T19:40:14Z",
-      "teamIds": []
     }
   ]
 }
