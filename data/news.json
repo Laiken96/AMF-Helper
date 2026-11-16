@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T07:47:17Z",
+  "updatedAt": "2026-11-16T09:47:18Z",
   "items": [
+    {
+      "id": "01d6f754402a8fd1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-thats-clearly-not-to-the-standard-of-the-pittsburgh-steelers",
+      "title": "Mike McCarthy: \"That's clearly not to the standard of the Pittsburgh Steelers\"",
+      "summary": "\"I was very disappointed. We're all disappointed,\" McCarthy said after a 38-18 loss to the Bengals.",
+      "publishedAt": "2026-11-16T09:06:29Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
     {
       "id": "4157e7d132dd4599",
       "source": "espn",
@@ -1660,15 +1672,6 @@
         "8",
         "17"
       ]
-    },
-    {
-      "id": "4b5975dfd56af559",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
-      "title": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
-      "summary": "The Super Bowl will air on ESPN on Feb. 14, 2027. We have all-time lists, predictions and unforgettable moments.",
-      "publishedAt": "2026-11-15T18:52:06Z",
-      "teamIds": []
     }
   ]
 }
