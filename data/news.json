@@ -1,7 +1,191 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T12:47:31Z",
+  "updatedAt": "2026-11-16T14:30:54Z",
   "items": [
+    {
+      "id": "3f78c32a9d86f4f1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-should-be-good-to-go-next-week",
+      "title": "Brock Bowers \"should be good to go next week\"",
+      "summary": "Raiders tight end Brock Bowers was limited to 11 snaps on Sunday, due to an ankle injury that knocked him out of the game against the Seahawks.",
+      "publishedAt": "2026-11-16T14:24:55Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "282322f815fc5a72",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-chargers-ravens-mnf",
+      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Chargers-Ravens, MNF",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-16T14:13:30Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "4ccbe9eeccb42073",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/ravens-vs-chargers-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
+      "title": "Ravens vs. Chargers odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Chargers vs. Ravens on Monday Night Football",
+      "publishedAt": "2026-11-16T14:11:46Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "54c59eac5ba12b8d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/joe-burrow-strengthens-mvp-case-with-four-more-tds-college-football-rankings-projections",
+      "title": "Joe Burrow strengthens MVP case with four more TDs; college football rankings projections",
+      "summary": "Plus why Kayla Harrison should retire after UFC 334",
+      "publishedAt": "2026-11-16T14:08:38Z",
+      "teamIds": []
+    },
+    {
+      "id": "346394120a095537",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50501291/sources-aidan-hutchinson-season-torn-acl",
+      "title": "Sources: Lions' Aidan Hutchinson out for season with knee injury",
+      "summary": "Lions star Aidan Hutchinson is out for the season with what initial tests showed to be a torn ACL in his right knee, sources told NFL Network.",
+      "publishedAt": "2026-11-16T14:05:43Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "5db376f6ed1ed046",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/chargers-vs-ravens-odds-first-touchdown-scorer-picks-nfl-predictions-for-monday-night-football-week-10",
+      "title": "Chargers vs. Ravens odds: First touchdown scorer picks, NFL predictions for Monday Night Football Week 10",
+      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Chargers and Ravens to end Week 10",
+      "publishedAt": "2026-11-16T14:00:47Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "8947438939097d63",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50501232/raiders-te-brock-bowers-avoids-major-ankle-injury-source-says",
+      "title": "Raiders TE Brock Bowers avoids major ankle injury, source says",
+      "summary": "Brock Bowers missed the entire second half of the Raiders' loss to the Seahawks with an ankle injury, but it is not believed to major in its severity, a source told NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-16T13:59:21Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "0568d6feea341ce3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-remained-in-germany-as-ankle-injury-continues-to-be-evaluated",
+      "title": "Drake Maye remained in Germany as ankle injury continues to be evaluated",
+      "summary": "Maye was injured early in Sunday's game and is expected to miss extended time.",
+      "publishedAt": "2026-11-16T13:59:05Z",
+      "teamIds": []
+    },
+    {
+      "id": "9b29564c7de3839e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50491459/week-10-playoff-bubble-cowboys-raiders-texans-patriots",
+      "title": "Concerns for four NFL teams on playoff bubble: Cowboys, Raiders, Texans, Patriots",
+      "summary": "The Cowboys defense got lit up, the Patriots lost Drake Maye, the Raiders are adjusting to Fernando Mendoza, and the Texans can't find support for C.J. Stroud.",
+      "publishedAt": "2026-11-16T13:58:32Z",
+      "teamIds": [
+        "6",
+        "34",
+        "13",
+        "17"
+      ]
+    },
+    {
+      "id": "75196744ae20c71f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-aidan-hutchinson-injury-update-patriots-germany",
+      "title": "Aidan Hutchinson injury update: Lions EDGE suffers season-ending knee injury after celebration, per report",
+      "summary": "Hutchinson injured himself on a celebration after sacking Patriots quarterback Drake Maye",
+      "publishedAt": "2026-11-16T13:55:53Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "62c309eca9786dfe",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50501190/did-aidan-hutchinson-celebration-lead-injury",
+      "title": "Did Aidan Hutchinson's celebration lead to his injury?",
+      "summary": null,
+      "publishedAt": "2026-11-16T13:55:41Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "41bdb485b8fea15a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50501155/cowboys-worst-coached-defense-ever-seen",
+      "title": "Rex: Cowboys are the worst-coached defense I've ever seen",
+      "summary": null,
+      "publishedAt": "2026-11-16T13:55:09Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "e108f0f78405af5f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50501221/drake-maye-injury-likely-season-ending",
+      "title": "Adam Schefter: Drake Maye's injury is likely season-ending",
+      "summary": null,
+      "publishedAt": "2026-11-16T13:49:47Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "4c432c961fa72eba",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drake-maye-injury-update-patriots-qb-ankle-out-for-season",
+      "title": "Drake Maye injury update: Patriots reportedly fear QB fractured ankle, could miss rest of season",
+      "summary": "Maye remained in Germany for additional testing after injuring his ankle against the Lions",
+      "publishedAt": "2026-11-16T13:37:58Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "8be684753a383483",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-hunter-now-has-two-games-with-a-catch-and-an-interception-deion-sanders-had-nine",
+      "title": "Travis Hunter now has two games with a catch and an interception. Deion Sanders had nine.",
+      "summary": "Jaguars cornerback Travis Hunter intercepted a pass on Sunday against the Titans, and doing his part-time job as a wide receiver, he also caught two passes.",
+      "publishedAt": "2026-11-16T13:28:14Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "95680d1544df96a9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-week-11-early-odds-bills-chiefs-bengals",
+      "title": "NFL Week 11 early odds: Bills, Chiefs favored by 16.5 points; Bengals line jumps after blowout",
+      "summary": "Buffalo and Kansas City are each favored by 16.5 points as four teams enter Week 11 laying double digits",
+      "publishedAt": "2026-11-16T12:49:02Z",
+      "teamIds": [
+        "2",
+        "4",
+        "12"
+      ]
+    },
     {
       "id": "4a335f356731e2cb",
       "source": "cbs",
@@ -51,8 +235,8 @@
       "id": "8f07ca5c4f009bd0",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50497412/nfl-referee-ref-crew-two-games",
-      "title": "Inside how one NFL ref crew worked two games in a day",
-      "summary": "Final stats: 242 plays, 6 hours and 15 minutes, 30 penalties, one Pedialyte consumed, unknown step count.",
+      "title": "How an NFL referee crew worked two games in one day",
+      "summary": "An inside look at the 14-hour day of four referees who worked an afternoon game in Indianapolis and the Sunday night game in Cincinnati.",
       "publishedAt": "2026-11-16T12:10:41Z",
       "teamIds": [
         "4",
@@ -100,7 +284,7 @@
       "id": "fa62351745217280",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-10-results-cover-32-2026-mvp",
-      "title": "Cover 32: Two NFL awards are already in the bag, plus game balls, biggest gaffes from Week 10",
+      "title": "Cover 32: Two NFL awards already in the bag, plus game balls, biggest gaffes from Week 10",
       "summary": "Tyler Sullivan dives into all of the biggest items from Week 10 in the NFL, including a historic day from Jahmyr Gibbs and statement return to Minnesota for Kirk Cousins",
       "publishedAt": "2026-11-16T11:55:04Z",
       "teamIds": []
@@ -146,8 +330,8 @@
       "id": "b63d85a64f98beb5",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
-      "title": "Sources: Patriots' Drake Maye to miss extended time with significant leg injury",
-      "summary": "Patriots QB Drake Maye is believed to have suffered a significant lower leg injury that will keep him out an extended period of time, sources told NFL Network.",
+      "title": "Sources: Patriots fear Drake Maye has broken ankle, could miss rest of season",
+      "summary": "The Patriots are concerned that Drake Maye sustained a fractured ankle, sources told ESPN, an injury that could sideline the star QB for the rest of the season.",
       "publishedAt": "2026-11-16T11:27:57Z",
       "teamIds": [
         "8",
@@ -1495,190 +1679,6 @@
       "publishedAt": "2026-11-15T21:16:15Z",
       "teamIds": [
         "34"
-      ]
-    },
-    {
-      "id": "4ec736f95e84fd7e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-improve-to-7-2-with-40-23-win-over-titans",
-      "title": "Jaguars improve to 7-2 with 40-23 win over Titans",
-      "summary": "The Jaguars didn't play their best game of the season today in Tennessee, but they didn't need to to beat the Titans.",
-      "publishedAt": "2026-11-15T21:12:59Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "8820566c983fa0f5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-throws-five-tds-chiefs-beat-falcons-35-13",
-      "title": "Patrick Mahomes throws five TDs, Chiefs beat Falcons 35-13",
-      "summary": "Mahomes threw for five touchdowns for the first time since 2022 to help the Chiefs move to 7-2 on the season.",
-      "publishedAt": "2026-11-15T21:12:52Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "d84186b3e75423e8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50493633/game-highlights",
-      "title": "Minnesota Vikings vs. Green Bay Packers: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:11:31Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "300ce546909348d9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-raiders-fans-planning-stay-seated-fernando-mendoza-first-td",
-      "title": "LOOK: Fernando Mendoza scores first NFL TD on opening drive vs. Seahawks",
-      "summary": "Fans had planned to sit during the QB's first TD to honor Mendoza's mother, Elsa, utilizes a wheelchair because of her multiple sclerosis",
-      "publishedAt": "2026-11-15T21:10:12Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "6f9ea12b62d4ab50",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-pummel-packers-30-10-in-kirk-cousins-return",
-      "title": "Vikings pummel Packers 30-10 in Kirk Cousins' return",
-      "summary": "Cousins threw for 207 yards and two touchdowns in his first game with the team since 2023.",
-      "publishedAt": "2026-11-15T21:07:57Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "81ebafcb013dbed4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rout-jets-31-12-improve-to-5-0-on-the-road-this-season",
-      "title": "Bills rout Jets 31-12, improve to 5-0 on the road this season",
-      "summary": "The Bills have now won five straight games.",
-      "publishedAt": "2026-11-15T21:07:28Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "39f8d8cc11f8a876",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-ruled-out-with-ankle-injury",
-      "title": "Geno Smith ruled out with ankle injury",
-      "summary": "Geno Smith's day is over.",
-      "publishedAt": "2026-11-15T20:50:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "6d782b853d8007f6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-to-locker-room-jets-turn-back-to-cade-klubnik",
-      "title": "Geno Smith to locker room, Jets turn back to Cade Klubnik",
-      "summary": "Geno Smith cleared a concussion evaluation early in the second half against the Bills on Sunday, but he returned to the sideline medical tent after playing one drive in the third quarter.",
-      "publishedAt": "2026-11-15T20:26:06Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "f51b628f2e88ba57",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/woody-marks-ruled-out-of-texans-browns-with-a-concussion",
-      "title": "Woody Marks ruled out of Texans-Browns with a concussion",
-      "summary": "If the Texans are going to beat the Browns, they'll have to do it without one of their key offensive players.",
-      "publishedAt": "2026-11-15T20:23:31Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "186d5ea65b857dbc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bills-geno-smith-injury-updates-bills-cade-klubnik",
-      "title": "Jets' Geno Smith ruled out with ankle injury: Rookie QB Cade Klubnik makes NFL debut",
-      "summary": "Rookie Cade Klubnik stepped in to open the second half, leading a 10-play, 61-yard scoring drive on his very first NFL possession",
-      "publishedAt": "2026-11-15T20:17:53Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "01dc19a74919afc4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-is-96-yards-from-becoming-first-cowboys-player-with-six-straight-1-000-yard-seasons",
-      "title": "CeeDee Lamb is 96 yards from becoming first Cowboys' player with six straight 1,000-yard seasons",
-      "summary": "It may not happen today, but it'll happen at some point.",
-      "publishedAt": "2026-11-15T20:13:52Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "9b5015e930bbe290",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cyrus-allens-first-touchdown-catch-gives-chiefs-21-3-lead",
-      "title": "Cyrus Allen's first touchdown catch gives Chiefs 21-3 lead",
-      "summary": "The Chiefs have connected on a deep ball and a rookie has scored his first touchdown.",
-      "publishedAt": "2026-11-15T20:11:52Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "e7748c1445b888de",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-cleared-to-return-after-concussion-evaluation-bills-lead-17-9",
-      "title": "Geno Smith cleared to return after concussion evaluation, Bills lead 17-9",
-      "summary": "Geno Smith did not play on the opening possession of the second half, but he has returned to Sunday's game against the Bills.",
-      "publishedAt": "2026-11-15T20:09:40Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "1743ec889cbda4ab",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50492174/never-forget-germany-trip",
-      "title": "Lions' Amon-Ra St. Brown: Germany trip one he'll 'never forget'",
-      "summary": "Amon-Ra St. Brown, who spent childhood summers visiting Germany, said Sunday after the Lions' win in Munich that this is a trip he'll \"never forget.\"",
-      "publishedAt": "2026-11-15T20:03:38Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "c10d2ef820791704",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kc-concepcion-6-yard-touchdown-run-ties-browns-texans-at-17-17",
-      "title": "KC Concepcion 6-yard touchdown run ties Browns-Texans at 17-17",
-      "summary": "After going down 17-0 early, the Browns have tied it up against the Texans.",
-      "publishedAt": "2026-11-15T20:03:25Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "a0b92d2b2cd32d28",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-finally-on-the-board-tie-panthers-7-7-in-third-quarter",
-      "title": "Saints finally on the board, tie Panthers 7-7 in third quarter",
-      "summary": "Alvin Kamara didn't touch the ball in the first half of Sunday's game, but he finally got the ball in the third quarter and he gave the Saints their first points of the afternoon.",
-      "publishedAt": "2026-11-15T20:03:01Z",
-      "teamIds": [
-        "29",
-        "18"
       ]
     }
   ]
