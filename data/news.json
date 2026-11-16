@@ -1,7 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T22:47:21Z",
+  "updatedAt": "2026-11-16T23:47:20Z",
   "items": [
+    {
+      "id": "6cb3c63b242f15b0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+      "title": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+      "summary": "Bears running back Kyle Monangai said Monday that he's \"on track\" to return Sunday against the Saints after sitting out five games because of a thumb injury and turf toe.",
+      "publishedAt": "2026-11-16T23:30:11Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "066507a9d8d28e7b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aidan-hutchinson-has-torn-acl-but-no-additional-damage",
+      "title": "Report: Aidan Hutchinson has torn ACL but no additional damage",
+      "summary": "Lions defensive end Aidan Hutchinson received a bit of good news after additional testing on his right knee.",
+      "publishedAt": "2026-11-16T23:23:40Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "7c1d463137376523",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50504017/raiders-fans-seated-fernando-mendoza-touchdown-tribute",
+      "title": "Behind Raiders fans' tribute to Fernando Mendoza's mother",
+      "summary": "Tom Joanides' social media campaign became a meaningful tribute when Mendoza scored in his first NFL start.",
+      "publishedAt": "2026-11-16T23:13:41Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "7b0a51b99cdf8140",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-ravens-chargers-mnf",
+      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Ravens-Chargers, MNF",
+      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-16T23:07:28Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "6a3cbbcf751fc355",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-disagrees-with-milton-williamss-claim-that-field-conditions-caused-injuries",
+      "title": "Mike Vrabel disagrees with Milton Williams's claim that field conditions caused injuries",
+      "summary": "On Sunday in Germany, both teams had key players go down with significant injuries.",
+      "publishedAt": "2026-11-16T22:58:15Z",
+      "teamIds": []
+    },
     {
       "id": "7175cd13f07a0cb3",
       "source": "espn",
@@ -1594,58 +1648,6 @@
       "summary": "We placed all 32 NFL teams into tiers based on their likelihood of making the playoffs, from Super Bowl favorites to the top-draft-pick candidates.",
       "publishedAt": "2026-11-16T02:48:13Z",
       "teamIds": []
-    },
-    {
-      "id": "f2da5c6fd6f61e68",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-lg-mason-mccormick-carted-off-with-leg-in-air-cast-late-in-second-quarter",
-      "title": "Steelers LG Mason McCormick carted off with leg in air cast late in second quarter",
-      "summary": "Pittsburgh has a significant injury concern along its offensive line.",
-      "publishedAt": "2026-11-16T02:47:39Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "ed0ad6f61e145be2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-currently-expect-qb-drake-maye-to-be-out-a-while",
-      "title": "Patriots currently expect QB Drake Maye to be out \"a while\"",
-      "summary": "Patriots quarterback Drake Maye left Sunday's game against the Lions in Germany after the first drive, due to an ankle injury.",
-      "publishedAt": "2026-11-16T02:46:23Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "3f6a62aac662b53f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-on-his-first-start-it-was-cool-but-losing-is-awful",
-      "title": "Carson Beck on his first start: It was cool, but losing is awful",
-      "summary": "Carson Beck started his first NFL game Sunday.",
-      "publishedAt": "2026-11-16T02:35:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "4723731a5426bf6f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/29098001/nfl-depth-charts-all-32-teams",
-      "title": "NFL depth charts for all 32 teams for 2026 season",
-      "summary": "Here are the latest NFL depth charts for all 32 teams.",
-      "publishedAt": "2026-11-16T02:31:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "45b8f4bf42955208",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrows-second-touchdown-pass-gives-bengals-17-0-lead",
-      "title": "Joe Burrow's second touchdown pass gives Bengals 17-0 lead",
-      "summary": "It's still all Bengals in Cincinnati.",
-      "publishedAt": "2026-11-16T02:30:48Z",
-      "teamIds": [
-        "4"
-      ]
     }
   ]
 }
