@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-15T21:40:26Z",
+    "takenAt": "2026-11-16T00:20:36Z",
     "games": [
       {
         "gameId": "401873052",
@@ -2018,6 +2018,17 @@
             "status": null
           },
           {
+            "athleteId": "4429955",
+            "name": "Will Howard",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4569987",
             "name": "Jaylen Warren",
             "pos": "RB",
@@ -2027,6 +2038,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4714771",
+            "name": "Drew Allar",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2334,6 +2356,26 @@
       "name": "Kurtis Rourke",
       "pos": "QB",
       "teamAbbr": "SF",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873064",
+      "athleteId": "4429955",
+      "name": "Will Howard",
+      "pos": "QB",
+      "teamAbbr": "PIT",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873064",
+      "athleteId": "4714771",
+      "name": "Drew Allar",
+      "pos": "QB",
+      "teamAbbr": "PIT",
       "kind": "neu",
       "from": null,
       "to": "Out"
