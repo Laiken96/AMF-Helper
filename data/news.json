@@ -1,7 +1,140 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T17:47:26Z",
+  "updatedAt": "2026-11-16T18:47:21Z",
   "items": [
+    {
+      "id": "db0ce9f8e41b3560",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50464190/nfl-odds-betting-chargers-first-win-week-10",
+      "title": "When will the Chargers finally win? Here are the odds and our best bets",
+      "summary": "The Chargers are 0-8 heading into their Monday night matchup with the Ravens. If they don't win this week, when will they get off the schneid?",
+      "publishedAt": "2026-11-16T18:45:11Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "0f7f56352bc9eda9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-theres-no-loophole-in-the-trade-process",
+      "title": "Sean Payton: \"There's no loophole\" in the trade process",
+      "summary": "Payton disputes JIm Harbaugh's characterization of the failed Daiyan Henley trade.",
+      "publishedAt": "2026-11-16T18:42:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "a184885899855424",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-to-miss-multiple-weeks-after-thumb-surgery",
+      "title": "Jordan Addison to miss multiple weeks after thumb surgery",
+      "summary": "Vikings wide receiver Jordan Addison's thumb injury kept him from playing in Sunday's win over the Packers and it will be a little while before he's able to return to action.",
+      "publishedAt": "2026-11-16T18:38:59Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "9bf19309adb47434",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-sign-zach-ertz-to-53-man-roster-designate-rb-will-shipley-for-return-from-ir",
+      "title": "Eagles sign Zach Ertz to 53-man roster, designate RB Will Shipley for return from IR",
+      "summary": "The Eagles announced a handful of roster moves as they come out of their bye week.",
+      "publishedAt": "2026-11-16T18:31:41Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "d1455ea57ffbb598",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50501527/nfl-week-11-betting-odds-props-early-picks-predictions",
+      "title": "Early bets for Week 11: Will Broncos keep Raiders down? Will 49ers stay hot?",
+      "summary": "Which Week 11 lines offered immediate value once odds came out? Here are the early bets we like.",
+      "publishedAt": "2026-11-16T18:30:20Z",
+      "teamIds": [
+        "7",
+        "13",
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "d02eec1e607c2e41",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
+      "title": "Falcons WR Drake London cleared after being checked for concussion",
+      "summary": "Falcons wide receiver Drake London has been cleared after being removed from Sunday's game against the Chiefs late with a possible concussion.",
+      "publishedAt": "2026-11-16T18:29:38Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "cba38e4afad7f5c9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ufls-battlehawks-work-out-a-deal-to-stay-at-dome-in-st-louis",
+      "title": "UFL's BattleHawks work out a deal to stay at dome in St. Louis",
+      "summary": "As of last month, the UFL had a stadium issue in St.",
+      "publishedAt": "2026-11-16T18:22:19Z",
+      "teamIds": []
+    },
+    {
+      "id": "868994771d48f750",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-really-optimistic-sam-darnold-will-be-able-to-return-week-12",
+      "title": "Mike Macdonald \"really optimistic\" Sam Darnold will be able to return Week 12",
+      "summary": "The Seahawks are anticipating having Sam Darnold back for their next game.",
+      "publishedAt": "2026-11-16T18:00:34Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Who got the ball in Week 10?",
+      "summary": "Which players saw ample fantasy football opportunities in Week 10, and which were limited?",
+      "publishedAt": "2026-11-16T17:58:09Z",
+      "teamIds": []
+    },
+    {
+      "id": "b9262216735b4f09",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drake-maye-injury-latest-patriots-snakebitten-2026-super-bowl-hangover",
+      "title": "Drake Maye injury the latest for Patriots amid snakebitten 2026 Super Bowl hangover",
+      "summary": "From Drake Maye to A.J. Brown, injuries have piled up for New England in 2026",
+      "publishedAt": "2026-11-16T17:55:34Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "ca0239d738661f22",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-rams-embark-on-shortest-possible-bye-weeks",
+      "title": "Packers, Rams embark on shortest possible bye weeks",
+      "summary": "In Week 11, six teams will have a bye.",
+      "publishedAt": "2026-11-16T17:52:56Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "8fb5e6d022662ece",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-drake-maye-i-wouldnt-imagine-him-being-available-out-of-the-bye",
+      "title": "Mike Vrabel on Drake Maye: I wouldn't imagine him being available out of the bye",
+      "summary": "There has been mixed reporting about the status of Drake Maye's ankle injury after the Patriots lost to the Lions in Munich on Sunday.",
+      "publishedAt": "2026-11-16T17:45:08Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
     {
       "id": "94d2aa2611a059f3",
       "source": "espn",
@@ -1524,136 +1657,6 @@
       "teamIds": [
         "34",
         "17"
-      ]
-    },
-    {
-      "id": "916550fcaded2046",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chiefs-trade-deadline-move-josh-downs-unlocks-mvp-patrick-mahomes",
-      "title": "Chiefs trade deadline move for Josh Downs unlocks MVP Patrick Mahomes of old",
-      "summary": "Mahomes' MVP is back thanks to his new downfield deep threat: NFL trade deadline WR addition Josh Downs",
-      "publishedAt": "2026-11-15T23:10:59Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "4ea8397845ccb397",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
-      "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
-      "summary": "We're handing out grades for every team that played in Week 10",
-      "publishedAt": "2026-11-15T23:07:48Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "9d04b712189e194d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-rule-out-ladd-mcconkey-for-monday-night-at-baltimore",
-      "title": "Chargers rule out Ladd McConkey for Monday night at Baltimore",
-      "summary": "It's been a disappointing season for Chargers wide receiver Ladd McConkey, and it won't get any better this week.",
-      "publishedAt": "2026-11-15T23:03:38Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "b124f36e3616ea78",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/blake-corum-scores-for-sixth-consecutive-game-rams-lead-24-6",
-      "title": "Blake Corum scores for sixth consecutive game, Rams lead 24-6",
-      "summary": "Blake Corum won't stop scoring, and the Rams have increased their lead early in the second half.",
-      "publishedAt": "2026-11-15T23:00:59Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "94a21740cfa18193",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-lead-cowboys-17-16-at-halftime",
-      "title": "49ers lead Cowboys 17-16 at halftime",
-      "summary": "The 49ers and Cowboys are in a shootout at AT&T Stadium.",
-      "publishedAt": "2026-11-15T22:59:28Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "6d1d61fe9c747164",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50495228/parker-washington-firmly-wr1-radar-week-11",
-      "title": "Eric Moody: Parker Washington firmly on the WR1 radar in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-15T22:55:21Z",
-      "teamIds": []
-    },
-    {
-      "id": "b5d9d921262c3927",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50495181/raiders-lose-te-brock-bowers-ankle-injury-vs-seahawks",
-      "title": "Raiders lose TE Brock Bowers to ankle injury vs. Seahawks",
-      "summary": "Brock Bowers was ruled out of Sunday's matchup against the Seahawks after suffering a right ankle injury in the opening quarter.",
-      "publishedAt": "2026-11-15T22:54:58Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "f99b7d3e6b1d8cba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jadarian-price-puts-seahawks-up-14-10-in-third-quarter",
-      "title": "Jadarian Price puts Seahawks up 14-10 in third quarter",
-      "summary": "Fernando Mendoza isn't the only rookie who has scored his first NFL touchdown in Las Vegas on Sunday.",
-      "publishedAt": "2026-11-15T22:49:52Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "f9a382e1472cd547",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50495148/why-jordyn-tyson-firmly-flex-radar",
-      "title": "Why Jordyn Tyson is firmly on the flex radar",
-      "summary": null,
-      "publishedAt": "2026-11-15T22:46:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "a7bc4ee6fddc7463",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50495090/should-jared-goff-fantasy-lineups-every-week",
-      "title": "Should Jared Goff be in fantasy lineups each and every week?",
-      "summary": null,
-      "publishedAt": "2026-11-15T22:41:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "a6c1396eb45c8cb9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-throws-two-td-passes-rams-lead-cardinals-17-6-at-halftime",
-      "title": "Matthew Stafford throws two TD passes, Rams lead Cardinals 17-6 at halftime",
-      "summary": "The Rams have more injury issues to deal with on offense.",
-      "publishedAt": "2026-11-15T22:39:44Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "34eb15b636c1daa5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-rule-brock-bowers-out-with-an-ankle-injury",
-      "title": "Raiders rule Brock Bowers out with an ankle injury",
-      "summary": "Raiders tight end Brock Bowers dealt with an ankle injury throughout the first half of Sunday's game against the Seahawks and he will not return to the game in the second half.",
-      "publishedAt": "2026-11-15T22:38:37Z",
-      "teamIds": [
-        "13",
-        "26"
       ]
     }
   ]
