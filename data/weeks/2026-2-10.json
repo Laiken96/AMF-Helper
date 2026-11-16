@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "fetchedAt": "2026-11-16T01:47:21Z",
+  "fetchedAt": "2026-11-16T02:47:16Z",
   "source": "espn",
   "games": [
     {
@@ -279,9 +279,9 @@
       "homeId": "4",
       "awayId": "23",
       "status": "in_progress",
-      "statusDetail": "3:17 - 1st",
-      "homeScore": 3,
-      "awayScore": 0,
+      "statusDetail": "1:18 - 2nd",
+      "homeScore": 17,
+      "awayScore": 3,
       "venue": "Paycor Stadium",
       "neutralSite": false,
       "venueInfo": {

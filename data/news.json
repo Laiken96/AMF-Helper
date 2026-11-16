@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T01:47:25Z",
+  "updatedAt": "2026-11-16T02:47:20Z",
   "items": [
+    {
+      "id": "3f6a62aac662b53f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-on-his-first-start-it-was-cool-but-losing-is-awful",
+      "title": "Carson Beck on his first start: It was cool, but losing is awful",
+      "summary": "Carson Beck started his first NFL game Sunday.",
+      "publishedAt": "2026-11-16T02:35:38Z",
+      "teamIds": []
+    },
+    {
+      "id": "4723731a5426bf6f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/29098001/nfl-depth-charts-all-32-teams",
+      "title": "NFL depth charts for all 32 teams for 2026 season",
+      "summary": "Here are the latest NFL depth charts for all 32 teams.",
+      "publishedAt": "2026-11-16T02:31:38Z",
+      "teamIds": []
+    },
+    {
+      "id": "45b8f4bf42955208",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrows-second-touchdown-pass-gives-bengals-17-0-lead",
+      "title": "Joe Burrow's second touchdown pass gives Bengals 17-0 lead",
+      "summary": "It's still all Bengals in Cincinnati.",
+      "publishedAt": "2026-11-16T02:30:48Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "0f9ba1ffe6200e19",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-on-career-high-receiving-yards-you-just-catch-it-and-run-as-fast-as-you-can",
+      "title": "Christian McCaffrey on career-high receiving yards: You just catch it and run as fast as you can",
+      "summary": "Christian McCaffrey had a day.",
+      "publishedAt": "2026-11-16T02:12:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "f46689ab820f87a8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50497324/rams-aaron-donald-savors-first-sack-1050-days-vs-cardinals",
+      "title": "Aaron Donald savors first sack in 1,050 days, but Rams' win 'felt even better'",
+      "summary": "Aaron Donald recorded his first sack since New Year's Eve in 2023 and helped the Rams top the Cardinals for their fourth straight win.",
+      "publishedAt": "2026-11-16T02:10:09Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "92acf8b3e0d6cc71",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaxon-smith-njigba-should-be-taken-seriously-as-an-mvp-candidate",
+      "title": "Jaxon Smith-Njigba should be taken seriously as an MVP candidate",
+      "summary": "No player as been more valuable to his team this year than JSN.",
+      "publishedAt": "2026-11-16T02:05:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "51b655d99cf97801",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-tosses-3-yard-td-pass-bengals-lead-steelers-10-0",
+      "title": "Joe Burrow tosses 3-yard TD pass, Bengals lead Steelers 10-0",
+      "summary": "It’s been all Bengals so far on Sunday night.",
+      "publishedAt": "2026-11-16T02:01:55Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
     {
       "id": "49d930c6b6c19878",
       "source": "espn",
@@ -23,6 +93,18 @@
       "teamIds": [
         "11",
         "15"
+      ]
+    },
+    {
+      "id": "95e1fec5ccce7d9e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/scorigami-cowboys-49ers-ends-with-score-never-seen-nfl",
+      "title": "Scorigami: Cowboys-49ers ends with score never before seen in NFL history thanks to Dak Prescott",
+      "summary": "Dak Prescott's otherwise meaningless two-point conversion helped make history",
+      "publishedAt": "2026-11-16T01:29:37Z",
+      "teamIds": [
+        "6",
+        "25"
       ]
     },
     {
@@ -90,7 +172,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873063",
       "title": "McCaffrey's TDs of 74 and 66 yards and Samuel's 70-yard score help 49ers beat Cowboys 46-40",
-      "summary": "Brock Purdy threw touchdown passes of 74 and 66 yards to Christian McCaffrey, Deebo Samuel ran 70 yards for a score on a reverse and the San Francisco 49ers beat the Dallas Cowboys 46-40 on Sunday.",
+      "summary": "Christian McCaffrey's first long touchdown catch was straight out of the schoolyard, the second a Kyle Shanahan special for the San Francisco 49ers.",
       "publishedAt": "2026-11-16T00:55:35Z",
       "teamIds": [
         "6",
@@ -184,7 +266,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873062",
       "title": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
-      "summary": "Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza.",
+      "summary": "The lead-up to Sunday's Seattle-Las Vegas matchup was almost all about Fernando Mendoza, at last receiving his first start as the Raiders' quarterback.",
       "publishedAt": "2026-11-16T00:10:35Z",
       "teamIds": [
         "13",
@@ -228,8 +310,8 @@
       "id": "9bd4eaa6c40f1d31",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
-      "title": "Week 10 winners and losers: Mahomes has biggest game in years; Taylor struggles",
-      "summary": "Jahmyr Gibbs, Patrick Mahomes and Emmett Johnson put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
+      "title": "Week 10 winners and losers: McCaffrey, Gibbs and Mahomes dominate Sunday",
+      "summary": "Christian McCafffrey, Jahmyr Gibbs and Patrick Mahomes put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
       "publishedAt": "2026-11-16T00:00:44Z",
       "teamIds": [
         "29",
@@ -1383,6 +1465,18 @@
       ]
     },
     {
+      "id": "cdbc594c5e661892",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-jahmyr-gibbs-ties-nfl-record-germany-patriots",
+      "title": "Lions running back Jahmyr Gibbs makes NFL history during Germany game vs. Patriots",
+      "summary": "Gibbs is making NFL history in Germany",
+      "publishedAt": "2026-11-15T18:24:33Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
       "id": "91b6536c71287468",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/parker-washington-td-catch-gives-jacksonville-early-lead-in-tennessee",
@@ -1572,96 +1666,6 @@
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-15T17:09:28Z",
       "teamIds": []
-    },
-    {
-      "id": "135ed9a1e6dc5cf2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-is-the-first-quarterback-with-20-td-passes-to-change-teams-midseason",
-      "title": "Kirk Cousins is the first quarterback with 20 TD passes to change teams midseason",
-      "summary": "It was a crazy week for the Vikings and for quarterback Kirk Cousins.",
-      "publishedAt": "2026-11-15T17:09:21Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "0d7c7545ac711865",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804233/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 10: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-15T17:08:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "8f3391d81c68c176",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804273/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 10: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-15T17:08:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "da9f36b37cf20b8c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804332/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 10: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-15T17:07:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "6d6610fd8dce3261",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-out-of-game-after-suffering-knee-injury-celebrating-a-sack",
-      "title": "Aidan Hutchinson out of game after suffering knee injury celebrating a sack",
-      "summary": "Hutchinson's knee buckled awkwardly as he landed after jumping in the air to celebrate sacking Drake Maye, who was also knocked out of the game.",
-      "publishedAt": "2026-11-15T17:00:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "1f4a2c6b315c494b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
-      "title": "Jordan Addison is out for Vikings in Green Bay",
-      "summary": "Kirk Cousins will be short on targets in his return to the Vikings lineup.",
-      "publishedAt": "2026-11-15T16:49:53Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "1f94282b092ed623",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-10-2026-expert-ats-picks-best-bets-predictions-player-props-nov-15",
-      "title": "NFL picks against the spread, Week 10 2026: Expert ATS picks, best bets, predictions, player props for Nov. 15",
-      "summary": "The SportsLine experts have locked in their top Week 10 picks from this week's NFL schedule, see who they are backing and fading here",
-      "publishedAt": "2026-11-15T16:46:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "04b98b15c7f28c8e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/vikings-vs-packers-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets",
-      "title": "Vikings vs. Packers odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Vikings vs. Packers in NFL Week 10",
-      "publishedAt": "2026-11-15T16:45:45Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "6e8a29728dca3c94",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50486637/sources-baker-mayfield-status-uncertain-vs-lions",
-      "title": "Sources: Baker Mayfield's status uncertain for Bucs' Week 11 game vs. Lions",
-      "summary": "Baker Mayfield's status against the Lions in Week 11 is in question because of an injury he suffered to his foot and ankle area, sources told NFL Network.",
-      "publishedAt": "2026-11-15T16:43:34Z",
-      "teamIds": [
-        "27"
-      ]
     }
   ]
 }
