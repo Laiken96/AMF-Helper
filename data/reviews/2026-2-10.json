@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "updatedAt": "2026-11-16T04:47:21Z",
+  "updatedAt": "2026-11-16T14:47:20Z",
   "complete": false,
   "games": [
     {
@@ -164,7 +164,7 @@
       "gameId": "401873065",
       "slot": "monday",
       "predictedHome": 22,
-      "predictedAway": 17,
+      "predictedAway": 18,
       "actualHome": null,
       "actualAway": null,
       "diff": null

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T14:30:54Z",
+  "updatedAt": "2026-11-16T14:47:21Z",
   "items": [
     {
       "id": "3f78c32a9d86f4f1",
@@ -1492,6 +1492,17 @@
       ]
     },
     {
+      "id": "300ce546909348d9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-raiders-fans-planning-stay-seated-fernando-mendoza-first-td",
+      "title": "LOOK: Fernando Mendoza scores first NFL TD on opening drive vs. Seahawks",
+      "summary": "Fans had planned to sit during the QB's first TD to honor Mendoza's mother, Elsa, utilizes a wheelchair because of her multiple sclerosis",
+      "publishedAt": "2026-11-15T21:46:59Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
       "id": "250e651957042d4e",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873056",
@@ -1668,17 +1679,6 @@
       "publishedAt": "2026-11-15T21:16:22Z",
       "teamIds": [
         "20"
-      ]
-    },
-    {
-      "id": "8e1ba813b940ef39",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
-      "title": "Texans lose RB Woody Marks to concussion in loss to Browns",
-      "summary": "An already short-handed Texans running back room took another hit Sunday when Woody Marks was ruled out with a concussion sustained against the Browns.",
-      "publishedAt": "2026-11-15T21:16:15Z",
-      "teamIds": [
-        "34"
       ]
     }
   ]
