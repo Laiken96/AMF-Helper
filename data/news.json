@@ -1,7 +1,98 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T14:47:21Z",
+  "updatedAt": "2026-11-16T15:47:24Z",
   "items": [
+    {
+      "id": "c49039ac1b787978",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 11 betting odds: Lines and totals for every game",
+      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
+      "publishedAt": "2026-11-16T15:41:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "7e4512e4590963f6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
+      "title": "How active NFL players continue to redefine all-time sack list",
+      "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
+      "publishedAt": "2026-11-16T15:39:02Z",
+      "teamIds": []
+    },
+    {
+      "id": "da45c701e0fe9546",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50501788/stephen-calls-change-cowboys-loss-49ers",
+      "title": "Stephen A. calls for change with Cowboys after loss to 49ers",
+      "summary": null,
+      "publishedAt": "2026-11-16T15:31:38Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "a7899ba1b105ed9b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/draft/news/2027-nfl-mock-draft-six-quarterbacks-jeremiah-smith-week-11",
+      "title": "2027 NFL mock draft: Six quarterbacks go in the first round but none overcome Jeremiah Smith",
+      "summary": "Six quarterbacks still come off the board in the first round even with Texas standout Arch Manning and Missouri passer Austin Simmons projected to stay in school",
+      "publishedAt": "2026-11-16T15:19:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "d499b1e883194a93",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-getting-tests-on-ankle-will-start-in-week-11-if-healthy",
+      "title": "Geno Smith getting tests on ankle, will start in Week 11 if healthy",
+      "summary": "Jets quarterback Geno Smith was forced out of Sunday's loss to the Bills with an ankle injury and his status for Week 11 is still to be determined.",
+      "publishedAt": "2026-11-16T15:16:54Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "8ad5845f106af302",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
+      "title": "Fantasy football 2026 offensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
+      "publishedAt": "2026-11-16T15:12:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "16e23781f1aebeb2",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50453363/nfl-week-10-odds-chargers-ravens-betting-preview-props",
+      "title": "Chargers-Ravens odds, best bets: Tips, analysis and our favorite plays",
+      "summary": "Odds, analysis and recommended plays to help you bet the Chargers-Ravens matchup on Monday night.",
+      "publishedAt": "2026-11-16T15:00:40Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "211905cfa8f04701",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aidan-hutchinson-is-out-for-the-season-with-torn-acl-likely-additional-damage",
+      "title": "Report: Aidan Hutchinson is out for the season with torn ACL, likely additional damage",
+      "summary": "Hutchinson suffered the season-ending injury while celebrating a sack of Drake Maye, who was also injured.",
+      "publishedAt": "2026-11-16T14:55:29Z",
+      "teamIds": []
+    },
+    {
+      "id": "d3f767ff152f4a31",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-becomes-the-mvp-favorite",
+      "title": "Joe Burrow becomes the MVP favorite",
+      "summary": "Bengals quarterback Joe Burrow is having a potentially historic season.",
+      "publishedAt": "2026-11-16T14:52:20Z",
+      "teamIds": [
+        "4"
+      ]
+    },
     {
       "id": "3f78c32a9d86f4f1",
       "source": "pft",
@@ -95,7 +186,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50491459/week-10-playoff-bubble-cowboys-raiders-texans-patriots",
       "title": "Concerns for four NFL teams on playoff bubble: Cowboys, Raiders, Texans, Patriots",
-      "summary": "The Cowboys defense got lit up, the Patriots lost Drake Maye, the Raiders are adjusting to Fernando Mendoza, and the Texans can't find support for C.J. Stroud.",
+      "summary": "The Cowboys' defense got lit up, the Patriots lost Drake Maye, the Raiders are adjusting to Fernando Mendoza, and the Texans can't find support for C.J. Stroud.",
       "publishedAt": "2026-11-16T13:58:32Z",
       "teamIds": [
         "6",
@@ -1407,8 +1498,8 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 10's leading scorers through 'Sunday Night Football'",
-      "summary": "Kansas City rookie Emmett Johnson stepped in for Kenneth Walker III and was one of the top fantasy scorers of Week 10.",
+      "title": "Fantasy buzz: Who got the ball in Week 10?",
+      "summary": "Which players saw ample fantasy football opportunities in Week 10, and which were limited?",
       "publishedAt": "2026-11-15T21:59:33Z",
       "teamIds": []
     },
@@ -1573,112 +1664,6 @@
         "33",
         "7",
         "16"
-      ]
-    },
-    {
-      "id": "647c2a03bde613e8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-get-another-fourth-quarter-comeback-defeat-texans-27-24",
-      "title": "Browns get another fourth-quarter comeback, defeat Texans 27-24",
-      "summary": "Cleveland is now 4-0 at home for the first time since 1963.",
-      "publishedAt": "2026-11-15T21:28:02Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "26398cfa471a4480",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50493957/game-highlights",
-      "title": "Carolina Panthers vs. New Orleans Saints: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:27:45Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "dc827620b184ebb6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-pull-out-20-17-win-in-new-orleans-take-lead-in-nfc-south",
-      "title": "Panthers pull out 20-17 win in New Orleans, take lead in NFC South",
-      "summary": "NFC South football has earned a negative reputation over the last few years and Sunday's game between the Panthers and Saints didn't do much to change that, but it did push one of the teams into first place in the race to represent the division in the playoffs.",
-      "publishedAt": "2026-11-15T21:27:36Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "11814900219ba6bb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873058",
-      "title": "Mahomes throws 5 TD passes and rookie Johnson runs for 101 yards as Chiefs overwhelm Falcons 35-13",
-      "summary": "Some new names had the Kansas City Chiefs looking very young — and very strong.",
-      "publishedAt": "2026-11-15T21:23:35Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "ee80a9895dbcb3dc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873057",
-      "title": "Trevor Lawrence lights up the Titans as the Jaguars roll 40-23 for a sixth win in 7 games",
-      "summary": "Trevor Lawrence has found a way to play even better, and he's elevating the Jacksonville offense right along with him.",
-      "publishedAt": "2026-11-15T21:22:35Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "0b28a59db5e3b146",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendozas-first-nfl-td-puts-raiders-up-7-0",
-      "title": "Fernando Mendoza's first NFL TD puts Raiders up 7-0",
-      "summary": "Fernando Mendoza helped secure a national title at Indiana with a scramble for a touchdown and his first NFL touchdown came the same way.",
-      "publishedAt": "2026-11-15T21:21:48Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "bc1a1e21ac9d2538",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873060",
-      "title": "Kirk Cousins has triumphant return as Vikings sack Jordan Love 8 times in 30-10 win over Packers",
-      "summary": "Kirk Cousins began his second stint with Minnesota by showing just how much of a difference he can make for the Vikings' offense.",
-      "publishedAt": "2026-11-15T21:20:38Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "b37ac0d872cfccb3",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50493724/bills-make-easy-work-jets",
-      "title": "Bills make easy work of Jets",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:19:46Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "315c6c5045f67f22",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
-      "title": "Jets QB Geno Smith suffers ankle injury, replaced by rookie Cade Klubnik",
-      "summary": "Jets quarterback Geno Smith suffered an ankle injury in the third quarter and was replaced by rookie Cade Klubnik on Sunday at MetLife Stadium.",
-      "publishedAt": "2026-11-15T21:16:22Z",
-      "teamIds": [
-        "20"
       ]
     }
   ]
