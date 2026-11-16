@@ -1,7 +1,119 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T10:47:19Z",
+  "updatedAt": "2026-11-16T11:41:26Z",
   "items": [
+    {
+      "id": "e034e6aa0edd92d0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50491464/week-10-overreactions-2026-graziano-cousins-mahomes",
+      "title": "Judging overreactions to NFL Week 10: Playoff spin for Vikings, Pats, Browns, more",
+      "summary": "Will Kirk Cousins be the difference in the NFC North? The Browns are going to the playoffs ... but not the Patriots? Patrick Mahomes for MVP and Kyle Shanahan for COY?",
+      "publishedAt": "2026-11-16T11:39:06Z",
+      "teamIds": [
+        "5",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "b63d85a64f98beb5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
+      "title": "Sources: Patriots QB Maye expected out extended time with significant leg injury",
+      "summary": "Patriots QB Drake Maye is believed to have suffered a significant lower leg injury that will keep him out an extended period of time, possibly the rest of the season, sources told NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-16T11:27:57Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "a30a86091bf27d17",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-sunday-night-was-great-but-youre-not-winning-anything-after-nine-games",
+      "title": "Joe Burrow: Sunday night was great, but you're not winning anything after nine games",
+      "summary": "Bengals quarterback Joe Burrow entered some rare company in Sunday night's romp over the Steelers.",
+      "publishedAt": "2026-11-16T11:20:50Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "889f5bb887701dce",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-its-good-to-learn-from-getting-punched-in-the-face",
+      "title": "Fernando Mendoza: It's good to learn from getting punched in the face",
+      "summary": "Fernando Mendoza didn't look overmatched early in his first NFL start, but the road got tougher for the Raiders' rookie quarterback over the final three quarters of Sunday's game against the Seahawks.",
+      "publishedAt": "2026-11-16T11:02:56Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "f0960f994d5a799b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50462293/los-angeles-chargers-offensive-struggles-herbert-mcdaniel-hampton",
+      "title": "Five reasons why Chargers' offense, Justin Herbert have struggled in 2026 season",
+      "summary": "Are injuries the biggest reason behind the Chargers' offensive struggles? Are Justin Herbert and Omarion Hampton both taking steps back? We looked at the tape for answers.",
+      "publishedAt": "2026-11-16T11:00:20Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-16T11:00:12Z",
+      "teamIds": []
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-16T11:00:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "9b9a1a2f942c08aa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50491685/new-york-giants-qb-jj-mccarthy-growth-showing-week-10",
+      "title": "Giants QB J.J. McCarthy's growth is showing in the numbers",
+      "summary": "After only three starts and four games playing for New York, the quarterback's numbers are staggering.",
+      "publishedAt": "2026-11-16T11:00:10Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "da5dd63af9f471e0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50497417/patriots-defense-struggles-lions-drake-maye",
+      "title": "Patriots need to fix defensive effort -- especially if Drake Maye misses time",
+      "summary": "New England has given up 80 points over last two games. The bye week will allow the team to reset.",
+      "publishedAt": "2026-11-16T11:00:10Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "6a18ee097122898a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50471544/chargers-jim-harbaugh-ravens-jesse-minter-week-10",
+      "title": "How Chargers' Harbaugh, Ravens' Minter can revive seasons",
+      "summary": "Los Angeles stands at 0-8 on the season while Baltimore deals with its worst three-game stretch in team history.",
+      "publishedAt": "2026-11-16T11:00:01Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "c721e430fab22dc1",
       "source": "pft",
@@ -1559,118 +1671,6 @@
       "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
       "publishedAt": "2026-11-15T19:40:14Z",
       "teamIds": []
-    },
-    {
-      "id": "2eec5b3a48340d74",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50492230/is-amon-ra-st-brown-big-week-10-sign-things-come",
-      "title": "Is Amon-Ra St. Brown's big Week 10 a sign of things to come?",
-      "summary": null,
-      "publishedAt": "2026-11-15T19:38:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "ed76da82340c2c48",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-cut-bills-lead-to-10-6-before-halftime",
-      "title": "Jets cut Bills lead to 10-6 before halftime",
-      "summary": "The Bills are trying to stay unbeaten on the road against the Jets on Sunday and they have moved into halftime with a lead.",
-      "publishedAt": "2026-11-15T19:36:16Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "6ad2f3a3ec38e688",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-downs-scores-first-td-with-chiefs-kansas-city-leads-atlanta-14-3-at-halftime",
-      "title": "Josh Downs scores first TD with Chiefs, Kansas City leads Atlanta 14-3 at halftime",
-      "summary": "Josh Downs is making an impact in his Kansas City debut.",
-      "publishedAt": "2026-11-15T19:35:22Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "65f8bb9d2011aa70",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/more-tests-coming-for-drake-maye-after-suffering-ankle-injury-vs-lions",
-      "title": "More tests coming for Drake Maye, after suffering ankle injury vs. Lions",
-      "summary": "Patriots quarterback Drake Maye suffered an ankle injury at the end of the opening drive of Sunday's game against the Lions in Germany.",
-      "publishedAt": "2026-11-15T19:33:19Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "bc17d830a366c53f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-take-7-0-lead-into-halftime-in-new-orleans",
-      "title": "Panthers take 7-0 lead into halftime in New Orleans",
-      "summary": "The Panthers got on the board midway through the second quarter against the Saints and those remained the only points of the first half in New Orleans.",
-      "publishedAt": "2026-11-15T19:30:45Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "1f3f3f29c8bafd58",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-lead-dolphins-14-7-at-halftime",
-      "title": "Colts lead Dolphins 14-7 at halftime",
-      "summary": "Laquon Treadwell caught a 7-yard touchdown pass from Daniel Jones with 39 seconds left in the first half, giving the Colts a 14-7 lead over the Dolphins at halftime.",
-      "publishedAt": "2026-11-15T19:30:31Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "0cf0145af1a04efd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-lead-browns-17-10-at-halftime",
-      "title": "Texans lead Browns 17-10 at halftime",
-      "summary": "The Texans got out to a 17-0 lead in Cleveland, but the Browns have made it a game with 10 straight points.",
-      "publishedAt": "2026-11-15T19:29:02Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "80aea154b548fe3a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-reportedly-has-significant-knee-injury",
-      "title": "Aidan Hutchinson reportedly has \"significant\" knee injury",
-      "summary": "Reports conflict on whether it's known to be season-ending.",
-      "publishedAt": "2026-11-15T19:14:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "a768c4576b243815",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-lead-packers-17-0-after-kirk-cousins-int-overturned-by-replay",
-      "title": "Vikings lead Packers 17-0 after Kirk Cousins' INT overturned by replay",
-      "summary": "Kirk Cousins nearly had his first interception since his return to the Vikings.",
-      "publishedAt": "2026-11-15T19:12:44Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "dbee71a4fddeefb7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chuba-hubbard-comes-through-on-fourth-down-to-put-panthers-up-7-0",
-      "title": "Chuba Hubbard comes through on fourth down to put Panthers up 7-0",
-      "summary": "Panthers running back Chuba Hubbard is on his way to a big day in New Orleans.",
-      "publishedAt": "2026-11-15T19:04:12Z",
-      "teamIds": [
-        "29"
-      ]
     }
   ]
 }
