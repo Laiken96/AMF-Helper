@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-16T00:20:36Z",
+    "takenAt": "2026-11-16T01:30:47Z",
     "games": [
       {
         "gameId": "401873052",
@@ -1973,17 +1973,6 @@
             "status": null
           },
           {
-            "athleteId": "4239993",
-            "name": "Tee Higgins",
-            "pos": "WR",
-            "teamId": "4",
-            "teamAbbr": "CIN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4362238",
             "name": "Chase Brown",
             "pos": "RB",
@@ -1995,23 +1984,11 @@
             "status": null
           },
           {
-            "athleteId": "8439",
-            "name": "Aaron Rodgers",
-            "pos": "QB",
-            "teamId": "23",
-            "teamAbbr": "PIT",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4047650",
-            "name": "DK Metcalf",
+            "athleteId": "4362628",
+            "name": "Ja'Marr Chase",
             "pos": "WR",
-            "teamId": "23",
-            "teamAbbr": "PIT",
+            "teamId": "4",
+            "teamAbbr": "CIN",
             "roles": [
               "receiving"
             ],
@@ -2027,17 +2004,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4569987",
-            "name": "Jaylen Warren",
-            "pos": "RB",
-            "teamId": "23",
-            "teamAbbr": "PIT",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           },
           {
             "athleteId": "4714771",
