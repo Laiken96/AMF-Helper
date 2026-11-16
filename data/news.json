@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T02:47:20Z",
+  "updatedAt": "2026-11-16T02:50:48Z",
   "items": [
+    {
+      "id": "468c5307b9495142",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50463347/2026-nfl-playoffs-chances-odds-tiers-32-teams-nfc-afc",
+      "title": "NFL playoff chance tiers: Where all 32 teams fit in 2026 postseason picture",
+      "summary": "We placed all 32 NFL teams into tiers based on their likelihood of making the playoffs, from Super Bowl favorites to the top draft pick candidates.",
+      "publishedAt": "2026-11-16T02:48:13Z",
+      "teamIds": []
+    },
     {
       "id": "3f6a62aac662b53f",
       "source": "pft",
@@ -1656,15 +1665,6 @@
       "title": "A.J. Brown heads to locker room with hamstring injury",
       "summary": "It's been another tough day in the disappointing first year as a Patriot for wide receiver A.J.",
       "publishedAt": "2026-11-15T17:09:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "31d818ab2355ab08",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804022/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 10: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-15T17:09:28Z",
       "teamIds": []
     }
   ]
