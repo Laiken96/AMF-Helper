@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T18:47:21Z",
+  "updatedAt": "2026-11-16T19:47:34Z",
   "items": [
+    {
+      "id": "ecb75ef917f6a430",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-confirms-packers-plan-to-have-micah-parsons-return-week-12-vs-rams",
+      "title": "Matt LaFleur confirms Packers plan to have Micah Parsons return Week 12 vs. Rams",
+      "summary": "It was widely reported that edge rusher Micah Parsons was targeting the Week 12 game against the Rams for his return from reconstructive knee surgery.",
+      "publishedAt": "2026-11-16T19:44:00Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "749c6d516919a4ea",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+      "title": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
+      "summary": "Vikings wide receiver Jordan Addison needs to undergo surgery on his thumb and is a candidate for injured reserve, coach Kevin O'Connell said Monday.",
+      "publishedAt": "2026-11-16T19:30:11Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "126139abbc79421d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50503576/mcafee-believe-how-unlucky-aidan-hutchinson-injury-is",
+      "title": "McAfee can't believe how unlucky Aidan Hutchinson's injury is",
+      "summary": null,
+      "publishedAt": "2026-11-16T19:25:40Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "6c3af97cfed0f5bd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-s-tavierre-thomas-off-vikings-practice-squad",
+      "title": "Giants sign S Tavierre Thomas off Vikings practice squad",
+      "summary": "The Giants are adding some depth for their secondary.",
+      "publishedAt": "2026-11-16T19:24:59Z",
+      "teamIds": [
+        "16",
+        "19"
+      ]
+    },
+    {
+      "id": "060d9a2f9380975c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/broncos-chargers-trade-sean-payton-jim-harbaugh-loophole",
+      "title": "Sean Payton disputes Jim Harbaugh's 'loophole' claim after Broncos-Chargers trade falls apart",
+      "summary": "The Broncos coach rejected Harbaugh's criticism of the process that derailed Denver's trade for Chargers linebacker Daiyan Henley",
+      "publishedAt": "2026-11-16T19:05:42Z",
+      "teamIds": [
+        "7",
+        "24"
+      ]
+    },
+    {
+      "id": "2d7f46eb005a5ff0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-george-holani-week-to-week-with-mcl-sprain",
+      "title": "Report: George Holani week-to-week with MCL sprain",
+      "summary": "Seattle may not have one of its offensive and special teams contributors when the club returns from its Week 11 bye.",
+      "publishedAt": "2026-11-16T19:01:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "5340a695235f0784",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/joe-burrow-stats-mvp-bengals-qb-2026",
+      "title": "Joe Burrow isn't just chasing MVP, he's chasing the greatest passing season ever",
+      "summary": "With 20 touchdown passes during Cincinnati's five-game winning streak, Burrow has separated himself in the MVP race while closing in on historic territory",
+      "publishedAt": "2026-11-16T18:59:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "1962f327d01f5e7d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pick-six-nfl-week-10-losers-grades-every-team-ravens-chargers-picks-monday-night",
+      "title": "NFL Week 10 losers, plus grades for every team and Ravens-Chargers picks for Monday night",
+      "summary": "Here's everything you need to know about the NFL for Nov. 16",
+      "publishedAt": "2026-11-16T18:51:18Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "db0ce9f8e41b3560",
       "source": "espn",
@@ -750,7 +838,7 @@
       "id": "946feb90d179704d",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/ravens-vs-chargers-how-to-watch-spread-odds-preview-prediction",
-      "title": "Ravens vs. Chargers: Can LA get its first win on 'MNF' against the injury-plagued Ravens?",
+      "title": "Ravens vs. Chargers prediction: Can L.A. get its first win on 'MNF' against the injury-plagued Ravens?",
       "summary": "Plus, how to watch, odds, a preview and a prediction for the Monday night matchup",
       "publishedAt": "2026-11-16T12:02:55Z",
       "teamIds": [
@@ -1028,6 +1116,18 @@
       "teamIds": [
         "4",
         "23"
+      ]
+    },
+    {
+      "id": "4ea8397845ccb397",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
+      "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
+      "summary": "We're handing out grades for every team that played in Week 10",
+      "publishedAt": "2026-11-16T04:36:08Z",
+      "teamIds": [
+        "9",
+        "16"
       ]
     },
     {
@@ -1554,109 +1654,6 @@
       "teamIds": [
         "4",
         "23"
-      ]
-    },
-    {
-      "id": "1b0a4bdbc42e458b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bengals-vs-steelers-picks-nfl-week-10-prediction-player-props-experts-best-bets-for-sunday-night-football",
-      "title": "Bengals vs. Steelers picks, NFL Week 10 prediction, player props: Expert's best bets for Sunday Night Football",
-      "summary": "Back the Over on the 49.5-point total and capitalize on plus-money anytime touchdown value with Tee Higgins and Darnell Washington",
-      "publishedAt": "2026-11-15T23:45:50Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "4ea5951aeb7f9f7d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50495965/kirk-cousins-emotional-getting-win-return-vikings",
-      "title": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
-      "summary": "Kirk Cousins was emotional discussing his return to the Vikings after their victory over the Packers.",
-      "publishedAt": "2026-11-15T23:45:00Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "22bcc349ea643aad",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
-      "title": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
-      "summary": "Jordan Love and the Packers expressed their frustration after a 30-10 loss to the Vikings.",
-      "publishedAt": "2026-11-15T23:42:47Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "897e2c1681662682",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50495406/bijan-robinson-says-falcons-deserved-boos-loss-chiefs",
-      "title": "Bijan Robinson: Falcons deserved boos in loss to Chiefs",
-      "summary": "Fans at Mercedes-Benz Stadium booed the Falcons after another poor offensive showing Sunday.",
-      "publishedAt": "2026-11-15T23:38:40Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "4524110ca65aae8a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50495783/browns-deshaun-watson-savors-special-win-vs-texans",
-      "title": "Browns' Deshaun Watson relishes 'special' win vs. Texans after engineering rally",
-      "summary": "Deshaun Watson, who delivered his sixth game-winning drive of the season, called the 27-24 victory over the Texans, his former team, \"definitely special.\"",
-      "publishedAt": "2026-11-15T23:37:54Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "5f880ca99f149c04",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuels-70-yard-td-run-gives-49ers-31-19-lead",
-      "title": "Deebo Samuel's 70-yard TD run gives 49ers 31-19 lead",
-      "summary": "Welcome back, Deebo Samuel.",
-      "publishedAt": "2026-11-15T23:36:03Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "39d02e20391579c9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-lead-cowboys-24-19-in-third-quarter",
-      "title": "49ers lead Cowboys 24-19 in third quarter",
-      "summary": "The 49ers opened the second half with a five-play, 81-yard drive to take a 24-16 lead on the Cowboys.",
-      "publishedAt": "2026-11-15T23:25:14Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "fd257cd827f87023",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut",
-      "title": "Raiders' Brock Bowers suffers ankle injury, misses majority of Fernando Mendoza's first career start",
-      "summary": "Mendoza was without his top target for much of his starting debut",
-      "publishedAt": "2026-11-15T23:24:50Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "974396eea20e5366",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-overreactions-patriots-lions-demeco-ryans-texans",
-      "title": "NFL Week 10 overreactions: Patriots to miss playoffs? Texans' DeMeco Ryans on the hot seat?",
-      "summary": "Drake Maye got hurt, and New England got blown out in Germany as the Pats playoff hopes slip away",
-      "publishedAt": "2026-11-15T23:24:44Z",
-      "teamIds": [
-        "34",
-        "17"
       ]
     }
   ]

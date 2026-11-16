@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-16T18:47:18Z",
+    "takenAt": "2026-11-16T19:47:32Z",
     "games": [
       {
         "gameId": "401873066",
@@ -32,7 +32,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Doubtful"
+            "status": null
           },
           {
             "athleteId": "4432577",
@@ -79,17 +79,6 @@
               "receiving"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4683423",
-            "name": "Riley Leonard",
-            "pos": "QB",
-            "teamId": "11",
-            "teamAbbr": "IND",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -163,17 +152,6 @@
             "roles": [
               "rushing"
             ],
-            "status": null
-          },
-          {
-            "athleteId": "4567747",
-            "name": "Garrett Nussmeier",
-            "pos": "QB",
-            "teamId": "12",
-            "teamAbbr": "KC",
-            "roles": [
-              "qb"
-            ],
             "status": "Out"
           }
         ]
@@ -237,17 +215,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4428993",
-            "name": "Haynes King",
-            "pos": "QB",
-            "teamId": "29",
-            "teamAbbr": "CAR",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4685472",
@@ -398,17 +365,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4361259",
-            "name": "Zach Wilson",
-            "pos": "QB",
-            "teamId": "18",
-            "teamAbbr": "NO",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4361370",
@@ -631,17 +587,6 @@
               "receiving"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4429955",
-            "name": "Will Howard",
-            "pos": "QB",
-            "teamId": "23",
-            "teamAbbr": "PIT",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4569987",
@@ -914,7 +859,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4262921",
@@ -960,17 +905,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4430431",
-            "name": "Kurtis Rourke",
-            "pos": "QB",
-            "teamId": "25",
-            "teamAbbr": "SF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
