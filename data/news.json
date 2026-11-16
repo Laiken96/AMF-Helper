@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T09:47:18Z",
+  "updatedAt": "2026-11-16T10:47:19Z",
   "items": [
+    {
+      "id": "c721e430fab22dc1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-in-hall-of-fame-company-with-a-long-list-of-statistical-achievements",
+      "title": "Jahmyr Gibbs in Hall of Fame company with a long list of statistical achievements",
+      "summary": "Lions running back Jahmyr Gibbs had another phenomenal game on Sunday, and in his fourth NFL season he has hit a long list of statistical milestones that only Hall of Famers have reached before him.",
+      "publishedAt": "2026-11-16T09:58:15Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "01d6f754402a8fd1",
       "source": "pft",
@@ -1659,18 +1670,6 @@
       "publishedAt": "2026-11-15T19:04:12Z",
       "teamIds": [
         "29"
-      ]
-    },
-    {
-      "id": "4b0bb71b053ac52a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-on-aidan-hutchinson-well-know-more-when-we-get-back-in-the-states",
-      "title": "Dan Campbell on Aidan Hutchinson: \"We'll know more when we get back in the States\"",
-      "summary": "The Lions got their seventh win of the season on Sunday, 35-10 over the Patriots in Germany.",
-      "publishedAt": "2026-11-15T18:53:52Z",
-      "teamIds": [
-        "8",
-        "17"
       ]
     }
   ]
