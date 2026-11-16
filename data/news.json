@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T05:47:27Z",
+  "updatedAt": "2026-11-16T06:47:23Z",
   "items": [
+    {
+      "id": "d77d4853b15a1846",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49907062/aaron-rodgers-2026-nfl-season-steelers-packers-jets-tracking-records-milestones",
+      "title": "Aaron Rodgers' 2026 NFL season: Tracking records, milestones",
+      "summary": "The Pittsburgh passer is chasing records in his 22nd NFL season, and ESPN is chronicling his \"last rodeo.\"",
+      "publishedAt": "2026-11-16T06:36:54Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "caf18db762ca52a7",
       "source": "espn",
@@ -47,7 +58,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873064",
       "title": "Joe Burrow and Bengals dominate Steelers 38-18 to take AFC North lead alone",
-      "summary": "Joe Burrow passed for 409 yards and four touchdowns, Ja'Marr Chase had 11 catches for 231 yards and the Cincinnati Bengals dominated the Pittsburgh Steelers 38-18 on Sunday night to move into sole possession of first place in the AFC North.",
+      "summary": "Joe Burrow and the Cincinnati Bengals didn't wither under the prime-time spotlight.",
       "publishedAt": "2026-11-16T04:36:36Z",
       "teamIds": [
         "4",
@@ -102,8 +113,8 @@
       "id": "53307c117a53e92b",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50497966/steelers-mason-mccormick-carted-field-air-cast-ankle",
-      "title": "Steelers OL Mason McCormick carted off field with air cast on ankle",
-      "summary": "Steelers guard Mason McCormick had an air cast placed on his right ankle and was carted off the field with what appeared to be a serious injury Sunday night against the Bengals.",
+      "title": "Steelers rally around Mason McCormick after guard suffers gruesome injury",
+      "summary": "The Steelers' thoughts were with Mason McCormick after the guard suffered what appeared to be a serious ankle injury and was carted off the field Sunday night.",
       "publishedAt": "2026-11-16T03:38:41Z",
       "teamIds": [
         "23"
@@ -1663,19 +1674,6 @@
       "publishedAt": "2026-11-15T18:34:40Z",
       "teamIds": [
         "2"
-      ]
-    },
-    {
-      "id": "8c27824dae83bdf0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-hopes-to-improve-poor-debuts-by-qbs-taken-no-1-overall",
-      "title": "Fernando Mendoza hopes to improve poor debuts by QBs taken No. 1 overall",
-      "summary": "With former Raiders starting quarterback Kirk Cousins currently playing for the Vikings, rookie Fernando Mendoza — the first overall pick in the draft — will make his first career start on Sunday against the Seahawks.",
-      "publishedAt": "2026-11-15T18:32:50Z",
-      "teamIds": [
-        "13",
-        "16",
-        "26"
       ]
     }
   ]

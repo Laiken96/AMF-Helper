@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-16T00:47:20Z",
+    "takenAt": "2026-11-16T06:47:20Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1013,17 +1013,6 @@
             "status": null
           },
           {
-            "athleteId": "4239993",
-            "name": "Tee Higgins",
-            "pos": "WR",
-            "teamId": "4",
-            "teamAbbr": "CIN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4362238",
             "name": "Chase Brown",
             "pos": "RB",
@@ -1031,6 +1020,17 @@
             "teamAbbr": "CIN",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4362628",
+            "name": "Ja'Marr Chase",
+            "pos": "WR",
+            "teamId": "4",
+            "teamAbbr": "CIN",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
