@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T21:47:16Z",
+  "updatedAt": "2026-11-16T22:16:51Z",
   "items": [
+    {
+      "id": "088a7d245e3f5a43",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-qb-brett-rypien-to-the-practice-squad",
+      "title": "Raiders sign QB Brett Rypien to the practice squad",
+      "summary": "The Raiders needed another quarterback after trading Kirk Cousins to the Vikings.",
+      "publishedAt": "2026-11-16T22:11:38Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "b8331e0f7c3c752a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-on-confidence-in-christian-parker-were-still-working-through-the-process",
+      "title": "Brian Schottenheimer on confidence in Christian Parker: We're still working through the process",
+      "summary": "One constant of the 2026 Cowboys season has been a focus on defensive coordinator Christian Parker's job security in the wake of losses and things aren't any different in the aftermath of Sunday's loss to the 49ers.",
+      "publishedAt": "2026-11-16T22:05:46Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "cef138fd185359a0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-extensive-officiating-adjustments-worked-but-were-they-necessary",
+      "title": "The extensive officiating adjustments worked, but were they necessary?",
+      "summary": "Friday's nationwide ground stop didn't affect any of the NFL teams that needed to travel from one place to the other for Week 10 games.",
+      "publishedAt": "2026-11-16T22:03:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "27426897a24c4d7a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-waive-jamree-kromah",
+      "title": "Dolphins waive Jamree Kromah",
+      "summary": "The Dolphins have let go of an edge rusher.",
+      "publishedAt": "2026-11-16T22:00:42Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "09dd72b73a36ab99",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-sign-qb-easton-stick-from-the-practice-squad-to-the-active-roster",
+      "title": "Bucs sign QB Easton Stick from the practice squad to the active roster",
+      "summary": "The Buccaneers signed quarterback Easton Stick from the practice squad to the active roster on Monday, the team announced.",
+      "publishedAt": "2026-11-16T21:54:29Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "c1b58f7ecf629c87",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-weve-put-more-on-cam-wards-plate-and-hes-proving-he-can-handle-it",
+      "title": "Robert Saleh: We've put more on Cam Ward's plate and he's proving he can handle it",
+      "summary": "The Titans lost their third straight game on Sunday, but head coach Robert Saleh continued to like what he saw from quarterback Cam Ward during Jacksonville's 40-23 win.",
+      "publishedAt": "2026-11-16T21:46:54Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "28108d8d72e719c7",
       "source": "cbs",
@@ -1578,77 +1644,6 @@
       "teamIds": [
         "4",
         "23"
-      ]
-    },
-    {
-      "id": "49d930c6b6c19878",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50497214/bill-gramatica-sympathizes-lions-aidan-hutchinson",
-      "title": "Ex-kicker Bill Gramatica sympathizes with Aidan Hutchinson, offers support",
-      "summary": "Bill Gramatica said he'd be happy to reach out to Aidan Hutchinson to provide any advice for getting through a tough moment.",
-      "publishedAt": "2026-11-16T01:33:46Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "d4d534034f9377d8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-to-stick-with-daniel-jones-as-their-starter-for-thursday-nights-game",
-      "title": "Colts to stick with Daniel Jones as their starter for Thursday night's game",
-      "summary": "The Colts ended a five-game losing streak against the Dolphins on Sunday, but it wasn't because of a strong game from quarterback Daniel Jones.",
-      "publishedAt": "2026-11-16T01:30:42Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "95e1fec5ccce7d9e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/scorigami-cowboys-49ers-ends-with-score-never-seen-nfl",
-      "title": "Scorigami: Cowboys-49ers ends with score never before seen in NFL history thanks to Dak Prescott",
-      "summary": "Dak Prescott's otherwise meaningless two-point conversion helped make history",
-      "publishedAt": "2026-11-16T01:29:37Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "c903b90aa8b9e3e9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50497055/nfl-week-10-trolls",
-      "title": "49ers poke fun at Cowboys multiple times to headline NFL Week 10 trolls",
-      "summary": "NFL teams kept it petty in Week 10, led by the San Francisco 49ers poking fun at the Dallas Cowboys.",
-      "publishedAt": "2026-11-16T01:27:52Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "05f3c3de46170f43",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50496925/49ers-outlast-cowboys-back-forth-thriller",
-      "title": "49ers outlast Cowboys in back-and-forth thriller",
-      "summary": null,
-      "publishedAt": "2026-11-16T01:22:37Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "063359de01d8c0cc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-word-on-severity-of-brock-bowerss-ankle-injury-will-be-re-evaluated-monday",
-      "title": "No word on severity of Brock Bowers's ankle injury, will be re-evaluated Monday",
-      "summary": "Raiders tight end Brock Bowers didn't play in the second half of Sunday's 21-13 loss to the Seahawks and there was no immediate word on when he'd back in the lineup.",
-      "publishedAt": "2026-11-16T01:16:07Z",
-      "teamIds": [
-        "13",
-        "26"
       ]
     }
   ]
