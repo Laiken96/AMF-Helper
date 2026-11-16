@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T02:50:48Z",
+  "updatedAt": "2026-11-16T03:47:18Z",
   "items": [
+    {
+      "id": "f67aa3eeb1c4f325",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50498058/schottenheimer-very-frustrated-porous-cowboys-defense",
+      "title": "Schottenheimer 'very disappointed, very frustrated' with Cowboys' porous defense",
+      "summary": "Brian Schottenheimer said the Cowboys' defensive performance in the second half was a first for him after it gave up nearly 600 yards to the 49ers.",
+      "publishedAt": "2026-11-16T03:39:34Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "53307c117a53e92b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50497966/steelers-mason-mccormick-carted-field-air-cast-ankle",
+      "title": "Steelers OL Mason McCormick carted off field with air cast on ankle",
+      "summary": "Steelers guard Mason McCormick had an air cast placed on his right ankle and was carted off the field with what appeared to be a serious injury Sunday night against the Bengals.",
+      "publishedAt": "2026-11-16T03:38:41Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "e7a611823a0ae458",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-matches-peyton-mannings-record-for-consecutive-games-with-at-least-four-tds",
+      "title": "Joe Burrow matches Peyton Manning's record for consecutive games with at least four TDs",
+      "summary": "Joe Burrow has accomplished something that had not been done for over 20 years.",
+      "publishedAt": "2026-11-16T03:34:05Z",
+      "teamIds": []
+    },
+    {
+      "id": "f63a68868e7cb052",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50498040/raiders-fernando-mendoza-vows-learn-first-nfl-start",
+      "title": "Raiders' Fernando Mendoza vows to learn from first NFL start, a loss to Seahawks",
+      "summary": "Fernando Mendoza completed 17-of-29 passes for 143 yards and had a passer rating of 71.5 in his first regular-season start for the Raiders.",
+      "publishedAt": "2026-11-16T03:28:09Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "df128a9c94800505",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/49466506/nfl-betting-buzz-odds-updates-line-moves-spreads",
+      "title": "Betting buzz: How improbable is this Browns season? Here's what the numbers say",
+      "summary": "Only 10 games into the season, the Cleveland Browns have already hit the over on their preseason win total, and that's just one of several notable numbers surrounding this team.",
+      "publishedAt": "2026-11-16T03:17:37Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "b78776234551572d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-torching-steelers-bengals-lead-24-3-at-halftime",
+      "title": "Sunday Night Football: Joe Burrow torching Steelers, Bengals lead 24-3 at halftime",
+      "summary": "Burrow threw for 302 yards and three touchdowns in the first half.",
+      "publishedAt": "2026-11-16T03:03:42Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "bb42b971a7d5caa6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-49ers-fans-were-more-present-than-ours",
+      "title": "Dak Prescott: 49ers fans \"were more present than ours\"",
+      "summary": "On Sunday, America's Team wasn't even Dallas's Team. 49ers fans showed up in big numbers for the game against the Cowboys at AT&T Stadium.",
+      "publishedAt": "2026-11-16T02:58:32Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "d7a5aad07a1eeacb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043976/jacksonville-jaguars-travis-hunter-stats-snaps-tracker",
+      "title": "Tracking Jaguars CB/WR Travis Hunter's 2026 season: Snaps on offense, defense",
+      "summary": "Every week, we will look at how many snaps the two-way corner/receiver plays on offense and defense. Is there a trend in his usage?",
+      "publishedAt": "2026-11-16T02:52:49Z",
+      "teamIds": [
+        "30"
+      ]
+    },
     {
       "id": "468c5307b9495142",
       "source": "espn",
@@ -10,6 +98,29 @@
       "summary": "We placed all 32 NFL teams into tiers based on their likelihood of making the playoffs, from Super Bowl favorites to the top draft pick candidates.",
       "publishedAt": "2026-11-16T02:48:13Z",
       "teamIds": []
+    },
+    {
+      "id": "f2da5c6fd6f61e68",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-lg-mason-mccormick-carted-off-with-leg-in-air-cast-late-in-second-quarter",
+      "title": "Steelers LG Mason McCormick carted off with leg in air cast late in second quarter",
+      "summary": "Pittsburgh has a significant injury concern along its offensive line.",
+      "publishedAt": "2026-11-16T02:47:39Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ed0ad6f61e145be2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-currently-expect-qb-drake-maye-to-be-out-a-while",
+      "title": "Patriots currently expect QB Drake Maye to be out \"a while\"",
+      "summary": "Patriots quarterback Drake Maye left Sunday's game against the Lions in Germany after the first drive, due to an ankle injury.",
+      "publishedAt": "2026-11-16T02:46:23Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
     },
     {
       "id": "3f6a62aac662b53f",
@@ -1569,103 +1680,6 @@
         "8",
         "17"
       ]
-    },
-    {
-      "id": "b942a95da1cf3ff2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
-      "title": "2027 NFL draft questions, latest intel, risers, CFB standouts",
-      "summary": "Is Jackson Harris the WR3 in the class? And has Boubacar Traore emerged as the No. 3 edge rusher? Here's our weekly draft spin, including top standouts.",
-      "publishedAt": "2026-11-15T17:34:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "38341889f1ab21b1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-could-become-sixth-coach-to-start-0-9-in-division",
-      "title": "Aaron Glenn could become sixth coach to start 0-9 in division",
-      "summary": "Jets coach Aaron Glenn has a 5-21 record during his one-and-a-half-year tenure with the team.",
-      "publishedAt": "2026-11-15T17:31:20Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "dd8e79ef051dd6d3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
-      "title": "Ja'Marr Chase steps into 'SNF' in style, leads NFL Week 10 arrivals",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-15T17:28:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "5b277656296bdf60",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-saints-battle-for-fourth-win-nfc-south-lead",
-      "title": "Panthers and Saints battle for fourth win — and NFC South lead",
-      "summary": "Sunday begins with the Panthers and Saints at 3-5, and the Falcons and Buccaneers at 3-6.",
-      "publishedAt": "2026-11-15T17:21:23Z",
-      "teamIds": [
-        "1",
-        "29",
-        "18",
-        "27"
-      ]
-    },
-    {
-      "id": "3490c0ed00d9bad2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 10",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-15T17:15:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 10: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-15T17:11:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "20f4695456852672",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804068/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 10: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-15T17:11:12Z",
-      "teamIds": []
-    },
-    {
-      "id": "d1c0f679b410049a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804149/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 10: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-15T17:10:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "c74dc9607c70469a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-49804164/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 10: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-15T17:10:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "c65174413657ca55",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-heads-to-locker-room-with-hamstring-injury",
-      "title": "A.J. Brown heads to locker room with hamstring injury",
-      "summary": "It's been another tough day in the disappointing first year as a Patriot for wide receiver A.J.",
-      "publishedAt": "2026-11-15T17:09:54Z",
-      "teamIds": []
     }
   ]
 }
