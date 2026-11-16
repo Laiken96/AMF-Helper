@@ -1,7 +1,119 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T20:47:24Z",
+  "updatedAt": "2026-11-16T21:47:16Z",
   "items": [
+    {
+      "id": "28108d8d72e719c7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/sophomore-bounce-back-letdown-will-campbell-quietly-improving-ashton-jeanty-among-2025-first-round-busts",
+      "title": "Sophomore bounce-back or letdown? Will Campbell quietly improving, Ashton Jeanty among 2025 first-round busts",
+      "summary": "Last year's top draft picks reached a pivot point in their careers, and not everyone is on the right trajectory",
+      "publishedAt": "2026-11-16T21:24:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "937c54facaa5f89e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-elevate-wr-chris-moore-te-nick-vannett-sign-ot-chuma-edoga",
+      "title": "Ravens elevate WR Chris Moore, TE Nick Vannett; sign OT Chuma Edoga",
+      "summary": "The Ravens added three players to their roster ahead of Monday night's game against the Chargers.",
+      "publishedAt": "2026-11-16T21:21:28Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "e6e839927c683d15",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-activate-te-david-njoku-lb-denzel-perryman-for-monday-night-vs-ravens",
+      "title": "Chargers activate TE David Njoku, LB Denzel Perryman for Monday night vs. Ravens",
+      "summary": "The Chargers will officially have a couple of players back for Monday night's game against the Ravens.",
+      "publishedAt": "2026-11-16T21:17:58Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "53d5154276a40908",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50504531/seahawks-macdonald-optimisitic-qb-darnold-plays-bye-week",
+      "title": "Seahawks' Mike Macdonald 'optimistic' QB Sam Darnold returns after bye week",
+      "summary": "Seahawks coach Mike Macdonald is \"optimistic\" QB Sam Darnold will return to his starting role after the team's bye week.",
+      "publishedAt": "2026-11-16T21:17:12Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "0200c271053a89d8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-cb-johnathan-edwards-to-the-active-roster-from-the-practice-squad",
+      "title": "Colts sign CB Johnathan Edwards to the active roster from the practice squad",
+      "summary": "The Colts signed cornerback Johnathan Edwards to the 53-player roster from the practice squad on Monday, the team announced.",
+      "publishedAt": "2026-11-16T21:15:12Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "2af3020167a20d82",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50504435/micah-parsons-track-return-packers-week-12",
+      "title": "Adam Schefter: Micah Parsons on track to return for Packers in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-16T21:11:04Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "3ca710a076c63119",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-calls-brock-bowers-day-to-day-with-ankle-injury",
+      "title": "Klint Kubiak calls Brock Bowers day-to-day with ankle injury",
+      "summary": "Raiders tight end Brock Bowers only played 11 snaps on Sunday because of an ankle injury, but there doesn't appear to be much concern about an extended absence from the lineup.",
+      "publishedAt": "2026-11-16T21:07:36Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "608bdc364eaff6d3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-confirms-aidan-hutchinsons-tackle-of-drake-maye-was-not-a-hip-drop",
+      "title": "NFL confirms Aidan Hutchinson's tackle of Drake Maye was not a hip drop",
+      "summary": "Lions defensive end Aidan Hutchinson and Patriots quarterback Drake Maye were injured on the same play Sunday.",
+      "publishedAt": "2026-11-16T21:03:50Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "001c58b6553b8a49",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/16-27-million-watched-commanders-giants-on-thursday-night",
+      "title": "16.27 million watched Commanders-Giants on Thursday night",
+      "summary": "Thursday night's game became surprisingly entertaining, except for Giants fans who still don't quite understand how the Commanders won the game.",
+      "publishedAt": "2026-11-16T20:58:26Z",
+      "teamIds": [
+        "19",
+        "28"
+      ]
+    },
+    {
+      "id": "3e20803349d5371c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-paganetti-returns-to-eagles-as-a-consultant",
+      "title": "T.J. Paganetti returns to Eagles as a consultant",
+      "summary": "The Eagles are bringing back a former member of Nick Sirianni's coaching staff.",
+      "publishedAt": "2026-11-16T20:55:16Z",
+      "teamIds": [
+        "21"
+      ]
+    },
     {
       "id": "3b68c2fbadf326c3",
       "source": "espn",
@@ -17,8 +129,8 @@
       "id": "7858ab90a8158480",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50504228/lafleur-plans-parsons-return-thanksgiving-eve",
-      "title": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving eve",
-      "summary": "The Packers still hope Micah Parsons will be ready to make his return for the Thanksgiving eve game at the Rams in Week 12.",
+      "title": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving Eve",
+      "summary": "The Packers still hope Micah Parsons will be ready to make his return for the Thanksgiving Eve game at the Rams in Week 12.",
       "publishedAt": "2026-11-16T20:42:42Z",
       "teamIds": [
         "9"
@@ -755,8 +867,8 @@
       "id": "8947438939097d63",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50501232/raiders-te-brock-bowers-avoids-major-ankle-injury-source-says",
-      "title": "Raiders TE Brock Bowers avoids major ankle injury, source says",
-      "summary": "Brock Bowers missed the entire second half of the Raiders' loss to the Seahawks with an ankle injury, but it is not believed to major in its severity, a source told NFL Network's Ian Rapoport.",
+      "title": "Raiders TE Brock Bowers day-to-day with ankle injury",
+      "summary": "Brock Bowers is day-to-day with an ankle injury that forced him to miss the entire second half of the Raiders' loss to the Seahawks.",
       "publishedAt": "2026-11-16T13:59:21Z",
       "teamIds": [
         "13"
@@ -1188,6 +1300,18 @@
       "teamIds": []
     },
     {
+      "id": "9bd4eaa6c40f1d31",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
+      "title": "Week 10 winners and losers: McCaffrey, Gibbs and Mahomes dominate Sunday",
+      "summary": "Christian McCafffrey, Jahmyr Gibbs and Patrick Mahomes put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
+      "publishedAt": "2026-11-16T05:17:59Z",
+      "teamIds": [
+        "29",
+        "9"
+      ]
+    },
+    {
       "id": "982f46cf5d48a8f5",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50498326/jaxon-smith-njigba-144-yard-third-quarter-sparks-seahawks-offense-win-raiders",
@@ -1525,133 +1649,6 @@
       "teamIds": [
         "13",
         "26"
-      ]
-    },
-    {
-      "id": "a7404e91a470dcf5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50496605/carolina-panthers-penalties-close-win-week-10-saints",
-      "title": "Panthers 'talking about' penalties after nearly squandering win vs. Saints",
-      "summary": "Breaking records for penalties isn't the usual path to victory, and coach Dave Canales says the issues will be addressed.",
-      "publishedAt": "2026-11-16T01:10:25Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "65b7e3a49f49044c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-winners-and-losers-texans-crumble-against-browns-kirk-cousins-trade-pays-dividends-for-vikings",
-      "title": "NFL Week 10 winners and losers: Texans crumble against Browns, Kirk Cousins trade pays dividends for Vikings",
-      "summary": "Houston squandered a three-score lead while Minnesota won by a three-possession margin of its own",
-      "publishedAt": "2026-11-16T01:03:29Z",
-      "teamIds": [
-        "5",
-        "34",
-        "16"
-      ]
-    },
-    {
-      "id": "bd1c30900a8496a6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873063",
-      "title": "McCaffrey's TDs of 74 and 66 yards and Samuel's 70-yard score help 49ers beat Cowboys 46-40",
-      "summary": "Christian McCaffrey's first long touchdown catch was straight out of the schoolyard, the second a Kyle Shanahan special for the San Francisco 49ers.",
-      "publishedAt": "2026-11-16T00:55:35Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "0f8ebf46e3c36cd1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-49ers-run-past-cowboys-46-40",
-      "title": "Christian McCaffrey, 49ers run past Cowboys 46-40",
-      "summary": "The 49ers had 584 yards, the third-most the Cowboys have allowed in their history.",
-      "publishedAt": "2026-11-16T00:49:49Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "4cb689b290a7a1dc",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bengals-vs-steelers-odds-sunday-night-football-first-touchdown-scorer-picks-nfl-predictions",
-      "title": "Bengals vs. Steelers odds: Best Sunday Night Football first touchdown scorer picks, NFL predictions",
-      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bengals and Steelers",
-      "publishedAt": "2026-11-16T00:46:57Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "dd8e79ef051dd6d3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
-      "title": "Ja'Marr Chase steps into 'SNF' in style, leads NFL Week 10 arrivals",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-16T00:42:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "e7a5b97fad292f62",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
-      "title": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
-      "summary": "Even with an elbow injury, Patrick Mahomes was able to have his best performance of the year to lead the Chiefs to a dominant 35-13 win over the Falcons.",
-      "publishedAt": "2026-11-16T00:41:33Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "797f89cc8e9d13ab",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/steelers-vs-bengals-prediction-odds-betting-preview-start-time-sunday-night-football-picks-best-bets",
-      "title": "Steelers vs. Bengals prediction, odds, betting preview, start time: Sunday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Steelers vs. Bengals on Sunday Night Football",
-      "publishedAt": "2026-11-16T00:38:50Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "4135ea23073f226f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50496557/game-highlights",
-      "title": "Los Angeles Rams vs. Arizona Cardinals: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-16T00:27:44Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
-    },
-    {
-      "id": "efa6d721d2aeeee7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50496498/game-highlights",
-      "title": "Seattle Seahawks vs. Las Vegas Raiders: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-16T00:25:13Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "b8fd3122efa396ef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50496110/colts-sticking-daniel-jones-qb-dreadful-start",
-      "title": "Citing short week, Colts sticking with Daniel Jones at QB despite dreadful start",
-      "summary": "Colts coach Shane Steichen said the team will stick with Daniel Jones as starter despite a two-interception start that earned him a 2026-worst 1.7 QBR.",
-      "publishedAt": "2026-11-16T00:18:28Z",
-      "teamIds": [
-        "11"
       ]
     }
   ]
