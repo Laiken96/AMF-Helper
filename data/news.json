@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T06:47:23Z",
+  "updatedAt": "2026-11-16T07:47:17Z",
   "items": [
+    {
+      "id": "4157e7d132dd4599",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50499348/how-emmett-johnson-proved-handle-bigger-workload-fantasy-week-10",
+      "title": "How Emmett Johnson proved he could handle a bigger workload in fantasy Week 10",
+      "summary": null,
+      "publishedAt": "2026-11-16T07:34:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "7299df5f3d0ff40c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50499235/bengals-joe-burrow-4-touchdowns-win-vs-steelers-puts-company-tom-brady-peyton-manning",
+      "title": "Joe Burrow's 4-TD night puts QB in company of Tom Brady, Peyton Manning",
+      "summary": "Bengals QB Joe Burrow threw for 409 yards with four touchdowns and no interceptions Sunday night, becoming just the third player in NFL history after Tom Brady and Peyton Manning to throw at least 20 passing touchdowns in a five-game span.",
+      "publishedAt": "2026-11-16T07:30:39Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "44f8e60c1799d92a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50499358/will-jonathan-taylor-seth-mcgowan-continue-one-two-punch-fantasy",
+      "title": "Will Jonathan Taylor and Seth McGowan continue as a one-two punch in fantasy?",
+      "summary": null,
+      "publishedAt": "2026-11-16T07:28:36Z",
+      "teamIds": []
+    },
     {
       "id": "d77d4853b15a1846",
       "source": "espn",
@@ -1640,41 +1669,6 @@
       "summary": "The Super Bowl will air on ESPN on Feb. 14, 2027. We have all-time lists, predictions and unforgettable moments.",
       "publishedAt": "2026-11-15T18:52:06Z",
       "teamIds": []
-    },
-    {
-      "id": "19f1806e126af412",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-td-pass-gives-vikings-10-0-lead-on-packers",
-      "title": "Kirk Cousins' TD pass gives Vikings 10-0 lead on Packers",
-      "summary": "Kirk Cousins threw his first touchdown pass for the Vikings since an Oct. 29, 2023, game against the Packers.",
-      "publishedAt": "2026-11-15T18:40:12Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "e1d5042697156746",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50491455/game-highlights",
-      "title": "New England Patriots vs. Detroit Lions: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-15T18:37:34Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "6da6a8a62477559e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allens-10th-rushing-td-of-season-puts-bills-up-7-0",
-      "title": "Josh Allen's 10th rushing TD of season puts Bills up 7-0",
-      "summary": "Bills quarterback Josh Allen has given his team an early lead at MetLife Stadium.",
-      "publishedAt": "2026-11-15T18:34:40Z",
-      "teamIds": [
-        "2"
-      ]
     }
   ]
 }
