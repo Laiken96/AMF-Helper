@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-16T04:47:19Z",
+  "updatedAt": "2026-11-16T05:47:26Z",
   "source": "espn-pickem",
   "games": [
     {
@@ -32,11 +32,11 @@
       "gameId": "401873068",
       "homeId": "29",
       "awayId": "33",
-      "homeShare": 0.457,
-      "awayShare": 0.543,
-      "total": 62941,
+      "homeShare": 0.462,
+      "awayShare": 0.538,
+      "total": 64132,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-16T04:47:19Z",
+      "fetchedAt": "2026-11-16T05:47:26Z",
       "locked": false
     },
     {
@@ -87,33 +87,33 @@
       "gameId": "401873076",
       "homeId": "21",
       "awayId": "23",
-      "homeShare": 0.324,
-      "awayShare": 0.676,
-      "total": 63306,
+      "homeShare": 0.319,
+      "awayShare": 0.681,
+      "total": 64518,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-16T04:47:19Z",
+      "fetchedAt": "2026-11-16T05:47:26Z",
       "locked": false
     },
     {
       "gameId": "401873074",
       "homeId": "24",
       "awayId": "20",
-      "homeShare": 0.615,
-      "awayShare": 0.385,
-      "total": 60908,
+      "homeShare": 0.609,
+      "awayShare": 0.391,
+      "total": 64037,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-16T03:47:16Z",
+      "fetchedAt": "2026-11-16T05:47:26Z",
       "locked": false
     },
     {
       "gameId": "401873069",
       "homeId": "19",
       "awayId": "30",
-      "homeShare": 0.164,
-      "awayShare": 0.836,
-      "total": 61289,
+      "homeShare": 0.159,
+      "awayShare": 0.841,
+      "total": 64476,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-16T03:47:16Z",
+      "fetchedAt": "2026-11-16T05:47:26Z",
       "locked": false
     },
     {
@@ -142,11 +142,11 @@
       "gameId": "401873078",
       "homeId": "28",
       "awayId": "4",
-      "homeShare": 0.092,
-      "awayShare": 0.908,
-      "total": 59068,
+      "homeShare": 0.087,
+      "awayShare": 0.913,
+      "total": 64125,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-16T02:47:17Z",
+      "fetchedAt": "2026-11-16T05:47:26Z",
       "locked": false
     }
   ]

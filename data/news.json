@@ -1,7 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T04:47:21Z",
+  "updatedAt": "2026-11-16T05:47:27Z",
   "items": [
+    {
+      "id": "caf18db762ca52a7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50498782/big-offensive-plays-highlight-top-nfl-plays-week-10",
+      "title": "Big-time offensive plays highlight top NFL plays of Week 10",
+      "summary": null,
+      "publishedAt": "2026-11-16T05:38:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ac2af002e7a8f1b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+      "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 10.",
+      "publishedAt": "2026-11-16T05:22:31Z",
+      "teamIds": []
+    },
     {
       "id": "982f46cf5d48a8f5",
       "source": "espn",
@@ -491,6 +509,18 @@
       "teamIds": []
     },
     {
+      "id": "3c0723ee8291801b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch",
+      "title": "Bengals vs. Steelers prediction: First place in AFC North up for grabs in rivalry battle on 'SNF'",
+      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3. Plus, how to watch, what to know, and a prediction",
+      "publishedAt": "2026-11-16T00:03:46Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
       "id": "00a1ac38bc451d43",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-deshon-elliott-inactive-after-suffering-pregame-knee-injury",
@@ -891,7 +921,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 10's leading scorers through Sunday Night Football",
+      "title": "Fantasy buzz: Week 10's leading scorers through 'Sunday Night Football'",
       "summary": "Kansas City rookie Emmett Johnson stepped in for Kenneth Walker III and was one of the top fantasy scorers of Week 10.",
       "publishedAt": "2026-11-15T21:59:33Z",
       "teamIds": []
@@ -1646,41 +1676,6 @@
         "13",
         "16",
         "26"
-      ]
-    },
-    {
-      "id": "3913fe7985cf5ed3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-questionable-to-return-with-ankle-injury",
-      "title": "Travis Kelce questionable to return with ankle injury",
-      "summary": "Chiefs tight end Travis Kelce is questionable to return to Sunday’s game against the Falcons with an ankle injury.",
-      "publishedAt": "2026-11-15T18:27:02Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "cdbc594c5e661892",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-jahmyr-gibbs-ties-nfl-record-germany-patriots",
-      "title": "Lions running back Jahmyr Gibbs makes NFL history during Germany game vs. Patriots",
-      "summary": "Gibbs is making NFL history in Germany",
-      "publishedAt": "2026-11-15T18:24:33Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "91b6536c71287468",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/parker-washington-td-catch-gives-jacksonville-early-lead-in-tennessee",
-      "title": "Parker Washington TD catch gives Jacksonville early lead in Tennessee",
-      "summary": "Jaguars wide receiver Parker Washington is making plays, as usual.",
-      "publishedAt": "2026-11-15T18:19:12Z",
-      "teamIds": [
-        "30"
       ]
     }
   ]
