@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-16T15:47:20Z",
+  "updatedAt": "2026-11-16T16:47:18Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -160,14 +160,14 @@
       "gameId": "401873073",
       "kickoffUtc": "2026-11-22T18:00:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": -7.5,
-        "overUnder": 53.5,
-        "fetchedAt": "2026-11-16T01:47:21Z"
+        "provider": "Draft Kings",
+        "spreadHome": -8.5,
+        "overUnder": 54.5,
+        "fetchedAt": "2026-11-16T16:47:18Z"
       },
-      "pHome": 0.7107,
+      "pHome": 0.7355,
       "pickTeamId": "6",
-      "pickProb": 0.7107,
+      "pickProb": 0.7355,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "6",
@@ -235,14 +235,14 @@
       "gameId": "401873069",
       "kickoffUtc": "2026-11-22T21:25:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": 6.5,
+        "provider": "Draft Kings",
+        "spreadHome": 6,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-16T05:47:25Z"
+        "fetchedAt": "2026-11-16T16:47:18Z"
       },
-      "pHome": 0.3151,
+      "pHome": 0.3284,
       "pickTeamId": "30",
-      "pickProb": 0.6849,
+      "pickProb": 0.6716,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "30",
@@ -310,14 +310,14 @@
       "gameId": "401873078",
       "kickoffUtc": "2026-11-24T01:15:00Z",
       "odds": {
-        "provider": "DraftKings",
-        "spreadHome": 4.5,
-        "overUnder": 51.5,
-        "fetchedAt": "2026-11-16T05:47:25Z"
+        "provider": "Draft Kings",
+        "spreadHome": 6,
+        "overUnder": 52.5,
+        "fetchedAt": "2026-11-16T16:47:18Z"
       },
-      "pHome": 0.3694,
+      "pHome": 0.3284,
       "pickTeamId": "4",
-      "pickProb": 0.6306,
+      "pickProb": 0.6716,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "4",
@@ -343,8 +343,8 @@
     {
       "gameId": "401873078",
       "slot": "monday",
-      "homePoints": 24,
-      "awayPoints": 28,
+      "homePoints": 23,
+      "awayPoints": 29,
       "basis": "quote"
     }
   ]

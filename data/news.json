@@ -1,7 +1,136 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T15:47:24Z",
+  "updatedAt": "2026-11-16T16:47:22Z",
   "items": [
+    {
+      "id": "811f1f4a321121dc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502391/dolphins-cut-kicker-zane-gonzalez-day-costly-misses",
+      "title": "Dolphins cut kicker Zane Gonzalez a day after costly misses in loss to Colts",
+      "summary": "The Dolphins waived kicker Zane Gonzalez on Monday, a day after he missed two field goals and an extra point in a 24-22 loss to the Colts.",
+      "publishedAt": "2026-11-16T16:44:01Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "38cf07fc47775928",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502082/geno-smith-remains-jets-qb1-injury-aaron-glenn-says",
+      "title": "Geno Smith remains Jets' QB1 despite ankle injury, coach Aaron Glenn says",
+      "summary": "Geno Smith is undergoing tests on his injured left ankle, creating uncertainty about his status for the Jets' Week 11 game against the Chargers.",
+      "publishedAt": "2026-11-16T16:41:57Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "767ce515a2c6bb7f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-on-his-injured-elbow-obviously-it-felt-good-enough",
+      "title": "Patrick Mahomes on his injured elbow: Obviously, it felt good enough",
+      "summary": "Chiefs quarterback Patrick Mahomes suffered a right elbow injury during the Week 9 victory over the Jets.",
+      "publishedAt": "2026-11-16T16:40:31Z",
+      "teamIds": [
+        "12",
+        "20"
+      ]
+    },
+    {
+      "id": "11b8cc4a531894df",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50500480/fantasy-football-waivers-free-agent-pickups-nfl-week-11",
+      "title": "Fantasy football free agent pickups: Replacing Drake Maye? Trust in Tyson?",
+      "summary": "Eric Karabell lists the top available options to replace Drake Maye and more.",
+      "publishedAt": "2026-11-16T16:40:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "f171fc5379623001",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50502156/how-impressive-tony-pollard-fantasy-recently",
+      "title": "How impressive has Tony Pollard been in fantasy recently?",
+      "summary": null,
+      "publishedAt": "2026-11-16T16:40:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "062997c4bd4a9f07",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502385/titans-getting-more-adding-more-qb-cam-ward-plate",
+      "title": "Titans getting more after adding more to QB Cam Ward's plate",
+      "summary": "The Titans offense has functioned better since putting more on quarterback Cam Ward's plate, even if it hasn't translated to more wins yet.",
+      "publishedAt": "2026-11-16T16:38:29Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "0bf46fe82058e54e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-waive-zane-gonzalez-after-three-missed-kicks-on-sunday",
+      "title": "Dolphins waive Zane Gonzalez after three missed kicks on Sunday",
+      "summary": "The Dolphins are looking for a new kicker.",
+      "publishedAt": "2026-11-16T16:32:34Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "86123be10901dd49",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502112/arizona-cardinals-carson-beck-rookie-debut",
+      "title": "Cards rookie QB Beck struggles in debut, but keeps optimism",
+      "summary": "Beck faced Aaron Donald and Myles Garrett in his first game, and it wasn't easy.",
+      "publishedAt": "2026-11-16T16:29:38Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "1d416c12703a4ec5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-on-pace-to-set-new-nfl-records-for-most-penalties-and-penalty-yards-this-season",
+      "title": "Panthers on pace to set new NFL records for most penalties and penalty yards this season",
+      "summary": "The Panthers beat the Saints on Sunday despite being assessed a whopping 17 penalties for 152 yards.",
+      "publishedAt": "2026-11-16T16:12:49Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "244f87d9452bbc45",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/acc-announces-punishments-after-louisville-north-carolina-brawl",
+      "title": "ACC announces punishments after Louisville-North Carolina brawl",
+      "summary": "The ACC has spoken.",
+      "publishedAt": "2026-11-16T16:11:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "d6f31c18e4d32bfa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/seahawks-starting-qb-sam-darnold-or-drew-lock-battle-2026",
+      "title": "Sam Darnold or Drew Lock? Breaking down the Seahawks' surprising QB debate",
+      "summary": "Drew Lock is 4-0 as Seattle's primary quarterback and has dramatically outperformed Sam Darnold in several key metric",
+      "publishedAt": "2026-11-16T15:59:41Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "e3f8f8b91408b341",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-picks-player-props-experts-nfl-week-10-best-bets-for-monday-night-football",
+      "title": "Chargers vs. Ravens odds, picks, player props: Expert's NFL Week 10 best bets for Monday Night Football",
+      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 10",
+      "publishedAt": "2026-11-16T15:56:46Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "c49039ac1b787978",
       "source": "espn",
@@ -757,7 +886,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50463347/2026-nfl-playoffs-chances-odds-tiers-32-teams-nfc-afc",
       "title": "NFL playoff chance tiers: Where all 32 teams fit in 2026 postseason picture",
-      "summary": "We placed all 32 NFL teams into tiers based on their likelihood of making the playoffs, from Super Bowl favorites to the top draft pick candidates.",
+      "summary": "We placed all 32 NFL teams into tiers based on their likelihood of making the playoffs, from Super Bowl favorites to the top-draft-pick candidates.",
       "publishedAt": "2026-11-16T02:48:13Z",
       "teamIds": []
     },
@@ -1523,148 +1652,6 @@
       "summary": null,
       "publishedAt": "2026-11-15T21:56:21Z",
       "teamIds": []
-    },
-    {
-      "id": "67786c43a213faeb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50475710/nfl-germany-lions-amon-ra-st-brown-munich",
-      "title": "Untold stories of Detroit Lions WR Amon-Ra St. Brown's German upbringing",
-      "summary": "For Amon-Ra St. Brown, Sunday's NFL game in Munich marked the ultimate convergence of his dual heritage. Here are stories that shed more light.",
-      "publishedAt": "2026-11-15T21:54:50Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "40d11a7e0ea70678",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873055",
-      "title": "Hubbard helps the Panthers top the Saints, 20-17, and retain first place in the NFC South",
-      "summary": "Chuba Hubbard made long gains out of short passes, pushed through tacklers and pulled the mistake-prone Carolina Panthers out of a three-game slide.",
-      "publishedAt": "2026-11-15T21:54:36Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "450c8dc07e2973df",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-scores-on-49ers-first-drive-for-7-3-lead",
-      "title": "Deebo Samuel scores on 49ers' first drive for 7-3 lead",
-      "summary": "Deebo Samuel hadn't played since Oct. 11.",
-      "publishedAt": "2026-11-15T21:51:06Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "eb05b12dede43bb0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-well-know-more-on-geno-smiths-ankle-this-week",
-      "title": "Aaron Glenn: We'll know more on Geno Smith's ankle this week",
-      "summary": "Jets quarterback Geno Smith left Sunday's game with an ankle injury and head coach Aaron Glenn didn't have any update on his condition after their 31-12 loss to the Bills.",
-      "publishedAt": "2026-11-15T21:48:42Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "9a4b472ac2433cbf",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50493995/game-highlights",
-      "title": "Kansas City Chiefs vs. Atlanta Falcons: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:47:43Z",
-      "teamIds": [
-        "1",
-        "12"
-      ]
-    },
-    {
-      "id": "300ce546909348d9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-raiders-fans-planning-stay-seated-fernando-mendoza-first-td",
-      "title": "LOOK: Fernando Mendoza scores first NFL TD on opening drive vs. Seahawks",
-      "summary": "Fans had planned to sit during the QB's first TD to honor Mendoza's mother, Elsa, utilizes a wheelchair because of her multiple sclerosis",
-      "publishedAt": "2026-11-15T21:46:59Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "250e651957042d4e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873056",
-      "title": "Deshaun Watson throws for 312 yards against his old team as the Browns rally past the Texans 27-24",
-      "summary": "Deshaun Watson can talk all he wants about how playing the Houston Texans is just another game.",
-      "publishedAt": "2026-11-15T21:39:47Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "103a1242561e7d55",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873054",
-      "title": "Josh Allen powers Bills past Jets 31-12 for best start in 35 years. New York loses Geno Smith twice",
-      "summary": "Josh Allen and the Buffalo Bills are off to the franchise's best start in 35 years.",
-      "publishedAt": "2026-11-15T21:34:35Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "4fec83704dd3c6a2",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50494007/jags-come-top-offensive-shootout-titans",
-      "title": "Jags come out on top in offensive shootout with Titans",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:33:06Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "1de4f6f8020d1444",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50493959/game-highlights",
-      "title": "Houston Texans vs. Cleveland Browns: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-15T21:29:43Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "95f3144acde3bb74",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-hold-off-dolphins-24-22",
-      "title": "Colts hold off Dolphins 24-22",
-      "summary": "The Dolphins had a chance for their second win this season, but two missed field goals by Zane Gonzalez and a failed 2-point conversion allowed the Colts to hold onto a 24-22 win.",
-      "publishedAt": "2026-11-15T21:28:47Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "5e510ab2f4844049",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/kirk-cousins-vikings-super-bowl-odds-2026",
-      "title": "With Kirk Cousins back, the Vikings really can win the Super Bowl and here's how",
-      "summary": "From the 2000 Ravens to the 2015 Broncos, history offers plenty of reasons to believe Minnesota can win with Kirk Cousins",
-      "publishedAt": "2026-11-15T21:28:14Z",
-      "teamIds": [
-        "33",
-        "7",
-        "16"
-      ]
     }
   ]
 }
