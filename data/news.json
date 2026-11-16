@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T12:15:43Z",
+  "updatedAt": "2026-11-16T12:47:31Z",
   "items": [
+    {
+      "id": "4a335f356731e2cb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs-first-round-picks-week-11",
+      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams entering Week 11",
+      "summary": "The Chargers lead the race for the first overall pick, but the Jets possess the draft capital that could define the opening round",
+      "publishedAt": "2026-11-16T12:31:30Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "853d151c20394f93",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-team-doctor-ok-after-getting-hit-in-the-face-by-a-fernando-mendoza-pass",
+      "title": "Seahawks' team doctor OK after getting hit in the face by a Fernando Mendoza pass",
+      "summary": "Seahawks team physician Dr.",
+      "publishedAt": "2026-11-16T12:30:13Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "dd49f7b55b7218c4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-bengals-blowout-nfl-trade-deadline-aaron-rodgers",
+      "title": "Steelers' receiver problem proves they made a massive NFL trade deadline mistake",
+      "summary": "Pittsburgh declined to add a receiver at the trade deadline, leaving Aaron Rodgers without the help he needed",
+      "publishedAt": "2026-11-16T12:18:36Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "c7ac34578ec76986",
       "source": "pft",
@@ -112,8 +146,8 @@
       "id": "b63d85a64f98beb5",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
-      "title": "Sources: Patriots QB Maye expected out extended time with significant leg injury",
-      "summary": "Patriots QB Drake Maye is believed to have suffered a significant lower leg injury that will keep him out an extended period of time, possibly the rest of the season, sources told NFL Network's Ian Rapoport.",
+      "title": "Sources: Patriots' Drake Maye to miss extended time with significant leg injury",
+      "summary": "Patriots QB Drake Maye is believed to have suffered a significant lower leg injury that will keep him out an extended period of time, sources told NFL Network.",
       "publishedAt": "2026-11-16T11:27:57Z",
       "teamIds": [
         "8",
@@ -1645,41 +1679,6 @@
       "teamIds": [
         "29",
         "18"
-      ]
-    },
-    {
-      "id": "75196744ae20c71f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-aidan-hutchinson-injury-update-patriots-germany",
-      "title": "Lions' Aidan Hutchinson feared to have possible season-ending injury after sack celebration, per report",
-      "summary": "According to the report, the Lions will get a second opinion once they return to the United States",
-      "publishedAt": "2026-11-15T20:00:58Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "398adf4f1b4a8833",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable",
-      "title": "Drake Maye, Aidan Hutchinson injured on same play: Injury updates for Patriots QB, Lions DE",
-      "summary": "Maye and Hutchinson both went down on the final play of the first drive",
-      "publishedAt": "2026-11-15T20:00:09Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "1d5bfb79023fdd9f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cade-klubnik-in-for-jets-geno-smith-being-evaluated-for-a-concussion",
-      "title": "Cade Klubnik in for Jets, Geno Smith being evaluated for a concussion",
-      "summary": "The Jets have turned to Cade Klubnik at quarterback to start the second half of Sunday's game against the Bills.",
-      "publishedAt": "2026-11-15T19:53:18Z",
-      "teamIds": [
-        "2",
-        "20"
       ]
     }
   ]
