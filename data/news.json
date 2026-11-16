@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T22:16:51Z",
+  "updatedAt": "2026-11-16T22:47:21Z",
   "items": [
+    {
+      "id": "7175cd13f07a0cb3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
+      "title": "49ers WR Mike Evans' Achilles tendinitis injury explained",
+      "summary": "ESPN spoke with a medical professional for a better understanding of Evans' diagnosis. When could he return? And will the injury completely resolve itself?",
+      "publishedAt": "2026-11-16T22:42:50Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "dfa4d1aed951b0c9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-nfls-week-12-flex-decision-is-looming",
+      "title": "The NFL's Week 12 flex decision is looming",
+      "summary": "Thanksgiving week will entail a smorgasbord of football.",
+      "publishedAt": "2026-11-16T22:37:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "2eab533255ad1ea8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-claim-de-tyrus-wheat-off-of-waivers",
+      "title": "Lions claim DE Tyrus Wheat off of waivers",
+      "summary": "The Lions lost Aidan Hutchinson for the rest of the season on Sunday and they moved to add another defensive end to the roster on Monday.",
+      "publishedAt": "2026-11-16T22:32:09Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "ad00a179a5ea8335",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-wr-xavier-gipson-db-tavierre-thomas-to-their-active-roster",
+      "title": "Giants sign WR Xavier Gipson, DB Tavierre Thomas to their active roster",
+      "summary": "The Giants signed wide receiver Xavier Gipson and defensive back Tavierre Thomas to their active roster on Monday, the team announced.",
+      "publishedAt": "2026-11-16T22:30:46Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "088a7d245e3f5a43",
       "source": "pft",
@@ -1603,47 +1645,6 @@
       "publishedAt": "2026-11-16T02:30:48Z",
       "teamIds": [
         "4"
-      ]
-    },
-    {
-      "id": "0f9ba1ffe6200e19",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-on-career-high-receiving-yards-you-just-catch-it-and-run-as-fast-as-you-can",
-      "title": "Christian McCaffrey on career-high receiving yards: You just catch it and run as fast as you can",
-      "summary": "Christian McCaffrey had a day.",
-      "publishedAt": "2026-11-16T02:12:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "f46689ab820f87a8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50497324/rams-aaron-donald-savors-first-sack-1050-days-vs-cardinals",
-      "title": "Aaron Donald savors first sack in 1,050 days, but Rams' win 'felt even better'",
-      "summary": "Aaron Donald recorded his first sack since New Year's Eve in 2023 and helped the Rams top the Cardinals for their fourth straight win.",
-      "publishedAt": "2026-11-16T02:10:09Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "92acf8b3e0d6cc71",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaxon-smith-njigba-should-be-taken-seriously-as-an-mvp-candidate",
-      "title": "Jaxon Smith-Njigba should be taken seriously as an MVP candidate",
-      "summary": "No player as been more valuable to his team this year than JSN.",
-      "publishedAt": "2026-11-16T02:05:27Z",
-      "teamIds": []
-    },
-    {
-      "id": "51b655d99cf97801",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-tosses-3-yard-td-pass-bengals-lead-steelers-10-0",
-      "title": "Joe Burrow tosses 3-yard TD pass, Bengals lead Steelers 10-0",
-      "summary": "It’s been all Bengals so far on Sunday night.",
-      "publishedAt": "2026-11-16T02:01:55Z",
-      "teamIds": [
-        "4",
-        "23"
       ]
     }
   ]
