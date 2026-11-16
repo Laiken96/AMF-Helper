@@ -1,7 +1,126 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T00:47:23Z",
+  "updatedAt": "2026-11-16T01:47:25Z",
   "items": [
+    {
+      "id": "49d930c6b6c19878",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50497214/bill-gramatica-sympathizes-lions-aidan-hutchinson",
+      "title": "Ex-kicker Bill Gramatica sympathizes with Aidan Hutchinson, offers support",
+      "summary": "Bill Gramatica said he'd be happy to reach out to Aidan Hutchinson to provide any advice for getting through a tough moment.",
+      "publishedAt": "2026-11-16T01:33:46Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "d4d534034f9377d8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-to-stick-with-daniel-jones-as-their-starter-for-thursday-nights-game",
+      "title": "Colts to stick with Daniel Jones as their starter for Thursday night's game",
+      "summary": "The Colts ended a five-game losing streak against the Dolphins on Sunday, but it wasn't because of a strong game from quarterback Daniel Jones.",
+      "publishedAt": "2026-11-16T01:30:42Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "c903b90aa8b9e3e9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50497055/nfl-week-10-trolls",
+      "title": "49ers poke fun at Cowboys multiple times to headline NFL Week 10 trolls",
+      "summary": "NFL teams kept it petty in Week 10, led by the San Francisco 49ers poking fun at the Dallas Cowboys.",
+      "publishedAt": "2026-11-16T01:27:52Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "05f3c3de46170f43",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50496925/49ers-outlast-cowboys-back-forth-thriller",
+      "title": "49ers outlast Cowboys in back-and-forth thriller",
+      "summary": null,
+      "publishedAt": "2026-11-16T01:22:37Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "063359de01d8c0cc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-word-on-severity-of-brock-bowerss-ankle-injury-will-be-re-evaluated-monday",
+      "title": "No word on severity of Brock Bowers's ankle injury, will be re-evaluated Monday",
+      "summary": "Raiders tight end Brock Bowers didn't play in the second half of Sunday's 21-13 loss to the Seahawks and there was no immediate word on when he'd back in the lineup.",
+      "publishedAt": "2026-11-16T01:16:07Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "a7404e91a470dcf5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50496605/carolina-panthers-penalties-close-win-week-10-saints",
+      "title": "Panthers 'talking about' penalties after nearly squandering win vs. Saints",
+      "summary": "Breaking records for penalties isn't the usual path to victory, and coach Dave Canales says the issues will be addressed.",
+      "publishedAt": "2026-11-16T01:10:25Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "65b7e3a49f49044c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-winners-and-losers-texans-crumble-against-browns-kirk-cousins-trade-pays-dividends-for-vikings",
+      "title": "NFL Week 10 winners and losers: Texans crumble against Browns, Kirk Cousins trade pays dividends for Vikings",
+      "summary": "Houston squandered a three-score lead while Minnesota won by a three-possession margin of its own",
+      "publishedAt": "2026-11-16T01:03:29Z",
+      "teamIds": [
+        "5",
+        "34",
+        "16"
+      ]
+    },
+    {
+      "id": "bd1c30900a8496a6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873063",
+      "title": "McCaffrey's TDs of 74 and 66 yards and Samuel's 70-yard score help 49ers beat Cowboys 46-40",
+      "summary": "Brock Purdy threw touchdown passes of 74 and 66 yards to Christian McCaffrey, Deebo Samuel ran 70 yards for a score on a reverse and the San Francisco 49ers beat the Dallas Cowboys 46-40 on Sunday.",
+      "publishedAt": "2026-11-16T00:55:35Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "0f8ebf46e3c36cd1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-49ers-run-past-cowboys-46-40",
+      "title": "Christian McCaffrey, 49ers run past Cowboys 46-40",
+      "summary": "The 49ers had 584 yards, the third-most the Cowboys have allowed in their history.",
+      "publishedAt": "2026-11-16T00:49:49Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "4cb689b290a7a1dc",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/bengals-vs-steelers-odds-sunday-night-football-first-touchdown-scorer-picks-nfl-predictions",
+      "title": "Bengals vs. Steelers odds: Best Sunday Night Football first touchdown scorer picks, NFL predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on Sunday Night Football between the Bengals and Steelers",
+      "publishedAt": "2026-11-16T00:46:57Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
     {
       "id": "e7a5b97fad292f62",
       "source": "espn",
@@ -77,7 +196,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873061",
       "title": "Rams win their 4th straight game, overcoming a slow start to crush the Cardinals 34-6",
-      "summary": "Matthew Stafford threw for 249 yards and three touchdowns, Blake Corum gained 100 yards on the ground and the Los Angeles Rams overcame a slow start to earn their fourth straight win by beating the Arizona Cardinals 34-6 on Sunday.",
+      "summary": "Beaux Limmer was snapping the ball, Xavier Smith and Davis Allen were catching it and Kamren Kinchens came up with a key interception.",
       "publishedAt": "2026-11-16T00:05:36Z",
       "teamIds": [
         "22",
@@ -494,7 +613,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 10's leading scorers through Sunday's early games",
+      "title": "Fantasy buzz: Week 10's leading scorers through Sunday's 4 p.m. ET games",
       "summary": "Kansas City rookie Emmett Johnson stepped in for Kenneth Walker III and was one of the top fantasy scorers of Week 10.",
       "publishedAt": "2026-11-15T21:59:33Z",
       "teamIds": []
@@ -961,6 +1080,18 @@
       "publishedAt": "2026-11-15T20:00:58Z",
       "teamIds": [
         "8"
+      ]
+    },
+    {
+      "id": "398adf4f1b4a8833",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable",
+      "title": "Drake Maye, Aidan Hutchinson injured on same play: Injury updates for Patriots QB, Lions DE",
+      "summary": "Maye and Hutchinson both went down on the final play of the first drive",
+      "publishedAt": "2026-11-15T20:00:09Z",
+      "teamIds": [
+        "8",
+        "17"
       ]
     },
     {
@@ -1530,130 +1661,6 @@
       "publishedAt": "2026-11-15T16:43:34Z",
       "teamIds": [
         "27"
-      ]
-    },
-    {
-      "id": "16ede7c82062bd70",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-10-best-bets-player-props-anytime-td-scorers-for-sundays-games",
-      "title": "NFL odds, picks: Brinson's Week 10 best bets, player props, anytime TD scorers for Sunday's games",
-      "summary": "Back Kirk Cousins in his return to Minnesota, take the points with New England against Detroit and expect points in an AFC East shootout at MetLife",
-      "publishedAt": "2026-11-15T16:40:50Z",
-      "teamIds": []
-    },
-    {
-      "id": "cdbc594c5e661892",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-jahmyr-gibbs-ties-nfl-record-germany-patriots",
-      "title": "Lions running back Jahmyr Gibbs makes NFL history during Germany game vs. Patriots",
-      "summary": "Gibbs is making NFL history in Germany",
-      "publishedAt": "2026-11-15T16:38:51Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "81f5d58a19db3848",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-anderson-to-play-against-browns",
-      "title": "Will Anderson to play against Browns",
-      "summary": "All of the inactives for Sunday's 1 p.m. ET kickoffs.",
-      "publishedAt": "2026-11-15T16:34:21Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "70ad5eae4c1a2abc",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/2026-week-10-nfl-player-props-picks-odds-best-bets-for-sundays-games-include-dak-prescott-travis-kelce",
-      "title": "2026 Week 10 NFL player props, picks, odds, best bets for Sunday's games include Dak Prescott, Travis Kelce",
-      "summary": "Bet on Week 10 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
-      "publishedAt": "2026-11-15T16:33:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "52ee5e07c32d1cac",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/panthers-vs-saints-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets",
-      "title": "Panthers vs. Saints odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Panthers vs. Saints in NFL Week 10",
-      "publishedAt": "2026-11-15T16:22:19Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "8b77c30710adec83",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-colts-will-stage-a-someone-has-to-win-game",
-      "title": "Dolphins, Colts will stage a \"someone has to win\" game",
-      "summary": "The Colts need a lot more than a horseshoe to turn their season around.",
-      "publishedAt": "2026-11-15T16:18:43Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "8ef179bdf70a9f7c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-uncertain-for-week-11-due-to-lower-leg-injury",
-      "title": "Report: Baker Mayfield uncertain for Week 11 due to lower-leg injury",
-      "summary": "The Buccaneers are on their bye week and they're hoping that quarterback Baker Mayfield will be able to play when they return to action in Week 11.",
-      "publishedAt": "2026-11-15T16:15:32Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "4e1d8ca3a5a03c58",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/four-officials-in-all-will-make-the-road-trip-from-indy-to-cincinnati",
-      "title": "Four officials in all will make the road trip from Indy to Cincinnati",
-      "summary": "It's officially a road trip.",
-      "publishedAt": "2026-11-15T16:06:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "71a36f60f20b7bc6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-totals-171-yards-in-first-half-as-lions-roll-over-patriots",
-      "title": "Jahmyr Gibbs totals 171 yards in first half as Lions roll over Patriots",
-      "summary": "For the second consecutive week, the Patriots' defense is having a rough game.",
-      "publishedAt": "2026-11-15T16:06:22Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "996b6ef52f0d0fc6",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds",
-      "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
-      "summary": "NFL Week 10 spreads and totals for every game, including 49ers-Cowboys and Steelers-Bengals",
-      "publishedAt": "2026-11-15T16:02:44Z",
-      "teamIds": [
-        "2",
-        "4",
-        "6",
-        "20",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "9fabd4d40cb650b6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50477594/sb-xxiii",
-      "title": "Jerry Rice's 'I scored a touchdown' story: SB XXIII",
-      "summary": null,
-      "publishedAt": "2026-11-15T15:59:14Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
