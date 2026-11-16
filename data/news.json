@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T03:47:18Z",
+  "updatedAt": "2026-11-16T04:47:21Z",
   "items": [
+    {
+      "id": "982f46cf5d48a8f5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50498326/jaxon-smith-njigba-144-yard-third-quarter-sparks-seahawks-offense-win-raiders",
+      "title": "Jaxon Smith-Njigba's 144-yard quarter sparks Seahawks in win over Raiders",
+      "summary": "Jaxon Smith-Njigba, the NFL's leading receiver, finished with a season-high 171 yards on eight catches, with 144 coming in the third quarter to help the Seahawks turn a three-point halftime deficit into a 21-13 win over the Raiders on Sunday.",
+      "publishedAt": "2026-11-16T04:43:26Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "918260655f267c00",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50498373/49ers-put-big-numbers-victory-cowboys",
+      "title": "49ers put up big numbers vs. Cowboys, tout 'incredibly dangerous' offense",
+      "summary": "The 49ers racked up 584 yards against the Cowboys on Sunday in a jaw-dropping offensive display led by Brock Purdy, Christian McCaffrey and Deebo Samuel.",
+      "publishedAt": "2026-11-16T04:41:15Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "e9c0df9a906b84dc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873064",
+      "title": "Joe Burrow and Bengals dominate Steelers 38-18 to take AFC North lead alone",
+      "summary": "Joe Burrow passed for 409 yards and four touchdowns, Ja'Marr Chase had 11 catches for 231 yards and the Cincinnati Bengals dominated the Pittsburgh Steelers 38-18 on Sunday night to move into sole possession of first place in the AFC North.",
+      "publishedAt": "2026-11-16T04:36:36Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "975d351c0187c8fb",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50498452/burrow-throws-4-tds-bengals-blow-steelers",
+      "title": "Burrow throws 4 TDs as Bengals blow out Steelers",
+      "summary": "Burrow throws 4 TDs as Bengals blow out Steelers 38-18",
+      "publishedAt": "2026-11-16T04:30:53Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "a6d14eea6ee5744a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-jamarr-chase-torch-steelers-in-38-18-bengals-victory",
+      "title": "Sunday Night Football: Joe Burrow, Ja'Marr Chase torch Steelers in 38-18 Bengals victory",
+      "summary": "Burrow threw for 409 yards and four TDs while Chase caught 11 passes for 231 yards.",
+      "publishedAt": "2026-11-16T04:29:29Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "88d553aa9fbafdb5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50328859/fantasy-football-aaron-rodgers-career-points-scoring",
+      "title": "Aaron Rodgers makes fantasy football history, now No. 2 on all-time scoring list",
+      "summary": "With Aaron Rodgers' score on Sunday, he reaches another fantasy football accolade in his HOF-worthy career.",
+      "publishedAt": "2026-11-16T04:27:04Z",
+      "teamIds": []
+    },
     {
       "id": "f67aa3eeb1c4f325",
       "source": "espn",
@@ -38,7 +105,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50498040/raiders-fernando-mendoza-vows-learn-first-nfl-start",
       "title": "Raiders' Fernando Mendoza vows to learn from first NFL start, a loss to Seahawks",
-      "summary": "Fernando Mendoza completed 17-of-29 passes for 143 yards and had a passer rating of 71.5 in his first regular-season start for the Raiders.",
+      "summary": "Fernando Mendoza completed 17 of 29 passes for 143 yards and had a passer rating of 71.5 in his first regular-season start for the Raiders.",
       "publishedAt": "2026-11-16T03:28:09Z",
       "teamIds": [
         "13"
@@ -322,6 +389,15 @@
         "4",
         "23"
       ]
+    },
+    {
+      "id": "dd8e79ef051dd6d3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
+      "title": "Ja'Marr Chase steps into 'SNF' in style, leads NFL Week 10 arrivals",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-16T00:42:37Z",
+      "teamIds": []
     },
     {
       "id": "e7a5b97fad292f62",
@@ -815,7 +891,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 10's leading scorers through Sunday's 4 p.m. ET games",
+      "title": "Fantasy buzz: Week 10's leading scorers through Sunday Night Football",
       "summary": "Kansas City rookie Emmett Johnson stepped in for Kenneth Walker III and was one of the top fantasy scorers of Week 10.",
       "publishedAt": "2026-11-15T21:59:33Z",
       "teamIds": []
@@ -1605,80 +1681,6 @@
       "publishedAt": "2026-11-15T18:19:12Z",
       "teamIds": [
         "30"
-      ]
-    },
-    {
-      "id": "a759cc04bb8e7bcf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-moves-past-peyton-manning-for-most-tds-in-first-10-seasons",
-      "title": "Patrick Mahomes moves past Peyton Manning for most TDs in first 10 seasons",
-      "summary": "Patrick Mahomes has accomplished another career milestone, giving the Chiefs an early lead in the process.",
-      "publishedAt": "2026-11-15T18:17:48Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "cdf1af5e037dba76",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-picks-hub-expert-selections-best-bets-teasers-survivor",
-      "title": "NFL Week 10 expert picks, odds, best bets, teasers, predictions, survivor picks and more",
-      "summary": "CBSSports.com and SportsLine break down every single NFL game in Week 10",
-      "publishedAt": "2026-11-15T18:01:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ac2af002e7a8f1b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
-      "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
-      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 10.",
-      "publishedAt": "2026-11-15T17:49:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "6289d0a56186bb51",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873053",
-      "title": "St. Brown and Gibbs score 2 TDs each in Lions' 35-10 rout over Patriots after Maye injured in Munich",
-      "summary": "Amon-Ra St. Brown wore lederhosen, carried a German flag onto the field, and then went out and scored two touchdowns.",
-      "publishedAt": "2026-11-15T17:48:41Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "3c0723ee8291801b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch",
-      "title": "Bengals vs. Steelers prediction: First place in AFC North up for grabs in rivalry battle on 'SNF'",
-      "summary": "Pittsburgh won the first matchup between the two teams back in Week 3. Plus, how to watch, what to know, and a prediction",
-      "publishedAt": "2026-11-15T17:48:31Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "0738cad23c3ca3fe",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50490428/how-one-phil-collins-song-changed-air-nfl-forever",
-      "title": "How one Phil Collins song changed the 'Air' in the NFL forever",
-      "summary": "Phil Collins iconic song “In the Air Tonight” blasts through NFL stadiums and players’ headphones on a weekly basis. As Collins is enshrined in the Hall of Fame, players around the league react to what that song means to them.",
-      "publishedAt": "2026-11-15T17:40:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "726ab846fe21a9dd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-leads-the-way-as-lions-blow-past-patriots-in-germany",
-      "title": "Jahmyr Gibbs leads the way as Lions blow past Patriots in Germany",
-      "summary": "Patriots quarterback Drake Maye got injured on the first possession, and New England wasn't competitive after that.",
-      "publishedAt": "2026-11-15T17:35:55Z",
-      "teamIds": [
-        "8",
-        "17"
       ]
     }
   ]
