@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T03:47:23Z",
+  "updatedAt": "2026-11-17T04:38:38Z",
   "items": [
+    {
+      "id": "70b382ade4976018",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-run-past-ravens-23-20-for-first-win-of-2026",
+      "title": "Monday Night Football: Chargers run past Ravens 23-20 for first win of 2026",
+      "summary": "The Chargers outrushed the Ravens 160 to 16.",
+      "publishedAt": "2026-11-17T04:33:22Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "ebeb2ae21db23a0b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873065",
+      "title": "Chargers bully the Ravens at the line of scrimmage and earn their first win of the season, 23-20",
+      "summary": "Justin Herbert and Omarion Hampton ran for first-half touchdowns, and the Los Angeles Chargers earned their first win of the season, manhandling Baltimore at the line of scrimmage in a 23-20 victory over the Ravens on Monday night.",
+      "publishedAt": "2026-11-17T04:32:47Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "eb27ebbec86cfcf7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50507744/chargers-stun-ravens-pick-first-win-mnf",
+      "title": "Chargers stun Ravens, pick up first win on MNF",
+      "summary": null,
+      "publishedAt": "2026-11-17T04:24:23Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "813cc2d019e7a6b3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henrys-second-td-has-ravens-back-within-a-fg",
+      "title": "Derrick Henry's second TD has Ravens back within a FG",
+      "summary": "Derrick Henry has 10 carries for 10 yards, but he has two touchdowns.",
+      "publishedAt": "2026-11-17T03:57:30Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "8cc53c0f7e10bab9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rex-ryan-politicks-for-job-with-cowboys",
+      "title": "Rex Ryan politicks for job with Cowboys",
+      "summary": "Rex Ryan is plenty of things.",
+      "publishedAt": "2026-11-17T03:56:25Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "6a36899ac63627a1",
       "source": "espn",
@@ -1604,55 +1662,6 @@
         "4",
         "23"
       ]
-    },
-    {
-      "id": "4157e7d132dd4599",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50499348/how-emmett-johnson-proved-handle-bigger-workload-fantasy-week-10",
-      "title": "How Emmett Johnson proved he could handle a bigger workload in fantasy Week 10",
-      "summary": null,
-      "publishedAt": "2026-11-16T07:34:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "7299df5f3d0ff40c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50499235/bengals-joe-burrow-4-touchdowns-win-vs-steelers-puts-company-tom-brady-peyton-manning",
-      "title": "Joe Burrow's 4-TD night puts QB in company of Tom Brady, Peyton Manning",
-      "summary": "Bengals QB Joe Burrow threw for 409 yards with four touchdowns and no interceptions Sunday night, becoming just the third player in NFL history after Tom Brady and Peyton Manning to throw at least 20 passing touchdowns in a five-game span.",
-      "publishedAt": "2026-11-16T07:30:39Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "44f8e60c1799d92a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50499358/will-jonathan-taylor-seth-mcgowan-continue-one-two-punch-fantasy",
-      "title": "Will Jonathan Taylor and Seth McGowan continue as a one-two punch in fantasy?",
-      "summary": null,
-      "publishedAt": "2026-11-16T07:28:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "d77d4853b15a1846",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49907062/aaron-rodgers-2026-nfl-season-steelers-packers-jets-tracking-records-milestones",
-      "title": "Aaron Rodgers' 2026 NFL season: Tracking records, milestones",
-      "summary": "The Pittsburgh passer is chasing records in his 22nd NFL season, and ESPN is chronicling his \"last rodeo.\"",
-      "publishedAt": "2026-11-16T06:36:54Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "caf18db762ca52a7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50498782/big-offensive-plays-highlight-top-nfl-plays-week-10",
-      "title": "Big-time offensive plays highlight top NFL plays of Week 10",
-      "summary": null,
-      "publishedAt": "2026-11-16T05:38:34Z",
-      "teamIds": []
     }
   ]
 }
