@@ -1,7 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T12:47:23Z",
+  "updatedAt": "2026-11-17T13:47:22Z",
   "items": [
+    {
+      "id": "870c8c4e2f608858",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-im-not-telling-players-to-stop-celebrating-because-of-aidan-hutchinsons-injury",
+      "title": "Dan Campbell: I'm not telling players to stop celebrating because of Aidan Hutchinson's injury",
+      "summary": "Hutchinson tore his ACL while celebrating a sack.",
+      "publishedAt": "2026-11-17T13:41:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "9e8b3d29e9641588",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-coaching-hot-seat-rankings-cowboys-brian-schottenheimer",
+      "title": "NFL coaching hot-seat rankings: Cowboys' Brian Schottenheimer feeling even more heat",
+      "summary": "Schottenheimer, Shane Steichen and Jim Harbaugh face mounting pressure entering Week 11, while Aaron Glenn's seat is scorching",
+      "publishedAt": "2026-11-17T13:04:54Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "ac7f99382fd7e5c4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-results-brock-purdy-mvp-john-harbaugh",
+      "title": "Six lessons learned from Week 10: Brock Purdy belongs in MVP race, John Harbaugh makes more poor decisions",
+      "summary": "Purdy is playing elite football for the NFC-leading 49ers, and we revisit a genius play by the Seahawks",
+      "publishedAt": "2026-11-17T13:04:27Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "012d33997c7c9a77",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-picks-score-predictions-49ers-vikings-mexico",
+      "title": "NFL Week 11 picks and score predictions: 49ers win thriller Mexico City thriller, Bengals stay hot",
+      "summary": "We pick every Week 11 game as Joe Burrow draws an inviting matchup, the 49ers battle the Vikings in Mexico City",
+      "publishedAt": "2026-11-17T12:52:43Z",
+      "teamIds": [
+        "4",
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "2b8a951e3599a174",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-starting-quarterback-rankings-joe-burrow-josh-allen",
+      "title": "Ranking all 50 NFL quarterbacks to start in 2026: Joe Burrow in a class all by himself",
+      "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standar",
+      "publishedAt": "2026-11-17T12:25:14Z",
+      "teamIds": []
+    },
     {
       "id": "33f051bb9d8321a5",
       "source": "espn",
@@ -436,6 +490,18 @@
       "publishedAt": "2026-11-17T00:38:43Z",
       "teamIds": [
         "20"
+      ]
+    },
+    {
+      "id": "946feb90d179704d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-vs-chargers-how-to-watch-spread-odds-preview-prediction",
+      "title": "Ravens vs. Chargers prediction: Can L.A. get its first win on 'MNF' against the injury-plagued Ravens?",
+      "summary": "Plus, how to watch, odds, a preview and a prediction for the Monday night matchup",
+      "publishedAt": "2026-11-17T00:28:13Z",
+      "teamIds": [
+        "33",
+        "24"
       ]
     },
     {
@@ -1041,7 +1107,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Baltimore's Henry has confusing night, Chargers win first game",
+      "title": "Fantasy buzz: Henry has confusing night, Hampton breaks through",
       "summary": "Week 10 closes with Chargers winning their first game as Baltimore's offense adjusts to new QB.",
       "publishedAt": "2026-11-16T17:58:09Z",
       "teamIds": [
@@ -1584,77 +1650,6 @@
       "publishedAt": "2026-11-16T13:55:09Z",
       "teamIds": [
         "6"
-      ]
-    },
-    {
-      "id": "e108f0f78405af5f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50501221/drake-maye-injury-likely-season-ending",
-      "title": "Adam Schefter: Drake Maye's injury is likely season-ending",
-      "summary": null,
-      "publishedAt": "2026-11-16T13:49:47Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "4c432c961fa72eba",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drake-maye-injury-update-patriots-qb-ankle-out-for-season",
-      "title": "Drake Maye injury update: Patriots reportedly fear QB fractured ankle, could miss rest of season",
-      "summary": "Maye remained in Germany for additional testing after injuring his ankle against the Lions",
-      "publishedAt": "2026-11-16T13:37:58Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "8be684753a383483",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-hunter-now-has-two-games-with-a-catch-and-an-interception-deion-sanders-had-nine",
-      "title": "Travis Hunter now has two games with a catch and an interception. Deion Sanders had nine.",
-      "summary": "Jaguars cornerback Travis Hunter intercepted a pass on Sunday against the Titans, and doing his part-time job as a wide receiver, he also caught two passes.",
-      "publishedAt": "2026-11-16T13:28:14Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "95680d1544df96a9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-week-11-early-odds-bills-chiefs-bengals",
-      "title": "NFL Week 11 early odds: Bills, Chiefs favored by 16.5 points; Bengals line jumps after blowout",
-      "summary": "Buffalo and Kansas City are each favored by 16.5 points as four teams enter Week 11 laying double digits",
-      "publishedAt": "2026-11-16T12:49:02Z",
-      "teamIds": [
-        "2",
-        "4",
-        "12"
-      ]
-    },
-    {
-      "id": "4a335f356731e2cb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs-first-round-picks-week-11",
-      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams entering Week 11",
-      "summary": "The Chargers lead the race for the first overall pick, but the Jets possess the draft capital that could define the opening round",
-      "publishedAt": "2026-11-16T12:31:30Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "853d151c20394f93",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-team-doctor-ok-after-getting-hit-in-the-face-by-a-fernando-mendoza-pass",
-      "title": "Seahawks' team doctor OK after getting hit in the face by a Fernando Mendoza pass",
-      "summary": "Seahawks team physician Dr.",
-      "publishedAt": "2026-11-16T12:30:13Z",
-      "teamIds": [
-        "26"
       ]
     }
   ]
