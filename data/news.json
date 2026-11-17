@@ -1,7 +1,102 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T14:37:35Z",
+  "updatedAt": "2026-11-17T15:47:25Z",
   "items": [
+    {
+      "id": "7b62c6ba97e23160",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50511280/cowboys-discussing-new-role-dc-parker-jones-says",
+      "title": "Cowboys discussing new role for DC Parker, Jones says",
+      "summary": "The Cowboys are discussing the possibility of changing Christian Parker's role and responsibilities as defensive coordinator, owner and general manager Jerry Jones said.",
+      "publishedAt": "2026-11-17T15:44:49Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "02c81c7b35b6a264",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cleveland-browns-nfl-playoffs-2026-deshaun-watson",
+      "title": "Believeland? Why the 6-4 Browns are on track to make the NFL playoffs despite troubling numbers",
+      "summary": "Cleveland is 6-4 despite a negative point differential, with Deshaun Watson delivering six game-winning drives and a resilient defense",
+      "publishedAt": "2026-11-17T15:17:39Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "8633b5fe6c38b64b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-on-emmett-johnson-my-hat-goes-off-to-him",
+      "title": "Andy Reid on Emmett Johnson: My hat goes off to him",
+      "summary": "When running back Kenneth Walker suffered a groin injury late in the practice week, it thrust rookie Emmett Johnson into a starting role for the Week 10 matchup with the Falcons.",
+      "publishedAt": "2026-11-17T15:08:23Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "c77daa7e48532354",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49742016/2026-win-rates-team-player-rankings-pass-rush-run-stop-blocking",
+      "title": "2026 NFL pass rush, run stop, blocking win rate rankings",
+      "summary": "Our win rate metrics stack the NFL's top teams and players in run blocking, run stopping, pass protection and pass rushing.",
+      "publishedAt": "2026-11-17T15:07:50Z",
+      "teamIds": []
+    },
+    {
+      "id": "80b2b63bdd4222b3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-kerby-joseph-set-to-return-week-11-buccaneers",
+      "title": "Lions set to get key defensive player back in Week 11 in wake of Aidan Hutchinson injury",
+      "summary": "Safety Kerby Joseph has missed the entire season with a knee injury sustained last year, but he is set to return to the lineup this week",
+      "publishedAt": "2026-11-17T15:04:43Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "5dc2e5444fcce495",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-christian-parkers-status-were-talking-about-that",
+      "title": "Jerry Jones on Christian Parker's status: We're talking about that",
+      "summary": "Cowboys defensive coordinator Christian Parker failed to get a vote of confidence from head coach Brian Schottenheimer on Monday and he didn't get one from Cowboys owner Jerry Jones on Tuesday either.",
+      "publishedAt": "2026-11-17T14:59:56Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "4c82bfa0217fb26f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/derrick-henry-ravens-rushing-stats-lamar-jackson-injury",
+      "title": "Why Derrick Henry and Ravens' rushing attack have collapsed without Lamar Jackson",
+      "summary": "Henry scored twice but managed only 10 yards as Baltimore's ground game hit a historic low in its fifth consecutive loss",
+      "publishedAt": "2026-11-17T14:56:54Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "87cfbb625c96f95e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-10-weeks-the-afc-playoff-field-is-basically-set",
+      "title": "Through 10 weeks, the AFC playoff field is basically set",
+      "summary": "The 2021 expansion of the regular season to 17 games has given the bad teams more time to separate from the good teams.",
+      "publishedAt": "2026-11-17T14:55:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "79bb47be689a31d3",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50510870/right-now-disgracing-ravens-standards",
+      "title": "Kyle Hamilton: Right now, we're disgracing Ravens' standards",
+      "summary": null,
+      "publishedAt": "2026-11-17T14:44:45Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "929feb81183e4d90",
       "source": "espn",
@@ -120,7 +215,7 @@
       "id": "2b8a951e3599a174",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/2026-nfl-starting-quarterback-rankings-joe-burrow-josh-allen",
-      "title": "Ranking all 50 NFL quarterbacks to start in 2026: Joe Burrow in a class all by himself",
+      "title": "Ranking the 50 QBs who have started an NFL game in 2026: From cellar-dwellers to gold standard",
       "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standar",
       "publishedAt": "2026-11-17T12:25:14Z",
       "teamIds": []
@@ -1551,103 +1646,6 @@
       "title": "Chargers-Ravens odds, best bets: Tips, analysis and our favorite plays",
       "summary": "Odds, analysis and recommended plays to help you bet the Chargers-Ravens matchup on Monday night.",
       "publishedAt": "2026-11-16T15:00:40Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "211905cfa8f04701",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aidan-hutchinson-is-out-for-the-season-with-torn-acl-likely-additional-damage",
-      "title": "Report: Aidan Hutchinson is out for the season with torn ACL, likely additional damage",
-      "summary": "Hutchinson suffered the season-ending injury while celebrating a sack of Drake Maye, who was also injured.",
-      "publishedAt": "2026-11-16T14:55:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "d3f767ff152f4a31",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-becomes-the-mvp-favorite",
-      "title": "Joe Burrow becomes the MVP favorite",
-      "summary": "Bengals quarterback Joe Burrow is having a potentially historic season.",
-      "publishedAt": "2026-11-16T14:52:20Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "3f78c32a9d86f4f1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-should-be-good-to-go-next-week",
-      "title": "Brock Bowers \"should be good to go next week\"",
-      "summary": "Raiders tight end Brock Bowers was limited to 11 snaps on Sunday, due to an ankle injury that knocked him out of the game against the Seahawks.",
-      "publishedAt": "2026-11-16T14:24:55Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "fa62351745217280",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-results-cover-32-2026-mvp",
-      "title": "Cover 32: Two NFL awards already in the bag, plus game balls, biggest gaffes from Week 10",
-      "summary": "Tyler Sullivan dives into all of the biggest items from Week 10 in the NFL, including a historic day from Jahmyr Gibbs and statement return to Minnesota for Kirk Cousins",
-      "publishedAt": "2026-11-16T14:23:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "282322f815fc5a72",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-chargers-ravens-mnf",
-      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Chargers-Ravens, MNF",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-16T14:13:30Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "4ccbe9eeccb42073",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/ravens-vs-chargers-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
-      "title": "Ravens vs. Chargers odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Chargers vs. Ravens on Monday Night Football",
-      "publishedAt": "2026-11-16T14:11:46Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "54c59eac5ba12b8d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/joe-burrow-strengthens-mvp-case-with-four-more-tds-college-football-rankings-projections",
-      "title": "Joe Burrow strengthens MVP case with four more TDs; college football rankings projections",
-      "summary": "Plus why Kayla Harrison should retire after UFC 334",
-      "publishedAt": "2026-11-16T14:08:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "346394120a095537",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50501291/sources-aidan-hutchinson-season-torn-acl",
-      "title": "Sources: Lions' Aidan Hutchinson out for season with knee injury",
-      "summary": "Lions star Aidan Hutchinson is out for the season with what tests showed to be a torn ACL in his right knee, sources told NFL Network.",
-      "publishedAt": "2026-11-16T14:05:43Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "5db376f6ed1ed046",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/chargers-vs-ravens-odds-first-touchdown-scorer-picks-nfl-predictions-for-monday-night-football-week-10",
-      "title": "Chargers vs. Ravens odds: First touchdown scorer picks, NFL predictions for Monday Night Football Week 10",
-      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Chargers and Ravens to end Week 10",
-      "publishedAt": "2026-11-16T14:00:47Z",
       "teamIds": [
         "33",
         "24"
