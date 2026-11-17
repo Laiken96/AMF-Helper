@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-17T20:47:22Z",
+  "updatedAt": "2026-11-17T21:47:22Z",
   "games": [
     {
       "gameId": "401873079",
@@ -16,22 +16,22 @@
       "locked": true
     },
     {
-      "gameId": "401873080",
-      "kickoffUtc": "2026-11-26T21:30:00Z",
-      "homeId": "6",
-      "awayId": "21",
-      "pHome": 0.788,
-      "pAway": 0.21,
-      "fetchedAt": "2026-11-17T07:47:17Z",
-      "locked": true
-    },
-    {
       "gameId": "401873081",
       "kickoffUtc": "2026-11-26T18:00:00Z",
       "homeId": "8",
       "awayId": "3",
       "pHome": 0.507,
       "pAway": 0.489,
+      "fetchedAt": "2026-11-17T07:47:17Z",
+      "locked": true
+    },
+    {
+      "gameId": "401873080",
+      "kickoffUtc": "2026-11-26T21:30:00Z",
+      "homeId": "6",
+      "awayId": "21",
+      "pHome": 0.788,
+      "pAway": 0.21,
       "fetchedAt": "2026-11-17T07:47:17Z",
       "locked": true
     },
@@ -76,16 +76,6 @@
       "locked": true
     },
     {
-      "gameId": "401873086",
-      "kickoffUtc": "2026-11-30T01:20:00Z",
-      "homeId": "5",
-      "awayId": "13",
-      "pHome": 0.643,
-      "pAway": 0.354,
-      "fetchedAt": "2026-11-17T07:47:17Z",
-      "locked": true
-    },
-    {
       "gameId": "401873087",
       "kickoffUtc": "2026-11-29T18:00:00Z",
       "homeId": "4",
@@ -126,6 +116,16 @@
       "locked": true
     },
     {
+      "gameId": "401873093",
+      "kickoffUtc": "2026-11-29T21:05:00Z",
+      "homeId": "24",
+      "awayId": "17",
+      "pHome": 0.642,
+      "pAway": 0.355,
+      "fetchedAt": "2026-11-17T07:47:17Z",
+      "locked": true
+    },
+    {
       "gameId": "401873091",
       "kickoffUtc": "2026-11-29T21:25:00Z",
       "homeId": "25",
@@ -146,12 +146,12 @@
       "locked": true
     },
     {
-      "gameId": "401873093",
-      "kickoffUtc": "2026-11-29T21:05:00Z",
-      "homeId": "24",
-      "awayId": "17",
-      "pHome": 0.642,
-      "pAway": 0.355,
+      "gameId": "401873086",
+      "kickoffUtc": "2026-11-30T01:20:00Z",
+      "homeId": "5",
+      "awayId": "13",
+      "pHome": 0.643,
+      "pAway": 0.354,
       "fetchedAt": "2026-11-17T07:47:17Z",
       "locked": true
     },

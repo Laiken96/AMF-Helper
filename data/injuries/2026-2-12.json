@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "baselineFrom": "1993-01-28T05:00:00Z",
+  "baselineFrom": "2026-11-25T05:00:00Z",
   "baseline": {
     "takenAt": "2026-11-17T20:47:22Z",
     "games": [
@@ -1174,11 +1174,11 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-17T20:47:22Z",
+    "takenAt": "2026-11-17T21:47:22Z",
     "games": [
       {
         "gameId": "401873079",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-26T01:00:00Z",
         "players": [
           {
             "athleteId": "4036378",
@@ -1251,82 +1251,8 @@
         ]
       },
       {
-        "gameId": "401873080",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
-        "players": [
-          {
-            "athleteId": "2577417",
-            "name": "Dak Prescott",
-            "pos": "QB",
-            "teamId": "6",
-            "teamAbbr": "DAL",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4241389",
-            "name": "CeeDee Lamb",
-            "pos": "WR",
-            "teamId": "6",
-            "teamAbbr": "DAL",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4361579",
-            "name": "Javonte Williams",
-            "pos": "RB",
-            "teamId": "6",
-            "teamAbbr": "DAL",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "3929630",
-            "name": "Saquon Barkley",
-            "pos": "RB",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4040715",
-            "name": "Jalen Hurts",
-            "pos": "QB",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4870795",
-            "name": "Makai Lemon",
-            "pos": "WR",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          }
-        ]
-      },
-      {
         "gameId": "401873081",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-26T18:00:00Z",
         "players": [
           {
             "athleteId": "4259545",
@@ -1399,8 +1325,82 @@
         ]
       },
       {
+        "gameId": "401873080",
+        "kickoffUtc": "2026-11-26T21:30:00Z",
+        "players": [
+          {
+            "athleteId": "2577417",
+            "name": "Dak Prescott",
+            "pos": "QB",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4241389",
+            "name": "CeeDee Lamb",
+            "pos": "WR",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4361579",
+            "name": "Javonte Williams",
+            "pos": "RB",
+            "teamId": "6",
+            "teamAbbr": "DAL",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3929630",
+            "name": "Saquon Barkley",
+            "pos": "RB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4040715",
+            "name": "Jalen Hurts",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4870795",
+            "name": "Makai Lemon",
+            "pos": "WR",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
         "gameId": "401873082",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-27T01:20:00Z",
         "players": [
           {
             "athleteId": "3918298",
@@ -1474,7 +1474,7 @@
       },
       {
         "gameId": "401873083",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-27T20:00:00Z",
         "players": [
           {
             "athleteId": "4241985",
@@ -1548,7 +1548,7 @@
       },
       {
         "gameId": "401873084",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T18:00:00Z",
         "players": [
           {
             "athleteId": "4360423",
@@ -1622,7 +1622,7 @@
       },
       {
         "gameId": "401873085",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T18:00:00Z",
         "players": [
           {
             "athleteId": "3043078",
@@ -1695,82 +1695,8 @@
         ]
       },
       {
-        "gameId": "401873086",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
-        "players": [
-          {
-            "athleteId": "3122840",
-            "name": "Deshaun Watson",
-            "pos": "QB",
-            "teamId": "5",
-            "teamAbbr": "CLE",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685702",
-            "name": "Quinshon Judkins",
-            "pos": "RB",
-            "teamId": "5",
-            "teamAbbr": "CLE",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "5083076",
-            "name": "Harold Fannin Jr.",
-            "pos": "TE",
-            "teamId": "5",
-            "teamAbbr": "CLE",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4432665",
-            "name": "Brock Bowers",
-            "pos": "TE",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "receiving"
-            ],
-            "status": "Questionable"
-          },
-          {
-            "athleteId": "4837248",
-            "name": "Fernando Mendoza",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4890973",
-            "name": "Ashton Jeanty",
-            "pos": "RB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          }
-        ]
-      },
-      {
         "gameId": "401873087",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T18:00:00Z",
         "players": [
           {
             "athleteId": "3915511",
@@ -1834,7 +1760,7 @@
       },
       {
         "gameId": "401873088",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T18:00:00Z",
         "players": [
           {
             "athleteId": "3917792",
@@ -1908,7 +1834,7 @@
       },
       {
         "gameId": "401873089",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T18:00:00Z",
         "players": [
           {
             "athleteId": "4242512",
@@ -1982,7 +1908,7 @@
       },
       {
         "gameId": "401873090",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T18:00:00Z",
         "players": [
           {
             "athleteId": "4360310",
@@ -2055,8 +1981,82 @@
         ]
       },
       {
+        "gameId": "401873093",
+        "kickoffUtc": "2026-11-29T21:05:00Z",
+        "players": [
+          {
+            "athleteId": "4038941",
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685382",
+            "name": "Omarion Hampton",
+            "pos": "RB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4686612",
+            "name": "Tre' Harris",
+            "pos": "WR",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4427095",
+            "name": "DeMario Douglas",
+            "pos": "WR",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431452",
+            "name": "Drake Maye",
+            "pos": "QB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": "Doubtful"
+          },
+          {
+            "athleteId": "4569173",
+            "name": "Rhamondre Stevenson",
+            "pos": "RB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
         "gameId": "401873091",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T21:25:00Z",
         "players": [
           {
             "athleteId": "3912547",
@@ -2130,7 +2130,7 @@
       },
       {
         "gameId": "401873092",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-11-29T21:25:00Z",
         "players": [
           {
             "athleteId": "4038524",
@@ -2193,15 +2193,15 @@
         ]
       },
       {
-        "gameId": "401873093",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "gameId": "401873086",
+        "kickoffUtc": "2026-11-30T01:20:00Z",
         "players": [
           {
-            "athleteId": "4038941",
-            "name": "Justin Herbert",
+            "athleteId": "3122840",
+            "name": "Deshaun Watson",
             "pos": "QB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
+            "teamId": "5",
+            "teamAbbr": "CLE",
             "roles": [
               "qb",
               "passing"
@@ -2209,56 +2209,56 @@
             "status": null
           },
           {
-            "athleteId": "4685382",
-            "name": "Omarion Hampton",
+            "athleteId": "4685702",
+            "name": "Quinshon Judkins",
             "pos": "RB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
+            "teamId": "5",
+            "teamAbbr": "CLE",
             "roles": [
               "rushing"
             ],
             "status": null
           },
           {
-            "athleteId": "4686612",
-            "name": "Tre' Harris",
-            "pos": "WR",
-            "teamId": "24",
-            "teamAbbr": "LAC",
+            "athleteId": "5083076",
+            "name": "Harold Fannin Jr.",
+            "pos": "TE",
+            "teamId": "5",
+            "teamAbbr": "CLE",
             "roles": [
               "receiving"
             ],
             "status": null
           },
           {
-            "athleteId": "4427095",
-            "name": "DeMario Douglas",
-            "pos": "WR",
-            "teamId": "17",
-            "teamAbbr": "NE",
+            "athleteId": "4432665",
+            "name": "Brock Bowers",
+            "pos": "TE",
+            "teamId": "13",
+            "teamAbbr": "LV",
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
-            "athleteId": "4431452",
-            "name": "Drake Maye",
+            "athleteId": "4837248",
+            "name": "Fernando Mendoza",
             "pos": "QB",
-            "teamId": "17",
-            "teamAbbr": "NE",
+            "teamId": "13",
+            "teamAbbr": "LV",
             "roles": [
               "qb",
               "passing"
             ],
-            "status": "Doubtful"
+            "status": null
           },
           {
-            "athleteId": "4569173",
-            "name": "Rhamondre Stevenson",
+            "athleteId": "4890973",
+            "name": "Ashton Jeanty",
             "pos": "RB",
-            "teamId": "17",
-            "teamAbbr": "NE",
+            "teamId": "13",
+            "teamAbbr": "LV",
             "roles": [
               "rushing"
             ],
@@ -2268,7 +2268,7 @@
       },
       {
         "gameId": "401873094",
-        "kickoffUtc": "1993-01-31T23:30:00Z",
+        "kickoffUtc": "2026-12-01T01:15:00Z",
         "players": [
           {
             "athleteId": "4241416",
