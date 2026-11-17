@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T23:47:20Z",
+  "updatedAt": "2026-11-17T00:47:18Z",
   "items": [
+    {
+      "id": "7f89e7158047b737",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
+      "title": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
+      "summary": "Imaging tests performed on Jets quarterback Geno Smith's injured left ankle did not reveal any major concerns, sources said Monday.",
+      "publishedAt": "2026-11-17T00:38:43Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "146182c0bdeecc45",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
+      "title": "Chargers vs. Ravens odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Chargers vs. Ravens on Monday Night Football",
+      "publishedAt": "2026-11-17T00:04:30Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "89d61fd380fe0985",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-no-surprises-among-chargers-ravens-inactives",
+      "title": "Monday Night Football: No surprises among Chargers-Ravens inactives",
+      "summary": "The Chargers will officially see the return of tight end David Njoku and linebacker Denzel Perryman.",
+      "publishedAt": "2026-11-16T23:58:50Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "dd8e79ef051dd6d3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
+      "title": "Kyle Hamilton rocks Christmas sweater ahead of 'MNF,' leads NFL Week 10 arrivals",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-16T23:53:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "9eb8e29c2c9882c8",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-nfl-week-10-first-touchdown-scorer-picks-nfl-predictions-for-monday-night-football",
+      "title": "Chargers vs. Ravens odds: NFL Week 10 first touchdown scorer picks, NFL predictions for Monday Night Football",
+      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Chargers and Ravens to end Week 10",
+      "publishedAt": "2026-11-16T23:50:42Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "6cb3c63b242f15b0",
       "source": "espn",
@@ -1593,61 +1649,6 @@
       "teamIds": [
         "13"
       ]
-    },
-    {
-      "id": "df128a9c94800505",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/49466506/nfl-betting-buzz-odds-updates-line-moves-spreads",
-      "title": "Betting buzz: How improbable is this Browns season? Here's what the numbers say",
-      "summary": "Only 10 games into the season, the Cleveland Browns have already hit the over on their preseason win total, and that's just one of several notable numbers surrounding this team.",
-      "publishedAt": "2026-11-16T03:17:37Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "b78776234551572d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-torching-steelers-bengals-lead-24-3-at-halftime",
-      "title": "Sunday Night Football: Joe Burrow torching Steelers, Bengals lead 24-3 at halftime",
-      "summary": "Burrow threw for 302 yards and three touchdowns in the first half.",
-      "publishedAt": "2026-11-16T03:03:42Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "bb42b971a7d5caa6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-49ers-fans-were-more-present-than-ours",
-      "title": "Dak Prescott: 49ers fans \"were more present than ours\"",
-      "summary": "On Sunday, America's Team wasn't even Dallas's Team. 49ers fans showed up in big numbers for the game against the Cowboys at AT&T Stadium.",
-      "publishedAt": "2026-11-16T02:58:32Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "d7a5aad07a1eeacb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50043976/jacksonville-jaguars-travis-hunter-stats-snaps-tracker",
-      "title": "Tracking Jaguars CB/WR Travis Hunter's 2026 season: Snaps on offense, defense",
-      "summary": "Every week, we will look at how many snaps the two-way corner/receiver plays on offense and defense. Is there a trend in his usage?",
-      "publishedAt": "2026-11-16T02:52:49Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "468c5307b9495142",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463347/2026-nfl-playoffs-chances-odds-tiers-32-teams-nfc-afc",
-      "title": "NFL playoff chance tiers: Where all 32 teams fit in 2026 postseason picture",
-      "summary": "We placed all 32 NFL teams into tiers based on their likelihood of making the playoffs, from Super Bowl favorites to the top-draft-pick candidates.",
-      "publishedAt": "2026-11-16T02:48:13Z",
-      "teamIds": []
     }
   ]
 }

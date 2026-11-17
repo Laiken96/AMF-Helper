@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-16T21:47:15Z",
+    "takenAt": "2026-11-17T00:47:17Z",
     "games": [
       {
         "gameId": "401873066",
@@ -181,18 +181,18 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
-            "athleteId": "4035671",
-            "name": "Tyler Huntley",
+            "athleteId": "4428512",
+            "name": "Kedon Slovis",
             "pos": "QB",
             "teamId": "33",
             "teamAbbr": "BAL",
             "roles": [
               "qb"
             ],
-            "status": "Injured Reserve"
+            "status": "Out"
           },
           {
             "athleteId": "4429615",
