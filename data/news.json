@@ -1,7 +1,148 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T17:47:34Z",
+  "updatedAt": "2026-11-17T18:47:25Z",
   "items": [
+    {
+      "id": "23c15f803b0376fe",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 11: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-17T18:46:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "5981c1b08209b3c6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
+      "title": "Fantasy football 2026 defensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
+      "publishedAt": "2026-11-17T18:42:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "4594dcf9aa19a0b5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 11: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-17T18:38:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 11: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-17T18:37:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "64ab5603ce63fa91",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 11: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-17T18:36:29Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ad5845f106af302",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
+      "title": "Fantasy football 2026 offensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
+      "publishedAt": "2026-11-17T18:31:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "e6e96b443016f2d0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-contract-values-taxes-2026",
+      "title": "Taxes hurt: Breaking down an NFL player's weekly pay stub and where all the money goes",
+      "summary": "A pay stub included in the Chiefs receiver's bankruptcy filing shows how taxes, garnishments, union dues and an NFL fine can cut earnings in half or worse",
+      "publishedAt": "2026-11-17T18:14:56Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "4acc0ebb409443ad",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cb-nazeeh-johnson-visited-steelers-tuesday",
+      "title": "CB Nazeeh Johnson visited the Steelers Tuesday",
+      "summary": "Cornerback Nazeeh Johnson is trying to find a way back into the NFL.",
+      "publishedAt": "2026-11-17T18:11:04Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "379dfb31b68bfa2b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 11: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-17T18:04:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "92ce5dff7e1a00b3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 11: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-17T18:04:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "85feab4ffaae9dd1",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 11: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-17T18:03:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "70ae9ffb76718140",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 11: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-17T18:03:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "28747fe37d1e7d3a",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
+      "title": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
+      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
+      "publishedAt": "2026-11-17T18:00:20Z",
+      "teamIds": []
+    },
+    {
+      "id": "bfdf2525abe547b7",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
+      "publishedAt": "2026-11-17T17:59:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "0db94b4b91be36a3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/texans-azeez-al-shaair-injury-surgery-ir-2026",
+      "title": "Texans' Azeez Al-Shaair reportedly facing surgery after move to injured reserve",
+      "summary": "Houston's underperforming defense will be without one of its leaders for at least four games as Al-Shaair deals with a significant groin injury",
+      "publishedAt": "2026-11-17T17:44:35Z",
+      "teamIds": [
+        "34"
+      ]
+    },
     {
       "id": "4bb7204fe4146b0d",
       "source": "espn",
@@ -1482,167 +1623,6 @@
       "summary": "As of last month, the UFL had a stadium issue in St.",
       "publishedAt": "2026-11-16T18:22:19Z",
       "teamIds": []
-    },
-    {
-      "id": "868994771d48f750",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-really-optimistic-sam-darnold-will-be-able-to-return-week-12",
-      "title": "Mike Macdonald \"really optimistic\" Sam Darnold will be able to return Week 12",
-      "summary": "The Seahawks are anticipating having Sam Darnold back for their next game.",
-      "publishedAt": "2026-11-16T18:00:34Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Henry has confusing night, Hampton breaks through",
-      "summary": "Week 10 closes with Chargers winning their first game as Baltimore's offense adjusts to new QB.",
-      "publishedAt": "2026-11-16T17:58:09Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "b9262216735b4f09",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drake-maye-injury-latest-patriots-snakebitten-2026-super-bowl-hangover",
-      "title": "Drake Maye injury the latest for Patriots amid snakebitten 2026 Super Bowl hangover",
-      "summary": "From Drake Maye to A.J. Brown, injuries have piled up for New England in 2026",
-      "publishedAt": "2026-11-16T17:55:34Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "ca0239d738661f22",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-rams-embark-on-shortest-possible-bye-weeks",
-      "title": "Packers, Rams embark on shortest possible bye weeks",
-      "summary": "In Week 11, six teams will have a bye.",
-      "publishedAt": "2026-11-16T17:52:56Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "8fb5e6d022662ece",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-drake-maye-i-wouldnt-imagine-him-being-available-out-of-the-bye",
-      "title": "Mike Vrabel on Drake Maye: I wouldn't imagine him being available out of the bye",
-      "summary": "There has been mixed reporting about the status of Drake Maye's ankle injury after the Patriots lost to the Lions in Munich on Sunday.",
-      "publishedAt": "2026-11-16T17:45:08Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "94d2aa2611a059f3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502772/sources-cowboys-rg-booker-cb-bland-high-ankle-sprains",
-      "title": "Sources: Cowboys RG Tyler Booker, CB DaRon Bland have high ankle sprains",
-      "summary": "The Cowboys are looking at multiple week absences for right guard Tyler Booker and cornerback DaRon Bland because of high ankle sprains, sources told ESPN.",
-      "publishedAt": "2026-11-16T17:42:08Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "b9925efdd5082195",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50498566/jaguars-outscoring-opponents-10-weeks",
-      "title": "Jaguars outscoring opponents by 125 points through 10 weeks: Three reasons why",
-      "summary": "Sunday's victory over the Titans was Jacksonville's fifth win by 17 or more points this season -- the most in the NFL.",
-      "publishedAt": "2026-11-16T17:35:23Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "dbe1e477645f6376",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50502301/why-emmett-johnson-see-more-production-later-season",
-      "title": "Why Emmett Johnson could see more production later in season",
-      "summary": null,
-      "publishedAt": "2026-11-16T17:33:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "18650fe2d5d81523",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50502327/is-sam-laporta-starting-fantasy-te-right-now",
-      "title": "Is Sam LaPorta a starting fantasy TE right now?",
-      "summary": null,
-      "publishedAt": "2026-11-16T17:31:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "8a15a7dda5799dfb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lamar-jackson-injuries-lost-years-ravens",
-      "title": "The lost years of Lamar Jackson -- and the greatness still within reach",
-      "summary": "Injuries keep taking pieces of his prime. How much greatness is still ahead? Is this conversation helpful so far?",
-      "publishedAt": "2026-11-16T17:21:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "ba8e0a5fc434c086",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wont-be-leaving-minnesota-for-altitude-acclimation",
-      "title": "Vikings won't be leaving Minnesota for altitude acclimation",
-      "summary": "With quarterback Kirk Cousins back and the Minnesota defense playing at a championship level, the sky is the limit for the Vikings.",
-      "publishedAt": "2026-11-16T17:19:57Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "47fcfb7573cdcfec",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502248/jets-aaron-glenn-ceded-defensive-playcalling-sunday",
-      "title": "Jets Aaron Glenn ceded defensive playcalling to DC Brian Duker on Sunday",
-      "summary": "Amid a prolonged defensive slide, Aaron Glenn handed the playcalling duties Sunday to defensive coordinator Brian Duker, Glenn revealed Monday.",
-      "publishedAt": "2026-11-16T17:13:57Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "fd6cbc551c9dd18a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-add-qb-cooper-rush-to-practice-squad",
-      "title": "Buccaneers add QB Cooper Rush to practice squad",
-      "summary": "Cooper Rush is headed to a different team in the NFC South.",
-      "publishedAt": "2026-11-16T17:09:22Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "18a7d97efedb1cff",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50502491/why-stephen-takes-exception-curt-cignetti-defense-lincoln-riley",
-      "title": "Why Stephen A. takes exception to Curt Cignetti's defense of Lincoln Riley",
-      "summary": null,
-      "publishedAt": "2026-11-16T17:05:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "f844e6e38d144e30",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-aaron-donald-never-ceases-to-amaze-me-hes-one-of-one",
-      "title": "Sean McVay: Aaron Donald never ceases to amaze me, he's one-of-one",
-      "summary": "For the first time in 1,050 days, Rams defensive tackle Aaron Donald recorded a sack when he brought down rookie Carson Beck during the second quarter of Sunday's victory over the Cardinals.",
-      "publishedAt": "2026-11-16T16:59:11Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
     }
   ]
 }

@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-25T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-17T12:47:22Z",
+    "takenAt": "2026-11-17T18:47:22Z",
     "games": [
       {
         "gameId": "401873079",
@@ -118,7 +118,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3046779",
@@ -887,6 +887,80 @@
         ]
       },
       {
+        "gameId": "401873093",
+        "kickoffUtc": "2026-11-29T21:05:00Z",
+        "players": [
+          {
+            "athleteId": "4038941",
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685382",
+            "name": "Omarion Hampton",
+            "pos": "RB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4686612",
+            "name": "Tre' Harris",
+            "pos": "WR",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4427095",
+            "name": "DeMario Douglas",
+            "pos": "WR",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4431452",
+            "name": "Drake Maye",
+            "pos": "QB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": "Doubtful"
+          },
+          {
+            "athleteId": "4569173",
+            "name": "Rhamondre Stevenson",
+            "pos": "RB",
+            "teamId": "17",
+            "teamAbbr": "NE",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          }
+        ]
+      },
+      {
         "gameId": "401873091",
         "kickoffUtc": "2026-11-29T21:25:00Z",
         "players": [
@@ -1018,80 +1092,6 @@
             "roles": [
               "qb",
               "passing",
-              "rushing"
-            ],
-            "status": null
-          }
-        ]
-      },
-      {
-        "gameId": "401873093",
-        "kickoffUtc": "2026-11-30T01:20:00Z",
-        "players": [
-          {
-            "athleteId": "4038941",
-            "name": "Justin Herbert",
-            "pos": "QB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685382",
-            "name": "Omarion Hampton",
-            "pos": "RB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4686612",
-            "name": "Tre' Harris",
-            "pos": "WR",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4427095",
-            "name": "DeMario Douglas",
-            "pos": "WR",
-            "teamId": "17",
-            "teamAbbr": "NE",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4431452",
-            "name": "Drake Maye",
-            "pos": "QB",
-            "teamId": "17",
-            "teamAbbr": "NE",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": "Doubtful"
-          },
-          {
-            "athleteId": "4569173",
-            "name": "Rhamondre Stevenson",
-            "pos": "RB",
-            "teamId": "17",
-            "teamAbbr": "NE",
-            "roles": [
               "rushing"
             ],
             "status": null
