@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T01:47:24Z",
+  "updatedAt": "2026-11-17T02:47:18Z",
   "items": [
+    {
+      "id": "4ec62cef7fc572e3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50506869/rams-coleman-shelton-4-6-weeks-hamstring-injury",
+      "title": "Rams center Coleman Shelton out 4-6 weeks with hamstring injury",
+      "summary": "Coleman Shelton strained his hamstring in the second quarter of the Rams' Week 10 victory over the Cardinals.",
+      "publishedAt": "2026-11-17T02:37:21Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "1ba62bbf68a7ca47",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/von-miller-blames-himself-not-the-play-call-for-christian-mccaffreys-late-td",
+      "title": "Von Miller blames himself, not the play call, for Christian McCaffrey's late TD",
+      "summary": "The Cowboys pulled within 38-32 of the 49ers with 3:42 left in the fourth quarter on Sunday.",
+      "publishedAt": "2026-11-17T02:17:37Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "61178395dfc1bdb0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-draws-ravens-to-within-10-7-of-chargers",
+      "title": "Derrick Henry draws Ravens to within 10-7 of Chargers",
+      "summary": "The Ravens are on the board.",
+      "publishedAt": "2026-11-17T02:13:12Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "25c85dc157c8718e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50505946/mike-mccarthy-pittsburgh-steelers-week-10-blowout-loss",
+      "title": "Mike McCarthy on Steelers' blowout loss: 'Needs to stop there'",
+      "summary": "After a deflating loss at Cincinnati, Pittsburgh now faces a Week 11 gut-check game at the Eagles on Sunday.",
+      "publishedAt": "2026-11-17T01:47:06Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "595319ab0131deb9",
       "source": "pft",
@@ -1609,51 +1655,6 @@
         "4",
         "23"
       ]
-    },
-    {
-      "id": "4ea8397845ccb397",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
-      "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
-      "summary": "We're handing out grades for every team that played in Week 10",
-      "publishedAt": "2026-11-16T04:36:08Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "975d351c0187c8fb",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50498452/burrow-throws-4-tds-bengals-blow-steelers",
-      "title": "Burrow throws 4 TDs as Bengals blow out Steelers",
-      "summary": "Burrow throws 4 TDs as Bengals blow out Steelers 38-18",
-      "publishedAt": "2026-11-16T04:30:53Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "a6d14eea6ee5744a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-jamarr-chase-torch-steelers-in-38-18-bengals-victory",
-      "title": "Sunday Night Football: Joe Burrow, Ja'Marr Chase torch Steelers in 38-18 Bengals victory",
-      "summary": "Burrow threw for 409 yards and four TDs while Chase caught 11 passes for 231 yards.",
-      "publishedAt": "2026-11-16T04:29:29Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "88d553aa9fbafdb5",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50328859/fantasy-football-aaron-rodgers-career-points-scoring",
-      "title": "Aaron Rodgers makes fantasy football history, now No. 2 on all-time scoring list",
-      "summary": "With Aaron Rodgers' score on Sunday, he reaches another fantasy football accolade in his HOF-worthy career.",
-      "publishedAt": "2026-11-16T04:27:04Z",
-      "teamIds": []
     }
   ]
 }
