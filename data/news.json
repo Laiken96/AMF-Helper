@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T07:47:18Z",
+  "updatedAt": "2026-11-17T09:47:21Z",
   "items": [
+    {
+      "id": "46bc8e5b18c4e6fc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-on-10-carries-for-10-yards-i-dont-have-an-answer-just-not-good-enough",
+      "title": "Derrick Henry on 10 carries for 10 yards: I don't have an answer, just not good enough",
+      "summary": "Overall, the Ravens totaled 15 carries for 16 yards, their lowest rushing output in more than 10 years.",
+      "publishedAt": "2026-11-17T08:53:57Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "05dc558b44f57e23",
       "source": "espn",
@@ -1652,15 +1663,6 @@
       "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
       "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
       "publishedAt": "2026-11-16T11:00:12Z",
-      "teamIds": []
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-16T11:00:11Z",
       "teamIds": []
     }
   ]
