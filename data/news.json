@@ -1,7 +1,132 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T16:47:23Z",
+  "updatedAt": "2026-11-17T17:47:34Z",
   "items": [
+    {
+      "id": "4bb7204fe4146b0d",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
+      "title": "Rest-of-season rankings: Joe Burrow takes QB lead, Chuba Hubbard continues rise",
+      "summary": "Need to make or assess a trade offer? With six teams on their bye week, these rankings are designed to help.",
+      "publishedAt": "2026-11-17T17:43:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "719108fbc6704602",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-win-puts-titans-in-the-drivers-seat-for-the-first-pick-in-the-2027-nfl-draft",
+      "title": "Chargers' win puts Titans in the driver's seat for the first pick in the 2027 NFL draft",
+      "summary": "There are no winless teams in the NFL after the Chargers won on Monday night.",
+      "publishedAt": "2026-11-17T17:36:08Z",
+      "teamIds": [
+        "24",
+        "10"
+      ]
+    },
+    {
+      "id": "a27144321c67142c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50511159/vikings-kirk-cousins-trade-beat-packers",
+      "title": "How Vikings got Kirk Cousins ready to win on short notice",
+      "summary": "Cousins and coach Kevin O'Connell deferred to each other until they each needed to take control Sunday.",
+      "publishedAt": "2026-11-17T17:19:26Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "87d4e8fb34f729dc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jerry-jones-cowboys-talking-about-change-defensive-coordinator-christian-parker",
+      "title": "Jerry Jones says Cowboys 'talking about' change at defensive coordinator, their fifth in five seasons",
+      "summary": "First-year defensive coordinator Christian Parker's defense allowed 584 total yards to the 49ers on Sunday, the most ever in a Dallas home game",
+      "publishedAt": "2026-11-17T17:17:01Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "a8553b05c6c2fed4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511255/is-emari-demercado-worth-fantasy-consideration-week-11",
+      "title": "Is Emari Demercado worth of fantasy consideration in Week 11?",
+      "summary": null,
+      "publishedAt": "2026-11-17T17:03:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "dd1aeb150f8a2856",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511207/why-cam-ward-real-streaming-potential-week-11",
+      "title": "Why Cam Ward has real streaming potential in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-17T17:01:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "5bfc2d8578d08ec1",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50511791/texans-place-lb-azeez-al-shaair-groin-ir",
+      "title": "Texans place LB Azeez Al-Shaair, team's leading tackler, on IR",
+      "summary": "The Texans placed linebacker Azeez Al-Shaair, their leading tackler this season, on injured reserve Tuesday.",
+      "publishedAt": "2026-11-17T16:59:41Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "80f839a3fe80a988",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511343/why-mike-clay-overly-bullish-xavier-hutchinson",
+      "title": "Why Mike Clay isn't overly bullish on Xavier Hutchinson",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:59:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "5d3647dfca62ba19",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511658/why-jeff-saturday-opposes-cowboys-making-midseason-coordinator-change",
+      "title": "Why Jeff Saturday opposes Cowboys making a midseason coordinator change",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:58:36Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "6d39e4439dd38156",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511179/should-fantasy-managers-concerned-derrick-henry",
+      "title": "Should fantasy managers be concerned about Derrick Henry?",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:52:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "ab066d7d59e8a9e7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50505347/miami-dolphins-quarterback-kyle-mccord-debut-colts",
+      "title": "Miami Dolphins backup QB Kyle McCord showed poise in debut vs. Indianapolis Colts",
+      "summary": "Miami coach Jeff Hafley praised McCord's poise and the trust he showed in receivers Malik Washington and Caleb Douglas.",
+      "publishedAt": "2026-11-17T16:48:42Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "35528b0f179e7038",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-azeez-al-shaair-on-injured-reserve",
+      "title": "Texans place Azeez Al-Shaair on injured reserve",
+      "summary": "The Texans played without linebacker Azeez Al-Shaair in last Sunday's loss to the Browns and they'll remain without him for the next month.",
+      "publishedAt": "2026-11-17T16:47:41Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
     {
       "id": "8caf3cea2a762fae",
       "source": "espn",
@@ -93,6 +218,15 @@
       "teamIds": [
         "6"
       ]
+    },
+    {
+      "id": "c49039ac1b787978",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 11 betting odds: Lines and totals for every game",
+      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
+      "publishedAt": "2026-11-17T15:27:54Z",
+      "teamIds": []
     },
     {
       "id": "02c81c7b35b6a264",
@@ -849,6 +983,18 @@
       "teamIds": []
     },
     {
+      "id": "e3f8f8b91408b341",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-picks-player-props-experts-nfl-week-10-best-bets-for-monday-night-football",
+      "title": "Chargers vs. Ravens odds, picks, player props: Expert's NFL Week 10 best bets for Monday Night Football",
+      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 10",
+      "publishedAt": "2026-11-16T22:53:47Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
       "id": "7175cd13f07a0cb3",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
@@ -1496,157 +1642,6 @@
       "teamIds": [
         "22",
         "14"
-      ]
-    },
-    {
-      "id": "3d06ce6f51f7f3d8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50501190/orlovskys-problem-hutchinsons-injury-celebrating",
-      "title": "Orlovsky’s problem with Hutchinson’s injury from celebrating",
-      "summary": null,
-      "publishedAt": "2026-11-16T16:57:58Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "7f2e0afe6ae75bac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cowboys-rg-tyler-booker-has-a-high-ankle-sprain",
-      "title": "Report: Cowboys RG Tyler Booker has a high-ankle sprain",
-      "summary": "The Cowboys may be without right guard Tyler Booker in the coming weeks.",
-      "publishedAt": "2026-11-16T16:55:17Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "b1a2bab9ef0eef7d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-had-dc-brian-duker-calling-jets-defensive-plays-on-sunday",
-      "title": "Aaron Glenn had DC Brian Duker calling Jets defensive plays on Sunday",
-      "summary": "The Jets's eighth loss of the 2026 season had things in common with the previous seven, but Sunday's outing against the Bills was different in one significant way.",
-      "publishedAt": "2026-11-16T16:48:23Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "811f1f4a321121dc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502391/dolphins-cut-kicker-zane-gonzalez-day-costly-misses",
-      "title": "Dolphins cut kicker Zane Gonzalez a day after costly misses in loss to Colts",
-      "summary": "The Dolphins waived kicker Zane Gonzalez on Monday, a day after he missed two field goals and an extra point in a 24-22 loss to the Colts.",
-      "publishedAt": "2026-11-16T16:44:01Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "38cf07fc47775928",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502082/geno-smith-remains-jets-qb1-injury-aaron-glenn-says",
-      "title": "Geno Smith remains Jets' QB1 despite ankle injury, coach Aaron Glenn says",
-      "summary": "Geno Smith is undergoing tests on his injured left ankle, creating uncertainty about his status for the Jets' Week 11 game against the Chargers.",
-      "publishedAt": "2026-11-16T16:41:57Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "767ce515a2c6bb7f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-on-his-injured-elbow-obviously-it-felt-good-enough",
-      "title": "Patrick Mahomes on his injured elbow: Obviously, it felt good enough",
-      "summary": "Chiefs quarterback Patrick Mahomes suffered a right elbow injury during the Week 9 victory over the Jets.",
-      "publishedAt": "2026-11-16T16:40:31Z",
-      "teamIds": [
-        "12",
-        "20"
-      ]
-    },
-    {
-      "id": "11b8cc4a531894df",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50500480/fantasy-football-waivers-free-agent-pickups-nfl-week-11",
-      "title": "Fantasy football free agent pickups: Replacing Drake Maye? Trust in Tyson?",
-      "summary": "Eric Karabell lists the top available options to replace Drake Maye and more.",
-      "publishedAt": "2026-11-16T16:40:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "f171fc5379623001",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50502156/how-impressive-tony-pollard-fantasy-recently",
-      "title": "How impressive has Tony Pollard been in fantasy recently?",
-      "summary": null,
-      "publishedAt": "2026-11-16T16:40:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "062997c4bd4a9f07",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502385/titans-getting-more-adding-more-qb-cam-ward-plate",
-      "title": "Titans getting more after adding more to QB Cam Ward's plate",
-      "summary": "The Titans offense has functioned better since putting more on quarterback Cam Ward's plate, even if it hasn't led to more wins yet.",
-      "publishedAt": "2026-11-16T16:38:29Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "0bf46fe82058e54e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-waive-zane-gonzalez-after-three-missed-kicks-on-sunday",
-      "title": "Dolphins waive Zane Gonzalez after three missed kicks on Sunday",
-      "summary": "The Dolphins are looking for a new kicker.",
-      "publishedAt": "2026-11-16T16:32:34Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "86123be10901dd49",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502112/arizona-cardinals-carson-beck-rookie-debut",
-      "title": "Cards rookie QB Beck struggles in debut, but keeps optimism",
-      "summary": "Beck faced Aaron Donald and Myles Garrett in his first game, and it wasn't easy.",
-      "publishedAt": "2026-11-16T16:29:38Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "1d416c12703a4ec5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-on-pace-to-set-new-nfl-records-for-most-penalties-and-penalty-yards-this-season",
-      "title": "Panthers on pace to set new NFL records for most penalties and penalty yards this season",
-      "summary": "The Panthers beat the Saints on Sunday despite being assessed a whopping 17 penalties for 152 yards.",
-      "publishedAt": "2026-11-16T16:12:49Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "244f87d9452bbc45",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/acc-announces-punishments-after-louisville-north-carolina-brawl",
-      "title": "ACC announces punishments after Louisville-North Carolina brawl",
-      "summary": "The ACC has spoken.",
-      "publishedAt": "2026-11-16T16:11:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "d6f31c18e4d32bfa",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/seahawks-starting-qb-sam-darnold-or-drew-lock-battle-2026",
-      "title": "Sam Darnold or Drew Lock? Breaking down the Seahawks' surprising QB debate",
-      "summary": "Drew Lock is 4-0 as Seattle's primary quarterback and has dramatically outperformed Sam Darnold in several key metric",
-      "publishedAt": "2026-11-16T15:59:41Z",
-      "teamIds": [
-        "26"
       ]
     }
   ]
