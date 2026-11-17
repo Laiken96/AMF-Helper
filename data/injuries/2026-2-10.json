@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-17T00:01:20Z",
+    "takenAt": "2026-11-17T01:20:34Z",
     "games": [
       {
         "gameId": "401873052",
@@ -2046,6 +2046,18 @@
         "kickoffUtc": "2026-11-17T01:15:00Z",
         "players": [
           {
+            "athleteId": "2578570",
+            "name": "Jacoby Brissett",
+            "pos": "QB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "3043078",
             "name": "Derrick Henry",
             "pos": "RB",
@@ -2057,14 +2069,13 @@
             "status": null
           },
           {
-            "athleteId": "3916387",
-            "name": "Lamar Jackson",
-            "pos": "QB",
+            "athleteId": "3116365",
+            "name": "Mark Andrews",
+            "pos": "TE",
             "teamId": "33",
             "teamAbbr": "BAL",
             "roles": [
-              "qb",
-              "passing"
+              "receiving"
             ],
             "status": null
           },
@@ -2076,40 +2087,6 @@
             "teamAbbr": "BAL",
             "roles": [
               "qb"
-            ],
-            "status": "Out"
-          },
-          {
-            "athleteId": "4429615",
-            "name": "Zay Flowers",
-            "pos": "WR",
-            "teamId": "33",
-            "teamAbbr": "BAL",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4038941",
-            "name": "Justin Herbert",
-            "pos": "QB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4612826",
-            "name": "Ladd McConkey",
-            "pos": "WR",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "receiving"
             ],
             "status": "Out"
           },
@@ -2378,16 +2355,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873065",
-      "athleteId": "4612826",
-      "name": "Ladd McConkey",
-      "pos": "WR",
-      "teamAbbr": "LAC",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
     },
     {
       "gameId": "401873065",
