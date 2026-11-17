@@ -1,13 +1,33 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T04:47:25Z",
+  "updatedAt": "2026-11-17T05:47:18Z",
   "items": [
+    {
+      "id": "a9e0f8446d9ee8ef",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-manning-will-participate-in-senior-day-but-wont-comment-on-his-future",
+      "title": "Arch Manning will participate in Senior Day, but won't comment on his future",
+      "summary": "Texas quarterback Arch Manning concludes his fourth slate of home games with the Longhorns on Saturday.",
+      "publishedAt": "2026-11-17T05:20:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "359e3215a2b7dd06",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50507977/herbert-credits-chargers-locker-room-sticking-together",
+      "title": "Herbert credits Chargers locker room for sticking together",
+      "summary": null,
+      "publishedAt": "2026-11-17T05:14:25Z",
+      "teamIds": [
+        "24"
+      ]
+    },
     {
       "id": "52085f4dd82dbb98",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50506286/ravens-chargers-mnf-herbert-first-win",
-      "title": "Justin Herbert, defense helps lift Chargers past Ravens on MNF",
-      "summary": "Chargers defense stifles Baltimore's running backs, and Justin Herbert steps up in Los Angeles' first win.",
+      "title": "Justin Herbert, defense help lift Chargers past Ravens on MNF",
+      "summary": "The Chargers' defense stifles Baltimore's running backs, and Justin Herbert steps up in Los Angeles' first win.",
       "publishedAt": "2026-11-17T04:46:15Z",
       "teamIds": [
         "33",
@@ -85,11 +105,12 @@
       "id": "4ea8397845ccb397",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
-      "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
+      "title": "NFL Week 10 grades: Chargers earn 'A-' for picking up first win, Packers fail in showdown with Vikings",
       "summary": "We're handing out grades for every team that played in Week 10",
       "publishedAt": "2026-11-17T03:44:02Z",
       "teamIds": [
         "9",
+        "24",
         "16"
       ]
     },
@@ -1638,29 +1659,6 @@
       "publishedAt": "2026-11-16T11:00:10Z",
       "teamIds": [
         "17"
-      ]
-    },
-    {
-      "id": "6a18ee097122898a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50471544/chargers-jim-harbaugh-ravens-jesse-minter-week-10",
-      "title": "How Chargers' Harbaugh, Ravens' Minter can revive seasons",
-      "summary": "Los Angeles stands at 0-8 on the season while Baltimore deals with its worst three-game stretch in team history.",
-      "publishedAt": "2026-11-16T11:00:01Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "c721e430fab22dc1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-in-hall-of-fame-company-with-a-long-list-of-statistical-achievements",
-      "title": "Jahmyr Gibbs in Hall of Fame company with a long list of statistical achievements",
-      "summary": "Lions running back Jahmyr Gibbs had another phenomenal game on Sunday, and in his fourth NFL season he has hit a long list of statistical milestones that only Hall of Famers have reached before him.",
-      "publishedAt": "2026-11-16T09:58:15Z",
-      "teamIds": [
-        "8"
       ]
     }
   ]
