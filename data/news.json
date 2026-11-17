@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T22:47:18Z",
+  "updatedAt": "2026-11-17T22:58:20Z",
   "items": [
+    {
+      "id": "6acf7ccc3f8ca9d5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-cb-kamari-lassiter-downgraded-to-a-non-participant-tuesday",
+      "title": "Texans CB Kamari Lassiter downgraded to a non-participant Tuesday",
+      "summary": "The Texans' injury report on Tuesday had only one change from the estimated report on Monday.",
+      "publishedAt": "2026-11-17T22:48:05Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "c46ffdd6b85a8126",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sauce-gardner-charvarius-ward-listed-as-out-of-colts-practice-tuesday",
+      "title": "Sauce Gardner, Charvarius Ward listed as out of Colts practice Tuesday",
+      "summary": "The Colts listed both of their starting cornerbacks as out of practice on Tuesday.",
+      "publishedAt": "2026-11-17T22:47:02Z",
+      "teamIds": [
+        "11"
+      ]
+    },
     {
       "id": "94502e89f72acbd6",
       "source": "espn",
@@ -1558,6 +1580,15 @@
       ]
     },
     {
+      "id": "28108d8d72e719c7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/sophomore-bounce-back-letdown-will-campbell-quietly-improving-ashton-jeanty-among-2025-first-round-busts",
+      "title": "Sophomore bounce-back or letdown? Will Campbell quietly improving, Ashton Jeanty among 2025 first-round busts",
+      "summary": "Last year's top draft picks reached a pivot point in their careers, and not everyone is on the right trajectory",
+      "publishedAt": "2026-11-16T22:51:37Z",
+      "teamIds": []
+    },
+    {
       "id": "7175cd13f07a0cb3",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
@@ -1566,37 +1597,6 @@
       "publishedAt": "2026-11-16T22:42:50Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "dfa4d1aed951b0c9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-nfls-week-12-flex-decision-is-looming",
-      "title": "The NFL's Week 12 flex decision is looming",
-      "summary": "Thanksgiving week will entail a smorgasbord of football.",
-      "publishedAt": "2026-11-16T22:37:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "2eab533255ad1ea8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-claim-de-tyrus-wheat-off-of-waivers",
-      "title": "Lions claim DE Tyrus Wheat off of waivers",
-      "summary": "The Lions lost Aidan Hutchinson for the rest of the season on Sunday and they moved to add another defensive end to the roster on Monday.",
-      "publishedAt": "2026-11-16T22:32:09Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "ad00a179a5ea8335",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-wr-xavier-gipson-db-tavierre-thomas-to-their-active-roster",
-      "title": "Giants sign WR Xavier Gipson, DB Tavierre Thomas to their active roster",
-      "summary": "The Giants signed wide receiver Xavier Gipson and defensive back Tavierre Thomas to their active roster on Monday, the team announced.",
-      "publishedAt": "2026-11-16T22:30:46Z",
-      "teamIds": [
-        "19"
       ]
     }
   ]
