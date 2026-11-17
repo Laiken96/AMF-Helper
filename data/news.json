@@ -1,7 +1,88 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T15:47:25Z",
+  "updatedAt": "2026-11-17T16:47:23Z",
   "items": [
+    {
+      "id": "8caf3cea2a762fae",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511179/should-worried-derrick-henry-fantasy-production",
+      "title": "Should you be worried about Derrick Henry's fantasy production?",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:44:29Z",
+      "teamIds": []
+    },
+    {
+      "id": "43f7b10108c22010",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50117108/fantasy-football-2026-strength-schedule-rest-season",
+      "title": "Strength of schedule (SOS) cheat sheet: Every team's year-to-date and rest-of-season ratings",
+      "summary": "Ranking each team's remaining schedule and how it might impact every position's fantasy performance.",
+      "publishedAt": "2026-11-17T16:39:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "b1c08d5b7c4f05a2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50511524/lions-plan-kerby-joseph-make-season-debut-sunday",
+      "title": "Lions plan for Kerby Joseph to make season debut Sunday, per Dan Campbell",
+      "summary": "The Lions are planning for safety Kerby Joseph to make his season debut Sunday when they face the Buccaneers.",
+      "publishedAt": "2026-11-17T16:35:03Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "cb10c717e9f65040",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511322/why-jordyn-tyson-field-yates-no-1-waiver-wire-pickup",
+      "title": "Why Jordyn Tyson is Field Yates' No. 1 waiver wire pickup",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:28:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "a18fe12523540d75",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/all-four-nfc-south-teams-are-terrible-at-home-and-one-will-get-a-home-playoff-game",
+      "title": "All four NFC South teams are terrible at home, and one will get a home playoff game",
+      "summary": "The NFL's playoff seeding procedures guarantee that an NFC South team will host a playoff game.",
+      "publishedAt": "2026-11-17T16:22:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "f6027c2022acf1dc",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511400/how-stephen-looking-vikings-49ers-matchup",
+      "title": "How Stephen A. is looking at Vikings-49ers matchup",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:21:33Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "130eefb34b6fec53",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-prediction-markets-are-questioning-mike-vrabels-job-security-again",
+      "title": "The prediction markets are questioning Mike Vrabel's job security, again",
+      "summary": "During the offseason, the leading prediction markets were calling into question the future of Patriots coach Mike Vrabel.",
+      "publishedAt": "2026-11-17T16:11:47Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "a3c98ca12af65406",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50511349/stephen-lays-concerns-pats-mike-vrabel",
+      "title": "Stephen A. lays out his concerns about Pats, Mike Vrabel",
+      "summary": null,
+      "publishedAt": "2026-11-17T16:04:51Z",
+      "teamIds": [
+        "17"
+      ]
+    },
     {
       "id": "7b62c6ba97e23160",
       "source": "espn",
@@ -1566,89 +1647,6 @@
       "publishedAt": "2026-11-16T15:59:41Z",
       "teamIds": [
         "26"
-      ]
-    },
-    {
-      "id": "e3f8f8b91408b341",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-picks-player-props-experts-nfl-week-10-best-bets-for-monday-night-football",
-      "title": "Chargers vs. Ravens odds, picks, player props: Expert's NFL Week 10 best bets for Monday Night Football",
-      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 10",
-      "publishedAt": "2026-11-16T15:56:46Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "c49039ac1b787978",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 11 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
-      "publishedAt": "2026-11-16T15:41:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "7e4512e4590963f6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
-      "title": "How active NFL players continue to redefine all-time sack list",
-      "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
-      "publishedAt": "2026-11-16T15:39:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "da45c701e0fe9546",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50501788/stephen-calls-change-cowboys-loss-49ers",
-      "title": "Stephen A. calls for change with Cowboys after loss to 49ers",
-      "summary": null,
-      "publishedAt": "2026-11-16T15:31:38Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "a7899ba1b105ed9b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/draft/news/2027-nfl-mock-draft-six-quarterbacks-jeremiah-smith-week-11",
-      "title": "2027 NFL mock draft: Six quarterbacks go in the first round but none overcome Jeremiah Smith",
-      "summary": "Six quarterbacks still come off the board in the first round even with Texas standout Arch Manning and Missouri passer Austin Simmons projected to stay in school",
-      "publishedAt": "2026-11-16T15:19:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "d499b1e883194a93",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-getting-tests-on-ankle-will-start-in-week-11-if-healthy",
-      "title": "Geno Smith getting tests on ankle, will start in Week 11 if healthy",
-      "summary": "Jets quarterback Geno Smith was forced out of Sunday's loss to the Bills with an ankle injury and his status for Week 11 is still to be determined.",
-      "publishedAt": "2026-11-16T15:16:54Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "8ad5845f106af302",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
-      "title": "Fantasy football 2026 offensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
-      "publishedAt": "2026-11-16T15:12:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "16e23781f1aebeb2",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50453363/nfl-week-10-odds-chargers-ravens-betting-preview-props",
-      "title": "Chargers-Ravens odds, best bets: Tips, analysis and our favorite plays",
-      "summary": "Odds, analysis and recommended plays to help you bet the Chargers-Ravens matchup on Monday night.",
-      "publishedAt": "2026-11-16T15:00:40Z",
-      "teamIds": [
-        "33",
-        "24"
       ]
     }
   ]

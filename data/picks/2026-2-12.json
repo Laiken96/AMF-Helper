@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-17T15:47:21Z",
+  "updatedAt": "2026-11-17T16:47:21Z",
   "source": "espn-pickem",
   "games": [
     {
@@ -76,11 +76,11 @@
       "gameId": "401873085",
       "homeId": "34",
       "awayId": "33",
-      "homeShare": 0.647,
-      "awayShare": 0.353,
-      "total": 38015,
+      "homeShare": 0.652,
+      "awayShare": 0.348,
+      "total": 38713,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-17T12:47:21Z",
+      "fetchedAt": "2026-11-17T16:47:21Z",
       "locked": false
     },
     {
@@ -142,22 +142,22 @@
       "gameId": "401873091",
       "homeId": "25",
       "awayId": "26",
-      "homeShare": 0.572,
-      "awayShare": 0.428,
-      "total": 38246,
+      "homeShare": 0.577,
+      "awayShare": 0.423,
+      "total": 38820,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-17T13:47:19Z",
+      "fetchedAt": "2026-11-17T16:47:21Z",
       "locked": false
     },
     {
       "gameId": "401873092",
       "homeId": "22",
       "awayId": "28",
-      "homeShare": 0.267,
-      "awayShare": 0.733,
-      "total": 37323,
+      "homeShare": 0.262,
+      "awayShare": 0.738,
+      "total": 38664,
       "scoringFormatId": 1,
-      "fetchedAt": "2026-11-17T04:38:35Z",
+      "fetchedAt": "2026-11-17T16:47:21Z",
       "locked": false
     },
     {
