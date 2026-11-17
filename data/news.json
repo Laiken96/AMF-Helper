@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T06:47:21Z",
+  "updatedAt": "2026-11-17T07:47:18Z",
   "items": [
+    {
+      "id": "05dc558b44f57e23",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50508744/kyle-hamilton-says-ravens-disgracing-standards-loss-previously-winless-chargers",
+      "title": "Kyle Hamilton says Ravens 'disgracing' standards after losing to 0-8 Chargers",
+      "summary": "Pro Bowl safety Kyle Hamilton vented after the Ravens' 23-20 loss to the previously winless Chargers on Monday night, which was one of the most embarrassing defeats in team history.",
+      "publishedAt": "2026-11-17T07:44:33Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "cc35e39a96f8504c",
       "source": "espn",
@@ -1650,17 +1662,6 @@
       "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
       "publishedAt": "2026-11-16T11:00:11Z",
       "teamIds": []
-    },
-    {
-      "id": "9b9a1a2f942c08aa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50491685/new-york-giants-qb-jj-mccarthy-growth-showing-week-10",
-      "title": "Giants QB J.J. McCarthy's growth is showing in the numbers",
-      "summary": "After only three starts and four games playing for New York, the quarterback's numbers are staggering.",
-      "publishedAt": "2026-11-16T11:00:10Z",
-      "teamIds": [
-        "19"
-      ]
     }
   ]
 }
