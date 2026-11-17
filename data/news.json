@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T09:47:21Z",
+  "updatedAt": "2026-11-17T10:47:25Z",
   "items": [
+    {
+      "id": "0f67838dc66c3c45",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-and-chiefs-both-favored-by-16-5-on-sunday-biggest-point-spreads-of-the-season",
+      "title": "Bills and Chiefs both favored by 16.5 on Sunday, biggest point spreads of the season",
+      "summary": "The Bills and Chiefs are scheduled for a Thanksgiving night showdown, but before that they each have a game on Sunday.",
+      "publishedAt": "2026-11-17T10:15:51Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "19261b96a08b84bd",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-11-power-rankings-patrick-mahomes-chiefs",
+      "title": "Prisco's NFL Week 11 Power Rankings: Patrick Mahomes returns to MVP form, which makes Chiefs scary",
+      "summary": "Pete Prisco shares his Week 11 Power Rankings for the 2026 NFL season, including the Chargers finally climbing out of the basement",
+      "publishedAt": "2026-11-17T10:01:00Z",
+      "teamIds": [
+        "12",
+        "24"
+      ]
+    },
     {
       "id": "46bc8e5b18c4e6fc",
       "source": "pft",
@@ -1644,26 +1668,6 @@
         "13",
         "26"
       ]
-    },
-    {
-      "id": "f0960f994d5a799b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50462293/los-angeles-chargers-offensive-struggles-herbert-mcdaniel-hampton",
-      "title": "Five reasons why Chargers' offense, Justin Herbert have struggled in 2026 season",
-      "summary": "Are injuries the biggest reason behind the Chargers' offensive struggles? Are Justin Herbert and Omarion Hampton both taking steps back? We looked at the tape for answers.",
-      "publishedAt": "2026-11-16T11:00:20Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-16T11:00:12Z",
-      "teamIds": []
     }
   ]
 }
