@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T13:47:22Z",
+  "updatedAt": "2026-11-17T14:37:35Z",
   "items": [
+    {
+      "id": "929feb81183e4d90",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50510660/dan-campbell-hutchinson-injury-prompt-celebration-ban",
+      "title": "Lions' Dan Campbell says Aidan Hutchinson injury won't prompt celebration ban",
+      "summary": "Although Aidan Hutchinson's knee injury is a \"gut punch\" to the Lions, Dan Campbell said he won't tell his players to change the way they celebrate.",
+      "publishedAt": "2026-11-17T14:23:37Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "dcc994bc9ce4e3d6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-11-2026-nfl-power-rankings",
+      "title": "PFT's Week 11 2026 NFL power rankings",
+      "summary": "The Bills remain on top.",
+      "publishedAt": "2026-11-17T14:13:35Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "ea3bb105a3491ee4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-plan-for-kerby-joseph-to-play-this-week",
+      "title": "Lions plan for Kerby Joseph to play this week",
+      "summary": "The Lions lost Aidan Hutchinson for the rest of the season, but they expect to have another defensive player in the lineup for the first time this year when they face the Buccaneers in Week 11.",
+      "publishedAt": "2026-11-17T14:06:02Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "abf9a8e7268b469d",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-17T14:04:16Z",
+      "teamIds": [
+        "6",
+        "18"
+      ]
+    },
+    {
+      "id": "5834145d27772687",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/chargers-ravens-2027-nfl-draft-texas-college-football-power-rankings",
+      "title": "Chargers' first win shakes up 2027 NFL Draft order; Texas climbs in college football Power Rankings",
+      "summary": "Plus, we've got expert picks for a loaded slate of college basketball games",
+      "publishedAt": "2026-11-17T14:03:01Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "e7d0a3c82ef7abe4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50510528/why-get-crew-concerned-packers-their-loss-vikings",
+      "title": "Why the 'Get Up' crew is concerned about Packers after their loss to Vikings",
+      "summary": null,
+      "publishedAt": "2026-11-17T13:58:55Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
     {
       "id": "870c8c4e2f608858",
       "source": "pft",
@@ -38,7 +107,7 @@
       "id": "012d33997c7c9a77",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-11-picks-score-predictions-49ers-vikings-mexico",
-      "title": "NFL Week 11 picks and score predictions: 49ers win thriller Mexico City thriller, Bengals stay hot",
+      "title": "NFL Week 11 picks and score predictions: 49ers win Mexico City thriller over Vikings, Bengals stay hot",
       "summary": "We pick every Week 11 game as Joe Burrow draws an inviting matchup, the 49ers battle the Vikings in Mexico City",
       "publishedAt": "2026-11-17T12:52:43Z",
       "teamIds": [
@@ -1582,74 +1651,6 @@
       "teamIds": [
         "33",
         "24"
-      ]
-    },
-    {
-      "id": "8947438939097d63",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50501232/raiders-te-brock-bowers-avoids-major-ankle-injury-source-says",
-      "title": "Raiders TE Brock Bowers day-to-day with ankle injury",
-      "summary": "Brock Bowers is day-to-day with an ankle injury that forced him to miss the entire second half of the Raiders' loss to the Seahawks.",
-      "publishedAt": "2026-11-16T13:59:21Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "0568d6feea341ce3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-remained-in-germany-as-ankle-injury-continues-to-be-evaluated",
-      "title": "Drake Maye remained in Germany as ankle injury continues to be evaluated",
-      "summary": "Maye was injured early in Sunday's game and is expected to miss extended time.",
-      "publishedAt": "2026-11-16T13:59:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "9b29564c7de3839e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50491459/week-10-playoff-bubble-cowboys-raiders-texans-patriots",
-      "title": "Concerns for four NFL teams on playoff bubble: Cowboys, Raiders, Texans, Patriots",
-      "summary": "The Cowboys' defense got lit up, the Patriots lost Drake Maye, the Raiders are adjusting to Fernando Mendoza, and the Texans can't find support for C.J. Stroud.",
-      "publishedAt": "2026-11-16T13:58:32Z",
-      "teamIds": [
-        "6",
-        "34",
-        "13",
-        "17"
-      ]
-    },
-    {
-      "id": "75196744ae20c71f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-aidan-hutchinson-injury-update-patriots-germany",
-      "title": "Aidan Hutchinson injury update: Lions EDGE suffers season-ending knee injury after celebration, per report",
-      "summary": "Hutchinson injured himself on a celebration after sacking Patriots quarterback Drake Maye",
-      "publishedAt": "2026-11-16T13:55:53Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "62c309eca9786dfe",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50501190/did-aidan-hutchinson-celebration-lead-injury",
-      "title": "Did Aidan Hutchinson's celebration lead to his injury?",
-      "summary": null,
-      "publishedAt": "2026-11-16T13:55:41Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "41bdb485b8fea15a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50501155/cowboys-worst-coached-defense-ever-seen",
-      "title": "Rex: Cowboys are the worst-coached defense I've ever seen",
-      "summary": null,
-      "publishedAt": "2026-11-16T13:55:09Z",
-      "teamIds": [
-        "6"
       ]
     }
   ]
