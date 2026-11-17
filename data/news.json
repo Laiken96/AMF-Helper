@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T00:47:18Z",
+  "updatedAt": "2026-11-17T01:47:24Z",
   "items": [
+    {
+      "id": "595319ab0131deb9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-estimate-david-montgomery-as-a-full-participant-but-woody-marks-doesnt-practice",
+      "title": "Texans estimate David Montgomery as a full participant, but Woody Marks doesn't practice",
+      "summary": "The Texans did not practice on Monday, but they were required to release an injury report ahead of Thursday night's game against the Colts.",
+      "publishedAt": "2026-11-17T01:37:14Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "53fe6c9ba14c812d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-runs-for-22-yard-td-giving-chargers-a-7-0-lead",
+      "title": "Justin Herbert runs for 22-yard TD, giving Chargers a 7-0 lead",
+      "summary": "Justin Herbert's left hand seems just fine.",
+      "publishedAt": "2026-11-17T01:33:45Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "b6eb19bc0d4562be",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50506334/fan-makes-fantastic-catch-send-super-bowl-lxi",
+      "title": "Fan makes a fantastic catch to send himself to Super Bowl LXI",
+      "summary": null,
+      "publishedAt": "2026-11-17T01:21:29Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
+      "id": "1b4f8f4c1f72f925",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-defends-xavier-worthy-who-had-no-catches-in-57-snaps",
+      "title": "Andy Reid defends Xavier Worthy, who had no catches in 57 snaps",
+      "summary": "Chiefs quarterback Patrick Mahomes completed 22 passes to eight different receivers and threw five touchdowns in Sunday's 35-13 win over the Falcons.",
+      "publishedAt": "2026-11-17T00:55:00Z",
+      "teamIds": [
+        "1",
+        "12"
+      ]
+    },
     {
       "id": "7f89e7158047b737",
       "source": "espn",
@@ -1063,7 +1110,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50501291/sources-aidan-hutchinson-season-torn-acl",
       "title": "Sources: Lions' Aidan Hutchinson out for season with knee injury",
-      "summary": "Lions star Aidan Hutchinson is out for the season with what initial tests showed to be a torn ACL in his right knee, sources told NFL Network.",
+      "summary": "Lions star Aidan Hutchinson is out for the season with what tests showed to be a torn ACL in his right knee, sources told NFL Network.",
       "publishedAt": "2026-11-16T14:05:43Z",
       "teamIds": [
         "8"
@@ -1607,48 +1654,6 @@
       "summary": "With Aaron Rodgers' score on Sunday, he reaches another fantasy football accolade in his HOF-worthy career.",
       "publishedAt": "2026-11-16T04:27:04Z",
       "teamIds": []
-    },
-    {
-      "id": "f67aa3eeb1c4f325",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50498058/schottenheimer-very-frustrated-porous-cowboys-defense",
-      "title": "Schottenheimer 'very disappointed, very frustrated' with Cowboys' porous defense",
-      "summary": "Brian Schottenheimer said the Cowboys' defensive performance in the second half was a first for him after it gave up nearly 600 yards to the 49ers.",
-      "publishedAt": "2026-11-16T03:39:34Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "53307c117a53e92b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50497966/steelers-mason-mccormick-carted-field-air-cast-ankle",
-      "title": "Steelers rally around Mason McCormick after guard suffers gruesome injury",
-      "summary": "The Steelers' thoughts were with Mason McCormick after the guard suffered what appeared to be a serious ankle injury and was carted off the field Sunday night.",
-      "publishedAt": "2026-11-16T03:38:41Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "e7a611823a0ae458",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-matches-peyton-mannings-record-for-consecutive-games-with-at-least-four-tds",
-      "title": "Joe Burrow matches Peyton Manning's record for consecutive games with at least four TDs",
-      "summary": "Joe Burrow has accomplished something that had not been done for over 20 years.",
-      "publishedAt": "2026-11-16T03:34:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "f63a68868e7cb052",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50498040/raiders-fernando-mendoza-vows-learn-first-nfl-start",
-      "title": "Raiders' Fernando Mendoza vows to learn from first NFL start, a loss to Seahawks",
-      "summary": "Fernando Mendoza completed 17 of 29 passes for 143 yards and had a passer rating of 71.5 in his first regular-season start for the Raiders.",
-      "publishedAt": "2026-11-16T03:28:09Z",
-      "teamIds": [
-        "13"
-      ]
     }
   ]
 }
