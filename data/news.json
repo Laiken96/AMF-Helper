@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T11:47:22Z",
+  "updatedAt": "2026-11-17T12:47:23Z",
   "items": [
+    {
+      "id": "33f051bb9d8321a5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49998196/fantasy-football-waiver-wire-pickups-week-11",
+      "title": "Fantasy football: Live Week 11 free agent pickups advice with ESPN expert",
+      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
+      "publishedAt": "2026-11-17T12:22:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "670c541c445595e6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tests-showed-no-major-injury-for-geno-smith",
+      "title": "Report: Tests showed no major injury for Geno Smith",
+      "summary": "Jets quarterback Geno Smith went for tests on his injured ankle on Monday, but it doesn't look like they turned up anything that will keep him from playing against the Chargers in Week 11.",
+      "publishedAt": "2026-11-17T12:08:14Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "e4391cc54dad2094",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50505355/week-11-seven-things-solak-thinks-burrow-mvp-rams-lions",
+      "title": "Seven things Solak thinks for NFL Week 11: Takes on four QBs, Lions, Rams, more",
+      "summary": "Get ready for Week 11 with what makes Vikings-49ers must-watch football, Joe Burrow's MVP case and how Aidan Hutchinson's injury could impact the Lions.",
+      "publishedAt": "2026-11-17T12:01:46Z",
+      "teamIds": [
+        "8",
+        "14",
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "8245aa4cc7e393f5",
       "source": "espn",
@@ -22,6 +57,18 @@
       "publishedAt": "2026-11-17T11:43:02Z",
       "teamIds": [
         "7"
+      ]
+    },
+    {
+      "id": "ad48f703dd74b5da",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-c-coleman-shelton-to-miss-4-6-weeks-with-a-hamstring-injury",
+      "title": "Rams C Coleman Shelton to miss 4-6 weeks with a hamstring injury",
+      "summary": "The Rams are on their bye this week and that gives them some extra time to figure out how to address the center position before their return to action against the Packers in Week 12.",
+      "publishedAt": "2026-11-17T11:43:00Z",
+      "teamIds": [
+        "9",
+        "14"
       ]
     },
     {
@@ -994,10 +1041,13 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Who got the ball in Week 10?",
-      "summary": "Which players saw ample fantasy football opportunities in Week 10, and which were limited?",
+      "title": "Fantasy buzz: Baltimore's Henry has confusing night, Chargers win first game",
+      "summary": "Week 10 closes with Chargers winning their first game as Baltimore's offense adjusts to new QB.",
       "publishedAt": "2026-11-16T17:58:09Z",
-      "teamIds": []
+      "teamIds": [
+        "33",
+        "24"
+      ]
     },
     {
       "id": "b9262216735b4f09",
@@ -1404,6 +1454,15 @@
       ]
     },
     {
+      "id": "fa62351745217280",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-results-cover-32-2026-mvp",
+      "title": "Cover 32: Two NFL awards already in the bag, plus game balls, biggest gaffes from Week 10",
+      "summary": "Tyler Sullivan dives into all of the biggest items from Week 10 in the NFL, including a historic day from Jahmyr Gibbs and statement return to Minnesota for Kirk Cousins",
+      "publishedAt": "2026-11-16T14:23:10Z",
+      "teamIds": []
+    },
+    {
       "id": "282322f815fc5a72",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-chargers-ravens-mnf",
@@ -1596,65 +1655,6 @@
       "publishedAt": "2026-11-16T12:30:13Z",
       "teamIds": [
         "26"
-      ]
-    },
-    {
-      "id": "dd49f7b55b7218c4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-bengals-blowout-nfl-trade-deadline-aaron-rodgers",
-      "title": "Steelers' receiver problem proves they made a massive NFL trade deadline mistake",
-      "summary": "Pittsburgh declined to add a receiver at the trade deadline, leaving Aaron Rodgers without the help he needed",
-      "publishedAt": "2026-11-16T12:18:36Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "c7ac34578ec76986",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-downs-excited-to-keep-building-connection-with-patrick-mahomes",
-      "title": "Josh Downs \"excited to keep building\" connection with Patrick Mahomes",
-      "summary": "Chiefs wide receiver Josh Downs didn't waste any time making an impact for his new team.",
-      "publishedAt": "2026-11-16T12:12:01Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "8f07ca5c4f009bd0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50497412/nfl-referee-ref-crew-two-games",
-      "title": "How an NFL referee crew worked two games in one day",
-      "summary": "An inside look at the 14-hour day of four referees who worked an afternoon game in Indianapolis and the Sunday night game in Cincinnati.",
-      "publishedAt": "2026-11-16T12:10:41Z",
-      "teamIds": [
-        "4",
-        "11",
-        "15",
-        "23"
-      ]
-    },
-    {
-      "id": "98170e0bdd5edb3c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/aidan-hutchinson-injury-lions-nfl-celebrations",
-      "title": "Aidan Hutchinson injury: Lions star joins bizarre list of NFL players hurt while celebrating",
-      "summary": "Aidan Hutchinson's sack celebration ended with a significant knee injury, recalling some of the strangest and most painful mishaps in NFL history",
-      "publishedAt": "2026-11-16T12:03:49Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "946feb90d179704d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-vs-chargers-how-to-watch-spread-odds-preview-prediction",
-      "title": "Ravens vs. Chargers prediction: Can L.A. get its first win on 'MNF' against the injury-plagued Ravens?",
-      "summary": "Plus, how to watch, odds, a preview and a prediction for the Monday night matchup",
-      "publishedAt": "2026-11-16T12:02:55Z",
-      "teamIds": [
-        "33",
-        "24"
       ]
     }
   ]
