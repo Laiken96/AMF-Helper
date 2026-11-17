@@ -1,7 +1,89 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:47:25Z",
+  "updatedAt": "2026-11-17T11:47:22Z",
   "items": [
+    {
+      "id": "8245aa4cc7e393f5",
+      "source": "espn",
+      "url": "https://espn.com/espn/story/_/id/50509931/emmett-johnson-jaxon-smith-njigba-shine-big-offensive-week-africa-nfl-stars",
+      "title": "Emmett Johnson, Jaxon Smith-Njigba shine in big offensive week for Africa's NFL stars",
+      "summary": "Week 10 in the 2026 NFL season was one of the most noteworthy in terms of standout performances from offensive players in the NFL with known African ties.",
+      "publishedAt": "2026-11-17T11:45:40Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "4606410e22970dc6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50503491/broncos-qb-bo-nix-more-consistency-all-four-quarters-clutch",
+      "title": "What Broncos are doing to try to make Bo Nix more consistent throughout games",
+      "summary": "Nix has a knack for coming through big late in games, but the Broncos want him to play better earlier to lessen the fourth-quarter drama.",
+      "publishedAt": "2026-11-17T11:43:02Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-17T11:41:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-17T11:41:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "a1b1a52c4bb5a3ff",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50503226/nfl-power-rankings-week-11-non-quarterback-mvps-midseason",
+      "title": "NFL Power Rankings: Stacking all 32 teams for Week 11, plus non-QB MVPs",
+      "summary": "How does every NFL team stack up heading into Week 11? We made our 1-32 list and picked the non-quarterback MVPs for each roster.",
+      "publishedAt": "2026-11-17T11:38:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "0daa709e46750b25",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-on-finally-getting-a-win-lets-do-it-every-week",
+      "title": "Jim Harbaugh on finally getting a win: \"Let's do it every week\"",
+      "summary": "Before the season, many expected the Chargers not only to get back to the playoffs for the third straight year but to finally make some noise.",
+      "publishedAt": "2026-11-17T11:32:00Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "e1b343becd99a1f3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-hamilton-ravens-are-disgracing-their-standards",
+      "title": "Kyle Hamilton: Ravens are \"disgracing\" their \"standards\"",
+      "summary": "The Ravens wore all black on Monday night.",
+      "publishedAt": "2026-11-17T11:15:46Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "472d4a99bab30f9b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50505706/cowboys-defense-bleak-future-49ers-loss",
+      "title": "No quick fix for Cowboys' defense, and 2027 looks bleak too",
+      "summary": "Even setting aside the status of DC Christian Parker, Dallas is light on draft picks and has big contract decisions ahead.",
+      "publishedAt": "2026-11-17T11:00:01Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "0f67838dc66c3c45",
       "source": "pft",
@@ -1573,100 +1655,6 @@
       "teamIds": [
         "33",
         "24"
-      ]
-    },
-    {
-      "id": "c240413dae167e96",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-steelers-sunday-night-football-2026-scorigami",
-      "title": "Bengals' blowout win over Steelers makes NFL history with 1,100th 'scorigami'",
-      "summary": "Cincinnati's 38-18 victory became the 1,100th unique final score in NFL history",
-      "publishedAt": "2026-11-16T12:01:40Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "fa62351745217280",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-results-cover-32-2026-mvp",
-      "title": "Cover 32: Two NFL awards already in the bag, plus game balls, biggest gaffes from Week 10",
-      "summary": "Tyler Sullivan dives into all of the biggest items from Week 10 in the NFL, including a historic day from Jahmyr Gibbs and statement return to Minnesota for Kirk Cousins",
-      "publishedAt": "2026-11-16T11:55:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "f1cd36ffdac988d6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-praises-tory-hortons-tremendous-play-on-late-kickoff-return",
-      "title": "Mike Macdonald praises Tory Horton's \"tremendous play\" on late kickoff return",
-      "summary": "After the Raiders cut the Seahawks' lead to 21-13 by kicking a field goal with 2:04 left in Sunday's game, they wanted to force a touchback that would allow them to use the two-minute warning as a third timeout in hopes of getting the ball back.",
-      "publishedAt": "2026-11-16T11:54:54Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "26d6e6cfeaec0625",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-found-it-definitely-special-to-beat-the-texans",
-      "title": "Deshaun Watson found it \"definitely special\" to beat the Texans",
-      "summary": "Browns quarterback Deshaun Watson led a game-winning drive in the fourth quarter on Sunday, which isn't surprising given the way the 2026 season has unfolded in Cleveland.",
-      "publishedAt": "2026-11-16T11:41:00Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "e034e6aa0edd92d0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50491464/week-10-overreactions-2026-graziano-cousins-mahomes",
-      "title": "Judging overreactions to NFL Week 10: Playoff spin for Vikings, Pats, Browns, more",
-      "summary": "Will Kirk Cousins be the difference in the NFC North? The Browns are going to the playoffs ... but not the Patriots? Patrick Mahomes for MVP and Kyle Shanahan for COY?",
-      "publishedAt": "2026-11-16T11:39:06Z",
-      "teamIds": [
-        "5",
-        "16",
-        "17"
-      ]
-    },
-    {
-      "id": "b63d85a64f98beb5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
-      "title": "Sources: Patriots fear Drake Maye has broken ankle, could miss rest of season",
-      "summary": "The Patriots are concerned that Drake Maye sustained a fractured ankle, sources told ESPN, an injury that could sideline the star QB for the rest of the season.",
-      "publishedAt": "2026-11-16T11:27:57Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "a30a86091bf27d17",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-sunday-night-was-great-but-youre-not-winning-anything-after-nine-games",
-      "title": "Joe Burrow: Sunday night was great, but you're not winning anything after nine games",
-      "summary": "Bengals quarterback Joe Burrow entered some rare company in Sunday night's romp over the Steelers.",
-      "publishedAt": "2026-11-16T11:20:50Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "889f5bb887701dce",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-its-good-to-learn-from-getting-punched-in-the-face",
-      "title": "Fernando Mendoza: It's good to learn from getting punched in the face",
-      "summary": "Fernando Mendoza didn't look overmatched early in his first NFL start, but the road got tougher for the Raiders' rookie quarterback over the final three quarters of Sunday's game against the Seahawks.",
-      "publishedAt": "2026-11-16T11:02:56Z",
-      "teamIds": [
-        "13",
-        "26"
       ]
     }
   ]
