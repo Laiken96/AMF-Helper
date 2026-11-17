@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T05:47:18Z",
+  "updatedAt": "2026-11-17T06:47:21Z",
   "items": [
+    {
+      "id": "cc35e39a96f8504c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50508438/chargers-relieved-beating-ravens-first-win-season",
+      "title": "Chargers relieved after beating Ravens for first win of season",
+      "summary": "The Chargers beat the Ravens 23-30 on Monday night to earn their first win since Week 16 of last season, bringing a franchise-wide sigh of relief.",
+      "publishedAt": "2026-11-17T06:40:54Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "a9e0f8446d9ee8ef",
       "source": "pft",
@@ -51,7 +63,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873065",
       "title": "Chargers bully the Ravens at the line of scrimmage and earn their first win of the season, 23-20",
-      "summary": "Justin Herbert and Omarion Hampton ran for first-half touchdowns, and the Los Angeles Chargers earned their first win of the season, manhandling Baltimore at the line of scrimmage in a 23-20 victory over the Ravens on Monday night.",
+      "summary": "The Los Angeles Chargers finally won a game — with the type of smashmouth performance that has brought Jim Harbaugh so much success during his coaching career.",
       "publishedAt": "2026-11-17T04:32:47Z",
       "teamIds": [
         "33",
@@ -1648,17 +1660,6 @@
       "publishedAt": "2026-11-16T11:00:10Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "da5dd63af9f471e0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50497417/patriots-defense-struggles-lions-drake-maye",
-      "title": "Patriots need to fix defensive effort -- especially if Drake Maye misses time",
-      "summary": "New England has given up 80 points over the past two games. The bye week will allow the team to reset.",
-      "publishedAt": "2026-11-16T11:00:10Z",
-      "teamIds": [
-        "17"
       ]
     }
   ]
