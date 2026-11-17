@@ -1,7 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T02:47:18Z",
+  "updatedAt": "2026-11-17T03:47:23Z",
   "items": [
+    {
+      "id": "6a36899ac63627a1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50507501/bo-nix-eli-do-some-quality-trolling-peyton-rushing-game",
+      "title": "Bo Nix and Eli do some quality trolling of Peyton's rushing game",
+      "summary": null,
+      "publishedAt": "2026-11-17T03:45:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "4ea8397845ccb397",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
+      "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
+      "summary": "We're handing out grades for every team that played in Week 10",
+      "publishedAt": "2026-11-17T03:44:02Z",
+      "teamIds": [
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "d3f403796ece48f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-honors-moves-from-thursday-back-to-saturday",
+      "title": "NFL Honors moves from Thursday back to Saturday",
+      "summary": "The NFL Honors ceremony is on the move, again.",
+      "publishedAt": "2026-11-17T03:27:50Z",
+      "teamIds": []
+    },
+    {
+      "id": "234e3a55cf6a0c4d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-dt-zeek-biggers-out-for-the-season-with-knee-injury",
+      "title": "Dolphins DT Zeek Biggers out for the season with knee injury",
+      "summary": "Dolphins defensive tackle Zeek Biggers will require season-ending surgery to repair his lateral meniscus, Ian Rapoport of NFL Media reports.",
+      "publishedAt": "2026-11-17T03:10:02Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "82c8bfed1d8e0086",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-lead-ravens-17-10-at-halftime",
+      "title": "Monday Night Football: Chargers lead Ravens 17-10 at halftime",
+      "summary": "Justin Herbert and Omarion Hampton have touchdown runs for the winless Chargers.",
+      "publishedAt": "2026-11-17T02:49:44Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "4ec62cef7fc572e3",
       "source": "espn",
@@ -42,7 +95,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50505946/mike-mccarthy-pittsburgh-steelers-week-10-blowout-loss",
       "title": "Mike McCarthy on Steelers' blowout loss: 'Needs to stop there'",
-      "summary": "After a deflating loss at Cincinnati, Pittsburgh now faces a Week 11 gut-check game at the Eagles on Sunday.",
+      "summary": "After a deflating loss at Cincinnati, Pittsburgh faces a Week 11 gut-check game at the Eagles on Sunday.",
       "publishedAt": "2026-11-17T01:47:06Z",
       "teamIds": [
         "23"
@@ -1600,61 +1653,6 @@
       "summary": null,
       "publishedAt": "2026-11-16T05:38:34Z",
       "teamIds": []
-    },
-    {
-      "id": "2ac2af002e7a8f1b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
-      "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
-      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 10.",
-      "publishedAt": "2026-11-16T05:22:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "9bd4eaa6c40f1d31",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
-      "title": "Week 10 winners and losers: McCaffrey, Gibbs and Mahomes dominate Sunday",
-      "summary": "Christian McCafffrey, Jahmyr Gibbs and Patrick Mahomes put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
-      "publishedAt": "2026-11-16T05:17:59Z",
-      "teamIds": [
-        "29",
-        "9"
-      ]
-    },
-    {
-      "id": "982f46cf5d48a8f5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50498326/jaxon-smith-njigba-144-yard-third-quarter-sparks-seahawks-offense-win-raiders",
-      "title": "Jaxon Smith-Njigba's 144-yard quarter sparks Seahawks in win over Raiders",
-      "summary": "Jaxon Smith-Njigba, the NFL's leading receiver, finished with a season-high 171 yards on eight catches, with 144 coming in the third quarter to help the Seahawks turn a three-point halftime deficit into a 21-13 win over the Raiders on Sunday.",
-      "publishedAt": "2026-11-16T04:43:26Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "918260655f267c00",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50498373/49ers-put-big-numbers-victory-cowboys",
-      "title": "49ers put up big numbers vs. Cowboys, tout 'incredibly dangerous' offense",
-      "summary": "The 49ers racked up 584 yards against the Cowboys on Sunday in a jaw-dropping offensive display led by Brock Purdy, Christian McCaffrey and Deebo Samuel.",
-      "publishedAt": "2026-11-16T04:41:15Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "e9c0df9a906b84dc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873064",
-      "title": "Joe Burrow and Bengals dominate Steelers 38-18 to take AFC North lead alone",
-      "summary": "Joe Burrow and the Cincinnati Bengals didn't wither under the prime-time spotlight.",
-      "publishedAt": "2026-11-16T04:36:36Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
     }
   ]
 }
