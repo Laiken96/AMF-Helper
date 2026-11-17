@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-17T03:47:21Z",
+    "takenAt": "2026-11-17T06:10:31Z",
     "games": [
       {
         "gameId": "401873066",
@@ -618,17 +618,6 @@
             "status": null
           },
           {
-            "athleteId": "4612826",
-            "name": "Ladd McConkey",
-            "pos": "WR",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4685382",
             "name": "Omarion Hampton",
             "pos": "RB",
@@ -636,6 +625,17 @@
             "teamAbbr": "LAC",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4686612",
+            "name": "Tre' Harris",
+            "pos": "WR",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
