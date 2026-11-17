@@ -6,7 +6,7 @@
   "baselineFrom": "2026-11-19T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-17T12:31:00Z",
+    "takenAt": "2026-11-17T12:40:45Z",
     "games": [
       {
         "gameId": "401873066",
@@ -181,18 +181,7 @@
               "qb",
               "passing"
             ],
-            "status": null
-          },
-          {
-            "athleteId": "4428512",
-            "name": "Kedon Slovis",
-            "pos": "QB",
-            "teamId": "33",
-            "teamAbbr": "BAL",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4429615",
@@ -523,7 +512,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
