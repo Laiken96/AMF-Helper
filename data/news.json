@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T04:38:38Z",
+  "updatedAt": "2026-11-17T04:47:25Z",
   "items": [
+    {
+      "id": "52085f4dd82dbb98",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50506286/ravens-chargers-mnf-herbert-first-win",
+      "title": "Justin Herbert, defense helps lift Chargers past Ravens on MNF",
+      "summary": "Chargers defense stifles Baltimore's running backs, and Justin Herbert steps up in Los Angeles' first win.",
+      "publishedAt": "2026-11-17T04:46:15Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
     {
       "id": "70b382ade4976018",
       "source": "pft",
@@ -1649,18 +1661,6 @@
       "publishedAt": "2026-11-16T09:58:15Z",
       "teamIds": [
         "8"
-      ]
-    },
-    {
-      "id": "01d6f754402a8fd1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-thats-clearly-not-to-the-standard-of-the-pittsburgh-steelers",
-      "title": "Mike McCarthy: \"That's clearly not to the standard of the Pittsburgh Steelers\"",
-      "summary": "\"I was very disappointed. We're all disappointed,\" McCarthy said after a 38-18 loss to the Bengals.",
-      "publishedAt": "2026-11-16T09:06:29Z",
-      "teamIds": [
-        "4",
-        "23"
       ]
     }
   ]
