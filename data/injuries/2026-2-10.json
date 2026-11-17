@@ -1048,7 +1048,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-17T01:20:34Z",
+    "takenAt": "2026-11-17T01:30:52Z",
     "games": [
       {
         "gameId": "401873052",
@@ -2091,13 +2091,26 @@
             "status": "Out"
           },
           {
-            "athleteId": "4685382",
-            "name": "Omarion Hampton",
-            "pos": "RB",
+            "athleteId": "4038941",
+            "name": "Justin Herbert",
+            "pos": "QB",
             "teamId": "24",
             "teamAbbr": "LAC",
             "roles": [
+              "qb",
+              "passing",
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4686612",
+            "name": "Tre' Harris",
+            "pos": "WR",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
             ],
             "status": null
           }
