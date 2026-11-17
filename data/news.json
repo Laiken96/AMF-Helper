@@ -1,7 +1,152 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T18:47:25Z",
+  "updatedAt": "2026-11-17T19:47:41Z",
   "items": [
+    {
+      "id": "a59bc6a122e0334b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50512634/nfl-flexes-raiders-browns-snf-slot-week-12",
+      "title": "NFL flexes Raiders-Browns to replace Pats-Chargers in SNF slot for Week 12",
+      "summary": "The NFL has flexed the Raiders-Browns Week 12 game into NBC's \"Sunday Night Football\" slot.",
+      "publishedAt": "2026-11-17T19:29:43Z",
+      "teamIds": [
+        "5",
+        "24",
+        "13",
+        "17"
+      ]
+    },
+    {
+      "id": "78215a96e798fc7f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50463509/chuba-hubbard-x-factor-spark-carolina-panthers",
+      "title": "Is Chuba Hubbard the biggest X factor to spark a Panthers turnaround?",
+      "summary": "Meet Carolina's team captain, a locker room leader and a relentless running back who is \"chasing greatness myself.\"",
+      "publishedAt": "2026-11-17T19:29:01Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "a87076e256e75b81",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869463/2026-fantasy-football-expected-points-xfpa-position-qb-rb-wr-te",
+      "title": "2026 expected fantasy points against (xFPA) by position",
+      "summary": "Measuring the best defenses against specific positions by using expected points vs. actual fantasy production.",
+      "publishedAt": "2026-11-17T19:25:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "af1eb0bdc5b525e0",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869668/2026-fantasy-football-expected-fantasy-points-xfp-te",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for TEs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-17T19:20:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "5d67837c042d9f80",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869659/fantasy-football-2026-expected-fantasy-points-xfp-wr",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-17T19:19:29Z",
+      "teamIds": []
+    },
+    {
+      "id": "33cf91fb12b5eb9b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869631/2026-fantasy-football-expected-fantasy-points-xfp-rb",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for RBs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-17T19:17:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "200a5d920c3934d7",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869566/2026-fantasy-football-expected-fantasy-points-xfp-qb",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for QBs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-17T19:15:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "db964101440c9626",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-players-will-get-their-mandatory-four-days-off-after-week-12-game",
+      "title": "Packers players will get their mandatory four days off after Week 12 game",
+      "summary": "The Packers have a bye in Week 11.",
+      "publishedAt": "2026-11-17T19:15:18Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "74f4aedd80868af4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacory-croskey-merritt-returns-to-commanders-practice",
+      "title": "Jacory Croskey-Merritt returns to Commanders practice",
+      "summary": "The Commanders could get running back Jacory Croskey-Merritt back in the lineup as they try to win for the second straight week.",
+      "publishedAt": "2026-11-17T19:06:33Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "a5d77d6ddb02ae3c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49954186/fantasy-football-rankings-consistency-ratings-start-sit-value",
+      "title": "Fantasy football consistency ratings: 2024 to 2026",
+      "summary": "The consistency ratings weigh both how consistent and how start-worthy players have been from 2024 to 2026.",
+      "publishedAt": "2026-11-17T19:03:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "45f61d302040577a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-flexes-raiders-browns-to-sunday-night-in-week-12",
+      "title": "NFL flexes Raiders-Browns to Sunday night in Week 12",
+      "summary": "Originally scheduled for SNF, Patriots-Chargers moves to 4:05 p.m. on CBS.",
+      "publishedAt": "2026-11-17T18:59:54Z",
+      "teamIds": [
+        "5",
+        "24",
+        "13",
+        "17"
+      ]
+    },
+    {
+      "id": "14a0a051c07584cb",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
+      "title": "NFL expected touchdown (xTD) leaderboard for 2026",
+      "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
+      "publishedAt": "2026-11-17T18:59:38Z",
+      "teamIds": []
+    },
+    {
+      "id": "dbcea17e24b59ba3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50119375/2026-fantasy-football-rankings-start-sit",
+      "title": "Fantasy football consistency ratings for 2026",
+      "summary": "The consistency ratings weigh how consistent, as well as how start-worthy, players have been in ESPN fantasy football leagues in 2026.",
+      "publishedAt": "2026-11-17T18:58:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "54e34ff40ddc957d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-flores-vikings-plan-to-rotate-players-in-order-to-deal-with-altitude-in-mexico-city",
+      "title": "Brian Flores: Vikings plan to rotate players in order to deal with altitude in Mexico City",
+      "summary": "The 49ers are spending the week in Colorado in order to acclimate to the altitude at which their Week 11 game in Mexico City will be played.",
+      "publishedAt": "2026-11-17T18:50:09Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "23c15f803b0376fe",
       "source": "espn",
@@ -530,6 +675,18 @@
       "summary": "Hutchinson tore his ACL while celebrating a sack.",
       "publishedAt": "2026-11-17T13:41:59Z",
       "teamIds": []
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Henry has confusing night, Hampton breaks through",
+      "summary": "Week 10 closes with Chargers winning their first game as Baltimore's offense adjusts to new QB.",
+      "publishedAt": "2026-11-17T13:22:51Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
     },
     {
       "id": "9e8b3d29e9641588",
@@ -1457,172 +1614,6 @@
       "teamIds": [
         "26"
       ]
-    },
-    {
-      "id": "ecb75ef917f6a430",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-confirms-packers-plan-to-have-micah-parsons-return-week-12-vs-rams",
-      "title": "Matt LaFleur confirms Packers plan to have Micah Parsons return Week 12 vs. Rams",
-      "summary": "It was widely reported that edge rusher Micah Parsons was targeting the Week 12 game against the Rams for his return from reconstructive knee surgery.",
-      "publishedAt": "2026-11-16T19:44:00Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "749c6d516919a4ea",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
-      "title": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
-      "summary": "Vikings wide receiver Jordan Addison needs to undergo surgery on his thumb and is a candidate for injured reserve, coach Kevin O'Connell said Monday.",
-      "publishedAt": "2026-11-16T19:30:11Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "126139abbc79421d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50503576/mcafee-believe-how-unlucky-aidan-hutchinson-injury-is",
-      "title": "McAfee can't believe how unlucky Aidan Hutchinson's injury is",
-      "summary": null,
-      "publishedAt": "2026-11-16T19:25:40Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "6c3af97cfed0f5bd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-s-tavierre-thomas-off-vikings-practice-squad",
-      "title": "Giants sign S Tavierre Thomas off Vikings practice squad",
-      "summary": "The Giants are adding some depth for their secondary.",
-      "publishedAt": "2026-11-16T19:24:59Z",
-      "teamIds": [
-        "16",
-        "19"
-      ]
-    },
-    {
-      "id": "060d9a2f9380975c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/broncos-chargers-trade-sean-payton-jim-harbaugh-loophole",
-      "title": "Sean Payton disputes Jim Harbaugh's 'loophole' claim after Broncos-Chargers trade falls apart",
-      "summary": "The Broncos coach rejected Harbaugh's criticism of the process that derailed Denver's trade for Chargers linebacker Daiyan Henley",
-      "publishedAt": "2026-11-16T19:05:42Z",
-      "teamIds": [
-        "7",
-        "24"
-      ]
-    },
-    {
-      "id": "2d7f46eb005a5ff0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-george-holani-week-to-week-with-mcl-sprain",
-      "title": "Report: George Holani week-to-week with MCL sprain",
-      "summary": "Seattle may not have one of its offensive and special teams contributors when the club returns from its Week 11 bye.",
-      "publishedAt": "2026-11-16T19:01:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "5340a695235f0784",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/joe-burrow-stats-mvp-bengals-qb-2026",
-      "title": "Joe Burrow isn't just chasing MVP, he's chasing the greatest passing season ever",
-      "summary": "With 20 touchdown passes during Cincinnati's five-game winning streak, Burrow has separated himself in the MVP race while closing in on historic territory",
-      "publishedAt": "2026-11-16T18:59:20Z",
-      "teamIds": []
-    },
-    {
-      "id": "1962f327d01f5e7d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pick-six-nfl-week-10-losers-grades-every-team-ravens-chargers-picks-monday-night",
-      "title": "NFL Week 10 losers, plus grades for every team and Ravens-Chargers picks for Monday night",
-      "summary": "Here's everything you need to know about the NFL for Nov. 16",
-      "publishedAt": "2026-11-16T18:51:18Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "db0ce9f8e41b3560",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50464190/nfl-odds-betting-chargers-first-win-week-10",
-      "title": "When will the Chargers finally win? Here are the odds and our best bets",
-      "summary": "The Chargers are 0-8 heading into their Monday night matchup with the Ravens. If they don't win this week, when will they get off the schneid?",
-      "publishedAt": "2026-11-16T18:45:11Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "0f7f56352bc9eda9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-theres-no-loophole-in-the-trade-process",
-      "title": "Sean Payton: \"There's no loophole\" in the trade process",
-      "summary": "Payton disputes JIm Harbaugh's characterization of the failed Daiyan Henley trade.",
-      "publishedAt": "2026-11-16T18:42:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "a184885899855424",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-to-miss-multiple-weeks-after-thumb-surgery",
-      "title": "Jordan Addison to miss multiple weeks after thumb surgery",
-      "summary": "Vikings wide receiver Jordan Addison's thumb injury kept him from playing in Sunday's win over the Packers and it will be a little while before he's able to return to action.",
-      "publishedAt": "2026-11-16T18:38:59Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "9bf19309adb47434",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-sign-zach-ertz-to-53-man-roster-designate-rb-will-shipley-for-return-from-ir",
-      "title": "Eagles sign Zach Ertz to 53-man roster, designate RB Will Shipley for return from IR",
-      "summary": "The Eagles announced a handful of roster moves as they come out of their bye week.",
-      "publishedAt": "2026-11-16T18:31:41Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "d1455ea57ffbb598",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50501527/nfl-week-11-betting-odds-props-early-picks-predictions",
-      "title": "Early bets for Week 11: Will Broncos keep Raiders down? Will 49ers stay hot?",
-      "summary": "Which Week 11 lines offered immediate value once odds came out? Here are the early bets we like.",
-      "publishedAt": "2026-11-16T18:30:20Z",
-      "teamIds": [
-        "7",
-        "13",
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "d02eec1e607c2e41",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
-      "title": "Falcons WR Drake London cleared after being checked for concussion",
-      "summary": "Falcons wide receiver Drake London has been cleared after being removed from Sunday's game against the Chiefs late with a possible concussion.",
-      "publishedAt": "2026-11-16T18:29:38Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "cba38e4afad7f5c9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ufls-battlehawks-work-out-a-deal-to-stay-at-dome-in-st-louis",
-      "title": "UFL's BattleHawks work out a deal to stay at dome in St. Louis",
-      "summary": "As of last month, the UFL had a stadium issue in St.",
-      "publishedAt": "2026-11-16T18:22:19Z",
-      "teamIds": []
     }
   ]
 }
