@@ -1,7 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T19:47:41Z",
+  "updatedAt": "2026-11-17T20:47:26Z",
   "items": [
+    {
+      "id": "3a1c1640fa2812b1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-the-seahawks-this-year-drew-locks-numbers-blow-sam-darnolds-away",
+      "title": "For the Seahawks this year, Drew Lock's numbers blow Sam Darnold's away",
+      "summary": "When Seahawks coach Mike Macdonald confirmed that Sam Darnold will start in Week 12 against the 49ers, assuming he is medically cleared, it was no surprise: The Seahawks signed Darnold to a three-year, $100 million contract last year and won the Super Bowl with Darnold at the helm.",
+      "publishedAt": "2026-11-17T20:39:00Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "87e76d409d1a4cbf",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50512512/2026-fantasy-football-knockout-leagues-pickups-week-11",
+      "title": "Irving, Walker III, Bowers and more Knockout league pickups for Week 11",
+      "summary": "As the number of teams shrink, the number of stars available in Knockout leagues grows. Here are the ones to get.",
+      "publishedAt": "2026-11-17T20:33:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "ea5b4ec9c7423132",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-wr-quez-watkins-to-the-active-roster-from-the-practice-squad",
+      "title": "Colts sign WR Quez Watkins to the active roster from the practice squad",
+      "summary": "The Colts signed wide receiver Quez Watkins to the 53-player roster from the practice squad on Tuesday, the team announced.",
+      "publishedAt": "2026-11-17T20:15:44Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "880288f403fba92c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 11",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-17T20:14:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "51d2d0b21219505f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-really-encouraged-by-carson-becks-first-start",
+      "title": "Mike LaFleur \"really encouraged\" by Carson Beck's first start",
+      "summary": "Cardinals quarterback Carson Beck had a rough go of it in his first start, falling 34-6 to the Rams.",
+      "publishedAt": "2026-11-17T19:55:04Z",
+      "teamIds": [
+        "22",
+        "14"
+      ]
+    },
     {
       "id": "a59bc6a122e0334b",
       "source": "espn",
@@ -25,6 +78,18 @@
       "publishedAt": "2026-11-17T19:29:01Z",
       "teamIds": [
         "29"
+      ]
+    },
+    {
+      "id": "11454e8c654a5dea",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-schedule-flex-week-12-sunday-night-football-patriots-chargers",
+      "title": "NFL schedule flex: League moves Week 12 'Sunday Night Football' matchup, shifts afternoon games",
+      "summary": "Patriots at Chargers is moving out of primetime",
+      "publishedAt": "2026-11-17T19:25:50Z",
+      "teamIds": [
+        "24",
+        "17"
       ]
     },
     {
@@ -729,7 +794,7 @@
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/2026-nfl-starting-quarterback-rankings-joe-burrow-josh-allen",
       "title": "Ranking the 50 QBs who have started an NFL game in 2026: From cellar-dwellers to gold standard",
-      "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standar",
+      "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standard",
       "publishedAt": "2026-11-17T12:25:14Z",
       "teamIds": []
     },
@@ -1075,6 +1140,15 @@
       "teamIds": [
         "14"
       ]
+    },
+    {
+      "id": "5340a695235f0784",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/joe-burrow-stats-mvp-bengals-qb-2026",
+      "title": "Joe Burrow isn't just chasing MVP, he's chasing the greatest passing season ever",
+      "summary": "With 20 touchdown passes during Cincinnati's five-game winning streak, Burrow has separated himself in the MVP race while closing in on historic territory",
+      "publishedAt": "2026-11-17T02:21:00Z",
+      "teamIds": []
     },
     {
       "id": "1ba62bbf68a7ca47",
@@ -1532,87 +1606,6 @@
       "publishedAt": "2026-11-16T20:42:42Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "3cbb9eef6676fe95",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-it-looks-like-josh-downs-patrick-mahomes-have-a-little-connection-going",
-      "title": "Andy Reid: It looks like Josh Downs, Patrick Mahomes have a little connection going",
-      "summary": "The early returns from the Chiefs' trade for receiver Josh Downs were undoubtedly positive, as the wideout caught four passes on five targets for 53 yards with an 18-yard touchdown.",
-      "publishedAt": "2026-11-16T20:40:21Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "eeeff1edcf0fcc01",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50504016/can-bengals-keep-winning-throwing-much",
-      "title": "Can the Bengals keep winning while throwing so much?",
-      "summary": null,
-      "publishedAt": "2026-11-16T20:17:29Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "48ad7b3edb578eed",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-chargers-vs-ravens-on-mnf-blazers-vs-timberwolves-and-more",
-      "title": "Today's top games to watch, best bets, odds: Chargers vs. Ravens on MNF, Blazers vs. Timberwolves and more",
-      "summary": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-16T20:09:12Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "6b6cd350c16fb380",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chargers-ravens-odds-first-touchdown-scorer-picks-nfl-predictions-monday-night-football-week-10",
-      "title": "Chargers vs. Ravens odds: First touchdown scorer picks, NFL predictions for Monday Night Football Week 10",
-      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Chargers and Ravens to end Week 10",
-      "publishedAt": "2026-11-16T20:07:30Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "554f2ac02da2f27f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-cb-marco-wilson-to-the-active-roster",
-      "title": "Panthers sign CB Marco Wilson to the active roster",
-      "summary": "Cornerback Marco Wilson had a hand in one of the Panthers' two takeaways in Sunday's win over the Saints and he moved up to a spot on the active roster on Monday.",
-      "publishedAt": "2026-11-16T19:59:58Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "c7aaf824f1ac03e3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-were-playing-unacceptable-football-our-fans-deserve-better",
-      "title": "Stephen Jones: We're playing \"unacceptable\" football, our fans deserve better",
-      "summary": "Sunday's loss to the 49ers dropped the Cowboys to 4-6 on the season and magnified the season-long struggles that the team has had on the defensive side of the ball.",
-      "publishedAt": "2026-11-16T19:54:14Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "482c1954fc59344d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quenton-nelson-is-not-healthy-enough-to-practice-yet-seahawks-are-unsure-when-he-will-be",
-      "title": "Quenton Nelson is not healthy enough to practice yet, Seahawks are unsure when he will be",
-      "summary": "When the Seahawks traded for Quenton Nelson, they added one of the best guards in the NFL — when he's healthy.",
-      "publishedAt": "2026-11-16T19:47:09Z",
-      "teamIds": [
-        "26"
       ]
     }
   ]

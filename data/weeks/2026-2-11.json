@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-09T18:47:18Z",
+  "fetchedAt": "2026-11-17T20:47:19Z",
   "source": "espn",
   "games": [
     {
@@ -25,8 +25,8 @@
         "city": "Houston",
         "country": "USA"
       },
-      "homeRest": 4,
-      "awayRest": 4
+      "homeRest": 11,
+      "awayRest": 11
     },
     {
       "id": "401873067",
@@ -47,8 +47,8 @@
         "city": "Kansas City",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": 14,
+      "awayRest": 14
     },
     {
       "id": "401873068",
@@ -69,8 +69,8 @@
         "city": "Charlotte",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 6
+      "homeRest": 14,
+      "awayRest": 17
     },
     {
       "id": "401873070",
@@ -91,8 +91,8 @@
         "city": "Orchard Park",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": 13,
+      "awayRest": 14
     },
     {
       "id": "401873071",
@@ -114,7 +114,7 @@
         "country": "USA"
       },
       "homeRest": 14,
-      "awayRest": 7
+      "awayRest": 14
     },
     {
       "id": "401873072",
@@ -135,7 +135,7 @@
         "city": "Detroit",
         "country": "USA"
       },
-      "homeRest": 7,
+      "homeRest": 14,
       "awayRest": 14
     },
     {
@@ -157,8 +157,8 @@
         "city": "Arlington",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": 14,
+      "awayRest": 12348
     },
     {
       "id": "401873076",
@@ -180,7 +180,7 @@
         "country": "USA"
       },
       "homeRest": 14,
-      "awayRest": 7
+      "awayRest": 12348
     },
     {
       "id": "401873074",
@@ -201,8 +201,8 @@
         "city": "Inglewood",
         "country": "USA"
       },
-      "homeRest": 6,
-      "awayRest": 7
+      "homeRest": 14,
+      "awayRest": 14
     },
     {
       "id": "401873069",
@@ -223,8 +223,8 @@
         "city": "East Rutherford",
         "country": "USA"
       },
-      "homeRest": 10,
-      "awayRest": 7
+      "homeRest": 14,
+      "awayRest": 17
     },
     {
       "id": "401873075",
@@ -246,7 +246,7 @@
         "country": "USA"
       },
       "homeRest": 14,
-      "awayRest": 7
+      "awayRest": 14
     },
     {
       "id": "401873077",
@@ -267,8 +267,8 @@
         "city": "Mexico City",
         "country": "Mexico"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": 14,
+      "awayRest": 13
     },
     {
       "id": "401873078",
@@ -289,8 +289,8 @@
         "city": "Landover",
         "country": "USA"
       },
-      "homeRest": 11,
-      "awayRest": 8
+      "homeRest": 15,
+      "awayRest": 15
     }
   ],
   "byeTeamIds": [

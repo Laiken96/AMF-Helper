@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 10,
-  "fetchedAt": "2026-11-17T04:38:34Z",
+  "fetchedAt": "2026-11-17T20:47:19Z",
   "source": "espn",
   "games": [
     {
@@ -11,7 +11,7 @@
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-13T01:15:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "19",
       "awayId": "28",
       "status": "final",
@@ -25,15 +25,15 @@
         "city": "East Rutherford",
         "country": "USA"
       },
-      "homeRest": 4,
-      "awayRest": 4
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873053",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T14:30:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "8",
       "awayId": "17",
       "status": "final",
@@ -47,15 +47,15 @@
         "city": "Munich",
         "country": "Germany"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873054",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "20",
       "awayId": "2",
       "status": "final",
@@ -69,15 +69,15 @@
         "city": "East Rutherford",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 6
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873055",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "18",
       "awayId": "29",
       "status": "final",
@@ -91,15 +91,15 @@
         "city": "New Orleans",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873056",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "5",
       "awayId": "34",
       "status": "final",
@@ -113,15 +113,15 @@
         "city": "Cleveland",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873057",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "10",
       "awayId": "30",
       "status": "final",
@@ -135,15 +135,15 @@
         "city": "Nashville",
         "country": "USA"
       },
-      "homeRest": 14,
-      "awayRest": 10
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873058",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "1",
       "awayId": "12",
       "status": "final",
@@ -157,15 +157,15 @@
         "city": "Atlanta",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873059",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "11",
       "awayId": "15",
       "status": "final",
@@ -179,15 +179,15 @@
         "city": "Indianapolis",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873060",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T18:00:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "9",
       "awayId": "16",
       "status": "final",
@@ -201,15 +201,15 @@
         "city": "Green Bay",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 6
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873061",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T21:05:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "22",
       "awayId": "14",
       "status": "final",
@@ -223,15 +223,15 @@
         "city": "Glendale",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873062",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T21:05:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "13",
       "awayId": "26",
       "status": "final",
@@ -245,15 +245,15 @@
         "city": "Las Vegas",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873063",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-15T21:25:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "6",
       "awayId": "25",
       "status": "final",
@@ -267,15 +267,15 @@
         "city": "Arlington",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 7
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873064",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-16T01:20:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "4",
       "awayId": "23",
       "status": "final",
@@ -289,15 +289,15 @@
         "city": "Cincinnati",
         "country": "USA"
       },
-      "homeRest": 7,
-      "awayRest": 14
+      "homeRest": null,
+      "awayRest": null
     },
     {
       "id": "401873065",
       "season": 2026,
       "seasonType": 2,
       "week": 10,
-      "kickoffUtc": "2026-11-17T01:15:00Z",
+      "kickoffUtc": "1993-01-31T23:30:00Z",
       "homeId": "33",
       "awayId": "24",
       "status": "final",
@@ -311,8 +311,8 @@
         "city": "Baltimore",
         "country": "USA"
       },
-      "homeRest": 11,
-      "awayRest": 8
+      "homeRest": null,
+      "awayRest": null
     }
   ],
   "byeTeamIds": [
