@@ -1,7 +1,102 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T21:47:25Z",
+  "updatedAt": "2026-11-17T22:47:18Z",
   "items": [
+    {
+      "id": "94502e89f72acbd6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50513896/source-dolphins-jordan-phillips-miss-rest-season",
+      "title": "Source: Jordan Phillips latest Dolphins DT to suffer season-ending injury",
+      "summary": "Dolphins DT Jordan Phillips will miss the rest of the season with torn biceps, a source confirmed to ESPN.",
+      "publishedAt": "2026-11-17T22:30:15Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "870da9e935c727e0",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50514282/why-cockcroft-likes-jets-d-st-week-11",
+      "title": "Why Cockcroft likes the Jets D/ST for Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-17T22:29:16Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "51010f1d452dec3d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50514216/arrest-warrants-issued-robbery-steelers-max-iheanachor",
+      "title": "Arrest warrants issued for robbery of Steelers' Max Iheanachor",
+      "summary": "Arrest warrants have been issued for three individuals in connection with the burglary of the home of Steelers first-round pick Max Iheanachor, police said.",
+      "publishedAt": "2026-11-17T22:23:30Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "d7de52a7238af37e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50514115/dj-wonnum-priority-pickup-fantasy-idp-leagues-week-11",
+      "title": "Cockcroft: DJ Wonnum a priority pickup in fantasy IDP leagues in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-17T22:15:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "58563b3e918f050c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50514056/why-fantasy-managers-utilize-dak-prescott-week-11",
+      "title": "Why fantasy managers should utilize Dak Prescott in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-17T22:15:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "1382e036a7a4611c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-sign-jared-harrison-hunte-wydett-williams-to-53-man-roster",
+      "title": "Cardinals sign Jared Harrison-Hunte, Wydett Williams to 53-man roster",
+      "summary": "The Cardinals announced on Tuesday that they’ve made a series of roster moves.",
+      "publishedAt": "2026-11-17T22:08:10Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "f93b79d73a8faba2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50513594/titans-put-wr-wandale-robinson-ankle-ir",
+      "title": "Titans put WR Wan'Dale Robinson on IR due to ankle injury",
+      "summary": "The Titans placed wide receiver Wan'Dale Robinson on injured reserve Tuesday.",
+      "publishedAt": "2026-11-17T22:06:30Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "ab8bafdad0455ebf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-wont-wallow-in-what-ifs-arising-from-injuries",
+      "title": "Dan Campbell won't wallow in \"what ifs\" arising from injuries",
+      "summary": "The Lions have, in recent weeks, lost both linebacker Jack Campbell (neck) and defensive end Aidan Hutchinson (knee) to significant injuries.",
+      "publishedAt": "2026-11-17T22:05:21Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "82030f876bf73a8c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-sign-rb-e-j-smith-emmitts-son-to-the-practice-squad",
+      "title": "Chiefs sign RB E.J. Smith, Emmitt's son, to the practice squad",
+      "summary": "The Chiefs signed running back E.J.",
+      "publishedAt": "2026-11-17T21:57:02Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "4f42fc111216eef5",
       "source": "pft",
@@ -1502,105 +1597,6 @@
       "publishedAt": "2026-11-16T22:30:46Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "088a7d245e3f5a43",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-qb-brett-rypien-to-the-practice-squad",
-      "title": "Raiders sign QB Brett Rypien to the practice squad",
-      "summary": "The Raiders needed another quarterback after trading Kirk Cousins to the Vikings.",
-      "publishedAt": "2026-11-16T22:11:38Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "b8331e0f7c3c752a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-on-confidence-in-christian-parker-were-still-working-through-the-process",
-      "title": "Brian Schottenheimer on confidence in Christian Parker: We're still working through the process",
-      "summary": "One constant of the 2026 Cowboys season has been a focus on defensive coordinator Christian Parker's job security in the wake of losses and things aren't any different in the aftermath of Sunday's loss to the 49ers.",
-      "publishedAt": "2026-11-16T22:05:46Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "cef138fd185359a0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-extensive-officiating-adjustments-worked-but-were-they-necessary",
-      "title": "The extensive officiating adjustments worked, but were they necessary?",
-      "summary": "Friday's nationwide ground stop didn't affect any of the NFL teams that needed to travel from one place to the other for Week 10 games.",
-      "publishedAt": "2026-11-16T22:03:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "27426897a24c4d7a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-waive-jamree-kromah",
-      "title": "Dolphins waive Jamree Kromah",
-      "summary": "The Dolphins have let go of an edge rusher.",
-      "publishedAt": "2026-11-16T22:00:42Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "09dd72b73a36ab99",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-sign-qb-easton-stick-from-the-practice-squad-to-the-active-roster",
-      "title": "Bucs sign QB Easton Stick from the practice squad to the active roster",
-      "summary": "The Buccaneers signed quarterback Easton Stick from the practice squad to the active roster on Monday, the team announced.",
-      "publishedAt": "2026-11-16T21:54:29Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "c1b58f7ecf629c87",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-weve-put-more-on-cam-wards-plate-and-hes-proving-he-can-handle-it",
-      "title": "Robert Saleh: We've put more on Cam Ward's plate and he's proving he can handle it",
-      "summary": "The Titans lost their third straight game on Sunday, but head coach Robert Saleh continued to like what he saw from quarterback Cam Ward during Jacksonville's 40-23 win.",
-      "publishedAt": "2026-11-16T21:46:54Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "28108d8d72e719c7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/sophomore-bounce-back-letdown-will-campbell-quietly-improving-ashton-jeanty-among-2025-first-round-busts",
-      "title": "Sophomore bounce-back or letdown? Will Campbell quietly improving, Ashton Jeanty among 2025 first-round busts",
-      "summary": "Last year's top draft picks reached a pivot point in their careers, and not everyone is on the right trajectory",
-      "publishedAt": "2026-11-16T21:24:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "937c54facaa5f89e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-elevate-wr-chris-moore-te-nick-vannett-sign-ot-chuma-edoga",
-      "title": "Ravens elevate WR Chris Moore, TE Nick Vannett; sign OT Chuma Edoga",
-      "summary": "The Ravens added three players to their roster ahead of Monday night's game against the Chargers.",
-      "publishedAt": "2026-11-16T21:21:28Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "e6e839927c683d15",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-activate-te-david-njoku-lb-denzel-perryman-for-monday-night-vs-ravens",
-      "title": "Chargers activate TE David Njoku, LB Denzel Perryman for Monday night vs. Ravens",
-      "summary": "The Chargers will officially have a couple of players back for Monday night's game against the Ravens.",
-      "publishedAt": "2026-11-16T21:17:58Z",
-      "teamIds": [
-        "33",
-        "24"
       ]
     }
   ]
