@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T14:14:37Z",
+  "updatedAt": "2026-11-18T14:47:29Z",
   "items": [
+    {
+      "id": "233a70332f8492b2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/gardner-minshew-had-surgery-to-repair-torn-ligament-in-throwing-elbow",
+      "title": "Gardner Minshew had surgery to repair torn ligament in throwing elbow",
+      "summary": "Cardinals quarterback Gardner Minshew has had surgery to repair the elbow injury that ended his season.",
+      "publishedAt": "2026-11-18T14:40:44Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "72d90415483ac002",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50520649/kyle-brandt-dismisses-notion-jags-blow-giants-sunday",
+      "title": "Kyle Brandt dismisses notion Jags will blow out Giants on Sunday",
+      "summary": null,
+      "publishedAt": "2026-11-18T14:39:57Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "094dd46aa0fe2343",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50520527/bo-nix-week-11-fantasy-outlook",
+      "title": "Bo Nix's Week 11 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-18T14:21:06Z",
+      "teamIds": []
+    },
     {
       "id": "4abfe628e3c8e6f7",
       "source": "espn",
@@ -230,7 +262,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50513014/packers-jordan-love-sack-rushing-offensive-line",
       "title": "Why Packers can't protect Jordan Love or rush successfully",
-      "summary": "The two-year demise of the Packers' offensive line began on March 10, 2025 and has no end in sight.",
+      "summary": "The two-year demise of the Packers' offensive line began on March 10, 2025, and has no end in sight.",
       "publishedAt": "2026-11-18T11:00:20Z",
       "teamIds": [
         "9"
@@ -1556,41 +1588,6 @@
       "publishedAt": "2026-11-17T10:01:00Z",
       "teamIds": [
         "12",
-        "24"
-      ]
-    },
-    {
-      "id": "46bc8e5b18c4e6fc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-on-10-carries-for-10-yards-i-dont-have-an-answer-just-not-good-enough",
-      "title": "Derrick Henry on 10 carries for 10 yards: I don't have an answer, just not good enough",
-      "summary": "Overall, the Ravens totaled 15 carries for 16 yards, their lowest rushing output in more than 10 years.",
-      "publishedAt": "2026-11-17T08:53:57Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "05dc558b44f57e23",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50508744/kyle-hamilton-says-ravens-disgracing-standards-loss-previously-winless-chargers",
-      "title": "Kyle Hamilton says Ravens 'disgracing' standards after losing to 0-8 Chargers",
-      "summary": "Pro Bowl safety Kyle Hamilton vented after the Ravens' 23-20 loss to the previously winless Chargers on Monday night, which was one of the most embarrassing defeats in team history.",
-      "publishedAt": "2026-11-17T07:44:33Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "cc35e39a96f8504c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50508438/chargers-relieved-beating-ravens-first-win-season",
-      "title": "Chargers relieved after beating Ravens for first win of season",
-      "summary": "The Chargers beat the Ravens 23-30 on Monday night to earn their first win since Week 16 of last season, bringing a franchise-wide sigh of relief.",
-      "publishedAt": "2026-11-17T06:40:54Z",
-      "teamIds": [
-        "33",
         "24"
       ]
     }
