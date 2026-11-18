@@ -1,13 +1,82 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T22:47:20Z",
+  "updatedAt": "2026-11-18T23:47:21Z",
   "items": [
+    {
+      "id": "a57d992901c03d80",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/giants-cam-skattebo-backflip-celebrations-aidan-hutchinson-injury",
+      "title": "Giants' Cam Skattebo to halt backflip celebrations after Aidan Hutchinson jumping celebration injury",
+      "summary": "Hutchinson suffered a season-ending knee injury while jumping to celebrate a sack in Week 10",
+      "publishedAt": "2026-11-18T23:43:27Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "80178ccec725aa01",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-dre-greenlaw-dont-practice-wednesday-49ers-hope-they-can-on-thursday",
+      "title": "Mike Evans, Dre Greenlaw don't practice Wednesday, 49ers hope they can on Thursday",
+      "summary": "Wide receiver Mike Evans didn't travel with the 49ers for last Sunday's game in Dallas, but he was in Colorado Springs with the team as they prepare for their game against the Vikings in Mexico City.",
+      "publishedAt": "2026-11-18T23:30:36Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "8a1e35e2f7ed270a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
+      "title": "TNF: Texans rule out DE Hunter, RB Marks; Colts rule out CB Ward, starting OTs",
+      "summary": "The Texans and Colts ruled out several key contributors for their Thursday night matchup.",
+      "publishedAt": "2026-11-18T23:26:51Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "8d9fd71ba0d78ae6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-pro-bowl-cb-marlon-humphrey-apologizes-baltimore-best-making-criminals",
+      "title": "Ravens CB Marlon Humphrey apologizes after saying Baltimore is 'best at making criminals'",
+      "summary": "Humphrey criticized the city where he has played all 10 of his NFL seasons on his podcast before apologizing Wednesday afternoon",
+      "publishedAt": "2026-11-18T23:22:16Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "12048b2ed2c4f890",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-bengals-on-sunday-night-football-draws-21-519-million-viewers",
+      "title": "Steelers-Bengals on Sunday Night Football draws 21.519 million viewers",
+      "summary": "The game was never competitive.",
+      "publishedAt": "2026-11-18T23:06:18Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "1b757fba90ad581a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marlon-humphrey-apologizes-for-saying-baltimore-is-best-at-making-criminals",
+      "title": "Marlon Humphrey apologizes for saying Baltimore is \"best at making criminals\"",
+      "summary": "Ravens cornerback Marlon Humphrey found himself in some hot water for comments he made about Baltimore on Wednesday.",
+      "publishedAt": "2026-11-18T23:05:41Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "cd4a3a89eea24204",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50524109/ravens-humphrey-apologizes-criminals-quip-podcast",
       "title": "Ravens' Humphrey apologizes for quip that Baltimore 'best at making criminals'",
-      "summary": "Ravens cornerback Marlon Humphrey apologized Wednesday for the derogatory comment he made about Baltimore on his recent podcast.",
+      "summary": "Ravens cornerback Marlon Humphrey apologized Wednesday for the derogatory comment he recently made about Baltimore on his podcast.",
       "publishedAt": "2026-11-18T22:42:11Z",
       "teamIds": [
         "33"
@@ -51,7 +120,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50524576/rb-skattebo-nix-backflips-wake-hutchinson-injury",
       "title": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
-      "summary": "Giants RB Cam Skattebo said he is holding off on doing anymore backflips Lions DE after Aidan Hutchinson suffered a major knee injury while attempting a flip.",
+      "summary": "Giants RB Cam Skattebo said he is holding off on doing any more backflips after Lions DE Aidan Hutchinson suffered a major knee injury while leaping and celebrating a sack.",
       "publishedAt": "2026-11-18T22:24:35Z",
       "teamIds": [
         "19"
@@ -1589,70 +1658,6 @@
         "22",
         "14"
       ]
-    },
-    {
-      "id": "a59bc6a122e0334b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50512634/nfl-flexes-raiders-browns-snf-slot-week-12",
-      "title": "NFL flexes Raiders-Browns to replace Pats-Chargers in SNF slot for Week 12",
-      "summary": "The NFL has flexed the Raiders-Browns Week 12 game into NBC's \"Sunday Night Football\" slot.",
-      "publishedAt": "2026-11-17T19:29:43Z",
-      "teamIds": [
-        "5",
-        "24",
-        "13",
-        "17"
-      ]
-    },
-    {
-      "id": "78215a96e798fc7f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50463509/chuba-hubbard-x-factor-spark-carolina-panthers",
-      "title": "Is Chuba Hubbard the biggest X factor to spark a Panthers turnaround?",
-      "summary": "Meet Carolina's team captain, a locker room leader and a relentless running back who is \"chasing greatness myself.\"",
-      "publishedAt": "2026-11-17T19:29:01Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "11454e8c654a5dea",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-schedule-flex-week-12-sunday-night-football-patriots-chargers",
-      "title": "NFL schedule flex: League moves Week 12 'Sunday Night Football' matchup, shifts afternoon games",
-      "summary": "Patriots at Chargers is moving out of prime time",
-      "publishedAt": "2026-11-17T19:25:50Z",
-      "teamIds": [
-        "24",
-        "17"
-      ]
-    },
-    {
-      "id": "a87076e256e75b81",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869463/2026-fantasy-football-expected-points-xfpa-position-qb-rb-wr-te",
-      "title": "2026 expected fantasy points against (xFPA) by position",
-      "summary": "Measuring the best defenses against specific positions by using expected points vs. actual fantasy production.",
-      "publishedAt": "2026-11-17T19:25:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "af1eb0bdc5b525e0",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869668/2026-fantasy-football-expected-fantasy-points-xfp-te",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for TEs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-17T19:20:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "5d67837c042d9f80",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869659/fantasy-football-2026-expected-fantasy-points-xfp-wr",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-17T19:19:29Z",
-      "teamIds": []
     }
   ]
 }
