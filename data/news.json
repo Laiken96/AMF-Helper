@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T11:47:21Z",
+  "updatedAt": "2026-11-18T12:47:23Z",
   "items": [
+    {
+      "id": "9b9487a27662025b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50513739/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
+      "title": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
+      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
+      "publishedAt": "2026-11-18T12:44:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "c2be3656a02e696f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-g-mason-mccormick-dislocated-his-ankle",
+      "title": "Report: Steelers G Mason McCormick dislocated his ankle",
+      "summary": "Steelers left guard Mason McCormick had to leave last Sunday's loss to the Bengals in an air cast after injuring his ankle and that seemed like a preamble to learning that he was out for the season.",
+      "publishedAt": "2026-11-18T12:11:20Z",
+      "teamIds": [
+        "4",
+        "23"
+      ]
+    },
+    {
+      "id": "532feed8583b10f8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-unacceptable-that-we-havent-been-able-to-run-the-ball-consistently",
+      "title": "Jesse Minter: \"Unacceptable\" that we haven't been able to run the ball consistently",
+      "summary": "The Ravens have lost five straight games since a 4-1 start to the season and a look at the team's results running the ball during the two halves of their season presents a big reason why their fortunes have changed.",
+      "publishedAt": "2026-11-18T12:01:11Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "d8615e29bd6d047c",
       "source": "pft",
@@ -79,6 +111,24 @@
       "teamIds": [
         "33",
         "24"
+      ]
+    },
+    {
+      "id": "0651c98e80408343",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-week-11-nfl-picks-odds-expert-picks-predictions",
+      "title": "Prisco's Week 11 NFL picks: Texans edge Colts on 'TNF,' Cowboys rout Titans, 49ers over Vikings",
+      "summary": "Pete Prisco reveals all of his Week 11 picks, including the Jaguars to handle the Giants on the road",
+      "publishedAt": "2026-11-18T11:00:54Z",
+      "teamIds": [
+        "6",
+        "34",
+        "11",
+        "30",
+        "16",
+        "19",
+        "25",
+        "10"
       ]
     },
     {
@@ -1548,51 +1598,6 @@
       "summary": null,
       "publishedAt": "2026-11-17T03:45:46Z",
       "teamIds": []
-    },
-    {
-      "id": "4ea8397845ccb397",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
-      "title": "NFL Week 10 grades: Chargers earn 'A-' for picking up first win, Packers fail in showdown with Vikings",
-      "summary": "We're handing out grades for every team that played in Week 10",
-      "publishedAt": "2026-11-17T03:44:02Z",
-      "teamIds": [
-        "9",
-        "24",
-        "16"
-      ]
-    },
-    {
-      "id": "d3f403796ece48f4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-honors-moves-from-thursday-back-to-saturday",
-      "title": "NFL Honors moves from Thursday back to Saturday",
-      "summary": "The NFL Honors ceremony is on the move, again.",
-      "publishedAt": "2026-11-17T03:27:50Z",
-      "teamIds": []
-    },
-    {
-      "id": "234e3a55cf6a0c4d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-dt-zeek-biggers-out-for-the-season-with-knee-injury",
-      "title": "Dolphins DT Zeek Biggers out for the season with knee injury",
-      "summary": "Dolphins defensive tackle Zeek Biggers will require season-ending surgery to repair his lateral meniscus, Ian Rapoport of NFL Media reports.",
-      "publishedAt": "2026-11-17T03:10:02Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "82c8bfed1d8e0086",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-lead-ravens-17-10-at-halftime",
-      "title": "Monday Night Football: Chargers lead Ravens 17-10 at halftime",
-      "summary": "Justin Herbert and Omarion Hampton have touchdown runs for the winless Chargers.",
-      "publishedAt": "2026-11-17T02:49:44Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
     }
   ]
 }
