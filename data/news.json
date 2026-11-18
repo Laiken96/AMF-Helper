@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T09:47:28Z",
+  "updatedAt": "2026-11-18T10:47:21Z",
   "items": [
+    {
+      "id": "254e407cd44e9b9b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-vikings-reunion-could-be-just-getting-started",
+      "title": "Kirk Cousins, Vikings reunion could be just getting started",
+      "summary": "Quarterback Kirk Cousins will spend the rest of the 2026 season with the Vikings.",
+      "publishedAt": "2026-11-18T10:39:57Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "923e30289835a07f",
       "source": "pft",
@@ -1580,18 +1591,6 @@
       "title": "Ravens vs. Chargers prediction: Can L.A. get its first win on 'MNF' against the injury-plagued Ravens?",
       "summary": "Plus, how to watch, odds, a preview and a prediction for the Monday night matchup",
       "publishedAt": "2026-11-17T00:28:13Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "146182c0bdeecc45",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
-      "title": "Chargers vs. Ravens odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Chargers vs. Ravens on Monday Night Football",
-      "publishedAt": "2026-11-17T00:04:30Z",
       "teamIds": [
         "33",
         "24"
