@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T02:47:22Z",
+  "updatedAt": "2026-11-18T03:47:26Z",
   "items": [
+    {
+      "id": "4c358fab42558135",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50516834/minter-ravens-working-jump-start-running-game-talk-cheap",
+      "title": "Minter: Ravens working to jump-start running game, but 'talk is cheap'",
+      "summary": "Baltimore Ravens coach Jesse Minter had some strong words when addressing the team's identity on Monday.",
+      "publishedAt": "2026-11-18T03:22:55Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "9b230a8c106421e5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-baker-mayfield-has-a-foot-strain-that-could-keep-him-out-sunday",
+      "title": "Report: Baker Mayfield has a foot strain that could keep him out Sunday",
+      "summary": "Baker Mayfield has a foot strain that \"seems to be trending\" toward the Buccaneers' quarterback not playing in Sunday's game against the Lions, Ian Rapoport of NFL Media reports.",
+      "publishedAt": "2026-11-18T03:14:54Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "cebaae8b137efe65",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/police-issue-arrest-warrants-for-august-burglary-at-max-iheanachors-home",
+      "title": "Police issue arrest warrants for August burglary at Max Iheanachor's home",
+      "summary": "In August, thieves targeted the home of Steelers rookie first-round tackle Max Iheanachor while he was in Buffalo for a preseason game.",
+      "publishedAt": "2026-11-18T03:12:21Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "4c6783547186f33e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-cowboys-cranks-out-27-13-million-viewers",
+      "title": "49ers-Cowboys cranks out 27.13 million viewers",
+      "summary": "Fox's Sunday tripleheader culminated in the national telecast of the 8-1 49ers at the record-doesn't-matter Cowboys.",
+      "publishedAt": "2026-11-18T02:57:17Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
     {
       "id": "562d323fa63a2bf4",
       "source": "pft",
@@ -1549,51 +1595,6 @@
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-16T23:53:27Z",
       "teamIds": []
-    },
-    {
-      "id": "9eb8e29c2c9882c8",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-nfl-week-10-first-touchdown-scorer-picks-nfl-predictions-for-monday-night-football",
-      "title": "Chargers vs. Ravens odds: NFL Week 10 first touchdown scorer picks, NFL predictions for Monday Night Football",
-      "summary": "Here are our top picks for first touchdown prediction markets on Monday Night Football between the Chargers and Ravens to end Week 10",
-      "publishedAt": "2026-11-16T23:50:42Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "6cb3c63b242f15b0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
-      "title": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
-      "summary": "Bears running back Kyle Monangai said Monday that he's \"on track\" to return Sunday against the Saints after sitting out five games because of a thumb injury and turf toe.",
-      "publishedAt": "2026-11-16T23:30:11Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "066507a9d8d28e7b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aidan-hutchinson-has-torn-acl-but-no-additional-damage",
-      "title": "Report: Aidan Hutchinson has torn ACL but no additional damage",
-      "summary": "Lions defensive end Aidan Hutchinson received a bit of good news after additional testing on his right knee.",
-      "publishedAt": "2026-11-16T23:23:40Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "7c1d463137376523",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50504017/raiders-fans-seated-fernando-mendoza-touchdown-tribute",
-      "title": "Behind Raiders fans' tribute to Fernando Mendoza's mother",
-      "summary": "Tom Joanides' social media campaign became a meaningful tribute when Mendoza scored in his first NFL start.",
-      "publishedAt": "2026-11-16T23:13:41Z",
-      "teamIds": [
-        "13"
-      ]
     }
   ]
 }
