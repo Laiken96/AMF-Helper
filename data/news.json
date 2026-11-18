@@ -1,7 +1,136 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T16:47:21Z",
+  "updatedAt": "2026-11-18T17:47:30Z",
   "items": [
+    {
+      "id": "81d09eb70d76a260",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50521008/nfl-current-worst-team-lamar-jackson-ravens-making-case-week-11",
+      "title": "The NFL's current worst team? Lamar-less Ravens making that case",
+      "summary": "The Ravens have gone 38 days without a win. It has been 24 days since they've had a lead.",
+      "publishedAt": "2026-11-18T17:40:53Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "6c48365a25e200b4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-practice-for-baker-mayfield-on-wednesday",
+      "title": "No practice for Baker Mayfield on Wednesday",
+      "summary": "Word on Tuesday was that Buccaneers quarterback Baker Mayfield's outlook for this week's game against the Lions was not promising and Wednesday didn't bring any better news.",
+      "publishedAt": "2026-11-18T17:30:40Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "8a4d00e109e31eb8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tory-hortons-heads-up-play-earns-him-nfc-special-teams-player-of-the-week",
+      "title": "Tory Horton's heads up play earns him NFC special teams player of the week",
+      "summary": "Late in Sunday's victory over the Raiders, Seahawks receiver Tory Horton made a heads-up play on special teams that helped seal the win.",
+      "publishedAt": "2026-11-18T17:22:26Z",
+      "teamIds": [
+        "13",
+        "26"
+      ]
+    },
+    {
+      "id": "2c43ba4a04fb9241",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-little-is-afc-special-teams-player-of-the-week-for-second-week-in-a-row",
+      "title": "Cam Little is AFC special teams player of the week for second week in a row",
+      "summary": "Jaguars kicker Cam Little turned in another strong game against the Titans last Sunday.",
+      "publishedAt": "2026-11-18T17:21:04Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "04524c5ed05668ba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-cb-justin-walley-named-the-afc-defensive-player-of-the-week",
+      "title": "Colts CB Justin Walley named the AFC defensive player of the week",
+      "summary": "The Colts ended a five-game losing streak with last Sunday's win over the Dolphins and a defensive touchdown played a big role in the 24-22 win.",
+      "publishedAt": "2026-11-18T17:15:10Z",
+      "teamIds": [
+        "11",
+        "15"
+      ]
+    },
+    {
+      "id": "bd721e1d307f7f7e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaelan-phillips-wins-first-nfc-defensive-player-of-the-week-award",
+      "title": "Jaelan Phillips wins first NFC defensive player of the week award",
+      "summary": "The Panthers moved into sole possession of first place in the NFC South with their victory over the Saints on Sunday.",
+      "publishedAt": "2026-11-18T17:14:04Z",
+      "teamIds": [
+        "29",
+        "18"
+      ]
+    },
+    {
+      "id": "13c0415cc4ecedbc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-wins-second-nfc-offensive-player-of-the-week-award-of-the-season",
+      "title": "Jahmyr Gibbs wins second NFC offensive player of the week award of the season",
+      "summary": "Lions running back Jahmyr Gibbs continued his terrific 2026 season in Sunday's win over the Patriots in Munich.",
+      "publishedAt": "2026-11-18T17:09:22Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "724c2d9e9e1a42f2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-named-afc-offensive-player-of-the-week-for-second-time-this-season",
+      "title": "Joe Burrow named AFC offensive player of the week for second time this season",
+      "summary": "Bengals quarterback Joe Burrow is the betting favorite to be the NFL MVP this season and games like the one he had last Sunday are the reason why he's in that spot.",
+      "publishedAt": "2026-11-18T17:09:10Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "7684af32edac83f8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/49ers-outsmarted-vikings-unique-travel-plan-week-11-nfc-showdown-mexico-city",
+      "title": "49ers might have just outsmarted the Vikings with unique travel plan for Week 11 NFC showdown in Mexico City",
+      "summary": "The 49ers-Vikings game will be held at an elevation of almost 7,400 feet. The two teams are taking an opposite approach with their preparation",
+      "publishedAt": "2026-11-18T17:09:05Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "6c963c5977193d4a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-will-be-limited-in-wednesdays-practice",
+      "title": "Geno Smith will be limited in Wednesday's practice",
+      "summary": "Jets quarterback Geno Smith avoided a major ankle injury in last Sunday's loss to the Bills, but his Week 11 status remains uncertain.",
+      "publishedAt": "2026-11-18T17:02:54Z",
+      "teamIds": [
+        "2",
+        "20"
+      ]
+    },
+    {
+      "id": "f8d18fadfe8de51c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-sees-bears-4-2-yards-per-carry-average-as-a-deceiving-statistic",
+      "title": "Ben Johnson sees Bears' 4.2 yards per carry average as \"a deceiving statistic\"",
+      "summary": "League wide, NFL teams average 4.2 yards per rushing attempt.",
+      "publishedAt": "2026-11-18T16:45:14Z",
+      "teamIds": [
+        "3"
+      ]
+    },
     {
       "id": "a6ad4c8ca5452104",
       "source": "espn",
@@ -11,6 +140,18 @@
       "publishedAt": "2026-11-18T16:41:39Z",
       "teamIds": [
         "30"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Kirk Cousins, Stefon Diggs bring reliability to fantasy lineups",
+      "summary": "Every lineup needs consistent, week-to-week performers and Tristan has three players to start down the stretch.",
+      "publishedAt": "2026-11-18T16:28:52Z",
+      "teamIds": [
+        "33",
+        "24"
       ]
     },
     {
@@ -886,6 +1027,15 @@
       ]
     },
     {
+      "id": "2b8a951e3599a174",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-starting-quarterback-rankings-joe-burrow-josh-allen",
+      "title": "Ranking the 50 QBs who have started an NFL game in 2026: From cellar-dwellers to gold standard",
+      "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standard",
+      "publishedAt": "2026-11-17T20:39:00Z",
+      "teamIds": []
+    },
+    {
       "id": "3a1c1640fa2812b1",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-the-seahawks-this-year-drew-locks-numbers-blow-sam-darnolds-away",
@@ -1451,145 +1601,6 @@
       "publishedAt": "2026-11-17T15:44:49Z",
       "teamIds": [
         "6"
-      ]
-    },
-    {
-      "id": "c49039ac1b787978",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 11 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
-      "publishedAt": "2026-11-17T15:27:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "02c81c7b35b6a264",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cleveland-browns-nfl-playoffs-2026-deshaun-watson",
-      "title": "Believeland? Why the 6-4 Browns are on track to make the NFL playoffs despite troubling numbers",
-      "summary": "Cleveland is 6-4 despite a negative point differential, with Deshaun Watson delivering six game-winning drives and a resilient defense",
-      "publishedAt": "2026-11-17T15:17:39Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "8633b5fe6c38b64b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-on-emmett-johnson-my-hat-goes-off-to-him",
-      "title": "Andy Reid on Emmett Johnson: My hat goes off to him",
-      "summary": "When running back Kenneth Walker suffered a groin injury late in the practice week, it thrust rookie Emmett Johnson into a starting role for the Week 10 matchup with the Falcons.",
-      "publishedAt": "2026-11-17T15:08:23Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "c77daa7e48532354",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49742016/2026-win-rates-team-player-rankings-pass-rush-run-stop-blocking",
-      "title": "2026 NFL pass rush, run stop, blocking win rate rankings",
-      "summary": "Our win rate metrics stack the NFL's top teams and players in run blocking, run stopping, pass protection and pass rushing.",
-      "publishedAt": "2026-11-17T15:07:50Z",
-      "teamIds": []
-    },
-    {
-      "id": "80b2b63bdd4222b3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-kerby-joseph-set-to-return-week-11-buccaneers",
-      "title": "Lions set to get key defensive player back in Week 11 in wake of Aidan Hutchinson injury",
-      "summary": "Safety Kerby Joseph has missed the entire season with a knee injury sustained last year, but he is set to return to the lineup this week",
-      "publishedAt": "2026-11-17T15:04:43Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "5dc2e5444fcce495",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-christian-parkers-status-were-talking-about-that",
-      "title": "Jerry Jones on Christian Parker's status: We're talking about that",
-      "summary": "Cowboys defensive coordinator Christian Parker failed to get a vote of confidence from head coach Brian Schottenheimer on Monday and he didn't get one from Cowboys owner Jerry Jones on Tuesday either.",
-      "publishedAt": "2026-11-17T14:59:56Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "4c82bfa0217fb26f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/derrick-henry-ravens-rushing-stats-lamar-jackson-injury",
-      "title": "Why Derrick Henry and Ravens' rushing attack have collapsed without Lamar Jackson",
-      "summary": "Henry scored twice but managed only 10 yards as Baltimore's ground game hit a historic low in its fifth consecutive loss",
-      "publishedAt": "2026-11-17T14:56:54Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "87cfbb625c96f95e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-10-weeks-the-afc-playoff-field-is-basically-set",
-      "title": "Through 10 weeks, the AFC playoff field is basically set",
-      "summary": "The 2021 expansion of the regular season to 17 games has given the bad teams more time to separate from the good teams.",
-      "publishedAt": "2026-11-17T14:55:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "79bb47be689a31d3",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50510870/right-now-disgracing-ravens-standards",
-      "title": "Kyle Hamilton: Right now, we're disgracing Ravens' standards",
-      "summary": null,
-      "publishedAt": "2026-11-17T14:44:45Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "929feb81183e4d90",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50510660/dan-campbell-hutchinson-injury-prompt-celebration-ban",
-      "title": "Lions' Dan Campbell says Aidan Hutchinson injury won't prompt celebration ban",
-      "summary": "Although Aidan Hutchinson's knee injury is a \"gut punch\" to the Lions, Dan Campbell said he won't tell his players to change the way they celebrate.",
-      "publishedAt": "2026-11-17T14:23:37Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "dcc994bc9ce4e3d6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-11-2026-nfl-power-rankings",
-      "title": "PFT's Week 11 2026 NFL power rankings",
-      "summary": "The Bills remain on top.",
-      "publishedAt": "2026-11-17T14:13:35Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "ea3bb105a3491ee4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-plan-for-kerby-joseph-to-play-this-week",
-      "title": "Lions plan for Kerby Joseph to play this week",
-      "summary": "The Lions lost Aidan Hutchinson for the rest of the season, but they expect to have another defensive player in the lineup for the first time this year when they face the Buccaneers in Week 11.",
-      "publishedAt": "2026-11-17T14:06:02Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "abf9a8e7268b469d",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-11-2026",
-      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-17T14:04:16Z",
-      "teamIds": [
-        "6",
-        "18"
       ]
     }
   ]
