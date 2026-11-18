@@ -1,7 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T01:47:25Z",
+  "updatedAt": "2026-11-18T02:47:22Z",
   "items": [
+    {
+      "id": "562d323fa63a2bf4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/officials-who-were-bumped-by-reconfigured-week-10-schedule-wont-lose-pay",
+      "title": "Officials who were bumped by reconfigured Week 10 schedule won't lose pay",
+      "summary": "The four officials who worked two games in Week 10 got paid accordingly.",
+      "publishedAt": "2026-11-18T02:31:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "77edd4e1a6711f13",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-nc-state-philip-rivers-will-be-one-of-the-lowest-paid-power-4-coaches",
+      "title": "At NC State, Philip Rivers will be one of the lowest-paid Power 4 coaches",
+      "summary": "Former NFL quarterback Philip Rivers earned $244 million during his playing career.",
+      "publishedAt": "2026-11-18T02:02:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "80f9c97563fa5baa",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-remains-frustrated-with-four-interception-game",
+      "title": "Caleb Williams remains frustrated with four interception game",
+      "summary": "In his last game, Caleb Williams threw four interceptions.",
+      "publishedAt": "2026-11-18T01:49:56Z",
+      "teamIds": []
+    },
     {
       "id": "459cfc33c45007ff",
       "source": "espn",
@@ -1566,39 +1593,6 @@
       "publishedAt": "2026-11-16T23:13:41Z",
       "teamIds": [
         "13"
-      ]
-    },
-    {
-      "id": "7b0a51b99cdf8140",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-10-nfl-betting-promos-get-over-3000-bonuses-from-betting-apps-sportsbooks-for-ravens-chargers-mnf",
-      "title": "Week 10 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Ravens-Chargers, MNF",
-      "summary": "Top Week 10 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-16T23:07:28Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "6a3cbbcf751fc355",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-disagrees-with-milton-williamss-claim-that-field-conditions-caused-injuries",
-      "title": "Mike Vrabel disagrees with Milton Williams's claim that field conditions caused injuries",
-      "summary": "On Sunday in Germany, both teams had key players go down with significant injuries.",
-      "publishedAt": "2026-11-16T22:58:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "e3f8f8b91408b341",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chargers-vs-ravens-odds-picks-player-props-experts-nfl-week-10-best-bets-for-monday-night-football",
-      "title": "Chargers vs. Ravens odds, picks, player props: Expert's NFL Week 10 best bets for Monday Night Football",
-      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 10",
-      "publishedAt": "2026-11-16T22:53:47Z",
-      "teamIds": [
-        "33",
-        "24"
       ]
     }
   ]
