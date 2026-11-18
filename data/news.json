@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T00:47:21Z",
+  "updatedAt": "2026-11-18T01:47:25Z",
   "items": [
+    {
+      "id": "459cfc33c45007ff",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
+      "title": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
+      "summary": "Caleb Williams spent his bye week resting his ailing hamstring, supporting his close friend Pete Crow-Armstrong as the Cubs outfielder was named NL MVP, and putting one of the worst games of his career in the rearview mirror.",
+      "publishedAt": "2026-11-18T01:13:47Z",
+      "teamIds": [
+        "3"
+      ]
+    },
     {
       "id": "8caa1efb37d35902",
       "source": "pft",
@@ -1589,15 +1600,6 @@
         "33",
         "24"
       ]
-    },
-    {
-      "id": "28108d8d72e719c7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/sophomore-bounce-back-letdown-will-campbell-quietly-improving-ashton-jeanty-among-2025-first-round-busts",
-      "title": "Sophomore bounce-back or letdown? Will Campbell quietly improving, Ashton Jeanty among 2025 first-round busts",
-      "summary": "Last year's top draft picks reached a pivot point in their careers, and not everyone is on the right trajectory",
-      "publishedAt": "2026-11-16T22:51:37Z",
-      "teamIds": []
     }
   ]
 }
