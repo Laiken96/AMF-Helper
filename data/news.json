@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T22:08:07Z",
+  "updatedAt": "2026-11-18T22:47:20Z",
   "items": [
+    {
+      "id": "cd4a3a89eea24204",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50524109/ravens-humphrey-apologizes-criminals-quip-podcast",
+      "title": "Ravens' Humphrey apologizes for quip that Baltimore 'best at making criminals'",
+      "summary": "Ravens cornerback Marlon Humphrey apologized Wednesday for the derogatory comment he made about Baltimore on his recent podcast.",
+      "publishedAt": "2026-11-18T22:42:11Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "d0e0b46cb8a5a250",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-handling-defensive-coordinator-christian-parker-mike-pettine",
+      "title": "Cowboys' handling of DC Christian Parker is bizarre, leaving Dallas with more questions than answers",
+      "summary": "Dallas head coach Brian Schottenheimer maintains Parker has an \"incredibly bright future\" with the Cowboys despite taking play-calling away from his first-year coordinator",
+      "publishedAt": "2026-11-18T22:41:54Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "36b4806cc87ab5a6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-hockenson-andrew-van-ginkel-listed-as-limited-participants-on-wednesday",
+      "title": "T.J. Hockenson, Andrew Van Ginkel listed as limited participants on Wednesday",
+      "summary": "Vikings tight end T.J.",
+      "publishedAt": "2026-11-18T22:40:09Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "26ba34bd78852a61",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50524458/panthers-cb-mike-jackson-set-return-sunday-vs-ravens",
+      "title": "Panthers secondary set for boost with return of CB Mike Jackson",
+      "summary": "Panthers starting cornerback Mike Jackson, who has been sidelined since injuring his groin in Week 3, plans to be in the lineup Sunday against the Ravens.",
+      "publishedAt": "2026-11-18T22:37:57Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "ef14954012be05eb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50524576/rb-skattebo-nix-backflips-wake-hutchinson-injury",
+      "title": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
+      "summary": "Giants RB Cam Skattebo said he is holding off on doing anymore backflips Lions DE after Aidan Hutchinson suffered a major knee injury while attempting a flip.",
+      "publishedAt": "2026-11-18T22:24:35Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "3ccf35c2fbef390a",
       "source": "pft",
@@ -1597,55 +1652,6 @@
       "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
       "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
       "publishedAt": "2026-11-17T19:19:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "33cf91fb12b5eb9b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869631/2026-fantasy-football-expected-fantasy-points-xfp-rb",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for RBs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-17T19:17:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "200a5d920c3934d7",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869566/2026-fantasy-football-expected-fantasy-points-xfp-qb",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for QBs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-17T19:15:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "db964101440c9626",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-players-will-get-their-mandatory-four-days-off-after-week-12-game",
-      "title": "Packers players will get their mandatory four days off after Week 12 game",
-      "summary": "The Packers have a bye in Week 11.",
-      "publishedAt": "2026-11-17T19:15:18Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "74f4aedd80868af4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacory-croskey-merritt-returns-to-commanders-practice",
-      "title": "Jacory Croskey-Merritt returns to Commanders practice",
-      "summary": "The Commanders could get running back Jacory Croskey-Merritt back in the lineup as they try to win for the second straight week.",
-      "publishedAt": "2026-11-17T19:06:33Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "a5d77d6ddb02ae3c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49954186/fantasy-football-rankings-consistency-ratings-start-sit-value",
-      "title": "Fantasy football consistency ratings: 2024 to 2026",
-      "summary": "The consistency ratings weigh both how consistent and how start-worthy players have been from 2024 to 2026.",
-      "publishedAt": "2026-11-17T19:03:41Z",
       "teamIds": []
     }
   ]
