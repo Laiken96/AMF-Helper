@@ -1,13 +1,115 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T20:47:19Z",
+  "updatedAt": "2026-11-18T21:47:23Z",
   "items": [
+    {
+      "id": "0768cf63b0c7aa31",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-injury-report-confirms-baker-mayfield-a-non-participant-wednesday",
+      "title": "Bucs' injury report confirms Baker Mayfield a non-participant Wednesday",
+      "summary": "Baker Mayfield was officially out of practice Wednesday.",
+      "publishedAt": "2026-11-18T21:41:50Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "e857e52f2651b1bf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-get-carnell-tate-back-at-practice",
+      "title": "Titans get Carnell Tate back at practice",
+      "summary": "The Titans won't be getting wide receiver Wan'Dale Robinson back on the field this season, but they could be getting first-round pick Carnell Tate back in the lineup against the Cowboys this week.",
+      "publishedAt": "2026-11-18T21:40:03Z",
+      "teamIds": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "id": "05f846d86a5beea5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-aidan-hutchinson-on-ir-activate-kerby-joseph",
+      "title": "Lions place Aidan Hutchinson on IR, activate Kerby Joseph",
+      "summary": "While one Lions player is out, another is on his way back in.",
+      "publishedAt": "2026-11-18T21:37:02Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "2696b2a72d86e597",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-rbs-bhayshul-tuten-chris-rodriguez-were-limited-in-practice-wednesday",
+      "title": "Jaguars RBs Bhayshul Tuten, Chris Rodriguez were limited in practice Wednesday",
+      "summary": "The Jaguars listed their top two running backs as limited participants in practice on Wednesday.",
+      "publishedAt": "2026-11-18T21:25:54Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "cece158de5247730",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-luther-burden-rb-kyle-monangai-full-participants-wednesday",
+      "title": "WR Luther Burden, RB Kyle Monangai full participants Wednesday",
+      "summary": "Wide receiver Luther Burden III (concussion) and running back Kyle Monangai (toe) were full participants for the Bears on Wednesday.",
+      "publishedAt": "2026-11-18T21:22:17Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "0fac8d609ef799f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/d-j-reed-returns-to-lions-practice",
+      "title": "D.J. Reed returns to Lions practice",
+      "summary": "The Lions have gotten plenty of bad injury news on defense in recent weeks, but there was a positive development at practice on Wednesday.",
+      "publishedAt": "2026-11-18T21:15:38Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "2c53c0a91cf80460",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-max-llewellyn-from-practice-squad-sign-jack-browning-to-practice-squad",
+      "title": "Dolphins sign Max Llewellyn from practice squad, sign Jack Browning to practice squad",
+      "summary": "The Dolphins signed edge rusher Max Llewellyn to the active roster from the practice squad. the team announced Wednesday.",
+      "publishedAt": "2026-11-18T21:02:07Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "69fc2b982d63f29d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-montgomery-has-no-injury-designation-for-thursday-woody-marks-ruled-out",
+      "title": "David Montgomery has no injury designation for Thursday; Woody Marks ruled out",
+      "summary": "The Texans ruled one running back out for Thursday night's game against the Colts, but they're set to get another one back in the lineup.",
+      "publishedAt": "2026-11-18T20:54:47Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "03ae1a2945a515d0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-best-bets-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-18T20:52:28Z",
+      "teamIds": [
+        "6",
+        "18"
+      ]
+    },
     {
       "id": "1390bc4145da779a",
       "source": "espn",
       "url": "https://espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
       "title": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
-      "summary": "Jets quarterback Geno Smith says he intends to play Sunday against the Chargers despite still walking with a noticeable link due to an ankle injury.",
+      "summary": "Jets quarterback Geno Smith says he intends to play Sunday against the Chargers despite still walking with a noticeable limp due to an ankle injury.",
       "publishedAt": "2026-11-18T20:45:47Z",
       "teamIds": [
         "20"
@@ -1544,94 +1646,6 @@
       "summary": "The consistency ratings weigh how consistent, as well as how start-worthy, players have been in ESPN fantasy football leagues in 2026.",
       "publishedAt": "2026-11-17T18:58:16Z",
       "teamIds": []
-    },
-    {
-      "id": "54e34ff40ddc957d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-flores-vikings-plan-to-rotate-players-in-order-to-deal-with-altitude-in-mexico-city",
-      "title": "Brian Flores: Vikings plan to rotate players in order to deal with altitude in Mexico City",
-      "summary": "The 49ers are spending the week in Colorado in order to acclimate to the altitude at which their Week 11 game in Mexico City will be played.",
-      "publishedAt": "2026-11-17T18:50:09Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "23c15f803b0376fe",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 11: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-17T18:46:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "5981c1b08209b3c6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
-      "title": "Fantasy football 2026 defensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
-      "publishedAt": "2026-11-17T18:42:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "4594dcf9aa19a0b5",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 11: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-17T18:38:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 11: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-17T18:37:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "64ab5603ce63fa91",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 11: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-17T18:36:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ad5845f106af302",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
-      "title": "Fantasy football 2026 offensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
-      "publishedAt": "2026-11-17T18:31:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "e6e96b443016f2d0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-contract-values-taxes-2026",
-      "title": "Taxes hurt: Breaking down an NFL player's weekly pay stub and where all the money goes",
-      "summary": "A pay stub included in the Chiefs receiver's bankruptcy filing shows how taxes, garnishments, union dues and an NFL fine can cut earnings in half or worse",
-      "publishedAt": "2026-11-17T18:14:56Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "4acc0ebb409443ad",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cb-nazeeh-johnson-visited-steelers-tuesday",
-      "title": "CB Nazeeh Johnson visited the Steelers Tuesday",
-      "summary": "Cornerback Nazeeh Johnson is trying to find a way back into the NFL.",
-      "publishedAt": "2026-11-17T18:11:04Z",
-      "teamIds": [
-        "23"
-      ]
     }
   ]
 }

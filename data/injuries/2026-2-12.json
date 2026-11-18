@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-18T20:47:17Z",
+    "takenAt": "2026-11-18T21:47:21Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1434,7 +1434,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "15847",
@@ -1678,7 +1678,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4432577",
@@ -2344,6 +2344,16 @@
   },
   "changes": [
     {
+      "gameId": "401873082",
+      "athleteId": "4385690",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "teamAbbr": "BUF",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
       "gameId": "401873084",
       "athleteId": "3917315",
       "name": "Kyler Murray",
@@ -2359,9 +2369,9 @@
       "name": "Woody Marks",
       "pos": "RB",
       "teamAbbr": "HOU",
-      "kind": "weg",
+      "kind": "wechsel",
       "from": "Doubtful",
-      "to": null
+      "to": "Out"
     },
     {
       "gameId": "401873092",
