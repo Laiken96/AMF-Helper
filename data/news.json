@@ -1,7 +1,94 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T19:47:23Z",
+  "updatedAt": "2026-11-18T20:47:19Z",
   "items": [
+    {
+      "id": "1390bc4145da779a",
+      "source": "espn",
+      "url": "https://espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
+      "title": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
+      "summary": "Jets quarterback Geno Smith says he intends to play Sunday against the Chargers despite still walking with a noticeable link due to an ankle injury.",
+      "publishedAt": "2026-11-18T20:45:47Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "d501bfb6e7c69856",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wont-put-jordan-addison-on-ir",
+      "title": "Vikings won't put Jordan Addison on IR",
+      "summary": "When Vikings head coach Kevin O'Connell announced that wide receiver Jordan Addison needed thumb surgery earlier this week, he said that an injured reserve stint was a possibility.",
+      "publishedAt": "2026-11-18T20:42:55Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "a81f2256f03c0c89",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50523527/ravens-flowers-super-frustrated-latest-late-game-fumble",
+      "title": "Ravens' Flowers 'super frustrated' by latest late-game fumble",
+      "summary": "Ravens wide receiver Zay Flowers said he was \"super frustrated\" after having the ball ripped away around midfield in the final two minutes of a loss to the Chargers on Monday night.",
+      "publishedAt": "2026-11-18T20:29:38Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "5c9e10c387dc019e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-christian-parker-still-has-a-bright-future-with-the-cowboys",
+      "title": "Brian Schottenheimer: Christian Parker still has a bright future with the Cowboys",
+      "summary": "Brian Schottenheimer confirmed Mike Pettine will take over as the Cowboys' defensive play-caller on Sunday.",
+      "publishedAt": "2026-11-18T20:23:30Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "af02d58e5f6ca3fb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/agents-take-breaking-down-dolphins-historic-dead-money-salary-cap",
+      "title": "Agent's Take: Breaking down Dolphins' historic dead money and where they go from here",
+      "summary": "Miami's $188.88 million in dead money is unprecedented, but a number the Dolphins felt was necessary to rebuild",
+      "publishedAt": "2026-11-18T20:13:11Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "173ba33033da3895",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-wont-practice-wednesday-with-groin-injury",
+      "title": "Kenneth Walker won't practice Wednesday with groin injury",
+      "summary": "Kenneth Walker's groin injury will keep him out for at least another day.",
+      "publishedAt": "2026-11-18T20:03:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "a239da425e19a0a4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-earning-their-first-win-chargers-are-favored-to-win-their-second-vs-jets",
+      "title": "After earning their first win, Chargers are favored to win their second vs. Jets",
+      "summary": "The Chargers finally won a game on Monday.",
+      "publishedAt": "2026-11-18T19:59:03Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "e1404e8f4155a0c6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/darren-waller-tommy-tremble-out-of-practice-for-panthers",
+      "title": "Darren Waller, Tommy Tremble out of practice for Panthers",
+      "summary": "The Panthers practiced without their top two tight ends on Wednesday.",
+      "publishedAt": "2026-11-18T19:56:28Z",
+      "teamIds": [
+        "29"
+      ]
+    },
     {
       "id": "b5423019f3dd2de5",
       "source": "espn",
@@ -11,6 +98,17 @@
       "publishedAt": "2026-11-18T19:45:54Z",
       "teamIds": [
         "10"
+      ]
+    },
+    {
+      "id": "40199fbc758cc019",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-wrs-michael-pittman-roman-wilson-return-to-practice",
+      "title": "Steelers WRs Michael Pittman, Roman Wilson return to practice",
+      "summary": "The Steelers are opening the practice window for several players on Wednesday.",
+      "publishedAt": "2026-11-18T19:44:31Z",
+      "teamIds": [
+        "23"
       ]
     },
     {
@@ -1533,92 +1631,6 @@
       "publishedAt": "2026-11-17T18:11:04Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "379dfb31b68bfa2b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 11: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-17T18:04:39Z",
-      "teamIds": []
-    },
-    {
-      "id": "92ce5dff7e1a00b3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 11: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-17T18:04:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "85feab4ffaae9dd1",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 11: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-17T18:03:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "70ae9ffb76718140",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 11: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-17T18:03:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "28747fe37d1e7d3a",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
-      "title": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
-      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
-      "publishedAt": "2026-11-17T18:00:20Z",
-      "teamIds": []
-    },
-    {
-      "id": "bfdf2525abe547b7",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-      "publishedAt": "2026-11-17T17:59:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "0db94b4b91be36a3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/texans-azeez-al-shaair-injury-surgery-ir-2026",
-      "title": "Texans' Azeez Al-Shaair reportedly facing surgery after move to injured reserve",
-      "summary": "Houston's underperforming defense will be without one of its leaders for at least four games as Al-Shaair deals with a significant groin injury",
-      "publishedAt": "2026-11-17T17:44:35Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "4bb7204fe4146b0d",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
-      "title": "Rest-of-season rankings: Joe Burrow takes QB lead, Chuba Hubbard continues rise",
-      "summary": "Need to make or assess a trade offer? With six teams on their bye week, these rankings are designed to help.",
-      "publishedAt": "2026-11-17T17:43:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "719108fbc6704602",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-win-puts-titans-in-the-drivers-seat-for-the-first-pick-in-the-2027-nfl-draft",
-      "title": "Chargers' win puts Titans in the driver's seat for the first pick in the 2027 NFL draft",
-      "summary": "There are no winless teams in the NFL after the Chargers won on Monday night.",
-      "publishedAt": "2026-11-17T17:36:08Z",
-      "teamIds": [
-        "24",
-        "10"
       ]
     }
   ]
