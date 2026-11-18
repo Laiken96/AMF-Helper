@@ -1,7 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T15:47:21Z",
+  "updatedAt": "2026-11-18T16:47:21Z",
   "items": [
+    {
+      "id": "a6ad4c8ca5452104",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50522085/jaguars-rule-center-robert-hainsey-knee-giants-game",
+      "title": "Jaguars rule starting center Robert Hainsey (knee) out for Giants game",
+      "summary": "Jaguars center Robert Hainsey will miss Sunday's game against the Giants because of a knee injury, coach Liam Coen said Wednesday.",
+      "publishedAt": "2026-11-18T16:41:39Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "d5d52fbb2766ca96",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-likely-wont-cut-brandon-aiyuk-until-they-have-to",
+      "title": "49ers likely won't cut Brandon Aiyuk until they have to",
+      "summary": "With a roster exemption that lasts until November 24 and with no requirement to pay him a penny until the exemption expires, the 49ers have shown no inclination to release receiver Brandon Aiyuk until they absolutely have to.",
+      "publishedAt": "2026-11-18T16:23:22Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "322ad1a27fb50455",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50521838/clay-yates-pick-side-week-11",
+      "title": "Garrett Wilson vs. Carnell Tate: Clay and Yates pick a side for Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-18T16:15:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "740127c14582d05f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-trevor-lawrence-legitimate-2026-nfl-mvp-case-destined-win-one-some-point",
+      "title": "Why Jaguars' Trevor Lawrence has legitimate 2026 NFL MVP case, is destined to win one at some point",
+      "summary": "Across Lawrence's last 17 regular season games, he has 15-plus wins and 45-plus TD. He is only 1 of 10 QBs to achieve that feat",
+      "publishedAt": "2026-11-18T16:08:33Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "0016cdd031ba2b3d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50521850/can-fantasy-managers-bench-vikings-d-st-broncos-clay-yates-debate",
+      "title": "Can fantasy managers bench Vikings D/ST for Broncos? Clay and Yates debate",
+      "summary": null,
+      "publishedAt": "2026-11-18T16:08:18Z",
+      "teamIds": [
+        "7",
+        "16"
+      ]
+    },
+    {
+      "id": "858cc4691a0bdf39",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wr-jauan-jennings-prepare-to-face-his-former-team",
+      "title": "Vikings WR Jauan Jennings prepare to face his former team",
+      "summary": "Sunday night's game in Mexico City between the Vikings and 49ers has multiple interesting subplots.",
+      "publishedAt": "2026-11-18T16:05:26Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "4f4df598f662cb5d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50521831/yates-clay-debate-ryan-flournoy-vs-courtland-sutton-week-11",
+      "title": "Yates and Clay debate Ryan Flournoy vs. Courtland Sutton in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-18T16:03:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "37d304436fdd11ad",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50521799/why-stephen-defend-cowboys-dc-christian-parker",
+      "title": "Why Stephen A. can't defend Cowboys DC Christian Parker",
+      "summary": null,
+      "publishedAt": "2026-11-18T15:53:56Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "5288a0a1c9301593",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50521722/jaylen-warren-week-11-fantasy-outlook",
+      "title": "Jaylen Warren's Week 11 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-18T15:50:55Z",
+      "teamIds": []
+    },
+    {
+      "id": "056ab45b0bbce1c1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-name-mike-pettine-as-play-caller-christian-parker-to-remain-as-dc",
+      "title": "Cowboys make defensive coaching changes, name Mike Pettine as play caller as struggles continue",
+      "summary": "Christian Parker will remain on as the defensive coordinator, at least in title",
+      "publishedAt": "2026-11-18T15:43:52Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "8475d86284969fa6",
       "source": "pft",
@@ -1484,116 +1590,6 @@
       "teamIds": [
         "6",
         "18"
-      ]
-    },
-    {
-      "id": "5834145d27772687",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/chargers-ravens-2027-nfl-draft-texas-college-football-power-rankings",
-      "title": "Chargers' first win shakes up 2027 NFL Draft order; Texas climbs in college football Power Rankings",
-      "summary": "Plus, we've got expert picks for a loaded slate of college basketball games",
-      "publishedAt": "2026-11-17T14:03:01Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "e7d0a3c82ef7abe4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50510528/why-get-crew-concerned-packers-their-loss-vikings",
-      "title": "Why the 'Get Up' crew is concerned about Packers after their loss to Vikings",
-      "summary": null,
-      "publishedAt": "2026-11-17T13:58:55Z",
-      "teamIds": [
-        "9",
-        "16"
-      ]
-    },
-    {
-      "id": "870c8c4e2f608858",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-im-not-telling-players-to-stop-celebrating-because-of-aidan-hutchinsons-injury",
-      "title": "Dan Campbell: I'm not telling players to stop celebrating because of Aidan Hutchinson's injury",
-      "summary": "Hutchinson tore his ACL while celebrating a sack.",
-      "publishedAt": "2026-11-17T13:41:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Henry has confusing night, Hampton breaks through",
-      "summary": "Week 10 closes with Chargers winning their first game as Baltimore's offense adjusts to new QB.",
-      "publishedAt": "2026-11-17T13:22:51Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "9e8b3d29e9641588",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-coaching-hot-seat-rankings-cowboys-brian-schottenheimer",
-      "title": "NFL coaching hot-seat rankings: Cowboys' Brian Schottenheimer feeling even more heat",
-      "summary": "Schottenheimer, Shane Steichen and Jim Harbaugh face mounting pressure entering Week 11, while Aaron Glenn's seat is scorching",
-      "publishedAt": "2026-11-17T13:04:54Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "ac7f99382fd7e5c4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-results-brock-purdy-mvp-john-harbaugh",
-      "title": "Six lessons learned from Week 10: Brock Purdy belongs in MVP race, John Harbaugh makes more poor decisions",
-      "summary": "Purdy is playing elite football for the NFC-leading 49ers, and we revisit a genius play by the Seahawks",
-      "publishedAt": "2026-11-17T13:04:27Z",
-      "teamIds": [
-        "26",
-        "25"
-      ]
-    },
-    {
-      "id": "012d33997c7c9a77",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-picks-score-predictions-49ers-vikings-mexico",
-      "title": "NFL Week 11 picks and score predictions: 49ers win Mexico City thriller over Vikings, Bengals stay hot",
-      "summary": "We pick every Week 11 game as Joe Burrow draws an inviting matchup, the 49ers battle the Vikings in Mexico City",
-      "publishedAt": "2026-11-17T12:52:43Z",
-      "teamIds": [
-        "4",
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "2b8a951e3599a174",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-starting-quarterback-rankings-joe-burrow-josh-allen",
-      "title": "Ranking the 50 QBs who have started an NFL game in 2026: From cellar-dwellers to gold standard",
-      "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standard",
-      "publishedAt": "2026-11-17T12:25:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "33f051bb9d8321a5",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49998196/fantasy-football-waiver-wire-pickups-week-11",
-      "title": "Fantasy football: Live Week 11 free agent pickups advice with ESPN expert",
-      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
-      "publishedAt": "2026-11-17T12:22:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "670c541c445595e6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tests-showed-no-major-injury-for-geno-smith",
-      "title": "Report: Tests showed no major injury for Geno Smith",
-      "summary": "Jets quarterback Geno Smith went for tests on his injured ankle on Monday, but it doesn't look like they turned up anything that will keep him from playing against the Chargers in Week 11.",
-      "publishedAt": "2026-11-17T12:08:14Z",
-      "teamIds": [
-        "24",
-        "20"
       ]
     }
   ]
