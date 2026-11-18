@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T21:47:23Z",
+  "updatedAt": "2026-11-18T22:08:07Z",
   "items": [
+    {
+      "id": "3ccf35c2fbef390a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dalton-kincaid-christian-benford-listed-as-out-of-bills-practice",
+      "title": "Dalton Kincaid, Christian Benford listed as out of Bills practice",
+      "summary": "The Bills listed starters on both sides of the ball as out of practice on Wednesday.",
+      "publishedAt": "2026-11-18T22:02:43Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "9ac5da82f5b12b93",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-claim-ol-ajani-cornelius-off-waivers",
+      "title": "Eagles claim OL Ajani Cornelius off waivers",
+      "summary": "The Eagles have added an offensive lineman.",
+      "publishedAt": "2026-11-18T21:56:49Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "979fdef55bfdbfae",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-says-hes-done-doing-backflips-after-aidan-hutchinson-injury",
+      "title": "Cam Skattebo says he's done doing backflips after Aidan Hutchinson injury",
+      "summary": "Giants running back Cam Skattebo's penchant for backflips became a talking point during his recovery from last season's ankle injury, but he resumed doing them after touchdowns upon his return to action this fall.",
+      "publishedAt": "2026-11-18T21:49:33Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "0768cf63b0c7aa31",
       "source": "pft",
@@ -1613,38 +1646,6 @@
       "title": "Fantasy football consistency ratings: 2024 to 2026",
       "summary": "The consistency ratings weigh both how consistent and how start-worthy players have been from 2024 to 2026.",
       "publishedAt": "2026-11-17T19:03:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "45f61d302040577a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-flexes-raiders-browns-to-sunday-night-in-week-12",
-      "title": "NFL flexes Raiders-Browns to Sunday night in Week 12",
-      "summary": "Originally scheduled for SNF, Patriots-Chargers moves to 4:05 p.m. on CBS.",
-      "publishedAt": "2026-11-17T18:59:54Z",
-      "teamIds": [
-        "5",
-        "24",
-        "13",
-        "17"
-      ]
-    },
-    {
-      "id": "14a0a051c07584cb",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
-      "title": "NFL expected touchdown (xTD) leaderboard for 2026",
-      "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
-      "publishedAt": "2026-11-17T18:59:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "dbcea17e24b59ba3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50119375/2026-fantasy-football-rankings-start-sit",
-      "title": "Fantasy football consistency ratings for 2026",
-      "summary": "The consistency ratings weigh how consistent, as well as how start-worthy, players have been in ESPN fantasy football leagues in 2026.",
-      "publishedAt": "2026-11-17T18:58:16Z",
       "teamIds": []
     }
   ]
