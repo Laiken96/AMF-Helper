@@ -1,7 +1,105 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T17:47:30Z",
+  "updatedAt": "2026-11-18T18:47:19Z",
   "items": [
+    {
+      "id": "7e8b9debd46605a0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
+      "title": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
+      "summary": "Brandon Aiyuk and Jayden Daniels have patched up their relationship after a falling out earlier this year, sources told ESPN.",
+      "publishedAt": "2026-11-18T18:39:52Z",
+      "teamIds": [
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "4723731a5426bf6f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/29098001/nfl-depth-charts-all-32-teams",
+      "title": "NFL depth charts for all 32 teams for 2026 season",
+      "summary": "Here are the latest NFL depth charts for all 32 teams.",
+      "publishedAt": "2026-11-18T18:38:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "aa4666c5e02c784f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/kyle-shanahan-brian-flores-vikings-49ers-matchup-modern-nfl",
+      "title": "With Kyle Shanahan and Brian Flores, Vikings-49ers will be a matchup for the modern NFL",
+      "summary": "The winner of the battle between Kyle Shanahan and Brian Flores could define what the NFL becomes schematically",
+      "publishedAt": "2026-11-18T18:32:57Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "b63d77b9d9d76a3c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50522640/eagles-stick-milton-qb1-mannion-offensive-playcaller",
+      "title": "Eagles' Sirianni sticking with Milton as QB1, Mannion as offensive playcaller",
+      "summary": "QB Joe Milton will start again for the Eagles on Sunday and Sean Mannion will remain as the offensive playcaller against the Steelers, coach Nick Sirianni said.",
+      "publishedAt": "2026-11-18T18:30:37Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "38f83b288bc5a545",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50522711/fernando-mendoza-played-too-fast-nfl-debut",
+      "title": "Kurt Warner: Fernando Mendoza played 'too fast' in his NFL debut",
+      "summary": null,
+      "publishedAt": "2026-11-18T18:23:08Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "e2f6ffd303b6fdcf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-early-reviews-for-the-madden-movie-arent-good",
+      "title": "The early reviews for the Madden movie aren't good",
+      "summary": "The Madden movie, starring Nicolas Cage as the legendary coach, broadcaster, and video-game mogul, has landed on Prime Video.",
+      "publishedAt": "2026-11-18T18:07:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "5d63f0f527aef64e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wandale-robinson-out-for-season-with-ankle-injury",
+      "title": "Wan'Dale Robinson out for season with ankle injury",
+      "summary": "The Titans will not have one of their key receivers for the rest of 2026.",
+      "publishedAt": "2026-11-18T17:59:11Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "5d19206b89f3ca6b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-getting-flexed-into-sunday-night-is-really-cool-for-our-players",
+      "title": "Todd Monken: Getting flexed into Sunday night is really cool for our players",
+      "summary": "If someone had told you at the beginning of the season that the Week 12 game between the Browns and Raiders would get flexed into Sunday Night Football, you probably would have responded with some healthy skepticism.",
+      "publishedAt": "2026-11-18T17:52:28Z",
+      "teamIds": [
+        "5",
+        "13"
+      ]
+    },
+    {
+      "id": "158141f8d9fdc62f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50522531/why-jordan-reid-titans-taking-jeremiah-smith-no-1",
+      "title": "Why Jordan Reid has the Titans taking Jeremiah Smith at No. 1",
+      "summary": null,
+      "publishedAt": "2026-11-18T17:49:14Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "81d09eb70d76a260",
       "source": "espn",
@@ -11,6 +109,21 @@
       "publishedAt": "2026-11-18T17:40:53Z",
       "teamIds": [
         "33"
+      ]
+    },
+    {
+      "id": "08144e3b86df8643",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-upset-alert-predictions-steelers-titans-cowboys",
+      "title": "NFL Week 11 upset alert: Two straight losses for Steelers? Can Titans shock Cowboys?",
+      "summary": "The Jets could also send the Chargers back into the loss column",
+      "publishedAt": "2026-11-18T17:38:21Z",
+      "teamIds": [
+        "6",
+        "24",
+        "20",
+        "23",
+        "10"
       ]
     },
     {
@@ -265,8 +378,8 @@
       "id": "2b7a4d610109f5ab",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50520940/sources-pettine-take-defensive-playcalling-cowboys",
-      "title": "Sources: Pettine to take over defensive playcalling for Cowboys; Parker still DC",
-      "summary": "Christian Parker will remain as the Cowboys' defensive coordinator, but Mike Pettine will call the defense on game day, sources told ESPN.",
+      "title": "Pettine to take over defensive playcalling for Cowboys; Parker still DC",
+      "summary": "Christian Parker will remain as the Cowboys' defensive coordinator, but Mike Pettine will call the defense on game day, coach Brian Schottenhiemer said.",
       "publishedAt": "2026-11-18T15:39:14Z",
       "teamIds": [
         "6"
@@ -1497,110 +1610,6 @@
       "publishedAt": "2026-11-17T16:48:42Z",
       "teamIds": [
         "15"
-      ]
-    },
-    {
-      "id": "35528b0f179e7038",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-azeez-al-shaair-on-injured-reserve",
-      "title": "Texans place Azeez Al-Shaair on injured reserve",
-      "summary": "The Texans played without linebacker Azeez Al-Shaair in last Sunday's loss to the Browns and they'll remain without him for the next month.",
-      "publishedAt": "2026-11-17T16:47:41Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "8caf3cea2a762fae",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50511179/should-worried-derrick-henry-fantasy-production",
-      "title": "Should you be worried about Derrick Henry's fantasy production?",
-      "summary": null,
-      "publishedAt": "2026-11-17T16:44:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "43f7b10108c22010",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50117108/fantasy-football-2026-strength-schedule-rest-season",
-      "title": "Strength of schedule (SOS) cheat sheet: Every team's year-to-date and rest-of-season ratings",
-      "summary": "Ranking each team's remaining schedule and how it might impact every position's fantasy performance.",
-      "publishedAt": "2026-11-17T16:39:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "b1c08d5b7c4f05a2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50511524/lions-plan-kerby-joseph-make-season-debut-sunday",
-      "title": "Lions plan for Kerby Joseph to make season debut Sunday, per Dan Campbell",
-      "summary": "The Lions are planning for safety Kerby Joseph to make his season debut Sunday when they face the Buccaneers.",
-      "publishedAt": "2026-11-17T16:35:03Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "cb10c717e9f65040",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50511322/why-jordyn-tyson-field-yates-no-1-waiver-wire-pickup",
-      "title": "Why Jordyn Tyson is Field Yates' No. 1 waiver wire pickup",
-      "summary": null,
-      "publishedAt": "2026-11-17T16:28:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "a18fe12523540d75",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/all-four-nfc-south-teams-are-terrible-at-home-and-one-will-get-a-home-playoff-game",
-      "title": "All four NFC South teams are terrible at home, and one will get a home playoff game",
-      "summary": "The NFL's playoff seeding procedures guarantee that an NFC South team will host a playoff game.",
-      "publishedAt": "2026-11-17T16:22:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "f6027c2022acf1dc",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50511400/how-stephen-looking-vikings-49ers-matchup",
-      "title": "How Stephen A. is looking at Vikings-49ers matchup",
-      "summary": null,
-      "publishedAt": "2026-11-17T16:21:33Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "130eefb34b6fec53",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-prediction-markets-are-questioning-mike-vrabels-job-security-again",
-      "title": "The prediction markets are questioning Mike Vrabel's job security, again",
-      "summary": "During the offseason, the leading prediction markets were calling into question the future of Patriots coach Mike Vrabel.",
-      "publishedAt": "2026-11-17T16:11:47Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "a3c98ca12af65406",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50511349/stephen-lays-concerns-pats-mike-vrabel",
-      "title": "Stephen A. lays out his concerns about Pats, Mike Vrabel",
-      "summary": null,
-      "publishedAt": "2026-11-17T16:04:51Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "7b62c6ba97e23160",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50511280/cowboys-discussing-new-role-dc-parker-jones-says",
-      "title": "Cowboys discussing new role for DC Parker, Jones says",
-      "summary": "The Cowboys are discussing the possibility of changing Christian Parker's role and responsibilities as defensive coordinator, owner and general manager Jerry Jones said.",
-      "publishedAt": "2026-11-17T15:44:49Z",
-      "teamIds": [
-        "6"
       ]
     }
   ]
