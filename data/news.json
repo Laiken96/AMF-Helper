@@ -1,7 +1,133 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T14:47:29Z",
+  "updatedAt": "2026-11-18T15:47:21Z",
   "items": [
+    {
+      "id": "8475d86284969fa6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-c-robert-hainsey-week-to-week-with-knee-injury",
+      "title": "Report: Jaguars C Robert Hainsey week-to-week with knee injury",
+      "summary": "Jaguars center Robert Hainsey left last Sunday's win over the Titans with a knee injury and it looks like he will need some more time to recover.",
+      "publishedAt": "2026-11-18T15:40:27Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "2b7a4d610109f5ab",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50520940/sources-pettine-take-defensive-playcalling-cowboys",
+      "title": "Sources: Pettine to take over defensive playcalling for Cowboys; Parker still DC",
+      "summary": "Christian Parker will remain as the Cowboys' defensive coordinator, but Mike Pettine will call the defense on game day, sources told ESPN.",
+      "publishedAt": "2026-11-18T15:39:14Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "79288afd73cbebe9",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-bets-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-18T15:24:42Z",
+      "teamIds": [
+        "6",
+        "18"
+      ]
+    },
+    {
+      "id": "0ff07490398ca3b4",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-odds-lines-totals-spreads",
+      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Colts-Texans, Steelers-Eagles, more",
+      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
+      "publishedAt": "2026-11-18T15:18:39Z",
+      "teamIds": [
+        "34",
+        "11",
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "934b0b0931689498",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50521328/get-crew-confused-cowboys-dc-losing-playcalling-duties",
+      "title": "'Get Up' crew confused by Cowboys DC losing playcalling duties",
+      "summary": null,
+      "publishedAt": "2026-11-18T15:17:21Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "eb3791232ec589c2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-pettine-takes-over-as-cowboys-defensive-play-caller",
+      "title": "Report: Mike Pettine takes over as Cowboys' defensive play-caller",
+      "summary": "Christian Parker will remain the defensive coordinator.",
+      "publishedAt": "2026-11-18T15:11:39Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "b27376fa5f827333",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50514411/facts-feelings-fantasy-advice-week-11",
+      "title": "Facts vs. Feelings: Bye-mageddon means getting comfortable with the uncomfortable",
+      "summary": "A bye-laden Week 11 might make you cringe at some of your lineup decisions, so let the facts hone your feelings on Bo Nix, Tony Pollard, Jaylen Warren, Chris Olave, Malik Nabers, Stefon Diggs and Colston Loveland.",
+      "publishedAt": "2026-11-18T15:08:24Z",
+      "teamIds": []
+    },
+    {
+      "id": "6dde33b0ae5ff574",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-theres-still-a-lot-of-ball-to-be-played",
+      "title": "C.J. Stroud: \"There's still a lot of ball to be played\"",
+      "summary": "With Sunday's loss to the Browns, the Texans have fallen to 3-6 on the season.",
+      "publishedAt": "2026-11-18T15:02:49Z",
+      "teamIds": [
+        "5",
+        "34"
+      ]
+    },
+    {
+      "id": "0092a0b480a6a7ad",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/buccaneers-vs-lions-nfl-parlay-baker-mayfield-may-sit-while-detroit-begins-life-without-aidan-hutchinson",
+      "title": "Buccaneers vs. Lions NFL parlay: Baker Mayfield may sit, while Detroit begins life without Aidan Hutchinson",
+      "summary": "The Bucs may be without QB Baker Mayfield on Sunday in Detroit, while the Lions will be without star pass-rusher Aidan Hutchinson",
+      "publishedAt": "2026-11-18T15:02:25Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "de7a55171734354e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-owner-vinod-khosla-were-very-happy-with-both-the-team-and-the-location-right-now",
+      "title": "Seahawks owner Vinod Khosla: \"We’re very happy with both the team and the location right now\"",
+      "summary": "A pattern has emerged during the early months of Vinod Khosla's ownership of the Seahawks.",
+      "publishedAt": "2026-11-18T14:58:10Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "be2c943012167bfa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-seahawks-jaxon-smith-njigba-back-to-back-nfl-offensive-player-of-the-year",
+      "title": "Why Seahawks' Jaxon Smith-Njigba may go back-to-back as NFL Offensive Player of the Year",
+      "summary": "The league might be witnessing the greatest season ever by a wide receiver, which could earn him the first back-to-back OPOY honors in a quarter century",
+      "publishedAt": "2026-11-18T14:49:09Z",
+      "teamIds": [
+        "26"
+      ]
+    },
     {
       "id": "233a70332f8492b2",
       "source": "pft",
@@ -33,6 +159,17 @@
       "summary": null,
       "publishedAt": "2026-11-18T14:21:06Z",
       "teamIds": []
+    },
+    {
+      "id": "ab41dac78630f548",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-qb-power-rankings-joe-burrow-patrick-mahomes-jordan-love",
+      "title": "Week 11 QB Power Rankings: Patrick Mahomes a big riser, while Packers' Jordan Love plummets",
+      "summary": "Joe Burrow keeps the top spot, Patrick Mahomes is back in the top five and Jordan Love is one of the biggest fallers",
+      "publishedAt": "2026-11-18T14:20:44Z",
+      "teamIds": [
+        "9"
+      ]
     },
     {
       "id": "4abfe628e3c8e6f7",
@@ -1457,138 +1594,6 @@
       "teamIds": [
         "24",
         "20"
-      ]
-    },
-    {
-      "id": "e4391cc54dad2094",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50505355/week-11-seven-things-solak-thinks-burrow-mvp-rams-lions",
-      "title": "Seven things Solak thinks for NFL Week 11: Takes on four QBs, Lions, Rams, more",
-      "summary": "Get ready for Week 11 with what makes Vikings-49ers must-watch football, Joe Burrow's MVP case and how Aidan Hutchinson's injury could impact the Lions.",
-      "publishedAt": "2026-11-17T12:01:46Z",
-      "teamIds": [
-        "8",
-        "14",
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "8245aa4cc7e393f5",
-      "source": "espn",
-      "url": "https://espn.com/espn/story/_/id/50509931/emmett-johnson-jaxon-smith-njigba-shine-big-offensive-week-africa-nfl-stars",
-      "title": "Emmett Johnson, Jaxon Smith-Njigba shine in big offensive week for Africa's NFL stars",
-      "summary": "Week 10 in the 2026 NFL season was one of the most noteworthy in terms of standout performances from offensive players in the NFL with known African ties.",
-      "publishedAt": "2026-11-17T11:45:40Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "4606410e22970dc6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50503491/broncos-qb-bo-nix-more-consistency-all-four-quarters-clutch",
-      "title": "What Broncos are doing to try to make Bo Nix more consistent throughout games",
-      "summary": "Nix has a knack for coming through big late in games, but the Broncos want him to play better earlier to lessen the fourth-quarter drama.",
-      "publishedAt": "2026-11-17T11:43:02Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "ad48f703dd74b5da",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-c-coleman-shelton-to-miss-4-6-weeks-with-a-hamstring-injury",
-      "title": "Rams C Coleman Shelton to miss 4-6 weeks with a hamstring injury",
-      "summary": "The Rams are on their bye this week and that gives them some extra time to figure out how to address the center position before their return to action against the Packers in Week 12.",
-      "publishedAt": "2026-11-17T11:43:00Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-17T11:41:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-17T11:41:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "a1b1a52c4bb5a3ff",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50503226/nfl-power-rankings-week-11-non-quarterback-mvps-midseason",
-      "title": "NFL Power Rankings: Stacking all 32 teams for Week 11, plus non-QB MVPs",
-      "summary": "How does every NFL team stack up heading into Week 11? We made our 1-32 list and picked the non-quarterback MVPs for each roster.",
-      "publishedAt": "2026-11-17T11:38:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "0daa709e46750b25",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-on-finally-getting-a-win-lets-do-it-every-week",
-      "title": "Jim Harbaugh on finally getting a win: \"Let's do it every week\"",
-      "summary": "Before the season, many expected the Chargers not only to get back to the playoffs for the third straight year but to finally make some noise.",
-      "publishedAt": "2026-11-17T11:32:00Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "e1b343becd99a1f3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-hamilton-ravens-are-disgracing-their-standards",
-      "title": "Kyle Hamilton: Ravens are \"disgracing\" their \"standards\"",
-      "summary": "The Ravens wore all black on Monday night.",
-      "publishedAt": "2026-11-17T11:15:46Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "472d4a99bab30f9b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50505706/cowboys-defense-bleak-future-49ers-loss",
-      "title": "No quick fix for Cowboys' defense, and 2027 looks bleak too",
-      "summary": "Even setting aside the status of DC Christian Parker, Dallas is light on draft picks and has big contract decisions ahead.",
-      "publishedAt": "2026-11-17T11:00:01Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "0f67838dc66c3c45",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-and-chiefs-both-favored-by-16-5-on-sunday-biggest-point-spreads-of-the-season",
-      "title": "Bills and Chiefs both favored by 16.5 on Sunday, biggest point spreads of the season",
-      "summary": "The Bills and Chiefs are scheduled for a Thanksgiving night showdown, but before that they each have a game on Sunday.",
-      "publishedAt": "2026-11-17T10:15:51Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "19261b96a08b84bd",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-11-power-rankings-patrick-mahomes-chiefs",
-      "title": "Prisco's NFL Week 11 Power Rankings: Patrick Mahomes returns to MVP form, which makes Chiefs scary",
-      "summary": "Pete Prisco shares his Week 11 Power Rankings for the 2026 NFL season, including the Chargers finally climbing out of the basement",
-      "publishedAt": "2026-11-17T10:01:00Z",
-      "teamIds": [
-        "12",
-        "24"
       ]
     }
   ]
