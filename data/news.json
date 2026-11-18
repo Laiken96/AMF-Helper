@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T22:58:20Z",
+  "updatedAt": "2026-11-18T00:47:21Z",
   "items": [
+    {
+      "id": "8caa1efb37d35902",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-worked-out-k-matt-prater-on-tuesday",
+      "title": "Chiefs worked out K Matt Prater on Tuesday",
+      "summary": "The Chiefs worked out free agent kicker Matt Prater on Tuesday, according to the NFL's personnel notice.",
+      "publishedAt": "2026-11-18T00:10:37Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "6acf7ccc3f8ca9d5",
       "source": "pft",
@@ -1587,17 +1598,6 @@
       "summary": "Last year's top draft picks reached a pivot point in their careers, and not everyone is on the right trajectory",
       "publishedAt": "2026-11-16T22:51:37Z",
       "teamIds": []
-    },
-    {
-      "id": "7175cd13f07a0cb3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
-      "title": "49ers WR Mike Evans' Achilles tendinitis injury explained",
-      "summary": "ESPN spoke with a medical professional for a better understanding of Evans' diagnosis. When could he return? And will the injury completely resolve itself?",
-      "publishedAt": "2026-11-16T22:42:50Z",
-      "teamIds": [
-        "25"
-      ]
     }
   ]
 }
