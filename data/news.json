@@ -1,7 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T12:47:23Z",
+  "updatedAt": "2026-11-18T13:47:32Z",
   "items": [
+    {
+      "id": "5fa6b8f0db1480a9",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50520285/tony-pollard-week-11-fantasy-outlook",
+      "title": "Tony Pollard's Week 11 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-18T13:43:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "865b33936977e005",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-to-sign-ot-fred-johnson-to-their-practice-squad",
+      "title": "Chiefs to sign OT Fred Johnson to their practice squad",
+      "summary": "The Chiefs are adding some veteran depth at offensive tackle.",
+      "publishedAt": "2026-11-18T13:42:12Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "0fad1cbeb715fb2d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50520227/cj-stroud-week-11-fantasy-outlook",
+      "title": "C.J. Stroud's Week 11 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-18T13:40:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "2cfcc1553673bbbb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-week-11",
+      "title": "Predicting full 14-team NFL playoff bracket heading into Week 11: AFC field seems set, Packers miss out",
+      "summary": "For the first time this season, we have the same Super Bowl matchup two weeks in a row",
+      "publishedAt": "2026-11-18T13:19:59Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "141d4f1cb64a29e3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys",
+      "title": "Week 11 picks, best bets: Lowly Jets send Chargers back into loss column, Titans cover vs. Cowboys",
+      "summary": "Tyler Sullivan picks every game on the Week 11 schedule, including five locks against the spread",
+      "publishedAt": "2026-11-18T12:47:19Z",
+      "teamIds": [
+        "6",
+        "24",
+        "20",
+        "10"
+      ]
+    },
     {
       "id": "9b9487a27662025b",
       "source": "espn",
@@ -82,7 +136,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/draft2027/story/_/id/50510863/2027-nfl-draft-top-pick-dolphins-titans-eagles-jets-chargers",
       "title": "2027 NFL draft: Dolphins, Titans, Eagles, Jets, Chargers in race for No. 1 pick",
-      "summary": "Five NFL teams have at least 5% odds to land the No. 1 pick in 2027, per ESPN's Football Power Index -- the Dolphins, Titans, Eagles, Jets and Chargers.",
+      "summary": "Five NFL teams have at least 5% odds to land the No. 1 pick in 2027, per ESPN's Football Power Index: the Dolphins, Titans, Eagles, Jets and Chargers.",
       "publishedAt": "2026-11-18T11:24:23Z",
       "teamIds": [
         "24",
@@ -1521,6 +1575,19 @@
       ]
     },
     {
+      "id": "4ea8397845ccb397",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
+      "title": "NFL Week 10 grades: Chargers earn 'A-' for picking up first win, Packers fail in showdown with Vikings",
+      "summary": "We're handing out grades for every team that played in Week 10",
+      "publishedAt": "2026-11-17T04:48:03Z",
+      "teamIds": [
+        "9",
+        "24",
+        "16"
+      ]
+    },
+    {
       "id": "52085f4dd82dbb98",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50506286/ravens-chargers-mnf-herbert-first-win",
@@ -1531,73 +1598,6 @@
         "33",
         "24"
       ]
-    },
-    {
-      "id": "70b382ade4976018",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-run-past-ravens-23-20-for-first-win-of-2026",
-      "title": "Monday Night Football: Chargers run past Ravens 23-20 for first win of 2026",
-      "summary": "The Chargers outrushed the Ravens 160 to 16.",
-      "publishedAt": "2026-11-17T04:33:22Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "ebeb2ae21db23a0b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873065",
-      "title": "Chargers bully the Ravens at the line of scrimmage and earn their first win of the season, 23-20",
-      "summary": "The Los Angeles Chargers finally won a game — with the type of smashmouth performance that has brought Jim Harbaugh so much success during his coaching career.",
-      "publishedAt": "2026-11-17T04:32:47Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "eb27ebbec86cfcf7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50507744/chargers-stun-ravens-pick-first-win-mnf",
-      "title": "Chargers stun Ravens, pick up first win on MNF",
-      "summary": null,
-      "publishedAt": "2026-11-17T04:24:23Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "813cc2d019e7a6b3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henrys-second-td-has-ravens-back-within-a-fg",
-      "title": "Derrick Henry's second TD has Ravens back within a FG",
-      "summary": "Derrick Henry has 10 carries for 10 yards, but he has two touchdowns.",
-      "publishedAt": "2026-11-17T03:57:30Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "8cc53c0f7e10bab9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rex-ryan-politicks-for-job-with-cowboys",
-      "title": "Rex Ryan politicks for job with Cowboys",
-      "summary": "Rex Ryan is plenty of things.",
-      "publishedAt": "2026-11-17T03:56:25Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "6a36899ac63627a1",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50507501/bo-nix-eli-do-some-quality-trolling-peyton-rushing-game",
-      "title": "Bo Nix and Eli do some quality trolling of Peyton's rushing game",
-      "summary": null,
-      "publishedAt": "2026-11-17T03:45:46Z",
-      "teamIds": []
     }
   ]
 }
