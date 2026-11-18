@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T03:47:26Z",
+  "updatedAt": "2026-11-18T05:47:20Z",
   "items": [
+    {
+      "id": "3eacfa15a4e151ab",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50517561/source-cardinals-qb-gardner-minshew-surgery-repair-right-ucl",
+      "title": "Source: Cardinals' Gardner Minshew has surgery to repair right UCL",
+      "summary": "Cardinals quarterback Gardner Minshew II had surgery on his right ulnar collateral ligament on Monday, a source told ESPN.",
+      "publishedAt": "2026-11-18T05:06:06Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "4c358fab42558135",
       "source": "espn",
@@ -1586,15 +1597,6 @@
         "33",
         "24"
       ]
-    },
-    {
-      "id": "dd8e79ef051dd6d3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50465223/nfl-week-10-fashionable-arrivals",
-      "title": "Kyle Hamilton rocks Christmas sweater ahead of 'MNF,' leads NFL Week 10 arrivals",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-16T23:53:27Z",
-      "teamIds": []
     }
   ]
 }

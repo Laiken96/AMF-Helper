@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-18T01:47:23Z",
+    "takenAt": "2026-11-18T05:47:18Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2142,7 +2142,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4361307",
@@ -2352,6 +2352,16 @@
       "kind": "weg",
       "from": "Doubtful",
       "to": null
+    },
+    {
+      "gameId": "401873092",
+      "athleteId": "4038524",
+      "name": "Gardner Minshew II",
+      "pos": "QB",
+      "teamAbbr": "ARI",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     }
   ]
 }
