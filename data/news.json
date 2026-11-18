@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T13:47:32Z",
+  "updatedAt": "2026-11-18T14:14:37Z",
   "items": [
+    {
+      "id": "4abfe628e3c8e6f7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50520478/can-vikings-make-super-bowl-run-kirk-cousins",
+      "title": "Can the Vikings make a Super Bowl run with Kirk Cousins?",
+      "summary": null,
+      "publishedAt": "2026-11-18T14:10:32Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "d89bfecf21b88e76",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50520477/malik-nabers-week-11-fantasy-outlook",
+      "title": "Malik Nabers' Week 11 fantasy outlook",
+      "summary": null,
+      "publishedAt": "2026-11-18T14:09:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "f8dba9cab02276f8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/when-brian-flores-defenses-face-kyle-shanahan-offenses-flores-is-5-0",
+      "title": "When Brian Flores defenses face Kyle Shanahan offenses, Flores is 5-0",
+      "summary": "Teams with Flores as a head coach or defensive assistant have played against teams with Shanahan as a head coach or offensive assistant five times, and Flores is 5-0.",
+      "publishedAt": "2026-11-18T13:44:31Z",
+      "teamIds": []
+    },
     {
       "id": "5fa6b8f0db1480a9",
       "source": "espn",
@@ -30,6 +59,17 @@
       "summary": null,
       "publishedAt": "2026-11-18T13:40:56Z",
       "teamIds": []
+    },
+    {
+      "id": "8e63513097eb9af7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/sorting-9-struggling-nfl-franchises-into-tiers-bengals-colts-titans-giants",
+      "title": "Sorting 9 struggling franchises into tiers, from hopeless to hopeful: When will Jets end drought?",
+      "summary": "At least one multi-year playoff drought will end in 2026, but others are only bound to get longer",
+      "publishedAt": "2026-11-18T13:40:23Z",
+      "teamIds": [
+        "20"
+      ]
     },
     {
       "id": "2cfcc1553673bbbb",
@@ -1549,51 +1589,6 @@
       "title": "Chargers relieved after beating Ravens for first win of season",
       "summary": "The Chargers beat the Ravens 23-30 on Monday night to earn their first win since Week 16 of last season, bringing a franchise-wide sigh of relief.",
       "publishedAt": "2026-11-17T06:40:54Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "a9e0f8446d9ee8ef",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-manning-will-participate-in-senior-day-but-wont-comment-on-his-future",
-      "title": "Arch Manning will participate in Senior Day, but won't comment on his future",
-      "summary": "Texas quarterback Arch Manning concludes his fourth slate of home games with the Longhorns on Saturday.",
-      "publishedAt": "2026-11-17T05:20:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "359e3215a2b7dd06",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50507977/herbert-credits-chargers-locker-room-sticking-together",
-      "title": "Herbert credits Chargers locker room for sticking together",
-      "summary": null,
-      "publishedAt": "2026-11-17T05:14:25Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "4ea8397845ccb397",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes",
-      "title": "NFL Week 10 grades: Chargers earn 'A-' for picking up first win, Packers fail in showdown with Vikings",
-      "summary": "We're handing out grades for every team that played in Week 10",
-      "publishedAt": "2026-11-17T04:48:03Z",
-      "teamIds": [
-        "9",
-        "24",
-        "16"
-      ]
-    },
-    {
-      "id": "52085f4dd82dbb98",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50506286/ravens-chargers-mnf-herbert-first-win",
-      "title": "Justin Herbert, defense help lift Chargers past Ravens on MNF",
-      "summary": "The Chargers' defense stifles Baltimore's running backs, and Justin Herbert steps up in Los Angeles' first win.",
-      "publishedAt": "2026-11-17T04:46:15Z",
       "teamIds": [
         "33",
         "24"
