@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T02:47:20Z",
+  "updatedAt": "2026-11-19T03:38:49Z",
   "items": [
+    {
+      "id": "f0a2a32d656a1902",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-bosa-i-dont-think-ive-played-my-best-football",
+      "title": "Nick Bosa: I don't think I've played my best football",
+      "summary": "49ers defensive end Nick Bosa's only stats in Sunday's 46-40 win over the Cowboys were one quarterback hit, four pressures and three penalties in 34 snaps.",
+      "publishedAt": "2026-11-19T03:25:46Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "4153ed1b77a5afd6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-did-not-practice-wednesday-with-ankle-quad-injuries",
+      "title": "Brock Bowers did not practice Wednesday with ankle, quad injuries",
+      "summary": "Raiders coach Klint Kubiak called tight end Brock Bowers \"day-to-day\" earlier this week, but Wednesday was not the day.",
+      "publishedAt": "2026-11-19T02:57:02Z",
+      "teamIds": [
+        "13"
+      ]
+    },
     {
       "id": "ef45b5b143639792",
       "source": "pft",
@@ -1640,26 +1663,6 @@
       "teamIds": [
         "6"
       ]
-    },
-    {
-      "id": "b452fe0d1e1a4e49",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-wr-luther-burden-has-cleared-concussion-protocol",
-      "title": "Bears WR Luther Burden has cleared concussion protocol",
-      "summary": "Bears wide receiver Luther Burden cleared concussion protocol, coach Ben Johnson said Tuesday.",
-      "publishedAt": "2026-11-17T20:44:57Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "2b8a951e3599a174",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-starting-quarterback-rankings-joe-burrow-josh-allen",
-      "title": "Ranking the 50 QBs who have started an NFL game in 2026: From cellar-dwellers to gold standard",
-      "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standard",
-      "publishedAt": "2026-11-17T20:39:00Z",
-      "teamIds": []
     }
   ]
 }
