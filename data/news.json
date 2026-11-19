@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T04:47:29Z",
+  "updatedAt": "2026-11-19T05:47:22Z",
   "items": [
+    {
+      "id": "a3a5c793d061c50c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-wont-use-aidan-hutchinson-injury-as-a-teaching-moment",
+      "title": "Sean Payton won't use Aidan Hutchinson injury as a teaching moment",
+      "summary": "Lions coach Dan Campbell has made his position clear regarding player celebrations, in the aftermath of defensive end Aidan Hutchinson's season-ending knee injury.",
+      "publishedAt": "2026-11-19T05:05:09Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "6b59cb57b0dfd9e0",
       "source": "pft",
@@ -1650,18 +1661,6 @@
       "publishedAt": "2026-11-17T21:09:28Z",
       "teamIds": [
         "2"
-      ]
-    },
-    {
-      "id": "11454e8c654a5dea",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-schedule-flex-week-12-sunday-night-football-patriots-chargers",
-      "title": "NFL schedule flex: League moves Week 12 'Sunday Night Football' matchup, shifts afternoon games",
-      "summary": "Patriots at Chargers is moving out of prime time",
-      "publishedAt": "2026-11-17T21:04:25Z",
-      "teamIds": [
-        "24",
-        "17"
       ]
     }
   ]
