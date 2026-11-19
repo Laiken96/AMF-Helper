@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T05:47:22Z",
+  "updatedAt": "2026-11-19T09:47:20Z",
   "items": [
+    {
+      "id": "4b20db3cc9b69f88",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-can-become-the-first-qb-ever-with-4-touchdowns-in-6-consecutive-games",
+      "title": "Joe Burrow can become the first QB ever with 4+ touchdowns in 6 consecutive games",
+      "summary": "Burrow and Peyton Manning are the only QBs ever with 4 TDs in 5 straight games. If Burrow does it again on Monday night, he'll be the first in NFL history to do it in 6 straight games.",
+      "publishedAt": "2026-11-19T08:48:47Z",
+      "teamIds": []
+    },
     {
       "id": "a3a5c793d061c50c",
       "source": "pft",
@@ -1650,17 +1659,6 @@
       "teamIds": [
         "11",
         "15"
-      ]
-    },
-    {
-      "id": "645a4515ac5f9bf7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-put-ol-armaj-reed-adams-on-injured-reserve",
-      "title": "Bills put OL Ar'maj Reed-Adams on injured reserve",
-      "summary": "The Bills announced a few roster moves on Tuesday, including one that landed a reserve offensive lineman on injured reserve.",
-      "publishedAt": "2026-11-17T21:09:28Z",
-      "teamIds": [
-        "2"
       ]
     }
   ]
