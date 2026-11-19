@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 11,
+  "updatedAt": "2026-11-19T19:20:57Z",
+  "model": "claude-haiku-5-5",
+  "opinions": [
+    {
+      "gameId": "401873066",
+      "createdAt": "2026-11-19T19:20:57Z",
+      "winnerTeamId": "34",
+      "pWinner": 0.68,
+      "marketPickTeamId": "34",
+      "marketProb": 0.8228,
+      "reasoning": "Die Texans spielen zu Hause und bekommen David Montgomery zurück, während Danielle Hunter, Woody Marks und Marvin Harrison Jr. fehlen. Die Colts müssen ohne beide Starttackles und den verletzten Cornerback Charvarius Ward auskommen, und Sauce Gardner fällt laut Heavy wohl ebenfalls aus, was Schutz für Daniel Jones und die Passverteidigung stark schwächt. Entgegen der Angabe \"keine bekannte Ausfälle\" melden ESPN und NFL.com mehrere wichtige Ausfälle, die ich deshalb berücksichtigt habe.",
+      "sources": [
+        {
+          "title": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs (ESPN)",
+          "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots"
+        },
+        {
+          "title": "NFL Week 11 injury report: Player statuses for all 13 games",
+          "url": "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+        },
+        {
+          "title": "Week 11 Injury Report | Texans vs Colts (Houston Texans)",
+          "url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts"
+        },
+        {
+          "title": "Texans Make Significant Change to Starting Lineup Amid Colts News (Heavy)",
+          "url": "https://heavy.com/sports/nfl/houston-texans/blankenship-depth-chart-stewart-colts-gardner/"
+        }
+      ]
+    }
+  ]
+}
