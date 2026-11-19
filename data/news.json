@@ -1,7 +1,112 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T17:47:21Z",
+  "updatedAt": "2026-11-19T18:47:23Z",
   "items": [
+    {
+      "id": "70ae9ffb76718140",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 11: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-19T18:45:13Z",
+      "teamIds": []
+    },
+    {
+      "id": "92ce5dff7e1a00b3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 11: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-19T18:44:02Z",
+      "teamIds": []
+    },
+    {
+      "id": "379dfb31b68bfa2b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 11: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-19T18:43:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "10969dbe17bed1cf",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50532442/get-many-people-al-davis",
+      "title": "Christian Bale: You don't get many people like Al Davis",
+      "summary": null,
+      "publishedAt": "2026-11-19T18:22:15Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "3bbfec1476b05722",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-adds-a-little-more-to-the-lingering-joe-buck-feud",
+      "title": "Troy Aikman adds a little more to the lingering Joe Buck feud",
+      "summary": "When ESPN president Jimmy Pitaro said this week that the media coverage of the Joe Buck and Troy Aikman situation has \"been disappointing,\" the obvious takeaway was that Pitaro should be disappointed with those ESPN employees who chose to speak privately and/or publicly about a sensitive internal situation.",
+      "publishedAt": "2026-11-19T18:16:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "226eb5eddb3c7a71",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/revisiting-chiefs-2026-nfl-draft-kansas-city-justified-trading-up-mansoor-delane",
+      "title": "Revisiting the Chiefs' 2026 NFL Draft: Was Kansas City justified in trading up for Mansoor Delane?",
+      "summary": "Trading up for Mansoor Delane has paid off in the secondary, but Peter Woods' slow start and an ignored wide receiver room leave lingering questions about Kansas City's first-round approach",
+      "publishedAt": "2026-11-19T18:07:33Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "3246a672aaa7918b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-returned-to-practice-on-thursday",
+      "title": "Baker Mayfield returned to practice on Thursday",
+      "summary": "Buccaneers quarterback Baker Mayfield appears to be trending toward playing on Sunday against the Lions.",
+      "publishedAt": "2026-11-19T17:57:11Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "fa5d17441111f655",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ravens-send-marlon-humphrey-home-after-controversial-baltimore-comments",
+      "title": "Ravens send Marlon Humphrey home after his controversial comments, sit him for Week 11 game",
+      "summary": "The decision comes after the cornerback faced backlash, including criticism from the city's mayor, for claiming on his podcast that Baltimore is 'best at making criminals'",
+      "publishedAt": "2026-11-19T17:50:36Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "1791711777c1cb67",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/frank-reich-im-the-jets-offensive-coordinator-our-inability-to-score-starts-with-me",
+      "title": "Frank Reich: I'm the Jets' offensive coordinator, our inability to score starts with me",
+      "summary": "The Jets haven't scored a touchdown since the third quarter of their Week 8 loss to the Raiders.",
+      "publishedAt": "2026-11-19T17:48:19Z",
+      "teamIds": [
+        "13",
+        "20"
+      ]
+    },
+    {
+      "id": "5b7779e97d46cb52",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50532410/ravens-dc-supports-decision-set-marlon-humphrey-inactive-vs-panthers",
+      "title": "Ravens' DC supports decision to set Marlon Humphrey as inactive vs. Panthers",
+      "summary": null,
+      "publishedAt": "2026-11-19T17:46:50Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
     {
       "id": "6f6fd50564a06348",
       "source": "espn",
@@ -48,11 +153,23 @@
       "id": "7b97a75ededb509d",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
-      "title": "Ravens send CB Humphrey home, say he'll be inactive after his 'criminals' comment",
+      "title": "Ravens send CB Humphrey home, say he'll be inactive after 'criminals' comment",
       "summary": "The Ravens have sent cornerback Marlon Humphrey home from the facility, and he will be inactive for Sunday's game against the Panthers.",
       "publishedAt": "2026-11-19T17:18:16Z",
       "teamIds": [
         "33"
+      ]
+    },
+    {
+      "id": "d904ae627390b3b4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-create-altitude-chamber-for-49ers-mexico-city-game",
+      "title": "Vikings have a secret weapon to fight altitude heading into showdown with 49ers in Mexico City",
+      "summary": "Minnesota transformed part of its facility to help the team adjust to the altitude it will face in Mexico City",
+      "publishedAt": "2026-11-19T17:12:17Z",
+      "teamIds": [
+        "16",
+        "25"
       ]
     },
     {
@@ -1527,131 +1644,6 @@
       "teamIds": [
         "30",
         "10"
-      ]
-    },
-    {
-      "id": "2b7a4d610109f5ab",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50520940/sources-pettine-take-defensive-playcalling-cowboys",
-      "title": "Pettine to take over defensive playcalling for Cowboys; Parker still DC",
-      "summary": "Christian Parker will remain as the Cowboys' defensive coordinator, but Mike Pettine will call the defense on game day, coach Brian Schottenhiemer said.",
-      "publishedAt": "2026-11-18T15:39:14Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "79288afd73cbebe9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-bets-week-11-2026",
-      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-18T15:24:42Z",
-      "teamIds": [
-        "6",
-        "18"
-      ]
-    },
-    {
-      "id": "0ff07490398ca3b4",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-odds-lines-totals-spreads",
-      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Colts-Texans, Steelers-Eagles, more",
-      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
-      "publishedAt": "2026-11-18T15:18:39Z",
-      "teamIds": [
-        "34",
-        "11",
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "934b0b0931689498",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50521328/get-crew-confused-cowboys-dc-losing-playcalling-duties",
-      "title": "'Get Up' crew confused by Cowboys DC losing playcalling duties",
-      "summary": null,
-      "publishedAt": "2026-11-18T15:17:21Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "eb3791232ec589c2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-pettine-takes-over-as-cowboys-defensive-play-caller",
-      "title": "Report: Mike Pettine takes over as Cowboys' defensive play-caller",
-      "summary": "Christian Parker will remain the defensive coordinator.",
-      "publishedAt": "2026-11-18T15:11:39Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "b27376fa5f827333",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50514411/facts-feelings-fantasy-advice-week-11",
-      "title": "Facts vs. Feelings: Bye-mageddon means getting comfortable with the uncomfortable",
-      "summary": "A bye-laden Week 11 might make you cringe at some of your lineup decisions, so let the facts hone your feelings on Bo Nix, Tony Pollard, Jaylen Warren, Chris Olave, Malik Nabers, Stefon Diggs and Colston Loveland.",
-      "publishedAt": "2026-11-18T15:08:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "6dde33b0ae5ff574",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-theres-still-a-lot-of-ball-to-be-played",
-      "title": "C.J. Stroud: \"There's still a lot of ball to be played\"",
-      "summary": "With Sunday's loss to the Browns, the Texans have fallen to 3-6 on the season.",
-      "publishedAt": "2026-11-18T15:02:49Z",
-      "teamIds": [
-        "5",
-        "34"
-      ]
-    },
-    {
-      "id": "0092a0b480a6a7ad",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/buccaneers-vs-lions-nfl-parlay-baker-mayfield-may-sit-while-detroit-begins-life-without-aidan-hutchinson",
-      "title": "Buccaneers vs. Lions NFL parlay: Baker Mayfield may sit, while Detroit begins life without Aidan Hutchinson",
-      "summary": "The Bucs may be without QB Baker Mayfield on Sunday in Detroit, while the Lions will be without star pass-rusher Aidan Hutchinson",
-      "publishedAt": "2026-11-18T15:02:25Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "de7a55171734354e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-owner-vinod-khosla-were-very-happy-with-both-the-team-and-the-location-right-now",
-      "title": "Seahawks owner Vinod Khosla: \"We’re very happy with both the team and the location right now\"",
-      "summary": "A pattern has emerged during the early months of Vinod Khosla's ownership of the Seahawks.",
-      "publishedAt": "2026-11-18T14:58:10Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "be2c943012167bfa",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-seahawks-jaxon-smith-njigba-back-to-back-nfl-offensive-player-of-the-year",
-      "title": "Why Seahawks' Jaxon Smith-Njigba may go back-to-back as NFL Offensive Player of the Year",
-      "summary": "The league might be witnessing the greatest season ever by a wide receiver, which could earn him the first back-to-back OPOY honors in a quarter century",
-      "publishedAt": "2026-11-18T14:49:09Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "233a70332f8492b2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/gardner-minshew-had-surgery-to-repair-torn-ligament-in-throwing-elbow",
-      "title": "Gardner Minshew had surgery to repair torn ligament in throwing elbow",
-      "summary": "Cardinals quarterback Gardner Minshew has had surgery to repair the elbow injury that ended his season.",
-      "publishedAt": "2026-11-18T14:40:44Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
