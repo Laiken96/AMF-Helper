@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T21:47:21Z",
+  "updatedAt": "2026-11-19T22:15:30Z",
   "items": [
+    {
+      "id": "328eaeb73d95093a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daron-bland-remained-out-of-practice-thursday-but-joey-porter-jr-again-was-a-full-participant",
+      "title": "DaRon Bland remained out of practice Thursday, but Joey Porter Jr. again was a full participant",
+      "summary": "Cowboys cornerback DaRon Bland (ankle) did not participate in practice for a second consecutive day Thursday, but cornerback Joey Porter Jr.",
+      "publishedAt": "2026-11-19T22:05:54Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "62376129eaad5fee",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-officially-listed-as-limited-in-return-to-practice",
+      "title": "Baker Mayfield officially listed as limited in return to practice",
+      "summary": "Buccaneers quarterback Baker Mayfield described himself as limited in his return to practice on Thursday and the team's injury report said the same thing later in the day.",
+      "publishedAt": "2026-11-19T21:57:56Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "bc68fa2208dd09d8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50534340/saints-justin-reid-working-potential-release",
+      "title": "Saints, Justin Reid 'working through' potential release",
+      "summary": "Saints and safety Justin Reid are \"working through some things\" regarding the veteran safety's potential release, defensive coordinator Brandon Staley said on Thursday.",
+      "publishedAt": "2026-11-19T21:51:08Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "58cb33ca12edb759",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-on-injury-report-fully-participates-in-practice-despite-illness",
+      "title": "Joe Burrow on injury report, fully participates in practice despite illness",
+      "summary": "Bengals quarterback Joe Burrow landed on the team's first injury report of the week, but it doesn't look like anything that should interfere with his availability for Monday night's game against the Commanders.",
+      "publishedAt": "2026-11-19T21:49:58Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "fc8df859232bc3df",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rams-puka-nacua-suspended-three-games-will-serve-ban-during-injured-reserve-stint",
+      "title": "Rams' Puka Nacua suspended three games, will serve ban during injured reserve stint",
+      "summary": "The NFL threatened Nacua with potential \"banishment\" from the league for future violations of the personal conduct policy",
+      "publishedAt": "2026-11-19T21:46:34Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "3c86538f4a433f45",
       "source": "espn",
@@ -1578,60 +1634,6 @@
       "publishedAt": "2026-11-18T20:29:38Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "5c9e10c387dc019e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-christian-parker-still-has-a-bright-future-with-the-cowboys",
-      "title": "Brian Schottenheimer: Christian Parker still has a bright future with the Cowboys",
-      "summary": "Brian Schottenheimer confirmed Mike Pettine will take over as the Cowboys' defensive play-caller on Sunday.",
-      "publishedAt": "2026-11-18T20:23:30Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "af02d58e5f6ca3fb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/agents-take-breaking-down-dolphins-historic-dead-money-salary-cap",
-      "title": "Agent's Take: Breaking down Dolphins' historic dead money and where they go from here",
-      "summary": "Miami's $188.88 million in dead money is unprecedented, but a number the Dolphins felt was necessary to rebuild",
-      "publishedAt": "2026-11-18T20:13:11Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "173ba33033da3895",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-wont-practice-wednesday-with-groin-injury",
-      "title": "Kenneth Walker won't practice Wednesday with groin injury",
-      "summary": "Kenneth Walker's groin injury will keep him out for at least another day.",
-      "publishedAt": "2026-11-18T20:03:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "a239da425e19a0a4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-earning-their-first-win-chargers-are-favored-to-win-their-second-vs-jets",
-      "title": "After earning their first win, Chargers are favored to win their second vs. Jets",
-      "summary": "The Chargers finally won a game on Monday.",
-      "publishedAt": "2026-11-18T19:59:03Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "e1404e8f4155a0c6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/darren-waller-tommy-tremble-out-of-practice-for-panthers",
-      "title": "Darren Waller, Tommy Tremble out of practice for Panthers",
-      "summary": "The Panthers practiced without their top two tight ends on Wednesday.",
-      "publishedAt": "2026-11-18T19:56:28Z",
-      "teamIds": [
-        "29"
       ]
     }
   ]
