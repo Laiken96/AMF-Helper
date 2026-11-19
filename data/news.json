@@ -1,7 +1,131 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T14:47:23Z",
+  "updatedAt": "2026-11-19T15:47:22Z",
   "items": [
+    {
+      "id": "cfe55f149aaa00e1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-wr-christian-kirk-had-meniscus-surgery",
+      "title": "49ers WR Christian Kirk had meniscus surgery",
+      "summary": "49ers wide receiver Christian Kirk went on injured reserve because of a knee injury a couple of weeks ago and that injury has also led him to the operating room.",
+      "publishedAt": "2026-11-19T15:37:32Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "7ef64292c7354c3f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/patriots-morgan-moses-possible-tell-seahawks-super-bowl-ryan-paganetti",
+      "title": "Patriots offensive lineman had possible tell that tipped off Seahawks in Super Bowl, other teams",
+      "summary": "Moses' hand placement may have given away whether the Patriots were passing or running on any given snap",
+      "publishedAt": "2026-11-19T15:34:01Z",
+      "teamIds": [
+        "17",
+        "26"
+      ]
+    },
+    {
+      "id": "bb03cf4fd49144f4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50531471/what-stephen-looking-see-vikings-litmus-test-vs-49ers",
+      "title": "What Stephen A. is looking to see from Vikings in 'litmus test' vs. 49ers",
+      "summary": null,
+      "publishedAt": "2026-11-19T15:29:04Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "c2aa0b6f9b17a4ac",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction",
+      "title": "Texans vs. Colts: Houston looks to bounce back vs. lowly Indy after rough Week 10 loss",
+      "summary": "Plus, how to watch, what to know and a prediction before the 'Thursday Night Football' matchup",
+      "publishedAt": "2026-11-19T15:26:53Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "143c39400073e87d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50531470/can-bengals-succeed-postseason-pass-heavy-offense",
+      "title": "Can the Bengals succeed in the postseason with a pass-heavy offense?",
+      "summary": null,
+      "publishedAt": "2026-11-19T15:26:43Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "b80a8fcc92a026d4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/are-woody-marks-and-david-montgomery-playing-tonight-texans-rushing-attack-short-handed-vs-colts",
+      "title": "Are Woody Marks and David Montgomery playing tonight? Texans' rushing attack short-handed vs. Colts",
+      "summary": "Both of Houston's two RBs are on the injury report ahead of the Week 11 matchup against Indy",
+      "publishedAt": "2026-11-19T15:24:34Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "ddb9aa0b50560b17",
+      "source": "espn",
+      "url": "https://espn.com/nba/story/_/id/50526626/gta-sports-pop-culture-look-back",
+      "title": "Revisiting sports and pop culture from GTA V's launch",
+      "summary": "\"Grand Theft Auto VI\" was released Thursday following a 13-year wait since GTA V.",
+      "publishedAt": "2026-11-19T15:21:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "ac7264cf54d334d1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-jahmyr-gibbs-is-a-special-player-special-guy-special-teammate",
+      "title": "Jared Goff: Jahmyr Gibbs is a special player, special guy, special teammate",
+      "summary": "Back in August, the Lions signed Jahmyr Gibbs to a three-year contract extension.",
+      "publishedAt": "2026-11-19T15:14:48Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "34dd298eb69b9d44",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/most-important-week-11-games-nfl-playoff-races",
+      "title": "Most important Week 11 games for NFL playoff races: Can anyone gain separation in NFC North or NFC South?",
+      "summary": "Plus, can the Giants bounce back?",
+      "publishedAt": "2026-11-19T15:11:52Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "9585ecb54e2c54b2",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/colts-vs-texans-odds-picks-prediction-best-bets-player-props-for-nfl-week-11-thursday-night-football",
+      "title": "Colts vs. Texans odds, picks, prediction: Best bets, player props for NFL Week 11 Thursday Night Football",
+      "summary": "Why backing the under on a 44-point total and targeting rushing props for David Montgomery and Daniel Jones create the best betting value for this divisional clash",
+      "publishedAt": "2026-11-19T15:09:17Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "1f22131611d5fb06",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/texans-vs-colts-odds-prediction-betting-preview-start-time-thursday-night-football-picks-best-bets",
+      "title": "Texans vs. Colts odds, prediction, betting preview, start time: Thursday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Colts vs. Texans on Thursday Night Football",
+      "publishedAt": "2026-11-19T15:03:47Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
     {
       "id": "28b36084d848e226",
       "source": "espn",
@@ -1542,127 +1666,6 @@
       "teamIds": [
         "9"
       ]
-    },
-    {
-      "id": "bd01ead742078e2c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50512215/rams-bye-rest-ramp-week-11",
-      "title": "A Rams bye means time for rest and ramping up",
-      "summary": "The bye \"represents an opportunity to get recharged,\" but it also allows the team to improve.",
-      "publishedAt": "2026-11-18T11:00:14Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "272254fa82c6d4a8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50514927/3-win-new-orleans-saints-kellen-moore-defining-games",
-      "title": "Three-win Saints, Kellen Moore face defining stretch of games",
-      "summary": "Starting with the Bears on Sunday, the head coach's tenure and the team's season sits at a crucial crossroads.",
-      "publishedAt": "2026-11-18T11:00:11Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "11493e7ae9003f7b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50513358/chiefs-travis-kelce-100-games-arrowhead-taylor-swift",
-      "title": "Kansas City Chiefs tight end Travis Kelce's top moments at Arrowhead Stadium",
-      "summary": "Kelce's greatest Arrowhead moments include his first catch, lots of playoff magic, and meeting the love of his life, Taylor Swift.",
-      "publishedAt": "2026-11-18T11:00:10Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "254e407cd44e9b9b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-vikings-reunion-could-be-just-getting-started",
-      "title": "Kirk Cousins, Vikings reunion could be just getting started",
-      "summary": "Quarterback Kirk Cousins will spend the rest of the 2026 season with the Vikings.",
-      "publishedAt": "2026-11-18T10:39:57Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "923e30289835a07f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-is-on-pace-to-break-the-nfl-record-for-yards-from-scrimmage-in-a-season",
-      "title": "Jahmyr Gibbs is on pace to break the NFL record for yards from scrimmage in a season",
-      "summary": "The current record belongs to Chris Johnson, who had 2,509 yards for the Titans in 2009.",
-      "publishedAt": "2026-11-18T09:27:41Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "3eacfa15a4e151ab",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50517561/source-cardinals-qb-gardner-minshew-surgery-repair-right-ucl",
-      "title": "Source: Cardinals' Gardner Minshew has surgery to repair right UCL",
-      "summary": "Cardinals quarterback Gardner Minshew II had surgery on his right ulnar collateral ligament on Monday, a source told ESPN.",
-      "publishedAt": "2026-11-18T05:06:06Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "4c358fab42558135",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50516834/minter-ravens-working-jump-start-running-game-talk-cheap",
-      "title": "Minter: Ravens working to jump-start running game, but 'talk is cheap'",
-      "summary": "Baltimore Ravens coach Jesse Minter had some strong words when addressing the team's identity on Monday.",
-      "publishedAt": "2026-11-18T03:22:55Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "9b230a8c106421e5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-baker-mayfield-has-a-foot-strain-that-could-keep-him-out-sunday",
-      "title": "Report: Baker Mayfield has a foot strain that could keep him out Sunday",
-      "summary": "Baker Mayfield has a foot strain that \"seems to be trending\" toward the Buccaneers' quarterback not playing in Sunday's game against the Lions, Ian Rapoport of NFL Media reports.",
-      "publishedAt": "2026-11-18T03:14:54Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "cebaae8b137efe65",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/police-issue-arrest-warrants-for-august-burglary-at-max-iheanachors-home",
-      "title": "Police issue arrest warrants for August burglary at Max Iheanachor's home",
-      "summary": "In August, thieves targeted the home of Steelers rookie first-round tackle Max Iheanachor while he was in Buffalo for a preseason game.",
-      "publishedAt": "2026-11-18T03:12:21Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "4c6783547186f33e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-cowboys-cranks-out-27-13-million-viewers",
-      "title": "49ers-Cowboys cranks out 27.13 million viewers",
-      "summary": "Fox's Sunday tripleheader culminated in the national telecast of the 8-1 49ers at the record-doesn't-matter Cowboys.",
-      "publishedAt": "2026-11-18T02:57:17Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "562d323fa63a2bf4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/officials-who-were-bumped-by-reconfigured-week-10-schedule-wont-lose-pay",
-      "title": "Officials who were bumped by reconfigured Week 10 schedule won't lose pay",
-      "summary": "The four officials who worked two games in Week 10 got paid accordingly.",
-      "publishedAt": "2026-11-18T02:31:58Z",
-      "teamIds": []
     }
   ]
 }
