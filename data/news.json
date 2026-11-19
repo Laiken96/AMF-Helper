@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T12:47:21Z",
+  "updatedAt": "2026-11-19T13:27:59Z",
   "items": [
+    {
+      "id": "f478bd1dc81792ef",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cb-mike-jackson-says-hes-ready-to-return-to-panthers-lineup",
+      "title": "CB Mike Jackson says he's ready to return to Panthers lineup",
+      "summary": "The Panthers are set to get a key piece of their secondary back for Sunday's game against the Ravens.",
+      "publishedAt": "2026-11-19T13:11:44Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "788fa93a406e4489",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/grading-nfl-quarterbacks-on-rookie-contracts-caleb-williams-c-j-stroud",
+      "title": "Grading NFL quarterbacks on rookie contracts: Caleb Williams, C.J. Stroud kick careers into high gear",
+      "summary": "A few young quarterbacks have aced their tests in 2026",
+      "publishedAt": "2026-11-19T12:56:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "afe23428b0db2141",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/it-wouldnt-shock-me-if-for-week-11-jared-goffs-tony-pollard",
+      "title": "It wouldn't shock me if ... for Week 11: New WR crashes OROY race, Jared Goff's pesky streak continues",
+      "summary": "Plus, Tony Pollard could shine in his first game back in Dallas",
+      "publishedAt": "2026-11-19T12:42:09Z",
+      "teamIds": []
+    },
     {
       "id": "8ff0d806730a2a26",
       "source": "pft",
@@ -1627,35 +1657,6 @@
       "publishedAt": "2026-11-17T22:23:30Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "d7de52a7238af37e",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50514115/dj-wonnum-priority-pickup-fantasy-idp-leagues-week-11",
-      "title": "Cockcroft: DJ Wonnum a priority pickup in fantasy IDP leagues in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-17T22:15:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "58563b3e918f050c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50514056/why-fantasy-managers-utilize-dak-prescott-week-11",
-      "title": "Why fantasy managers should utilize Dak Prescott in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-17T22:15:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "1382e036a7a4611c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-sign-jared-harrison-hunte-wydett-williams-to-53-man-roster",
-      "title": "Cardinals sign Jared Harrison-Hunte, Wydett Williams to 53-man roster",
-      "summary": "The Cardinals announced on Tuesday that they’ve made a series of roster moves.",
-      "publishedAt": "2026-11-17T22:08:10Z",
-      "teamIds": [
-        "22"
       ]
     }
   ]
