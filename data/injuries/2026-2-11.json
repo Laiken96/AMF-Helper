@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-19T21:20:35Z",
+    "takenAt": "2026-11-19T22:30:52Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1053,7 +1053,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4361307",
@@ -1076,6 +1076,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430841",
+            "name": "Carson Beck",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           },
           {
             "athleteId": "15847",
@@ -1927,6 +1938,26 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873067",
+      "athleteId": "4038524",
+      "name": "Gardner Minshew II",
+      "pos": "QB",
+      "teamAbbr": "ARI",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
+      "gameId": "401873067",
+      "athleteId": "4430841",
+      "name": "Carson Beck",
+      "pos": "QB",
+      "teamAbbr": "ARI",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
