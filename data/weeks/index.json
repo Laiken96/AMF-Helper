@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T05:47:22Z",
+  "updatedAt": "2026-11-19T19:47:30Z",
   "weeks": [
     {
       "season": 2026,
@@ -36,7 +36,7 @@
       "weekFile": "weeks/2026-2-11.json",
       "tipsFile": "tips/2026-2-11.json",
       "reviewFile": null,
-      "opinionFile": null
+      "opinionFile": "opinions/2026-2-11.json"
     },
     {
       "season": 2026,

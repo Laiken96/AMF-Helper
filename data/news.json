@@ -1,7 +1,165 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T18:47:23Z",
+  "updatedAt": "2026-11-19T19:47:28Z",
   "items": [
+    {
+      "id": "732359403156d4d1",
+      "source": "espn",
+      "url": "https://espn.com/college-football/story/_/id/50532925/jack-ham-returning-broadcast-booth-health-scare",
+      "title": "Hall of Famer Jack Ham returning to broadcast booth after health scare",
+      "summary": "Hall of Fame linebacker and Penn State radio analyst Jack Ham will return to the broadcast booth on Saturday, just two weeks after suffering a medical emergency.",
+      "publishedAt": "2026-11-19T19:37:38Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "43770a1949f35b20",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873069",
+      "title": "Jaguars visit the Giants in a matchup of two unexpected division leaders",
+      "summary": "John Harbaugh had no time this week for analyzing what has made the Jacksonville Jaguars one of the NFL's top teams.",
+      "publishedAt": "2026-11-19T19:37:36Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "97ce40e413b8f122",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-called-fernando-mendoza-to-debrief-after-rookies-first-start",
+      "title": "Kirk Cousins called Fernando Mendoza to \"debrief\" after rookie's first start",
+      "summary": "Quarterbacks Kirk Cousins and Fernando Mendoza are no longer teammates after the Raiders traded Cousins to the Vikings last week.",
+      "publishedAt": "2026-11-19T19:32:26Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "798a83a79bef946f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532686/studies-blood-test-potential-detect-cte-living",
+      "title": "Studies: Blood test has potential to detect CTE in the living",
+      "summary": "A new blood test shows potential to detect advanced stages of chronic traumatic encephalopathy (CTE) in the living, according to two recent published studies.",
+      "publishedAt": "2026-11-19T19:26:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "61795a5034626863",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532748/vikings-cousins-channeling-dantonio-maxim-amid-whirlwind-month",
+      "title": "Vikings' Cousins channeling Dantonio's 'slow down' maxim amid whirlwind month",
+      "summary": "As he manages the whirlwind of his professional and personal life this month, Vikings QB Kirk Cousins has relied on a maxim he often heard from his college coach Mark Dantonio at Michigan State -- when things speed up, try to slow down.",
+      "publishedAt": "2026-11-19T19:23:16Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "18edf1a4d27c99f8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873071",
+      "title": "Pass rush part of the focus for the Saints and Bears going into Sunday's game",
+      "summary": "Carl Granderson and Chase Young form a potent 1-2 punch on defense for the New Orleans Saints. Jeffery Simmons is a force on the defensive line for the Chicago Bears.",
+      "publishedAt": "2026-11-19T19:10:36Z",
+      "teamIds": [
+        "3",
+        "18"
+      ]
+    },
+    {
+      "id": "ed956c9ba3ed7316",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873067",
+      "title": "Chiefs are flying high but can ill afford to overlook the lowly Cardinals when they meet Sunday",
+      "summary": "If ever there was a time for an NFL team to overlook somebody, it just might be Sunday afternoon at Arrowhead Stadium, where the Kansas City Chiefs will continue their pursuit of another AFC West title against the injured, downtrodden Arizona...",
+      "publishedAt": "2026-11-19T19:09:36Z",
+      "teamIds": [
+        "22",
+        "12"
+      ]
+    },
+    {
+      "id": "401373d453e27e6d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873077",
+      "title": "Vikings-49ers matchup in Mexico features the best defense vs. the best offense",
+      "summary": "When Brock Purdy last walked off the field after playing Minnesota in 2024, he sought out Vikings defensive coordinator Brian Flores an complimented him on...",
+      "publishedAt": "2026-11-19T19:09:35Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "34cca034c182e0a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-parker-considered-not-staying-with-the-cowboys",
+      "title": "Christian Parker considered not staying with the Cowboys",
+      "summary": "The Cowboys have removed play-calling duties from defensive coordinator Christian Parker.",
+      "publishedAt": "2026-11-19T18:53:15Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "50983274ee90fe38",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/robert-kraft-bill-belichick-advance-hall-of-fame-selection-process",
+      "title": "Robert Kraft, Bill Belichick advance in Pro Football HoF selection process after last year's snub",
+      "summary": "The two were snubbed in last year's vote",
+      "publishedAt": "2026-11-19T18:51:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 11: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-19T18:48:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "23c15f803b0376fe",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 11: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-19T18:47:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "4594dcf9aa19a0b5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 11: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-19T18:47:14Z",
+      "teamIds": []
+    },
+    {
+      "id": "0379f32e6bbb757a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-says-hes-ready-to-go-after-return-to-practice",
+      "title": "Baker Mayfield says he's ready to go after return to practice",
+      "summary": "Buccaneers quarterback Baker Mayfield was back on the practice field Thursday.",
+      "publishedAt": "2026-11-19T18:46:49Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "64ab5603ce63fa91",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 11: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-19T18:46:42Z",
+      "teamIds": []
+    },
     {
       "id": "70ae9ffb76718140",
       "source": "espn",
@@ -370,6 +528,20 @@
       "teamIds": [
         "34",
         "11"
+      ]
+    },
+    {
+      "id": "0ff07490398ca3b4",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-odds-lines-totals-spreads",
+      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Colts-Texans, Steelers-Eagles, more",
+      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
+      "publishedAt": "2026-11-19T16:08:22Z",
+      "teamIds": [
+        "34",
+        "11",
+        "21",
+        "23"
       ]
     },
     {
@@ -1468,182 +1640,6 @@
       "teamIds": [
         "8",
         "17"
-      ]
-    },
-    {
-      "id": "724c2d9e9e1a42f2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-named-afc-offensive-player-of-the-week-for-second-time-this-season",
-      "title": "Joe Burrow named AFC offensive player of the week for second time this season",
-      "summary": "Bengals quarterback Joe Burrow is the betting favorite to be the NFL MVP this season and games like the one he had last Sunday are the reason why he's in that spot.",
-      "publishedAt": "2026-11-18T17:09:10Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "7684af32edac83f8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/49ers-outsmarted-vikings-unique-travel-plan-week-11-nfc-showdown-mexico-city",
-      "title": "49ers might have just outsmarted the Vikings with unique travel plan for Week 11 NFC showdown in Mexico City",
-      "summary": "The 49ers-Vikings game will be held at an elevation of almost 7,400 feet. The two teams are taking an opposite approach with their preparation",
-      "publishedAt": "2026-11-18T17:09:05Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "6c963c5977193d4a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-will-be-limited-in-wednesdays-practice",
-      "title": "Geno Smith will be limited in Wednesday's practice",
-      "summary": "Jets quarterback Geno Smith avoided a major ankle injury in last Sunday's loss to the Bills, but his Week 11 status remains uncertain.",
-      "publishedAt": "2026-11-18T17:02:54Z",
-      "teamIds": [
-        "2",
-        "20"
-      ]
-    },
-    {
-      "id": "f8d18fadfe8de51c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-sees-bears-4-2-yards-per-carry-average-as-a-deceiving-statistic",
-      "title": "Ben Johnson sees Bears' 4.2 yards per carry average as \"a deceiving statistic\"",
-      "summary": "League wide, NFL teams average 4.2 yards per rushing attempt.",
-      "publishedAt": "2026-11-18T16:45:14Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "a6ad4c8ca5452104",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50522085/jaguars-rule-center-robert-hainsey-knee-giants-game",
-      "title": "Jaguars rule starting center Robert Hainsey (knee) out for Giants game",
-      "summary": "Jaguars center Robert Hainsey will miss Sunday's game against the Giants because of a knee injury, coach Liam Coen said Wednesday.",
-      "publishedAt": "2026-11-18T16:41:39Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Breaking down 11 key fantasy football stats for Week 11",
-      "summary": "Michael F. Florio offers his favorite fantasy stats so far this season ahead of Week 11.",
-      "publishedAt": "2026-11-18T16:28:52Z",
-      "teamIds": [
-        "33",
-        "24"
-      ]
-    },
-    {
-      "id": "d5d52fbb2766ca96",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-likely-wont-cut-brandon-aiyuk-until-they-have-to",
-      "title": "49ers likely won't cut Brandon Aiyuk until they have to",
-      "summary": "With a roster exemption that lasts until November 24 and with no requirement to pay him a penny until the exemption expires, the 49ers have shown no inclination to release receiver Brandon Aiyuk until they absolutely have to.",
-      "publishedAt": "2026-11-18T16:23:22Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "322ad1a27fb50455",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50521838/clay-yates-pick-side-week-11",
-      "title": "Garrett Wilson vs. Carnell Tate: Clay and Yates pick a side for Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-18T16:15:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "740127c14582d05f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-trevor-lawrence-legitimate-2026-nfl-mvp-case-destined-win-one-some-point",
-      "title": "Why Jaguars' Trevor Lawrence has legitimate 2026 NFL MVP case, is destined to win one at some point",
-      "summary": "Across Lawrence's last 17 regular season games, he has 15-plus wins and 45-plus TD. He is only 1 of 10 QBs to achieve that feat",
-      "publishedAt": "2026-11-18T16:08:33Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "0016cdd031ba2b3d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50521850/can-fantasy-managers-bench-vikings-d-st-broncos-clay-yates-debate",
-      "title": "Can fantasy managers bench Vikings D/ST for Broncos? Clay and Yates debate",
-      "summary": null,
-      "publishedAt": "2026-11-18T16:08:18Z",
-      "teamIds": [
-        "7",
-        "16"
-      ]
-    },
-    {
-      "id": "858cc4691a0bdf39",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wr-jauan-jennings-prepare-to-face-his-former-team",
-      "title": "Vikings WR Jauan Jennings prepare to face his former team",
-      "summary": "Sunday night's game in Mexico City between the Vikings and 49ers has multiple interesting subplots.",
-      "publishedAt": "2026-11-18T16:05:26Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "4f4df598f662cb5d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50521831/yates-clay-debate-ryan-flournoy-vs-courtland-sutton-week-11",
-      "title": "Yates and Clay debate Ryan Flournoy vs. Courtland Sutton in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-18T16:03:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "37d304436fdd11ad",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50521799/why-stephen-defend-cowboys-dc-christian-parker",
-      "title": "Why Stephen A. can't defend Cowboys DC Christian Parker",
-      "summary": null,
-      "publishedAt": "2026-11-18T15:53:56Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "5288a0a1c9301593",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50521722/jaylen-warren-week-11-fantasy-outlook",
-      "title": "Jaylen Warren's Week 11 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-18T15:50:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "056ab45b0bbce1c1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-name-mike-pettine-as-play-caller-christian-parker-to-remain-as-dc",
-      "title": "Cowboys make defensive coaching changes, name Mike Pettine as play caller as struggles continue",
-      "summary": "Christian Parker will remain on as the defensive coordinator, at least in title",
-      "publishedAt": "2026-11-18T15:43:52Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "8475d86284969fa6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-c-robert-hainsey-week-to-week-with-knee-injury",
-      "title": "Report: Jaguars C Robert Hainsey week-to-week with knee injury",
-      "summary": "Jaguars center Robert Hainsey left last Sunday's win over the Titans with a knee injury and it looks like he will need some more time to recover.",
-      "publishedAt": "2026-11-18T15:40:27Z",
-      "teamIds": [
-        "30",
-        "10"
       ]
     }
   ]
