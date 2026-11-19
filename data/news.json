@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T03:38:49Z",
+  "updatedAt": "2026-11-19T04:47:29Z",
   "items": [
+    {
+      "id": "6b59cb57b0dfd9e0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-on-the-brian-flores-defense-its-not-just-a-fad",
+      "title": "Kyle Shanahan on the Brian Flores defense: \"It's not just a fad\"",
+      "summary": "49ers coach says the Minnesota defense puts pressure on everyone involved.",
+      "publishedAt": "2026-11-19T04:02:34Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "f0a2a32d656a1902",
       "source": "pft",
@@ -1651,17 +1662,6 @@
       "teamIds": [
         "24",
         "17"
-      ]
-    },
-    {
-      "id": "4f0d8213c92efe45",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-sign-ol-nick-leverett-to-active-roster",
-      "title": "Cowboys sign OL Nick Leverett to active roster",
-      "summary": "The Cowboys made a change to their offensive line group on Tuesday.",
-      "publishedAt": "2026-11-17T20:49:51Z",
-      "teamIds": [
-        "6"
       ]
     }
   ]
