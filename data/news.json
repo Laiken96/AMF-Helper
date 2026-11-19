@@ -1,7 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T22:15:30Z",
+  "updatedAt": "2026-11-19T22:47:19Z",
   "items": [
+    {
+      "id": "32392b518424c1f7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/research-moves-closer-to-identifying-cte-in-living-patients",
+      "title": "Research moves closer to identifying CTE in living patients",
+      "summary": "The ability to detect CTE only through autopsies prevents football players from knowing whether they have it during their careers.",
+      "publishedAt": "2026-11-19T22:37:55Z",
+      "teamIds": []
+    },
+    {
+      "id": "a50e2738658ae947",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-working-through-some-things-with-justin-reid-after-he-requests-release",
+      "title": "Saints \"working through some things\" with Justin Reid after he requests release",
+      "summary": "It appears safety Justin Reid and the Saints are parting ways.",
+      "publishedAt": "2026-11-19T22:33:08Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "a0a304c5a23b76c4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-matt-gay-dealing-with-a-hip-injury-the-raiders-worked-out-three-kickers",
+      "title": "With Matt Gay dealing with a hip injury, the Raiders worked out three kickers",
+      "summary": "Raiders kicker Matt Gay had a limited practice Wednesday with a hip injury.",
+      "publishedAt": "2026-11-19T22:27:37Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "f30e5e111a7bd845",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873070",
+      "title": "Bills get chance to feast on another backup QB with Kyle McCord and Miami Dolphins up next",
+      "summary": "Ed Oliver bristled at the notion of the Bills’ defensive turnaround being the result of Buffalo spending the past three weeks feasting on backup...",
+      "publishedAt": "2026-11-19T22:24:33Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
     {
       "id": "328eaeb73d95093a",
       "source": "pft",
@@ -29,7 +72,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50534340/saints-justin-reid-working-potential-release",
       "title": "Saints, Justin Reid 'working through' potential release",
-      "summary": "Saints and safety Justin Reid are \"working through some things\" regarding the veteran safety's potential release, defensive coordinator Brandon Staley said on Thursday.",
+      "summary": "Saints and safety Justin Reid are \"working through some things\" regarding the veteran safety's potential release, defensive coordinator Brandon Staley said Thursday.",
       "publishedAt": "2026-11-19T21:51:08Z",
       "teamIds": [
         "18"
@@ -1589,51 +1632,6 @@
       "teamIds": [
         "34",
         "11"
-      ]
-    },
-    {
-      "id": "03ae1a2945a515d0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-best-bets-week-11-2026",
-      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-18T20:52:28Z",
-      "teamIds": [
-        "6",
-        "18"
-      ]
-    },
-    {
-      "id": "1390bc4145da779a",
-      "source": "espn",
-      "url": "https://espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
-      "title": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
-      "summary": "Jets quarterback Geno Smith says he intends to play Sunday against the Chargers despite still walking with a noticeable limp due to an ankle injury.",
-      "publishedAt": "2026-11-18T20:45:47Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "d501bfb6e7c69856",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-wont-put-jordan-addison-on-ir",
-      "title": "Vikings won't put Jordan Addison on IR",
-      "summary": "When Vikings head coach Kevin O'Connell announced that wide receiver Jordan Addison needed thumb surgery earlier this week, he said that an injured reserve stint was a possibility.",
-      "publishedAt": "2026-11-18T20:42:55Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "a81f2256f03c0c89",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50523527/ravens-flowers-super-frustrated-latest-late-game-fumble",
-      "title": "Ravens' Flowers 'super frustrated' by latest late-game fumble",
-      "summary": "Ravens wide receiver Zay Flowers said he was \"super frustrated\" after having the ball ripped away around midfield in the final two minutes of a loss to the Chargers on Monday night.",
-      "publishedAt": "2026-11-18T20:29:38Z",
-      "teamIds": [
-        "33"
       ]
     }
   ]

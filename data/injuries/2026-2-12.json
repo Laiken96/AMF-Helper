@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-19T21:47:19Z",
+    "takenAt": "2026-11-19T22:47:17Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2153,7 +2153,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4361307",
@@ -2176,6 +2176,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430841",
+            "name": "Carson Beck",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
           },
           {
             "athleteId": "2976212",
@@ -2406,13 +2417,13 @@
     },
     {
       "gameId": "401873092",
-      "athleteId": "4038524",
-      "name": "Gardner Minshew II",
+      "athleteId": "4430841",
+      "name": "Carson Beck",
       "pos": "QB",
       "teamAbbr": "ARI",
       "kind": "neu",
       "from": null,
-      "to": "Injured Reserve"
+      "to": "Questionable"
     }
   ]
 }
