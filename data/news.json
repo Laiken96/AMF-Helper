@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T23:47:21Z",
+  "updatedAt": "2026-11-19T00:47:23Z",
   "items": [
     {
       "id": "a57d992901c03d80",
@@ -1576,6 +1576,18 @@
       ]
     },
     {
+      "id": "11454e8c654a5dea",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-schedule-flex-week-12-sunday-night-football-patriots-chargers",
+      "title": "NFL schedule flex: League moves Week 12 'Sunday Night Football' matchup, shifts afternoon games",
+      "summary": "Patriots at Chargers is moving out of prime time",
+      "publishedAt": "2026-11-17T21:04:25Z",
+      "teamIds": [
+        "24",
+        "17"
+      ]
+    },
+    {
       "id": "4f0d8213c92efe45",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-sign-ol-nick-leverett-to-active-roster",
@@ -1646,18 +1658,6 @@
       "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
       "publishedAt": "2026-11-17T20:14:41Z",
       "teamIds": []
-    },
-    {
-      "id": "51d2d0b21219505f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-really-encouraged-by-carson-becks-first-start",
-      "title": "Mike LaFleur \"really encouraged\" by Carson Beck's first start",
-      "summary": "Cardinals quarterback Carson Beck had a rough go of it in his first start, falling 34-6 to the Rams.",
-      "publishedAt": "2026-11-17T19:55:04Z",
-      "teamIds": [
-        "22",
-        "14"
-      ]
     }
   ]
 }
