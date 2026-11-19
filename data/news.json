@@ -1,7 +1,132 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T22:47:19Z",
+  "updatedAt": "2026-11-19T23:47:22Z",
   "items": [
+    {
+      "id": "2d24d98d785339c4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535018/colts-texans-highlights-best-plays-moments-touchdowns",
+      "title": "Colts-Texans highlights: Best plays, moments, touchdowns, more",
+      "summary": "The Colts and Texans are squaring off on Thursday Night Football.",
+      "publishedAt": "2026-11-19T23:44:48Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "65613c9d5e049bbb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/how-aidan-hutchinson-injury-could-grant-lions-a-salary-cap-credit-in-2027",
+      "title": "How Aidan Hutchinson injury could grant Lions a salary cap credit in 2027",
+      "summary": "The Lions would not be the first team to receive cap relief for an injured player",
+      "publishedAt": "2026-11-19T23:37:50Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "bd91fd27d18d226d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-waive-rb-pierre-strong",
+      "title": "Packers waive RB Pierre Strong",
+      "summary": "The Packers made room for Micah Parsons' return on Thursday, waiving running back Pierre Strong Jr.",
+      "publishedAt": "2026-11-19T23:28:59Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "cb892daed4e6b846",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+      "title": "Bengals, Reds pay tribute to Fiona the hippo after her death",
+      "summary": "The world-famous hippopotamus passed away Thursday after ingesting a hat that made its way into her enclosure.",
+      "publishedAt": "2026-11-19T23:23:55Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "5df89e60200e8bfe",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873072",
+      "title": "Lions moving on after Hutchinson joins Campbell on IR and they face Bucs aiming for 6th straight win",
+      "summary": "Dan Campbell does not want to let the Detroit Lions become miserable in the Motor City by lamenting the losses of All-Pro linebacker",
+      "publishedAt": "2026-11-19T23:23:33Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "14f7196cc957fa40",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-work-to-get-a-stadium-deal-in-illinois-by-december-3",
+      "title": "Bears work to get a stadium deal in Illinois by December 3",
+      "summary": "The Bears continue to work toward getting a new stadium deal in place.",
+      "publishedAt": "2026-11-19T23:10:39Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "0f781b909236464b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873074",
+      "title": "Reeling Jets head to LA to face Chargers, who are coming off their first win of the season",
+      "summary": "The New York Jets and Los Angeles Chargers are in the same predicament, but the conversation around the two teams could not be more different heading into their matchup on Sunday.",
+      "publishedAt": "2026-11-19T23:07:33Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "1fc15a3acbbf7665",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-on-possibly-playing-18-games-just-part-of-the-deal",
+      "title": "Kirk Cousins on possibly playing 18 games: \"Just part of the deal\"",
+      "summary": "Because Vikings quarterback Kirk Cousins was traded after the Vikings' bye but before the Raiders' bye, Cousins won't have a bye in 2026.",
+      "publishedAt": "2026-11-19T22:54:26Z",
+      "teamIds": [
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": "c5361d7526d905c8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-add-carson-beck-to-injury-report-as-a-limited-participant",
+      "title": "Cardinals add Carson Beck to injury report as a limited participant",
+      "summary": "The Cardinals made an unwelcome addition to their injury report on Thursday.",
+      "publishedAt": "2026-11-19T22:52:02Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "af7a7d8b0f60f9f7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-returns-to-limited-participation-thursday",
+      "title": "Brock Bowers returns to limited participation Thursday",
+      "summary": "Raiders tight end Brock Bowers returned to limited participation on Thursday.",
+      "publishedAt": "2026-11-19T22:42:41Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "5b9281c39c627524",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/zack-baun-remains-out-of-eagles-practice",
+      "title": "Zack Baun remains out of Eagles practice",
+      "summary": "The Eagles remained without a key defensive player at practice on Thursday.",
+      "publishedAt": "2026-11-19T22:42:21Z",
+      "teamIds": [
+        "21"
+      ]
+    },
     {
       "id": "32392b518424c1f7",
       "source": "pft",
@@ -1509,129 +1634,6 @@
       "publishedAt": "2026-11-18T22:24:35Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "3ccf35c2fbef390a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dalton-kincaid-christian-benford-listed-as-out-of-bills-practice",
-      "title": "Dalton Kincaid, Christian Benford listed as out of Bills practice",
-      "summary": "The Bills listed starters on both sides of the ball as out of practice on Wednesday.",
-      "publishedAt": "2026-11-18T22:02:43Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "9ac5da82f5b12b93",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-claim-ol-ajani-cornelius-off-waivers",
-      "title": "Eagles claim OL Ajani Cornelius off waivers",
-      "summary": "The Eagles have added an offensive lineman.",
-      "publishedAt": "2026-11-18T21:56:49Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "979fdef55bfdbfae",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-says-hes-done-doing-backflips-after-aidan-hutchinson-injury",
-      "title": "Cam Skattebo says he's done doing backflips after Aidan Hutchinson injury",
-      "summary": "Giants running back Cam Skattebo's penchant for backflips became a talking point during his recovery from last season's ankle injury, but he resumed doing them after touchdowns upon his return to action this fall.",
-      "publishedAt": "2026-11-18T21:49:33Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "0768cf63b0c7aa31",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-injury-report-confirms-baker-mayfield-a-non-participant-wednesday",
-      "title": "Bucs' injury report confirms Baker Mayfield a non-participant Wednesday",
-      "summary": "Baker Mayfield was officially out of practice Wednesday.",
-      "publishedAt": "2026-11-18T21:41:50Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "e857e52f2651b1bf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-get-carnell-tate-back-at-practice",
-      "title": "Titans get Carnell Tate back at practice",
-      "summary": "The Titans won't be getting wide receiver Wan'Dale Robinson back on the field this season, but they could be getting first-round pick Carnell Tate back in the lineup against the Cowboys this week.",
-      "publishedAt": "2026-11-18T21:40:03Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "05f846d86a5beea5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-aidan-hutchinson-on-ir-activate-kerby-joseph",
-      "title": "Lions place Aidan Hutchinson on IR, activate Kerby Joseph",
-      "summary": "While one Lions player is out, another is on his way back in.",
-      "publishedAt": "2026-11-18T21:37:02Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "2696b2a72d86e597",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-rbs-bhayshul-tuten-chris-rodriguez-were-limited-in-practice-wednesday",
-      "title": "Jaguars RBs Bhayshul Tuten, Chris Rodriguez were limited in practice Wednesday",
-      "summary": "The Jaguars listed their top two running backs as limited participants in practice on Wednesday.",
-      "publishedAt": "2026-11-18T21:25:54Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "cece158de5247730",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-luther-burden-rb-kyle-monangai-full-participants-wednesday",
-      "title": "WR Luther Burden, RB Kyle Monangai full participants Wednesday",
-      "summary": "Wide receiver Luther Burden III (concussion) and running back Kyle Monangai (toe) were full participants for the Bears on Wednesday.",
-      "publishedAt": "2026-11-18T21:22:17Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "0fac8d609ef799f4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/d-j-reed-returns-to-lions-practice",
-      "title": "D.J. Reed returns to Lions practice",
-      "summary": "The Lions have gotten plenty of bad injury news on defense in recent weeks, but there was a positive development at practice on Wednesday.",
-      "publishedAt": "2026-11-18T21:15:38Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "2c53c0a91cf80460",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-max-llewellyn-from-practice-squad-sign-jack-browning-to-practice-squad",
-      "title": "Dolphins sign Max Llewellyn from practice squad, sign Jack Browning to practice squad",
-      "summary": "The Dolphins signed edge rusher Max Llewellyn to the active roster from the practice squad. the team announced Wednesday.",
-      "publishedAt": "2026-11-18T21:02:07Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "69fc2b982d63f29d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-montgomery-has-no-injury-designation-for-thursday-woody-marks-ruled-out",
-      "title": "David Montgomery has no injury designation for Thursday; Woody Marks ruled out",
-      "summary": "The Texans ruled one running back out for Thursday night's game against the Colts, but they're set to get another one back in the lineup.",
-      "publishedAt": "2026-11-18T20:54:47Z",
-      "teamIds": [
-        "34",
-        "11"
       ]
     }
   ]
