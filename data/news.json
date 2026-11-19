@@ -1,7 +1,128 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T16:47:20Z",
+  "updatedAt": "2026-11-19T17:47:21Z",
   "items": [
+    {
+      "id": "6f6fd50564a06348",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532254/belichick-kraft-finalists-again-pro-football-hall-fame",
+      "title": "Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
+      "summary": "Bill Belichick and Robert Kraft have both advanced to the final round of voting for the Pro Football Hall of Fame for the second straight year.",
+      "publishedAt": "2026-11-19T17:45:38Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "b47345374dfa6d3f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532392/sources-broncos-sign-cb-riley-moss-four-year-extension",
+      "title": "Sources: Broncos sign CB Riley Moss to four-year extension",
+      "summary": "The Broncos locked up a key piece of their secondary by signing cornerback Riley Moss to a four-year extension, sources said.",
+      "publishedAt": "2026-11-19T17:43:24Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "6a5985303c546020",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50531689/bills-defense-backup-qbs-amani-hooker",
+      "title": "Whether it's against backup QBs or not, the Bills' defense is rolling",
+      "summary": "Buffalo will face another backup QB in Week 11 with Kyle McCord set to start in place of Malik Willis for the Dolphins.",
+      "publishedAt": "2026-11-19T17:33:20Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "74f6c87e7318c859",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-robert-kraft-advance-to-final-round-of-hall-of-fame-voting",
+      "title": "Bill Belichick, Robert Kraft advance to final round of Hall of Fame voting",
+      "summary": "Belichick and Kraft were also finalists in last year's selection process.",
+      "publishedAt": "2026-11-19T17:20:51Z",
+      "teamIds": []
+    },
+    {
+      "id": "7b97a75ededb509d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+      "title": "Ravens send CB Humphrey home, say he'll be inactive after his 'criminals' comment",
+      "summary": "The Ravens have sent cornerback Marlon Humphrey home from the facility, and he will be inactive for Sunday's game against the Panthers.",
+      "publishedAt": "2026-11-19T17:18:16Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "e4375dfe5daa9d00",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50436635/nfl-week-11-odds-colts-texans-betting-preview-props",
+      "title": "Colts-Texans odds, best bets: Is Houston laying too many points?",
+      "summary": "Odds, analysis and recommended plays to help you bet Thursday's Colts-Texans game.",
+      "publishedAt": "2026-11-19T17:11:12Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "03c847f16c3bef42",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-sauce-gardner-is-not-expected-to-play-vs-texans-due-to-calf-injury",
+      "title": "Report: Sauce Gardner is not expected to play vs. Texans due to calf injury",
+      "summary": "The Colts will be thin in the secondary when they play the Texans on Thursday night.",
+      "publishedAt": "2026-11-19T17:09:45Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "9fe5590870aadb5d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-cb-marlon-humphrey-will-not-play-this-week-in-wake-of-comments-about-baltimore",
+      "title": "Ravens send CB Marlon Humphrey home, will not play him this week due to comments about Baltimore",
+      "summary": "Head coach Jesse Minter said Humphrey will not be with the team for the rest of this week.",
+      "publishedAt": "2026-11-19T17:06:07Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "d9a5f1bc10a4131e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-riley-moss-agree-to-four-year-extension",
+      "title": "Broncos, Riley Moss agree to four-year extension",
+      "summary": "The Broncos have locked up one of their key defensive players.",
+      "publishedAt": "2026-11-19T16:58:34Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "5e2755e79f9a7705",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-on-future-with-browns-thats-up-to-my-agent-i-dont-worry-about-that",
+      "title": "Deshaun Watson on future with Browns: That's up to my agent, I don't worry about that",
+      "summary": "After several years marred by poor play and injuries, Deshaun Watson has provided some return on the investment the Browns made with the infamous 2022 trade to acquire him.",
+      "publishedAt": "2026-11-19T16:48:42Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "13672e697af09ab1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/49ers-fountain-youth-can-nfls-oldest-most-injured-team-win-super-bowl",
+      "title": "The 49ers' Fountain of Youth: Can the NFL's oldest and most injured team win the Super Bowl?",
+      "summary": "The 49ers have defied the odds en route to a record-setting star, but can they keep it up?",
+      "publishedAt": "2026-11-19T16:41:34Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "046e43e2f7545eec",
       "source": "pft",
@@ -9,6 +130,15 @@
       "title": "PFT's Week 11 2026 NFL picks",
       "summary": "A wild guess for all 13 upcoming games.",
       "publishedAt": "2026-11-19T16:41:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "bd68b6e8b27bfe47",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pick-six-biggest-storylines-predictions-heading-nfl-week-11",
+      "title": "Pick Six: Biggest storylines and noteworthy predictions heading into NFL's Week 11",
+      "summary": "Here's everything you need to know about the NFL for Nov. 19",
+      "publishedAt": "2026-11-19T16:36:07Z",
       "teamIds": []
     },
     {
@@ -38,6 +168,18 @@
       "publishedAt": "2026-11-19T16:32:58Z",
       "teamIds": [
         "22"
+      ]
+    },
+    {
+      "id": "889bf5bfbe4ba8db",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-almost-4000-in-bonuses-betting-apps-sportsbooks-texans-vs-colts",
+      "title": "Week 11 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Texans vs. Colts",
+      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-19T16:31:46Z",
+      "teamIds": [
+        "34",
+        "11"
       ]
     },
     {
@@ -99,6 +241,18 @@
       "publishedAt": "2026-11-19T16:14:49Z",
       "teamIds": [
         "19"
+      ]
+    },
+    {
+      "id": "c1ebcf9398c8b712",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/colts-vs-texans-odds-first-touchdown-scorer-picks-odds-predictions-thursday-night-football",
+      "title": "Colts vs. Texans odds, first touchdown scorer picks, odds, predictions for Thursday Night Football",
+      "summary": "We look at first touchdown scorer prediction markets at Kalshi for Colts vs. Texans NFL Week 11 Thursday Night Football",
+      "publishedAt": "2026-11-19T16:08:30Z",
+      "teamIds": [
+        "34",
+        "11"
       ]
     },
     {
@@ -1260,8 +1414,8 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Kirk Cousins, Stefon Diggs bring reliability to fantasy lineups",
-      "summary": "Every lineup needs consistent, week-to-week performers and Tristan has three players to start down the stretch.",
+      "title": "Fantasy buzz: Breaking down 11 key fantasy football stats for Week 11",
+      "summary": "Michael F. Florio offers his favorite fantasy stats so far this season ahead of Week 11.",
       "publishedAt": "2026-11-18T16:28:52Z",
       "teamIds": [
         "33",
@@ -1498,153 +1652,6 @@
       "publishedAt": "2026-11-18T14:40:44Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "72d90415483ac002",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50520649/kyle-brandt-dismisses-notion-jags-blow-giants-sunday",
-      "title": "Kyle Brandt dismisses notion Jags will blow out Giants on Sunday",
-      "summary": null,
-      "publishedAt": "2026-11-18T14:39:57Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "094dd46aa0fe2343",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50520527/bo-nix-week-11-fantasy-outlook",
-      "title": "Bo Nix's Week 11 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-18T14:21:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "ab41dac78630f548",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-qb-power-rankings-joe-burrow-patrick-mahomes-jordan-love",
-      "title": "Week 11 QB Power Rankings: Patrick Mahomes a big riser, while Packers' Jordan Love plummets",
-      "summary": "Joe Burrow keeps the top spot, Patrick Mahomes is back in the top five and Jordan Love is one of the biggest fallers",
-      "publishedAt": "2026-11-18T14:20:44Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "4abfe628e3c8e6f7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50520478/can-vikings-make-super-bowl-run-kirk-cousins",
-      "title": "Can the Vikings make a Super Bowl run with Kirk Cousins?",
-      "summary": null,
-      "publishedAt": "2026-11-18T14:10:32Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "d89bfecf21b88e76",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50520477/malik-nabers-week-11-fantasy-outlook",
-      "title": "Malik Nabers' Week 11 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-18T14:09:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "f8dba9cab02276f8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/when-brian-flores-defenses-face-kyle-shanahan-offenses-flores-is-5-0",
-      "title": "When Brian Flores defenses face Kyle Shanahan offenses, Flores is 5-0",
-      "summary": "Teams with Flores as a head coach or defensive assistant have played against teams with Shanahan as a head coach or offensive assistant five times, and Flores is 5-0.",
-      "publishedAt": "2026-11-18T13:44:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "5fa6b8f0db1480a9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50520285/tony-pollard-week-11-fantasy-outlook",
-      "title": "Tony Pollard's Week 11 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-18T13:43:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "865b33936977e005",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-to-sign-ot-fred-johnson-to-their-practice-squad",
-      "title": "Chiefs to sign OT Fred Johnson to their practice squad",
-      "summary": "The Chiefs are adding some veteran depth at offensive tackle.",
-      "publishedAt": "2026-11-18T13:42:12Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "0fad1cbeb715fb2d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50520227/cj-stroud-week-11-fantasy-outlook",
-      "title": "C.J. Stroud's Week 11 fantasy outlook",
-      "summary": null,
-      "publishedAt": "2026-11-18T13:40:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "8e63513097eb9af7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/sorting-9-struggling-nfl-franchises-into-tiers-bengals-colts-titans-giants",
-      "title": "Sorting 9 struggling franchises into tiers, from hopeless to hopeful: When will Jets end drought?",
-      "summary": "At least one multi-year playoff drought will end in 2026, but others are only bound to get longer",
-      "publishedAt": "2026-11-18T13:40:23Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "2cfcc1553673bbbb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-week-11",
-      "title": "Predicting full 14-team NFL playoff bracket heading into Week 11: AFC field seems set, Packers miss out",
-      "summary": "For the first time this season, we have the same Super Bowl matchup two weeks in a row",
-      "publishedAt": "2026-11-18T13:19:59Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "141d4f1cb64a29e3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys",
-      "title": "Week 11 picks, best bets: Lowly Jets send Chargers back into loss column, Titans cover vs. Cowboys",
-      "summary": "Tyler Sullivan picks every game on the Week 11 schedule, including five locks against the spread",
-      "publishedAt": "2026-11-18T12:47:19Z",
-      "teamIds": [
-        "6",
-        "24",
-        "20",
-        "10"
-      ]
-    },
-    {
-      "id": "9b9487a27662025b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50513739/fantasy-football-rankings-best-worst-matchup-qb-rb-wr-te",
-      "title": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
-      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
-      "publishedAt": "2026-11-18T12:44:27Z",
-      "teamIds": []
-    },
-    {
-      "id": "c2be3656a02e696f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-g-mason-mccormick-dislocated-his-ankle",
-      "title": "Report: Steelers G Mason McCormick dislocated his ankle",
-      "summary": "Steelers left guard Mason McCormick had to leave last Sunday's loss to the Bengals in an air cast after injuring his ankle and that seemed like a preamble to learning that he was out for the season.",
-      "publishedAt": "2026-11-18T12:11:20Z",
-      "teamIds": [
-        "4",
-        "23"
       ]
     }
   ]
