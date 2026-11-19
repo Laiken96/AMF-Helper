@@ -1,7 +1,148 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T20:47:24Z",
+  "updatedAt": "2026-11-19T21:47:21Z",
   "items": [
+    {
+      "id": "3c86538f4a433f45",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/50182998/2027-nfl-draft-rankings-kiper-big-board-top-prospects",
+      "title": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position",
+      "summary": "Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November.",
+      "publishedAt": "2026-11-19T21:45:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "0236d9573d7f39d4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-pittman-upgraded-to-full-participant-on-thursday-injury-report",
+      "title": "Michael Pittman upgraded to full participant on Thursday injury report",
+      "summary": "The Steelers are getting closer to having two key receivers back for Week 11, but there is a concern with a key defender.",
+      "publishedAt": "2026-11-19T21:39:51Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "247c98a126cbba6f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50531699/will-tony-pollard-keep-hot-fantasy-play-week-11",
+      "title": "Will Tony Pollard keep up his hot fantasy play in Week 11?",
+      "summary": null,
+      "publishedAt": "2026-11-19T21:36:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "9c29cd4a5cc8b662",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50534152/schefter-confirms-puka-nacua-serve-3-game-suspension",
+      "title": "Schefter confirms Puka Nacua to serve 3-game suspension",
+      "summary": null,
+      "publishedAt": "2026-11-19T21:32:23Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "53e39dd24db250d1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50534141/smells-fishy-people-nfl",
+      "title": "Yates on Nacua's suspension timing: It 'smells fishy' to people around NFL",
+      "summary": null,
+      "publishedAt": "2026-11-19T21:32:18Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "67815b307d72b21d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nnamdi-madubuike-misses-second-straight-practice",
+      "title": "Nnamdi Madubuike misses second straight practice",
+      "summary": "The Ravens had one player out of practice due to injury on Thursday.",
+      "publishedAt": "2026-11-19T21:31:22Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "da83c80d36056007",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-rb-kenneth-walker-remains-out-of-practice-thursday",
+      "title": "Chiefs RB Kenneth Walker remains out of practice Thursday",
+      "summary": "Chiefs running back Kenneth Walker remained out of practice Thursday.",
+      "publishedAt": "2026-11-19T21:25:13Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "128f9899ca938d76",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bhayshul-tuten-misses-practice-on-thursday",
+      "title": "Bhayshul Tuten misses practice on Thursday",
+      "summary": "Jaguars running back Bhayshul Tuten took a step in the wrong direction at practice on Thursday.",
+      "publishedAt": "2026-11-19T21:20:32Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "6a4d5867840f8388",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-elevate-natrone-brooks-reid-holskey-for-thursdays-game-vs-texans",
+      "title": "Colts elevate Natrone Brooks, Reid Holskey for Thursday's game vs. Texans",
+      "summary": "The Colts have made a pair of elevations for Thursday's game against the Texans.",
+      "publishedAt": "2026-11-19T21:16:33Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "231cf50e9c496a09",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50533787/cowboys-dc-acknowledges-disappointment-losing-playcalling-duties",
+      "title": "Cowboys DC acknowledges disappointment of losing playcalling duties",
+      "summary": null,
+      "publishedAt": "2026-11-19T21:11:13Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "a353c7db3ebf486e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/calvin-ridley-faces-misdemeanor-assault-charge-over-airport-incident",
+      "title": "Calvin Ridley faces misdemeanor assault charge over airport incident",
+      "summary": "Titans wide receiver Calvin Ridley faces a misdemeanor assault charge after his Nov. 7 incident with a valet at Nashville International Airport, Paul Kuharsky of paulkuharsky.com reports.",
+      "publishedAt": "2026-11-19T21:06:30Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "679c6aab6d0c434f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/what-cowboys-christian-parker-said-defensive-coordinator-demotion",
+      "title": "What Cowboys' Christian Parker said about demotion: DC considered leaving, pushed back on decision",
+      "summary": "Parker mulled departing Dallas after Brian Schottenheimer took defensive play-calling",
+      "publishedAt": "2026-11-19T20:59:14Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "e97121feb6430fc2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-cb-jaylin-smith",
+      "title": "Texans activate CB Jaylin Smith",
+      "summary": "The Texans announced a handful of roster moves ahead of Thursday night's game against the Colts.",
+      "publishedAt": "2026-11-19T20:43:52Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
     {
       "id": "fd3d73a28714f69e",
       "source": "espn",
@@ -35,6 +176,18 @@
       "teamIds": [
         "14",
         "25"
+      ]
+    },
+    {
+      "id": "ea25a867402148e9",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-texans-vs-colts-no-8-houston-vs-no-11-kansas-and-more",
+      "title": "Today's top games to watch, best bets, odds: Texans vs. Colts, No. 8 Houston vs. No. 11 Kansas and more",
+      "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-19T20:38:03Z",
+      "teamIds": [
+        "34",
+        "11"
       ]
     },
     {
@@ -1479,163 +1632,6 @@
       "publishedAt": "2026-11-18T19:56:28Z",
       "teamIds": [
         "29"
-      ]
-    },
-    {
-      "id": "b5423019f3dd2de5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50523261/titans-wr-wandale-robinson-season-ankle-injury",
-      "title": "Titans WR Wan'Dale Robinson out for season with ankle injury",
-      "summary": "Titans wide receiver Wan'Dale Robinson will miss the rest of the season due to an ankle injury, coach Robert Saleh said Wednesday.",
-      "publishedAt": "2026-11-18T19:45:54Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "40199fbc758cc019",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-wrs-michael-pittman-roman-wilson-return-to-practice",
-      "title": "Steelers WRs Michael Pittman, Roman Wilson return to practice",
-      "summary": "The Steelers are opening the practice window for several players on Wednesday.",
-      "publishedAt": "2026-11-18T19:44:31Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "b8d462eb8fc9326a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mannion-to-continue-calling-offensive-plays-for-eagles-joe-milton-to-remain-at-qb",
-      "title": "Sean Mannion to continue calling offensive plays for Eagles, Joe Milton to remain at QB",
-      "summary": "Eagles head coach Nick Sirianni said that the team would talk about changes to roles and responsibilities on the coaching staff during their bye week, but he said on Wednesday that they decided against any major ones.",
-      "publishedAt": "2026-11-18T19:42:47Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "e8ba346282a41376",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-baker-mayfields-made-progress-decision-on-playing-to-come-on-friday",
-      "title": "Todd Bowles: Baker Mayfield's made progress, decision on playing to come on Friday",
-      "summary": "Buccaneers quarterback Baker Mayfield missed practice on Wednesday with a foot injury, but the team hasn't made a decision on his availability for Sunday's game against the Lions.",
-      "publishedAt": "2026-11-18T19:30:42Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "fc7e5bbdfe161678",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50520032/nfl-survivor-week-11-survivor-pool-strategy-advice-picks",
-      "title": "NFL survivor power rankings: Why this is the week to use the Bills or the Texans",
-      "summary": "ESPN NFL survivor pool strategy, predictions and ranking the top six options for Week 11.",
-      "publishedAt": "2026-11-18T19:26:57Z",
-      "teamIds": [
-        "2",
-        "34"
-      ]
-    },
-    {
-      "id": "3a23e52bdbbb6bb6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-sign-wr-jeshaun-jones-to-active-roster",
-      "title": "Vikings sign WR Jeshaun Jones to active roster",
-      "summary": "The Vikings will be without Jordan Addison for the coming weeks because of a thumb injury and they added another wide receiver to their active roster on Wednesday.",
-      "publishedAt": "2026-11-18T19:23:06Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "4de94d741bcb9ab6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sauce-gardner-questionable-charvarius-ward-ruled-out-for-thursday-vs-texans",
-      "title": "Sauce Gardner questionable, Charvarius Ward ruled out for Thursday vs. Texans",
-      "summary": "The Colts may be particularly thin in the secondary for Thursday night's game against the Texans.",
-      "publishedAt": "2026-11-18T19:17:37Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "c1dbc26a7de10dbb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873066",
-      "title": "Stroud: Texans' home skid and 17-point collapse fuel 'scary' urgency vs Colts",
-      "summary": "C.J. Stroud certainly isn’t thrilled with where his Houston Texans are entering Thursday night’s AFC South matchup with Indianapolis.",
-      "publishedAt": "2026-11-18T18:58:35Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "b330644f9737e573",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50523042/joe-milton-getting-starting-qb-nod-week-11",
-      "title": "Nick Sirianni: Joe Milton getting starting QB nod in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-18T18:56:35Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "7684af32edac83f8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/49ers-outsmarted-vikings-unique-travel-plan-week-11-nfc-showdown-mexico-city",
-      "title": "49ers might have just outsmarted the Vikings with unique travel plan for Week 11 NFC showdown in Mexico City",
-      "summary": "The 49ers-Vikings game will be held at an elevation of almost 7,400 feet. The two teams are taking an opposite approach with their preparation",
-      "publishedAt": "2026-11-18T18:49:02Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "74cc974d04de460a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/when-the-season-expands-to-18-games-reseeding-will-likely-follow",
-      "title": "When the season expands to 18 games, reseeding will likely follow",
-      "summary": "Division champs would lose the automatic wild-card home game.",
-      "publishedAt": "2026-11-18T18:43:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "7e8b9debd46605a0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
-      "title": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
-      "summary": "Brandon Aiyuk and Jayden Daniels have patched up their relationship after a falling out earlier this year, sources told ESPN.",
-      "publishedAt": "2026-11-18T18:39:52Z",
-      "teamIds": [
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "4723731a5426bf6f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/29098001/nfl-depth-charts-all-32-teams",
-      "title": "NFL depth charts for all 32 teams for 2026 season",
-      "summary": "Here are the latest NFL depth charts for all 32 teams.",
-      "publishedAt": "2026-11-18T18:38:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "aa4666c5e02c784f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/kyle-shanahan-brian-flores-vikings-49ers-matchup-modern-nfl",
-      "title": "With Kyle Shanahan and Brian Flores, Vikings-49ers will be a matchup for the modern NFL",
-      "summary": "The winner of the battle between Kyle Shanahan and Brian Flores could define what the NFL becomes schematically",
-      "publishedAt": "2026-11-18T18:32:57Z",
-      "teamIds": [
-        "16",
-        "25"
       ]
     }
   ]
