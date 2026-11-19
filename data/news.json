@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T13:47:33Z",
+  "updatedAt": "2026-11-19T14:47:23Z",
   "items": [
+    {
+      "id": "28b36084d848e226",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
+      "title": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
+      "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
+      "publishedAt": "2026-11-19T14:38:37Z",
+      "teamIds": [
+        "34",
+        "28"
+      ]
+    },
+    {
+      "id": "ef384f6aa4aa46b3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mexico-city-altitude-will-affect-the-kicking-game-on-sunday-night",
+      "title": "Mexico City altitude will affect the kicking game on Sunday night",
+      "summary": "When the Vikings and 49ers face off in Mexico City on Sunday night, they'll be playing at the highest elevation any NFL game is ever played at: Estadio Azteca's altitude is around 7,300 feet.",
+      "publishedAt": "2026-11-19T14:32:13Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "ae72db98620f1cdc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-experts-picks-colts-at-texans-vikings-vs-49ers",
+      "title": "NFL Week 11 picks: Our experts face off on Colts at Texans, Vikings vs. 49ers and more",
+      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
+      "publishedAt": "2026-11-19T14:21:42Z",
+      "teamIds": [
+        "34",
+        "11",
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "3c755d8e00d95933",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50510451/fantasy-playbook-projections-lineup-locks-week-11-shadow",
+      "title": "Fantasy playbook: Week 11 Shadow Reports, lineup locks and projected scores",
+      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
+      "publishedAt": "2026-11-19T14:18:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "a9938530b262be24",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-spread-predictions-best-bets-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-19T14:08:19Z",
+      "teamIds": [
+        "6",
+        "18"
+      ]
+    },
+    {
+      "id": "9051efcbe08c0f34",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-experts-make-week-11-picks-lamelo-ball-driving-timberwolves-success-no-1-no-3-teams-in-top-25-lose",
+      "title": "NFL experts make Week 11 picks; LaMelo Ball driving Timberwolves' success; No. 1, No. 3 teams in Top 25 lose",
+      "summary": "Plus, LSU makes its call on RJ Luis Jr.",
+      "publishedAt": "2026-11-19T13:58:12Z",
+      "teamIds": []
+    },
     {
       "id": "c503397780494c1b",
       "source": "pft",
@@ -23,6 +91,27 @@
       "teamIds": [
         "33",
         "29"
+      ]
+    },
+    {
+      "id": "46c6d359f1ed2265",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/grading-every-trade-deadline-acquisitions-new-team-debut-kirk-cousins",
+      "title": "Grading every trade deadline acquisition's new team debut: Kirk Cousins, two WRs get near 'A'",
+      "summary": "Many midseason movers had strong debuts for their new teams",
+      "publishedAt": "2026-11-19T12:59:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "8090904c305aa3ae",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-11-super-bowl-stock-report-kirk-cousins-vikings-drake-maye-patriots",
+      "title": "Week 11 Super Bowl stock report: Kirk Cousins raises Vikings' ceiling, Drake Maye injury tanks Patriots",
+      "summary": "We assess the NFL title race after Week 10 and identify three upcoming games that could reshape the Super Bowl picture",
+      "publishedAt": "2026-11-19T12:58:59Z",
+      "teamIds": [
+        "16",
+        "17"
       ]
     },
     {
@@ -1574,90 +1663,6 @@
       "summary": "The four officials who worked two games in Week 10 got paid accordingly.",
       "publishedAt": "2026-11-18T02:31:58Z",
       "teamIds": []
-    },
-    {
-      "id": "77edd4e1a6711f13",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-nc-state-philip-rivers-will-be-one-of-the-lowest-paid-power-4-coaches",
-      "title": "At NC State, Philip Rivers will be one of the lowest-paid Power 4 coaches",
-      "summary": "Former NFL quarterback Philip Rivers earned $244 million during his playing career.",
-      "publishedAt": "2026-11-18T02:02:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "80f9c97563fa5baa",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-remains-frustrated-with-four-interception-game",
-      "title": "Caleb Williams remains frustrated with four interception game",
-      "summary": "In his last game, Caleb Williams threw four interceptions.",
-      "publishedAt": "2026-11-18T01:49:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "459cfc33c45007ff",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-      "title": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-      "summary": "Caleb Williams spent his bye week resting his ailing hamstring, supporting his close friend Pete Crow-Armstrong as the Cubs outfielder was named NL MVP, and putting one of the worst games of his career in the rearview mirror.",
-      "publishedAt": "2026-11-18T01:13:47Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "8caa1efb37d35902",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-worked-out-k-matt-prater-on-tuesday",
-      "title": "Chiefs worked out K Matt Prater on Tuesday",
-      "summary": "The Chiefs worked out free agent kicker Matt Prater on Tuesday, according to the NFL's personnel notice.",
-      "publishedAt": "2026-11-18T00:10:37Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "6acf7ccc3f8ca9d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-cb-kamari-lassiter-downgraded-to-a-non-participant-tuesday",
-      "title": "Texans CB Kamari Lassiter downgraded to a non-participant Tuesday",
-      "summary": "The Texans' injury report on Tuesday had only one change from the estimated report on Monday.",
-      "publishedAt": "2026-11-17T22:48:05Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "c46ffdd6b85a8126",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sauce-gardner-charvarius-ward-listed-as-out-of-colts-practice-tuesday",
-      "title": "Sauce Gardner, Charvarius Ward listed as out of Colts practice Tuesday",
-      "summary": "The Colts listed both of their starting cornerbacks as out of practice on Tuesday.",
-      "publishedAt": "2026-11-17T22:47:02Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "94502e89f72acbd6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50513896/source-dolphins-jordan-phillips-miss-rest-season",
-      "title": "Source: Jordan Phillips latest Dolphins DT to suffer season-ending injury",
-      "summary": "Dolphins DT Jordan Phillips will miss the rest of the season with torn biceps, a source confirmed to ESPN.",
-      "publishedAt": "2026-11-17T22:30:15Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "870da9e935c727e0",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50514282/why-cockcroft-likes-jets-d-st-week-11",
-      "title": "Why Cockcroft likes the Jets D/ST for Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-17T22:29:16Z",
-      "teamIds": [
-        "20"
-      ]
     }
   ]
 }
