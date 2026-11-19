@@ -1,7 +1,142 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T19:47:28Z",
+  "updatedAt": "2026-11-19T20:47:24Z",
   "items": [
+    {
+      "id": "fd3d73a28714f69e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532934/commanders-defense-bengals-offense-joe-burrow",
+      "title": "Bengals offense will be biggest test yet for Commanders' improving defense",
+      "summary": "Washington is moving closer to the defense it wants to be. Monday will provide a benchmark for their progress.",
+      "publishedAt": "2026-11-19T20:39:32Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "a6a06177ea217e3e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50533560/rams-wr-puka-nacua-serve-3-game-suspension-ir",
+      "title": "Rams WR Puka Nacua to serve 3-game suspension while on IR",
+      "summary": "Los Angeles Rams standout wide receiver Puka Nacua has been suspended three games for violating the league's personal conduct policy, the NFL announced Thursday.",
+      "publishedAt": "2026-11-19T20:39:20Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "406a7b95a5a7522b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-suspended-three-games-will-serve-suspension-while-on-ir",
+      "title": "Puka Nacua suspended three games, will serve suspension while on IR",
+      "summary": "Nacua is eligible to be reinstated after the Rams' Week 14 game against the 49ers.",
+      "publishedAt": "2026-11-19T20:38:12Z",
+      "teamIds": [
+        "14",
+        "25"
+      ]
+    },
+    {
+      "id": "1c20e7831afa12f6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-remains-limited-at-bears-practice",
+      "title": "Jeffery Simmons remains limited at Bears practice",
+      "summary": "Defensive tackle Jeffery Simmons remained a limited participant at Bears practice on Thursday.",
+      "publishedAt": "2026-11-19T20:33:46Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "cb3c4a2c94fc6a89",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532392/broncos-sign-cb-riley-moss-four-year-extension",
+      "title": "Broncos sign cornerback Riley Moss to four-year extension",
+      "summary": "The Broncos locked up a key piece of their secondary by signing cornerback Riley Moss to a four-year extension.",
+      "publishedAt": "2026-11-19T20:24:17Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "aa115b6d5a3ce130",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873073",
+      "title": "Cowboys face last-place Titans with new play-caller on defense and fading playoff hopes",
+      "summary": "The Dallas Cowboys have made their biggest move of the season to try to fix a broken defense, just in time for consecutive games against last-place...",
+      "publishedAt": "2026-11-19T20:21:50Z",
+      "teamIds": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "id": "81463b10a0e64b2b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-back-at-practice-for-the-49ers",
+      "title": "Mike Evans back at practice for the 49ers",
+      "summary": "Evans has missed the last three games with Achilles tendinitis.",
+      "publishedAt": "2026-11-19T20:20:33Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "c944e28591991e1f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/darren-waller-tommy-tremble-return-to-panthers-practice-thursday",
+      "title": "Darren Waller, Tommy Tremble return to Panthers practice Thursday",
+      "summary": "The Panthers got a pair of key offensive contributors back on the practice field Thursday.",
+      "publishedAt": "2026-11-19T20:07:39Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "c66f9bd5786068aa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50533151/buccaneers-baker-mayfield-hopes-play-foot-injury",
+      "title": "Bucs QB Baker Mayfield hopes to play Sunday despite foot injury: 'I feel ready'",
+      "summary": "Buccaneers quarterback Baker Mayfield is hoping to play Sunday against the Lions after he sustained a foot injury two weeks ago against the Chicago Bears.",
+      "publishedAt": "2026-11-19T20:04:31Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "960b8cf0026c2633",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50532679/cowboys-christian-parker-dc-job-do",
+      "title": "Cowboys' Parker: I'm still DC, have 'job to do' after losing playcalling duties",
+      "summary": "Cowboys defensive coordinator Christian Parker said he briefly considered leaving the team after informed he was being stripped of playcalling responsibilities.",
+      "publishedAt": "2026-11-19T20:01:23Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "bbbe3cfd0102ae3d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-designate-lb-swayze-bozeman-for-return-from-ir",
+      "title": "Bengals designate LB Swayze Bozeman for return from IR",
+      "summary": "Linebacker Swayze Bozeman is back at Bengals practice this week.",
+      "publishedAt": "2026-11-19T19:59:15Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "aa6d2e4084dcc3e1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-record-breaking-contract-cowboys-kicker-brandon-aubrey-is-having-his-worst-season",
+      "title": "After record-breaking contract, Cowboys kicker Brandon Aubrey is having his worst season",
+      "summary": "In April, the Cowboys signed kicker Brandon Aubrey to a four-year, $28 million contract, making him the highest-paid kicker in NFL history.",
+      "publishedAt": "2026-11-19T19:44:20Z",
+      "teamIds": [
+        "6"
+      ]
+    },
     {
       "id": "732359403156d4d1",
       "source": "espn",
@@ -366,6 +501,18 @@
       ]
     },
     {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Breaking down 11 key fantasy football stats for Week 11",
+      "summary": "Michael F. Florio offers his favorite fantasy stats so far this season ahead of Week 11.",
+      "publishedAt": "2026-11-19T17:03:58Z",
+      "teamIds": [
+        "33",
+        "24"
+      ]
+    },
+    {
       "id": "d9a5f1bc10a4131e",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-riley-moss-agree-to-four-year-extension",
@@ -582,7 +729,7 @@
       "id": "c2aa0b6f9b17a4ac",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction",
-      "title": "Texans vs. Colts: Houston looks to bounce back vs. lowly Indy after rough Week 10 loss",
+      "title": "Texans vs. Colts prediction: Houston looks to bounce back vs. lowly Indy after rough Week 10 loss",
       "summary": "Plus, how to watch, what to know and a prediction before the 'Thursday Night Football' matchup",
       "publishedAt": "2026-11-19T15:26:53Z",
       "teamIds": [
@@ -1438,6 +1585,18 @@
       ]
     },
     {
+      "id": "7684af32edac83f8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/49ers-outsmarted-vikings-unique-travel-plan-week-11-nfc-showdown-mexico-city",
+      "title": "49ers might have just outsmarted the Vikings with unique travel plan for Week 11 NFC showdown in Mexico City",
+      "summary": "The 49ers-Vikings game will be held at an elevation of almost 7,400 feet. The two teams are taking an opposite approach with their preparation",
+      "publishedAt": "2026-11-18T18:49:02Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
       "id": "74cc974d04de460a",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/when-the-season-expands-to-18-games-reseeding-will-likely-follow",
@@ -1477,169 +1636,6 @@
       "teamIds": [
         "16",
         "25"
-      ]
-    },
-    {
-      "id": "b63d77b9d9d76a3c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50522640/eagles-stick-milton-qb1-mannion-offensive-playcaller",
-      "title": "Eagles' Sirianni sticking with Milton as QB1, Mannion as offensive playcaller",
-      "summary": "QB Joe Milton will start again for the Eagles on Sunday and Sean Mannion will remain as the offensive playcaller against the Steelers, coach Nick Sirianni said.",
-      "publishedAt": "2026-11-18T18:30:37Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "38f83b288bc5a545",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50522711/fernando-mendoza-played-too-fast-nfl-debut",
-      "title": "Kurt Warner: Fernando Mendoza played 'too fast' in his NFL debut",
-      "summary": null,
-      "publishedAt": "2026-11-18T18:23:08Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "e2f6ffd303b6fdcf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-early-reviews-for-the-madden-movie-arent-good",
-      "title": "The early reviews for the Madden movie aren't good",
-      "summary": "The Madden movie, starring Nicolas Cage as the legendary coach, broadcaster, and video-game mogul, has landed on Prime Video.",
-      "publishedAt": "2026-11-18T18:07:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "5d63f0f527aef64e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/wandale-robinson-out-for-season-with-ankle-injury",
-      "title": "Wan'Dale Robinson out for season with ankle injury",
-      "summary": "The Titans will not have one of their key receivers for the rest of 2026.",
-      "publishedAt": "2026-11-18T17:59:11Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "5d19206b89f3ca6b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-getting-flexed-into-sunday-night-is-really-cool-for-our-players",
-      "title": "Todd Monken: Getting flexed into Sunday night is really cool for our players",
-      "summary": "If someone had told you at the beginning of the season that the Week 12 game between the Browns and Raiders would get flexed into Sunday Night Football, you probably would have responded with some healthy skepticism.",
-      "publishedAt": "2026-11-18T17:52:28Z",
-      "teamIds": [
-        "5",
-        "13"
-      ]
-    },
-    {
-      "id": "158141f8d9fdc62f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50522531/why-jordan-reid-titans-taking-jeremiah-smith-no-1",
-      "title": "Why Jordan Reid has the Titans taking Jeremiah Smith at No. 1",
-      "summary": null,
-      "publishedAt": "2026-11-18T17:49:14Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "81d09eb70d76a260",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50521008/nfl-current-worst-team-lamar-jackson-ravens-making-case-week-11",
-      "title": "The NFL's current worst team? Lamar-less Ravens making that case",
-      "summary": "The Ravens have gone 38 days without a win. It has been 24 days since they've had a lead.",
-      "publishedAt": "2026-11-18T17:40:53Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "08144e3b86df8643",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-upset-alert-predictions-steelers-titans-cowboys",
-      "title": "NFL Week 11 upset alert: Two straight losses for Steelers? Can Titans shock Cowboys?",
-      "summary": "The Jets could also send the Chargers back into the loss column",
-      "publishedAt": "2026-11-18T17:38:21Z",
-      "teamIds": [
-        "6",
-        "24",
-        "20",
-        "23",
-        "10"
-      ]
-    },
-    {
-      "id": "6c48365a25e200b4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-practice-for-baker-mayfield-on-wednesday",
-      "title": "No practice for Baker Mayfield on Wednesday",
-      "summary": "Word on Tuesday was that Buccaneers quarterback Baker Mayfield's outlook for this week's game against the Lions was not promising and Wednesday didn't bring any better news.",
-      "publishedAt": "2026-11-18T17:30:40Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "8a4d00e109e31eb8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tory-hortons-heads-up-play-earns-him-nfc-special-teams-player-of-the-week",
-      "title": "Tory Horton's heads up play earns him NFC special teams player of the week",
-      "summary": "Late in Sunday's victory over the Raiders, Seahawks receiver Tory Horton made a heads-up play on special teams that helped seal the win.",
-      "publishedAt": "2026-11-18T17:22:26Z",
-      "teamIds": [
-        "13",
-        "26"
-      ]
-    },
-    {
-      "id": "2c43ba4a04fb9241",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-little-is-afc-special-teams-player-of-the-week-for-second-week-in-a-row",
-      "title": "Cam Little is AFC special teams player of the week for second week in a row",
-      "summary": "Jaguars kicker Cam Little turned in another strong game against the Titans last Sunday.",
-      "publishedAt": "2026-11-18T17:21:04Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "04524c5ed05668ba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-cb-justin-walley-named-the-afc-defensive-player-of-the-week",
-      "title": "Colts CB Justin Walley named the AFC defensive player of the week",
-      "summary": "The Colts ended a five-game losing streak with last Sunday's win over the Dolphins and a defensive touchdown played a big role in the 24-22 win.",
-      "publishedAt": "2026-11-18T17:15:10Z",
-      "teamIds": [
-        "11",
-        "15"
-      ]
-    },
-    {
-      "id": "bd721e1d307f7f7e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaelan-phillips-wins-first-nfc-defensive-player-of-the-week-award",
-      "title": "Jaelan Phillips wins first NFC defensive player of the week award",
-      "summary": "The Panthers moved into sole possession of first place in the NFC South with their victory over the Saints on Sunday.",
-      "publishedAt": "2026-11-18T17:14:04Z",
-      "teamIds": [
-        "29",
-        "18"
-      ]
-    },
-    {
-      "id": "13c0415cc4ecedbc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-wins-second-nfc-offensive-player-of-the-week-award-of-the-season",
-      "title": "Jahmyr Gibbs wins second NFC offensive player of the week award of the season",
-      "summary": "Lions running back Jahmyr Gibbs continued his terrific 2026 season in Sunday's win over the Patriots in Munich.",
-      "publishedAt": "2026-11-18T17:09:22Z",
-      "teamIds": [
-        "8",
-        "17"
       ]
     }
   ]

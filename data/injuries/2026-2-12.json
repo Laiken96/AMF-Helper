@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-19T17:47:19Z",
+    "takenAt": "2026-11-19T20:47:21Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1235,7 +1235,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4430737",
@@ -1434,7 +1434,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "15847",
@@ -1976,7 +1976,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -2355,6 +2355,16 @@
   },
   "changes": [
     {
+      "gameId": "401873079",
+      "athleteId": "4426515",
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "teamAbbr": "LAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
+    },
+    {
       "gameId": "401873082",
       "athleteId": "4567048",
       "name": "Kenneth Walker III",
@@ -2365,6 +2375,16 @@
       "to": null
     },
     {
+      "gameId": "401873082",
+      "athleteId": "4385690",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "teamAbbr": "BUF",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
       "gameId": "401873085",
       "athleteId": "4429059",
       "name": "Woody Marks",
@@ -2372,16 +2392,6 @@
       "teamAbbr": "HOU",
       "kind": "weg",
       "from": "Doubtful",
-      "to": null
-    },
-    {
-      "gameId": "401873090",
-      "athleteId": "4871023",
-      "name": "Carnell Tate",
-      "pos": "WR",
-      "teamAbbr": "TEN",
-      "kind": "weg",
-      "from": "Questionable",
       "to": null
     },
     {
