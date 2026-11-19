@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T00:47:23Z",
+  "updatedAt": "2026-11-19T01:47:21Z",
   "items": [
+    {
+      "id": "870801982835f9f5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50525580/florio-simms-apologize-comments-vrabel-mustache",
+      "title": "Florio, Simms apologize for comments about Vrabel's mustache in Germany",
+      "summary": "\"PFT Live\" hosts Mike Florio and Chris Simms apologized for comments they made about Mike Vrabel's mustache when talking about the Patriots' trip to Germany.",
+      "publishedAt": "2026-11-19T01:10:52Z",
+      "teamIds": [
+        "17"
+      ]
+    },
     {
       "id": "a57d992901c03d80",
       "source": "cbs",
@@ -1649,15 +1660,6 @@
       "teamIds": [
         "11"
       ]
-    },
-    {
-      "id": "880288f403fba92c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 11",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-17T20:14:41Z",
-      "teamIds": []
     }
   ]
 }
