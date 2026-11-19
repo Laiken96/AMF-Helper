@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-19T01:47:18Z",
+    "takenAt": "2026-11-19T02:47:18Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1468,7 +1468,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -1678,7 +1678,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4432577",
@@ -2355,14 +2355,24 @@
   },
   "changes": [
     {
+      "gameId": "401873082",
+      "athleteId": "4567048",
+      "name": "Kenneth Walker III",
+      "pos": "RB",
+      "teamAbbr": "KC",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
       "gameId": "401873085",
       "athleteId": "4429059",
       "name": "Woody Marks",
       "pos": "RB",
       "teamAbbr": "HOU",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Doubtful",
-      "to": "Out"
+      "to": null
     },
     {
       "gameId": "401873090",

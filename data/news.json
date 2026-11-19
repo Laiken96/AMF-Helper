@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T01:47:21Z",
+  "updatedAt": "2026-11-19T02:47:20Z",
   "items": [
+    {
+      "id": "ef45b5b143639792",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/diego-pavia-is-the-first-pick-in-the-ufl-draft",
+      "title": "Diego Pavia is the first pick in the UFL draft",
+      "summary": "Quarterback Diego Pavia went unselected in the 2026 NFL draft.",
+      "publishedAt": "2026-11-19T02:44:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "d72e7630fad4f465",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50526309/niners-nick-bosa-says-better-amid-4-game-sack-drought",
+      "title": "Niners' Nick Bosa on 4-game sack drought: 'Don't think I'm playing my best'",
+      "summary": "Niners star Nick Bosa acknowledged his performance this season, including four straight games with no sacks, hasn't been up to his usual standard.",
+      "publishedAt": "2026-11-19T01:47:36Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "2aa0c956c62b2b5c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-injury-report-chiefs-kenneth-walker-iii-lions-kerby-joseph",
+      "title": "NFL Week 11 injury report: Latest update on Chiefs' Kenneth Walker III; Lions' Kerby Joseph practices fully",
+      "summary": "Get the latest Week 11 injury updates on Kenneth Walker III, Kerby Joseph, Baker Mayfield, Mike Evans and other notable NFL players",
+      "publishedAt": "2026-11-19T01:17:02Z",
+      "teamIds": [
+        "8",
+        "12"
+      ]
+    },
     {
       "id": "870801982835f9f5",
       "source": "espn",
@@ -1628,38 +1660,6 @@
       "summary": "Every quarterback to start an NFL game this season is ranked across 10 tiers, with Joe Burrow setting the gold standard",
       "publishedAt": "2026-11-17T20:39:00Z",
       "teamIds": []
-    },
-    {
-      "id": "3a1c1640fa2812b1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-the-seahawks-this-year-drew-locks-numbers-blow-sam-darnolds-away",
-      "title": "For the Seahawks this year, Drew Lock's numbers blow Sam Darnold's away",
-      "summary": "When Seahawks coach Mike Macdonald confirmed that Sam Darnold will start in Week 12 against the 49ers, assuming he is medically cleared, it was no surprise: The Seahawks signed Darnold to a three-year, $100 million contract last year and won the Super Bowl with Darnold at the helm.",
-      "publishedAt": "2026-11-17T20:39:00Z",
-      "teamIds": [
-        "26",
-        "25"
-      ]
-    },
-    {
-      "id": "87e76d409d1a4cbf",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50512512/2026-fantasy-football-knockout-leagues-pickups-week-11",
-      "title": "Irving, Walker III, Bowers and more Knockout league pickups for Week 11",
-      "summary": "As the number of teams shrink, the number of stars available in Knockout leagues grows. Here are the ones to get.",
-      "publishedAt": "2026-11-17T20:33:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "ea5b4ec9c7423132",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-wr-quez-watkins-to-the-active-roster-from-the-practice-squad",
-      "title": "Colts sign WR Quez Watkins to the active roster from the practice squad",
-      "summary": "The Colts signed wide receiver Quez Watkins to the 53-player roster from the practice squad on Tuesday, the team announced.",
-      "publishedAt": "2026-11-17T20:15:44Z",
-      "teamIds": [
-        "11"
-      ]
     }
   ]
 }
