@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-19T20:10:32Z",
+    "takenAt": "2026-11-19T20:40:38Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1469,7 +1469,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -1927,6 +1927,16 @@
       "name": "Dalton Kincaid",
       "pos": "TE",
       "teamAbbr": "BUF",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873073",
+      "athleteId": "4871023",
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "teamAbbr": "TEN",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
