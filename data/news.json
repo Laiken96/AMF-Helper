@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T11:47:23Z",
+  "updatedAt": "2026-11-19T12:47:21Z",
   "items": [
+    {
+      "id": "8ff0d806730a2a26",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-the-sacks-are-going-to-come-for-abdul-carter",
+      "title": "John Harbaugh: The sacks are going to come for Abdul Carter",
+      "summary": "Giants linebacker Abdul Carter scores well in a number of metrics that measure pass rush, but that hasn't shown up in the ones that's most obvious to those watching the game.",
+      "publishedAt": "2026-11-19T11:56:07Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "92fdc2b2933cfc84",
       "source": "espn",
@@ -1645,17 +1656,6 @@
       "publishedAt": "2026-11-17T22:08:10Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "f93b79d73a8faba2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50513594/titans-put-wr-wandale-robinson-ankle-ir",
-      "title": "Titans put WR Wan'Dale Robinson on IR due to ankle injury",
-      "summary": "The Titans placed wide receiver Wan'Dale Robinson on injured reserve Tuesday.",
-      "publishedAt": "2026-11-17T22:06:30Z",
-      "teamIds": [
-        "10"
       ]
     }
   ]
