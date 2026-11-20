@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T04:47:25Z",
+  "updatedAt": "2026-11-20T05:47:23Z",
   "items": [
+    {
+      "id": "94016d65aed6905b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50538342/why-raiders-run-defense-remains-concern",
+      "title": "Why Raiders' run defense remains a concern",
+      "summary": "Ryan McFadden explains why the Raiders must strengthen their interior defensive line following loss to Seahawks.",
+      "publishedAt": "2026-11-20T05:24:00Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "203bf15ff57533cc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-daniel-jones-being-the-starter-well-evaluate-everything",
+      "title": "Shane Steichen on Daniel Jones remaining the starter: \"We'll evaluate everything\"",
+      "summary": "Anthony Richardson could finally get a chance to show what he can do.",
+      "publishedAt": "2026-11-20T05:10:26Z",
+      "teamIds": []
+    },
     {
       "id": "944dcaad1e018ad5",
       "source": "espn",
@@ -37,7 +57,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873066",
       "title": "C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
-      "summary": "C.J. Stroud threw for 194 yards and three touchdowns and the Houston Texans used a strong defensive performance to coast to a 26-3 win over the Indianapolis Colts on Thursday night.",
+      "summary": "C.J. Stroud had another big game to help the Houston Texans finally get a victory at home.",
       "publishedAt": "2026-11-20T04:19:33Z",
       "teamIds": [
         "34",
@@ -1642,24 +1662,6 @@
         "16",
         "17"
       ]
-    },
-    {
-      "id": "788fa93a406e4489",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/grading-nfl-quarterbacks-on-rookie-contracts-caleb-williams-c-j-stroud",
-      "title": "Grading NFL quarterbacks on rookie contracts: Caleb Williams, C.J. Stroud kick careers into high gear",
-      "summary": "A few young quarterbacks have aced their tests in 2026",
-      "publishedAt": "2026-11-19T12:56:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "afe23428b0db2141",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/it-wouldnt-shock-me-if-for-week-11-jared-goffs-tony-pollard",
-      "title": "It wouldn't shock me if ... for Week 11: New WR crashes OROY race, Jared Goff's pesky streak continues",
-      "summary": "Plus, Tony Pollard could shine in his first game back in Dallas",
-      "publishedAt": "2026-11-19T12:42:09Z",
-      "teamIds": []
     }
   ]
 }
