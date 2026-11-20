@@ -1,7 +1,105 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T03:47:29Z",
+  "updatedAt": "2026-11-20T04:47:25Z",
   "items": [
+    {
+      "id": "944dcaad1e018ad5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50536733/texans-colts-thursday-night-football-cj-stroud-defense",
+      "title": "C.J. Stroud, defense star as Texans get critical win over Colts on TNF",
+      "summary": "C.J. Stroud and a swarming defense helped Houston beat Indy on 'Thursday Night Football.'",
+      "publishedAt": "2026-11-20T04:45:01Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "0651c98e80408343",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-week-11-nfl-picks-odds-expert-picks-predictions",
+      "title": "Prisco's Week 11 NFL picks: Cowboys rout Titans, 49ers over Vikings, Panthers edge Ravens",
+      "summary": "Pete Prisco reveals all of his Week 11 picks, including the Jaguars to handle the Giants on the road",
+      "publishedAt": "2026-11-20T04:33:10Z",
+      "teamIds": [
+        "33",
+        "29",
+        "6",
+        "30",
+        "16",
+        "19",
+        "25",
+        "10"
+      ]
+    },
+    {
+      "id": "ec9f77ac76ecb6aa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873066",
+      "title": "C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
+      "summary": "C.J. Stroud threw for 194 yards and three touchdowns and the Houston Texans used a strong defensive performance to coast to a 26-3 win over the Indianapolis Colts on Thursday night.",
+      "publishedAt": "2026-11-20T04:19:33Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "a1458d128daa8e60",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50537710/texans-improve-4-6-easy-win-colts",
+      "title": "Texans improve to 4-6 with easy win over the Colts",
+      "summary": null,
+      "publishedAt": "2026-11-20T04:18:52Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "91512c2504aac64c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-texans-beat-up-on-colts-26-3",
+      "title": "Thursday Night Football: Texans beat up on Colts, 26-3",
+      "summary": "The Texans moved to 4-6 to keep their slim playoff hopes alive.",
+      "publishedAt": "2026-11-20T04:13:10Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "837742b0bb1288f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-says-knee-injury-wont-keep-him-from-playing",
+      "title": "Jeffery Simmons says knee injury won't keep him from playing",
+      "summary": "Bears defensive tackle Jeffery Simmons emerged from the bye week that has had him limited in practice this week.",
+      "publishedAt": "2026-11-20T04:05:56Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "3d03dbf4b2d642fa",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-ham-will-return-to-penn-state-radio-booth-following-medical-emergency",
+      "title": "Jack Ham will return to Penn State radio booth following medical emergency",
+      "summary": "Pro Football Hall of Fame linebacker Jack Ham announced he will return to the Penn State radio booth on Saturday, two weeks after a medical emergency.",
+      "publishedAt": "2026-11-20T03:55:24Z",
+      "teamIds": []
+    },
+    {
+      "id": "d740b42691a98d6b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-explored-all-options-before-deciding-to-stay-in-minnesota-this-week",
+      "title": "Vikings explored all options before deciding to stay in Minnesota this week",
+      "summary": "As Sunday's Mexico City game between the Vikings and 49ers approaches, one of the big issues is the decision of the 49ers to spend the week at altitude in Colorado Springs while the Vikings opted to stay in Minnesota.",
+      "publishedAt": "2026-11-20T03:48:51Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "9d260cc83a00dcd1",
       "source": "pft",
@@ -248,7 +346,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50535018/colts-texans-highlights-best-plays-moments-touchdowns",
       "title": "Colts-Texans highlights: Best plays, moments, touchdowns, more",
-      "summary": "The Colts and Texans are squaring off on Thursday Night Football.",
+      "summary": "C.J. Stroud and the Texans crushed the Colts on Thursday Night Football.",
       "publishedAt": "2026-11-19T23:44:48Z",
       "teamIds": [
         "34",
@@ -1562,88 +1660,6 @@
       "summary": "Plus, Tony Pollard could shine in his first game back in Dallas",
       "publishedAt": "2026-11-19T12:42:09Z",
       "teamIds": []
-    },
-    {
-      "id": "8ff0d806730a2a26",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-the-sacks-are-going-to-come-for-abdul-carter",
-      "title": "John Harbaugh: The sacks are going to come for Abdul Carter",
-      "summary": "Giants linebacker Abdul Carter scores well in a number of metrics that measure pass rush, but that hasn't shown up in the ones that's most obvious to those watching the game.",
-      "publishedAt": "2026-11-19T11:56:07Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "92fdc2b2933cfc84",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50520521/fantasy-football-trade-value-start-sit-wr-te",
-      "title": "Which of these 15 pass catchers should you trust going forward?",
-      "summary": "A look at wide receivers and tight ends who have become start-worthy, and others you should expect less from.",
-      "publishedAt": "2026-11-19T11:42:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "edd15823fedd3906",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50524413/falcons-matt-ryan-michael-penix-kevin-stefanski",
-      "title": "Falcons seek change, but keep ending up in the same spot",
-      "summary": "Mediocre record, questions at quarterback, rinse, repeat. Maybe next year the Falcons can start making progress.",
-      "publishedAt": "2026-11-19T11:39:28Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "dce4419c81bfe5dd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50517510/freeling-hunter-top-panthers-rookie-report-week-11",
-      "title": "Monroe Freeling, Lee Hunter top Panthers' rookie report at Week 11",
-      "summary": "Will this year's draft class have a major impact on Carolina's second half of the season and potential postseason?",
-      "publishedAt": "2026-11-19T11:37:46Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "90e00cdc0d976763",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
-      "title": "Are there actually 32 true starting quarterbacks in the NFL at any given time?",
-      "summary": "Finding legit quarterbacks can be tough, and many people think there aren't even enough true QB1s to fill the league's 32 QB1 spots. Is there any validity to that?",
-      "publishedAt": "2026-11-19T11:26:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "7367d29cf2727ce7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
-      "title": "Midseason reports on every NFL team's offensive coordinator, playcaller",
-      "summary": "Here's the good and the bad for each offensive coordinator or playcaller through Week 10, plus keys to their success the rest of the way.",
-      "publishedAt": "2026-11-19T11:00:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "840b61a5a4078422",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50502967/texans-playoff-hopes-kamari-lassiter-cj-stroud",
-      "title": "How Houston has banded together through backbreaking losses and adversity",
-      "summary": "Houston enters \"Thursday Night Football\" against the Indianapolis Colts with a 32.4% chance of making the playoffs.",
-      "publishedAt": "2026-11-19T11:00:02Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "8929b2286025d17e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50521994/colts-anthony-richardson-daniel-jones-quarterback",
-      "title": "Why can't Richardson beat out struggling Jones as Colts QB1?",
-      "summary": "Daniel Jones has some of the worst numbers in the NFL, yet Anthony Richardson can't get on the field for the woeful Colts.",
-      "publishedAt": "2026-11-19T11:00:00Z",
-      "teamIds": [
-        "11"
-      ]
     }
   ]
 }

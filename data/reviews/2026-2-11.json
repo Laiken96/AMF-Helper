@@ -3,16 +3,16 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-20T01:47:29Z",
+  "updatedAt": "2026-11-20T04:47:25Z",
   "complete": false,
   "games": [
     {
       "gameId": "401873066",
       "pickTeamId": "34",
       "favoriteTeamId": "34",
-      "winnerTeamId": null,
-      "final": false,
-      "correct": null,
+      "winnerTeamId": "34",
+      "final": true,
+      "correct": true,
       "deviation": false,
       "deviationEffect": null
     },
@@ -137,7 +137,7 @@
       "deviationEffect": null
     }
   ],
-  "points": 0,
+  "points": 1,
   "tipped": 13,
   "deviationNet": 0,
   "tiebreakers": [
@@ -146,9 +146,9 @@
       "slot": "thursday",
       "predictedHome": 29,
       "predictedAway": 16,
-      "actualHome": null,
-      "actualAway": null,
-      "diff": null
+      "actualHome": 26,
+      "actualAway": 3,
+      "diff": 16
     },
     {
       "gameId": "401873078",
@@ -162,13 +162,13 @@
   ],
   "opinionCompare": {
     "opinions": 1,
-    "scored": 0,
-    "marketHits": 0,
-    "aiHits": 0,
-    "marketHitRate": null,
-    "aiHitRate": null,
-    "marketBrier": null,
-    "aiBrier": null,
+    "scored": 1,
+    "marketHits": 1,
+    "aiHits": 1,
+    "marketHitRate": 1,
+    "aiHitRate": 1,
+    "marketBrier": 0.0314,
+    "aiBrier": 0.1024,
     "disagreements": []
   }
 }

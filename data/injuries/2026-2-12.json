@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T02:47:19Z",
+    "takenAt": "2026-11-20T04:47:22Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1678,7 +1678,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4432577",
@@ -2402,9 +2402,9 @@
       "name": "Woody Marks",
       "pos": "RB",
       "teamAbbr": "HOU",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Doubtful",
-      "to": "Out"
+      "to": null
     },
     {
       "gameId": "401873088",
