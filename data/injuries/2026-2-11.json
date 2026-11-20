@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T01:40:36Z",
+    "takenAt": "2026-11-20T02:20:42Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1842,6 +1842,17 @@
             "status": null
           },
           {
+            "athleteId": "4241464",
+            "name": "Mac Jones",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
+          {
             "athleteId": "4361741",
             "name": "Brock Purdy",
             "pos": "QB",
@@ -1981,16 +1992,6 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
-    },
-    {
-      "gameId": "401873077",
-      "athleteId": "4241464",
-      "name": "Mac Jones",
-      "pos": "QB",
-      "teamAbbr": "SF",
-      "kind": "weg",
-      "from": "Questionable",
-      "to": null
     }
   ]
 }
