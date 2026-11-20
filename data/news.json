@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T11:47:40Z",
+  "updatedAt": "2026-11-20T12:47:23Z",
   "items": [
+    {
+      "id": "5c53829917cfa50c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50532737/fantasy-football-start-sit-sleepers-breakouts-week-10",
+      "title": "Fantasy football: Don't be surprised if Likely is TE1, Gainwell finishes strong",
+      "summary": "Eric Karabell explains why the Giants' TE could top the position and the Bucs' No. 2 RB will finish strong.",
+      "publishedAt": "2026-11-20T12:46:50Z",
+      "teamIds": [
+        "19",
+        "27"
+      ]
+    },
+    {
+      "id": "a70c992830e3ffda",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50531472/fantasy-football-start-sit-week-11-need-know",
+      "title": "What to know to set your lineup: Nix, Ward viable options if your QB is on bye",
+      "summary": "Adam Rank catches you up on the vital information and insights before you make your toughest lineup decisions.",
+      "publishedAt": "2026-11-20T12:40:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "ecec22092356d572",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-he-did-with-the-giants-colts-qb-daniel-jones-is-struggling-right-after-getting-paid",
+      "title": "As he did with the Giants, Colts QB Daniel Jones is struggling, right after getting paid",
+      "summary": "Jones was awful again in Thursday night's loss to the Texans.",
+      "publishedAt": "2026-11-20T12:32:36Z",
+      "teamIds": [
+        "34",
+        "11",
+        "19"
+      ]
+    },
+    {
+      "id": "b0d91a788854c523",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-to-retire-andre-reeds-no-83-in-2027",
+      "title": "Bills to retire Andre Reed's No. 83 in 2027",
+      "summary": "The Bills will be retiring the number of the top wide receiver in franchise history next year.",
+      "publishedAt": "2026-11-20T12:09:18Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "6af509333841e36d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-i-knew-what-kind-of-player-i-could-be-amazing-to-be-in-this-groove",
+      "title": "C.J. Stroud: I knew what kind of player I could be, amazing to be in this groove",
+      "summary": "After a rough end to the 2025 season, Texans quarterback C.J.",
+      "publishedAt": "2026-11-20T11:55:26Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "0373e3c7b12754a6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50532835/fantasy-football-streamers-last-minute-pickups-week-11",
+      "title": "Fantasy football last-minute pickups: Flournoy, Ayomanor among top candidates",
+      "summary": "There is no busier bye week than this one. Matt Bowen lists potential options if you need a fill-in.",
+      "publishedAt": "2026-11-20T11:51:24Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "a91e62fae98ee744",
       "source": "espn",
@@ -283,6 +350,17 @@
       ]
     },
     {
+      "id": "34dd298eb69b9d44",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/most-important-week-11-games-nfl-playoff-races",
+      "title": "Most important Week 11 games for NFL playoff races: Can anyone gain separation in NFC North or NFC South?",
+      "summary": "Plus, can the Giants bounce back?",
+      "publishedAt": "2026-11-20T02:53:35Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
       "id": "72f2993cf24c41c3",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-strouds-second-td-gives-texans-14-3-lead",
@@ -325,6 +403,18 @@
       "teamIds": [
         "34",
         "11"
+      ]
+    },
+    {
+      "id": "28b36084d848e226",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
+      "title": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
+      "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
+      "publishedAt": "2026-11-20T01:40:33Z",
+      "teamIds": [
+        "34",
+        "28"
       ]
     },
     {
@@ -1556,101 +1646,17 @@
       ]
     },
     {
-      "id": "46c6d359f1ed2265",
+      "id": "ae72db98620f1cdc",
       "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/grading-every-trade-deadline-acquisitions-new-team-debut-kirk-cousins",
-      "title": "Grading every trade deadline acquisition's new team debut: Kirk Cousins, two WRs get near 'A'",
-      "summary": "Many midseason movers had strong debuts for their new teams",
-      "publishedAt": "2026-11-19T15:39:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "cfe55f149aaa00e1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-wr-christian-kirk-had-meniscus-surgery",
-      "title": "49ers WR Christian Kirk had meniscus surgery",
-      "summary": "49ers wide receiver Christian Kirk went on injured reserve because of a knee injury a couple of weeks ago and that injury has also led him to the operating room.",
-      "publishedAt": "2026-11-19T15:37:32Z",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-experts-picks-colts-at-texans-vikings-vs-49ers",
+      "title": "NFL Week 11 picks: Our experts face off on Colts at Texans, Vikings vs. 49ers and more",
+      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
+      "publishedAt": "2026-11-19T15:52:43Z",
       "teamIds": [
+        "34",
+        "11",
+        "16",
         "25"
-      ]
-    },
-    {
-      "id": "7ef64292c7354c3f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/patriots-morgan-moses-possible-tell-seahawks-super-bowl-ryan-paganetti",
-      "title": "Patriots offensive lineman had possible tell that tipped off Seahawks in Super Bowl, other teams",
-      "summary": "Moses' hand placement may have given away whether the Patriots were passing or running on any given snap",
-      "publishedAt": "2026-11-19T15:34:01Z",
-      "teamIds": [
-        "17",
-        "26"
-      ]
-    },
-    {
-      "id": "bb03cf4fd49144f4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50531471/what-stephen-looking-see-vikings-litmus-test-vs-49ers",
-      "title": "What Stephen A. is looking to see from Vikings in 'litmus test' vs. 49ers",
-      "summary": null,
-      "publishedAt": "2026-11-19T15:29:04Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "c2aa0b6f9b17a4ac",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction",
-      "title": "Texans vs. Colts prediction: Houston looks to bounce back on 'TNF' vs. lowly Indy after rough Week 10 loss",
-      "summary": "Plus, how to watch, what to know and a prediction before the 'Thursday Night Football' matchup",
-      "publishedAt": "2026-11-19T15:26:53Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "143c39400073e87d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50531470/can-bengals-succeed-postseason-pass-heavy-offense",
-      "title": "Can the Bengals succeed in the postseason with a pass-heavy offense?",
-      "summary": null,
-      "publishedAt": "2026-11-19T15:26:43Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "b80a8fcc92a026d4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/are-woody-marks-and-david-montgomery-playing-tonight-texans-rushing-attack-short-handed-vs-colts",
-      "title": "Are Woody Marks and David Montgomery playing tonight? Texans' rushing attack short-handed vs. Colts",
-      "summary": "Both of Houston's two RBs are on the injury report ahead of the Week 11 matchup against Indy",
-      "publishedAt": "2026-11-19T15:24:34Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "ddb9aa0b50560b17",
-      "source": "espn",
-      "url": "https://espn.com/nba/story/_/id/50526626/gta-sports-pop-culture-look-back",
-      "title": "Revisiting sports and pop culture from GTA V's launch",
-      "summary": "\"Grand Theft Auto VI\" was released Thursday following a 13-year wait since GTA V.",
-      "publishedAt": "2026-11-19T15:21:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "ac7264cf54d334d1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-jahmyr-gibbs-is-a-special-player-special-guy-special-teammate",
-      "title": "Jared Goff: Jahmyr Gibbs is a special player, special guy, special teammate",
-      "summary": "Back in August, the Lions signed Jahmyr Gibbs to a three-year contract extension.",
-      "publishedAt": "2026-11-19T15:14:48Z",
-      "teamIds": [
-        "8"
       ]
     }
   ]
