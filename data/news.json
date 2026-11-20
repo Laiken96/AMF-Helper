@@ -1,7 +1,129 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T19:47:27Z",
+  "updatedAt": "2026-11-20T20:47:24Z",
   "items": [
+    {
+      "id": "2de66fbbf0f8b670",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543025/justin-reid-posts-saints-farewell-team-works-release",
+      "title": "Justin Reid posts Saints farewell as team works through release",
+      "summary": "After safety Justin Reid requested his release earlier this week, Saints coach Kellen Moore said the team was still working through the process but expected a roster move to happen soon.",
+      "publishedAt": "2026-11-20T20:39:47Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "002306cbae61d7b2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
+      "title": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
+      "summary": "Chiefs RB Kenneth Walker III will not play in Sunday's game against the Cardinals after not participating in practice this week due to a groin injury.",
+      "publishedAt": "2026-11-20T20:29:34Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "e6ba6036db5a8c22",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542944/bottom-line-business-cowboys-pettine-focused-titans",
+      "title": "Cowboys' Mike Pettine feels for DC Christian Parker, but focused on Titans",
+      "summary": "Mike Pettine, the Cowboys' new defensive playcaller, is focused on preparing for the Titans, not looking in the rearview mirror.",
+      "publishedAt": "2026-11-20T20:24:06Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "f418ad03c57d9bb2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-lb-bobby-okereke-will-miss-a-third-consecutive-game",
+      "title": "Panthers LB Bobby Okereke will miss a third consecutive game",
+      "summary": "Panthers linebacker Bobby Okereke will miss his third consecutive game with a foot injury.",
+      "publishedAt": "2026-11-20T20:23:59Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "f8a17cc2b9913732",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-rule-out-kenneth-walker-trey-smith-jaylon-moore",
+      "title": "Chiefs rule out Kenneth Walker, Trey Smith, Jaylon Moore",
+      "summary": "The Chiefs will be without running back Kenneth Walker again this weekend.",
+      "publishedAt": "2026-11-20T20:16:44Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "d272805f285b6b0c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542891/ravens-rule-dt-nnamdi-madubuike-hamstring-vs-panthers",
+      "title": "Ravens rule out DT Nnamdi Madubuike (hamstring) vs Panthers",
+      "summary": "Ravens defensive tackle Nnamdi Madubuike has a hamstring injury and has been ruled out for Sunday's game against the Panthers.",
+      "publishedAt": "2026-11-20T20:14:01Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "c49039ac1b787978",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 11 betting odds: Lines and totals for every game",
+      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
+      "publishedAt": "2026-11-20T20:13:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "393d0562f714109a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-pittman-patrick-queen-among-steelers-questionable-for-week-11",
+      "title": "Michael Pittman, Patrick Queen among Steelers questionable for Week 11",
+      "summary": "The Steelers have several players listed as questionable for Sunday's game against the Eagles.",
+      "publishedAt": "2026-11-20T20:10:33Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "7f9311d0ba682d6a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542859/bengals-vs-commanders-watch-monday-night-football-week-11",
+      "title": "Bengals vs. Commanders: Where to watch 'Monday Night Football'",
+      "summary": "Here's what to know about the Week 11 matchup.",
+      "publishedAt": "2026-11-20T20:02:03Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "48b1a2e38221cd43",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50542830/cardinals-proceeding-josh-johnson-start",
+      "title": "Mike LaFleur: Cardinals proceeding as if Josh Johnson will start",
+      "summary": null,
+      "publishedAt": "2026-11-20T19:59:04Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "be7bea84edec714d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-listed-as-questionable-49ers-to-make-decision-on-saturday",
+      "title": "Mike Evans listed as questionable, 49ers to make decision on Saturday",
+      "summary": "The 49ers got wide receiver Mike Evans back at practice on Thursday and he could be back in the lineup against the Vikings on Sunday night.",
+      "publishedAt": "2026-11-20T19:55:42Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "e311e599c8b4ae95",
       "source": "espn",
@@ -11,6 +133,17 @@
       "publishedAt": "2026-11-20T19:45:15Z",
       "teamIds": [
         "3"
+      ]
+    },
+    {
+      "id": "81c806ed25ce4e72",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/patriots-wr-aj-brown-hamstring-injury-update",
+      "title": "Patriots WR A.J. Brown expected to miss multiple weeks due to hamstring injury, per report",
+      "summary": "Brown has already missed multiple games this season and is now expected to miss at least the next few contests",
+      "publishedAt": "2026-11-20T19:38:23Z",
+      "teamIds": [
+        "17"
       ]
     },
     {
@@ -54,6 +187,15 @@
       "title": "A.J. Brown is expected to miss multiple weeks with hamstring injury",
       "summary": "A season marred by injuries continues for receiver A.J.",
       "publishedAt": "2026-11-20T19:33:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "648ba246abc70f77",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drake-maye-has-fractured-right-fibula-will-not-require-surgery-per-report",
+      "title": "Drake Maye has fractured right fibula, will not require surgery, per report",
+      "summary": "Maye's injury will sideline him deep into the season, if he is able to return at all, per the report",
+      "publishedAt": "2026-11-20T19:28:43Z",
       "teamIds": []
     },
     {
@@ -115,12 +257,14 @@
       "id": "8d42e53fa1a44778",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/colts-release-qb-daniel-jones-possible-landing-spots",
-      "title": "Colts release QB Daniel Jones after lopsided loss to Texans, name new starting quarterback",
+      "title": "Colts release Daniel Jones: Landing spots for QB include Patriots, Ravens, Eagles",
       "summary": "Jones just completed his sixth straight game with an interception, the longest streak by a Colts player since Curtis Painter in 2011",
       "publishedAt": "2026-11-20T18:59:44Z",
       "teamIds": [
-        "34",
-        "11"
+        "33",
+        "11",
+        "17",
+        "21"
       ]
     },
     {
@@ -761,7 +905,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Does anything change in Indy with Richardson Sr. under center?",
+      "title": "Fantasy buzz: Does anything change in Indy with Richardson under center?",
       "summary": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
       "publishedAt": "2026-11-20T13:45:51Z",
       "teamIds": [
@@ -1471,6 +1615,17 @@
       ]
     },
     {
+      "id": "679c6aab6d0c434f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/what-cowboys-christian-parker-said-defensive-coordinator-demotion",
+      "title": "What Cowboys' Christian Parker said about demotion: DC considered leaving, pushed back on decision",
+      "summary": "Parker mulled departing Dallas after Brian Schottenheimer took defensive play-calling",
+      "publishedAt": "2026-11-19T23:20:39Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
       "id": "14f7196cc957fa40",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-work-to-get-a-stadium-deal-in-illinois-by-december-3",
@@ -1492,159 +1647,6 @@
         "24",
         "20"
       ]
-    },
-    {
-      "id": "1fc15a3acbbf7665",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-on-possibly-playing-18-games-just-part-of-the-deal",
-      "title": "Kirk Cousins on possibly playing 18 games: \"Just part of the deal\"",
-      "summary": "Because Vikings quarterback Kirk Cousins was traded after the Vikings' bye but before the Raiders' bye, Cousins won't have a bye in 2026.",
-      "publishedAt": "2026-11-19T22:54:26Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "c5361d7526d905c8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-add-carson-beck-to-injury-report-as-a-limited-participant",
-      "title": "Cardinals add Carson Beck to injury report as a limited participant",
-      "summary": "The Cardinals made an unwelcome addition to their injury report on Thursday.",
-      "publishedAt": "2026-11-19T22:52:02Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "af7a7d8b0f60f9f7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-returns-to-limited-participation-thursday",
-      "title": "Brock Bowers returns to limited participation Thursday",
-      "summary": "Raiders tight end Brock Bowers returned to limited participation on Thursday.",
-      "publishedAt": "2026-11-19T22:42:41Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "5b9281c39c627524",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/zack-baun-remains-out-of-eagles-practice",
-      "title": "Zack Baun remains out of Eagles practice",
-      "summary": "The Eagles remained without a key defensive player at practice on Thursday.",
-      "publishedAt": "2026-11-19T22:42:21Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "32392b518424c1f7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/research-moves-closer-to-identifying-cte-in-living-patients",
-      "title": "Research moves closer to identifying CTE in living patients",
-      "summary": "The ability to detect CTE only through autopsies prevents football players from knowing whether they have it during their careers.",
-      "publishedAt": "2026-11-19T22:37:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "a50e2738658ae947",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-working-through-some-things-with-justin-reid-after-he-requests-release",
-      "title": "Saints \"working through some things\" with Justin Reid after he requests release",
-      "summary": "It appears safety Justin Reid and the Saints are parting ways.",
-      "publishedAt": "2026-11-19T22:33:08Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "a0a304c5a23b76c4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-matt-gay-dealing-with-a-hip-injury-the-raiders-worked-out-three-kickers",
-      "title": "With Matt Gay dealing with a hip injury, the Raiders worked out three kickers",
-      "summary": "Raiders kicker Matt Gay had a limited practice Wednesday with a hip injury.",
-      "publishedAt": "2026-11-19T22:27:37Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "f30e5e111a7bd845",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873070",
-      "title": "Bills get chance to feast on another backup QB with Kyle McCord and Miami Dolphins up next",
-      "summary": "Ed Oliver bristled at the notion of the Bills’ defensive turnaround being the result of Buffalo spending the past three weeks feasting on backup...",
-      "publishedAt": "2026-11-19T22:24:33Z",
-      "teamIds": [
-        "2",
-        "15"
-      ]
-    },
-    {
-      "id": "328eaeb73d95093a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daron-bland-remained-out-of-practice-thursday-but-joey-porter-jr-again-was-a-full-participant",
-      "title": "DaRon Bland remained out of practice Thursday, but Joey Porter Jr. again was a full participant",
-      "summary": "Cowboys cornerback DaRon Bland (ankle) did not participate in practice for a second consecutive day Thursday, but cornerback Joey Porter Jr.",
-      "publishedAt": "2026-11-19T22:05:54Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "62376129eaad5fee",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-officially-listed-as-limited-in-return-to-practice",
-      "title": "Baker Mayfield officially listed as limited in return to practice",
-      "summary": "Buccaneers quarterback Baker Mayfield described himself as limited in his return to practice on Thursday and the team's injury report said the same thing later in the day.",
-      "publishedAt": "2026-11-19T21:57:56Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "bc68fa2208dd09d8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50534340/saints-justin-reid-working-potential-release",
-      "title": "Saints, Justin Reid 'working through' potential release",
-      "summary": "Saints and safety Justin Reid are \"working through some things\" regarding the veteran safety's potential release, defensive coordinator Brandon Staley said Thursday.",
-      "publishedAt": "2026-11-19T21:51:08Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "58cb33ca12edb759",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-on-injury-report-fully-participates-in-practice-despite-illness",
-      "title": "Joe Burrow on injury report, fully participates in practice despite illness",
-      "summary": "Bengals quarterback Joe Burrow landed on the team's first injury report of the week, but it doesn't look like anything that should interfere with his availability for Monday night's game against the Commanders.",
-      "publishedAt": "2026-11-19T21:49:58Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "fc8df859232bc3df",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/rams-puka-nacua-suspended-three-games-will-serve-ban-during-injured-reserve-stint",
-      "title": "Rams' Puka Nacua suspended three games, will serve ban during injured reserve stint",
-      "summary": "The NFL threatened Nacua with potential \"banishment\" from the league for future violations of the personal conduct policy",
-      "publishedAt": "2026-11-19T21:46:34Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "3c86538f4a433f45",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/50182998/2027-nfl-draft-rankings-kiper-big-board-top-prospects",
-      "title": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position",
-      "summary": "Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November.",
-      "publishedAt": "2026-11-19T21:45:00Z",
-      "teamIds": []
     }
   ]
 }

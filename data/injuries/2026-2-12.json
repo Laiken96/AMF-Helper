@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T19:47:24Z",
+    "takenAt": "2026-11-20T20:47:22Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1468,7 +1468,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           }
         ]
       },
@@ -2385,6 +2385,16 @@
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
+    },
+    {
+      "gameId": "401873082",
+      "athleteId": "4567048",
+      "name": "Kenneth Walker III",
+      "pos": "RB",
+      "teamAbbr": "KC",
+      "kind": "wechsel",
+      "from": "Questionable",
+      "to": "Out"
     },
     {
       "gameId": "401873082",
