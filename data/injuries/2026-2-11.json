@@ -963,12 +963,69 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T01:20:30Z",
+    "takenAt": "2026-11-20T01:31:05Z",
     "games": [
       {
         "gameId": "401873066",
         "kickoffUtc": "2026-11-20T01:15:00Z",
         "players": [
+          {
+            "athleteId": "4035538",
+            "name": "David Montgomery",
+            "pos": "RB",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4432577",
+            "name": "C.J. Stroud",
+            "pos": "QB",
+            "teamId": "34",
+            "teamAbbr": "HOU",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3917792",
+            "name": "Daniel Jones",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4061956",
+            "name": "Ashton Dulin",
+            "pos": "WR",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4242335",
+            "name": "Jonathan Taylor",
+            "pos": "RB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
           {
             "athleteId": "4683423",
             "name": "Riley Leonard",
