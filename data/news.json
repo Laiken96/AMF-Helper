@@ -1,7 +1,85 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T21:15:54Z",
+  "updatedAt": "2026-11-20T21:47:22Z",
   "items": [
+    {
+      "id": "3ac960c90bdf815e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543665/jets-qb-geno-smith-ankle-cleared-start-vs-chargers",
+      "title": "Jets QB Geno Smith (ankle) cleared to start vs. Chargers",
+      "summary": "Jets quarterback Geno Smith made it through the practice week with no setbacks and was cleared to face the Chargers.",
+      "publishedAt": "2026-11-20T21:44:12Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "5f2af1b972121808",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543613/police-investigate-man-death-incident-cowboys-game",
+      "title": "Police investigate man's death after alleged altercation at 49ers-Cowboys game",
+      "summary": "Police are investigating the death of a man who was allegedly involved in an altercation prior to Sunday's game between the Cowboys and 49ers at AT&T Stadium.",
+      "publishedAt": "2026-11-20T21:42:59Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "e4a676ac583bb068",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-will-consider-requiring-minimum-night-stays-for-international-games",
+      "title": "NFL will consider requiring minimum-night stays for international games",
+      "summary": "After the 49ers and the Rams took dramatically different approaches to their arrival in Melbourne for the first-ever Australia game, we raised the question of whether the league should require teams to get there early enough to advance the goal of promoting American football to international audiences.",
+      "publishedAt": "2026-11-20T21:36:00Z",
+      "teamIds": [
+        "14",
+        "25"
+      ]
+    },
+    {
+      "id": "07f0452bcc9a2de0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-officially-waive-s-justin-reid",
+      "title": "Saints officially waive S Justin Reid",
+      "summary": "Safety Justin Reid already penned his good-bye missive to the Saints, but his departure did not become official until 4 p.m.",
+      "publishedAt": "2026-11-20T21:28:29Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "7d5450f5bf2de593",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-add-rb-rachaad-white-to-the-injury-report-as-limited-with-a-heel-injury",
+      "title": "Commanders add RB Rachaad White to the injury report as limited with a heel injury",
+      "summary": "The Commanders added running back Rachaad White to the injury report Friday.",
+      "publishedAt": "2026-11-20T21:20:17Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "383622cc9a2de6bd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bhayshul-tuten-returns-to-practice-has-no-injury-designation-for-sunday",
+      "title": "Bhayshul Tuten returns to practice, has no injury designation for Sunday",
+      "summary": "The Jaguars are set to have their top running back in the lineup against the Giants on Sunday.",
+      "publishedAt": "2026-11-20T21:16:47Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "909770991ddc1eb8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-expert-picks-odds-best-bets-teasers-predictions-survivor-picks",
+      "title": "NFL Week 11 expert picks, odds, best bets, teasers, predictions, survivor picks and more",
+      "summary": "NFL Week 11 odds, how to watch, streaming: Expert selections, best bets, teasers, survivor picks and more CBSSports.com and SportsLine break down every single NFL game in Week 17",
+      "publishedAt": "2026-11-20T21:12:55Z",
+      "teamIds": []
+    },
     {
       "id": "4918531e454bd847",
       "source": "pft",
@@ -1566,86 +1644,6 @@
       "teamIds": [
         "34",
         "11"
-      ]
-    },
-    {
-      "id": "7aab80548e22f2d4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535411/bears-jeffery-simmons-says-knee-fine-expects-play-vs-saints",
-      "title": "Bears' Jeffery Simmons says knee injury a non-issue, expects to play vs. Saints",
-      "summary": "Bears defensive tackle Jeffery Simmons said the knee injury that held him to limited participation in practice this week wouldn't keep him from playing Sunday against the Saints.",
-      "publishedAt": "2026-11-20T00:36:34Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "3d10b05a89d7ffc8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-limited-in-his-return-to-practice",
-      "title": "Mike Evans limited in his return to practice",
-      "summary": "49ers wide receiver Mike Evans was a limited participant in his return to practice Thursday.",
-      "publishedAt": "2026-11-20T00:34:57Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "c1ebcf9398c8b712",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/colts-vs-texans-odds-first-touchdown-scorer-picks-odds-predictions-thursday-night-football",
-      "title": "Colts vs. Texans odds, first touchdown scorer picks, odds, predictions for Thursday Night Football",
-      "summary": "We look at first touchdown scorer prediction markets at Kalshi for Colts vs. Texans NFL Week 11 Thursday Night Football",
-      "publishedAt": "2026-11-20T00:32:36Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "fbd61bdbfa1864ac",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535323/washington-commanders-beer-spear",
-      "title": "Washington Commanders unveil 'Beer Spear' ahead of 'Hail Raiser' debut on 'MNF'",
-      "summary": "The limited-edition collectible vessel can hold 16 ounces of beer, equipped with a gold spear at the end of it.",
-      "publishedAt": "2026-11-20T00:29:58Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "13a0fe811739e2c4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50533430/sam-hartman-bachelor-commanders-quarterback",
-      "title": "Sam Hartman's next drive: 'The Bachelor' questions answered",
-      "summary": "A guide to the Commanders quarterback's upcoming search for love and how his NFL commitments could shape the season.",
-      "publishedAt": "2026-11-20T00:28:17Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "93e43e8899423d70",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873076",
-      "title": "The Steelers last won in Philadelphia in 1965. Can they top an Eagles team on 7-game losing streak?",
-      "summary": "Perhaps the Steelers should have stayed attached at the hip pads with the Eagles — as they were when they merged for the 1943 season to form the Steagles — to avoid such an ignominious losing streak in Philadelphia.",
-      "publishedAt": "2026-11-20T00:22:33Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "75cf660906251145",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873078",
-      "title": "Commanders' defense preparing for high-flying Bengals offense",
-      "summary": "Washington Commanders coach Dan Quinn knows the challenge facing his defense for Monday night's game against the Cincinnati Bengals.",
-      "publishedAt": "2026-11-20T00:07:43Z",
-      "teamIds": [
-        "4",
-        "28"
       ]
     }
   ]
