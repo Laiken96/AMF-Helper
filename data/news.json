@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T05:47:23Z",
+  "updatedAt": "2026-11-20T06:47:23Z",
   "items": [
     {
       "id": "94016d65aed6905b",
@@ -1590,6 +1590,15 @@
       ]
     },
     {
+      "id": "afe23428b0db2141",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/it-wouldnt-shock-me-if-for-week-11-jared-goffs-tony-pollard",
+      "title": "It wouldn't shock me if ... for Week 11: New WR crashes OROY race, Jared Goff's pesky streak continues",
+      "summary": "Plus, Tony Pollard could shine in his first game back in Dallas",
+      "publishedAt": "2026-11-19T14:19:28Z",
+      "teamIds": []
+    },
+    {
       "id": "3c755d8e00d95933",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/50510451/fantasy-playbook-projections-lineup-locks-week-11-shadow",
@@ -1650,18 +1659,6 @@
       "summary": "Many midseason movers had strong debuts for their new teams",
       "publishedAt": "2026-11-19T12:59:34Z",
       "teamIds": []
-    },
-    {
-      "id": "8090904c305aa3ae",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-11-super-bowl-stock-report-kirk-cousins-vikings-drake-maye-patriots",
-      "title": "Week 11 Super Bowl stock report: Kirk Cousins raises Vikings' ceiling, Drake Maye injury tanks Patriots",
-      "summary": "We assess the NFL title race after Week 10 and identify three upcoming games that could reshape the Super Bowl picture",
-      "publishedAt": "2026-11-19T12:58:59Z",
-      "teamIds": [
-        "16",
-        "17"
-      ]
     }
   ]
 }
