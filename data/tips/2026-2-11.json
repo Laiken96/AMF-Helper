@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-20T13:47:24Z",
+  "updatedAt": "2026-11-20T16:47:25Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -36,13 +36,13 @@
       "kickoffUtc": "2026-11-22T18:00:00Z",
       "odds": {
         "provider": "DraftKings",
-        "spreadHome": -16.5,
+        "spreadHome": -15.5,
         "overUnder": 40.5,
-        "fetchedAt": "2026-11-19T22:47:16Z"
+        "fetchedAt": "2026-11-20T16:47:25Z"
       },
-      "pHome": 0.8892,
+      "pHome": 0.8745,
       "pickTeamId": "12",
-      "pickProb": 0.8892,
+      "pickProb": 0.8745,
       "level": "klar",
       "deviation": false,
       "firstPickTeamId": "12",
@@ -135,14 +135,14 @@
       "gameId": "401873072",
       "kickoffUtc": "2026-11-22T18:00:00Z",
       "odds": {
-        "provider": "Draft Kings",
-        "spreadHome": -6,
+        "provider": "DraftKings",
+        "spreadHome": -5.5,
         "overUnder": 45.5,
-        "fetchedAt": "2026-11-19T17:47:18Z"
+        "fetchedAt": "2026-11-20T16:47:25Z"
       },
-      "pHome": 0.6716,
+      "pHome": 0.6581,
       "pickTeamId": "8",
-      "pickProb": 0.6716,
+      "pickProb": 0.6581,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "8",
@@ -187,8 +187,8 @@
       "odds": {
         "provider": "DraftKings",
         "spreadHome": 3.5,
-        "overUnder": 38.5,
-        "fetchedAt": "2026-11-20T05:47:19Z"
+        "overUnder": 37.5,
+        "fetchedAt": "2026-11-20T16:47:25Z"
       },
       "pHome": 0.3977,
       "pickTeamId": "23",
@@ -285,15 +285,15 @@
       "gameId": "401873077",
       "kickoffUtc": "2026-11-23T01:20:00Z",
       "odds": {
-        "provider": "Draft Kings",
-        "spreadHome": -3.5,
+        "provider": "DraftKings",
+        "spreadHome": -3,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-19T22:15:26Z"
+        "fetchedAt": "2026-11-20T16:47:25Z"
       },
-      "pHome": 0.6023,
+      "pHome": 0.5879,
       "pickTeamId": "25",
-      "pickProb": 0.6023,
-      "level": "favorit",
+      "pickProb": 0.5879,
+      "level": "unklar",
       "deviation": false,
       "firstPickTeamId": "25",
       "firstOdds": {

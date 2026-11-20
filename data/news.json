@@ -1,7 +1,105 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T15:47:24Z",
+  "updatedAt": "2026-11-20T16:47:28Z",
   "items": [
+    {
+      "id": "c5420f2a0f10bf5c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541702/stephen-hide-dismay-skip-cowboys-optimism",
+      "title": "Stephen A. can't hide his dismay over Skip's Cowboys optimism",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:25:22Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "0f9b68be2fc80d9b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541547/yates-clay-disagree-ollie-gordon-ii-week-11",
+      "title": "Yates, Clay disagree over Ollie Gordon II in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:23:24Z",
+      "teamIds": []
+    },
+    {
+      "id": "9bc023d7f0902b0d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541586/tyler-warren-not-startable-fantasy",
+      "title": "Mike Clay: Tyler Warren is not startable in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:21:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "46f3c62eb20eb074",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541498/field-yates-voices-concerns-saquon-barkley-fantasy",
+      "title": "Field Yates voices his concerns for Saquon Barkley in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:19:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "7434628daa1f07f4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541489/why-field-yates-elevating-omarion-hampton-week-11",
+      "title": "Why Field Yates is elevating Omarion Hampton in Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:15:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "9f2321dc48afb593",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/in-kansas-city-kenneth-walker-iii-run-game-completely-transformed-chiefs-offense-super-bowl",
+      "title": "In Kansas City, Kenneth Walker III and the run game makes the Chiefs contenders again",
+      "summary": "One of the league's most explosive running backs has the Chiefs looking like their old Super Bowl-winning selves.",
+      "publishedAt": "2026-11-20T16:15:17Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "ecab204a04e88262",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541578/why-stephen-thinks-special-joe-burrow-mvp-front-runner",
+      "title": "Why Stephen A. thinks 'special' Joe Burrow is the MVP front-runner",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:14:39Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "547da89a2baaf0b9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-protect-college-sports-act-proponents-are-getting-desperate",
+      "title": "The Protect College Sports Act proponents are getting desperate",
+      "summary": "As the Protect College Sports Act languishes in the lame-duck session of the U.S.",
+      "publishedAt": "2026-11-20T16:09:25Z",
+      "teamIds": []
+    },
+    {
+      "id": "27e69be1622eca61",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-aidan-hutchinson-speaks-out-freak-injury-celebration",
+      "title": "Aidan Hutchinson speaks out on freak injury celebration: 'That's the last time I go airborne'",
+      "summary": "Hutchinson tore his ACL while celebrating a sack of New England's Drake Maye",
+      "publishedAt": "2026-11-20T15:51:05Z",
+      "teamIds": []
+    },
+    {
+      "id": "b6a4c6605ff7acfb",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541437/why-stephen-picking-vikings-beat-49ers-snf",
+      "title": "Why Stephen A. is picking the Vikings to beat the 49ers on SNF",
+      "summary": null,
+      "publishedAt": "2026-11-20T15:47:43Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "085d8059563d54ea",
       "source": "espn",
@@ -23,6 +121,17 @@
       "teamIds": [
         "7",
         "11"
+      ]
+    },
+    {
+      "id": "995040ba979facf3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-jahmyr-gibbs-laying-early-foundation-for-rb-goat-case",
+      "title": "Lions' Jahmyr Gibbs laying early foundation for one of the best running back careers ever",
+      "summary": "Gibbs is only 3.5 years into his NFL career, and he's on a few different record-breaking paces",
+      "publishedAt": "2026-11-20T15:34:44Z",
+      "teamIds": [
+        "8"
       ]
     },
     {
@@ -165,6 +274,29 @@
       "title": "Fantasy football rankings for Week 11: D/ST",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-20T13:49:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Stroud has Houston fans over the moon, Colts continue to crumble",
+      "summary": "Adam Rank waxes nostalgic about Houston football and the reinvigorated C.J. Stroud.",
+      "publishedAt": "2026-11-20T13:45:51Z",
+      "teamIds": [
+        "33",
+        "34",
+        "11",
+        "24"
+      ]
+    },
+    {
+      "id": "880288f403fba92c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 11",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-20T13:22:54Z",
       "teamIds": []
     },
     {
@@ -1516,153 +1648,6 @@
       "summary": "When ESPN president Jimmy Pitaro said this week that the media coverage of the Joe Buck and Troy Aikman situation has \"been disappointing,\" the obvious takeaway was that Pitaro should be disappointed with those ESPN employees who chose to speak privately and/or publicly about a sensitive internal situation.",
       "publishedAt": "2026-11-19T18:16:23Z",
       "teamIds": []
-    },
-    {
-      "id": "226eb5eddb3c7a71",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/revisiting-chiefs-2026-nfl-draft-kansas-city-justified-trading-up-mansoor-delane",
-      "title": "Revisiting the Chiefs' 2026 NFL Draft: Was Kansas City justified in trading up for Mansoor Delane?",
-      "summary": "Trading up for Mansoor Delane has paid off in the secondary, but Peter Woods' slow start and an ignored wide receiver room leave lingering questions about Kansas City's first-round approach",
-      "publishedAt": "2026-11-19T18:07:33Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "3246a672aaa7918b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-returned-to-practice-on-thursday",
-      "title": "Baker Mayfield returned to practice on Thursday",
-      "summary": "Buccaneers quarterback Baker Mayfield appears to be trending toward playing on Sunday against the Lions.",
-      "publishedAt": "2026-11-19T17:57:11Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "fa5d17441111f655",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-send-marlon-humphrey-home-after-controversial-baltimore-comments",
-      "title": "Ravens send Marlon Humphrey home after his controversial comments, sit him for Week 11 game",
-      "summary": "The decision comes after the cornerback faced backlash, including criticism from the city's mayor, for claiming on his podcast that Baltimore is 'best at making criminals'",
-      "publishedAt": "2026-11-19T17:50:36Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "1791711777c1cb67",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/frank-reich-im-the-jets-offensive-coordinator-our-inability-to-score-starts-with-me",
-      "title": "Frank Reich: I'm the Jets' offensive coordinator, our inability to score starts with me",
-      "summary": "The Jets haven't scored a touchdown since the third quarter of their Week 8 loss to the Raiders.",
-      "publishedAt": "2026-11-19T17:48:19Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "5b7779e97d46cb52",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50532410/ravens-dc-supports-decision-set-marlon-humphrey-inactive-vs-panthers",
-      "title": "Ravens' DC supports decision to set Marlon Humphrey as inactive vs. Panthers",
-      "summary": null,
-      "publishedAt": "2026-11-19T17:46:50Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "6f6fd50564a06348",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532254/belichick-kraft-finalists-again-pro-football-hall-fame",
-      "title": "Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
-      "summary": "Bill Belichick and Robert Kraft have both advanced to the final round of voting for the Pro Football Hall of Fame for the second straight year.",
-      "publishedAt": "2026-11-19T17:45:38Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "b47345374dfa6d3f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532392/sources-broncos-sign-cb-riley-moss-four-year-extension",
-      "title": "Sources: Broncos sign CB Riley Moss to four-year extension",
-      "summary": "The Broncos locked up a key piece of their secondary by signing cornerback Riley Moss to a four-year extension, sources said.",
-      "publishedAt": "2026-11-19T17:43:24Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "6a5985303c546020",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50531689/bills-defense-backup-qbs-amani-hooker",
-      "title": "Whether it's against backup QBs or not, the Bills' defense is rolling",
-      "summary": "Buffalo will face another backup QB in Week 11 with Kyle McCord set to start in place of Malik Willis for the Dolphins.",
-      "publishedAt": "2026-11-19T17:33:20Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "74f6c87e7318c859",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-robert-kraft-advance-to-final-round-of-hall-of-fame-voting",
-      "title": "Bill Belichick, Robert Kraft advance to final round of Hall of Fame voting",
-      "summary": "Belichick and Kraft were also finalists in last year's selection process.",
-      "publishedAt": "2026-11-19T17:20:51Z",
-      "teamIds": []
-    },
-    {
-      "id": "7b97a75ededb509d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
-      "title": "Ravens send CB Humphrey home, say he'll be inactive after 'criminals' comment",
-      "summary": "The Ravens have sent cornerback Marlon Humphrey home from the facility, and he will be inactive for Sunday's game against the Panthers.",
-      "publishedAt": "2026-11-19T17:18:16Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "d904ae627390b3b4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-create-altitude-chamber-for-49ers-mexico-city-game",
-      "title": "Vikings have a secret weapon to fight altitude heading into showdown with 49ers in Mexico City",
-      "summary": "Minnesota transformed part of its facility to help the team adjust to the altitude it will face in Mexico City",
-      "publishedAt": "2026-11-19T17:12:17Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "e4375dfe5daa9d00",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50436635/nfl-week-11-odds-colts-texans-betting-preview-props",
-      "title": "Colts-Texans odds, best bets: Is Houston laying too many points?",
-      "summary": "Odds, analysis and recommended plays to help you bet Thursday's Colts-Texans game.",
-      "publishedAt": "2026-11-19T17:11:12Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "03c847f16c3bef42",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-sauce-gardner-is-not-expected-to-play-vs-texans-due-to-calf-injury",
-      "title": "Report: Sauce Gardner is not expected to play vs. Texans due to calf injury",
-      "summary": "The Colts will be thin in the secondary when they play the Texans on Thursday night.",
-      "publishedAt": "2026-11-19T17:09:45Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
     }
   ]
 }
