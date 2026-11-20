@@ -963,16 +963,16 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T01:31:05Z",
+    "takenAt": "2026-11-20T01:40:36Z",
     "games": [
       {
         "gameId": "401873066",
         "kickoffUtc": "2026-11-20T01:15:00Z",
         "players": [
           {
-            "athleteId": "4035538",
-            "name": "David Montgomery",
-            "pos": "RB",
+            "athleteId": "3117256",
+            "name": "Dalton Schultz",
+            "pos": "TE",
             "teamId": "34",
             "teamAbbr": "HOU",
             "roles": [
@@ -988,7 +988,8 @@
             "teamAbbr": "HOU",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
