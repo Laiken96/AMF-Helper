@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-19T23:29:13Z",
+    "takenAt": "2026-11-20T00:01:07Z",
     "games": [
       {
         "gameId": "401873066",
@@ -989,7 +989,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4432577",
@@ -1036,6 +1036,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4683423",
+            "name": "Riley Leonard",
+            "pos": "QB",
+            "teamId": "11",
+            "teamAbbr": "IND",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1932,6 +1943,26 @@
     ]
   },
   "changes": [
+    {
+      "gameId": "401873066",
+      "athleteId": "4683423",
+      "name": "Riley Leonard",
+      "pos": "QB",
+      "teamAbbr": "IND",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873066",
+      "athleteId": "4429059",
+      "name": "Woody Marks",
+      "pos": "RB",
+      "teamAbbr": "HOU",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
     {
       "gameId": "401873067",
       "athleteId": "4567048",
