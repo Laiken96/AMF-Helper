@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T22:10:41Z",
+    "takenAt": "2026-11-20T22:20:38Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1695,6 +1695,17 @@
             "status": null
           },
           {
+            "athleteId": "4689114",
+            "name": "Jaxson Dart",
+            "pos": "QB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "qb"
+            ],
+            "status": "Injured Reserve"
+          },
+          {
             "athleteId": "4696981",
             "name": "Cam Skattebo",
             "pos": "RB",
@@ -2002,6 +2013,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873069",
+      "athleteId": "4689114",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "teamAbbr": "NYG",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     },
     {
       "gameId": "401873075",
