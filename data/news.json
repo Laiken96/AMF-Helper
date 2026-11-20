@@ -1,7 +1,162 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T16:47:28Z",
+  "updatedAt": "2026-11-20T17:47:32Z",
   "items": [
+    {
+      "id": "e7c6ba86002433af",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542028/rams-puka-nacua-needs-mcl-surgery-likely-done-season",
+      "title": "Rams' Puka Nacua has MCL surgery, likely done for season",
+      "summary": "Rams receiver Puka Nacua, who is currently serving a three-game suspension while on IR, had surgery to repair an MCL and is likely done for the season.",
+      "publishedAt": "2026-11-20T17:46:04Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "4fe9596279a90300",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50542115/rams-expect-puka-for-season-knee-surgery",
+      "title": "Rapoport: Rams expect Puka to be out for season after knee surgery",
+      "summary": null,
+      "publishedAt": "2026-11-20T17:40:42Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "12199ada0acba882",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50542049/pat-mcafee-sees-no-hope-colts-future",
+      "title": "Pat McAfee sees no hope for Colts' future",
+      "summary": null,
+      "publishedAt": "2026-11-20T17:39:23Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "47a352acc0799f38",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rams-puka-nacua-injury-surgery-sean-mcvay",
+      "title": "Puka Nacua had surgery on MCL injury, will miss 'a couple of months,' Sean McVay says",
+      "summary": "Nacua suffered the injury on the final play of the Rams' Week 9 win over the Commanders",
+      "publishedAt": "2026-11-20T17:35:03Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "0961babd6bbd6e17",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-hope-to-have-kobie-turner-back-for-week-12",
+      "title": "Rams hope to have Kobie Turner back for Week 12",
+      "summary": "Rams head coach Sean McVay shared a negative update on wide receiver Puka Nacua's health on Friday, but he had better news regarding defensive tackle Kobie Turner.",
+      "publishedAt": "2026-11-20T17:33:28Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "8dee7b01cb7af51e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-baker-mayfield-trending-in-the-right-direction-to-play-vs-lions",
+      "title": "Todd Bowles: Baker Mayfield trending in the right direction to play vs. Lions",
+      "summary": "It sounds like the Buccaneers are planning to have quarterback Baker Mayfield start this weekend when they play the Lions.",
+      "publishedAt": "2026-11-20T17:27:29Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "9ed4e9e89b9de76e",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50534274/week-11-nfl-odds-touchdown-props-best-bets-sunday-games",
+      "title": "Week 11 betting preview: Analysis, best bets, TD predictions for Sunday",
+      "summary": "Our experts dive into the odds and player props for Week 11 and offer their betting tips and favorite plays.",
+      "publishedAt": "2026-11-20T17:26:01Z",
+      "teamIds": [
+        "3",
+        "12",
+        "16",
+        "27"
+      ]
+    },
+    {
+      "id": "ce789c8f8aa30c66",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-will-undergo-knee-surgery-and-likely-miss-the-rest-of-the-season",
+      "title": "Puka Nacua will undergo knee surgery and likely miss the rest of the season",
+      "summary": "Sean McVay says Nacua will miss \"a couple months.\"",
+      "publishedAt": "2026-11-20T17:24:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ea83b1b6001733b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+      "title": "Draft buzz: Interest in Oklahoma State's Drew Mestemaker could spur draft trade",
+      "summary": "If the Titans or Chargers wind up with the No. 1 selection and stick with their franchise quarterbacks, interest in Oklahoma State's Drew Mestemaker could lead to a team seeking to trade up for the top overall pick.",
+      "publishedAt": "2026-11-20T17:16:10Z",
+      "teamIds": [
+        "24",
+        "10"
+      ]
+    },
+    {
+      "id": "7c677942180d62ea",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50541178/ravens-avoid-marlon-humphrey-controversy-distraction",
+      "title": "Can Ravens keep the Marlon Humphrey controversy from becoming a distraction?",
+      "summary": "While there's more to the cornerback's story, one Baltimore teammate says: \"We have enough things to worry about.\"",
+      "publishedAt": "2026-11-20T17:12:30Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "aa0667d8784a7568",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-improved-their-special-teams-coverage-by-having-fullback-andrew-beck-handle-kickoffs",
+      "title": "Jets improved their special teams coverage by having fullback Andrew Beck handle kickoffs",
+      "summary": "Only one kickoff has been returned for a touchdown in the NFL this season, and it was allowed by the Jets when kicker Austin McNamara not only failed to make the tackle, but got in the way of his teammates as they tried to run down Raiders return man Dylan Laube.",
+      "publishedAt": "2026-11-20T17:04:01Z",
+      "teamIds": [
+        "13",
+        "20"
+      ]
+    },
+    {
+      "id": "7f1db8e080e5acaa",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50541944/draftkings-nfl-dfs-values-week-11",
+      "title": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
+      "summary": "Build a winning DFS lineup with our DraftKings NFL Week 11 cheat sheet identifying the best stacks and values",
+      "publishedAt": "2026-11-20T17:02:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "2dbac8e95073b117",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-49ers-dl-osa-odighizuwa-their-community-mvp-for-week-11",
+      "title": "NFLPA names 49ers DL Osa Odighizuwa their Community MVP for Week 11",
+      "summary": "The NFL Players Association announced on Friday that they have named 49ers defensive lineman Osa Odighizuwa as their Community MVP for Week 11.",
+      "publishedAt": "2026-11-20T17:02:10Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "33c7c86eacdb9e96",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541756/closing-my-eyes-taking-arch-manning-no-1-nfl-draft",
+      "title": "Bayless: I'm closing my eyes and taking Arch Manning at No. 1 in NFL draft",
+      "summary": null,
+      "publishedAt": "2026-11-20T16:51:11Z",
+      "teamIds": []
+    },
     {
       "id": "c5420f2a0f10bf5c",
       "source": "espn",
@@ -1510,144 +1665,6 @@
         "3",
         "18"
       ]
-    },
-    {
-      "id": "ed956c9ba3ed7316",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873067",
-      "title": "Chiefs are flying high but can ill afford to overlook the lowly Cardinals when they meet Sunday",
-      "summary": "If ever there was a time for an NFL team to overlook somebody, it just might be Sunday afternoon at Arrowhead Stadium, where the Kansas City Chiefs will continue their pursuit of another AFC West title against the injured, downtrodden Arizona...",
-      "publishedAt": "2026-11-19T19:09:36Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "401373d453e27e6d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873077",
-      "title": "Vikings-49ers matchup in Mexico features the best defense vs. the best offense",
-      "summary": "When Brock Purdy last walked off the field after playing Minnesota in 2024, he sought out Vikings defensive coordinator Brian Flores an complimented him on...",
-      "publishedAt": "2026-11-19T19:09:35Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "34cca034c182e0a1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-parker-considered-not-staying-with-the-cowboys",
-      "title": "Christian Parker considered not staying with the Cowboys",
-      "summary": "The Cowboys have removed play-calling duties from defensive coordinator Christian Parker.",
-      "publishedAt": "2026-11-19T18:53:15Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "50983274ee90fe38",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/robert-kraft-bill-belichick-advance-hall-of-fame-selection-process",
-      "title": "Robert Kraft, Bill Belichick advance in Pro Football HoF selection process after last year's snub",
-      "summary": "The two were snubbed in last year's vote",
-      "publishedAt": "2026-11-19T18:51:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 11: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-19T18:48:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "23c15f803b0376fe",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 11: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-19T18:47:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "4594dcf9aa19a0b5",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 11: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-19T18:47:14Z",
-      "teamIds": []
-    },
-    {
-      "id": "0379f32e6bbb757a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-says-hes-ready-to-go-after-return-to-practice",
-      "title": "Baker Mayfield says he's ready to go after return to practice",
-      "summary": "Buccaneers quarterback Baker Mayfield was back on the practice field Thursday.",
-      "publishedAt": "2026-11-19T18:46:49Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "64ab5603ce63fa91",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 11: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-19T18:46:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "70ae9ffb76718140",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 11: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-19T18:45:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "92ce5dff7e1a00b3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 11: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-19T18:44:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "379dfb31b68bfa2b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 11: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-19T18:43:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "10969dbe17bed1cf",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50532442/get-many-people-al-davis",
-      "title": "Christian Bale: You don't get many people like Al Davis",
-      "summary": null,
-      "publishedAt": "2026-11-19T18:22:15Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "3bbfec1476b05722",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-adds-a-little-more-to-the-lingering-joe-buck-feud",
-      "title": "Troy Aikman adds a little more to the lingering Joe Buck feud",
-      "summary": "When ESPN president Jimmy Pitaro said this week that the media coverage of the Joe Buck and Troy Aikman situation has \"been disappointing,\" the obvious takeaway was that Pitaro should be disappointed with those ESPN employees who chose to speak privately and/or publicly about a sensitive internal situation.",
-      "publishedAt": "2026-11-19T18:16:23Z",
-      "teamIds": []
     }
   ]
 }
