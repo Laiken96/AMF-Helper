@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T13:08:27Z",
+  "updatedAt": "2026-11-20T13:47:27Z",
   "items": [
     {
       "id": "6c0be3295b9ef02c",
@@ -31,6 +31,17 @@
       "summary": "Adam Rank catches you up on the vital information and insights before you make your toughest lineup decisions.",
       "publishedAt": "2026-11-20T12:40:11Z",
       "teamIds": []
+    },
+    {
+      "id": "ab9baea44e5e57c5",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-best-bets-tony-pollard-cowboys-lions",
+      "title": "Week 11 best bets: Tony Pollard scores against former team, Lions win sixth straight game",
+      "summary": "Plus, picks for every game on the schedule",
+      "publishedAt": "2026-11-20T12:35:25Z",
+      "teamIds": [
+        "8"
+      ]
     },
     {
       "id": "ecec22092356d572",
@@ -1479,11 +1490,13 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Breaking down 11 key fantasy football stats for Week 11",
-      "summary": "Michael F. Florio offers his favorite fantasy stats so far this season ahead of Week 11.",
+      "title": "Fantasy buzz: Stroud has Houston fans over the moon, Colts continue to crumble",
+      "summary": "Adam Rank waxes nostalgic about Houston football and the reinvigorated C.J. Stroud.",
       "publishedAt": "2026-11-19T17:03:58Z",
       "teamIds": [
         "33",
+        "34",
+        "11",
         "24"
       ]
     },
@@ -1638,18 +1651,6 @@
       "publishedAt": "2026-11-19T16:14:49Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "c1ebcf9398c8b712",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/colts-vs-texans-odds-first-touchdown-scorer-picks-odds-predictions-thursday-night-football",
-      "title": "Colts vs. Texans odds, first touchdown scorer picks, odds, predictions for Thursday Night Football",
-      "summary": "We look at first touchdown scorer prediction markets at Kalshi for Colts vs. Texans NFL Week 11 Thursday Night Football",
-      "publishedAt": "2026-11-19T16:08:30Z",
-      "teamIds": [
-        "34",
-        "11"
       ]
     }
   ]
