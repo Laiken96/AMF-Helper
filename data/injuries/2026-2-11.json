@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T21:20:47Z",
+    "takenAt": "2026-11-20T22:01:03Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1731,7 +1731,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4426338",
@@ -1989,6 +1989,16 @@
       "name": "Geno Smith",
       "pos": "QB",
       "teamAbbr": "NYJ",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873075",
+      "athleteId": "4372016",
+      "name": "Jaylen Waddle",
+      "pos": "WR",
+      "teamAbbr": "DEN",
       "kind": "weg",
       "from": "Questionable",
       "to": null
