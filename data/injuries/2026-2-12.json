@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T18:47:26Z",
+    "takenAt": "2026-11-20T19:47:24Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1605,7 +1605,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Out"
           },
           {
             "athleteId": "4262921",
@@ -2050,7 +2050,7 @@
               "qb",
               "passing"
             ],
-            "status": "Doubtful"
+            "status": "Out"
           },
           {
             "athleteId": "4569173",
@@ -2397,6 +2397,16 @@
       "to": "Doubtful"
     },
     {
+      "gameId": "401873084",
+      "athleteId": "3917315",
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "teamAbbr": "MIN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873085",
       "athleteId": "4429059",
       "name": "Woody Marks",
@@ -2425,6 +2435,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873093",
+      "athleteId": "4431452",
+      "name": "Drake Maye",
+      "pos": "QB",
+      "teamAbbr": "NE",
+      "kind": "wechsel",
+      "from": "Doubtful",
+      "to": "Out"
     },
     {
       "gameId": "401873091",

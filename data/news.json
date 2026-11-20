@@ -1,7 +1,151 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T18:47:28Z",
+  "updatedAt": "2026-11-20T19:47:27Z",
   "items": [
+    {
+      "id": "e311e599c8b4ae95",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
+      "title": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
+      "summary": "The Bears will be without nickel corner Kyler Gordon when they host the Saints, while running back Kyle Monangai, wide receiver Luther Burden III and defensive tackle Jeffery Simmons are expected to play.",
+      "publishedAt": "2026-11-20T19:45:15Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "2c1d067bf40aa9ae",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542578/patriots-qb-drake-maye-fractured-fibula-sources-say",
+      "title": "Patriots QB Drake Maye has fractured fibula, sources say",
+      "summary": "Patriots quarterback Drake Maye has a fractured right fibula, and receiver A.J. Brown has a hamstring injury, sources told ESPN's Mike Reiss and Adam Schefter.",
+      "publishedAt": "2026-11-20T19:36:45Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "a7e9d57026c2db3b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50542714/mcafee-co-speculate-replace-injured-drake-maye",
+      "title": "McAfee & Co. speculate who will replace injured Drake Maye",
+      "summary": null,
+      "publishedAt": "2026-11-20T19:36:23Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "64c5d1fb6657b4c0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-list-isaiah-rodgers-as-questionable-for-sunday-nights-game",
+      "title": "Vikings list Isaiah Rodgers as questionable for Sunday night's game",
+      "summary": "The Vikings may not have starting cornerback Isaiah Rodgers for Sunday night's game against the 49ers in Mexico City.",
+      "publishedAt": "2026-11-20T19:35:00Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "2472315d4a2d8cae",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-is-expected-to-miss-multiple-weeks-with-hamstring-injury",
+      "title": "A.J. Brown is expected to miss multiple weeks with hamstring injury",
+      "summary": "A season marred by injuries continues for receiver A.J.",
+      "publishedAt": "2026-11-20T19:33:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "8a344f4204cf27bd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-daniel-jones-didnt-ask-to-be-released",
+      "title": "Shane Steichen: Daniel Jones didn't ask to be released",
+      "summary": "The Colts abruptly released quarterback Daniel Jones on Friday.",
+      "publishedAt": "2026-11-20T19:25:36Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "f4931c6be2c599e4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542595/cardinals-qb-beck-dealing-back-spasms-johnson-start",
+      "title": "Cardinals QB Carson Beck dealing with back spasms; Josh Johnson may start",
+      "summary": "The Cardinals are preparing veteran quarterback Josh Johnson to start Sunday vs. the Chiefs as rookie Carson Beck deals with back spasms, coach Mike LaFleur said Friday.",
+      "publishedAt": "2026-11-20T19:25:13Z",
+      "teamIds": [
+        "22",
+        "12"
+      ]
+    },
+    {
+      "id": "92bfc586678bf105",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-luther-burden-kyle-monangai-have-no-injury-designations-for-sunday",
+      "title": "Jeffery Simmons, Luther Burden, Kyle Monangai have no injury designations for Sunday",
+      "summary": "The Bears' final injury report ahead of Sunday's game against the Saints brought good news on both sides of the ball.",
+      "publishedAt": "2026-11-20T19:23:49Z",
+      "teamIds": [
+        "3",
+        "18"
+      ]
+    },
+    {
+      "id": "cf887a661932f3d1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-likely-out-for-season-with-fractured-fibula",
+      "title": "Drake Maye likely out for season with fractured fibula",
+      "summary": "According to a report from ESPN, Maye did not suffer any additional ligament damage.",
+      "publishedAt": "2026-11-20T19:22:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "928f22002d9adf74",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-mismanagement-continues-with-release-of-qb-daniel-jones",
+      "title": "Colts' mismanagement continues with release of QB Daniel Jones",
+      "summary": "The Colts arguably mishandled the Jonathan Taylor situation, when it comes to the possibility of trading him.",
+      "publishedAt": "2026-11-20T19:00:08Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "8d42e53fa1a44778",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/colts-release-qb-daniel-jones-possible-landing-spots",
+      "title": "Colts release QB Daniel Jones after lopsided loss to Texans, name new starting quarterback",
+      "summary": "Jones just completed his sixth straight game with an interception, the longest streak by a Colts player since Curtis Painter in 2011",
+      "publishedAt": "2026-11-20T18:59:44Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "cb95ddba46206a9e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-rule-out-nnamdi-madubuike-jaylinn-hawkins",
+      "title": "Ravens rule out Nnamdi Madubuike, Jaylinn Hawkins",
+      "summary": "Ravens head coach Jesse Minter ruled out a pair of players for Sunday's road game against the Panthers.",
+      "publishedAt": "2026-11-20T18:48:58Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "af011022a427aa42",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/carson-beck-back-spasms-could-force-cardinals-to-start-fourth-quarterback-in-five-weeks",
+      "title": "Carson Beck back spasms could force Cardinals to start fourth quarterback in five weeks",
+      "summary": "Carson Beck did not practice Friday due to a back injury",
+      "publishedAt": "2026-11-20T18:44:46Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "a3eca5684f458a12",
       "source": "espn",
@@ -15,8 +159,8 @@
       "id": "27e3a79561ffc374",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50542293/colts-release-qb-daniel-jones-blowout-loss-texans",
-      "title": "Colts release QB Daniel Jones, turn to Anthony Richardson Sr. for next start",
-      "summary": "The Colts have released quarterback Daniel Jones and are turning to Anthony Richardson Sr. to start going forward, coach Shane Steichen announced.",
+      "title": "Colts cut QB Daniel Jones, turn to Anthony Richardson Sr. for next start",
+      "summary": "The Colts have cut quarterback Daniel Jones after a challenging 11-game stint in 2026 and are turning to Anthony Richardson Sr. to start going forward.",
       "publishedAt": "2026-11-20T18:39:36Z",
       "teamIds": [
         "11"
@@ -97,6 +241,17 @@
       "teamIds": [
         "22",
         "12"
+      ]
+    },
+    {
+      "id": "d21b22ae3cf703df",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/revisiting-2026-nfl-draft-saints-took-chance-on-jordyn-tyson",
+      "title": "Revisiting 2026 NFL Draft: Were the Saints wise in taking a chance on injury-prone Jordyn Tyson?",
+      "summary": "New Orleans took a gamble on the explosive wideout at No. 8 overall, and his early impact alongside Tyler Shough is proving the top-10 talent was worth the durability concerns",
+      "publishedAt": "2026-11-20T18:01:03Z",
+      "teamIds": [
+        "18"
       ]
     },
     {
@@ -606,8 +761,8 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Stroud has Houston fans over the moon, Colts continue to crumble",
-      "summary": "Adam Rank waxes nostalgic about Houston football and the reinvigorated C.J. Stroud.",
+      "title": "Fantasy buzz: Does anything change in Indy with Richardson Sr. under center?",
+      "summary": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
       "publishedAt": "2026-11-20T13:45:51Z",
       "teamIds": [
         "33",
@@ -1490,161 +1645,6 @@
       "summary": "Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November.",
       "publishedAt": "2026-11-19T21:45:00Z",
       "teamIds": []
-    },
-    {
-      "id": "0236d9573d7f39d4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-pittman-upgraded-to-full-participant-on-thursday-injury-report",
-      "title": "Michael Pittman upgraded to full participant on Thursday injury report",
-      "summary": "The Steelers are getting closer to having two key receivers back for Week 11, but there is a concern with a key defender.",
-      "publishedAt": "2026-11-19T21:39:51Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "247c98a126cbba6f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50531699/will-tony-pollard-keep-hot-fantasy-play-week-11",
-      "title": "Will Tony Pollard keep up his hot fantasy play in Week 11?",
-      "summary": null,
-      "publishedAt": "2026-11-19T21:36:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "9c29cd4a5cc8b662",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50534152/schefter-confirms-puka-nacua-serve-3-game-suspension",
-      "title": "Schefter confirms Puka Nacua to serve 3-game suspension",
-      "summary": null,
-      "publishedAt": "2026-11-19T21:32:23Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "53e39dd24db250d1",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50534141/smells-fishy-people-nfl",
-      "title": "Yates on Nacua's suspension timing: It 'smells fishy' to people around NFL",
-      "summary": null,
-      "publishedAt": "2026-11-19T21:32:18Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "67815b307d72b21d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nnamdi-madubuike-misses-second-straight-practice",
-      "title": "Nnamdi Madubuike misses second straight practice",
-      "summary": "The Ravens had one player out of practice due to injury on Thursday.",
-      "publishedAt": "2026-11-19T21:31:22Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "da83c80d36056007",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-rb-kenneth-walker-remains-out-of-practice-thursday",
-      "title": "Chiefs RB Kenneth Walker remains out of practice Thursday",
-      "summary": "Chiefs running back Kenneth Walker remained out of practice Thursday.",
-      "publishedAt": "2026-11-19T21:25:13Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "128f9899ca938d76",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bhayshul-tuten-misses-practice-on-thursday",
-      "title": "Bhayshul Tuten misses practice on Thursday",
-      "summary": "Jaguars running back Bhayshul Tuten took a step in the wrong direction at practice on Thursday.",
-      "publishedAt": "2026-11-19T21:20:32Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "6a4d5867840f8388",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-elevate-natrone-brooks-reid-holskey-for-thursdays-game-vs-texans",
-      "title": "Colts elevate Natrone Brooks, Reid Holskey for Thursday's game vs. Texans",
-      "summary": "The Colts have made a pair of elevations for Thursday's game against the Texans.",
-      "publishedAt": "2026-11-19T21:16:33Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "231cf50e9c496a09",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50533787/cowboys-dc-acknowledges-disappointment-losing-playcalling-duties",
-      "title": "Cowboys DC acknowledges disappointment of losing playcalling duties",
-      "summary": null,
-      "publishedAt": "2026-11-19T21:11:13Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "a353c7db3ebf486e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/calvin-ridley-faces-misdemeanor-assault-charge-over-airport-incident",
-      "title": "Calvin Ridley faces misdemeanor assault charge over airport incident",
-      "summary": "Titans wide receiver Calvin Ridley faces a misdemeanor assault charge after his Nov. 7 incident with a valet at Nashville International Airport, Paul Kuharsky of paulkuharsky.com reports.",
-      "publishedAt": "2026-11-19T21:06:30Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "679c6aab6d0c434f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/what-cowboys-christian-parker-said-defensive-coordinator-demotion",
-      "title": "What Cowboys' Christian Parker said about demotion: DC considered leaving, pushed back on decision",
-      "summary": "Parker mulled departing Dallas after Brian Schottenheimer took defensive play-calling",
-      "publishedAt": "2026-11-19T20:59:14Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "e97121feb6430fc2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-cb-jaylin-smith",
-      "title": "Texans activate CB Jaylin Smith",
-      "summary": "The Texans announced a handful of roster moves ahead of Thursday night's game against the Colts.",
-      "publishedAt": "2026-11-19T20:43:52Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "fd3d73a28714f69e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532934/commanders-defense-bengals-offense-joe-burrow",
-      "title": "Bengals offense will be biggest test yet for Commanders' improving defense",
-      "summary": "Washington is moving closer to the defense it wants to be. Monday will provide a benchmark for its progress.",
-      "publishedAt": "2026-11-19T20:39:32Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "a6a06177ea217e3e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50533560/rams-wr-puka-nacua-serve-3-game-suspension-ir",
-      "title": "Rams WR Puka Nacua to serve 3-game suspension while on IR",
-      "summary": "Los Angeles Rams standout wide receiver Puka Nacua has been suspended three games for violating the league's personal conduct policy, the NFL announced Thursday.",
-      "publishedAt": "2026-11-19T20:39:20Z",
-      "teamIds": [
-        "14"
-      ]
     }
   ]
 }
