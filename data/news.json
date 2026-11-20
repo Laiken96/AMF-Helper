@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T03:33:21Z",
+  "updatedAt": "2026-11-20T03:47:29Z",
   "items": [
+    {
+      "id": "9d260cc83a00dcd1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rookie-te-marlin-klein-scores-first-career-td-texans-lead-26-3",
+      "title": "Rookie TE Marlin Klein scores first career TD, Texans lead 26-3",
+      "summary": "C.J.",
+      "publishedAt": "2026-11-20T03:32:23Z",
+      "teamIds": [
+        "34"
+      ]
+    },
     {
       "id": "3b7250bf09f00c17",
       "source": "pft",
@@ -602,7 +613,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50532934/commanders-defense-bengals-offense-joe-burrow",
       "title": "Bengals offense will be biggest test yet for Commanders' improving defense",
-      "summary": "Washington is moving closer to the defense it wants to be. Monday will provide a benchmark for their progress.",
+      "summary": "Washington is moving closer to the defense it wants to be. Monday will provide a benchmark for its progress.",
       "publishedAt": "2026-11-19T20:39:32Z",
       "teamIds": [
         "4",
@@ -1632,17 +1643,6 @@
       "publishedAt": "2026-11-19T11:00:00Z",
       "teamIds": [
         "11"
-      ]
-    },
-    {
-      "id": "8902d0b2583931e2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-price-nfls-top-punt-returner-shows-he-can-make-an-impact-on-vikings-offense-too",
-      "title": "Myles Price, NFL's top punt returner, shows he can make an impact on Vikings' offense, too",
-      "summary": "The Vikings have a big weapon on special teams in return man Myles Price, who is leading the league in punt return average, total yards and touchdowns, and is third in the league in both kickoff return average and total yards.",
-      "publishedAt": "2026-11-19T10:51:33Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]
