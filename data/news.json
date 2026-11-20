@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T21:47:22Z",
+  "updatedAt": "2026-11-20T22:47:24Z",
   "items": [
+    {
+      "id": "af32b1abe8d4ae87",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543720/raiders-te-brock-bowers-ankle-quad-listed-questionable",
+      "title": "Raiders TE Brock Bowers (ankle, quad) listed as questionable",
+      "summary": "Las Vegas Raiders tight end Brock Bowers (ankle/quad) is questionable for Sunday's divisional matchup against the Denver Broncos, coach Klint Kubiak said Friday.",
+      "publishedAt": "2026-11-20T22:23:03Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "3b68c2fbadf326c3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50503981/drake-maye-ankle-injury-patriots-tommy-devito-stats",
+      "title": "Drake Maye ankle injury: Is the Patriots' season over? Can Tommy DeVito step up?",
+      "summary": "If the QB doesn't return in 2026, New England faces an uphill battle against some of the NFL's best teams.",
+      "publishedAt": "2026-11-20T22:06:28Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "3327f3a475a5ae37",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/s-talanoa-hufanga-wr-jaylen-waddle-cb-riley-moss-set-to-return-sunday",
+      "title": "S Talanoa Hufanga, WR Jaylen Waddle, CB Riley Moss set to return Sunday",
+      "summary": "The Broncos' injury report Friday was not about who has a status, but who doesn't.",
+      "publishedAt": "2026-11-20T22:03:13Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "68ab8799f6860d8c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-officially-place-daniel-jones-on-waivers",
+      "title": "Colts officially place Daniel Jones on waivers",
+      "summary": "Daniel Jones is officially on the waiver wire.",
+      "publishedAt": "2026-11-20T22:00:57Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "43a2d1ae46a3fa50",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-rule-out-lb-daiyan-henley-list-wr-ladd-mcconkey-as-questionable",
+      "title": "Chargers rule out LB Daiyan Henley, list WR Ladd McConkey as questionable",
+      "summary": "Chargers linebacker Daiyan Henley missed practice this week with knee soreness, and the team has ruled him out for Sunday's game against the Jets.",
+      "publishedAt": "2026-11-20T21:48:59Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
     {
       "id": "3ac960c90bdf815e",
       "source": "espn",
@@ -14,11 +70,22 @@
       ]
     },
     {
+      "id": "4ffe254504acd50c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/colts-daniel-jones-not-trading-qb-jonathan-taylor-deadline-major-second-guess",
+      "title": "Colts waive Daniel Jones: Indy not trading QB or Jonathan Taylor at deadline now a major second-guess",
+      "summary": "Indy has put themselves in a very tough spot after sitting on the fence at the deadline.",
+      "publishedAt": "2026-11-20T21:43:00Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
       "id": "5f2af1b972121808",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50543613/police-investigate-man-death-incident-cowboys-game",
       "title": "Police investigate man's death after alleged altercation at 49ers-Cowboys game",
-      "summary": "Police are investigating the death of a man who was allegedly involved in an altercation prior to Sunday's game between the Cowboys and 49ers at AT&T Stadium.",
+      "summary": "Police are investigating the death of a man who was allegedly involved in an altercation before Sunday's game between the Cowboys and 49ers at AT&T Stadium.",
       "publishedAt": "2026-11-20T21:42:59Z",
       "teamIds": [
         "6",
@@ -212,8 +279,8 @@
       "id": "2de66fbbf0f8b670",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50543025/justin-reid-posts-saints-farewell-team-works-release",
-      "title": "Justin Reid posts Saints farewell as team works through release",
-      "summary": "After safety Justin Reid requested his release earlier this week, Saints coach Kellen Moore said the team was still working through the process but expected a roster move to happen soon.",
+      "title": "Justin Reid posts Saints farewell as team releases safety",
+      "summary": "The Saints have granted Justin Reid's request to be released, with the safety posting on social media: \"In life and sports, things don't always go the way you planned or hoped they would.\"",
       "publishedAt": "2026-11-20T20:39:47Z",
       "teamIds": [
         "18"
@@ -511,7 +578,7 @@
       "id": "a3eca5684f458a12",
       "source": "espn",
       "url": "https://espn.com/soccer/story/_/id/50542238/nfl-legend-tom-brady-buys-shares-chelsea-sources",
-      "title": "Sources: Tom Brady buys shares in Chelsea after Birmingham exit",
+      "title": "Sources: Tom Brady buys stake in Chelsea after Birmingham exit",
       "summary": "Seven-time Super Bowl champion quarterback Tom Brady has invested in Chelsea soccer club, sources confirmed to ESPN and NFL Network.",
       "publishedAt": "2026-11-20T18:42:32Z",
       "teamIds": []
@@ -1571,76 +1638,6 @@
       "title": "Texans lose Chris Braswell to serious-looking knee injury",
       "summary": "Texans defensive end Chris Braswell suffered a serious-looking knee injury on the opening kickoff of Thursday night's game against the Colts.",
       "publishedAt": "2026-11-20T01:45:23Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "28b36084d848e226",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
-      "title": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
-      "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
-      "publishedAt": "2026-11-20T01:40:33Z",
-      "teamIds": [
-        "34",
-        "28"
-      ]
-    },
-    {
-      "id": "acd6894a3447d7a8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-de-chris-braswell-seriously-injures-leg-on-opening-kickoff",
-      "title": "Texans DE Chris Braswell seriously injures leg on opening kickoff",
-      "summary": "Texans defensive end Chris Braswell was seriously injured on the opening kickoff.",
-      "publishedAt": "2026-11-20T01:29:15Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "220358b1ee67a86a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873075",
-      "title": "Raiders rookie Fernando Mendoza to face another elite defense in the sack-hungry Broncos",
-      "summary": "Top draft pick Fernando Mendoza's first career road start comes against Denver's dominant defense, one week after he was sacked half a dozen times by the Seattle Seahawks in his",
-      "publishedAt": "2026-11-20T01:02:33Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "2901ac38d74806fc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873068",
-      "title": "Panthers aim to hold NFC South lead while Ravens look to keep playoffs hopes alive, end 5-game skid",
-      "summary": "The Carolina Panthers needed a walk-off 54-yard field goal from Ryan Fitzgerald to beat the New Orleans Saints 20-17 last Sunday and remain in first...",
-      "publishedAt": "2026-11-20T00:49:33Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "6ef3ae573697ce0b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bills-to-retire-andre-reeds-no-83-during-the-2027-season",
-      "title": "Bills to retire franchise legend Andre Reed's No. 83 during the 2027 season",
-      "summary": "Reed is Buffalo's career leader in every major receiving category",
-      "publishedAt": "2026-11-20T00:46:54Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "c2aa0b6f9b17a4ac",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction",
-      "title": "Texans vs. Colts prediction: Houston looks to bounce back on 'TNF' vs. lowly Indy after rough Week 10 loss",
-      "summary": "Plus, how to watch, what to know and a prediction before the 'Thursday Night Football' matchup",
-      "publishedAt": "2026-11-20T00:38:59Z",
       "teamIds": [
         "34",
         "11"

@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T21:47:19Z",
+    "takenAt": "2026-11-20T22:47:21Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1383,7 +1383,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4870795",
@@ -1496,7 +1496,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4426338",
@@ -1829,6 +1829,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4689114",
+            "name": "Jaxson Dart",
+            "pos": "QB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "qb"
+            ],
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4696981",
@@ -2387,6 +2398,16 @@
       "to": "Injured Reserve"
     },
     {
+      "gameId": "401873080",
+      "athleteId": "4040715",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "teamAbbr": "PHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
+    },
+    {
       "gameId": "401873082",
       "athleteId": "4567048",
       "name": "Kenneth Walker III",
@@ -2405,6 +2426,16 @@
       "kind": "neu",
       "from": null,
       "to": "Doubtful"
+    },
+    {
+      "gameId": "401873083",
+      "athleteId": "4372016",
+      "name": "Jaylen Waddle",
+      "pos": "WR",
+      "teamAbbr": "DEN",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873084",
@@ -2435,6 +2466,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873088",
+      "athleteId": "4689114",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "teamAbbr": "NYG",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     },
     {
       "gameId": "401873089",
