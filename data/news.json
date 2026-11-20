@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T22:47:24Z",
+  "updatedAt": "2026-11-20T23:47:22Z",
   "items": [
+    {
+      "id": "e3ebdda1a22047fa",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50530832/fantasy-football-injuries-nfl-week-11-inactive-active",
+      "title": "Fantasy football Week 11 inactives: Who's in and who's out?",
+      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
+      "publishedAt": "2026-11-20T23:38:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "e259a7db73c45eeb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-doesnt-know-whether-he-will-play-sunday",
+      "title": "Brock Bowers doesn't know whether he will play Sunday",
+      "summary": "Raiders tight end Brock Bowers is listed as questionable for Sunday's game against the Broncos.",
+      "publishedAt": "2026-11-20T23:37:57Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "530d8adae742fb1a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
+      "title": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
+      "summary": "A full participant at practice for the second straight day despite the bug that he has battled, Bengals quarterback Joe Burrow is optimistic that he'll be at full strength when Cincinnati plays the Washington Commanders on \"Monday Night Football.\"",
+      "publishedAt": "2026-11-20T23:37:55Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "5ef3e12aa158a896",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-spreads-betting-lines-predictions-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-20T23:05:35Z",
+      "teamIds": [
+        "6",
+        "18"
+      ]
+    },
+    {
+      "id": "28b36084d848e226",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
+      "title": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
+      "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
+      "publishedAt": "2026-11-20T22:49:33Z",
+      "teamIds": [
+        "34",
+        "28"
+      ]
+    },
+    {
+      "id": "5cd9aa8b955775d7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-injury-report-kenneth-walker-iii-mike-evans-baker-mayfield",
+      "title": "NFL Week 11 injury report: Latest updates on Kenneth Walker III, Mike Evans, Baker Mayfield and more",
+      "summary": "A look at the game status for each team leading up to Week 11",
+      "publishedAt": "2026-11-20T22:42:12Z",
+      "teamIds": []
+    },
     {
       "id": "af32b1abe8d4ae87",
       "source": "espn",
@@ -1573,74 +1639,6 @@
       "publishedAt": "2026-11-20T03:20:53Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "0429b31e010d8479",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-c-j-stroud-texans-lead-colts-17-3-at-halftime",
-      "title": "Thursday Night Football: C.J. Stroud, Texans lead Colts 17-3 at halftime",
-      "summary": "Stroud threw two touchdown passes in the first half.",
-      "publishedAt": "2026-11-20T02:54:53Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "34dd298eb69b9d44",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/most-important-week-11-games-nfl-playoff-races",
-      "title": "Most important Week 11 games for NFL playoff races: Can anyone gain separation in NFC North or NFC South?",
-      "summary": "Plus, can the Giants bounce back?",
-      "publishedAt": "2026-11-20T02:53:35Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "72f2993cf24c41c3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-strouds-second-td-gives-texans-14-3-lead",
-      "title": "C.J. Stroud's second TD gives Texans 14-3 lead",
-      "summary": "The Texans took advantage of Kamari Lassiter's interception of Daniel Jones, driving 85 yards in 12 plays for their second touchdown.",
-      "publishedAt": "2026-11-20T02:17:27Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "94468829899b3743",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-duo-could-break-nfl-record-jamarr-chase-tee-higgins-historic-pace",
-      "title": "Bengals duo could break NFL record that has stood for 31 years: Ja'Marr Chase and Tee Higgins on historic pace",
-      "summary": "Ja'Marr Chase and Tee Higgins could make NFL history for the red hot Bengals",
-      "publishedAt": "2026-11-20T02:07:10Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "6c5f8b3f2dd93bf8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-connects-with-nico-collins-to-give-texans-7-3-lead",
-      "title": "C.J. Stroud connects with Nico Collins to give Texans 7-3 lead",
-      "summary": "The Texans were outplayed for most of the first quarter, but they have a 7-3 lead.",
-      "publishedAt": "2026-11-20T02:02:30Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "d05432cfc36c6aed",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50536083/texans-lose-chris-braswell-serious-looking-knee-injury",
-      "title": "Texans lose Chris Braswell to serious-looking knee injury",
-      "summary": "Texans defensive end Chris Braswell suffered a serious-looking knee injury on the opening kickoff of Thursday night's game against the Colts.",
-      "publishedAt": "2026-11-20T01:45:23Z",
-      "teamIds": [
-        "34",
-        "11"
       ]
     }
   ]
