@@ -1,7 +1,123 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T23:47:22Z",
+  "updatedAt": "2026-11-20T00:47:20Z",
   "items": [
+    {
+      "id": "7aab80548e22f2d4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535411/bears-jeffery-simmons-says-knee-fine-expects-play-vs-saints",
+      "title": "Bears' Jeffery Simmons says knee injury a non-issue, expects to play vs. Saints",
+      "summary": "Bears defensive tackle Jeffery Simmons said the knee injury that held him to limited participation in practice this week wouldn't keep him from playing Sunday against the Saints.",
+      "publishedAt": "2026-11-20T00:36:34Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "3d10b05a89d7ffc8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-limited-in-his-return-to-practice",
+      "title": "Mike Evans limited in his return to practice",
+      "summary": "49ers wide receiver Mike Evans was a limited participant in his return to practice Thursday.",
+      "publishedAt": "2026-11-20T00:34:57Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "fbd61bdbfa1864ac",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535323/washington-commanders-beer-spear",
+      "title": "Washington Commanders unveil 'Beer Spear' ahead of 'Hail Raiser' debut on 'MNF'",
+      "summary": "The limited-edition collectible vessel can hold 16 ounces of beer, equipped with a gold spear at the end of it.",
+      "publishedAt": "2026-11-20T00:29:58Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "13a0fe811739e2c4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50533430/sam-hartman-bachelor-commanders-quarterback",
+      "title": "Sam Hartman's next drive: 'The Bachelor' questions answered",
+      "summary": "A guide to the Commanders quarterback's upcoming search for love and how his NFL commitments could shape the season.",
+      "publishedAt": "2026-11-20T00:28:17Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "93e43e8899423d70",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873076",
+      "title": "The Steelers last won in Philadelphia in 1965. Can they top an Eagles team on 7-game losing streak?",
+      "summary": "Perhaps the Steelers should have stayed attached at the hip pads with the Eagles — as they were when they merged for the 1943 season to form the Steagles — to avoid such an ignominious losing streak in Philadelphia.",
+      "publishedAt": "2026-11-20T00:22:33Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "75cf660906251145",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873078",
+      "title": "Commanders' defense preparing for high-flying Bengals offense",
+      "summary": "Washington Commanders coach Dan Quinn knows the challenge facing his defense for Monday night's game against the Cincinnati Bengals.",
+      "publishedAt": "2026-11-20T00:07:43Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "fcabedab32074431",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/texans-vs-colts-odds-prediction-line-betting-preview-start-time-thursday-night-football-picks-best-bets",
+      "title": "Texans vs. Colts odds, prediction, line, betting preview, start time: Thursday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Colts vs. Texans on Thursday Night Football",
+      "publishedAt": "2026-11-20T00:04:12Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "dfee835e7a1deed1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-sauce-gardner-is-officially-inactive-vs-texans",
+      "title": "Thursday Night Football: Sauce Gardner is officially inactive vs. Texans",
+      "summary": "It's official: Colts cornerback Sauce Gardner will not play Thursday night.",
+      "publishedAt": "2026-11-19T23:59:27Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "0751f9418c24b0b7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
+      "title": "NFL Week 11 arrivals: C.J. Stroud leads the way ahead of Colts-Texans",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-19T23:55:21Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "69de63eec37b7861",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/colts-vs-texans-odds-picks-prediction-nfl-week-11-best-bets-player-props-for-thursday-night-football",
+      "title": "Colts vs. Texans odds, picks, prediction: NFL Week 11 best bets, player props for Thursday Night Football",
+      "summary": "Why backing the under on a 44-point total and targeting rushing props for David Montgomery and Daniel Jones create the best betting value for this divisional clash",
+      "publishedAt": "2026-11-19T23:45:47Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
     {
       "id": "2d24d98d785339c4",
       "source": "espn",
@@ -1106,7 +1222,7 @@
       "id": "c2aa0b6f9b17a4ac",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction",
-      "title": "Texans vs. Colts prediction: Houston looks to bounce back vs. lowly Indy after rough Week 10 loss",
+      "title": "Texans vs. Colts prediction: Houston looks to bounce back on 'TNF' vs. lowly Indy after rough Week 10 loss",
       "summary": "Plus, how to watch, what to know and a prediction before the 'Thursday Night Football' matchup",
       "publishedAt": "2026-11-19T15:26:53Z",
       "teamIds": [
@@ -1519,119 +1635,6 @@
       "title": "Giants' Cam Skattebo to halt backflip celebrations after Aidan Hutchinson jumping celebration injury",
       "summary": "Hutchinson suffered a season-ending knee injury while jumping to celebrate a sack in Week 10",
       "publishedAt": "2026-11-18T23:43:27Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "80178ccec725aa01",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-dre-greenlaw-dont-practice-wednesday-49ers-hope-they-can-on-thursday",
-      "title": "Mike Evans, Dre Greenlaw don't practice Wednesday, 49ers hope they can on Thursday",
-      "summary": "Wide receiver Mike Evans didn't travel with the 49ers for last Sunday's game in Dallas, but he was in Colorado Springs with the team as they prepare for their game against the Vikings in Mexico City.",
-      "publishedAt": "2026-11-18T23:30:36Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "8a1e35e2f7ed270a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
-      "title": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
-      "summary": "The Texans and Colts ruled out several key contributors for their Thursday night matchup.",
-      "publishedAt": "2026-11-18T23:26:51Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "8d9fd71ba0d78ae6",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ravens-pro-bowl-cb-marlon-humphrey-apologizes-baltimore-best-making-criminals",
-      "title": "Ravens CB Marlon Humphrey apologizes after saying Baltimore is 'best at making criminals'",
-      "summary": "Humphrey criticized the city where he has played all 10 of his NFL seasons on his podcast before apologizing Wednesday afternoon",
-      "publishedAt": "2026-11-18T23:22:16Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "12048b2ed2c4f890",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-bengals-on-sunday-night-football-draws-21-519-million-viewers",
-      "title": "Steelers-Bengals on Sunday Night Football draws 21.519 million viewers",
-      "summary": "The game was never competitive.",
-      "publishedAt": "2026-11-18T23:06:18Z",
-      "teamIds": [
-        "4",
-        "23"
-      ]
-    },
-    {
-      "id": "1b757fba90ad581a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marlon-humphrey-apologizes-for-saying-baltimore-is-best-at-making-criminals",
-      "title": "Marlon Humphrey apologizes for saying Baltimore is \"best at making criminals\"",
-      "summary": "Ravens cornerback Marlon Humphrey found himself in some hot water for comments he made about Baltimore on Wednesday.",
-      "publishedAt": "2026-11-18T23:05:41Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "cd4a3a89eea24204",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50524109/ravens-humphrey-apologizes-criminals-quip-podcast",
-      "title": "Ravens' Humphrey apologizes for quip that Baltimore 'best at making criminals'",
-      "summary": "Ravens cornerback Marlon Humphrey apologized Wednesday for the derogatory comment he recently made about Baltimore on his podcast.",
-      "publishedAt": "2026-11-18T22:42:11Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "d0e0b46cb8a5a250",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-handling-defensive-coordinator-christian-parker-mike-pettine",
-      "title": "Cowboys' handling of DC Christian Parker is bizarre, leaving Dallas with more questions than answers",
-      "summary": "Dallas head coach Brian Schottenheimer maintains Parker has an \"incredibly bright future\" with the Cowboys despite taking play-calling away from his first-year coordinator",
-      "publishedAt": "2026-11-18T22:41:54Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "36b4806cc87ab5a6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-hockenson-andrew-van-ginkel-listed-as-limited-participants-on-wednesday",
-      "title": "T.J. Hockenson, Andrew Van Ginkel listed as limited participants on Wednesday",
-      "summary": "Vikings tight end T.J.",
-      "publishedAt": "2026-11-18T22:40:09Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "26ba34bd78852a61",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50524458/panthers-cb-mike-jackson-set-return-sunday-vs-ravens",
-      "title": "Panthers secondary set for boost with return of CB Mike Jackson",
-      "summary": "Panthers starting cornerback Mike Jackson, who has been sidelined since injuring his groin in Week 3, plans to be in the lineup Sunday against the Ravens.",
-      "publishedAt": "2026-11-18T22:37:57Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "ef14954012be05eb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50524576/rb-skattebo-nix-backflips-wake-hutchinson-injury",
-      "title": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
-      "summary": "Giants RB Cam Skattebo said he is holding off on doing any more backflips after Lions DE Aidan Hutchinson suffered a major knee injury while leaping and celebrating a sack.",
-      "publishedAt": "2026-11-18T22:24:35Z",
       "teamIds": [
         "19"
       ]
