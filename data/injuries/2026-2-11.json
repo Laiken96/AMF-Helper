@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T19:50:44Z",
+    "takenAt": "2026-11-20T20:31:03Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1121,7 +1121,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           }
         ]
       },
@@ -1951,7 +1951,7 @@
       "teamAbbr": "KC",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873067",
