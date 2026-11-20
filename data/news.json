@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T02:47:22Z",
+  "updatedAt": "2026-11-20T03:33:21Z",
   "items": [
+    {
+      "id": "3b7250bf09f00c17",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacuas-suspension-arises-from-diversion-program",
+      "title": "Puka Nacua's suspension arises from diversion program",
+      "summary": "The NFL's statement announcing the three-game suspension for Rams receiver Puka Nacua didn't specify the reason for it.",
+      "publishedAt": "2026-11-20T03:20:53Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "0429b31e010d8479",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-c-j-stroud-texans-lead-colts-17-3-at-halftime",
+      "title": "Thursday Night Football: C.J. Stroud, Texans lead Colts 17-3 at halftime",
+      "summary": "Stroud threw two touchdown passes in the first half.",
+      "publishedAt": "2026-11-20T02:54:53Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
     {
       "id": "72f2993cf24c41c3",
       "source": "pft",
@@ -11,6 +34,17 @@
       "publishedAt": "2026-11-20T02:17:27Z",
       "teamIds": [
         "34"
+      ]
+    },
+    {
+      "id": "94468829899b3743",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-duo-could-break-nfl-record-jamarr-chase-tee-higgins-historic-pace",
+      "title": "Bengals duo could break NFL record that has stood for 31 years: Ja'Marr Chase and Tee Higgins on historic pace",
+      "summary": "Ja'Marr Chase and Tee Higgins could make NFL history for the red hot Bengals",
+      "publishedAt": "2026-11-20T02:07:10Z",
+      "teamIds": [
+        "4"
       ]
     },
     {
@@ -1609,37 +1643,6 @@
       "publishedAt": "2026-11-19T10:51:33Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "4b20db3cc9b69f88",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-can-become-the-first-qb-ever-with-4-touchdowns-in-6-consecutive-games",
-      "title": "Joe Burrow can become the first QB ever with 4+ touchdowns in 6 consecutive games",
-      "summary": "Burrow and Peyton Manning are the only QBs ever with 4 TDs in 5 straight games. If Burrow does it again on Monday night, he'll be the first in NFL history to do it in 6 straight games.",
-      "publishedAt": "2026-11-19T08:48:47Z",
-      "teamIds": []
-    },
-    {
-      "id": "a3a5c793d061c50c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-wont-use-aidan-hutchinson-injury-as-a-teaching-moment",
-      "title": "Sean Payton won't use Aidan Hutchinson injury as a teaching moment",
-      "summary": "Lions coach Dan Campbell has made his position clear regarding player celebrations, in the aftermath of defensive end Aidan Hutchinson's season-ending knee injury.",
-      "publishedAt": "2026-11-19T05:05:09Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "6b59cb57b0dfd9e0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-on-the-brian-flores-defense-its-not-just-a-fad",
-      "title": "Kyle Shanahan on the Brian Flores defense: \"It's not just a fad\"",
-      "summary": "49ers coach says the Minnesota defense puts pressure on everyone involved.",
-      "publishedAt": "2026-11-19T04:02:34Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]
