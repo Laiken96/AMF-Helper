@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T00:47:17Z",
+    "takenAt": "2026-11-20T02:47:19Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2126,6 +2126,17 @@
             "status": null
           },
           {
+            "athleteId": "4241464",
+            "name": "Mac Jones",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Questionable"
+          },
+          {
             "athleteId": "4361741",
             "name": "Brock Purdy",
             "pos": "QB",
@@ -2411,6 +2422,16 @@
       "name": "Bhayshul Tuten",
       "pos": "RB",
       "teamAbbr": "JAX",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873091",
+      "athleteId": "4241464",
+      "name": "Mac Jones",
+      "pos": "QB",
+      "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
       "to": "Questionable"

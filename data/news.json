@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T01:47:29Z",
+  "updatedAt": "2026-11-20T02:47:22Z",
   "items": [
+    {
+      "id": "72f2993cf24c41c3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-strouds-second-td-gives-texans-14-3-lead",
+      "title": "C.J. Stroud's second TD gives Texans 14-3 lead",
+      "summary": "The Texans took advantage of Kamari Lassiter's interception of Daniel Jones, driving 85 yards in 12 plays for their second touchdown.",
+      "publishedAt": "2026-11-20T02:17:27Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "6c5f8b3f2dd93bf8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-connects-with-nico-collins-to-give-texans-7-3-lead",
+      "title": "C.J. Stroud connects with Nico Collins to give Texans 7-3 lead",
+      "summary": "The Texans were outplayed for most of the first quarter, but they have a 7-3 lead.",
+      "publishedAt": "2026-11-20T02:02:30Z",
+      "teamIds": [
+        "34"
+      ]
+    },
     {
       "id": "d05432cfc36c6aed",
       "source": "espn",
@@ -1618,29 +1640,6 @@
       "publishedAt": "2026-11-19T04:02:34Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "f0a2a32d656a1902",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-bosa-i-dont-think-ive-played-my-best-football",
-      "title": "Nick Bosa: I don't think I've played my best football",
-      "summary": "49ers defensive end Nick Bosa's only stats in Sunday's 46-40 win over the Cowboys were one quarterback hit, four pressures and three penalties in 34 snaps.",
-      "publishedAt": "2026-11-19T03:25:46Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "4153ed1b77a5afd6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-did-not-practice-wednesday-with-ankle-quad-injuries",
-      "title": "Brock Bowers did not practice Wednesday with ankle, quad injuries",
-      "summary": "Raiders coach Klint Kubiak called tight end Brock Bowers \"day-to-day\" earlier this week, but Wednesday was not the day.",
-      "publishedAt": "2026-11-19T02:57:02Z",
-      "teamIds": [
-        "13"
       ]
     }
   ]
