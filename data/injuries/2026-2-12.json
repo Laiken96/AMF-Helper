@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T04:47:22Z",
+    "takenAt": "2026-11-20T18:47:26Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1434,7 +1434,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Doubtful"
           },
           {
             "athleteId": "15847",
@@ -2394,7 +2394,7 @@
       "teamAbbr": "BUF",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Doubtful"
     },
     {
       "gameId": "401873085",

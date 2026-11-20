@@ -1,13 +1,121 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T17:47:32Z",
+  "updatedAt": "2026-11-20T18:47:28Z",
   "items": [
+    {
+      "id": "a3eca5684f458a12",
+      "source": "espn",
+      "url": "https://espn.com/soccer/story/_/id/50542238/nfl-legend-tom-brady-buys-shares-chelsea-sources",
+      "title": "Sources: Tom Brady buys shares in Chelsea after Birmingham exit",
+      "summary": "Seven-time Super Bowl champion quarterback Tom Brady has invested in Chelsea soccer club, sources confirmed to ESPN and NFL Network.",
+      "publishedAt": "2026-11-20T18:42:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "27e3a79561ffc374",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50542293/colts-release-qb-daniel-jones-blowout-loss-texans",
+      "title": "Colts release QB Daniel Jones, turn to Anthony Richardson Sr. for next start",
+      "summary": "The Colts have released quarterback Daniel Jones and are turning to Anthony Richardson Sr. to start going forward, coach Shane Steichen announced.",
+      "publishedAt": "2026-11-20T18:39:36Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "3c755d8e00d95933",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50510451/fantasy-playbook-projections-lineup-locks-week-11-shadow",
+      "title": "Fantasy playbook: Week 11 Shadow Reports, lineup locks and projected scores",
+      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
+      "publishedAt": "2026-11-20T18:39:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "3b008295fe2138f7",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50542310/colts-couldve-shouldve-traded-him",
+      "title": "Schefter on Daniel Jones’ release: Colts ‘could’ve and should’ve traded him’",
+      "summary": null,
+      "publishedAt": "2026-11-20T18:28:58Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "ba7123c9514dd512",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-benford-and-dorian-williams-ruled-out-dalton-kincaid-doubtful-for-bills",
+      "title": "Christian Benford and Dorian Williams ruled out, Dalton Kincaid doubtful for Bills",
+      "summary": "The Bills will be missing a couple of defensive players for Sunday's game against the Dolphins.",
+      "publishedAt": "2026-11-20T18:24:08Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
+    {
+      "id": "903936fd45b20bf6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50542311/shane-steichen-announces-daniel-jones-release-colts",
+      "title": "Shane Steichen announces Daniel Jones' release from Colts",
+      "summary": null,
+      "publishedAt": "2026-11-20T18:23:47Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "b1933741420395db",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-reid-posts-farewell-message-to-saints-new-orleans",
+      "title": "Justin Reid posts farewell message to Saints, New Orleans",
+      "summary": "The Saints have not announced any move involving safety Justin Reid, but it seems one is coming soon.",
+      "publishedAt": "2026-11-20T18:14:40Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "f60440a685ef78eb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-release-qb-daniel-jones",
+      "title": "Colts release QB Daniel Jones",
+      "summary": "Colts avoid $10.51 million injury guarantee for 2027 by removing Jones from the roster.",
+      "publishedAt": "2026-11-20T18:12:33Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "e9672467bdb72192",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-dealing-with-back-spasms-josh-johnson-in-line-to-start-vs-chiefs",
+      "title": "Carson Beck dealing with back spasms, Josh Johnson in line to start vs. Chiefs",
+      "summary": "The Cardinals may have a fourth starting quarterback in four weeks when they play the Chiefs on Sunday.",
+      "publishedAt": "2026-11-20T18:01:10Z",
+      "teamIds": [
+        "22",
+        "12"
+      ]
+    },
+    {
+      "id": "8ab055458a478d5f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-tay-martins-special-teams-tape-was-so-good-i-was-shocked-we-got-him",
+      "title": "Dan Campbell: Tay Martin's special teams tape was so good, I was shocked we got him",
+      "summary": "Lions wide receiver Tay Martin has been in the NFL since 2022, and he has only four career catches.",
+      "publishedAt": "2026-11-20T17:52:58Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "e7c6ba86002433af",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50542028/rams-puka-nacua-needs-mcl-surgery-likely-done-season",
-      "title": "Rams' Puka Nacua has MCL surgery, likely done for season",
-      "summary": "Rams receiver Puka Nacua, who is currently serving a three-game suspension while on IR, had surgery to repair an MCL and is likely done for the season.",
+      "title": "Rams' Puka Nacua has MCL surgery, likely done for regular season",
+      "summary": "Rams WR Puka Nacua, who is serving a three-game suspension while on IR, had surgery on his MCL and likely will miss at least the rest of the regular season.",
       "publishedAt": "2026-11-20T17:46:04Z",
       "teamIds": [
         "14"
@@ -423,12 +531,75 @@
       ]
     },
     {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 11: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-20T13:50:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "23c15f803b0376fe",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 11: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-20T13:49:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "4594dcf9aa19a0b5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 11: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-20T13:49:28Z",
+      "teamIds": []
+    },
+    {
       "id": "85feab4ffaae9dd1",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
       "title": "Fantasy football rankings for Week 11: D/ST",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-20T13:49:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "70ae9ffb76718140",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 11: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-20T13:48:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "64ab5603ce63fa91",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 11: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-20T13:48:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "92ce5dff7e1a00b3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 11: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-20T13:47:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "379dfb31b68bfa2b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 11: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-20T13:47:18Z",
       "teamIds": []
     },
     {
@@ -1473,197 +1644,6 @@
       "publishedAt": "2026-11-19T20:39:20Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "406a7b95a5a7522b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-suspended-three-games-will-serve-suspension-while-on-ir",
-      "title": "Puka Nacua suspended three games, will serve suspension while on IR",
-      "summary": "Nacua is eligible to be reinstated after the Rams' Week 14 game against the 49ers.",
-      "publishedAt": "2026-11-19T20:38:12Z",
-      "teamIds": [
-        "14",
-        "25"
-      ]
-    },
-    {
-      "id": "ea25a867402148e9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-texans-vs-colts-no-8-houston-vs-no-11-kansas-and-more",
-      "title": "Today's top games to watch, best bets, odds: Texans vs. Colts, No. 8 Houston vs. No. 11 Kansas and more",
-      "summary": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-19T20:38:03Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "1c20e7831afa12f6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-remains-limited-at-bears-practice",
-      "title": "Jeffery Simmons remains limited at Bears practice",
-      "summary": "Defensive tackle Jeffery Simmons remained a limited participant at Bears practice on Thursday.",
-      "publishedAt": "2026-11-19T20:33:46Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "cb3c4a2c94fc6a89",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532392/broncos-sign-cb-riley-moss-four-year-extension",
-      "title": "Broncos sign cornerback Riley Moss to four-year extension",
-      "summary": "The Broncos locked up a key piece of their secondary by signing cornerback Riley Moss to a four-year extension.",
-      "publishedAt": "2026-11-19T20:24:17Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "aa115b6d5a3ce130",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873073",
-      "title": "Cowboys face last-place Titans with new play-caller on defense and fading playoff hopes",
-      "summary": "The Dallas Cowboys have made their biggest move of the season to try to fix a broken defense, just in time for consecutive games against last-place...",
-      "publishedAt": "2026-11-19T20:21:50Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "81463b10a0e64b2b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-back-at-practice-for-the-49ers",
-      "title": "Mike Evans back at practice for the 49ers",
-      "summary": "Evans has missed the last three games with Achilles tendinitis.",
-      "publishedAt": "2026-11-19T20:20:33Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "c944e28591991e1f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/darren-waller-tommy-tremble-return-to-panthers-practice-thursday",
-      "title": "Darren Waller, Tommy Tremble return to Panthers practice Thursday",
-      "summary": "The Panthers got a pair of key offensive contributors back on the practice field Thursday.",
-      "publishedAt": "2026-11-19T20:07:39Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "c66f9bd5786068aa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50533151/buccaneers-baker-mayfield-hopes-play-foot-injury",
-      "title": "Bucs QB Baker Mayfield hopes to play Sunday despite foot injury: 'I feel ready'",
-      "summary": "Buccaneers quarterback Baker Mayfield is hoping to play Sunday against the Lions after he sustained a foot injury two weeks ago against the Chicago Bears.",
-      "publishedAt": "2026-11-19T20:04:31Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "960b8cf0026c2633",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532679/cowboys-christian-parker-dc-job-do",
-      "title": "Cowboys' Parker: I'm still DC, have 'job to do' after losing playcalling duties",
-      "summary": "Cowboys defensive coordinator Christian Parker said he briefly considered leaving the team after informed he was being stripped of playcalling responsibilities.",
-      "publishedAt": "2026-11-19T20:01:23Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "bbbe3cfd0102ae3d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-designate-lb-swayze-bozeman-for-return-from-ir",
-      "title": "Bengals designate LB Swayze Bozeman for return from IR",
-      "summary": "Linebacker Swayze Bozeman is back at Bengals practice this week.",
-      "publishedAt": "2026-11-19T19:59:15Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "aa6d2e4084dcc3e1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-record-breaking-contract-cowboys-kicker-brandon-aubrey-is-having-his-worst-season",
-      "title": "After record-breaking contract, Cowboys kicker Brandon Aubrey is having his worst season",
-      "summary": "In April, the Cowboys signed kicker Brandon Aubrey to a four-year, $28 million contract, making him the highest-paid kicker in NFL history.",
-      "publishedAt": "2026-11-19T19:44:20Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "732359403156d4d1",
-      "source": "espn",
-      "url": "https://espn.com/college-football/story/_/id/50532925/jack-ham-returning-broadcast-booth-health-scare",
-      "title": "Hall of Famer Jack Ham returning to broadcast booth after health scare",
-      "summary": "Hall of Fame linebacker and Penn State radio analyst Jack Ham will return to the broadcast booth on Saturday, just two weeks after suffering a medical emergency.",
-      "publishedAt": "2026-11-19T19:37:38Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "43770a1949f35b20",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873069",
-      "title": "Jaguars visit the Giants in a matchup of two unexpected division leaders",
-      "summary": "John Harbaugh had no time this week for analyzing what has made the Jacksonville Jaguars one of the NFL's top teams.",
-      "publishedAt": "2026-11-19T19:37:36Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "97ce40e413b8f122",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-called-fernando-mendoza-to-debrief-after-rookies-first-start",
-      "title": "Kirk Cousins called Fernando Mendoza to \"debrief\" after rookie's first start",
-      "summary": "Quarterbacks Kirk Cousins and Fernando Mendoza are no longer teammates after the Raiders traded Cousins to the Vikings last week.",
-      "publishedAt": "2026-11-19T19:32:26Z",
-      "teamIds": [
-        "13",
-        "16"
-      ]
-    },
-    {
-      "id": "798a83a79bef946f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532686/studies-blood-test-potential-detect-cte-living",
-      "title": "Studies: Blood test has potential to detect CTE in the living",
-      "summary": "A new blood test shows potential to detect advanced stages of chronic traumatic encephalopathy (CTE) in the living, according to two recent published studies.",
-      "publishedAt": "2026-11-19T19:26:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "61795a5034626863",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50532748/vikings-cousins-channeling-dantonio-maxim-amid-whirlwind-month",
-      "title": "Vikings' Cousins channeling Dantonio's 'slow down' maxim amid whirlwind month",
-      "summary": "As he manages the whirlwind of his professional and personal life this month, Vikings QB Kirk Cousins has relied on a maxim he often heard from his college coach Mark Dantonio at Michigan State -- when things speed up, try to slow down.",
-      "publishedAt": "2026-11-19T19:23:16Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "18edf1a4d27c99f8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873071",
-      "title": "Pass rush part of the focus for the Saints and Bears going into Sunday's game",
-      "summary": "Carl Granderson and Chase Young form a potent 1-2 punch on defense for the New Orleans Saints. Jeffery Simmons is a force on the defensive line for the Chicago Bears.",
-      "publishedAt": "2026-11-19T19:10:36Z",
-      "teamIds": [
-        "3",
-        "18"
       ]
     }
   ]
