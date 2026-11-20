@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T07:47:19Z",
+  "updatedAt": "2026-11-20T08:47:23Z",
   "items": [
     {
       "id": "8f55f35c1c72130f",
@@ -1450,6 +1450,15 @@
       ]
     },
     {
+      "id": "46c6d359f1ed2265",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/grading-every-trade-deadline-acquisitions-new-team-debut-kirk-cousins",
+      "title": "Grading every trade deadline acquisition's new team debut: Kirk Cousins, two WRs get near 'A'",
+      "summary": "Many midseason movers had strong debuts for their new teams",
+      "publishedAt": "2026-11-19T15:39:25Z",
+      "teamIds": []
+    },
+    {
       "id": "cfe55f149aaa00e1",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-wr-christian-kirk-had-meniscus-surgery",
@@ -1649,17 +1658,6 @@
       "summary": "Plus, LSU makes its call on RJ Luis Jr.",
       "publishedAt": "2026-11-19T13:58:12Z",
       "teamIds": []
-    },
-    {
-      "id": "c503397780494c1b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-ward-shift-in-offensive-philosophy-what-we-all-wanted",
-      "title": "Cam Ward: Shift in offensive philosophy \"what we all wanted\"",
-      "summary": "Titans head coach Robert Saleh said earlier this week that the Titans recently shifted their offensive philosophy to put more on quarterback Cam Ward's plate over the rest of the season.",
-      "publishedAt": "2026-11-19T13:30:12Z",
-      "teamIds": [
-        "10"
-      ]
     }
   ]
 }
