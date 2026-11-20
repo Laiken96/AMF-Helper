@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T06:47:23Z",
+  "updatedAt": "2026-11-20T07:47:19Z",
   "items": [
+    {
+      "id": "8f55f35c1c72130f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50539065/titans-calvin-ridley-assault-charge-airport-incident",
+      "title": "Titans' Calvin Ridley facing misdemeanor assault charge over airport incident",
+      "summary": "Titans wide receiver Calvin Ridley is facing a misdemeanor assault charge as a result of a Nov. 7 incident at Nashville International Airport.",
+      "publishedAt": "2026-11-20T07:46:11Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "78be2983934c2cba",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50538998/cj-stroud-stays-groove-texans-blowout-colts",
+      "title": "C.J. Stroud stays in 'groove' with another 3-TD night in Texans' blowout of Colts",
+      "summary": "C.J. Stroud had his third straight game with at least three touchdown passes and led the Texans to their fourth win in six games Thursday night against the Colts.",
+      "publishedAt": "2026-11-20T07:41:39Z",
+      "teamIds": [
+        "34"
+      ]
+    },
     {
       "id": "94016d65aed6905b",
       "source": "espn",
@@ -1638,27 +1660,6 @@
       "teamIds": [
         "10"
       ]
-    },
-    {
-      "id": "f478bd1dc81792ef",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cb-mike-jackson-says-hes-ready-to-return-to-panthers-lineup",
-      "title": "CB Mike Jackson says he's ready to return to Panthers lineup",
-      "summary": "The Panthers are set to get a key piece of their secondary back for Sunday's game against the Ravens.",
-      "publishedAt": "2026-11-19T13:11:44Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "46c6d359f1ed2265",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/grading-every-trade-deadline-acquisitions-new-team-debut-kirk-cousins",
-      "title": "Grading every trade deadline acquisition's new team debut: Kirk Cousins, two WRs get near 'A'",
-      "summary": "Many midseason movers had strong debuts for their new teams",
-      "publishedAt": "2026-11-19T12:59:34Z",
-      "teamIds": []
     }
   ]
 }
