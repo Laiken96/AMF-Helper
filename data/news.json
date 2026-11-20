@@ -1,7 +1,92 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T10:47:33Z",
+  "updatedAt": "2026-11-20T11:47:40Z",
   "items": [
+    {
+      "id": "a91e62fae98ee744",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50525533/2026-offseason-change-scenery-fits-players-new-teams",
+      "title": "NFL offseason free agent and trade acquisitions that have and have not worked",
+      "summary": "Kenneth Walker III and Devin Lloyd look great with their new teams in 2026. But Jaylen Waddle and Alontae Taylor haven't quite found their groove.",
+      "publishedAt": "2026-11-20T11:42:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "3c8b396382614c88",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50522208/week-11-picks-predictions-schedule-fantasy-odds-2026",
+      "title": "NFL Week 11 preview: Picks, predictions, schedule, betting odds, fantasy tips",
+      "summary": "Joe Burrow vs. Jayden Daniels? Fernando Mendoza vs. Bo Nix? There are 12 more games in Week 11, and we have picks, predictions and more for all of them.",
+      "publishedAt": "2026-11-20T11:41:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "e8e72558d2e583af",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50534594/mf-field-director-versus-international-games",
+      "title": "NFL field director Nick Pappas tested by 9 international games",
+      "summary": "Nick Pappas is the man charged with making sure international venues are up to standard to host NFL games.",
+      "publishedAt": "2026-11-20T11:14:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "c23f1e5b1fa19f5a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-picks-best-bets-49ers-vikings-bengals-commanders",
+      "title": "NFL Week 11 picks, best bets: 49ers over Vikings in prime time? Bengals cover vs. Commanders",
+      "summary": "Jordan Dajani gives his picks for Week 11 of the 2026 NFL season",
+      "publishedAt": "2026-11-20T11:00:57Z",
+      "teamIds": [
+        "4",
+        "16",
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "05da173b257c22aa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50523033/titans-defense-post-jeffery-simmons-amani-hooker-trades",
+      "title": "Titans defense crumbling post-Jeffery Simmons, Amani Hooker trades",
+      "summary": "The moves Tennessee made might have helped the rebuilding process, but it also impacted the current team.",
+      "publishedAt": "2026-11-20T11:00:10Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "acf9b6f9a8123b61",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50534234/cowboys-titans-eagles-nfc-east-thanksgiving",
+      "title": "With Titans, Eagles up next, it's now or never for Cowboys",
+      "summary": "Thanks to the scuffling NFC East and a friendly schedule the next week, the Cowboys still have a playoff shot.",
+      "publishedAt": "2026-11-20T11:00:10Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "02016a8a359d7907",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535497/jacksonville-jaguars-bhayshul-tuten-rb-stats-fantasy",
+      "title": "How Bhayshul Tuten became the clear No. 1 running back for the Jaguars",
+      "summary": "After a lackluster rookie season, Tuten ranks 14th in NFL in rushing yards entering Sunday's game against the Giants.",
+      "publishedAt": "2026-11-20T11:00:03Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "921f173ff41c5e6c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50531651/vikings-49ers-mexico-city-elevation-minnesota",
+      "title": "How Vikings brought Mexico City's elevation to Minnesota",
+      "summary": "Rather than spending the week in high altitude like Denver, the Vikings trained in a facility at home.",
+      "publishedAt": "2026-11-20T11:00:01Z",
+      "teamIds": [
+        "16"
+      ]
+    },
     {
       "id": "a99a16b84cc6cecb",
       "source": "pft",
@@ -1567,97 +1652,6 @@
       "teamIds": [
         "8"
       ]
-    },
-    {
-      "id": "34dd298eb69b9d44",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/most-important-week-11-games-nfl-playoff-races",
-      "title": "Most important Week 11 games for NFL playoff races: Can anyone gain separation in NFC North or NFC South?",
-      "summary": "Plus, can the Giants bounce back?",
-      "publishedAt": "2026-11-19T15:11:52Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "9585ecb54e2c54b2",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/colts-vs-texans-odds-picks-prediction-best-bets-player-props-for-nfl-week-11-thursday-night-football",
-      "title": "Colts vs. Texans odds, picks, prediction: Best bets, player props for NFL Week 11 Thursday Night Football",
-      "summary": "Why backing the under on a 44-point total and targeting rushing props for David Montgomery and Daniel Jones create the best betting value for this divisional clash",
-      "publishedAt": "2026-11-19T15:09:17Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "1f22131611d5fb06",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/texans-vs-colts-odds-prediction-betting-preview-start-time-thursday-night-football-picks-best-bets",
-      "title": "Texans vs. Colts odds, prediction, betting preview, start time: Thursday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Colts vs. Texans on Thursday Night Football",
-      "publishedAt": "2026-11-19T15:03:47Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "28b36084d848e226",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
-      "title": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
-      "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
-      "publishedAt": "2026-11-19T14:38:37Z",
-      "teamIds": [
-        "34",
-        "28"
-      ]
-    },
-    {
-      "id": "ef384f6aa4aa46b3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mexico-city-altitude-will-affect-the-kicking-game-on-sunday-night",
-      "title": "Mexico City altitude will affect the kicking game on Sunday night",
-      "summary": "When the Vikings and 49ers face off in Mexico City on Sunday night, they'll be playing at the highest elevation any NFL game is ever played at: Estadio Azteca's altitude is around 7,300 feet.",
-      "publishedAt": "2026-11-19T14:32:13Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "ae72db98620f1cdc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-experts-picks-colts-at-texans-vikings-vs-49ers",
-      "title": "NFL Week 11 picks: Our experts face off on Colts at Texans, Vikings vs. 49ers and more",
-      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
-      "publishedAt": "2026-11-19T14:21:42Z",
-      "teamIds": [
-        "34",
-        "11",
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "afe23428b0db2141",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/it-wouldnt-shock-me-if-for-week-11-jared-goffs-tony-pollard",
-      "title": "It wouldn't shock me if ... for Week 11: New WR crashes OROY race, Jared Goff's pesky streak continues",
-      "summary": "Plus, Tony Pollard could shine in his first game back in Dallas",
-      "publishedAt": "2026-11-19T14:19:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "3c755d8e00d95933",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50510451/fantasy-playbook-projections-lineup-locks-week-11-shadow",
-      "title": "Fantasy playbook: Week 11 Shadow Reports, lineup locks and projected scores",
-      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
-      "publishedAt": "2026-11-19T14:18:37Z",
-      "teamIds": []
     }
   ]
 }
