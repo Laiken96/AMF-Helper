@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T12:47:23Z",
+  "updatedAt": "2026-11-20T13:08:27Z",
   "items": [
+    {
+      "id": "6c0be3295b9ef02c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50530738/fantasy-football-start-sit-lineup-advice-week-11",
+      "title": "Need fantasy football trade deadline advice? Join our live Q&A, noon ET",
+      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
+      "publishedAt": "2026-11-20T12:51:48Z",
+      "teamIds": []
+    },
     {
       "id": "5c53829917cfa50c",
       "source": "espn",
@@ -461,6 +470,18 @@
       "publishedAt": "2026-11-20T00:46:54Z",
       "teamIds": [
         "2"
+      ]
+    },
+    {
+      "id": "c2aa0b6f9b17a4ac",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction",
+      "title": "Texans vs. Colts prediction: Houston looks to bounce back on 'TNF' vs. lowly Indy after rough Week 10 loss",
+      "summary": "Plus, how to watch, what to know and a prediction before the 'Thursday Night Football' matchup",
+      "publishedAt": "2026-11-20T00:38:59Z",
+      "teamIds": [
+        "34",
+        "11"
       ]
     },
     {
@@ -1629,34 +1650,6 @@
       "teamIds": [
         "34",
         "11"
-      ]
-    },
-    {
-      "id": "0ff07490398ca3b4",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-odds-lines-totals-spreads",
-      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Colts-Texans, Steelers-Eagles, more",
-      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
-      "publishedAt": "2026-11-19T16:08:22Z",
-      "teamIds": [
-        "34",
-        "11",
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "ae72db98620f1cdc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-experts-picks-colts-at-texans-vikings-vs-49ers",
-      "title": "NFL Week 11 picks: Our experts face off on Colts at Texans, Vikings vs. 49ers and more",
-      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
-      "publishedAt": "2026-11-19T15:52:43Z",
-      "teamIds": [
-        "34",
-        "11",
-        "16",
-        "25"
       ]
     }
   ]
