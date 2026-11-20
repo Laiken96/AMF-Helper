@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T20:47:22Z",
+    "takenAt": "2026-11-20T21:15:51Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1891,7 +1891,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4569618",
@@ -2435,6 +2435,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873089",
+      "athleteId": "15864",
+      "name": "Geno Smith",
+      "pos": "QB",
+      "teamAbbr": "NYJ",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873090",

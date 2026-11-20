@@ -1,7 +1,135 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T20:47:24Z",
+  "updatedAt": "2026-11-20T21:15:54Z",
   "items": [
+    {
+      "id": "4918531e454bd847",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-matt-gay-questionable-for-raiders-broncos",
+      "title": "Brock Bowers, Matt Gay questionable for Raiders-Broncos",
+      "summary": "There’s a chance quarterback Fernando Mendoza will have his top target for his second start.",
+      "publishedAt": "2026-11-20T21:08:52Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "081605c5ce2f464f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fan-dies-after-falling-during-a-fight-at-49ers-cowboys-game",
+      "title": "Fan dies after falling during a fight at 49ers-Cowboys game",
+      "summary": "A man who attended Sunday's game between the 49ers and Cowboys has died due to injuries sustained in a fight during the game.",
+      "publishedAt": "2026-11-20T21:08:07Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "e6a73cc708c72b5e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/devonta-smith-set-to-return-zack-baun-dontayvion-wicks-ruled-out-for-eagles",
+      "title": "DeVonta Smith set to return; Zack Baun, Dontayvion Wicks ruled out for Eagles",
+      "summary": "DeVonta Smith has missed the last month with a hamstring injury, but the Eagles are set to have their top wideout back in the lineup against the Steelers on Sunday.",
+      "publishedAt": "2026-11-20T21:06:48Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "aac5d18f7a2469d3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jerry-jones-calls-cowboys-bad-team-chance-play-better-christian-parkers-demotion",
+      "title": "Jerry Jones calls Cowboys 'a bad team'; says team has chance to play better after Christian Parker's demotion",
+      "summary": "Jones feels Dallas is a bad team right now, but he defended the puzzling decision to demote Parker and keep him on staff",
+      "publishedAt": "2026-11-20T21:05:52Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "ae2733d79665635d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543381/bills-te-dalton-kincaid-doubtful-play-vs-dolphins",
+      "title": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
+      "summary": "Bills starting tight end Dalton Kincaid, their leading receiver, is listed as doubtful for Sunday's game against the Dolphins due to thumb and ankle injuries.",
+      "publishedAt": "2026-11-20T21:05:14Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "4b1c5a7556db1b20",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-add-lb-jaishawn-barham-to-injury-report-list-him-as-questionable",
+      "title": "Cowboys add LB Jaishawn Barham to injury report, list him as questionable",
+      "summary": "The Cowboys added linebacker Jaishawn Barham to the injury report on Friday with hip and groin injuries.",
+      "publishedAt": "2026-11-20T21:03:29Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "fdf3d891425ebea8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/d-j-reed-sione-vaki-listed-as-questionable-for-the-lions",
+      "title": "D.J. Reed, Sione Vaki listed as questionable for the Lions",
+      "summary": "Lions cornerback D.J.",
+      "publishedAt": "2026-11-20T21:00:25Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "41e119cad905630f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-are-colts-next-opponent-and-john-harbaugh-is-taken-aback-by-daniel-jones-news",
+      "title": "Giants are Colts' next opponent, and John Harbaugh is taken aback by Daniel Jones news",
+      "summary": "Giants coach John Harbaugh is preparing right now for Sunday's game against the Jaguars.",
+      "publishedAt": "2026-11-20T20:53:25Z",
+      "teamIds": [
+        "11",
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "1f3ec927dc0edc27",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-had-a-full-practice-has-no-injury-designation",
+      "title": "Geno Smith had a full practice Friday, has no injury designation",
+      "summary": "Jets quarterback Geno Smith (ankle) was a full participant at Friday's practice and has no injury designation.",
+      "publishedAt": "2026-11-20T20:53:22Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "9738b86901ed1b8d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/29553205/dwyane-wade-tom-brady-lebron-james-athletes-team-owners",
+      "title": "Tom Brady tops list of athletes who became owners",
+      "summary": "The legendary quarterback is a member of an exclusive list of athletes that includes LeBron James, Serena Williams and Wayne Gretzky.",
+      "publishedAt": "2026-11-20T20:47:35Z",
+      "teamIds": [
+        "7",
+        "15"
+      ]
+    },
+    {
+      "id": "d30da1bb541de493",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/daniel-jones-release-colts-why-qbs-contract-ensures-clear-waivers-free-agent",
+      "title": "Daniel Jones released by Colts: Why QB's contract almost ensures he'll clear waivers, be free agent",
+      "summary": "Indianapolis waived Jones after the club's 26-3 loss to the Texans on Thursday night",
+      "publishedAt": "2026-11-20T20:40:41Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
     {
       "id": "2de66fbbf0f8b670",
       "source": "espn",
@@ -44,6 +172,17 @@
       "publishedAt": "2026-11-20T20:23:59Z",
       "teamIds": [
         "29"
+      ]
+    },
+    {
+      "id": "cd9b6ecaab42ff89",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/drake-maye-suffers-fibula-injury-big-picture-questions-now-facing-patriots-offseason-beyond",
+      "title": "Drake Maye out indefinitely with fibula: Big picture questions now facing Patriots offseason, beyond",
+      "summary": "The lens of how the Patriots view the rest of 2026 and beyond has now changed",
+      "publishedAt": "2026-11-20T20:18:00Z",
+      "teamIds": [
+        "17"
       ]
     },
     {
@@ -1507,145 +1646,6 @@
       "teamIds": [
         "4",
         "28"
-      ]
-    },
-    {
-      "id": "fcabedab32074431",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/texans-vs-colts-odds-prediction-line-betting-preview-start-time-thursday-night-football-picks-best-bets",
-      "title": "Texans vs. Colts odds, prediction, line, betting preview, start time: Thursday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Colts vs. Texans on Thursday Night Football",
-      "publishedAt": "2026-11-20T00:04:12Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "dfee835e7a1deed1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-sauce-gardner-is-officially-inactive-vs-texans",
-      "title": "Thursday Night Football: Sauce Gardner is officially inactive vs. Texans",
-      "summary": "It's official: Colts cornerback Sauce Gardner will not play Thursday night.",
-      "publishedAt": "2026-11-19T23:59:27Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "0751f9418c24b0b7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
-      "title": "NFL Week 11 arrivals: C.J. Stroud leads the way ahead of Colts-Texans",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-19T23:55:21Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "69de63eec37b7861",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/colts-vs-texans-odds-picks-prediction-nfl-week-11-best-bets-player-props-for-thursday-night-football",
-      "title": "Colts vs. Texans odds, picks, prediction: NFL Week 11 best bets, player props for Thursday Night Football",
-      "summary": "Why backing the under on a 44-point total and targeting rushing props for David Montgomery and Daniel Jones create the best betting value for this divisional clash",
-      "publishedAt": "2026-11-19T23:45:47Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "2d24d98d785339c4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535018/colts-texans-highlights-best-plays-moments-touchdowns",
-      "title": "Colts-Texans highlights: Best plays, moments, touchdowns, more",
-      "summary": "C.J. Stroud and the Texans crushed the Colts on Thursday Night Football.",
-      "publishedAt": "2026-11-19T23:44:48Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "65613c9d5e049bbb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/how-aidan-hutchinson-injury-could-grant-lions-a-salary-cap-credit-in-2027",
-      "title": "How Aidan Hutchinson injury could grant Lions a salary cap credit in 2027",
-      "summary": "The Lions would not be the first team to receive cap relief for an injured player",
-      "publishedAt": "2026-11-19T23:37:50Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "bd91fd27d18d226d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-waive-rb-pierre-strong",
-      "title": "Packers waive RB Pierre Strong",
-      "summary": "The Packers made room for Micah Parsons' return on Thursday, waiving running back Pierre Strong Jr.",
-      "publishedAt": "2026-11-19T23:28:59Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "cb892daed4e6b846",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
-      "title": "Bengals, Reds pay tribute to Fiona the hippo after her death",
-      "summary": "The world-famous hippopotamus passed away Thursday after ingesting a hat that made its way into her enclosure.",
-      "publishedAt": "2026-11-19T23:23:55Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "5df89e60200e8bfe",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873072",
-      "title": "Lions moving on after Hutchinson joins Campbell on IR and they face Bucs aiming for 6th straight win",
-      "summary": "Dan Campbell does not want to let the Detroit Lions become miserable in the Motor City by lamenting the losses of All-Pro linebacker",
-      "publishedAt": "2026-11-19T23:23:33Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "679c6aab6d0c434f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/what-cowboys-christian-parker-said-defensive-coordinator-demotion",
-      "title": "What Cowboys' Christian Parker said about demotion: DC considered leaving, pushed back on decision",
-      "summary": "Parker mulled departing Dallas after Brian Schottenheimer took defensive play-calling",
-      "publishedAt": "2026-11-19T23:20:39Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "14f7196cc957fa40",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-work-to-get-a-stadium-deal-in-illinois-by-december-3",
-      "title": "Bears work to get a stadium deal in Illinois by December 3",
-      "summary": "The Bears continue to work toward getting a new stadium deal in place.",
-      "publishedAt": "2026-11-19T23:10:39Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "0f781b909236464b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873074",
-      "title": "Reeling Jets head to LA to face Chargers, who are coming off their first win of the season",
-      "summary": "The New York Jets and Los Angeles Chargers are in the same predicament, but the conversation around the two teams could not be more different heading into their matchup on Sunday.",
-      "publishedAt": "2026-11-19T23:07:33Z",
-      "teamIds": [
-        "24",
-        "20"
       ]
     }
   ]
