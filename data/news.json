@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T08:47:23Z",
+  "updatedAt": "2026-11-20T09:47:25Z",
   "items": [
+    {
+      "id": "98841791f0278d7b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-montgomery-credits-the-offensive-line-after-his-first-big-game-as-a-texan",
+      "title": "David Montgomery credits the offensive line after his first big game as a Texan",
+      "summary": "Montgomery totaled 124 yards as the Texans beat the Colts, 26-3.",
+      "publishedAt": "2026-11-20T09:07:15Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
     {
       "id": "8f55f35c1c72130f",
       "source": "espn",
@@ -1649,15 +1661,6 @@
         "6",
         "18"
       ]
-    },
-    {
-      "id": "9051efcbe08c0f34",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-experts-make-week-11-picks-lamelo-ball-driving-timberwolves-success-no-1-no-3-teams-in-top-25-lose",
-      "title": "NFL experts make Week 11 picks; LaMelo Ball driving Timberwolves' success; No. 1, No. 3 teams in Top 25 lose",
-      "summary": "Plus, LSU makes its call on RJ Luis Jr.",
-      "publishedAt": "2026-11-19T13:58:12Z",
-      "teamIds": []
     }
   ]
 }
