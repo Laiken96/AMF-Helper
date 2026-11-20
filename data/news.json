@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T00:47:20Z",
+  "updatedAt": "2026-11-20T01:47:29Z",
   "items": [
+    {
+      "id": "d05432cfc36c6aed",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50536083/texans-lose-chris-braswell-serious-looking-knee-injury",
+      "title": "Texans lose Chris Braswell to serious-looking knee injury",
+      "summary": "Texans defensive end Chris Braswell suffered a serious-looking knee injury on the opening kickoff of Thursday night's game against the Colts.",
+      "publishedAt": "2026-11-20T01:45:23Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "acd6894a3447d7a8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-de-chris-braswell-seriously-injures-leg-on-opening-kickoff",
+      "title": "Texans DE Chris Braswell seriously injures leg on opening kickoff",
+      "summary": "Texans defensive end Chris Braswell was seriously injured on the opening kickoff.",
+      "publishedAt": "2026-11-20T01:29:15Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "220358b1ee67a86a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873075",
+      "title": "Raiders rookie Fernando Mendoza to face another elite defense in the sack-hungry Broncos",
+      "summary": "Top draft pick Fernando Mendoza's first career road start comes against Denver's dominant defense, one week after he was sacked half a dozen times by the Seattle Seahawks in his",
+      "publishedAt": "2026-11-20T01:02:33Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "2901ac38d74806fc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873068",
+      "title": "Panthers aim to hold NFC South lead while Ravens look to keep playoffs hopes alive, end 5-game skid",
+      "summary": "The Carolina Panthers needed a walk-off 54-yard field goal from Ryan Fitzgerald to beat the New Orleans Saints 20-17 last Sunday and remain in first...",
+      "publishedAt": "2026-11-20T00:49:33Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "6ef3ae573697ce0b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bills-to-retire-andre-reeds-no-83-during-the-2027-season",
+      "title": "Bills to retire franchise legend Andre Reed's No. 83 during the 2027 season",
+      "summary": "Reed is Buffalo's career leader in every major receiving category",
+      "publishedAt": "2026-11-20T00:46:54Z",
+      "teamIds": [
+        "2"
+      ]
+    },
     {
       "id": "7aab80548e22f2d4",
       "source": "espn",
@@ -1583,60 +1641,6 @@
       "publishedAt": "2026-11-19T02:57:02Z",
       "teamIds": [
         "13"
-      ]
-    },
-    {
-      "id": "ef45b5b143639792",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/diego-pavia-is-the-first-pick-in-the-ufl-draft",
-      "title": "Diego Pavia is the first pick in the UFL draft",
-      "summary": "Quarterback Diego Pavia went unselected in the 2026 NFL draft.",
-      "publishedAt": "2026-11-19T02:44:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "d72e7630fad4f465",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50526309/niners-nick-bosa-says-better-amid-4-game-sack-drought",
-      "title": "Niners' Nick Bosa on 4-game sack drought: 'Don't think I'm playing my best'",
-      "summary": "Niners star Nick Bosa acknowledged his performance this season, including four straight games with no sacks, hasn't been up to his usual standard.",
-      "publishedAt": "2026-11-19T01:47:36Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "2aa0c956c62b2b5c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-injury-report-chiefs-kenneth-walker-iii-lions-kerby-joseph",
-      "title": "NFL Week 11 injury report: Latest update on Chiefs' Kenneth Walker III; Lions' Kerby Joseph practices fully",
-      "summary": "Get the latest Week 11 injury updates on Kenneth Walker III, Kerby Joseph, Baker Mayfield, Mike Evans and other notable NFL players",
-      "publishedAt": "2026-11-19T01:17:02Z",
-      "teamIds": [
-        "8",
-        "12"
-      ]
-    },
-    {
-      "id": "870801982835f9f5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50525580/florio-simms-apologize-comments-vrabel-mustache",
-      "title": "Florio, Simms apologize for comments about Vrabel's mustache in Germany",
-      "summary": "\"PFT Live\" hosts Mike Florio and Chris Simms apologized for comments they made about Mike Vrabel's mustache when talking about the Patriots' trip to Germany.",
-      "publishedAt": "2026-11-19T01:10:52Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "a57d992901c03d80",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/giants-cam-skattebo-backflip-celebrations-aidan-hutchinson-injury",
-      "title": "Giants' Cam Skattebo to halt backflip celebrations after Aidan Hutchinson jumping celebration injury",
-      "summary": "Hutchinson suffered a season-ending knee injury while jumping to celebrate a sack in Week 10",
-      "publishedAt": "2026-11-18T23:43:27Z",
-      "teamIds": [
-        "19"
       ]
     }
   ]

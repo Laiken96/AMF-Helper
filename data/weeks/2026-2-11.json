@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-17T21:47:20Z",
+  "fetchedAt": "2026-11-20T01:47:24Z",
   "source": "espn",
   "games": [
     {
@@ -14,10 +14,10 @@
       "kickoffUtc": "2026-11-20T01:15:00Z",
       "homeId": "34",
       "awayId": "11",
-      "status": "scheduled",
-      "statusDetail": "11/19 - 8:15 PM EST",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "in_progress",
+      "statusDetail": "3:39 - 1st",
+      "homeScore": 0,
+      "awayScore": 3,
       "venue": "Reliant Stadium",
       "neutralSite": false,
       "venueInfo": {

@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-20T00:47:17Z",
+  "updatedAt": "2026-11-20T01:47:26Z",
   "source": "espn-pickem",
   "games": [
     {
@@ -15,7 +15,7 @@
       "total": 300844,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-18T12:47:21Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873067",
