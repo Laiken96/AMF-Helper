@@ -1,7 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T14:47:28Z",
+  "updatedAt": "2026-11-20T15:47:24Z",
   "items": [
+    {
+      "id": "085d8059563d54ea",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50541129/cj-stroud-top-5-afc-qb",
+      "title": "Dan Orlovsky: C.J. Stroud is a top-5 AFC QB",
+      "summary": null,
+      "publishedAt": "2026-11-20T15:35:14Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "01ed7a3238f2cb23",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50541172/fantasy-football-hall-fame-peyton-manning",
+      "title": "Peyton Manning enshrined in ESPN Fantasy Football Hall of Fame",
+      "summary": "Peyton Manning, who retired as the top scorer of the ESPN fantasy football era, is the latest inductee in the ESPN Fantasy Football Hall of Fame.",
+      "publishedAt": "2026-11-20T15:35:04Z",
+      "teamIds": [
+        "7",
+        "11"
+      ]
+    },
+    {
+      "id": "bf73d2eb06a483c4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-practicing-at-altitude-was-the-right-move-for-sure",
+      "title": "Brock Purdy: Practicing at altitude was the right move, for sure",
+      "summary": "When the 49ers play the Vikings this weekend, they'll do so at the altitude of Mexico City at Estadio Banorte.",
+      "publishedAt": "2026-11-20T15:32:08Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "dac9a710cd4e807e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-exploring-possibility-implementing-new-travel-rules-international-games",
+      "title": "NFL exploring possibility of implementing new travel rules for international games",
+      "summary": "NFL teams might have to change the way they travel for international games",
+      "publishedAt": "2026-11-20T15:28:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "691243a3ac06a91b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-almost-4000-in-bonuses-betting-apps-sportsbooks-for-sundays-games",
+      "title": "Week 11 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
+      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-20T15:28:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ccbf2c6b93055cf",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-11-best-bets-player-props-anytime-td-scorers-for-sundays-games",
+      "title": "NFL odds, picks: Brinson's Week 11 best bets, player props, anytime TD scorers for Sunday's games",
+      "summary": "Steer clear of bloated double-digit spreads, grab the extra points with Philadelphia, and count on Dak Prescott to clear his passing total in a shootout",
+      "publishedAt": "2026-11-20T15:26:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "e94d563ae2a4d827",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-odds-lines-spreads-totals",
+      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Steelers-Eagles, 49ers-Vikings, more",
+      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
+      "publishedAt": "2026-11-20T15:19:55Z",
+      "teamIds": [
+        "16",
+        "21",
+        "23",
+        "25"
+      ]
+    },
+    {
+      "id": "c5860766fb0913e3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-set-for-full-practice-on-friday",
+      "title": "Geno Smith set for full practice on Friday",
+      "summary": "Jets quarterback Geno Smith's chances of playing against the Chargers on Sunday are looking good.",
+      "publishedAt": "2026-11-20T15:19:41Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "9c57f66b31fd35ea",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-serving-suspension-while-on-ir-raises-an-important-question",
+      "title": "Puka Nacua serving suspension while on IR raises an important question",
+      "summary": "The news that Rams receiver Puka Nacua will serve a three-game suspension while on injured reserve raised plenty of eyebrows, because on the surface it seems very convenient.",
+      "publishedAt": "2026-11-20T15:10:30Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "784565ce1a674e9d",
       "source": "cbs",
@@ -1564,100 +1663,6 @@
         "34",
         "11"
       ]
-    },
-    {
-      "id": "9fe5590870aadb5d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-cb-marlon-humphrey-will-not-play-this-week-in-wake-of-comments-about-baltimore",
-      "title": "Ravens send CB Marlon Humphrey home, will not play him this week due to comments about Baltimore",
-      "summary": "Head coach Jesse Minter said Humphrey will not be with the team for the rest of this week.",
-      "publishedAt": "2026-11-19T17:06:07Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Stroud has Houston fans over the moon, Colts continue to crumble",
-      "summary": "Adam Rank waxes nostalgic about Houston football and the reinvigorated C.J. Stroud.",
-      "publishedAt": "2026-11-19T17:03:58Z",
-      "teamIds": [
-        "33",
-        "34",
-        "11",
-        "24"
-      ]
-    },
-    {
-      "id": "d9a5f1bc10a4131e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-riley-moss-agree-to-four-year-extension",
-      "title": "Broncos, Riley Moss agree to four-year extension",
-      "summary": "The Broncos have locked up one of their key defensive players.",
-      "publishedAt": "2026-11-19T16:58:34Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "5e2755e79f9a7705",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-on-future-with-browns-thats-up-to-my-agent-i-dont-worry-about-that",
-      "title": "Deshaun Watson on future with Browns: That's up to my agent, I don't worry about that",
-      "summary": "After several years marred by poor play and injuries, Deshaun Watson has provided some return on the investment the Browns made with the infamous 2022 trade to acquire him.",
-      "publishedAt": "2026-11-19T16:48:42Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "13672e697af09ab1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/49ers-fountain-youth-can-nfls-oldest-most-injured-team-win-super-bowl",
-      "title": "The 49ers' Fountain of Youth: Can the NFL's oldest and most injured team win the Super Bowl?",
-      "summary": "The 49ers have defied the odds en route to a record-setting star, but can they keep it up?",
-      "publishedAt": "2026-11-19T16:41:34Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "046e43e2f7545eec",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-11-2026-nfl-picks",
-      "title": "PFT's Week 11 2026 NFL picks",
-      "summary": "A wild guess for all 13 upcoming games.",
-      "publishedAt": "2026-11-19T16:41:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "bd68b6e8b27bfe47",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pick-six-biggest-storylines-predictions-heading-nfl-week-11",
-      "title": "Pick Six: Biggest storylines and noteworthy predictions heading into NFL's Week 11",
-      "summary": "Here's everything you need to know about the NFL for Nov. 19",
-      "publishedAt": "2026-11-19T16:36:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "880288f403fba92c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 11",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-19T16:35:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "7949e687189138ea",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50531721/why-field-yates-recommends-benching-emeka-egbuka-week-11",
-      "title": "Why Field Yates recommends benching Emeka Egbuka in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-19T16:34:09Z",
-      "teamIds": []
     }
   ]
 }
