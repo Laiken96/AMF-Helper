@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T19:47:21Z",
+  "updatedAt": "2026-11-21T20:47:24Z",
   "items": [
+    {
+      "id": "46cd6ed2abb049b9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50553035/cardinals-downgrade-qb-carson-beck-josh-johnson-set-start",
+      "title": "Cardinals rule out rookie Carson Beck, turn to 40-year-old Josh Johnson vs. Chiefs",
+      "summary": "Cardinals rookie quarterback Carson Beck has been downgraded to out, paving the way for 40-year-old Josh Johnson to start against the Chiefs.",
+      "publishedAt": "2026-11-21T20:45:48Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "5e9f170fa201fcfa",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-shane-steichen-be-back-in-2027",
+      "title": "Will Shane Steichen be back in 2027?",
+      "summary": "After the 2025 season ended, Colts owner Carlie Irsay-Gordon put both G.M.",
+      "publishedAt": "2026-11-21T20:26:55Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "7b60a4e323f9895b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50552701/sources-steelers-activate-wr-roman-wilson-ir-eagles-game",
+      "title": "Steelers activate WR Roman Wilson off IR for Eagles game",
+      "summary": "The Steelers have activated wide receiver Roman Wilson from injured reserve ahead of Sunday's game against the Eagles.",
+      "publishedAt": "2026-11-21T20:24:24Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "fc6c11af1eba60c4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-rb-tyjae-spears-on-injured-reserve",
+      "title": "Titans place RB Tyjae Spears on injured reserve",
+      "summary": "The Titans have placed running back Tyjae Spears on injured reserve, the team announced.",
+      "publishedAt": "2026-11-21T20:18:57Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "bec59fb0827a1ab7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/carson-beck-back-spasms-josh-johnson-force-cardinals-start-fourth-quarterback-four-weeks",
+      "title": "Cardinals turn to Josh Johnson — fourth starting QB in four weeks — with Carson Beck (back) sidelined",
+      "summary": "Johnson will make his season debut vs. Chiefs, the eighth team he's taken regular-season snaps for.",
+      "publishedAt": "2026-11-21T20:12:19Z",
+      "teamIds": [
+        "22",
+        "12"
+      ]
+    },
+    {
+      "id": "b3ba283bfa81dbcf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-cb-daron-bland-on-injured-reserve",
+      "title": "Cowboys place CB DaRon Bland on injured reserve",
+      "summary": "Cowboys cornerback DaRon Bland injured an ankle in Sunday's loss to the 49ers.",
+      "publishedAt": "2026-11-21T19:58:56Z",
+      "teamIds": [
+        "6",
+        "25"
+      ]
+    },
+    {
+      "id": "e8571c51dc768520",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-downgrade-carson-beck-out-out-josh-johnson-will-start",
+      "title": "Cardinals downgrade Carson Beck to out; Josh Johnson will start",
+      "summary": "As expected, Cardinals rookie quarterback Carson Beck won't be making his second career start on Sunday at Kansas City.",
+      "publishedAt": "2026-11-21T19:47:51Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "7f49e69a8d871a66",
       "source": "pft",
@@ -207,6 +286,24 @@
       "title": "Fantasy football flex and superflex rankings for Week 11",
       "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
       "publishedAt": "2026-11-21T14:12:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 11: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-21T14:10:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "23c15f803b0376fe",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 11: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-21T14:09:58Z",
       "teamIds": []
     },
     {
@@ -1538,104 +1635,6 @@
       "teamIds": [
         "16",
         "25"
-      ]
-    },
-    {
-      "id": "dac9a710cd4e807e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-exploring-possibility-implementing-new-travel-rules-international-games",
-      "title": "NFL exploring possibility of implementing new travel rules for international games",
-      "summary": "NFL teams might have to change the way they travel for international games",
-      "publishedAt": "2026-11-20T15:28:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "691243a3ac06a91b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-almost-4000-in-bonuses-betting-apps-sportsbooks-for-sundays-games",
-      "title": "Week 11 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
-      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-20T15:28:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ccbf2c6b93055cf",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-11-best-bets-player-props-anytime-td-scorers-for-sundays-games",
-      "title": "NFL odds, picks: Brinson's Week 11 best bets, player props, anytime TD scorers for Sunday's games",
-      "summary": "Steer clear of bloated double-digit spreads, grab the extra points with Philadelphia, and count on Dak Prescott to clear his passing total in a shootout",
-      "publishedAt": "2026-11-20T15:26:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "e94d563ae2a4d827",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-odds-lines-spreads-totals",
-      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Steelers-Eagles, 49ers-Vikings, more",
-      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
-      "publishedAt": "2026-11-20T15:19:55Z",
-      "teamIds": [
-        "16",
-        "21",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "c5860766fb0913e3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-set-for-full-practice-on-friday",
-      "title": "Geno Smith set for full practice on Friday",
-      "summary": "Jets quarterback Geno Smith's chances of playing against the Chargers on Sunday are looking good.",
-      "publishedAt": "2026-11-20T15:19:41Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "9c57f66b31fd35ea",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-serving-suspension-while-on-ir-raises-an-important-question",
-      "title": "Puka Nacua serving suspension while on IR raises an important question",
-      "summary": "The news that Rams receiver Puka Nacua will serve a three-game suspension while on injured reserve raised plenty of eyebrows, because on the surface it seems very convenient.",
-      "publishedAt": "2026-11-20T15:10:30Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "784565ce1a674e9d",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-spreads-lines-predictions-best-bets-week-11-2026",
-      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-20T14:40:33Z",
-      "teamIds": [
-        "6",
-        "18"
-      ]
-    },
-    {
-      "id": "4d7c0a0398e5bd13",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-thats-the-last-time-i-go-airborne",
-      "title": "Aidan Hutchinson: That's the last time I go airborne",
-      "summary": "Lions head coach Dan Campbell said he isn't going to tell players to stop celebrating big plays because of defensive end Aidan Hutchinson's torn ACL, but Hutchinson is going to be making some changes on his own.",
-      "publishedAt": "2026-11-20T14:26:24Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "c03cb109c8b52205",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50540924/can-broncos-continue-winning-run-vs-raiders",
-      "title": "Can the Broncos continue winning run vs. the Raiders?",
-      "summary": null,
-      "publishedAt": "2026-11-20T14:18:30Z",
-      "teamIds": [
-        "7"
       ]
     }
   ]
