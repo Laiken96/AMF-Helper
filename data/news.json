@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T09:47:27Z",
+  "updatedAt": "2026-11-21T11:22:25Z",
   "items": [
+    {
+      "id": "2dd7b59d407bf7b5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50541401/eagles-jonathan-greenard-loves-make-plays-record",
+      "title": "Edge Jonathan Greenard loves to makes plays, despite Eagles' standing",
+      "summary": "Greenard speaks on his injury-filled season and outlook for the second half of the year.",
+      "publishedAt": "2026-11-21T11:00:15Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "8785c2eca61f35a3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543897/bengals-amarius-mims-pass-protection-joe-burrow",
+      "title": "Why Amarius Mims is an underrated key to Bengals' success",
+      "summary": "Joe Burrow is on an MVP trajectory, and a big reason is his OL, led by Amarius Mims.",
+      "publishedAt": "2026-11-21T11:00:10Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "8a80e6fef37c47ac",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50545137/steelers-receiver-corps-boost-wilson-pittman-week-11",
+      "title": "How Steelers' wide receiver corps gets big boost in Week 11",
+      "summary": "DK Metcalf and the passing game are poised to get a lift this week with the return of Roman Wilson and Michael Pittman Jr.",
+      "publishedAt": "2026-11-21T11:00:10Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "394e92d80699438e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50533134/las-vegas-raiders-defense-rob-leonard-struggles",
+      "title": "Why is the Raiders' defense struggling, and how can it improve?",
+      "summary": "The Raiders' defense has struggled mightly for weeks, but small steps of progress have been made.",
+      "publishedAt": "2026-11-21T11:00:03Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "688004564a6bbf8a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50522936/giants-abdul-carter-lack-sacks",
+      "title": "Giants' Abdul Carter on lack of sacks: 'I've got to do more'",
+      "summary": "On the surface, the lack of sacks and hard numbers seem insufficient, but dig deeper and it's a different story.",
+      "publishedAt": "2026-11-21T11:00:00Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "b8a0a1a3f4bfd6d7",
       "source": "pft",
@@ -1575,69 +1630,6 @@
       "publishedAt": "2026-11-20T05:24:00Z",
       "teamIds": [
         "13"
-      ]
-    },
-    {
-      "id": "203bf15ff57533cc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-daniel-jones-being-the-starter-well-evaluate-everything",
-      "title": "Shane Steichen on Daniel Jones remaining the starter: \"We'll evaluate everything\"",
-      "summary": "Anthony Richardson could finally get a chance to show what he can do.",
-      "publishedAt": "2026-11-20T05:10:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "944dcaad1e018ad5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50536733/texans-colts-thursday-night-football-cj-stroud-defense",
-      "title": "C.J. Stroud, defense star as Texans get critical win over Colts on TNF",
-      "summary": "C.J. Stroud and a swarming defense helped Houston beat Indy on 'Thursday Night Football.'",
-      "publishedAt": "2026-11-20T04:45:01Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "0651c98e80408343",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-week-11-nfl-picks-odds-expert-picks-predictions",
-      "title": "Prisco's Week 11 NFL picks: Cowboys rout Titans, 49ers over Vikings, Panthers edge Ravens",
-      "summary": "Pete Prisco reveals all of his Week 11 picks, including the Jaguars to handle the Giants on the road",
-      "publishedAt": "2026-11-20T04:33:10Z",
-      "teamIds": [
-        "33",
-        "29",
-        "6",
-        "30",
-        "16",
-        "19",
-        "25",
-        "10"
-      ]
-    },
-    {
-      "id": "ec9f77ac76ecb6aa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873066",
-      "title": "C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
-      "summary": "C.J. Stroud had another big game to help the Houston Texans finally get a victory at home.",
-      "publishedAt": "2026-11-20T04:19:33Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "a1458d128daa8e60",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50537710/texans-improve-4-6-easy-win-colts",
-      "title": "Texans improve to 4-6 with easy win over the Colts",
-      "summary": null,
-      "publishedAt": "2026-11-20T04:18:52Z",
-      "teamIds": [
-        "34",
-        "11"
       ]
     }
   ]
