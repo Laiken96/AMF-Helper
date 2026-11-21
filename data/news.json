@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T22:47:27Z",
+  "updatedAt": "2026-11-21T23:47:29Z",
   "items": [
+    {
+      "id": "e883bb185c90a07a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyren-williams-has-a-toe-injury-is-expected-to-be-ready-for-wednesday",
+      "title": "Kyren Williams has a toe injury, is expected to be ready for Wednesday",
+      "summary": "Another key offensive player for the Rams is dealing with an injury, but it is not expected to keep him from playing against the Packers on Thanksgiving Eve.",
+      "publishedAt": "2026-11-21T22:54:25Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
     {
       "id": "12524354eb6aee97",
       "source": "pft",
@@ -1627,15 +1639,6 @@
       "title": "Field Yates voices his concerns for Saquon Barkley in fantasy",
       "summary": null,
       "publishedAt": "2026-11-20T16:19:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "7434628daa1f07f4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541489/why-field-yates-elevating-omarion-hampton-week-11",
-      "title": "Why Field Yates is elevating Omarion Hampton in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:15:42Z",
       "teamIds": []
     }
   ]
