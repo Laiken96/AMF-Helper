@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T15:47:23Z",
+  "updatedAt": "2026-11-21T16:47:25Z",
   "items": [
+    {
+      "id": "2c0ce9d2467fd3a5",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-almost-4000-in-bonuses-betting-apps-sportsbooks-sundays-games",
+      "title": "Week 11 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
+      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-21T15:57:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "d160ba6609fba0c9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/how-to-watch-49ers-vikings-tv-streaming-betting-odds-sunday-night-football-clash",
+      "title": "How to watch 49ers vs. Vikings in Mexico City: TV, streaming, betting odds for 'Sunday Night Football' clash",
+      "summary": "The NFC-leading 49ers face the Vikings in a Mexico City duel at Estadio Azteca",
+      "publishedAt": "2026-11-21T15:47:28Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "0dc31c79deb35cb8",
       "source": "cbs",
@@ -1612,27 +1633,6 @@
       "title": "Need fantasy football trade deadline advice? Join our live Q&A, noon ET",
       "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
       "publishedAt": "2026-11-20T12:51:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "5c53829917cfa50c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50532737/fantasy-football-start-sit-sleepers-breakouts-week-10",
-      "title": "Fantasy football: Don't be surprised if Likely is TE1, Gainwell finishes strong",
-      "summary": "Eric Karabell explains why the Giants' TE could top the position and the Bucs' No. 2 RB will finish strong.",
-      "publishedAt": "2026-11-20T12:46:50Z",
-      "teamIds": [
-        "19",
-        "27"
-      ]
-    },
-    {
-      "id": "a70c992830e3ffda",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50531472/fantasy-football-start-sit-week-11-need-know",
-      "title": "What to know to set your lineup: Nix, Ward viable options if your QB is on bye",
-      "summary": "Adam Rank catches you up on the vital information and insights before you make your toughest lineup decisions.",
-      "publishedAt": "2026-11-20T12:40:11Z",
       "teamIds": []
     }
   ]
