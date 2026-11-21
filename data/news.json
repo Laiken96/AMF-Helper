@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T18:47:28Z",
+  "updatedAt": "2026-11-21T19:26:36Z",
   "items": [
+    {
+      "id": "7f49e69a8d871a66",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-wr-mike-evans-is-set-for-his-return-on-sunday",
+      "title": "49ers WR Mike Evans is \"set for his return\" on Sunday",
+      "summary": "Evans last played in Week 6, due to an Achilles injury.",
+      "publishedAt": "2026-11-21T19:09:49Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "6b851157bc3b51d1",
       "source": "espn",
@@ -9,6 +20,17 @@
       "title": "Titans DL Jaylen Harrell hospitalized after car accident in Tampa",
       "summary": "Titans defensive lineman Jaylen Harrell was involved in a serious car accident Friday and remains hospitalized, according to the team.",
       "publishedAt": "2026-11-21T18:31:47Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "137eb1124607a715",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/titans-jaylen-harrell-car-accident-hospital-tampa",
+      "title": "Titans' Jaylen Harrell hospitalized after serious car accident, remains in hospital in Tampa",
+      "summary": "The Titans said edge defender Jaylen Harrell remains hospitalized and is receiving care after a serious car accident Friday night in his hometown of Tampa",
+      "publishedAt": "2026-11-21T18:09:36Z",
       "teamIds": [
         "10"
       ]
@@ -166,6 +188,24 @@
       "teamIds": [
         "30"
       ]
+    },
+    {
+      "id": "880288f403fba92c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 11",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-21T14:12:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "379dfb31b68bfa2b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 11: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-21T14:07:04Z",
+      "teamIds": []
     },
     {
       "id": "6e5975a9daec3d1e",
@@ -650,6 +690,20 @@
       "publishedAt": "2026-11-20T21:05:14Z",
       "teamIds": [
         "2"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Does anything change in Indy with Richardson under center?",
+      "summary": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
+      "publishedAt": "2026-11-20T21:04:02Z",
+      "teamIds": [
+        "33",
+        "34",
+        "11",
+        "24"
       ]
     },
     {
@@ -1590,51 +1644,6 @@
       "title": "Fantasy football rankings for Week 11: Running back",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-20T13:49:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "4594dcf9aa19a0b5",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 11: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-20T13:49:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "85feab4ffaae9dd1",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 11: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-20T13:49:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "70ae9ffb76718140",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 11: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-20T13:48:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "64ab5603ce63fa91",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 11: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-20T13:48:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "92ce5dff7e1a00b3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 11: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-20T13:47:46Z",
       "teamIds": []
     }
   ]
