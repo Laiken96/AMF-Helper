@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T20:47:24Z",
+  "updatedAt": "2026-11-21T21:47:24Z",
   "items": [
+    {
+      "id": "b093d6924b81076a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-waive-wr-brandin-cooks",
+      "title": "49ers waive WR Brandin Cooks",
+      "summary": "The 49ers announced a couple of roster moves ahead of Sunday's game against the Vikings in Mexico City.",
+      "publishedAt": "2026-11-21T21:38:19Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "9b128243775206cc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-activate-cb-mike-jackson",
+      "title": "Panthers activate CB Mike Jackson",
+      "summary": "Cornerback Mike Jackson declared himself ready to return to action earlier this week and the Panthers officially added him to the roster on Saturday.",
+      "publishedAt": "2026-11-21T21:32:11Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "ccf8512f19e5b388",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-cade-mays-on-injured-reserve",
+      "title": "Lions place Cade Mays on injured reserve",
+      "summary": "The Lions placed center Cade Mays on injured reserve for the second time this season on Saturday.",
+      "publishedAt": "2026-11-21T21:17:49Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "379a19e4013cc474",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-list-jacory-croskey-merritt-rachaad-white-as-questionable-for-monday",
+      "title": "Commanders list Jacory Croskey-Merritt, Rachaad White as questionable for Monday",
+      "summary": "The Commanders have a pair of running backs with questionable designations for Monday night's game against the Bengals.",
+      "publishedAt": "2026-11-21T21:11:52Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "564e75fd5118c8c5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-put-lb-zack-baun-wr-dontayvion-wicks-on-ir",
+      "title": "Eagles put LB Zack Baun, WR Dontayvion Wicks on IR",
+      "summary": "The Eagles won't have linebacker Zack Baun and wide receiver Dontayvion Wicks for their next four games.",
+      "publishedAt": "2026-11-21T21:06:02Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "f8c3c39a16d61760",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-wr-roman-wilson",
+      "title": "Steelers activate WR Roman Wilson",
+      "summary": "Wide receiver Roman Wilson will be back in the Steelers' lineup for Sunday's game against the Eagles.",
+      "publishedAt": "2026-11-21T21:00:58Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
     {
       "id": "46cd6ed2abb049b9",
       "source": "espn",
@@ -167,6 +236,15 @@
       "title": "South Carolina legend Alshon Jeffery discusses Georgia rivalry",
       "summary": "Jeffery joins SEC Network's Marion Crowder on SEC Nation to preview the Gamecocks' matchup against the Bulldogs and explain how Shane Beamer recruited him to South Carolina.",
       "publishedAt": "2026-11-21T17:13:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ccbf2c6b93055cf",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-11-best-bets-player-props-anytime-td-scorers-for-sundays-games",
+      "title": "NFL odds, picks: Brinson's Week 11 best bets, player props, anytime TD scorers for Sunday's games",
+      "summary": "Steer clear of bloated double-digit spreads, grab the extra points with Philadelphia, and count on Dak Prescott to clear his passing total in a shootout",
+      "publishedAt": "2026-11-21T16:43:15Z",
       "teamIds": []
     },
     {
@@ -1560,81 +1638,6 @@
       "publishedAt": "2026-11-20T16:14:39Z",
       "teamIds": [
         "4"
-      ]
-    },
-    {
-      "id": "547da89a2baaf0b9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-protect-college-sports-act-proponents-are-getting-desperate",
-      "title": "The Protect College Sports Act proponents are getting desperate",
-      "summary": "As the Protect College Sports Act languishes in the lame-duck session of the U.S.",
-      "publishedAt": "2026-11-20T16:09:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "27e69be1622eca61",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-aidan-hutchinson-speaks-out-freak-injury-celebration",
-      "title": "Aidan Hutchinson speaks out on freak injury celebration: 'That's the last time I go airborne'",
-      "summary": "Hutchinson tore his ACL while celebrating a sack of New England's Drake Maye",
-      "publishedAt": "2026-11-20T15:51:05Z",
-      "teamIds": []
-    },
-    {
-      "id": "b6a4c6605ff7acfb",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541437/why-stephen-picking-vikings-beat-49ers-snf",
-      "title": "Why Stephen A. is picking the Vikings to beat the 49ers on SNF",
-      "summary": null,
-      "publishedAt": "2026-11-20T15:47:43Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "085d8059563d54ea",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541129/cj-stroud-top-5-afc-qb",
-      "title": "Dan Orlovsky: C.J. Stroud is a top-5 AFC QB",
-      "summary": null,
-      "publishedAt": "2026-11-20T15:35:14Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "01ed7a3238f2cb23",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50541172/fantasy-football-hall-fame-peyton-manning",
-      "title": "Peyton Manning enshrined in ESPN Fantasy Football Hall of Fame",
-      "summary": "Peyton Manning, who retired as the top scorer of the ESPN fantasy football era, is the latest inductee in the ESPN Fantasy Football Hall of Fame.",
-      "publishedAt": "2026-11-20T15:35:04Z",
-      "teamIds": [
-        "7",
-        "11"
-      ]
-    },
-    {
-      "id": "995040ba979facf3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-jahmyr-gibbs-laying-early-foundation-for-rb-goat-case",
-      "title": "Lions' Jahmyr Gibbs laying early foundation for one of the best running back careers ever",
-      "summary": "Gibbs is only 3.5 years into his NFL career, and he's on a few different record-breaking paces",
-      "publishedAt": "2026-11-20T15:34:44Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "bf73d2eb06a483c4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-practicing-at-altitude-was-the-right-move-for-sure",
-      "title": "Brock Purdy: Practicing at altitude was the right move, for sure",
-      "summary": "When the 49ers play the Vikings this weekend, they'll do so at the altitude of Mexico City at Estadio Banorte.",
-      "publishedAt": "2026-11-20T15:32:08Z",
-      "teamIds": [
-        "16",
-        "25"
       ]
     }
   ]
