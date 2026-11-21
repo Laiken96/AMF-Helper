@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T19:26:36Z",
+  "updatedAt": "2026-11-21T19:47:21Z",
   "items": [
     {
       "id": "7f49e69a8d871a66",
@@ -11,6 +11,17 @@
       "publishedAt": "2026-11-21T19:09:49Z",
       "teamIds": [
         "25"
+      ]
+    },
+    {
+      "id": "f45699d5e82dd0c7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nba/news/carmelo-anthony-marlon-humphrey-controversial-baltimore-criminals-comment",
+      "title": "Carmelo Anthony calls out Ravens' Marlon Humphrey after controversial Baltimore 'criminals' comment",
+      "summary": "Anthony spent his formative years growing up in Baltimore and wasn't going to let Humphrey's comments slide",
+      "publishedAt": "2026-11-21T18:50:04Z",
+      "teamIds": [
+        "33"
       ]
     },
     {
@@ -196,6 +207,42 @@
       "title": "Fantasy football flex and superflex rankings for Week 11",
       "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
       "publishedAt": "2026-11-21T14:12:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "4594dcf9aa19a0b5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 11: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-21T14:09:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "85feab4ffaae9dd1",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 11: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-21T14:09:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "64ab5603ce63fa91",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 11: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-21T14:08:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "92ce5dff7e1a00b3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 11: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-21T14:08:15Z",
       "teamIds": []
     },
     {
@@ -1590,61 +1637,6 @@
       "teamIds": [
         "7"
       ]
-    },
-    {
-      "id": "c23f1e5b1fa19f5a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-picks-best-bets-49ers-vikings-bengals-commanders",
-      "title": "NFL Week 11 picks, best bets: Why 49ers beat Vikings in primetime, Bengals cover vs. Commanders",
-      "summary": "Jordan Dajani gives his picks for Week 11 of the 2026 NFL season",
-      "publishedAt": "2026-11-20T14:12:10Z",
-      "teamIds": [
-        "4",
-        "16",
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "f1e7ed0fe2e24a4e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-bold-predictions-fernando-mendoza-raiders-broncos",
-      "title": "Week 11 bold predictions: Fernando Mendoza upsets Broncos, Tony Pollard breaks Cowboys",
-      "summary": "Plus, Jahmyr Gibbs dominates Tampa Bay's No. 1 run defense",
-      "publishedAt": "2026-11-20T13:57:35Z",
-      "teamIds": [
-        "6",
-        "7"
-      ]
-    },
-    {
-      "id": "22a49b6e1fb78332",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/c-j-stroud-texans-playoffs-nfl-college-football-picks-nba-disappointments",
-      "title": "C.J. Stroud keeps Texans' playoff hopes alive; CFB Week 12 picks; NBA's biggest disappointments",
-      "summary": "Plus, Puka Nacua draws a three-game suspension and NBA trade rumors swirl",
-      "publishedAt": "2026-11-20T13:52:53Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 11: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-20T13:50:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "23c15f803b0376fe",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 11: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-20T13:49:48Z",
-      "teamIds": []
     }
   ]
 }

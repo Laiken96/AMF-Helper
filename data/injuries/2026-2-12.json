@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-21T17:47:29Z",
+    "takenAt": "2026-11-21T19:47:20Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2208,7 +2208,7 @@
             "roles": [
               "qb"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "2976212",
@@ -2515,7 +2515,7 @@
       "teamAbbr": "ARI",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     }
   ]
 }
