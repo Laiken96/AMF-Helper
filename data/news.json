@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T12:47:26Z",
+  "updatedAt": "2026-11-21T13:47:24Z",
   "items": [
+    {
+      "id": "69371e0bab3a9fbf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-owner-mark-davis-hated-the-madden-movie",
+      "title": "Raiders owner Mark Davis hated the Madden movie",
+      "summary": "Did anyone read the script before allowing the Raiders' name and logo to be used?",
+      "publishedAt": "2026-11-21T13:12:50Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "32ed1b143a1a99a3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/tom-brady-says-its-obvious-who-nfls-best-quarterback-is-right-now",
+      "title": "Tom Brady says it's 'obvious' who the NFL's best quarterback is right now: 'Numbers don't lie'",
+      "summary": "There is one QB who's playing at a higher level than any other QB in the league right now, according to Brady",
+      "publishedAt": "2026-11-21T13:01:35Z",
+      "teamIds": []
+    },
     {
       "id": "0e595d573d7e3588",
       "source": "pft",
@@ -127,7 +147,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
       "title": "Carmelo Anthony calls out Ravens' Humphrey over Baltimore 'criminals' remark",
-      "summary": "Former NBA star Carmelo Anthony addressed Ravens CB Marlon Humphrey on Friday, challenging him to do more than apologize after he said Baltimore was \"best at making criminals.\"",
+      "summary": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making criminals.\"",
       "publishedAt": "2026-11-21T09:14:19Z",
       "teamIds": [
         "33"
@@ -1608,28 +1628,6 @@
       "publishedAt": "2026-11-20T11:00:10Z",
       "teamIds": [
         "6"
-      ]
-    },
-    {
-      "id": "02016a8a359d7907",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535497/jacksonville-jaguars-bhayshul-tuten-rb-stats-fantasy",
-      "title": "How Bhayshul Tuten became the clear No. 1 running back for the Jaguars",
-      "summary": "After a lackluster rookie season, Tuten ranks 14th in NFL in rushing yards entering Sunday's game against the Giants.",
-      "publishedAt": "2026-11-20T11:00:03Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "921f173ff41c5e6c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50531651/vikings-49ers-mexico-city-elevation-minnesota",
-      "title": "How Vikings brought Mexico City's elevation to Minnesota",
-      "summary": "Rather than spending the week in high altitude like Denver, the Vikings trained in a facility at home.",
-      "publishedAt": "2026-11-20T11:00:01Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]
