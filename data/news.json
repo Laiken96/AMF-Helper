@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T23:47:22Z",
+  "updatedAt": "2026-11-21T00:47:33Z",
   "items": [
+    {
+      "id": "24ba392cefd93cfd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-listed-as-questionable-but-josh-johnson-is-expected-to-start",
+      "title": "Carson Beck listed as questionable, but Josh Johnson is expected to start",
+      "summary": "Josh Johnson is expected to start Sunday's game against the Chiefs, but the Cardinals have not ruled out Carson Beck.",
+      "publishedAt": "2026-11-21T00:08:19Z",
+      "teamIds": [
+        "22",
+        "12"
+      ]
+    },
+    {
+      "id": "9851fa75eb09b2d4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/49ers-lose-shot-breaking-nfl-record-most-miles-traveled-week-11-travel-detour",
+      "title": "49ers lose shot at breaking NFL record for most miles traveled due to Week 11 travel detour en route to Mexico",
+      "summary": "The 49ers are taking a detour in Week 11 that's going to cost them the NFL record for most miles traveled",
+      "publishedAt": "2026-11-20T23:51:41Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "e3ebdda1a22047fa",
       "source": "espn",
@@ -1617,28 +1640,6 @@
       "teamIds": [
         "16",
         "25"
-      ]
-    },
-    {
-      "id": "9d260cc83a00dcd1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rookie-te-marlin-klein-scores-first-career-td-texans-lead-26-3",
-      "title": "Rookie TE Marlin Klein scores first career TD, Texans lead 26-3",
-      "summary": "C.J.",
-      "publishedAt": "2026-11-20T03:32:23Z",
-      "teamIds": [
-        "34"
-      ]
-    },
-    {
-      "id": "3b7250bf09f00c17",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacuas-suspension-arises-from-diversion-program",
-      "title": "Puka Nacua's suspension arises from diversion program",
-      "summary": "The NFL's statement announcing the three-game suspension for Rams receiver Puka Nacua didn't specify the reason for it.",
-      "publishedAt": "2026-11-20T03:20:53Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
