@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T04:47:37Z",
+  "updatedAt": "2026-11-21T09:47:27Z",
   "items": [
+    {
+      "id": "b8a0a1a3f4bfd6d7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-saw-something-in-liam-coen-that-other-teams-didnt",
+      "title": "Jaguars saw something in Liam Coen that other teams didn't",
+      "summary": "The Jaguars identified Coen as their No. 1 candidate and re-shaped their front office to get him, at a time when other teams weren't even interviewing him.",
+      "publishedAt": "2026-11-21T09:37:45Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "44a678184ac8fa02",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
+      "title": "Carmelo Anthony calls out Ravens' Humphrey over Baltimore 'criminals' remark",
+      "summary": "Former NBA star Carmelo Anthony addressed Ravens CB Marlon Humphrey on Friday, challenging him to do more than apologize after he said Baltimore was \"best at making criminals.\"",
+      "publishedAt": "2026-11-21T09:14:19Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "b2aa4042e750a17e",
       "source": "pft",
@@ -1616,29 +1638,6 @@
       "teamIds": [
         "34",
         "11"
-      ]
-    },
-    {
-      "id": "91512c2504aac64c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-texans-beat-up-on-colts-26-3",
-      "title": "Thursday Night Football: Texans beat up on Colts, 26-3",
-      "summary": "The Texans moved to 4-6 to keep their slim playoff hopes alive.",
-      "publishedAt": "2026-11-20T04:13:10Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "837742b0bb1288f4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-says-knee-injury-wont-keep-him-from-playing",
-      "title": "Jeffery Simmons says knee injury won't keep him from playing",
-      "summary": "Bears defensive tackle Jeffery Simmons emerged from the bye week that has had him limited in practice this week.",
-      "publishedAt": "2026-11-20T04:05:56Z",
-      "teamIds": [
-        "3"
       ]
     }
   ]
