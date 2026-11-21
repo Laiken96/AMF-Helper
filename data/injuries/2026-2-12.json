@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-20T22:47:21Z",
+    "takenAt": "2026-11-21T17:47:29Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1434,7 +1434,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Doubtful"
+            "status": null
           },
           {
             "athleteId": "15847",
@@ -2416,16 +2416,6 @@
       "kind": "wechsel",
       "from": "Questionable",
       "to": "Out"
-    },
-    {
-      "gameId": "401873082",
-      "athleteId": "4385690",
-      "name": "Dalton Kincaid",
-      "pos": "TE",
-      "teamAbbr": "BUF",
-      "kind": "neu",
-      "from": null,
-      "to": "Doubtful"
     },
     {
       "gameId": "401873083",

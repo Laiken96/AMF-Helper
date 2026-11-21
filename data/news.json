@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T16:47:25Z",
+  "updatedAt": "2026-11-21T17:47:31Z",
   "items": [
+    {
+      "id": "7fa98fc44ce18e49",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-rule-out-nick-herbig",
+      "title": "Steelers rule out Nick Herbig",
+      "summary": "The Steelers will not have linebacker Nick Herbig against the Eagles.",
+      "publishedAt": "2026-11-21T17:29:50Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "376254a4528c9440",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50550852/south-carolina-legend-alshon-jeffery-discusses-georgia-rivalry",
+      "title": "South Carolina legend Alshon Jeffery discusses Georgia rivalry",
+      "summary": "Jeffery joins SEC Network's Marion Crowder on SEC Nation to preview the Gamecocks' matchup against the Bulldogs and explain how Shane Beamer recruited him to South Carolina.",
+      "publishedAt": "2026-11-21T17:13:41Z",
+      "teamIds": []
+    },
     {
       "id": "2c0ce9d2467fd3a5",
       "source": "cbs",
@@ -1612,27 +1633,6 @@
       "title": "Fantasy football flex and superflex rankings for Week 11",
       "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
       "publishedAt": "2026-11-20T13:22:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "681e1ef310fabf56",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-cowboys-vikings-part-of-week-11-parlays-involving-favorites-underdogs",
-      "title": "NFL odds, picks, predictions: Cowboys, Vikings part of Week 11 parlays involving favorites, underdogs",
-      "summary": "SportsLine football expert Mike Tierney locks in his top parlays for Week 11 NFL games",
-      "publishedAt": "2026-11-20T13:01:34Z",
-      "teamIds": [
-        "6",
-        "16"
-      ]
-    },
-    {
-      "id": "6c0be3295b9ef02c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50530738/fantasy-football-start-sit-lineup-advice-week-11",
-      "title": "Need fantasy football trade deadline advice? Join our live Q&A, noon ET",
-      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
-      "publishedAt": "2026-11-20T12:51:48Z",
       "teamIds": []
     }
   ]
