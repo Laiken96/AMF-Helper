@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-21T14:47:29Z",
+  "updatedAt": "2026-11-21T15:47:20Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -286,14 +286,14 @@
       "kickoffUtc": "2026-11-23T01:20:00Z",
       "odds": {
         "provider": "Draft Kings",
-        "spreadHome": -3.5,
+        "spreadHome": -3,
         "overUnder": 46.5,
-        "fetchedAt": "2026-11-21T14:47:29Z"
+        "fetchedAt": "2026-11-21T15:47:20Z"
       },
-      "pHome": 0.6023,
+      "pHome": 0.5879,
       "pickTeamId": "25",
-      "pickProb": 0.6023,
-      "level": "favorit",
+      "pickProb": 0.5879,
+      "level": "unklar",
       "deviation": false,
       "firstPickTeamId": "25",
       "firstOdds": {
