@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T00:47:33Z",
+  "updatedAt": "2026-11-21T03:47:19Z",
   "items": [
+    {
+      "id": "679a35eef55aacc8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nicolas-cage-on-his-john-madden-misfire-im-not-frank-caliendo",
+      "title": "Nicolas Cage on his John Madden misfire: \"I'm not Frank Caliendo\"",
+      "summary": "This whole thing is antithetical to my identity.",
+      "publishedAt": "2026-11-21T02:58:24Z",
+      "teamIds": []
+    },
     {
       "id": "24ba392cefd93cfd",
       "source": "pft",
@@ -1629,18 +1638,6 @@
       "summary": "Pro Football Hall of Fame linebacker Jack Ham announced he will return to the Penn State radio booth on Saturday, two weeks after a medical emergency.",
       "publishedAt": "2026-11-20T03:55:24Z",
       "teamIds": []
-    },
-    {
-      "id": "d740b42691a98d6b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-explored-all-options-before-deciding-to-stay-in-minnesota-this-week",
-      "title": "Vikings explored all options before deciding to stay in Minnesota this week",
-      "summary": "As Sunday's Mexico City game between the Vikings and 49ers approaches, one of the big issues is the decision of the 49ers to spend the week at altitude in Colorado Springs while the Vikings opted to stay in Minnesota.",
-      "publishedAt": "2026-11-20T03:48:51Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
     }
   ]
 }
