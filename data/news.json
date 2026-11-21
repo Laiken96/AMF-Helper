@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T21:47:24Z",
+  "updatedAt": "2026-11-21T22:47:27Z",
   "items": [
+    {
+      "id": "12524354eb6aee97",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-fined-23-882-for-block-the-league-used-as-a-highlight",
+      "title": "CeeDee Lamb fined $23,882 for block the league used as a highlight",
+      "summary": "Lamb was praised for the block by the league's website and by Tom Brady, but the disciplinary process said he used his helmet.",
+      "publishedAt": "2026-11-21T22:12:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "d26405c27cee48f3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-rule-out-dalton-risner-list-dax-hill-and-dylan-fairchild-as-questionable",
+      "title": "Bengals rule out Dalton Risner, list Dax Hill and Dylan Fairchild as questionable",
+      "summary": "The Bengals may be without both of their starting guards on Monday night.",
+      "publishedAt": "2026-11-21T21:46:22Z",
+      "teamIds": [
+        "4"
+      ]
+    },
     {
       "id": "b093d6924b81076a",
       "source": "pft",
@@ -1617,28 +1637,6 @@
       "summary": null,
       "publishedAt": "2026-11-20T16:15:42Z",
       "teamIds": []
-    },
-    {
-      "id": "9f2321dc48afb593",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/in-kansas-city-kenneth-walker-iii-run-game-completely-transformed-chiefs-offense-super-bowl",
-      "title": "In Kansas City, Kenneth Walker III and the run game makes the Chiefs contenders again",
-      "summary": "One of the league's most explosive running backs has the Chiefs looking like their old Super Bowl-winning selves.",
-      "publishedAt": "2026-11-20T16:15:17Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "ecab204a04e88262",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541578/why-stephen-thinks-special-joe-burrow-mvp-front-runner",
-      "title": "Why Stephen A. thinks 'special' Joe Burrow is the MVP front-runner",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:14:39Z",
-      "teamIds": [
-        "4"
-      ]
     }
   ]
 }
