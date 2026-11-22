@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T16:40:38Z",
+    "takenAt": "2026-11-22T16:41:25Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1150,7 +1150,18 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
+          },
+          {
+            "athleteId": "4428512",
+            "name": "Kedon Slovis",
+            "pos": "QB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4429615",
@@ -1385,7 +1396,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4567750",
@@ -1481,7 +1492,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -1510,7 +1521,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4870795",
@@ -1522,6 +1533,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4879250",
+            "name": "Cole Payton",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "8439",
@@ -1985,24 +2007,44 @@
       "to": "Out"
     },
     {
-      "gameId": "401873073",
-      "athleteId": "4871023",
-      "name": "Carnell Tate",
-      "pos": "WR",
-      "teamAbbr": "TEN",
+      "gameId": "401873068",
+      "athleteId": "3916387",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
+      "gameId": "401873068",
+      "athleteId": "4428512",
+      "name": "Kedon Slovis",
+      "pos": "QB",
+      "teamAbbr": "BAL",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
+    },
+    {
+      "gameId": "401873072",
+      "athleteId": "3052587",
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "teamAbbr": "TB",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873076",
-      "athleteId": "4040715",
-      "name": "Jalen Hurts",
+      "athleteId": "4879250",
+      "name": "Cole Payton",
       "pos": "QB",
       "teamAbbr": "PHI",
       "kind": "neu",
       "from": null,
-      "to": "Injured Reserve"
+      "to": "Out"
     },
     {
       "gameId": "401873074",
