@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T21:30:56Z",
+    "takenAt": "2026-11-22T21:40:46Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1639,7 +1639,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4038941",
@@ -1677,17 +1677,6 @@
             "status": null
           },
           {
-            "athleteId": "4427366",
-            "name": "Breece Hall",
-            "pos": "RB",
-            "teamId": "20",
-            "teamAbbr": "NYJ",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4597500",
             "name": "Adonai Mitchell",
             "pos": "WR",
@@ -1695,6 +1684,17 @@
             "teamAbbr": "NYJ",
             "roles": [
               "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685247",
+            "name": "Braelon Allen",
+            "pos": "RB",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "rushing"
             ],
             "status": null
           }
@@ -1737,6 +1737,29 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4433970",
+            "name": "J.J. McCarthy",
+            "pos": "QB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4696981",
+            "name": "Cam Skattebo",
+            "pos": "RB",
+            "teamId": "19",
+            "teamAbbr": "NYG",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           }
         ]
       },
@@ -1763,7 +1786,8 @@
             "teamAbbr": "DEN",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -1779,13 +1803,26 @@
             "status": null
           },
           {
-            "athleteId": "4702555",
-            "name": "Jonah Coleman",
-            "pos": "RB",
-            "teamId": "7",
-            "teamAbbr": "DEN",
+            "athleteId": "4837248",
+            "name": "Fernando Mendoza",
+            "pos": "QB",
+            "teamId": "13",
+            "teamAbbr": "LV",
             "roles": [
-              "rushing"
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4890973",
+            "name": "Ashton Jeanty",
+            "pos": "RB",
+            "teamId": "13",
+            "teamAbbr": "LV",
+            "roles": [
+              "rushing",
+              "receiving"
             ],
             "status": null
           }
@@ -2082,6 +2119,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873074",
+      "athleteId": "3123076",
+      "name": "David Njoku",
+      "pos": "TE",
+      "teamAbbr": "LAC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873075",
