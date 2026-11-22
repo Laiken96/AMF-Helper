@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T16:41:25Z",
+    "takenAt": "2026-11-22T16:50:35Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1289,6 +1289,17 @@
         "kickoffUtc": "2026-11-22T18:00:00Z",
         "players": [
           {
+            "athleteId": "15168",
+            "name": "Case Keenum",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
             "pos": "RB",
@@ -1334,6 +1345,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4361259",
+            "name": "Zach Wilson",
+            "pos": "QB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4361370",
@@ -2022,6 +2044,26 @@
       "name": "Kedon Slovis",
       "pos": "QB",
       "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873071",
+      "athleteId": "4361259",
+      "name": "Zach Wilson",
+      "pos": "QB",
+      "teamAbbr": "NO",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873071",
+      "athleteId": "15168",
+      "name": "Case Keenum",
+      "pos": "QB",
+      "teamAbbr": "CHI",
       "kind": "neu",
       "from": null,
       "to": "Out"
