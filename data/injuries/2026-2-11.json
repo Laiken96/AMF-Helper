@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T17:01:04Z",
+    "takenAt": "2026-11-22T17:40:34Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1121,7 +1121,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4567747",
@@ -2038,16 +2038,6 @@
       "name": "Riley Leonard",
       "pos": "QB",
       "teamAbbr": "IND",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
-    },
-    {
-      "gameId": "401873067",
-      "athleteId": "4567048",
-      "name": "Kenneth Walker III",
-      "pos": "RB",
-      "teamAbbr": "KC",
       "kind": "neu",
       "from": null,
       "to": "Out"
