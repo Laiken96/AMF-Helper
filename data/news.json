@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T15:47:25Z",
+  "updatedAt": "2026-11-22T16:23:31Z",
   "items": [
+    {
+      "id": "a7286b40a2a382b1",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/daniel-jones-release-colts-qb-ravens-nfl-trade-deadline",
+      "title": "Why the Daniel Jones release looks even worse for Colts after reported Ravens offer",
+      "summary": "Indianapolis reportedly rejected a trade offer from Baltimore at the deadline, only to release its $88 million quarterback two weeks later",
+      "publishedAt": "2026-11-22T16:07:35Z",
+      "teamIds": [
+        "33",
+        "11"
+      ]
+    },
+    {
+      "id": "08144e3b86df8643",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-upset-alert-predictions-steelers-titans-cowboys",
+      "title": "NFL Week 11 upset alert: Can Titans shock Cowboys? Two straight losses for Steelers?",
+      "summary": "The Jets could also send the Chargers back into the loss column",
+      "publishedAt": "2026-11-22T15:55:42Z",
+      "teamIds": [
+        "6",
+        "24",
+        "20",
+        "23",
+        "10"
+      ]
+    },
+    {
+      "id": "fc7f7f2c06c06c07",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/jaguars-vs-giants-odds-picks-prediction-spread-start-time-betting-preview-best-bets-nfl-week-11",
+      "title": "Jaguars vs. Giants odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
+      "summary": "Here's everything bettors need to know for Jaguars vs. Giants in NFL Week 11",
+      "publishedAt": "2026-11-22T15:54:55Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
     {
       "id": "9fb6a2d0d3883a1f",
       "source": "espn",
@@ -10,6 +49,18 @@
       "summary": null,
       "publishedAt": "2026-11-22T15:44:39Z",
       "teamIds": []
+    },
+    {
+      "id": "389ceb903bea6333",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/vikings-vs-49ers-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city",
+      "title": "Vikings vs. 49ers prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
+      "summary": "Best bets and betting preview for 49ers vs. Vikings on Sunday Night Football in Mexico City",
+      "publishedAt": "2026-11-22T15:41:50Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
     },
     {
       "id": "b5e40121033e7444",
@@ -1603,49 +1654,6 @@
       "publishedAt": "2026-11-20T20:18:00Z",
       "teamIds": [
         "17"
-      ]
-    },
-    {
-      "id": "f8a17cc2b9913732",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-rule-out-kenneth-walker-trey-smith-jaylon-moore",
-      "title": "Chiefs rule out Kenneth Walker, Trey Smith, Jaylon Moore",
-      "summary": "The Chiefs will be without running back Kenneth Walker again this weekend.",
-      "publishedAt": "2026-11-20T20:16:44Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "d272805f285b6b0c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542891/ravens-rule-dt-nnamdi-madubuike-hamstring-vs-panthers",
-      "title": "Ravens rule out DT Nnamdi Madubuike (hamstring) vs Panthers",
-      "summary": "Ravens defensive tackle Nnamdi Madubuike has a hamstring injury and has been ruled out for Sunday's game against the Panthers.",
-      "publishedAt": "2026-11-20T20:14:01Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "c49039ac1b787978",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 11 betting odds: Lines and totals for every game",
-      "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
-      "publishedAt": "2026-11-20T20:13:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "393d0562f714109a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-pittman-patrick-queen-among-steelers-questionable-for-week-11",
-      "title": "Michael Pittman, Patrick Queen among Steelers questionable for Week 11",
-      "summary": "The Steelers have several players listed as questionable for Sunday's game against the Eagles.",
-      "publishedAt": "2026-11-20T20:10:33Z",
-      "teamIds": [
-        "21",
-        "23"
       ]
     }
   ]

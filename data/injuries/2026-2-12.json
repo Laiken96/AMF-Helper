@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T15:47:23Z",
+    "takenAt": "2026-11-22T16:23:29Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1383,7 +1383,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4870795",
@@ -2393,16 +2393,6 @@
       "name": "Puka Nacua",
       "pos": "WR",
       "teamAbbr": "LAR",
-      "kind": "neu",
-      "from": null,
-      "to": "Injured Reserve"
-    },
-    {
-      "gameId": "401873080",
-      "athleteId": "4040715",
-      "name": "Jalen Hurts",
-      "pos": "QB",
-      "teamAbbr": "PHI",
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
