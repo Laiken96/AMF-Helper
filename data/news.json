@@ -1,7 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T01:47:25Z",
+  "updatedAt": "2026-11-22T02:47:24Z",
   "items": [
+    {
+      "id": "503db1bf0f9826bc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/knee-surgery-complicates-puka-nacuas-future",
+      "title": "Knee surgery complicates Puka Nacua's future",
+      "summary": "Timeline for recovery make mean he won't be 100 percent before free agency.",
+      "publishedAt": "2026-11-22T02:37:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "40bd9435e07e9fd4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfc-north-continues-its-historic-dominance",
+      "title": "NFC North continues its historic dominance",
+      "summary": "They're 27-10 overall, and 21-4 in games outside the division.",
+      "publishedAt": "2026-11-22T02:01:16Z",
+      "teamIds": []
+    },
     {
       "id": "3d2766f99423900d",
       "source": "espn",
@@ -11,6 +29,18 @@
       "publishedAt": "2026-11-22T01:46:34Z",
       "teamIds": [
         "14"
+      ]
+    },
+    {
+      "id": "305dcb188eb8e961",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-game-spreads-betting-lines-predictions-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-22T01:41:29Z",
+      "teamIds": [
+        "6",
+        "18"
       ]
     },
     {
@@ -1616,37 +1646,6 @@
       "summary": "Build a winning DFS lineup with our DraftKings NFL Week 11 cheat sheet identifying the best stacks and values",
       "publishedAt": "2026-11-20T17:02:42Z",
       "teamIds": []
-    },
-    {
-      "id": "2dbac8e95073b117",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-49ers-dl-osa-odighizuwa-their-community-mvp-for-week-11",
-      "title": "NFLPA names 49ers DL Osa Odighizuwa their Community MVP for Week 11",
-      "summary": "The NFL Players Association announced on Friday that they have named 49ers defensive lineman Osa Odighizuwa as their Community MVP for Week 11.",
-      "publishedAt": "2026-11-20T17:02:10Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "33c7c86eacdb9e96",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541756/closing-my-eyes-taking-arch-manning-no-1-nfl-draft",
-      "title": "Bayless: I'm closing my eyes and taking Arch Manning at No. 1 in NFL draft",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:51:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "c5420f2a0f10bf5c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541702/stephen-hide-dismay-skip-cowboys-optimism",
-      "title": "Stephen A. can't hide his dismay over Skip's Cowboys optimism",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:25:22Z",
-      "teamIds": [
-        "6"
-      ]
     }
   ]
 }
