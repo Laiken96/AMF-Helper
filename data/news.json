@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T16:23:31Z",
+  "updatedAt": "2026-11-22T16:47:35Z",
   "items": [
+    {
+      "id": "ebce84d4d76c7231",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50559070/lawrence-washington-elite-partnership",
+      "title": "'Receiving Trust': Behind Lawrence and Washington's elite partnership",
+      "summary": null,
+      "publishedAt": "2026-11-22T16:46:00Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "ae541e59bf3a2239",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/ravens-vs-panthers-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-11",
+      "title": "Ravens vs. Panthers odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
+      "summary": "Here's everything bettors need to know for Ravens vs. Panthers in NFL Week 11",
+      "publishedAt": "2026-11-22T16:40:53Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "9de94416c141a04c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-is-officially-active-against-the-lions",
+      "title": "Baker Mayfield is officially active against the Lions",
+      "summary": "Mayfield was listed as questionable due to a foot injury.",
+      "publishedAt": "2026-11-22T16:35:20Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "708652308cc38c32",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-sunday",
+      "title": "Week 11 NFL odds, picks: Brinson's best bets, player props, anytime TD scorers for Sunday",
+      "summary": "Steer clear of bloated double-digit spreads, grab the extra points with Philadelphia, and count on Dak Prescott to clear his passing total in a shootout",
+      "publishedAt": "2026-11-22T16:31:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "5fbf6da52d3d7b78",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/steelers-vs-eagles-odds-picks-prediction-spread-nfl-week-11-start-time-betting-preview-best-bets",
+      "title": "Steelers vs. Eagles odds, picks, prediction, spread: NFL Week 11 start time, betting preview, best bets",
+      "summary": "Here's everything you need to know before placing any wagers on Steelers vs. Eagles in NFL Week 11",
+      "publishedAt": "2026-11-22T16:29:32Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "8db970ecdc555619",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/saints-vs-bears-odds-picks-prediction-spread-start-time-nfl-week-11-betting-preview-best-bets",
+      "title": "Saints vs. Bears odds, picks, prediction, spread: Start time, NFL Week 11 betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Saints vs. Bears in NFL Week 11",
+      "publishedAt": "2026-11-22T16:25:36Z",
+      "teamIds": [
+        "3",
+        "18"
+      ]
+    },
+    {
+      "id": "a4373bd7a4b69c66",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-cowboys-vikings-keys-to-parlays-involving-favorites-underdogs-in-week-11",
+      "title": "NFL odds, picks, predictions: Cowboys, Vikings keys to parlays involving favorites, underdogs in Week 11",
+      "summary": "SportsLine football expert Mike Tierney locks in his top parlays for Week 11 NFL games",
+      "publishedAt": "2026-11-22T16:21:30Z",
+      "teamIds": [
+        "6",
+        "16"
+      ]
+    },
     {
       "id": "a7286b40a2a382b1",
       "source": "cbs",
@@ -1575,85 +1654,6 @@
       "publishedAt": "2026-11-20T20:53:22Z",
       "teamIds": [
         "20"
-      ]
-    },
-    {
-      "id": "9738b86901ed1b8d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/29553205/dwyane-wade-tom-brady-lebron-james-athletes-team-owners",
-      "title": "Tom Brady tops list of athletes who became owners",
-      "summary": "The legendary quarterback is a member of an exclusive list of athletes that includes LeBron James, Serena Williams and Wayne Gretzky.",
-      "publishedAt": "2026-11-20T20:47:35Z",
-      "teamIds": [
-        "7",
-        "15"
-      ]
-    },
-    {
-      "id": "d30da1bb541de493",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/daniel-jones-release-colts-why-qbs-contract-ensures-clear-waivers-free-agent",
-      "title": "Daniel Jones released by Colts: Why QB's contract almost ensures he'll clear waivers, be free agent",
-      "summary": "Indianapolis waived Jones after the club's 26-3 loss to the Texans on Thursday night",
-      "publishedAt": "2026-11-20T20:40:41Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "2de66fbbf0f8b670",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50543025/justin-reid-posts-saints-farewell-team-works-release",
-      "title": "Justin Reid posts Saints farewell as team releases safety",
-      "summary": "The Saints have granted Justin Reid's request to be released, with the safety posting on social media: \"In life and sports, things don't always go the way you planned or hoped they would.\"",
-      "publishedAt": "2026-11-20T20:39:47Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "002306cbae61d7b2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-      "title": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-      "summary": "Chiefs RB Kenneth Walker III will not play in Sunday's game against the Cardinals after not participating in practice this week due to a groin injury.",
-      "publishedAt": "2026-11-20T20:29:34Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "e6ba6036db5a8c22",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542944/bottom-line-business-cowboys-pettine-focused-titans",
-      "title": "Cowboys' Mike Pettine feels for DC Christian Parker, but focused on Titans",
-      "summary": "Mike Pettine, the Cowboys' new defensive playcaller, is focused on preparing for the Titans, not looking in the rearview mirror.",
-      "publishedAt": "2026-11-20T20:24:06Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "f418ad03c57d9bb2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-lb-bobby-okereke-will-miss-a-third-consecutive-game",
-      "title": "Panthers LB Bobby Okereke will miss a third consecutive game",
-      "summary": "Panthers linebacker Bobby Okereke will miss his third consecutive game with a foot injury.",
-      "publishedAt": "2026-11-20T20:23:59Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "cd9b6ecaab42ff89",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drake-maye-suffers-fibula-injury-big-picture-questions-now-facing-patriots-offseason-beyond",
-      "title": "Drake Maye out indefinitely with fibula: Big picture questions now facing Patriots offseason, beyond",
-      "summary": "The lens of how the Patriots view the rest of 2026 and beyond has now changed",
-      "publishedAt": "2026-11-20T20:18:00Z",
-      "teamIds": [
-        "17"
       ]
     }
   ]

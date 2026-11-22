@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T16:23:29Z",
+    "takenAt": "2026-11-22T16:47:33Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1254,6 +1254,17 @@
         "gameId": "401873081",
         "kickoffUtc": "2026-11-26T18:00:00Z",
         "players": [
+          {
+            "athleteId": "15168",
+            "name": "Case Keenum",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
@@ -1395,6 +1406,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4879250",
+            "name": "Cole Payton",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1645,7 +1667,18 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
+          },
+          {
+            "athleteId": "4428512",
+            "name": "Kedon Slovis",
+            "pos": "QB",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4429615",
@@ -1998,7 +2031,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -2175,7 +2208,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4361307",
@@ -2358,7 +2391,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4567750",
@@ -2398,6 +2431,26 @@
       "to": "Injured Reserve"
     },
     {
+      "gameId": "401873081",
+      "athleteId": "15168",
+      "name": "Case Keenum",
+      "pos": "QB",
+      "teamAbbr": "CHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873080",
+      "athleteId": "4879250",
+      "name": "Cole Payton",
+      "pos": "QB",
+      "teamAbbr": "PHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873082",
       "athleteId": "4567048",
       "name": "Kenneth Walker III",
@@ -2423,6 +2476,26 @@
       "name": "Kyler Murray",
       "pos": "QB",
       "teamAbbr": "MIN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873085",
+      "athleteId": "3916387",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
+      "gameId": "401873085",
+      "athleteId": "4428512",
+      "name": "Kedon Slovis",
+      "pos": "QB",
+      "teamAbbr": "BAL",
       "kind": "neu",
       "from": null,
       "to": "Out"
@@ -2468,6 +2541,16 @@
       "to": null
     },
     {
+      "gameId": "401873090",
+      "athleteId": "4871023",
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "teamAbbr": "TEN",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
       "gameId": "401873093",
       "athleteId": "4431452",
       "name": "Drake Maye",
@@ -2489,16 +2572,6 @@
     },
     {
       "gameId": "401873092",
-      "athleteId": "4038524",
-      "name": "Gardner Minshew II",
-      "pos": "QB",
-      "teamAbbr": "ARI",
-      "kind": "neu",
-      "from": null,
-      "to": "Injured Reserve"
-    },
-    {
-      "gameId": "401873092",
       "athleteId": "4430841",
       "name": "Carson Beck",
       "pos": "QB",
@@ -2506,6 +2579,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873094",
+      "athleteId": "3052587",
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "teamAbbr": "TB",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     }
   ]
 }
