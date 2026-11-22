@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T12:47:24Z",
+  "updatedAt": "2026-11-22T13:47:25Z",
   "items": [
+    {
+      "id": "16058ef715c8b64e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-colts-as-expected-wont-activate-wr-alec-pierce-from-injured-reserve",
+      "title": "The Colts, as expected, won't activate WR Alec Pierce from injured reserve",
+      "summary": "As the Colts fully embrace the making of business decisions over the pursuit of victories, this one is no surprise.",
+      "publishedAt": "2026-11-22T13:32:49Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "22f66e0199d0c08d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rams-puka-nacua-mcl-injury-surgery-out-for-season",
+      "title": "Rams' Puka Nacua had surgery on MCL injury, WR expected to miss rest of season and playoffs, per report",
+      "summary": "Nacua suffered the injury on the final play of the Rams' Week 9 win over the Commanders",
+      "publishedAt": "2026-11-22T13:18:09Z",
+      "teamIds": [
+        "14",
+        "28"
+      ]
+    },
+    {
+      "id": "c5bd365cb0a5a2b5",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/saints-vs-bears-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-11",
+      "title": "Saints vs. Bears odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
+      "summary": "Here's everything bettors need to know for Saints vs. Bears in NFL Week 11",
+      "publishedAt": "2026-11-22T13:01:42Z",
+      "teamIds": [
+        "3",
+        "18"
+      ]
+    },
+    {
+      "id": "01834d64be5a77f0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/steelers-vs-eagles-odds-picks-prediction-spread-start-time-nfl-week-11-betting-preview-best-bets",
+      "title": "Steelers vs. Eagles odds, picks, prediction, spread: Start time, NFL Week 11 betting preview, best bets",
+      "summary": "Here's everything you need to know before placing any wagers on Steelers vs. Eagles in NFL Week 11",
+      "publishedAt": "2026-11-22T13:01:35Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "91887185884c32aa",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-try-for-first-win-in-philadelphia-since-lbj-was-president",
+      "title": "Steelers try for first win in Philadelphia since LBJ was president",
+      "summary": "October 24, 1965.",
+      "publishedAt": "2026-11-22T13:01:32Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "3c2ab3641e3f99e9",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/jaguars-vs-giants-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-11",
+      "title": "Jaguars vs. Giants odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
+      "summary": "Here's everything bettors need to know for Jaguars vs. Giants in NFL Week 11",
+      "publishedAt": "2026-11-22T13:01:24Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
     {
       "id": "ea184df884159274",
       "source": "espn",
@@ -1589,69 +1659,6 @@
       "teamIds": [
         "33",
         "29"
-      ]
-    },
-    {
-      "id": "af011022a427aa42",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/carson-beck-back-spasms-could-force-cardinals-to-start-fourth-quarterback-in-five-weeks",
-      "title": "Carson Beck back spasms could force Cardinals to start fourth quarterback in five weeks",
-      "summary": "Carson Beck did not practice Friday due to a back injury",
-      "publishedAt": "2026-11-20T18:44:46Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "a3eca5684f458a12",
-      "source": "espn",
-      "url": "https://espn.com/soccer/story/_/id/50542238/nfl-legend-tom-brady-buys-shares-chelsea-sources",
-      "title": "Sources: Tom Brady buys stake in Chelsea after Birmingham exit",
-      "summary": "Seven-time Super Bowl champion quarterback Tom Brady has invested in Chelsea soccer club, sources confirmed to ESPN and NFL Network.",
-      "publishedAt": "2026-11-20T18:42:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "27e3a79561ffc374",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542293/colts-release-qb-daniel-jones-blowout-loss-texans",
-      "title": "Colts cut QB Daniel Jones, turn to Anthony Richardson Sr. for next start",
-      "summary": "The Colts have cut quarterback Daniel Jones after a challenging 11-game stint in 2026 and are turning to Anthony Richardson Sr. to start going forward.",
-      "publishedAt": "2026-11-20T18:39:36Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "3c755d8e00d95933",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50510451/fantasy-playbook-projections-lineup-locks-week-11-shadow",
-      "title": "Fantasy playbook: Week 11 Shadow Reports, lineup locks and projected scores",
-      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
-      "publishedAt": "2026-11-20T18:39:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "3b008295fe2138f7",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50542310/colts-couldve-shouldve-traded-him",
-      "title": "Schefter on Daniel Jones’ release: Colts ‘could’ve and should’ve traded him’",
-      "summary": null,
-      "publishedAt": "2026-11-20T18:28:58Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "ba7123c9514dd512",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-benford-and-dorian-williams-ruled-out-dalton-kincaid-doubtful-for-bills",
-      "title": "Christian Benford and Dorian Williams ruled out, Dalton Kincaid doubtful for Bills",
-      "summary": "The Bills will be missing a couple of defensive players for Sunday's game against the Dolphins.",
-      "publishedAt": "2026-11-20T18:24:08Z",
-      "teamIds": [
-        "2",
-        "15"
       ]
     }
   ]
