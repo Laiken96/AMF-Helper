@@ -1,7 +1,84 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T16:47:35Z",
+  "updatedAt": "2026-11-22T17:47:23Z",
   "items": [
+    {
+      "id": "2528ac5aaaf21d60",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50562956/week-11-highlights-sunday-best-plays-touchdowns-2026",
+      "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for all of Sunday's top moments, TDs and analysis from ESPN's NFL reporters.",
+      "publishedAt": "2026-11-22T17:45:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "5bf0f15a57f5c496",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-can-match-their-best-record-through-10-games-with-a-win-over-dolphins",
+      "title": "Bills can match their best record through 10 games, with a win over Dolphins",
+      "summary": "The 8-1 Bills, barring a massive upset, will move to 9-1 today.",
+      "publishedAt": "2026-11-22T17:38:03Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
+    {
+      "id": "ac7c5218cd9af739",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50547526/emmitt-smith-super-bowl-xxviii",
+      "title": "I Scored a Touchdown: Emmitt Smith Super Bowl XXVIII",
+      "summary": null,
+      "publishedAt": "2026-11-22T17:28:52Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "436d129a327055c1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-rejected-a-trade-offer-from-the-ravens-for-daniel-jones",
+      "title": "Colts rejected a trade offer from the Ravens for Daniel Jones",
+      "summary": "Ten days after the November 10 trade deadline, the Colts cut quarterback Daniel Jones.",
+      "publishedAt": "2026-11-22T17:15:37Z",
+      "teamIds": [
+        "33",
+        "11"
+      ]
+    },
+    {
+      "id": "0751f9418c24b0b7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
+      "title": "NFL Week 11 arrivals: CeeDee Lamb leads the way ahead of Titans-Cowboys",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-22T17:13:29Z",
+      "teamIds": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "id": "b942a95da1cf3ff2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
+      "title": "2027 NFL draft questions, latest intel, risers, CFB standouts",
+      "summary": "Leonard Moore, Ashton Hampton and Ellis Robinson IV all in the top 10? And Jeremiah Smith and Charlie Becker both in the top five? Here's our draft spin off CFB Week 12.",
+      "publishedAt": "2026-11-22T17:11:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "d773d683544383fc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-to-practice-in-pads-on-sunday",
+      "title": "Micah Parsons to practice in pads on Sunday",
+      "summary": "The Packers plan to have defensive end Micah Parsons on the field against the Rams on Wednesday night and Parsons will check off one more box toward that return to action at practice on Sunday.",
+      "publishedAt": "2026-11-22T17:00:18Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
     {
       "id": "ebce84d4d76c7231",
       "source": "espn",
@@ -1572,88 +1649,6 @@
       "teamIds": [
         "21",
         "23"
-      ]
-    },
-    {
-      "id": "aac5d18f7a2469d3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jerry-jones-calls-cowboys-bad-team-chance-play-better-christian-parkers-demotion",
-      "title": "Jerry Jones calls Cowboys 'a bad team'; says team has chance to play better after Christian Parker's demotion",
-      "summary": "Jones feels Dallas is a bad team right now, but he defended the puzzling decision to demote Parker and keep him on staff",
-      "publishedAt": "2026-11-20T21:05:52Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "ae2733d79665635d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50543381/bills-te-dalton-kincaid-doubtful-play-vs-dolphins",
-      "title": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
-      "summary": "Bills starting tight end Dalton Kincaid, their leading receiver, is listed as doubtful for Sunday's game against the Dolphins due to thumb and ankle injuries.",
-      "publishedAt": "2026-11-20T21:05:14Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Does anything change in Indy with Richardson under center?",
-      "summary": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
-      "publishedAt": "2026-11-20T21:04:02Z",
-      "teamIds": [
-        "33",
-        "34",
-        "11",
-        "24"
-      ]
-    },
-    {
-      "id": "4b1c5a7556db1b20",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-add-lb-jaishawn-barham-to-injury-report-list-him-as-questionable",
-      "title": "Cowboys add LB Jaishawn Barham to injury report, list him as questionable",
-      "summary": "The Cowboys added linebacker Jaishawn Barham to the injury report on Friday with hip and groin injuries.",
-      "publishedAt": "2026-11-20T21:03:29Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "fdf3d891425ebea8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/d-j-reed-sione-vaki-listed-as-questionable-for-the-lions",
-      "title": "D.J. Reed, Sione Vaki listed as questionable for the Lions",
-      "summary": "Lions cornerback D.J.",
-      "publishedAt": "2026-11-20T21:00:25Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "41e119cad905630f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-are-colts-next-opponent-and-john-harbaugh-is-taken-aback-by-daniel-jones-news",
-      "title": "Giants are Colts' next opponent, and John Harbaugh is taken aback by Daniel Jones news",
-      "summary": "Giants coach John Harbaugh is preparing right now for Sunday's game against the Jaguars.",
-      "publishedAt": "2026-11-20T20:53:25Z",
-      "teamIds": [
-        "11",
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "1f3ec927dc0edc27",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-had-a-full-practice-has-no-injury-designation",
-      "title": "Geno Smith had a full practice Friday, has no injury designation",
-      "summary": "Jets quarterback Geno Smith (ankle) was a full participant at Friday's practice and has no injury designation.",
-      "publishedAt": "2026-11-20T20:53:22Z",
-      "teamIds": [
-        "20"
       ]
     }
   ]

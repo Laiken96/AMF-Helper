@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T16:47:33Z",
+    "takenAt": "2026-11-22T17:47:21Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1490,6 +1490,17 @@
             "roles": [
               "rushing"
             ],
+            "status": null
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
+            ],
             "status": "Out"
           }
         ]
@@ -1554,6 +1565,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4429955",
+            "name": "Will Howard",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4569987",
@@ -1777,6 +1799,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4361259",
+            "name": "Zach Wilson",
+            "pos": "QB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4361370",
@@ -2359,6 +2392,17 @@
             "status": null
           },
           {
+            "athleteId": "4428993",
+            "name": "Haynes King",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4685472",
             "name": "Tetairoa McMillan",
             "pos": "WR",
@@ -2392,6 +2436,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "3120590",
+            "name": "Easton Stick",
+            "pos": "QB",
+            "teamId": "27",
+            "teamAbbr": "TB",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4567750",
@@ -2456,8 +2511,28 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "teamAbbr": "KC",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873082",
+      "athleteId": "4567747",
+      "name": "Garrett Nussmeier",
+      "pos": "QB",
+      "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873083",
+      "athleteId": "4429955",
+      "name": "Will Howard",
+      "pos": "QB",
+      "teamAbbr": "PIT",
+      "kind": "neu",
+      "from": null,
       "to": "Out"
     },
     {
@@ -2509,6 +2584,16 @@
       "kind": "weg",
       "from": "Doubtful",
       "to": null
+    },
+    {
+      "gameId": "401873087",
+      "athleteId": "4361259",
+      "name": "Zach Wilson",
+      "pos": "QB",
+      "teamAbbr": "NO",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873088",
@@ -2589,6 +2674,26 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873094",
+      "athleteId": "3120590",
+      "name": "Easton Stick",
+      "pos": "QB",
+      "teamAbbr": "TB",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873094",
+      "athleteId": "4428993",
+      "name": "Haynes King",
+      "pos": "QB",
+      "teamAbbr": "CAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     }
   ]
 }
