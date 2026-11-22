@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T22:31:42Z",
+    "takenAt": "2026-11-22T22:47:17Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1382,7 +1382,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4040715",
@@ -2483,6 +2483,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873080",
+      "athleteId": "3929630",
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "teamAbbr": "PHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873080",
