@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-22T15:31:17Z",
+  "updatedAt": "2026-11-22T19:20:50Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -296,6 +296,33 @@
         {
           "title": "Raiders Star Questionable Ahead of Matchup With Broncos (KSNV)",
           "url": "https://news3lv.com/sports/content/las-vegas-raiders-star-questionable-brock-bowers-klint-kubiak-denver-broncos-nfl-football-sports-nevada"
+        }
+      ]
+    },
+    {
+      "gameId": "401873077",
+      "createdAt": "2026-11-22T19:20:50Z",
+      "winnerTeamId": "25",
+      "pWinner": 0.57,
+      "marketPickTeamId": "25",
+      "marketProb": 0.6023,
+      "reasoning": "Die 49ers sind mit 8-1 die formstärkere Mannschaft, haben ihre Offensive stark aufgestellt und sich in Colorado Springs gezielt an die Höhe der Azteca gewöhnt. Die Vikings fehlen mit Kyler Murray und Jordan Addison zwei Offensivkräfte, bringen mit Hockenson und Van Ginkel aber wichtige Spieler zurück und haben mit ihrer Defensive die Duelle mit Purdy in den letzten beiden Begegnungen gewonnen, was das Spiel knapp macht.",
+      "sources": [
+        {
+          "title": "Vikings issue final injury report before 49ers battle in Mexico City - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/vikings-issue-final-injury-report-193629607.html"
+        },
+        {
+          "title": "Keeping Up With the 49ers: Week 11 in Mexico City",
+          "url": "https://49ers.com/news/keeping-up-with-the-49ers-week-11-in-mexico-city"
+        },
+        {
+          "title": "Vikings, 49ers taking different travel approaches for Mexico City game - Bring Me The News",
+          "url": "https://bringmethenews.com/minnesota-sports/vikings-49ers-taking-different-travel-approaches-for-mexico-city-game"
+        },
+        {
+          "title": "How to watch the 49ers vs Vikings Sunday Night Football game without cable - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/watch-49ers-vs-vikings-sunday-183000573.html"
         }
       ]
     }
