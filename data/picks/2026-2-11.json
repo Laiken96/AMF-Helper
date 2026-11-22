@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-22T03:47:21Z",
+  "updatedAt": "2026-11-22T18:47:25Z",
   "source": "espn-pickem",
   "games": [
     {
@@ -26,7 +26,7 @@
       "total": 191527,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-17T18:47:21Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873068",
@@ -37,7 +37,7 @@
       "total": 579496,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-21T16:47:21Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873070",
@@ -48,7 +48,7 @@
       "total": 194172,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-17T18:47:21Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873071",
@@ -59,7 +59,7 @@
       "total": 225536,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-17T20:47:21Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873072",
@@ -70,7 +70,7 @@
       "total": 211878,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-17T19:47:38Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873073",
@@ -81,7 +81,7 @@
       "total": 517622,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-19T23:47:19Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873076",
@@ -92,7 +92,7 @@
       "total": 590807,
       "scoringFormatId": 1,
       "fetchedAt": "2026-11-22T03:47:21Z",
-      "locked": false
+      "locked": true
     },
     {
       "gameId": "401873074",

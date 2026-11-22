@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-22T16:47:32Z",
+  "updatedAt": "2026-11-22T18:47:24Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -53,8 +53,8 @@
         "fetchedAt": "2026-11-10T20:47:17Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873068",
@@ -78,8 +78,8 @@
         "fetchedAt": "2026-11-10T20:47:17Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873070",
@@ -103,8 +103,8 @@
         "fetchedAt": "2026-11-10T20:47:17Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873071",
@@ -128,8 +128,8 @@
         "fetchedAt": "2026-11-10T20:47:17Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873072",
@@ -153,8 +153,8 @@
         "fetchedAt": "2026-11-10T20:47:17Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873073",
@@ -178,8 +178,8 @@
         "fetchedAt": "2026-11-10T20:47:17Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873076",
@@ -203,8 +203,8 @@
         "fetchedAt": "2026-11-10T21:47:19Z"
       },
       "changedSinceFirst": false,
-      "locked": false,
-      "lockedAt": null
+      "locked": true,
+      "lockedAt": "2026-11-22T18:47:24Z"
     },
     {
       "gameId": "401873074",

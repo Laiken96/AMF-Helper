@@ -1,15 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T17:47:23Z",
+  "updatedAt": "2026-11-22T18:47:27Z",
   "items": [
+    {
+      "id": "fd584d3569ae2d8d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-titans-trade-early-punches-in-6-3-game",
+      "title": "Cowboys, Titans trade early punches in 6-3 game",
+      "summary": "The game between the Titans and Cowboys figures to include plenty of points.",
+      "publishedAt": "2026-11-22T18:31:22Z",
+      "teamIds": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "id": "e733a156993fda07",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-pull-off-fake-punt-extend-lead-to-6-0",
+      "title": "Bills pull off fake punt, extend lead to 6-0",
+      "summary": "The Bills reached into their bag of tricks in the first quarter of Sunday's home game against the Dolphins and it paid off for them.",
+      "publishedAt": "2026-11-22T18:29:36Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
+    {
+      "id": "1fa77c4cb1ade61f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-young-sacked-for-safety-jacoby-brissett-throws-td-as-ravens-lead-panthers-9-0",
+      "title": "Bryce Young sacked for safety, Jacoby Brissett throws TD as Ravens lead Panthers 9-0",
+      "summary": "It wasn't a good start for the Panthers today against the Ravens.",
+      "publishedAt": "2026-11-22T18:21:15Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "069e18acd4a8ece5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-open-game-with-missed-field-goal-by-jake-bates",
+      "title": "Lions open game with missed field goal by Jake Bates",
+      "summary": "It's a trap game for the Lions on Sunday against the 3-6 Bucs.",
+      "publishedAt": "2026-11-22T18:18:54Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "9c3c27e9333cb2d6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-moves-past-rob-gronkowski-for-no-3-all-time-in-td-catches-by-a-tight-end",
+      "title": "Travis Kelce moves past Rob Gronkowski for No. 3 all-time in TD catches by a tight end",
+      "summary": "For the first time since Sept. 27, Travis Kelce has gotten back into the end zone.",
+      "publishedAt": "2026-11-22T18:17:38Z",
+      "teamIds": []
+    },
     {
       "id": "2528ac5aaaf21d60",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50562956/week-11-highlights-sunday-best-plays-touchdowns-2026",
       "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for all of Sunday's top moments, TDs and analysis from ESPN's NFL reporters.",
+      "summary": "Check here for all of the top moments, TDs and analysis from games at the Chiefs, Eagles, Panthers, Bears and more.",
       "publishedAt": "2026-11-22T17:45:46Z",
-      "teamIds": []
+      "teamIds": [
+        "29",
+        "3",
+        "12",
+        "21"
+      ]
     },
     {
       "id": "5bf0f15a57f5c496",
@@ -1512,6 +1574,17 @@
       ]
     },
     {
+      "id": "ae2733d79665635d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543381/bills-te-dalton-kincaid-doubtful-play-vs-dolphins",
+      "title": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
+      "summary": "Bills starting tight end Dalton Kincaid, their leading receiver, is listed as doubtful for Sunday's game against the Dolphins due to thumb and ankle injuries.",
+      "publishedAt": "2026-11-20T21:49:40Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
       "id": "43a2d1ae46a3fa50",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-rule-out-lb-daiyan-henley-list-wr-ladd-mcconkey-as-questionable",
@@ -1578,77 +1651,6 @@
       "publishedAt": "2026-11-20T21:28:29Z",
       "teamIds": [
         "18"
-      ]
-    },
-    {
-      "id": "7d5450f5bf2de593",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-add-rb-rachaad-white-to-the-injury-report-as-limited-with-a-heel-injury",
-      "title": "Commanders add RB Rachaad White to the injury report as limited with a heel injury",
-      "summary": "The Commanders added running back Rachaad White to the injury report Friday.",
-      "publishedAt": "2026-11-20T21:20:17Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "383622cc9a2de6bd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bhayshul-tuten-returns-to-practice-has-no-injury-designation-for-sunday",
-      "title": "Bhayshul Tuten returns to practice, has no injury designation for Sunday",
-      "summary": "The Jaguars are set to have their top running back in the lineup against the Giants on Sunday.",
-      "publishedAt": "2026-11-20T21:16:47Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "909770991ddc1eb8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-expert-picks-odds-best-bets-teasers-predictions-survivor-picks",
-      "title": "NFL Week 11 expert picks, odds, best bets, teasers, predictions, survivor picks: Who wins 49ers or Vikings?",
-      "summary": "NFL Week 11 odds, how to watch, streaming: Expert selections, best bets, teasers, survivor picks and more CBSSports.com and SportsLine break down every single NFL game in Week 17",
-      "publishedAt": "2026-11-20T21:12:55Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "4918531e454bd847",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-matt-gay-questionable-for-raiders-broncos",
-      "title": "Brock Bowers, Matt Gay questionable for Raiders-Broncos",
-      "summary": "There’s a chance quarterback Fernando Mendoza will have his top target for his second start.",
-      "publishedAt": "2026-11-20T21:08:52Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "081605c5ce2f464f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fan-dies-after-falling-during-a-fight-at-49ers-cowboys-game",
-      "title": "Fan dies after falling during a fight at 49ers-Cowboys game",
-      "summary": "A man who attended Sunday's game between the 49ers and Cowboys has died due to injuries sustained in a fight during the game.",
-      "publishedAt": "2026-11-20T21:08:07Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "e6a73cc708c72b5e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/devonta-smith-set-to-return-zack-baun-dontayvion-wicks-ruled-out-for-eagles",
-      "title": "DeVonta Smith set to return; Zack Baun, Dontayvion Wicks ruled out for Eagles",
-      "summary": "DeVonta Smith has missed the last month with a hamstring injury, but the Eagles are set to have their top wideout back in the lineup against the Steelers on Sunday.",
-      "publishedAt": "2026-11-20T21:06:48Z",
-      "teamIds": [
-        "21",
-        "23"
       ]
     }
   ]
