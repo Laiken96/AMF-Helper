@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T20:20:36Z",
+    "takenAt": "2026-11-22T21:10:34Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1631,40 +1631,6 @@
         "kickoffUtc": "2026-11-22T21:05:00Z",
         "players": [
           {
-            "athleteId": "4038941",
-            "name": "Justin Herbert",
-            "pos": "QB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685382",
-            "name": "Omarion Hampton",
-            "pos": "RB",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4686612",
-            "name": "Tre' Harris",
-            "pos": "WR",
-            "teamId": "24",
-            "teamAbbr": "LAC",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "15864",
             "name": "Geno Smith",
             "pos": "QB",
@@ -1677,24 +1643,24 @@
             "status": null
           },
           {
-            "athleteId": "4569618",
-            "name": "Garrett Wilson",
-            "pos": "WR",
-            "teamId": "20",
-            "teamAbbr": "NYJ",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685247",
-            "name": "Braelon Allen",
+            "athleteId": "4427366",
+            "name": "Breece Hall",
             "pos": "RB",
             "teamId": "20",
             "teamAbbr": "NYJ",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4597500",
+            "name": "Adonai Mitchell",
+            "pos": "WR",
+            "teamId": "20",
+            "teamAbbr": "NYJ",
+            "roles": [
+              "receiving"
             ],
             "status": null
           }
