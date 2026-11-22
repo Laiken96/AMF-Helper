@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T21:20:41Z",
+    "takenAt": "2026-11-22T21:30:56Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1705,6 +1705,17 @@
         "kickoffUtc": "2026-11-22T21:25:00Z",
         "players": [
           {
+            "athleteId": "3916433",
+            "name": "Jakobi Meyers",
+            "pos": "WR",
+            "teamId": "30",
+            "teamAbbr": "JAX",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4360310",
             "name": "Trevor Lawrence",
             "pos": "QB",
@@ -1717,56 +1728,11 @@
             "status": null
           },
           {
-            "athleteId": "4432620",
-            "name": "Parker Washington",
-            "pos": "WR",
-            "teamId": "30",
-            "teamAbbr": "JAX",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4882093",
-            "name": "Bhayshul Tuten",
+            "athleteId": "4362619",
+            "name": "Chris Rodriguez Jr.",
             "pos": "RB",
             "teamId": "30",
             "teamAbbr": "JAX",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "2969939",
-            "name": "Jameis Winston",
-            "pos": "QB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4595348",
-            "name": "Malik Nabers",
-            "pos": "WR",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4696981",
-            "name": "Cam Skattebo",
-            "pos": "RB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
             "roles": [
               "rushing"
             ],
@@ -1790,28 +1756,6 @@
             "status": "Out"
           },
           {
-            "athleteId": "4241985",
-            "name": "J.K. Dobbins",
-            "pos": "RB",
-            "teamId": "7",
-            "teamAbbr": "DEN",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4372016",
-            "name": "Jaylen Waddle",
-            "pos": "WR",
-            "teamId": "7",
-            "teamAbbr": "DEN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4426338",
             "name": "Bo Nix",
             "pos": "QB",
@@ -1824,34 +1768,22 @@
             "status": null
           },
           {
-            "athleteId": "4432665",
-            "name": "Brock Bowers",
-            "pos": "TE",
-            "teamId": "13",
-            "teamAbbr": "LV",
+            "athleteId": "4600981",
+            "name": "Pat Bryant",
+            "pos": "WR",
+            "teamId": "7",
+            "teamAbbr": "DEN",
             "roles": [
               "receiving"
             ],
             "status": null
           },
           {
-            "athleteId": "4837248",
-            "name": "Fernando Mendoza",
-            "pos": "QB",
-            "teamId": "13",
-            "teamAbbr": "LV",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4890973",
-            "name": "Ashton Jeanty",
+            "athleteId": "4702555",
+            "name": "Jonah Coleman",
             "pos": "RB",
-            "teamId": "13",
-            "teamAbbr": "LV",
+            "teamId": "7",
+            "teamAbbr": "DEN",
             "roles": [
               "rushing"
             ],
