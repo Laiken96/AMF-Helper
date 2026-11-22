@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T21:47:21Z",
+    "takenAt": "2026-11-22T22:31:42Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1688,7 +1688,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3916387",
@@ -2553,16 +2553,6 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
-    },
-    {
-      "gameId": "401873085",
-      "athleteId": "3043078",
-      "name": "Derrick Henry",
-      "pos": "RB",
-      "teamAbbr": "BAL",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873085",

@@ -1,7 +1,138 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T21:47:24Z",
+  "updatedAt": "2026-11-22T22:31:44Z",
   "items": [
+    {
+      "id": "121d6ecb05ac8d1b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50565801/why-a-good-fantasy-managers-trade-derrick-henry",
+      "title": "Why this might be a good time for fantasy managers to trade Derrick Henry",
+      "summary": null,
+      "publishedAt": "2026-11-22T22:28:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "d77d4853b15a1846",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49907062/aaron-rodgers-2026-nfl-season-steelers-packers-jets-tracking-records-milestones",
+      "title": "Aaron Rodgers' 2026 NFL season: Tracking records, milestones",
+      "summary": "The Pittsburgh passer is chasing records in his 22nd NFL season, and ESPN is chronicling his \"last rodeo.\"",
+      "publishedAt": "2026-11-22T22:27:31Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a8563c91040446e6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-lead-chargers-17-10-at-halftime",
+      "title": "Jets lead Chargers 17-10 at halftime",
+      "summary": "The Jets didn't score a touchdown in Weeks 9 or 10, but they doubled down on them in the first half of their Week 11 game against the Chargers.",
+      "publishedAt": "2026-11-22T22:24:27Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "117b8bb184d508e5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/all-six-thanksgiving-teams-won-on-sunday",
+      "title": "All six Thanksgiving teams won on Sunday",
+      "summary": "The Madden movie failed to properly honor the great John Madden.",
+      "publishedAt": "2026-11-22T22:20:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "4890578c977dc893",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/officials-give-jameis-winston-a-td-replays-appear-to-show-he-was-down-before-scoring",
+      "title": "Officials give Jameis Winston a TD, replays appear to show he was down before scoring",
+      "summary": "The officials gave Giants quarterback Jameis Winston a touchdown on a fourth-and-goal tush push today against the Jaguars, but on replay it's not at all clear that Winston actually scored.",
+      "publishedAt": "2026-11-22T22:19:24Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "8918c274d3013bfc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/derrick-henry-injury-ravens-star-rb-leaves-evaluated-concussion-after-scoring-touchdown",
+      "title": "Derrick Henry injury: Ravens star RB clears concussion protocol after leaving game post-TD",
+      "summary": "Baltimore avoids yet another key loss to injury",
+      "publishedAt": "2026-11-22T22:09:15Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "8dc530a0d7e65126",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50565751/is-saquon-barkley-back-start-status-fantasy",
+      "title": "Is Saquon Barkley back to must-start status in fantasy?",
+      "summary": null,
+      "publishedAt": "2026-11-22T22:08:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "d0b93536378dbf70",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-cleared-after-concussion-evaluation",
+      "title": "Derrick Henry cleared after concussion evaluation",
+      "summary": "Ravens running back Derrick Henry exited today's game early to get checked for a concussion, but the evaluation provided good news.",
+      "publishedAt": "2026-11-22T22:07:25Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "9d8268e86fca35db",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nixs-12th-td-pass-of-the-season-gives-broncos-10-0-lead-over-raiders",
+      "title": "Bo Nix's 12th TD pass of the season gives Broncos 10-0 lead over Raiders",
+      "summary": "The Broncos have gotten into the end zone.",
+      "publishedAt": "2026-11-22T22:06:39Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "5800bb7188b9795a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50565430/game-highlights",
+      "title": "Tampa Bay Buccaneers vs. Detroit Lions: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-22T21:53:57Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "fee527c9a8d7c356",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-listed-as-limited-in-packers-practice",
+      "title": "Josh Jacobs listed as limited in Packers practice",
+      "summary": "When Packers running back Josh Jacobs had surgery on his broken finger earlier this month, word was that he'd miss two or three weeks before being able to return to action.",
+      "publishedAt": "2026-11-22T21:49:09Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "1866096f463cca79",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873068",
+      "title": "Bryce Young throws 2 TD passes, Chuba Hubbard scores twice as Panthers beat Ravens 35-33",
+      "summary": "Bryce Young threw for 254 yards and two touchdowns, Chuba Hubbard ran for 120 yards and two more scores and the Carolina Panthers made a late defensive stop to beat Baltimore 35-33 on Sunday, sending the Ravens to their sixth straight loss.",
+      "publishedAt": "2026-11-22T21:46:36Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
     {
       "id": "bbaa5d7bfec76e74",
       "source": "espn",
@@ -38,6 +169,18 @@
         "34",
         "11",
         "24"
+      ]
+    },
+    {
+      "id": "2e3954a2942437a3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-titans-final-score-scorigami-2026",
+      "title": "Cowboys vs. Titans ends in historic scorigami after late Tennessee touchdown",
+      "summary": "The Cowboys' 51-30 victory became the 1,101st unique final score in NFL history after a late Titans touchdown",
+      "publishedAt": "2026-11-22T21:41:43Z",
+      "teamIds": [
+        "6",
+        "10"
       ]
     },
     {
@@ -182,6 +325,17 @@
       ]
     },
     {
+      "id": "da4e1ac9c53f2cbf",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/eagles-jalen-hurts-update-super-bowl-mvp-qb-team-facility-good-spirits",
+      "title": "Eagles' Jalen Hurts update: Super Bowl MVP QB has been in team facility, 'in good spirits'",
+      "summary": "Hurts has stayed close with his teammates and coaches despite being sidelined with blood clots",
+      "publishedAt": "2026-11-22T21:09:22Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
       "id": "800d29ee7e211ef0",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-avoid-tampa-bay-trap-move-to-8-2",
@@ -211,7 +365,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873067",
       "title": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
-      "summary": "Patrick Mahomes threw for 324 yards and three touchdowns in just over three quarters, Travis Kelce caught two of the TD passes, and the Kansas City Chiefs whipped the Arizona Cardinals 34-7 on Sunday to take some momentum into a crucial five-week...",
+      "summary": "Patrick Mahomes slinging touchdown passes to Travis Kelce.",
       "publishedAt": "2026-11-22T20:56:35Z",
       "teamIds": [
         "22",
@@ -811,6 +965,17 @@
       ]
     },
     {
+      "id": "6d452a6756c10ba2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-anytime-td-best-bets-mark-andrews",
+      "title": "NFL week 11 anytime TD best bets: There's value on Mark Andrews and a Tony Pollard revenge game",
+      "summary": "Tony Pollard faces his former team, Justin Jefferson reunites with Kirk Cousins on an international stage and Josh Downs makes his Chiefs home debut",
+      "publishedAt": "2026-11-22T16:02:27Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
       "id": "08144e3b86df8643",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-11-upset-alert-predictions-steelers-titans-cowboys",
@@ -974,6 +1139,17 @@
       ]
     },
     {
+      "id": "740127c14582d05f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-trevor-lawrence-legitimate-2026-nfl-mvp-case-destined-win-one-some-point",
+      "title": "Why Jaguars' Trevor Lawrence has legitimate 2026 NFL MVP case, is destined to win one at some point",
+      "summary": "Across Lawrence's last 17 regular season games, he has 15-plus wins and 45-plus TD. He is only 1 of 10 QBs to achieve that feat",
+      "publishedAt": "2026-11-22T14:01:37Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
       "id": "6988594ac3998783",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/week-11-nfl-betting-lines-odds-totals-spreads",
@@ -1108,12 +1284,84 @@
       ]
     },
     {
+      "id": "880288f403fba92c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 11",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-22T12:26:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 11: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-22T12:26:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "4594dcf9aa19a0b5",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 11: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-22T12:25:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "23c15f803b0376fe",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 11: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-22T12:25:13Z",
+      "teamIds": []
+    },
+    {
+      "id": "85feab4ffaae9dd1",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 11: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-22T12:24:42Z",
+      "teamIds": []
+    },
+    {
       "id": "70ae9ffb76718140",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
       "title": "Fantasy football rankings for Week 11: Tight end",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-22T12:24:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "379dfb31b68bfa2b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 11: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-22T12:23:55Z",
+      "teamIds": []
+    },
+    {
+      "id": "64ab5603ce63fa91",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 11: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-22T12:23:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "92ce5dff7e1a00b3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 11: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-22T12:22:52Z",
       "teamIds": []
     },
     {
@@ -1442,272 +1690,6 @@
       "teamIds": [
         "4",
         "28"
-      ]
-    },
-    {
-      "id": "564e75fd5118c8c5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-put-lb-zack-baun-wr-dontayvion-wicks-on-ir",
-      "title": "Eagles put LB Zack Baun, WR Dontayvion Wicks on IR",
-      "summary": "The Eagles won't have linebacker Zack Baun and wide receiver Dontayvion Wicks for their next four games.",
-      "publishedAt": "2026-11-21T21:06:02Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "f8c3c39a16d61760",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-wr-roman-wilson",
-      "title": "Steelers activate WR Roman Wilson",
-      "summary": "Wide receiver Roman Wilson will be back in the Steelers' lineup for Sunday's game against the Eagles.",
-      "publishedAt": "2026-11-21T21:00:58Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "46cd6ed2abb049b9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50553035/cardinals-downgrade-qb-carson-beck-josh-johnson-set-start",
-      "title": "Cardinals rule out rookie Carson Beck, turn to 40-year-old Josh Johnson vs. Chiefs",
-      "summary": "Cardinals rookie quarterback Carson Beck has been downgraded to out, paving the way for 40-year-old Josh Johnson to start against the Chiefs.",
-      "publishedAt": "2026-11-21T20:45:48Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "5e9f170fa201fcfa",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-shane-steichen-be-back-in-2027",
-      "title": "Will Shane Steichen be back in 2027?",
-      "summary": "After the 2025 season ended, Colts owner Carlie Irsay-Gordon put both G.M.",
-      "publishedAt": "2026-11-21T20:26:55Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "7b60a4e323f9895b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50552701/sources-steelers-activate-wr-roman-wilson-ir-eagles-game",
-      "title": "Steelers activate WR Roman Wilson off IR for Eagles game",
-      "summary": "The Steelers have activated wide receiver Roman Wilson from injured reserve ahead of Sunday's game against the Eagles.",
-      "publishedAt": "2026-11-21T20:24:24Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "fc6c11af1eba60c4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-rb-tyjae-spears-on-injured-reserve",
-      "title": "Titans place RB Tyjae Spears on injured reserve",
-      "summary": "The Titans have placed running back Tyjae Spears on injured reserve, the team announced.",
-      "publishedAt": "2026-11-21T20:18:57Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "bec59fb0827a1ab7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/carson-beck-back-spasms-josh-johnson-force-cardinals-start-fourth-quarterback-four-weeks",
-      "title": "Cardinals turn to Josh Johnson — fourth starting QB in four weeks — with Carson Beck (back) sidelined",
-      "summary": "Johnson will make his season debut vs. Chiefs, the eighth team he's taken regular-season snaps for.",
-      "publishedAt": "2026-11-21T20:12:19Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "b3ba283bfa81dbcf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-cb-daron-bland-on-injured-reserve",
-      "title": "Cowboys place CB DaRon Bland on injured reserve",
-      "summary": "Cowboys cornerback DaRon Bland injured an ankle in Sunday's loss to the 49ers.",
-      "publishedAt": "2026-11-21T19:58:56Z",
-      "teamIds": [
-        "6",
-        "25"
-      ]
-    },
-    {
-      "id": "e8571c51dc768520",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-downgrade-carson-beck-out-out-josh-johnson-will-start",
-      "title": "Cardinals downgrade Carson Beck to out; Josh Johnson will start",
-      "summary": "As expected, Cardinals rookie quarterback Carson Beck won't be making his second career start on Sunday at Kansas City.",
-      "publishedAt": "2026-11-21T19:47:51Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "7f49e69a8d871a66",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-wr-mike-evans-is-set-for-his-return-on-sunday",
-      "title": "49ers WR Mike Evans is \"set for his return\" on Sunday",
-      "summary": "Evans last played in Week 6, due to an Achilles injury.",
-      "publishedAt": "2026-11-21T19:09:49Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "f45699d5e82dd0c7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nba/news/carmelo-anthony-marlon-humphrey-controversial-baltimore-criminals-comment",
-      "title": "Carmelo Anthony calls out Ravens' Marlon Humphrey after controversial Baltimore 'criminals' comment",
-      "summary": "Anthony spent his formative years growing up in Baltimore and wasn't going to let Humphrey's comments slide",
-      "publishedAt": "2026-11-21T18:50:04Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "6b851157bc3b51d1",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50551434/titans-dl-jaylen-harrell-hospitalized-car-accident-tampa",
-      "title": "Titans DL Jaylen Harrell hospitalized after car accident in Tampa",
-      "summary": "Titans defensive lineman Jaylen Harrell was involved in a serious car accident Friday and remains hospitalized, according to the team.",
-      "publishedAt": "2026-11-21T18:31:47Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "137eb1124607a715",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/titans-jaylen-harrell-car-accident-hospital-tampa",
-      "title": "Titans' Jaylen Harrell hospitalized after serious car accident, remains in hospital in Tampa",
-      "summary": "The Titans said edge defender Jaylen Harrell remains hospitalized and is receiving care after a serious car accident Friday night in his hometown of Tampa",
-      "publishedAt": "2026-11-21T18:09:36Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "7679a7186da4f09b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-de-jaylen-harrell-is-hospitalized-after-serious-car-accident",
-      "title": "Titans DE Jaylen Harrell is hospitalized after \"serious car accident\"",
-      "summary": "Titans defensive end Jaylen Harrell has been involved in a \"serious car accident.\"",
-      "publishedAt": "2026-11-21T17:53:01Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "eac744ebd986884a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-add-ed-oliver-to-injury-report-list-him-as-questionable",
-      "title": "Bills add Ed Oliver to injury report, list him as questionable",
-      "summary": "The Bills made a late addition to their injury report for Sunday's game against the Dolphins.",
-      "publishedAt": "2026-11-21T17:40:38Z",
-      "teamIds": [
-        "2",
-        "15"
-      ]
-    },
-    {
-      "id": "7fa98fc44ce18e49",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-rule-out-nick-herbig",
-      "title": "Steelers rule out Nick Herbig",
-      "summary": "The Steelers will not have linebacker Nick Herbig against the Eagles.",
-      "publishedAt": "2026-11-21T17:29:50Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "376254a4528c9440",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50550852/south-carolina-legend-alshon-jeffery-discusses-georgia-rivalry",
-      "title": "South Carolina legend Alshon Jeffery discusses Georgia rivalry",
-      "summary": "Jeffery joins SEC Network's Marion Crowder on SEC Nation to preview the Gamecocks' matchup against the Bulldogs and explain how Shane Beamer recruited him to South Carolina.",
-      "publishedAt": "2026-11-21T17:13:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ccbf2c6b93055cf",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-week-11-best-bets-player-props-anytime-td-scorers-for-sundays-games",
-      "title": "NFL odds, picks: Brinson's Week 11 best bets, player props, anytime TD scorers for Sunday's games",
-      "summary": "Steer clear of bloated double-digit spreads, grab the extra points with Philadelphia, and count on Dak Prescott to clear his passing total in a shootout",
-      "publishedAt": "2026-11-21T16:43:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "2c0ce9d2467fd3a5",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-almost-4000-in-bonuses-betting-apps-sportsbooks-sundays-games",
-      "title": "Week 11 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
-      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-21T15:57:28Z",
-      "teamIds": []
-    },
-    {
-      "id": "d160ba6609fba0c9",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/how-to-watch-49ers-vikings-tv-streaming-betting-odds-sunday-night-football-clash",
-      "title": "How to watch 49ers vs. Vikings in Mexico City: TV, streaming, betting odds for 'Sunday Night Football' clash",
-      "summary": "The NFC-leading 49ers face the Vikings in a Mexico City duel at Estadio Azteca",
-      "publishedAt": "2026-11-21T15:47:28Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "0dc31c79deb35cb8",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-lines-odds-spreads-totals",
-      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Eagles-Steelers, 49ers-Vikings, more",
-      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
-      "publishedAt": "2026-11-21T15:39:37Z",
-      "teamIds": [
-        "16",
-        "21",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "6016b700764cc4aa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50549761/mark-davis-upset-father-portrayal-movie-madden",
-      "title": "Raiders' Mark Davis unhappy with 'unfair' image of his father in 'Madden' movie",
-      "summary": "Saying \"I did the best I could to protect him,\" Raiders owner Mark Davis expressed frustration with the depiction of his father, the late Al Davis, in the new movie \"Madden.\"",
-      "publishedAt": "2026-11-21T15:27:22Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "c18a85aa1840f3ac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-first-21-chapters-of-quarterback-of-the-future-are-available",
-      "title": "The first 21 chapters of Quarterback of the Future are available",
-      "summary": "For the 25th anniversary of the launch of PFT, I decided to post the rewritten Quarterback of the Future — one chapter per day.",
-      "publishedAt": "2026-11-21T15:23:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "09edd3c3ee1a5cc4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-fans-death-after-fight-at-49ers-cowboys-game-we-had-no-record-of-an-incident",
-      "title": "Jerry Jones on fan's death after fight at 49ers-Cowboys game: \"We had no record of an incident\"",
-      "summary": "This week, a fan died after falling during a fight at AT&T Stadium.",
-      "publishedAt": "2026-11-21T14:52:21Z",
-      "teamIds": [
-        "6",
-        "25"
       ]
     }
   ]

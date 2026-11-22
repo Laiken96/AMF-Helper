@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-22T21:47:19Z",
+  "fetchedAt": "2026-11-22T22:31:40Z",
   "source": "espn",
   "games": [
     {
@@ -191,9 +191,9 @@
       "homeId": "24",
       "awayId": "20",
       "status": "in_progress",
-      "statusDetail": "12:38 - 2nd",
-      "homeScore": 3,
-      "awayScore": 10,
+      "statusDetail": "Halftime",
+      "homeScore": 10,
+      "awayScore": 17,
       "venue": "SoFi Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -213,9 +213,9 @@
       "homeId": "19",
       "awayId": "30",
       "status": "in_progress",
-      "statusDetail": "7:35 - 1st",
-      "homeScore": 0,
-      "awayScore": 3,
+      "statusDetail": "11:23 - 2nd",
+      "homeScore": 10,
+      "awayScore": 6,
       "venue": "MetLife Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -235,9 +235,9 @@
       "homeId": "7",
       "awayId": "13",
       "status": "in_progress",
-      "statusDetail": "6:28 - 1st",
-      "homeScore": 3,
-      "awayScore": 0,
+      "statusDetail": "6:43 - 2nd",
+      "homeScore": 17,
+      "awayScore": 3,
       "venue": "Empower Field at Mile High",
       "neutralSite": false,
       "venueInfo": {
