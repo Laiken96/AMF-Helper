@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T03:47:23Z",
+  "updatedAt": "2026-11-22T04:47:35Z",
   "items": [
+    {
+      "id": "12c1ed5a2d7c6a92",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-is-one-score-away-from-four-straight-seasons-with-12-or-more-rushing-touchdowns",
+      "title": "Josh Allen is one score away from four straight seasons with 12 or more rushing touchdowns",
+      "summary": "Bills quarterback Josh Allen has become something that few quarterbacks are — a rushing-touchdown machine.",
+      "publishedAt": "2026-11-22T04:31:54Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "547263ee803294d4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50558496/police-probing-whether-titans-de-harrell-assaulted-driver",
+      "title": "Police investigating whether Titans DE Harrell assaulted driver before crash",
+      "summary": "Police are investigating whether Titans DE Jaylen Harrell assaulted a rideshare driver before a serious car crash that left him hospitalized.",
+      "publishedAt": "2026-11-22T04:31:20Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "835ae575157f6e6a",
       "source": "pft",
@@ -1622,27 +1644,6 @@
         "12",
         "16",
         "27"
-      ]
-    },
-    {
-      "id": "ce789c8f8aa30c66",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-will-undergo-knee-surgery-and-likely-miss-the-rest-of-the-season",
-      "title": "Puka Nacua will undergo knee surgery and likely miss the rest of the season",
-      "summary": "Sean McVay says Nacua will miss \"a couple months.\"",
-      "publishedAt": "2026-11-20T17:24:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ea83b1b6001733b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
-      "title": "Draft buzz: Interest in Oklahoma State's Drew Mestemaker could spur draft trade",
-      "summary": "If the Titans or Chargers wind up with the No. 1 selection and stick with their franchise quarterbacks, interest in Oklahoma State's Drew Mestemaker could lead to a team seeking to trade up for the top overall pick.",
-      "publishedAt": "2026-11-20T17:16:10Z",
-      "teamIds": [
-        "24",
-        "10"
       ]
     }
   ]
