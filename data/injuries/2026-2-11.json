@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T16:50:35Z",
+    "takenAt": "2026-11-22T17:01:04Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1122,6 +1122,17 @@
               "rushing"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1184,6 +1195,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4428993",
+            "name": "Haynes King",
+            "pos": "QB",
+            "teamId": "29",
+            "teamAbbr": "CAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4685472",
@@ -1421,6 +1443,17 @@
             "status": null
           },
           {
+            "athleteId": "3120590",
+            "name": "Easton Stick",
+            "pos": "QB",
+            "teamId": "27",
+            "teamAbbr": "TB",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4567750",
             "name": "Emeka Egbuka",
             "pos": "WR",
@@ -1589,6 +1622,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4429955",
+            "name": "Will Howard",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           },
           {
             "athleteId": "4569987",
@@ -2010,6 +2054,16 @@
     },
     {
       "gameId": "401873067",
+      "athleteId": "4567747",
+      "name": "Garrett Nussmeier",
+      "pos": "QB",
+      "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873067",
       "athleteId": "4038524",
       "name": "Gardner Minshew II",
       "pos": "QB",
@@ -2024,6 +2078,16 @@
       "name": "Carson Beck",
       "pos": "QB",
       "teamAbbr": "ARI",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873068",
+      "athleteId": "4428993",
+      "name": "Haynes King",
+      "pos": "QB",
+      "teamAbbr": "CAR",
       "kind": "neu",
       "from": null,
       "to": "Out"
@@ -2079,11 +2143,31 @@
       "to": null
     },
     {
+      "gameId": "401873072",
+      "athleteId": "3120590",
+      "name": "Easton Stick",
+      "pos": "QB",
+      "teamAbbr": "TB",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873076",
       "athleteId": "4879250",
       "name": "Cole Payton",
       "pos": "QB",
       "teamAbbr": "PHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873076",
+      "athleteId": "4429955",
+      "name": "Will Howard",
+      "pos": "QB",
+      "teamAbbr": "PIT",
       "kind": "neu",
       "from": null,
       "to": "Out"
