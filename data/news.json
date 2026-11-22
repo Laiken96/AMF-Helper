@@ -1,7 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T11:47:25Z",
+  "updatedAt": "2026-11-22T12:47:24Z",
   "items": [
+    {
+      "id": "ea184df884159274",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50557657/sources-daniel-jones-likely-wait-joining-new-team",
+      "title": "Sources: Ex-Colts QB Daniel Jones likely to wait before signing with new team",
+      "summary": "If Daniel Jones clear waivers and becomes a free agent, the QB is unlikely to sign immediately, preferring to wait for the right opportunity, sources said.",
+      "publishedAt": "2026-11-22T12:30:33Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "70ae9ffb76718140",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 11: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-22T12:24:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "7ea9670927c482f7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50551004/sources-colts-shutting-alec-pierce-rest-season",
+      "title": "Sources: Colts shut down Alec Pierce for season, plan for WR's return in 2027",
+      "summary": "The Colts are shutting down Alec Pierce for the rest of the season and are planning for the WR to return fully healthy in 2027, sources told NFL Network.",
+      "publishedAt": "2026-11-22T12:15:13Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "6370a7a0804b3b47",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
+      "title": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
+      "summary": "Vikings quarterback Kirk Cousins is poised to become the first quarterback in the modern era to play 18 regular-season games.",
+      "publishedAt": "2026-11-22T12:14:29Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "a91bb2232efe30cc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50550285/sources-buccaneers-qb-baker-mayfield-plantar-fasciitis",
+      "title": "Sources: Bucs' Baker Mayfield has plantar fasciitis, determined to keep playing",
+      "summary": "Baker Mayfield is dealing with a painful case of plantar fasciitis, sources told NFL Network, an injury that the Bucs QB is determined to play through.",
+      "publishedAt": "2026-11-22T11:59:54Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "e6cbfd5db6f81b79",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50544188/new-england-patriots-highest-paid-players-2026",
+      "title": "How Patriots' top 10 earners have fared: A.J. Brown, Christian Gonzalez, more",
+      "summary": "The Patriots' 5-5 record reflects what happens when a team's highest-paid players don't perform well. Let's look closer at the top 10 earners in New England.",
+      "publishedAt": "2026-11-22T11:59:26Z",
+      "teamIds": [
+        "17"
+      ]
+    },
     {
       "id": "b3a1f17daf34e66e",
       "source": "espn",
@@ -1089,10 +1153,13 @@
       "id": "909770991ddc1eb8",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-11-expert-picks-odds-best-bets-teasers-predictions-survivor-picks",
-      "title": "NFL Week 11 expert picks, odds, best bets, teasers, predictions, survivor picks and more",
+      "title": "NFL Week 11 expert picks, odds, best bets, teasers, predictions, survivor picks: Who wins 49ers or Vikings?",
       "summary": "NFL Week 11 odds, how to watch, streaming: Expert selections, best bets, teasers, survivor picks and more CBSSports.com and SportsLine break down every single NFL game in Week 17",
       "publishedAt": "2026-11-20T21:12:55Z",
-      "teamIds": []
+      "teamIds": [
+        "16",
+        "25"
+      ]
     },
     {
       "id": "4918531e454bd847",
@@ -1585,73 +1652,6 @@
       "teamIds": [
         "2",
         "15"
-      ]
-    },
-    {
-      "id": "903936fd45b20bf6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50542311/shane-steichen-announces-daniel-jones-release-colts",
-      "title": "Shane Steichen announces Daniel Jones' release from Colts",
-      "summary": null,
-      "publishedAt": "2026-11-20T18:23:47Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "b1933741420395db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-reid-posts-farewell-message-to-saints-new-orleans",
-      "title": "Justin Reid posts farewell message to Saints, New Orleans",
-      "summary": "The Saints have not announced any move involving safety Justin Reid, but it seems one is coming soon.",
-      "publishedAt": "2026-11-20T18:14:40Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "f60440a685ef78eb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-release-qb-daniel-jones",
-      "title": "Colts release QB Daniel Jones",
-      "summary": "Colts avoid $10.51 million injury guarantee for 2027 by removing Jones from the roster.",
-      "publishedAt": "2026-11-20T18:12:33Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "e9672467bdb72192",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-dealing-with-back-spasms-josh-johnson-in-line-to-start-vs-chiefs",
-      "title": "Carson Beck dealing with back spasms, Josh Johnson in line to start vs. Chiefs",
-      "summary": "The Cardinals may have a fourth starting quarterback in four weeks when they play the Chiefs on Sunday.",
-      "publishedAt": "2026-11-20T18:01:10Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "d21b22ae3cf703df",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/revisiting-2026-nfl-draft-saints-took-chance-on-jordyn-tyson",
-      "title": "Revisiting 2026 NFL Draft: Were the Saints wise in taking a chance on injury-prone Jordyn Tyson?",
-      "summary": "New Orleans took a gamble on the explosive wideout at No. 8 overall, and his early impact alongside Tyler Shough is proving the top-10 talent was worth the durability concerns",
-      "publishedAt": "2026-11-20T18:01:03Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "8ab055458a478d5f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-tay-martins-special-teams-tape-was-so-good-i-was-shocked-we-got-him",
-      "title": "Dan Campbell: Tay Martin's special teams tape was so good, I was shocked we got him",
-      "summary": "Lions wide receiver Tay Martin has been in the NFL since 2022, and he has only four career catches.",
-      "publishedAt": "2026-11-20T17:52:58Z",
-      "teamIds": [
-        "8"
       ]
     }
   ]
