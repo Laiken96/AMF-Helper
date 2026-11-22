@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T18:10:36Z",
+    "takenAt": "2026-11-22T18:20:36Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1045,6 +1045,29 @@
         "kickoffUtc": "2026-11-22T18:00:00Z",
         "players": [
           {
+            "athleteId": "11394",
+            "name": "Josh Johnson",
+            "pos": "QB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4373626",
+            "name": "Tyler Allgeier",
+            "pos": "RB",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4430841",
             "name": "Carson Beck",
             "pos": "QB",
@@ -1125,7 +1148,17 @@
             "teamId": "33",
             "teamAbbr": "BAL",
             "roles": [
-              "rushing",
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4360939",
+            "name": "Rashod Bateman",
+            "pos": "WR",
+            "teamId": "33",
+            "teamAbbr": "BAL",
+            "roles": [
               "receiving"
             ],
             "status": null
@@ -1200,7 +1233,51 @@
             "teamId": "2",
             "teamAbbr": "BUF",
             "roles": [
-              "rushing",
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4379399",
+            "name": "James Cook III",
+            "pos": "RB",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4433971",
+            "name": "Kyle McCord",
+            "pos": "QB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4682745",
+            "name": "Jaylen Wright",
+            "pos": "RB",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4869645",
+            "name": "Caleb Douglas",
+            "pos": "WR",
+            "teamId": "15",
+            "teamAbbr": "MIA",
+            "roles": [
               "receiving"
             ],
             "status": null
@@ -1257,6 +1334,18 @@
             "status": null
           },
           {
+            "athleteId": "4360689",
+            "name": "Tyler Shough",
+            "pos": "QB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4361259",
             "name": "Zach Wilson",
             "pos": "QB",
@@ -1266,6 +1355,28 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4361370",
+            "name": "Chris Olave",
+            "pos": "WR",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4880281",
+            "name": "Jordyn Tyson",
+            "pos": "WR",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           }
         ]
       },
@@ -1286,6 +1397,28 @@
             "status": null
           },
           {
+            "athleteId": "4429795",
+            "name": "Jahmyr Gibbs",
+            "pos": "RB",
+            "teamId": "8",
+            "teamAbbr": "DET",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4430027",
+            "name": "Sam LaPorta",
+            "pos": "TE",
+            "teamId": "8",
+            "teamAbbr": "DET",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "3052587",
             "name": "Baker Mayfield",
             "pos": "QB",
@@ -1293,8 +1426,7 @@
             "teamAbbr": "TB",
             "roles": [
               "qb",
-              "passing",
-              "rushing"
+              "passing"
             ],
             "status": null
           },
@@ -1316,6 +1448,7 @@
             "teamId": "27",
             "teamAbbr": "TB",
             "roles": [
+              "rushing",
               "receiving"
             ],
             "status": null
