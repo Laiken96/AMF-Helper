@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T18:40:38Z",
+    "takenAt": "2026-11-22T20:10:42Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1790,6 +1790,17 @@
         "kickoffUtc": "2026-11-22T21:25:00Z",
         "players": [
           {
+            "athleteId": "4241820",
+            "name": "Sam Ehlinger",
+            "pos": "QB",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4241985",
             "name": "J.K. Dobbins",
             "pos": "RB",
@@ -1832,7 +1843,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4837248",
@@ -2160,6 +2171,26 @@
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
+    },
+    {
+      "gameId": "401873075",
+      "athleteId": "4432665",
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "teamAbbr": "LV",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873075",
+      "athleteId": "4241820",
+      "name": "Sam Ehlinger",
+      "pos": "QB",
+      "teamAbbr": "DEN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
     },
     {
       "gameId": "401873075",
