@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T16:20:37Z",
+    "takenAt": "2026-11-22T16:40:38Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1054,7 +1054,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4361307",
@@ -1510,7 +1510,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4870795",
@@ -1966,6 +1966,16 @@
     },
     {
       "gameId": "401873067",
+      "athleteId": "4038524",
+      "name": "Gardner Minshew II",
+      "pos": "QB",
+      "teamAbbr": "ARI",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
+      "gameId": "401873067",
       "athleteId": "4430841",
       "name": "Carson Beck",
       "pos": "QB",
@@ -1983,6 +1993,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873076",
+      "athleteId": "4040715",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "teamAbbr": "PHI",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     },
     {
       "gameId": "401873074",
