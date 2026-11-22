@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T08:07:00Z",
+  "updatedAt": "2026-11-22T10:47:24Z",
   "items": [
+    {
+      "id": "3b277dacf9f98244",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-11",
+      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 11",
+      "summary": "Sunday night's Vikings-49ers game is a very big one in the NFC playoff race.",
+      "publishedAt": "2026-11-22T09:54:45Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "334aefc11cc67728",
       "source": "espn",
@@ -1632,17 +1644,6 @@
       "teamIds": [
         "14",
         "28"
-      ]
-    },
-    {
-      "id": "0961babd6bbd6e17",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-hope-to-have-kobie-turner-back-for-week-12",
-      "title": "Rams hope to have Kobie Turner back for Week 12",
-      "summary": "Rams head coach Sean McVay shared a negative update on wide receiver Puka Nacua's health on Friday, but he had better news regarding defensive tackle Kobie Turner.",
-      "publishedAt": "2026-11-20T17:33:28Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
