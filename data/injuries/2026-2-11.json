@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T18:30:53Z",
+    "takenAt": "2026-11-22T18:40:38Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1053,6 +1053,17 @@
             "roles": [
               "qb",
               "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4239944",
+            "name": "Hunter Long",
+            "pos": "TE",
+            "teamId": "22",
+            "teamAbbr": "ARI",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
@@ -1334,6 +1345,17 @@
             "status": null
           },
           {
+            "athleteId": "4239996",
+            "name": "Travis Etienne Jr.",
+            "pos": "RB",
+            "teamId": "18",
+            "teamAbbr": "NO",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4360689",
             "name": "Tyler Shough",
             "pos": "QB",
@@ -1364,17 +1386,6 @@
             "teamAbbr": "NO",
             "roles": [
               "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4880281",
-            "name": "Jordyn Tyson",
-            "pos": "WR",
-            "teamId": "18",
-            "teamAbbr": "NO",
-            "roles": [
-              "rushing"
             ],
             "status": null
           }
@@ -1586,7 +1597,8 @@
             "teamAbbr": "PIT",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -1611,17 +1623,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4569987",
-            "name": "Jaylen Warren",
-            "pos": "RB",
-            "teamId": "23",
-            "teamAbbr": "PIT",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
           }
         ]
       },
