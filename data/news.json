@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T02:47:24Z",
+  "updatedAt": "2026-11-22T03:47:23Z",
   "items": [
+    {
+      "id": "835ae575157f6e6a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-loss-to-virginia-bill-belichicks-bowl-hopes-come-down-to-nc-state-game",
+      "title": "After loss to Virginia, Bill Belichick's bowl hopes come down to NC State game",
+      "summary": "It all comes down to next Saturday, potentially.",
+      "publishedAt": "2026-11-22T03:04:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "9ff2479a6ba998e4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-last-minute-picks-best-bets-fernando-mendozas",
+      "title": "NFL Week 11 last-minute picks, best bets: Fernando Mendoza's Raiders face tough task, Titans cover in Dallas",
+      "summary": "Need some last-minute advice on how to bet the Week 11 slate? Allow us to be of assistance",
+      "publishedAt": "2026-11-22T03:00:55Z",
+      "teamIds": [
+        "13",
+        "10"
+      ]
+    },
+    {
+      "id": "9acb6c7a6a81af7e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/loss-to-cincinnati-eliminates-deion-sanders-colorado-from-bowl-eligibility",
+      "title": "Loss to Cincinnati eliminates Deion Sanders, Colorado from bowl eligibility",
+      "summary": "Deion Sanders's fourth season at Colorado will end without a bowl game.",
+      "publishedAt": "2026-11-22T02:55:02Z",
+      "teamIds": []
+    },
     {
       "id": "503db1bf0f9826bc",
       "source": "pft",
@@ -1614,38 +1644,6 @@
         "24",
         "10"
       ]
-    },
-    {
-      "id": "7c677942180d62ea",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50541178/ravens-avoid-marlon-humphrey-controversy-distraction",
-      "title": "Can Ravens keep the Marlon Humphrey controversy from becoming a distraction?",
-      "summary": "While there's more to the cornerback's story, one Baltimore teammate says: \"We have enough things to worry about.\"",
-      "publishedAt": "2026-11-20T17:12:30Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "aa0667d8784a7568",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-improved-their-special-teams-coverage-by-having-fullback-andrew-beck-handle-kickoffs",
-      "title": "Jets improved their special teams coverage by having fullback Andrew Beck handle kickoffs",
-      "summary": "Only one kickoff has been returned for a touchdown in the NFL this season, and it was allowed by the Jets when kicker Austin McNamara not only failed to make the tackle, but got in the way of his teammates as they tried to run down Raiders return man Dylan Laube.",
-      "publishedAt": "2026-11-20T17:04:01Z",
-      "teamIds": [
-        "13",
-        "20"
-      ]
-    },
-    {
-      "id": "7f1db8e080e5acaa",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50541944/draftkings-nfl-dfs-values-week-11",
-      "title": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
-      "summary": "Build a winning DFS lineup with our DraftKings NFL Week 11 cheat sheet identifying the best stacks and values",
-      "publishedAt": "2026-11-20T17:02:42Z",
-      "teamIds": []
     }
   ]
 }
