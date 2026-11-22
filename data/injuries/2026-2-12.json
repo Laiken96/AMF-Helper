@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T17:47:21Z",
+    "takenAt": "2026-11-22T20:47:23Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1509,6 +1509,17 @@
         "gameId": "401873083",
         "kickoffUtc": "2026-11-27T20:00:00Z",
         "players": [
+          {
+            "athleteId": "4241820",
+            "name": "Sam Ehlinger",
+            "pos": "QB",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4241985",
             "name": "J.K. Dobbins",
@@ -1897,17 +1908,6 @@
             "status": null
           },
           {
-            "athleteId": "4689114",
-            "name": "Jaxson Dart",
-            "pos": "QB",
-            "teamId": "19",
-            "teamAbbr": "NYG",
-            "roles": [
-              "qb"
-            ],
-            "status": "Injured Reserve"
-          },
-          {
             "athleteId": "4696981",
             "name": "Cam Skattebo",
             "pos": "RB",
@@ -2266,17 +2266,6 @@
             "status": null
           },
           {
-            "athleteId": "4430841",
-            "name": "Carson Beck",
-            "pos": "QB",
-            "teamId": "22",
-            "teamAbbr": "ARI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "2976212",
             "name": "Stefon Diggs",
             "pos": "WR",
@@ -2349,7 +2338,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4837248",
@@ -2537,6 +2526,16 @@
     },
     {
       "gameId": "401873083",
+      "athleteId": "4241820",
+      "name": "Sam Ehlinger",
+      "pos": "QB",
+      "teamAbbr": "DEN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873083",
       "athleteId": "4372016",
       "name": "Jaylen Waddle",
       "pos": "WR",
@@ -2606,16 +2605,6 @@
       "to": "Out"
     },
     {
-      "gameId": "401873088",
-      "athleteId": "4689114",
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "teamAbbr": "NYG",
-      "kind": "neu",
-      "from": null,
-      "to": "Injured Reserve"
-    },
-    {
       "gameId": "401873089",
       "athleteId": "15864",
       "name": "Geno Smith",
@@ -2656,14 +2645,14 @@
       "to": "Questionable"
     },
     {
-      "gameId": "401873092",
-      "athleteId": "4430841",
-      "name": "Carson Beck",
-      "pos": "QB",
-      "teamAbbr": "ARI",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
+      "gameId": "401873086",
+      "athleteId": "4432665",
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "teamAbbr": "LV",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873094",
