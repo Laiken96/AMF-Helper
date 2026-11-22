@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T00:47:21Z",
+    "takenAt": "2026-11-22T01:47:22Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1235,7 +1235,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4430737",
@@ -2387,6 +2387,16 @@
     ]
   },
   "changes": [
+    {
+      "gameId": "401873079",
+      "athleteId": "4426515",
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "teamAbbr": "LAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
+    },
     {
       "gameId": "401873079",
       "athleteId": "4430737",

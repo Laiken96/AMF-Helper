@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T23:47:29Z",
+  "updatedAt": "2026-11-22T01:47:25Z",
   "items": [
+    {
+      "id": "3d2766f99423900d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
+      "title": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
+      "summary": "Puka Nacua's recovery time from MCL surgery is considered to be four to five months, sources told ESPN, meaning he will miss the playoffs.",
+      "publishedAt": "2026-11-22T01:46:34Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "44cf3bcbe7c5d470",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-wasnt-fined-for-sack-that-injured-drake-maye",
+      "title": "Aidan Hutchinson wasn't fined for sack that injured Drake Maye",
+      "summary": "As expected, Lions defensive end Aidan Hutchinson wasn't fined for the tackle that may have ended Patriots quarterback Drake Maye's season.",
+      "publishedAt": "2026-11-22T01:32:58Z",
+      "teamIds": [
+        "8",
+        "17"
+      ]
+    },
+    {
+      "id": "5c4f6de46fffdc2b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylen-harrell-allegedly-assaulted-rideshare-driver-before-crash",
+      "title": "Jaylen Harrell allegedly assaulted rideshare driver before crash",
+      "summary": "The Titans announced on Saturday that defensive end Jaylen Harrell was hospitalized in Tampa after a \"serious car accident.\"",
+      "publishedAt": "2026-11-22T01:14:30Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "e883bb185c90a07a",
       "source": "pft",
@@ -1613,33 +1647,6 @@
       "teamIds": [
         "6"
       ]
-    },
-    {
-      "id": "0f9b68be2fc80d9b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541547/yates-clay-disagree-ollie-gordon-ii-week-11",
-      "title": "Yates, Clay disagree over Ollie Gordon II in Week 11",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:23:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "9bc023d7f0902b0d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541586/tyler-warren-not-startable-fantasy",
-      "title": "Mike Clay: Tyler Warren is not startable in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:21:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "46f3c62eb20eb074",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50541498/field-yates-voices-concerns-saquon-barkley-fantasy",
-      "title": "Field Yates voices his concerns for Saquon Barkley in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-20T16:19:10Z",
-      "teamIds": []
     }
   ]
 }
