@@ -1,7 +1,101 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T13:47:25Z",
+  "updatedAt": "2026-11-22T14:47:27Z",
   "items": [
+    {
+      "id": "1fb7157c0b0e6b20",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikmans-latest-comments-invite-speculation-that-hes-hoping-for-an-early-exit",
+      "title": "Troy Aikman's latest comments invite speculation that he's hoping for an early exit",
+      "summary": "In isolation, the latest comments from ESPN's Troy Aikman about Monday night partner Joe Buck would have barely been noticed.",
+      "publishedAt": "2026-11-22T14:39:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "087fc7dfef5fc0f4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-baker-mayfield-dealing-with-plantar-fasciitis",
+      "title": "Report: Baker Mayfield dealing with plantar fasciitis",
+      "summary": "Buccaneers quarterback Baker Mayfield is expected to play against the Lions on Sunday, but the foot injury that led to him being listed as questionable is likely to be an issue in the weeks to come.",
+      "publishedAt": "2026-11-22T14:36:08Z",
+      "teamIds": [
+        "8",
+        "27"
+      ]
+    },
+    {
+      "id": "5e5c4ce5c15f62a4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-is-the-saints-leading-rusher-with-187-yards-this-season",
+      "title": "Tyler Shough is the Saints' leading rusher, with 187 yards this season",
+      "summary": "As Saints quarterback Tyler Shough struggles through his second season, a good running attack could help take some pressure off him.",
+      "publishedAt": "2026-11-22T14:35:29Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "30535d8da4a84e0c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-nearly-4000-in-bonuses-betting-apps-sportsbooks-sundays-games",
+      "title": "Week 11 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
+      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-22T14:10:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "91d6db95c91cb3f8",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-game-spreads-betting-advice-lines-predictions-week-11-2026",
+      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
+      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-22T14:04:24Z",
+      "teamIds": [
+        "6",
+        "18"
+      ]
+    },
+    {
+      "id": "6988594ac3998783",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-lines-odds-totals-spreads",
+      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Eagles-Steelers, 49ers-Vikings, more",
+      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
+      "publishedAt": "2026-11-22T14:01:25Z",
+      "teamIds": [
+        "16",
+        "21",
+        "23",
+        "25"
+      ]
+    },
+    {
+      "id": "7fc71caec7ddafba",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-11-2026-expert-ats-picks-best-bets-predictions-player-props-for-nov-22",
+      "title": "NFL picks against the spread, Week 11 2026: Expert ATS picks, best bets, predictions, player props for Nov. 22",
+      "summary": "The SportsLine experts have locked in their top Week 11 picks from this week's NFL schedule, see who they are backing and fading here",
+      "publishedAt": "2026-11-22T14:00:59Z",
+      "teamIds": []
+    },
+    {
+      "id": "fa0d358077d203c8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-daniel-jones-is-likely-to-wait-to-sign-with-the-right-team-at-the-right-time",
+      "title": "Report: Daniel Jones is likely to wait to sign with the \"right team at the right time\"",
+      "summary": "New reporting doesn't mention the path he took in 2024 — signing with a practice squad.",
+      "publishedAt": "2026-11-22T13:58:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "e09151101b8bb0fb",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/2026-week-11-nfl-player-props-picks-odds-best-bets-sundays-games-include-patrick-mahomes-tony-pollard",
+      "title": "2026 Week 11 NFL player props, picks, odds, best bets for Sunday's games include Patrick Mahomes, Tony Pollard",
+      "summary": "Bet on Week 11 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
+      "publishedAt": "2026-11-22T13:45:43Z",
+      "teamIds": []
+    },
     {
       "id": "16058ef715c8b64e",
       "source": "pft",
@@ -11,6 +105,18 @@
       "publishedAt": "2026-11-22T13:32:49Z",
       "teamIds": [
         "11"
+      ]
+    },
+    {
+      "id": "affbe51808eb1216",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions",
+      "title": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on the Vikings and 49ers' Sunday Night Football game in Mexico City",
+      "publishedAt": "2026-11-22T13:30:51Z",
+      "teamIds": [
+        "16",
+        "25"
       ]
     },
     {
@@ -1548,117 +1654,6 @@
       "publishedAt": "2026-11-20T19:36:23Z",
       "teamIds": [
         "17"
-      ]
-    },
-    {
-      "id": "64c5d1fb6657b4c0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-list-isaiah-rodgers-as-questionable-for-sunday-nights-game",
-      "title": "Vikings list Isaiah Rodgers as questionable for Sunday night's game",
-      "summary": "The Vikings may not have starting cornerback Isaiah Rodgers for Sunday night's game against the 49ers in Mexico City.",
-      "publishedAt": "2026-11-20T19:35:00Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "2472315d4a2d8cae",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-is-expected-to-miss-multiple-weeks-with-hamstring-injury",
-      "title": "A.J. Brown is expected to miss multiple weeks with hamstring injury",
-      "summary": "A season marred by injuries continues for receiver A.J.",
-      "publishedAt": "2026-11-20T19:33:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "648ba246abc70f77",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/drake-maye-has-fractured-right-fibula-will-not-require-surgery-per-report",
-      "title": "Drake Maye has fractured right fibula, will not require surgery, per report",
-      "summary": "Maye's injury will sideline him deep into the season, if he is able to return at all, per the report",
-      "publishedAt": "2026-11-20T19:28:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "8a344f4204cf27bd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-daniel-jones-didnt-ask-to-be-released",
-      "title": "Shane Steichen: Daniel Jones didn't ask to be released",
-      "summary": "The Colts abruptly released quarterback Daniel Jones on Friday.",
-      "publishedAt": "2026-11-20T19:25:36Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "f4931c6be2c599e4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542595/cardinals-qb-beck-dealing-back-spasms-johnson-start",
-      "title": "Cardinals QB Carson Beck dealing with back spasms; Josh Johnson may start",
-      "summary": "The Cardinals are preparing veteran quarterback Josh Johnson to start Sunday vs. the Chiefs as rookie Carson Beck deals with back spasms, coach Mike LaFleur said Friday.",
-      "publishedAt": "2026-11-20T19:25:13Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "92bfc586678bf105",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-luther-burden-kyle-monangai-have-no-injury-designations-for-sunday",
-      "title": "Jeffery Simmons, Luther Burden, Kyle Monangai have no injury designations for Sunday",
-      "summary": "The Bears' final injury report ahead of Sunday's game against the Saints brought good news on both sides of the ball.",
-      "publishedAt": "2026-11-20T19:23:49Z",
-      "teamIds": [
-        "3",
-        "18"
-      ]
-    },
-    {
-      "id": "cf887a661932f3d1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-likely-out-for-season-with-fractured-fibula",
-      "title": "Drake Maye likely out for season with fractured fibula",
-      "summary": "According to a report from ESPN, Maye did not suffer any additional ligament damage.",
-      "publishedAt": "2026-11-20T19:22:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "928f22002d9adf74",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-mismanagement-continues-with-release-of-qb-daniel-jones",
-      "title": "Colts' mismanagement continues with release of QB Daniel Jones",
-      "summary": "The Colts arguably mishandled the Jonathan Taylor situation, when it comes to the possibility of trading him.",
-      "publishedAt": "2026-11-20T19:00:08Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "8d42e53fa1a44778",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/colts-release-qb-daniel-jones-possible-landing-spots",
-      "title": "Colts release Daniel Jones: Landing spots for QB include Patriots, Ravens, Eagles",
-      "summary": "Jones just completed his sixth straight game with an interception, the longest streak by a Colts player since Curtis Painter in 2011",
-      "publishedAt": "2026-11-20T18:59:44Z",
-      "teamIds": [
-        "33",
-        "11",
-        "17",
-        "21"
-      ]
-    },
-    {
-      "id": "cb95ddba46206a9e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-rule-out-nnamdi-madubuike-jaylinn-hawkins",
-      "title": "Ravens rule out Nnamdi Madubuike, Jaylinn Hawkins",
-      "summary": "Ravens head coach Jesse Minter ruled out a pair of players for Sunday's road game against the Panthers.",
-      "publishedAt": "2026-11-20T18:48:58Z",
-      "teamIds": [
-        "33",
-        "29"
       ]
     }
   ]
