@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T21:10:34Z",
+    "takenAt": "2026-11-22T21:20:41Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1630,6 +1630,40 @@
         "gameId": "401873074",
         "kickoffUtc": "2026-11-22T21:05:00Z",
         "players": [
+          {
+            "athleteId": "3123076",
+            "name": "David Njoku",
+            "pos": "TE",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4038941",
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685382",
+            "name": "Omarion Hampton",
+            "pos": "RB",
+            "teamId": "24",
+            "teamAbbr": "LAC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
           {
             "athleteId": "15864",
             "name": "Geno Smith",
