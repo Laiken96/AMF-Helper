@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-22T15:10:47Z",
+  "updatedAt": "2026-11-22T15:31:17Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -242,6 +242,60 @@
         {
           "title": "NFL Week 11 injury report (CBS Sports)",
           "url": "https://cbssports.com/nfl/news/nfl-week-11-injury-report-kenneth-walker-iii-mike-evans-baker-mayfield"
+        }
+      ]
+    },
+    {
+      "gameId": "401873069",
+      "createdAt": "2026-11-22T15:31:09Z",
+      "winnerTeamId": "30",
+      "pWinner": 0.6,
+      "marketPickTeamId": "30",
+      "marketProb": 0.6716,
+      "reasoning": "Die Giants haben laut Verletzungsbericht keine Einschränkungen, müssen aber ohne den verletzten Quarterback Jaxson Dart auskommen, und J.J. McCarthy wird als Starter genannt. Die Jaguars (7-2) sind der formstärkere Auswärtsgegner mit Problemen auf dem Center und in der Defensive Line (Hainsey und Green out), während Tuten wieder spielbereit ist. Der Regenrisiko-Faktor ist uneinheitlich, daher bleibt die Einschätzung moderat für Jacksonville.",
+      "sources": [
+        {
+          "title": "NFL Week 11 injury report: Player statuses for all 13 games",
+          "url": "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+        },
+        {
+          "title": "Injury Report: Statuses for Giants vs. Jaguars",
+          "url": "https://www.giants.com/news/injury-report-statuses-for-giants-vs-jaguars-week-11"
+        },
+        {
+          "title": "Jacksonville Jaguars at New York Giants: 2026 Week 11 Preview",
+          "url": "https://hawkblogger.com/game/2026-week-11-jaguars-at-giants"
+        },
+        {
+          "title": "New Forecast Shows Heavy Rain For Pivotal Week 11 NFL Game",
+          "url": "https://thespun.com/nfl/new-forecast-shows-heavy-rain-for-week-11-jaguars-giants-game"
+        }
+      ]
+    },
+    {
+      "gameId": "401873075",
+      "createdAt": "2026-11-22T15:31:17Z",
+      "winnerTeamId": "7",
+      "pWinner": 0.68,
+      "marketPickTeamId": "7",
+      "marketProb": 0.7817,
+      "reasoning": "Die Broncos (7-2) kommen gesund aus der Bye Week zurück, mit Waddle, Moss und Hufanga im Training voll dabei, während Lohner ausfällt und Brandon Jones fraglich ist. Bei den Raiders (4-6) ist TE Brock Bowers nur fraglich nach Knöchel- und Quadrizepsproblemen und Tonka Hemingway fällt aus, dazu kommt ein Rookie-QB als Starter. Die Heimstärke und der Gesundheitsvorteil sprechen deutlich für Denver, auch wenn ein Einsatz von Bowers das Spiel offener machen könnte.",
+      "sources": [
+        {
+          "title": "Raiders-Broncos Week 11 Injury Report (Raiders.com)",
+          "url": "https://www.raiders.com/news/raiders-broncos-week-11-injury-report"
+        },
+        {
+          "title": "Denver Broncos vs. Las Vegas Raiders final injury report for Week 11 (Mile High Report)",
+          "url": "https://www.milehighreport.com/denver-broncos-injuries/192532/broncos-vs-raiders-injury-report-week-11"
+        },
+        {
+          "title": "Broncos Friday injury report (ESPN, Jeff Legwold)",
+          "url": "https://www.espn.com/contributor/jeff-legwold/fd980b4757862"
+        },
+        {
+          "title": "Raiders Star Questionable Ahead of Matchup With Broncos (KSNV)",
+          "url": "https://news3lv.com/sports/content/las-vegas-raiders-star-questionable-brock-bowers-klint-kubiak-denver-broncos-nfl-football-sports-nevada"
         }
       ]
     }
