@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-21T19:30:52Z",
+    "takenAt": "2026-11-22T16:20:37Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1510,7 +1510,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4870795",
@@ -1983,16 +1983,6 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
-    },
-    {
-      "gameId": "401873076",
-      "athleteId": "4040715",
-      "name": "Jalen Hurts",
-      "pos": "QB",
-      "teamAbbr": "PHI",
-      "kind": "neu",
-      "from": null,
-      "to": "Injured Reserve"
     },
     {
       "gameId": "401873074",
