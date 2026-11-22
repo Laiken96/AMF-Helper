@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-22T12:01:45Z",
+  "updatedAt": "2026-11-22T12:11:08Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -138,6 +138,83 @@
         {
           "title": "Saints-Bears Weather, Officials, and Our Weekly Meme",
           "url": "https://www.si.com/nfl/saints/onsi/saints-bears-weather-officials-and-our-weekly-meme-01m7wy5422sh"
+        }
+      ]
+    },
+    {
+      "gameId": "401873072",
+      "createdAt": "2026-11-22T12:10:52Z",
+      "winnerTeamId": "8",
+      "pWinner": 0.7,
+      "marketPickTeamId": "8",
+      "marketProb": 0.6023,
+      "reasoning": "Die Lions (7-2, fünf Siege in Folge, 4-0 zu Hause) sind gegen die Bucs (3-6) klar in der besseren Form und spielen im Ford Field, wo das Dach geschlossen ist. Bei den Bucs fehlen Antoine Winfield Jr. und Josh Hayes, und Baker Mayfield ist mit Fuss- und Daumenverletzung fraglich, sodass ein Einsatz von Jalon Daniels möglich ist. Die Lions verlieren mit Aidan Hutchinson und Cade Mays wichtige Spieler, dennoch spricht die Gesamtlage klar für Detroit.",
+      "sources": [
+        {
+          "title": "Buccaneers-Lions Injury Report Nov.20",
+          "url": "https://www.buccaneers.com/news/buccaneers-lions-injury-report-nov-20-week-11-2026"
+        },
+        {
+          "title": "Buccaneers Week 11 injury report vs. Lions: Baker Mayfield injury casts another cloud over NFC South race",
+          "url": "https://sports.yahoo.com/articles/buccaneers-week-11-injury-report-220025420.html"
+        },
+        {
+          "title": "Lions, Bucs Week 11 injury report: D.J. Reed returns to practice",
+          "url": "https://sports.yahoo.com/articles/lions-bucs-week-11-injury-214000401.html"
+        },
+        {
+          "title": "Buccaneers vs Lions Prediction, Picks & Odds: NFL Week 11",
+          "url": "https://www.covers.com/nfl/buccaneers-vs-lions-prediction-picks-nov-22-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873073",
+      "createdAt": "2026-11-22T12:11:00Z",
+      "winnerTeamId": "6",
+      "pWinner": 0.72,
+      "marketPickTeamId": "6",
+      "marketProb": 0.7107,
+      "reasoning": "Die Cowboys spielen zu Hause und haben mit Booker, Bland, Locke und Mingo zwar wichtige Ausfälle, die Titans sind aber mit 1-8 und sechs Niederlagen in Folge in schlechterer Form und verlieren Carmona als Starter. Dallas Defensive ist allerdings sehr anfällig, weshalb die Wahrscheinlichkeit nicht höher liegt. Carnell Tate ist nur fraglich (Schulter), sodass sein Einsatz offen bleibt.",
+      "sources": [
+        {
+          "title": "Cowboys Get More Bad News Before Titans Game (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/articles/cowboys-more-bad-news-titans-024359422.html"
+        },
+        {
+          "title": "NFL Week 11 injury report (CBS Sports)",
+          "url": "https://cbssports.com/nfl/news/nfl-week-11-injury-report-kenneth-walker-iii-mike-evans-baker-mayfield"
+        },
+        {
+          "title": "Titans vs. Cowboys (Nov 22, 2026) Live Score (ESPN)",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873073/titans-cowboys"
+        },
+        {
+          "title": "What's Up With the Cowboys' Injuries? (HEAVY)",
+          "url": "https://heavy.com/sports/nfl/dallas-cowboys/cowboys-injury-report-wednesday-titans-game/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873076",
+      "createdAt": "2026-11-22T12:11:08Z",
+      "winnerTeamId": "23",
+      "pWinner": 0.72,
+      "marketPickTeamId": "23",
+      "marketProb": 0.6023,
+      "reasoning": "Die Eagles (2-7) müssen ohne Jalen Hurts auskommen, der auf der Injured Reserve Liste steht und laut Berichten den Rest der Saison verpasst. Joe Milton startet als Ersatz-QB bereits zum zweiten Mal, während die Steelers mit 6-3 deutlich stabiler wirken. Bei den Steelers fehlen zwar Nick Herbig und möglicherweise einige andere Spieler, das fällt gegen die Eagles-Offensive aber weniger ins Gewicht.",
+      "sources": [
+        {
+          "title": "Eagles Injury Report: Smith and Wicks Limited, Baun Sits, Milton Starts vs. Steelers",
+          "url": "https://northeasttimes.com/2026/11/19/eagles-injury-report-smith-wicks-limited-baun-milton-starts-steelers-november-19-2026/"
+        },
+        {
+          "title": "Steelers Injury Report | Pittsburgh Steelers",
+          "url": "https://www.steelers.com/team/injury-report/"
+        },
+        {
+          "title": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely",
+          "url": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot"
         }
       ]
     }
