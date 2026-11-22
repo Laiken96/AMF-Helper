@@ -1,7 +1,96 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T22:47:19Z",
+  "updatedAt": "2026-11-22T23:47:24Z",
   "items": [
+    {
+      "id": "c70abecc20351b0e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50566741/robert-saleh-calls-titans-defensive-effort-disgusting",
+      "title": "Frustrated Robert Saleh calls Titans' effort 'disgusting, embarrassing football'",
+      "summary": "Titans coach Robert Saleh couldn't hide his frustration when he stepped to the podium after Sunday's 51-30 loss to the Cowboys.",
+      "publishedAt": "2026-11-22T23:36:05Z",
+      "teamIds": [
+        "10"
+      ]
+    },
+    {
+      "id": "b13cf4abdd2d8aed",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
+      "title": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
+      "summary": "Dak Prescott completed 28-of-33 passes for 325 yards with four TDs, no interceptions and a rushing score in the Cowboys' 51-30 win against the Titans.",
+      "publishedAt": "2026-11-22T23:32:49Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "e59b1d23e0ec4269",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50566642/joe-brady-better-bills-win-vs-dolphins",
+      "title": "Joe Brady not satisfied with 9-1 Bills, says team wasn't looking ahead to Chiefs",
+      "summary": "Joe Brady said he isn't anywhere close to satisfied despite his Bills beating the Dolphins to move to 9-1.",
+      "publishedAt": "2026-11-22T23:13:45Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "dda1c0f7346367c0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-doesnt-rule-out-internal-discipline-for-dk-metcalf",
+      "title": "Mike McCarthy doesn't rule out internal discipline for DK Metcalf",
+      "summary": "Steelers receiver DK Metcalf had an unfortunate stat line on Sunday.",
+      "publishedAt": "2026-11-22T23:05:45Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "6c34a3165e07de7b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/39286200/best-nfl-coaches-all-ranked-wins",
+      "title": "Who are the winningest NFL coaches of all time?",
+      "summary": "From Belichick to Reid, there are many iconic coaches in NFL history. Who has the best career record? Check out the stat breakdown now.",
+      "publishedAt": "2026-11-22T23:05:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "af4c70d90318f10e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-lead-raiders-17-10-at-halftime",
+      "title": "Broncos lead Raiders 17-10 at halftime",
+      "summary": "The Broncos got out to a 17-0 lead, but the Raiders have settled in after a rough start to narrow that advantage to 17-10 at halftime.",
+      "publishedAt": "2026-11-22T23:04:59Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "2a1a5f4c4f98a831",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-winners-losers-cowboys-offense-makes-history-get-right-win-steelers-slump",
+      "title": "NFL Week 11 winners and losers: Cowboys offense makes history in get-right win, Steelers slump",
+      "summary": "Dallas scored on all but one possession in a bounce-back victory, while Pittsburgh's postseason hopes took a hit",
+      "publishedAt": "2026-11-22T23:02:46Z",
+      "teamIds": [
+        "6",
+        "23"
+      ]
+    },
+    {
+      "id": "ed661befdd306e7b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50565047/miami-dolphins-vs-buffalo-bills-game-highlights",
+      "title": "Miami Dolphins vs. Buffalo Bills Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-22T22:58:23Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
     {
       "id": "1a8fc2ac9803d3a0",
       "source": "pft",
@@ -137,8 +226,8 @@
       "id": "1866096f463cca79",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873068",
-      "title": "Bryce Young throws 2 TD passes, Chuba Hubbard scores twice as Panthers beat Ravens 35-33",
-      "summary": "Bryce Young threw for 254 yards and two touchdowns, Chuba Hubbard ran for 120 yards and two more scores and the Carolina Panthers made a late defensive stop to beat Baltimore 35-33 on Sunday, sending the Ravens to their sixth straight loss.",
+      "title": "Bryce Young, Chuba Hubbard help Panthers add to NFC South lead with 35-33 victory over the Ravens",
+      "summary": "Dave Canales is like most NFL coaches — he wants to keep his team's focus on the next game and avoid any potential outside distractions.",
       "publishedAt": "2026-11-22T21:46:36Z",
       "teamIds": [
         "33",
@@ -150,7 +239,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873076",
       "title": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
-      "summary": "Saquon Barkley ran 38 yards for a touchdown to provide a rare spark for the Eagles and helped Philadelphia snap a seven-game losing streak with a 19-16 win over an ineffective Aaron Rodgers and the Pittsburgh Steelers on Sunday.",
+      "summary": "Joe Milton made a perfect throw to DeVonta Smith and the wide receiver rolled out of bounds to get the first down that closed out the Philadelphia Eagles' first win since September.",
       "publishedAt": "2026-11-22T21:45:33Z",
       "teamIds": [
         "21",
@@ -212,7 +301,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873071",
       "title": "Jeffery Simmons gets 3 sacks as the Chicago Bears beat the New Orleans Saints 21-13",
-      "summary": "Jeffery Simmons had three sacks, Caleb Williams threw two touchdown passes and the Chicago Bears beat the New Orleans Saints 21-13 on Sunday for their fifth consecutive win.",
+      "summary": "Jeffery Simmons delivered once again. That blockbuster trade for the All-Pro defensive tackle is looking like the appropriate price at the moment.",
       "publishedAt": "2026-11-22T21:40:42Z",
       "teamIds": [
         "3",
@@ -269,7 +358,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873070",
       "title": "Bills' defense feasts in 26-9 win over injury-depleted Dolphins",
-      "summary": "Greg Rousseau had two sacks, including his team-leading 10th this season, and Buffalo's defense bailed out the Bills' sputtering Josh Allen-led offense in a 26-9 win over the injury-depleted division rival Miami Dolphins on Sunday.",
+      "summary": "Stingy as Buffalo has been while not allowing a touchdown over the past 15-plus quarters, defensive tackle Deone Walker remains unsatisfied.",
       "publishedAt": "2026-11-22T21:22:33Z",
       "teamIds": [
         "2",
@@ -293,7 +382,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873073",
       "title": "Dak Prescott accounts for 5 TDs as the Cowboys roll to a 51-30 victory over the Titans",
-      "summary": "Dak Prescott threw four touchdown passes and ran for a score, and the Dallas Cowboys reached the end zone on their first six drives in a 51-30 victory over the Tennessee Titans on Sunday.",
+      "summary": "When one touchdown became two and three and so on, all the way to six, Dak Prescott said the conversation was the same for the offense of the Dallas Cowboys: Just keeping doing it.",
       "publishedAt": "2026-11-22T21:14:33Z",
       "teamIds": [
         "6",
@@ -436,10 +525,11 @@
       "id": "c6e189a037a78a7a",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50564475/steelers-wr-dk-metcalf-ejected-game-eagles",
-      "title": "Steelers WR DK Metcalf ejected from game against Eagles",
+      "title": "Steelers' DK Metcalf ejected for trying to poke Eagles' Cooper DeJean in eye",
       "summary": "Steelers wide receiver DK Metcalf was ejected in the third quarter of Sunday's game against the Eagles for unsportsmanlike conduct.",
       "publishedAt": "2026-11-22T20:40:08Z",
       "teamIds": [
+        "21",
         "23"
       ]
     },
@@ -1600,96 +1690,6 @@
       "publishedAt": "2026-11-22T01:46:34Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "305dcb188eb8e961",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-game-spreads-betting-lines-predictions-week-11-2026",
-      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-22T01:41:29Z",
-      "teamIds": [
-        "6",
-        "18"
-      ]
-    },
-    {
-      "id": "44cf3bcbe7c5d470",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aidan-hutchinson-wasnt-fined-for-sack-that-injured-drake-maye",
-      "title": "Aidan Hutchinson wasn't fined for sack that injured Drake Maye",
-      "summary": "As expected, Lions defensive end Aidan Hutchinson wasn't fined for the tackle that may have ended Patriots quarterback Drake Maye's season.",
-      "publishedAt": "2026-11-22T01:32:58Z",
-      "teamIds": [
-        "8",
-        "17"
-      ]
-    },
-    {
-      "id": "5c4f6de46fffdc2b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylen-harrell-allegedly-assaulted-rideshare-driver-before-crash",
-      "title": "Jaylen Harrell allegedly assaulted rideshare driver before crash",
-      "summary": "The Titans announced on Saturday that defensive end Jaylen Harrell was hospitalized in Tampa after a \"serious car accident.\"",
-      "publishedAt": "2026-11-22T01:14:30Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "e883bb185c90a07a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyren-williams-has-a-toe-injury-is-expected-to-be-ready-for-wednesday",
-      "title": "Kyren Williams has a toe injury, is expected to be ready for Wednesday",
-      "summary": "Another key offensive player for the Rams is dealing with an injury, but it is not expected to keep him from playing against the Packers on Thanksgiving Eve.",
-      "publishedAt": "2026-11-21T22:54:25Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "12524354eb6aee97",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-fined-23-882-for-block-the-league-used-as-a-highlight",
-      "title": "CeeDee Lamb fined $23,882 for block the league used as a highlight",
-      "summary": "Lamb was praised for the block by the league's website and by Tom Brady, but the disciplinary process said he used his helmet.",
-      "publishedAt": "2026-11-21T22:12:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "d26405c27cee48f3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-rule-out-dalton-risner-list-dax-hill-and-dylan-fairchild-as-questionable",
-      "title": "Bengals rule out Dalton Risner, list Dax Hill and Dylan Fairchild as questionable",
-      "summary": "The Bengals may be without both of their starting guards on Monday night.",
-      "publishedAt": "2026-11-21T21:46:22Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "b093d6924b81076a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-waive-wr-brandin-cooks",
-      "title": "49ers waive WR Brandin Cooks",
-      "summary": "The 49ers announced a couple of roster moves ahead of Sunday's game against the Vikings in Mexico City.",
-      "publishedAt": "2026-11-21T21:38:19Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "9b128243775206cc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-activate-cb-mike-jackson",
-      "title": "Panthers activate CB Mike Jackson",
-      "summary": "Cornerback Mike Jackson declared himself ready to return to action earlier this week and the Panthers officially added him to the roster on Saturday.",
-      "publishedAt": "2026-11-21T21:32:11Z",
-      "teamIds": [
-        "29"
       ]
     }
   ]
