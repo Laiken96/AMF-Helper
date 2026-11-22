@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T07:47:23Z",
+  "updatedAt": "2026-11-22T08:07:00Z",
   "items": [
     {
       "id": "334aefc11cc67728",
@@ -11,6 +11,20 @@
       "publishedAt": "2026-11-22T06:46:57Z",
       "teamIds": [
         "15"
+      ]
+    },
+    {
+      "id": "9ed4e9e89b9de76e",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50534274/week-11-nfl-odds-touchdown-props-best-bets-sunday-games",
+      "title": "Week 11 betting preview: Analysis, best bets, TD predictions for Sunday",
+      "summary": "Our experts dive into the odds and player props for Week 11 and offer their betting tips and favorite plays.",
+      "publishedAt": "2026-11-22T05:56:51Z",
+      "teamIds": [
+        "3",
+        "12",
+        "16",
+        "27"
       ]
     },
     {
@@ -1629,18 +1643,6 @@
       "publishedAt": "2026-11-20T17:33:28Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "8dee7b01cb7af51e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-baker-mayfield-trending-in-the-right-direction-to-play-vs-lions",
-      "title": "Todd Bowles: Baker Mayfield trending in the right direction to play vs. Lions",
-      "summary": "It sounds like the Buccaneers are planning to have quarterback Baker Mayfield start this weekend when they play the Lions.",
-      "publishedAt": "2026-11-20T17:27:29Z",
-      "teamIds": [
-        "8",
-        "27"
       ]
     }
   ]
