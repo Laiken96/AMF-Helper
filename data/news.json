@@ -1,7 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T14:47:27Z",
+  "updatedAt": "2026-11-22T15:47:25Z",
   "items": [
+    {
+      "id": "9fb6a2d0d3883a1f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50562283/randy-moss-honors-late-tom-jackson-emotional-tribute",
+      "title": "Randy Moss honors the late Tom Jackson with emotional tribute",
+      "summary": null,
+      "publishedAt": "2026-11-22T15:44:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "b5e40121033e7444",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50561778/tom-jackson-broncos-star-espn-legend-dies-75",
+      "title": "Tom Jackson, Broncos star LB and Hall of Fame broadcaster at ESPN, dies at 75",
+      "summary": "Tom Jackson, a foundational player on the Broncos \"Orange Crush\" defense and a fixture at ESPN as a Hall of Fame broadcaster, has died. He was 75.",
+      "publishedAt": "2026-11-22T15:37:47Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "b4885206c920d36c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-tv-legend-tom-jackson-dies-at-75",
+      "title": "Broncos, TV legend Tom Jackson dies at 75",
+      "summary": "Tom Jackson, a 14-year veteran with the Broncos and a longtime fixture on ESPN's NFL programming, has died.",
+      "publishedAt": "2026-11-22T15:34:25Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "992ee52c7cee0554",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50562182/chris-berman-pays-emotional-tribute-best-friend-tom-jackson",
+      "title": "Chris Berman pays emotional tribute to 'best friend' Tom Jackson",
+      "summary": null,
+      "publishedAt": "2026-11-22T15:32:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "1230138bc6bd47fa",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/broncos-ring-of-fame-linebacker-hall-of-fame-broadcaster-tom-jackson-dies-at-75",
+      "title": "Broncos Ring of Fame linebacker and Hall of Fame broadcaster Tom Jackson dies at 75",
+      "summary": "Jackson spent his entire career with the Broncos",
+      "publishedAt": "2026-11-22T15:27:19Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "0f920fac3e11a370",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-week-11-afternoon-schedule-is-short-on-must-see-games",
+      "title": "The Week 11 afternoon schedule is short on must-see games",
+      "summary": "As the NFL's haves and the have-nots continue to declare themselves, it's becoming challenging at times to find compelling games.",
+      "publishedAt": "2026-11-22T15:13:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "34dd298eb69b9d44",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/most-important-week-11-games-nfl-playoff-races",
+      "title": "Week 11 games that will impact NFL playoff races: Can anyone gain separation in NFC North or NFC South?",
+      "summary": "Plus, can the Giants bounce back?",
+      "publishedAt": "2026-11-22T15:02:14Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "1fb7157c0b0e6b20",
       "source": "pft",
@@ -1575,85 +1646,6 @@
       "teamIds": [
         "21",
         "23"
-      ]
-    },
-    {
-      "id": "7f9311d0ba682d6a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542859/bengals-vs-commanders-watch-monday-night-football-week-11",
-      "title": "Bengals vs. Commanders: Where to watch 'Monday Night Football'",
-      "summary": "Here's what to know about the Week 11 matchup.",
-      "publishedAt": "2026-11-20T20:02:03Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "48b1a2e38221cd43",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50542830/cardinals-proceeding-josh-johnson-start",
-      "title": "Mike LaFleur: Cardinals proceeding as if Josh Johnson will start",
-      "summary": null,
-      "publishedAt": "2026-11-20T19:59:04Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "be7bea84edec714d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-listed-as-questionable-49ers-to-make-decision-on-saturday",
-      "title": "Mike Evans listed as questionable, 49ers to make decision on Saturday",
-      "summary": "The 49ers got wide receiver Mike Evans back at practice on Thursday and he could be back in the lineup against the Vikings on Sunday night.",
-      "publishedAt": "2026-11-20T19:55:42Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "e311e599c8b4ae95",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-      "title": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-      "summary": "The Bears will be without nickel corner Kyler Gordon when they host the Saints, while running back Kyle Monangai, wide receiver Luther Burden III and defensive tackle Jeffery Simmons are expected to play.",
-      "publishedAt": "2026-11-20T19:45:15Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "81c806ed25ce4e72",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/patriots-wr-aj-brown-hamstring-injury-update",
-      "title": "Patriots WR A.J. Brown expected to miss multiple weeks due to hamstring injury, per report",
-      "summary": "Brown has already missed multiple games this season and is now expected to miss at least the next few contests",
-      "publishedAt": "2026-11-20T19:38:23Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "2c1d067bf40aa9ae",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50542578/patriots-qb-drake-maye-fractured-fibula-sources-say",
-      "title": "Patriots QB Drake Maye has fractured fibula, sources say",
-      "summary": "Patriots quarterback Drake Maye has a fractured right fibula, and receiver A.J. Brown has a hamstring injury, sources told ESPN's Mike Reiss and Adam Schefter.",
-      "publishedAt": "2026-11-20T19:36:45Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "a7e9d57026c2db3b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50542714/mcafee-co-speculate-replace-injured-drake-maye",
-      "title": "McAfee & Co. speculate who will replace injured Drake Maye",
-      "summary": null,
-      "publishedAt": "2026-11-20T19:36:23Z",
-      "teamIds": [
-        "17"
       ]
     }
   ]

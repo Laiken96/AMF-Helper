@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T01:47:22Z",
+    "takenAt": "2026-11-22T15:47:23Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1246,7 +1246,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -2396,16 +2396,6 @@
       "kind": "neu",
       "from": null,
       "to": "Injured Reserve"
-    },
-    {
-      "gameId": "401873079",
-      "athleteId": "4430737",
-      "name": "Kyren Williams",
-      "pos": "RB",
-      "teamAbbr": "LAR",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873080",
