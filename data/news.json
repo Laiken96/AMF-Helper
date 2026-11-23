@@ -1,7 +1,101 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T22:47:29Z",
+  "updatedAt": "2026-11-23T23:47:38Z",
   "items": [
+    {
+      "id": "ecf1af60a5cce2cd",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50577596/why-fantasy-managers-trust-trevor-lawrence",
+      "title": "Why fantasy managers should still trust Trevor Lawrence",
+      "summary": null,
+      "publishedAt": "2026-11-23T23:46:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "f58f3423acb8a6ce",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50577306/ravens-noncommittal-whether-cb-humphrey-play-sunday",
+      "title": "Struggling Ravens noncommittal on whether Humphrey will play Sunday vs. Texans",
+      "summary": "A day after he was a healthy scratch in a 35-33 loss at the Panthers following a derogatory comment he made about the city of Baltimore, the Ravens were noncommittal on whether cornerback Marlon Humphrey would play Sunday against the Texans.",
+      "publishedAt": "2026-11-23T23:38:39Z",
+      "teamIds": [
+        "33",
+        "34"
+      ]
+    },
+    {
+      "id": "115b925a8a0eb2ea",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
+      "title": "Sources: Packers' Micah Parsons cleared to make season debut Wednesday vs. Rams",
+      "summary": "Packers star Micah Parsons has been cleared and is set for his season debut against the Rams on Wednesday night, sources told NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-23T23:37:43Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "3b08298db77dc97a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-cb-trevon-diggs-ot-bobby-hart-to-active-roster",
+      "title": "Seahawks sign CB Trevon Diggs, OT Bobby Hart to active roster",
+      "summary": "The Seahawks returned from their bye week by adding a pair of veteran players to their 53-man roster.",
+      "publishedAt": "2026-11-23T23:31:18Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "91f69c613fbc25b1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-reid-cleared-waivers-on-monday",
+      "title": "Justin Reid cleared waivers on Monday",
+      "summary": "Daniel Jones wasn't the only veteran to become a free agent on Monday.",
+      "publishedAt": "2026-11-23T23:25:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "da8f8f1020f27ab2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-defense-needed-a-fresh-voice",
+      "title": "Mike LaFleur: Defense needed a fresh voice",
+      "summary": "Cardinals head coach Mike LaFleur made a significant change to his coaching staff on Monday.",
+      "publishedAt": "2026-11-23T23:20:10Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "9788348487012f4a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-nfl-primetime-documentary-is-in-the-works",
+      "title": "Report: NFL Primetime documentary is in the works",
+      "summary": "The recent passing of Tom Jackson has sparked much discussion about ESPN's NFL Primetime, which was for years a mandatory Sunday evening destination for football fans everywhere.",
+      "publishedAt": "2026-11-23T23:13:36Z",
+      "teamIds": []
+    },
+    {
+      "id": "b216322d851ff9c6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-landing-spots-commanders-steelers-49ers",
+      "title": "Brandon Aiyuk landing spots: Commanders, Steelers among four potential fits for former 49ers star",
+      "summary": "A reunion with Jayden Daniels, an NFC West revenge tour and two potential AFC opportunities headline Aiyuk's most intriguing options",
+      "publishedAt": "2026-11-23T23:06:20Z",
+      "teamIds": [
+        "23",
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "a0206a378903164a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-cleared-to-play-wednesday-night",
+      "title": "Micah Parsons cleared to play Wednesday night",
+      "summary": "Parsons is set to make his first game appearance since last year's torn ACL.",
+      "publishedAt": "2026-11-23T22:51:52Z",
+      "teamIds": []
+    },
     {
       "id": "75425e4db5fc8791",
       "source": "pft",
@@ -17,7 +111,7 @@
       "id": "2d59f1543688aeeb",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/50574503/2026-fantasy-football-trade-deadline-trade-away",
-      "title": "Fantasy football trade deadline: Seven players to trade for, five to trade away",
+      "title": "Fantasy football trade deadline: 7 players to trade for, 5 to trade away",
       "summary": "With the fantasy trade deadline approaching, here are the players managers should be targeting and ones they can offload.",
       "publishedAt": "2026-11-23T22:38:42Z",
       "teamIds": []
@@ -1577,109 +1671,6 @@
       "teamIds": [
         "30",
         "19"
-      ]
-    },
-    {
-      "id": "7e4512e4590963f6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
-      "title": "How active NFL players continue to redefine all-time sack list",
-      "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
-      "publishedAt": "2026-11-23T01:49:27Z",
-      "teamIds": []
-    },
-    {
-      "id": "62243fec52d4ba02",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cam-skattebo-giants-celebrates-game-clinching-drive-with-backflip",
-      "title": "Cam Skattebo flips: Giants RB celebrates game-clinching drive with backflip days after retiring it",
-      "summary": "Skattebo said he'd retire his celebration in the wake of Aidan Hutchinson's injury",
-      "publishedAt": "2026-11-23T01:40:02Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "4a702afba297de8e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-we-cant-focus-on-result-theres-a-lot-to-clean-up",
-      "title": "Joe Brady: We can't focus on result, there's a lot to clean up",
-      "summary": "The Bills won again on Sunday, but head coach Joe Brady didn't sound enthused about the way they played against the Dolphins.",
-      "publishedAt": "2026-11-23T01:37:58Z",
-      "teamIds": [
-        "2",
-        "15"
-      ]
-    },
-    {
-      "id": "6d03bc4ae1cf6843",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-caps-first-drive-with-td-pass-to-george-kittle-49ers-lead-7-0",
-      "title": "Brock Purdy caps first drive with TD pass to George Kittle, 49ers lead 7-0",
-      "summary": "Much was made about the matchup between 49ers head coach Kyle Shanahan and Vikings defensive coordinator Brian Flores in advance of Sunday night's matchup between San Francisco and Minnesota.",
-      "publishedAt": "2026-11-23T01:33:58Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "ef725758a64707be",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567972/game-highlights",
-      "title": "Jacksonville Jaguars vs. New York Giants: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-23T01:26:45Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "ef3c0ca2ef708d74",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50566404/tyler-shough-confident-new-orleans-saints-kellen-moore",
-      "title": "Tyler Shough voices confidence in Saints, Kellen Moore after 3-7 start",
-      "summary": "Two straight losses. Justin Reid being released. Run game a mess. Despite the challenges, there's belief New Orleans can turn things around.",
-      "publishedAt": "2026-11-23T01:25:56Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "35cc1afec994d8e7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-i-was-told-ball-switched-hands-on-parker-washington-catch",
-      "title": "Liam Coen: I was told ball switched hands on Parker Washington catch",
-      "summary": "The Giants held off the Jaguars on Sunday, but the outcome might have been different if referees had made a different ruling on a pass to Jaguars wideout Parker Washington early in the fourth quarter.",
-      "publishedAt": "2026-11-23T01:25:38Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "43b850a51671a86d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567903/nfl-week-11-trolls",
-      "title": "Bills' Grand Theft Auto VI-themed jab at Dolphins tops NFL Week 11 trolls",
-      "summary": "NFL teams remained petty in Week 11, led by a post from the Buffalo Bills.",
-      "publishedAt": "2026-11-23T01:21:29Z",
-      "teamIds": [
-        "2",
-        "15"
-      ]
-    },
-    {
-      "id": "affbe51808eb1216",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions",
-      "title": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
-      "summary": "Here are our top picks for first touchdown prediction markets on the Vikings and 49ers' Sunday Night Football game in Mexico City",
-      "publishedAt": "2026-11-23T01:14:07Z",
-      "teamIds": [
-        "16",
-        "25"
       ]
     }
   ]
