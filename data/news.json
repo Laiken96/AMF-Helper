@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:47:26Z",
+  "updatedAt": "2026-11-23T08:47:24Z",
   "items": [
+    {
+      "id": "7ebd4c1810610eb5",
+      "source": "espn",
+      "url": "https://espn.com/espn/story/_/id/50571229/sport-espn-africa-festive-watch-dstv-disney+",
+      "title": "Sport on ESPN in Africa this festive - What to watch on DStv, Disney+ in December",
+      "summary": "From Thanksgiving NFL showdowns, to Christmas Day NBA action, and Boxing Day football, ESPN Africa has the festive season covered with a packed line-up of live sport, on channels across the continent and Disney+ in SA.",
+      "publishedAt": "2026-11-23T08:34:45Z",
+      "teamIds": []
+    },
     {
       "id": "0df326f1f6405a39",
       "source": "espn",
@@ -1714,15 +1723,6 @@
         "33",
         "11"
       ]
-    },
-    {
-      "id": "0751f9418c24b0b7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
-      "title": "NFL Week 11 arrivals: George Kittle rocks luchador mask ahead of SNF in Mexico",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-22T17:13:29Z",
-      "teamIds": []
     }
   ]
 }
