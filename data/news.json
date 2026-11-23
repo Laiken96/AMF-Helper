@@ -1,7 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T03:46:09Z",
+  "updatedAt": "2026-11-23T04:47:25Z",
   "items": [
+    {
+      "id": "6f5af9779706bf20",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50569582/broncos-jaquan-mcmillian-comes-clutch-again",
+      "title": "Ja'Quan McMillian hoping long-term future is in Denver after latest clutch play",
+      "summary": "After Ja'Quan McMillian made a one-handed, 35-yard pick-six Sunday, his teammates surrounded him with a pay-the-man, count-that-money celebration.",
+      "publishedAt": "2026-11-23T04:40:59Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "591c24fd1ecf5a3d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50525677/49ers-beat-vikings-sunday-night-football-mexico-city-kittle",
+      "title": "49ers make bold statement with blowout win over Vikings, keep NFC's No. 1 seed",
+      "summary": "The 49ers used a late second-quarter burst to take control of Sunday's game in Mexico City and move to 9-1 on the season.",
+      "publishedAt": "2026-11-23T04:35:43Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "a27ad59c54be870b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50569797/fernando-mendoza-settling-raiders-starting-quarterback",
+      "title": "Despite loss to Broncos, Fernando Mendoza settling in as Raiders' starting QB",
+      "summary": "Fernando Mendoza, making his second start for the Raiders, had good and bad moments Sunday at Denver. He completed 18 of 37 passes for 267 yards and three touchdowns but was sacked five times and pressured 16, and threw a game-sealing pick-six.",
+      "publishedAt": "2026-11-23T04:34:54Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "8112a72406ff97a8",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50569830/top-nfl-plays-week-11",
+      "title": "Top NFL plays from Week 11",
+      "summary": null,
+      "publishedAt": "2026-11-23T04:30:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "7d7c228d9895df50",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873077",
+      "title": "Brock Purdy carves up the Vikings' D with 3 TD passes in the 49ers' 35-10 win in Mexico City",
+      "summary": "Brock Purdy carved up the NFL's stingiest defense with three touchdown passes in the first half and the San Francisco 49ers beat the",
+      "publishedAt": "2026-11-23T04:26:32Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "44c138b7cdb9977f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50569860/49ers-blow-vikings-35-10-mexico-city",
+      "title": "49ers blow out Vikings 35-10 in Mexico City",
+      "summary": null,
+      "publishedAt": "2026-11-23T04:25:59Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "3c6b8bfed46629df",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-49ers-move-to-9-1-with-dominant-35-10-victory-over-vikings",
+      "title": "Sunday Night Football: 49ers move to 9-1 with dominant 35-10 victory over Vikings",
+      "summary": "George Kittle caught two touchdowns as San Francisco became the first team to score at least 30 points against Minnesota in 2026.",
+      "publishedAt": "2026-11-23T04:25:41Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "43430e99c95247c9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-touchdown-gives-49ers-35-10-lead-in-fourth-quarter",
+      "title": "Christian McCaffrey touchdown gives 49ers 35-10 lead in fourth quarter",
+      "summary": "It's just about all but over in Mexico City. 49ers running back Christian McCaffrey capped a 13-play, 98-yard drive with a 6-yard touchdown to give San Francisco a 35-10 lead with 13:26 left in the fourth quarter.",
+      "publishedAt": "2026-11-23T03:57:29Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "03357be7361c50e1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jevon-holland-on-controversial-parker-washington-call-shoutout-vegas",
+      "title": "Jevón Holland on controversial Parker Washington call: \"Shoutout Vegas\"",
+      "summary": "Back when the NFL hated gambling, it feared that widespread legalized sports betting would prompt fans to think the fix is in.",
+      "publishedAt": "2026-11-23T03:49:46Z",
+      "teamIds": []
+    },
     {
       "id": "9c1381ce422334a8",
       "source": "espn",
@@ -37,6 +136,18 @@
       ]
     },
     {
+      "id": "88af1bc1a391739e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/vikings-nfl-obscure-fair-catch-kick-rule-71-yard-field-goal-49ers",
+      "title": "Vikings utilize NFL's obscure fair-catch kick rule to attempt 71-yard field goal against 49ers",
+      "summary": "If made, Will Reichard's field goal would have made NFL history",
+      "publishedAt": "2026-11-23T03:28:38Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
       "id": "f0a40d1110f6a047",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/49828234/washington-commanders-daronte-jones-2026-defense",
@@ -62,7 +173,7 @@
       "id": "804ae66c150e3e29",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50568995/49ers-colton-mckivitz-exits-game-vs-vikings-injuring-lower-leg",
-      "title": "49ers' Colton McKivitz exits game vs. Vikings with lower leg injury",
+      "title": "49ers' Colton McKivitz exits win vs. Vikings with lower leg injury",
       "summary": "49ers right tackle Colton McKivitz departed Sunday night's game against the Vikings midway through the second quarter because of what appeared to be a serious injury to his lower left leg.",
       "publishedAt": "2026-11-23T03:12:35Z",
       "teamIds": [
@@ -899,7 +1010,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 11's leading fantasy scorers through Sunday's 4 p.m. ET games",
+      "title": "Fantasy buzz: Week 11's leading fantasy scorers through Sunday Night Football",
       "summary": "A closer look at the top 10 fantasy scorers in Week 11, including Cowboys QB Dak Prescott and Broncos RB Jonah Coleman.",
       "publishedAt": "2026-11-22T21:41:51Z",
       "teamIds": [
@@ -1608,123 +1719,6 @@
       "teamIds": [
         "9",
         "14"
-      ]
-    },
-    {
-      "id": "ebce84d4d76c7231",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50559070/lawrence-washington-elite-partnership",
-      "title": "'Receiving Trust': Behind Lawrence and Washington's elite partnership",
-      "summary": null,
-      "publishedAt": "2026-11-22T16:46:00Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "ae541e59bf3a2239",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/ravens-vs-panthers-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-11",
-      "title": "Ravens vs. Panthers odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
-      "summary": "Here's everything bettors need to know for Ravens vs. Panthers in NFL Week 11",
-      "publishedAt": "2026-11-22T16:40:53Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "9de94416c141a04c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-is-officially-active-against-the-lions",
-      "title": "Baker Mayfield is officially active against the Lions",
-      "summary": "Mayfield was listed as questionable due to a foot injury.",
-      "publishedAt": "2026-11-22T16:35:20Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "708652308cc38c32",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-sunday",
-      "title": "Week 11 NFL odds, picks: Brinson's best bets, player props, anytime TD scorers for Sunday",
-      "summary": "Steer clear of bloated double-digit spreads, grab the extra points with Philadelphia, and count on Dak Prescott to clear his passing total in a shootout",
-      "publishedAt": "2026-11-22T16:31:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "5fbf6da52d3d7b78",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/steelers-vs-eagles-odds-picks-prediction-spread-nfl-week-11-start-time-betting-preview-best-bets",
-      "title": "Steelers vs. Eagles odds, picks, prediction, spread: NFL Week 11 start time, betting preview, best bets",
-      "summary": "Here's everything you need to know before placing any wagers on Steelers vs. Eagles in NFL Week 11",
-      "publishedAt": "2026-11-22T16:29:32Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "8db970ecdc555619",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/saints-vs-bears-odds-picks-prediction-spread-start-time-nfl-week-11-betting-preview-best-bets",
-      "title": "Saints vs. Bears odds, picks, prediction, spread: Start time, NFL Week 11 betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Saints vs. Bears in NFL Week 11",
-      "publishedAt": "2026-11-22T16:25:36Z",
-      "teamIds": [
-        "3",
-        "18"
-      ]
-    },
-    {
-      "id": "a4373bd7a4b69c66",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-cowboys-vikings-keys-to-parlays-involving-favorites-underdogs-in-week-11",
-      "title": "NFL odds, picks, predictions: Cowboys, Vikings keys to parlays involving favorites, underdogs in Week 11",
-      "summary": "SportsLine football expert Mike Tierney locks in his top parlays for Week 11 NFL games",
-      "publishedAt": "2026-11-22T16:21:30Z",
-      "teamIds": [
-        "6",
-        "16"
-      ]
-    },
-    {
-      "id": "a7286b40a2a382b1",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/daniel-jones-release-colts-qb-ravens-nfl-trade-deadline",
-      "title": "Why the Daniel Jones release looks even worse for Colts after reported Ravens offer",
-      "summary": "Indianapolis reportedly rejected a trade offer from Baltimore at the deadline, only to release its $88 million quarterback two weeks later",
-      "publishedAt": "2026-11-22T16:07:35Z",
-      "teamIds": [
-        "33",
-        "11"
-      ]
-    },
-    {
-      "id": "6d452a6756c10ba2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-anytime-td-best-bets-mark-andrews",
-      "title": "NFL week 11 anytime TD best bets: There's value on Mark Andrews and a Tony Pollard revenge game",
-      "summary": "Tony Pollard faces his former team, Justin Jefferson reunites with Kirk Cousins on an international stage and Josh Downs makes his Chiefs home debut",
-      "publishedAt": "2026-11-22T16:02:27Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "08144e3b86df8643",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-upset-alert-predictions-steelers-titans-cowboys",
-      "title": "NFL Week 11 upset alert: Can Titans shock Cowboys? Two straight losses for Steelers?",
-      "summary": "The Jets could also send the Chargers back into the loss column",
-      "publishedAt": "2026-11-22T15:55:42Z",
-      "teamIds": [
-        "6",
-        "24",
-        "20",
-        "23",
-        "10"
       ]
     }
   ]
