@@ -1,7 +1,94 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T19:47:24Z",
+  "updatedAt": "2026-11-23T20:47:35Z",
   "items": [
+    {
+      "id": "1b2498af2a031bad",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50575838/sources-giants-dennard-wilson-interviews-maryland-job",
+      "title": "Sources: Giants DC Dennard Wilson interviews for HC job at alma mater Maryland",
+      "summary": "Giants defensive coordinator Dennard Wilson had a virtual interview recently for the vacant head coaching job at Maryland, sources told NFL Network.",
+      "publishedAt": "2026-11-23T20:47:16Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "1466d2fb7745e528",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50575938/cardinals-fire-defensive-coordinator-nick-rallis-sources-say",
+      "title": "Cardinals fire defensive coordinator Nick Rallis, sources say",
+      "summary": "The Cardinals have fired defensive coordinator Nick Rallis, sources told ESPN's Adam Schefter and the NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-23T20:44:57Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "0c0927b1acd02ebe",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50575889/rams-te-terrance-ferguson-needs-season-ending-ankle-surgery",
+      "title": "Rams TE Terrance Ferguson needs season-ending ankle surgery, Sean McVay says",
+      "summary": "Rams tight end Terrance Ferguson's ankle injury will require season-ending surgery.",
+      "publishedAt": "2026-11-23T20:41:51Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "8afdce156dc174d0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-bengals-vs-commanders-on-mnf-grizzlies-vs-hornets-and-more",
+      "title": "Today's top games to watch, best bets, odds: Bengals vs. Commanders on MNF, Grizzlies vs. Hornets and more",
+      "summary": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-23T20:30:48Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "9bb0e752c3cefb0d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-fire-defensive-coordinator-nick-rallis",
+      "title": "Cardinals fire defensive coordinator Nick Rallis",
+      "summary": "Teryl Austin will serve as interim defensive coordinator.",
+      "publishedAt": "2026-11-23T20:22:15Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "723feef644eff489",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/49ers-longtime-general-manager-john-lynch-reach-extension",
+      "title": "49ers, longtime general manager John Lynch reach extension",
+      "summary": "Lynch currently presides over the NFC's best team",
+      "publishedAt": "2026-11-23T20:02:51Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "12029b1fa7cfd0d1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/super-bowl-lxi-will-be-shown-in-imax-theaters",
+      "title": "Super Bowl LXI will be shown in IMAX theaters",
+      "summary": "The Super Bowl will be shown on some very big screens this season.",
+      "publishedAt": "2026-11-23T20:02:25Z",
+      "teamIds": []
+    },
+    {
+      "id": "6b7a56252dd1d8fd",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-released-former-49ers-wr-looks-to-resume-career-after-years-away",
+      "title": "Brandon Aiyuk released: Former 49ers WR looks to resume career after years away",
+      "summary": "Aiyuk hasn't played in a game since suffering an injury in 2024, has yet to take a snap under 2025 four-year extension",
+      "publishedAt": "2026-11-23T19:55:50Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "d81d679950963f5e",
       "source": "pft",
@@ -17,7 +104,7 @@
       "id": "fe5785508dfa301d",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
-      "title": "Sources: 49ers releasing WR Brandon Aiyuk, with roster exemption ending",
+      "title": "Sources: 49ers releasing WR Brandon Aiyuk with roster exemption ending",
       "summary": "The 49ers are releasing wide receiver Brandon Aiyuk on Monday, sources told ESPN's Adam Schefter.",
       "publishedAt": "2026-11-23T19:44:18Z",
       "teamIds": [
@@ -596,6 +683,19 @@
       "publishedAt": "2026-11-23T14:13:10Z",
       "teamIds": [
         "20"
+      ]
+    },
+    {
+      "id": "6b561dcd11df048d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
+      "title": "NFL Week 11 grades for every team: 49ers earn 'A+' for dominating Vikings, Steelers nearly fail",
+      "summary": "We're handing out grades for every team that played in Week 11",
+      "publishedAt": "2026-11-23T14:11:46Z",
+      "teamIds": [
+        "16",
+        "23",
+        "25"
       ]
     },
     {
@@ -1378,6 +1478,18 @@
       ]
     },
     {
+      "id": "2a1a5f4c4f98a831",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-winners-losers-cowboys-offense-makes-history-get-right-win-steelers-slump",
+      "title": "NFL Week 11 winners and losers: Cowboys offense makes history in get-right win, Steelers slump",
+      "summary": "Dallas scored on all but one possession in a bounce-back victory, while Pittsburgh's postseason hopes took a hit",
+      "publishedAt": "2026-11-23T01:07:17Z",
+      "teamIds": [
+        "6",
+        "23"
+      ]
+    },
+    {
       "id": "e6c7286f47ee8193",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/justin-herbert-concussion-protocol-update-jets",
@@ -1561,119 +1673,6 @@
       "summary": null,
       "publishedAt": "2026-11-23T00:21:39Z",
       "teamIds": []
-    },
-    {
-      "id": "e3ebdda1a22047fa",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50530832/fantasy-football-injuries-nfl-week-11-inactive-active",
-      "title": "Fantasy football Week 11 inactives: Who's in and who's out?",
-      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
-      "publishedAt": "2026-11-23T00:19:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "68b16c7fbcf04999",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567158/eagles-riq-woolen-benched-missed-tackles-vs-steelers",
-      "title": "Eagles' Riq Woolen benched after missed tackles vs. Steelers",
-      "summary": "Eagles cornerback Riq Woolen was benched in favor of veteran Jonathan Jones late in the first half of Sunday's 19-16 win over the Steelers.",
-      "publishedAt": "2026-11-23T00:14:53Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "8de543e94e80cde0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/officials-deny-jaguars-td-on-sensational-catch-by-parker-washington",
-      "title": "Officials deny Jaguars TD on sensational catch by Parker Washington",
-      "summary": "Washington appeared to make a superb touchdown catch, but the officials and the replay office ruled it incomplete.",
-      "publishedAt": "2026-11-23T00:14:42Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "f0c92062d2c8e291",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567207/jeffery-simmons-matches-career-high-3-sacks-bears-win",
-      "title": "Jeffery Simmons matches career high with 3 sacks in Bears' win",
-      "summary": "Jeffery Simmons recorded three sacks in the Bears' 21-13 win over the Saints on Sunday, which tied his single-game career high.",
-      "publishedAt": "2026-11-23T00:10:57Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "8f61009f6f3ef7b1",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567126/game-highlights",
-      "title": "New York Jets vs. Los Angeles Chargers: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-23T00:08:00Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "65df64f93c59b65c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567146/young-authors-game-winning-drive-first-place-panthers",
-      "title": "'Locked into the moment,' Bryce Young rallies first-place Panthers past Ravens",
-      "summary": "In a back-and-forth game laced with lead changes, Bryce Young rallied the Panthers to a 35-33 home win over the Baltimore Ravens on Sunday at Bank of America Stadium, a second straight victory for the 5-5 Panthers that padded lead in the NFC South.",
-      "publishedAt": "2026-11-23T00:07:46Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "0a33a0726b01c28f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-mike-evans-active-dre-greenlaw-inactive-for-49ers-vikings",
-      "title": "Sunday Night Football: Mike Evans active, Dre Greenlaw inactive for 49ers-Vikings",
-      "summary": "Evans will play his first game since Oct. 19 on Sunday night in Mexico City.",
-      "publishedAt": "2026-11-23T00:06:54Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "6d7a6242c638af7f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873074",
-      "title": "Jets score on first 5 drives and edge Chargers 27-24 to snap 5-game skid",
-      "summary": "Mired in a losing season, New York Jets quarterback Geno Smith's efficiency has been largely overlooked with the offense lagging. Sterling Shepard helped change that Sunday, catching two touchdown passes from Smith and potentially earning himself a...",
-      "publishedAt": "2026-11-23T00:03:32Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "de9dcffaf03d2d6e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/vikings-vs-49ers-picks-predictions-player-props-experts-best-bets-for-nfl-week-11-sunday-night-football",
-      "title": "Vikings vs. 49ers picks, predictions, player props: Expert's best bets for NFL Week 11 Sunday Night Football",
-      "summary": "Brian Flores brings a 5-0 mark against Kyle Shanahan into Mexico City as an underdog gets the nod to win outright, alongside prime targets for George Kittle and Justin Jefferson",
-      "publishedAt": "2026-11-23T00:01:44Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "dad1a94f0b1a4eda",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/what-happens-now-steelers-embattled-receiver-dk-metcalf",
-      "title": "DK Metcalf's bad season just got worse. What happens now for Steelers embattled receiver?",
-      "summary": "It's safe for Metcalf to be considered the worst trade acquisition in Steelers history. Now he faces a possible suspension and an uncertain future in Pittsburgh",
-      "publishedAt": "2026-11-22T23:58:59Z",
-      "teamIds": [
-        "23"
-      ]
     }
   ]
 }
