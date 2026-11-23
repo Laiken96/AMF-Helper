@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T00:20:36Z",
+    "takenAt": "2026-11-23T01:30:53Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1833,38 +1833,15 @@
         "kickoffUtc": "2026-11-23T01:20:00Z",
         "players": [
           {
-            "athleteId": "3042519",
-            "name": "Aaron Jones Sr.",
-            "pos": "RB",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "3917315",
             "name": "Kyler Murray",
             "pos": "QB",
             "teamId": "16",
             "teamAbbr": "MIN",
             "roles": [
-              "qb",
-              "passing"
+              "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4262921",
-            "name": "Justin Jefferson",
-            "pos": "WR",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
           },
           {
             "athleteId": "4573398",
@@ -1878,17 +1855,6 @@
             "status": "Out"
           },
           {
-            "athleteId": "3040151",
-            "name": "George Kittle",
-            "pos": "TE",
-            "teamId": "25",
-            "teamAbbr": "SF",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "3117251",
             "name": "Christian McCaffrey",
             "pos": "RB",
@@ -1896,6 +1862,17 @@
             "teamAbbr": "SF",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "3126486",
+            "name": "Deebo Samuel Sr.",
+            "pos": "WR",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
