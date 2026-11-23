@@ -1,7 +1,96 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T12:47:34Z",
+  "updatedAt": "2026-11-23T13:47:28Z",
   "items": [
+    {
+      "id": "3fb90a10e751c27b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50572660/brock-purdy-mvp-right-now",
+      "title": "Dan Orlovsky: Brock Purdy is the MVP right now",
+      "summary": null,
+      "publishedAt": "2026-11-23T13:42:03Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "48a98f5da3cc18df",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50572656/did-jags-mismanage-fourth-quarter-loss-giants",
+      "title": "Did Jags mismanage the fourth quarter in loss to Giants?",
+      "summary": null,
+      "publishedAt": "2026-11-23T13:41:05Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "8454f25061fdfd97",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc",
+      "title": "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
+      "summary": "A comprehensive look at all seven seeds in the AFC and NFC and the teams on the outside looking in",
+      "publishedAt": "2026-11-23T13:32:31Z",
+      "teamIds": [
+        "30",
+        "25"
+      ]
+    },
+    {
+      "id": "b46bbb676ddc1752",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50563331/week-11-most-gain-lose-2026-season-pickens-mccarthy",
+      "title": "NFL players with most at stake over rest of 2026: Pickens, McCarthy, Cousins",
+      "summary": "Big money on the line for George Pickens and Brian Branch? QB1 role at stake for J.J. McCarthy? Here are 11 players with something to prove over the next seven weeks.",
+      "publishedAt": "2026-11-23T13:21:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "8796cd41c993d27c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-on-facing-joe-milton-hes-still-a-cowboy-i-hope-he-helps-us-out",
+      "title": "Dak Prescott on facing Joe Milton: He's still a Cowboy, I hope he helps us out",
+      "summary": "After the Cowboys beat the Titans 51-30 on Sunday, their quarterback Dak Prescott was asked about the team's Thanksgiving Day opponents.",
+      "publishedAt": "2026-11-23T13:12:31Z",
+      "teamIds": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "id": "66a7dccf449e63bb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs-full-first-round-picks-all-32-teams",
+      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams after Week 11",
+      "summary": "Tennessee, the Chargers and Miami lead the race for the top selection at 1-9, while the Jets hold three picks in the top 15 thanks to blockbuster trades",
+      "publishedAt": "2026-11-23T13:09:06Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "fac32efb28b33408",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-this-week-was-an-improvement-but-still-a-lot-to-work-on",
+      "title": "Fernando Mendoza: This week was an improvement, but still a lot to work on",
+      "summary": "Sunday's game in Denver opened poorly for the Raiders as the Broncos built up a 17-0 lead while the road team punted on its first three possessions, but things got better from there.",
+      "publishedAt": "2026-11-23T13:03:48Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "96652658c348bfd3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-td-and-parker-washington-non-td-raise-more-questions-about-nfl-catch-rules",
+      "title": "Mike Evans TD and Parker Washington non-TD raise more questions about NFL catch rules",
+      "summary": "Two big plays on Sunday renewed questions about what is and is not a catch in the NFL.",
+      "publishedAt": "2026-11-23T12:47:29Z",
+      "teamIds": []
+    },
     {
       "id": "56f23fbe078d40f0",
       "source": "pft",
@@ -1620,100 +1709,6 @@
         "2",
         "12",
         "15"
-      ]
-    },
-    {
-      "id": "b2884d415221f66a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-lead-saints-16-10-at-halftime",
-      "title": "Bears lead Saints 16-10 at halftime",
-      "summary": "The Saints have put some pressure on the Bears, but Chicago still has a 16-7 lead over New Orleans at halftime.",
-      "publishedAt": "2026-11-22T19:35:00Z",
-      "teamIds": [
-        "3",
-        "18"
-      ]
-    },
-    {
-      "id": "9373f39d19faee9d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50563922/why-tom-jackson-was-such-special-person",
-      "title": "Why Tom Jackson was such a special person",
-      "summary": null,
-      "publishedAt": "2026-11-22T19:32:31Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "0b5aa3b64fc49bf9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-roll-to-27-9-halftime-lead-over-titans",
-      "title": "Cowboys roll to 27-9 halftime lead over Titans",
-      "summary": "The changes to the Dallas defense are working, so far.",
-      "publishedAt": "2026-11-22T19:29:08Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "7d224737b6b074c8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-has-two-tds-chiefs-lead-cardinals-27-7-at-halftime",
-      "title": "Travis Kelce has two TDs, Chiefs lead Cardinals 27-7 at halftime",
-      "summary": "For the first time since 2022, Travis Kelce has scored multiple touchdowns in a regular-season game.",
-      "publishedAt": "2026-11-22T19:26:06Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "738e056557a7b988",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-get-on-the-board-to-trail-lions-10-7-at-half",
-      "title": "Bucs get on the board to trail Lions 10-7 at half",
-      "summary": "The Buccaneers are keeping it close in Detroit, so far.",
-      "publishedAt": "2026-11-22T19:22:56Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "5c1bf04a6200b948",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-cook-goes-over-1-000-rushing-yards-puts-bills-up-20-3",
-      "title": "James Cook goes over 1,000 rushing yards, puts Bills up 20-3",
-      "summary": "The Bills were heavy favorites coming into Sunday's game against the Dolphins and they have played like it in the first half.",
-      "publishedAt": "2026-11-22T19:11:25Z",
-      "teamIds": [
-        "2",
-        "15"
-      ]
-    },
-    {
-      "id": "8d8053edc7a6a0e7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-devontez-walker-returns-kickoff-for-touchdown-in-wild-game-in-carolina",
-      "title": "Ravens' Devontez Walker returns kickoff for touchdown in wild game in Carolina",
-      "summary": "It's getting crazy in Carolina.",
-      "publishedAt": "2026-11-22T19:09:03Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "fd7bc8958f5a76b5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-stretch-lead-over-titans-to-20-3",
-      "title": "Cowboys stretch lead over Titans to 20-3",
-      "summary": "The Cowboys have gotten their act together, which was hardly a guarantee despite facing the one-win Titans.",
-      "publishedAt": "2026-11-22T18:53:04Z",
-      "teamIds": [
-        "6",
-        "10"
       ]
     }
   ]
