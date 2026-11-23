@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-22T23:47:21Z",
+  "fetchedAt": "2026-11-23T00:47:31Z",
   "source": "espn",
   "games": [
     {
@@ -213,9 +213,9 @@
       "homeId": "19",
       "awayId": "30",
       "status": "in_progress",
-      "statusDetail": "1:03 - 3rd",
-      "homeScore": 20,
-      "awayScore": 6,
+      "statusDetail": "3:02 - 4th",
+      "homeScore": 23,
+      "awayScore": 18,
       "venue": "MetLife Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -234,10 +234,10 @@
       "kickoffUtc": "2026-11-22T21:25:00Z",
       "homeId": "7",
       "awayId": "13",
-      "status": "in_progress",
-      "statusDetail": "0:20 - 3rd",
-      "homeScore": 24,
-      "awayScore": 17,
+      "status": "final",
+      "statusDetail": "Final",
+      "homeScore": 38,
+      "awayScore": 24,
       "venue": "Empower Field at Mile High",
       "neutralSite": false,
       "venueInfo": {

@@ -1,7 +1,227 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T23:47:24Z",
+  "updatedAt": "2026-11-23T00:47:35Z",
   "items": [
+    {
+      "id": "f92f70e37c3bc348",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567139/jesse-minter-take-responsibility-latest-ravens-loss",
+      "title": "Jesse Minter: I take responsibility for latest Ravens loss",
+      "summary": "Ravens coach Jesse Minter took accountability after Baltimore's 35-33 setback to the Panthers extended the NFL's longest active losing streak to six games.",
+      "publishedAt": "2026-11-23T00:45:37Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "57e506650a4c58a0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-is-in-concussion-protocol",
+      "title": "Justin Herbert is in concussion protocol",
+      "summary": "Chargers quarterback Justin Herbert played the entire game in Sunday's 27-24 loss to the Jets, but he did not emerge from it unscathed.",
+      "publishedAt": "2026-11-23T00:40:25Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "598e79d2c070e960",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567478/chargers-justin-herbert-lands-concussion-protocol",
+      "title": "Chargers' Justin Herbert lands in concussion protocol",
+      "summary": "Quarterback Justin Herbert is in the concussion protocol, the Chargers said after Sunday's 27-24 loss to the Jets in Inglewood, California.",
+      "publishedAt": "2026-11-23T00:40:24Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "5e668ae684cbaae1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567249/is-colston-loveland-due-fantasy-breakout-performance",
+      "title": "Is Colston Loveland due for a fantasy breakout performance?",
+      "summary": null,
+      "publishedAt": "2026-11-23T00:37:45Z",
+      "teamIds": []
+    },
+    {
+      "id": "f08aa964a5fef741",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50564270/nfl-week-11-fantasy-football-winners-losers-injuries-rankings-more",
+      "title": "Week 11 winners and losers: Cowboys put up points while Josh Allen does not",
+      "summary": "Dak Prescott, CeeDee Lamb and Patrick Mahomes put fantasy teams on their back in Week 11, while Josh Allen, Jonathan Taylor and Tony Pollard disappointed.",
+      "publishedAt": "2026-11-23T00:36:28Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "0e614f90ab4443b5",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567217/why-fantasy-managers-excited-dj-moore",
+      "title": "Why fantasy managers should be excited about DJ Moore",
+      "summary": null,
+      "publishedAt": "2026-11-23T00:33:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "85600c9a406811ae",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567175/is-jaylen-warren-fantasy-start",
+      "title": "Is Jaylen Warren still a fantasy must-start?",
+      "summary": null,
+      "publishedAt": "2026-11-23T00:27:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "f78e6f7b501dbe4c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567109/is-trey-mcbride-sell-high-candidate-fantasy",
+      "title": "Is Trey McBride a sell-high candidate in fantasy?",
+      "summary": null,
+      "publishedAt": "2026-11-23T00:21:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "68b16c7fbcf04999",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567158/eagles-riq-woolen-benched-missed-tackles-vs-steelers",
+      "title": "Eagles' Riq Woolen benched after missed tackles vs. Steelers",
+      "summary": "Eagles cornerback Riq Woolen was benched in favor of veteran Jonathan Jones late in the first half of Sunday's 19-16 win over the Steelers.",
+      "publishedAt": "2026-11-23T00:14:53Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "8de543e94e80cde0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/officials-deny-jaguars-td-on-sensational-catch-by-parker-washington",
+      "title": "Officials deny Jaguars TD on sensational catch by Parker Washington",
+      "summary": "Washington appeared to make a superb touchdown catch, but the officials and the replay office ruled it incomplete.",
+      "publishedAt": "2026-11-23T00:14:42Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "f0c92062d2c8e291",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567207/jeffery-simmons-matches-career-high-3-sacks-bears-win",
+      "title": "Jeffery Simmons matches career high with 3 sacks in Bears' win",
+      "summary": "Jeffery Simmons recorded three sacks in the Bears' 21-13 win over the Saints on Sunday, which tied his single-game career high.",
+      "publishedAt": "2026-11-23T00:10:57Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "8f61009f6f3ef7b1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567126/game-highlights",
+      "title": "New York Jets vs. Los Angeles Chargers: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-23T00:08:00Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "65df64f93c59b65c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567146/young-authors-game-winning-drive-first-place-panthers",
+      "title": "'Locked into the moment,' Bryce Young rallies first-place Panthers past Ravens",
+      "summary": "In a back-and-forth game laced with lead changes, Bryce Young rallied the Panthers to a 35-33 home win over the Baltimore Ravens on Sunday at Bank of America Stadium, a second straight victory for the 5-5 Panthers that padded lead in the NFC South.",
+      "publishedAt": "2026-11-23T00:07:46Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "0a33a0726b01c28f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-mike-evans-active-dre-greenlaw-inactive-for-49ers-vikings",
+      "title": "Sunday Night Football: Mike Evans active, Dre Greenlaw inactive for 49ers-Vikings",
+      "summary": "Evans will play his first game since Oct. 19 on Sunday night in Mexico City.",
+      "publishedAt": "2026-11-23T00:06:54Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "6d7a6242c638af7f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873074",
+      "title": "Jets score on first 5 drives and edge Chargers 27-24 to snap 5-game skid",
+      "summary": "Geno Smith completed 17 of 21 passes for 176 yards and three touchdowns, including two to Sterling Shepard, and the New York Jets scored on their first five drives to beat the Los Angeles Chargers 27-24 on Sunday and end a five-game skid.",
+      "publishedAt": "2026-11-23T00:03:32Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "dad1a94f0b1a4eda",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/what-happens-now-steelers-embattled-receiver-dk-metcalf",
+      "title": "DK Metcalf's bad season just got worse. What happens now for Steelers embattled receiver?",
+      "summary": "It's safe for Metcalf to be considered the worst trade acquisition in Steelers history. Now he faces a possible suspension and an uncertain future in Pittsburgh",
+      "publishedAt": "2026-11-22T23:58:59Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "0504c28595efa98c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-beat-chargers-27-24-to-end-five-game-losing-streak",
+      "title": "Jets beat Chargers 27-24 to end five-game losing streak",
+      "summary": "The Jets scored on their first five possessions and then ran out the clock on the Chargers from there.",
+      "publishedAt": "2026-11-22T23:53:30Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "6b561dcd11df048d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
+      "title": "NFL Week 11 grades for every team: Cowboys earn 'A-' for high-flying win, Steelers nearly fail",
+      "summary": "We're handing out grades for every team that played in Week 10",
+      "publishedAt": "2026-11-22T23:51:44Z",
+      "teamIds": [
+        "6",
+        "23"
+      ]
+    },
+    {
+      "id": "f99f05d1fc81c8fc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalf-left-locker-room-without-speaking-to-reporters",
+      "title": "DK Metcalf left locker room without speaking to reporters",
+      "summary": "During Sunday's game at Philadelphia, Steelers receiver DK Metcalf was involuntarily sent to the locker room early.",
+      "publishedAt": "2026-11-22T23:47:45Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "5859c5891d648dc9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendozas-second-td-pass-tied-raiders-broncos-at-17-17",
+      "title": "Fernando Mendoza's second TD pass tied Raiders-Broncos at 17-17",
+      "summary": "The Raiders are back in business.",
+      "publishedAt": "2026-11-22T23:41:10Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
     {
       "id": "c70abecc20351b0e",
       "source": "espn",
@@ -25,11 +245,22 @@
       ]
     },
     {
+      "id": "de3c0c9af0614aee",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-11-overreactions-jesse-minter-one-and-done-offensive-player-year-award-winner-emerging",
+      "title": "Week 11 overreactions: Jesse Minter one-and-done? Offensive Player of the Year award winner emerging?",
+      "summary": "Plus, the Steelers are once again facing a familiar end to their season",
+      "publishedAt": "2026-11-22T23:22:46Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
       "id": "e59b1d23e0ec4269",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50566642/joe-brady-better-bills-win-vs-dolphins",
       "title": "Joe Brady not satisfied with 9-1 Bills, says team wasn't looking ahead to Chiefs",
-      "summary": "Joe Brady said he isn't anywhere close to satisfied despite his Bills beating the Dolphins to move to 9-1.",
+      "summary": "Joe Brady said he isn't close to satisfied despite his Bills beating the Dolphins to move to 9-1.",
       "publishedAt": "2026-11-22T23:13:45Z",
       "teamIds": [
         "2"
@@ -675,7 +906,7 @@
       "id": "c9636b6b3576dcc1",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50563590/kelce-passes-gronkowski-most-tds-te-including-playoffs",
-      "title": "Travis Kelce passes Rob Gronkowski on TDs by TE list, alone in third all time",
+      "title": "Travis Kelce pads Hall of Fame résumé with two first-half TDs in Chiefs' win",
       "summary": "Travis Kelce has passed Rob Gronkowski for third place for the most total touchdowns, including playoffs, by a tight end in league history.",
       "publishedAt": "2026-11-22T19:43:45Z",
       "teamIds": [
@@ -947,12 +1178,10 @@
       "id": "0751f9418c24b0b7",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
-      "title": "NFL Week 11 arrivals: Broncos LB Alex Singleton honors Tom Jackson with jersey",
+      "title": "NFL Week 11 arrivals: George Kittle rocks Luchador mask ahead of 'SNF' in Mexico",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-22T17:13:29Z",
-      "teamIds": [
-        "7"
-      ]
+      "teamIds": []
     },
     {
       "id": "b942a95da1cf3ff2",
@@ -1458,239 +1687,6 @@
       "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
       "publishedAt": "2026-11-22T12:23:55Z",
       "teamIds": []
-    },
-    {
-      "id": "64ab5603ce63fa91",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506858/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 11: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-22T12:23:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "92ce5dff7e1a00b3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506759/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 11: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-22T12:22:52Z",
-      "teamIds": []
-    },
-    {
-      "id": "7ea9670927c482f7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50551004/sources-colts-shutting-alec-pierce-rest-season",
-      "title": "Sources: Colts shut down Alec Pierce for season, plan for WR's return in 2027",
-      "summary": "The Colts are shutting down Alec Pierce for the rest of the season and are planning for the WR to return fully healthy in 2027, sources told NFL Network.",
-      "publishedAt": "2026-11-22T12:15:13Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "6370a7a0804b3b47",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-      "title": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-      "summary": "Vikings quarterback Kirk Cousins is poised to become the first quarterback in the modern era to play 18 regular-season games.",
-      "publishedAt": "2026-11-22T12:14:29Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "a91bb2232efe30cc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50550285/sources-buccaneers-qb-baker-mayfield-plantar-fasciitis",
-      "title": "Sources: Bucs' Baker Mayfield has plantar fasciitis, determined to keep playing",
-      "summary": "Baker Mayfield is dealing with a painful case of plantar fasciitis, sources told NFL Network, an injury that the Bucs QB is determined to play through.",
-      "publishedAt": "2026-11-22T11:59:54Z",
-      "teamIds": [
-        "27"
-      ]
-    },
-    {
-      "id": "e6cbfd5db6f81b79",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50544188/new-england-patriots-highest-paid-players-2026",
-      "title": "How Patriots' top 10 earners have fared: A.J. Brown, Christian Gonzalez, more",
-      "summary": "The Patriots' 5-5 record reflects what happens when a team's highest-paid players don't perform well. Let's look closer at the top 10 earners in New England.",
-      "publishedAt": "2026-11-22T11:59:26Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "b3a1f17daf34e66e",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50511549/nfl-week-11-odds-vikings-49ers-betting-preview-props",
-      "title": "Best bets for Vikings-49ers: Tips, analysis and our top prop plays",
-      "summary": "Odds, analysis and recommended plays to help you bet Sunday night's Vikings-49ers game.",
-      "publishedAt": "2026-11-22T11:32:20Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "5b43b57aad3434c6",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50543176/jets-face-chargers-dolphins-impact-2027-draft",
-      "title": "Why the Jets' next two games have major implications on the 2027 draft",
-      "summary": "At two wins, New York will play two of the three remaining one-win teams in Weeks 11 and 12.",
-      "publishedAt": "2026-11-22T11:00:01Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "0651c98e80408343",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-week-11-nfl-picks-odds-expert-picks-predictions",
-      "title": "Prisco's Week 11 NFL picks: 49ers over Vikings, Cowboys rout Titans, Panthers edge Ravens",
-      "summary": "Pete Prisco reveals all of his Week 11 picks, including the Jaguars to handle the Giants on the road",
-      "publishedAt": "2026-11-22T10:01:44Z",
-      "teamIds": [
-        "33",
-        "29",
-        "6",
-        "30",
-        "16",
-        "19",
-        "25",
-        "10"
-      ]
-    },
-    {
-      "id": "439f603bf576c226",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/ravens-vs-panthers-odds-picks-prediction-spread-start-time-nfl-week-11-betting-preview-best-bets",
-      "title": "Ravens vs. Panthers odds, picks, prediction, spread: Start time, NFL Week 11 betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Ravens vs. Panthers in NFL Week 11",
-      "publishedAt": "2026-11-22T10:01:10Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "3b277dacf9f98244",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-11",
-      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 11",
-      "summary": "Sunday night's Vikings-49ers game is a very big one in the NFC playoff race.",
-      "publishedAt": "2026-11-22T09:54:45Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "334aefc11cc67728",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50558032/dolphins-defensive-line-hit-hard-season-ending-injuries",
-      "title": "Dolphins' defensive line hit hard by season-ending injuries",
-      "summary": "Marcel Louis-Jacques explains how three season-ending injuries put pressure on Kenneth Grant ahead of the Bills matchup.",
-      "publishedAt": "2026-11-22T06:46:57Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "9ed4e9e89b9de76e",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50534274/week-11-nfl-odds-touchdown-props-best-bets-sunday-games",
-      "title": "Week 11 betting preview: Analysis, best bets, TD predictions for Sunday",
-      "summary": "Our experts dive into the odds and player props for Week 11 and offer their betting tips and favorite plays.",
-      "publishedAt": "2026-11-22T05:56:51Z",
-      "teamIds": [
-        "3",
-        "12",
-        "16",
-        "27"
-      ]
-    },
-    {
-      "id": "12c1ed5a2d7c6a92",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-is-one-score-away-from-four-straight-seasons-with-12-or-more-rushing-touchdowns",
-      "title": "Josh Allen is one score away from four straight seasons with 12 or more rushing touchdowns",
-      "summary": "Bills quarterback Josh Allen has become something that few quarterbacks are — a rushing-touchdown machine.",
-      "publishedAt": "2026-11-22T04:31:54Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "547263ee803294d4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50558496/police-probing-whether-titans-de-harrell-assaulted-driver",
-      "title": "Police investigating whether Titans DE Harrell assaulted driver before crash",
-      "summary": "Police are investigating whether Titans DE Jaylen Harrell assaulted a rideshare driver before a serious car crash that left him hospitalized.",
-      "publishedAt": "2026-11-22T04:31:20Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "835ae575157f6e6a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-loss-to-virginia-bill-belichicks-bowl-hopes-come-down-to-nc-state-game",
-      "title": "After loss to Virginia, Bill Belichick's bowl hopes come down to NC State game",
-      "summary": "It all comes down to next Saturday, potentially.",
-      "publishedAt": "2026-11-22T03:04:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "9ff2479a6ba998e4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-last-minute-picks-best-bets-fernando-mendozas",
-      "title": "NFL Week 11 last-minute picks, best bets: Fernando Mendoza's Raiders face tough task, Titans cover in Dallas",
-      "summary": "Need some last-minute advice on how to bet the Week 11 slate? Allow us to be of assistance",
-      "publishedAt": "2026-11-22T03:00:55Z",
-      "teamIds": [
-        "13",
-        "10"
-      ]
-    },
-    {
-      "id": "9acb6c7a6a81af7e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/loss-to-cincinnati-eliminates-deion-sanders-colorado-from-bowl-eligibility",
-      "title": "Loss to Cincinnati eliminates Deion Sanders, Colorado from bowl eligibility",
-      "summary": "Deion Sanders's fourth season at Colorado will end without a bowl game.",
-      "publishedAt": "2026-11-22T02:55:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "503db1bf0f9826bc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/knee-surgery-complicates-puka-nacuas-future",
-      "title": "Knee surgery complicates Puka Nacua's future",
-      "summary": "Timeline for recovery make mean he won't be 100 percent before free agency.",
-      "publishedAt": "2026-11-22T02:37:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "40bd9435e07e9fd4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfc-north-continues-its-historic-dominance",
-      "title": "NFC North continues its historic dominance",
-      "summary": "They're 27-10 overall, and 21-4 in games outside the division.",
-      "publishedAt": "2026-11-22T02:01:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "3d2766f99423900d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
-      "title": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
-      "summary": "Puka Nacua's recovery time from MCL surgery is considered to be four to five months, sources told ESPN, meaning he will miss the playoffs.",
-      "publishedAt": "2026-11-22T01:46:34Z",
-      "teamIds": [
-        "14"
-      ]
     }
   ]
 }

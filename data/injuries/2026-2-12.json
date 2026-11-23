@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T22:47:17Z",
+    "takenAt": "2026-11-23T00:47:32Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1246,7 +1246,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -1672,6 +1672,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4573398",
+            "name": "Max Brosmer",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2082,7 +2093,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4685382",
@@ -2203,17 +2214,6 @@
             "status": null
           },
           {
-            "athleteId": "4241464",
-            "name": "Mac Jones",
-            "pos": "QB",
-            "teamId": "25",
-            "teamAbbr": "SF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
-          },
-          {
             "athleteId": "4361741",
             "name": "Brock Purdy",
             "pos": "QB",
@@ -2224,6 +2224,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430431",
+            "name": "Kurtis Rourke",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2475,6 +2486,16 @@
       "to": "Injured Reserve"
     },
     {
+      "gameId": "401873079",
+      "athleteId": "4430737",
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "teamAbbr": "LAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
       "gameId": "401873081",
       "athleteId": "15168",
       "name": "Case Keenum",
@@ -2565,6 +2586,16 @@
       "to": "Out"
     },
     {
+      "gameId": "401873084",
+      "athleteId": "4573398",
+      "name": "Max Brosmer",
+      "pos": "QB",
+      "teamAbbr": "MIN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
       "gameId": "401873085",
       "athleteId": "3916387",
       "name": "Lamar Jackson",
@@ -2645,14 +2676,24 @@
       "to": "Out"
     },
     {
+      "gameId": "401873093",
+      "athleteId": "4038941",
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "teamAbbr": "LAC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
       "gameId": "401873091",
-      "athleteId": "4241464",
-      "name": "Mac Jones",
+      "athleteId": "4430431",
+      "name": "Kurtis Rourke",
       "pos": "QB",
       "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873086",
