@@ -1,7 +1,156 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T20:47:35Z",
+  "updatedAt": "2026-11-23T21:47:26Z",
   "items": [
+    {
+      "id": "f0b61f9d1e2ce9d0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
+      "title": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
+      "summary": "The Commanders activated running back Jacory Croskey-Merritt off injured reserve Monday.",
+      "publishedAt": "2026-11-23T21:43:06Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "7a3d74baf1081496",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-josh-jacobs-listed-as-limited-in-practice-again-on-monday",
+      "title": "Micah Parsons, Josh Jacobs listed as limited in practice again on Monday",
+      "summary": "The Packers' injury report for Monday looks a lot like the one they turned in on Sunday.",
+      "publishedAt": "2026-11-23T21:40:37Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "f93fa05364dbdd70",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-upgrade-rb-kyren-williams-to-full-participant-on-mondays-injury-report",
+      "title": "Rams upgrade RB Kyren Williams to full participant on Monday's injury report",
+      "summary": "While any injury news about the Rams has largely been bad this season, there was a positive development on the team's Monday practice report.",
+      "publishedAt": "2026-11-23T21:38:29Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "b0bc2f7965995aa6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marlon-humphrey-back-with-ravens-jesse-minter-doesnt-commit-to-week-12-return-to-lineup",
+      "title": "Marlon Humphrey back with Ravens, Jesse Minter doesn't commit to Week 12 return to lineup",
+      "summary": "Ravens cornerback Marlon Humphrey was back at the team's facility on Monday.",
+      "publishedAt": "2026-11-23T21:33:11Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "b9798912eeddcf21",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50576454/giants-greg-newsome-multiple-weeks-ankle-sprain",
+      "title": "Giants' Greg Newsome out 'multiple weeks' with ankle sprain",
+      "summary": "Giants starting cornerback Greg Newsome will miss \"multiple weeks\" with a high ankle sprain, coach John Harbaugh said Monday.",
+      "publishedAt": "2026-11-23T21:22:44Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "db039b9663dd04af",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-activate-lb-swayze-bozeman-g-brian-parker-from-injured-reserve",
+      "title": "Bengals activate LB Swayze Bozeman, G Brian Parker from injured reserve",
+      "summary": "The Bengals announced a pair of roster moves on Monday afternoon.",
+      "publishedAt": "2026-11-23T21:21:33Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "bf8c7d63b9208a5e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/dk-metcalf-not-suspended-nfl-ejected-steelers-loss-eagles-cooper-dejean-eyes",
+      "title": "DK Metcalf will not be suspended by the NFL after getting ejected during Steelers' loss to Eagles",
+      "summary": "Metcalf may face other discipline by the NFL for his actions",
+      "publishedAt": "2026-11-23T21:19:06Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "014f162609f784a0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalf-will-not-be-suspended-for-actions-during-steelers-eagles",
+      "title": "DK Metcalf will not be suspended for actions during Steelers-Eagles",
+      "summary": "According to multiple reports, while Metcalf has avoided a suspension, he may still be fined.",
+      "publishedAt": "2026-11-23T21:13:14Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "86484083cb947b6e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-jacory-croskey-merritt",
+      "title": "Commanders activate Jacory Croskey-Merritt",
+      "summary": "The Commanders have made an addition to their offensive backfield ahead of Monday night's game against the Bengals.",
+      "publishedAt": "2026-11-23T21:13:07Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "faea0d06ff196974",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50576302/cardinals-fire-defensive-coordinator-loss-chiefs",
+      "title": "Adam Schefter: Cardinals fire defensive coordinator after loss to Chiefs",
+      "summary": null,
+      "publishedAt": "2026-11-23T21:09:00Z",
+      "teamIds": [
+        "22",
+        "12"
+      ]
+    },
+    {
+      "id": "4a5e75032d6f94d5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-cb-greg-newsome-out-multiple-weeks-with-high-ankle-sprain",
+      "title": "Giants CB Greg Newsome out multiple weeks with high-ankle sprain",
+      "summary": "Giants cornerback Greg Newsome left Sunday's win over the Jaguars with an ankle injury and it will be some time before he will be back in the lineup.",
+      "publishedAt": "2026-11-23T21:03:25Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "62e6c173e544cb5f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cardinals-fire-defensive-coordinator-nick-rallis-per-reports",
+      "title": "Cardinals fire defensive coordinator Nick Rallis, per reports",
+      "summary": "Rallis is out after working with the Cardinals since 2023. Teryl Austin will serve as Arizona's temporary DC",
+      "publishedAt": "2026-11-23T21:03:15Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "25a161640ae0c444",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-dont-necessarily-expect-jordan-addison-back-this-week",
+      "title": "Vikings \"don't necessarily expect\" Jordan Addison back this week",
+      "summary": "The Vikings didn't have wide receiver Jordan Addison in the lineup for Sunday night's game against the 49ers and his availability for Week 12 came up during head coach Kevin O'Connell's Monday press conference.",
+      "publishedAt": "2026-11-23T20:54:07Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "1b2498af2a031bad",
       "source": "espn",
@@ -319,7 +468,7 @@
       "id": "619d79caf62599e0",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
-      "title": "Steelers' DK Metcalf denies trying to poke Eagles' Cooper DeJean in eye",
+      "title": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
       "summary": "Steelers wide receiver DK Metcalf on Monday denied trying to poke Eagles cornerback Cooper DeJean in the eye before he was ejected Sunday.",
       "publishedAt": "2026-11-23T17:41:20Z",
       "teamIds": [
@@ -1454,6 +1603,17 @@
       ]
     },
     {
+      "id": "dad1a94f0b1a4eda",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/what-happens-now-steelers-embattled-receiver-dk-metcalf",
+      "title": "DK Metcalf's bad season just got worse. What happens now for Steelers embattled receiver?",
+      "summary": "It's safe for Metcalf to be considered the worst trade acquisition in Steelers history. Now he faces a possible suspension and an uncertain future in Pittsburgh",
+      "publishedAt": "2026-11-23T01:12:30Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
       "id": "2c22d481d2f72897",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/49ers-vs-vikings-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city",
@@ -1520,158 +1680,6 @@
       "title": "NFL Week 11 arrivals: George Kittle rocks luchador mask ahead of SNF in Mexico",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-23T01:00:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "60515b9a62599820",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873075",
-      "title": "Jonah Coleman powers Broncos past Raiders 38-24 as Denver honors the late Tom Jackson",
-      "summary": "Forty years after his retirement from football and 48 hours after his death at age 75, the Denver Broncos set aside a game ball for Tom Jackson...",
-      "publishedAt": "2026-11-23T00:59:33Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "9db0fe4d77f73cea",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-earn-their-most-impressive-win-of-the-season-with-upset-of-jaguars",
-      "title": "Giants earn their most impressive win of the season with upset of Jaguars",
-      "summary": "The NFC East leaders surprised the AFC South leaders today.",
-      "publishedAt": "2026-11-23T00:55:23Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "3b277dacf9f98244",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-11",
-      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 11",
-      "summary": "Sunday night's Vikings-49ers game is a very big one in the NFC playoff race.",
-      "publishedAt": "2026-11-23T00:54:00Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "4cba5a29c00c70e3",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567555/mendoza-throws-3-tds-raiders-fall-broncos-denver",
-      "title": "Mendoza throws 3 TDs, but Raiders fall to Broncos in Denver",
-      "summary": null,
-      "publishedAt": "2026-11-23T00:50:54Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "b8ae688cf7abf504",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-move-to-8-2-with-38-24-victory-over-raiders",
-      "title": "Broncos move to 8-2 with 38-24 victory over Raiders",
-      "summary": "A pick-six off of Fernando Mendoza late in the fourth quarter sealed Denver's win.",
-      "publishedAt": "2026-11-23T00:48:21Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "bd7c6ff9dff32302",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-we-played-disgusting-football-on-sunday",
-      "title": "Robert Saleh: We played disgusting football on Sunday",
-      "summary": "The Titans were on the receiving end of a thrashing in Dallas on Sunday.",
-      "publishedAt": "2026-11-23T00:46:26Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "f92f70e37c3bc348",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567139/jesse-minter-take-responsibility-latest-ravens-loss",
-      "title": "Jesse Minter: I take responsibility for latest Ravens loss",
-      "summary": "Ravens coach Jesse Minter took accountability after Baltimore's 35-33 setback to the Panthers extended the NFL's longest active losing streak to six games.",
-      "publishedAt": "2026-11-23T00:45:37Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "57e506650a4c58a0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-is-in-concussion-protocol",
-      "title": "Justin Herbert is in concussion protocol",
-      "summary": "Chargers quarterback Justin Herbert played the entire game in Sunday's 27-24 loss to the Jets, but he did not emerge from it unscathed.",
-      "publishedAt": "2026-11-23T00:40:25Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "598e79d2c070e960",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567478/chargers-justin-herbert-lands-concussion-protocol",
-      "title": "Chargers' Justin Herbert lands in concussion protocol",
-      "summary": "Quarterback Justin Herbert is in the concussion protocol, the Chargers said after Sunday's 27-24 loss to the Jets in Inglewood, California.",
-      "publishedAt": "2026-11-23T00:40:24Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "5e668ae684cbaae1",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567249/is-colston-loveland-due-fantasy-breakout-performance",
-      "title": "Is Colston Loveland due for a fantasy breakout performance?",
-      "summary": null,
-      "publishedAt": "2026-11-23T00:37:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "f08aa964a5fef741",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50564270/nfl-week-11-fantasy-football-winners-losers-injuries-rankings-more",
-      "title": "Week 11 winners and losers: Cowboys put up points while Josh Allen does not",
-      "summary": "Dak Prescott, CeeDee Lamb and Jonah Coleman put fantasy teams on their backs in Week 11, while Josh Allen, Jonathan Taylor and Tony Pollard disappointed.",
-      "publishedAt": "2026-11-23T00:36:28Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "0e614f90ab4443b5",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567217/why-fantasy-managers-excited-dj-moore",
-      "title": "Why fantasy managers should be excited about DJ Moore",
-      "summary": null,
-      "publishedAt": "2026-11-23T00:33:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "85600c9a406811ae",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567175/is-jaylen-warren-fantasy-start",
-      "title": "Is Jaylen Warren still a fantasy must-start?",
-      "summary": null,
-      "publishedAt": "2026-11-23T00:27:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "f78e6f7b501dbe4c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50567109/is-trey-mcbride-sell-high-candidate-fantasy",
-      "title": "Is Trey McBride a sell-high candidate in fantasy?",
-      "summary": null,
-      "publishedAt": "2026-11-23T00:21:39Z",
       "teamIds": []
     }
   ]
