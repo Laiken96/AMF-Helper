@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T00:10:34Z",
+    "takenAt": "2026-11-23T00:20:36Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1900,17 +1900,6 @@
             "status": null
           },
           {
-            "athleteId": "4241464",
-            "name": "Mac Jones",
-            "pos": "QB",
-            "teamId": "25",
-            "teamAbbr": "SF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Questionable"
-          },
-          {
             "athleteId": "4361741",
             "name": "Brock Purdy",
             "pos": "QB",
@@ -1921,6 +1910,17 @@
               "passing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4430431",
+            "name": "Kurtis Rourke",
+            "pos": "QB",
+            "teamId": "25",
+            "teamAbbr": "SF",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2187,6 +2187,26 @@
       "name": "Max Brosmer",
       "pos": "QB",
       "teamAbbr": "MIN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873077",
+      "athleteId": "4241464",
+      "name": "Mac Jones",
+      "pos": "QB",
+      "teamAbbr": "SF",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
+    },
+    {
+      "gameId": "401873077",
+      "athleteId": "4430431",
+      "name": "Kurtis Rourke",
+      "pos": "QB",
+      "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
       "to": "Out"
