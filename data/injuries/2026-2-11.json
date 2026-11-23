@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-22T21:40:46Z",
+    "takenAt": "2026-11-23T00:10:34Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1867,6 +1867,17 @@
             "status": null
           },
           {
+            "athleteId": "4573398",
+            "name": "Max Brosmer",
+            "pos": "QB",
+            "teamId": "16",
+            "teamAbbr": "MIN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "3040151",
             "name": "George Kittle",
             "pos": "TE",
@@ -2164,6 +2175,16 @@
       "gameId": "401873077",
       "athleteId": "3917315",
       "name": "Kyler Murray",
+      "pos": "QB",
+      "teamAbbr": "MIN",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873077",
+      "athleteId": "4573398",
+      "name": "Max Brosmer",
       "pos": "QB",
       "teamAbbr": "MIN",
       "kind": "neu",
