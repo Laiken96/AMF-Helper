@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T06:47:26Z",
+  "updatedAt": "2026-11-23T07:47:26Z",
   "items": [
+    {
+      "id": "0df326f1f6405a39",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
+      "title": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
+      "summary": "Quarterback Brock Purdy heard \"MVP\" chants in Mexico City and continued to earn praise from his teammates as he led the 49ers to a statement victory against the top-ranked Vikings defense on Sunday night",
+      "publishedAt": "2026-11-23T07:23:43Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "d7a5aad07a1eeacb",
       "source": "espn",
@@ -1710,15 +1722,6 @@
       "title": "NFL Week 11 arrivals: George Kittle rocks luchador mask ahead of SNF in Mexico",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-22T17:13:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "b942a95da1cf3ff2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
-      "title": "2027 NFL draft questions, latest intel, risers, CFB standouts",
-      "summary": "Leonard Moore, Ashton Hampton and Ellis Robinson IV all in the top 10? And Jeremiah Smith and Charlie Becker both in the top five? Here's our draft spin off CFB Week 12.",
-      "publishedAt": "2026-11-22T17:11:56Z",
       "teamIds": []
     }
   ]
