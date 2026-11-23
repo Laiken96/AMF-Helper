@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T09:47:27Z",
+  "updatedAt": "2026-11-23T10:47:28Z",
   "items": [
+    {
+      "id": "b286f7d055ad893d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-has-52-career-rushing-tds-ties-barry-sanders-for-most-before-turning-25",
+      "title": "Jahmyr Gibbs has 52 career rushing TDs, ties Barry Sanders for most before turning 25",
+      "summary": "Two Lions running backs now share the NFL record for the most rushing touchdowns before turning 25 years old.",
+      "publishedAt": "2026-11-23T09:57:21Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "34ae000a95f38828",
       "source": "pft",
@@ -1707,18 +1718,6 @@
         "7",
         "20",
         "21"
-      ]
-    },
-    {
-      "id": "5bf0f15a57f5c496",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-can-match-their-best-record-through-10-games-with-a-win-over-dolphins",
-      "title": "Bills can match their best record through 10 games, with a win over Dolphins",
-      "summary": "The 8-1 Bills, barring a massive upset, will move to 9-1 today.",
-      "publishedAt": "2026-11-22T17:38:03Z",
-      "teamIds": [
-        "2",
-        "15"
       ]
     }
   ]
