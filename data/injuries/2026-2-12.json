@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T15:47:25Z",
+    "takenAt": "2026-11-23T16:47:30Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1395,17 +1395,6 @@
               "receiving"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4879250",
-            "name": "Cole Payton",
-            "pos": "QB",
-            "teamId": "21",
-            "teamAbbr": "PHI",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -1545,17 +1534,6 @@
             "status": null
           },
           {
-            "athleteId": "4429955",
-            "name": "Will Howard",
-            "pos": "QB",
-            "teamId": "23",
-            "teamAbbr": "PIT",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4569987",
             "name": "Jaylen Warren",
             "pos": "RB",
@@ -1639,17 +1617,6 @@
               "receiving"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4573398",
-            "name": "Max Brosmer",
-            "pos": "QB",
-            "teamId": "16",
-            "teamAbbr": "MIN",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -1777,17 +1744,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4361259",
-            "name": "Zach Wilson",
-            "pos": "QB",
-            "teamId": "18",
-            "teamAbbr": "NO",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4361370",
@@ -2372,17 +2328,6 @@
             "status": null
           },
           {
-            "athleteId": "3120590",
-            "name": "Easton Stick",
-            "pos": "QB",
-            "teamId": "27",
-            "teamAbbr": "TB",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "4567750",
             "name": "Emeka Egbuka",
             "pos": "WR",
@@ -2440,16 +2385,6 @@
       "to": "Questionable"
     },
     {
-      "gameId": "401873080",
-      "athleteId": "4879250",
-      "name": "Cole Payton",
-      "pos": "QB",
-      "teamAbbr": "PHI",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
-    },
-    {
       "gameId": "401873082",
       "athleteId": "4567048",
       "name": "Kenneth Walker III",
@@ -2457,16 +2392,6 @@
       "teamAbbr": "KC",
       "kind": "wechsel",
       "from": "Questionable",
-      "to": "Out"
-    },
-    {
-      "gameId": "401873083",
-      "athleteId": "4429955",
-      "name": "Will Howard",
-      "pos": "QB",
-      "teamAbbr": "PIT",
-      "kind": "neu",
-      "from": null,
       "to": "Out"
     },
     {
@@ -2490,16 +2415,6 @@
       "to": "Out"
     },
     {
-      "gameId": "401873084",
-      "athleteId": "4573398",
-      "name": "Max Brosmer",
-      "pos": "QB",
-      "teamAbbr": "MIN",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
-    },
-    {
       "gameId": "401873085",
       "athleteId": "4429059",
       "name": "Woody Marks",
@@ -2507,16 +2422,6 @@
       "teamAbbr": "HOU",
       "kind": "wechsel",
       "from": "Doubtful",
-      "to": "Out"
-    },
-    {
-      "gameId": "401873087",
-      "athleteId": "4361259",
-      "name": "Zach Wilson",
-      "pos": "QB",
-      "teamAbbr": "NO",
-      "kind": "neu",
-      "from": null,
       "to": "Out"
     },
     {
@@ -2598,16 +2503,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873094",
-      "athleteId": "3120590",
-      "name": "Easton Stick",
-      "pos": "QB",
-      "teamAbbr": "TB",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
     }
   ]
 }
