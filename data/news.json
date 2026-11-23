@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T10:47:28Z",
+  "updatedAt": "2026-11-23T11:47:24Z",
   "items": [
+    {
+      "id": "d461dc526c80ccb5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50565876/bengals-jamarr-chase-gymnastics",
+      "title": "Inside the gymnastics lore of Bengals star Ja'Marr Chase",
+      "summary": "Ja'Marr Chase's skill set suggests formal gymnastics training, but the reality isn't quite that simple.",
+      "publishedAt": "2026-11-23T11:15:02Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "3b8aaa12693305dd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/32646037/nfl-thanksgiving-day-games-history-lions-cowboys-play-every-year-moments-traditions-records",
+      "title": "NFL Thanksgiving games: Traditions, best moments, team records, 2026 schedule",
+      "summary": "NFL games on Thanksgiving Day date back to 1934, and the Lions and Cowboys are always in action. We revisit top performers, the best moments and more.",
+      "publishedAt": "2026-11-23T11:09:10Z",
+      "teamIds": [
+        "6",
+        "8"
+      ]
+    },
+    {
+      "id": "4331d6cd2cb5786c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-steelers-regretting-dk-metcalf-150-million-contract-trading-george-pickens",
+      "title": "Steelers gave DK Metcalf $150 million, traded George Pickens. Now they're paying for both decisions",
+      "summary": "The Steelers wanted a more dependable receiver; instead, Metcalf has delivered disappointing production and familiar distractions.",
+      "publishedAt": "2026-11-23T11:00:48Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-23T11:00:02Z",
+      "teamIds": []
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-23T11:00:00Z",
+      "teamIds": []
+    },
     {
       "id": "b286f7d055ad893d",
       "source": "pft",
@@ -1659,65 +1711,6 @@
       "teamIds": [
         "2",
         "15"
-      ]
-    },
-    {
-      "id": "1fa77c4cb1ade61f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-young-sacked-for-safety-jacoby-brissett-throws-td-as-ravens-lead-panthers-9-0",
-      "title": "Bryce Young sacked for safety, Jacoby Brissett throws TD as Ravens lead Panthers 9-0",
-      "summary": "It wasn't a good start for the Panthers today against the Ravens.",
-      "publishedAt": "2026-11-22T18:21:15Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "069e18acd4a8ece5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-open-game-with-missed-field-goal-by-jake-bates",
-      "title": "Lions open game with missed field goal by Jake Bates",
-      "summary": "It's a trap game for the Lions on Sunday against the 3-6 Bucs.",
-      "publishedAt": "2026-11-22T18:18:54Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "9c3c27e9333cb2d6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-moves-past-rob-gronkowski-for-no-3-all-time-in-td-catches-by-a-tight-end",
-      "title": "Travis Kelce moves past Rob Gronkowski for No. 3 all-time in TD catches by a tight end",
-      "summary": "For the first time since Sept. 27, Travis Kelce has gotten back into the end zone.",
-      "publishedAt": "2026-11-22T18:17:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "909770991ddc1eb8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-expert-picks-odds-best-bets-teasers-predictions-survivor-picks",
-      "title": "NFL Week 11 expert picks, odds, best bets, teasers, predictions, survivor picks: Who wins 49ers or Vikings?",
-      "summary": "NFL Week 11 odds, how to watch, streaming: Expert selections, best bets, teasers, survivor picks and more CBSSports.com and SportsLine break down every single NFL game in Week 17",
-      "publishedAt": "2026-11-22T18:08:41Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "2528ac5aaaf21d60",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50562956/week-11-highlights-sunday-best-plays-touchdowns-2026",
-      "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for all of the top moments, TDs and analysis from games at the Broncos, Jets, Cowboys, Eagles and more.",
-      "publishedAt": "2026-11-22T17:45:46Z",
-      "teamIds": [
-        "6",
-        "7",
-        "20",
-        "21"
       ]
     }
   ]
