@@ -1,7 +1,126 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T16:47:31Z",
+  "updatedAt": "2026-11-23T17:47:39Z",
   "items": [
+    {
+      "id": "6975bf71127eab85",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50570945/nfl-week-12-betting-odds-props-early-picks-predictions",
+      "title": "Early betting for Week 12: Will Seahawks slow down 49ers?",
+      "summary": "Which Week 12 lines offered immediate value once odds came out? Matt Bowen found one he's jumping on now.",
+      "publishedAt": "2026-11-23T17:45:36Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "619d79caf62599e0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
+      "title": "Steelers' DK Metcalf denies trying to poke Eagles' Cooper DeJean in eye",
+      "summary": "Steelers wide receiver DK Metcalf on Monday denied trying to poke Eagles cornerback Cooper DeJean in the eye before he was ejected Sunday.",
+      "publishedAt": "2026-11-23T17:41:20Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "773ab1bed288a4bf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-says-pats-dont-plan-to-add-another-qb-tommy-devito-is-our-starter",
+      "title": "Mike Vrabel says Pats don't plan to add another QB: Tommy DeVito is our starter",
+      "summary": "While Drake Maye is going to be out for an extended period — if not the rest of the season — the Patriots are not currently inclined to add quarterback Daniel Jones.",
+      "publishedAt": "2026-11-23T17:37:50Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "8cc04e90e4807d39",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-waive-lb-christian-harris-sign-s-jammie-robinson",
+      "title": "Falcons waive LB Christian Harris, sign S Jammie Robinson",
+      "summary": "The Falcons announced a change to their roster coming out of their bye week.",
+      "publishedAt": "2026-11-23T17:30:29Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "a0f8b04ae7acc6e3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jayden-daniels-relationship-lsu-alum-joe-burrow-its-all-love-beef",
+      "title": "Jayden Daniels on relationship with fellow LSU alum Joe Burrow amid jersey number complaint",
+      "summary": "Daniels and Burrow meet for the second time on 'Monday Night Football'",
+      "publishedAt": "2026-11-23T17:14:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "d5c593889418c127",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567919/carolina-panthers-rookie-lee-iii-big-play",
+      "title": "How Panthers rookie's big play became an all-timer for Dave Canales",
+      "summary": "Cornerback Will Lee III came up with a momentum-shifting play that helped stave off Baltimore's potential TD.",
+      "publishedAt": "2026-11-23T17:00:04Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "2e45165e4c01c720",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50570558/jaguars-loss-giants-trevor-lawrence-takes-blame",
+      "title": "Trevor Lawrence, Liam Coen share the blame for the Jaguars' loss to the Giants",
+      "summary": "The offense struggled mightily in New York. What does Jacksonville need to fix ahead of the Week 12 matchup against the Titans?",
+      "publishedAt": "2026-11-23T16:55:24Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "fd9b0b3ac9efab23",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/bengals-vs-commanders-odds-monday-night-football-first-touchdown-scorer-picks-nfl-predictions",
+      "title": "Bengals vs. Commanders odds: Monday Night Football first touchdown scorer picks, NFL predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on Bengals vs. Commanders in NFL Week 11 on Monday Night Football",
+      "publishedAt": "2026-11-23T16:49:34Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "6f1293789a200075",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50573926/what-make-emeka-egbuka-fantasy-football",
+      "title": "What to make of Emeka Egbuka in fantasy football",
+      "summary": null,
+      "publishedAt": "2026-11-23T16:49:31Z",
+      "teamIds": []
+    },
+    {
+      "id": "c0a49c157105af93",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50574035/cam-ward-paid-qb-streamer-week",
+      "title": "Field Yates: Cam Ward paid off as the QB streamer of the week",
+      "summary": null,
+      "publishedAt": "2026-11-23T16:47:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "d9e1f5cd0589d891",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cooper-dejean-dk-metcalf-just-missed-poking-me-in-the-eye",
+      "title": "Cooper DeJean: DK Metcalf \"just missed\" poking me in the eye",
+      "summary": "Eagles defensive back Cooper DeJean says Steelers wide receiver DK Metcalf didn’t poke him in the eye on Sunday, but came pretty close.",
+      "publishedAt": "2026-11-23T16:47:18Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
     {
       "id": "8ad5845f106af302",
       "source": "espn",
@@ -10,6 +129,17 @@
       "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
       "publishedAt": "2026-11-23T16:45:56Z",
       "teamIds": []
+    },
+    {
+      "id": "206f1dfa15a74839",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50573132/ravens-nfl-best-beating-week-11-panthers",
+      "title": "Turnovers, penalties, time management: Ravens are NFL's best at beating themselves",
+      "summary": "Baltimore hasn't won since Oct. 11 and is currently sporting the NFL's longest losing streak at six games.",
+      "publishedAt": "2026-11-23T16:44:57Z",
+      "teamIds": [
+        "33"
+      ]
     },
     {
       "id": "e05dbb9204d2a7cd",
@@ -576,6 +706,15 @@
         "16",
         "25"
       ]
+    },
+    {
+      "id": "96e92eddd7f86ca8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50563342/week-11-sunday-games-takeaways-questions-2026",
+      "title": "NFL Week 11: Big takeaways, questions and fantasy spin from Sunday's games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 11.",
+      "publishedAt": "2026-11-23T05:53:02Z",
+      "teamIds": []
     },
     {
       "id": "d7a5aad07a1eeacb",
@@ -1533,156 +1672,6 @@
       "teamIds": [
         "30",
         "19"
-      ]
-    },
-    {
-      "id": "8918c274d3013bfc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/derrick-henry-injury-ravens-star-rb-leaves-evaluated-concussion-after-scoring-touchdown",
-      "title": "Derrick Henry injury: Ravens star RB clears concussion protocol after leaving game post-TD",
-      "summary": "Baltimore avoids yet another key loss to injury",
-      "publishedAt": "2026-11-22T22:09:15Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "8dc530a0d7e65126",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50565751/is-saquon-barkley-back-start-status-fantasy",
-      "title": "Is Saquon Barkley back to must-start status in fantasy?",
-      "summary": null,
-      "publishedAt": "2026-11-22T22:08:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "d0b93536378dbf70",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-cleared-after-concussion-evaluation",
-      "title": "Derrick Henry cleared after concussion evaluation",
-      "summary": "Ravens running back Derrick Henry exited today's game early to get checked for a concussion, but the evaluation provided good news.",
-      "publishedAt": "2026-11-22T22:07:25Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "9d8268e86fca35db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nixs-12th-td-pass-of-the-season-gives-broncos-10-0-lead-over-raiders",
-      "title": "Bo Nix's 12th TD pass of the season gives Broncos 10-0 lead over Raiders",
-      "summary": "The Broncos have gotten into the end zone.",
-      "publishedAt": "2026-11-22T22:06:39Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "5800bb7188b9795a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50565430/game-highlights",
-      "title": "Tampa Bay Buccaneers vs. Detroit Lions: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-22T21:53:57Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "fee527c9a8d7c356",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-listed-as-limited-in-packers-practice",
-      "title": "Josh Jacobs listed as limited in Packers practice",
-      "summary": "When Packers running back Josh Jacobs had surgery on his broken finger earlier this month, word was that he'd miss two or three weeks before being able to return to action.",
-      "publishedAt": "2026-11-22T21:49:09Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "1866096f463cca79",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873068",
-      "title": "Bryce Young, Chuba Hubbard help Panthers add to NFC South lead with 35-33 victory over the Ravens",
-      "summary": "Dave Canales is like most NFL coaches — he wants to keep his team's focus on the next game and avoid any potential outside distractions.",
-      "publishedAt": "2026-11-22T21:46:36Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "bbaa5d7bfec76e74",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873076",
-      "title": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
-      "summary": "Joe Milton made a perfect throw to DeVonta Smith and the wide receiver rolled out of bounds to get the first down that closed out the Philadelphia Eagles' first win since September.",
-      "publishedAt": "2026-11-22T21:45:33Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "57d3afee98550f23",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-end-touchdown-drought-lead-chargers-10-3",
-      "title": "Jets end touchdown drought, lead Chargers 10-3",
-      "summary": "The Jets have found their way back to the end zone.",
-      "publishedAt": "2026-11-22T21:42:58Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Who got the ball on Sunday? Usage trends and role changes",
-      "summary": "A closer look at the top 10 fantasy scorers in Week 11, including Cowboys QB Dak Prescott and Broncos RB Jonah Coleman.",
-      "publishedAt": "2026-11-22T21:41:51Z",
-      "teamIds": [
-        "6",
-        "7"
-      ]
-    },
-    {
-      "id": "2e3954a2942437a3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-titans-final-score-scorigami-2026",
-      "title": "Cowboys vs. Titans ends in historic scorigami after late Tennessee touchdown",
-      "summary": "The Cowboys' 51-30 victory became the 1,101st unique final score in NFL history after a late Titans touchdown",
-      "publishedAt": "2026-11-22T21:41:43Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "76379145f8fcf7d6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50565408/game-highlights",
-      "title": "Baltimore Ravens vs. Carolina Panthers: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-22T21:40:55Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "71d9ce64c13987bb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873071",
-      "title": "Jeffery Simmons gets 3 sacks as the Chicago Bears beat the New Orleans Saints 21-13",
-      "summary": "Jeffery Simmons delivered once again. That blockbuster trade for the All-Pro defensive tackle is looking like the appropriate price at the moment.",
-      "publishedAt": "2026-11-22T21:40:42Z",
-      "teamIds": [
-        "3",
-        "18"
       ]
     }
   ]
