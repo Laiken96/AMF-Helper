@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-23T18:47:25Z",
+  "updatedAt": "2026-11-23T19:47:20Z",
   "maxDeviations": 0,
   "tips": [
     {
@@ -85,10 +85,10 @@
       "gameId": "401873082",
       "kickoffUtc": "2026-11-27T01:20:00Z",
       "odds": {
-        "provider": "Draft Kings",
+        "provider": "DraftKings",
         "spreadHome": -3,
-        "overUnder": 50.5,
-        "fetchedAt": "2026-11-23T03:46:04Z"
+        "overUnder": 49.5,
+        "fetchedAt": "2026-11-23T19:47:20Z"
       },
       "pHome": 0.5879,
       "pickTeamId": "2",
@@ -135,14 +135,14 @@
       "gameId": "401873084",
       "kickoffUtc": "2026-11-29T18:00:00Z",
       "odds": {
-        "provider": "Draft Kings",
-        "spreadHome": -6.5,
+        "provider": "DraftKings",
+        "spreadHome": -7,
         "overUnder": 41.5,
-        "fetchedAt": "2026-11-23T15:47:24Z"
+        "fetchedAt": "2026-11-23T19:47:20Z"
       },
-      "pHome": 0.6849,
+      "pHome": 0.698,
       "pickTeamId": "16",
-      "pickProb": 0.6849,
+      "pickProb": 0.698,
       "level": "favorit",
       "deviation": false,
       "firstPickTeamId": "16",
@@ -411,8 +411,8 @@
     {
       "gameId": "401873082",
       "slot": "thursday",
-      "homePoints": 27,
-      "awayPoints": 24,
+      "homePoints": 26,
+      "awayPoints": 23,
       "basis": "quote"
     },
     {

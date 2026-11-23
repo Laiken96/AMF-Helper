@@ -1,7 +1,141 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T18:47:28Z",
+  "updatedAt": "2026-11-23T19:47:24Z",
   "items": [
+    {
+      "id": "d81d679950963f5e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-te-terrance-ferguson-to-undergo-season-ending-ankle-surgery",
+      "title": "Rams TE Terrance Ferguson to undergo season-ending ankle surgery",
+      "summary": "One of the Rams' young pass-catchers will not be able to return in 2026.",
+      "publishedAt": "2026-11-23T19:46:25Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "fe5785508dfa301d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
+      "title": "Sources: 49ers releasing WR Brandon Aiyuk, with roster exemption ending",
+      "summary": "The 49ers are releasing wide receiver Brandon Aiyuk on Monday, sources told ESPN's Adam Schefter.",
+      "publishedAt": "2026-11-23T19:44:18Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "a4ec112c249db94b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-says-colts-have-not-shut-down-alec-pierce-for-the-season",
+      "title": "Shane Steichen says Colts have not shut down Alec Pierce for the season",
+      "summary": "A report from NFL Media on Sunday morning indicated that the Colts have decided to pull the plug on hopes that wide receiver Alec Pierce will return to action this season, but it appears to have been premature.",
+      "publishedAt": "2026-11-23T19:43:01Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "e1db41dfb33d5a87",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50575341/mike-vrabel-patriots-sticking-tommy-devito-qb1",
+      "title": "Vrabel: Patriots sticking with DeVito as QB1, not looking for outside help",
+      "summary": "Patriots coach Mike Vrabel said Monday the team isn't looking outside the organization for a starting quarterback as it prepares to be without Drake Maye in the coming weeks due to a fractured right fibula.",
+      "publishedAt": "2026-11-23T19:41:05Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "ed84bd0d4c31b3d3",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50575529/tommy-devito-our-starting-qb",
+      "title": "Mike Vrabel: Tommy DeVito is our starting QB",
+      "summary": null,
+      "publishedAt": "2026-11-23T19:40:44Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "45d491fffe9c8b23",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/terrion-arnolds-lawyer-seeks-sanctions-for-discovery-violation",
+      "title": "Terrion Arnold's lawyer seeks sanctions for discovery violation",
+      "summary": "Seahawks cornerback Terrion Arnold remains on paid leave with eight felony charges pending in Florida.",
+      "publishedAt": "2026-11-23T19:35:05Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "d3f6072d5f239334",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-dc-dennard-wilson-had-a-virtual-interview-for-maryland-head-coaching-job",
+      "title": "Report: Giants DC Dennard Wilson had a virtual interview for Maryland head coaching job",
+      "summary": "Giants defensive coordinator Dennard Wilson has helped the team to a 6-3-1 record so far this season and he's landed on the interview list for a head coaching vacancy on the college level.",
+      "publishedAt": "2026-11-23T19:33:05Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "d7aac0513e606054",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50575458/next-brandon-aiyuk-release-49ers",
+      "title": "What's next for Brandon Aiyuk after release by 49ers?",
+      "summary": null,
+      "publishedAt": "2026-11-23T19:29:43Z",
+      "teamIds": [
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "781adae2a4568f2f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-wr-jalen-coker-is-not-in-concussion-protocol",
+      "title": "Panthers WR Jalen Coker is not in concussion protocol",
+      "summary": "Panthers wide receiver Jalen Coker was checked for a concussion in the fourth quarter of Sunday's game against the Ravens, but head coach Dave Canales had a positive update on his condition on Monday.",
+      "publishedAt": "2026-11-23T19:25:54Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "6c546029df3897cf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-release-wr-brandon-aiyuk",
+      "title": "49ers release WR Brandon Aiyuk",
+      "summary": "Aiyuk will next go to waivers.",
+      "publishedAt": "2026-11-23T19:16:43Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "b98756259e5fb545",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50575243/micah-parsons-make-season-debut-wednesday-night",
+      "title": "Adam Schefter: Micah Parsons could make season debut Wednesday night",
+      "summary": null,
+      "publishedAt": "2026-11-23T19:07:14Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "f07f2411b0171861",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50575248/source-49ers-gm-john-lynch-agree-contract-extension",
+      "title": "Source: 49ers, GM John Lynch agree to contract extension",
+      "summary": "The 49ers and general manager John Lynch have agreed to a multiyear contract extension, a team source confirmed to NFL Network's Ian Rapoport.",
+      "publishedAt": "2026-11-23T19:05:14Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "a25fd35c38b5389f",
       "source": "pft",
@@ -1538,142 +1672,6 @@
       "summary": "It's safe for Metcalf to be considered the worst trade acquisition in Steelers history. Now he faces a possible suspension and an uncertain future in Pittsburgh",
       "publishedAt": "2026-11-22T23:58:59Z",
       "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "0504c28595efa98c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-beat-chargers-27-24-to-end-five-game-losing-streak",
-      "title": "Jets beat Chargers 27-24 to end five-game losing streak",
-      "summary": "The Jets scored on their first five possessions and then ran out the clock on the Chargers from there.",
-      "publishedAt": "2026-11-22T23:53:30Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "6b561dcd11df048d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
-      "title": "NFL Week 11 grades for every team: 49ers earn 'A+' for dominating Vikings, Steelers nearly fail",
-      "summary": "We're handing out grades for every team that played in Week 11",
-      "publishedAt": "2026-11-22T23:51:44Z",
-      "teamIds": [
-        "16",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "f99f05d1fc81c8fc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalf-left-locker-room-without-speaking-to-reporters",
-      "title": "DK Metcalf left locker room without speaking to reporters",
-      "summary": "During Sunday's game at Philadelphia, Steelers receiver DK Metcalf was involuntarily sent to the locker room early.",
-      "publishedAt": "2026-11-22T23:47:45Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "5859c5891d648dc9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendozas-second-td-pass-tied-raiders-broncos-at-17-17",
-      "title": "Fernando Mendoza's second TD pass tied Raiders-Broncos at 17-17",
-      "summary": "The Raiders are back in business.",
-      "publishedAt": "2026-11-22T23:41:10Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "c70abecc20351b0e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50566741/robert-saleh-calls-titans-defensive-effort-disgusting",
-      "title": "Frustrated Robert Saleh calls Titans' effort 'disgusting, embarrassing football'",
-      "summary": "Titans coach Robert Saleh couldn't hide his frustration when he stepped to the podium after Sunday's 51-30 loss to the Cowboys.",
-      "publishedAt": "2026-11-22T23:36:05Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "b13cf4abdd2d8aed",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
-      "title": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
-      "summary": "Dak Prescott completed 28 of 33 passes for 325 yards with four TDs, no interceptions and a rushing score in the Cowboys' 51-30 win against the Titans.",
-      "publishedAt": "2026-11-22T23:32:49Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "de3c0c9af0614aee",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-11-overreactions-jesse-minter-one-and-done-offensive-player-year-award-winner-emerging",
-      "title": "Week 11 overreactions: Jesse Minter one-and-done? Offensive Player of the Year award winner emerging?",
-      "summary": "Plus, the Steelers are once again facing a familiar end to their season",
-      "publishedAt": "2026-11-22T23:22:46Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "e59b1d23e0ec4269",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50566642/joe-brady-better-bills-win-vs-dolphins",
-      "title": "Joe Brady not satisfied with 9-1 Bills, says team wasn't looking ahead to Chiefs",
-      "summary": "Joe Brady said he isn't close to satisfied despite his Bills beating the Dolphins to move to 9-1.",
-      "publishedAt": "2026-11-22T23:13:45Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "dda1c0f7346367c0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-doesnt-rule-out-internal-discipline-for-dk-metcalf",
-      "title": "Mike McCarthy doesn't rule out internal discipline for DK Metcalf",
-      "summary": "Steelers receiver DK Metcalf had an unfortunate stat line on Sunday.",
-      "publishedAt": "2026-11-22T23:05:45Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "6c34a3165e07de7b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/39286200/best-nfl-coaches-all-ranked-wins",
-      "title": "Who are the winningest NFL coaches of all time?",
-      "summary": "From Belichick to Reid, there are many iconic coaches in NFL history. Who has the best career record? Check out the stat breakdown now.",
-      "publishedAt": "2026-11-22T23:05:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "af4c70d90318f10e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-lead-raiders-17-10-at-halftime",
-      "title": "Broncos lead Raiders 17-10 at halftime",
-      "summary": "The Broncos got out to a 17-0 lead, but the Raiders have settled in after a rough start to narrow that advantage to 17-10 at halftime.",
-      "publishedAt": "2026-11-22T23:04:59Z",
-      "teamIds": [
-        "7",
-        "13"
-      ]
-    },
-    {
-      "id": "2a1a5f4c4f98a831",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-winners-losers-cowboys-offense-makes-history-get-right-win-steelers-slump",
-      "title": "NFL Week 11 winners and losers: Cowboys offense makes history in get-right win, Steelers slump",
-      "summary": "Dallas scored on all but one possession in a bounce-back victory, while Pittsburgh's postseason hopes took a hit",
-      "publishedAt": "2026-11-22T23:02:46Z",
-      "teamIds": [
-        "6",
         "23"
       ]
     }
