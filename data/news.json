@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T08:47:24Z",
+  "updatedAt": "2026-11-23T09:47:27Z",
   "items": [
+    {
+      "id": "34ae000a95f38828",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-lose-right-tackle-colton-mckivitz-for-season-with-fractured-dislocated-ankle",
+      "title": "49ers lose right tackle Colton McKivitz for season with fractured, dislocated ankle",
+      "summary": "The 49ers lost starting right tackle Colton McKivitz for the season on Sunday night with a serious ankle injury.",
+      "publishedAt": "2026-11-23T08:56:19Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "7ebd4c1810610eb5",
       "source": "espn",
@@ -467,6 +478,15 @@
         "30",
         "19"
       ]
+    },
+    {
+      "id": "0751f9418c24b0b7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
+      "title": "NFL Week 11 arrivals: George Kittle rocks luchador mask ahead of SNF in Mexico",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-23T01:00:32Z",
+      "teamIds": []
     },
     {
       "id": "60515b9a62599820",
@@ -1699,29 +1719,6 @@
       "teamIds": [
         "2",
         "15"
-      ]
-    },
-    {
-      "id": "ac7c5218cd9af739",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50547526/emmitt-smith-super-bowl-xxviii",
-      "title": "I Scored a Touchdown: Emmitt Smith Super Bowl XXVIII",
-      "summary": null,
-      "publishedAt": "2026-11-22T17:28:52Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "436d129a327055c1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-rejected-a-trade-offer-from-the-ravens-for-daniel-jones",
-      "title": "Colts rejected a trade offer from the Ravens for Daniel Jones",
-      "summary": "Ten days after the November 10 trade deadline, the Colts cut quarterback Daniel Jones.",
-      "publishedAt": "2026-11-22T17:15:37Z",
-      "teamIds": [
-        "33",
-        "11"
       ]
     }
   ]
