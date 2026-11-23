@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T01:47:28Z",
+    "takenAt": "2026-11-23T06:47:22Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1397,8 +1397,8 @@
             "status": null
           },
           {
-            "athleteId": "4870795",
-            "name": "Makai Lemon",
+            "athleteId": "4241478",
+            "name": "DeVonta Smith",
             "pos": "WR",
             "teamId": "21",
             "teamAbbr": "PHI",
@@ -1437,6 +1437,17 @@
             "status": null
           },
           {
+            "athleteId": "4373678",
+            "name": "Khalil Shakir",
+            "pos": "WR",
+            "teamId": "2",
+            "teamAbbr": "BUF",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4379399",
             "name": "James Cook III",
             "pos": "RB",
@@ -1444,17 +1455,6 @@
             "teamAbbr": "BUF",
             "roles": [
               "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4385690",
-            "name": "Dalton Kincaid",
-            "pos": "TE",
-            "teamId": "2",
-            "teamAbbr": "BUF",
-            "roles": [
-              "receiving"
             ],
             "status": null
           },
@@ -1896,8 +1896,8 @@
             "status": "Out"
           },
           {
-            "athleteId": "2969939",
-            "name": "Jameis Winston",
+            "athleteId": "4433970",
+            "name": "J.J. McCarthy",
             "pos": "QB",
             "teamId": "19",
             "teamAbbr": "NYG",
