@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T13:47:24Z",
+    "takenAt": "2026-11-23T14:47:32Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2224,17 +2224,6 @@
               "passing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4430431",
-            "name": "Kurtis Rourke",
-            "pos": "QB",
-            "teamId": "25",
-            "teamAbbr": "SF",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           }
         ]
       },
@@ -2694,16 +2683,6 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
-    },
-    {
-      "gameId": "401873091",
-      "athleteId": "4430431",
-      "name": "Kurtis Rourke",
-      "pos": "QB",
-      "teamAbbr": "SF",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
     },
     {
       "gameId": "401873086",
