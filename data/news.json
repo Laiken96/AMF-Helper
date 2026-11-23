@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T04:47:25Z",
+  "updatedAt": "2026-11-23T05:47:24Z",
   "items": [
+    {
+      "id": "d7a5aad07a1eeacb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50043976/jacksonville-jaguars-travis-hunter-stats-snaps-tracker",
+      "title": "Tracking Jaguars CB/WR Travis Hunter's 2026 season: Snaps on offense, defense",
+      "summary": "Every week, we will look at how many snaps the two-way corner/receiver plays on offense and defense. Is there a trend in his usage?",
+      "publishedAt": "2026-11-23T04:56:42Z",
+      "teamIds": [
+        "30"
+      ]
+    },
     {
       "id": "6f5af9779706bf20",
       "source": "espn",
@@ -30,7 +41,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50569797/fernando-mendoza-settling-raiders-starting-quarterback",
       "title": "Despite loss to Broncos, Fernando Mendoza settling in as Raiders' starting QB",
-      "summary": "Fernando Mendoza, making his second start for the Raiders, had good and bad moments Sunday at Denver. He completed 18 of 37 passes for 267 yards and three touchdowns but was sacked five times and pressured 16, and threw a game-sealing pick-six.",
+      "summary": "Fernando Mendoza, making his second start for the Raiders, had good and bad moments Sunday at Denver. He completed 18 of 37 passes for 267 yards and three touchdowns but was sacked five times and pressured 16 times, and threw a game-sealing pick-six.",
       "publishedAt": "2026-11-23T04:34:54Z",
       "teamIds": [
         "13"
@@ -173,8 +184,8 @@
       "id": "804ae66c150e3e29",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50568995/49ers-colton-mckivitz-exits-game-vs-vikings-injuring-lower-leg",
-      "title": "49ers' Colton McKivitz exits win vs. Vikings with lower leg injury",
-      "summary": "49ers right tackle Colton McKivitz departed Sunday night's game against the Vikings midway through the second quarter because of what appeared to be a serious injury to his lower left leg.",
+      "title": "49ers' Colton McKivitz suffers season-ending ankle injury",
+      "summary": "49ers right tackle Colton McKivitz suffered a fractured and dislocated left ankle during Sunday night's 35-10 win against the Vikings, coach Kyle Shanahan said after the game.",
       "publishedAt": "2026-11-23T03:12:35Z",
       "teamIds": [
         "25"
@@ -708,12 +719,13 @@
       "id": "6b561dcd11df048d",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
-      "title": "NFL Week 11 grades for every team: Cowboys earn 'A-' for high-flying win, Steelers nearly fail",
-      "summary": "We're handing out grades for every team that played in Week 10",
+      "title": "NFL Week 11 grades for every team: 49ers earn 'A+' for dominating Vikings, Steelers nearly fail",
+      "summary": "We're handing out grades for every team that played in Week 11",
       "publishedAt": "2026-11-22T23:51:44Z",
       "teamIds": [
-        "6",
-        "23"
+        "16",
+        "23",
+        "25"
       ]
     },
     {
@@ -1010,7 +1022,7 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 11's leading fantasy scorers through Sunday Night Football",
+      "title": "Fantasy buzz: Week 11's leading fantasy scorers through \"Sunday Night Football\"",
       "summary": "A closer look at the top 10 fantasy scorers in Week 11, including Cowboys QB Dak Prescott and Broncos RB Jonah Coleman.",
       "publishedAt": "2026-11-22T21:41:51Z",
       "teamIds": [
@@ -1708,18 +1720,6 @@
       "summary": "Leonard Moore, Ashton Hampton and Ellis Robinson IV all in the top 10? And Jeremiah Smith and Charlie Becker both in the top five? Here's our draft spin off CFB Week 12.",
       "publishedAt": "2026-11-22T17:11:56Z",
       "teamIds": []
-    },
-    {
-      "id": "d773d683544383fc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-to-practice-in-pads-on-sunday",
-      "title": "Micah Parsons to practice in pads on Sunday",
-      "summary": "The Packers plan to have defensive end Micah Parsons on the field against the Rams on Wednesday night and Parsons will check off one more box toward that return to action at practice on Sunday.",
-      "publishedAt": "2026-11-22T17:00:18Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
     }
   ]
 }
