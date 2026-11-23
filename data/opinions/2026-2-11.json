@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "updatedAt": "2026-11-22T19:20:50Z",
+  "updatedAt": "2026-11-23T19:20:51Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -323,6 +323,33 @@
         {
           "title": "How to watch the 49ers vs Vikings Sunday Night Football game without cable - Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/watch-49ers-vs-vikings-sunday-183000573.html"
+        }
+      ]
+    },
+    {
+      "gameId": "401873078",
+      "createdAt": "2026-11-23T19:20:51Z",
+      "winnerTeamId": "28",
+      "pWinner": 0.56,
+      "marketPickTeamId": "4",
+      "marketProb": 0.6716,
+      "reasoning": "Die Commanders spielen zu Hause und melden laut Berichten fast volle Kapazität, während bei den Bengals Rechtsguard Dalton Risner fehlt und Dylan Fairchild, Kyle Dugger, Dax Hill sowie Swayze Bozeman fraglich sind. Der Ausfall von Cornerback Amik Robertson (fraglich) würde die Defensive der Commanders gegen Ja'Marr Chase und Tee Higgins jedoch empfindlich schwächen, weshalb der Vorteil knapp bleibt. Die offizielle ESPN-Meldung nennt keine Schlüsselausfälle, die Lokalberichte zeigen aber durchaus relevante Lücken auf beiden Seiten.",
+      "sources": [
+        {
+          "title": "Bengals vs. Commanders Injury Report: Dalton Risner out; Dax Hill and Dylan Fairchild questionable",
+          "url": "https://www.cincyjungle.com/cincinnati-bengals-injuries/206210/commanders-injury-report-dalton-risner-dax-hill-dylan-fairchild"
+        },
+        {
+          "title": "Commanders vs. Bengals injury report: Four key players questionable",
+          "url": "https://www.hogshaven.com/washington-commanders-injuries/456444/commanders-bengals-injury-report-treylon-burks-rachaad-white-amik-robertson-croskey-merritt"
+        },
+        {
+          "title": "Latest Commanders’ injury could doom upset chances vs Bengals",
+          "url": "https://sports.yahoo.com/articles/latest-commanders-injury-could-doom-015204516.html"
+        },
+        {
+          "title": "Bengals provide injury update ahead of MNF matchup with Commanders",
+          "url": "https://www.wlwt.com/article/bengals-provide-injury-update-ahead-of-matchup-with-commanders/74499054"
         }
       ]
     }
