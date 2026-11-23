@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T02:47:26Z",
+  "updatedAt": "2026-11-23T03:46:09Z",
   "items": [
+    {
+      "id": "9c1381ce422334a8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50569248/nfl-no-td-call-jaguars-parker-washington-was-correct",
+      "title": "NFL says no-TD call for WR Parker Washington in Jaguars' loss was correct",
+      "summary": "The NFL said Sunday that on-field officials were correct in ruling that Parker Washington did not make a critical touchdown catch in the fourth quarter.",
+      "publishedAt": "2026-11-23T03:43:13Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "e0ce2f15ac786703",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50569390/rb-cam-skattebo-backflips-again-pledging-nix-celebration",
+      "title": "RB Cam Skattebo backflips again after pledging to nix celebration",
+      "summary": "Cam Skattebo's pledge to nix his trademark backflip didn't last long. Not even a week.",
+      "publishedAt": "2026-11-23T03:39:38Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "0ee93f07dfefb54c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50569388/broncos-coach-sean-payton-game-ball-tom-jackson-family",
+      "title": "Broncos coach Sean Payton awards game ball to Tom Jackson's family",
+      "summary": "The Broncos will send a game ball to the wife and daughters of Tom Jackson after the \"Orange Crush\" great died Friday at age 75.",
+      "publishedAt": "2026-11-23T03:36:22Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "f0a40d1110f6a047",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49828234/washington-commanders-daronte-jones-2026-defense",
+      "title": "Inside Commanders DC Daronte Jones' unusual coaching journey",
+      "summary": "From living in his car to various college offices, Washington defensive coordinator Daronte Jones has paid his dues.",
+      "publishedAt": "2026-11-23T03:27:37Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "4df6cfd6150042ec",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-calls-dk-metcalfs-ejection-disappointing-wont-comment-on-message-to-him",
+      "title": "Aaron Rodgers calls DK Metcalf's ejection \"disappointing,\" won't comment on message to him",
+      "summary": "On certain subjects, Steelers quarterback Aaron Rodgers doesn't stop talking.",
+      "publishedAt": "2026-11-23T03:27:30Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "804ae66c150e3e29",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50568995/49ers-colton-mckivitz-exits-game-vs-vikings-injuring-lower-leg",
+      "title": "49ers' Colton McKivitz exits game vs. Vikings with lower leg injury",
+      "summary": "49ers right tackle Colton McKivitz departed Sunday night's game against the Vikings midway through the second quarter because of what appeared to be a serious injury to his lower left leg.",
+      "publishedAt": "2026-11-23T03:12:35Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "b89076f681644954",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-49ers-lead-vikings-28-10-at-halftime",
+      "title": "Sunday Night Football: 49ers lead Vikings 28-10 at halftime",
+      "summary": "QB Brock Purdy threw three TD passes in the first half, two of which went to TE George Kittle.",
+      "publishedAt": "2026-11-23T03:01:01Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
     {
       "id": "b74965cef0a5d11d",
       "source": "espn",
@@ -53,7 +132,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50567915/week-11-jaguars-analytics-decisions-two-point-field-goal",
       "title": "Making sense of the Jaguars going for two, then kicking a field goal down eight",
-      "summary": "The Jaguars made it 23-15 late vs. the Giants, but their two-point try failed. They got the ball back ... but kicked a field goal, leaving them down 23-18?",
+      "summary": "The Jaguars made it 23-15 late against the Giants, but their 2-point try failed. They got the ball back ... but kicked a field goal, leaving them down 23-18.",
       "publishedAt": "2026-11-23T02:04:32Z",
       "teamIds": [
         "30"
@@ -251,7 +330,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873075",
       "title": "Jonah Coleman powers Broncos past Raiders 38-24 as Denver honors the late Tom Jackson",
-      "summary": "Rookie Jonah Coleman ran for a season-best 111 yards and three touchdowns and the Denver Broncos beat the Las Vegas Raiders 38-24 on a solemn Sunday in the Mile High City as they honored “Orange Crush” and ESPN great",
+      "summary": "Forty years after his retirement from football and 48 hours after his death at age 75, the Denver Broncos set aside a game ball for Tom Jackson...",
       "publishedAt": "2026-11-23T00:59:33Z",
       "teamIds": [
         "7",
@@ -1646,81 +1725,6 @@
         "20",
         "23",
         "10"
-      ]
-    },
-    {
-      "id": "fc7f7f2c06c06c07",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/jaguars-vs-giants-odds-picks-prediction-spread-start-time-betting-preview-best-bets-nfl-week-11",
-      "title": "Jaguars vs. Giants odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
-      "summary": "Here's everything bettors need to know for Jaguars vs. Giants in NFL Week 11",
-      "publishedAt": "2026-11-22T15:54:55Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "9fb6a2d0d3883a1f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50562283/randy-moss-honors-late-tom-jackson-emotional-tribute",
-      "title": "Randy Moss honors the late Tom Jackson with emotional tribute",
-      "summary": null,
-      "publishedAt": "2026-11-22T15:44:39Z",
-      "teamIds": []
-    },
-    {
-      "id": "389ceb903bea6333",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/vikings-vs-49ers-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city",
-      "title": "Vikings vs. 49ers prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
-      "summary": "Best bets and betting preview for 49ers vs. Vikings on Sunday Night Football in Mexico City",
-      "publishedAt": "2026-11-22T15:41:50Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "b5e40121033e7444",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50561778/tom-jackson-broncos-star-espn-legend-dies-75",
-      "title": "Tom Jackson, Broncos star LB and Hall of Fame broadcaster at ESPN, dies at 75",
-      "summary": "Tom Jackson, a foundational player on the Broncos \"Orange Crush\" defense and a fixture at ESPN as a Hall of Fame broadcaster, has died. He was 75.",
-      "publishedAt": "2026-11-22T15:37:47Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "b4885206c920d36c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-tv-legend-tom-jackson-dies-at-75",
-      "title": "Broncos, TV legend Tom Jackson dies at 75",
-      "summary": "Tom Jackson, a 14-year veteran with the Broncos and a longtime fixture on ESPN's NFL programming, has died.",
-      "publishedAt": "2026-11-22T15:34:25Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "992ee52c7cee0554",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50562182/chris-berman-pays-emotional-tribute-best-friend-tom-jackson",
-      "title": "Chris Berman pays emotional tribute to 'best friend' Tom Jackson",
-      "summary": null,
-      "publishedAt": "2026-11-22T15:32:34Z",
-      "teamIds": []
-    },
-    {
-      "id": "1230138bc6bd47fa",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/broncos-ring-of-fame-linebacker-hall-of-fame-broadcaster-tom-jackson-dies-at-75",
-      "title": "Broncos Ring of Fame linebacker and Hall of Fame broadcaster Tom Jackson dies at 75",
-      "summary": "Jackson spent his entire career with the Broncos",
-      "publishedAt": "2026-11-22T15:27:19Z",
-      "teamIds": [
-        "7"
       ]
     }
   ]
