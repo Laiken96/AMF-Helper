@@ -1,7 +1,87 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T21:47:26Z",
+  "updatedAt": "2026-11-23T22:47:29Z",
   "items": [
+    {
+      "id": "75425e4db5fc8791",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-listed-as-out-of-chiefs-practice-monday",
+      "title": "Kenneth Walker listed as out of Chiefs practice Monday",
+      "summary": "Running back Kenneth Walker has missed the last two Chiefs games and Kansas City's first practice report of the week doesn't find him on an upward trajectory ahead of Thursday's road game in Buffalo.",
+      "publishedAt": "2026-11-23T22:40:31Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "2d59f1543688aeeb",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50574503/2026-fantasy-football-trade-deadline-trade-away",
+      "title": "Fantasy football trade deadline: Seven players to trade for, five to trade away",
+      "summary": "With the fantasy trade deadline approaching, here are the players managers should be targeting and ones they can offload.",
+      "publishedAt": "2026-11-23T22:38:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "be6cb5f14b08adca",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-clears-waivers-becomes-free-agent",
+      "title": "Daniel Jones clears waivers, becomes free agent",
+      "summary": "As expected, former Colts quarterback Daniel Jones has cleared waivers.",
+      "publishedAt": "2026-11-23T22:37:54Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "e76003163812d0b8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-list-greg-rousseau-dalton-kincaid-as-limited-on-mondays-practice-report",
+      "title": "Bills list Greg Rousseau, Dalton Kincaid as limited on Monday's practice report",
+      "summary": "The Bills did not hold a practice on Monday, but they did issue an estimated injury report ahead of Thursday's game against the Chiefs.",
+      "publishedAt": "2026-11-23T22:33:21Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "b3e9a0de7746c38a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-have-gone-five-straight-games-without-ever-trailing-for-first-time-since-1985",
+      "title": "Bears have gone five straight games without ever trailing for first time since 1985",
+      "summary": "The Bears' win over the Saints on Sunday was their fifth consecutive game taking a first-quarter lead and winning without ever trailing.",
+      "publishedAt": "2026-11-23T22:26:51Z",
+      "teamIds": [
+        "3",
+        "18"
+      ]
+    },
+    {
+      "id": "4484515167da8859",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-texans-draws-tepid-12-23-million-on-thursday-night",
+      "title": "Colts-Texans draws tepid 12.23 million on Thursday night",
+      "summary": "No, they can't all be winners.",
+      "publishedAt": "2026-11-23T22:20:25Z",
+      "teamIds": [
+        "34",
+        "11"
+      ]
+    },
+    {
+      "id": "dc6625cd618747d7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-among-eagles-listed-as-limited-on-monday",
+      "title": "Saquon Barkley among Eagles listed as limited on Monday",
+      "summary": "After defeating the Steelers on Sunday for their third victory of the season, the Eagles have several players on their first injury report of a short week as they'll play the Cowboys on Thanksgiving.",
+      "publishedAt": "2026-11-23T22:09:10Z",
+      "teamIds": [
+        "6",
+        "21",
+        "23"
+      ]
+    },
     {
       "id": "f0b61f9d1e2ce9d0",
       "source": "espn",
@@ -166,8 +246,8 @@
       "id": "1466d2fb7745e528",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50575938/cardinals-fire-defensive-coordinator-nick-rallis-sources-say",
-      "title": "Cardinals fire defensive coordinator Nick Rallis, sources say",
-      "summary": "The Cardinals have fired defensive coordinator Nick Rallis, sources told ESPN's Adam Schefter and the NFL Network's Ian Rapoport.",
+      "title": "Cardinals fire DC Nick Rallis; Teryl Austin takes over on interim basis",
+      "summary": "The Cardinals have fired defensive coordinator Nick Rallis, coach Mike LaFleur announced Monday.",
       "publishedAt": "2026-11-23T20:44:57Z",
       "teamIds": [
         "22"
@@ -253,8 +333,8 @@
       "id": "fe5785508dfa301d",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
-      "title": "Sources: 49ers releasing WR Brandon Aiyuk with roster exemption ending",
-      "summary": "The 49ers are releasing wide receiver Brandon Aiyuk on Monday, sources told ESPN's Adam Schefter.",
+      "title": "49ers release WR Brandon Aiyuk with roster exemption ending",
+      "summary": "The 49ers released wide receiver Brandon Aiyuk on Monday.",
       "publishedAt": "2026-11-23T19:44:18Z",
       "teamIds": [
         "25"
@@ -1601,86 +1681,6 @@
         "16",
         "25"
       ]
-    },
-    {
-      "id": "dad1a94f0b1a4eda",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/what-happens-now-steelers-embattled-receiver-dk-metcalf",
-      "title": "DK Metcalf's bad season just got worse. What happens now for Steelers embattled receiver?",
-      "summary": "It's safe for Metcalf to be considered the worst trade acquisition in Steelers history. Now he faces a possible suspension and an uncertain future in Pittsburgh",
-      "publishedAt": "2026-11-23T01:12:30Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "2c22d481d2f72897",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/49ers-vs-vikings-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city",
-      "title": "49ers vs. Vikings prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
-      "summary": "Best bets and betting preview for 49ers vs. Vikings on Sunday Night Football in Mexico City",
-      "publishedAt": "2026-11-23T01:09:46Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "9a3469605d6405d2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50563318/week-11-overreactions-2026-graziano-bills-eagles-nfc-east",
-      "title": "Judging overreactions to NFL Week 11: Joe Brady's Bills impact, Eagles' chances",
-      "summary": "Is Brady the coach that can vault the Bills over the top? Is an NFC East three-peat still in play in Philly? We overreact to Week 11 NFL action.",
-      "publishedAt": "2026-11-23T01:08:32Z",
-      "teamIds": [
-        "2",
-        "21"
-      ]
-    },
-    {
-      "id": "2a1a5f4c4f98a831",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-winners-losers-cowboys-offense-makes-history-get-right-win-steelers-slump",
-      "title": "NFL Week 11 winners and losers: Cowboys offense makes history in get-right win, Steelers slump",
-      "summary": "Dallas scored on all but one possession in a bounce-back victory, while Pittsburgh's postseason hopes took a hit",
-      "publishedAt": "2026-11-23T01:07:17Z",
-      "teamIds": [
-        "6",
-        "23"
-      ]
-    },
-    {
-      "id": "e6c7286f47ee8193",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/justin-herbert-concussion-protocol-update-jets",
-      "title": "Justin Herbert in concussion protocol after loss to Jets: Chargers QB played entire game",
-      "summary": "Herbert took some big shots late in the game but did not exit",
-      "publishedAt": "2026-11-23T01:05:39Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "8ca026c5a5aa72b9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873069",
-      "title": "Giants intercept Trevor Lawrence twice and hold on to beat the Jaguars 23-18",
-      "summary": "After J.J. McCarthy and the New York Giants sputtered for much of the fourth quarter, Jaguars coach Liam Coen decided to kick a late field goal because he was confident Jacksonville would get the ball back with a chance to win.",
-      "publishedAt": "2026-11-23T01:03:32Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "0751f9418c24b0b7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
-      "title": "NFL Week 11 arrivals: George Kittle rocks luchador mask ahead of SNF in Mexico",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-23T01:00:32Z",
-      "teamIds": []
     }
   ]
 }
