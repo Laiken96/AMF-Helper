@@ -1,7 +1,120 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T01:47:30Z",
+  "updatedAt": "2026-11-23T02:47:26Z",
   "items": [
+    {
+      "id": "b74965cef0a5d11d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50568613/49ers-nick-bosa-booed-heavily-mexico-fan-comments",
+      "title": "49ers' Nick Bosa booed heavily in Mexico after remarks about fans' cheering",
+      "summary": "49ers defensive end Nick Bosa was heavily booed on Sunday night by fans at Estadio Azteca, a few days after his comments about Mexican crowd behavior during a 2022 game sparked outrage in the country.",
+      "publishedAt": "2026-11-23T02:39:14Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "b1211f3c9e8e842c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-rt-colton-mckivitz-carted-off-in-an-air-cast-with-apparent-significant-injury",
+      "title": "49ers RT Colton McKivitz carted off in an air cast with apparent significant injury",
+      "summary": "49ers right tackle Colton McKivitz has suffered a significant injury in the second quarter of Sunday night's matchup against the Vikings.",
+      "publishedAt": "2026-11-23T02:29:36Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "b1966db8a7977c75",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-says-parker-washington-didnt-control-ball-until-he-was-out-of-bounds",
+      "title": "NFL says Parker Washington didn't control ball until he was out of bounds",
+      "summary": "Sunday's game between the Jaguars and Giants included a controversial decision in the fourth quarter on a play that looked like a touchdown catch by Jacksonville receiver Parker Washington.",
+      "publishedAt": "2026-11-23T02:28:02Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "aaffeab5d7fb857c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-kittles-second-td-gives-49ers-14-7-lead",
+      "title": "George Kittle's second TD gives 49ers 14-7 lead",
+      "summary": "Once again, George Kittle has made it into the end zone.",
+      "publishedAt": "2026-11-23T02:12:28Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "83bef1d8003efd02",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567915/week-11-jaguars-analytics-decisions-two-point-field-goal",
+      "title": "Making sense of the Jaguars going for two, then kicking a field goal down eight",
+      "summary": "The Jaguars made it 23-15 late vs. the Giants, but their two-point try failed. They got the ball back ... but kicked a field goal, leaving them down 23-18?",
+      "publishedAt": "2026-11-23T02:04:32Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "95e07d89f8ee060d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-jones-td-ties-vikings-49ers-at-7-7-late-in-first-quarter",
+      "title": "Aaron Jones TD ties Vikings-49ers at 7-7 late in first quarter",
+      "summary": "The Vikings have tied things up in Mexico City.",
+      "publishedAt": "2026-11-23T02:00:58Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "40f6d169b43e84af",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalfs-2025-suspension-can-be-factor-in-discipline-for-sundays-ejection",
+      "title": "DK Metcalf's 2025 suspension can be factor in discipline for Sunday's ejection",
+      "summary": "Steelers receiver DK Metcalf was ejected from Sunday's 19-16 loss to the Eagles.",
+      "publishedAt": "2026-11-23T02:00:17Z",
+      "teamIds": [
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "0f352f9579057965",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-everything-said-kick-fg-late-in-fourth-going-for-it-a-hope-play",
+      "title": "Liam Coen: Everything said kick FG late in fourth, going for it a \"hope play\"",
+      "summary": "Jaguars head coach Liam Coen opted to kick a field goal from the 9-yard-line and cut the Giants' lead to 23-18 with just over three minutes to play in Sunday's game, but hopes of winning the game with a touchdown went up in smoke when the Giants picked up two first downs and ran out the clock.",
+      "publishedAt": "2026-11-23T01:53:30Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "7e4512e4590963f6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
+      "title": "How active NFL players continue to redefine all-time sack list",
+      "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
+      "publishedAt": "2026-11-23T01:49:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "62243fec52d4ba02",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cam-skattebo-giants-celebrates-game-clinching-drive-with-backflip",
+      "title": "Cam Skattebo flips: Giants RB celebrates game-clinching drive with backflip days after retiring it",
+      "summary": "Skattebo said he'd retire his celebration in the wake of Aidan Hutchinson's injury",
+      "publishedAt": "2026-11-23T01:40:02Z",
+      "teamIds": [
+        "19"
+      ]
+    },
     {
       "id": "4a702afba297de8e",
       "source": "pft",
@@ -66,11 +179,23 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50567903/nfl-week-11-trolls",
       "title": "Bills' Grand Theft Auto VI-themed jab at Dolphins tops NFL Week 11 trolls",
-      "summary": "NFL teams remained petty in Week 11, led by a petty post from the Buffalo Bills.",
+      "summary": "NFL teams remained petty in Week 11, led by a post from the Buffalo Bills.",
       "publishedAt": "2026-11-23T01:21:29Z",
       "teamIds": [
         "2",
         "15"
+      ]
+    },
+    {
+      "id": "affbe51808eb1216",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions",
+      "title": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
+      "summary": "Here are our top picks for first touchdown prediction markets on the Vikings and 49ers' Sunday Night Football game in Mexico City",
+      "publishedAt": "2026-11-23T01:14:07Z",
+      "teamIds": [
+        "16",
+        "25"
       ]
     },
     {
@@ -113,8 +238,8 @@
       "id": "8ca026c5a5aa72b9",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873069",
-      "title": "Giants intercept Trevor Lawrence twice as they hold on to beat the Jaguars 23-18",
-      "summary": "J.J. McCarthy threw a touchdown pass to Malik Nabers, Abdul Carter and the defense flustered Trevor Lawrence throughout and the New York Giants held on to defeat the Jacksonville Jaguars 23-18 on Sunday, bouncing back from a bad loss and ending the...",
+      "title": "Giants intercept Trevor Lawrence twice and hold on to beat the Jaguars 23-18",
+      "summary": "After J.J. McCarthy and the New York Giants sputtered for much of the fourth quarter, Jaguars coach Liam Coen decided to kick a late field goal because he was confident Jacksonville would get the ball back with a chance to win.",
       "publishedAt": "2026-11-23T01:03:32Z",
       "teamIds": [
         "30",
@@ -240,7 +365,7 @@
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50564270/nfl-week-11-fantasy-football-winners-losers-injuries-rankings-more",
       "title": "Week 11 winners and losers: Cowboys put up points while Josh Allen does not",
-      "summary": "Dak Prescott, CeeDee Lamb and Patrick Mahomes put fantasy teams on their backs in Week 11, while Josh Allen, Jonathan Taylor and Tony Pollard disappointed.",
+      "summary": "Dak Prescott, CeeDee Lamb and Jonah Coleman put fantasy teams on their backs in Week 11, while Josh Allen, Jonathan Taylor and Tony Pollard disappointed.",
       "publishedAt": "2026-11-23T00:36:28Z",
       "teamIds": [
         "6"
@@ -1597,122 +1722,6 @@
       "teamIds": [
         "7"
       ]
-    },
-    {
-      "id": "0f920fac3e11a370",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-week-11-afternoon-schedule-is-short-on-must-see-games",
-      "title": "The Week 11 afternoon schedule is short on must-see games",
-      "summary": "As the NFL's haves and the have-nots continue to declare themselves, it's becoming challenging at times to find compelling games.",
-      "publishedAt": "2026-11-22T15:13:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "34dd298eb69b9d44",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/most-important-week-11-games-nfl-playoff-races",
-      "title": "Week 11 games that will impact NFL playoff races: Can anyone gain separation in NFC North or NFC South?",
-      "summary": "Plus, can the Giants bounce back?",
-      "publishedAt": "2026-11-22T15:02:14Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "1fb7157c0b0e6b20",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikmans-latest-comments-invite-speculation-that-hes-hoping-for-an-early-exit",
-      "title": "Troy Aikman's latest comments invite speculation that he's hoping for an early exit",
-      "summary": "In isolation, the latest comments from ESPN's Troy Aikman about Monday night partner Joe Buck would have barely been noticed.",
-      "publishedAt": "2026-11-22T14:39:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "087fc7dfef5fc0f4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-baker-mayfield-dealing-with-plantar-fasciitis",
-      "title": "Report: Baker Mayfield dealing with plantar fasciitis",
-      "summary": "Buccaneers quarterback Baker Mayfield is expected to play against the Lions on Sunday, but the foot injury that led to him being listed as questionable is likely to be an issue in the weeks to come.",
-      "publishedAt": "2026-11-22T14:36:08Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "5e5c4ce5c15f62a4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-is-the-saints-leading-rusher-with-187-yards-this-season",
-      "title": "Tyler Shough is the Saints' leading rusher, with 187 yards this season",
-      "summary": "As Saints quarterback Tyler Shough struggles through his second season, a good running attack could help take some pressure off him.",
-      "publishedAt": "2026-11-22T14:35:29Z",
-      "teamIds": [
-        "18"
-      ]
-    },
-    {
-      "id": "30535d8da4a84e0c",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-nearly-4000-in-bonuses-betting-apps-sportsbooks-sundays-games",
-      "title": "Week 11 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
-      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-22T14:10:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "91d6db95c91cb3f8",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-game-spreads-betting-advice-lines-predictions-week-11-2026",
-      "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-      "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-22T14:04:24Z",
-      "teamIds": [
-        "6",
-        "18"
-      ]
-    },
-    {
-      "id": "740127c14582d05f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jaguars-trevor-lawrence-legitimate-2026-nfl-mvp-case-destined-win-one-some-point",
-      "title": "Why Jaguars' Trevor Lawrence has legitimate 2026 NFL MVP case, is destined to win one at some point",
-      "summary": "Across Lawrence's last 17 regular season games, he has 15-plus wins and 45-plus TD. He is only 1 of 10 QBs to achieve that feat",
-      "publishedAt": "2026-11-22T14:01:37Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "6988594ac3998783",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-lines-odds-totals-spreads",
-      "title": "Week 11 NFL odds, lines, totals, spreads for every game, including Eagles-Steelers, 49ers-Vikings, more",
-      "summary": "A look at the latest Week 11 NFL odds and updated lines for all 13 matchups.",
-      "publishedAt": "2026-11-22T14:01:25Z",
-      "teamIds": [
-        "16",
-        "21",
-        "23",
-        "25"
-      ]
-    },
-    {
-      "id": "7fc71caec7ddafba",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-picks-against-the-spread-week-11-2026-expert-ats-picks-best-bets-predictions-player-props-for-nov-22",
-      "title": "NFL picks against the spread, Week 11 2026: Expert ATS picks, best bets, predictions, player props for Nov. 22",
-      "summary": "The SportsLine experts have locked in their top Week 11 picks from this week's NFL schedule, see who they are backing and fading here",
-      "publishedAt": "2026-11-22T14:00:59Z",
-      "teamIds": []
-    },
-    {
-      "id": "fa0d358077d203c8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-daniel-jones-is-likely-to-wait-to-sign-with-the-right-team-at-the-right-time",
-      "title": "Report: Daniel Jones is likely to wait to sign with the \"right team at the right time\"",
-      "summary": "New reporting doesn't mention the path he took in 2024 — signing with a practice squad.",
-      "publishedAt": "2026-11-22T13:58:16Z",
-      "teamIds": []
     }
   ]
 }

@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-23T01:47:25Z",
+  "fetchedAt": "2026-11-23T02:47:22Z",
   "source": "espn",
   "games": [
     {
@@ -257,9 +257,9 @@
       "homeId": "25",
       "awayId": "16",
       "status": "in_progress",
-      "statusDetail": "6:01 - 1st",
-      "homeScore": 7,
-      "awayScore": 0,
+      "statusDetail": "0:46 - 2nd",
+      "homeScore": 28,
+      "awayScore": 10,
       "venue": "Estadio Banorte",
       "neutralSite": true,
       "venueInfo": {
