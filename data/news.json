@@ -1,7 +1,56 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T11:47:24Z",
+  "updatedAt": "2026-11-23T12:47:34Z",
   "items": [
+    {
+      "id": "56f23fbe078d40f0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-mccarthy-offense-took-late-jags-fg-personally-we-cant-give-them-that-confidence",
+      "title": "J.J. McCarthy: Offense took late Jags FG personally, we can't give them that confidence",
+      "summary": "One of the biggest moments in Sunday's game between the Giants and Jaguars came with just over three minutes to play when Jaguars head coach Liam Coen elected to kick a field goal rather than go for it from New York's 9-yard-line.",
+      "publishedAt": "2026-11-23T12:09:45Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "fcb18a05c07e68be",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-did-not-have-a-rushing-attempt-in-sundays-win",
+      "title": "Josh Allen did not have a rushing attempt in Sunday's win",
+      "summary": "Bills quarterback Josh Allen has built his career on being a two-way threat with the ball in his hands, but he did not play that way against the Dolphins on Sunday.",
+      "publishedAt": "2026-11-23T12:02:06Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
+    {
+      "id": "b9a80683d2fe3d07",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-early-odds-bills-over-chiefs-thanksgiving-steelers",
+      "title": "NFL Week 12 early odds: Bills favored over Chiefs for Thanksgiving showdown, Steelers home underdogs",
+      "summary": "The Bears are road favorites for their Thanksgiving matchup in Detroit",
+      "publishedAt": "2026-11-23T12:00:47Z",
+      "teamIds": [
+        "2",
+        "3",
+        "12",
+        "23"
+      ]
+    },
+    {
+      "id": "72529448eed4ef15",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-on-unretiring-the-backflip-when-energy-calls-for-it-it-calls-for-it",
+      "title": "Cam Skattebo on unretiring the backflip: When energy calls for it, it calls for it",
+      "summary": "Cam Skattebo said during the week that he was retiring his celebratory backflip because he didn't want to risk a similar injury to the one suffered by Lions defensive end Aidan Hutchinson in Week 10, but the retirement proved to be a very brief one.",
+      "publishedAt": "2026-11-23T11:48:55Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "d461dc526c80ccb5",
       "source": "espn",
@@ -109,6 +158,20 @@
       ]
     },
     {
+      "id": "2528ac5aaaf21d60",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50562956/week-11-highlights-sunday-best-plays-touchdowns-2026",
+      "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for all of the top moments, TDs and analysis from games at the Broncos, Jets, Cowboys, Eagles and more.",
+      "publishedAt": "2026-11-23T04:50:41Z",
+      "teamIds": [
+        "6",
+        "7",
+        "20",
+        "21"
+      ]
+    },
+    {
       "id": "6f5af9779706bf20",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50569582/broncos-jaquan-mcmillian-comes-clutch-again",
@@ -156,7 +219,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873077",
       "title": "Brock Purdy carves up the Vikings' D with 3 TD passes in the 49ers' 35-10 win in Mexico City",
-      "summary": "Brock Purdy and the San Francisco 49ers offense turned the much ballyhooed matchup between one of the game's top offenses against the stingiest defenses...",
+      "summary": "Brock Purdy and the San Francisco 49ers offense turned the much ballyhooed matchup between one of the game's top offenses and the stingiest defenses into...",
       "publishedAt": "2026-11-23T04:26:32Z",
       "teamIds": [
         "16",
@@ -1651,66 +1714,6 @@
       "teamIds": [
         "6",
         "10"
-      ]
-    },
-    {
-      "id": "8fc82ab9fccb9209",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-score-td-for-the-first-time-since-week-8-trail-chiefs-14-7",
-      "title": "Cardinals score TD for the first time since Week 8, trail Chiefs 14-7",
-      "summary": "For the first time since Week 8, the Cardinals have gotten into the end zone.",
-      "publishedAt": "2026-11-22T18:50:18Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "8b570571c8389365",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-scores-as-eagles-dominate-the-first-quarter-against-the-steelers",
-      "title": "Saquon Barkley scores as Eagles dominate the first quarter against the Steelers",
-      "summary": "The Steelers are fighting for playoff position.",
-      "publishedAt": "2026-11-22T18:47:14Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "e958911096569dd4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-strike-first-with-touchdown-pass-from-jared-goff-to-amon-ra-st-brown",
-      "title": "Lions strike first with touchdown pass from Jared Goff to Amon-Ra St. Brown",
-      "summary": "The 7-2 Lions are on the board against the Buccaneers.",
-      "publishedAt": "2026-11-22T18:44:55Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "fd584d3569ae2d8d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-titans-trade-early-punches-in-6-3-game",
-      "title": "Cowboys, Titans trade early punches in 6-3 game",
-      "summary": "The game between the Titans and Cowboys figures to include plenty of points.",
-      "publishedAt": "2026-11-22T18:31:22Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "e733a156993fda07",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-pull-off-fake-punt-extend-lead-to-6-0",
-      "title": "Bills pull off fake punt, extend lead to 6-0",
-      "summary": "The Bills reached into their bag of tricks in the first quarter of Sunday's home game against the Dolphins and it paid off for them.",
-      "publishedAt": "2026-11-22T18:29:36Z",
-      "teamIds": [
-        "2",
-        "15"
       ]
     }
   ]
