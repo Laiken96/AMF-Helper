@@ -1,7 +1,197 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T00:47:35Z",
+  "updatedAt": "2026-11-23T01:47:30Z",
   "items": [
+    {
+      "id": "4a702afba297de8e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-we-cant-focus-on-result-theres-a-lot-to-clean-up",
+      "title": "Joe Brady: We can't focus on result, there's a lot to clean up",
+      "summary": "The Bills won again on Sunday, but head coach Joe Brady didn't sound enthused about the way they played against the Dolphins.",
+      "publishedAt": "2026-11-23T01:37:58Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
+    {
+      "id": "6d03bc4ae1cf6843",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-caps-first-drive-with-td-pass-to-george-kittle-49ers-lead-7-0",
+      "title": "Brock Purdy caps first drive with TD pass to George Kittle, 49ers lead 7-0",
+      "summary": "Much was made about the matchup between 49ers head coach Kyle Shanahan and Vikings defensive coordinator Brian Flores in advance of Sunday night's matchup between San Francisco and Minnesota.",
+      "publishedAt": "2026-11-23T01:33:58Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "ef725758a64707be",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567972/game-highlights",
+      "title": "Jacksonville Jaguars vs. New York Giants: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-23T01:26:45Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "ef3c0ca2ef708d74",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50566404/tyler-shough-confident-new-orleans-saints-kellen-moore",
+      "title": "Tyler Shough voices confidence in Saints, Kellen Moore after 3-7 start",
+      "summary": "Two straight losses. Justin Reid being released. Run game a mess. Despite the challenges, there's belief New Orleans can turn things around.",
+      "publishedAt": "2026-11-23T01:25:56Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "35cc1afec994d8e7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-i-was-told-ball-switched-hands-on-parker-washington-catch",
+      "title": "Liam Coen: I was told ball switched hands on Parker Washington catch",
+      "summary": "The Giants held off the Jaguars on Sunday, but the outcome might have been different if referees had made a different ruling on a pass to Jaguars wideout Parker Washington early in the fourth quarter.",
+      "publishedAt": "2026-11-23T01:25:38Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "43b850a51671a86d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50567903/nfl-week-11-trolls",
+      "title": "Bills' Grand Theft Auto VI-themed jab at Dolphins tops NFL Week 11 trolls",
+      "summary": "NFL teams remained petty in Week 11, led by a petty post from the Buffalo Bills.",
+      "publishedAt": "2026-11-23T01:21:29Z",
+      "teamIds": [
+        "2",
+        "15"
+      ]
+    },
+    {
+      "id": "2c22d481d2f72897",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/49ers-vs-vikings-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city",
+      "title": "49ers vs. Vikings prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
+      "summary": "Best bets and betting preview for 49ers vs. Vikings on Sunday Night Football in Mexico City",
+      "publishedAt": "2026-11-23T01:09:46Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "9a3469605d6405d2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50563318/week-11-overreactions-2026-graziano-bills-eagles-nfc-east",
+      "title": "Judging overreactions to NFL Week 11: Joe Brady's Bills impact, Eagles' chances",
+      "summary": "Is Brady the coach that can vault the Bills over the top? Is an NFC East three-peat still in play in Philly? We overreact to Week 11 NFL action.",
+      "publishedAt": "2026-11-23T01:08:32Z",
+      "teamIds": [
+        "2",
+        "21"
+      ]
+    },
+    {
+      "id": "e6c7286f47ee8193",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/justin-herbert-concussion-protocol-update-jets",
+      "title": "Justin Herbert in concussion protocol after loss to Jets: Chargers QB played entire game",
+      "summary": "Herbert took some big shots late in the game but did not exit",
+      "publishedAt": "2026-11-23T01:05:39Z",
+      "teamIds": [
+        "24",
+        "20"
+      ]
+    },
+    {
+      "id": "8ca026c5a5aa72b9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873069",
+      "title": "Giants intercept Trevor Lawrence twice as they hold on to beat the Jaguars 23-18",
+      "summary": "J.J. McCarthy threw a touchdown pass to Malik Nabers, Abdul Carter and the defense flustered Trevor Lawrence throughout and the New York Giants held on to defeat the Jacksonville Jaguars 23-18 on Sunday, bouncing back from a bad loss and ending the...",
+      "publishedAt": "2026-11-23T01:03:32Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "60515b9a62599820",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873075",
+      "title": "Jonah Coleman powers Broncos past Raiders 38-24 as Denver honors the late Tom Jackson",
+      "summary": "Rookie Jonah Coleman ran for a season-best 111 yards and three touchdowns and the Denver Broncos beat the Las Vegas Raiders 38-24 on a solemn Sunday in the Mile High City as they honored “Orange Crush” and ESPN great",
+      "publishedAt": "2026-11-23T00:59:33Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "9db0fe4d77f73cea",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-earn-their-most-impressive-win-of-the-season-with-upset-of-jaguars",
+      "title": "Giants earn their most impressive win of the season with upset of Jaguars",
+      "summary": "The NFC East leaders surprised the AFC South leaders today.",
+      "publishedAt": "2026-11-23T00:55:23Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "3b277dacf9f98244",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-11",
+      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 11",
+      "summary": "Sunday night's Vikings-49ers game is a very big one in the NFC playoff race.",
+      "publishedAt": "2026-11-23T00:54:00Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "4cba5a29c00c70e3",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50567555/mendoza-throws-3-tds-raiders-fall-broncos-denver",
+      "title": "Mendoza throws 3 TDs, but Raiders fall to Broncos in Denver",
+      "summary": null,
+      "publishedAt": "2026-11-23T00:50:54Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "b8ae688cf7abf504",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-move-to-8-2-with-38-24-victory-over-raiders",
+      "title": "Broncos move to 8-2 with 38-24 victory over Raiders",
+      "summary": "A pick-six off of Fernando Mendoza late in the fourth quarter sealed Denver's win.",
+      "publishedAt": "2026-11-23T00:48:21Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "bd7c6ff9dff32302",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-we-played-disgusting-football-on-sunday",
+      "title": "Robert Saleh: We played disgusting football on Sunday",
+      "summary": "The Titans were on the receiving end of a thrashing in Dallas on Sunday.",
+      "publishedAt": "2026-11-23T00:46:26Z",
+      "teamIds": [
+        "10"
+      ]
+    },
     {
       "id": "f92f70e37c3bc348",
       "source": "espn",
@@ -50,7 +240,7 @@
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/page/FFSundayHighLows-50564270/nfl-week-11-fantasy-football-winners-losers-injuries-rankings-more",
       "title": "Week 11 winners and losers: Cowboys put up points while Josh Allen does not",
-      "summary": "Dak Prescott, CeeDee Lamb and Patrick Mahomes put fantasy teams on their back in Week 11, while Josh Allen, Jonathan Taylor and Tony Pollard disappointed.",
+      "summary": "Dak Prescott, CeeDee Lamb and Patrick Mahomes put fantasy teams on their backs in Week 11, while Josh Allen, Jonathan Taylor and Tony Pollard disappointed.",
       "publishedAt": "2026-11-23T00:36:28Z",
       "teamIds": [
         "6"
@@ -157,11 +347,23 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873074",
       "title": "Jets score on first 5 drives and edge Chargers 27-24 to snap 5-game skid",
-      "summary": "Geno Smith completed 17 of 21 passes for 176 yards and three touchdowns, including two to Sterling Shepard, and the New York Jets scored on their first five drives to beat the Los Angeles Chargers 27-24 on Sunday and end a five-game skid.",
+      "summary": "Mired in a losing season, New York Jets quarterback Geno Smith's efficiency has been largely overlooked with the offense lagging. Sterling Shepard helped change that Sunday, catching two touchdown passes from Smith and potentially earning himself a...",
       "publishedAt": "2026-11-23T00:03:32Z",
       "teamIds": [
         "24",
         "20"
+      ]
+    },
+    {
+      "id": "de9dcffaf03d2d6e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/vikings-vs-49ers-picks-predictions-player-props-experts-best-bets-for-nfl-week-11-sunday-night-football",
+      "title": "Vikings vs. 49ers picks, predictions, player props: Expert's best bets for NFL Week 11 Sunday Night Football",
+      "summary": "Brian Flores brings a 5-0 mark against Kyle Shanahan into Mexico City as an underdog gets the nod to win outright, alongside prime targets for George Kittle and Justin Jefferson",
+      "publishedAt": "2026-11-23T00:01:44Z",
+      "teamIds": [
+        "16",
+        "25"
       ]
     },
     {
@@ -238,7 +440,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
       "title": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
-      "summary": "Dak Prescott completed 28-of-33 passes for 325 yards with four TDs, no interceptions and a rushing score in the Cowboys' 51-30 win against the Titans.",
+      "summary": "Dak Prescott completed 28 of 33 passes for 325 yards with four TDs, no interceptions and a rushing score in the Cowboys' 51-30 win against the Titans.",
       "publishedAt": "2026-11-22T23:32:49Z",
       "teamIds": [
         "6"
@@ -493,8 +695,8 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Week 11's leading fantasy scorers through Sunday's early games",
-      "summary": "A closer look at the top 10 fantasy scorers in Week 11, including Cowboys QB Dak Prescott.",
+      "title": "Fantasy buzz: Week 11's leading fantasy scorers through Sunday's 4 p.m. ET games",
+      "summary": "A closer look at the top 10 fantasy scorers in Week 11, including Cowboys QB Dak Prescott and Broncos RB Jonah Coleman.",
       "publishedAt": "2026-11-22T21:41:51Z",
       "teamIds": [
         "33",
@@ -907,7 +1109,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50563590/kelce-passes-gronkowski-most-tds-te-including-playoffs",
       "title": "Travis Kelce pads Hall of Fame résumé with two first-half TDs in Chiefs' win",
-      "summary": "Travis Kelce has passed Rob Gronkowski for third place for the most total touchdowns, including playoffs, by a tight end in league history.",
+      "summary": "Travis Kelce passed Rob Gronkowski for third place for the most total touchdowns, including playoffs, by a tight end in league history.",
       "publishedAt": "2026-11-22T19:43:45Z",
       "teamIds": [
         "12"
@@ -1130,12 +1332,12 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50562956/week-11-highlights-sunday-best-plays-touchdowns-2026",
       "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check here for all of the top moments, TDs and analysis from games at the Cowboys, Chiefs, Eagles, Panthers and more.",
+      "summary": "Check here for all of the top moments, TDs and analysis from games at the Broncos, Jets, Cowboys, Eagles and more.",
       "publishedAt": "2026-11-22T17:45:46Z",
       "teamIds": [
-        "29",
         "6",
-        "12",
+        "7",
+        "20",
         "21"
       ]
     },
@@ -1178,7 +1380,7 @@
       "id": "0751f9418c24b0b7",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
-      "title": "NFL Week 11 arrivals: George Kittle rocks Luchador mask ahead of 'SNF' in Mexico",
+      "title": "NFL Week 11 arrivals: George Kittle rocks luchador mask ahead of SNF in Mexico",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-22T17:13:29Z",
       "teamIds": []
@@ -1510,182 +1712,6 @@
       "title": "Report: Daniel Jones is likely to wait to sign with the \"right team at the right time\"",
       "summary": "New reporting doesn't mention the path he took in 2024 — signing with a practice squad.",
       "publishedAt": "2026-11-22T13:58:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "e09151101b8bb0fb",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/2026-week-11-nfl-player-props-picks-odds-best-bets-sundays-games-include-patrick-mahomes-tony-pollard",
-      "title": "2026 Week 11 NFL player props, picks, odds, best bets for Sunday's games include Patrick Mahomes, Tony Pollard",
-      "summary": "Bet on Week 11 NFL player props at NFL sportsbooks like DraftKings, FanDuel and BetMGM",
-      "publishedAt": "2026-11-22T13:45:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "16058ef715c8b64e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-colts-as-expected-wont-activate-wr-alec-pierce-from-injured-reserve",
-      "title": "The Colts, as expected, won't activate WR Alec Pierce from injured reserve",
-      "summary": "As the Colts fully embrace the making of business decisions over the pursuit of victories, this one is no surprise.",
-      "publishedAt": "2026-11-22T13:32:49Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "affbe51808eb1216",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions",
-      "title": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
-      "summary": "Here are our top picks for first touchdown prediction markets on the Vikings and 49ers' Sunday Night Football game in Mexico City",
-      "publishedAt": "2026-11-22T13:30:51Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "137eb1124607a715",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/titans-jaylen-harrell-car-accident-hospital-tampa",
-      "title": "Titans' Jaylen Harrell hospitalized after serious car accident, remains in hospital in Tampa",
-      "summary": "The Titans said edge defender Jaylen Harrell remains hospitalized and is receiving care after a serious car accident Friday night in his hometown of Tampa",
-      "publishedAt": "2026-11-22T13:23:39Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "22f66e0199d0c08d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/rams-puka-nacua-mcl-injury-surgery-out-for-season",
-      "title": "Rams' Puka Nacua had surgery on MCL injury, WR expected to miss rest of season and playoffs, per report",
-      "summary": "Nacua suffered the injury on the final play of the Rams' Week 9 win over the Commanders",
-      "publishedAt": "2026-11-22T13:18:09Z",
-      "teamIds": [
-        "14",
-        "28"
-      ]
-    },
-    {
-      "id": "c5bd365cb0a5a2b5",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/saints-vs-bears-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-11",
-      "title": "Saints vs. Bears odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
-      "summary": "Here's everything bettors need to know for Saints vs. Bears in NFL Week 11",
-      "publishedAt": "2026-11-22T13:01:42Z",
-      "teamIds": [
-        "3",
-        "18"
-      ]
-    },
-    {
-      "id": "01834d64be5a77f0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/steelers-vs-eagles-odds-picks-prediction-spread-start-time-nfl-week-11-betting-preview-best-bets",
-      "title": "Steelers vs. Eagles odds, picks, prediction, spread: Start time, NFL Week 11 betting preview, best bets",
-      "summary": "Here's everything you need to know before placing any wagers on Steelers vs. Eagles in NFL Week 11",
-      "publishedAt": "2026-11-22T13:01:35Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "91887185884c32aa",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-try-for-first-win-in-philadelphia-since-lbj-was-president",
-      "title": "Steelers try for first win in Philadelphia since LBJ was president",
-      "summary": "October 24, 1965.",
-      "publishedAt": "2026-11-22T13:01:32Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "3c2ab3641e3f99e9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/jaguars-vs-giants-odds-picks-prediction-spread-start-time-betting-preview-best-bets-for-nfl-week-11",
-      "title": "Jaguars vs. Giants odds, picks, prediction, spread: Start time, betting preview, best bets for NFL Week 11",
-      "summary": "Here's everything bettors need to know for Jaguars vs. Giants in NFL Week 11",
-      "publishedAt": "2026-11-22T13:01:24Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "ea184df884159274",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50557657/sources-daniel-jones-likely-wait-joining-new-team",
-      "title": "Sources: Ex-Colts QB Daniel Jones likely to wait before signing with new team",
-      "summary": "If Daniel Jones clear waivers and becomes a free agent, the QB is unlikely to sign immediately, preferring to wait for the right opportunity, sources said.",
-      "publishedAt": "2026-11-22T12:30:33Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "880288f403fba92c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50507366/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 11",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-22T12:26:58Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 11: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-22T12:26:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "4594dcf9aa19a0b5",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506830/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 11: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-22T12:25:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "23c15f803b0376fe",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506844/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 11: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-22T12:25:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "85feab4ffaae9dd1",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506789/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 11: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-22T12:24:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "70ae9ffb76718140",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50506810/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 11: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-22T12:24:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "379dfb31b68bfa2b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50505155/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 11: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-22T12:23:55Z",
       "teamIds": []
     }
   ]
