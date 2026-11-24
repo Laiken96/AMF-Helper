@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T00:01:09Z",
+    "takenAt": "2026-11-24T01:20:35Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1958,42 +1958,7 @@
             "teamId": "4",
             "teamAbbr": "CIN",
             "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4362628",
-            "name": "Ja'Marr Chase",
-            "pos": "WR",
-            "teamId": "4",
-            "teamAbbr": "CIN",
-            "roles": [
               "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "2976212",
-            "name": "Stefon Diggs",
-            "pos": "WR",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4426348",
-            "name": "Jayden Daniels",
-            "pos": "QB",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "qb",
-              "passing",
-              "rushing"
             ],
             "status": null
           },
