@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T10:47:28Z",
+  "updatedAt": "2026-11-24T11:47:23Z",
   "items": [
+    {
+      "id": "e2416ce9076b24bc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lights-went-out-on-monday-night-because-routine-maintenance-schedule-wasnt-changed",
+      "title": "Lights went out on Monday night because routine maintenance schedule wasn't changed",
+      "summary": "As unexpected (and unwanted) developments at Northwest Stadium go, worse things than the lights going out can happen — and have happened.",
+      "publishedAt": "2026-11-24T11:22:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "e12889f7f792ec80",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50543051/seahawks-mike-macdonald-camcorder-super-bowl-game-film",
+      "title": "From camcorder to Super Bowl mantra, inside Mike Macdonald's love for game film",
+      "summary": "We go back to the 1980s to uncover how football bonded the 38-year-old Seahawks coach and his father.",
+      "publishedAt": "2026-11-24T11:00:21Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "702c6cf1ff364271",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50573980/dallas-cowboys-nfc-east-dak-prescott",
+      "title": "Cowboys need to break a year-long trend to make the playoffs",
+      "summary": "If Dallas is going to catch up to New York in the division, it needs to start stringing wins together.",
+      "publishedAt": "2026-11-24T11:00:15Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "341b8bf72de61385",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/uncalled-illegal-formation-if-there-was-one-wouldnt-have-resulted-in-10-second-runoff",
+      "title": "Uncalled illegal formation (if there was one) wouldn't have resulted in 10-second runoff",
+      "summary": "Yes, the officials missed an apparent issue with the clock last night, after the Commanders kicked a game-winning field goal.",
+      "publishedAt": "2026-11-24T10:54:38Z",
+      "teamIds": [
+        "28"
+      ]
+    },
     {
       "id": "6718e554ead4a9eb",
       "source": "pft",
@@ -1625,49 +1667,6 @@
       "teamIds": [
         "8"
       ]
-    },
-    {
-      "id": "d461dc526c80ccb5",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50565876/bengals-jamarr-chase-gymnastics",
-      "title": "Inside the gymnastics lore of Bengals star Ja'Marr Chase",
-      "summary": "Ja'Marr Chase's skill set suggests formal gymnastics training, but the reality isn't quite that simple.",
-      "publishedAt": "2026-11-23T11:15:02Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "3b8aaa12693305dd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/32646037/nfl-thanksgiving-day-games-history-lions-cowboys-play-every-year-moments-traditions-records",
-      "title": "NFL Thanksgiving games: Traditions, best moments, team records, 2026 schedule",
-      "summary": "NFL games on Thanksgiving Day date back to 1934, and the Lions and Cowboys are always in action. We revisit top performers, the best moments and more.",
-      "publishedAt": "2026-11-23T11:09:10Z",
-      "teamIds": [
-        "6",
-        "8"
-      ]
-    },
-    {
-      "id": "4331d6cd2cb5786c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-steelers-regretting-dk-metcalf-150-million-contract-trading-george-pickens",
-      "title": "Steelers gave DK Metcalf $150 million, traded George Pickens. Now they're paying for both decisions",
-      "summary": "The Steelers wanted a more dependable receiver. Instead, Metcalf has delivered disappointing production and familiar distractions.",
-      "publishedAt": "2026-11-23T11:00:48Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-23T11:00:02Z",
-      "teamIds": []
     }
   ]
 }
