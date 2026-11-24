@@ -1,13 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T04:47:26Z",
+  "updatedAt": "2026-11-24T05:47:31Z",
   "items": [
+    {
+      "id": "93be273726928494",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50580069/jayden-daniels-reacts-countdown-crew-picking-bengals-commanders",
+      "title": "Jayden Daniels reacts to Countdown crew picking Bengals over Commanders",
+      "summary": null,
+      "publishedAt": "2026-11-24T05:17:30Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
     {
       "id": "117406939297cef9",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873078",
       "title": "Jayden Daniels rallies Commanders in final seconds to set up winning kick in 22-20 win over Bengals",
-      "summary": "Jayden Daniels connected with rookie Antonio Williams on two long pass plays, moving the Commanders 64 yards in 34 seconds to set up Drew Stevens’ 26-yard field goal as time expired, and the Washington Commanders stunned Joe Burrow and the...",
+      "summary": "Jayden Daniels connected with rookie Antonio Williams on two long pass plays, moving the Commanders 64 yards in 34 seconds to set up Drew Stevens’",
       "publishedAt": "2026-11-24T04:46:32Z",
       "teamIds": [
         "4",
@@ -18,7 +30,7 @@
       "id": "43b850a51671a86d",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50567903/nfl-week-11-trolls",
-      "title": "Commanders' Jayden Daniels themed post aimed at Bengals tops NFL Week 11 trolls",
+      "title": "Commanders' Jayden Daniels-themed post aimed at Bengals tops NFL Week 11 trolls",
       "summary": "NFL teams remained petty in Week 11, led by a post from the Washington Commanders.",
       "publishedAt": "2026-11-24T04:44:04Z",
       "teamIds": [
@@ -1321,13 +1333,11 @@
       "id": "6b561dcd11df048d",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
-      "title": "NFL Week 11 grades for every team: 49ers earn 'A+' for dominating Vikings, Steelers nearly fail",
+      "title": "NFL Week 11 grades for every team: Commanders earn 'A-' for stunning Monday win",
       "summary": "We're handing out grades for every team that played in Week 11",
       "publishedAt": "2026-11-23T14:11:46Z",
       "teamIds": [
-        "16",
-        "23",
-        "25"
+        "28"
       ]
     },
     {
@@ -1652,18 +1662,6 @@
       "summary": "From Thanksgiving NFL showdowns, to Christmas Day NBA action, and Boxing Day football, ESPN Africa has the festive season covered with a packed line-up of live sport, on channels across the continent and Disney+ in SA.",
       "publishedAt": "2026-11-23T08:34:45Z",
       "teamIds": []
-    },
-    {
-      "id": "0df326f1f6405a39",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
-      "title": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
-      "summary": "Quarterback Brock Purdy heard \"MVP\" chants in Mexico City and continued to earn praise from his teammates as he led the 49ers to a statement victory against the top-ranked Vikings defense on Sunday night",
-      "publishedAt": "2026-11-23T07:23:43Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
     }
   ]
 }
