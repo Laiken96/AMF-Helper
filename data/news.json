@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T12:47:27Z",
+  "updatedAt": "2026-11-24T13:47:33Z",
   "items": [
+    {
+      "id": "8d02f65de6f81422",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/6-lessons-week-11-kyle-shanahan-49ers-chiefs-colts",
+      "title": "6 lessons from Week 11: Kyle Shanahan is as good as it gets, plus a rookie RB earning a role",
+      "summary": "The 49ers are the league's best team, and Shanahan is the league's best coach",
+      "publishedAt": "2026-11-24T13:16:51Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "36cde119ee45e0f1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-everythings-positive-with-sam-darnold-but-nothing-official-yet",
+      "title": "Mike Macdonald: \"Everything's positive\" with Sam Darnold, but nothing official yet",
+      "summary": "Seahawks head coach Mike Macdonald said at the start of the team's bye week that he was \"really optimistic\" about quarterback Sam Darnold returning in Week 12 and that view didn't change after the team's return to work on Monday.",
+      "publishedAt": "2026-11-24T13:07:46Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "dde2a5fa23073704",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/buffalo-weather-forecast-calls-for-cold-and-rain-on-thanksgiving-night",
+      "title": "Buffalo weather forecast calls for cold and rain on Thanksgiving night",
+      "summary": "One of the best games of this NFL season may be played in some of the worst weather.",
+      "publishedAt": "2026-11-24T12:54:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "352676d1853c6fa2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-predictions-colston-loveland-thanksgiving",
+      "title": "It wouldn't shock me if ... for NFL Week 12: Colston Loveland feasts on Thanksgiving, Browns RB shines",
+      "summary": "Our five bold calls for Week 12 include a career day for Quinshon Judkins and mounting pressure on the Seahawks to play Drew Lock",
+      "publishedAt": "2026-11-24T12:42:05Z",
+      "teamIds": [
+        "5",
+        "26"
+      ]
+    },
+    {
+      "id": "dd1ed33ab0878db7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-upset-picks-thanksgiving-games-chiefs-bills",
+      "title": "NFL Week 12 upset alert: Don't count out Patrick Mahomes, Fernando Mendoza and these underdogs",
+      "summary": "Patrick Mahomes is heating up, Detroit owns its Thanksgiving opponent and three other underdogs have compelling paths",
+      "publishedAt": "2026-11-24T12:40:57Z",
+      "teamIds": []
+    },
     {
       "id": "11a2da612f9d1963",
       "source": "espn",
@@ -1131,12 +1183,11 @@
       "id": "9e9084f78093f22e",
       "source": "espn",
       "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Who got the ball Sunday? Usage trends and role changes",
-      "summary": "A closer look at the top 10 fantasy scorers in Week 11, including Cowboys QB Dak Prescott and Broncos RB Jonah Coleman.",
+      "title": "Fantasy buzz: Two Commanders to pick up coming off MNF win",
+      "summary": "The Commanders scored only one touchdown in their MNF win, but several performances were notable nonetheless.",
       "publishedAt": "2026-11-23T17:19:17Z",
       "teamIds": [
-        "6",
-        "7"
+        "28"
       ]
     },
     {
@@ -1608,63 +1659,6 @@
       "teamIds": [
         "30",
         "19"
-      ]
-    },
-    {
-      "id": "8454f25061fdfd97",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc",
-      "title": "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
-      "summary": "A comprehensive look at all seven seeds in the AFC and NFC and the teams on the outside looking in",
-      "publishedAt": "2026-11-23T13:32:31Z",
-      "teamIds": [
-        "30",
-        "25"
-      ]
-    },
-    {
-      "id": "b46bbb676ddc1752",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50563331/week-11-most-gain-lose-2026-season-pickens-mccarthy",
-      "title": "NFL players with most at stake over rest of 2026: Pickens, McCarthy, Cousins",
-      "summary": "Big money on the line for George Pickens and Brian Branch? QB1 role at stake for J.J. McCarthy? Here are 11 players with something to prove over the next seven weeks.",
-      "publishedAt": "2026-11-23T13:21:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "8796cd41c993d27c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-on-facing-joe-milton-hes-still-a-cowboy-i-hope-he-helps-us-out",
-      "title": "Dak Prescott on facing Joe Milton: He's still a Cowboy, I hope he helps us out",
-      "summary": "After the Cowboys beat the Titans 51-30 on Sunday, their quarterback Dak Prescott was asked about the team's Thanksgiving Day opponents.",
-      "publishedAt": "2026-11-23T13:12:31Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "66a7dccf449e63bb",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-order-team-needs-full-first-round-picks-all-32-teams",
-      "title": "2027 NFL Draft order, team needs: Full first-round picks for all 32 teams after Week 11",
-      "summary": "Tennessee, the Chargers and Miami lead the race for the top selection at 1-9, while the Jets hold three picks in the top 15 thanks to blockbuster trades",
-      "publishedAt": "2026-11-23T13:09:06Z",
-      "teamIds": [
-        "24",
-        "20"
-      ]
-    },
-    {
-      "id": "fac32efb28b33408",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-this-week-was-an-improvement-but-still-a-lot-to-work-on",
-      "title": "Fernando Mendoza: This week was an improvement, but still a lot to work on",
-      "summary": "Sunday's game in Denver opened poorly for the Raiders as the Broncos built up a 17-0 lead while the road team punted on its first three possessions, but things got better from there.",
-      "publishedAt": "2026-11-23T13:03:48Z",
-      "teamIds": [
-        "7",
-        "13"
       ]
     }
   ]

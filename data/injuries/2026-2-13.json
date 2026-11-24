@@ -6,7 +6,7 @@
   "baselineFrom": "2026-12-03T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-24T12:47:24Z",
+    "takenAt": "2026-11-24T13:47:29Z",
     "games": [
       {
         "gameId": "401873096",
@@ -568,17 +568,6 @@
             "status": null
           },
           {
-            "athleteId": "4432722",
-            "name": "Athan Kaliakmanis",
-            "pos": "QB",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
-          },
-          {
             "athleteId": "5081432",
             "name": "Antonio Williams",
             "pos": "WR",
@@ -639,7 +628,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4569603",
@@ -712,7 +701,7 @@
             "roles": [
               "qb"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "3929630",
@@ -820,7 +809,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4569173",
@@ -933,7 +922,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4432577",
@@ -1031,7 +1020,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4430878",
