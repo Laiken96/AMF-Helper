@@ -1,7 +1,206 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T19:47:24Z",
+  "updatedAt": "2026-11-24T20:47:35Z",
   "items": [
+    {
+      "id": "4455ff4d207e6d83",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50585397/source-ravens-cut-punt-returner-wester-two-muffs-loss",
+      "title": "Source: Ravens cut punt returner LaJohntay Wester after his two muffs in loss",
+      "summary": "The Ravens are waiving returner LaJohntay Wester after he muffed two punts in Sunday's loss at Carolina, a source told ESPN on Tuesday.",
+      "publishedAt": "2026-11-24T20:44:27Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "6825957ba68d67cf",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
+      "title": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
+      "summary": "A video clip of Washington Commanders receiver Stefon Diggs appearing to chew out teammates, including quarterback Jayden Daniels, during Monday's win over Cincinnati did not bother his coach.",
+      "publishedAt": "2026-11-24T20:44:08Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "f6646e5d450dc0dd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-on-stefon-diggs-i-love-his-fire",
+      "title": "Dan Quinn on Stefon Diggs: I love his fire",
+      "summary": "Monday night ended well for the Commanders, but the start of the game was rough for the team's offense and frustrations about that boiled over on the sideline at one point.",
+      "publishedAt": "2026-11-24T20:37:05Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "f25819aaa48460f7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873079",
+      "title": "Myles Garrett, Micah Parsons ready for spotlight when Rams host Packers on Thanksgiving Eve",
+      "summary": "Myles Garrett and Micah Parsons are two of the best pass rushers of their generation, and they're set to share an NFL field for only the third time Wednesday night when the Los Angeles Rams host...",
+      "publishedAt": "2026-11-24T20:35:33Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "6ceab09639034c3c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50585287/chuba-hubbard-explains-how-dave-canales-changed-panthers-culture",
+      "title": "Chuba Hubbard explains how Dave Canales has changed the Panthers' culture",
+      "summary": null,
+      "publishedAt": "2026-11-24T20:33:03Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "90d13366cdb66081",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-have-only-defense-in-the-nfl-giving-up-scores-on-most-of-its-drives",
+      "title": "Titans have only defense in the NFL giving up scores on most of its drives",
+      "summary": "The Titans' defense allowed the Cowboys' offense to score on every drive on Sunday, with the exception of a kneeldown at the end of the game.",
+      "publishedAt": "2026-11-24T20:30:02Z",
+      "teamIds": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "id": "6aa9db06725c331d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50585543/why-dopp-on-target-monster-trey-mcbride",
+      "title": "Why Dopp is still in on 'target monster' Trey McBride",
+      "summary": null,
+      "publishedAt": "2026-11-24T20:29:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "dbcea17e24b59ba3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50119375/2026-fantasy-football-rankings-start-sit",
+      "title": "Fantasy football consistency ratings for 2026",
+      "summary": "The consistency ratings weigh how consistent, as well as how start-worthy, players have been in ESPN fantasy football leagues in 2026.",
+      "publishedAt": "2026-11-24T20:27:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "a87076e256e75b81",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869463/2026-fantasy-football-expected-points-xfpa-position-qb-rb-wr-te",
+      "title": "2026 expected fantasy points against (xFPA) by position",
+      "summary": "Measuring the best defenses against specific positions by using expected points vs. actual fantasy production.",
+      "publishedAt": "2026-11-24T20:16:16Z",
+      "teamIds": []
+    },
+    {
+      "id": "102a8bc80dbd84cd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-qb-shane-buechele-off-bills-practice-squad",
+      "title": "Colts sign QB Shane Buechele off Bills practice squad",
+      "summary": "The Colts have added a third quarterback to their active roster.",
+      "publishedAt": "2026-11-24T20:15:32Z",
+      "teamIds": [
+        "2",
+        "11"
+      ]
+    },
+    {
+      "id": "af1eb0bdc5b525e0",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869668/2026-fantasy-football-expected-fantasy-points-xfp-te",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for TEs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-24T20:12:24Z",
+      "teamIds": []
+    },
+    {
+      "id": "5d67837c042d9f80",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869659/fantasy-football-2026-expected-fantasy-points-xfp-wr",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-24T20:10:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "33cf91fb12b5eb9b",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869631/2026-fantasy-football-expected-fantasy-points-xfp-rb",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for RBs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-24T20:08:49Z",
+      "teamIds": []
+    },
+    {
+      "id": "b2465d08afa40d76",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-waive-returner-lajohntay-wester",
+      "title": "Ravens waive returner LaJohntay Wester",
+      "summary": "After he had a rough Sunday in Charlotte, the Ravens are moving on from LaJohntay Wester.",
+      "publishedAt": "2026-11-24T20:07:04Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "200a5d920c3934d7",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869566/2026-fantasy-football-expected-fantasy-points-xfp-qb",
+      "title": "Expected fantasy points (xFP): 2026 leaderboard for QBs",
+      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
+      "publishedAt": "2026-11-24T20:06:49Z",
+      "teamIds": []
+    },
+    {
+      "id": "a5d77d6ddb02ae3c",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49954186/fantasy-football-rankings-consistency-ratings-start-sit-value",
+      "title": "Fantasy football consistency ratings: 2024 to 2026",
+      "summary": "The consistency ratings weigh both how consistent and how start-worthy players have been from 2024 to 2026.",
+      "publishedAt": "2026-11-24T20:06:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "14a0a051c07584cb",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
+      "title": "NFL expected touchdown (xTD) leaderboard for 2026",
+      "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
+      "publishedAt": "2026-11-24T20:04:56Z",
+      "teamIds": []
+    },
+    {
+      "id": "5981c1b08209b3c6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
+      "title": "Fantasy football 2026 defensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
+      "publishedAt": "2026-11-24T20:02:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ad5845f106af302",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
+      "title": "Fantasy football 2026 offensive depth charts",
+      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
+      "publishedAt": "2026-11-24T20:00:07Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ae2720c481c9e03",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50573832/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 12",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-24T19:48:54Z",
+      "teamIds": []
+    },
     {
       "id": "92425e3d35c4cb8d",
       "source": "pft",
@@ -18,10 +217,11 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-micah-parsons-to-53-man-roster",
       "title": "Packers activate Micah Parsons to 53-man roster",
-      "summary": "The Packers have made it official — Micah Parsons is back on the roster.",
+      "summary": "Signs continue to point toward Parsons making his 2026 debut against the Rams on Wednesday night.",
       "publishedAt": "2026-11-24T19:34:57Z",
       "teamIds": [
-        "9"
+        "9",
+        "14"
       ]
     },
     {
@@ -1196,7 +1396,7 @@
       "id": "7641eddd620233b4",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/micah-parsons-injury-update-packers-return-rams-2026",
-      "title": "Micah Parsons injury update: Packers star activated to make 2026 debut vs. Rams in Week 12",
+      "title": "Micah Parsons injury update: Packers star activated, cleared to make 2026 debut vs. Rams in Week 12",
       "summary": "Green Bay's star pass rusher is set to make his 2026 debut against Los Angeles after missing nearly a year to multiple knee injuries",
       "publishedAt": "2026-11-23T23:44:04Z",
       "teamIds": [
@@ -1401,232 +1601,6 @@
       "publishedAt": "2026-11-23T21:40:37Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "f93fa05364dbdd70",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-upgrade-rb-kyren-williams-to-full-participant-on-mondays-injury-report",
-      "title": "Rams upgrade RB Kyren Williams to full participant on Monday's injury report",
-      "summary": "While any injury news about the Rams has largely been bad this season, there was a positive development on the team's Monday practice report.",
-      "publishedAt": "2026-11-23T21:38:29Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "b0bc2f7965995aa6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marlon-humphrey-back-with-ravens-jesse-minter-doesnt-commit-to-week-12-return-to-lineup",
-      "title": "Marlon Humphrey back with Ravens, Jesse Minter doesn't commit to Week 12 return to lineup",
-      "summary": "Ravens cornerback Marlon Humphrey was back at the team's facility on Monday.",
-      "publishedAt": "2026-11-23T21:33:11Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "b9798912eeddcf21",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50576454/giants-greg-newsome-multiple-weeks-ankle-sprain",
-      "title": "Giants' Greg Newsome out 'multiple weeks' with ankle sprain",
-      "summary": "Giants starting cornerback Greg Newsome will miss \"multiple weeks\" with a high ankle sprain, coach John Harbaugh said Monday.",
-      "publishedAt": "2026-11-23T21:22:44Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "db039b9663dd04af",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-activate-lb-swayze-bozeman-g-brian-parker-from-injured-reserve",
-      "title": "Bengals activate LB Swayze Bozeman, G Brian Parker from injured reserve",
-      "summary": "The Bengals announced a pair of roster moves on Monday afternoon.",
-      "publishedAt": "2026-11-23T21:21:33Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "bf8c7d63b9208a5e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/dk-metcalf-not-suspended-nfl-ejected-steelers-loss-eagles-cooper-dejean-eyes",
-      "title": "DK Metcalf will not be suspended by the NFL after getting ejected during Steelers' loss to Eagles",
-      "summary": "Metcalf may face other discipline by the NFL for his actions",
-      "publishedAt": "2026-11-23T21:19:06Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "014f162609f784a0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalf-will-not-be-suspended-for-actions-during-steelers-eagles",
-      "title": "DK Metcalf will not be suspended for actions during Steelers-Eagles",
-      "summary": "According to multiple reports, while Metcalf has avoided a suspension, he may still be fined.",
-      "publishedAt": "2026-11-23T21:13:14Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "86484083cb947b6e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-jacory-croskey-merritt",
-      "title": "Commanders activate Jacory Croskey-Merritt",
-      "summary": "The Commanders have made an addition to their offensive backfield ahead of Monday night's game against the Bengals.",
-      "publishedAt": "2026-11-23T21:13:07Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "faea0d06ff196974",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50576302/cardinals-fire-defensive-coordinator-loss-chiefs",
-      "title": "Adam Schefter: Cardinals fire defensive coordinator after loss to Chiefs",
-      "summary": null,
-      "publishedAt": "2026-11-23T21:09:00Z",
-      "teamIds": [
-        "22",
-        "12"
-      ]
-    },
-    {
-      "id": "4a5e75032d6f94d5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-cb-greg-newsome-out-multiple-weeks-with-high-ankle-sprain",
-      "title": "Giants CB Greg Newsome out multiple weeks with high-ankle sprain",
-      "summary": "Giants cornerback Greg Newsome left Sunday's win over the Jaguars with an ankle injury and it will be some time before he will be back in the lineup.",
-      "publishedAt": "2026-11-23T21:03:25Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "62e6c173e544cb5f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cardinals-fire-defensive-coordinator-nick-rallis-per-reports",
-      "title": "Cardinals fire defensive coordinator Nick Rallis, per reports",
-      "summary": "Rallis is out after working with the Cardinals since 2023. Teryl Austin will serve as Arizona's temporary DC",
-      "publishedAt": "2026-11-23T21:03:15Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "25a161640ae0c444",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-dont-necessarily-expect-jordan-addison-back-this-week",
-      "title": "Vikings \"don't necessarily expect\" Jordan Addison back this week",
-      "summary": "The Vikings didn't have wide receiver Jordan Addison in the lineup for Sunday night's game against the 49ers and his availability for Week 12 came up during head coach Kevin O'Connell's Monday press conference.",
-      "publishedAt": "2026-11-23T20:54:07Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "1b2498af2a031bad",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50575838/sources-giants-dennard-wilson-interviews-maryland-job",
-      "title": "Sources: Giants DC Dennard Wilson interviews for HC job at alma mater Maryland",
-      "summary": "Giants defensive coordinator Dennard Wilson had a virtual interview recently for the vacant head coaching job at Maryland, sources told NFL Network.",
-      "publishedAt": "2026-11-23T20:47:16Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "1466d2fb7745e528",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50575938/cardinals-fire-defensive-coordinator-nick-rallis-sources-say",
-      "title": "Cardinals fire DC Nick Rallis; Teryl Austin takes over on interim basis",
-      "summary": "The Cardinals have fired defensive coordinator Nick Rallis, coach Mike LaFleur announced Monday.",
-      "publishedAt": "2026-11-23T20:44:57Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "0c0927b1acd02ebe",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50575889/rams-te-terrance-ferguson-needs-season-ending-ankle-surgery",
-      "title": "Rams TE Terrance Ferguson needs season-ending ankle surgery, Sean McVay says",
-      "summary": "Rams tight end Terrance Ferguson's ankle injury will require season-ending surgery.",
-      "publishedAt": "2026-11-23T20:41:51Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "8afdce156dc174d0",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-bengals-vs-commanders-on-mnf-grizzlies-vs-hornets-and-more",
-      "title": "Today's top games to watch, best bets, odds: Bengals vs. Commanders on MNF, Grizzlies vs. Hornets and more",
-      "summary": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-23T20:30:48Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "940b77b314a892a2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/commanders-vs-bengals-prediction-odds-how-to-watch-mnf-matchup",
-      "title": "Commanders vs. Bengals prediction: Cincinnati looks to extend lead in AFC North in 'MNF' matchup",
-      "summary": "How to watch, what to know and a prediction for the Monday night contest in DC",
-      "publishedAt": "2026-11-23T20:27:57Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "9bb0e752c3cefb0d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-fire-defensive-coordinator-nick-rallis",
-      "title": "Cardinals fire defensive coordinator Nick Rallis",
-      "summary": "Teryl Austin will serve as interim defensive coordinator.",
-      "publishedAt": "2026-11-23T20:22:15Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "723feef644eff489",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/49ers-longtime-general-manager-john-lynch-reach-extension",
-      "title": "49ers, longtime general manager John Lynch reach extension",
-      "summary": "Lynch currently presides over the NFC's best team",
-      "publishedAt": "2026-11-23T20:02:51Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "12029b1fa7cfd0d1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/super-bowl-lxi-will-be-shown-in-imax-theaters",
-      "title": "Super Bowl LXI will be shown in IMAX theaters",
-      "summary": "The Super Bowl will be shown on some very big screens this season.",
-      "publishedAt": "2026-11-23T20:02:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "6b7a56252dd1d8fd",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-released-former-49ers-wr-looks-to-resume-career-after-years-away",
-      "title": "Brandon Aiyuk released: Former 49ers WR looks to resume career after years away",
-      "summary": "Aiyuk hasn't played in a game since suffering an injury in 2024, has yet to take a snap under 2025 four-year extension",
-      "publishedAt": "2026-11-23T19:55:50Z",
-      "teamIds": [
-        "25"
       ]
     }
   ]

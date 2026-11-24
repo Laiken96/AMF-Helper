@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 2,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 13,
+  "updatedAt": "2026-11-24T20:47:32Z",
+  "maxDeviations": 0,
+  "tips": [
+    {
+      "gameId": "401873096",
+      "kickoffUtc": "2026-12-04T01:15:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": -1.5,
+        "overUnder": 46.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.5442,
+      "pickTeamId": "14",
+      "pickProb": 0.5442,
+      "level": "unklar",
+      "deviation": false,
+      "firstPickTeamId": "14",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": -1.5,
+        "overUnder": 46.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873095",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 6.5,
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.3151,
+      "pickTeamId": "25",
+      "pickProb": 0.6849,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "25",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 6.5,
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873097",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 6,
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.3284,
+      "pickTeamId": "4",
+      "pickProb": 0.6716,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "4",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 6,
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873098",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 3.5,
+        "overUnder": 49.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.3977,
+      "pickTeamId": "8",
+      "pickProb": 0.6023,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "8",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 3.5,
+        "overUnder": 49.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873099",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 5.5,
+        "overUnder": 46.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.3419,
+      "pickTeamId": "9",
+      "pickProb": 0.6581,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "9",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 5.5,
+        "overUnder": 46.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873100",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": -2.5,
+        "overUnder": 49.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.5735,
+      "pickTeamId": "3",
+      "pickProb": 0.5735,
+      "level": "unklar",
+      "deviation": false,
+      "firstPickTeamId": "3",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": -2.5,
+        "overUnder": 49.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873101",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": -5.5,
+        "overUnder": 40.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.6581,
+      "pickTeamId": "27",
+      "pickProb": 0.6581,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "27",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": -5.5,
+        "overUnder": 40.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873102",
+      "kickoffUtc": "2026-12-06T18:00:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 3.5,
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.3977,
+      "pickTeamId": "28",
+      "pickProb": 0.6023,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "28",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 3.5,
+        "overUnder": 47.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873103",
+      "kickoffUtc": "2026-12-06T21:05:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": -14.5,
+        "overUnder": 39.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.8586,
+      "pickTeamId": "7",
+      "pickProb": 0.8586,
+      "level": "klar",
+      "deviation": false,
+      "firstPickTeamId": "7",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": -14.5,
+        "overUnder": 39.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873104",
+      "kickoffUtc": "2026-12-06T21:05:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 3,
+        "overUnder": 36.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.4121,
+      "pickTeamId": "21",
+      "pickProb": 0.5879,
+      "level": "unklar",
+      "deviation": false,
+      "firstPickTeamId": "21",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 3,
+        "overUnder": 36.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873105",
+      "kickoffUtc": "2026-12-06T21:25:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 12.5,
+        "overUnder": 44.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.1772,
+      "pickTeamId": "2",
+      "pickProb": 0.8228,
+      "level": "klar",
+      "deviation": false,
+      "firstPickTeamId": "2",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 12.5,
+        "overUnder": 44.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873106",
+      "kickoffUtc": "2026-12-06T21:25:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": -5.5,
+        "overUnder": 42.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.6581,
+      "pickTeamId": "16",
+      "pickProb": 0.6581,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "16",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": -5.5,
+        "overUnder": 42.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873107",
+      "kickoffUtc": "2026-12-07T01:20:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": 3,
+        "overUnder": 42.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.4121,
+      "pickTeamId": "34",
+      "pickProb": 0.5879,
+      "level": "unklar",
+      "deviation": false,
+      "firstPickTeamId": "34",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": 3,
+        "overUnder": 42.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    },
+    {
+      "gameId": "401873108",
+      "kickoffUtc": "2026-12-08T01:15:00Z",
+      "odds": {
+        "provider": "DraftKings",
+        "spreadHome": -6,
+        "overUnder": 50.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "pHome": 0.6716,
+      "pickTeamId": "26",
+      "pickProb": 0.6716,
+      "level": "favorit",
+      "deviation": false,
+      "firstPickTeamId": "26",
+      "firstOdds": {
+        "provider": "DraftKings",
+        "spreadHome": -6,
+        "overUnder": 50.5,
+        "fetchedAt": "2026-11-24T20:47:32Z"
+      },
+      "changedSinceFirst": false,
+      "locked": false,
+      "lockedAt": null
+    }
+  ],
+  "tiebreakers": [
+    {
+      "gameId": "401873096",
+      "slot": "thursday",
+      "homePoints": 24,
+      "awayPoints": 23,
+      "basis": "quote"
+    },
+    {
+      "gameId": "401873108",
+      "slot": "monday",
+      "homePoints": 28,
+      "awayPoints": 22,
+      "basis": "quote"
+    }
+  ]
+}
