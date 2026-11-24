@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T09:47:27Z",
+  "updatedAt": "2026-11-24T10:47:28Z",
   "items": [
+    {
+      "id": "6718e554ead4a9eb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-passed-for-146-yards-in-fourth-quarter-after-totaling-143-in-first-three",
+      "title": "Jayden Daniels passed for 146 yards in fourth quarter after totaling 143 in first three",
+      "summary": "When the fourth quarter started on Monday night, the Commanders trailed the Bengals 17-13.",
+      "publishedAt": "2026-11-24T10:02:45Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
     {
       "id": "1075c8269f727746",
       "source": "pft",
@@ -1655,15 +1667,6 @@
       "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
       "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
       "publishedAt": "2026-11-23T11:00:02Z",
-      "teamIds": []
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-23T11:00:00Z",
       "teamIds": []
     }
   ]
