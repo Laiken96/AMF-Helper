@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T01:30:50Z",
+    "takenAt": "2026-11-24T01:40:35Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1981,8 +1981,7 @@
             "teamAbbr": "WSH",
             "roles": [
               "qb",
-              "passing",
-              "rushing"
+              "passing"
             ],
             "status": null
           },
@@ -1996,6 +1995,28 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4575131",
+            "name": "Jacory Croskey-Merritt",
+            "pos": "RB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "5081432",
+            "name": "Antonio Williams",
+            "pos": "WR",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           }
         ]
       }
