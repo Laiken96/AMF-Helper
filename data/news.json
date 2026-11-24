@@ -1,13 +1,112 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T20:47:35Z",
+  "updatedAt": "2026-11-24T21:47:26Z",
   "items": [
+    {
+      "id": "7d22a1ce6227ab2c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-do-not-activate-brady-christensen-at-expiration-of-21-day-practice-window",
+      "title": "Panthers do not activate Brady Christensen at expiration of 21-day practice window",
+      "summary": "As it turns out, the Panthers will not have one of their offensive linemen return for the 2026 season.",
+      "publishedAt": "2026-11-24T21:35:16Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "8cdea9c7bde0ec23",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-12-super-bowl-stock-report-49ers-separate-from-pack-jaguars-show-imperfections",
+      "title": "Week 12 Super Bowl stock report: 49ers separate from pack, Jaguars show imperfections",
+      "summary": "We assess the NFL title race after Week 11 and identify three upcoming games that could reshape the Super Bowl picture",
+      "publishedAt": "2026-11-24T21:30:50Z",
+      "teamIds": [
+        "30",
+        "25"
+      ]
+    },
+    {
+      "id": "bdf43d4f41e438b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-ferguson-tyler-booker-remain-out-of-practice-for-cowboys",
+      "title": "Jake Ferguson, Tyler Booker remain out of practice for Cowboys",
+      "summary": "The Cowboys upgraded the practice participation of a couple of players on Tuesday's injury report, but two offensive starters remained out.",
+      "publishedAt": "2026-11-24T21:30:46Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "508f1c50ee1a4caa",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-predictions-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-24T21:20:29Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "5378906e01205d77",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50585746/ashton-jeanty-top-20-fantasy-rb-week-12",
+      "title": "Dopp: Ashton Jeanty a top-20 fantasy RB in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-24T21:15:48Z",
+      "teamIds": []
+    },
+    {
+      "id": "3f43486188141bac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-sign-lb-chance-campbell-waive-c-jake-majors",
+      "title": "Eagles sign LB Chance Campbell, waive C Jake Majors",
+      "summary": "The Eagles made a couple of changes to their roster ahead of Thursday's game against the Cowboys.",
+      "publishedAt": "2026-11-24T21:12:57Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "17d8eb182ab41737",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50585636/dopp-jaylen-waddle-week-12-vs-steelers",
+      "title": "Dopp out on Jaylen Waddle in Week 12 vs. Steelers",
+      "summary": null,
+      "publishedAt": "2026-11-24T20:55:42Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "1849bb90c284a904",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50585635/why-dopp-encouraging-fantasy-managers-stay-away-jordan-love-week-12",
+      "title": "Why Dopp is encouraging fantasy managers to stay away from Jordan Love in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-24T20:53:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "47f857eca7d13190",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-add-chase-lundt-off-bills-practice-squad-waive-cb-avery-smith",
+      "title": "Seahawks add Chase Lundt off Bills practice squad, waive CB Avery Smith",
+      "summary": "The Seahawks are making a pair of roster moves on Tuesday.",
+      "publishedAt": "2026-11-24T20:44:42Z",
+      "teamIds": [
+        "2",
+        "26"
+      ]
+    },
     {
       "id": "4455ff4d207e6d83",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50585397/source-ravens-cut-punt-returner-wester-two-muffs-loss",
-      "title": "Source: Ravens cut punt returner LaJohntay Wester after his two muffs in loss",
-      "summary": "The Ravens are waiving returner LaJohntay Wester after he muffed two punts in Sunday's loss at Carolina, a source told ESPN on Tuesday.",
+      "title": "Ravens cut punt returner LaJohntay Wester after his two muffs in loss",
+      "summary": "The Ravens waived returner LaJohntay Wester after he muffed two punts in Sunday's loss at Carolina.",
       "publishedAt": "2026-11-24T20:44:27Z",
       "teamIds": [
         "33"
@@ -1500,108 +1599,6 @@
       "summary": "Parsons is set to make his first game appearance since last year's torn ACL.",
       "publishedAt": "2026-11-23T22:51:52Z",
       "teamIds": []
-    },
-    {
-      "id": "75425e4db5fc8791",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-listed-as-out-of-chiefs-practice-monday",
-      "title": "Kenneth Walker listed as out of Chiefs practice Monday",
-      "summary": "Running back Kenneth Walker has missed the last two Chiefs games and Kansas City's first practice report of the week doesn't find him on an upward trajectory ahead of Thursday's road game in Buffalo.",
-      "publishedAt": "2026-11-23T22:40:31Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "2d59f1543688aeeb",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50574503/2026-fantasy-football-trade-deadline-trade-away",
-      "title": "Fantasy football trade deadline: 7 players to trade for, 5 to trade away",
-      "summary": "With the fantasy trade deadline approaching, here are the players managers should be targeting and ones they can offload.",
-      "publishedAt": "2026-11-23T22:38:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "be6cb5f14b08adca",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-clears-waivers-becomes-free-agent",
-      "title": "Daniel Jones clears waivers, becomes free agent",
-      "summary": "As expected, former Colts quarterback Daniel Jones has cleared waivers.",
-      "publishedAt": "2026-11-23T22:37:54Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "e76003163812d0b8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-list-greg-rousseau-dalton-kincaid-as-limited-on-mondays-practice-report",
-      "title": "Bills list Greg Rousseau, Dalton Kincaid as limited on Monday's practice report",
-      "summary": "The Bills did not hold a practice on Monday, but they did issue an estimated injury report ahead of Thursday's game against the Chiefs.",
-      "publishedAt": "2026-11-23T22:33:21Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "b3e9a0de7746c38a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-have-gone-five-straight-games-without-ever-trailing-for-first-time-since-1985",
-      "title": "Bears have gone five straight games without ever trailing for first time since 1985",
-      "summary": "The Bears' win over the Saints on Sunday was their fifth consecutive game taking a first-quarter lead and winning without ever trailing.",
-      "publishedAt": "2026-11-23T22:26:51Z",
-      "teamIds": [
-        "3",
-        "18"
-      ]
-    },
-    {
-      "id": "4484515167da8859",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-texans-draws-tepid-12-23-million-on-thursday-night",
-      "title": "Colts-Texans draws tepid 12.23 million on Thursday night",
-      "summary": "No, they can't all be winners.",
-      "publishedAt": "2026-11-23T22:20:25Z",
-      "teamIds": [
-        "34",
-        "11"
-      ]
-    },
-    {
-      "id": "dc6625cd618747d7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-among-eagles-listed-as-limited-on-monday",
-      "title": "Saquon Barkley among Eagles listed as limited on Monday",
-      "summary": "After defeating the Steelers on Sunday for their third victory of the season, the Eagles have several players on their first injury report of a short week as they'll play the Cowboys on Thanksgiving.",
-      "publishedAt": "2026-11-23T22:09:10Z",
-      "teamIds": [
-        "6",
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "f0b61f9d1e2ce9d0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
-      "title": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
-      "summary": "The Commanders activated running back Jacory Croskey-Merritt off injured reserve Monday.",
-      "publishedAt": "2026-11-23T21:43:06Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "7a3d74baf1081496",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-josh-jacobs-listed-as-limited-in-practice-again-on-monday",
-      "title": "Micah Parsons, Josh Jacobs listed as limited in practice again on Monday",
-      "summary": "The Packers' injury report for Monday looks a lot like the one they turned in on Sunday.",
-      "publishedAt": "2026-11-23T21:40:37Z",
-      "teamIds": [
-        "9"
-      ]
     }
   ]
 }
