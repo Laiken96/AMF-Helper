@@ -168,6 +168,18 @@
       "sentAt": "2026-11-24T00:20:40Z",
       "title": "Tippschluss in 54 min",
       "body": "CIN@WSH. Linie CIN -3.5 > -6"
+    },
+    {
+      "key": "tips-ready:2026-2-12",
+      "sentAt": "2026-11-24T04:50:55Z",
+      "title": "Tippliste W12 bereit",
+      "body": "16 Spiele, Vorschlag Favorit. TB TNF KC@BUF 23:26, MNF CAR@TB 20:23"
+    },
+    {
+      "key": "review-ready:2026-2-11",
+      "sentAt": "2026-11-24T04:50:55Z",
+      "title": "Bilanz W11 bereit",
+      "body": "App Punkte 9 von 13, Tiebreaker Abweichung TNF 16, MNF 13"
     }
   ]
 }
