@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T14:47:24Z",
+  "updatedAt": "2026-11-24T15:47:26Z",
   "items": [
+    {
+      "id": "6767e3c33edc7907",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-chargers-struggle-jim-harbaughs-answer-on-defensive-playcalling-raises-more-questions",
+      "title": "As Chargers struggle, Jim Harbaugh's answer on defensive playcalling raises more questions",
+      "summary": "Chargers head coach Jim Harbaugh's non-answer to a question about which defensive player is wearing the helmet with a radio receiver to tell his teammates the play call is raising more questions about whether Harbaugh has become checked out on his team.",
+      "publishedAt": "2026-11-24T15:45:37Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "18bc4bfbab883d4e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mvp-race-is-currently-down-to-joe-burrow-and-brock-purdy",
+      "title": "MVP race is currently down to Joe Burrow and Brock Purdy",
+      "summary": "With 11 weeks down and seven to go, the MVP race is currently down to two players.",
+      "publishedAt": "2026-11-24T15:40:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "530f791cc05a9931",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-games-2026-schedule-black-friday-rams-packers",
+      "title": "NFL Thanksgiving schedule: What to know about Thanksgiving Eve, Turkey Day, and Black Friday games",
+      "summary": "A look at the Thanksgiving week slate and all of its fixings you need in time for Turkey Day",
+      "publishedAt": "2026-11-24T15:30:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "f1058841e31da12f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-on-omarion-hampton-in-hindsight-we-should-have-used-him-as-lead-back-sooner",
+      "title": "Jim Harbaugh on Omarion Hampton: In hindsight, we should have used him as lead back sooner",
+      "summary": "There hasn't been much to like about the Chargers' play this season, but the last two weeks have been good ones for running back Omarion Hampton.",
+      "publishedAt": "2026-11-24T15:25:43Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "6c83be57d5f26524",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-say-the-time-is-nigh-to-make-a-decision-on-the-bears-next-stadium",
+      "title": "Stephen Jones say the \"time is nigh\" to make a decision on the Bears' next stadium",
+      "summary": "As the Bears continue to do an awkward Bossa Nova with Indiana and Illinois over the location of a new stadium, a key executive from another team has chimed in.",
+      "publishedAt": "2026-11-24T15:13:36Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "2a4a550a3ca3e9ab",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-puka-nacua-is-obviously-a-very-important-piece-for-us-now-and-for-the-future",
+      "title": "Sean McVay: Puka Nacua is obviously a very important piece for us now and for the future",
+      "summary": "Rams receiver Puka Nacua just underwent successful knee surgery that is likely going to sideline him for the rest of 2026.",
+      "publishedAt": "2026-11-24T15:02:01Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "1c5463ad7bc6b25a",
       "source": "cbs",
@@ -94,6 +156,15 @@
       "teamIds": [
         "9"
       ]
+    },
+    {
+      "id": "0f4c54ac1730a5b3",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50572304/fantasy-football-waiver-wire-pickups-week-12",
+      "title": "Fantasy football: Live Week 12 free agent pickups advice with ESPN expert",
+      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
+      "publishedAt": "2026-11-24T13:55:12Z",
+      "teamIds": []
     },
     {
       "id": "2df11dac38f12da5",
@@ -314,6 +385,17 @@
       "publishedAt": "2026-11-24T05:17:30Z",
       "teamIds": [
         "4",
+        "28"
+      ]
+    },
+    {
+      "id": "6b561dcd11df048d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
+      "title": "NFL Week 11 grades for every team: Commanders earn 'A-' for stunning Monday win",
+      "summary": "We're handing out grades for every team that played in Week 11",
+      "publishedAt": "2026-11-24T05:01:47Z",
+      "teamIds": [
         "28"
       ]
     },
@@ -1008,6 +1090,18 @@
       ]
     },
     {
+      "id": "940b77b314a892a2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/commanders-vs-bengals-prediction-odds-how-to-watch-mnf-matchup",
+      "title": "Commanders vs. Bengals prediction: Cincinnati looks to extend lead in AFC North in 'MNF' matchup",
+      "summary": "How to watch, what to know and a prediction for the Monday night contest in DC",
+      "publishedAt": "2026-11-23T20:27:57Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
       "id": "9bb0e752c3cefb0d",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-fire-defensive-coordinator-nick-rallis",
@@ -1564,106 +1658,6 @@
       "publishedAt": "2026-11-23T15:35:12Z",
       "teamIds": [
         "13"
-      ]
-    },
-    {
-      "id": "c96f9ba81c3503b1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quinnen-williams-we-executed-better-on-defense-but-we-still-gave-up-30-points",
-      "title": "Quinnen Williams: We executed better on defense, but we still gave up 30 points",
-      "summary": "The Cowboys defense was under the microscope all week due to the decision to strip defensive coordinator Christian Parker of play-calling duties and hand them to assistant Mike Pettine, but defensive tackle Quinnen Williams pointed to something else playing a leading role in the unit's performance on Sunday.",
-      "publishedAt": "2026-11-23T15:29:50Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "4723731a5426bf6f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/29098001/nfl-depth-charts-all-32-teams",
-      "title": "NFL depth charts for all 32 teams for 2026 season",
-      "summary": "Here are the latest NFL depth charts for all 32 teams.",
-      "publishedAt": "2026-11-23T15:28:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "e7010400ca6fd3b4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-dk-metcalf-lacks-professional-maturity",
-      "title": "Mike Tomlin: DK Metcalf lacks \"professional maturity\"",
-      "summary": "Steelers need to send a message to Metcalf after Sunday's ejection.",
-      "publishedAt": "2026-11-23T15:26:43Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "7972342862c624d2",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50570381/nfl-week-11-odds-bengals-commanders-betting-preview-props",
-      "title": "Bengals-Commanders odds, best bets: Tips, analysis and top plays",
-      "summary": "Odds, analysis and recommended plays to help you bet the Bengals-Commanders matchup on Monday night.",
-      "publishedAt": "2026-11-23T15:10:32Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "31e1ad306bcadeac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bryce-youngs-14-game-winning-drives-tied-for-most-by-any-player-25-or-younger-since-at-least-1950",
-      "title": "Bryce Young's 14 game-winning drives tied for most by any player 25 or younger since at least 1950",
-      "summary": "Panthers quarterback Bryce Young showed a knack for leading game-winning drives while leading the Panthers to a division title last season and he's gotten back into the groove the last couple of weeks.",
-      "publishedAt": "2026-11-23T15:02:00Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "9a1ec814e45bce6e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-amy-adams-strunk-didnt-want-to-pay-a-j-brown",
-      "title": "Mike Vrabel: Amy Adams Strunk didn't want to pay A.J. Brown",
-      "summary": "One of the most compelling pieces of draft-room video came in 2022, when the Titans unexpectedly traded receiver A.J.",
-      "publishedAt": "2026-11-23T14:54:52Z",
-      "teamIds": [
-        "10"
-      ]
-    },
-    {
-      "id": "8831f304ee112261",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWaiverWirePickUp-50572280/fantasy-football-waivers-free-agent-pickups-nfl-week-12",
-      "title": "Fantasy football free agent pickups: Grab your Rams and Packers quickly",
-      "summary": "Eric Karabell lists the top available players worth adding for the week ahead.",
-      "publishedAt": "2026-11-23T14:37:44Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "812e8064861fbcf9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-nearly-4000-in-bonuses-betting-apps-sportsbooks-bengals-commanders",
-      "title": "Week 11 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for Bengals-Commanders",
-      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-23T14:23:07Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "9ae6c7432d122e10",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-bailey-is-first-player-with-9-5-sacks-six-forced-fumbles-in-first-10-nfl-games",
-      "title": "David Bailey is first player with 9.5 sacks, six forced fumbles in first 10 NFL games",
-      "summary": "The Jets haven't won a lot of games this season, but they picked a winner when they drafted linebacker David Bailey with the No. 2 pick in this year's draft.",
-      "publishedAt": "2026-11-23T14:13:10Z",
-      "teamIds": [
-        "20"
       ]
     }
   ]
