@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T06:20:39Z",
+    "takenAt": "2026-11-24T12:40:37Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2272,7 +2272,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4837248",
@@ -2504,16 +2504,6 @@
       "teamAbbr": "WSH",
       "kind": "neu",
       "from": null,
-      "to": "Out"
-    },
-    {
-      "gameId": "401873086",
-      "athleteId": "4432665",
-      "name": "Brock Bowers",
-      "pos": "TE",
-      "teamAbbr": "LV",
-      "kind": "wechsel",
-      "from": "Questionable",
       "to": "Out"
     },
     {
