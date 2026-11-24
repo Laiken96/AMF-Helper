@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T13:47:33Z",
+  "updatedAt": "2026-11-24T13:56:16Z",
   "items": [
+    {
+      "id": "9c070f0c9bc2d513",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50582441/how-micah-parsons-return-impact-packers",
+      "title": "How will Micah Parsons' return impact the Packers?",
+      "summary": null,
+      "publishedAt": "2026-11-24T13:55:49Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "2df11dac38f12da5",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50582517/get-crew-cracks-reacting-drew-stevens-postgame-news-conference",
+      "title": "'Get Up' crew cracks up reacting Drew Stevens' postgame news conference",
+      "summary": null,
+      "publishedAt": "2026-11-24T13:55:12Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "23d16eace7c9960c",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50582357/how-far-jayden-daniels-take-commanders-season",
+      "title": "How far can Jayden Daniels take the Commanders this season?",
+      "summary": null,
+      "publishedAt": "2026-11-24T13:49:57Z",
+      "teamIds": [
+        "6",
+        "19",
+        "28"
+      ]
+    },
     {
       "id": "8d02f65de6f81422",
       "source": "cbs",
@@ -258,6 +293,18 @@
       "teamIds": [
         "4",
         "28"
+      ]
+    },
+    {
+      "id": "8454f25061fdfd97",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc",
+      "title": "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
+      "summary": "A comprehensive look at all seven seeds in the AFC and NFC and the teams on the outside looking in",
+      "publishedAt": "2026-11-24T04:33:23Z",
+      "teamIds": [
+        "30",
+        "25"
       ]
     },
     {
@@ -1614,51 +1661,6 @@
         "6",
         "19",
         "25"
-      ]
-    },
-    {
-      "id": "d199b59b30c4a4ee",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-no-timetable-for-drake-maye-he-wont-be-available-this-week",
-      "title": "Mike Vrabel: No timetable for Drake Maye, he won't be available this week",
-      "summary": "Word late last week was that Patriots quarterback Drake Maye fractured his fibula and that he could miss the rest of the season, but head coach Mike Vrabel isn't looking that far ahead.",
-      "publishedAt": "2026-11-23T13:53:38Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "eb4316303be72926",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cover-32-afc-contender-risk-missing-playoffs-entirely-plus-game-balls-gaffes-week-11",
-      "title": "Cover 32: AFC contender is at risk of missing playoffs entirely, plus game balls, biggest gaffes from Week 11",
-      "summary": "Tyler Sullivan dives into all of the biggest items from Week 11 in the NFL, including DK Metcalf's ejection and Brock Purdy's stellar day against the Vikings defense",
-      "publishedAt": "2026-11-23T13:49:38Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "3fb90a10e751c27b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50572660/brock-purdy-mvp-right-now",
-      "title": "Dan Orlovsky: Brock Purdy is the MVP right now",
-      "summary": null,
-      "publishedAt": "2026-11-23T13:42:03Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "48a98f5da3cc18df",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50572656/did-jags-mismanage-fourth-quarter-loss-giants",
-      "title": "Did Jags mismanage the fourth quarter in loss to Giants?",
-      "summary": null,
-      "publishedAt": "2026-11-23T13:41:05Z",
-      "teamIds": [
-        "30",
-        "19"
       ]
     }
   ]
