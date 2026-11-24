@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T22:01:04Z",
+    "takenAt": "2026-11-24T23:10:42Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1496,7 +1496,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Suspension"
+            "status": "Out"
           },
           {
             "athleteId": "4372016",
@@ -2383,7 +2383,7 @@
       "teamAbbr": "DEN",
       "kind": "neu",
       "from": null,
-      "to": "Suspension"
+      "to": "Out"
     },
     {
       "gameId": "401873083",
