@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T00:47:27Z",
+  "updatedAt": "2026-11-24T01:47:25Z",
   "items": [
+    {
+      "id": "1223e16726fa38c3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50578357/seahawks-holding-final-sam-darnold-call-vs-49ers",
+      "title": "Seahawks to monitor Sam Darnold status this week before final call vs. 49ers",
+      "summary": "The Seahawks still plan to start Sam Darnold against the 49ers but will wait to see how the QB looks in practice on Wednesday before making a final call.",
+      "publishedAt": "2026-11-24T01:42:11Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "08d3f07bdf231f4d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-aaron-rodgers-is-our-quarterback",
+      "title": "Mike McCarthy: Aaron Rodgers is our quarterback",
+      "summary": "Before an NFL team benches its starting quarterback, someone asks the coach whether the quarterback could be benched.",
+      "publishedAt": "2026-11-24T01:34:41Z",
+      "teamIds": []
+    },
     {
       "id": "1b8cc75b431290f2",
       "source": "espn",
@@ -1645,28 +1666,6 @@
       "teamIds": [
         "16",
         "25"
-      ]
-    },
-    {
-      "id": "f0a40d1110f6a047",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49828234/washington-commanders-daronte-jones-2026-defense",
-      "title": "Inside Commanders DC Daronte Jones' unusual coaching journey",
-      "summary": "From living in his car to various college offices, Washington defensive coordinator Daronte Jones has paid his dues.",
-      "publishedAt": "2026-11-23T03:27:37Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "4df6cfd6150042ec",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-calls-dk-metcalfs-ejection-disappointing-wont-comment-on-message-to-him",
-      "title": "Aaron Rodgers calls DK Metcalf's ejection \"disappointing,\" won't comment on message to him",
-      "summary": "On certain subjects, Steelers quarterback Aaron Rodgers doesn't stop talking.",
-      "publishedAt": "2026-11-23T03:27:30Z",
-      "teamIds": [
-        "23"
       ]
     }
   ]
