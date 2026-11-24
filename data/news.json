@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T06:47:31Z",
+  "updatedAt": "2026-11-24T07:47:28Z",
   "items": [
+    {
+      "id": "cd1f17fe82d65986",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
+      "title": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
+      "summary": "After failing multiple times in late-game situations earlier this season, Commanders quarterback Jayden Daniels put together a second consecutive winning drive Monday night as Washington kicked a last-second field goal to beat Cincinnati 22-20.",
+      "publishedAt": "2026-11-24T07:45:14Z",
+      "teamIds": [
+        "28"
+      ]
+    },
     {
       "id": "93be273726928494",
       "source": "espn",
@@ -1653,15 +1664,6 @@
       "teamIds": [
         "25"
       ]
-    },
-    {
-      "id": "7ebd4c1810610eb5",
-      "source": "espn",
-      "url": "https://espn.com/espn/story/_/id/50571229/sport-espn-africa-festive-watch-dstv-disney+",
-      "title": "Sport on ESPN in Africa this festive - What to watch on DStv, Disney+ in December",
-      "summary": "From Thanksgiving NFL showdowns, to Christmas Day NBA action, and Boxing Day football, ESPN Africa has the festive season covered with a packed line-up of live sport, on channels across the continent and Disney+ in SA.",
-      "publishedAt": "2026-11-23T08:34:45Z",
-      "teamIds": []
     }
   ]
 }
