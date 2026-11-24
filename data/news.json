@@ -1,7 +1,133 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T16:47:23Z",
+  "updatedAt": "2026-11-24T17:47:35Z",
   "items": [
+    {
+      "id": "a7c686ac4cf2f0a6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573676/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 12: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-24T17:45:01Z",
+      "teamIds": []
+    },
+    {
+      "id": "ae083a9ead741260",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573725/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 12: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-24T17:42:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "28747fe37d1e7d3a",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
+      "title": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
+      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
+      "publishedAt": "2026-11-24T17:41:04Z",
+      "teamIds": [
+        "4",
+        "25"
+      ]
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 12: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-24T17:38:11Z",
+      "teamIds": []
+    },
+    {
+      "id": "bfdf2525abe547b7",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
+      "publishedAt": "2026-11-24T17:36:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "64e3ae0399df723e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50583712/stephen-not-feeling-too-enthusiastic-cowboys-ahead-eagles-game",
+      "title": "Stephen A. not feeling too enthusiastic about Cowboys ahead of Eagles game",
+      "summary": null,
+      "publishedAt": "2026-11-24T17:16:55Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "6a56f695c99a1893",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50583595/drew-stevens-washington-commanders-kicker",
+      "title": "Drew Stevens goes viral with hilarious postgame presser after winning kick",
+      "summary": "Stevens' explanation for how he calms himself down in tense moments took the internet by storm.",
+      "publishedAt": "2026-11-24T17:04:40Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "90c0e95269f4c292",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573181/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 12: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-24T17:03:53Z",
+      "teamIds": []
+    },
+    {
+      "id": "6e2de5f4a0abb10a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573224/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 12: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-24T17:03:30Z",
+      "teamIds": []
+    },
+    {
+      "id": "3a48bb6d965163ed",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573297/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 12: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-24T17:03:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "9550e8d4ff5a796f",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573414/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 12: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-24T17:02:46Z",
+      "teamIds": []
+    },
+    {
+      "id": "ecb5841ea2bcb486",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573508/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 12: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-24T17:02:24Z",
+      "teamIds": []
+    },
+    {
+      "id": "30d117465ba36597",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/sean-mcvay-on-puka-nacua-cant-say-for-certain-rams-future-free-agency",
+      "title": "Sean McVay on Puka Nacua: 'Can't say for certain' what his Rams future will be amid pending free agency",
+      "summary": "Nacua is set to hit free agency this offseason",
+      "publishedAt": "2026-11-24T16:52:09Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "a9c78037893e4e87",
       "source": "espn",
@@ -138,6 +264,15 @@
       "title": "MVP race is currently down to Joe Burrow and Brock Purdy",
       "summary": "With 11 weeks down and seven to go, the MVP race is currently down to two players.",
       "publishedAt": "2026-11-24T15:40:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "358e125f05a0bfce",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 12 betting odds: Lines and totals for every game",
+      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
+      "publishedAt": "2026-11-24T15:40:19Z",
       "teamIds": []
     },
     {
@@ -1508,153 +1643,6 @@
       "teamIds": [
         "21",
         "23"
-      ]
-    },
-    {
-      "id": "773ab1bed288a4bf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-says-pats-dont-plan-to-add-another-qb-tommy-devito-is-our-starter",
-      "title": "Mike Vrabel says Pats don't plan to add another QB: Tommy DeVito is our starter",
-      "summary": "While Drake Maye is going to be out for an extended period — if not the rest of the season — the Patriots are not currently inclined to add quarterback Daniel Jones.",
-      "publishedAt": "2026-11-23T17:37:50Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "8cc04e90e4807d39",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-waive-lb-christian-harris-sign-s-jammie-robinson",
-      "title": "Falcons waive LB Christian Harris, sign S Jammie Robinson",
-      "summary": "The Falcons announced a change to their roster coming out of their bye week.",
-      "publishedAt": "2026-11-23T17:30:29Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Two Commanders to pick up coming off MNF win",
-      "summary": "The Commanders scored only one touchdown in their MNF win, but several performances were notable nonetheless.",
-      "publishedAt": "2026-11-23T17:19:17Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "a0f8b04ae7acc6e3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jayden-daniels-relationship-lsu-alum-joe-burrow-its-all-love-beef",
-      "title": "Jayden Daniels on relationship with fellow LSU alum Joe Burrow amid jersey number complaint",
-      "summary": "Daniels and Burrow meet for the second time on 'Monday Night Football'",
-      "publishedAt": "2026-11-23T17:14:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "d5c593889418c127",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567919/carolina-panthers-rookie-lee-iii-big-play",
-      "title": "How Panthers rookie's big play became an all-timer for Dave Canales",
-      "summary": "Cornerback Will Lee III came up with a momentum-shifting play that helped stave off Baltimore's potential TD.",
-      "publishedAt": "2026-11-23T17:00:04Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "2e45165e4c01c720",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50570558/jaguars-loss-giants-trevor-lawrence-takes-blame",
-      "title": "Trevor Lawrence, Liam Coen share the blame for the Jaguars' loss to the Giants",
-      "summary": "The offense struggled mightily in New York. What does Jacksonville need to fix ahead of the Week 12 matchup against the Titans?",
-      "publishedAt": "2026-11-23T16:55:24Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "fd9b0b3ac9efab23",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bengals-vs-commanders-odds-monday-night-football-first-touchdown-scorer-picks-nfl-predictions",
-      "title": "Bengals vs. Commanders odds: Monday Night Football first touchdown scorer picks, NFL predictions",
-      "summary": "Here are our top picks for first touchdown prediction markets on Bengals vs. Commanders in NFL Week 11 on Monday Night Football",
-      "publishedAt": "2026-11-23T16:49:34Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "6f1293789a200075",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50573926/what-make-emeka-egbuka-fantasy-football",
-      "title": "What to make of Emeka Egbuka in fantasy football",
-      "summary": null,
-      "publishedAt": "2026-11-23T16:49:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "c0a49c157105af93",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50574035/cam-ward-paid-qb-streamer-week",
-      "title": "Field Yates: Cam Ward paid off as the QB streamer of the week",
-      "summary": null,
-      "publishedAt": "2026-11-23T16:47:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "d9e1f5cd0589d891",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cooper-dejean-dk-metcalf-just-missed-poking-me-in-the-eye",
-      "title": "Cooper DeJean: DK Metcalf \"just missed\" poking me in the eye",
-      "summary": "Eagles defensive back Cooper DeJean says Steelers wide receiver DK Metcalf didn’t poke him in the eye on Sunday, but came pretty close.",
-      "publishedAt": "2026-11-23T16:47:18Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "8ad5845f106af302",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
-      "title": "Fantasy football 2026 offensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
-      "publishedAt": "2026-11-23T16:45:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "206f1dfa15a74839",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50573132/ravens-nfl-best-beating-week-11-panthers",
-      "title": "Turnovers, penalties, time management: Ravens are NFL's best at beating themselves",
-      "summary": "Baltimore hasn't won since Oct. 11 and is currently sporting the NFL's longest losing streak at six games.",
-      "publishedAt": "2026-11-23T16:44:57Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "e05dbb9204d2a7cd",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50573991/how-fantasy-managers-handle-trey-mcbride",
-      "title": "How should fantasy managers handle Trey McBride?",
-      "summary": null,
-      "publishedAt": "2026-11-23T16:42:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "e1ed5dc79c10f691",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-on-sideline-moment-i-was-just-trying-to-watch-the-game",
-      "title": "Malik Nabers on sideline moment: I was just trying to watch the game",
-      "summary": "Late in Sunday's win over the Jaguars, video of the Giants' sideline showed quarterback Jameis Winston trying to restrain receiver Malik Nabers.",
-      "publishedAt": "2026-11-23T16:41:52Z",
-      "teamIds": [
-        "30",
-        "19"
       ]
     }
   ]
