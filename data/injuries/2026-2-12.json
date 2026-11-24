@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T13:01:14Z",
+    "takenAt": "2026-11-24T22:01:04Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1496,7 +1496,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Suspension"
           },
           {
             "athleteId": "4372016",
@@ -2374,6 +2374,16 @@
       "kind": "neu",
       "from": null,
       "to": "Questionable"
+    },
+    {
+      "gameId": "401873083",
+      "athleteId": "4241985",
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "teamAbbr": "DEN",
+      "kind": "neu",
+      "from": null,
+      "to": "Suspension"
     },
     {
       "gameId": "401873083",
