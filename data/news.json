@@ -1,13 +1,57 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T01:47:25Z",
+  "updatedAt": "2026-11-24T02:18:44Z",
   "items": [
+    {
+      "id": "79a5ce7ad0ef5c7b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-get-on-the-board-in-second-quarter-lead-3-0",
+      "title": "Bengals get on the board in second quarter, lead 3-0",
+      "summary": "The Bengals offense is off to a slow start, but they have still taken a lead in the second quarter of Monday night's game in Washington.",
+      "publishedAt": "2026-11-24T02:11:10Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "4569abbc6ed70541",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/making-sense-of-liam-coens-nonsensical-decision-to-kick-a-late-field-goal",
+      "title": "Making sense of Liam Coen's nonsensical decision to kick a late field goal",
+      "summary": "Jacksonville's loss to the Giants on Sunday included a nonsensical decision with 3:43 to play.",
+      "publishedAt": "2026-11-24T02:08:18Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "2d358cc759fbd209",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-list-chuck-clark-dj-wonnum-as-out-of-mondays-practice",
+      "title": "Lions list Chuck Clark, DJ Wonnum as out of Monday's practice",
+      "summary": "A pair of Lions defensive starters would have missed practice on Monday.",
+      "publishedAt": "2026-11-24T02:02:18Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "998c432b96cccf86",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/theo-benedet-kyler-gordon-listed-as-out-of-bears-practice",
+      "title": "Theo Benedet, Kyler Gordon listed as out of Bears practice",
+      "summary": "The Bears listed three players as out of practice on their first injury report ahead of Thursday afternoon's game in Detroit.",
+      "publishedAt": "2026-11-24T01:56:06Z",
+      "teamIds": [
+        "3"
+      ]
+    },
     {
       "id": "1223e16726fa38c3",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50578357/seahawks-holding-final-sam-darnold-call-vs-49ers",
       "title": "Seahawks to monitor Sam Darnold status this week before final call vs. 49ers",
-      "summary": "The Seahawks still plan to start Sam Darnold against the 49ers but will wait to see how the QB looks in practice on Wednesday before making a final call.",
+      "summary": "The Seahawks still plan to start Sam Darnold against the 49ers but will wait to see how the QB looks in practice Wednesday before making a final call.",
       "publishedAt": "2026-11-24T01:42:11Z",
       "teamIds": [
         "26",
@@ -723,6 +767,17 @@
       "publishedAt": "2026-11-23T18:29:14Z",
       "teamIds": [
         "25"
+      ]
+    },
+    {
+      "id": "f0a40d1110f6a047",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49828234/washington-commanders-daronte-jones-2026-defense",
+      "title": "Inside Commanders DC Daronte Jones' unusual coaching journey",
+      "summary": "From living in his car to various college offices, Washington defensive coordinator Daronte Jones has paid his dues.",
+      "publishedAt": "2026-11-23T18:03:50Z",
+      "teamIds": [
+        "28"
       ]
     },
     {
@@ -1610,61 +1665,6 @@
       "summary": "It's just about all but over in Mexico City. 49ers running back Christian McCaffrey capped a 13-play, 98-yard drive with a 6-yard touchdown to give San Francisco a 35-10 lead with 13:26 left in the fourth quarter.",
       "publishedAt": "2026-11-23T03:57:29Z",
       "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "03357be7361c50e1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jevon-holland-on-controversial-parker-washington-call-shoutout-vegas",
-      "title": "Jevón Holland on controversial Parker Washington call: \"Shoutout Vegas\"",
-      "summary": "Back when the NFL hated gambling, it feared that widespread legalized sports betting would prompt fans to think the fix is in.",
-      "publishedAt": "2026-11-23T03:49:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "9c1381ce422334a8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50569248/nfl-no-td-call-jaguars-parker-washington-was-correct",
-      "title": "NFL says no-TD call for WR Parker Washington in Jaguars' loss was correct",
-      "summary": "The NFL said Sunday that on-field officials were correct in ruling that Parker Washington did not make a critical touchdown catch in the fourth quarter.",
-      "publishedAt": "2026-11-23T03:43:13Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "e0ce2f15ac786703",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50569390/rb-cam-skattebo-backflips-again-pledging-nix-celebration",
-      "title": "RB Cam Skattebo backflips again after pledging to nix celebration",
-      "summary": "Cam Skattebo's pledge to nix his trademark backflip didn't last long. Not even a week.",
-      "publishedAt": "2026-11-23T03:39:38Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "0ee93f07dfefb54c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50569388/broncos-coach-sean-payton-game-ball-tom-jackson-family",
-      "title": "Broncos coach Sean Payton awards game ball to Tom Jackson's family",
-      "summary": "The Broncos will send a game ball to the wife and daughters of Tom Jackson after the \"Orange Crush\" great died Friday at age 75.",
-      "publishedAt": "2026-11-23T03:36:22Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "88af1bc1a391739e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/vikings-nfl-obscure-fair-catch-kick-rule-71-yard-field-goal-49ers",
-      "title": "Vikings utilize NFL's obscure fair-catch kick rule to attempt 71-yard field goal against 49ers",
-      "summary": "If made, Will Reichard's field goal would have made NFL history",
-      "publishedAt": "2026-11-23T03:28:38Z",
-      "teamIds": [
-        "16",
         "25"
       ]
     }

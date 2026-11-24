@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 11,
-  "fetchedAt": "2026-11-24T01:47:21Z",
+  "fetchedAt": "2026-11-24T02:18:40Z",
   "source": "espn",
   "games": [
     {
@@ -279,9 +279,9 @@
       "homeId": "28",
       "awayId": "4",
       "status": "in_progress",
-      "statusDetail": "1:45 - 1st",
+      "statusDetail": "3:02 - 2nd",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 3,
       "venue": "Northwest Stadium",
       "neutralSite": false,
       "venueInfo": {
