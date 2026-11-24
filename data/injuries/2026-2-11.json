@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T01:20:35Z",
+    "takenAt": "2026-11-24T01:30:50Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1940,6 +1940,17 @@
         "kickoffUtc": "2026-11-24T01:15:00Z",
         "players": [
           {
+            "athleteId": "3116389",
+            "name": "Samaje Perine",
+            "pos": "RB",
+            "teamId": "4",
+            "teamAbbr": "CIN",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "3915511",
             "name": "Joe Burrow",
             "pos": "QB",
@@ -1959,6 +1970,19 @@
             "teamAbbr": "CIN",
             "roles": [
               "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4426348",
+            "name": "Jayden Daniels",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb",
+              "passing",
+              "rushing"
             ],
             "status": null
           },
