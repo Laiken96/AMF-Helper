@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:47:22Z",
+  "updatedAt": "2026-11-24T03:47:30Z",
   "items": [
+    {
+      "id": "f24986d915069cd6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-joe-burrows-second-td-pass-puts-bengals-up-17-10",
+      "title": "Monday Night Football: Joe Burrow's second TD pass puts Bengals up 17-10",
+      "summary": "The lights are back on and both offenses have put up points in the third quarter.",
+      "publishedAt": "2026-11-24T03:20:20Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "0aba9e53e275e4db",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stefon-diggs-is-getting-frustrated",
+      "title": "Stefon Diggs is getting frustrated",
+      "summary": "Stefon Diggs is getting upset.",
+      "publishedAt": "2026-11-24T02:52:26Z",
+      "teamIds": []
+    },
+    {
+      "id": "d41a372eddaedf40",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-touchdown-highlights-inconsistency-of-replay-review",
+      "title": "Tee Higgins touchdown highlights inconsistency of replay review",
+      "summary": "Just when we thought we were out when it comes to not knowing what a catch is, they pull us back in.",
+      "publishedAt": "2026-11-24T02:45:29Z",
+      "teamIds": []
+    },
     {
       "id": "899eccc7e0f8584a",
       "source": "pft",
@@ -1631,42 +1660,6 @@
       "summary": null,
       "publishedAt": "2026-11-23T04:30:58Z",
       "teamIds": []
-    },
-    {
-      "id": "7d7c228d9895df50",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873077",
-      "title": "Brock Purdy carves up the Vikings' D with 3 TD passes in the 49ers' 35-10 win in Mexico City",
-      "summary": "Brock Purdy and the San Francisco 49ers offense turned the much ballyhooed matchup between one of the game's top offenses and the stingiest defenses into...",
-      "publishedAt": "2026-11-23T04:26:32Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "44c138b7cdb9977f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50569860/49ers-blow-vikings-35-10-mexico-city",
-      "title": "49ers blow out Vikings 35-10 in Mexico City",
-      "summary": null,
-      "publishedAt": "2026-11-23T04:25:59Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "3c6b8bfed46629df",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-49ers-move-to-9-1-with-dominant-35-10-victory-over-vikings",
-      "title": "Sunday Night Football: 49ers move to 9-1 with dominant 35-10 victory over Vikings",
-      "summary": "George Kittle caught two touchdowns as San Francisco became the first team to score at least 30 points against Minnesota in 2026.",
-      "publishedAt": "2026-11-23T04:25:41Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
     }
   ]
 }
