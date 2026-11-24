@@ -963,7 +963,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T01:40:35Z",
+    "takenAt": "2026-11-24T00:01:09Z",
     "games": [
       {
         "gameId": "401873066",
@@ -1996,6 +1996,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4432722",
+            "name": "Athan Kaliakmanis",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       }
@@ -2218,6 +2229,16 @@
       "name": "Kurtis Rourke",
       "pos": "QB",
       "teamAbbr": "SF",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873078",
+      "athleteId": "4432722",
+      "name": "Athan Kaliakmanis",
+      "pos": "QB",
+      "teamAbbr": "WSH",
       "kind": "neu",
       "from": null,
       "to": "Out"
