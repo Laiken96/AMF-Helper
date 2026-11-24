@@ -1,7 +1,125 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T21:47:26Z",
+  "updatedAt": "2026-11-24T22:47:26Z",
   "items": [
+    {
+      "id": "9bfa48105764950e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50586087/broncos-payton-says-rb-dobbins-suspended-one-game",
+      "title": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
+      "summary": "The Broncos have suspended running back J.K. Dobbins for one game for conduct detrimental to the team.",
+      "publishedAt": "2026-11-24T22:45:49Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "da406e799b7327eb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50586505/brandon-aiyuk-scheduled-visit-wednesday-commanders",
+      "title": "Brandon Aiyuk scheduled for visit Wednesday with Commanders, agent says",
+      "summary": "Wide receiver Brandon Aiyuk is scheduled to visit Wednesday with the Commanders, agent Drew Rosenhaus told ESPN's Adam Schefter.",
+      "publishedAt": "2026-11-24T22:41:48Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "4848adb6c6150eba",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-will-visit-commanders",
+      "title": "Brandon Aiyuk will visit Commanders",
+      "summary": "Aiyuk has mentioned signing with Washington for months.",
+      "publishedAt": "2026-11-24T22:34:26Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "b1356007b20ef88b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/broncos-suspend-rb-j-k-dobbins-one-game-conduct-detrimental-team",
+      "title": "Broncos suspend RB J.K. Dobbins one game for conduct detrimental to team",
+      "summary": "Dobbins will not play against the Steelers on Friday as Denver holds a slight lead over Kansas City in the AFC West race",
+      "publishedAt": "2026-11-24T22:07:45Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "0f8ccb3cb8ad9778",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-add-cb-isaac-yiadom-off-waivers",
+      "title": "Bears add CB Isaac Yiadom off waivers",
+      "summary": "The Bears have added a defensive back.",
+      "publishedAt": "2026-11-24T22:05:42Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "9deaed47c35fb471",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/michigan-does-about-face-on-trev-alberts-potentially-owing-him-17-2-million",
+      "title": "Michigan does about-face on Trev Alberts, potentially owing him $17.2 million",
+      "summary": "The last time Trev Alberts made this kind of a stir, he was the subject of Bill Tobin's legendary rant against Mel Kiper.",
+      "publishedAt": "2026-11-24T22:04:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "13cfdc73fbb6e1b4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-put-greg-newsome-on-injured-reserve",
+      "title": "Giants put Greg Newsome on injured reserve",
+      "summary": "Giants head coach John Harbaugh said on Monday that cornerback Greg Newsome will miss multiple weeks with a high-ankle sprain and a clearer picture of just how many weeks came on Tuesday.",
+      "publishedAt": "2026-11-24T22:00:54Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "3231e5202033d09e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/player-turned-doctor-laurent-duvernay-tardif-is-working-with-the-chiefs-medical-staff",
+      "title": "Player-turned-doctor Laurent Duvernay-Tardif is working with the Chiefs' medical staff",
+      "summary": "Former Chiefs offensive lineman Laurent Duvernay-Tardif, who got his medical degree while playing in the NFL, is back in Kansas City working with the Chiefs' medical staff.",
+      "publishedAt": "2026-11-24T21:55:32Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "ca14a9af0f6bcb43",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-suspends-j-k-dobbins-for-week-12-for-conduct-detrimental-to-the-team",
+      "title": "Sean Payton suspends J.K. Dobbins for Week 12 for conduct detrimental to the team",
+      "summary": "Dobbins played just one offensive snap in the Week 11 win over the Raiders.",
+      "publishedAt": "2026-11-24T21:52:12Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "582d4bb5c7c7d7e0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-is-a-free-agent-after-clearing-waivers",
+      "title": "Brandon Aiyuk is a free agent after clearing waivers",
+      "summary": "Wide receiver Brandon Aiyuk is officially a free agent.",
+      "publishedAt": "2026-11-24T21:50:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "35cfe6ff196066bb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-limited-in-his-return-to-chiefs-practice",
+      "title": "Kenneth Walker limited in his return to Chiefs practice",
+      "summary": "Walker missed the last two games with a groin injury.",
+      "publishedAt": "2026-11-24T21:42:44Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "7d22a1ce6227ab2c",
       "source": "pft",
@@ -1477,127 +1595,6 @@
       "title": "Why fantasy managers should still trust Trevor Lawrence",
       "summary": null,
       "publishedAt": "2026-11-23T23:46:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "2a758b17cb368aba",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bengals-vs-commanders-odds-nfl-week-11-picks-player-props-expert-has-best-bets-for-monday-night-football",
-      "title": "Bengals vs. Commanders odds, NFL Week 11 picks, player props: Expert has best bets for Monday Night Football",
-      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 11",
-      "publishedAt": "2026-11-23T23:45:48Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "7641eddd620233b4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/micah-parsons-injury-update-packers-return-rams-2026",
-      "title": "Micah Parsons injury update: Packers star activated, cleared to make 2026 debut vs. Rams in Week 12",
-      "summary": "Green Bay's star pass rusher is set to make his 2026 debut against Los Angeles after missing nearly a year to multiple knee injuries",
-      "publishedAt": "2026-11-23T23:44:04Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "537139d3087d6863",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bengals-vs-commanders-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
-      "title": "Bengals vs. Commanders odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Bengals vs. Commanders on Monday Night Football",
-      "publishedAt": "2026-11-23T23:41:24Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "f58f3423acb8a6ce",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50577306/ravens-noncommittal-whether-cb-humphrey-play-sunday",
-      "title": "Struggling Ravens noncommittal on whether Humphrey will play Sunday vs. Texans",
-      "summary": "A day after he was a healthy scratch in a 35-33 loss at the Panthers following a derogatory comment he made about the city of Baltimore, the Ravens were noncommittal on whether cornerback Marlon Humphrey would play Sunday against the Texans.",
-      "publishedAt": "2026-11-23T23:38:39Z",
-      "teamIds": [
-        "33",
-        "34"
-      ]
-    },
-    {
-      "id": "115b925a8a0eb2ea",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
-      "title": "Packers' Micah Parsons activated, expected to make season debut against Rams",
-      "summary": "Packers star Micah Parsons has been cleared and is set for his season debut against the Rams on Wednesday night.",
-      "publishedAt": "2026-11-23T23:37:43Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "3b08298db77dc97a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-cb-trevon-diggs-ot-bobby-hart-to-active-roster",
-      "title": "Seahawks sign CB Trevon Diggs, OT Bobby Hart to active roster",
-      "summary": "The Seahawks returned from their bye week by adding a pair of veteran players to their 53-man roster.",
-      "publishedAt": "2026-11-23T23:31:18Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "91f69c613fbc25b1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-reid-cleared-waivers-on-monday",
-      "title": "Justin Reid cleared waivers on Monday",
-      "summary": "Daniel Jones wasn't the only veteran to become a free agent on Monday.",
-      "publishedAt": "2026-11-23T23:25:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "da8f8f1020f27ab2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-defense-needed-a-fresh-voice",
-      "title": "Mike LaFleur: Defense needed a fresh voice",
-      "summary": "Cardinals head coach Mike LaFleur made a significant change to his coaching staff on Monday.",
-      "publishedAt": "2026-11-23T23:20:10Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "9788348487012f4a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-nfl-primetime-documentary-is-in-the-works",
-      "title": "Report: NFL Primetime documentary is in the works",
-      "summary": "The recent passing of Tom Jackson has sparked much discussion about ESPN's NFL Primetime, which was for years a mandatory Sunday evening destination for football fans everywhere.",
-      "publishedAt": "2026-11-23T23:13:36Z",
-      "teamIds": []
-    },
-    {
-      "id": "b216322d851ff9c6",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-landing-spots-commanders-steelers-49ers",
-      "title": "Brandon Aiyuk landing spots: Commanders, Steelers among four potential fits for former 49ers star",
-      "summary": "A reunion with Jayden Daniels, an NFC West revenge tour and two potential AFC opportunities headline Aiyuk's most intriguing options",
-      "publishedAt": "2026-11-23T23:06:20Z",
-      "teamIds": [
-        "23",
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "a0206a378903164a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-cleared-to-play-wednesday-night",
-      "title": "Micah Parsons cleared to play Wednesday night",
-      "summary": "Parsons is set to make his first game appearance since last year's torn ACL.",
-      "publishedAt": "2026-11-23T22:51:52Z",
       "teamIds": []
     }
   ]

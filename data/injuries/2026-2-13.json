@@ -6,7 +6,7 @@
   "baselineFrom": "2026-12-03T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-24T13:47:29Z",
+    "takenAt": "2026-11-24T22:47:23Z",
     "games": [
       {
         "gameId": "401873096",
@@ -593,7 +593,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Suspension"
           },
           {
             "athleteId": "4372016",
