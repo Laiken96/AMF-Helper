@@ -1,7 +1,84 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T18:47:27Z",
+  "updatedAt": "2026-11-24T19:47:24Z",
   "items": [
+    {
+      "id": "92425e3d35c4cb8d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-sign-ot-fred-johnson-to-53-man-roster",
+      "title": "Chiefs sign OT Fred Johnson to 53-man roster",
+      "summary": "The Chiefs announced a pair of roster moves on Tuesday afternoon.",
+      "publishedAt": "2026-11-24T19:38:35Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "f4992cadd5b1c4a4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-micah-parsons-to-53-man-roster",
+      "title": "Packers activate Micah Parsons to 53-man roster",
+      "summary": "The Packers have made it official — Micah Parsons is back on the roster.",
+      "publishedAt": "2026-11-24T19:34:57Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "438be4a8ddd746ac",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-dt-skyler-gill-howard-out-for-season-with-knee-injury",
+      "title": "Lions DT Skyler Gill-Howard out for season with knee injury",
+      "summary": "The Lions have lost another defensive player for the rest of the 2026 season.",
+      "publishedAt": "2026-11-24T19:31:59Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "43f7b10108c22010",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50117108/fantasy-football-2026-strength-schedule-rest-season",
+      "title": "Strength of schedule (SOS): Every team's year-to-date and rest-of-season ratings",
+      "summary": "Ranking each team's remaining schedule and how it might impact every position's fantasy performance.",
+      "publishedAt": "2026-11-24T19:26:22Z",
+      "teamIds": []
+    },
+    {
+      "id": "83576deed7a69fdb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyren-williams-off-injury-report-set-to-play-wednesday-vs-packers",
+      "title": "Kyren Williams off injury report, set to play Wednesday vs. Packers",
+      "summary": "Rams running back Kyren Williams was listed on the injury report this week with a toe injury, but he is still set to play in Wednesday's game against the Packers.",
+      "publishedAt": "2026-11-24T19:17:28Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "22bcd8fbf533485d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-commanders-clock-error-brings-back-memories-of-steelers-chargers-clock-error-in-2015",
+      "title": "Bengals-Commanders clock error brings back memories of Steelers-Chargers clock error in 2015",
+      "summary": "Monday night's game between the Bengals and Commanders ended with an apparent error by the clock operator.",
+      "publishedAt": "2026-11-24T19:02:35Z",
+      "teamIds": [
+        "4",
+        "24",
+        "23",
+        "28"
+      ]
+    },
+    {
+      "id": "4bb7204fe4146b0d",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
+      "title": "Rest-of-season rankings: Coleman surges among RBs, Taylor sinks",
+      "summary": "Need to know how to value players from this point forward for production or trade discussions? Eric Karabell has you covered.",
+      "publishedAt": "2026-11-24T19:00:07Z",
+      "teamIds": []
+    },
     {
       "id": "2adddcf44c9c721d",
       "source": "espn",
@@ -29,6 +106,15 @@
       ]
     },
     {
+      "id": "60806e6733123744",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ranking-nfl-division-races-first-worst-nfc-north-nfc-south-entertaining",
+      "title": "Ranking NFL division races from first to worst: NFC North, NFC South entertaining for very different reasons",
+      "summary": "Plus, one division race is already over, per our projections",
+      "publishedAt": "2026-11-24T18:29:57Z",
+      "teamIds": []
+    },
+    {
       "id": "19c47a1155893e6d",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50584335/dopp-yates-face-jeanty-vs-skattebo-week-12",
@@ -42,8 +128,17 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rob-gronkowski-adrian-peterson-ben-roethlisberger-among-players-advancing-in-hall-of-fame-voting-process",
       "title": "Rob Gronkowski, Adrian Peterson, Ben Roethlisberger among players advancing in Hall of Fame voting process",
-      "summary": "The Pro Football Hall of Fame announced the names of 52 players who have advanced to the next round of voting for possible enshrinement as part of the Class of 2027.",
+      "summary": "The field will eventually be cut to 13 candidates before the final vote.",
       "publishedAt": "2026-11-24T18:25:18Z",
+      "teamIds": []
+    },
+    {
+      "id": "567f244ad5af9943",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50583834/2026-fantasy-football-knockout-leagues-pickups-week-12",
+      "title": "Prioritize Ja'Marr Chase, Bijan Robinson over Josh Allen in Knockout league pickups",
+      "summary": "As the number of teams shrink, the number of stars available in Knockout leagues grows. Here are the ones to get.",
+      "publishedAt": "2026-11-24T18:17:33Z",
       "teamIds": []
     },
     {
@@ -1101,8 +1196,8 @@
       "id": "7641eddd620233b4",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/micah-parsons-injury-update-packers-return-rams-2026",
-      "title": "Micah Parsons injury update: Packers star cleared to make 2026 debut vs. Rams in Week 12",
-      "summary": "Green Bay's star pass rusher is set to make his 2026 debut against Los Angeles after missing nearly a year because of multiple knee injuries",
+      "title": "Micah Parsons injury update: Packers star activated to make 2026 debut vs. Rams in Week 12",
+      "summary": "Green Bay's star pass rusher is set to make his 2026 debut against Los Angeles after missing nearly a year to multiple knee injuries",
       "publishedAt": "2026-11-23T23:44:04Z",
       "teamIds": [
         "9",
@@ -1137,8 +1232,8 @@
       "id": "115b925a8a0eb2ea",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
-      "title": "Sources: Packers' Micah Parsons cleared to make season debut Wednesday vs. Rams",
-      "summary": "Packers star Micah Parsons has been cleared and is set for his season debut against the Rams on Wednesday night, sources told NFL Network's Ian Rapoport.",
+      "title": "Packers' Micah Parsons activated, expected to make season debut against Rams",
+      "summary": "Packers star Micah Parsons has been cleared and is set for his season debut against the Rams on Wednesday night.",
       "publishedAt": "2026-11-23T23:37:43Z",
       "teamIds": [
         "9"
@@ -1532,107 +1627,6 @@
       "publishedAt": "2026-11-23T19:55:50Z",
       "teamIds": [
         "25"
-      ]
-    },
-    {
-      "id": "d81d679950963f5e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-te-terrance-ferguson-to-undergo-season-ending-ankle-surgery",
-      "title": "Rams TE Terrance Ferguson to undergo season-ending ankle surgery",
-      "summary": "One of the Rams' young pass-catchers will not be able to return in 2026.",
-      "publishedAt": "2026-11-23T19:46:25Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "fe5785508dfa301d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
-      "title": "49ers release WR Brandon Aiyuk with roster exemption ending",
-      "summary": "The 49ers released wide receiver Brandon Aiyuk on Monday.",
-      "publishedAt": "2026-11-23T19:44:18Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "a4ec112c249db94b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-says-colts-have-not-shut-down-alec-pierce-for-the-season",
-      "title": "Shane Steichen says Colts have not shut down Alec Pierce for the season",
-      "summary": "A report from NFL Media on Sunday morning indicated that the Colts have decided to pull the plug on hopes that wide receiver Alec Pierce will return to action this season, but it appears to have been premature.",
-      "publishedAt": "2026-11-23T19:43:01Z",
-      "teamIds": [
-        "11"
-      ]
-    },
-    {
-      "id": "e1db41dfb33d5a87",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50575341/mike-vrabel-patriots-sticking-tommy-devito-qb1",
-      "title": "Vrabel: Patriots sticking with DeVito as QB1, not looking for outside help",
-      "summary": "Patriots coach Mike Vrabel said Monday the team isn't looking outside the organization for a starting quarterback as it prepares to be without Drake Maye in the coming weeks due to a fractured right fibula.",
-      "publishedAt": "2026-11-23T19:41:05Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "ed84bd0d4c31b3d3",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50575529/tommy-devito-our-starting-qb",
-      "title": "Mike Vrabel: Tommy DeVito is our starting QB",
-      "summary": null,
-      "publishedAt": "2026-11-23T19:40:44Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "45d491fffe9c8b23",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/terrion-arnolds-lawyer-seeks-sanctions-for-discovery-violation",
-      "title": "Terrion Arnold's lawyer seeks sanctions for discovery violation",
-      "summary": "Seahawks cornerback Terrion Arnold remains on paid leave with eight felony charges pending in Florida.",
-      "publishedAt": "2026-11-23T19:35:05Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "d3f6072d5f239334",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-dc-dennard-wilson-had-a-virtual-interview-for-maryland-head-coaching-job",
-      "title": "Report: Giants DC Dennard Wilson had a virtual interview for Maryland head coaching job",
-      "summary": "Giants defensive coordinator Dennard Wilson has helped the team to a 6-3-1 record so far this season and he's landed on the interview list for a head coaching vacancy on the college level.",
-      "publishedAt": "2026-11-23T19:33:05Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "d7aac0513e606054",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50575458/next-brandon-aiyuk-release-49ers",
-      "title": "What's next for Brandon Aiyuk after release by 49ers?",
-      "summary": null,
-      "publishedAt": "2026-11-23T19:29:43Z",
-      "teamIds": [
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "781adae2a4568f2f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-wr-jalen-coker-is-not-in-concussion-protocol",
-      "title": "Panthers WR Jalen Coker is not in concussion protocol",
-      "summary": "Panthers wide receiver Jalen Coker was checked for a concussion in the fourth quarter of Sunday's game against the Ravens, but head coach Dave Canales had a positive update on his condition on Monday.",
-      "publishedAt": "2026-11-23T19:25:54Z",
-      "teamIds": [
-        "33",
-        "29"
       ]
     }
   ]
