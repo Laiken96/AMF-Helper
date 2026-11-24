@@ -1,7 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T15:47:26Z",
+  "updatedAt": "2026-11-24T16:47:23Z",
   "items": [
+    {
+      "id": "a9c78037893e4e87",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50577618/why-commanders-streaming-d-st-target-week-12",
+      "title": "Why the Commanders are the streaming D/ST to target in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-24T16:45:41Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-24T16:26:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "2a05c586398caa2c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/gauntlet-over-vikings-have-five-of-their-last-seven-games-at-home",
+      "title": "Gauntlet over, Vikings have five of their last seven games at home",
+      "summary": "The Vikings managed to win their first six games, fueled by a dominant defense and an offense that was barely able to dog paddle.",
+      "publishedAt": "2026-11-24T16:20:01Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "c77daa7e48532354",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49742016/2026-win-rates-team-player-rankings-pass-rush-run-stop-blocking",
+      "title": "2026 NFL pass rush, run stop, blocking win rate rankings",
+      "summary": "Our win rate metrics stack the NFL's top teams and players in run blocking, run stopping, pass protection and pass rushing.",
+      "publishedAt": "2026-11-24T16:14:06Z",
+      "teamIds": []
+    },
+    {
+      "id": "881617a2fe24614a",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50583376/why-stephen-counting-bengals-loss-commanders",
+      "title": "Why Stephen A. isn't counting out the Bengals after loss to Commanders",
+      "summary": null,
+      "publishedAt": "2026-11-24T16:07:07Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "048ace7a6e68edd2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-designate-rb-raheim-sanders-for-return",
+      "title": "Browns designate RB Raheim Sanders for return",
+      "summary": "Running back Raheim Sanders will be back at practice for the Browns this week.",
+      "publishedAt": "2026-11-24T16:01:50Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "641f4288c3182796",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50583260/bears-lions-big-game",
+      "title": "Stephen A.: Bears-Lions a big-time game",
+      "summary": null,
+      "publishedAt": "2026-11-24T15:55:30Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "79ba95825ef44859",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bengals-commanders-mnf-refs-two-seconds-off-clock",
+      "title": "Bengals may have been robbed twice by refs in final five seconds of stunning loss to Commanders",
+      "summary": "The Monday night matchup seemed to end with two botched situations from the officials",
+      "publishedAt": "2026-11-24T15:53:05Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-24T15:50:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "8ea5236a9b15eab6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-to-waive-qb-kedon-slovis",
+      "title": "Report: Ravens to waive QB Kedon Slovis",
+      "summary": "The Ravens are reportedly making a change to their quarterback room.",
+      "publishedAt": "2026-11-24T15:47:52Z",
+      "teamIds": [
+        "33"
+      ]
+    },
     {
       "id": "6767e3c33edc7907",
       "source": "pft",
@@ -11,6 +117,18 @@
       "publishedAt": "2026-11-24T15:45:37Z",
       "teamIds": [
         "24"
+      ]
+    },
+    {
+      "id": "a12fcb585492d0f6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2026-nfl-playoff-picture-ranking-nfc-wild-card-contenders-nfc-north-rising-seahawks-rams",
+      "title": "2026 NFL playoff picture: Ranking NFC wild card contenders, from stout NFC North to rising Seahawks, Rams",
+      "summary": "Which teams in the NFC wild card race are tracking toward entering the playoffs through the side door?",
+      "publishedAt": "2026-11-24T15:42:29Z",
+      "teamIds": [
+        "14",
+        "26"
       ]
     },
     {
@@ -1537,127 +1655,6 @@
       "teamIds": [
         "30",
         "19"
-      ]
-    },
-    {
-      "id": "4331d6cd2cb5786c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-steelers-regretting-dk-metcalf-150-million-contract-trading-george-pickens",
-      "title": "Steelers gave DK Metcalf $150 million, traded George Pickens. Now they're paying for both decisions",
-      "summary": "The Steelers wanted a more dependable receiver. Instead, Metcalf has delivered disappointing production and familiar distractions.",
-      "publishedAt": "2026-11-23T16:39:02Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "eb99394af1e1c622",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50573875/stephen-rolls-eyes-michael-irvin-cowboys-hype",
-      "title": "Stephen A. rolls his eyes at Michael Irvin's Cowboys hype",
-      "summary": null,
-      "publishedAt": "2026-11-23T16:22:58Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "ed91da57e49dc030",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-the-only-thing-you-can-do-is-get-up-off-the-mat-again",
-      "title": "Jesse Minter: The only thing you can do is get up off the mat again",
-      "summary": "It has been a rough stretch for first-year head coach Jesse Minter and the Ravens, who have now lost six games in a row after falling to the Panthers on Sunday.",
-      "publishedAt": "2026-11-23T16:18:40Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "09d6ba453ddf1fc4",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50573133/jets-geno-smith-return-2027",
-      "title": "Another year of Geno Smith? Jets pleased with the QB's play",
-      "summary": "New York's QB is coming off his best game of the season against the Chargers.",
-      "publishedAt": "2026-11-23T16:13:35Z",
-      "teamIds": [
-        "20"
-      ]
-    },
-    {
-      "id": "14f9370d864d69b4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalf-should-have-been-ejected-earlier-than-he-was-for-contact-with-official",
-      "title": "DK Metcalf should have been ejected earlier than he was, for contact with official",
-      "summary": "There's another factor that could fuel a Metcalf suspension.",
-      "publishedAt": "2026-11-23T16:09:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "358e125f05a0bfce",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 12 betting odds: Lines and totals for every game",
-      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
-      "publishedAt": "2026-11-23T16:05:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "27c847d80c8a4fa4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/emeka-egbuka-has-taken-a-big-step-back-in-year-2",
-      "title": "Emeka Egbuka has taken a big step back in Year 2",
-      "summary": "Buccaneers wide receiver Emeka Egbuka had just two catches for 18 yards in Sunday's loss to the Lions.",
-      "publishedAt": "2026-11-23T16:04:13Z",
-      "teamIds": [
-        "8",
-        "27"
-      ]
-    },
-    {
-      "id": "0d331cb353ec2296",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50573779/why-stephen-considers-giants-legit-threats-nfc",
-      "title": "Why Stephen A. considers the Giants as legit threats in the NFC",
-      "summary": null,
-      "publishedAt": "2026-11-23T15:57:02Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "335a771f734acce8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50573658/49ers-ramrodded-vikings",
-      "title": "Stephen A.: The 49ers ramrodded the Vikings",
-      "summary": null,
-      "publishedAt": "2026-11-23T15:43:10Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "7b6fcc25b77501d1",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bengals-vs-commanders-odds-picks-player-props-experts-nfl-week-11-best-bets-for-monday-night-football",
-      "title": "Bengals vs. Commanders odds, picks, player props: Expert's NFL Week 11 best bets for Monday Night Football",
-      "summary": "CBS Sports NFL expert Will Brinson shares his top picks and props for Monday Night Football in NFL Week 11",
-      "publishedAt": "2026-11-23T15:35:44Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "3ec958284e3c90e9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-honored-tom-jacksons-family-with-a-game-ball-after-win-over-raiders",
-      "title": "Sean Payton honored Tom Jackson's family with a game ball after win over Raiders",
-      "summary": "The entire NFL world was saddened to learn about the passing of Denver and ESPN legend Tom Jackson over the weekend.",
-      "publishedAt": "2026-11-23T15:35:12Z",
-      "teamIds": [
-        "13"
       ]
     }
   ]
