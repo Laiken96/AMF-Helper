@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T12:40:37Z",
+    "takenAt": "2026-11-24T12:50:39Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1479,7 +1479,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -1616,7 +1616,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4262921",
@@ -1857,7 +1857,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4569603",
@@ -2050,7 +2050,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4569173",
@@ -2186,7 +2186,7 @@
             "roles": [
               "qb"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4426348",
@@ -2200,17 +2200,6 @@
               "rushing"
             ],
             "status": null
-          },
-          {
-            "athleteId": "4432722",
-            "name": "Athan Kaliakmanis",
-            "pos": "QB",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "qb"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "5081432",
@@ -2387,16 +2376,6 @@
       "to": "Questionable"
     },
     {
-      "gameId": "401873082",
-      "athleteId": "4567048",
-      "name": "Kenneth Walker III",
-      "pos": "RB",
-      "teamAbbr": "KC",
-      "kind": "wechsel",
-      "from": "Questionable",
-      "to": "Out"
-    },
-    {
       "gameId": "401873083",
       "athleteId": "4372016",
       "name": "Jaylen Waddle",
@@ -2414,7 +2393,7 @@
       "teamAbbr": "MIN",
       "kind": "neu",
       "from": null,
-      "to": "Out"
+      "to": "Questionable"
     },
     {
       "gameId": "401873085",
@@ -2425,16 +2404,6 @@
       "kind": "wechsel",
       "from": "Doubtful",
       "to": "Out"
-    },
-    {
-      "gameId": "401873089",
-      "athleteId": "4242512",
-      "name": "Malik Willis",
-      "pos": "QB",
-      "teamAbbr": "MIA",
-      "kind": "neu",
-      "from": null,
-      "to": "Injured Reserve"
     },
     {
       "gameId": "401873089",
@@ -2472,9 +2441,9 @@
       "name": "Drake Maye",
       "pos": "QB",
       "teamAbbr": "NE",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Doubtful",
-      "to": "Out"
+      "to": null
     },
     {
       "gameId": "401873093",
@@ -2494,17 +2463,7 @@
       "teamAbbr": "ARI",
       "kind": "neu",
       "from": null,
-      "to": "Out"
-    },
-    {
-      "gameId": "401873092",
-      "athleteId": "4432722",
-      "name": "Athan Kaliakmanis",
-      "pos": "QB",
-      "teamAbbr": "WSH",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
+      "to": "Questionable"
     },
     {
       "gameId": "401873094",
