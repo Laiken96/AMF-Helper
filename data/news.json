@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:18:44Z",
+  "updatedAt": "2026-11-24T02:47:22Z",
   "items": [
+    {
+      "id": "899eccc7e0f8584a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bengals-lead-10-7-at-halftime",
+      "title": "Monday Night Football: Bengals lead 10-7 at halftime",
+      "summary": "Both offenses took some time to get going on a rainy night in Washington.",
+      "publishedAt": "2026-11-24T02:43:21Z",
+      "teamIds": [
+        "4"
+      ]
+    },
     {
       "id": "79a5ce7ad0ef5c7b",
       "source": "pft",
@@ -1654,17 +1665,6 @@
       "publishedAt": "2026-11-23T04:25:41Z",
       "teamIds": [
         "16",
-        "25"
-      ]
-    },
-    {
-      "id": "43430e99c95247c9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-touchdown-gives-49ers-35-10-lead-in-fourth-quarter",
-      "title": "Christian McCaffrey touchdown gives 49ers 35-10 lead in fourth quarter",
-      "summary": "It's just about all but over in Mexico City. 49ers running back Christian McCaffrey capped a 13-play, 98-yard drive with a 6-yard touchdown to give San Francisco a 35-10 lead with 13:26 left in the fourth quarter.",
-      "publishedAt": "2026-11-23T03:57:29Z",
-      "teamIds": [
         "25"
       ]
     }
