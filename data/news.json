@@ -1,7 +1,89 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T13:56:16Z",
+  "updatedAt": "2026-11-24T14:47:24Z",
   "items": [
+    {
+      "id": "1c5463ad7bc6b25a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-breech-picks-score-predictions-bears-chiefs-rams-packers",
+      "title": "NFL Week 12 picks, score predictions: Bears, Chiefs lose on Thanksgiving; Rams edge Packers in thriller",
+      "summary": "Here's your weekly dose of John Breech's NFL picks",
+      "publishedAt": "2026-11-24T14:43:05Z",
+      "teamIds": [
+        "3",
+        "9",
+        "12",
+        "14"
+      ]
+    },
+    {
+      "id": "2eef4349b400911f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-12-power-rankings-thanksgiving-games",
+      "title": "Prisco's NFL Week 12 Power Rankings: Thanksgiving feast offers a proving ground for contenders",
+      "summary": "Pete Prisco shares his Week 12 Power Rankings for the 2026 NFL season, including the",
+      "publishedAt": "2026-11-24T14:33:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "74e6406bfdb780e6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/why-cowboys-lions-always-play-thanksgiving-day-all-32-nfl-teams-record-holiday",
+      "title": "Why the Cowboys and Lions always play on Thanksgiving Day: All 32 NFL team's record on the holiday",
+      "summary": "A look at the records and traditions in the NFL on Thanksgiving",
+      "publishedAt": "2026-11-24T14:30:32Z",
+      "teamIds": [
+        "6",
+        "8"
+      ]
+    },
+    {
+      "id": "c21b208cd995014c",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-24T14:16:36Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "2864f621a0fd6577",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-12-2026-nfl-power-rankings",
+      "title": "PFT's Week 12 2026 NFL power rankings",
+      "summary": "The 49ers can no longer be denied the top spot.",
+      "publishedAt": "2026-11-24T14:15:47Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "0032db2c2652bb98",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50573226/nfl-international-expansion-turf-players",
+      "title": "NFL's international plan: More games, new TV deal incoming",
+      "summary": "The NFL intends to play 10 international games next year, the maximum allowed under the CBA. It wants more.",
+      "publishedAt": "2026-11-24T14:04:19Z",
+      "teamIds": [
+        "30",
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "e5a2065f28cf1f7d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50576490/cleveland-browns-todd-monken-six-keys-reveal-offense",
+      "title": "What Todd Monken's six keys reveal about the Browns' offense",
+      "summary": "Let's look at the six pillars the first-year head coach stands by and how they're helping (or hurting) Cleveland's offense.",
+      "publishedAt": "2026-11-24T14:02:17Z",
+      "teamIds": [
+        "5"
+      ]
+    },
     {
       "id": "9c070f0c9bc2d513",
       "source": "espn",
@@ -34,6 +116,18 @@
       "teamIds": [
         "6",
         "19",
+        "28"
+      ]
+    },
+    {
+      "id": "dfdc72ad5d1d119c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jayden-daniels-commanders-bengals-nfl-mnf-florida-state-coach-glenn-schumann",
+      "title": "Jayden Daniels leads Commanders past Bengals on MNF; Florida State hires coach Glenn Schumann",
+      "summary": "Plus, the SEC has taken another step toward expelling LSU",
+      "publishedAt": "2026-11-24T13:41:23Z",
+      "teamIds": [
+        "4",
         "28"
       ]
     },
@@ -1570,97 +1664,6 @@
       "publishedAt": "2026-11-23T14:13:10Z",
       "teamIds": [
         "20"
-      ]
-    },
-    {
-      "id": "6b561dcd11df048d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
-      "title": "NFL Week 11 grades for every team: Commanders earn 'A-' for stunning Monday win",
-      "summary": "We're handing out grades for every team that played in Week 11",
-      "publishedAt": "2026-11-23T14:11:46Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "885917023fdd2c1b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/commanders-vs-bengals-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
-      "title": "Commanders vs. Bengals odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Bengals vs. Commanders on Monday Night Football",
-      "publishedAt": "2026-11-23T14:06:20Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "3781633fd9f5835a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/parker-washington-non-catch-controversy-jevon-holland-vegas-nfl-call-correct",
-      "title": "Parker Washington non-catch controversy: Jevón Holland says 'Shout out Vegas,' NFL says call was correct",
-      "summary": "Holland's tongue-in-cheek comment likely won't sit well at the league office",
-      "publishedAt": "2026-11-23T14:05:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "85a6060d66833189",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50572823/dk-metcalf-shell-himself",
-      "title": "Rex Ryan: DK Metcalf is a shell of himself",
-      "summary": null,
-      "publishedAt": "2026-11-23T14:05:15Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "940b77b314a892a2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/commanders-vs-bengals-prediction-odds-how-to-watch-mnf-matchup",
-      "title": "Commanders vs. Bengals prediction: Cincinnati looks to extend lead in AFC North in 'MNF' matchup",
-      "summary": "How to watch, what to know and a prediction for the Monday night contest in DC",
-      "publishedAt": "2026-11-23T14:04:35Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "dffbe6c2d279a3cf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/abdul-carter-i-showed-im-the-best-in-the-world",
-      "title": "Abdul Carter: I showed I'm the best in the world",
-      "summary": "Giants head coach John Harbaugh said last week that he was confident sacks would start to come for linebacker Abdul Carter and he was proven correct on Sunday.",
-      "publishedAt": "2026-11-23T14:03:30Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "e6e4fd2185e5deab",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-i-wont-be-100-percent-healthy-this-season-but-will-keep-playing",
-      "title": "Saquon Barkley: I won't be 100 percent healthy this season, but will keep playing",
-      "summary": "Eagles running back Saquon Barkley said after beating the Steelers on Sunday that he's not completely healthy and won't be completely healthy this season, but he has no desire to shut it down.",
-      "publishedAt": "2026-11-23T13:59:13Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "f1c2c89bdd62d6f3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/49ers-giants-cowboys-earn-top-grades-in-nfl-week-11-fallout-from-tarik-skubals-historic-mets-deal",
-      "title": "49ers, Giants, Cowboys earn top grades in NFL Week 11; fallout from Tarik Skubal's historic Mets deal",
-      "summary": "Plus why the Big Ten faces a bleak CFP outlook",
-      "publishedAt": "2026-11-23T13:57:57Z",
-      "teamIds": [
-        "6",
-        "19",
-        "25"
       ]
     }
   ]
