@@ -6,7 +6,7 @@
   "baselineFrom": "2026-12-03T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-24T04:47:23Z",
+    "takenAt": "2026-11-24T06:47:29Z",
     "games": [
       {
         "gameId": "401873096",
@@ -555,17 +555,6 @@
             "status": null
           },
           {
-            "athleteId": "2976212",
-            "name": "Stefon Diggs",
-            "pos": "WR",
-            "teamId": "28",
-            "teamAbbr": "WSH",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4426348",
             "name": "Jayden Daniels",
             "pos": "QB",
@@ -588,6 +577,17 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "5081432",
+            "name": "Antonio Williams",
+            "pos": "WR",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
           }
         ]
       },
