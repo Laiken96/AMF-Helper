@@ -1,13 +1,70 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T22:47:26Z",
+  "updatedAt": "2026-11-24T23:31:17Z",
   "items": [
+    {
+      "id": "ccbdced6c534bdcd",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50586791/depth-rb-wake-jk-dobbins-suspension",
+      "title": "Sean Payton: We'll have depth at RB in wake of J.K. Dobbins suspension",
+      "summary": null,
+      "publishedAt": "2026-11-24T23:23:42Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "e83947e2718d3e42",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/going-to-be-tough-for-steelers-lb-alex-highsmith-to-play-this-week",
+      "title": "\"Going to be tough\" for Steelers LB Alex Highsmith to play this week",
+      "summary": "It looks like the Steelers will be without linebacker Alex Highsmith for their Black Friday game against the Broncos.",
+      "publishedAt": "2026-11-24T23:14:03Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "e54a0f8d325cd2cf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quinyon-mitchell-listed-as-limited-in-tuesdays-practice",
+      "title": "Quinyon Mitchell listed as limited in Tuesday's practice",
+      "summary": "The Eagles held their second walkthrough practice of the week on Tuesday and their injury report shows cornerback Quinyon Mitchell making progress in his return to the lineup.",
+      "publishedAt": "2026-11-24T23:06:41Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "db4d1a28d3c03756",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-meeting-commanders-report-free-agent-wr-reunion-jayden-daniels",
+      "title": "Brandon Aiyuk to meet with Commanders, per report: Free agent WR seeks reunion with Jayden Daniels",
+      "summary": "Aiyuk may already have a destination lined up shortly after his release from the 49ers and waiver clearance.",
+      "publishedAt": "2026-11-24T23:04:41Z",
+      "teamIds": [
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "26a2e5d15cbcf394",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-laporta-upgraded-to-full-participation-at-lions-practice",
+      "title": "Sam LaPorta upgraded to full participation at Lions practice",
+      "summary": "Lions tight end Sam LaPorta took a step in the right direction on Tuesday's injury report.",
+      "publishedAt": "2026-11-24T23:00:23Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "9bfa48105764950e",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50586087/broncos-payton-says-rb-dobbins-suspended-one-game",
       "title": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
-      "summary": "The Broncos have suspended running back J.K. Dobbins for one game for conduct detrimental to the team.",
+      "summary": "The Broncos suspended running back J.K. Dobbins for one game for conduct detrimental to the team.",
       "publishedAt": "2026-11-24T22:45:49Z",
       "teamIds": [
         "7"
@@ -417,6 +474,18 @@
       "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
       "publishedAt": "2026-11-24T19:48:54Z",
       "teamIds": []
+    },
+    {
+      "id": "7641eddd620233b4",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/micah-parsons-injury-update-packers-return-rams-2026",
+      "title": "Micah Parsons injury update: Packers star activated, cleared to make 2026 debut vs. Rams in Week 12",
+      "summary": "Green Bay's star pass rusher is set to make his 2026 debut against Los Angeles after missing nearly a year to multiple knee injuries",
+      "publishedAt": "2026-11-24T19:46:55Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
     },
     {
       "id": "92425e3d35c4cb8d",
@@ -1513,6 +1582,18 @@
       "teamIds": []
     },
     {
+      "id": "537139d3087d6863",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bengals-vs-commanders-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
+      "title": "Bengals vs. Commanders odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
+      "summary": "Best bets and betting preview for Bengals vs. Commanders on Monday Night Football",
+      "publishedAt": "2026-11-24T00:47:31Z",
+      "teamIds": [
+        "4",
+        "28"
+      ]
+    },
+    {
       "id": "1b8cc75b431290f2",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50574682/nobody-roots-harder-zac-taylor-special-olympics-champion-sister",
@@ -1522,80 +1603,6 @@
       "teamIds": [
         "4"
       ]
-    },
-    {
-      "id": "d72f8154d6fd6075",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/bengals-vs-commanders-odds-first-touchdown-scorer-picks-week-11-nfl-predictions-for-monday-night-football",
-      "title": "Bengals vs. Commanders odds: First touchdown scorer picks, Week 11 NFL predictions for Monday Night Football",
-      "summary": "Here are our top picks for first touchdown prediction markets on Bengals vs. Commanders in NFL Week 11 on Monday Night Football",
-      "publishedAt": "2026-11-24T00:43:01Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "01c6c43d596b06be",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50577618/why-commanders-d-st-top-10-fantasy-upside-week-12",
-      "title": "Why the Commanders D/ST has top-10 fantasy upside in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T00:12:38Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "0751f9418c24b0b7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
-      "title": "NFL Week 11 arrivals: Tee Higgins pays homage to Fiona the Hippo ahead of 'MNF'",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-24T00:12:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "01e0a0bf5b25c4a4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50577730/why-brian-branch-fantasy-managers-rosters-week-12",
-      "title": "Why Brian Branch should be on fantasy managers' rosters in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T00:02:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "2e05fb56ddad898a",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-11-nfl-betting-promos-get-nearly-4000-in-bonuses-betting-apps-sportsbooks-commanders-bengals",
-      "title": "Week 11 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for Commanders-Bengals",
-      "summary": "Top Week 11 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-23T23:50:40Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "0a741291a0ed5909",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rachaad-white-active-for-commanders-dax-hill-active-for-bengals",
-      "title": "Rachaad White active for Commanders, Dax Hill active for Bengals",
-      "summary": "Running backs Jacory Croskey-Merritt and Rachaad White will both be available for the Commanders against the Bengals.",
-      "publishedAt": "2026-11-23T23:50:21Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "ecf1af60a5cce2cd",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50577596/why-fantasy-managers-trust-trevor-lawrence",
-      "title": "Why fantasy managers should still trust Trevor Lawrence",
-      "summary": null,
-      "publishedAt": "2026-11-23T23:46:37Z",
-      "teamIds": []
     }
   ]
 }
