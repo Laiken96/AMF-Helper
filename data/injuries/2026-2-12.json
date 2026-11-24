@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-23T22:47:27Z",
+    "takenAt": "2026-11-24T00:47:25Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1371,7 +1371,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4040715",
@@ -2211,6 +2211,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4432722",
+            "name": "Athan Kaliakmanis",
+            "pos": "QB",
+            "teamId": "28",
+            "teamAbbr": "WSH",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2367,16 +2378,6 @@
   "changes": [
     {
       "gameId": "401873080",
-      "athleteId": "3929630",
-      "name": "Saquon Barkley",
-      "pos": "RB",
-      "teamAbbr": "PHI",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873080",
       "athleteId": "4685201",
       "name": "Tanner McKee",
       "pos": "QB",
@@ -2491,6 +2492,16 @@
       "name": "Carson Beck",
       "pos": "QB",
       "teamAbbr": "ARI",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873092",
+      "athleteId": "4432722",
+      "name": "Athan Kaliakmanis",
+      "pos": "QB",
+      "teamAbbr": "WSH",
       "kind": "neu",
       "from": null,
       "to": "Out"
