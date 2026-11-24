@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-24T12:50:39Z",
+    "takenAt": "2026-11-24T13:01:14Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1689,7 +1689,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4432577",
@@ -2079,7 +2079,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "athleteId": "4430878",
@@ -2403,7 +2403,7 @@
       "teamAbbr": "HOU",
       "kind": "wechsel",
       "from": "Doubtful",
-      "to": "Out"
+      "to": "Questionable"
     },
     {
       "gameId": "401873089",
@@ -2453,6 +2453,16 @@
       "teamAbbr": "LAC",
       "kind": "neu",
       "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873091",
+      "athleteId": "3912547",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "teamAbbr": "SEA",
+      "kind": "wechsel",
+      "from": "Out",
       "to": "Questionable"
     },
     {
