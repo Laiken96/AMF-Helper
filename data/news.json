@@ -1,7 +1,134 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T17:47:35Z",
+  "updatedAt": "2026-11-24T18:47:27Z",
   "items": [
+    {
+      "id": "2adddcf44c9c721d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50584494/pro-football-hall-fame-trims-2027-player-nominees-52",
+      "title": "Pro Football Hall of Fame voters trim Class of 2027 nominees to 52",
+      "summary": "Five first-time eligible former players advanced in the voting process for the Pro Football Hall of Fame's Class of 2027, it was announced Tuesday.",
+      "publishedAt": "2026-11-24T18:46:10Z",
+      "teamIds": [
+        "16",
+        "17",
+        "23",
+        "26"
+      ]
+    },
+    {
+      "id": "926cd67adbdb2fa2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-ot-wanya-morris-off-cowboys-practice-squad",
+      "title": "Colts sign OT Wanya Morris off Cowboys practice squad",
+      "summary": "The Colts are adding an offensive lineman.",
+      "publishedAt": "2026-11-24T18:31:53Z",
+      "teamIds": [
+        "6",
+        "11"
+      ]
+    },
+    {
+      "id": "19c47a1155893e6d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50584335/dopp-yates-face-jeanty-vs-skattebo-week-12",
+      "title": "Dopp, Yates face off over Jeanty vs. Skattebo in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-24T18:27:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "2d47af329d035f7b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rob-gronkowski-adrian-peterson-ben-roethlisberger-among-players-advancing-in-hall-of-fame-voting-process",
+      "title": "Rob Gronkowski, Adrian Peterson, Ben Roethlisberger among players advancing in Hall of Fame voting process",
+      "summary": "The Pro Football Hall of Fame announced the names of 52 players who have advanced to the next round of voting for possible enshrinement as part of the Class of 2027.",
+      "publishedAt": "2026-11-24T18:25:18Z",
+      "teamIds": []
+    },
+    {
+      "id": "dd7961be8b70a546",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50584332/is-stefon-diggs-jameson-williams-better-fantasy-play-week-12",
+      "title": "Is Stefon Diggs or Jameson Williams a better fantasy play in Week 12?",
+      "summary": null,
+      "publishedAt": "2026-11-24T18:16:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "f59ab4b34d6ede69",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50584372/why-mike-clay-worried-jaylen-warren-fantasy",
+      "title": "Why Mike Clay isn't worried about Jaylen Warren in fantasy",
+      "summary": null,
+      "publishedAt": "2026-11-24T18:11:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "3a57b4a6cfa21dd8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-list-micah-parsons-josh-jacobs-as-questionable-for-wednesday",
+      "title": "Packers list Micah Parsons, Josh Jacobs as questionable for Wednesday",
+      "summary": "Micah Parsons has been cleared to make his return from last December's torn ACL, but the Packers didn't make anything certain about the defensive end's status for Wednesday night's game against the Rams on their final injury report.",
+      "publishedAt": "2026-11-24T18:09:31Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "75295be54a4f3df1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-lafleur-stuck-with-nick-rallis-as-dc-due-to-limited-options-in-coaching-cycle",
+      "title": "Report: Mike LaFleur stuck with Nick Rallis as DC due to limited options in coaching cycle",
+      "summary": "When the Cardinals hired Mike LaFleur in February, he was the last head coach to start his job in this year's NFL cycle.",
+      "publishedAt": "2026-11-24T18:08:24Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "616e601b34f23ed4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-expect-kenneth-walker-to-practice-tuesday",
+      "title": "Chiefs expect Kenneth Walker to practice Tuesday",
+      "summary": "Chiefs head coach Andy Reid offered a positive update about running back Kenneth Walker on Tuesday.",
+      "publishedAt": "2026-11-24T18:02:22Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "d485cd719b952985",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/hammond-mayor-says-bears-will-make-a-lot-more-money-in-indiana",
+      "title": "Hammond mayor says Bears will \"make a lot more money\" in Indiana",
+      "summary": "Money talks.",
+      "publishedAt": "2026-11-24T18:01:11Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "c32543b5c1543025",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50584326/the-reasons-dopp-picking-dak-prescott-patrick-mahomes-week-12",
+      "title": "The reasons Dopp is picking Dak Prescott over Patrick Mahomes in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-24T17:58:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "5e80d12284ff480d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-can-become-first-team-mathematically-eliminated-from-the-playoffs-on-sunday",
+      "title": "Cardinals can become first team mathematically eliminated from the playoffs on Sunday",
+      "summary": "We all know the Cardinals are not making the playoffs this year.",
+      "publishedAt": "2026-11-24T17:54:29Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "a7c686ac4cf2f0a6",
       "source": "espn",
@@ -373,6 +500,17 @@
       "publishedAt": "2026-11-24T14:15:47Z",
       "teamIds": [
         "25"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Two Commanders to pick up coming off MNF win",
+      "summary": "The Commanders scored only one touchdown in their MNF win, but several performances were notable nonetheless.",
+      "publishedAt": "2026-11-24T14:06:12Z",
+      "teamIds": [
+        "28"
       ]
     },
     {
@@ -1495,154 +1633,6 @@
       "teamIds": [
         "33",
         "29"
-      ]
-    },
-    {
-      "id": "6c546029df3897cf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-release-wr-brandon-aiyuk",
-      "title": "49ers release WR Brandon Aiyuk",
-      "summary": "Aiyuk will next go to waivers.",
-      "publishedAt": "2026-11-23T19:16:43Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "b98756259e5fb545",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50575243/micah-parsons-make-season-debut-wednesday-night",
-      "title": "Adam Schefter: Micah Parsons could make season debut Wednesday night",
-      "summary": null,
-      "publishedAt": "2026-11-23T19:07:14Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "f07f2411b0171861",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50575248/source-49ers-gm-john-lynch-agree-contract-extension",
-      "title": "Source: 49ers, GM John Lynch agree to contract extension",
-      "summary": "The 49ers and general manager John Lynch have agreed to a multiyear contract extension, a team source confirmed to NFL Network's Ian Rapoport.",
-      "publishedAt": "2026-11-23T19:05:14Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "a25fd35c38b5389f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-on-fernando-mendoza-with-two-starts-against-two-elite-defenses-ive-seen-improvement",
-      "title": "Klint Kubiak on Fernando Mendoza: With two starts against two elite defenses, I've seen improvement",
-      "summary": "While Fernando Mendoza is still looking for his first win as a starting quarterback, the No. 1 overall pick of this year's draft displayed his considerable potential in Sunday's loss to the Broncos.",
-      "publishedAt": "2026-11-23T18:38:49Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "3b0be6e9c6c4ecc5",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-dk-metcalf-denies-poke-eagles-cooper-dejean-eye",
-      "title": "Steelers' DK Metcalf denies trying to poke Eagles' Cooper DeJean in the eye",
-      "summary": "Metcalf was ejected from the game and will likely face further discipline from the NFL",
-      "publishedAt": "2026-11-23T18:31:52Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "ce93bb8b424c729f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pick-six-nfl-week-11-losers-grades-every-team-bengals-commanders-picks-monday-night-football",
-      "title": "Pick Six: NFL Week 11 losers, plus grades for every team and Bengals-Commanders picks for Monday night",
-      "summary": "Here's everything you need to know about the NFL for Nov. 23",
-      "publishedAt": "2026-11-23T18:29:35Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "c68e18d2e7fa0163",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-extend-g-m-john-lynchs-contract",
-      "title": "49ers extend G.M. John Lynch's contract",
-      "summary": "In the offseason, the 49ers quietly extended the contract of coach Kyle Shanahan.",
-      "publishedAt": "2026-11-23T18:29:14Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "f0a40d1110f6a047",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49828234/washington-commanders-daronte-jones-2026-defense",
-      "title": "Inside Commanders DC Daronte Jones' unusual coaching journey",
-      "summary": "From living in his car to various college offices, Washington defensive coordinator Daronte Jones has paid his dues.",
-      "publishedAt": "2026-11-23T18:03:50Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "b0c9d789ac63cae3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/josh-jacobs-finger-not-expected-play-rams-packers-thanksgiving-eve-showdown-green-bay-replacement",
-      "title": "Josh Jacobs (finger) not expected to play in Rams-Packers Thanksgiving Eve showdown: Who Green Bay could use",
-      "summary": "Jacobs suffered the finger injury in Week 9",
-      "publishedAt": "2026-11-23T18:00:39Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "5f8a19504e8ed68c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dk-metcalf-i-didnt-try-to-poke-cooper-dejean-in-the-eye",
-      "title": "DK Metcalf: I didn't try to poke Cooper DeJean in the eye",
-      "summary": "Metcalf was ejected from Sunday's game after an altercation with the Eagles defensive back.",
-      "publishedAt": "2026-11-23T17:59:06Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "4d7c8edb867536c5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-drake-maye-we-want-to-give-him-every-opportunity-to-return-at-some-point",
-      "title": "Mike Vrabel on Drake Maye: We want to give him every opportunity to return at some point",
-      "summary": "Drake Maye is going to be out for an extended period after suffering a fractured fibula in the Week 10 loss to the Lions.",
-      "publishedAt": "2026-11-23T17:52:28Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "6975bf71127eab85",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50570945/nfl-week-12-betting-odds-props-early-picks-predictions",
-      "title": "Early betting for Week 12: Will Seahawks slow down 49ers?",
-      "summary": "Which Week 12 lines offered immediate value once odds came out? Matt Bowen found one he's jumping on now.",
-      "publishedAt": "2026-11-23T17:45:36Z",
-      "teamIds": [
-        "26",
-        "25"
-      ]
-    },
-    {
-      "id": "619d79caf62599e0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
-      "title": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
-      "summary": "Steelers wide receiver DK Metcalf on Monday denied trying to poke Eagles cornerback Cooper DeJean in the eye before he was ejected Sunday.",
-      "publishedAt": "2026-11-23T17:41:20Z",
-      "teamIds": [
-        "21",
-        "23"
       ]
     }
   ]
