@@ -1,7 +1,128 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T21:47:39Z",
+  "updatedAt": "2026-11-25T22:47:22Z",
   "items": [
+    {
+      "id": "d080d96ff7d5ae0a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50596920/pittsburgh-steelers-aaron-rodgers-mike-mccarthy-next",
+      "title": "What's next for Aaron Rodgers, Mike McCarthy, Steelers?",
+      "summary": "The news out of Pittsburgh shook the NFL landscape, and ESPN's insiders share insights on the QB, the coach and their futures.",
+      "publishedAt": "2026-11-25T22:40:40Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "fd0eae0cde192daa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597502/henry-concussion-protocol-ravens-expect-play",
+      "title": "RB Derrick Henry in concussion protocol but Ravens expect him to play Sunday",
+      "summary": "Ravens running back Derrick Henry was placed back into concussion protocol Wednesday, but he is expected to play Sunday at the Texans.",
+      "publishedAt": "2026-11-25T22:33:48Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "0d2eca92fdf8d306",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597534/sources-mike-mccarthy-steelers-full-support",
+      "title": "Sources: Mike McCarthy has Steelers' full support after Aaron Rodgers interview",
+      "summary": "Mike McCarthy has the full support of the Steelers' organization and will remain their coach after Aaron Rodgers' allegations, sources told NFL Network and ESPN.",
+      "publishedAt": "2026-11-25T22:33:22Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "2d8905af4f379e16",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-aaron-rodgers-made-an-ultimatum-outside-his-job-description",
+      "title": "Mike McCarthy: Aaron Rodgers made an ultimatum outside his job description",
+      "summary": "Steelers head coach Mike McCarthy said today that he decided that Aaron Rodgers would no longer be the starting quarterback because of an ultimatum that Rodgers made.",
+      "publishedAt": "2026-11-25T22:31:11Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "586d7ec56296b92d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597989/steelers-players-try-keep-focus-broncos-amid-rodgers-fallout",
+      "title": "Steelers players try to keep focus on Broncos amid Aaron Rodgers fallout",
+      "summary": "Steelers players tried to keep their focus on Friday's game against the Broncos as Aaron Rodgers ripped coach Mike McCarthy on national TV.",
+      "publishedAt": "2026-11-25T22:28:48Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ede939cd72e0eaaf",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597133/aaron-rodgers-pat-mcafee-interview-social-reaction",
+      "title": "Aaron Rodgers' comments on 'The Pat McAfee Show' draw NFL reaction",
+      "summary": "The now-former Steelers quarterback made a number of noteworthy comments in a bombshell interview on \"The Pat McAfee Show\" Wednesday afternoon.",
+      "publishedAt": "2026-11-25T22:28:19Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "1521961dc295d4fb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-mike-mccarthy-responds-to-aaron-rodgers-after-pat-mcafee-interview",
+      "title": "Mike McCarthy responds to Aaron Rodgers, confirms QB gave him 'ultimatum:' 'I know how to win'",
+      "summary": "McCarthy responded to Rodgers' tirade against him",
+      "publishedAt": "2026-11-25T22:24:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "3525ca03ad0a7cd0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aaron-rodgers-released-steelers-players-react-mike-mccarthy-controversy",
+      "title": "Steelers players react to Aaron Rodgers' release as some teammates back QB amid Mike McCarthy controversy",
+      "summary": "Steelers players spoke favorably about Aaron Rodgers after his release, while team sources reportedly corroborated portions of the quarterback's explosive criticism of Mike McCarthy",
+      "publishedAt": "2026-11-25T21:59:57Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "17b8a74a4d7981a0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-mccarthy-has-the-full-support-of-the-steelers-organization",
+      "title": "Report: Mike McCarthy \"has the full support\" of the Steelers organization",
+      "summary": "The Steelers are planning no \"immediate\" changes.",
+      "publishedAt": "2026-11-25T21:58:50Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "3d91d212af2275a7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-confirms-he-said-1-2-3-packers-at-halftime-last-sunday",
+      "title": "Mike McCarthy confirms he said \"1-2-3 Packers\" at halftime last Sunday",
+      "summary": "Aaron Rodgers said a number of things that caught the attention of the football world on Wednesday and one of the comments that drew a big response had to do with something that happened in the locker room at halftime of last Sunday's loss to the Eagles.",
+      "publishedAt": "2026-11-25T21:57:57Z",
+      "teamIds": [
+        "9",
+        "21"
+      ]
+    },
+    {
+      "id": "c4cbe9d0336eba2f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50596948/panthers-vs-buccaneers-watch-monday-night-football-week-12",
+      "title": "Panthers vs. Buccaneers: Where to watch 'Monday Night Football'",
+      "summary": "Here's what to know about the Week 12 matchup.",
+      "publishedAt": "2026-11-25T21:49:44Z",
+      "teamIds": [
+        "29",
+        "27"
+      ]
+    },
     {
       "id": "a936c36b6ab276fb",
       "source": "espn",
@@ -9,6 +130,29 @@
       "title": "Sources corroborate Aaron Rodgers' allegations about Steelers HC Mike McCarthy",
       "summary": "NFL sources have corroborated Aaron Rodgers' account of Mike McCarthy to ESPN reporters, confirming the star QB's allegations about the Steelers coach.",
       "publishedAt": "2026-11-25T21:46:54Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a86220b4b4e660f6",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-spreads-picks-predictions-bets-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-25T21:45:27Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "ab2c18ae9f5b7151",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-release-aaron-rodgers",
+      "title": "Steelers release Aaron Rodgers",
+      "summary": "Rodgers was benched on Tuesday night and is off the team after his scathing response to the move on Wednesday.",
+      "publishedAt": "2026-11-25T21:45:23Z",
       "teamIds": [
         "23"
       ]
@@ -400,7 +544,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
       "title": "Brandon Aiyuk joining Commanders, will reunite with college QB Jayden Daniels",
-      "summary": "Wide receiver Brandon Aiyuk is signing with the Commanders on their practice squad, agent Drew Rosenhaus told ESPN's Adam Schefter.",
+      "summary": "Wide receiver Brandon Aiyuk is signing with the Commanders on their practice squad, the team announced.",
       "publishedAt": "2026-11-25T18:32:52Z",
       "teamIds": [
         "28"
@@ -1247,7 +1391,7 @@
       "id": "f4e09a06faaf1d1c",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/rams-vs-packers-prediction-odds-how-to-watch-thanksgiving-eve",
-      "title": "Rams vs. Packers prediction: Can Green Bay find continue success with deep ball? Will L.A. overcome injuries?",
+      "title": "Rams vs. Packers prediction: Can Green Bay continue success with deep ball? Will L.A. overcome injuries?",
       "summary": "Micah Parsons makes his season debut for Green Bay as an injury-depleted Los Angeles offense leans on its ground attack in the NFL's first Thanksgiving Eve showdown",
       "publishedAt": "2026-11-25T12:00:43Z",
       "teamIds": [
@@ -1486,144 +1630,6 @@
         "9",
         "12",
         "14"
-      ]
-    },
-    {
-      "id": "15ead2407be1b6d3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-shrugs-at-talk-of-being-on-the-hot-seat-in-colorado",
-      "title": "Deion Sanders shrugs at talk of being on the hot seat in Colorado",
-      "summary": "As he concludes his fourth season at Colorado, there are real questions as to whether coach Deion Sanders will have a fifth.",
-      "publishedAt": "2026-11-25T03:05:25Z",
-      "teamIds": []
-    },
-    {
-      "id": "38edbdbd19e95a6f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50588773/long-lions-owner-martha-firestone-ford-dies-age-101",
-      "title": "Longtime Lions owner Martha Firestone Ford dies at age 101",
-      "summary": "Martha Firestone Ford, who served as the primary owner of the Lions from 2014 to 2020, has died at the age of 101, the team announced Tuesday night.",
-      "publishedAt": "2026-11-25T02:44:31Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "fccbd7abf7bccc00",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50585589/dynasty-league-trade-deadline-advice",
-      "title": "Dynasty and keeper league advice at the fantasy football trade deadline",
-      "summary": "In dynasty and keeper leagues, you're always competing for a championship. It's just not always this year's.",
-      "publishedAt": "2026-11-25T02:36:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "896c419f54db0cd2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-owner-chair-emeritus-martha-firestone-ford-passes-at-101",
-      "title": "Lions owner/chair emeritus Martha Firestone Ford passes at 101",
-      "summary": "Martha Firestone Ford, the owner and chair emeritus of the Detroit Lions, has died.",
-      "publishedAt": "2026-11-25T02:23:29Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "ea2f5adc23fef8bc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-49ers-in-mexico-city-averaged-23-8-million-on-sunday-night",
-      "title": "Vikings-49ers in Mexico City averaged 23.8 million on Sunday night",
-      "summary": "Sunday night's game between the Vikings and 49ers had the potential to be a great one.",
-      "publishedAt": "2026-11-25T01:40:50Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "1daf1aab7b8c3b9c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thanksgiving-week-features-extra-episodes-of-pftpm",
-      "title": "Thanksgiving week features extra episodes of #PFTPM",
-      "summary": "Thanksgiving week typically alters the usual PFT Live schedule.",
-      "publishedAt": "2026-11-25T01:14:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "3eb624dcdea21635",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-nfl-youtube-are-negotiating-a-three-game-package-for-2027",
-      "title": "Report: NFL, YouTube are negotiating a three-game package for 2027",
-      "summary": "YouTube's on-again, off-again arrangements to stream select NFL games may be on again.",
-      "publishedAt": "2026-11-25T00:49:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "ff0de827a2892277",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-giants-boosts-late-sunday-window-to-more-than-26-million",
-      "title": "Jaguars-Giants boosts late Sunday window to more than 26 million",
-      "summary": "The 4:25 p.m.",
-      "publishedAt": "2026-11-25T00:29:22Z",
-      "teamIds": [
-        "30",
-        "19"
-      ]
-    },
-    {
-      "id": "ccabab36bcd3bece",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
-      "title": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
-      "summary": "Chicago Bears running back D'Andre Swift won't have an extended stay in Ben Johnson's doghouse after fumbling in the fourth quarter against the Saints.",
-      "publishedAt": "2026-11-25T00:25:40Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "fec373e9a96079b3",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-injury-report-micah-parsons-cleared-kenneth-walker-iii-practices",
-      "title": "NFL Thanksgiving injury report: Micah Parsons cleared for season debut, Chiefs' Kenneth Walker III out",
-      "summary": "Injury reports for every NFL team playing on Wednesday and Thursday in Week 12",
-      "publishedAt": "2026-11-25T00:20:02Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "ccbdced6c534bdcd",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50586791/depth-rb-wake-jk-dobbins-suspension",
-      "title": "Sean Payton: We'll have depth at RB in wake of J.K. Dobbins suspension",
-      "summary": null,
-      "publishedAt": "2026-11-24T23:23:42Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "e83947e2718d3e42",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/going-to-be-tough-for-steelers-lb-alex-highsmith-to-play-this-week",
-      "title": "\"Going to be tough\" for Steelers LB Alex Highsmith to play this week",
-      "summary": "It looks like the Steelers will be without linebacker Alex Highsmith for their Black Friday game against the Broncos.",
-      "publishedAt": "2026-11-24T23:14:03Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "e54a0f8d325cd2cf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quinyon-mitchell-listed-as-limited-in-tuesdays-practice",
-      "title": "Quinyon Mitchell listed as limited in Tuesday's practice",
-      "summary": "The Eagles held their second walkthrough practice of the week on Tuesday and their injury report shows cornerback Quinyon Mitchell making progress in his return to the lineup.",
-      "publishedAt": "2026-11-24T23:06:41Z",
-      "teamIds": [
-        "21"
       ]
     }
   ]
