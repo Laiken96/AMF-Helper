@@ -1,7 +1,133 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T20:47:34Z",
+  "updatedAt": "2026-11-25T21:47:39Z",
   "items": [
+    {
+      "id": "a936c36b6ab276fb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597187/sources-confirm-aaron-rodgers-allegations-mike-mccarthy",
+      "title": "Sources corroborate Aaron Rodgers' allegations about Steelers HC Mike McCarthy",
+      "summary": "NFL sources have corroborated Aaron Rodgers' account of Mike McCarthy to ESPN reporters, confirming the star QB's allegations about the Steelers coach.",
+      "publishedAt": "2026-11-25T21:46:54Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ec7543e29bc0d996",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597055/colts-alec-pierce-heel-injury-hopeful-return-season",
+      "title": "Colts' Alec Pierce: 'Definitely a chance' to return from heel injury this season",
+      "summary": "Colts WR Alec Pierce said on Wednesday he's progressing each day from a heel injury he sustained in Week 2 and hopes to return to play this season.",
+      "publishedAt": "2026-11-25T21:31:27Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "1387e5e7ddecc989",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-nate-hobbs-re-sign-brandin-cooks-to-practice-squad",
+      "title": "49ers activate Nate Hobbs, re-sign Brandin Cooks to practice squad",
+      "summary": "Cornerback Nate Hobbs has not played in a game since signing with the 49ers in March, but that could change against the Seahawks this weekend.",
+      "publishedAt": "2026-11-25T21:27:13Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "7b6940c857803da9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-could-try-to-not-pay-aaron-rodgers-the-balance-of-his-22-million-salary",
+      "title": "Steelers could try to not pay Aaron Rodgers the balance of his $22 million salary",
+      "summary": "If/when the Steelers release quarterback Aaron Rodgers, they'll have to decide whether to willingly pay the balance of his $22 million base salary, or whether to fight.",
+      "publishedAt": "2026-11-25T21:22:06Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "7f3701e10f5b5e76",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597032/bears-rule-gordon-high-stakes-game-detroit",
+      "title": "Bears rule out Gordon for second straight game due to shoulder injury",
+      "summary": "Bears cornerback Kyler Gordon's shoulder injury will prevent him from playing against the Lions in a key Thanksgiving Day divisional game in Detroit.",
+      "publishedAt": "2026-11-25T21:18:35Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "f7a3e92c014db9af",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50596866/vikings-cousins-says-fiery-demeanor-part-leadership",
+      "title": "Vikings' Cousins says fiery demeanor part of leadership",
+      "summary": "Quarterback Kirk Cousins said there has been a \"fire and intensity to me\" since returning to the Vikings two weeks ago at the trade deadline.",
+      "publishedAt": "2026-11-25T21:16:38Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "132d23ab3ffbea8a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-rule-out-kyler-gordon-roschon-johnson",
+      "title": "Bears rule out Kyler Gordon, Roschon Johnson",
+      "summary": "The Bears released their final injury report for Thursday's game in Detroit.",
+      "publishedAt": "2026-11-25T21:12:02Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "dffe21bd442f539b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+      "title": "49ers QB Brock Purdy has ankle injury, won't practice Wednesday",
+      "summary": "49ers quarterback Brock Purdy will not practice Wednesday as he deals with an ankle injury suffered in Sunday night's game against the Vikings.",
+      "publishedAt": "2026-11-25T21:04:52Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "7bcc9af0b2b48c68",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-activate-de-kobie-turner-off-ir",
+      "title": "Rams activate DE Kobie Turner off IR",
+      "summary": "The Rams officially have one of their key defenders back for Wednesday night’s game against the Packers.",
+      "publishedAt": "2026-11-25T21:03:14Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "46d241adba16ac64",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-list-dj-wonnum-chuck-clark-as-questionable-for-thursday",
+      "title": "Lions list DJ Wonnum, Chuck Clark as questionable for Thursday",
+      "summary": "The Lions issued a pair of questionable designations for Thursday's game against the Bears.",
+      "publishedAt": "2026-11-25T20:56:46Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "2a9311541f2a4ed2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50577887/nfl-week-12-uniforms",
+      "title": "NFL Week 12 uniforms: Rams debut alternates, Cowboys rock Thanksgiving throwbacks",
+      "summary": "Here's a look at what each NFL team is wearing in Week 12, led by an alternate uniform for the Los Angeles Rams.",
+      "publishedAt": "2026-11-25T20:56:45Z",
+      "teamIds": [
+        "6",
+        "14"
+      ]
+    },
     {
       "id": "d6506efb880f920e",
       "source": "cbs",
@@ -10,6 +136,17 @@
       "summary": "Backing Chicago to win outright in Detroit, grabbing the points with Philadelphia against Dallas and targeting the Under in a high-stakes showdown between Kansas City and Buffalo",
       "publishedAt": "2026-11-25T20:47:00Z",
       "teamIds": []
+    },
+    {
+      "id": "771eb4dacef847e5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pat-freiermuth-aaron-rodgers-said-what-he-said-im-focused-on-denver",
+      "title": "Pat Freiermuth: Aaron Rodgers said what he said, I'm focused on Denver",
+      "summary": "While Aaron Rodgers was going scorched earth on the Steelers and head coach Mike McCarthy during Wednesday's appearance on The Pat McAfee Show, he said that tight end Pat Freiermuth informed him of the team's decision to bench him on Tuesday night.",
+      "publishedAt": "2026-11-25T20:40:57Z",
+      "teamIds": [
+        "23"
+      ]
     },
     {
       "id": "d973c6c1f4236f85",
@@ -59,8 +196,8 @@
       "id": "5b68591f9b1dcc09",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/steelers-release-aaron-rodgers-following-benching-qbs-criticism-mike-mccarthy",
-      "title": "Steelers release Aaron Rodgers following benching and QB's criticism of Mike McCarthy, per report",
-      "summary": "Rodgers will get a chance to finish his career elsewhere",
+      "title": "Steelers release Aaron Rodgers following criticism of Mike McCarthy: Possible landing spots for QB",
+      "summary": "Rodgers will get a chance to finish his career elsewhere if he chooses",
       "publishedAt": "2026-11-25T20:20:19Z",
       "teamIds": [
         "23"
@@ -183,8 +320,8 @@
       "id": "926889698b28fd0c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595660/rodgers-heard-mccarthy-benching",
-      "title": "Sources: Steelers cut Rodgers after QB rips McCarthy in scorched-earth interview",
-      "summary": "The Steelers are releasing Aaron Rodgers, sources told ESPN, after the quarterback said Wednesday on \"The Pat McAfee Show\" that coach Mike McCarthy has been sleeping through team meetings.",
+      "title": "Steelers cut Rodgers after QB rips McCarthy in scorched-earth interview",
+      "summary": "The Steelers have waived Aaron Rodgers after the quarterback said Wednesday on \"The Pat McAfee Show\" that coach Mike McCarthy has been sleeping through team meetings.",
       "publishedAt": "2026-11-25T19:20:11Z",
       "teamIds": [
         "23"
@@ -1488,136 +1625,6 @@
       "teamIds": [
         "21"
       ]
-    },
-    {
-      "id": "db4d1a28d3c03756",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/brandon-aiyuk-meeting-commanders-report-free-agent-wr-reunion-jayden-daniels",
-      "title": "Brandon Aiyuk to meet with Commanders, per report: Free agent WR seeks reunion with Jayden Daniels",
-      "summary": "Aiyuk may already have a destination lined up shortly after his release from the 49ers and waiver clearance.",
-      "publishedAt": "2026-11-24T23:04:41Z",
-      "teamIds": [
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "26a2e5d15cbcf394",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-laporta-upgraded-to-full-participation-at-lions-practice",
-      "title": "Sam LaPorta upgraded to full participation at Lions practice",
-      "summary": "Lions tight end Sam LaPorta took a step in the right direction on Tuesday's injury report.",
-      "publishedAt": "2026-11-24T23:00:23Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "9bfa48105764950e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50586087/broncos-payton-says-rb-dobbins-suspended-one-game",
-      "title": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
-      "summary": "The Broncos suspended running back J.K. Dobbins for one game for conduct detrimental to the team.",
-      "publishedAt": "2026-11-24T22:45:49Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "da406e799b7327eb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50586505/brandon-aiyuk-scheduled-visit-wednesday-commanders",
-      "title": "Brandon Aiyuk scheduled for visit Wednesday with Commanders, agent says",
-      "summary": "Wide receiver Brandon Aiyuk is scheduled to visit Wednesday with the Commanders, agent Drew Rosenhaus told ESPN's Adam Schefter.",
-      "publishedAt": "2026-11-24T22:41:48Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "4848adb6c6150eba",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-will-visit-commanders",
-      "title": "Brandon Aiyuk will visit Commanders",
-      "summary": "Aiyuk has mentioned signing with Washington for months.",
-      "publishedAt": "2026-11-24T22:34:26Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "b1356007b20ef88b",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/broncos-suspend-rb-j-k-dobbins-one-game-conduct-detrimental-team",
-      "title": "Broncos suspend RB J.K. Dobbins one game for conduct detrimental to team",
-      "summary": "Dobbins will not play against the Steelers on Friday as Denver holds a slight lead over Kansas City in the AFC West race",
-      "publishedAt": "2026-11-24T22:07:45Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "0f8ccb3cb8ad9778",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-add-cb-isaac-yiadom-off-waivers",
-      "title": "Bears add CB Isaac Yiadom off waivers",
-      "summary": "The Bears have added a defensive back.",
-      "publishedAt": "2026-11-24T22:05:42Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "9deaed47c35fb471",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/michigan-does-about-face-on-trev-alberts-potentially-owing-him-17-2-million",
-      "title": "Michigan does about-face on Trev Alberts, potentially owing him $17.2 million",
-      "summary": "The last time Trev Alberts made this kind of a stir, he was the subject of Bill Tobin's legendary rant against Mel Kiper.",
-      "publishedAt": "2026-11-24T22:04:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "13cfdc73fbb6e1b4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-put-greg-newsome-on-injured-reserve",
-      "title": "Giants put Greg Newsome on injured reserve",
-      "summary": "Giants head coach John Harbaugh said on Monday that cornerback Greg Newsome will miss multiple weeks with a high-ankle sprain and a clearer picture of just how many weeks came on Tuesday.",
-      "publishedAt": "2026-11-24T22:00:54Z",
-      "teamIds": [
-        "19"
-      ]
-    },
-    {
-      "id": "3231e5202033d09e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/player-turned-doctor-laurent-duvernay-tardif-is-working-with-the-chiefs-medical-staff",
-      "title": "Player-turned-doctor Laurent Duvernay-Tardif is working with the Chiefs' medical staff",
-      "summary": "Former Chiefs offensive lineman Laurent Duvernay-Tardif, who got his medical degree while playing in the NFL, is back in Kansas City working with the Chiefs' medical staff.",
-      "publishedAt": "2026-11-24T21:55:32Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "ca14a9af0f6bcb43",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-suspends-j-k-dobbins-for-week-12-for-conduct-detrimental-to-the-team",
-      "title": "Sean Payton suspends J.K. Dobbins for Week 12 for conduct detrimental to the team",
-      "summary": "Dobbins played just one offensive snap in the Week 11 win over the Raiders.",
-      "publishedAt": "2026-11-24T21:52:12Z",
-      "teamIds": [
-        "13"
-      ]
-    },
-    {
-      "id": "582d4bb5c7c7d7e0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-is-a-free-agent-after-clearing-waivers",
-      "title": "Brandon Aiyuk is a free agent after clearing waivers",
-      "summary": "Wide receiver Brandon Aiyuk is officially a free agent.",
-      "publishedAt": "2026-11-24T21:50:41Z",
-      "teamIds": []
     }
   ]
 }
