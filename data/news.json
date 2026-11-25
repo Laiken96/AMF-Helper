@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T04:47:24Z",
+  "updatedAt": "2026-11-25T05:47:28Z",
   "items": [
+    {
+      "id": "09c2f6ed278f32a5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-face-quick-pivot-to-preparing-for-mason-rudolph-on-friday",
+      "title": "Broncos face quick pivot to preparing for Mason Rudolph on Friday",
+      "summary": "The Black Friday game between the Broncos and Steelers was preceded by the Black Tuesday benching of quarterback Aaron Rodgers.",
+      "publishedAt": "2026-11-25T05:06:02Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
     {
       "id": "4f78b699e7063c10",
       "source": "espn",
@@ -1590,15 +1602,6 @@
         "4",
         "28"
       ]
-    },
-    {
-      "id": "2504f749bd65d176",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sec-plans-to-consider-ejecting-lsu-on-december-3",
-      "title": "SEC plans to consider ejecting LSU on December 3",
-      "summary": "The supposed \"chaos\" in college sports could still result in the SEC kicking LSU out of the conference.",
-      "publishedAt": "2026-11-24T04:22:54Z",
-      "teamIds": []
     }
   ]
 }
