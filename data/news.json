@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T18:47:28Z",
+  "updatedAt": "2026-11-25T19:25:05Z",
   "items": [
+    {
+      "id": "926889698b28fd0c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50595660/rodgers-heard-mccarthy-benching",
+      "title": "Aaron Rodgers says he's done with Steelers, says Mike McCarthy asleep in meetings",
+      "summary": "Quarterback Aaron Rodgers said Wednesday on \"The Pat McAfee Show\" that he won't return to the Steelers after his stunning benching and alleges that coach Mike McCarthy has been sleeping in meetings.",
+      "publishedAt": "2026-11-25T19:20:11Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "c1daaf29805ad574",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50595733/rodgers-accuses-mccarthy-snoring-meetings-rips-steelers-coach",
+      "title": "Rodgers accuses McCarthy of 'snoring' during meetings, rips the Steelers coach",
+      "summary": null,
+      "publishedAt": "2026-11-25T19:15:27Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "97972ae7a646cb31",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-mike-mccarthy-fell-asleep-in-meeting-last-week-broke-down-steelers-with-1-2-3-packers",
+      "title": "Aaron Rodgers: Mike McCarthy fell asleep in meeting last week, broke down Steelers with \"1-2-3 Packers\"",
+      "summary": "Rodgers's first comments since being benched by the Steelers came on The Pat McAfee Show.",
+      "publishedAt": "2026-11-25T19:06:49Z",
+      "teamIds": [
+        "9",
+        "23"
+      ]
+    },
+    {
+      "id": "dc42dfc6c2a09794",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50595543/ian-rapoport-gives-details-brandon-aiyuk-joining-commanders-practice-squad",
+      "title": "Ian Rapoport gives details on Brandon Aiyuk joining Commanders' practice squad",
+      "summary": null,
+      "publishedAt": "2026-11-25T18:53:50Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "a8d53d93c574916a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dalton-kincaid-christian-benford-among-five-bills-listed-as-questionable",
+      "title": "Dalton Kincaid, Christian Benford among five Bills listed as questionable",
+      "summary": "The Bills could be getting tight end Dalton Kincaid and cornerback Christian Benford back in the lineup on Thursday night.",
+      "publishedAt": "2026-11-25T18:46:08Z",
+      "teamIds": [
+        "2"
+      ]
+    },
     {
       "id": "7e55ed4d7598c2a8",
       "source": "espn",
@@ -18,7 +74,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
       "title": "Brandon Aiyuk joining Commanders, will reunite with college QB Jayden Daniels",
-      "summary": "Wide receiver Brandon Aiyuk is signing with the Commanders on their practice squad, agent Drew Rosenhaus told ESPN's Adam Schefter",
+      "summary": "Wide receiver Brandon Aiyuk is signing with the Commanders on their practice squad, agent Drew Rosenhaus told ESPN's Adam Schefter.",
       "publishedAt": "2026-11-25T18:32:52Z",
       "teamIds": [
         "28"
@@ -489,6 +545,15 @@
       "title": "Fantasy buzz: How to navigate your roster for the Thanksgiving slate",
       "summary": "How do you decide which players go where for six days of fantasy football? Tristan H. Cockcroft breaks it all down.",
       "publishedAt": "2026-11-25T16:00:39Z",
+      "teamIds": []
+    },
+    {
+      "id": "2ae2720c481c9e03",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50573832/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 12",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-25T15:55:22Z",
       "teamIds": []
     },
     {
@@ -1550,63 +1615,6 @@
       "title": "Why Dopp is still in on 'target monster' Trey McBride",
       "summary": null,
       "publishedAt": "2026-11-24T20:29:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "dbcea17e24b59ba3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50119375/2026-fantasy-football-rankings-start-sit",
-      "title": "Fantasy football consistency ratings for 2026",
-      "summary": "The consistency ratings weigh how consistent, as well as how start-worthy, players have been in ESPN fantasy football leagues in 2026.",
-      "publishedAt": "2026-11-24T20:27:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "a87076e256e75b81",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869463/2026-fantasy-football-expected-points-xfpa-position-qb-rb-wr-te",
-      "title": "2026 expected fantasy points against (xFPA) by position",
-      "summary": "Measuring the best defenses against specific positions by using expected points vs. actual fantasy production.",
-      "publishedAt": "2026-11-24T20:16:16Z",
-      "teamIds": []
-    },
-    {
-      "id": "102a8bc80dbd84cd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-qb-shane-buechele-off-bills-practice-squad",
-      "title": "Colts sign QB Shane Buechele off Bills practice squad",
-      "summary": "The Colts have added a third quarterback to their active roster.",
-      "publishedAt": "2026-11-24T20:15:32Z",
-      "teamIds": [
-        "2",
-        "11"
-      ]
-    },
-    {
-      "id": "af1eb0bdc5b525e0",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869668/2026-fantasy-football-expected-fantasy-points-xfp-te",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for TEs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-24T20:12:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "5d67837c042d9f80",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869659/fantasy-football-2026-expected-fantasy-points-xfp-wr",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for WRs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-24T20:10:40Z",
-      "teamIds": []
-    },
-    {
-      "id": "33cf91fb12b5eb9b",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869631/2026-fantasy-football-expected-fantasy-points-xfp-rb",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for RBs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-24T20:08:49Z",
       "teamIds": []
     }
   ]
