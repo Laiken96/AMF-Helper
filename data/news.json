@@ -1,7 +1,160 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T22:47:22Z",
+  "updatedAt": "2026-11-25T23:47:28Z",
   "items": [
+    {
+      "id": "c9de171285d80ce8",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/rams-vs-packers-picks-odds-prediction-spread-thanksgiving-eve-start-time-nfl-betting-preview-best-bets",
+      "title": "Rams vs. Packers picks, odds, prediction, spread: Thanksgiving Eve start time, NFL betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Packers vs. Rams on Wednesday in NFL Week 12",
+      "publishedAt": "2026-11-25T23:39:16Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "1abaef96e7917d18",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-officially-put-jk-dobbins-on-suspended-list",
+      "title": "Broncos officially put JK Dobbins on suspended list",
+      "summary": "Broncos head coach Sean Payton announced on Tuesday that running back JK Dobbins was being suspended for conduct detrimental to the team and the move became official on Wednesday.",
+      "publishedAt": "2026-11-25T23:34:33Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "dfdd892711979946",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873085",
+      "title": "Ryans says Texans are focused on winning each week as Ravens limp in on 6-game skid without Jackson",
+      "summary": "Despite their struggles this season, the Houston Texans still have a good shot to reach the playoffs if they finish strong.",
+      "publishedAt": "2026-11-25T23:34:32Z",
+      "teamIds": [
+        "33",
+        "34"
+      ]
+    },
+    {
+      "id": "4f33c7616bdb6e06",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-promos-get-almost-4000-in-bonuses-from-betting-apps-sportsbooks-for-packers-vs-rams",
+      "title": "Week 12 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Packers vs. Rams",
+      "summary": "Top Week 12 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-25T23:34:19Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "e6deb39b3e72426c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873088",
+      "title": "QB Anthony Richardson hopes to follow J.J. McCarthy's lead when he starts for Colts against Giants",
+      "summary": "Anthony Richardson has already watched quarterback",
+      "publishedAt": "2026-11-25T23:33:33Z",
+      "teamIds": [
+        "11",
+        "19"
+      ]
+    },
+    {
+      "id": "fcfccd4c2fbab296",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-injury-report-updates-kenneth-walker-brock-purdy-sam-darnold",
+      "title": "NFL Week 12 injury report: Thanksgiving game statuses, latest updates for Sam Darnold, Brock Purdy",
+      "summary": "Brock Purdy missed Wednesday's practice with an ankle injury, while Sam Darnold appears on track to return for a pivotal NFC West matchup",
+      "publishedAt": "2026-11-25T23:10:35Z",
+      "teamIds": []
+    },
+    {
+      "id": "0f773bbf82748253",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873082",
+      "title": "Allen and Mahomes renew their thrilling rivalry as the Bills host the Chiefs on Thanksgiving night",
+      "summary": "Sorry, Steve Spagnuolo. Josh Allen has no plans of going anywhere, any time soon.",
+      "publishedAt": "2026-11-25T23:03:41Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "06ac94402c628386",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50415106/nfl-week-12-odds-thanksgiving-betting-preview-props",
+      "title": "Best bets and top prop plays for Bears-Lions, Eagles-Cowboys and Chiefs-Bills",
+      "summary": "Odds, analysis and picks to help you bet Bears-Lions, Eagles-Cowboys and Chiefs-Bills on Thanksgiving.",
+      "publishedAt": "2026-11-25T23:00:24Z",
+      "teamIds": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "12",
+        "21"
+      ]
+    },
+    {
+      "id": "1c341464fcc64700",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50598220/mike-mccarthy-defends-amid-accusations-aaron-rodgers",
+      "title": "Mike McCarthy defends himself amid accusations from Aaron Rodgers",
+      "summary": null,
+      "publishedAt": "2026-11-25T22:59:05Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "cc0b22cba78c0884",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873081",
+      "title": "Lions and Bears kick off NFL's Thanksgiving Day tripleheader, playing for first place in NFC North",
+      "summary": "NFL fans without ties to Detroit used to dread when the Lions kicked off the league's annual tradition of playing on Thanksgiving Day because they were a laughingstock for many years.",
+      "publishedAt": "2026-11-25T22:57:33Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "dbdd8954cdab76db",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-listed-as-limited-in-vikings-practice",
+      "title": "Kyler Murray listed as limited in Vikings practice",
+      "summary": "Vikings quarterback Kyler Murray's practice status changed on Wednesday.",
+      "publishedAt": "2026-11-25T22:55:45Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "d8c0975680d33350",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873080",
+      "title": "Cowboys really need back-to-back wins this time with rival Eagles visiting on Thanksgiving",
+      "summary": "If the Dallas Cowboys don't solve a puzzling inability to win consecutive games when NFC East rival Philadelphia visits on Thanksgiving, they'll have to accept that they're probably going to miss the playoffs for the third year in a row.",
+      "publishedAt": "2026-11-25T22:47:45Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "b4cee3e713283885",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-claim-qb-kedon-slovis-off-waivers",
+      "title": "Cardinals claim QB Kedon Slovis off waivers",
+      "summary": "Quarterback Kedon Slovis is back in Arizona.",
+      "publishedAt": "2026-11-25T22:44:24Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "d080d96ff7d5ae0a",
       "source": "espn",
@@ -543,7 +696,7 @@
       "id": "f485aaf33502d454",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
-      "title": "Brandon Aiyuk joining Commanders, will reunite with college QB Jayden Daniels",
+      "title": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
       "summary": "Wide receiver Brandon Aiyuk is signing with the Commanders on their practice squad, the team announced.",
       "publishedAt": "2026-11-25T18:32:52Z",
       "teamIds": [
@@ -851,6 +1004,17 @@
       "summary": null,
       "publishedAt": "2026-11-25T16:59:10Z",
       "teamIds": []
+    },
+    {
+      "id": "fec373e9a96079b3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-injury-report-micah-parsons-cleared-kenneth-walker-iii-practices",
+      "title": "NFL Thanksgiving injury report: Micah Parsons cleared for season debut, Chiefs' Kenneth Walker III out",
+      "summary": "Injury reports for every NFL team playing on Wednesday and Thursday in Week 12",
+      "publishedAt": "2026-11-25T16:57:39Z",
+      "teamIds": [
+        "12"
+      ]
     },
     {
       "id": "a1545ff2487b6e96",
@@ -1466,170 +1630,6 @@
       "publishedAt": "2026-11-25T11:17:43Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "0eb842a1dc2c499e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/move-to-bench-aaron-rodgers-reportedly-was-coachs-decision",
-      "title": "Move to bench Aaron Rodgers reportedly was \"coach's decision\"",
-      "summary": "The timing of the decision remains unclear.",
-      "publishedAt": "2026-11-25T11:03:32Z",
-      "teamIds": []
-    },
-    {
-      "id": "b20534a6cd9ec54f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
-      "title": "Prisco's Week 12 NFL picks: Packers edge Rams, Cowboys feast on Eagles, Bills win thriller over Chiefs",
-      "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
-      "publishedAt": "2026-11-25T11:00:42Z",
-      "teamIds": [
-        "2",
-        "6",
-        "7",
-        "9",
-        "12",
-        "14",
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "ffadfe915110d29e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-halftime-show-performers-schedule",
-      "title": "NFL Thanksgiving 2026: A look at every NFL halftime show performer for the holiday slate",
-      "summary": "There will be four performances between Thanksgiving Eve and Thanksgiving",
-      "publishedAt": "2026-11-25T11:00:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "449d7a6b73a67131",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50583319/joe-milton-build-momentum-thanksgiving-start-dallas-cowboys",
-      "title": "From practice squad to prime time: A look at Milton's big chance on Thanksgiving",
-      "summary": "Ex-Cowboys QB Milton is set to headline the Eagles' Thanksgiving game, can he make the most of it?",
-      "publishedAt": "2026-11-25T11:00:11Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "98e773b753ac0b5a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50582759/micah-parsons-packers-acl-return-snap-count-rams",
-      "title": "How will Packers use Micah Parsons in return from torn ACL?",
-      "summary": "Parsons and the Packers must balance protecting his surgically repaired knee with turning him loose Wednesday.",
-      "publishedAt": "2026-11-25T11:00:10Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "10c08a19983476d3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50584512/minnesota-vikings-kirk-cousins-flores-defense",
-      "title": "Can Vikings' offense win when the defense doesn't dominate?",
-      "summary": "If the offense with Kirk Cousins at the helm can't get going, a deep playoff run might not be in the offing.",
-      "publishedAt": "2026-11-25T11:00:04Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "e8b6e99ff1c5524c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50574387/puka-nacua-injury-last-season-los-angeles-rams-week-12",
-      "title": "Has Puka Nacua played his final snaps in a Rams uniform?",
-      "summary": "It is the final season of Nacua's rookie deal, and the complicating factors of signing him to an extension are glaring.",
-      "publishedAt": "2026-11-25T11:00:00Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "370d15685f25048f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-lions-is-first-thanksgiving-game-ever-with-both-teams-on-5-game-winning-streaks",
-      "title": "Bears-Lions is first Thanksgiving game ever with both teams on 5+ game winning streaks",
-      "summary": "One of the best Thanksgiving games ever will take place Thursday in Detroit.",
-      "publishedAt": "2026-11-25T09:43:53Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "408eaeabdc71f867",
-      "source": "espn",
-      "url": "https://espn.com/espn/story/_/id/50590411/chuba-hubbard-makes-difference-again-another-tight-panthers-win",
-      "title": "Chuba Hubbard makes the difference again in another tight Panthers win",
-      "summary": "Chuba Hubbard had a second straight week with two touchdowns in Week 11 of the NFL season, and crucially, both performances have been decisive in nail-biting Carolina Panthers wins.",
-      "publishedAt": "2026-11-25T06:18:25Z",
-      "teamIds": [
-        "33",
-        "29"
-      ]
-    },
-    {
-      "id": "93cbf58f664f394c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-make-qb-inactive-friday-broncos",
-      "title": "Steelers bench Aaron Rodgers, turn to Mason Rudolph to start vs. Broncos",
-      "summary": "Pittsburgh made the call to bench Rodgers after offensive struggles led to consecutive losses following a 6-2 start",
-      "publishedAt": "2026-11-25T05:18:04Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "09c2f6ed278f32a5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-face-quick-pivot-to-preparing-for-mason-rudolph-on-friday",
-      "title": "Broncos face quick pivot to preparing for Mason Rudolph on Friday",
-      "summary": "The Black Friday game between the Broncos and Steelers was preceded by the Black Tuesday benching of quarterback Aaron Rodgers.",
-      "publishedAt": "2026-11-25T05:06:02Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "4f78b699e7063c10",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
-      "title": "Sources: Aaron Rodgers excused from Steelers facility to process benching",
-      "summary": "The Steelers have benched Aaron Rodgers in a stunning twist that could signal the end of the star QB's NFL career.",
-      "publishedAt": "2026-11-25T04:46:24Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "79a7cc19673d3dbd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-bench-aaron-rodgers-for-mason-rudolph",
-      "title": "Steelers bench Aaron Rodgers for Mason Rudolph",
-      "summary": "Announcement comes out of the blue, after 11:00 p.m. ET on Tuesday night.",
-      "publishedAt": "2026-11-25T04:27:45Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "1c5463ad7bc6b25a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-breech-picks-score-predictions-bears-chiefs-rams-packers",
-      "title": "NFL Week 12 picks, score predictions: Bears, Chiefs lose on Thanksgiving; Rams edge Packers in thriller",
-      "summary": "Here's your weekly dose of John Breech's NFL picks",
-      "publishedAt": "2026-11-25T04:26:42Z",
-      "teamIds": [
-        "3",
-        "9",
-        "12",
-        "14"
       ]
     }
   ]
