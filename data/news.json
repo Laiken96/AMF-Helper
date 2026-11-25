@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T00:47:25Z",
+  "updatedAt": "2026-11-25T01:47:30Z",
   "items": [
+    {
+      "id": "ea2f5adc23fef8bc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-49ers-in-mexico-city-averaged-23-8-million-on-sunday-night",
+      "title": "Vikings-49ers in Mexico City averaged 23.8 million on Sunday night",
+      "summary": "Sunday night's game between the Vikings and 49ers had the potential to be a great one.",
+      "publishedAt": "2026-11-25T01:40:50Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "1daf1aab7b8c3b9c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/thanksgiving-week-features-extra-episodes-of-pftpm",
+      "title": "Thanksgiving week features extra episodes of #PFTPM",
+      "summary": "Thanksgiving week typically alters the usual PFT Live schedule.",
+      "publishedAt": "2026-11-25T01:14:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "3eb624dcdea21635",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-nfl-youtube-are-negotiating-a-three-game-package-for-2027",
+      "title": "Report: NFL, YouTube are negotiating a three-game package for 2027",
+      "summary": "YouTube's on-again, off-again arrangements to stream select NFL games may be on again.",
+      "publishedAt": "2026-11-25T00:49:40Z",
+      "teamIds": []
+    },
     {
       "id": "ff0de827a2892277",
       "source": "pft",
@@ -18,7 +48,7 @@
       "id": "ccabab36bcd3bece",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
-      "title": "Bears' Johnson has no plan to forgo Swift's role in run game despite costly fumbles",
+      "title": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
       "summary": "Chicago Bears running back D'Andre Swift won't have an extended stay in Ben Johnson's doghouse after fumbling in the fourth quarter against the Saints.",
       "publishedAt": "2026-11-25T00:25:40Z",
       "teamIds": [
@@ -1568,40 +1598,6 @@
       "publishedAt": "2026-11-24T02:08:18Z",
       "teamIds": [
         "19"
-      ]
-    },
-    {
-      "id": "2d358cc759fbd209",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-list-chuck-clark-dj-wonnum-as-out-of-mondays-practice",
-      "title": "Lions list Chuck Clark, DJ Wonnum as out of Monday's practice",
-      "summary": "A pair of Lions defensive starters would have missed practice on Monday.",
-      "publishedAt": "2026-11-24T02:02:18Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "998c432b96cccf86",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/theo-benedet-kyler-gordon-listed-as-out-of-bears-practice",
-      "title": "Theo Benedet, Kyler Gordon listed as out of Bears practice",
-      "summary": "The Bears listed three players as out of practice on their first injury report ahead of Thursday afternoon's game in Detroit.",
-      "publishedAt": "2026-11-24T01:56:06Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "1223e16726fa38c3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50578357/seahawks-holding-final-sam-darnold-call-vs-49ers",
-      "title": "Seahawks to monitor Sam Darnold status this week before final call vs. 49ers",
-      "summary": "The Seahawks still plan to start Sam Darnold against the 49ers but will wait to see how the QB looks in practice Wednesday before making a final call.",
-      "publishedAt": "2026-11-24T01:42:11Z",
-      "teamIds": [
-        "26",
-        "25"
       ]
     }
   ]
