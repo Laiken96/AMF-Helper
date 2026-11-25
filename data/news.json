@@ -1,12 +1,156 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T19:47:23Z",
+  "updatedAt": "2026-11-25T20:47:34Z",
   "items": [
+    {
+      "id": "d6506efb880f920e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-thanksgiving-nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-sunday",
+      "title": "Week 12 Thanksgiving NFL odds, picks: Brinson's best bets, player props, anytime TD scorers for Sunday",
+      "summary": "Backing Chicago to win outright in Detroit, grabbing the points with Philadelphia against Dallas and targeting the Under in a high-stakes showdown between Kansas City and Buffalo",
+      "publishedAt": "2026-11-25T20:47:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "d973c6c1f4236f85",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/aaron-rodgers-next-team-predictions-patriots-ravens-favored-to-land-quarterback-after-steelers-release",
+      "title": "Aaron Rodgers next team predictions: Patriots, Ravens favored to land quarterback after Steelers release",
+      "summary": "With Aaron Rodgers' time in the Steel City over, here's a closer look at where he could land, according to Kalshi",
+      "publishedAt": "2026-11-25T20:33:39Z",
+      "teamIds": [
+        "33",
+        "17",
+        "23"
+      ]
+    },
+    {
+      "id": "d77d4853b15a1846",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49907062/aaron-rodgers-2026-nfl-season-steelers-packers-jets-tracking-records-milestones",
+      "title": "Aaron Rodgers' 2026 NFL season: Tracking records, milestones",
+      "summary": "The Pittsburgh passer is chasing records in his 22nd NFL season, and ESPN is chronicling his \"last rodeo.\"",
+      "publishedAt": "2026-11-25T20:28:03Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "0d0c40dbcd9d5c1d",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-activate-s-jalen-thompson",
+      "title": "Cowboys activate S Jalen Thompson",
+      "summary": "Safety Jalen Thompson is set for a Thanksgiving Day return to the Cowboys lineup.",
+      "publishedAt": "2026-11-25T20:25:05Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "eb8d0035421bb9e9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-can-become-the-fifth-coach-ever-to-win-10-of-his-first-11-games",
+      "title": "Joe Brady can become the fifth coach ever to win 10 of his first 11 games",
+      "summary": "Buffalo's Joe Brady is off to one of the best starts for any head coach in NFL history.",
+      "publishedAt": "2026-11-25T20:22:42Z",
+      "teamIds": []
+    },
+    {
+      "id": "5b68591f9b1dcc09",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-release-aaron-rodgers-following-benching-qbs-criticism-mike-mccarthy",
+      "title": "Steelers release Aaron Rodgers following benching and QB's criticism of Mike McCarthy, per report",
+      "summary": "Rodgers will get a chance to finish his career elsewhere",
+      "publishedAt": "2026-11-25T20:20:19Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ee9ee3613d6534f8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/31433043/from-holdout-concession-how-aaron-rodgers-green-bay-packers-got-here",
+      "title": "Aaron Rodgers' timeline with Packers, ending in trade to Jets",
+      "summary": "Here's a look at how Rodgers -- a 2005 first-round pick, four-time MVP and Super Bowl champion quarterback -- finished out his career with the Packers.",
+      "publishedAt": "2026-11-25T20:19:02Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "98f68d17f60b7faa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
+      "title": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
+      "summary": "The Bills are listing five starters -- including tight end Dalton Kincaid and cornerback Christian Benford -- as questionable for Thursday night's showdown with the Chiefs.",
+      "publishedAt": "2026-11-25T20:06:30Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "462cf0fb34d0aa2f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-placed-in-concussion-protocol-limited-in-wednesdays-practice",
+      "title": "Derrick Henry placed in concussion protocol, limited in Wednesday's practice",
+      "summary": "Derrick Henry has been placed in concussion protocol, but Ravens head coach Jesse Minter told reporters on Wednesday that the running back is likely to play on Sunday against the Texans.",
+      "publishedAt": "2026-11-25T20:01:53Z",
+      "teamIds": [
+        "33",
+        "34"
+      ]
+    },
+    {
+      "id": "dc899a40eccd5a47",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-are-expected-to-release-aaron-rodgers",
+      "title": "Report: Steelers are expected to release Aaron Rodgers",
+      "summary": "Its not done yet, but it's reportedly coming.",
+      "publishedAt": "2026-11-25T19:58:45Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "e3abd5329091a35b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-packers-vs-rams-clippers-vs-grizzlies-and-more",
+      "title": "Today's top games to watch, best bets, odds: Packers vs. Rams, Clippers vs. Grizzlies and more",
+      "summary": "Find best bets and props for the biggest games in sports on Wednesday from the SportsLine Projection Model and top CBS Sports experts",
+      "publishedAt": "2026-11-25T19:50:13Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "b715c0f86051882c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-suddenly-have-a-major-mess",
+      "title": "Steelers suddenly have a major mess",
+      "summary": "The Steelers need to figure things out, immediately.",
+      "publishedAt": "2026-11-25T19:49:36Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a4c4a7e1fc166f69",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-is-practicing-on-wednesday-after-missing-sundays-game",
+      "title": "Brock Bowers is practicing on Wednesday after missing Sunday's game",
+      "summary": "The Raiders could get a key player back for their Sunday night matchup against the Browns.",
+      "publishedAt": "2026-11-25T19:47:34Z",
+      "teamIds": [
+        "5",
+        "13"
+      ]
+    },
     {
       "id": "7f1e8c30cd057ecc",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/aaron-rodgers-unleases-on-steelers-mike-mccarthy-pat-mcafee-interview",
-      "title": "Aaron Rodgers unleashes on Mike McCarthy: Unpacking everything Steelers' QB said after benching",
+      "title": "Aaron Rodgers unleashes on Mike McCarthy: Unpacking everything Steelers QB said after benching",
       "summary": "Rodgers confirmed that his time in Pittsburgh is over, while accusing the Steelers coach of sleeping through meetings",
       "publishedAt": "2026-11-25T19:43:25Z",
       "teamIds": [
@@ -39,8 +183,8 @@
       "id": "926889698b28fd0c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595660/rodgers-heard-mccarthy-benching",
-      "title": "Aaron Rodgers says he's done with Steelers, says Mike McCarthy asleep in meetings",
-      "summary": "Quarterback Aaron Rodgers said Wednesday on \"The Pat McAfee Show\" that he won't return to the Steelers after his stunning benching and alleges that coach Mike McCarthy has been sleeping in meetings.",
+      "title": "Sources: Steelers cut Rodgers after QB rips McCarthy in scorched-earth interview",
+      "summary": "The Steelers are releasing Aaron Rodgers, sources told ESPN, after the quarterback said Wednesday on \"The Pat McAfee Show\" that coach Mike McCarthy has been sleeping through team meetings.",
       "publishedAt": "2026-11-25T19:20:11Z",
       "teamIds": [
         "23"
@@ -1474,149 +1618,6 @@
       "summary": "Wide receiver Brandon Aiyuk is officially a free agent.",
       "publishedAt": "2026-11-24T21:50:41Z",
       "teamIds": []
-    },
-    {
-      "id": "35cfe6ff196066bb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-limited-in-his-return-to-chiefs-practice",
-      "title": "Kenneth Walker limited in his return to Chiefs practice",
-      "summary": "Walker missed the last two games with a groin injury.",
-      "publishedAt": "2026-11-24T21:42:44Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "7d22a1ce6227ab2c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-do-not-activate-brady-christensen-at-expiration-of-21-day-practice-window",
-      "title": "Panthers do not activate Brady Christensen at expiration of 21-day practice window",
-      "summary": "As it turns out, the Panthers will not have one of their offensive linemen return for the 2026 season.",
-      "publishedAt": "2026-11-24T21:35:16Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "8cdea9c7bde0ec23",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-12-super-bowl-stock-report-49ers-separate-from-pack-jaguars-show-imperfections",
-      "title": "Week 12 Super Bowl stock report: 49ers separate from pack, Jaguars show imperfections",
-      "summary": "We assess the NFL title race after Week 11 and identify three upcoming games that could reshape the Super Bowl picture",
-      "publishedAt": "2026-11-24T21:30:50Z",
-      "teamIds": [
-        "30",
-        "25"
-      ]
-    },
-    {
-      "id": "bdf43d4f41e438b7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-ferguson-tyler-booker-remain-out-of-practice-for-cowboys",
-      "title": "Jake Ferguson, Tyler Booker remain out of practice for Cowboys",
-      "summary": "The Cowboys upgraded the practice participation of a couple of players on Tuesday's injury report, but two offensive starters remained out.",
-      "publishedAt": "2026-11-24T21:30:46Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "508f1c50ee1a4caa",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-lines-picks-predictions-week-12-2026",
-      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
-      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-24T21:20:29Z",
-      "teamIds": [
-        "15",
-        "16"
-      ]
-    },
-    {
-      "id": "5378906e01205d77",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50585746/ashton-jeanty-top-20-fantasy-rb-week-12",
-      "title": "Dopp: Ashton Jeanty a top-20 fantasy RB in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T21:15:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "3f43486188141bac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-sign-lb-chance-campbell-waive-c-jake-majors",
-      "title": "Eagles sign LB Chance Campbell, waive C Jake Majors",
-      "summary": "The Eagles made a couple of changes to their roster ahead of Thursday's game against the Cowboys.",
-      "publishedAt": "2026-11-24T21:12:57Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "17d8eb182ab41737",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50585636/dopp-jaylen-waddle-week-12-vs-steelers",
-      "title": "Dopp out on Jaylen Waddle in Week 12 vs. Steelers",
-      "summary": null,
-      "publishedAt": "2026-11-24T20:55:42Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "1849bb90c284a904",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50585635/why-dopp-encouraging-fantasy-managers-stay-away-jordan-love-week-12",
-      "title": "Why Dopp is encouraging fantasy managers to stay away from Jordan Love in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T20:53:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "47f857eca7d13190",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-add-chase-lundt-off-bills-practice-squad-waive-cb-avery-smith",
-      "title": "Seahawks add Chase Lundt off Bills practice squad, waive CB Avery Smith",
-      "summary": "The Seahawks are making a pair of roster moves on Tuesday.",
-      "publishedAt": "2026-11-24T20:44:42Z",
-      "teamIds": [
-        "2",
-        "26"
-      ]
-    },
-    {
-      "id": "4455ff4d207e6d83",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50585397/source-ravens-cut-punt-returner-wester-two-muffs-loss",
-      "title": "Ravens cut punt returner LaJohntay Wester after his two muffs in loss",
-      "summary": "The Ravens waived returner LaJohntay Wester after he muffed two punts in Sunday's loss at Carolina.",
-      "publishedAt": "2026-11-24T20:44:27Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "6825957ba68d67cf",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
-      "title": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
-      "summary": "A video clip of Washington Commanders receiver Stefon Diggs appearing to chew out teammates, including quarterback Jayden Daniels, during Monday's win over Cincinnati did not bother his coach.",
-      "publishedAt": "2026-11-24T20:44:08Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "f6646e5d450dc0dd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-on-stefon-diggs-i-love-his-fire",
-      "title": "Dan Quinn on Stefon Diggs: I love his fire",
-      "summary": "Monday night ended well for the Commanders, but the start of the game was rough for the team's offense and frustrations about that boiled over on the sideline at one point.",
-      "publishedAt": "2026-11-24T20:37:05Z",
-      "teamIds": [
-        "28"
-      ]
     }
   ]
 }
