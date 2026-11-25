@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-25T18:01:07Z",
+    "takenAt": "2026-11-25T20:10:45Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1633,7 +1633,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "3916387",
@@ -2124,7 +2124,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -2406,6 +2406,16 @@
     },
     {
       "gameId": "401873085",
+      "athleteId": "3043078",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873085",
       "athleteId": "4429059",
       "name": "Woody Marks",
       "pos": "RB",
@@ -2460,6 +2470,16 @@
       "name": "Justin Herbert",
       "pos": "QB",
       "teamAbbr": "LAC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873091",
+      "athleteId": "4361741",
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
