@@ -1,7 +1,120 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T10:47:23Z",
+  "updatedAt": "2026-11-25T11:47:27Z",
   "items": [
+    {
+      "id": "35fc0407f5f79217",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50573798/nfl-2026-betting-survivor-pools-upsets-circa-splash",
+      "title": "How upsets in the 2026 NFL season have upended survivor pools",
+      "summary": "Why spend up to nearly $80,000 in order to win a survivor contest over halfway through the NFL season?",
+      "publishedAt": "2026-11-25T11:44:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "cb4354eb6a170c7f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-took-his-usual-practice-reps-on-tuesday-did-his-usual-midweek-press-conference",
+      "title": "Aaron Rodgers took his usual practice reps on Tuesday, did his usual midweek press conference",
+      "summary": "For the Steelers, Tuesday unfolded in the usual way that it would unfold with a game coming on Friday — even if late Tuesday night included a highly unexpected curveball.",
+      "publishedAt": "2026-11-25T11:28:13Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "7358c55d3366b241",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+      "title": "2026 NFL Thanksgiving preview: Picks, predictions, schedule, odds, fantasy tips",
+      "summary": "We have the top storylines, bold predictions, stats to know, fantasy/betting nuggets and more for four Wednesday and Thursday games in Week 12.",
+      "publishedAt": "2026-11-25T11:20:49Z",
+      "teamIds": []
+    },
+    {
+      "id": "bf50b874c84685fb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50582929/week-12-buzz-fantasy-predictions-graziano-fowler-2026",
+      "title": "NFL Week 12 latest intel, buzz questions, news, fantasy tips: What we're hearing",
+      "summary": "Where could Daniel Jones and Brandon Aiyuk land? What's the latest on coaching hot seats? What's next for Puka Nacua? And who is getting MVP love in league circles?",
+      "publishedAt": "2026-11-25T11:19:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "d294097aaf1eb5df",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50589984/aaron-rodgers-benched-steelers-quarterback-rudolph-week-12",
+      "title": "What Aaron Rodgers' benching means for Steelers, his future",
+      "summary": "The Steelers are starting Mason Rudolph this week over Aaron Rodgers. Why make this change now -- and will it help? And is this really it for Rodgers?",
+      "publishedAt": "2026-11-25T11:18:30Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "28f85575d81d7043",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-numbers-this-year-are-similar-to-mason-rudolphs-career-with-the-steelers",
+      "title": "Aaron Rodgers' numbers this year are similar to Mason Rudolph's career with the Steelers",
+      "summary": "The Steelers have benched Aaron Rodgers for Mason Rudolph, which means they're replacing a quarterback who has given them mediocre production this year with a quarterback who has given them mediocre production throughout his career.",
+      "publishedAt": "2026-11-25T11:17:43Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "0eb842a1dc2c499e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/move-to-bench-aaron-rodgers-reportedly-was-coachs-decision",
+      "title": "Move to bench Aaron Rodgers reportedly was \"coach's decision\"",
+      "summary": "The timing of the decision remains unclear.",
+      "publishedAt": "2026-11-25T11:03:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "449d7a6b73a67131",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50583319/joe-milton-build-momentum-thanksgiving-start-dallas-cowboys",
+      "title": "From practice squad to prime time: A look at Milton's big chance on Thanksgiving",
+      "summary": "Ex-Cowboys QB Milton is set to headline the Eagles' Thanksgiving game, can he make the most of it?",
+      "publishedAt": "2026-11-25T11:00:11Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "98e773b753ac0b5a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50582759/micah-parsons-packers-acl-return-snap-count-rams",
+      "title": "How will Packers use Micah Parsons in return from torn ACL?",
+      "summary": "Parsons and the Packers must balance protecting his surgically repaired knee with turning him loose Wednesday.",
+      "publishedAt": "2026-11-25T11:00:10Z",
+      "teamIds": [
+        "9"
+      ]
+    },
+    {
+      "id": "10c08a19983476d3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50584512/minnesota-vikings-kirk-cousins-flores-defense",
+      "title": "Can Vikings' offense win when the defense doesn't dominate?",
+      "summary": "If the offense with Kirk Cousins at the helm can't get going, a deep playoff run might not be in the offing.",
+      "publishedAt": "2026-11-25T11:00:04Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "e8b6e99ff1c5524c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50574387/puka-nacua-injury-last-season-los-angeles-rams-week-12",
+      "title": "Has Puka Nacua played his final snaps in a Rams uniform?",
+      "summary": "It is the final season of Nacua's rookie deal, and the complicating factors of signing him to an extension are glaring.",
+      "publishedAt": "2026-11-25T11:00:00Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "370d15685f25048f",
       "source": "pft",
@@ -55,7 +168,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
       "title": "Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph",
-      "summary": "Pittsburgh Steelers coach Mike McCarthy has benched starting quarterback Aaron Rodgers in favor of backup Mason Rudolph.",
+      "summary": "Steelers coach Mike McCarthy has benched starting quarterback Aaron Rodgers in favor of backup Mason Rudolph.",
       "publishedAt": "2026-11-25T04:46:24Z",
       "teamIds": [
         "23"
@@ -1473,134 +1586,6 @@
       "publishedAt": "2026-11-24T11:00:15Z",
       "teamIds": [
         "6"
-      ]
-    },
-    {
-      "id": "341b8bf72de61385",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/uncalled-illegal-formation-if-there-was-one-wouldnt-have-resulted-in-10-second-runoff",
-      "title": "Uncalled illegal formation (if there was one) wouldn't have resulted in 10-second runoff",
-      "summary": "Yes, the officials missed an apparent issue with the clock last night, after the Commanders kicked a game-winning field goal.",
-      "publishedAt": "2026-11-24T10:54:38Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "6718e554ead4a9eb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-passed-for-146-yards-in-fourth-quarter-after-totaling-143-in-first-three",
-      "title": "Jayden Daniels passed for 146 yards in fourth quarter after totaling 143 in first three",
-      "summary": "When the fourth quarter started on Monday night, the Commanders trailed the Bengals 17-13.",
-      "publishedAt": "2026-11-24T10:02:45Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "1075c8269f727746",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-scars-from-our-late-game-losses-run-deep-glad-jayden-daniels-won-it-for-us",
-      "title": "Dan Quinn: Scars from our late-game losses run deep, glad Jayden Daniels won it for us",
-      "summary": "\"I couldn't have been more proud of Jayden at the end of the game,\" Quinn said after the Commanders' 22-20 win.",
-      "publishedAt": "2026-11-24T09:18:11Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "cd1f17fe82d65986",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
-      "title": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
-      "summary": "After failing multiple times in late-game situations earlier this season, Commanders quarterback Jayden Daniels put together a second consecutive winning drive Monday night as Washington kicked a last-second field goal to beat Cincinnati 22-20.",
-      "publishedAt": "2026-11-24T07:45:14Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "93be273726928494",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50580069/jayden-daniels-reacts-countdown-crew-picking-bengals-commanders",
-      "title": "Jayden Daniels reacts to Countdown crew picking Bengals over Commanders",
-      "summary": null,
-      "publishedAt": "2026-11-24T05:17:30Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "6b561dcd11df048d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail",
-      "title": "NFL Week 11 grades for every team: Commanders earn 'A-' for stunning Monday win",
-      "summary": "We're handing out grades for every team that played in Week 11",
-      "publishedAt": "2026-11-24T05:01:47Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "3b277dacf9f98244",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-11",
-      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 11",
-      "summary": "Sunday night's Vikings-49ers game is a very big one in the NFC playoff race.",
-      "publishedAt": "2026-11-24T05:01:00Z",
-      "teamIds": [
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "117406939297cef9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873078",
-      "title": "Jayden Daniels rallies Commanders in final seconds to set up winning kick in 22-20 win over Bengals",
-      "summary": "Jayden Daniels and the Commanders had scored on five consecutive drives, all of them covering 50 yards or more. But their last possession was the most daunting.",
-      "publishedAt": "2026-11-24T04:46:32Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "43b850a51671a86d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50567903/nfl-week-11-trolls",
-      "title": "Commanders' Jayden Daniels-themed post aimed at Bengals tops NFL Week 11 trolls",
-      "summary": "NFL teams remained petty in Week 11, led by a post from the Washington Commanders.",
-      "publishedAt": "2026-11-24T04:44:04Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "8b81db2c0136cd90",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50573995/2026-nfl-week-11-washington-commanders-cincinnati-bengals",
-      "title": "Commanders building momentum, halt Bengals' 5-game win streak",
-      "summary": "The Commanders' defense held the potent Bengals in check and Washington has won three of four.",
-      "publishedAt": "2026-11-24T04:41:17Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "fe13da77eafc3ce9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/clock-operator-robbed-bengals-of-one-final-play",
-      "title": "Clock operator robbed Bengals of one final play",
-      "summary": "The Bengals-Commanders game carries a small but not insignificant asterisk.",
-      "publishedAt": "2026-11-24T04:41:00Z",
-      "teamIds": [
-        "4",
-        "28"
       ]
     }
   ]
