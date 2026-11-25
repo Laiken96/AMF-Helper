@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T02:47:24Z",
+  "updatedAt": "2026-11-25T03:47:26Z",
   "items": [
+    {
+      "id": "15ead2407be1b6d3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-shrugs-at-talk-of-being-on-the-hot-seat-in-colorado",
+      "title": "Deion Sanders shrugs at talk of being on the hot seat in Colorado",
+      "summary": "As he concludes his fourth season at Colorado, there are real questions as to whether coach Deion Sanders will have a fifth.",
+      "publishedAt": "2026-11-25T03:05:25Z",
+      "teamIds": []
+    },
     {
       "id": "38edbdbd19e95a6f",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50588773/long-lions-owner-martha-firestone-ford-dies-age-101",
       "title": "Longtime Lions owner Martha Firestone Ford dies at age 101",
-      "summary": "Martha Firestone Ford, who served as the primary owner of the Lions from 1994 to 2020, has died at the age of 101, the team announced Tuesday night.",
+      "summary": "Martha Firestone Ford, who served as the primary owner of the Lions from 2014 to 2020, has died at the age of 101, the team announced Tuesday night.",
       "publishedAt": "2026-11-25T02:44:31Z",
       "teamIds": [
         "8"
@@ -1587,15 +1596,6 @@
       "title": "Stefon Diggs is getting frustrated",
       "summary": "Stefon Diggs is getting upset.",
       "publishedAt": "2026-11-24T02:52:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "d41a372eddaedf40",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-touchdown-highlights-inconsistency-of-replay-review",
-      "title": "Tee Higgins touchdown highlights inconsistency of replay review",
-      "summary": "Just when we thought we were out when it comes to not knowing what a catch is, they pull us back in.",
-      "publishedAt": "2026-11-24T02:45:29Z",
       "teamIds": []
     }
   ]
