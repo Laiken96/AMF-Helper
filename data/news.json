@@ -1,7 +1,213 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T14:47:24Z",
+  "updatedAt": "2026-11-25T16:47:37Z",
   "items": [
+    {
+      "id": "ebd88617ccdfc21b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594466/why-field-yates-fully-convinced-zach-charbonnet-fantasy-potential",
+      "title": "Why Field Yates isn't fully convinced by Zach Charbonnet's fantasy potential",
+      "summary": null,
+      "publishedAt": "2026-11-25T16:46:09Z",
+      "teamIds": []
+    },
+    {
+      "id": "7361281eca929f3f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/packers-vs-rams-odds-picks-prediction-nfl-week-12-best-bets-player-props-for-thanksgiving-eve",
+      "title": "Packers vs. Rams odds, picks, prediction: NFL Week 12 best bets, player props for Thanksgiving Eve",
+      "summary": "Will Brinson breaks down his top value plays for Packers vs. Rams on Thanksgiving Eve, including a lean on the total and some anytime touchdown scorers",
+      "publishedAt": "2026-11-25T16:20:35Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "e4287059466628a0",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594342/why-stephen-taking-josh-allen-patrick-mahomes-right-now",
+      "title": "Why Stephen A. is taking Josh Allen over Patrick Mahomes ... right now",
+      "summary": null,
+      "publishedAt": "2026-11-25T16:20:18Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "fdbcc8f1515cb06e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-were-changing-the-play-calling-process-as-of-tuesday",
+      "title": "Report: Steelers were changing the play-calling process as of Tuesday",
+      "summary": "More and more information is emerging as to the surprise decision to bench Steelers quarterback Aaron Rodgers.",
+      "publishedAt": "2026-11-25T16:19:57Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "73bf56083aeb8462",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-why-and-what-it-means-mason-rudolph",
+      "title": "Biggest questions on Aaron Rodgers benching: Why did Steelers make abrupt quarterback change?",
+      "summary": "Pittsburgh made a difficult decision while setting in motion their plans for the QB position moving forward",
+      "publishedAt": "2026-11-25T16:16:18Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "f64fb98f477e4fc1",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594009/tj-hockenson-week-12-fantasy-preview",
+      "title": "T.J. Hockenson's Week 12 fantasy preview",
+      "summary": null,
+      "publishedAt": "2026-11-25T16:09:45Z",
+      "teamIds": []
+    },
+    {
+      "id": "b00643c23c097227",
+      "source": "cbs",
+      "url": "https://cbssports.com/prediction/news/packers-vs-rams-odds-first-touchdown-scorer-picks-predictions-nfl-thanksgiving-eve-game",
+      "title": "Packers vs. Rams odds, first touchdown scorer picks, predictions for NFL Thanksgiving Eve game",
+      "summary": "Here's a look at first touchdown scorer prediction markets available at Kalshi for Packers vs. Rams NFL Week 12 on Thanksgiving Eve",
+      "publishedAt": "2026-11-25T16:06:28Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "513aab6a0e0801a9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-mcmillan-to-return-to-practice-for-the-buccaneers",
+      "title": "Jalen McMillan to return to practice for the Buccaneers",
+      "summary": "Wide receiver Jalen McMillan is on his way back to the Buccaneers lineup.",
+      "publishedAt": "2026-11-25T16:05:04Z",
+      "teamIds": [
+        "27"
+      ]
+    },
+    {
+      "id": "540d1cc2bca5166f",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50572372/fantasy-playbook-projections-lineup-locks-week-12-shadow",
+      "title": "Fantasy playbook: Week 12 Shadow Reports, lineup locks and projected scores",
+      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
+      "publishedAt": "2026-11-25T16:03:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "224eb176d36e08c5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
+      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
+      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday.",
+      "publishedAt": "2026-11-25T16:01:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "14976dbd1210256d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50593588/kyle-pitts-sr-week-12-fantasy-preview",
+      "title": "Kyle Pitts Sr.'s Week 12 fantasy preview",
+      "summary": null,
+      "publishedAt": "2026-11-25T15:51:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "e4f80555a4e9caeb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-p-jack-browning-to-their-53-man-roster",
+      "title": "Dolphins sign P Jack Browning to their 53-man roster",
+      "summary": "The Dolphins added a second punter to their 53-man roster on Wednesday.",
+      "publishedAt": "2026-11-25T15:48:52Z",
+      "teamIds": [
+        "15"
+      ]
+    },
+    {
+      "id": "7da70ef499bdbb83",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-open-practice-window-for-ol-patrick-mekari",
+      "title": "Jaguars open practice window for OL Patrick Mekari",
+      "summary": "The Jaguars are getting a key player back on the practice field.",
+      "publishedAt": "2026-11-25T15:42:30Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "bb49d655da5dcde2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-vs-eagles-thanksgiving-how-to-watch-odds-preview-prediction",
+      "title": "Cowboys vs. Eagles Thanksgiving prediction: Dallas looks for first win streak of 2026 vs. ex-QB",
+      "summary": "How to watch, what to know and a prediction for the Thanksgiving clash between NFC East rivals",
+      "publishedAt": "2026-11-25T15:31:29Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "15f2356ed1c697f6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50588158/facts-feelings-fantasy-advice-week-12",
+      "title": "Facts vs. Feelings: The facts you need to feel right about your flex decisions",
+      "summary": "Making a tough flex decision this week? Here are some hard facts to help you feel good about the decision.",
+      "publishedAt": "2026-11-25T15:22:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "72c8696c1b11a5e8",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50593112/dk-metcalf-week-12-fantasy-preview",
+      "title": "DK Metcalf's Week 12 fantasy preview",
+      "summary": null,
+      "publishedAt": "2026-11-25T15:19:49Z",
+      "teamIds": []
+    },
+    {
+      "id": "c7e53fb36179784b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aaron-rodgers-was-excused-from-work-on-wednesday",
+      "title": "Report: Aaron Rodgers was \"excused\" from work on Wednesday",
+      "summary": "The sudden, late-night benching of quarterback Aaron Rodgers has created a slew of questions that are being answered in real time.",
+      "publishedAt": "2026-11-25T15:19:17Z",
+      "teamIds": []
+    },
+    {
+      "id": "31466b49438ec9f4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50593396/stephen-rips-steelers-decision-bench-aaron-rodgers",
+      "title": "Stephen A. rips Steelers' decision to bench Aaron Rodgers",
+      "summary": null,
+      "publishedAt": "2026-11-25T15:18:49Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "e02473b45c34aa78",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-could-land-in-time-on-reserve-left-squad-list",
+      "title": "Aaron Rodgers could land, in time, on reserve/left squad list",
+      "summary": "As real-time drama unfolds for the Steelers and quarterback Aaron Rodgers, the situation could play out in various ways.",
+      "publishedAt": "2026-11-25T15:00:20Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "46bebd7a89b9948d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-12-qb-power-rankings-brock-purdy-joe-burrow-dak-prescott",
+      "title": "NFL Week 12 QB Power Rankings: Brock Purdy swipes No. 1 spot from Joe Burrow, Dak Prescott into top five",
+      "summary": "Brock Purdy takes the top spot from Joe Burrow, and Dak Prescott soars into the top five",
+      "publishedAt": "2026-11-25T14:54:56Z",
+      "teamIds": []
+    },
     {
       "id": "1b4d90949747651f",
       "source": "pft",
@@ -12,6 +218,18 @@
       "teamIds": [
         "7",
         "23"
+      ]
+    },
+    {
+      "id": "25fe94b249395190",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/one-bold-prediction-each-nfl-thanksgiving-game-cowboys-dak-prescott-feast-eagles",
+      "title": "One bold prediction for each NFL Thanksgiving game, including Cowboys' Dak Prescott to feast on Eagles",
+      "summary": "One bold prediction for each of the NFL rivalry showcases on Thanksgiving",
+      "publishedAt": "2026-11-25T14:37:55Z",
+      "teamIds": [
+        "6",
+        "21"
       ]
     },
     {
@@ -116,7 +334,7 @@
       "id": "7ba77b8ef1a1ff7c",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-nfl-week-12",
-      "title": "Predicting full 14-team NFL playoff bracket for NFL Week 12: Three-team battle for top seed in AFC",
+      "title": "Predicting full 14-team NFL playoff bracket for NFL Week 12: How Aaron Rodgers' benching impacts AFC race",
       "summary": "All 32 teams are still alive in the playoff race, but only 14 will be making the postseason, and we projected the full list here",
       "publishedAt": "2026-11-25T13:30:05Z",
       "teamIds": []
@@ -382,7 +600,7 @@
       "id": "4f78b699e7063c10",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
-      "title": "Sources: Aaron Rodgers not at Steelers facility, skips meeting after benching",
+      "title": "Sources: Aaron Rodgers excused from Steelers facility to process benching",
       "summary": "The Steelers have benched Aaron Rodgers in a stunning twist that could signal the end of the star QB's NFL career.",
       "publishedAt": "2026-11-25T04:46:24Z",
       "teamIds": [
@@ -1365,233 +1583,6 @@
       "publishedAt": "2026-11-24T16:20:01Z",
       "teamIds": [
         "16"
-      ]
-    },
-    {
-      "id": "c77daa7e48532354",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49742016/2026-win-rates-team-player-rankings-pass-rush-run-stop-blocking",
-      "title": "2026 NFL pass rush, run stop, blocking win rate rankings",
-      "summary": "Our win rate metrics stack the NFL's top teams and players in run blocking, run stopping, pass protection and pass rushing.",
-      "publishedAt": "2026-11-24T16:14:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "881617a2fe24614a",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50583376/why-stephen-counting-bengals-loss-commanders",
-      "title": "Why Stephen A. isn't counting out the Bengals after loss to Commanders",
-      "summary": null,
-      "publishedAt": "2026-11-24T16:07:07Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "048ace7a6e68edd2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-designate-rb-raheim-sanders-for-return",
-      "title": "Browns designate RB Raheim Sanders for return",
-      "summary": "Running back Raheim Sanders will be back at practice for the Browns this week.",
-      "publishedAt": "2026-11-24T16:01:50Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "641f4288c3182796",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50583260/bears-lions-big-game",
-      "title": "Stephen A.: Bears-Lions a big-time game",
-      "summary": null,
-      "publishedAt": "2026-11-24T15:55:30Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "79ba95825ef44859",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bengals-commanders-mnf-refs-two-seconds-off-clock",
-      "title": "Bengals may have been robbed twice by refs in final five seconds of stunning loss to Commanders",
-      "summary": "The Monday night matchup seemed to end with two botched situations from the officials",
-      "publishedAt": "2026-11-24T15:53:05Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-24T15:50:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ea5236a9b15eab6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-ravens-to-waive-qb-kedon-slovis",
-      "title": "Report: Ravens to waive QB Kedon Slovis",
-      "summary": "The Ravens are reportedly making a change to their quarterback room.",
-      "publishedAt": "2026-11-24T15:47:52Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "6767e3c33edc7907",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-chargers-struggle-jim-harbaughs-answer-on-defensive-playcalling-raises-more-questions",
-      "title": "As Chargers struggle, Jim Harbaugh's answer on defensive playcalling raises more questions",
-      "summary": "Chargers head coach Jim Harbaugh's non-answer to a question about which defensive player is wearing the helmet with a radio receiver to tell his teammates the play call is raising more questions about whether Harbaugh has become checked out on his team.",
-      "publishedAt": "2026-11-24T15:45:37Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "a12fcb585492d0f6",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-playoff-picture-ranking-nfc-wild-card-contenders-nfc-north-rising-seahawks-rams",
-      "title": "2026 NFL playoff picture: Ranking NFC wild card contenders, from stout NFC North to rising Seahawks, Rams",
-      "summary": "Which teams in the NFC wild card race are tracking toward entering the playoffs through the side door?",
-      "publishedAt": "2026-11-24T15:42:29Z",
-      "teamIds": [
-        "14",
-        "26"
-      ]
-    },
-    {
-      "id": "18bc4bfbab883d4e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mvp-race-is-currently-down-to-joe-burrow-and-brock-purdy",
-      "title": "MVP race is currently down to Joe Burrow and Brock Purdy",
-      "summary": "With 11 weeks down and seven to go, the MVP race is currently down to two players.",
-      "publishedAt": "2026-11-24T15:40:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "358e125f05a0bfce",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 12 betting odds: Lines and totals for every game",
-      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
-      "publishedAt": "2026-11-24T15:40:19Z",
-      "teamIds": []
-    },
-    {
-      "id": "530f791cc05a9931",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-games-2026-schedule-black-friday-rams-packers",
-      "title": "NFL Thanksgiving schedule: What to know about Thanksgiving Eve, Turkey Day, and Black Friday games",
-      "summary": "A look at the Thanksgiving week slate and all of its fixings you need in time for Turkey Day",
-      "publishedAt": "2026-11-24T15:30:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "f1058841e31da12f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-on-omarion-hampton-in-hindsight-we-should-have-used-him-as-lead-back-sooner",
-      "title": "Jim Harbaugh on Omarion Hampton: In hindsight, we should have used him as lead back sooner",
-      "summary": "There hasn't been much to like about the Chargers' play this season, but the last two weeks have been good ones for running back Omarion Hampton.",
-      "publishedAt": "2026-11-24T15:25:43Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "6c83be57d5f26524",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-say-the-time-is-nigh-to-make-a-decision-on-the-bears-next-stadium",
-      "title": "Stephen Jones say the \"time is nigh\" to make a decision on the Bears' next stadium",
-      "summary": "As the Bears continue to do an awkward Bossa Nova with Indiana and Illinois over the location of a new stadium, a key executive from another team has chimed in.",
-      "publishedAt": "2026-11-24T15:13:36Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "2a4a550a3ca3e9ab",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-puka-nacua-is-obviously-a-very-important-piece-for-us-now-and-for-the-future",
-      "title": "Sean McVay: Puka Nacua is obviously a very important piece for us now and for the future",
-      "summary": "Rams receiver Puka Nacua just underwent successful knee surgery that is likely going to sideline him for the rest of 2026.",
-      "publishedAt": "2026-11-24T15:02:01Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "1c5463ad7bc6b25a",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-breech-picks-score-predictions-bears-chiefs-rams-packers",
-      "title": "NFL Week 12 picks, score predictions: Bears, Chiefs lose on Thanksgiving; Rams edge Packers in thriller",
-      "summary": "Here's your weekly dose of John Breech's NFL picks",
-      "publishedAt": "2026-11-24T14:43:05Z",
-      "teamIds": [
-        "3",
-        "9",
-        "12",
-        "14"
-      ]
-    },
-    {
-      "id": "2eef4349b400911f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-12-power-rankings-thanksgiving-games",
-      "title": "Prisco's NFL Week 12 Power Rankings: Thanksgiving feast offers a proving ground for contenders",
-      "summary": "Pete Prisco shares his Week 12 Power Rankings for the 2026 NFL season, including the",
-      "publishedAt": "2026-11-24T14:33:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "74e6406bfdb780e6",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/why-cowboys-lions-always-play-thanksgiving-day-all-32-nfl-teams-record-holiday",
-      "title": "Why the Cowboys and Lions always play on Thanksgiving Day: All 32 NFL team's record on the holiday",
-      "summary": "A look at the records and traditions in the NFL on Thanksgiving",
-      "publishedAt": "2026-11-24T14:30:32Z",
-      "teamIds": [
-        "6",
-        "8"
-      ]
-    },
-    {
-      "id": "c21b208cd995014c",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026",
-      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
-      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-24T14:16:36Z",
-      "teamIds": [
-        "15",
-        "16"
-      ]
-    },
-    {
-      "id": "2864f621a0fd6577",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-week-12-2026-nfl-power-rankings",
-      "title": "PFT's Week 12 2026 NFL power rankings",
-      "summary": "The 49ers can no longer be denied the top spot.",
-      "publishedAt": "2026-11-24T14:15:47Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Two Commanders to pick up coming off MNF win",
-      "summary": "The Commanders scored only one touchdown in their MNF win, but several performances were notable nonetheless.",
-      "publishedAt": "2026-11-24T14:06:12Z",
-      "teamIds": [
-        "28"
       ]
     }
   ]
