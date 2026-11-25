@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T06:47:25Z",
+  "updatedAt": "2026-11-25T10:47:23Z",
   "items": [
+    {
+      "id": "370d15685f25048f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-lions-is-first-thanksgiving-game-ever-with-both-teams-on-5-game-winning-streaks",
+      "title": "Bears-Lions is first Thanksgiving game ever with both teams on 5+ game winning streaks",
+      "summary": "One of the best Thanksgiving games ever will take place Thursday in Detroit.",
+      "publishedAt": "2026-11-25T09:43:53Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
     {
       "id": "408eaeabdc71f867",
       "source": "espn",
@@ -1586,18 +1598,6 @@
       "title": "Clock operator robbed Bengals of one final play",
       "summary": "The Bengals-Commanders game carries a small but not insignificant asterisk.",
       "publishedAt": "2026-11-24T04:41:00Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "b21e8bf51208dcf0",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50579688/commanders-storm-back-stun-bengals-22-20-mnf",
-      "title": "Commanders storm back, stun Bengals 22-20 on MNF",
-      "summary": null,
-      "publishedAt": "2026-11-24T04:35:02Z",
       "teamIds": [
         "4",
         "28"
