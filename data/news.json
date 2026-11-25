@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T03:47:26Z",
+  "updatedAt": "2026-11-25T04:47:24Z",
   "items": [
+    {
+      "id": "4f78b699e7063c10",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+      "title": "Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph",
+      "summary": "Pittsburgh Steelers coach Mike McCarthy has benched starting quarterback Aaron Rodgers in favor of backup Mason Rudolph.",
+      "publishedAt": "2026-11-25T04:46:24Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "79a7cc19673d3dbd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-bench-aaron-rodgers-for-mason-rudolph",
+      "title": "Steelers bench Aaron Rodgers for Mason Rudolph",
+      "summary": "Announcement comes out of the blue, after 11:00 p.m. ET on Tuesday night.",
+      "publishedAt": "2026-11-25T04:27:45Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "15ead2407be1b6d3",
       "source": "pft",
@@ -1576,26 +1598,6 @@
       "title": "SEC plans to consider ejecting LSU on December 3",
       "summary": "The supposed \"chaos\" in college sports could still result in the SEC kicking LSU out of the conference.",
       "publishedAt": "2026-11-24T04:22:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "f24986d915069cd6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-joe-burrows-second-td-pass-puts-bengals-up-17-10",
-      "title": "Monday Night Football: Joe Burrow's second TD pass puts Bengals up 17-10",
-      "summary": "The lights are back on and both offenses have put up points in the third quarter.",
-      "publishedAt": "2026-11-24T03:20:20Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "0aba9e53e275e4db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/stefon-diggs-is-getting-frustrated",
-      "title": "Stefon Diggs is getting frustrated",
-      "summary": "Stefon Diggs is getting upset.",
-      "publishedAt": "2026-11-24T02:52:26Z",
       "teamIds": []
     }
   ]
