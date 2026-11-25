@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T19:25:05Z",
+  "updatedAt": "2026-11-25T19:47:23Z",
   "items": [
+    {
+      "id": "7f1e8c30cd057ecc",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aaron-rodgers-unleases-on-steelers-mike-mccarthy-pat-mcafee-interview",
+      "title": "Aaron Rodgers unleashes on Mike McCarthy: Unpacking everything Steelers' QB said after benching",
+      "summary": "Rodgers confirmed that his time in Pittsburgh is over, while accusing the Steelers coach of sleeping through meetings",
+      "publishedAt": "2026-11-25T19:43:25Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ffcad5a51bfdc88d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50595984/ship-sailed-returning-steelers",
+      "title": "Aaron Rodgers: 'Ship has sailed' on returning to the Steelers",
+      "summary": null,
+      "publishedAt": "2026-11-25T19:39:40Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "2d46c864c793d054",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-out-of-practice-wednesday-with-ankle-injury",
+      "title": "Brock Purdy out of practice Wednesday with ankle injury",
+      "summary": "The 49ers will practice without their starting quarterback on Wednesday.",
+      "publishedAt": "2026-11-25T19:29:17Z",
+      "teamIds": [
+        "25"
+      ]
+    },
     {
       "id": "926889698b28fd0c",
       "source": "espn",
@@ -34,6 +67,18 @@
       "teamIds": [
         "9",
         "23"
+      ]
+    },
+    {
+      "id": "156bf858b79f8163",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/former-49ers-wr-brandon-aiyuk-to-sign-with-commanders",
+      "title": "Brandon Aiyuk to sign with Commanders' practice squad days after leaving 49ers",
+      "summary": "San Francisco's former wideout is officially getting a fresh start",
+      "publishedAt": "2026-11-25T18:56:38Z",
+      "teamIds": [
+        "25",
+        "28"
       ]
     },
     {
@@ -1106,7 +1151,7 @@
       "id": "93cbf58f664f394c",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-make-qb-inactive-friday-broncos",
-      "title": "Is this how it ends? Steelers bench Aaron Rodgers, turn to Mason Rudolph to start vs. Broncos",
+      "title": "Steelers bench Aaron Rodgers, turn to Mason Rudolph to start vs. Broncos",
       "summary": "Pittsburgh made the call to bench Rodgers after offensive struggles led to consecutive losses following a 6-2 start",
       "publishedAt": "2026-11-25T05:18:04Z",
       "teamIds": [
@@ -1572,50 +1617,6 @@
       "teamIds": [
         "28"
       ]
-    },
-    {
-      "id": "f25819aaa48460f7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873079",
-      "title": "Myles Garrett, Micah Parsons ready for spotlight when Rams host Packers on Thanksgiving Eve",
-      "summary": "Myles Garrett and Micah Parsons are two of the best pass rushers of their generation, and they're set to share an NFL field for only the third time Wednesday night when the Los Angeles Rams host...",
-      "publishedAt": "2026-11-24T20:35:33Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "6ceab09639034c3c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50585287/chuba-hubbard-explains-how-dave-canales-changed-panthers-culture",
-      "title": "Chuba Hubbard explains how Dave Canales has changed the Panthers' culture",
-      "summary": null,
-      "publishedAt": "2026-11-24T20:33:03Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "90d13366cdb66081",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-have-only-defense-in-the-nfl-giving-up-scores-on-most-of-its-drives",
-      "title": "Titans have only defense in the NFL giving up scores on most of its drives",
-      "summary": "The Titans' defense allowed the Cowboys' offense to score on every drive on Sunday, with the exception of a kneeldown at the end of the game.",
-      "publishedAt": "2026-11-24T20:30:02Z",
-      "teamIds": [
-        "6",
-        "10"
-      ]
-    },
-    {
-      "id": "6aa9db06725c331d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50585543/why-dopp-on-target-monster-trey-mcbride",
-      "title": "Why Dopp is still in on 'target monster' Trey McBride",
-      "summary": null,
-      "publishedAt": "2026-11-24T20:29:41Z",
-      "teamIds": []
     }
   ]
 }
