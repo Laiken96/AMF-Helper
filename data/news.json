@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T12:47:25Z",
+  "updatedAt": "2026-11-25T13:47:34Z",
   "items": [
+    {
+      "id": "508d10b40f3ff812",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50592394/benching-aaron-rodgers-fix-steelers-issues",
+      "title": "Jordan Rodgers: Benching Aaron Rodgers won't fix the Steelers' issues",
+      "summary": null,
+      "publishedAt": "2026-11-25T13:31:45Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "6a89300702bc09c8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-most-important-games-playoff-picture-rams-packers-panthers-bucs",
+      "title": "NFL Week 12 most important games for playoff picture: Rams-Packers, Panthers-Bucs key duels in NFC",
+      "summary": "This week is chock-full of potential make-or-break games from Wednesday to Sunday",
+      "publishedAt": "2026-11-25T13:10:19Z",
+      "teamIds": [
+        "29",
+        "9",
+        "14",
+        "27"
+      ]
+    },
+    {
+      "id": "b956896dc0f5e73c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-dandre-swift-doesnt-need-to-regain-trust-after-fumble",
+      "title": "Ben Johnson: D'Andre Swift doesn't need to regain trust after fumble",
+      "summary": "Bears running back D'Andre Swift did not return to last Sunday's game after losing a fumble in the fourth quarter and his role moving forward was a topic at head coach Ben Johnson's press conference on Tuesday.",
+      "publishedAt": "2026-11-25T12:56:39Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "41dea471c23c9c50",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/max-hurleman-remains-on-steelers-practice-squad-available-to-other-teams",
+      "title": "Max Hurleman remains on Steelers' practice squad, available to other teams",
+      "summary": "Steelers quarterback Aaron Rodgers' swipe at the team's front office about wide receiver Max Hurleman pointed out something all 31 other teams should be considering: There's a talented, cheap receiver and special teams player available to be signed off the Steelers' practice squad.",
+      "publishedAt": "2026-11-25T12:54:50Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "f4e09a06faaf1d1c",
       "source": "cbs",
@@ -1548,52 +1595,6 @@
       "teamIds": [
         "5",
         "26"
-      ]
-    },
-    {
-      "id": "dd1ed33ab0878db7",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-upset-picks-thanksgiving-games-chiefs-bills",
-      "title": "NFL Week 12 upset alert: Don't count out Patrick Mahomes, Fernando Mendoza and these underdogs",
-      "summary": "Patrick Mahomes is heating up, Detroit owns its Thanksgiving opponent and three other underdogs have compelling paths",
-      "publishedAt": "2026-11-24T12:40:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "11a2da612f9d1963",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50574995/how-mike-macdonald-father-bonded-game-film",
-      "title": "How Mike Macdonald and his father bonded through game film",
-      "summary": null,
-      "publishedAt": "2026-11-24T12:36:23Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "fc76ec344b882c3f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-losing-when-you-know-youre-better-is-the-worst",
-      "title": "Ja'Marr Chase: Losing when you know you're better is the worst",
-      "summary": "The Bengals came into Monday night's game with the Commanders on a five-game winning streak fueled by explosive offensive performances, but both runs came to an end in Washington.",
-      "publishedAt": "2026-11-24T12:12:11Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "de555b4b90030222",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50563522/week-12-seven-things-solak-thinks-chiefs-bills-giants",
-      "title": "Seven things Solak thinks for NFL Week 12: Takes on Chiefs-Bills, Giants, Lions",
-      "summary": "Get ready for Week 12 with a look at an elite AFC matchup, why the Giants are a playoff sleeper and what to expect in Micah Parson's return.",
-      "publishedAt": "2026-11-24T12:04:18Z",
-      "teamIds": [
-        "2",
-        "8",
-        "12",
-        "19"
       ]
     }
   ]
