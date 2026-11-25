@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "seasonType": 2,
+  "week": 12,
+  "updatedAt": "2026-11-25T19:01:31Z",
+  "model": "claude-haiku-5-5",
+  "opinions": [
+    {
+      "gameId": "401873079",
+      "createdAt": "2026-11-25T19:01:31Z",
+      "winnerTeamId": "14",
+      "pWinner": 0.6,
+      "marketPickTeamId": "14",
+      "marketProb": 0.5735,
+      "reasoning": "Die Rams sind zu Hause und haben vier Spiele in Folge gewonnen, Myles Garrett ist ohne Designation dabei und die Defensive gilt als stark. Entgegen der Meldung ohne bekannte Ausfälle fehlen den Rams die Linemen Steve Avila und Coleman Shelton sowie TE Terrance Ferguson, während bei den Packers Micah Parsons zurückkehren soll, Josh Jacobs aber fraglich ist.",
+      "sources": [
+        {
+          "title": "Rams Injury Report, Week 12 vs. Packers (therams.com)",
+          "url": "https://www.therams.com/news/rams-injury-report-week-12-2026-vs-packers-steve-avila-terrance-ferguson-coleman-shelton-kobie-turner"
+        },
+        {
+          "title": "NFL Week 12 injury report: Player statuses for all 16 games (NFL.com)",
+          "url": "https://amp.nfl.com/news/nfl-week-12-injury-report-2026-season"
+        },
+        {
+          "title": "Rams Week 12 injury report vs. Packers (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/nfl/articles/rams-week-12-injury-report-172923572.html"
+        },
+        {
+          "title": "Packers list eight questionable vs. Rams (packers.com)",
+          "url": "https://www.packers.com/news/packers-list-eight-questionable-vs-rams-week-12-injury-report"
+        }
+      ]
+    }
+  ]
+}
