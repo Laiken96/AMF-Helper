@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-25T23:30:50Z",
+    "takenAt": "2026-11-25T23:40:37Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1633,7 +1633,7 @@
             "roles": [
               "rushing"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "3916387",
@@ -2068,7 +2068,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4430878",
@@ -2079,7 +2079,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4887558",
@@ -2416,6 +2416,16 @@
     },
     {
       "gameId": "401873085",
+      "athleteId": "3043078",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "teamAbbr": "BAL",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873085",
       "athleteId": "3916387",
       "name": "Lamar Jackson",
       "pos": "QB",
@@ -2510,8 +2520,18 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "teamAbbr": "SEA",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Out",
+      "to": null
+    },
+    {
+      "gameId": "401873091",
+      "athleteId": "4430878",
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "teamAbbr": "SEA",
+      "kind": "neu",
+      "from": null,
       "to": "Questionable"
     },
     {
