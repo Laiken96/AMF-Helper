@@ -1,7 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T13:47:34Z",
+  "updatedAt": "2026-11-25T14:47:24Z",
   "items": [
+    {
+      "id": "1b4d90949747651f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aaron-rodgers-did-not-report-to-steelers-facility-on-wednesday",
+      "title": "Report: Aaron Rodgers did not report to Steelers facility on Wednesday",
+      "summary": "After Pittsburgh's late-night announcement that he will not start against the Broncos, Rodgers has not been in the building.",
+      "publishedAt": "2026-11-25T14:40:01Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "5a970e7508dcd92c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/if-aaron-rodgers-never-plays-again-his-last-nfl-throw-was-a-touchdown-pass",
+      "title": "If Aaron Rodgers never plays again, his last NFL throw was a touchdown pass",
+      "summary": "For receiver Max Hurleman, it was his first career NFL touchdown.",
+      "publishedAt": "2026-11-25T14:37:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "20f15ad0f958c219",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-gm-adam-peters-on-brandon-aiyuk-cant-dispute-his-work-ethic-excited-to-see-where-hes-at",
+      "title": "Commanders GM Adam Peters on Brandon Aiyuk: Can't dispute his work ethic, excited to see where he's at",
+      "summary": "Wide receiver Brandon Aiyuk will visit with the Commanders on Wednesday and that will give their General Manager Adam Peters a chance to catch up with a player who joined the 49ers while Peters was in their front office.",
+      "publishedAt": "2026-11-25T14:32:05Z",
+      "teamIds": [
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "0cfb6244af0c7cf4",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50592810/omarion-hampton-week-12-fantasy-preview",
+      "title": "Omarion Hampton's Week 12 fantasy preview",
+      "summary": null,
+      "publishedAt": "2026-11-25T14:30:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "18bfdc900b344066",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-mccarthy-informed-team-of-aaron-rodgers-benching-on-wednesday-morning",
+      "title": "Report: Mike McCarthy informed team of Aaron Rodgers benching on Wednesday morning",
+      "summary": "The surprise, sudden benching of Steelers quarterback Aaron Rodgers raises more questions than it answers.",
+      "publishedAt": "2026-11-25T14:22:13Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a0e0f97a1901fe36",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-spreads-picks-predictions-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-25T14:19:06Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "a52e8cd86d8dca7f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/week-12-expert-picks-best-bets-lions-spoil-bears-thanksgiving",
+      "title": "NFL Week 12 expert picks, best bets: Lions spoil Bears Thanksgiving, Patrick Mahomes picks up rare win",
+      "summary": "Tyler Sullivan picks every game on the Week 12 schedule, including five locks against the spread",
+      "publishedAt": "2026-11-25T14:18:32Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "3895e809c69f98da",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50592591/no-indication-steelers-rodgers-was-being-benched",
+      "title": "Brooke Pryor: No indication from Steelers that Rodgers was being benched",
+      "summary": null,
+      "publishedAt": "2026-11-25T14:01:36Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "665362d6edcf810d",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-nfl-tennessee-alabama-cfp-rankings-cubs-teruaki-sato-mlb",
+      "title": "Steelers bench Aaron Rodgers; Tennessee jumps Alabama in CFP rankings; Cubs land Teruaki Sato",
+      "summary": "Plus Pete Prisco's Week 12 NFL Power Rankings",
+      "publishedAt": "2026-11-25T13:50:08Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "508d10b40f3ff812",
       "source": "espn",
@@ -11,6 +110,27 @@
       "publishedAt": "2026-11-25T13:31:45Z",
       "teamIds": [
         "23"
+      ]
+    },
+    {
+      "id": "7ba77b8ef1a1ff7c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-nfl-week-12",
+      "title": "Predicting full 14-team NFL playoff bracket for NFL Week 12: Three-team battle for top seed in AFC",
+      "summary": "All 32 teams are still alive in the playoff race, but only 14 will be making the postseason, and we projected the full list here",
+      "publishedAt": "2026-11-25T13:30:05Z",
+      "teamIds": []
+    },
+    {
+      "id": "26e2525c8ee97b3a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-playoff-picture-ranking-afc-wild-card-contenders-chiefs-raiders",
+      "title": "NFL playoff picture: Ranking AFC wild card contenders, from Super Bowl-hopeful Chiefs to rebuilding Raiders",
+      "summary": "Outside of Kansas City, the battle for a wild card berth in this conference is wide open",
+      "publishedAt": "2026-11-25T13:17:52Z",
+      "teamIds": [
+        "12",
+        "13"
       ]
     },
     {
@@ -262,8 +382,8 @@
       "id": "4f78b699e7063c10",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
-      "title": "Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph",
-      "summary": "Steelers coach Mike McCarthy has benched starting quarterback Aaron Rodgers in favor of backup Mason Rudolph.",
+      "title": "Sources: Aaron Rodgers not at Steelers facility, skips meeting after benching",
+      "summary": "The Steelers have benched Aaron Rodgers in a stunning twist that could signal the end of the star QB's NFL career.",
       "publishedAt": "2026-11-25T04:46:24Z",
       "teamIds": [
         "23"
@@ -1472,129 +1592,6 @@
       "publishedAt": "2026-11-24T14:06:12Z",
       "teamIds": [
         "28"
-      ]
-    },
-    {
-      "id": "0032db2c2652bb98",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50573226/nfl-international-expansion-turf-players",
-      "title": "NFL's international plan: More games, new TV deal incoming",
-      "summary": "The NFL intends to play 10 international games next year, the maximum allowed under the CBA. It wants more.",
-      "publishedAt": "2026-11-24T14:04:19Z",
-      "teamIds": [
-        "30",
-        "16",
-        "25"
-      ]
-    },
-    {
-      "id": "e5a2065f28cf1f7d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50576490/cleveland-browns-todd-monken-six-keys-reveal-offense",
-      "title": "What Todd Monken's six keys reveal about the Browns' offense",
-      "summary": "Let's look at the six pillars the first-year head coach stands by and how they're helping (or hurting) Cleveland's offense.",
-      "publishedAt": "2026-11-24T14:02:17Z",
-      "teamIds": [
-        "5"
-      ]
-    },
-    {
-      "id": "9c070f0c9bc2d513",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50582441/how-micah-parsons-return-impact-packers",
-      "title": "How will Micah Parsons' return impact the Packers?",
-      "summary": null,
-      "publishedAt": "2026-11-24T13:55:49Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "0f4c54ac1730a5b3",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50572304/fantasy-football-waiver-wire-pickups-week-12",
-      "title": "Fantasy football: Live Week 12 free agent pickups advice with ESPN expert",
-      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
-      "publishedAt": "2026-11-24T13:55:12Z",
-      "teamIds": []
-    },
-    {
-      "id": "2df11dac38f12da5",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50582517/get-crew-cracks-reacting-drew-stevens-postgame-news-conference",
-      "title": "'Get Up' crew cracks up reacting Drew Stevens' postgame news conference",
-      "summary": null,
-      "publishedAt": "2026-11-24T13:55:12Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "23d16eace7c9960c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50582357/how-far-jayden-daniels-take-commanders-season",
-      "title": "How far can Jayden Daniels take the Commanders this season?",
-      "summary": null,
-      "publishedAt": "2026-11-24T13:49:57Z",
-      "teamIds": [
-        "6",
-        "19",
-        "28"
-      ]
-    },
-    {
-      "id": "dfdc72ad5d1d119c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jayden-daniels-commanders-bengals-nfl-mnf-florida-state-coach-glenn-schumann",
-      "title": "Jayden Daniels leads Commanders past Bengals on MNF; Florida State hires coach Glenn Schumann",
-      "summary": "Plus, the SEC has taken another step toward expelling LSU",
-      "publishedAt": "2026-11-24T13:41:23Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "8d02f65de6f81422",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/6-lessons-week-11-kyle-shanahan-49ers-chiefs-colts",
-      "title": "6 lessons from Week 11: Kyle Shanahan is as good as it gets, plus a rookie RB earning a role",
-      "summary": "The 49ers are the league's best team, and Shanahan is the league's best coach",
-      "publishedAt": "2026-11-24T13:16:51Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "36cde119ee45e0f1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-everythings-positive-with-sam-darnold-but-nothing-official-yet",
-      "title": "Mike Macdonald: \"Everything's positive\" with Sam Darnold, but nothing official yet",
-      "summary": "Seahawks head coach Mike Macdonald said at the start of the team's bye week that he was \"really optimistic\" about quarterback Sam Darnold returning in Week 12 and that view didn't change after the team's return to work on Monday.",
-      "publishedAt": "2026-11-24T13:07:46Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "dde2a5fa23073704",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/buffalo-weather-forecast-calls-for-cold-and-rain-on-thanksgiving-night",
-      "title": "Buffalo weather forecast calls for cold and rain on Thanksgiving night",
-      "summary": "One of the best games of this NFL season may be played in some of the worst weather.",
-      "publishedAt": "2026-11-24T12:54:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "352676d1853c6fa2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-predictions-colston-loveland-thanksgiving",
-      "title": "It wouldn't shock me if ... for NFL Week 12: Colston Loveland feasts on Thanksgiving, Browns RB shines",
-      "summary": "Our five bold calls for Week 12 include a career day for Quinshon Judkins and mounting pressure on the Seahawks to play Drew Lock",
-      "publishedAt": "2026-11-24T12:42:05Z",
-      "teamIds": [
-        "5",
-        "26"
       ]
     }
   ]
