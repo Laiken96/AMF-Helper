@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T23:31:17Z",
+  "updatedAt": "2026-11-25T00:47:25Z",
   "items": [
+    {
+      "id": "ff0de827a2892277",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-giants-boosts-late-sunday-window-to-more-than-26-million",
+      "title": "Jaguars-Giants boosts late Sunday window to more than 26 million",
+      "summary": "The 4:25 p.m.",
+      "publishedAt": "2026-11-25T00:29:22Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "ccabab36bcd3bece",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+      "title": "Bears' Johnson has no plan to forgo Swift's role in run game despite costly fumbles",
+      "summary": "Chicago Bears running back D'Andre Swift won't have an extended stay in Ben Johnson's doghouse after fumbling in the fourth quarter against the Saints.",
+      "publishedAt": "2026-11-25T00:25:40Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "fec373e9a96079b3",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-injury-report-micah-parsons-cleared-kenneth-walker-iii-practices",
+      "title": "NFL Thanksgiving injury report: Micah Parsons cleared for season debut, Kenneth Walker III practices",
+      "summary": "Injury reports for every NFL team playing on Wednesday and Thursday in Week 12",
+      "publishedAt": "2026-11-25T00:20:02Z",
+      "teamIds": []
+    },
     {
       "id": "ccbdced6c534bdcd",
       "source": "espn",
@@ -1570,38 +1602,6 @@
       "teamIds": [
         "26",
         "25"
-      ]
-    },
-    {
-      "id": "08d3f07bdf231f4d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-aaron-rodgers-is-our-quarterback",
-      "title": "Mike McCarthy: Aaron Rodgers is our quarterback",
-      "summary": "Before an NFL team benches its starting quarterback, someone asks the coach whether the quarterback could be benched.",
-      "publishedAt": "2026-11-24T01:34:41Z",
-      "teamIds": []
-    },
-    {
-      "id": "537139d3087d6863",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bengals-vs-commanders-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets",
-      "title": "Bengals vs. Commanders odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
-      "summary": "Best bets and betting preview for Bengals vs. Commanders on Monday Night Football",
-      "publishedAt": "2026-11-24T00:47:31Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "1b8cc75b431290f2",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50574682/nobody-roots-harder-zac-taylor-special-olympics-champion-sister",
-      "title": "Nobody roots harder for Zac Taylor than his Special Olympics champion sister",
-      "summary": null,
-      "publishedAt": "2026-11-24T00:44:06Z",
-      "teamIds": [
-        "4"
       ]
     }
   ]
