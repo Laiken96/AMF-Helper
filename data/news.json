@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T11:47:27Z",
+  "updatedAt": "2026-11-25T12:47:25Z",
   "items": [
+    {
+      "id": "f4e09a06faaf1d1c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rams-vs-packers-prediction-odds-how-to-watch-thanksgiving-eve",
+      "title": "Rams vs. Packers prediction: Can Green Bay find continue success with deep ball? Will L.A. overcome injuries?",
+      "summary": "Micah Parsons makes his season debut for Green Bay as an injury-depleted Los Angeles offense leans on its ground attack in the NFL's first Thanksgiving Eve showdown",
+      "publishedAt": "2026-11-25T12:00:43Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "58ace582facc3d0d",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50585708/fantasy-football-rankings-start-sit-matchup-qb-rb-wr-te",
+      "title": "Fantasy football matchup ranks: Tyler Shough, Ashton Jeanty with prime matchups",
+      "summary": "The most and least favorable matchups in the NFL for this week's games at the four key fantasy positions.",
+      "publishedAt": "2026-11-25T11:49:24Z",
+      "teamIds": []
+    },
     {
       "id": "35fc0407f5f79217",
       "source": "espn",
@@ -69,6 +90,33 @@
       "title": "Move to bench Aaron Rodgers reportedly was \"coach's decision\"",
       "summary": "The timing of the decision remains unclear.",
       "publishedAt": "2026-11-25T11:03:32Z",
+      "teamIds": []
+    },
+    {
+      "id": "b20534a6cd9ec54f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
+      "title": "Prisco's Week 12 NFL picks: Packers edge Rams, Cowboys feast on Eagles, Bills win thriller over Chiefs",
+      "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
+      "publishedAt": "2026-11-25T11:00:42Z",
+      "teamIds": [
+        "2",
+        "6",
+        "7",
+        "9",
+        "12",
+        "14",
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "ffadfe915110d29e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-halftime-show-performers-schedule",
+      "title": "NFL Thanksgiving 2026: A look at every NFL halftime show performer for the holiday slate",
+      "summary": "There will be four performances between Thanksgiving Eve and Thanksgiving",
+      "publishedAt": "2026-11-25T11:00:38Z",
       "teamIds": []
     },
     {
@@ -1546,46 +1594,6 @@
         "8",
         "12",
         "19"
-      ]
-    },
-    {
-      "id": "45d9a9618231cd9d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50574413/nfl-power-rankings-week-12-offseason-contract-extension-candidates",
-      "title": "NFL Power Rankings: Stacking all 32 teams for Week 12, plus extension candidates",
-      "summary": "How does every NFL team stack up heading into Week 12? We made our 1-32 list and picked players who could get a new contract.",
-      "publishedAt": "2026-11-24T11:54:38Z",
-      "teamIds": []
-    },
-    {
-      "id": "e2416ce9076b24bc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lights-went-out-on-monday-night-because-routine-maintenance-schedule-wasnt-changed",
-      "title": "Lights went out on Monday night because routine maintenance schedule wasn't changed",
-      "summary": "As unexpected (and unwanted) developments at Northwest Stadium go, worse things than the lights going out can happen — and have happened.",
-      "publishedAt": "2026-11-24T11:22:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "e12889f7f792ec80",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50543051/seahawks-mike-macdonald-camcorder-super-bowl-game-film",
-      "title": "From camcorder to Super Bowl mantra, inside Mike Macdonald's love for game film",
-      "summary": "We go back to the 1980s to uncover how football bonded the 38-year-old Seahawks coach and his father.",
-      "publishedAt": "2026-11-24T11:00:21Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "702c6cf1ff364271",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50573980/dallas-cowboys-nfc-east-dak-prescott",
-      "title": "Cowboys need to break a year-long trend to make the playoffs",
-      "summary": "If Dallas is going to catch up to New York in the division, it needs to start stringing wins together.",
-      "publishedAt": "2026-11-24T11:00:15Z",
-      "teamIds": [
-        "6"
       ]
     }
   ]
