@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-25T22:10:35Z",
+    "takenAt": "2026-11-25T22:30:54Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2239,7 +2239,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4432665",
@@ -2510,6 +2510,16 @@
       "name": "Carson Beck",
       "pos": "QB",
       "teamAbbr": "ARI",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873086",
+      "athleteId": "5083076",
+      "name": "Harold Fannin Jr.",
+      "pos": "TE",
+      "teamAbbr": "CLE",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
