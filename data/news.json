@@ -1,7 +1,168 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T16:47:37Z",
+  "updatedAt": "2026-11-25T17:47:27Z",
   "items": [
+    {
+      "id": "daa46fd235d7a897",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pfts-thanksgiving-and-week-12-2026-nfl-picks",
+      "title": "PFT's Thanksgiving and Week 12 2026 NFL picks",
+      "summary": "All games picked for one of the most compelling weeks of the season.",
+      "publishedAt": "2026-11-25T17:36:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "6e9c59701d648023",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/devontez-walker-wins-afc-special-teams-player-of-the-week",
+      "title": "Devontez Walker wins AFC special teams player of the week",
+      "summary": "The Ravens didn’t beat the Panthers on Sunday, but they did have one individual do enough to win a player of the week award.",
+      "publishedAt": "2026-11-25T17:24:53Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "466aa84908a1dacc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
+      "title": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
+      "summary": "Chiefs running back Kenneth Walker III (groin) has been ruled out for Thursday's showdown against the Bills, the team announced Wednesday",
+      "publishedAt": "2026-11-25T17:22:59Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "9e25b54566a5ba57",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/abdul-carter-wins-first-nfc-defensive-player-of-the-week-award",
+      "title": "Abdul Carter wins first NFC defensive player of the week award",
+      "summary": "Giants edge rusher Abdul Carter was a game wrecker during Sunday's victory over the Jaguars.",
+      "publishedAt": "2026-11-25T17:19:01Z",
+      "teamIds": [
+        "30",
+        "19"
+      ]
+    },
+    {
+      "id": "2082b8e4756cc5ba",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594624/caleb-douglas-week-12-fantasy-preview",
+      "title": "Caleb Douglas' Week 12 fantasy preview",
+      "summary": null,
+      "publishedAt": "2026-11-25T17:18:27Z",
+      "teamIds": []
+    },
+    {
+      "id": "daef31652892f046",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-k-drew-stevens-is-the-nfc-special-teams-player-of-the-week",
+      "title": "Commanders K Drew Stevens is the NFC special teams player of the week",
+      "summary": "The Commanders called on kicker Drew Stevens often in Week 11 and he came through each and every time.",
+      "publishedAt": "2026-11-25T17:16:49Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "52cd8f2196f4f4df",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-on-thanksgiving-cheat-sheet-everything-you-to-know-three-holiday-games",
+      "title": "NFL on Thanksgiving cheat sheet: Everything you need to know to impress relatives during three holiday games",
+      "summary": "A look at everything you need to know about Bears-Lions, Eagles-Cowboys and Chiefs-Bills",
+      "publishedAt": "2026-11-25T17:13:32Z",
+      "teamIds": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "12",
+        "21"
+      ]
+    },
+    {
+      "id": "040fc6b4f39ad085",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-anderson-named-the-afc-defensive-player-of-the-week",
+      "title": "Will Anderson named the AFC defensive player of the week",
+      "summary": "The Texans hurt their playoff chances with a slow start to the regular season, but they are still in the hunt and having defensive end Will Anderson will help their chances.",
+      "publishedAt": "2026-11-25T17:12:23Z",
+      "teamIds": [
+        "34"
+      ]
+    },
+    {
+      "id": "8ceb0d24d7ed560b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-wins-fourth-career-nfc-offensive-player-of-the-week-award",
+      "title": "Brock Purdy wins fourth career NFC offensive player of the week award",
+      "summary": "Brock Purdy is an MVP candidate and had another strong performance in Sunday’s victory over the Vikings.",
+      "publishedAt": "2026-11-25T17:07:51Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "7ac9381c3233d1bd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonah-coleman-is-the-afc-offensive-player-of-the-week",
+      "title": "Jonah Coleman is the AFC offensive player of the week",
+      "summary": "Broncos rookie Jonah Coleman has moved to the top of the running back depth chart in Denver since returning from injured reserve late last month and he had his biggest game yet against the Raiders in Week 11.",
+      "publishedAt": "2026-11-25T17:05:42Z",
+      "teamIds": [
+        "7",
+        "13"
+      ]
+    },
+    {
+      "id": "f227bb138a823c23",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594376/why-field-yates-banking-jordyn-tyson-bounce-back",
+      "title": "Why Field Yates is banking on Jordyn Tyson to bounce back",
+      "summary": null,
+      "publishedAt": "2026-11-25T17:01:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "4cb9fdea562a8b23",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594488/why-mike-clay-high-deshaun-watson-streaming-option-week-12",
+      "title": "Why Mike Clay is high on Deshaun Watson as a streaming option in Week 12",
+      "summary": null,
+      "publishedAt": "2026-11-25T16:59:10Z",
+      "teamIds": []
+    },
+    {
+      "id": "a1545ff2487b6e96",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-ruled-out-for-thanksgiving-night-vs-bills",
+      "title": "Kenneth Walker ruled out for Thanksgiving night vs. Bills",
+      "summary": "Rookie RB Emmett Johnson is now set to start his third consecutive game.",
+      "publishedAt": "2026-11-25T16:56:35Z",
+      "teamIds": [
+        "2"
+      ]
+    },
+    {
+      "id": "5d8daa774f06ed63",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594441/why-mike-clay-says-carnell-tate-store-tough-week-12-matchup",
+      "title": "Why Mike Clay says Carnell Tate may be in store for a tough Week 12 matchup",
+      "summary": null,
+      "publishedAt": "2026-11-25T16:55:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "5b4754b12c87a363",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50594519/has-bijan-robinson-had-disappointing-fantasy-season-far",
+      "title": "Has Bijan Robinson had a disappointing fantasy season so far?",
+      "summary": null,
+      "publishedAt": "2026-11-25T16:49:45Z",
+      "teamIds": []
+    },
     {
       "id": "ebd88617ccdfc21b",
       "source": "espn",
@@ -10,6 +171,17 @@
       "summary": null,
       "publishedAt": "2026-11-25T16:46:09Z",
       "teamIds": []
+    },
+    {
+      "id": "1ad4db03efe93638",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aaron-rodgers-brother-theory-why-qb-was-shockingly-benched-steelers",
+      "title": "Aaron Rodgers' brother has a theory on why QB was shockingly benched by Steelers",
+      "summary": "Jordan Rodgers believes GM Omar Khan intervened to make the change rather than Mike McCarthy after the quarterback took subtle shots at the front office",
+      "publishedAt": "2026-11-25T16:32:03Z",
+      "teamIds": [
+        "23"
+      ]
     },
     {
       "id": "7361281eca929f3f",
@@ -44,6 +216,17 @@
       "publishedAt": "2026-11-25T16:19:57Z",
       "teamIds": [
         "23"
+      ]
+    },
+    {
+      "id": "2eef4349b400911f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-12-power-rankings-thanksgiving-games",
+      "title": "Prisco's NFL Week 12 Power Rankings: Thanksgiving feast offers a proving ground for contenders",
+      "summary": "Pete Prisco shares his Week 12 Power Rankings for the 2026 NFL season, including the Jaguars falling five spots",
+      "publishedAt": "2026-11-25T16:16:24Z",
+      "teamIds": [
+        "30"
       ]
     },
     {
@@ -105,6 +288,15 @@
       "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
       "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday.",
       "publishedAt": "2026-11-25T16:01:34Z",
+      "teamIds": []
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: How to navigate your roster for the Thanksgiving slate",
+      "summary": "How do you decide which players go where for six days of fantasy football? Tristan H. Cockcroft breaks it all down.",
+      "publishedAt": "2026-11-25T16:00:39Z",
       "teamIds": []
     },
     {
@@ -187,6 +379,15 @@
       "teamIds": [
         "23"
       ]
+    },
+    {
+      "id": "358e125f05a0bfce",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 12 betting odds: Lines and totals for every game",
+      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
+      "publishedAt": "2026-11-25T15:11:35Z",
+      "teamIds": []
     },
     {
       "id": "e02473b45c34aa78",
@@ -619,6 +820,20 @@
       ]
     },
     {
+      "id": "1c5463ad7bc6b25a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-breech-picks-score-predictions-bears-chiefs-rams-packers",
+      "title": "NFL Week 12 picks, score predictions: Bears, Chiefs lose on Thanksgiving; Rams edge Packers in thriller",
+      "summary": "Here's your weekly dose of John Breech's NFL picks",
+      "publishedAt": "2026-11-25T04:26:42Z",
+      "teamIds": [
+        "3",
+        "9",
+        "12",
+        "14"
+      ]
+    },
+    {
       "id": "15ead2407be1b6d3",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-shrugs-at-talk-of-being-on-the-hot-seat-in-colorado",
@@ -715,10 +930,12 @@
       "id": "fec373e9a96079b3",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-injury-report-micah-parsons-cleared-kenneth-walker-iii-practices",
-      "title": "NFL Thanksgiving injury report: Micah Parsons cleared for season debut, Kenneth Walker III practices",
+      "title": "NFL Thanksgiving injury report: Micah Parsons cleared for season debut, Chiefs' Kenneth Walker III out",
       "summary": "Injury reports for every NFL team playing on Wednesday and Thursday in Week 12",
       "publishedAt": "2026-11-25T00:20:02Z",
-      "teamIds": []
+      "teamIds": [
+        "12"
+      ]
     },
     {
       "id": "ccbdced6c534bdcd",
@@ -1384,205 +1601,6 @@
       "publishedAt": "2026-11-24T18:08:24Z",
       "teamIds": [
         "22"
-      ]
-    },
-    {
-      "id": "616e601b34f23ed4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-expect-kenneth-walker-to-practice-tuesday",
-      "title": "Chiefs expect Kenneth Walker to practice Tuesday",
-      "summary": "Chiefs head coach Andy Reid offered a positive update about running back Kenneth Walker on Tuesday.",
-      "publishedAt": "2026-11-24T18:02:22Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "d485cd719b952985",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/hammond-mayor-says-bears-will-make-a-lot-more-money-in-indiana",
-      "title": "Hammond mayor says Bears will \"make a lot more money\" in Indiana",
-      "summary": "Money talks.",
-      "publishedAt": "2026-11-24T18:01:11Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "c32543b5c1543025",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50584326/the-reasons-dopp-picking-dak-prescott-patrick-mahomes-week-12",
-      "title": "The reasons Dopp is picking Dak Prescott over Patrick Mahomes in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T17:58:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "5e80d12284ff480d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-can-become-first-team-mathematically-eliminated-from-the-playoffs-on-sunday",
-      "title": "Cardinals can become first team mathematically eliminated from the playoffs on Sunday",
-      "summary": "We all know the Cardinals are not making the playoffs this year.",
-      "publishedAt": "2026-11-24T17:54:29Z",
-      "teamIds": [
-        "22"
-      ]
-    },
-    {
-      "id": "a7c686ac4cf2f0a6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573676/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 12: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-24T17:45:01Z",
-      "teamIds": []
-    },
-    {
-      "id": "ae083a9ead741260",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573725/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 12: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-24T17:42:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "28747fe37d1e7d3a",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
-      "title": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
-      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
-      "publishedAt": "2026-11-24T17:41:04Z",
-      "teamIds": [
-        "4",
-        "25"
-      ]
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 12: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-24T17:38:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "bfdf2525abe547b7",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-      "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-      "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-      "publishedAt": "2026-11-24T17:36:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "64e3ae0399df723e",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50583712/stephen-not-feeling-too-enthusiastic-cowboys-ahead-eagles-game",
-      "title": "Stephen A. not feeling too enthusiastic about Cowboys ahead of Eagles game",
-      "summary": null,
-      "publishedAt": "2026-11-24T17:16:55Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "6a56f695c99a1893",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50583595/drew-stevens-washington-commanders-kicker",
-      "title": "Drew Stevens goes viral with hilarious postgame presser after winning kick",
-      "summary": "Stevens' explanation for how he calms himself down in tense moments took the internet by storm.",
-      "publishedAt": "2026-11-24T17:04:40Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "90c0e95269f4c292",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573181/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 12: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-24T17:03:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "6e2de5f4a0abb10a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573224/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 12: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-24T17:03:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "3a48bb6d965163ed",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573297/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 12: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-24T17:03:15Z",
-      "teamIds": []
-    },
-    {
-      "id": "9550e8d4ff5a796f",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573414/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 12: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-24T17:02:46Z",
-      "teamIds": []
-    },
-    {
-      "id": "ecb5841ea2bcb486",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573508/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 12: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-24T17:02:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "30d117465ba36597",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/sean-mcvay-on-puka-nacua-cant-say-for-certain-rams-future-free-agency",
-      "title": "Sean McVay on Puka Nacua: 'Can't say for certain' what his Rams future will be amid pending free agency",
-      "summary": "Nacua is set to hit free agency this offseason",
-      "publishedAt": "2026-11-24T16:52:09Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "a9c78037893e4e87",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50577618/why-commanders-streaming-d-st-target-week-12",
-      "title": "Why the Commanders are the streaming D/ST to target in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T16:45:41Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-24T16:26:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "2a05c586398caa2c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/gauntlet-over-vikings-have-five-of-their-last-seven-games-at-home",
-      "title": "Gauntlet over, Vikings have five of their last seven games at home",
-      "summary": "The Vikings managed to win their first six games, fueled by a dominant defense and an offense that was barely able to dog paddle.",
-      "publishedAt": "2026-11-24T16:20:01Z",
-      "teamIds": [
-        "16"
       ]
     }
   ]
