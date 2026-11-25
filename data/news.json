@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T01:47:30Z",
+  "updatedAt": "2026-11-25T02:47:24Z",
   "items": [
+    {
+      "id": "38edbdbd19e95a6f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50588773/long-lions-owner-martha-firestone-ford-dies-age-101",
+      "title": "Longtime Lions owner Martha Firestone Ford dies at age 101",
+      "summary": "Martha Firestone Ford, who served as the primary owner of the Lions from 1994 to 2020, has died at the age of 101, the team announced Tuesday night.",
+      "publishedAt": "2026-11-25T02:44:31Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "fccbd7abf7bccc00",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50585589/dynasty-league-trade-deadline-advice",
+      "title": "Dynasty and keeper league advice at the fantasy football trade deadline",
+      "summary": "In dynasty and keeper leagues, you're always competing for a championship. It's just not always this year's.",
+      "publishedAt": "2026-11-25T02:36:41Z",
+      "teamIds": []
+    },
+    {
+      "id": "896c419f54db0cd2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-owner-chair-emeritus-martha-firestone-ford-passes-at-101",
+      "title": "Lions owner/chair emeritus Martha Firestone Ford passes at 101",
+      "summary": "Martha Firestone Ford, the owner and chair emeritus of the Detroit Lions, has died.",
+      "publishedAt": "2026-11-25T02:23:29Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "ea2f5adc23fef8bc",
       "source": "pft",
@@ -1566,39 +1597,6 @@
       "summary": "Just when we thought we were out when it comes to not knowing what a catch is, they pull us back in.",
       "publishedAt": "2026-11-24T02:45:29Z",
       "teamIds": []
-    },
-    {
-      "id": "899eccc7e0f8584a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bengals-lead-10-7-at-halftime",
-      "title": "Monday Night Football: Bengals lead 10-7 at halftime",
-      "summary": "Both offenses took some time to get going on a rainy night in Washington.",
-      "publishedAt": "2026-11-24T02:43:21Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "79a5ce7ad0ef5c7b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-get-on-the-board-in-second-quarter-lead-3-0",
-      "title": "Bengals get on the board in second quarter, lead 3-0",
-      "summary": "The Bengals offense is off to a slow start, but they have still taken a lead in the second quarter of Monday night's game in Washington.",
-      "publishedAt": "2026-11-24T02:11:10Z",
-      "teamIds": [
-        "4"
-      ]
-    },
-    {
-      "id": "4569abbc6ed70541",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/making-sense-of-liam-coens-nonsensical-decision-to-kick-a-late-field-goal",
-      "title": "Making sense of Liam Coen's nonsensical decision to kick a late field goal",
-      "summary": "Jacksonville's loss to the Giants on Sunday included a nonsensical decision with 3:43 to play.",
-      "publishedAt": "2026-11-24T02:08:18Z",
-      "teamIds": [
-        "19"
-      ]
     }
   ]
 }
