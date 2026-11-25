@@ -1,7 +1,188 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T17:47:27Z",
+  "updatedAt": "2026-11-25T18:47:28Z",
   "items": [
+    {
+      "id": "7e55ed4d7598c2a8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50587341/brandon-aiyuk-commanders-questions",
+      "title": "Commanders and WR Brandon Aiyuk: What to expect, his fit and fantasy impact",
+      "summary": "Our experts answer the biggest questions surrounding Aiyuk agreeing to join the Commanders practice squad.",
+      "publishedAt": "2026-11-25T18:45:50Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "f485aaf33502d454",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
+      "title": "Brandon Aiyuk joining Commanders, will reunite with college QB Jayden Daniels",
+      "summary": "Wide receiver Brandon Aiyuk is signing with the Commanders on their practice squad, agent Drew Rosenhaus told ESPN's Adam Schefter",
+      "publishedAt": "2026-11-25T18:32:52Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "8bf25a8d0a7011f8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/thanksgiving-games-black-friday-nfl-expert-picks-lions-bears-steelers",
+      "title": "Thanksgiving and Black Friday NFL expert picks: Can Lions fend off Bears? Do Steelers save their season?",
+      "summary": "CBSSports.com and SportsLine break down the Thanksgiving Eve, Thanksgiving triple-header, and the Black Friday games",
+      "publishedAt": "2026-11-25T18:32:02Z",
+      "teamIds": [
+        "3",
+        "8",
+        "23"
+      ]
+    },
+    {
+      "id": "1e29d51e24b8e6a8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-agrees-to-join-commanders-practice-squad",
+      "title": "Brandon Aiyuk agrees to join Commanders practice squad",
+      "summary": "The long rumored landing spot will become a reality for Aiyuk, who was released by the 49ers earlier this week.",
+      "publishedAt": "2026-11-25T18:30:32Z",
+      "teamIds": [
+        "25",
+        "28"
+      ]
+    },
+    {
+      "id": "43fe3bd60138f1fb",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-are-aware-of-suggestion-that-james-pearce-jr-has-been-trying-to-contact-rickea-jackson",
+      "title": "Falcons are \"aware\" of suggestion that James Pearce Jr. has been trying to contact Rickea Jackson",
+      "summary": "Falcons defensive end James Pearce Jr. has returned from an eight-game suspension arising from an incident with his former girlfriend, WNBA player Rickea Jackson.",
+      "publishedAt": "2026-11-25T18:28:34Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "8d88c30e8c3ed210",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50594339/nfl-survivor-week-12-survivor-pool-strategy-advice-picks",
+      "title": "NFL survivor power rankings: Why this is the week to use the Jaguars or Texans",
+      "summary": "ESPN NFL survivor pool strategy, predictions and ranking the top seven options for Week 12.",
+      "publishedAt": "2026-11-25T18:23:21Z",
+      "teamIds": [
+        "34",
+        "30"
+      ]
+    },
+    {
+      "id": "eaa6458f288a3ed8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-designate-tvondre-sweat-for-return-from-injured-reserve",
+      "title": "Jets designate T'Vondre Sweat for return from injured reserve",
+      "summary": "The Jets will have defensive tackle T'Vondre Sweat back at practice this week.",
+      "publishedAt": "2026-11-25T18:22:57Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "1773fe95bb94827a",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50452931/nfl-week-12-odds-packers-rams-betting-preview-props",
+      "title": "Will the Rams be able to slow down the Packers' passing game?",
+      "summary": "Odds, analysis and recommended plays to help you bet the Thanksgiving eve Packers-Rams game.",
+      "publishedAt": "2026-11-25T18:21:05Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "f68d58d005fadf07",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/marlon-humphrey-takes-part-in-wednesdays-ravens-practice",
+      "title": "Marlon Humphrey takes part in Wednesday's Ravens practice",
+      "summary": "Cornerback Marlon Humphrey returned to the Ravens' facility on Monday and he returned to their practice field on Wednesday.",
+      "publishedAt": "2026-11-25T18:18:08Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "fa93066d0c9846c9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50595254/falcons-aware-insinuations-pearce-trying-call-ex-gf",
+      "title": "Falcons 'aware' of insinuations Pearce still trying to contact ex Jackson",
+      "summary": "Kevin Stefanski said he and the team are aware of assertions made by Rickea Jackson that insinuated James Pearce Jr. is still trying to contact her.",
+      "publishedAt": "2026-11-25T18:13:14Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "940884ae4509cbb6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-sign-cb-corey-thornton-off-of-the-panthers-practice-squad",
+      "title": "Titans sign CB Corey Thornton off of the Panthers practice squad",
+      "summary": "The Titans have made an addition to their ailing defense.",
+      "publishedAt": "2026-11-25T18:06:29Z",
+      "teamIds": [
+        "29",
+        "10"
+      ]
+    },
+    {
+      "id": "99a2312d7dc7d5b6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-finishes-visit-with-commanders-but-decision-is-not-expected-on-wednesday",
+      "title": "Brandon Aiyuk finishes visit with Commanders, but decision is not expected on Wednesday",
+      "summary": "Brandon Aiyuk may still join the Commanders soon, but it sounds like that's not imminent.",
+      "publishedAt": "2026-11-25T18:01:50Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "3e4af1af3c788f56",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-ranking-most-memorable-halftime-shows",
+      "title": "NFL Thanksgiving 2026: Ranking the 10 most memorable Thanksgiving halftime shows",
+      "summary": "A look at some of the most iconic performances from Turkey Days of the past",
+      "publishedAt": "2026-11-25T17:52:00Z",
+      "teamIds": []
+    },
+    {
+      "id": "e5ecb465bfb3af5b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quinyon-mitchell-has-no-injury-designation-for-thanksgiving",
+      "title": "Quinyon Mitchell has no injury designation for Thanksgiving",
+      "summary": "The Eagles will have cornerback Quinyon Mitchell in the lineup for Thursday's game in Dallas.",
+      "publishedAt": "2026-11-25T17:50:04Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "0570bfeb34886b9a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-designate-lb-thomas-incoom-for-return-from-ir",
+      "title": "Panthers designate LB Thomas Incoom for return from IR",
+      "summary": "The Panthers have opened the practice window for linebacker Thomas Incoom.",
+      "publishedAt": "2026-11-25T17:45:36Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "d770378c4cfd8d83",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/lions-vs-bears-thanksgiving-prediction-odds-how-to-watch",
+      "title": "Lions vs. Bears Thanksgiving prediction: Which team will be in control of NFC North?",
+      "summary": "Sole possession of first place in the NFC North is on the line at Ford Field as two 8-2 rivals clash on Thanksgiving with long winning streaks",
+      "publishedAt": "2026-11-25T17:42:15Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
     {
       "id": "daa46fd235d7a897",
       "source": "pft",
@@ -10,6 +191,17 @@
       "summary": "All games picked for one of the most compelling weeks of the season.",
       "publishedAt": "2026-11-25T17:36:47Z",
       "teamIds": []
+    },
+    {
+      "id": "54a9c7a04eb64b38",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/agents-take-puka-nacua-predicament-where-future-rams-stands",
+      "title": "Agent's Take: The Puka Nacua predicament and where his future with Rams stands after injury",
+      "summary": "Nacua's rookie contract is expiring, leaving LA with a decision to make on the wide receiver this offseason",
+      "publishedAt": "2026-11-25T17:31:09Z",
+      "teamIds": [
+        "14"
+      ]
     },
     {
       "id": "6e9c59701d648023",
@@ -300,12 +492,84 @@
       "teamIds": []
     },
     {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 12: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-25T15:53:44Z",
+      "teamIds": []
+    },
+    {
+      "id": "a7c686ac4cf2f0a6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573676/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 12: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-25T15:52:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "ecb5841ea2bcb486",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573508/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 12: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-25T15:52:29Z",
+      "teamIds": []
+    },
+    {
+      "id": "9550e8d4ff5a796f",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573414/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 12: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-25T15:52:06Z",
+      "teamIds": []
+    },
+    {
       "id": "14976dbd1210256d",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50593588/kyle-pitts-sr-week-12-fantasy-preview",
       "title": "Kyle Pitts Sr.'s Week 12 fantasy preview",
       "summary": null,
       "publishedAt": "2026-11-25T15:51:58Z",
+      "teamIds": []
+    },
+    {
+      "id": "3a48bb6d965163ed",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573297/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 12: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-25T15:50:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "ae083a9ead741260",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573725/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 12: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-25T15:50:13Z",
+      "teamIds": []
+    },
+    {
+      "id": "6e2de5f4a0abb10a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573224/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 12: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-25T15:49:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "90c0e95269f4c292",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573181/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 12: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-25T15:49:17Z",
       "teamIds": []
     },
     {
@@ -643,7 +907,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50582929/week-12-buzz-fantasy-predictions-graziano-fowler-2026",
       "title": "NFL Week 12 latest intel, buzz questions, news, fantasy tips: What we're hearing",
-      "summary": "Where could Daniel Jones and Brandon Aiyuk land? What's the latest on coaching hot seats? What's next for Puka Nacua? And who is getting MVP love in league circles?",
+      "summary": "Where could Daniel Jones land? What's the latest on coaching hot seats? What's next for Puka Nacua? And who is getting MVP love in league circles?",
       "publishedAt": "2026-11-25T11:19:37Z",
       "teamIds": []
     },
@@ -1344,264 +1608,6 @@
       "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
       "publishedAt": "2026-11-24T20:08:49Z",
       "teamIds": []
-    },
-    {
-      "id": "b2465d08afa40d76",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-waive-returner-lajohntay-wester",
-      "title": "Ravens waive returner LaJohntay Wester",
-      "summary": "After he had a rough Sunday in Charlotte, the Ravens are moving on from LaJohntay Wester.",
-      "publishedAt": "2026-11-24T20:07:04Z",
-      "teamIds": [
-        "33"
-      ]
-    },
-    {
-      "id": "200a5d920c3934d7",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869566/2026-fantasy-football-expected-fantasy-points-xfp-qb",
-      "title": "Expected fantasy points (xFP): 2026 leaderboard for QBs",
-      "summary": "xFP focuses solely on opportunity. Here are the leaders for 2026.",
-      "publishedAt": "2026-11-24T20:06:49Z",
-      "teamIds": []
-    },
-    {
-      "id": "a5d77d6ddb02ae3c",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49954186/fantasy-football-rankings-consistency-ratings-start-sit-value",
-      "title": "Fantasy football consistency ratings: 2024 to 2026",
-      "summary": "The consistency ratings weigh both how consistent and how start-worthy players have been from 2024 to 2026.",
-      "publishedAt": "2026-11-24T20:06:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "14a0a051c07584cb",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
-      "title": "NFL expected touchdown (xTD) leaderboard for 2026",
-      "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
-      "publishedAt": "2026-11-24T20:04:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "5981c1b08209b3c6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879765/fantasy-football-2026-defensive-depth-charts",
-      "title": "Fantasy football 2026 defensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable fantasy defensive players for the 2026 season.",
-      "publishedAt": "2026-11-24T20:02:11Z",
-      "teamIds": []
-    },
-    {
-      "id": "8ad5845f106af302",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts",
-      "title": "Fantasy football 2026 offensive depth charts",
-      "summary": "Your guide to each NFL team's most valuable offensive players from a fantasy standpoint for the 2026 season.",
-      "publishedAt": "2026-11-24T20:00:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ae2720c481c9e03",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50573832/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 12",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-24T19:48:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "7641eddd620233b4",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/micah-parsons-injury-update-packers-return-rams-2026",
-      "title": "Micah Parsons injury update: Packers star activated, cleared to make 2026 debut vs. Rams in Week 12",
-      "summary": "Green Bay's star pass rusher is set to make his 2026 debut against Los Angeles after missing nearly a year to multiple knee injuries",
-      "publishedAt": "2026-11-24T19:46:55Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "92425e3d35c4cb8d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-sign-ot-fred-johnson-to-53-man-roster",
-      "title": "Chiefs sign OT Fred Johnson to 53-man roster",
-      "summary": "The Chiefs announced a pair of roster moves on Tuesday afternoon.",
-      "publishedAt": "2026-11-24T19:38:35Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "f4992cadd5b1c4a4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-micah-parsons-to-53-man-roster",
-      "title": "Packers activate Micah Parsons to 53-man roster",
-      "summary": "Signs continue to point toward Parsons making his 2026 debut against the Rams on Wednesday night.",
-      "publishedAt": "2026-11-24T19:34:57Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "438be4a8ddd746ac",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-dt-skyler-gill-howard-out-for-season-with-knee-injury",
-      "title": "Lions DT Skyler Gill-Howard out for season with knee injury",
-      "summary": "The Lions have lost another defensive player for the rest of the 2026 season.",
-      "publishedAt": "2026-11-24T19:31:59Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "43f7b10108c22010",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50117108/fantasy-football-2026-strength-schedule-rest-season",
-      "title": "Strength of schedule (SOS): Every team's year-to-date and rest-of-season ratings",
-      "summary": "Ranking each team's remaining schedule and how it might impact every position's fantasy performance.",
-      "publishedAt": "2026-11-24T19:26:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "83576deed7a69fdb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyren-williams-off-injury-report-set-to-play-wednesday-vs-packers",
-      "title": "Kyren Williams off injury report, set to play Wednesday vs. Packers",
-      "summary": "Rams running back Kyren Williams was listed on the injury report this week with a toe injury, but he is still set to play in Wednesday's game against the Packers.",
-      "publishedAt": "2026-11-24T19:17:28Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "22bcd8fbf533485d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-commanders-clock-error-brings-back-memories-of-steelers-chargers-clock-error-in-2015",
-      "title": "Bengals-Commanders clock error brings back memories of Steelers-Chargers clock error in 2015",
-      "summary": "Monday night's game between the Bengals and Commanders ended with an apparent error by the clock operator.",
-      "publishedAt": "2026-11-24T19:02:35Z",
-      "teamIds": [
-        "4",
-        "24",
-        "23",
-        "28"
-      ]
-    },
-    {
-      "id": "4bb7204fe4146b0d",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
-      "title": "Rest-of-season rankings: Coleman surges among RBs, Taylor sinks",
-      "summary": "Need to know how to value players from this point forward for production or trade discussions? Eric Karabell has you covered.",
-      "publishedAt": "2026-11-24T19:00:07Z",
-      "teamIds": []
-    },
-    {
-      "id": "2adddcf44c9c721d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50584494/pro-football-hall-fame-trims-2027-player-nominees-52",
-      "title": "Pro Football Hall of Fame voters trim Class of 2027 nominees to 52",
-      "summary": "Five first-time eligible former players advanced in the voting process for the Pro Football Hall of Fame's Class of 2027, it was announced Tuesday.",
-      "publishedAt": "2026-11-24T18:46:10Z",
-      "teamIds": [
-        "16",
-        "17",
-        "23",
-        "26"
-      ]
-    },
-    {
-      "id": "926cd67adbdb2fa2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-ot-wanya-morris-off-cowboys-practice-squad",
-      "title": "Colts sign OT Wanya Morris off Cowboys practice squad",
-      "summary": "The Colts are adding an offensive lineman.",
-      "publishedAt": "2026-11-24T18:31:53Z",
-      "teamIds": [
-        "6",
-        "11"
-      ]
-    },
-    {
-      "id": "60806e6733123744",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/ranking-nfl-division-races-first-worst-nfc-north-nfc-south-entertaining",
-      "title": "Ranking NFL division races from first to worst: NFC North, NFC South entertaining for very different reasons",
-      "summary": "Plus, one division race is already over, per our projections",
-      "publishedAt": "2026-11-24T18:29:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "19c47a1155893e6d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50584335/dopp-yates-face-jeanty-vs-skattebo-week-12",
-      "title": "Dopp, Yates face off over Jeanty vs. Skattebo in Week 12",
-      "summary": null,
-      "publishedAt": "2026-11-24T18:27:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "2d47af329d035f7b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rob-gronkowski-adrian-peterson-ben-roethlisberger-among-players-advancing-in-hall-of-fame-voting-process",
-      "title": "Rob Gronkowski, Adrian Peterson, Ben Roethlisberger among players advancing in Hall of Fame voting process",
-      "summary": "The field will eventually be cut to 13 candidates before the final vote.",
-      "publishedAt": "2026-11-24T18:25:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "567f244ad5af9943",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50583834/2026-fantasy-football-knockout-leagues-pickups-week-12",
-      "title": "Prioritize Ja'Marr Chase, Bijan Robinson over Josh Allen in Knockout league pickups",
-      "summary": "As the number of teams shrink, the number of stars available in Knockout leagues grows. Here are the ones to get.",
-      "publishedAt": "2026-11-24T18:17:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "dd7961be8b70a546",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50584332/is-stefon-diggs-jameson-williams-better-fantasy-play-week-12",
-      "title": "Is Stefon Diggs or Jameson Williams a better fantasy play in Week 12?",
-      "summary": null,
-      "publishedAt": "2026-11-24T18:16:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "f59ab4b34d6ede69",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50584372/why-mike-clay-worried-jaylen-warren-fantasy",
-      "title": "Why Mike Clay isn't worried about Jaylen Warren in fantasy",
-      "summary": null,
-      "publishedAt": "2026-11-24T18:11:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "3a57b4a6cfa21dd8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-list-micah-parsons-josh-jacobs-as-questionable-for-wednesday",
-      "title": "Packers list Micah Parsons, Josh Jacobs as questionable for Wednesday",
-      "summary": "Micah Parsons has been cleared to make his return from last December's torn ACL, but the Packers didn't make anything certain about the defensive end's status for Wednesday night's game against the Rams on their final injury report.",
-      "publishedAt": "2026-11-24T18:09:31Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "75295be54a4f3df1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-lafleur-stuck-with-nick-rallis-as-dc-due-to-limited-options-in-coaching-cycle",
-      "title": "Report: Mike LaFleur stuck with Nick Rallis as DC due to limited options in coaching cycle",
-      "summary": "When the Cardinals hired Mike LaFleur in February, he was the last head coach to start his job in this year's NFL cycle.",
-      "publishedAt": "2026-11-24T18:08:24Z",
-      "teamIds": [
-        "22"
-      ]
     }
   ]
 }
