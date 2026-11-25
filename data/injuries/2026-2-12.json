@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-25T23:20:37Z",
+    "takenAt": "2026-11-25T23:30:50Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1633,7 +1633,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3916387",
@@ -1645,7 +1645,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4429615",
@@ -1656,7 +1656,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4258173",
@@ -2416,9 +2416,19 @@
     },
     {
       "gameId": "401873085",
-      "athleteId": "3043078",
-      "name": "Derrick Henry",
-      "pos": "RB",
+      "athleteId": "3916387",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
+      "gameId": "401873085",
+      "athleteId": "4429615",
+      "name": "Zay Flowers",
+      "pos": "WR",
       "teamAbbr": "BAL",
       "kind": "neu",
       "from": null,
