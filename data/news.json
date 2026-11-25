@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T05:47:28Z",
+  "updatedAt": "2026-11-25T06:47:25Z",
   "items": [
+    {
+      "id": "408eaeabdc71f867",
+      "source": "espn",
+      "url": "https://espn.com/espn/story/_/id/50590411/chuba-hubbard-makes-difference-again-another-tight-panthers-win",
+      "title": "Chuba Hubbard makes the difference again in another tight Panthers win",
+      "summary": "Chuba Hubbard had a second straight week with two touchdowns in Week 11 of the NFL season, and crucially, both performances have been decisive in nail-biting Carolina Panthers wins.",
+      "publishedAt": "2026-11-25T06:18:25Z",
+      "teamIds": [
+        "33",
+        "29"
+      ]
+    },
+    {
+      "id": "93cbf58f664f394c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-make-qb-inactive-friday-broncos",
+      "title": "Is this how it ends? Steelers bench Aaron Rodgers, turn to Mason Rudolph to start vs. Broncos",
+      "summary": "Pittsburgh made the call to bench Rodgers after offensive struggles led to consecutive losses following a 6-2 start",
+      "publishedAt": "2026-11-25T05:18:04Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
     {
       "id": "09c2f6ed278f32a5",
       "source": "pft",
@@ -1574,30 +1598,6 @@
       "title": "Commanders storm back, stun Bengals 22-20 on MNF",
       "summary": null,
       "publishedAt": "2026-11-24T04:35:02Z",
-      "teamIds": [
-        "4",
-        "28"
-      ]
-    },
-    {
-      "id": "8454f25061fdfd97",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc",
-      "title": "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
-      "summary": "A comprehensive look at all seven seeds in the AFC and NFC and the teams on the outside looking in",
-      "publishedAt": "2026-11-24T04:33:23Z",
-      "teamIds": [
-        "30",
-        "25"
-      ]
-    },
-    {
-      "id": "06dbdb03e9097885",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-commanders-rally-for-22-20-win-over-bengals",
-      "title": "Monday Night Football: Commanders rally for 22-20 win over Bengals",
-      "summary": "There were no late mistakes for the Commanders this time.",
-      "publishedAt": "2026-11-24T04:32:03Z",
       "teamIds": [
         "4",
         "28"
