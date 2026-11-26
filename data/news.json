@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T02:54:19Z",
+  "updatedAt": "2026-11-26T03:47:23Z",
   "items": [
+    {
+      "id": "2f70661ba0aa92b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-move-ahead-20-13-on-blake-corum-td",
+      "title": "Rams move ahead 20-13 on Blake Corum TD",
+      "summary": "The Rams took more than eight minutes off the clock before taking the lead.",
+      "publishedAt": "2026-11-26T03:22:56Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "c066235b773d10a7",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50600753/rams-kam-kinchens-ejected-hit-christian-watson",
+      "title": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
+      "summary": "Rams safety Kam Kinchens was ejected for a hit along the sideline that left Packers wide receiver Christian Watson with a concussion Wednesday night.",
+      "publishedAt": "2026-11-26T03:21:06Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "dc17a9fa6be0130a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-watson-ruled-out-with-a-concussion",
+      "title": "Christian Watson ruled out with a concussion",
+      "summary": "Rams safety Kamren Kinchens was disqualified for the hit that injured Watson.",
+      "publishedAt": "2026-11-26T03:09:45Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "b20534a6cd9ec54f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
+      "title": "Prisco's Week 12 NFL picks: Cowboys feast on Eagles, Bills win thriller over Chiefs",
+      "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
+      "publishedAt": "2026-11-26T03:02:15Z",
+      "teamIds": [
+        "2",
+        "6",
+        "7",
+        "12",
+        "21",
+        "23"
+      ]
+    },
+    {
+      "id": "e8bd64fc22f97bfc",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/heres-a-roadmap-to-the-aaron-rodgers-developments-one-of-the-craziest-stories-in-years",
+      "title": "Here's a roadmap to the Aaron Rodgers developments, one of the craziest stories in years",
+      "summary": "If you were traveling on Wednesday or otherwise not plugged in for one of the most rollicking, unpredictable days in years if not ever, you're in luck.",
+      "publishedAt": "2026-11-26T02:59:54Z",
+      "teamIds": []
+    },
+    {
+      "id": "ffadfe915110d29e",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-halftime-show-performers-schedule",
+      "title": "NFL Thanksgiving 2026: A look at every NFL halftime show performer for the holiday slate",
+      "summary": "There will be four performances between Thanksgiving Eve and Thanksgiving",
+      "publishedAt": "2026-11-26T02:52:35Z",
+      "teamIds": []
+    },
     {
       "id": "99985dce62684e80",
       "source": "pft",
@@ -1124,7 +1192,7 @@
       "id": "3e4af1af3c788f56",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-ranking-most-memorable-halftime-shows",
-      "title": "NFL Thanksgiving 2026: Ranking the 10 most memorable Thanksgiving halftime shows",
+      "title": "NFL on Thanksgiving halftime shows: Ranking the 10 most memorable performances",
       "summary": "A look at some of the most iconic performances from Turkey Days of the past",
       "publishedAt": "2026-11-25T17:52:00Z",
       "teamIds": []
@@ -1593,65 +1661,6 @@
       "teamIds": [
         "30"
       ]
-    },
-    {
-      "id": "bb49d655da5dcde2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/cowboys-vs-eagles-thanksgiving-how-to-watch-odds-preview-prediction",
-      "title": "Cowboys vs. Eagles Thanksgiving prediction: Dallas looks for first win streak of 2026 vs. ex-QB",
-      "summary": "How to watch, what to know and a prediction for the Thanksgiving clash between NFC East rivals",
-      "publishedAt": "2026-11-25T15:31:29Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "15f2356ed1c697f6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50588158/facts-feelings-fantasy-advice-week-12",
-      "title": "Facts vs. Feelings: The facts you need to feel right about your flex decisions",
-      "summary": "Making a tough flex decision this week? Here are some hard facts to help you feel good about the decision.",
-      "publishedAt": "2026-11-25T15:22:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "72c8696c1b11a5e8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50593112/dk-metcalf-week-12-fantasy-preview",
-      "title": "DK Metcalf's Week 12 fantasy preview",
-      "summary": null,
-      "publishedAt": "2026-11-25T15:19:49Z",
-      "teamIds": []
-    },
-    {
-      "id": "c7e53fb36179784b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aaron-rodgers-was-excused-from-work-on-wednesday",
-      "title": "Report: Aaron Rodgers was \"excused\" from work on Wednesday",
-      "summary": "The sudden, late-night benching of quarterback Aaron Rodgers has created a slew of questions that are being answered in real time.",
-      "publishedAt": "2026-11-25T15:19:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "31466b49438ec9f4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50593396/stephen-rips-steelers-decision-bench-aaron-rodgers",
-      "title": "Stephen A. rips Steelers' decision to bench Aaron Rodgers",
-      "summary": null,
-      "publishedAt": "2026-11-25T15:18:49Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "7ba77b8ef1a1ff7c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/predicting-full-14-team-nfl-playoff-bracket-nfl-week-12",
-      "title": "Predicting full 14-team NFL playoff bracket for NFL Week 12: How Aaron Rodgers' benching impacts AFC race",
-      "summary": "All 32 teams are still alive in the playoff race, but only 14 will be making the postseason, and we projected the full list here",
-      "publishedAt": "2026-11-25T15:14:08Z",
-      "teamIds": []
     }
   ]
 }
