@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T22:25:07Z",
+  "updatedAt": "2026-11-26T22:47:19Z",
   "items": [
+    {
+      "id": "7165c883f0fc549b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50606625/aaron-rodgers-officially-free-agent-clearing-waivers",
+      "title": "Aaron Rodgers officially a free agent after clearing waivers",
+      "summary": "Aaron Rodgers is officially a free agent and eligible to sign with any team after he cleared waivers Thursday.",
+      "publishedAt": "2026-11-26T22:43:53Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "839ad5235ae1e05a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50606739/eagles-cooper-dejean-concussion-leaves-game-cowboys",
+      "title": "Eagles' Cooper DeJean leaves game at Cowboys because of concussion",
+      "summary": "Eagles All-Pro defensive back Cooper DeJean was ruled out of Thursday's game against the Dallas Cowboys with a concussion.",
+      "publishedAt": "2026-11-26T22:34:37Z",
+      "teamIds": [
+        "21"
+      ]
+    },
     {
       "id": "efcacc43a2aee410",
       "source": "espn",
@@ -43,7 +65,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873081",
       "title": "Caleb Williams' TD pass with 3 seconds left gives Bears 39-35 win over Lions",
-      "summary": "Caleb Williams threw a go-ahead, 6-yard touchdown pass to Rome Odunze with 3 seconds left to give the Chicago Bears their first lead of the game in a 39-35 win over the",
+      "summary": "Caleb Williams took a shotgun snap, dropped back, looked left and threw a perfect pass to the back, right corner of the end zone where only Rome Odunze could catch it.",
       "publishedAt": "2026-11-26T21:45:33Z",
       "teamIds": [
         "3",
@@ -1224,12 +1246,7 @@
       "title": "NFL Week 12: Highlights of Thanksgiving games",
       "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
       "publishedAt": "2026-11-26T00:49:57Z",
-      "teamIds": [
-        "3",
-        "8",
-        "9",
-        "14"
-      ]
+      "teamIds": []
     },
     {
       "id": "81c018dedbc13815",
@@ -1668,29 +1685,6 @@
       "teamIds": [
         "29",
         "27"
-      ]
-    },
-    {
-      "id": "a936c36b6ab276fb",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50597187/sources-confirm-aaron-rodgers-allegations-mike-mccarthy",
-      "title": "Sources corroborate Aaron Rodgers' allegations on Steelers coach Mike McCarthy",
-      "summary": "NFL sources have corroborated Aaron Rodgers' account of Mike McCarthy to ESPN reporters, confirming the star quarterback's allegations about the Steelers coach.",
-      "publishedAt": "2026-11-25T21:46:54Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "a86220b4b4e660f6",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-lines-spreads-picks-predictions-bets-week-12-2026",
-      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
-      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-25T21:45:27Z",
-      "teamIds": [
-        "15",
-        "16"
       ]
     }
   ]
