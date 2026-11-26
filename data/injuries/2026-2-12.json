@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T01:40:38Z",
+    "takenAt": "2026-11-26T02:20:38Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1634,7 +1634,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3916387",
@@ -2422,16 +2422,6 @@
       "name": "Kyler Murray",
       "pos": "QB",
       "teamAbbr": "MIN",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873085",
-      "athleteId": "3043078",
-      "name": "Derrick Henry",
-      "pos": "RB",
-      "teamAbbr": "BAL",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
