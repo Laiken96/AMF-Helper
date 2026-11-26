@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T16:47:26Z",
+  "updatedAt": "2026-11-26T17:47:30Z",
   "items": [
+    {
+      "id": "a7d4bf7114232e1a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/blake-corum-supplants-kyren-williams-as-the-rams-top-tailback",
+      "title": "Blake Corum supplants Kyren Williams as the Rams' top tailback",
+      "summary": "It's been slowly building throughout the season.",
+      "publishedAt": "2026-11-26T17:29:49Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "096ae866a4c081bf",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-promos-get-nearly-4000-in-bonuses-from-betting-apps-sportsbooks-for-nfl-thanksgiving",
+      "title": "Week 12 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for NFL Thanksgiving",
+      "summary": "Top Week 12 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-26T17:05:13Z",
+      "teamIds": []
+    },
+    {
+      "id": "30b0fbe536d42f73",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-grateful",
+      "title": "What all 32 NFL teams should be thankful for this Thanksgiving",
+      "summary": "From MVP candidates Joe Burrow and Brock Purdy to promising rookies, new coaches and future draft picks, here is one reason each of the NFL's 32 teams can give thanks",
+      "publishedAt": "2026-11-26T16:56:18Z",
+      "teamIds": []
+    },
+    {
+      "id": "c906b413abf5e012",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-lions-despite-their-resurgence-are-1-8-in-their-last-nine-thanksgiving-games",
+      "title": "The Lions, despite their resurgence, are 1-8 in their last nine Thanksgiving games",
+      "summary": "The Lions commenced their ongoing resurgence in 2022.",
+      "publishedAt": "2026-11-26T16:53:00Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "d6692b21a5e0821a",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-lines-odds-spreads-totals",
+      "title": "Week 12 NFL odds, lines, totals, spreads for every game, including Bears-Lions, Cowboys-Eagles, Bills-Chiefs",
+      "summary": "A look at the latest Week 12 NFL odds, spreads, and totals for all 16 games, including Thanksgiving matchups.",
+      "publishedAt": "2026-11-26T16:40:29Z",
+      "teamIds": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "12",
+        "21"
+      ]
+    },
     {
       "id": "5b7466b33156444d",
       "source": "pft",
@@ -9,6 +65,18 @@
       "title": "Chuck Clark, DJ Wonnum are inactive for the Lions",
       "summary": "The Lions will be missing a pair of defensive starters for Thursday's home game against the Bears.",
       "publishedAt": "2026-11-26T16:36:08Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "5a42c0e93927cb33",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bears-vs-lions-odds-picks-prediction-start-time-2026-nfl-thanksgiving-day-betting-preview-best-bets",
+      "title": "Bears vs. Lions odds, picks, prediction, start time: 2026 NFL Thanksgiving Day betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Lions vs. Bears on Thanksgiving in NFL Week 12",
+      "publishedAt": "2026-11-26T16:31:11Z",
       "teamIds": [
         "3",
         "8"
@@ -75,6 +143,19 @@
       "teamIds": [
         "33",
         "17"
+      ]
+    },
+    {
+      "id": "8bf25a8d0a7011f8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/thanksgiving-games-black-friday-nfl-expert-picks-lions-bears-steelers",
+      "title": "Thanksgiving and Black Friday NFL expert picks: Can Lions fend off Bears? Do Steelers save their season?",
+      "summary": "CBSSports.com and SportsLine break down the Thanksgiving Eve, Thanksgiving triple-header, and the Black Friday games",
+      "publishedAt": "2026-11-26T15:45:42Z",
+      "teamIds": [
+        "3",
+        "8",
+        "23"
       ]
     },
     {
@@ -907,7 +988,7 @@
       "id": "e3903d01e80842ed",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
-      "title": "NFL Week 12 arrivals: Jeffrey Simmons leads arrivals ahead of Bears-Lions",
+      "title": "NFL Week 12 arrivals: Jeffery Simmons leads arrivals ahead of Bears-Lions",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-25T23:58:11Z",
       "teamIds": [
@@ -1596,85 +1677,6 @@
       "publishedAt": "2026-11-25T19:39:40Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "2d46c864c793d054",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-out-of-practice-wednesday-with-ankle-injury",
-      "title": "Brock Purdy out of practice Wednesday with ankle injury",
-      "summary": "The 49ers will practice without their starting quarterback on Wednesday.",
-      "publishedAt": "2026-11-25T19:29:17Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "926889698b28fd0c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50595660/rodgers-heard-mccarthy-benching",
-      "title": "Steelers cut AaroRodgers after QB rips McCarthy in scorched-earth interview",
-      "summary": "The Steelers have waived Aaron Rodgers after the quarterback told \"The Pat McAfee Show\" that coach Mike McCarthy has been sleeping through team meetings.",
-      "publishedAt": "2026-11-25T19:20:11Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "c1daaf29805ad574",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50595733/rodgers-accuses-mccarthy-snoring-meetings-rips-steelers-coach",
-      "title": "Rodgers accuses McCarthy of 'snoring' during meetings, rips the Steelers coach",
-      "summary": null,
-      "publishedAt": "2026-11-25T19:15:27Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "97972ae7a646cb31",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-mike-mccarthy-fell-asleep-in-meeting-last-week-broke-down-steelers-with-1-2-3-packers",
-      "title": "Aaron Rodgers: Mike McCarthy fell asleep in meeting last week, broke down Steelers with \"1-2-3 Packers\"",
-      "summary": "Rodgers's first comments since being benched by the Steelers came on The Pat McAfee Show.",
-      "publishedAt": "2026-11-25T19:06:49Z",
-      "teamIds": [
-        "9",
-        "23"
-      ]
-    },
-    {
-      "id": "156bf858b79f8163",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/former-49ers-wr-brandon-aiyuk-to-sign-with-commanders",
-      "title": "Brandon Aiyuk to sign with Commanders' practice squad days after leaving 49ers",
-      "summary": "San Francisco's former wideout is officially getting a fresh start",
-      "publishedAt": "2026-11-25T18:56:38Z",
-      "teamIds": [
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "dc42dfc6c2a09794",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50595543/ian-rapoport-gives-details-brandon-aiyuk-joining-commanders-practice-squad",
-      "title": "Ian Rapoport gives details on Brandon Aiyuk joining Commanders' practice squad",
-      "summary": null,
-      "publishedAt": "2026-11-25T18:53:50Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "a8d53d93c574916a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dalton-kincaid-christian-benford-among-five-bills-listed-as-questionable",
-      "title": "Dalton Kincaid, Christian Benford among five Bills listed as questionable",
-      "summary": "The Bills could be getting tight end Dalton Kincaid and cornerback Christian Benford back in the lineup on Thursday night.",
-      "publishedAt": "2026-11-25T18:46:08Z",
-      "teamIds": [
-        "2"
       ]
     }
   ]
