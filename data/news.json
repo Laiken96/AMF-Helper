@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T20:47:23Z",
+  "updatedAt": "2026-11-26T21:47:23Z",
   "items": [
+    {
+      "id": "e197db9c31acec02",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873081",
+      "title": "Caleb Williams' TD pass with 3 seconds left gives Bears 39-35 win over Lions",
+      "summary": "Caleb Williams threw a go-ahead, 6-yard touchdown pass to Rome Odunze with 3 seconds left to give the Chicago Bears their first lead of the game in a 39-35 win over the",
+      "publishedAt": "2026-11-26T21:45:33Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "a6282320c7966077",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-stun-lions-on-late-rome-odunze-td",
+      "title": "Bears stun Lions on late Rome Odunze TD",
+      "summary": "The Bears came through at the end of a wild second half in Detroit.",
+      "publishedAt": "2026-11-26T21:41:14Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "ff46a758c3a109a7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-clears-waivers",
+      "title": "Aaron Rodgers clears waivers",
+      "summary": "Rodgers becomes a free agent.",
+      "publishedAt": "2026-11-26T21:40:37Z",
+      "teamIds": []
+    },
+    {
+      "id": "7cc6eb24ed975750",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50606063/steelers-activate-michael-pittman-jr-ir-sign-max-hurleman-active-roster-practice-squad",
+      "title": "Steelers activate Michael Pittman Jr. off IR, sign Max Hurleman to active roster",
+      "summary": "The Steelers on Thursday activated Michael Pittman Jr. from injured reserve and signed Max Hurleman to the active roster from the practice squad.",
+      "publishedAt": "2026-11-26T21:25:14Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "722d0aa6054f5ed2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-up-to-three-touchdowns-lions-up-35-24",
+      "title": "Jahmyr Gibbs up to three touchdowns, Lions up 35-24",
+      "summary": "Gibbs broke free for 70 yards this time.",
+      "publishedAt": "2026-11-26T20:56:18Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "f46e8425f51757d1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-remains-out-of-cardinals-practice",
+      "title": "Carson Beck remains out of Cardinals practice",
+      "summary": "It looks like the Cardinals are on track to be without Carson Beck against the Commanders this week.",
+      "publishedAt": "2026-11-26T20:50:36Z",
+      "teamIds": [
+        "22",
+        "28"
+      ]
+    },
+    {
+      "id": "f07dd92070b48888",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-on-packers-run-game-struggles-were-trying",
+      "title": "Matt LaFleur on Packers' run-game struggles: \"We're trying\"",
+      "summary": "The Packers weren't able to stop the run on Wednesday against the Rams.",
+      "publishedAt": "2026-11-26T20:46:43Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
     {
       "id": "55a17365c191d3ef",
       "source": "pft",
@@ -724,7 +803,7 @@
       "id": "cc7ebcd3d5a80c86",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/bills-vs-chiefs-prediction-odds-how-to-watch-thanksgiving",
-      "title": "Bills vs. Chiefs prediction: Which team wins latest chapter in Josh Allen-Patrick Mahomes saga?",
+      "title": "Bills vs. Chiefs prediction: Which team wins latest chapter of Josh Allen-Patrick Mahomes saga?",
       "summary": "Legendary quarterbacks close out the holiday slate in one of the biggest games of the season",
       "publishedAt": "2026-11-26T11:00:36Z",
       "teamIds": [
@@ -804,11 +883,11 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
       "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday, and it started with the Rams moving into playoff position with a win over the Packers.",
+      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday, and the Bears are now in first place in the NFC North after beating the Lions.",
       "publishedAt": "2026-11-26T05:01:00Z",
       "teamIds": [
-        "9",
-        "14"
+        "3",
+        "8"
       ]
     },
     {
@@ -1610,84 +1689,6 @@
         "3",
         "8"
       ]
-    },
-    {
-      "id": "f7a3e92c014db9af",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50596866/vikings-cousins-says-fiery-demeanor-part-leadership",
-      "title": "Vikings' Cousins says fiery demeanor part of leadership",
-      "summary": "Quarterback Kirk Cousins said there has been a \"fire and intensity to me\" since returning to the Vikings two weeks ago at the trade deadline.",
-      "publishedAt": "2026-11-25T21:16:38Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "132d23ab3ffbea8a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-rule-out-kyler-gordon-roschon-johnson",
-      "title": "Bears rule out Kyler Gordon, Roschon Johnson",
-      "summary": "The Bears released their final injury report for Thursday's game in Detroit.",
-      "publishedAt": "2026-11-25T21:12:02Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "dffe21bd442f539b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
-      "title": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
-      "summary": "49ers quarterback Brock Purdy did not practice Wednesday as he deals with an ankle injury suffered in Sunday night's game against the Vikings.",
-      "publishedAt": "2026-11-25T21:04:52Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "7bcc9af0b2b48c68",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-activate-de-kobie-turner-off-ir",
-      "title": "Rams activate DE Kobie Turner off IR",
-      "summary": "The Rams officially have one of their key defenders back for Wednesday night’s game against the Packers.",
-      "publishedAt": "2026-11-25T21:03:14Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "46d241adba16ac64",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-list-dj-wonnum-chuck-clark-as-questionable-for-thursday",
-      "title": "Lions list DJ Wonnum, Chuck Clark as questionable for Thursday",
-      "summary": "The Lions issued a pair of questionable designations for Thursday's game against the Bears.",
-      "publishedAt": "2026-11-25T20:56:46Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "2a9311541f2a4ed2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50577887/nfl-week-12-uniforms",
-      "title": "NFL Week 12 uniforms: Rams debut alternates, Cowboys rock Thanksgiving throwbacks",
-      "summary": "Here's a look at what each NFL team is wearing in Week 12, led by an alternate uniform for the Los Angeles Rams.",
-      "publishedAt": "2026-11-25T20:56:45Z",
-      "teamIds": [
-        "6",
-        "14"
-      ]
-    },
-    {
-      "id": "d6506efb880f920e",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-12-thanksgiving-nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-sunday",
-      "title": "Week 12 Thanksgiving NFL odds, picks: Brinson's best bets, player props, anytime TD scorers",
-      "summary": "Backing Chicago to win outright in Detroit, grabbing the points with Philadelphia against Dallas and targeting the Under in a high-stakes showdown between Kansas City and Buffalo",
-      "publishedAt": "2026-11-25T20:47:00Z",
-      "teamIds": []
     }
   ]
 }
