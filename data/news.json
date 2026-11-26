@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T22:47:19Z",
+  "updatedAt": "2026-11-26T23:47:19Z",
   "items": [
+    {
+      "id": "c63016ae1cf5266e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50607165/lions-move-forward-latest-thanksgiving-heartbreak",
+      "title": "Lions to 'move forward' after latest Thanksgiving heartbreak",
+      "summary": "Lions head coach Dan Campbell rued another heartbreaker on Thanksgiving but encouraged his team to still try and enjoy the night with their families.",
+      "publishedAt": "2026-11-26T23:41:36Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "ce0b866ed2b887a1",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/penalties-and-forward-progress-ruling-help-cowboys-score-before-halftime",
+      "title": "Penalties and forward progress ruling help Cowboys score before halftime",
+      "summary": "The Cowboys lead the Eagles 28-10.",
+      "publishedAt": "2026-11-26T23:26:08Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "b1b1ad89c677bdfd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-offense-rolling-over-eagles-defense-in-dallas",
+      "title": "Cowboys' offense rolling over Eagles' defense in Dallas",
+      "summary": "The Eagles have had no answer for the Cowboys' Javonte Williams, CeeDee Lamb and George Pickens.",
+      "publishedAt": "2026-11-26T23:03:04Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
     {
       "id": "7165c883f0fc549b",
       "source": "espn",
@@ -22,6 +57,19 @@
       "publishedAt": "2026-11-26T22:34:37Z",
       "teamIds": [
         "21"
+      ]
+    },
+    {
+      "id": "bd4050b5c2025255",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-grades-thanksgiving-bears-earn-b-packers-get-d",
+      "title": "NFL Week 12 grades for Thanksgiving: Bears earn 'B' for stunning win over Lions, Packers leave L.A. with 'D'",
+      "summary": "Caleb Williams delivers late magic to Rome Odunze in a wild shootout, while Detroit's defense collapses and Jordan Love struggles without Christian Watson",
+      "publishedAt": "2026-11-26T22:33:20Z",
+      "teamIds": [
+        "3",
+        "8",
+        "9"
       ]
     },
     {
@@ -1640,52 +1688,6 @@
       "summary": "McCarthy responded to Rodgers' tirade against him",
       "publishedAt": "2026-11-25T22:24:00Z",
       "teamIds": []
-    },
-    {
-      "id": "3525ca03ad0a7cd0",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/aaron-rodgers-released-steelers-players-react-mike-mccarthy-controversy",
-      "title": "Steelers players react to Aaron Rodgers' release as some teammates back QB amid Mike McCarthy controversy",
-      "summary": "Steelers players spoke favorably about Aaron Rodgers after his release, while team sources reportedly corroborated portions of the quarterback's explosive criticism of Mike McCarthy",
-      "publishedAt": "2026-11-25T21:59:57Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "17b8a74a4d7981a0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-mccarthy-has-the-full-support-of-the-steelers-organization",
-      "title": "Report: Mike McCarthy \"has the full support\" of the Steelers organization",
-      "summary": "The Steelers are planning no \"immediate\" changes.",
-      "publishedAt": "2026-11-25T21:58:50Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "3d91d212af2275a7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-confirms-he-said-1-2-3-packers-at-halftime-last-sunday",
-      "title": "Mike McCarthy confirms he said \"1-2-3 Packers\" at halftime last Sunday",
-      "summary": "Aaron Rodgers said a number of things that caught the attention of the football world on Wednesday and one of the comments that drew a big response had to do with something that happened in the locker room at halftime of last Sunday's loss to the Eagles.",
-      "publishedAt": "2026-11-25T21:57:57Z",
-      "teamIds": [
-        "9",
-        "21"
-      ]
-    },
-    {
-      "id": "c4cbe9d0336eba2f",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50596948/panthers-vs-buccaneers-watch-monday-night-football-week-12",
-      "title": "Panthers vs. Buccaneers: Where to watch 'Monday Night Football'",
-      "summary": "Here's what to know about the Week 12 matchup.",
-      "publishedAt": "2026-11-25T21:49:44Z",
-      "teamIds": [
-        "29",
-        "27"
-      ]
     }
   ]
 }
