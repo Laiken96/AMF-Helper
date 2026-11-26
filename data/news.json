@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T12:47:25Z",
+  "updatedAt": "2026-11-26T12:49:46Z",
   "items": [
     {
       "id": "7358c55d3366b241",
@@ -89,6 +89,18 @@
       "summary": "T.J.",
       "publishedAt": "2026-11-26T05:24:31Z",
       "teamIds": []
+    },
+    {
+      "id": "224eb176d36e08c5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
+      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
+      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday, and it started with the Rams moving into playoff position with a win over the Packers.",
+      "publishedAt": "2026-11-26T05:01:00Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
     },
     {
       "id": "8a35a70fbc8121e9",
@@ -1676,15 +1688,6 @@
       "teamIds": [
         "27"
       ]
-    },
-    {
-      "id": "540d1cc2bca5166f",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50572372/fantasy-playbook-projections-lineup-locks-week-12-shadow",
-      "title": "Fantasy playbook: Week 12 Shadow Reports, lineup locks and projected scores",
-      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
-      "publishedAt": "2026-11-25T16:03:10Z",
-      "teamIds": []
     }
   ]
 }
