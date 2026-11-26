@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T07:47:24Z",
+  "updatedAt": "2026-11-26T09:47:23Z",
   "items": [
     {
       "id": "b56de039d6fcab85",
@@ -1624,9 +1624,12 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
       "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday.",
+      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday, and it started with the Rams moving into playoff position with a win over the Packers.",
       "publishedAt": "2026-11-25T16:01:34Z",
-      "teamIds": []
+      "teamIds": [
+        "9",
+        "14"
+      ]
     },
     {
       "id": "9e9084f78093f22e",
