@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T04:47:26Z",
+  "updatedAt": "2026-11-26T05:47:27Z",
   "items": [
+    {
+      "id": "075a99861d84abc8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-lang-blasts-despicable-aaron-rodgers-comments-about-mike-mccarthy",
+      "title": "T.J. Lang blasts \"despicable\" Aaron Rodgers comments about Mike McCarthy",
+      "summary": "T.J.",
+      "publishedAt": "2026-11-26T05:24:31Z",
+      "teamIds": []
+    },
     {
       "id": "8a35a70fbc8121e9",
       "source": "espn",
@@ -1659,15 +1668,6 @@
       "title": "Fantasy football rankings for Week 12: Tight end",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-25T15:52:06Z",
-      "teamIds": []
-    },
-    {
-      "id": "14976dbd1210256d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50593588/kyle-pitts-sr-week-12-fantasy-preview",
-      "title": "Kyle Pitts Sr.'s Week 12 fantasy preview",
-      "summary": null,
-      "publishedAt": "2026-11-25T15:51:58Z",
       "teamIds": []
     }
   ]
