@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T12:49:46Z",
+  "updatedAt": "2026-11-26T13:47:22Z",
   "items": [
+    {
+      "id": "844d864ba353f0dc",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50604047/adam-schefter-breaks-unprecedented-aaron-rodgers-mike-mccarthy-fallout",
+      "title": "Adam Schefter breaks down 'unprecedented' Aaron Rodgers, Mike McCarthy fallout",
+      "summary": null,
+      "publishedAt": "2026-11-26T13:24:16Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-26T13:09:47Z",
+      "teamIds": []
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-26T13:08:57Z",
+      "teamIds": []
+    },
+    {
+      "id": "27f5ef421f1b973e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-lines-odds-totals-spreads",
+      "title": "Week 12 NFL odds, lines, totals, spreads for every game, including Lions-Bears, Cowboys-Eagles, Bills-Chiefs",
+      "summary": "A look at the latest Week 12 NFL odds, spreads, and totals for all 16 games, including Thanksgiving matchups.",
+      "publishedAt": "2026-11-26T13:02:16Z",
+      "teamIds": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "12",
+        "21"
+      ]
+    },
+    {
+      "id": "bb49d655da5dcde2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-vs-eagles-thanksgiving-how-to-watch-odds-preview-prediction",
+      "title": "Cowboys vs. Eagles prediction: Dallas looks for first win streak of 2026 vs. ex-QB on Thanksgiving",
+      "summary": "How to watch, what to know and a prediction for the Thanksgiving clash between NFC East rivals",
+      "publishedAt": "2026-11-26T13:00:36Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "395415a34091ba3d",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/bears-vs-lions-odds-picks-prediction-start-time-nfl-thanksgiving-day-betting-preview-best-bets",
+      "title": "Bears vs. Lions odds, picks, prediction, start time: NFL Thanksgiving Day betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Lions vs. Bears on Thanksgiving in NFL Week 12",
+      "publishedAt": "2026-11-26T12:46:19Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
     {
       "id": "7358c55d3366b241",
       "source": "espn",
@@ -803,8 +872,8 @@
       "id": "a936c36b6ab276fb",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50597187/sources-confirm-aaron-rodgers-allegations-mike-mccarthy",
-      "title": "Sources corroborate Aaron Rodgers' allegations about Steelers HC Mike McCarthy",
-      "summary": "NFL sources have corroborated Aaron Rodgers' account of Mike McCarthy to ESPN reporters, confirming the star QB's allegations about the Steelers coach.",
+      "title": "Sources corroborate Aaron Rodgers' allegations on Steelers coach Mike McCarthy",
+      "summary": "NFL sources have corroborated Aaron Rodgers' account of Mike McCarthy to ESPN reporters, confirming the star quarterback's allegations about the Steelers coach.",
       "publishedAt": "2026-11-25T21:46:54Z",
       "teamIds": [
         "23"
@@ -1152,8 +1221,8 @@
       "id": "926889698b28fd0c",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595660/rodgers-heard-mccarthy-benching",
-      "title": "Steelers cut Rodgers after QB rips McCarthy in scorched-earth interview",
-      "summary": "The Steelers have waived Aaron Rodgers after the quarterback said Wednesday on \"The Pat McAfee Show\" that coach Mike McCarthy has been sleeping through team meetings.",
+      "title": "Steelers cut AaroRodgers after QB rips McCarthy in scorched-earth interview",
+      "summary": "The Steelers have waived Aaron Rodgers after the quarterback told \"The Pat McAfee Show\" that coach Mike McCarthy has been sleeping through team meetings.",
       "publishedAt": "2026-11-25T19:20:11Z",
       "teamIds": [
         "23"
@@ -1622,71 +1691,6 @@
       "teamIds": [
         "2",
         "12"
-      ]
-    },
-    {
-      "id": "fdbcc8f1515cb06e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-were-changing-the-play-calling-process-as-of-tuesday",
-      "title": "Report: Steelers were changing the play-calling process as of Tuesday",
-      "summary": "More and more information is emerging as to the surprise decision to bench Steelers quarterback Aaron Rodgers.",
-      "publishedAt": "2026-11-25T16:19:57Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "2eef4349b400911f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/priscos-nfl-week-12-power-rankings-thanksgiving-games",
-      "title": "Prisco's NFL Week 12 Power Rankings: Thanksgiving feast offers a proving ground for contenders",
-      "summary": "Pete Prisco shares his Week 12 Power Rankings for the 2026 NFL season, including the Jaguars falling five spots",
-      "publishedAt": "2026-11-25T16:16:24Z",
-      "teamIds": [
-        "30"
-      ]
-    },
-    {
-      "id": "73bf56083aeb8462",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-why-and-what-it-means-mason-rudolph",
-      "title": "Biggest questions on Aaron Rodgers benching: Why did Steelers make abrupt quarterback change?",
-      "summary": "Pittsburgh made a difficult decision while setting in motion their plans for the QB position moving forward",
-      "publishedAt": "2026-11-25T16:16:18Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "f64fb98f477e4fc1",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50594009/tj-hockenson-week-12-fantasy-preview",
-      "title": "T.J. Hockenson's Week 12 fantasy preview",
-      "summary": null,
-      "publishedAt": "2026-11-25T16:09:45Z",
-      "teamIds": []
-    },
-    {
-      "id": "b00643c23c097227",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/packers-vs-rams-odds-first-touchdown-scorer-picks-predictions-nfl-thanksgiving-eve-game",
-      "title": "Packers vs. Rams odds, first touchdown scorer picks, predictions for NFL Thanksgiving Eve game",
-      "summary": "Here's a look at first touchdown scorer prediction markets available at Kalshi for Packers vs. Rams NFL Week 12 on Thanksgiving Eve",
-      "publishedAt": "2026-11-25T16:06:28Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "513aab6a0e0801a9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-mcmillan-to-return-to-practice-for-the-buccaneers",
-      "title": "Jalen McMillan to return to practice for the Buccaneers",
-      "summary": "Wide receiver Jalen McMillan is on his way back to the Buccaneers lineup.",
-      "publishedAt": "2026-11-25T16:05:04Z",
-      "teamIds": [
-        "27"
       ]
     }
   ]
