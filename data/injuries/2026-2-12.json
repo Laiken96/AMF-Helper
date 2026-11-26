@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T22:01:05Z",
+    "takenAt": "2026-11-26T22:20:37Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2148,7 +2148,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Questionable"
           }
         ]
       },
@@ -2534,6 +2534,16 @@
       "name": "Justin Herbert",
       "pos": "QB",
       "teamAbbr": "LAC",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
+    },
+    {
+      "gameId": "401873091",
+      "athleteId": "4361741",
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
       "to": "Questionable"
