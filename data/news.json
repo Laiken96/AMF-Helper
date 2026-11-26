@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T02:47:22Z",
+  "updatedAt": "2026-11-26T02:54:19Z",
   "items": [
+    {
+      "id": "99985dce62684e80",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-gets-first-sack-of-season-packers-and-rams-tied-13-13-at-halftime",
+      "title": "Micah Parsons gets first sack of season, Packers and Rams tied 13-13 at halftime",
+      "summary": "Parsons's sack came just before end of the first half in Los Angeles.",
+      "publishedAt": "2026-11-26T02:48:27Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
     {
       "id": "dcd74c1c8545ad82",
       "source": "pft",
@@ -1639,15 +1651,6 @@
       "title": "Predicting full 14-team NFL playoff bracket for NFL Week 12: How Aaron Rodgers' benching impacts AFC race",
       "summary": "All 32 teams are still alive in the playoff race, but only 14 will be making the postseason, and we projected the full list here",
       "publishedAt": "2026-11-25T15:14:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "358e125f05a0bfce",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 12 betting odds: Lines and totals for every game",
-      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
-      "publishedAt": "2026-11-25T15:11:35Z",
       "teamIds": []
     }
   ]
