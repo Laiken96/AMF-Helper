@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-25T23:40:37Z",
+    "takenAt": "2026-11-26T00:10:34Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1235,7 +1235,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4430737",
@@ -1247,6 +1247,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4685522",
+            "name": "Ty Simpson",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1994,7 +2005,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685382",
@@ -2356,13 +2367,13 @@
   "changes": [
     {
       "gameId": "401873079",
-      "athleteId": "4426515",
-      "name": "Puka Nacua",
-      "pos": "WR",
+      "athleteId": "4685522",
+      "name": "Ty Simpson",
+      "pos": "QB",
       "teamAbbr": "LAR",
       "kind": "neu",
       "from": null,
-      "to": "Injured Reserve"
+      "to": "Out"
     },
     {
       "gameId": "401873080",
@@ -2493,16 +2504,6 @@
       "kind": "weg",
       "from": "Doubtful",
       "to": null
-    },
-    {
-      "gameId": "401873093",
-      "athleteId": "4038941",
-      "name": "Justin Herbert",
-      "pos": "QB",
-      "teamAbbr": "LAC",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873091",
