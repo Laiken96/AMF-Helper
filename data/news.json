@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T06:47:25Z",
+  "updatedAt": "2026-11-26T07:47:24Z",
   "items": [
+    {
+      "id": "b56de039d6fcab85",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50602564/packers-micah-parsons-accountability-rams-return",
+      "title": "Packers' Parsons calls for accountability after Rams run wild",
+      "summary": "\"That wasn't a championship attitude, competitiveness, drive,\" Micah Parsons said of Green Bay allowing the Rams to rush for a season-high 241 yards.",
+      "publishedAt": "2026-11-26T07:38:42Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
     {
       "id": "075a99861d84abc8",
       "source": "pft",
@@ -1659,15 +1671,6 @@
       "title": "Fantasy football rankings for Week 12: Wide receiver",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-25T15:52:29Z",
-      "teamIds": []
-    },
-    {
-      "id": "9550e8d4ff5a796f",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573414/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 12: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-25T15:52:06Z",
       "teamIds": []
     }
   ]
