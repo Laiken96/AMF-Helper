@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T14:47:41Z",
+  "updatedAt": "2026-11-26T15:47:24Z",
   "items": [
+    {
+      "id": "e7e1c29d4da9d7d6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50604497/got-go-stephen-implores-steelers-move-mike-mccarthy",
+      "title": "'He's got to go!' Stephen A. implores Steelers to move on from Mike McCarthy",
+      "summary": null,
+      "publishedAt": "2026-11-26T15:37:03Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ca0c41e9376e3795",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-on-brandon-aiyuk-signing-with-commanders-they-got-a-good-player",
+      "title": "Kyle Shanahan on Brandon Aiyuk signing with Commanders: \"They got a good player\"",
+      "summary": "The Aaron Rodgers rigmarole has pushed plenty of other stories out of the spotlight.",
+      "publishedAt": "2026-11-26T15:30:02Z",
+      "teamIds": [
+        "28"
+      ]
+    },
+    {
+      "id": "b7ed230e51d3220b",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50604476/stephen-passionately-defends-aaron-rodgers-mike-mccarthy-comments",
+      "title": "Stephen A. passionately defends Aaron Rodgers over Mike McCarthy comments",
+      "summary": null,
+      "publishedAt": "2026-11-26T15:24:59Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "8018bc7a389e561f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50604359/schrager-wonders-aaron-rodgers-ever-regret-mike-mccarthy-comments",
+      "title": "Schrager wonders if Aaron Rodgers will ever regret his Mike McCarthy comments",
+      "summary": null,
+      "publishedAt": "2026-11-26T15:00:39Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "aa517f4bf4636d8f",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50604325/why-donte-whitner-sides-aaron-rodgers-egregious-mike-mccarthy",
+      "title": "Why Donte Whitner sides with Aaron Rodgers over 'egregious' Mike McCarthy",
+      "summary": null,
+      "publishedAt": "2026-11-26T14:53:16Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ec96c2a782c9d1d1",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-lines-spreads-picks-predictions-best-bets-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-26T14:45:29Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
     {
       "id": "1913ba646c006bae",
       "source": "espn",
@@ -729,6 +796,18 @@
       ]
     },
     {
+      "id": "7361281eca929f3f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/packers-vs-rams-odds-picks-prediction-nfl-week-12-best-bets-player-props-for-thanksgiving-eve",
+      "title": "Packers vs. Rams odds, picks, prediction: NFL Week 12 best bets, player props for Thanksgiving Eve",
+      "summary": "Will Brinson breaks down his top value plays for Packers vs. Rams on Thanksgiving Eve, including a lean on the total and some anytime touchdown scorers",
+      "publishedAt": "2026-11-26T00:00:36Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
       "id": "e3903d01e80842ed",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
@@ -1227,7 +1306,7 @@
       "id": "d6506efb880f920e",
       "source": "cbs",
       "url": "https://cbssports.com/betting/news/week-12-thanksgiving-nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-sunday",
-      "title": "Week 12 Thanksgiving NFL odds, picks: Brinson's best bets, player props, anytime TD scorers for Sunday",
+      "title": "Week 12 Thanksgiving NFL odds, picks: Brinson's best bets, player props, anytime TD scorers",
       "summary": "Backing Chicago to win outright in Detroit, grabbing the points with Philadelphia against Dallas and targeting the Under in a high-stakes showdown between Kansas City and Buffalo",
       "publishedAt": "2026-11-25T20:47:00Z",
       "teamIds": []
@@ -1604,83 +1683,6 @@
       "publishedAt": "2026-11-25T18:18:08Z",
       "teamIds": [
         "33"
-      ]
-    },
-    {
-      "id": "fa93066d0c9846c9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50595254/falcons-aware-insinuations-pearce-trying-call-ex-gf",
-      "title": "Falcons 'aware' of insinuations Pearce still trying to contact ex Jackson",
-      "summary": "Kevin Stefanski said he and the team are aware of assertions made by Rickea Jackson that insinuated James Pearce Jr. is still trying to contact her.",
-      "publishedAt": "2026-11-25T18:13:14Z",
-      "teamIds": [
-        "1"
-      ]
-    },
-    {
-      "id": "940884ae4509cbb6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-sign-cb-corey-thornton-off-of-the-panthers-practice-squad",
-      "title": "Titans sign CB Corey Thornton off of the Panthers practice squad",
-      "summary": "The Titans have made an addition to their ailing defense.",
-      "publishedAt": "2026-11-25T18:06:29Z",
-      "teamIds": [
-        "29",
-        "10"
-      ]
-    },
-    {
-      "id": "99a2312d7dc7d5b6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-finishes-visit-with-commanders-but-decision-is-not-expected-on-wednesday",
-      "title": "Brandon Aiyuk finishes visit with Commanders, but decision is not expected on Wednesday",
-      "summary": "Brandon Aiyuk may still join the Commanders soon, but it sounds like that's not imminent.",
-      "publishedAt": "2026-11-25T18:01:50Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "3e4af1af3c788f56",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-ranking-most-memorable-halftime-shows",
-      "title": "NFL on Thanksgiving halftime shows: Ranking the 10 most memorable performances",
-      "summary": "A look at some of the most iconic performances from Turkey Days of the past",
-      "publishedAt": "2026-11-25T17:52:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "e5ecb465bfb3af5b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/quinyon-mitchell-has-no-injury-designation-for-thanksgiving",
-      "title": "Quinyon Mitchell has no injury designation for Thanksgiving",
-      "summary": "The Eagles will have cornerback Quinyon Mitchell in the lineup for Thursday's game in Dallas.",
-      "publishedAt": "2026-11-25T17:50:04Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "0570bfeb34886b9a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-designate-lb-thomas-incoom-for-return-from-ir",
-      "title": "Panthers designate LB Thomas Incoom for return from IR",
-      "summary": "The Panthers have opened the practice window for linebacker Thomas Incoom.",
-      "publishedAt": "2026-11-25T17:45:36Z",
-      "teamIds": [
-        "29"
-      ]
-    },
-    {
-      "id": "d770378c4cfd8d83",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-vs-bears-thanksgiving-prediction-odds-how-to-watch",
-      "title": "Lions vs. Bears Thanksgiving prediction: Which team will be take control of NFC North?",
-      "summary": "Sole possession of first place in the NFC North is on the line at Ford Field as two 8-2 rivals clash on Thanksgiving with long winning streaks",
-      "publishedAt": "2026-11-25T17:42:15Z",
-      "teamIds": [
-        "3",
-        "8"
       ]
     }
   ]
