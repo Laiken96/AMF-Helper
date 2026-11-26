@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T00:40:38Z",
+    "takenAt": "2026-11-26T01:20:36Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1204,42 +1204,8 @@
             "status": null
           },
           {
-            "athleteId": "4819231",
-            "name": "Kaleb Johnson",
-            "pos": "RB",
-            "teamId": "9",
-            "teamAbbr": "GB",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "12483",
-            "name": "Matthew Stafford",
-            "pos": "QB",
-            "teamId": "14",
-            "teamAbbr": "LAR",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4426515",
-            "name": "Puka Nacua",
-            "pos": "WR",
-            "teamId": "14",
-            "teamAbbr": "LAR",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4430737",
-            "name": "Kyren Williams",
+            "athleteId": "4429096",
+            "name": "Blake Corum",
             "pos": "RB",
             "teamId": "14",
             "teamAbbr": "LAR",
