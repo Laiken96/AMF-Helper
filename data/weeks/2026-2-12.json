@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-26T01:47:22Z",
+  "fetchedAt": "2026-11-26T02:47:18Z",
   "source": "espn",
   "games": [
     {
@@ -15,9 +15,9 @@
       "homeId": "14",
       "awayId": "9",
       "status": "in_progress",
-      "statusDetail": "1:38 - 1st",
-      "homeScore": 6,
-      "awayScore": 0,
+      "statusDetail": "Halftime",
+      "homeScore": 13,
+      "awayScore": 13,
       "venue": "SoFi Stadium",
       "neutralSite": false,
       "venueInfo": {

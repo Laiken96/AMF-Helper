@@ -1,7 +1,85 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T01:47:26Z",
+  "updatedAt": "2026-11-26T02:47:22Z",
   "items": [
+    {
+      "id": "dcd74c1c8545ad82",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-s-kamren-kinchens-ejected-for-hit-on-christian-watson",
+      "title": "Rams S Kamren Kinchens ejected for hit on Christian Watson",
+      "summary": "Rams safety Kamren Kinchens was ejected from Wednesday night's game against the Packers after a hit on wide receiver Christian Watson.",
+      "publishedAt": "2026-11-26T02:40:03Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "52081a8508d041ae",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50600128/tony-romo-job-sports-gambling-company-jake-paul",
+      "title": "Tony Romo takes job with sports gambling company co-founded by Jake Paul",
+      "summary": "Former CBS NFL analyst Tony Romo has taken a job with Betr, with the company saying he will make predictions and engage with fans across platforms.",
+      "publishedAt": "2026-11-26T02:37:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "e07fca8463ae9f4e",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873094",
+      "title": "Buccaneers will need more from Baker Mayfield and struggling passing attack to beat the Panthers",
+      "summary": "The Tampa Bay Buccaneers didn't need much from Baker Mayfield to rout the Carolina Panthers last month.",
+      "publishedAt": "2026-11-26T02:24:54Z",
+      "teamIds": [
+        "29",
+        "27"
+      ]
+    },
+    {
+      "id": "c70bf7ed6150184f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-christian-watson-cut-rams-lead-to-13-10",
+      "title": "Jordan Love, Christian Watson cut Rams lead to 13-10",
+      "summary": "The points keep coming in the first half at SoFi Stadium.",
+      "publishedAt": "2026-11-26T02:13:25Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "ad2cf961a2ff2867",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyren-williams-makes-it-13-3-rams-in-second-quarter",
+      "title": "Kyren Williams makes it 13-3 Rams in second quarter",
+      "summary": "The Rams have had the ball three times and all three drives have ended in points.",
+      "publishedAt": "2026-11-26T02:04:52Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "7019be972f1aacfc",
+      "source": "espn",
+      "url": "https://espn.com/nfl/preview?gameId=401873084",
+      "title": "Kirk Cousins makes his home debut in his second act with the Vikings, fittingly against the Falcons",
+      "summary": "When the Minnesota Vikings last played at home, a foundering offense heard it from the frustrated fans after each futile possession.",
+      "publishedAt": "2026-11-26T01:47:32Z",
+      "teamIds": [
+        "1",
+        "16"
+      ]
+    },
+    {
+      "id": "8321ccdde6f802db",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-extend-lead-to-6-0-after-tucker-kraft-fumble",
+      "title": "Rams extend lead to 6-0 after Tucker Kraft fumble",
+      "summary": "The Rams doubled their lead after forcing the first turnover of Wednesday night's game.",
+      "publishedAt": "2026-11-26T01:44:01Z",
+      "teamIds": [
+        "14"
+      ]
+    },
     {
       "id": "e6ec6be1dc6a41e8",
       "source": "pft",
@@ -1570,80 +1648,6 @@
       "title": "NFL Week 12 betting odds: Lines and totals for every game",
       "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
       "publishedAt": "2026-11-25T15:11:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "e02473b45c34aa78",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-could-land-in-time-on-reserve-left-squad-list",
-      "title": "Aaron Rodgers could land, in time, on reserve/left squad list",
-      "summary": "As real-time drama unfolds for the Steelers and quarterback Aaron Rodgers, the situation could play out in various ways.",
-      "publishedAt": "2026-11-25T15:00:20Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "46bebd7a89b9948d",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/week-12-qb-power-rankings-brock-purdy-joe-burrow-dak-prescott",
-      "title": "NFL Week 12 QB Power Rankings: Brock Purdy swipes No. 1 spot from Joe Burrow, Dak Prescott into top five",
-      "summary": "Brock Purdy takes the top spot from Joe Burrow, and Dak Prescott soars into the top five",
-      "publishedAt": "2026-11-25T14:54:56Z",
-      "teamIds": []
-    },
-    {
-      "id": "1b4d90949747651f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aaron-rodgers-did-not-report-to-steelers-facility-on-wednesday",
-      "title": "Report: Aaron Rodgers did not report to Steelers facility on Wednesday",
-      "summary": "After Pittsburgh's late-night announcement that he will not start against the Broncos, Rodgers has not been in the building.",
-      "publishedAt": "2026-11-25T14:40:01Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "25fe94b249395190",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/one-bold-prediction-each-nfl-thanksgiving-game-cowboys-dak-prescott-feast-eagles",
-      "title": "One bold prediction for each NFL Thanksgiving game, including Cowboys' Dak Prescott to feast on Eagles",
-      "summary": "One bold prediction for each of the NFL rivalry showcases on Thanksgiving",
-      "publishedAt": "2026-11-25T14:37:55Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "5a970e7508dcd92c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/if-aaron-rodgers-never-plays-again-his-last-nfl-throw-was-a-touchdown-pass",
-      "title": "If Aaron Rodgers never plays again, his last NFL throw was a touchdown pass",
-      "summary": "For receiver Max Hurleman, it was his first career NFL touchdown.",
-      "publishedAt": "2026-11-25T14:37:33Z",
-      "teamIds": []
-    },
-    {
-      "id": "20f15ad0f958c219",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-gm-adam-peters-on-brandon-aiyuk-cant-dispute-his-work-ethic-excited-to-see-where-hes-at",
-      "title": "Commanders GM Adam Peters on Brandon Aiyuk: Can't dispute his work ethic, excited to see where he's at",
-      "summary": "Wide receiver Brandon Aiyuk will visit with the Commanders on Wednesday and that will give their General Manager Adam Peters a chance to catch up with a player who joined the 49ers while Peters was in their front office.",
-      "publishedAt": "2026-11-25T14:32:05Z",
-      "teamIds": [
-        "25",
-        "28"
-      ]
-    },
-    {
-      "id": "0cfb6244af0c7cf4",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50592810/omarion-hampton-week-12-fantasy-preview",
-      "title": "Omarion Hampton's Week 12 fantasy preview",
-      "summary": null,
-      "publishedAt": "2026-11-25T14:30:58Z",
       "teamIds": []
     }
   ]
