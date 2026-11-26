@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-25T19:01:31Z",
+  "updatedAt": "2026-11-26T12:01:29Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -30,6 +30,33 @@
         {
           "title": "Packers list eight questionable vs. Rams (packers.com)",
           "url": "https://www.packers.com/news/packers-list-eight-questionable-vs-rams-week-12-injury-report"
+        }
+      ]
+    },
+    {
+      "gameId": "401873081",
+      "createdAt": "2026-11-26T12:01:29Z",
+      "winnerTeamId": "8",
+      "pWinner": 0.56,
+      "marketPickTeamId": "3",
+      "marketProb": 0.5442,
+      "reasoning": "Beide Teams stehen bei 8-2, die Lions sind zuhause ungeschlagen (6-0) und haben einen Sechs-Spiele-Lauf, während die Bears mit Kyler Gordon, Elijah Hicks und Roschon Johnson drei Ausfälle in Defensive und Backfield verkraften müssen. Ein Ausfall des Lions-Verteidigers Skyler Gill-Howard steht ebenfalls fest, die Liste der fraglichen Spieler ist auf beiden Seiten lang. Knapper Vorteil für Detroit wegen Heimstärke und der Schwäche der Bears-Defensive gegen tiefe Pässe, die Partie gilt aber als sehr ausgeglichen.",
+      "sources": [
+        {
+          "title": "Bears vs. Lions (Nov 26, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873081/bears-lions"
+        },
+        {
+          "title": "Bears vs. Lions Injury Report: Kyler Gordon Out, Tyrique Stevenson Limited - Yahoo Sports",
+          "url": "https://sports.yahoo.com/nfl/articles/bears-vs-lions-injury-report-215000540.html"
+        },
+        {
+          "title": "Bears-Lions Thanksgiving Day game preview | 2026 Week 12",
+          "url": "https://www.chicagobears.com/news/bears-lions-thanksgiving-day-game-preview-2026-week-12&gsessionid=jul5zQA2-EiWsppBnAaKfSzVCKabm2K6Z9XFNYmhMfnjQZzl1-20mQ"
+        },
+        {
+          "title": "Detroit Lions vs. Chicago Bears preview: 4 key stats - Prideofdetroit",
+          "url": "https://www.prideofdetroit.com/detroit-lions-analysis/182805/detroit-lions-vs-chicago-bears-preview-4-key-stats"
         }
       ]
     }

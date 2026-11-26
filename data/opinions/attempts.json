@@ -264,6 +264,12 @@
       "attempts": 1,
       "lastAt": "2026-11-25T19:01:31Z",
       "lastResult": "ok"
+    },
+    {
+      "gameId": "401873081",
+      "attempts": 1,
+      "lastAt": "2026-11-26T12:01:29Z",
+      "lastResult": "ok"
     }
   ]
 }
