@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T03:47:23Z",
+  "updatedAt": "2026-11-26T04:47:26Z",
   "items": [
+    {
+      "id": "8a35a70fbc8121e9",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50601743/rams-pick-important-home-win-packers",
+      "title": "Rams pick up important home win over the Packers",
+      "summary": null,
+      "publishedAt": "2026-11-26T04:46:32Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "1ffe4089a4e795d2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873079",
+      "title": "Blake Corum leads Rams' dominant rushing attack in their 5th straight win, 26-13 over Packers",
+      "summary": "Blake Corum rushed for a career-high 184 yards and a touchdown, Kyren Williams ran for another score and the Los Angeles Rams used a relentless ground game to pound out their fifth consecutive...",
+      "publishedAt": "2026-11-26T04:41:33Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "fe9ea6350ffbe7d8",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50599736/2026-nfl-week-12-los-angeles-rams-green-bay-packers",
+      "title": "Rams take Packers' dinner in first Thanksgiving Eve game",
+      "summary": "The night was full of interceptions and injuries with the Rams taking the W.",
+      "publishedAt": "2026-11-26T04:34:44Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "505e651f4276ff69",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-shut-down-packers-in-second-half-for-a-26-13-win",
+      "title": "Rams shut down Packers in second half for a 26-13 win in NFL's first Thanksgiving Eve game",
+      "summary": "The Rams running game powered them to their fifth straight win.",
+      "publishedAt": "2026-11-26T04:30:48Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "cffae99700ff6b16",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/on-our-way-home-is-free-on-thursday-and-friday",
+      "title": "On Our Way Home is free on Thursday and Friday",
+      "summary": "The holiday season is here.",
+      "publishedAt": "2026-11-26T04:09:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "530f791cc05a9931",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-games-2026-schedule-black-friday-rams-packers",
+      "title": "2026 NFL Thanksgiving schedule: What to know about Thanksgiving and Black Friday games",
+      "summary": "A look at the Thanksgiving week slate and all of its fixings you need in time for Turkey Day",
+      "publishedAt": "2026-11-26T04:00:42Z",
+      "teamIds": []
+    },
     {
       "id": "2f70661ba0aa92b7",
       "source": "pft",
@@ -199,7 +265,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
       "title": "Rams vs. Packers: Week 12 NFL game highlights",
-      "summary": "Our two team reporters are at SoFi Stadium and they're keeping you updated on all the biggest plays and highlights.",
+      "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
       "publishedAt": "2026-11-26T00:49:57Z",
       "teamIds": [
         "9",
@@ -1603,64 +1669,6 @@
       "summary": null,
       "publishedAt": "2026-11-25T15:51:58Z",
       "teamIds": []
-    },
-    {
-      "id": "3a48bb6d965163ed",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573297/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 12: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-25T15:50:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "ae083a9ead741260",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573725/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 12: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-25T15:50:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "6e2de5f4a0abb10a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573224/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 12: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-25T15:49:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "90c0e95269f4c292",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573181/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 12: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-25T15:49:17Z",
-      "teamIds": []
-    },
-    {
-      "id": "e4f80555a4e9caeb",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-p-jack-browning-to-their-53-man-roster",
-      "title": "Dolphins sign P Jack Browning to their 53-man roster",
-      "summary": "The Dolphins added a second punter to their 53-man roster on Wednesday.",
-      "publishedAt": "2026-11-25T15:48:52Z",
-      "teamIds": [
-        "15"
-      ]
-    },
-    {
-      "id": "7da70ef499bdbb83",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-open-practice-window-for-ol-patrick-mekari",
-      "title": "Jaguars open practice window for OL Patrick Mekari",
-      "summary": "The Jaguars are getting a key player back on the practice field.",
-      "publishedAt": "2026-11-25T15:42:30Z",
-      "teamIds": [
-        "30"
-      ]
     }
   ]
 }

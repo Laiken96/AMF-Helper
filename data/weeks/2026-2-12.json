@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-26T03:47:19Z",
+  "fetchedAt": "2026-11-26T04:47:23Z",
   "source": "espn",
   "games": [
     {
@@ -14,9 +14,9 @@
       "kickoffUtc": "2026-11-26T01:00:00Z",
       "homeId": "14",
       "awayId": "9",
-      "status": "in_progress",
-      "statusDetail": "14:39 - 4th",
-      "homeScore": 20,
+      "status": "final",
+      "statusDetail": "Final",
+      "homeScore": 26,
       "awayScore": 13,
       "venue": "SoFi Stadium",
       "neutralSite": false,
