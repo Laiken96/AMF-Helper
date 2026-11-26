@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-26T15:31:13Z",
+  "updatedAt": "2026-11-26T19:20:50Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -84,6 +84,33 @@
         {
           "title": "Dee Winters, Jaishawn Barham Clear Dallas Cowboys Injury Report (Dallas Sports Journal)",
           "url": "https://dallassportsjournal.com/cowboys-eagles-final-injury-report-winters-barham-thompson/"
+        }
+      ]
+    },
+    {
+      "gameId": "401873082",
+      "createdAt": "2026-11-26T19:20:50Z",
+      "winnerTeamId": "2",
+      "pWinner": 0.6,
+      "marketPickTeamId": "2",
+      "marketProb": 0.5879,
+      "reasoning": "Die Bills sind Heimteam, bekommen mit Spencer Brown einen Starter zurück und haben bei Regen und Wind von 25 bis 40 mph den Vorteil, weil sie ihre bisherigen Heimspiele bei trockenem Wetter bestritten haben. Die Chiefs verlieren Running Back Kenneth Walker, Right Tackle Jaylon Moore und DT Omarr Norman-Lott, während Mahomes nur als fraglich gelistet ist und die Bills mehrere Startspieler im Status Questionable haben. Die Chiefs gewinnen mit 8-2 eine starke Saison, deshalb bleibt die Partie trotz des Heimvorteils eng.",
+      "sources": [
+        {
+          "title": "Chiefs-Bills Week 12 Final injury report: Kenneth Walker ruled out",
+          "url": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/217609/chiefs-bills-week-12-final-injury-report-kenneth-walker-ruled-out"
+        },
+        {
+          "title": "NFL Week 12 injury report: Player statuses for all 16 games",
+          "url": "https://www.nfl.com/news/nfl-week-12-injury-report-2026-season"
+        },
+        {
+          "title": "Week 12 Injury Report | Chiefs vs Bills",
+          "url": "https://www.chiefs.com/news/week-12-injury-report-chiefs-vs-bills-2026"
+        },
+        {
+          "title": "Chiefs vs Bills Weather Forecast: Thanksgiving Rain & Wind",
+          "url": "https://www.covers.com/nfl/chiefs-vs-bills-weather-report-thanksgiving-nov-26-2026"
         }
       ]
     }
