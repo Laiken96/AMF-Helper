@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T01:20:36Z",
+    "takenAt": "2026-11-26T01:30:55Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1193,13 +1193,26 @@
             "status": null
           },
           {
-            "athleteId": "4248528",
-            "name": "Christian Watson",
-            "pos": "WR",
+            "athleteId": "4819231",
+            "name": "Kaleb Johnson",
+            "pos": "RB",
             "teamId": "9",
             "teamAbbr": "GB",
             "roles": [
+              "rushing",
               "receiving"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "12483",
+            "name": "Matthew Stafford",
+            "pos": "QB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "qb",
+              "passing"
             ],
             "status": null
           },
@@ -1211,6 +1224,17 @@
             "teamAbbr": "LAR",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4430737",
+            "name": "Kyren Williams",
+            "pos": "RB",
+            "teamId": "14",
+            "teamAbbr": "LAR",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
