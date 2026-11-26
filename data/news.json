@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T11:47:27Z",
+  "updatedAt": "2026-11-26T12:47:25Z",
   "items": [
+    {
+      "id": "7358c55d3366b241",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+      "title": "2026 NFL Thanksgiving preview: Picks, predictions, schedule, odds, fantasy tips",
+      "summary": "We have the top storylines, bold predictions, stats to know, fantasy/betting nuggets and more for three Thursday games in Week 12.",
+      "publishedAt": "2026-11-26T12:17:47Z",
+      "teamIds": []
+    },
     {
       "id": "cc7ebcd3d5a80c86",
       "source": "cbs",
@@ -1676,18 +1685,6 @@
       "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
       "publishedAt": "2026-11-25T16:03:10Z",
       "teamIds": []
-    },
-    {
-      "id": "224eb176d36e08c5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
-      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for all 10 teams playing around the holiday, and it started with the Rams moving into playoff position with a win over the Packers.",
-      "publishedAt": "2026-11-25T16:01:34Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-26T04:47:26Z",
+  "updatedAt": "2026-11-26T12:47:24Z",
   "complete": false,
   "games": [
     {
@@ -191,7 +191,7 @@
     }
   ],
   "opinionCompare": {
-    "opinions": 1,
+    "opinions": 2,
     "scored": 1,
     "marketHits": 1,
     "aiHits": 1,
@@ -199,6 +199,13 @@
     "aiHitRate": 1,
     "marketBrier": 0.1819,
     "aiBrier": 0.16,
-    "disagreements": []
+    "disagreements": [
+      {
+        "gameId": "401873081",
+        "marketPickTeamId": "3",
+        "aiPickTeamId": "8",
+        "winnerTeamId": null
+      }
+    ]
   }
 }
