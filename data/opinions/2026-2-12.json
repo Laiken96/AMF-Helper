@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-26T12:01:29Z",
+  "updatedAt": "2026-11-26T15:31:13Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -57,6 +57,33 @@
         {
           "title": "Detroit Lions vs. Chicago Bears preview: 4 key stats - Prideofdetroit",
           "url": "https://www.prideofdetroit.com/detroit-lions-analysis/182805/detroit-lions-vs-chicago-bears-preview-4-key-stats"
+        }
+      ]
+    },
+    {
+      "gameId": "401873080",
+      "createdAt": "2026-11-26T15:31:13Z",
+      "winnerTeamId": "6",
+      "pWinner": 0.68,
+      "marketPickTeamId": "6",
+      "marketProb": 0.7355,
+      "reasoning": "Die Eagles müssen ohne Jalen Hurts auskommen, der auf der Injured Reserve steht, und laut Yahoo Sports startet Joe Milton III. Dallas spielt zu Hause mit Dak Prescott, der laut Yahoo als Teil einer rollenden Offense beschrieben wird, und mehrere Eagles-Defensivspieler wie Ebiketie und Jones fallen aus, während Dallas nur Booker, Ferguson und Mingo verliert. Ich sehe die Cowboys deshalb klar vorn, mit Unsicherheit wegen der kurzen Woche und fehlender Wetterdaten.",
+      "sources": [
+        {
+          "title": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely (ESPN)",
+          "url": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot"
+        },
+        {
+          "title": "Week 12 Injury Report: Cowboys Down 2 Offensive Starters on Thanksgiving (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/nfl/articles/week-12-injury-report-cowboys-203500840.html"
+        },
+        {
+          "title": "Two offensive starters among four Dallas Cowboys ruled out for Thanksgiving game (Yahoo Sports)",
+          "url": "https://sports.yahoo.com/nfl/articles/two-offensive-starters-among-four-215939942.html"
+        },
+        {
+          "title": "Dee Winters, Jaishawn Barham Clear Dallas Cowboys Injury Report (Dallas Sports Journal)",
+          "url": "https://dallassportsjournal.com/cowboys-eagles-final-injury-report-winters-barham-thompson/"
         }
       ]
     }
