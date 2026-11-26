@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T17:47:30Z",
+  "updatedAt": "2026-11-26T18:47:31Z",
   "items": [
+    {
+      "id": "66436f07bdc7d114",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50605070/steelers-owner-disappointed-rodgers-backs-mccarthy",
+      "title": "Steelers owner Art Rooney II 'disappointed' in Rodgers outcome, backs McCarthy",
+      "summary": "Steelers owner Art Rooney II reacted to Wednesday's fiery interview from Aaron Rodgers by saying he was \"disappointed in where this went\" with their now-former quarterback, adding he has \"100% confidence in Mike McCarthy.\"",
+      "publishedAt": "2026-11-26T18:40:21Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "2033c02b08e4adb7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colston-loveland-goes-to-locker-room-in-the-first-quarter",
+      "title": "Colston Loveland goes to locker room in the first quarter",
+      "summary": "A key member of the Bears offense has gone to the locker room with an injury in the first quarter.",
+      "publishedAt": "2026-11-26T18:36:00Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "2cad8855a3cd8a2f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-president-mike-mccarthy-after-aaron-rodgers-insubordination",
+      "title": "Steelers president backs Mike McCarthy after Aaron Rodgers release: 'Insubordination can't be tolerated'",
+      "summary": "Rooney said the Steelers could not tolerate Rodgers' ultimatum or his decision to criticize McCarthy publicly days before a key game",
+      "publishedAt": "2026-11-26T18:04:14Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "19e6bd8313d25347",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/art-rooney-ii-expresses-support-for-mike-mccarthy-calls-aaron-rodgers-not-a-good-teammate",
+      "title": "Art Rooney II expresses support for Mike McCarthy, calls Aaron Rodgers not a \"good teammate\"",
+      "summary": "Steelers owner speaks about Wednesday's insanity.",
+      "publishedAt": "2026-11-26T17:53:22Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "e57b84233f471ba2",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aaron-rodgers-packers-teammates-mike-mccarthy-steelers",
+      "title": "Aaron Rodgers' former Packers teammates rip QB over Mike McCarthy criticism: 'None are on 12's side'",
+      "summary": "Former Packers players criticized Rodgers for attacking McCarthy publicly and putting his ex-Steelers teammates in an uncomfortable position",
+      "publishedAt": "2026-11-26T17:48:21Z",
+      "teamIds": [
+        "9",
+        "23"
+      ]
+    },
     {
       "id": "a7d4bf7114232e1a",
       "source": "pft",
@@ -149,12 +205,11 @@
       "id": "8bf25a8d0a7011f8",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/thanksgiving-games-black-friday-nfl-expert-picks-lions-bears-steelers",
-      "title": "Thanksgiving and Black Friday NFL expert picks: Can Lions fend off Bears? Do Steelers save their season?",
+      "title": "Thanksgiving and Black Friday NFL expert picks: Can Eagles pull upset? Do Steelers save their season?",
       "summary": "CBSSports.com and SportsLine break down the Thanksgiving Eve, Thanksgiving triple-header, and the Black Friday games",
       "publishedAt": "2026-11-26T15:45:42Z",
       "teamIds": [
-        "3",
-        "8",
+        "21",
         "23"
       ]
     },
@@ -517,9 +572,14 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
       "title": "2026 NFL Thanksgiving preview: Picks, predictions, schedule, odds, fantasy tips",
-      "summary": "We have the top storylines, bold predictions, stats to know, fantasy/betting nuggets and more for three Thursday games in Week 12.",
+      "summary": "Eagles-Cowboys and Chiefs-Bills are still on deck. We have the top storylines, bold predictions, stats to know, fantasy/betting nuggets and more.",
       "publishedAt": "2026-11-26T12:17:47Z",
-      "teamIds": []
+      "teamIds": [
+        "2",
+        "6",
+        "12",
+        "21"
+      ]
     },
     {
       "id": "cc7ebcd3d5a80c86",
@@ -883,10 +943,12 @@
       "id": "81a5c6c223d28300",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
-      "title": "Rams vs. Packers: Week 12 NFL game highlights",
+      "title": "NFL Week 12: Highlights of Thanksgiving games",
       "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
       "publishedAt": "2026-11-26T00:49:57Z",
       "teamIds": [
+        "3",
+        "8",
         "9",
         "14"
       ]
@@ -1620,63 +1682,6 @@
       "teamIds": [
         "9",
         "14"
-      ]
-    },
-    {
-      "id": "b715c0f86051882c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-suddenly-have-a-major-mess",
-      "title": "Steelers suddenly have a major mess",
-      "summary": "The Steelers need to figure things out, immediately.",
-      "publishedAt": "2026-11-25T19:49:36Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "a4c4a7e1fc166f69",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-is-practicing-on-wednesday-after-missing-sundays-game",
-      "title": "Brock Bowers is practicing on Wednesday after missing Sunday's game",
-      "summary": "The Raiders could get a key player back for their Sunday night matchup against the Browns.",
-      "publishedAt": "2026-11-25T19:47:34Z",
-      "teamIds": [
-        "5",
-        "13"
-      ]
-    },
-    {
-      "id": "93cbf58f664f394c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-make-qb-inactive-friday-broncos",
-      "title": "Steelers bench Aaron Rodgers, turn to Mason Rudolph to start vs. Broncos",
-      "summary": "Pittsburgh made the call to bench Rodgers after offensive struggles led to consecutive losses following a 6-2 start",
-      "publishedAt": "2026-11-25T19:44:42Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "7f1e8c30cd057ecc",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/aaron-rodgers-unleases-on-steelers-mike-mccarthy-pat-mcafee-interview",
-      "title": "Aaron Rodgers unleashes on Mike McCarthy: Unpacking everything Steelers QB said after benching",
-      "summary": "Rodgers confirmed that his time in Pittsburgh is over, while accusing the Steelers coach of sleeping through meetings",
-      "publishedAt": "2026-11-25T19:43:25Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "ffcad5a51bfdc88d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50595984/ship-sailed-returning-steelers",
-      "title": "Aaron Rodgers: 'Ship has sailed' on returning to the Steelers",
-      "summary": null,
-      "publishedAt": "2026-11-25T19:39:40Z",
-      "teamIds": [
-        "23"
       ]
     }
   ]
