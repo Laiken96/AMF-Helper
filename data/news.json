@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T18:47:31Z",
+  "updatedAt": "2026-11-26T19:47:31Z",
   "items": [
+    {
+      "id": "81d43493ceadda9c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-up-19-10-on-bears-at-halftime",
+      "title": "Lions score nine quick points before halftime, lead Bears 19-10",
+      "summary": "A safety and a touchdown have the home team up after 30 minutes of play.",
+      "publishedAt": "2026-11-26T19:38:15Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "bcde78cf1936fcc4",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50605365/bears-colston-loveland-ruled-vs-lions-knee-injury",
+      "title": "Bears TE Colston Loveland ruled out vs. Lions with knee injury",
+      "summary": "The Bears have ruled out tight end Colston Loveland for the rest of Thursday's game at Detroit with a left knee injury.",
+      "publishedAt": "2026-11-26T19:37:33Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "4c04ca9ef3267217",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-michael-pittman-jr-sign-max-hurleman-to-active-roster",
+      "title": "Steelers activate Michael Pittman Jr., sign Max Hurleman to active roster",
+      "summary": "Mason Rudolph will have wide receiver Michael Pittman Jr. available as a target in his first start of the 2026 season.",
+      "publishedAt": "2026-11-26T19:24:54Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "c250d66e0ba75ba9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-tie-lions-10-10-on-kyle-monangai-td",
+      "title": "Bears tie Lions 10-10 on Kyle Monangai TD",
+      "summary": "The Bears spotted the Lions a 10-point lead in the second quarter, but they've wiped it out with four minutes to go in the first half.",
+      "publishedAt": "2026-11-26T19:10:42Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "7b918eb887f1dd33",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-sign-jake-browning-to-active-roster",
+      "title": "Chargers sign Jake Browning to active roster",
+      "summary": "The Chargers' starting quarterback is in the concussion protocol, so they moved to add another healthy one to the active roster on Thursday.",
+      "publishedAt": "2026-11-26T18:58:18Z",
+      "teamIds": [
+        "24"
+      ]
+    },
+    {
+      "id": "9bf633adf7c889e9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-puts-lions-up-10-0-colston-loveland-out-with-knee-injury",
+      "title": "Jahmyr Gibbs puts Lions up 10-0, Colston Loveland out with knee injury",
+      "summary": "Loveland left the game on a cart in the first quarter.",
+      "publishedAt": "2026-11-26T18:47:43Z",
+      "teamIds": [
+        "8"
+      ]
+    },
     {
       "id": "66436f07bdc7d114",
       "source": "espn",
@@ -1614,74 +1682,6 @@
       "publishedAt": "2026-11-25T20:20:19Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "ee9ee3613d6534f8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/31433043/from-holdout-concession-how-aaron-rodgers-green-bay-packers-got-here",
-      "title": "Aaron Rodgers' timeline with Packers, ending in trade to Jets",
-      "summary": "Here's a look at how Rodgers -- a 2005 first-round pick, four-time MVP and Super Bowl champion quarterback -- finished out his career with the Packers.",
-      "publishedAt": "2026-11-25T20:19:02Z",
-      "teamIds": [
-        "9"
-      ]
-    },
-    {
-      "id": "98f68d17f60b7faa",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
-      "title": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
-      "summary": "The Bills are listing five starters -- including tight end Dalton Kincaid and cornerback Christian Benford -- as questionable for Thursday night's showdown with the Chiefs.",
-      "publishedAt": "2026-11-25T20:06:30Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "462cf0fb34d0aa2f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-placed-in-concussion-protocol-limited-in-wednesdays-practice",
-      "title": "Derrick Henry placed in concussion protocol, limited in Wednesday's practice",
-      "summary": "Derrick Henry has been placed in concussion protocol, but Ravens head coach Jesse Minter told reporters on Wednesday that the running back is likely to play on Sunday against the Texans.",
-      "publishedAt": "2026-11-25T20:01:53Z",
-      "teamIds": [
-        "33",
-        "34"
-      ]
-    },
-    {
-      "id": "dc899a40eccd5a47",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-are-expected-to-release-aaron-rodgers",
-      "title": "Report: Steelers are expected to release Aaron Rodgers",
-      "summary": "Its not done yet, but it's reportedly coming.",
-      "publishedAt": "2026-11-25T19:58:45Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "73bf56083aeb8462",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-bench-aaron-rodgers-why-and-what-it-means-mason-rudolph",
-      "title": "Biggest questions on Aaron Rodgers benching: Why did Steelers make abrupt quarterback change?",
-      "summary": "Pittsburgh made a difficult decision while setting in motion their plans for the QB position moving forward",
-      "publishedAt": "2026-11-25T19:51:35Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "e3abd5329091a35b",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-packers-vs-rams-clippers-vs-grizzlies-and-more",
-      "title": "Today's top games to watch, best bets, odds: Packers vs. Rams, Clippers vs. Grizzlies and more",
-      "summary": "Find best bets and props for the biggest games in sports on Wednesday from the SportsLine Projection Model and top CBS Sports experts",
-      "publishedAt": "2026-11-25T19:50:13Z",
-      "teamIds": [
-        "9",
-        "14"
       ]
     }
   ]

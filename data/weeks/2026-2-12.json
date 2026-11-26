@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-26T18:47:27Z",
+  "fetchedAt": "2026-11-26T19:47:27Z",
   "source": "espn",
   "games": [
     {
@@ -37,9 +37,9 @@
       "homeId": "8",
       "awayId": "3",
       "status": "in_progress",
-      "statusDetail": "12:51 - 2nd",
-      "homeScore": 10,
-      "awayScore": 0,
+      "statusDetail": "Halftime",
+      "homeScore": 19,
+      "awayScore": 10,
       "venue": "Ford Field",
       "neutralSite": false,
       "venueInfo": {
