@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T09:47:23Z",
+  "updatedAt": "2026-11-26T10:47:24Z",
   "items": [
+    {
+      "id": "1791f2e7d51883fe",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-brandon-aiyuk-and-i-put-the-past-behind-us",
+      "title": "Jayden Daniels: Brandon Aiyuk and I put the past behind us",
+      "summary": "Commanders quarterback Jayden Daniels and Brandon Aiyuk were once Arizona State teammates and close friends, but Aiyuk seemed to burn those bridges this year, when he posted several critical comments about Daniels on social media.",
+      "publishedAt": "2026-11-26T09:42:18Z",
+      "teamIds": [
+        "28"
+      ]
+    },
     {
       "id": "b56de039d6fcab85",
       "source": "espn",
@@ -1665,15 +1676,6 @@
       "title": "Fantasy football rankings for Week 12: Running back",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-25T15:52:54Z",
-      "teamIds": []
-    },
-    {
-      "id": "ecb5841ea2bcb486",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573508/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 12: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-25T15:52:29Z",
       "teamIds": []
     }
   ]
