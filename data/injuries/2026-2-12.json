@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T16:40:36Z",
+    "takenAt": "2026-11-26T18:10:49Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1265,40 +1265,6 @@
               "qb"
             ],
             "status": "Out"
-          },
-          {
-            "athleteId": "4259545",
-            "name": "D'Andre Swift",
-            "pos": "RB",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4431611",
-            "name": "Caleb Williams",
-            "pos": "QB",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4685278",
-            "name": "Luther Burden III",
-            "pos": "WR",
-            "teamId": "3",
-            "teamAbbr": "CHI",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
           },
           {
             "athleteId": "3046779",
