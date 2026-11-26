@@ -1,7 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T10:47:24Z",
+  "updatedAt": "2026-11-26T11:47:27Z",
   "items": [
+    {
+      "id": "cc7ebcd3d5a80c86",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bills-vs-chiefs-prediction-odds-how-to-watch-thanksgiving",
+      "title": "Bills vs. Chiefs prediction: Which team wins latest chapter in Josh Allen-Patrick Mahomes saga?",
+      "summary": "Legendary quarterbacks close out the holiday slate in one of the biggest games of the season",
+      "publishedAt": "2026-11-26T11:00:36Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "e54782c900a4a494",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50511931/bills-chiefs-2017-trade-no-10-pat-mahomes",
+      "title": "Why the Chiefs and Bills can give thanks to 2017 trade that landed Mahomes in KC",
+      "summary": "Kansas City traded up for Patrick Mahomes, while Buffalo got a franchise left tackle and several Pro Bowlers.",
+      "publishedAt": "2026-11-26T11:00:03Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "57b70d13bcecc045",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50597866/bears-jeffery-simmons-defense-super-bowl",
+      "title": "How Jeffery Simmons changed the Bears' defensive identity",
+      "summary": "Simmons' impact isn't just measured by his own numbers, but also by how he has elevated his teammates.",
+      "publishedAt": "2026-11-26T11:00:01Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "331500681f25e829",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-jones-im-on-text-threads-with-former-packers-none-are-on-aaron-rodgers-side",
+      "title": "James Jones: I'm on text threads with former Packers, none are on Aaron Rodgers' side",
+      "summary": "In the dispute between Steelers coach Mike McCarthy and ex-Steelers quarterback Aaron Rodgers, players who were with both of them in Green Bay are squarely on McCarthy's side.",
+      "publishedAt": "2026-11-26T10:57:56Z",
+      "teamIds": [
+        "9",
+        "23"
+      ]
+    },
     {
       "id": "1791f2e7d51883fe",
       "source": "pft",
@@ -1321,7 +1368,7 @@
       "id": "d770378c4cfd8d83",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/lions-vs-bears-thanksgiving-prediction-odds-how-to-watch",
-      "title": "Lions vs. Bears Thanksgiving prediction: Which team will be in control of NFC North?",
+      "title": "Lions vs. Bears Thanksgiving prediction: Which team will be take control of NFC North?",
       "summary": "Sole possession of first place in the NFC North is on the line at Ford Field as two 8-2 rivals clash on Thanksgiving with long winning streaks",
       "publishedAt": "2026-11-25T17:42:15Z",
       "teamIds": [
@@ -1641,42 +1688,6 @@
         "9",
         "14"
       ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: How to navigate your roster for the Thanksgiving slate",
-      "summary": "How do you decide which players go where for six days of fantasy football? Tristan H. Cockcroft breaks it all down.",
-      "publishedAt": "2026-11-25T16:00:39Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ae2720c481c9e03",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50573832/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 12",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-25T15:55:22Z",
-      "teamIds": []
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 12: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-25T15:53:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "a7c686ac4cf2f0a6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573676/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 12: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-25T15:52:54Z",
-      "teamIds": []
     }
   ]
 }
