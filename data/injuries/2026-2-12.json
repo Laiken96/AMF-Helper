@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T02:20:38Z",
+    "takenAt": "2026-11-26T02:50:38Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1606,7 +1606,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4262921",
@@ -2136,7 +2136,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           }
         ]
       },
@@ -2417,16 +2417,6 @@
       "to": null
     },
     {
-      "gameId": "401873084",
-      "athleteId": "3917315",
-      "name": "Kyler Murray",
-      "pos": "QB",
-      "teamAbbr": "MIN",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
       "gameId": "401873085",
       "athleteId": "3916387",
       "name": "Lamar Jackson",
@@ -2495,16 +2485,6 @@
       "kind": "weg",
       "from": "Doubtful",
       "to": null
-    },
-    {
-      "gameId": "401873091",
-      "athleteId": "4361741",
-      "name": "Brock Purdy",
-      "pos": "QB",
-      "teamAbbr": "SF",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873091",
