@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T12:10:40Z",
+    "takenAt": "2026-11-26T16:40:36Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1255,6 +1255,17 @@
         "gameId": "401873081",
         "kickoffUtc": "2026-11-26T18:00:00Z",
         "players": [
+          {
+            "athleteId": "15168",
+            "name": "Case Keenum",
+            "pos": "QB",
+            "teamId": "3",
+            "teamAbbr": "CHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
           {
             "athleteId": "4259545",
             "name": "D'Andre Swift",
@@ -2372,6 +2383,16 @@
       "name": "Ty Simpson",
       "pos": "QB",
       "teamAbbr": "LAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873081",
+      "athleteId": "15168",
+      "name": "Case Keenum",
+      "pos": "QB",
+      "teamAbbr": "CHI",
       "kind": "neu",
       "from": null,
       "to": "Out"
