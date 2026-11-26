@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T21:40:34Z",
+    "takenAt": "2026-11-26T21:50:39Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1658,7 +1658,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4429615",
@@ -1691,7 +1691,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4432577",
@@ -2325,7 +2325,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4685720",
@@ -2460,13 +2460,23 @@
     },
     {
       "gameId": "401873085",
+      "athleteId": "3916387",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "teamAbbr": "BAL",
+      "kind": "weg",
+      "from": "Injured Reserve",
+      "to": null
+    },
+    {
+      "gameId": "401873085",
       "athleteId": "4429059",
       "name": "Woody Marks",
       "pos": "RB",
       "teamAbbr": "HOU",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Doubtful",
-      "to": "Questionable"
+      "to": null
     },
     {
       "gameId": "401873089",
@@ -2567,16 +2577,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873094",
-      "athleteId": "4685472",
-      "name": "Tetairoa McMillan",
-      "pos": "WR",
-      "teamAbbr": "CAR",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     }
   ]
 }
