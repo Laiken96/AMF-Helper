@@ -1,7 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T19:47:31Z",
+  "updatedAt": "2026-11-26T20:47:23Z",
   "items": [
+    {
+      "id": "55a17365c191d3ef",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-back-within-26-24-on-dandre-swift-td-run",
+      "title": "Bears back within 26-24 on D'Andre Swift TD run",
+      "summary": "The Bears and Lions are lighting up the scoreboard in the second half.",
+      "publishedAt": "2026-11-26T20:31:38Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "28836ab552256bb6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-cowboys-inactives-set-for-thanksgiving",
+      "title": "Eagles-Cowboys inactives set for Thanksgiving",
+      "summary": "The inactives are set for the Thanksgiving Day game in Dallas.",
+      "publishedAt": "2026-11-26T20:26:02Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "ad17be3b0afddb84",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-scores-again-lions-lead-26-17",
+      "title": "Jahmyr Gibbs scores again, Lions lead 26-17",
+      "summary": "Gibbs is up to 17 touchdowns on the season.",
+      "publishedAt": "2026-11-26T20:23:19Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "d28c83b156f83e6e",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/eagles-vs-cowboys-odds-picks-prediction-start-time-betting-preview-best-bets-for-nfl-thanksgiving-day",
+      "title": "Eagles vs. Cowboys odds, picks, prediction, start time: Betting preview, best bets for NFL Thanksgiving Day",
+      "summary": "Here's everything bettors need to know for Eagles vs. Cowboys on Thanksgiving in NFL Week 12",
+      "publishedAt": "2026-11-26T20:23:03Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "c248573275b9167a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-cut-lions-lead-to-19-17-on-kyle-monangais-second-td",
+      "title": "Bears cut Lions lead to 19-17 on Kyle Monangai's second TD",
+      "summary": "The Bears opened the second half with a touchdown drive.",
+      "publishedAt": "2026-11-26T20:12:41Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "0139f2775bde99a4",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50453064/nfl-week-12-odds-broncos-steelers-betting-preview-props",
+      "title": "Betting Broncos-Steelers: How will Pittsburgh respond to stunning events?",
+      "summary": "Odds, analysis and recommended plays to help you bet the day after Thanksgiving game between the Broncos and Steelers.",
+      "publishedAt": "2026-11-26T19:55:10Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
     {
       "id": "81d43493ceadda9c",
       "source": "pft",
@@ -1118,12 +1189,12 @@
       "id": "e3903d01e80842ed",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
-      "title": "NFL Week 12 arrivals: Jeffery Simmons leads arrivals ahead of Bears-Lions",
+      "title": "NFL Week 12 arrivals: CeeDee Lamb leads arrivals ahead of Eagles-Cowboys",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-25T23:58:11Z",
       "teamIds": [
-        "3",
-        "8"
+        "6",
+        "21"
       ]
     },
     {
@@ -1617,72 +1688,6 @@
       "summary": "Backing Chicago to win outright in Detroit, grabbing the points with Philadelphia against Dallas and targeting the Under in a high-stakes showdown between Kansas City and Buffalo",
       "publishedAt": "2026-11-25T20:47:00Z",
       "teamIds": []
-    },
-    {
-      "id": "771eb4dacef847e5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/pat-freiermuth-aaron-rodgers-said-what-he-said-im-focused-on-denver",
-      "title": "Pat Freiermuth: Aaron Rodgers said what he said, I'm focused on Denver",
-      "summary": "While Aaron Rodgers was going scorched earth on the Steelers and head coach Mike McCarthy during Wednesday's appearance on The Pat McAfee Show, he said that tight end Pat Freiermuth informed him of the team's decision to bench him on Tuesday night.",
-      "publishedAt": "2026-11-25T20:40:57Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "d973c6c1f4236f85",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/aaron-rodgers-next-team-predictions-patriots-ravens-favored-to-land-quarterback-after-steelers-release",
-      "title": "Aaron Rodgers next team predictions: Patriots, Ravens favored to land quarterback after Steelers release",
-      "summary": "With Aaron Rodgers' time in the Steel City over, here's a closer look at where he could land, according to Kalshi",
-      "publishedAt": "2026-11-25T20:33:39Z",
-      "teamIds": [
-        "33",
-        "17",
-        "23"
-      ]
-    },
-    {
-      "id": "d77d4853b15a1846",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49907062/aaron-rodgers-2026-nfl-season-steelers-packers-jets-tracking-records-milestones",
-      "title": "Aaron Rodgers' 2026 NFL season: Tracking records, milestones",
-      "summary": "The Pittsburgh passer is chasing records in his 22nd NFL season, and ESPN is chronicling his \"last rodeo.\"",
-      "publishedAt": "2026-11-25T20:28:03Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "0d0c40dbcd9d5c1d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-activate-s-jalen-thompson",
-      "title": "Cowboys activate S Jalen Thompson",
-      "summary": "Safety Jalen Thompson is set for a Thanksgiving Day return to the Cowboys lineup.",
-      "publishedAt": "2026-11-25T20:25:05Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "eb8d0035421bb9e9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-can-become-the-fifth-coach-ever-to-win-10-of-his-first-11-games",
-      "title": "Joe Brady can become the fifth coach ever to win 10 of his first 11 games",
-      "summary": "Buffalo's Joe Brady is off to one of the best starts for any head coach in NFL history.",
-      "publishedAt": "2026-11-25T20:22:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "5b68591f9b1dcc09",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-release-aaron-rodgers-following-benching-qbs-criticism-mike-mccarthy",
-      "title": "Steelers release Aaron Rodgers following criticism of Mike McCarthy: Possible landing spots for QB",
-      "summary": "Rodgers will get a chance to finish his career elsewhere if he chooses",
-      "publishedAt": "2026-11-25T20:20:19Z",
-      "teamIds": [
-        "23"
-      ]
     }
   ]
 }
