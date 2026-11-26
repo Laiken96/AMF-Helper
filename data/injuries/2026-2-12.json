@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-26T20:10:36Z",
+    "takenAt": "2026-11-26T20:28:36Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1385,7 +1385,7 @@
               "qb",
               "passing"
             ],
-            "status": "Injured Reserve"
+            "status": null
           },
           {
             "athleteId": "4241478",
@@ -1397,6 +1397,17 @@
               "receiving"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4879250",
+            "name": "Cole Payton",
+            "pos": "QB",
+            "teamId": "21",
+            "teamAbbr": "PHI",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -1933,7 +1944,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4882093",
@@ -2389,13 +2400,13 @@
     },
     {
       "gameId": "401873080",
-      "athleteId": "4040715",
-      "name": "Jalen Hurts",
+      "athleteId": "4879250",
+      "name": "Cole Payton",
       "pos": "QB",
       "teamAbbr": "PHI",
       "kind": "neu",
       "from": null,
-      "to": "Injured Reserve"
+      "to": "Out"
     },
     {
       "gameId": "401873082",
@@ -2486,6 +2497,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873090",
+      "athleteId": "4432620",
+      "name": "Parker Washington",
+      "pos": "WR",
+      "teamAbbr": "JAX",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     },
     {
       "gameId": "401873090",
