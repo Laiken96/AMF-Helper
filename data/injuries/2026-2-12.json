@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T18:40:39Z",
+    "takenAt": "2026-11-27T18:50:39Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1534,6 +1534,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4714771",
+            "name": "Drew Allar",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
@@ -2402,6 +2413,16 @@
       "name": "Garrett Nussmeier",
       "pos": "QB",
       "teamAbbr": "KC",
+      "kind": "neu",
+      "from": null,
+      "to": "Out"
+    },
+    {
+      "gameId": "401873083",
+      "athleteId": "4714771",
+      "name": "Drew Allar",
+      "pos": "QB",
+      "teamAbbr": "PIT",
       "kind": "neu",
       "from": null,
       "to": "Out"
