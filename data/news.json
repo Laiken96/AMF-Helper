@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T07:47:24Z",
+  "updatedAt": "2026-11-27T08:47:23Z",
   "items": [
     {
       "id": "b1dbdba85298e3f2",
@@ -23,6 +23,15 @@
       "teamIds": [
         "2"
       ]
+    },
+    {
+      "id": "81a5c6c223d28300",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
+      "title": "NFL Week 12: Highlights of Thanksgiving games",
+      "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
+      "publishedAt": "2026-11-27T05:25:04Z",
+      "teamIds": []
     },
     {
       "id": "48e057a6f00a7ef8",
@@ -1666,18 +1675,6 @@
       "publishedAt": "2026-11-26T01:05:23Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "b72f1e04cfa35c09",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873092",
-      "title": "Commanders try to continue momentum while Cardinals work to end 11-game home losing streak",
-      "summary": "Some people around the NFL might have needed a reminder what Jayden Daniels can do on a football field before the quarterback led the Washington Commanders",
-      "publishedAt": "2026-11-26T00:58:33Z",
-      "teamIds": [
-        "22",
-        "28"
       ]
     }
   ]
