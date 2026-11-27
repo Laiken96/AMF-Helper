@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T09:47:24Z",
+  "updatedAt": "2026-11-27T10:47:37Z",
   "items": [
+    {
+      "id": "7b3986f9fff14963",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kickers-made-the-difference-as-harrison-butker-missed-tyler-bass-won-the-game",
+      "title": "Kickers made the difference as Harrison Butker missed, Tyler Bass won the game",
+      "summary": "The Thanksgiving night game between the Bills and Chiefs was billed as the battle of two great quarterbacks, Josh Allen and Patrick Mahomes.",
+      "publishedAt": "2026-11-27T10:04:03Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "824dd6f847b430b7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-new-york-overturned-rashee-rice-catch-not-a-call-i-agree-with",
+      "title": "Andy Reid: New York overturned Rashee Rice catch, not a call I agree with",
+      "summary": "The most pivotal call on Thanksgiving night was a replay review that went against the Chiefs.",
+      "publishedAt": "2026-11-27T09:48:00Z",
+      "teamIds": [
+        "12"
+      ]
+    },
     {
       "id": "b1dbdba85298e3f2",
       "source": "espn",
@@ -1655,28 +1678,6 @@
       "publishedAt": "2026-11-26T01:44:01Z",
       "teamIds": [
         "14"
-      ]
-    },
-    {
-      "id": "e6ec6be1dc6a41e8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-lead-3-0-christian-watson-makes-quick-return-from-thigh-injury",
-      "title": "Rams lead 3-0, Christian Watson makes quick return from thigh injury",
-      "summary": "The Rams are out to an early lead at SoFi Stadium.",
-      "publishedAt": "2026-11-26T01:28:51Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "7dd709260bea66f3",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-should-have-known-aaron-rodgers-mike-mccarthy-couldnt-co-exist",
-      "title": "Steelers should have known Aaron Rodgers, Mike McCarthy couldn't co-exist",
-      "summary": "Someone in the organization should have said a reunion cannot happen.",
-      "publishedAt": "2026-11-26T01:05:23Z",
-      "teamIds": [
-        "23"
       ]
     }
   ]
