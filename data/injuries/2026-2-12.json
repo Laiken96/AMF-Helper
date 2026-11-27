@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T20:10:45Z",
+    "takenAt": "2026-11-27T20:20:49Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1477,6 +1477,29 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4426338",
+            "name": "Bo Nix",
+            "pos": "QB",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "qb",
+              "passing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4702555",
+            "name": "Jonah Coleman",
+            "pos": "RB",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           },
           {
             "athleteId": "3116407",
