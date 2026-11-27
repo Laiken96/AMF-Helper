@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T06:47:29Z",
+  "updatedAt": "2026-11-27T07:47:24Z",
   "items": [
+    {
+      "id": "b1dbdba85298e3f2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50609968/rashee-rice-chiefs-believe-caught-pivotal-3rd-pass",
+      "title": "Rashee Rice, Chiefs believe he caught pivotal 3rd-down pass late vs. Bills",
+      "summary": "WR Rashee Rice -- along with several members of the Chiefs -- felt he caught the ball on a pivotal third-down pass with less than two minutes left at the Bills.",
+      "publishedAt": "2026-11-27T07:44:58Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "fffac030548bd3e2",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50609813/bills-qb-josh-allen-struggles-vs-chiefs-grossest-conditions",
+      "title": "Bills QB Josh Allen struggles vs. Chiefs in 'grossest' conditions",
+      "summary": "The Bills won their 10th game of the season Thursday vs. the Chiefs, but QB Josh Allen struggled in the weather, passing for only 81 yards.",
+      "publishedAt": "2026-11-27T07:44:56Z",
+      "teamIds": [
+        "2"
+      ]
+    },
     {
       "id": "48e057a6f00a7ef8",
       "source": "cbs",
@@ -1656,27 +1678,6 @@
       "teamIds": [
         "22",
         "28"
-      ]
-    },
-    {
-      "id": "81a5c6c223d28300",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
-      "title": "NFL Week 12: Highlights of Thanksgiving games",
-      "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
-      "publishedAt": "2026-11-26T00:49:57Z",
-      "teamIds": []
-    },
-    {
-      "id": "81c018dedbc13815",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873093",
-      "title": "Patriots-Chargers shaping up to be battle of backup QBs for 2 of AFC's biggest disappointments",
-      "summary": "When Drake Maye’s New England Patriots eased past Justin Herbert’s Los Angeles Chargers in an AFC wild-card game in January, it seemed as if...",
-      "publishedAt": "2026-11-26T00:38:32Z",
-      "teamIds": [
-        "24",
-        "17"
       ]
     }
   ]
