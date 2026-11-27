@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T20:30:53Z",
+    "takenAt": "2026-11-27T20:40:37Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1479,6 +1479,17 @@
             "status": "Out"
           },
           {
+            "athleteId": "4372016",
+            "name": "Jaylen Waddle",
+            "pos": "WR",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "receiving"
+            ],
+            "status": null
+          },
+          {
             "athleteId": "4426338",
             "name": "Bo Nix",
             "pos": "QB",
@@ -1497,8 +1508,7 @@
             "teamId": "7",
             "teamAbbr": "DEN",
             "roles": [
-              "rushing",
-              "receiving"
+              "rushing"
             ],
             "status": null
           },
@@ -1515,24 +1525,24 @@
             "status": null
           },
           {
-            "athleteId": "4047650",
-            "name": "DK Metcalf",
-            "pos": "WR",
-            "teamId": "23",
-            "teamAbbr": "PIT",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4569987",
-            "name": "Jaylen Warren",
+            "athleteId": "4038815",
+            "name": "Rico Dowdle",
             "pos": "RB",
             "teamId": "23",
             "teamAbbr": "PIT",
             "roles": [
               "rushing"
+            ],
+            "status": null
+          },
+          {
+            "athleteId": "4685261",
+            "name": "Germie Bernard",
+            "pos": "WR",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "receiving"
             ],
             "status": null
           },
@@ -1608,7 +1618,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4262921",
@@ -2447,16 +2457,6 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
-    },
-    {
-      "gameId": "401873084",
-      "athleteId": "3917315",
-      "name": "Kyler Murray",
-      "pos": "QB",
-      "teamAbbr": "MIN",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
     },
     {
       "gameId": "401873085",
