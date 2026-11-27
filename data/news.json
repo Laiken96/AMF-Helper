@@ -1,7 +1,99 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T15:47:36Z",
+  "updatedAt": "2026-11-27T16:47:27Z",
   "items": [
+    {
+      "id": "de4bd571e088c00f",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week",
+      "title": "Jaguars WR Parker Washington (shoulder) is 'week-to-week'",
+      "summary": "Jaguars wide receiver Parker Washington will miss Sunday's game against the Titans and perhaps more with a shoulder injury.",
+      "publishedAt": "2026-11-27T16:37:45Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "92ac099bc91262e3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fridays-game-gives-steelers-fans-a-chance-to-chime-in-on-recent-events",
+      "title": "Friday's game gives Steelers fans a chance to chime in on recent events",
+      "summary": "Much has been said from the folks at the middle of the current clusterfudge at the confluence of three rivers.",
+      "publishedAt": "2026-11-27T16:33:23Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "afd7318a36ae3e2e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-rule-omar-cooper-out-with-ankle-injury",
+      "title": "Jets rule Omar Cooper out with ankle injury",
+      "summary": "The Jets will not have wide receiver Omar Cooper in the lineup as they try for their first two-game winning streak since early in the 2024 season.",
+      "publishedAt": "2026-11-27T16:20:57Z",
+      "teamIds": [
+        "20"
+      ]
+    },
+    {
+      "id": "e7be53c70e251997",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-lines-spreads-odds-totals",
+      "title": "Week 12 NFL odds, lines, totals, spreads for every game, including Broncos-Steelers, 49ers-Seahawks",
+      "summary": "A look at the latest Week 12 NFL odds, spreads, and totals for all 16 games, including Steelers vs. Broncos on Black Friday",
+      "publishedAt": "2026-11-27T16:15:25Z",
+      "teamIds": [
+        "7",
+        "23",
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "72c2f51fb902f04e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-carnival-came-back-to-town-on-thursday-and-joe-milton-iii-won-his-teddy-bear",
+      "title": "The \"carnival\" came back to town on Thursday, and Joe Milton III won his \"teddy bear\"",
+      "summary": "Cowboys' decision not to put Milton on the roster comes back to haunt them.",
+      "publishedAt": "2026-11-27T16:07:08Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "52f91c540da11020",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-raiders-de-kwity-paye-their-community-mvp-for-week-12",
+      "title": "NFLPA names Raiders DE Kwity Paye their Community MVP for Week 12",
+      "summary": "The NFL Players Association announced on Friday that they have selected Raiders defensive end Kwity Paye as their Community MVP for Week 12.",
+      "publishedAt": "2026-11-27T16:06:47Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "e3ec9018597c8377",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-vs-broncos-prediction-why-mason-rudolph-lead-upset-aaron-rodgers",
+      "title": "Steelers vs. Broncos prediction: Why Mason Rudolph can lead upset after Aaron Rodgers drama",
+      "summary": "Rudolph is replacing Rodgers, who was surprisingly benched on Tuesday night and then went on a scorched-earth tirade against his now-former head coach",
+      "publishedAt": "2026-11-27T16:02:21Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "50ecce647e7f05d5",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50612051/what-jaguars-do-parker-washington-week-week",
+      "title": "What will Jaguars do with Parker Washington out week-to-week?",
+      "summary": null,
+      "publishedAt": "2026-11-27T15:55:33Z",
+      "teamIds": [
+        "30"
+      ]
+    },
     {
       "id": "d3d01f5e6b6b8874",
       "source": "espn",
@@ -25,6 +117,24 @@
         "19",
         "10"
       ]
+    },
+    {
+      "id": "e2182cbb8020a2eb",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/2027-nfl-draft-remaining-games-determine-draft-order-including-no-1-overall",
+      "title": "2027 NFL Draft: Remaining games that will determine the draft order, including No. 1 overall",
+      "summary": "A late-season clash between one-win teams Miami and Los Angeles leads a slate of critical showdowns with major quarterback dominoes and trade leverage at stake",
+      "publishedAt": "2026-11-27T15:39:12Z",
+      "teamIds": []
+    },
+    {
+      "id": "56e97dabf8cd978f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/ranking-nfl-thanksgiving-2026-beef-nick-sirianni-andy-reid-aaron-rodgers",
+      "title": "Thanksgiving Beef: Nick Sirianni vs. fan, Andy Reid vs. the refs, Aaron Rodgers vs. the world",
+      "summary": "A thrilling holiday tripleheader delivered historic comebacks alongside heated sideline blowups, controversial officiating decisions and growing fan frustration",
+      "publishedAt": "2026-11-27T15:36:52Z",
+      "teamIds": []
     },
     {
       "id": "31ed786854a2a141",
@@ -359,6 +469,24 @@
       "teamIds": [
         "26"
       ]
+    },
+    {
+      "id": "be80023b52272fef",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
+      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
+      "publishedAt": "2026-11-27T11:00:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "b0ae53c0449db437",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
+      "publishedAt": "2026-11-27T11:00:02Z",
+      "teamIds": []
     },
     {
       "id": "09626058cef4d391",
@@ -979,6 +1107,18 @@
       "teamIds": []
     },
     {
+      "id": "cc7ebcd3d5a80c86",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bills-vs-chiefs-prediction-odds-how-to-watch-thanksgiving",
+      "title": "Bills vs. Chiefs prediction: Which team wins latest chapter of Josh Allen-Patrick Mahomes saga?",
+      "summary": "Legendary quarterbacks close out the holiday slate in one of the biggest games of the season",
+      "publishedAt": "2026-11-26T21:30:35Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
       "id": "7cc6eb24ed975750",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50606063/steelers-activate-michael-pittman-jr-ir-sign-max-hurleman-active-roster-practice-squad",
@@ -1546,141 +1686,6 @@
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
       "publishedAt": "2026-11-26T14:06:36Z",
       "teamIds": []
-    },
-    {
-      "id": "ecb5841ea2bcb486",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573508/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
-      "title": "Fantasy football rankings for Week 12: Wide receiver",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-26T14:04:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "ae083a9ead741260",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573725/nfl-fantasy-football-rankings-2026-qb-quarterback",
-      "title": "Fantasy football rankings for Week 12: Quarterback",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-26T14:03:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "3a48bb6d965163ed",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573297/nfl-fantasy-football-rankings-2026-dst-defense",
-      "title": "Fantasy football rankings for Week 12: D/ST",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-26T14:03:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "9550e8d4ff5a796f",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573414/nfl-fantasy-football-rankings-2026-te-tight-end",
-      "title": "Fantasy football rankings for Week 12: Tight end",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-26T14:00:55Z",
-      "teamIds": []
-    },
-    {
-      "id": "6e2de5f4a0abb10a",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573224/nfl-fantasy-football-rankings-2026-k-kicker",
-      "title": "Fantasy football rankings for Week 12: Kicker",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-26T14:00:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "90c0e95269f4c292",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573181/nfl-fantasy-football-rankings-2026-idp",
-      "title": "Fantasy football rankings for Week 12: IDP",
-      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
-      "publishedAt": "2026-11-26T13:58:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "c4ada737c4ff352e",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-re-emerges-as-an-employee-of-a-gambling-company",
-      "title": "Tony Romo re-emerges, as an employee of a gambling company",
-      "summary": "The unofficial path for a sports-media second act is becoming more and more clear.",
-      "publishedAt": "2026-11-26T13:55:24Z",
-      "teamIds": []
-    },
-    {
-      "id": "726c2d5ab76fd610",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-aaron-rodgers-mccarthy-corum-rams-packers-thanksgiving-nfl",
-      "title": "Steelers cut Aaron Rodgers after McCarthy blowup; Blake Corum and Rams run wild vs. Packers",
-      "summary": "Plus, NFL Thanksgiving picks and the college football rivalries that could shake up the CFP race",
-      "publishedAt": "2026-11-26T13:50:16Z",
-      "teamIds": [
-        "9",
-        "14",
-        "23"
-      ]
-    },
-    {
-      "id": "581fa1caf0554f04",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-our-play-in-second-half-wednesday-night-was-inexcusable",
-      "title": "Micah Parsons: Our play in second half Wednesday night was inexcusable",
-      "summary": "The Rams ran for 195 yards after halftime in their 26-13 win.",
-      "publishedAt": "2026-11-26T13:46:46Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "6b96aedecd5b13c2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/will-mike-mccarthy-survive-aaron-rodgers-backlash-steelers",
-      "title": "Will Mike McCarthy survive Aaron Rodgers' backlash? Steelers reportedly standing by coach, but for how long?",
-      "summary": "The next seven games may determine McCarthy's future in Pittsburgh beyond 2026",
-      "publishedAt": "2026-11-26T13:29:32Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "e16e962a8e483d37",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/cowboys-vs-eagles-odds-picks-prediction-start-time-betting-preview-best-bets-for-nfl-thanksgiving-day",
-      "title": "Cowboys vs. Eagles odds, picks, prediction, start time: Betting preview, best bets for NFL Thanksgiving Day",
-      "summary": "Here's everything bettors need to know for Eagles vs. Cowboys on Thanksgiving in NFL Week 12",
-      "publishedAt": "2026-11-26T13:28:17Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "844d864ba353f0dc",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604047/adam-schefter-breaks-unprecedented-aaron-rodgers-mike-mccarthy-fallout",
-      "title": "Adam Schefter breaks down 'unprecedented' Aaron Rodgers, Mike McCarthy fallout",
-      "summary": null,
-      "publishedAt": "2026-11-26T13:24:16Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "8fb03d6768caa22c",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-picks-our-experts-face-off-on-bears-at-lions-chiefs-at-bills-and-more",
-      "title": "NFL Week 12 picks: Our experts face off on Broncos at Steelers, Seahawks at 49ers and more",
-      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
-      "publishedAt": "2026-11-26T13:19:20Z",
-      "teamIds": [
-        "7",
-        "23",
-        "26",
-        "25"
-      ]
     }
   ]
 }
