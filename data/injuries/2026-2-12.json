@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T22:30:52Z",
+    "takenAt": "2026-11-27T22:40:36Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2148,7 +2148,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           }
         ]
       },
@@ -2546,7 +2546,7 @@
       "teamAbbr": "SF",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873091",
