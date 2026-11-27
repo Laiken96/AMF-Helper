@@ -1,7 +1,134 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T20:47:21Z",
+  "updatedAt": "2026-11-27T21:47:25Z",
   "items": [
+    {
+      "id": "74d1579c58b7e074",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/luke-mccaffrey-gives-up-no-11-to-brandon-aiyuk",
+      "title": "Luke McCaffrey gives up No. 11 to Brandon Aiyuk",
+      "summary": "Receiver Brandon Aiyuk is back, and he'll be back in the only number he's ever worn in the NFL.",
+      "publishedAt": "2026-11-27T21:35:21Z",
+      "teamIds": []
+    },
+    {
+      "id": "80e723b7238fa0ff",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50614218/ravens-marlon-humphrey-return-lineup-role-uncertain",
+      "title": "Ravens' Marlon Humphrey to return to lineup; role uncertain",
+      "summary": "Ravens cornerback Marlon Humphrey will play Sunday against the Texans, a week after he was benched for making disparaging comments about the city of Baltimore.",
+      "publishedAt": "2026-11-27T21:33:18Z",
+      "teamIds": [
+        "33"
+      ]
+    },
+    {
+      "id": "59e2b31f90945e10",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-not-practicing-on-friday-putting-mac-jones-in-line-to-start",
+      "title": "Brock Purdy not practicing on Friday, putting Mac Jones in line to start",
+      "summary": "It looks like 49ers quarterback Brock Purdy will not be able to play Sunday's game against the Seahawks.",
+      "publishedAt": "2026-11-27T21:27:40Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "524b9ba66c7d06c7",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-betting-lines-spreads-picks-predictions-today-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-27T21:25:15Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "28b99d02766c266a",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/broncos-troll-steelers-aaron-rodgers-discount-double-check-celebration-safety",
+      "title": "Broncos troll Steelers, Aaron Rodgers with 'discount double-check' celebration after safety",
+      "summary": "Denver's Alex Singleton got a jab in against Rodgers' former team",
+      "publishedAt": "2026-11-27T21:24:37Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "ca0fb6d5725c5c9f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-sign-ls-rex-sunahara-to-four-year-extension",
+      "title": "Browns sign LS Rex Sunahara to four-year extension",
+      "summary": "The Browns have signed a key special teams contributor to a new deal.",
+      "publishedAt": "2026-11-27T21:19:43Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "2260e2622a540ad5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-throws-directly-to-jalen-ramsey-for-pick-six-as-steelers-dominate-the-first-half",
+      "title": "Bo Nix throws directly to Jalen Ramsey for pick-six as Steelers dominate the first half",
+      "summary": "The Broncos' offense has been awful today.",
+      "publishedAt": "2026-11-27T21:19:19Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "ac56b12f32067f7a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-questionable-for-sunday-night-vs-browns",
+      "title": "Brock Bowers questionable for Sunday night vs. Browns",
+      "summary": "The Raiders may get tight end Brock Bowers back for Sunday's game against the Browns.",
+      "publishedAt": "2026-11-27T21:09:16Z",
+      "teamIds": [
+        "5",
+        "13"
+      ]
+    },
+    {
+      "id": "6761e4335e74cb17",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50613922/saints-rule-te-johnson-vs-bengals-te-fant-questionable",
+      "title": "Saints rule TE Juwan Johnson out vs. Bengals; TE Noah Fant questionable",
+      "summary": "The Saints ruled out tight end Juwan Johnson with a hamstring and wrist injuries while backup Noah Fant is questionable with a calf injury vs. the Bengals.",
+      "publishedAt": "2026-11-27T21:01:47Z",
+      "teamIds": [
+        "18"
+      ]
+    },
+    {
+      "id": "6678fc6743fd4091",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/alex-singleton-tackles-jaylen-warren-in-the-end-zone-for-a-safety-as-steelers-lead-14-5",
+      "title": "Alex Singleton tackles Jaylen Warren in the end zone for a safety as Steelers lead 14-5",
+      "summary": "The Broncos' offense can't do anything, but the defense has done something.",
+      "publishedAt": "2026-11-27T21:00:38Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "b6cb451778d408c6",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-had-an-absolutely-fantastic-experience-coaching-with-mike-mccarthy",
+      "title": "Dan Quinn had an \"absolutely fantastic experience\" coaching with Mike McCarthy",
+      "summary": "With Wednesday's rant from former Steelers quarterback Aaron Rodgers painting a negative picture about Steelers coach Mike McCarthy that extended to his time with both the Packers and the Cowboys, those who have worked with him in those places will inevitably be asked about McCarthy.",
+      "publishedAt": "2026-11-27T20:56:15Z",
+      "teamIds": [
+        "6",
+        "9",
+        "23"
+      ]
+    },
     {
       "id": "2d70feb6da717650",
       "source": "pft",
@@ -384,8 +511,8 @@
       "id": "de4bd571e088c00f",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week",
-      "title": "Jaguars WR Parker Washington (shoulder) is 'week-to-week'",
-      "summary": "Jaguars wide receiver Parker Washington will miss Sunday's game against the Titans and perhaps more with a shoulder injury.",
+      "title": "Jaguars' Parker Washington, Bhayshul Tuten both out Sunday",
+      "summary": "Jaguars wide receiver Parker Washington (shoulder) and running back Bhayshul Tuten (foot/ankle) have both been ruled out for Sunday's game against the Titans.",
       "publishedAt": "2026-11-27T16:37:45Z",
       "teamIds": [
         "30"
@@ -1550,133 +1677,6 @@
       "teamIds": [
         "3",
         "8"
-      ]
-    },
-    {
-      "id": "e197db9c31acec02",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873081",
-      "title": "Caleb Williams' TD pass with 3 seconds left gives Bears 39-35 win over Lions",
-      "summary": "Caleb Williams took a shotgun snap, dropped back, looked left and threw a perfect pass to the back, right corner of the end zone where only Rome Odunze could catch it.",
-      "publishedAt": "2026-11-26T21:45:33Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "352676d1853c6fa2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-predictions-colston-loveland-thanksgiving",
-      "title": "It wouldn't shock me if ... for NFL Week 12: Steelers fall out of playoff picture minus Aaron Rodgers",
-      "summary": "Our five bold calls for Week 12 include a career day for Quinshon Judkins and mounting pressure on the Seahawks to play Drew Lock",
-      "publishedAt": "2026-11-26T21:44:28Z",
-      "teamIds": [
-        "23",
-        "26"
-      ]
-    },
-    {
-      "id": "a6282320c7966077",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-stun-lions-on-late-rome-odunze-td",
-      "title": "Bears stun Lions on late Rome Odunze TD",
-      "summary": "The Bears came through at the end of a wild second half in Detroit.",
-      "publishedAt": "2026-11-26T21:41:14Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "ff46a758c3a109a7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-clears-waivers",
-      "title": "Aaron Rodgers clears waivers",
-      "summary": "Rodgers becomes a free agent.",
-      "publishedAt": "2026-11-26T21:40:37Z",
-      "teamIds": []
-    },
-    {
-      "id": "cc7ebcd3d5a80c86",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/bills-vs-chiefs-prediction-odds-how-to-watch-thanksgiving",
-      "title": "Bills vs. Chiefs prediction: Which team wins latest chapter of Josh Allen-Patrick Mahomes saga?",
-      "summary": "Legendary quarterbacks close out the holiday slate in one of the biggest games of the season",
-      "publishedAt": "2026-11-26T21:30:35Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "7cc6eb24ed975750",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50606063/steelers-activate-michael-pittman-jr-ir-sign-max-hurleman-active-roster-practice-squad",
-      "title": "Steelers activate Michael Pittman Jr. off IR, sign Max Hurleman to active roster",
-      "summary": "The Steelers on Thursday activated Michael Pittman Jr. from injured reserve and signed Max Hurleman to the active roster from the practice squad.",
-      "publishedAt": "2026-11-26T21:25:14Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "722d0aa6054f5ed2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-up-to-three-touchdowns-lions-up-35-24",
-      "title": "Jahmyr Gibbs up to three touchdowns, Lions up 35-24",
-      "summary": "Gibbs broke free for 70 yards this time.",
-      "publishedAt": "2026-11-26T20:56:18Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "f46e8425f51757d1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-remains-out-of-cardinals-practice",
-      "title": "Carson Beck remains out of Cardinals practice",
-      "summary": "It looks like the Cardinals are on track to be without Carson Beck against the Commanders this week.",
-      "publishedAt": "2026-11-26T20:50:36Z",
-      "teamIds": [
-        "22",
-        "28"
-      ]
-    },
-    {
-      "id": "f07dd92070b48888",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-on-packers-run-game-struggles-were-trying",
-      "title": "Matt LaFleur on Packers' run-game struggles: \"We're trying\"",
-      "summary": "The Packers weren't able to stop the run on Wednesday against the Rams.",
-      "publishedAt": "2026-11-26T20:46:43Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "55a17365c191d3ef",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-back-within-26-24-on-dandre-swift-td-run",
-      "title": "Bears back within 26-24 on D'Andre Swift TD run",
-      "summary": "The Bears and Lions are lighting up the scoreboard in the second half.",
-      "publishedAt": "2026-11-26T20:31:38Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "28836ab552256bb6",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-cowboys-inactives-set-for-thanksgiving",
-      "title": "Eagles-Cowboys inactives set for Thanksgiving",
-      "summary": "The inactives are set for the Thanksgiving Day game in Dallas.",
-      "publishedAt": "2026-11-26T20:26:02Z",
-      "teamIds": [
-        "6",
-        "21"
       ]
     }
   ]

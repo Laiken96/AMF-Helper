@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-27T20:47:17Z",
+  "fetchedAt": "2026-11-27T21:47:20Z",
   "source": "espn",
   "games": [
     {
@@ -103,9 +103,9 @@
       "homeId": "23",
       "awayId": "7",
       "status": "in_progress",
-      "statusDetail": "11:35 - 2nd",
-      "homeScore": 14,
-      "awayScore": 0,
+      "statusDetail": "11:39 - 3rd",
+      "homeScore": 24,
+      "awayScore": 5,
       "venue": "Acrisure Stadium",
       "neutralSite": false,
       "venueInfo": {
