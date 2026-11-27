@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-27T00:47:24Z",
+  "fetchedAt": "2026-11-27T01:47:20Z",
   "source": "espn",
   "games": [
     {
@@ -58,10 +58,10 @@
       "kickoffUtc": "2026-11-26T21:30:00Z",
       "homeId": "6",
       "awayId": "21",
-      "status": "in_progress",
-      "statusDetail": "9:09 - 4th",
+      "status": "final",
+      "statusDetail": "Final",
       "homeScore": 38,
-      "awayScore": 30,
+      "awayScore": 39,
       "venue": "AT&T Stadium",
       "neutralSite": false,
       "venueInfo": {
@@ -80,10 +80,10 @@
       "kickoffUtc": "2026-11-27T01:20:00Z",
       "homeId": "2",
       "awayId": "12",
-      "status": "scheduled",
-      "statusDetail": "11/26 - 8:20 PM EST",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "in_progress",
+      "statusDetail": "7:18 - 1st",
+      "homeScore": 0,
+      "awayScore": 0,
       "venue": "Highmark Stadium",
       "neutralSite": false,
       "venueInfo": {
