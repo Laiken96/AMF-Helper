@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T02:47:27Z",
+  "updatedAt": "2026-11-27T03:47:33Z",
   "items": [
+    {
+      "id": "b35a77e34d328133",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50608495/qb-caleb-williams-wr-rome-odunze-chemistry-helps-bears-stun-lions",
+      "title": "QB Caleb Williams, WR Rome Odunze's chemistry helps Bears stun Lions",
+      "summary": "QB Caleb Williams and WR Rome Odunze leaned on their chemistry and trust to secure Chicago's ninth win of the season.",
+      "publishedAt": "2026-11-27T03:43:37Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "990364fa8b0ce325",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/former-steelers-coach-mike-tomlin-aaron-rodgers-mike-mccarthy-saga-dumpster-fire",
+      "title": "Former Steelers coach Mike Tomlin on Aaron Rodgers-Mike McCarthy saga: 'It's a dumpster fire'",
+      "summary": "Tomlin revealed his thoughts on the entire Rodgers-McCarthy mess on Thursday night",
+      "publishedAt": "2026-11-27T03:37:34Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "d2aa1d800033f41b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-mike-mccarthy-he-was-outstanding-as-the-head-coach",
+      "title": "Jerry Jones on Mike McCarthy: \"He was outstanding as the head coach\"",
+      "summary": "The recent remarks from former Steelers quarterback Aaron Rodgers regarding Steelers coach Mike McCarthy have raised plenty of questions, posed to plenty of people.",
+      "publishedAt": "2026-11-27T03:25:48Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "0613d8d28d2072b4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/emmett-johnson-td-gives-chiefs-10-7-lead-early-in-third-quarter",
+      "title": "Emmett Johnson TD gives Chiefs 10-7 lead early in third quarter",
+      "summary": "The Chiefs got a little something going at the end of the first half.",
+      "publishedAt": "2026-11-27T03:15:43Z",
+      "teamIds": [
+        "12"
+      ]
+    },
+    {
+      "id": "6b5634f579a0c488",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-on-current-steelers-situation-its-a-dumpster-fire",
+      "title": "Mike Tomlin on current Steelers situation: \"It's a dumpster fire\"",
+      "summary": "Former Steelers coach speaks at length about this week's events.",
+      "publishedAt": "2026-11-27T03:01:30Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "4cd00368f8260fe8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-lead-chiefs-7-3-at-halftime-on-thanksgiving-night",
+      "title": "Bills lead Chiefs 7-3 at halftime on Thanksgiving night",
+      "summary": "Nasty weather in Western New York has limited offensive production for both Buffalo and Kansas City.",
+      "publishedAt": "2026-11-27T02:52:11Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "cb908dd07f75b9d2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-i-didnt-simulate-snap-count-on-false-starts-lions-crying-about-a-them-problem",
+      "title": "Jeffery Simmons: I didn't simulate snap count on false starts, Lions are \"crying\" about a them problem",
+      "summary": "Long before the Bears beat the Lions on a last-second touchdown catch by wide receiver Rome Odunze, one of the storylines of the game was a run of false start penalties by the Lions.",
+      "publishedAt": "2026-11-27T02:48:15Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
     {
       "id": "0f7684ace3216afd",
       "source": "espn",
@@ -89,8 +168,8 @@
       "id": "0403d919082198ce",
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873080",
-      "title": "Jake Elliott's 59-yard field goal with 2 seconds left gives Eagles stunning 39-38 win over Cowboys",
-      "summary": "Jake Elliott kicked a 59-yard field with 2 seconds remaining, and the Philadelphia Eagles stunned the Dallas Cowboys by rallying for a 39-38 Thanksgiving victory on Thursday.",
+      "title": "Schottenheimer defends 4th-down call before Eagles' 59-yard FG in 39-38 stunner over Cowboys",
+      "summary": "Brian Schottenheimer said he second-guesses plenty of his decisions, just not the one that will be dissected more than any other in his two seasons as coach of the Dallas Cowboys.",
       "publishedAt": "2026-11-27T01:43:32Z",
       "teamIds": [
         "6",
@@ -1019,14 +1098,14 @@
       "id": "8fb03d6768caa22c",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-12-picks-our-experts-face-off-on-bears-at-lions-chiefs-at-bills-and-more",
-      "title": "NFL Week 12 picks: Our experts face off on Bears at Lions, Chiefs at Bills and more",
+      "title": "NFL Week 12 picks: Our experts face off on Broncos at Steelers, Seahawks at 49ers and more",
       "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
       "publishedAt": "2026-11-26T13:19:20Z",
       "teamIds": [
-        "2",
-        "3",
-        "8",
-        "12"
+        "7",
+        "23",
+        "26",
+        "25"
       ]
     },
     {
@@ -1304,15 +1383,13 @@
       "id": "b20534a6cd9ec54f",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
-      "title": "Prisco's Week 12 NFL picks: Cowboys feast on Eagles, Bills win thriller over Chiefs",
+      "title": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
       "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
       "publishedAt": "2026-11-26T03:02:15Z",
       "teamIds": [
-        "2",
-        "6",
+        "5",
         "7",
-        "12",
-        "21",
+        "13",
         "23"
       ]
     },
@@ -1607,86 +1684,6 @@
         "9",
         "14"
       ]
-    },
-    {
-      "id": "29afc0c7de2ab955",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-fully-participates-in-seahawks-practice",
-      "title": "Sam Darnold fully participates in Seahawks practice",
-      "summary": "Seahawks quarterback Sam Darnold remains on track to return to the lineup for Sunday's game against the 49ers.",
-      "publishedAt": "2026-11-25T23:41:41Z",
-      "teamIds": [
-        "26",
-        "25"
-      ]
-    },
-    {
-      "id": "c9de171285d80ce8",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/rams-vs-packers-picks-odds-prediction-spread-thanksgiving-eve-start-time-nfl-betting-preview-best-bets",
-      "title": "Rams vs. Packers picks, odds, prediction, spread: Thanksgiving Eve start time, NFL betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Packers vs. Rams on Wednesday in NFL Week 12",
-      "publishedAt": "2026-11-25T23:39:16Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "1abaef96e7917d18",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-officially-put-jk-dobbins-on-suspended-list",
-      "title": "Broncos officially put JK Dobbins on suspended list",
-      "summary": "Broncos head coach Sean Payton announced on Tuesday that running back JK Dobbins was being suspended for conduct detrimental to the team and the move became official on Wednesday.",
-      "publishedAt": "2026-11-25T23:34:33Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "dfdd892711979946",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873085",
-      "title": "Ryans says Texans are focused on winning each week as Ravens limp in on 6-game skid without Jackson",
-      "summary": "Despite their struggles this season, the Houston Texans still have a good shot to reach the playoffs if they finish strong.",
-      "publishedAt": "2026-11-25T23:34:32Z",
-      "teamIds": [
-        "33",
-        "34"
-      ]
-    },
-    {
-      "id": "4f33c7616bdb6e06",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-promos-get-almost-4000-in-bonuses-from-betting-apps-sportsbooks-for-packers-vs-rams",
-      "title": "Week 12 NFL betting promos: Get almost $4,000 in bonuses from betting apps, sportsbooks for Packers vs. Rams",
-      "summary": "Top Week 12 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-25T23:34:19Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "e6deb39b3e72426c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873088",
-      "title": "QB Anthony Richardson hopes to follow J.J. McCarthy's lead when he starts for Colts against Giants",
-      "summary": "Anthony Richardson has already watched quarterback",
-      "publishedAt": "2026-11-25T23:33:33Z",
-      "teamIds": [
-        "11",
-        "19"
-      ]
-    },
-    {
-      "id": "fcfccd4c2fbab296",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-injury-report-updates-kenneth-walker-brock-purdy-sam-darnold",
-      "title": "NFL Week 12 injury report: Thanksgiving game statuses, latest updates for Sam Darnold, Brock Purdy",
-      "summary": "Brock Purdy missed Wednesday's practice with an ankle injury, while Sam Darnold appears on track to return for a pivotal NFC West matchup",
-      "publishedAt": "2026-11-25T23:10:35Z",
-      "teamIds": []
     }
   ]
 }

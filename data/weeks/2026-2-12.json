@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-27T02:47:22Z",
+  "fetchedAt": "2026-11-27T03:47:28Z",
   "source": "espn",
   "games": [
     {
@@ -81,9 +81,9 @@
       "homeId": "2",
       "awayId": "12",
       "status": "in_progress",
-      "statusDetail": "0:09 - 2nd",
-      "homeScore": 7,
-      "awayScore": 0,
+      "statusDetail": "11:58 - 4th",
+      "homeScore": 10,
+      "awayScore": 10,
       "venue": "Highmark Stadium",
       "neutralSite": false,
       "venueInfo": {
