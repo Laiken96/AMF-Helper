@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-26T19:20:50Z",
+  "updatedAt": "2026-11-27T14:01:25Z",
   "model": "claude-haiku-5-5",
   "opinions": [
     {
@@ -111,6 +111,33 @@
         {
           "title": "Chiefs vs Bills Weather Forecast: Thanksgiving Rain & Wind",
           "url": "https://www.covers.com/nfl/chiefs-vs-bills-weather-report-thanksgiving-nov-26-2026"
+        }
+      ]
+    },
+    {
+      "gameId": "401873083",
+      "createdAt": "2026-11-27T14:01:25Z",
+      "winnerTeamId": "7",
+      "pWinner": 0.68,
+      "marketPickTeamId": "7",
+      "marketProb": 0.6306,
+      "reasoning": "Die Broncos (8-2) sind laut Verletzungsberichten deutlich gesünder, während bei den Steelers Highsmith, Skowronek und Dunker fehlen und Mason Rudolph als Quarterback startet. Die Dobbins-Sperre wiegt wenig, da Jonah Coleman die Backfield-Rolle bereits übernommen hat und Dobbins zuletzt kaum Snaps bekam.",
+      "sources": [
+        {
+          "title": "Steelers Week 12 Final Injury Report: Game Status vs. Broncos",
+          "url": "https://sports.yahoo.com/nfl/articles/steelers-week-12-final-injury-215116866.html"
+        },
+        {
+          "title": "Broncos vs. Steelers injury report for Week 12 - Yahoo Sports",
+          "url": "https://sports.yahoo.com/nfl/articles/broncos-vs-steelers-injury-report-224500219.html"
+        },
+        {
+          "title": "Steelers' Last-Minute Injury News Is a Double-Edged Sword for Broncos - Yahoo Sports",
+          "url": "https://sports.yahoo.com/nfl/articles/steelers-last-minute-injury-news-200027396.html"
+        },
+        {
+          "title": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
+          "url": "https://www.espn.com/nfl/story/_/id/50586087/broncos-payton-says-rb-dobbins-suspended-one-game"
         }
       ]
     }
