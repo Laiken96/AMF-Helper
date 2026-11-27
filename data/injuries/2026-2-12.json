@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T21:10:36Z",
+    "takenAt": "2026-11-27T21:20:42Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1955,7 +1955,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "3916148",
@@ -2506,7 +2506,7 @@
       "teamAbbr": "JAX",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873093",
