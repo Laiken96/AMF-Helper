@@ -1,7 +1,80 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T12:47:22Z",
+  "updatedAt": "2026-11-27T13:47:23Z",
   "items": [
+    {
+      "id": "66928e333951d2af",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/hope-is-gone-for-dak-prescott-cowboys-thanksgiving-loss-eagles",
+      "title": "Hope is now gone for Cowboys' season after historic Thanksgiving collapse vs. Eagles",
+      "summary": "After two franchise-record meltdowns this season, the Cowboys can say goodbye to their NFC East title hopes",
+      "publishedAt": "2026-11-27T13:41:30Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "a8d0cb0908387124",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50609153/thanksgiving-games-bears-lions-eagles-cowboys-bills-chiefs",
+      "title": "Thanksgiving NFL football had it all: Comebacks, walk-offs and plenty of points",
+      "summary": "Three go-ahead scores in the final minute? Two comebacks from double-digit deficits? And 174 combined points across the three games? Yeah, Thursday was awesome.",
+      "publishedAt": "2026-11-27T13:35:50Z",
+      "teamIds": []
+    },
+    {
+      "id": "dbceca94b6b8ebfd",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50611328/season-the-dallas-cowboys",
+      "title": "Hawkins: The season is over for the Dallas Cowboys",
+      "summary": null,
+      "publishedAt": "2026-11-27T13:26:43Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "f29d70239c39a1e0",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-predictions-broncos-seahawks-keys-to-parlays-involving-favorites-underdogs-in-week-12",
+      "title": "NFL odds, picks, predictions: Broncos, Seahawks keys to parlays involving favorites, underdogs in Week 12",
+      "summary": "SportsLine football expert Mike Tierney locks in his top parlays for Week 12 NFL games",
+      "publishedAt": "2026-11-27T13:00:30Z",
+      "teamIds": [
+        "7",
+        "26"
+      ]
+    },
+    {
+      "id": "787cc70225420de0",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-on-rome-odunze-when-big-moments-come-up-you-go-to-your-guys",
+      "title": "Caleb Williams on Rome Odunze: When big moments come up, you go to your guys",
+      "summary": "Bears wide receiver Rome Odunze had one catch for nine yards at halftime in Detroit on Thanksgiving, but there was a lot more to come in the final 30 minutes.",
+      "publishedAt": "2026-11-27T12:59:45Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "9e9084f78093f22e",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "title": "Fantasy buzz: Joe Milton, Jahmyr Gibbs served up a fantasy feast on Thanksgiving",
+      "summary": "What a fantasy football feast we saw on Thursday! Adam Rank breaks it all down.",
+      "publishedAt": "2026-11-27T12:43:23Z",
+      "teamIds": []
+    },
+    {
+      "id": "3cad30156f8406ea",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50593359/fantasy-football-start-sit-lineup-advice-week-12",
+      "title": "Need fantasy football trade deadline advice? Join our live Q&A, noon ET",
+      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
+      "publishedAt": "2026-11-27T12:42:53Z",
+      "teamIds": []
+    },
     {
       "id": "74d3dda726d9183f",
       "source": "pft",
@@ -1602,81 +1675,6 @@
       "title": "On Our Way Home is free on Thursday and Friday",
       "summary": "The holiday season is here.",
       "publishedAt": "2026-11-26T04:09:04Z",
-      "teamIds": []
-    },
-    {
-      "id": "530f791cc05a9931",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-games-2026-schedule-black-friday-rams-packers",
-      "title": "2026 NFL Thanksgiving schedule: What to know about Thanksgiving and Black Friday games",
-      "summary": "A look at the Thanksgiving week slate and all of its fixings you need in time for Turkey Day",
-      "publishedAt": "2026-11-26T04:00:42Z",
-      "teamIds": []
-    },
-    {
-      "id": "2f70661ba0aa92b7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-move-ahead-20-13-on-blake-corum-td",
-      "title": "Rams move ahead 20-13 on Blake Corum TD",
-      "summary": "The Rams took more than eight minutes off the clock before taking the lead.",
-      "publishedAt": "2026-11-26T03:22:56Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "c066235b773d10a7",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50600753/rams-kam-kinchens-ejected-hit-christian-watson",
-      "title": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
-      "summary": "Rams safety Kam Kinchens was ejected for a hit along the sideline that left Packers wide receiver Christian Watson with a concussion.",
-      "publishedAt": "2026-11-26T03:21:06Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "dc17a9fa6be0130a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-watson-ruled-out-with-a-concussion",
-      "title": "Christian Watson ruled out with a concussion",
-      "summary": "Rams safety Kamren Kinchens was disqualified for the hit that injured Watson.",
-      "publishedAt": "2026-11-26T03:09:45Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "3e4af1af3c788f56",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-ranking-most-memorable-halftime-shows",
-      "title": "NFL on Thanksgiving halftime shows: Ranking the 10 most memorable performances",
-      "summary": "A look at some of the most iconic performances from Turkey Days of the past",
-      "publishedAt": "2026-11-26T03:04:30Z",
-      "teamIds": []
-    },
-    {
-      "id": "b20534a6cd9ec54f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
-      "title": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
-      "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
-      "publishedAt": "2026-11-26T03:02:15Z",
-      "teamIds": [
-        "5",
-        "7",
-        "13",
-        "23"
-      ]
-    },
-    {
-      "id": "e8bd64fc22f97bfc",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/heres-a-roadmap-to-the-aaron-rodgers-developments-one-of-the-craziest-stories-in-years",
-      "title": "Here's a roadmap to the Aaron Rodgers developments, one of the craziest stories in years",
-      "summary": "If you were traveling on Wednesday or otherwise not plugged in for one of the most rollicking, unpredictable days in years if not ever, you're in luck.",
-      "publishedAt": "2026-11-26T02:59:54Z",
       "teamIds": []
     }
   ]
