@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T23:34:28Z",
+  "updatedAt": "2026-11-27T23:47:24Z",
   "items": [
+    {
+      "id": "89f9d77a700a457e",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50615753/dj-uiagalelei-trying-not-overthink-first-nfl-start",
+      "title": "DJ Uiagalelei trying to not overthink first NFL start",
+      "summary": null,
+      "publishedAt": "2026-11-27T23:34:51Z",
+      "teamIds": [
+        "24"
+      ]
+    },
     {
       "id": "daa304cca5686786",
       "source": "espn",
@@ -472,6 +483,18 @@
       "teamIds": [
         "1",
         "16"
+      ]
+    },
+    {
+      "id": "e3903d01e80842ed",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
+      "title": "NFL Week 12 arrivals: Cameron Heyward leads arrivals ahead of Steelers-Broncos",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-27T18:59:58Z",
+      "teamIds": [
+        "7",
+        "23"
       ]
     },
     {
@@ -1647,30 +1670,6 @@
       "title": "Eagles stun Cowboys with largest-ever Thanksgiving game comeback",
       "summary": null,
       "publishedAt": "2026-11-27T01:58:17Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "6f1b6ddd71c7722b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50605786/cowboys-eagles-thanksgiving-dak-prescott-saquon-barkley",
-      "title": "Joe Milton has huge game as Eagles shock Cowboys",
-      "summary": "Dallas blew a 21-point lead as Philly made a spectacular comeback with Milton at the helm.",
-      "publishedAt": "2026-11-27T01:45:25Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "0403d919082198ce",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873080",
-      "title": "Schottenheimer defends 4th-down call before Eagles' 59-yard FG in 39-38 stunner over Cowboys",
-      "summary": "Brian Schottenheimer said he second-guesses plenty of his decisions, just not the one that will be dissected more than any other in his two seasons as coach of the Dallas Cowboys.",
-      "publishedAt": "2026-11-27T01:43:32Z",
       "teamIds": [
         "6",
         "21"
