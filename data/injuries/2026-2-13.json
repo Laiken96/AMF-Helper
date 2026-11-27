@@ -6,7 +6,7 @@
   "baselineFrom": "2026-12-03T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-26T23:47:18Z",
+    "takenAt": "2026-11-27T00:47:26Z",
     "games": [
       {
         "gameId": "401873096",
@@ -43,6 +43,17 @@
             "teamAbbr": "KC",
             "roles": [
               "rushing"
+            ],
+            "status": "Out"
+          },
+          {
+            "athleteId": "4567747",
+            "name": "Garrett Nussmeier",
+            "pos": "QB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "qb"
             ],
             "status": "Out"
           },

@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "fetchedAt": "2026-11-26T23:47:16Z",
+  "fetchedAt": "2026-11-27T00:47:24Z",
   "source": "espn",
   "games": [
     {
@@ -59,9 +59,9 @@
       "homeId": "6",
       "awayId": "21",
       "status": "in_progress",
-      "statusDetail": "Halftime",
-      "homeScore": 28,
-      "awayScore": 10,
+      "statusDetail": "9:09 - 4th",
+      "homeScore": 38,
+      "awayScore": 30,
       "venue": "AT&T Stadium",
       "neutralSite": false,
       "venueInfo": {
