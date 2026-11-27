@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T19:01:10Z",
+    "takenAt": "2026-11-27T20:10:45Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1479,42 +1479,8 @@
             "status": "Out"
           },
           {
-            "athleteId": "4241985",
-            "name": "J.K. Dobbins",
-            "pos": "RB",
-            "teamId": "7",
-            "teamAbbr": "DEN",
-            "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4372016",
-            "name": "Jaylen Waddle",
-            "pos": "WR",
-            "teamId": "7",
-            "teamAbbr": "DEN",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4426338",
-            "name": "Bo Nix",
-            "pos": "QB",
-            "teamId": "7",
-            "teamAbbr": "DEN",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "8439",
-            "name": "Aaron Rodgers",
+            "athleteId": "3116407",
+            "name": "Mason Rudolph",
             "pos": "QB",
             "teamId": "23",
             "teamAbbr": "PIT",
