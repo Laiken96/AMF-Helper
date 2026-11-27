@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T16:47:27Z",
+  "updatedAt": "2026-11-27T17:47:26Z",
   "items": [
+    {
+      "id": "9db0db13e26b9c90",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50612564/sources-bears-expected-place-te-colston-loveland-knee-ir",
+      "title": "Sources: Bears TE Colston Loveland (knee) week-to-week, awaiting more tests",
+      "summary": "The Bears are holding off on placing Colston Loveland on injured reserve while the injured tight end gets a second opinion on his left knee, sources told ESPN",
+      "publishedAt": "2026-11-27T17:44:01Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "12e16ac047207219",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-on-calling-late-timeouts-i-was-hoping-for-a-chance-for-rebuttal",
+      "title": "Dan Campbell on calling late timeouts: I was hoping for a \"chance for rebuttal\"",
+      "summary": "With 2:34 to play on Thursday, the Lions had the ball on the Chicago 39.",
+      "publishedAt": "2026-11-27T17:26:35Z",
+      "teamIds": [
+        "8"
+      ]
+    },
+    {
+      "id": "535f49ad9c9e86a8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colston-loveland-is-expected-to-land-on-ir-with-knee-injury",
+      "title": "Report: Colston Loveland is expected to land on IR with knee injury",
+      "summary": "Bears tight end Colston Loveland has a knee injury that will keep him out for a while, but he could still return later this season.",
+      "publishedAt": "2026-11-27T17:22:53Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "042c90b47a7edd99",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/dallas-cowboys-coach-candidates-if-jerry-jones-fires-brian-schottenheimer",
+      "title": "A premature, unauthorized, tiered ranking of every possible Dallas Cowboys coach -- should Jerry Jones need it",
+      "summary": "With Brian Schottenheimer on the hot seat after a disastrous 5-7 start, here is a look at who Jerry Jones could target, from big names like Bill Belichick to proven winners like Mike Tomlin",
+      "publishedAt": "2026-11-27T17:08:36Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "dfaec6eb4a43fb7f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jaguars-wr-parker-washington-out-week-12-considered-week-to-week-shoulder-injury-playoffs",
+      "title": "Jaguars lose WR Parker Washington to shoulder injury as playoffs draw near",
+      "summary": "Jacksonville's top target is evaluated week-to-week with a shoulder issue, while leading rusher Bhayshul Tuten is also banged-up",
+      "publishedAt": "2026-11-27T17:04:49Z",
+      "teamIds": [
+        "30"
+      ]
+    },
+    {
+      "id": "8dc366ea6baa3d4b",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/davis-allen-has-a-high-ankle-sprain-tyler-higbee-has-a-chest-contusion",
+      "title": "Davis Allen has a high-ankle sprain, Tyler Higbee has a chest contusion",
+      "summary": "The Rams had a pair of tight ends leave Wednesday night's win over the Packers with injuries and it looks like they'll be missing at least one of them when they get back on the field in Week 13.",
+      "publishedAt": "2026-11-27T17:02:37Z",
+      "teamIds": [
+        "9",
+        "14"
+      ]
+    },
+    {
+      "id": "2a1edff942b2c379",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-on-harrison-butker-i-try-to-have-confidence-in-everybody-i-know-hes-working-at-it",
+      "title": "Patrick Mahomes on Harrison Butker: I try to have confidence in everybody, I know he's working at it",
+      "summary": "Harrison Butker missed yet another field goal on Thursday night, which was a key factor in the Chiefs eventually losing to the Bills, 13-10.",
+      "publishedAt": "2026-11-27T16:45:59Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
     {
       "id": "de4bd571e088c00f",
       "source": "espn",
@@ -14,6 +93,15 @@
       ]
     },
     {
+      "id": "cffae99700ff6b16",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/on-our-way-home-is-free-on-thursday-and-friday",
+      "title": "On Our Way Home is free on Thursday and Friday",
+      "summary": "The holiday season is here.",
+      "publishedAt": "2026-11-27T16:35:00Z",
+      "teamIds": []
+    },
+    {
       "id": "92ac099bc91262e3",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/fridays-game-gives-steelers-fans-a-chance-to-chime-in-on-recent-events",
@@ -23,6 +111,15 @@
       "teamIds": [
         "23"
       ]
+    },
+    {
+      "id": "27714c3f06f21d9f",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-promos-get-nearly-4000-in-bonuses-from-betting-apps-sportsbooks-for-nfl-black-friday",
+      "title": "Week 12 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for NFL Black Friday",
+      "summary": "Top Week 12 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-27T16:22:15Z",
+      "teamIds": []
     },
     {
       "id": "afd7318a36ae3e2e",
@@ -299,6 +396,60 @@
         "26",
         "25"
       ]
+    },
+    {
+      "id": "ae083a9ead741260",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573725/nfl-fantasy-football-rankings-2026-qb-quarterback",
+      "title": "Fantasy football rankings for Week 12: Quarterback",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-27T13:56:43Z",
+      "teamIds": []
+    },
+    {
+      "id": "ecb5841ea2bcb486",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573508/nfl-fantasy-football-rankings-2026-wr-wide-receiver",
+      "title": "Fantasy football rankings for Week 12: Wide receiver",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-27T13:56:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "9550e8d4ff5a796f",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573414/nfl-fantasy-football-rankings-2026-te-tight-end",
+      "title": "Fantasy football rankings for Week 12: Tight end",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-27T13:55:03Z",
+      "teamIds": []
+    },
+    {
+      "id": "3a48bb6d965163ed",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573297/nfl-fantasy-football-rankings-2026-dst-defense",
+      "title": "Fantasy football rankings for Week 12: D/ST",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-27T13:54:21Z",
+      "teamIds": []
+    },
+    {
+      "id": "6e2de5f4a0abb10a",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573224/nfl-fantasy-football-rankings-2026-k-kicker",
+      "title": "Fantasy football rankings for Week 12: Kicker",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-27T13:52:33Z",
+      "teamIds": []
+    },
+    {
+      "id": "90c0e95269f4c292",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573181/nfl-fantasy-football-rankings-2026-idp",
+      "title": "Fantasy football rankings for Week 12: IDP",
+      "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
+      "publishedAt": "2026-11-27T13:51:18Z",
+      "teamIds": []
     },
     {
       "id": "977cb25518c1bec6",
@@ -702,6 +853,20 @@
         "7",
         "13",
         "23"
+      ]
+    },
+    {
+      "id": "8fb03d6768caa22c",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-picks-our-experts-face-off-on-bears-at-lions-chiefs-at-bills-and-more",
+      "title": "NFL Week 12 picks: Our experts face off on Broncos at Steelers, Seahawks at 49ers and more",
+      "summary": "CBS Sports writers Jordan Dajani and Jared Dubin predict this weekend's top games",
+      "publishedAt": "2026-11-27T03:39:29Z",
+      "teamIds": [
+        "7",
+        "23",
+        "26",
+        "25"
       ]
     },
     {
@@ -1513,179 +1678,6 @@
         "33",
         "17"
       ]
-    },
-    {
-      "id": "8bf25a8d0a7011f8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/thanksgiving-games-black-friday-nfl-expert-picks-lions-bears-steelers",
-      "title": "Thanksgiving and Black Friday NFL expert picks: Can Eagles pull upset? Do Steelers save their season?",
-      "summary": "CBSSports.com and SportsLine break down the Thanksgiving Eve, Thanksgiving triple-header, and the Black Friday games",
-      "publishedAt": "2026-11-26T15:45:42Z",
-      "teamIds": [
-        "21",
-        "23"
-      ]
-    },
-    {
-      "id": "e7e1c29d4da9d7d6",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604497/got-go-stephen-implores-steelers-move-mike-mccarthy",
-      "title": "'He's got to go!' Stephen A. implores Steelers to move on from Mike McCarthy",
-      "summary": null,
-      "publishedAt": "2026-11-26T15:37:03Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "ca0c41e9376e3795",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-on-brandon-aiyuk-signing-with-commanders-they-got-a-good-player",
-      "title": "Kyle Shanahan on Brandon Aiyuk signing with Commanders: \"They got a good player\"",
-      "summary": "The Aaron Rodgers rigmarole has pushed plenty of other stories out of the spotlight.",
-      "publishedAt": "2026-11-26T15:30:02Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "b7ed230e51d3220b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604476/stephen-passionately-defends-aaron-rodgers-mike-mccarthy-comments",
-      "title": "Stephen A. passionately defends Aaron Rodgers over Mike McCarthy comments",
-      "summary": null,
-      "publishedAt": "2026-11-26T15:24:59Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "8018bc7a389e561f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604359/schrager-wonders-aaron-rodgers-ever-regret-mike-mccarthy-comments",
-      "title": "Schrager wonders if Aaron Rodgers will ever regret his Mike McCarthy comments",
-      "summary": null,
-      "publishedAt": "2026-11-26T15:00:39Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "aa517f4bf4636d8f",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604325/why-donte-whitner-sides-aaron-rodgers-egregious-mike-mccarthy",
-      "title": "Why Donte Whitner sides with Aaron Rodgers over 'egregious' Mike McCarthy",
-      "summary": null,
-      "publishedAt": "2026-11-26T14:53:16Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "d770378c4cfd8d83",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/lions-vs-bears-thanksgiving-prediction-odds-how-to-watch",
-      "title": "Lions vs. Bears Thanksgiving prediction: Which team will take control of NFC North?",
-      "summary": "Sole possession of first place in the NFC North is on the line at Ford Field as two 8-2 rivals clash on Thanksgiving with long winning streaks",
-      "publishedAt": "2026-11-26T14:46:23Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "ec96c2a782c9d1d1",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-lines-spreads-picks-predictions-best-bets-week-12-2026",
-      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
-      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
-      "publishedAt": "2026-11-26T14:45:29Z",
-      "teamIds": [
-        "15",
-        "16"
-      ]
-    },
-    {
-      "id": "1913ba646c006bae",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604206/can-caleb-williams-steer-bears-lions-nfc-north-matchup",
-      "title": "Can Caleb Williams steer Bears past Lions in NFC North matchup?",
-      "summary": null,
-      "publishedAt": "2026-11-26T14:29:30Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "358e125f05a0bfce",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
-      "title": "NFL Week 12 betting odds: Lines and totals for every game",
-      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
-      "publishedAt": "2026-11-26T14:29:00Z",
-      "teamIds": []
-    },
-    {
-      "id": "59fcd93175d424df",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-clock-is-ticking-on-mike-mccarthys-time-with-the-steelers",
-      "title": "The clock is ticking on Mike McCarthy's time with the Steelers",
-      "summary": "McCarthy's future likely hinges on his ability to win games down the stretch.",
-      "publishedAt": "2026-11-26T14:26:49Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "8ac0943921cba334",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kamren-kinchens-no-ill-intent-on-hit-that-concussed-christian-watson",
-      "title": "Kamren Kinchens: No ill intent on hit that concussed Christian Watson",
-      "summary": "The Rams defense pitched a shutout in the second half on Wednesday night and they did it without safety Kamren Kinchens in the lineup.",
-      "publishedAt": "2026-11-26T14:26:08Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "2ae2720c481c9e03",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50573832/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
-      "title": "Fantasy football flex and superflex rankings for Week 12",
-      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
-      "publishedAt": "2026-11-26T14:17:20Z",
-      "teamIds": []
-    },
-    {
-      "id": "5501c27987e959c9",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chiefs-vs-bills-odds-picks-prediction-start-time-2026-nfl-thanksgiving-betting-preview-best-bets",
-      "title": "Chiefs vs. Bills odds, picks, prediction, start time: 2026 NFL Thanksgiving betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Bills vs. Chiefs on Thanksgiving in NFL Week 12",
-      "publishedAt": "2026-11-26T14:14:28Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "2ab0e89861ddf0d2",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
-      "title": "Fantasy football rankings Week 12: PPR and superflex",
-      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
-      "publishedAt": "2026-11-26T14:09:26Z",
-      "teamIds": []
-    },
-    {
-      "id": "a7c686ac4cf2f0a6",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573676/nfl-fantasy-football-rankings-2026-rb-running-back",
-      "title": "Fantasy football rankings for Week 12: Running back",
-      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "publishedAt": "2026-11-26T14:06:36Z",
-      "teamIds": []
     }
   ]
 }
