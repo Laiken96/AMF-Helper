@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T04:47:24Z",
+  "updatedAt": "2026-11-27T05:07:56Z",
   "items": [
+    {
+      "id": "894222b9bbc6c1ad",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50582828/2026-nfl-buffalo-bills-kansas-city-chiefs-thanksgiving",
+      "title": "Bills edge Chiefs with last-second FG in low-scoring battle",
+      "summary": "The Bills won their seventh straight, snapping the Chiefs' win streak at three in a sloppy, low-scoring thriller.",
+      "publishedAt": "2026-11-27T04:58:55Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "4cc4639ec9dd1e91",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50609218/game-highlight",
+      "title": "Kansas City Chiefs vs. Buffalo Bills: Game Highlight",
+      "summary": null,
+      "publishedAt": "2026-11-27T04:56:29Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "b048ec92303ef6a9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-bass-hits-walk-off-57-yard-field-goal-bills-beat-chiefs-13-10",
+      "title": "Tyler Bass hits walk-off 57-yard field goal, Bills beat Chiefs 13-10",
+      "summary": "Buffalo overcame some nasty weather to once again defeat Kansas City in the regular season.",
+      "publishedAt": "2026-11-27T04:51:59Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
     {
       "id": "dd175b4625dfe8d0",
       "source": "espn",
@@ -62,7 +98,7 @@
       "id": "8f600358b67171ef",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations",
-      "title": "Jerry Jones calls Mike McCarthy 'outstanding,' refutes Aaron Rodgers' accusations",
+      "title": "Jerry Jones refutes Aaron Rodgers' accusations, calls Mike McCarthy 'outstanding'",
       "summary": "Rodgers accused McCarthy of being late to meetings, sleeping in meetings and being behind on film prep",
       "publishedAt": "2026-11-27T04:05:03Z",
       "teamIds": []
@@ -270,6 +306,18 @@
       "publishedAt": "2026-11-27T00:36:09Z",
       "teamIds": [
         "21"
+      ]
+    },
+    {
+      "id": "e3903d01e80842ed",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
+      "title": "NFL Week 12 arrivals: Chris Jones leads arrivals ahead of Chiefs-Bills",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "publishedAt": "2026-11-27T00:25:19Z",
+      "teamIds": [
+        "2",
+        "12"
       ]
     },
     {
@@ -1630,52 +1678,6 @@
       "teamIds": [
         "4",
         "18"
-      ]
-    },
-    {
-      "id": "c82eac36da0afa0b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-g-m-omar-khan-called-aaron-rodgers-directly-to-inform-him-of-the-benching",
-      "title": "Report: G.M. Omar Khan called Aaron Rodgers directly to inform him of the benching",
-      "summary": "As expected, the Steelers view the events that resulted in the benching and eventual release of quarterback Aaron Rodgers differently than Rodgers does.",
-      "publishedAt": "2026-11-26T00:26:14Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "83fb689de0c38a1b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873091",
-      "title": "Purdy and the 49ers prepare for another tough test against Seahawks' stout defense",
-      "summary": "The San Francisco 49ers passed the first of back-to-back tests against two of the NFL's top defenses with flying colors as Brock Prudy",
-      "publishedAt": "2026-11-26T00:25:33Z",
-      "teamIds": [
-        "26",
-        "25"
-      ]
-    },
-    {
-      "id": "edea4a665a6d417e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873090",
-      "title": "Jaguars are simplifying the operation in hopes of bouncing back against the woeful Titans",
-      "summary": "Coming off their worst offensive performance in two months, the Jacksonville Jaguars are simplifying the operation.",
-      "publishedAt": "2026-11-26T00:17:34Z",
-      "teamIds": [
-        "30",
-        "10"
-      ]
-    },
-    {
-      "id": "e569a9e89ddf8adf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-inactive-for-wednesday-nights-game-micah-parsons-officially-active",
-      "title": "Josh Jacobs inactive for Wednesday night's game, Micah Parsons officially active",
-      "summary": "Packers running back Josh Jacobs returned to practice this week, but a return to game action will have to wait a little longer.",
-      "publishedAt": "2026-11-26T00:13:12Z",
-      "teamIds": [
-        "9"
       ]
     }
   ]
