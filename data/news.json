@@ -1,7 +1,98 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T18:47:24Z",
+  "updatedAt": "2026-11-27T19:47:22Z",
   "items": [
+    {
+      "id": "8c5a373e6a340b5f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brandon-aiyuk-will-not-play-sunday-vs-cardinals",
+      "title": "Brandon Aiyuk will not play Sunday vs. Cardinals",
+      "summary": "While receiver Brandon Aiyuk joined the Commanders earlier this week, but his debut with the team will have to wait.",
+      "publishedAt": "2026-11-27T19:42:54Z",
+      "teamIds": [
+        "22",
+        "28"
+      ]
+    },
+    {
+      "id": "677481320924d958",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-cb-amik-robertson-to-miss-second-straight-game",
+      "title": "Commanders CB Amik Robertson to miss second straight game",
+      "summary": "The Commanders got a win over the Bengals without cornerback Amik Robertson and they'll try to do it again when they face the Cardinals on Sunday.",
+      "publishedAt": "2026-11-27T19:16:51Z",
+      "teamIds": [
+        "22",
+        "4",
+        "28"
+      ]
+    },
+    {
+      "id": "62dd42dbbed65173",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-call-colston-loveland-week-to-week-with-a-knee-injury",
+      "title": "Bears call Colston Loveland week-to-week with a knee injury",
+      "summary": "Bears tight end Colston Loveland went for tests on his injured knee after leaving Thursday's game in the first quarter and the team updated his condition on Friday.",
+      "publishedAt": "2026-11-27T19:11:10Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "c1fd8b239cad6fb4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-got-no-support-from-the-thanksgiving-broadcasts",
+      "title": "Aaron Rodgers got no support from the Thanksgiving broadcasts",
+      "summary": "The day after former Steelers quarterback Aaron Rodgers went on TV and aired dirty laundry from the Pittsburgh locker room, none of the former quarterbacks (or other former players) who appear on TV supported him.",
+      "publishedAt": "2026-11-27T19:07:40Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "546d5d10fa735778",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/cowboys-brian-schottenheimer-job-security-after-disaster-loss-i-dont-worry-about-that",
+      "title": "Cowboys coach Brian Schottenheimer on job security after latest disastrous loss: 'I don't worry about that'",
+      "summary": "Schottenheimer is once again under fire in the wake of another brutal defeat",
+      "publishedAt": "2026-11-27T19:06:53Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "5ffc0bfb8c8d251e",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-rule-out-wr-jahan-dotson-lg-matthew-bergeron",
+      "title": "Falcons rule out WR Jahan Dotson, LG Matthew Bergeron",
+      "summary": "The Falcons have ruled out a couple of offensive starters for Sunday's game against the Vikings.",
+      "publishedAt": "2026-11-27T19:04:19Z",
+      "teamIds": [
+        "1",
+        "16"
+      ]
+    },
+    {
+      "id": "6366629946372050",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-sundays-week-12-games",
+      "title": "NFL odds, picks: Brinson's best bets, player props, anytime TD scorers for Sunday's Week 12 games",
+      "summary": "Target a Kirk Cousins revenge spot against Atlanta, catch points with Indianapolis and Miami, and bet on a Quinshon Judkins breakout",
+      "publishedAt": "2026-11-27T18:56:07Z",
+      "teamIds": []
+    },
+    {
+      "id": "40d743149d481718",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/lb-cole-holcomb-inactive-for-the-steelers-on-friday",
+      "title": "LB Cole Holcomb inactive for the Steelers on Friday",
+      "summary": "The most notable absence on the Steelers side of the field on Friday afternoon will be Aaron Rodgers, but the team also has players still on their roster who will not be playing against the Broncos.",
+      "publishedAt": "2026-11-27T18:50:02Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
     {
       "id": "1577cc4795f1ed62",
       "source": "pft",
@@ -865,7 +956,7 @@
       "id": "81a5c6c223d28300",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
-      "title": "NFL Week 12: Highlights of Thanksgiving games",
+      "title": "NFL Week 12: Highlights of Thanksgiving weekend games",
       "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
       "publishedAt": "2026-11-27T05:25:04Z",
       "teamIds": []
@@ -1219,12 +1310,12 @@
       "id": "e3903d01e80842ed",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
-      "title": "NFL Week 12 arrivals: Chris Jones leads arrivals ahead of Chiefs-Bills",
+      "title": "NFL Week 12 arrivals: Cameron Heyward leads arrivals ahead of Steelers-Broncos",
       "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
       "publishedAt": "2026-11-27T00:25:19Z",
       "teamIds": [
-        "2",
-        "12"
+        "7",
+        "23"
       ]
     },
     {
@@ -1584,96 +1675,6 @@
       "publishedAt": "2026-11-26T19:24:54Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "c250d66e0ba75ba9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-tie-lions-10-10-on-kyle-monangai-td",
-      "title": "Bears tie Lions 10-10 on Kyle Monangai TD",
-      "summary": "The Bears spotted the Lions a 10-point lead in the second quarter, but they've wiped it out with four minutes to go in the first half.",
-      "publishedAt": "2026-11-26T19:10:42Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "7b918eb887f1dd33",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-sign-jake-browning-to-active-roster",
-      "title": "Chargers sign Jake Browning to active roster",
-      "summary": "The Chargers' starting quarterback is in the concussion protocol, so they moved to add another healthy one to the active roster on Thursday.",
-      "publishedAt": "2026-11-26T18:58:18Z",
-      "teamIds": [
-        "24"
-      ]
-    },
-    {
-      "id": "9bf633adf7c889e9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-puts-lions-up-10-0-colston-loveland-out-with-knee-injury",
-      "title": "Jahmyr Gibbs puts Lions up 10-0, Colston Loveland out with knee injury",
-      "summary": "Loveland left the game on a cart in the first quarter.",
-      "publishedAt": "2026-11-26T18:47:43Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "66436f07bdc7d114",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50605070/steelers-owner-disappointed-rodgers-backs-mccarthy",
-      "title": "Steelers owner Art Rooney II 'disappointed' in Rodgers outcome, backs McCarthy",
-      "summary": "Steelers owner Art Rooney II reacted to Wednesday's fiery interview from Aaron Rodgers by saying he was \"disappointed in where this went\" with their now-former quarterback, adding he has \"100% confidence in Mike McCarthy.\"",
-      "publishedAt": "2026-11-26T18:40:21Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "2033c02b08e4adb7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/colston-loveland-goes-to-locker-room-in-the-first-quarter",
-      "title": "Colston Loveland goes to locker room in the first quarter",
-      "summary": "A key member of the Bears offense has gone to the locker room with an injury in the first quarter.",
-      "publishedAt": "2026-11-26T18:36:00Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "2cad8855a3cd8a2f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/steelers-president-mike-mccarthy-after-aaron-rodgers-insubordination",
-      "title": "Steelers president backs Mike McCarthy after Aaron Rodgers release: 'Insubordination can't be tolerated'",
-      "summary": "Rooney said the Steelers could not tolerate Rodgers' ultimatum or his decision to criticize McCarthy publicly days before a key game",
-      "publishedAt": "2026-11-26T18:04:14Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "19e6bd8313d25347",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/art-rooney-ii-expresses-support-for-mike-mccarthy-calls-aaron-rodgers-not-a-good-teammate",
-      "title": "Art Rooney II expresses support for Mike McCarthy, calls Aaron Rodgers not a \"good teammate\"",
-      "summary": "Steelers owner speaks about Wednesday's insanity.",
-      "publishedAt": "2026-11-26T17:53:22Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "2a9311541f2a4ed2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50577887/nfl-week-12-uniforms",
-      "title": "NFL Week 12 uniforms: Rams debut alternates, Cowboys rock Thanksgiving throwbacks",
-      "summary": "Here's a look at what each NFL team is wearing in Week 12, led by an alternate uniform for the Los Angeles Rams.",
-      "publishedAt": "2026-11-26T17:49:54Z",
-      "teamIds": [
-        "6",
-        "14"
       ]
     }
   ]
