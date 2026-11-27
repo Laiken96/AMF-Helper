@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-27T04:47:23Z",
+  "updatedAt": "2026-11-27T14:47:22Z",
   "complete": false,
   "games": [
     {
@@ -191,7 +191,7 @@
     }
   ],
   "opinionCompare": {
-    "opinions": 4,
+    "opinions": 5,
     "scored": 4,
     "marketHits": 3,
     "aiHits": 2,

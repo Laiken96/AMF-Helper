@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T13:47:23Z",
+  "updatedAt": "2026-11-27T14:47:23Z",
   "items": [
+    {
+      "id": "6dd91d45baf031e7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lose-fourth-game-while-scoring-30-points",
+      "title": "Cowboys lose fourth game while scoring 30 points",
+      "summary": "The Greatest Offense There Is needs to be a little greater.",
+      "publishedAt": "2026-11-27T14:29:12Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "19cc532ca302a7af",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-betting-lines-spreads-picks-predictions-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-27T14:22:20Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "3c86538f4a433f45",
+      "source": "espn",
+      "url": "https://espn.com/nfl/draft2027/story/_/id/50182998/2027-nfl-draft-rankings-kiper-big-board-top-prospects",
+      "title": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position",
+      "summary": "Three quarterbacks who could go early? Big changes in the rankings? Mel Kiper Jr. stacks the best players on the 2027 draft board as of late November.",
+      "publishedAt": "2026-11-27T14:20:28Z",
+      "teamIds": []
+    },
+    {
+      "id": "f7d26cfc59be9e18",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-expert-picks-hub-odds-best-bets-49ers-seahawks",
+      "title": "NFL Week 12 expert picks hub: Who wins 49ers-Seahawks showdown? Will Vikings rebound?",
+      "summary": "CBSSports.com and SportsLine break down every single NFL game in Week 12",
+      "publishedAt": "2026-11-27T14:13:32Z",
+      "teamIds": [
+        "16",
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "25b0c0ad3db01f05",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-picks-odds-best-bets-broncos-steelers-49ers-seahawks",
+      "title": "NFL Week 12 picks, odds, best bets: Broncos pile on Steelers' troubles, 49ers cover vs. Seahawks",
+      "summary": "Jordan Dajani gives his picks for Week 12 of the 2026 NFL season",
+      "publishedAt": "2026-11-27T13:59:09Z",
+      "teamIds": [
+        "7",
+        "23",
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "977cb25518c1bec6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/tom-brady-torches-aaron-rodgers-after-steelers-release-mike-mccarthy",
+      "title": "Tom Brady torches Aaron Rodgers for 'private things becoming public' after Steelers' release",
+      "summary": "The seven-time Super Bowl champion expressed disapproval of how Rodgers handled his beef with Mike McCarthy",
+      "publishedAt": "2026-11-27T13:42:53Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "66928e333951d2af",
       "source": "cbs",
@@ -132,7 +202,7 @@
       "id": "4f79b06b88a2132d",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50595313/pat-surtain-ii-jaylen-waddle-broncos-alabama-best-friends",
-      "title": "Best friends Pat Surtain II, Jaylen Waddle ecstatic about reuniting with Broncos",
+      "title": "Best friends Pat Surtain II, Jaylen Waddle ecstatic about reuniting on Broncos",
       "summary": "Surtain and Waddle bonded immediately at Alabama six years ago and have embraced the chance to play together again in Denver on a team with Super Bowl hopes.",
       "publishedAt": "2026-11-27T11:00:22Z",
       "teamIds": [
@@ -348,6 +418,20 @@
       "publishedAt": "2026-11-27T03:43:37Z",
       "teamIds": [
         "3"
+      ]
+    },
+    {
+      "id": "b20534a6cd9ec54f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
+      "title": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
+      "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
+      "publishedAt": "2026-11-27T03:42:14Z",
+      "teamIds": [
+        "5",
+        "7",
+        "13",
+        "23"
       ]
     },
     {
@@ -1597,85 +1681,6 @@
         "9",
         "14"
       ]
-    },
-    {
-      "id": "075a99861d84abc8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-lang-blasts-despicable-aaron-rodgers-comments-about-mike-mccarthy",
-      "title": "T.J. Lang blasts \"despicable\" Aaron Rodgers comments about Mike McCarthy",
-      "summary": "T.J.",
-      "publishedAt": "2026-11-26T05:24:31Z",
-      "teamIds": []
-    },
-    {
-      "id": "224eb176d36e08c5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
-      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "After an all-time great Thanksgiving for football, the Bears are in first place in the NFC North, the Cowboys have fallen far out of contention in the NFC East, and the Bills are in the lead for the No. 1 seed in the AFC.",
-      "publishedAt": "2026-11-26T05:01:00Z",
-      "teamIds": [
-        "2",
-        "3",
-        "6"
-      ]
-    },
-    {
-      "id": "8a35a70fbc8121e9",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50601743/rams-pick-important-home-win-packers",
-      "title": "Rams pick up important home win over the Packers",
-      "summary": null,
-      "publishedAt": "2026-11-26T04:46:32Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "1ffe4089a4e795d2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873079",
-      "title": "Blake Corum leads Rams' dominant rushing attack in their 5th straight win, 26-13 over Packers",
-      "summary": "At some point, Blake Corum realized he should be getting weary while he ran the ball more times than anybody ever had during Sean McVay's 10 seasons in charge of the Los Angeles Rams.",
-      "publishedAt": "2026-11-26T04:41:33Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "fe9ea6350ffbe7d8",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50599736/2026-nfl-week-12-los-angeles-rams-green-bay-packers",
-      "title": "Rams take Packers' dinner in first Thanksgiving Eve game",
-      "summary": "The night was full of interceptions and injuries with the Rams taking the W.",
-      "publishedAt": "2026-11-26T04:34:44Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "505e651f4276ff69",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-shut-down-packers-in-second-half-for-a-26-13-win",
-      "title": "Rams shut down Packers in second half for a 26-13 win in NFL's first Thanksgiving Eve game",
-      "summary": "The Rams running game powered them to their fifth straight win.",
-      "publishedAt": "2026-11-26T04:30:48Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "cffae99700ff6b16",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/on-our-way-home-is-free-on-thursday-and-friday",
-      "title": "On Our Way Home is free on Thursday and Friday",
-      "summary": "The holiday season is here.",
-      "publishedAt": "2026-11-26T04:09:04Z",
-      "teamIds": []
     }
   ]
 }
