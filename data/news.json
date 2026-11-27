@@ -1,7 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T01:47:25Z",
+  "updatedAt": "2026-11-27T02:47:27Z",
   "items": [
+    {
+      "id": "0f7684ace3216afd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50607960/eagles-cowboys-thanksgiving-social-reaction",
+      "title": "Eagles' comeback against Cowboys stuns Jason Kelce, Caitlin Clark and more",
+      "summary": "The Philadelphia Eagles pulled off the largest Thanksgiving Day comeback in NFL history.",
+      "publishedAt": "2026-11-27T02:36:42Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "badba73bbf7dba3c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-misses-practice-again-on-thursday",
+      "title": "Brock Purdy misses practice again on Thursday",
+      "summary": "The 49ers remained without the leader of their offense at Thursday's practice.",
+      "publishedAt": "2026-11-27T02:22:42Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "37f4f1c7fb2b423d",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50608117/stephen-stop-laughing-cowboys-thanksgiving-collapse",
+      "title": "Stephen A. can't stop laughing at Cowboys after Thanksgiving collapse",
+      "summary": null,
+      "publishedAt": "2026-11-27T02:21:34Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "83533566fe8db76a",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-cook-touchdown-gives-bills-7-0-lead-over-chiefs",
+      "title": "James Cook touchdown gives Bills 7-0 lead over Chiefs",
+      "summary": "There is some nasty weather in Western New York on Thanksgiving night.",
+      "publishedAt": "2026-11-27T02:12:32Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "0ee1c4eebf3a0adf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-confronts-cowboys-fans-after-comeback-win",
+      "title": "Nick Sirianni confronts Cowboys fans after comeback win",
+      "summary": "Good or bad, right or wrong, Eagles coach Nick Sirianni has had from time to time the demeanor of a fan who won a contest to be the head coach for a day.",
+      "publishedAt": "2026-11-27T02:08:51Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "4bb025604eeaef62",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50607884/eagles-stun-cowboys-largest-ever-thanksgiving-game-comeback",
+      "title": "Eagles stun Cowboys with largest-ever Thanksgiving game comeback",
+      "summary": null,
+      "publishedAt": "2026-11-27T01:58:17Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
     {
       "id": "6f1b6ddd71c7722b",
       "source": "espn",
@@ -165,13 +236,12 @@
       "id": "bd4050b5c2025255",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-12-grades-thanksgiving-bears-earn-b-packers-get-d",
-      "title": "NFL Week 12 grades for Thanksgiving: Bears earn 'B' for stunning win over Lions, Packers leave L.A. with 'D'",
+      "title": "NFL Week 12 grades for Thanksgiving: Cowboys choke their way to a 'D,' Bears earn 'B' for big win",
       "summary": "Caleb Williams delivers late magic to Rome Odunze in a wild shootout, while Detroit's defense collapses and Jordan Love struggles without Christian Watson",
       "publishedAt": "2026-11-26T22:33:20Z",
       "teamIds": [
         "3",
-        "8",
-        "9"
+        "6"
       ]
     },
     {
@@ -1617,80 +1687,6 @@
       "summary": "Brock Purdy missed Wednesday's practice with an ankle injury, while Sam Darnold appears on track to return for a pivotal NFC West matchup",
       "publishedAt": "2026-11-25T23:10:35Z",
       "teamIds": []
-    },
-    {
-      "id": "0f773bbf82748253",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873082",
-      "title": "Allen and Mahomes renew their thrilling rivalry as the Bills host the Chiefs on Thanksgiving night",
-      "summary": "Sorry, Steve Spagnuolo. Josh Allen has no plans of going anywhere, any time soon.",
-      "publishedAt": "2026-11-25T23:03:41Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "06ac94402c628386",
-      "source": "espn",
-      "url": "https://espn.com/espn/betting/story/_/id/50415106/nfl-week-12-odds-thanksgiving-betting-preview-props",
-      "title": "Best bets and top prop plays for Bears-Lions, Eagles-Cowboys and Chiefs-Bills",
-      "summary": "Odds, analysis and picks to help you bet Bears-Lions, Eagles-Cowboys and Chiefs-Bills on Thanksgiving.",
-      "publishedAt": "2026-11-25T23:00:24Z",
-      "teamIds": [
-        "2",
-        "3",
-        "6",
-        "8",
-        "12",
-        "21"
-      ]
-    },
-    {
-      "id": "1c341464fcc64700",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50598220/mike-mccarthy-defends-amid-accusations-aaron-rodgers",
-      "title": "Mike McCarthy defends himself amid accusations from Aaron Rodgers",
-      "summary": null,
-      "publishedAt": "2026-11-25T22:59:05Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "cc0b22cba78c0884",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873081",
-      "title": "Lions and Bears kick off NFL's Thanksgiving Day tripleheader, playing for first place in NFC North",
-      "summary": "NFL fans without ties to Detroit used to dread when the Lions kicked off the league's annual tradition of playing on Thanksgiving Day because they were a laughingstock for many years.",
-      "publishedAt": "2026-11-25T22:57:33Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "dbdd8954cdab76db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-listed-as-limited-in-vikings-practice",
-      "title": "Kyler Murray listed as limited in Vikings practice",
-      "summary": "Vikings quarterback Kyler Murray's practice status changed on Wednesday.",
-      "publishedAt": "2026-11-25T22:55:45Z",
-      "teamIds": [
-        "16"
-      ]
-    },
-    {
-      "id": "d8c0975680d33350",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873080",
-      "title": "Cowboys really need back-to-back wins this time with rival Eagles visiting on Thanksgiving",
-      "summary": "If the Dallas Cowboys don't solve a puzzling inability to win consecutive games when NFC East rival Philadelphia visits on Thanksgiving, they'll have to accept that they're probably going to miss the playoffs for the third year in a row.",
-      "publishedAt": "2026-11-25T22:47:45Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
     }
   ]
 }
