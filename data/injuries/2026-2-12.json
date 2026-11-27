@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T22:01:04Z",
+    "takenAt": "2026-11-27T22:30:52Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2007,7 +2007,7 @@
               "qb",
               "passing"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4685382",
@@ -2536,7 +2536,7 @@
       "teamAbbr": "LAC",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873091",
