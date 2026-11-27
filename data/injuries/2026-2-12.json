@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T00:20:36Z",
+    "takenAt": "2026-11-27T01:30:59Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1428,60 +1428,15 @@
             "status": null
           },
           {
-            "athleteId": "4373678",
-            "name": "Khalil Shakir",
-            "pos": "WR",
-            "teamId": "2",
-            "teamAbbr": "BUF",
-            "roles": [
-              "receiving"
-            ],
-            "status": null
-          },
-          {
             "athleteId": "4379399",
             "name": "James Cook III",
             "pos": "RB",
             "teamId": "2",
             "teamAbbr": "BUF",
             "roles": [
-              "rushing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "15847",
-            "name": "Travis Kelce",
-            "pos": "TE",
-            "teamId": "12",
-            "teamAbbr": "KC",
-            "roles": [
               "receiving"
             ],
             "status": null
-          },
-          {
-            "athleteId": "3139477",
-            "name": "Patrick Mahomes",
-            "pos": "QB",
-            "teamId": "12",
-            "teamAbbr": "KC",
-            "roles": [
-              "qb",
-              "passing"
-            ],
-            "status": null
-          },
-          {
-            "athleteId": "4567048",
-            "name": "Kenneth Walker III",
-            "pos": "RB",
-            "teamId": "12",
-            "teamAbbr": "KC",
-            "roles": [
-              "rushing"
-            ],
-            "status": "Out"
           },
           {
             "athleteId": "4567747",
@@ -2425,9 +2380,9 @@
       "name": "Kenneth Walker III",
       "pos": "RB",
       "teamAbbr": "KC",
-      "kind": "wechsel",
+      "kind": "weg",
       "from": "Questionable",
-      "to": "Out"
+      "to": null
     },
     {
       "gameId": "401873082",
