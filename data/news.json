@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T03:47:33Z",
+  "updatedAt": "2026-11-27T04:47:24Z",
   "items": [
+    {
+      "id": "dd175b4625dfe8d0",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873082",
+      "title": "Tyler Bass hits 57-yard field goal as time expires to lift Bills past Chiefs, 13-10",
+      "summary": "Tyler Bass hit a 57-yard field goal as time expired and the Buffalo Bills improved their AFC-leading record to 10-1 with a 13-10 victory over the rival Kansas City Chiefs on a rainy, windy and chilly Thursday night.",
+      "publishedAt": "2026-11-27T04:46:32Z",
+      "teamIds": [
+        "2",
+        "12"
+      ]
+    },
+    {
+      "id": "34c997adedf897c5",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50608884/will-shipley-brushes-argument-coach-nick-sirianni",
+      "title": "Will Shipley brushes off argument with coach Nick Sirianni: 'Emotions were running high'",
+      "summary": "RB Will Shipley likened his sideline argument with coach Nick Sirianni to a Thanksgiving family spat in the wake of the Eagles' dramatic comeback win at Dallas.",
+      "publishedAt": "2026-11-27T04:43:06Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "8a3d64e04e3c46c3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50609081/eagles-qb-joe-milton-wows-teammates-breakout-game-dallas",
+      "title": "Eagles QB Joe Milton wows teammates with breakout game in Dallas",
+      "summary": "Eagles QB Joe Milton had a breakout game on the national stage, accounting for four touchdowns in a wild 39-38 come-from-behind win over the Cowboys.",
+      "publishedAt": "2026-11-27T04:41:35Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "a2aef0c2084b8a0b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50608969/cowboys-jerry-jones-backs-coach-damning-setbacks",
+      "title": "Jerry Jones backs Schottenheimer despite 'damning setbacks' in loss",
+      "summary": "Jerry Jones said he did not anticipate making immediate changes but still labeled the Cowboys' latest fourth-quarter collapse as a \"damning\" setback.",
+      "publishedAt": "2026-11-27T04:25:12Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "a6ac4812b3921f1b",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+      "title": "Tomlin upset by Rodgers' bitter exit, calls situation 'a dumpster fire'",
+      "summary": "Mike Tomlin said he was saddened by Aaron Rodgers' tumultuous exit from Pittsburgh and disagreed with how the QB \"aired out\" his grievances against Mike McCarthy.",
+      "publishedAt": "2026-11-27T04:10:59Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "8f600358b67171ef",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations",
+      "title": "Jerry Jones calls Mike McCarthy 'outstanding,' refutes Aaron Rodgers' accusations",
+      "summary": "Rodgers accused McCarthy of being late to meetings, sleeping in meetings and being behind on film prep",
+      "publishedAt": "2026-11-27T04:05:03Z",
+      "teamIds": []
+    },
     {
       "id": "b35a77e34d328133",
       "source": "espn",
@@ -132,11 +197,10 @@
       "id": "0ee1c4eebf3a0adf",
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-confronts-cowboys-fans-after-comeback-win",
-      "title": "Nick Sirianni confronts Cowboys fans after comeback win",
+      "title": "Nick Sirianni is pulled away from fans after comeback win",
       "summary": "Good or bad, right or wrong, Eagles coach Nick Sirianni has had from time to time the demeanor of a fan who won a contest to be the head coach for a day.",
       "publishedAt": "2026-11-27T02:08:51Z",
       "teamIds": [
-        "6",
         "21"
       ]
     },
@@ -1612,77 +1676,6 @@
       "publishedAt": "2026-11-26T00:13:12Z",
       "teamIds": [
         "9"
-      ]
-    },
-    {
-      "id": "50d8b61e2a75b0e5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/romeo-doubs-alijah-vera-tucker-return-to-patriots-practice",
-      "title": "Romeo Doubs, Alijah Vera-Tucker return to Patriots practice",
-      "summary": "A.J.",
-      "publishedAt": "2026-11-26T00:06:00Z",
-      "teamIds": [
-        "17"
-      ]
-    },
-    {
-      "id": "7361281eca929f3f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/packers-vs-rams-odds-picks-prediction-nfl-week-12-best-bets-player-props-for-thanksgiving-eve",
-      "title": "Packers vs. Rams odds, picks, prediction: NFL Week 12 best bets, player props for Thanksgiving Eve",
-      "summary": "Will Brinson breaks down his top value plays for Packers vs. Rams on Thanksgiving Eve, including a lean on the total and some anytime touchdown scorers",
-      "publishedAt": "2026-11-26T00:00:36Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "e3903d01e80842ed",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
-      "title": "NFL Week 12 arrivals: Chris Jones leads arrivals ahead of Chiefs-Bills",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-25T23:58:11Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "615487d2c8a7221e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873089",
-      "title": "Dolphins playing host to Jets, as the NFL's youngest team remains mindful of rookie wall",
-      "summary": "The Miami Dolphins have a visible opponent this week. They're playing host to the rival New York Jets on Sunday.",
-      "publishedAt": "2026-11-25T23:48:34Z",
-      "teamIds": [
-        "15",
-        "20"
-      ]
-    },
-    {
-      "id": "f48ed9509e63b8a9",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873086",
-      "title": "Deshaun Watson and No. 1 pick Fernando Mendoza face primetime pressure in Browns' matchup vs Raiders",
-      "summary": "Deshaun Watson and Fernando Mendoza have plenty to prove when Cleveland hosts Las Vegas on Sunday night.",
-      "publishedAt": "2026-11-25T23:47:32Z",
-      "teamIds": [
-        "5",
-        "13"
-      ]
-    },
-    {
-      "id": "49a12918a77a5008",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/packers-vs-rams-first-touchdown-scorer-odds-for-nfl-thanksgiving-eve-game-picks-include-christian-watson",
-      "title": "Packers vs. Rams first touchdown scorer odds for NFL Thanksgiving Eve game: Picks include Christian Watson",
-      "summary": "Here's a look at first touchdown scorer prediction markets available at Kalshi for Packers vs. Rams NFL Week 12 on Thanksgiving Eve",
-      "publishedAt": "2026-11-25T23:45:33Z",
-      "teamIds": [
-        "9",
-        "14"
       ]
     }
   ]
