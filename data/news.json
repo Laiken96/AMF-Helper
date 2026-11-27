@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T10:47:37Z",
+  "updatedAt": "2026-11-27T11:47:25Z",
   "items": [
+    {
+      "id": "4f79b06b88a2132d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50595313/pat-surtain-ii-jaylen-waddle-broncos-alabama-best-friends",
+      "title": "Best friends Pat Surtain II, Jaylen Waddle ecstatic about reuniting with Broncos",
+      "summary": "Surtain and Waddle bonded immediately at Alabama six years ago and have embraced the chance to play together again in Denver on a team with Super Bowl hopes.",
+      "publishedAt": "2026-11-27T11:00:22Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "079c08cd3753f61c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50582755/san-francisco-49ers-nfc-west-playoffs-seeding",
+      "title": "Can the 49ers lock up the NFC West after exceeding preseason expectations?",
+      "summary": "The 49ers are 9-1, and two of their next three games are against the Seahawks (6-4) and Rams (7-4) at home.",
+      "publishedAt": "2026-11-27T11:00:13Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "a1674148c3384fdf",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50609180/why-seahawks-starting-qb-sam-darnold-49ers-week-12",
+      "title": "Why the Seahawks are turning back to quarterback Sam Darnold vs. the 49ers",
+      "summary": "Drew Lock has been 'fantastic' filling in for Darnold, who has struggled with injuries but is on track to face 9-1 San Francisco on Sunday.",
+      "publishedAt": "2026-11-27T11:00:08Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "09626058cef4d391",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-milton-eagles-dont-quit-so-happy-to-be-on-this-team",
+      "title": "Joe Milton: Eagles don't quit, so happy to be on this team",
+      "summary": "Six weeks ago, Joe Milton was on the Cowboys' practice squad.",
+      "publishedAt": "2026-11-27T10:59:16Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
     {
       "id": "7b3986f9fff14963",
       "source": "pft",
@@ -1633,51 +1678,6 @@
       "teamIds": [
         "29",
         "27"
-      ]
-    },
-    {
-      "id": "c70bf7ed6150184f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-christian-watson-cut-rams-lead-to-13-10",
-      "title": "Jordan Love, Christian Watson cut Rams lead to 13-10",
-      "summary": "The points keep coming in the first half at SoFi Stadium.",
-      "publishedAt": "2026-11-26T02:13:25Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "ad2cf961a2ff2867",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyren-williams-makes-it-13-3-rams-in-second-quarter",
-      "title": "Kyren Williams makes it 13-3 Rams in second quarter",
-      "summary": "The Rams have had the ball three times and all three drives have ended in points.",
-      "publishedAt": "2026-11-26T02:04:52Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "7019be972f1aacfc",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873084",
-      "title": "Kirk Cousins makes his home debut in his second act with the Vikings, fittingly against the Falcons",
-      "summary": "When the Minnesota Vikings last played at home, a foundering offense heard it from the frustrated fans after each futile possession.",
-      "publishedAt": "2026-11-26T01:47:32Z",
-      "teamIds": [
-        "1",
-        "16"
-      ]
-    },
-    {
-      "id": "8321ccdde6f802db",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-extend-lead-to-6-0-after-tucker-kraft-fumble",
-      "title": "Rams extend lead to 6-0 after Tucker Kraft fumble",
-      "summary": "The Rams doubled their lead after forcing the first turnover of Wednesday night's game.",
-      "publishedAt": "2026-11-26T01:44:01Z",
-      "teamIds": [
-        "14"
       ]
     }
   ]
