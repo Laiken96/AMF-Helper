@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T21:01:08Z",
+    "takenAt": "2026-11-27T21:10:36Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1646,7 +1646,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "3916387",
@@ -1658,7 +1658,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4429615",
@@ -2456,26 +2456,6 @@
       "teamAbbr": "DEN",
       "kind": "weg",
       "from": "Questionable",
-      "to": null
-    },
-    {
-      "gameId": "401873085",
-      "athleteId": "3043078",
-      "name": "Derrick Henry",
-      "pos": "RB",
-      "teamAbbr": "BAL",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
-      "gameId": "401873085",
-      "athleteId": "3916387",
-      "name": "Lamar Jackson",
-      "pos": "QB",
-      "teamAbbr": "BAL",
-      "kind": "weg",
-      "from": "Injured Reserve",
       "to": null
     },
     {
