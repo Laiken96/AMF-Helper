@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T21:30:52Z",
+    "takenAt": "2026-11-27T22:01:04Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2103,7 +2103,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4887558",
@@ -2274,7 +2274,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": null
           },
           {
             "athleteId": "4837248",
@@ -2569,16 +2569,6 @@
       "to": "Questionable"
     },
     {
-      "gameId": "401873091",
-      "athleteId": "4430878",
-      "name": "Jaxon Smith-Njigba",
-      "pos": "WR",
-      "teamAbbr": "SEA",
-      "kind": "neu",
-      "from": null,
-      "to": "Questionable"
-    },
-    {
       "gameId": "401873092",
       "athleteId": "4430841",
       "name": "Carson Beck",
@@ -2587,6 +2577,16 @@
       "kind": "neu",
       "from": null,
       "to": "Out"
+    },
+    {
+      "gameId": "401873086",
+      "athleteId": "4432665",
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "teamAbbr": "LV",
+      "kind": "weg",
+      "from": "Questionable",
+      "to": null
     },
     {
       "gameId": "401873094",
