@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T01:30:59Z",
+    "takenAt": "2026-11-27T01:40:40Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1423,7 +1423,8 @@
             "teamAbbr": "BUF",
             "roles": [
               "qb",
-              "passing"
+              "passing",
+              "rushing"
             ],
             "status": null
           },
@@ -1448,6 +1449,17 @@
               "qb"
             ],
             "status": "Out"
+          },
+          {
+            "athleteId": "4832955",
+            "name": "Emmett Johnson",
+            "pos": "RB",
+            "teamId": "12",
+            "teamAbbr": "KC",
+            "roles": [
+              "rushing"
+            ],
+            "status": null
           }
         ]
       },
