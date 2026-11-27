@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T21:20:42Z",
+    "takenAt": "2026-11-27T21:30:52Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1859,7 +1859,7 @@
               "qb",
               "passing"
             ],
-            "status": null
+            "status": "Injured Reserve"
           },
           {
             "athleteId": "4569603",
@@ -2467,6 +2467,16 @@
       "kind": "weg",
       "from": "Doubtful",
       "to": null
+    },
+    {
+      "gameId": "401873089",
+      "athleteId": "4242512",
+      "name": "Malik Willis",
+      "pos": "QB",
+      "teamAbbr": "MIA",
+      "kind": "neu",
+      "from": null,
+      "to": "Injured Reserve"
     },
     {
       "gameId": "401873089",
