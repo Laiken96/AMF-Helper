@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T08:47:23Z",
+  "updatedAt": "2026-11-27T09:47:24Z",
   "items": [
     {
       "id": "b1dbdba85298e3f2",
@@ -1418,10 +1418,12 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
       "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "The five-game football feast surrounding Thanksgiving has major playoff implications for nine of the 10 teams playing across three days, and the one team that is out of playoff contention, the Eagles, delivered a classic comeback victory in Dallas.",
+      "summary": "After an all-time great Thanksgiving for football, the Bears are in first place in the NFC North, the Cowboys have fallen far out of contention in the NFC East, and the Bills are in the lead for the No. 1 seed in the AFC.",
       "publishedAt": "2026-11-26T05:01:00Z",
       "teamIds": [
-        "21"
+        "2",
+        "3",
+        "6"
       ]
     },
     {
