@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T17:50:36Z",
+    "takenAt": "2026-11-27T18:40:39Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2303,7 +2303,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4685720",
@@ -2585,6 +2585,16 @@
       "kind": "weg",
       "from": "Questionable",
       "to": null
+    },
+    {
+      "gameId": "401873094",
+      "athleteId": "4685472",
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "teamAbbr": "CAR",
+      "kind": "neu",
+      "from": null,
+      "to": "Questionable"
     }
   ]
 }
