@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T01:40:40Z",
+    "takenAt": "2026-11-27T16:01:10Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1922,7 +1922,7 @@
             "roles": [
               "receiving"
             ],
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "athleteId": "4882093",
@@ -2494,7 +2494,7 @@
       "teamAbbr": "JAX",
       "kind": "neu",
       "from": null,
-      "to": "Questionable"
+      "to": "Out"
     },
     {
       "gameId": "401873090",
