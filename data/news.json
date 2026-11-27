@@ -1,7 +1,146 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T22:47:26Z",
+  "updatedAt": "2026-11-27T23:34:28Z",
   "items": [
+    {
+      "id": "daa304cca5686786",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+      "title": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+      "summary": "49ers quarterback Brock Purdy (ankle) will not play on Sunday against the Seahawks, according to coach Kyle Shanahan, paving the way for Mac Jones to start vs. Seattle.",
+      "publishedAt": "2026-11-27T23:33:11Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "32d882a4950841bf",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50615818/qb-dj-uiagalelei-start-chargers-justin-herbert-concussion-protocol",
+      "title": "DJ Uiagalelei to start for Chargers with Justin Herbert in concussion protocol",
+      "summary": "Chargers quarterback Justin Herbert was ruled out for Sunday as he remains in concussion protocol, coach Jim Harbaugh said Friday, meaning DJ Uiagalelei will get the start against Tommy DeVito and the Patriots.",
+      "publishedAt": "2026-11-27T23:28:14Z",
+      "teamIds": [
+        "24",
+        "17"
+      ]
+    },
+    {
+      "id": "2051f39d8941fdd9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/black-friday-scorigami-steelers-broncos-final-score-nfl-history",
+      "title": "Black Friday scorigami: Steelers-Broncos ends with final score that's never happened before in NFL history",
+      "summary": "The Broncos and Steelers combined to make NFL history on Black Friday",
+      "publishedAt": "2026-11-27T23:27:44Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "36da34a516f0cd66",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50615482/raiders-brock-bowers-questionable-snf-vs-browns-ankle-injury",
+      "title": "Raiders TE Brock Bowers (ankle) doesn't practice Friday, questionable vs. Browns",
+      "summary": "Raiders tight end Brock Bowers is questionable for Sunday night's game at Cleveland because of an ankle injury he suffered in Week 10. Las Vegas will also be missing two of its starting defensive tackles and a backup.",
+      "publishedAt": "2026-11-27T23:27:19Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "abcd26783a771493",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/mason-rudolph-defense-can-steady-steelers-but-real-progress-far-off",
+      "title": "Mason Rudolph and Steelers defense can clean up Aaron Rodgers' mess, but the franchise's problems run deeper",
+      "summary": "Pittsburgh's post-Rodgers resurgence offers hope for this season, but the organization's long-term problems aren't going away",
+      "publishedAt": "2026-11-27T23:15:11Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a90d31b85d0a1217",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50615648/game-highlights",
+      "title": "Denver Broncos vs. Pittsburgh Steelers: Game Highlights",
+      "summary": null,
+      "publishedAt": "2026-11-27T23:06:39Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "04d8e993e0d4f792",
+      "source": "espn",
+      "url": "https://espn.com/nfl/recap?gameId=401873083",
+      "title": "Inspired Steelers move on from Rodgers' exit with cathartic 27-5 win over sloppy Broncos",
+      "summary": "T.J. Watt recovered a fumble by Bo Nix in the end zone for a touchdown, Jalen Ramsey intercepted Nix and returned it for a score, and the Pittsburgh Steelers emerged from a chaotic week by drilling the Denver Broncos 27-5 on Friday.",
+      "publishedAt": "2026-11-27T23:05:33Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "6940fdee70faa632",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50599095/steelers-beat-broncos-black-friday-two-defensive-touchdowns",
+      "title": "Steelers rally after tumultuous week to grab key Black Friday win over Broncos",
+      "summary": "The Steelers scored two defensive touchdowns and flustered Broncos QB Bo Nix throughout to rally to a key Black Friday victory.",
+      "publishedAt": "2026-11-27T23:03:39Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "bd4050b5c2025255",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-grades-thanksgiving-bears-earn-b-packers-get-d",
+      "title": "NFL Week 12 grades for Black Friday and Thanksgiving: Steelers ace post Aaron Rodgers test",
+      "summary": "Caleb Williams delivers late magic to Rome Odunze in a wild shootout, while Detroit's defense collapses and Jordan Love struggles without Christian Watson",
+      "publishedAt": "2026-11-27T22:58:05Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "f726274a77039619",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-aaron-rodgers-no-problem-steelers-crush-broncos-with-dominant-defense",
+      "title": "No Aaron Rodgers? No problem. Steelers crush Broncos with dominant defense",
+      "summary": "Mason Rudolph did enough on a day when the Steelers' defense made life miserable for Bo Nix.",
+      "publishedAt": "2026-11-27T22:53:33Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "8a188097c2418a4f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-ruled-out-dj-uiagalelei-to-make-first-start-vs-patriots",
+      "title": "Justin Herbert ruled out, DJ Uiagalelei to make first start vs. Patriots",
+      "summary": "It is officially going to be DJ Uiagalelei vs.",
+      "publishedAt": "2026-11-27T22:52:37Z",
+      "teamIds": [
+        "17"
+      ]
+    },
+    {
+      "id": "d40aae755a2a48a9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-announce-mac-jones-will-start-vs-seahawks-brock-purdy-is-out",
+      "title": "49ers announce Mac Jones will start vs. Seahawks, Brock Purdy is out",
+      "summary": "Purdy's ankle injury will force him to miss his first game of the season.",
+      "publishedAt": "2026-11-27T22:45:12Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
     {
       "id": "fb4647ff3d02be64",
       "source": "pft",
@@ -1535,142 +1674,6 @@
       "teamIds": [
         "6",
         "21"
-      ]
-    },
-    {
-      "id": "63c6c8ec89d4ce48",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50607635/tom-brady-disappointed-aaron-rodgers-mccarthy-comments",
-      "title": "Brady disappointed in Rodgers' McCarthy comments: 'Nobody wins'",
-      "summary": "Tom Brady expressed his disappointment in how Aaron Rodgers handled his exit from Pittsburgh, saying there are things in the locker room that shouldn't be made public.",
-      "publishedAt": "2026-11-27T01:35:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "3d5f55497a2b9878",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-mount-furious-comeback-beat-cowboys-39-38-in-thanksgiving-classic",
-      "title": "Eagles mount furious comeback, beat Cowboys 39-38 in Thanksgiving classic",
-      "summary": "What looked like a blowout turned into a great one, as Philadelphia stormed back to win in Dallas.",
-      "publishedAt": "2026-11-27T01:34:11Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "8b8c902648cac053",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-make-a-game-of-it-with-blocked-punt-for-touchdown",
-      "title": "Eagles make a game of it with blocked punt for touchdown",
-      "summary": "The Eagles are back in it after blocking a punt and returning it for a touchdown in the fourth quarter in Dallas.",
-      "publishedAt": "2026-11-27T00:36:09Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "e3903d01e80842ed",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50588078/nfl-week-12-fashionable-arrivals",
-      "title": "NFL Week 12 arrivals: Cameron Heyward leads arrivals ahead of Steelers-Broncos",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "publishedAt": "2026-11-27T00:25:19Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "db8f468854560e3c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/dalton-kincaid-active-christian-benford-inactive-for-bills-chiefs",
-      "title": "Dalton Kincaid active, Christian Benford inactive for Bills-Chiefs",
-      "summary": "The Bills will have one of their key offensive weapons for tonight's game against the Chiefs, but they won't have a key defender.",
-      "publishedAt": "2026-11-27T00:04:36Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "6607879232801c5b",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50607220/lions-thanksgiving-loss-bears-sting-while",
-      "title": "Dan Campbell: Lions' Thanksgiving loss to Bears will 'sting for a while'",
-      "summary": null,
-      "publishedAt": "2026-11-26T23:57:28Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "0ae007a98dfb1948",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50607202/ben-johnson-proud-tes-stepped-colston-loveland-injury",
-      "title": "Ben Johnson proud of TEs that stepped up after Colston Loveland injury",
-      "summary": null,
-      "publishedAt": "2026-11-26T23:55:59Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "084143254e40f11f",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/chiefs-bills-odds-picks-prediction-start-time-2026-nfl-thanksgiving-betting-preview-best-bets",
-      "title": "Chiefs vs. Bills odds, picks, prediction, start time: 2026 NFL Thanksgiving betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Bills vs. Chiefs on Thanksgiving in NFL Week 12",
-      "publishedAt": "2026-11-26T23:43:08Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "c63016ae1cf5266e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50607165/lions-move-forward-latest-thanksgiving-heartbreak",
-      "title": "Lions to 'move forward' after latest Thanksgiving heartbreak",
-      "summary": "Lions head coach Dan Campbell rued another heartbreaker on Thanksgiving but encouraged his team to still try and enjoy the night with their families.",
-      "publishedAt": "2026-11-26T23:41:36Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "ce0b866ed2b887a1",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/penalties-and-forward-progress-ruling-help-cowboys-score-before-halftime",
-      "title": "Penalties and forward progress ruling help Cowboys score before halftime",
-      "summary": "The Cowboys lead the Eagles 28-10.",
-      "publishedAt": "2026-11-26T23:26:08Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "b1b1ad89c677bdfd",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-offense-rolling-over-eagles-defense-in-dallas",
-      "title": "Cowboys' offense rolling over Eagles' defense in Dallas",
-      "summary": "The Eagles have had no answer for the Cowboys' Javonte Williams, CeeDee Lamb and George Pickens.",
-      "publishedAt": "2026-11-26T23:03:04Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "7165c883f0fc549b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50606625/aaron-rodgers-officially-free-agent-clearing-waivers",
-      "title": "Aaron Rodgers officially a free agent after clearing waivers",
-      "summary": "Aaron Rodgers is officially a free agent and eligible to sign with any team after he cleared waivers Thursday.",
-      "publishedAt": "2026-11-26T22:43:53Z",
-      "teamIds": [
-        "23"
       ]
     }
   ]
