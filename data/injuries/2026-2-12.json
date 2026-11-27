@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T18:50:39Z",
+    "takenAt": "2026-11-27T19:01:10Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1468,6 +1468,17 @@
         "kickoffUtc": "2026-11-27T20:00:00Z",
         "players": [
           {
+            "athleteId": "4241820",
+            "name": "Sam Ehlinger",
+            "pos": "QB",
+            "teamId": "7",
+            "teamAbbr": "DEN",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
+          },
+          {
             "athleteId": "4241985",
             "name": "J.K. Dobbins",
             "pos": "RB",
@@ -1476,7 +1487,7 @@
             "roles": [
               "rushing"
             ],
-            "status": "Suspension"
+            "status": null
           },
           {
             "athleteId": "4372016",
@@ -2429,13 +2440,13 @@
     },
     {
       "gameId": "401873083",
-      "athleteId": "4241985",
-      "name": "J.K. Dobbins",
-      "pos": "RB",
+      "athleteId": "4241820",
+      "name": "Sam Ehlinger",
+      "pos": "QB",
       "teamAbbr": "DEN",
       "kind": "neu",
       "from": null,
-      "to": "Suspension"
+      "to": "Out"
     },
     {
       "gameId": "401873083",
