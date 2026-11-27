@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T05:07:56Z",
+  "updatedAt": "2026-11-27T05:47:27Z",
   "items": [
+    {
+      "id": "48e057a6f00a7ef8",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-overreactions-bears-a-shoo-in-nfc-north-title-joe-milton-full-time-qb1",
+      "title": "NFL Thanksgiving overreactions: Bears a shoo-in for NFC North title? Should Joe Milton be a full-time QB1?",
+      "summary": "Plus, is Jahmyr Gibbs truly an MVP candidate?",
+      "publishedAt": "2026-11-27T05:07:38Z",
+      "teamIds": [
+        "3"
+      ]
+    },
     {
       "id": "894222b9bbc6c1ad",
       "source": "espn",
@@ -1666,18 +1677,6 @@
       "teamIds": [
         "24",
         "17"
-      ]
-    },
-    {
-      "id": "ac9e4250b207cad3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873087",
-      "title": "Bengals look to get back on track when they host the Saints on a short week",
-      "summary": "Most coaches don't like coming off a Monday night game the week of Thanksgiving because of changes to the practice schedule and a short week of preparation becoming even more condensed.",
-      "publishedAt": "2026-11-26T00:37:33Z",
-      "teamIds": [
-        "4",
-        "18"
       ]
     }
   ]
