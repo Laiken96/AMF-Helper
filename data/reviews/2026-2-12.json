@@ -3,7 +3,7 @@
   "season": 2026,
   "seasonType": 2,
   "week": 12,
-  "updatedAt": "2026-11-27T14:47:22Z",
+  "updatedAt": "2026-11-27T22:47:25Z",
   "complete": false,
   "games": [
     {
@@ -128,7 +128,7 @@
     },
     {
       "gameId": "401873091",
-      "pickTeamId": "25",
+      "pickTeamId": "26",
       "favoriteTeamId": "25",
       "winnerTeamId": null,
       "final": false,

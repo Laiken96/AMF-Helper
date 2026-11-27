@@ -1,7 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T21:47:25Z",
+  "updatedAt": "2026-11-27T22:47:26Z",
   "items": [
+    {
+      "id": "fb4647ff3d02be64",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-sanctity-of-the-locker-room-doesnt-protect-the-coach-from-accountability",
+      "title": "Aaron Rodgers: Sanctity of the locker room doesn't protect the coach from accountability",
+      "summary": "With Al Michaels calling today's game in Pittsburgh, ex-Steelers quarterback Aaron Rodgers texted Michaels to give his side of the nasty breakup he just had with the team and head coach Mike McCarthy.",
+      "publishedAt": "2026-11-27T22:36:27Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "6fc36300e7da20aa",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50614804/bengals-wr-higgins-dealing-sore-hamstring-says-taylor",
+      "title": "Bengals WR Tee Higgins dealing with 'sore' hamstring, says coach Zac Taylor",
+      "summary": "Bengals receiver Tee Higgins is dealing with a \"sore\" hamstring, according to coach Zac Taylor, and is listed as questionable for Sunday's game vs. the Saints.",
+      "publishedAt": "2026-11-27T22:33:18Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "701cd8c9c47c651a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50614763/schottenheimer-says-jones-shares-our-disappointment",
+      "title": "Brian Schottenheimer says Jerry Jones shares 'in our disappointment'",
+      "summary": "Brian Schottenheimer said Jerry Jones and Stephen Jones \"share in our disappointment\" after the trio met following the Cowboys' collapse vs. the Eagles on Thursday.",
+      "publishedAt": "2026-11-27T22:26:13Z",
+      "teamIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "0ded5b47e983ede7",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-officially-off-injury-report-set-to-start-vs-49ers",
+      "title": "Sam Darnold officially off injury report, set to start vs. 49ers",
+      "summary": "Sam Darnold is officially back.",
+      "publishedAt": "2026-11-27T22:22:44Z",
+      "teamIds": [
+        "25"
+      ]
+    },
+    {
+      "id": "73a7122e39170d0b",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/rick-pitino-takes-jab-at-aaron-rodgers-steelers-mike-mccarthy-comments",
+      "title": "Rick Pitino takes thinly veiled jab at Aaron Rodgers over scathing Mike McCarthy comments",
+      "summary": "Rodgers' bombshell comments left an impression on the entire sports world",
+      "publishedAt": "2026-11-27T21:57:31Z",
+      "teamIds": []
+    },
     {
       "id": "74d1579c58b7e074",
       "source": "pft",
@@ -476,8 +529,8 @@
       "id": "dfaec6eb4a43fb7f",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/jaguars-wr-parker-washington-out-week-12-considered-week-to-week-shoulder-injury-playoffs",
-      "title": "Jaguars lose WR Parker Washington to shoulder injury as playoffs draw near",
-      "summary": "Jacksonville's top target is evaluated week-to-week with a shoulder issue, while leading rusher Bhayshul Tuten is also banged-up",
+      "title": "Jaguars lose WR Parker Washington, RB Bhayshul Tuten to injury as playoffs draw near",
+      "summary": "Jacksonville's top target is evaluated week-to-week with a shoulder issue, while leading rusher Bhayshul Tuten is also out",
       "publishedAt": "2026-11-27T17:04:49Z",
       "teamIds": [
         "30"
@@ -1618,65 +1671,6 @@
       "publishedAt": "2026-11-26T22:43:53Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "839ad5235ae1e05a",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50606739/eagles-cooper-dejean-concussion-leaves-game-cowboys",
-      "title": "Eagles' Cooper DeJean leaves win at Cowboys because of concussion",
-      "summary": "Eagles All-Pro defensive back Cooper DeJean was ruled out of Thursday's game against the Dallas Cowboys with a concussion.",
-      "publishedAt": "2026-11-26T22:34:37Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "bd4050b5c2025255",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-week-12-grades-thanksgiving-bears-earn-b-packers-get-d",
-      "title": "NFL Week 12 grades for Thanksgiving: Cowboys choke their way to a 'D,' Bears earn 'B' for big win",
-      "summary": "Caleb Williams delivers late magic to Rome Odunze in a wild shootout, while Detroit's defense collapses and Jordan Love struggles without Christian Watson",
-      "publishedAt": "2026-11-26T22:33:20Z",
-      "teamIds": [
-        "3",
-        "6"
-      ]
-    },
-    {
-      "id": "efcacc43a2aee410",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50605750/jahmyr-gibbs-lions-caleb-williams-bears-thanksgiving-game",
-      "title": "Caleb Williams' late TD to Rome Odunze gives Bears dramatic win over Lions",
-      "summary": "Caleb Williams turned into the 'Iceman' once again to give the Bears a dramatic late win over the Lions.",
-      "publishedAt": "2026-11-26T22:09:47Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "88790c4dff8c94d4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cooper-dejean-exits-with-concussion-and-cowboys-take-lead-over-eagles",
-      "title": "Cooper DeJean exits with concussion and Cowboys take lead over Eagles",
-      "summary": "The Cowboys have taken an early lead in Dallas and the Eagles have lost a top defensive player.",
-      "publishedAt": "2026-11-26T22:06:17Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "aa5e4d045fd89f6c",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50606402/game-highlights",
-      "title": "Chicago Bears vs. Detroit Lions: Game Highlights",
-      "summary": null,
-      "publishedAt": "2026-11-26T22:02:59Z",
-      "teamIds": [
-        "3",
-        "8"
       ]
     }
   ]
