@@ -1,16 +1,141 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T17:47:26Z",
+  "updatedAt": "2026-11-27T18:47:24Z",
   "items": [
+    {
+      "id": "1577cc4795f1ed62",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/denzel-boston-listed-as-questionable-after-missing-fridays-practice",
+      "title": "Denzel Boston listed as questionable after missing Friday's practice",
+      "summary": "The Browns will be on Sunday Night Football this weekend, but it remains to be seen if rookie wide receiver Denzel Boston will be in their lineup.",
+      "publishedAt": "2026-11-27T18:38:37Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "bbf5dabe3e00eb29",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50612845/cardinals-start-qb-johnson-again-beck-back-spasms-out",
+      "title": "Cardinals to start QB Josh Johnson again with Carson Beck (back spasms) out",
+      "summary": "Cardinals rookie QB Carson Beck will miss a second straight game as he recovers from back spasms, paving the way for veteran Josh Johnson to start vs. the Commanders.",
+      "publishedAt": "2026-11-27T18:38:18Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "c4f98cc39988f3bd",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-under-bo-nix-are-much-better-at-home-than-on-the-road",
+      "title": "Broncos, under Bo Nix, are much better at home than on the road",
+      "summary": "Lost in the ongoing drama in Pittsburgh is that they play the 8-2 Broncos today.",
+      "publishedAt": "2026-11-27T18:32:58Z",
+      "teamIds": [
+        "7"
+      ]
+    },
+    {
+      "id": "8e300a73c07f0887",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-barmore-questionable-for-patriots-alijah-vera-tucker-will-travel-to-l-a",
+      "title": "Christian Barmore questionable for Patriots, Alijah Vera-Tucker will travel to L.A.",
+      "summary": "Patriots defensive tackle Christian Barmore was added to the team's injury report on Friday and his status for Sunday's game against the Chargers is uncertain as a result.",
+      "publishedAt": "2026-11-27T18:29:54Z",
+      "teamIds": [
+        "24",
+        "17"
+      ]
+    },
+    {
+      "id": "c2e8e08daf6e75ac",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/steelers-vs-broncos-odds-picks-prediction-black-friday-start-time-nfl-week-12-betting-preview-best-bets",
+      "title": "Steelers vs. Broncos odds, picks, prediction, Black Friday start time: NFL Week 12 betting preview, best bets",
+      "summary": "Here's everything bettors need to know for Steelers vs. Broncos on Black Friday in NFL Week 12",
+      "publishedAt": "2026-11-27T18:17:39Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
+    {
+      "id": "c9aeddd0b58113b2",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-on-failed-fourth-down-try-i-trust-our-quarterback-and-our-offense",
+      "title": "Brian Schottenheimer on failed fourth-down try: \"I trust our quarterback and our offense\"",
+      "summary": "The Eagles' path to erasing a 31-10 third-quarter deficit included many favorable twists and turns.",
+      "publishedAt": "2026-11-27T18:13:23Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "2f54a1a66268e7ae",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/bears-te-colston-loveland-second-opinion-knee-injury-thanksgiving-win",
+      "title": "Bears feared to lose another TE long-term as Colston Loveland looks for second opinion on knee injury",
+      "summary": "The second-year tight end ihurt his knee on Thanksgiving. as Chicago pushes for the NFC's top seed",
+      "publishedAt": "2026-11-27T18:05:07Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "419e85d2d815b4bf",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/abdul-carter-returns-to-giants-practice-on-friday",
+      "title": "Abdul Carter returns to Giants practice on Friday",
+      "summary": "The Giants welcomed linebacker Abdul Carter back to the practice field on Friday.",
+      "publishedAt": "2026-11-27T17:55:45Z",
+      "teamIds": [
+        "19"
+      ]
+    },
+    {
+      "id": "64d05218fc7e8764",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-beck-ruled-out-for-week-12-josh-johnson-to-start",
+      "title": "Carson Beck ruled out for Week 12, Josh Johnson to start",
+      "summary": "Josh Johnson will once again start at quarterback for the Cardinals.",
+      "publishedAt": "2026-11-27T17:50:53Z",
+      "teamIds": [
+        "22"
+      ]
+    },
+    {
+      "id": "b78fbf50c25aa0d7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/broncos-steelers-why-nfl-cant-schedule-primetime-black-friday-game",
+      "title": "Broncos at Steelers: Why the NFL isn't allowed to schedule the Black Friday game for primetime",
+      "summary": "For the fourth straight year, the Black Friday game will kick off at 3 p.m. ET",
+      "publishedAt": "2026-11-27T17:47:01Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
     {
       "id": "9db0db13e26b9c90",
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50612564/sources-bears-expected-place-te-colston-loveland-knee-ir",
-      "title": "Sources: Bears TE Colston Loveland (knee) week-to-week, awaiting more tests",
+      "title": "Sources: Bears' Colston Loveland awaiting second opinion on knee",
       "summary": "The Bears are holding off on placing Colston Loveland on injured reserve while the injured tight end gets a second opinion on his left knee, sources told ESPN",
       "publishedAt": "2026-11-27T17:44:01Z",
       "teamIds": [
         "3"
+      ]
+    },
+    {
+      "id": "442356e2b72c32d6",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/did-chiefs-get-hosed-by-nfl-clock-controversy-breaking-down-the-final-seconds-of-bills-wild-thanksgiving-win",
+      "title": "Did Chiefs get hosed by NFL clock controversy? Breaking down the final seconds of Bills' wild Thanksgiving win",
+      "summary": "The Bills may have gotten a boost from a friendly clock operator in Buffalo",
+      "publishedAt": "2026-11-27T17:34:59Z",
+      "teamIds": [
+        "2",
+        "12"
       ]
     },
     {
@@ -384,6 +509,15 @@
       ]
     },
     {
+      "id": "2ae2720c481c9e03",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50573832/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
+      "title": "Fantasy football flex and superflex rankings for Week 12",
+      "summary": "Trying to decide between a couple of closely ranked players this week? Eric Karabell's ranks are here to help.",
+      "publishedAt": "2026-11-27T14:03:15Z",
+      "teamIds": []
+    },
+    {
       "id": "25b0c0ad3db01f05",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/nfl-week-12-picks-odds-best-bets-broncos-steelers-49ers-seahawks",
@@ -396,6 +530,24 @@
         "26",
         "25"
       ]
+    },
+    {
+      "id": "2ab0e89861ddf0d2",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "title": "Fantasy football rankings Week 12: PPR and superflex",
+      "summary": "Weekly composite ranks for each position in PPR and IDP formats, as well as Eric Karabell's superflex ranks.",
+      "publishedAt": "2026-11-27T13:58:08Z",
+      "teamIds": []
+    },
+    {
+      "id": "a7c686ac4cf2f0a6",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26-50573676/nfl-fantasy-football-rankings-2026-rb-running-back",
+      "title": "Fantasy football rankings for Week 12: Running back",
+      "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "publishedAt": "2026-11-27T13:57:26Z",
+      "teamIds": []
     },
     {
       "id": "ae083a9ead741260",
@@ -825,7 +977,7 @@
       "id": "8f600358b67171ef",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations",
-      "title": "Jerry Jones refutes Aaron Rodgers' accusations, calls Mike McCarthy 'outstanding'",
+      "title": "Jerry Jones, Brian Schottenheimer refute Aaron Rodgers' accusations: Mike McCarthy 'was outstanding'",
       "summary": "Rodgers accused McCarthy of being late to meetings, sleeping in meetings and being behind on film prep",
       "publishedAt": "2026-11-27T04:05:03Z",
       "teamIds": []
@@ -1522,161 +1674,6 @@
       "teamIds": [
         "6",
         "14"
-      ]
-    },
-    {
-      "id": "e57b84233f471ba2",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/aaron-rodgers-packers-teammates-mike-mccarthy-steelers",
-      "title": "Aaron Rodgers' former Packers teammates rip QB over Mike McCarthy criticism: 'None are on 12's side'",
-      "summary": "Former Packers players criticized Rodgers for attacking McCarthy publicly and putting his ex-Steelers teammates in an uncomfortable position",
-      "publishedAt": "2026-11-26T17:48:21Z",
-      "teamIds": [
-        "9",
-        "23"
-      ]
-    },
-    {
-      "id": "a7d4bf7114232e1a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/blake-corum-supplants-kyren-williams-as-the-rams-top-tailback",
-      "title": "Blake Corum supplants Kyren Williams as the Rams' top tailback",
-      "summary": "It's been slowly building throughout the season.",
-      "publishedAt": "2026-11-26T17:29:49Z",
-      "teamIds": [
-        "14"
-      ]
-    },
-    {
-      "id": "096ae866a4c081bf",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-promos-get-nearly-4000-in-bonuses-from-betting-apps-sportsbooks-for-nfl-thanksgiving",
-      "title": "Week 12 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for NFL Thanksgiving",
-      "summary": "Top Week 12 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
-      "publishedAt": "2026-11-26T17:05:13Z",
-      "teamIds": []
-    },
-    {
-      "id": "30b0fbe536d42f73",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-grateful",
-      "title": "What all 32 NFL teams should be thankful for this Thanksgiving",
-      "summary": "From MVP candidates Joe Burrow and Brock Purdy to promising rookies, new coaches and future draft picks, here is one reason each of the NFL's 32 teams can give thanks",
-      "publishedAt": "2026-11-26T16:56:18Z",
-      "teamIds": []
-    },
-    {
-      "id": "c906b413abf5e012",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-lions-despite-their-resurgence-are-1-8-in-their-last-nine-thanksgiving-games",
-      "title": "The Lions, despite their resurgence, are 1-8 in their last nine Thanksgiving games",
-      "summary": "The Lions commenced their ongoing resurgence in 2022.",
-      "publishedAt": "2026-11-26T16:53:00Z",
-      "teamIds": [
-        "8"
-      ]
-    },
-    {
-      "id": "d6692b21a5e0821a",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-lines-odds-spreads-totals",
-      "title": "Week 12 NFL odds, lines, totals, spreads for every game, including Bears-Lions, Cowboys-Eagles, Bills-Chiefs",
-      "summary": "A look at the latest Week 12 NFL odds, spreads, and totals for all 16 games, including Thanksgiving matchups.",
-      "publishedAt": "2026-11-26T16:40:29Z",
-      "teamIds": [
-        "2",
-        "3",
-        "6",
-        "8",
-        "12",
-        "21"
-      ]
-    },
-    {
-      "id": "5b7466b33156444d",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/chuck-clark-dj-wonnum-are-inactive-for-the-lions",
-      "title": "Chuck Clark, DJ Wonnum are inactive for the Lions",
-      "summary": "The Lions will be missing a pair of defensive starters for Thursday's home game against the Bears.",
-      "publishedAt": "2026-11-26T16:36:08Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "5a42c0e93927cb33",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/bears-vs-lions-odds-picks-prediction-start-time-2026-nfl-thanksgiving-day-betting-preview-best-bets",
-      "title": "Bears vs. Lions odds, picks, prediction, start time: 2026 NFL Thanksgiving Day betting preview, best bets",
-      "summary": "Here's everything bettors need to know for Lions vs. Bears on Thanksgiving in NFL Week 12",
-      "publishedAt": "2026-11-26T16:31:11Z",
-      "teamIds": [
-        "3",
-        "8"
-      ]
-    },
-    {
-      "id": "b8e88186811b36d8",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50604663/why-stephen-backing-bills-beat-chiefs",
-      "title": "Why Stephen A. is backing the Bills to beat the Chiefs",
-      "summary": null,
-      "publishedAt": "2026-11-26T16:11:54Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "434d9991d91e04ae",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873083",
-      "title": "The Steelers are turning to Mason Rudolph to salvage their season. It's not the first time",
-      "summary": "A season on the brink of crumbling. A disgruntled quarterback unhappy with the state of things. A team in need of a jolt.",
-      "publishedAt": "2026-11-26T16:11:33Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "c9c860c424d6e0c1",
-      "source": "cbs",
-      "url": "https://cbssports.com/betting/news/nfl-odds-picks-brinsons-best-bets-player-props-anytime-td-scorers-for-week-12-thanksgiving-day-games",
-      "title": "NFL odds, picks: Brinson's best bets, player props, anytime TD scorers for Week 12 Thanksgiving Day games",
-      "summary": "Back Chicago to win outright in Detroit, grab the points with Philadelphia against Dallas and target the Under in a high-stakes showdown between Kansas City and Buffalo",
-      "publishedAt": "2026-11-26T16:07:48Z",
-      "teamIds": []
-    },
-    {
-      "id": "74c0b30e48115b43",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-his-pittsburgh-exit-whats-next-for-aaron-rodgers",
-      "title": "After his Pittsburgh exit, what's next for Aaron Rodgers?",
-      "summary": "As Aaron Rodgers enters waivers, the first question is whether any team will claim the balance of his one-year contract.",
-      "publishedAt": "2026-11-26T16:04:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "c149cdcb54a0eab6",
-      "source": "espn",
-      "url": "https://espn.com/espn/story/_/id/50576889/top-fictional-sports-series-21st-century",
-      "title": "Friday Night Lights,' 'Ted Lasso' top poll ranking 21st-century sports shows",
-      "summary": "A Seton Hall poll crowns America's favorite modern fictional sports TV series.",
-      "publishedAt": "2026-11-26T16:01:10Z",
-      "teamIds": []
-    },
-    {
-      "id": "63839293e78f85b0",
-      "source": "cbs",
-      "url": "https://cbssports.com/prediction/news/aaron-rodgers-next-team-predictions-patriots-and-ravens-are-in-the-mix-but-retirement-the-most-likely-option",
-      "title": "Aaron Rodgers next team predictions: Patriots and Ravens are in the mix, but retirement the most likely option",
-      "summary": "With Aaron Rodgers' time in the Steel City over, here's a closer look at where he could land, according to Kalshi",
-      "publishedAt": "2026-11-26T15:56:51Z",
-      "teamIds": [
-        "33",
-        "17"
       ]
     }
   ]

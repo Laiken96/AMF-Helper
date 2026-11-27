@@ -6,7 +6,7 @@
   "baselineFrom": "2026-12-03T05:00:00Z",
   "baseline": null,
   "current": {
-    "takenAt": "2026-11-27T17:47:23Z",
+    "takenAt": "2026-11-27T18:47:23Z",
     "games": [
       {
         "gameId": "401873096",
@@ -870,7 +870,7 @@
             "roles": [
               "receiving"
             ],
-            "status": null
+            "status": "Questionable"
           },
           {
             "athleteId": "4685720",
@@ -991,6 +991,17 @@
               "rushing"
             ],
             "status": null
+          },
+          {
+            "athleteId": "4714771",
+            "name": "Drew Allar",
+            "pos": "QB",
+            "teamId": "23",
+            "teamAbbr": "PIT",
+            "roles": [
+              "qb"
+            ],
+            "status": "Out"
           }
         ]
       },
