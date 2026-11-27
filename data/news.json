@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T14:47:23Z",
+  "updatedAt": "2026-11-27T15:15:04Z",
   "items": [
+    {
+      "id": "a02f8a9b4a644e92",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-ertz-people-dont-understand-how-good-devonta-smith-is",
+      "title": "Zach Ertz: People don't understand how good DeVonta Smith is",
+      "summary": "Eagles wide receiver DeVonta Smith missed five games with a hamstring injury earlier this year and the Eagles lost all five of them, which doesn't feel like much of a coincidence after watching him in Dallas on Thursday.",
+      "publishedAt": "2026-11-27T15:03:15Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "1193bf2eb9dfcb25",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50607115/fantasy-football-hall-fame-patrick-jeffers",
+      "title": "Playoff hero Patrick Jeffers is now in the ESPN fantasy football Hall of Fame",
+      "summary": "For five weeks at the end of 1999, Patrick Jeffers was was a fantasy football league winner, highlighted by a 33-point effort in Week 16.",
+      "publishedAt": "2026-11-27T15:00:08Z",
+      "teamIds": [
+        "29"
+      ]
+    },
     {
       "id": "6dd91d45baf031e7",
       "source": "pft",
@@ -286,6 +308,19 @@
       "publishedAt": "2026-11-27T07:44:56Z",
       "teamIds": [
         "2"
+      ]
+    },
+    {
+      "id": "224eb176d36e08c5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
+      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
+      "summary": "After an all-time great Thanksgiving for football, the Bears are in first place in the NFC North, the Cowboys have fallen far out of contention in the NFC East, and the Bills are in the lead for the No. 1 seed in the AFC.",
+      "publishedAt": "2026-11-27T05:30:00Z",
+      "teamIds": [
+        "2",
+        "3",
+        "6"
       ]
     },
     {
@@ -1645,41 +1680,6 @@
       "publishedAt": "2026-11-26T11:00:01Z",
       "teamIds": [
         "3"
-      ]
-    },
-    {
-      "id": "331500681f25e829",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-jones-im-on-text-threads-with-former-packers-none-are-on-aaron-rodgers-side",
-      "title": "James Jones: I'm on text threads with former Packers, none are on Aaron Rodgers' side",
-      "summary": "In the dispute between Steelers coach Mike McCarthy and ex-Steelers quarterback Aaron Rodgers, players who were with both of them in Green Bay are squarely on McCarthy's side.",
-      "publishedAt": "2026-11-26T10:57:56Z",
-      "teamIds": [
-        "9",
-        "23"
-      ]
-    },
-    {
-      "id": "1791f2e7d51883fe",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-brandon-aiyuk-and-i-put-the-past-behind-us",
-      "title": "Jayden Daniels: Brandon Aiyuk and I put the past behind us",
-      "summary": "Commanders quarterback Jayden Daniels and Brandon Aiyuk were once Arizona State teammates and close friends, but Aiyuk seemed to burn those bridges this year, when he posted several critical comments about Daniels on social media.",
-      "publishedAt": "2026-11-26T09:42:18Z",
-      "teamIds": [
-        "28"
-      ]
-    },
-    {
-      "id": "b56de039d6fcab85",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50602564/packers-micah-parsons-accountability-rams-return",
-      "title": "Packers' Micah Parsons calls for accountability after Rams run wild",
-      "summary": "\"That wasn't a championship attitude, competitiveness, drive,\" Micah Parsons said of the Packers allowing the Rams to rush for a season-high 241 yards.",
-      "publishedAt": "2026-11-26T07:38:42Z",
-      "teamIds": [
-        "9",
-        "14"
       ]
     }
   ]
