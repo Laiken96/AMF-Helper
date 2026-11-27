@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-27T20:20:49Z",
+    "takenAt": "2026-11-27T20:30:53Z",
     "games": [
       {
         "gameId": "401873079",
@@ -1497,7 +1497,8 @@
             "teamId": "7",
             "teamAbbr": "DEN",
             "roles": [
-              "rushing"
+              "rushing",
+              "receiving"
             ],
             "status": null
           },
