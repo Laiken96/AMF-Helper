@@ -1,7 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T11:47:25Z",
+  "updatedAt": "2026-11-27T12:47:22Z",
   "items": [
+    {
+      "id": "74d3dda726d9183f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rb-will-shipley-emotions-were-running-high-nothing-but-love-for-nick-sirianni",
+      "title": "Eagles RB Will Shipley: Emotions were running high, nothing but love for Nick Sirianni",
+      "summary": "Eagles head coach Nick Sirianni ended Thursday's win in Dallas by jawing with fans near the field and it wasn't the first verbal exchange he got in over the course of the afternoon.",
+      "publishedAt": "2026-11-27T12:40:04Z",
+      "teamIds": [
+        "21"
+      ]
+    },
+    {
+      "id": "39e09edd8234820f",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-weve-had-damning-setbacks-but-we-wont-make-a-coaching-change",
+      "title": "Jerry Jones: We've had damning setbacks, but we won't make a coaching change",
+      "summary": "Cowboys owner Jerry Jones has stuck with head coach Brian Schottenheimer through a number of painful losses, but Thursday's loss to the Eagles felt like the team reached a new low.",
+      "publishedAt": "2026-11-27T12:30:05Z",
+      "teamIds": [
+        "6",
+        "21"
+      ]
+    },
+    {
+      "id": "540d1cc2bca5166f",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50572372/fantasy-playbook-projections-lineup-locks-week-12-shadow",
+      "title": "Fantasy playbook: Week 12 Shadow Reports, lineup locks and projected scores",
+      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
+      "publishedAt": "2026-11-27T11:51:50Z",
+      "teamIds": []
+    },
+    {
+      "id": "61b4c4456ccd6757",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50587851/week-12-picks-predictions-schedule-fantasy-odds-2026",
+      "title": "NFL Week 12 preview: Picks, predictions, schedule, betting odds, fantasy tips",
+      "summary": "Seahawks vs. 49ers? Kirk Cousins against Atlanta? There are 12 more games in Week 12, and we have picks, predictions and more for all of them.",
+      "publishedAt": "2026-11-27T11:48:57Z",
+      "teamIds": [
+        "26",
+        "25"
+      ]
+    },
+    {
+      "id": "9bd68761d2cb82a7",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/id/50607390/draftkings-nfl-dfs-values-week-12",
+      "title": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
+      "summary": "Build a winning DFS lineup with our DraftKings NFL Week 12 cheat sheet identifying the best stacks and values",
+      "publishedAt": "2026-11-27T11:46:44Z",
+      "teamIds": []
+    },
     {
       "id": "4f79b06b88a2132d",
       "source": "espn",
@@ -1625,60 +1678,6 @@
       "summary": "If you were traveling on Wednesday or otherwise not plugged in for one of the most rollicking, unpredictable days in years if not ever, you're in luck.",
       "publishedAt": "2026-11-26T02:59:54Z",
       "teamIds": []
-    },
-    {
-      "id": "ffadfe915110d29e",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-2026-halftime-show-performers-schedule",
-      "title": "NFL Thanksgiving 2026: A look at every NFL halftime show performer for the holiday slate",
-      "summary": "There will be four performances between Thanksgiving Eve and Thanksgiving",
-      "publishedAt": "2026-11-26T02:52:35Z",
-      "teamIds": []
-    },
-    {
-      "id": "99985dce62684e80",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-gets-first-sack-of-season-packers-and-rams-tied-13-13-at-halftime",
-      "title": "Micah Parsons gets first sack of season, Packers and Rams tied 13-13 at halftime",
-      "summary": "Parsons's sack came just before end of the first half in Los Angeles.",
-      "publishedAt": "2026-11-26T02:48:27Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "dcd74c1c8545ad82",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-s-kamren-kinchens-ejected-for-hit-on-christian-watson",
-      "title": "Rams S Kamren Kinchens ejected for hit on Christian Watson",
-      "summary": "Rams safety Kamren Kinchens was ejected from Wednesday night's game against the Packers after a hit on wide receiver Christian Watson.",
-      "publishedAt": "2026-11-26T02:40:03Z",
-      "teamIds": [
-        "9",
-        "14"
-      ]
-    },
-    {
-      "id": "52081a8508d041ae",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50600128/tony-romo-job-sports-gambling-company-jake-paul",
-      "title": "Tony Romo takes job with sports gambling company co-founded by Jake Paul",
-      "summary": "Former CBS NFL analyst Tony Romo has taken a job with Betr, with the company saying he will make predictions and engage with fans across platforms.",
-      "publishedAt": "2026-11-26T02:37:43Z",
-      "teamIds": []
-    },
-    {
-      "id": "e07fca8463ae9f4e",
-      "source": "espn",
-      "url": "https://espn.com/nfl/preview?gameId=401873094",
-      "title": "Buccaneers will need more from Baker Mayfield and struggling passing attack to beat the Panthers",
-      "summary": "The Tampa Bay Buccaneers didn't need much from Baker Mayfield to rout the Carolina Panthers last month.",
-      "publishedAt": "2026-11-26T02:24:54Z",
-      "teamIds": [
-        "29",
-        "27"
-      ]
     }
   ]
 }
