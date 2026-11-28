@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T04:47:33Z",
+  "updatedAt": "2026-11-28T05:47:21Z",
   "items": [
+    {
+      "id": "9ccc67f733c0ffa9",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-admits-he-hasnt-spent-enough-time-with-the-defense",
+      "title": "Mike McCarthy admits he hasn't spent enough time with the defense",
+      "summary": "McCarthy vows to take a closer look at the situation in the offseason.",
+      "publishedAt": "2026-11-28T04:46:15Z",
+      "teamIds": []
+    },
     {
       "id": "94699d2d7a1ab6cd",
       "source": "espn",
@@ -1649,17 +1658,6 @@
         "23",
         "26",
         "25"
-      ]
-    },
-    {
-      "id": "990364fa8b0ce325",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/former-steelers-coach-mike-tomlin-aaron-rodgers-mike-mccarthy-saga-dumpster-fire",
-      "title": "Former Steelers coach Mike Tomlin on Aaron Rodgers-Mike McCarthy saga: 'It's a dumpster fire'",
-      "summary": "Tomlin revealed his thoughts on the entire Rodgers-McCarthy mess on Thursday night",
-      "publishedAt": "2026-11-27T03:37:34Z",
-      "teamIds": [
-        "23"
       ]
     }
   ]
