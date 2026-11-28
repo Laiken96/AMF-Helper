@@ -1,7 +1,82 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T17:47:23Z",
+  "updatedAt": "2026-11-28T18:47:25Z",
   "items": [
+    {
+      "id": "6fb2bea7ccb6d62d",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50623183/sources-falcons-agree-part-ways-qb-tua-tagovailoa",
+      "title": "Falcons release Tua Tagovailoa, ending veteran QB's brief Atlanta stint",
+      "summary": "The Falcons have released Tua Tagovailoa, ending the veteran quarterback's time in Atlanta after less than nine months.",
+      "publishedAt": "2026-11-28T18:45:46Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "654688fe6669dd10",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-waive-tua-tagovailoa",
+      "title": "Falcons waive Tua Tagovailoa",
+      "summary": "Eight months after signing in Atlanta, Tagovailoa is out.",
+      "publishedAt": "2026-11-28T18:40:34Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "a972a5a637d720f6",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50623254/panthers-olb-patrick-jones-ii-ankle-vs-buccaneers",
+      "title": "Panthers OLB Patrick Jones II (ankle) out vs. Buccaneers",
+      "summary": "Panthers outside linebacker Patrick Jones II has been ruled out for Monday's game against the Bucs because of an ankle injury.",
+      "publishedAt": "2026-11-28T18:33:28Z",
+      "teamIds": [
+        "29"
+      ]
+    },
+    {
+      "id": "a84b3789d9d85140",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-anytime-td-best-bets-justin-jefferson",
+      "title": "NFL week 12 anytime TD best bets: Justin Jefferson is due for a trip to the end zone",
+      "summary": "Skip the low-payout chalk and target profitable touchdown scorers, including Anthony Richardson's rushing ability and Justin Jefferson in a bounce-back spot",
+      "publishedAt": "2026-11-28T18:23:04Z",
+      "teamIds": []
+    },
+    {
+      "id": "2b6efcc53d0e7c81",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50622799/rams-te-davis-allen-ir-tyler-higbee-chest-injury",
+      "title": "Rams TE Davis Allen to IR; Tyler Higbee has chest injury",
+      "summary": "The injuries to the Rams' tight end room continue, with Davis Allen heading to IR after injuring his ankle and Tyler Higbee dealing with a pulmonary contusion.",
+      "publishedAt": "2026-11-28T18:07:22Z",
+      "teamIds": [
+        "14"
+      ]
+    },
+    {
+      "id": "9b16abd5ccf15eb0",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aaron-rodgers-nfl-career-may-be-over-bitter-ending-steelers-tarnished-legacy",
+      "title": "Aaron Rodgers' NFL career may be over: Has bitter ending with Steelers tarnished QB's legacy?",
+      "summary": "No suitors emerged after the four-time MVP cleared waivers, with league sources indicating teams will only consider signing him in a dire emergency",
+      "publishedAt": "2026-11-28T17:53:10Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "ab8002da8a3c77d6",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50622628/josh-johnson-start-cardinals",
+      "title": "Josh Johnson to start for the Cardinals",
+      "summary": "Joshua Weinfuss details Arizona's preparation this week with Johnson stepping in at QB following Carson Beck's injury.",
+      "publishedAt": "2026-11-28T17:47:32Z",
+      "teamIds": [
+        "22"
+      ]
+    },
     {
       "id": "eb9d985eee29e77c",
       "source": "pft",
@@ -929,8 +1004,8 @@
       "id": "2f54a1a66268e7ae",
       "source": "cbs",
       "url": "https://cbssports.com/nfl/news/bears-te-colston-loveland-second-opinion-knee-injury-thanksgiving-win",
-      "title": "Bears feared to lose another TE long-term as Colston Loveland looks for second opinion on knee injury",
-      "summary": "The second-year tight end ihurt his knee on Thanksgiving. as Chicago pushes for the NFC's top seed",
+      "title": "Colston Loveland expected to avoid IR with sprained MCL, Bears reportedly consider TE week-to-week",
+      "summary": "The second-year tight end injured his knee early in Chicago's Thanksgiving win against Detroit",
       "publishedAt": "2026-11-27T18:05:07Z",
       "teamIds": [
         "3"
@@ -1572,78 +1647,6 @@
       "title": "Fantasy playbook: Week 12 Shadow Reports, lineup locks and projected scores",
       "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
       "publishedAt": "2026-11-27T11:51:50Z",
-      "teamIds": []
-    },
-    {
-      "id": "61b4c4456ccd6757",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50587851/week-12-picks-predictions-schedule-fantasy-odds-2026",
-      "title": "NFL Week 12 preview: Picks, predictions, schedule, betting odds, fantasy tips",
-      "summary": "Seahawks vs. 49ers? Kirk Cousins against Atlanta? There are 12 more games in Week 12, and we have picks, predictions and more for all of them.",
-      "publishedAt": "2026-11-27T11:48:57Z",
-      "teamIds": [
-        "26",
-        "25"
-      ]
-    },
-    {
-      "id": "9bd68761d2cb82a7",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50607390/draftkings-nfl-dfs-values-week-12",
-      "title": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
-      "summary": "Build a winning DFS lineup with our DraftKings NFL Week 12 cheat sheet identifying the best stacks and values",
-      "publishedAt": "2026-11-27T11:46:44Z",
-      "teamIds": []
-    },
-    {
-      "id": "4f79b06b88a2132d",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50595313/pat-surtain-ii-jaylen-waddle-broncos-alabama-best-friends",
-      "title": "Best friends Pat Surtain II, Jaylen Waddle ecstatic about reuniting on Broncos",
-      "summary": "Surtain and Waddle bonded immediately at Alabama six years ago and have embraced the chance to play together again in Denver on a team with Super Bowl hopes.",
-      "publishedAt": "2026-11-27T11:00:22Z",
-      "teamIds": [
-        "7"
-      ]
-    },
-    {
-      "id": "079c08cd3753f61c",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50582755/san-francisco-49ers-nfc-west-playoffs-seeding",
-      "title": "Can the 49ers lock up the NFC West after exceeding preseason expectations?",
-      "summary": "The 49ers are 9-1, and two of their next three games are against the Seahawks (6-4) and Rams (7-4) at home.",
-      "publishedAt": "2026-11-27T11:00:13Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "a1674148c3384fdf",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50609180/why-seahawks-starting-qb-sam-darnold-49ers-week-12",
-      "title": "Why the Seahawks are turning back to quarterback Sam Darnold vs. the 49ers",
-      "summary": "Drew Lock has been 'fantastic' filling in for Darnold, who has struggled with injuries but is on track to face 9-1 San Francisco on Sunday.",
-      "publishedAt": "2026-11-27T11:00:08Z",
-      "teamIds": [
-        "26"
-      ]
-    },
-    {
-      "id": "be80023b52272fef",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
-      "title": "2026 NFL playoff picture: AFC, NFC seed projections, chances to make postseason",
-      "summary": "We're looking ahead to how the 14-team playoff picture could line up -- and who will win divisions -- en route to the Super Bowl.",
-      "publishedAt": "2026-11-27T11:00:08Z",
-      "teamIds": []
-    },
-    {
-      "id": "b0ae53c0449db437",
-      "source": "espn",
-      "url": "https://espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
-      "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
-      "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
-      "publishedAt": "2026-11-27T11:00:02Z",
       "teamIds": []
     }
   ]
