@@ -1174,7 +1174,7 @@
     ]
   },
   "current": {
-    "takenAt": "2026-11-28T00:30:51Z",
+    "takenAt": "2026-11-28T01:40:36Z",
     "games": [
       {
         "gameId": "401873079",
@@ -2007,7 +2007,7 @@
               "qb",
               "passing"
             ],
-            "status": "Out"
+            "status": null
           },
           {
             "athleteId": "4685382",
@@ -2516,16 +2516,6 @@
       "kind": "weg",
       "from": "Doubtful",
       "to": null
-    },
-    {
-      "gameId": "401873093",
-      "athleteId": "4038941",
-      "name": "Justin Herbert",
-      "pos": "QB",
-      "teamAbbr": "LAC",
-      "kind": "neu",
-      "from": null,
-      "to": "Out"
     },
     {
       "gameId": "401873091",
