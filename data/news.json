@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T18:47:25Z",
+  "updatedAt": "2026-11-28T19:47:33Z",
   "items": [
+    {
+      "id": "0f06413d7e5d01ff",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-add-k-matthew-wright-to-practice-squad",
+      "title": "Titans add K Matthew Wright to practice squad",
+      "summary": "The Titans have added a kicker in the event that they need one for Sunday's game against the Jaguars.",
+      "publishedAt": "2026-11-28T19:39:38Z",
+      "teamIds": [
+        "30",
+        "10"
+      ]
+    },
+    {
+      "id": "39c5010f99da5fa5",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/falcons-release-tua-tagovailoa-landing-spots",
+      "title": "Tua Tagovailoa landing spots: Patriots among possible destinations after Falcons release QB",
+      "summary": "The veteran quarterback heads to waivers after appearing in just one game for Atlanta following an offseason deal to compete with Michael Penix Jr.",
+      "publishedAt": "2026-11-28T19:32:01Z",
+      "teamIds": [
+        "1",
+        "17"
+      ]
+    },
+    {
+      "id": "da674ae7f635f197",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-activate-raheim-sanders-waive-jaleel-mclaughlin",
+      "title": "Browns activate Raheim Sanders, waive Jaleel McLaughlin",
+      "summary": "The Browns will officially have a key contributor available for Sunday night's contest against the Raiders.",
+      "publishedAt": "2026-11-28T19:26:36Z",
+      "teamIds": [
+        "5",
+        "13"
+      ]
+    },
+    {
+      "id": "68441ffd6bd45249",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-make-lb-blake-cashman-questionable-with-a-back-injury",
+      "title": "Vikings make LB Blake Cashman questionable with a back injury",
+      "summary": "The Vikings made a Saturday addition to the injury report.",
+      "publishedAt": "2026-11-28T19:23:46Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "2cbad77e4b50e2b8",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-could-land-with-falcons-soon",
+      "title": "Daniel Jones could land with Falcons, soon",
+      "summary": "The rest of 2026 could become an audition for 2027.",
+      "publishedAt": "2026-11-28T19:14:41Z",
+      "teamIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "1cb4701775d61588",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/steelers-mason-rudolph-appears-to-pick-side-aaron-rodgers-mike-mccarthy-clash",
+      "title": "Steelers' Mason Rudolph appears to pick side in Aaron Rodgers-Mike McCarthy clash",
+      "summary": "Pittsburgh's new starting quarterback is defending the captain of the ship",
+      "publishedAt": "2026-11-28T19:03:46Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "6fb2bea7ccb6d62d",
       "source": "espn",
@@ -49,7 +118,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50622799/rams-te-davis-allen-ir-tyler-higbee-chest-injury",
       "title": "Rams TE Davis Allen to IR; Tyler Higbee has chest injury",
-      "summary": "The injuries to the Rams' tight end room continue, with Davis Allen heading to IR after injuring his ankle and Tyler Higbee dealing with a pulmonary contusion.",
+      "summary": "The injuries to the Rams' tight end room continue, with Davis Allen heading to IR after hurting his ankle and Tyler Higbee dealing with a pulmonary contusion.",
       "publishedAt": "2026-11-28T18:07:22Z",
       "teamIds": [
         "14"
@@ -1587,67 +1656,6 @@
         "7",
         "26"
       ]
-    },
-    {
-      "id": "787cc70225420de0",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-on-rome-odunze-when-big-moments-come-up-you-go-to-your-guys",
-      "title": "Caleb Williams on Rome Odunze: When big moments come up, you go to your guys",
-      "summary": "Bears wide receiver Rome Odunze had one catch for nine yards at halftime in Detroit on Thanksgiving, but there was a lot more to come in the final 30 minutes.",
-      "publishedAt": "2026-11-27T12:59:45Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "9e9084f78093f22e",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "title": "Fantasy buzz: Joe Milton, Jahmyr Gibbs served up a fantasy feast on Thanksgiving",
-      "summary": "What a fantasy football feast we saw on Thursday! Adam Rank breaks it all down.",
-      "publishedAt": "2026-11-27T12:43:23Z",
-      "teamIds": []
-    },
-    {
-      "id": "3cad30156f8406ea",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50593359/fantasy-football-start-sit-lineup-advice-week-12",
-      "title": "Need fantasy football trade deadline advice? Join our live Q&A, noon ET",
-      "summary": "ESPN fantasy football expert Eric Moody is here to answer your pressing questions live from noon to 1 p.m. ET.",
-      "publishedAt": "2026-11-27T12:42:53Z",
-      "teamIds": []
-    },
-    {
-      "id": "74d3dda726d9183f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rb-will-shipley-emotions-were-running-high-nothing-but-love-for-nick-sirianni",
-      "title": "Eagles RB Will Shipley: Emotions were running high, nothing but love for Nick Sirianni",
-      "summary": "Eagles head coach Nick Sirianni ended Thursday's win in Dallas by jawing with fans near the field and it wasn't the first verbal exchange he got in over the course of the afternoon.",
-      "publishedAt": "2026-11-27T12:40:04Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "39e09edd8234820f",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-weve-had-damning-setbacks-but-we-wont-make-a-coaching-change",
-      "title": "Jerry Jones: We've had damning setbacks, but we won't make a coaching change",
-      "summary": "Cowboys owner Jerry Jones has stuck with head coach Brian Schottenheimer through a number of painful losses, but Thursday's loss to the Eagles felt like the team reached a new low.",
-      "publishedAt": "2026-11-27T12:30:05Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "540d1cc2bca5166f",
-      "source": "espn",
-      "url": "https://espn.com/fantasy/football/story/_/id/50572372/fantasy-playbook-projections-lineup-locks-week-12-shadow",
-      "title": "Fantasy playbook: Week 12 Shadow Reports, lineup locks and projected scores",
-      "summary": "An all-encompassing look at the matchups to exploit or avoid and lineup locks in fantasy, as well as projected scores for all NFL games.",
-      "publishedAt": "2026-11-27T11:51:50Z",
-      "teamIds": []
     }
   ]
 }
