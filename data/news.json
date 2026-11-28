@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T13:47:25Z",
+  "updatedAt": "2026-11-28T14:47:23Z",
   "items": [
+    {
+      "id": "7430793d2011f10b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/nfl-odds-betting-lines-spreads-picks-predictions-today-for-week-12-2026",
+      "title": "Week 12 NFL odds, picks, predictions: Computer model backs Vikings and Dolphins",
+      "summary": "SportsLine's advanced model has simulated every game on the Week 12 NFL schedule 10,000 times and locked in its NFL best bets today",
+      "publishedAt": "2026-11-28T14:05:09Z",
+      "teamIds": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "006e4d26653c7755",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/its-time-for-the-clock-to-have-tenths-of-a-second",
+      "title": "It's time for the clock to have tenths of a second",
+      "summary": "Football is a game of clear margins, but the time element remains a little too fuzzy.",
+      "publishedAt": "2026-11-28T13:56:30Z",
+      "teamIds": []
+    },
     {
       "id": "e70b09b5fefb11e4",
       "source": "pft",
@@ -127,7 +148,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50618077/steelers-fueled-jabs-aaron-rodgers-drama-rout-broncos",
       "title": "Steelers, fueled by jabs over Aaron Rodgers drama, 'come together' to rout Broncos",
-      "summary": "Turned into a national punchline following Aaron Rodgers' release, the Steelers played with a sense of \"urgency\" and \"anger\" Friday night in a 27-5 win over Denver.",
+      "summary": "Turned into a national punchline following Aaron Rodgers' release, the Steelers played with a sense of \"urgency\" and \"anger\" in a 27-5 win over the Broncos.",
       "publishedAt": "2026-11-28T03:36:31Z",
       "teamIds": [
         "23"
@@ -1626,30 +1647,6 @@
       "title": "Bills edge Chiefs with last-second FG in low-scoring battle",
       "summary": "The Bills won their seventh straight, snapping the Chiefs' win streak at three in a sloppy, low-scoring thriller.",
       "publishedAt": "2026-11-27T04:58:55Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "4cc4639ec9dd1e91",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50609218/game-highlight",
-      "title": "Kansas City Chiefs vs. Buffalo Bills: Game Highlight",
-      "summary": null,
-      "publishedAt": "2026-11-27T04:56:29Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "b048ec92303ef6a9",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-bass-hits-walk-off-57-yard-field-goal-bills-beat-chiefs-13-10",
-      "title": "Tyler Bass hits walk-off 57-yard field goal, Bills beat Chiefs 13-10",
-      "summary": "Buffalo overcame some nasty weather to once again defeat Kansas City in the regular season.",
-      "publishedAt": "2026-11-27T04:51:59Z",
       "teamIds": [
         "2",
         "12"
