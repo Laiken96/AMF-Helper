@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T01:47:27Z",
+  "updatedAt": "2026-11-28T02:47:25Z",
   "items": [
+    {
+      "id": "cc14f0197286cae9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50617060/qb-bo-nix-says-let-team-broncos-routed-steelers",
+      "title": "Bo Nix, after one of his worst games for Broncos, says 'I let the team down'",
+      "summary": "After one of the most difficult starts of his NFL career, Broncos quarterback Bo Nix said \"I let the team down'' in a 27-5 loss to the Steelers on Friday.",
+      "publishedAt": "2026-11-28T02:28:59Z",
+      "teamIds": [
+        "7"
+      ]
+    },
     {
       "id": "163da5c77ae14e43",
       "source": "espn",
@@ -1653,18 +1664,6 @@
       "teamIds": [
         "2",
         "12"
-      ]
-    },
-    {
-      "id": "cb908dd07f75b9d2",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-i-didnt-simulate-snap-count-on-false-starts-lions-crying-about-a-them-problem",
-      "title": "Jeffery Simmons: I didn't simulate snap count on false starts, Lions are \"crying\" about a them problem",
-      "summary": "Long before the Bears beat the Lions on a last-second touchdown catch by wide receiver Rome Odunze, one of the storylines of the game was a run of false start penalties by the Lions.",
-      "publishedAt": "2026-11-27T02:48:15Z",
-      "teamIds": [
-        "3",
-        "8"
       ]
     }
   ]
