@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T15:47:29Z",
+  "updatedAt": "2026-11-28T16:47:23Z",
   "items": [
+    {
+      "id": "0ea3e8323fc4feba",
+      "source": "espn",
+      "url": "https://espn.com/video/clip/_/id/50621729/shane-steichen-discusses-blocking-job-speculation",
+      "title": "Shane Steichen discusses blocking out job speculation",
+      "summary": null,
+      "publishedAt": "2026-11-28T16:14:53Z",
+      "teamIds": [
+        "11"
+      ]
+    },
+    {
+      "id": "13493a74f44862d7",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-last-minute-picks-best-bets-vikings-bounce-back",
+      "title": "NFL Week 12 best bets, last-minute picks: Can Aaron Glenn finally get a division win? Do Vikings bounce back?",
+      "summary": "Need some last-minute advice on how to bet the Week 12 slate? Allow us to be of assistance",
+      "publishedAt": "2026-11-28T16:11:47Z",
+      "teamIds": [
+        "16"
+      ]
+    },
+    {
+      "id": "ae5d64ca41e9388b",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-promos-get-nearly-4000-in-bonuses-from-betting-apps-sportsbooks-for-sundays-games",
+      "title": "Week 12 NFL betting promos: Get nearly $4,000 in bonuses from betting apps, sportsbooks for Sunday's games",
+      "summary": "Top Week 12 NFL betting apps include DraftKings, FanDuel, BetMGM, bet365, Caesars, Fanatics Sportsbook and Hard Rock Bet",
+      "publishedAt": "2026-11-28T15:54:52Z",
+      "teamIds": []
+    },
+    {
+      "id": "71c39d22235fcdce",
+      "source": "cbs",
+      "url": "https://cbssports.com/betting/news/week-12-nfl-betting-lines-spreads-totals-odds",
+      "title": "Week 12 NFL odds, lines, totals, spreads for every game, including 49ers-Seahawks, Browns-Raiders",
+      "summary": "A look at the latest Week 12 NFL odds, spreads, and totals for all 16 games, including Seahawks-49ers and Browns-Raiders on Sunday",
+      "publishedAt": "2026-11-28T15:48:58Z",
+      "teamIds": [
+        "5",
+        "13",
+        "26",
+        "25"
+      ]
+    },
     {
       "id": "5a3383a2a5acc8bb",
       "source": "espn",
@@ -1605,49 +1650,6 @@
       "teamIds": [
         "12"
       ]
-    },
-    {
-      "id": "b1dbdba85298e3f2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50609968/rashee-rice-chiefs-believe-caught-pivotal-3rd-pass",
-      "title": "Rashee Rice, Chiefs believe he caught pivotal 3rd-down pass late vs. Bills",
-      "summary": "WR Rashee Rice -- along with several members of the Chiefs -- felt he caught the ball on a pivotal third-down pass with less than two minutes left at the Bills.",
-      "publishedAt": "2026-11-27T07:44:58Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "fffac030548bd3e2",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50609813/bills-qb-josh-allen-struggles-vs-chiefs-grossest-conditions",
-      "title": "Bills QB Josh Allen struggles vs. Chiefs in 'grossest' conditions",
-      "summary": "The Bills won their 10th game of the season Thursday vs. the Chiefs, but QB Josh Allen struggled in the weather, passing for only 81 yards.",
-      "publishedAt": "2026-11-27T07:44:56Z",
-      "teamIds": [
-        "2"
-      ]
-    },
-    {
-      "id": "224eb176d36e08c5",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
-      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "The Steelers' dominant win over the Broncos showed they remain in the thick of the playoff race after the Aaron Rodgers fiasco.",
-      "publishedAt": "2026-11-27T05:30:00Z",
-      "teamIds": [
-        "7",
-        "23"
-      ]
-    },
-    {
-      "id": "81a5c6c223d28300",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
-      "title": "NFL Week 12: Highlights of Thanksgiving weekend games",
-      "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
-      "publishedAt": "2026-11-27T05:25:04Z",
-      "teamIds": []
     }
   ]
 }
