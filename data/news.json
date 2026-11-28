@@ -1,7 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T00:47:58Z",
+  "updatedAt": "2026-11-28T01:47:27Z",
   "items": [
+    {
+      "id": "163da5c77ae14e43",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50616624/seahawks-sam-darnold-return-vs-49ers-2-game-absence",
+      "title": "Sam Darnold 'ready to roll' vs. 49ers as Seahawks fight to stay in NFC West race",
+      "summary": "Seahawks QB Sam Darnold, who missed the past two games with a quad injury, will return to start against the Niners in a pivotal NFC West showdown.",
+      "publishedAt": "2026-11-28T01:37:28Z",
+      "teamIds": [
+        "26"
+      ]
+    },
+    {
+      "id": "482b60ceffb5aa67",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-brock-purdys-ankle-sprain-is-more-mid-than-low",
+      "title": "Kyle Shanahan: Brock Purdy's ankle sprain is \"more mid than low\"",
+      "summary": "49ers quarterback Brock Purdy emerged from Sunday's win over the Vikings with an ankle injury.",
+      "publishedAt": "2026-11-28T01:00:29Z",
+      "teamIds": [
+        "16",
+        "25"
+      ]
+    },
+    {
+      "id": "4d8988e8f0c08da3",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-on-sam-darnold-when-healthy-i-think-hes-done-a-good-job",
+      "title": "Mike Macdonald on Sam Darnold, when healthy: \"I think he's done a good job\"",
+      "summary": "Quarterback Sam Darnold is back as Seattle's starter this week, after missing two games due to quad and rib injuries.",
+      "publishedAt": "2026-11-28T00:44:40Z",
+      "teamIds": []
+    },
+    {
+      "id": "7e5ff886ad08fc49",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/aaron-rodgers-barred-from-steelers-facility-qb-went-scorched-earth-on-mike-mccarthy",
+      "title": "Aaron Rodgers claims he was 'barred' from Steelers' facility: Why QB went scorched earth on Mike McCarthy",
+      "summary": "Here's why the QB went scorched earth on Mike McCarthy",
+      "publishedAt": "2026-11-28T00:15:17Z",
+      "teamIds": [
+        "23"
+      ]
+    },
     {
       "id": "5a1981cc8c6773a4",
       "source": "espn",
@@ -10,6 +53,17 @@
       "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
       "publishedAt": "2026-11-28T00:10:30Z",
       "teamIds": []
+    },
+    {
+      "id": "272c59c9e477a8d9",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/chargers-poised-to-start-dj-uiagalelei-with-justin-herbert-ruled-out-for-week-12",
+      "title": "Chargers poised to start DJ Uiagalelei with Justin Herbert ruled out for Week 12",
+      "summary": "Uiagalelei's first career start marks a new low for Los Angeles' maligned offense",
+      "publishedAt": "2026-11-27T23:58:34Z",
+      "teamIds": [
+        "24"
+      ]
     },
     {
       "id": "89f9d77a700a457e",
@@ -27,7 +81,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
       "title": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
-      "summary": "49ers quarterback Brock Purdy (ankle) will not play on Sunday against the Seahawks, according to coach Kyle Shanahan, paving the way for Mac Jones to start vs. Seattle.",
+      "summary": "49ers quarterback Brock Purdy (ankle) will not play Sunday against the Seahawks, according to coach Kyle Shanahan, paving the way for Mac Jones to start.",
       "publishedAt": "2026-11-27T23:33:11Z",
       "teamIds": [
         "25"
@@ -96,7 +150,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/recap?gameId=401873083",
       "title": "Inspired Steelers move on from Rodgers' exit with cathartic 27-5 win over sloppy Broncos",
-      "summary": "T.J. Watt recovered a fumble by Bo Nix in the end zone for a touchdown, Jalen Ramsey intercepted Nix and returned it for a score, and the Pittsburgh Steelers emerged from a chaotic week by drilling the Denver Broncos 27-5 on Friday.",
+      "summary": "The Pittsburgh Steelers weren't playing for embattled coach Mike McCarthy on Friday. They weren't necessarily playing for their season, either.",
       "publishedAt": "2026-11-27T23:05:33Z",
       "teamIds": [
         "7",
@@ -1611,64 +1665,6 @@
       "teamIds": [
         "3",
         "8"
-      ]
-    },
-    {
-      "id": "0f7684ace3216afd",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50607960/eagles-cowboys-thanksgiving-social-reaction",
-      "title": "Eagles' comeback against Cowboys stuns Jason Kelce, Caitlin Clark and more",
-      "summary": "The Philadelphia Eagles pulled off the largest Thanksgiving Day comeback in NFL history.",
-      "publishedAt": "2026-11-27T02:36:42Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "badba73bbf7dba3c",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-misses-practice-again-on-thursday",
-      "title": "Brock Purdy misses practice again on Thursday",
-      "summary": "The 49ers remained without the leader of their offense at Thursday's practice.",
-      "publishedAt": "2026-11-27T02:22:42Z",
-      "teamIds": [
-        "25"
-      ]
-    },
-    {
-      "id": "37f4f1c7fb2b423d",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50608117/stephen-stop-laughing-cowboys-thanksgiving-collapse",
-      "title": "Stephen A. can't stop laughing at Cowboys after Thanksgiving collapse",
-      "summary": null,
-      "publishedAt": "2026-11-27T02:21:34Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
-    },
-    {
-      "id": "83533566fe8db76a",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-cook-touchdown-gives-bills-7-0-lead-over-chiefs",
-      "title": "James Cook touchdown gives Bills 7-0 lead over Chiefs",
-      "summary": "There is some nasty weather in Western New York on Thanksgiving night.",
-      "publishedAt": "2026-11-27T02:12:32Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "0ee1c4eebf3a0adf",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-confronts-cowboys-fans-after-comeback-win",
-      "title": "Nick Sirianni is pulled away from fans after comeback win",
-      "summary": "Good or bad, right or wrong, Eagles coach Nick Sirianni has had from time to time the demeanor of a fan who won a contest to be the head coach for a day.",
-      "publishedAt": "2026-11-27T02:08:51Z",
-      "teamIds": [
-        "21"
       ]
     }
   ]
