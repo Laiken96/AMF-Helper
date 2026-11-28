@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T14:47:23Z",
+  "updatedAt": "2026-11-28T15:47:29Z",
   "items": [
+    {
+      "id": "5a3383a2a5acc8bb",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50621182/bengals-shemar-stewart-playing",
+      "title": "Why Bengals' 2025 first-rounder Stewart can't crack lineup",
+      "summary": "Stewart hasn't seen action in three games this season despite being healthy enough to play.",
+      "publishedAt": "2026-11-28T15:11:48Z",
+      "teamIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "ed8aa7358802d3b5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-caleb-williams-second-contract-looms-possibly-sooner-than-anyone-realizes",
+      "title": "The Caleb Williams second contract looms, possibly sooner than anyone realizes",
+      "summary": "Williams becomes eligible for a new deal after Week 18, not after the postseason.",
+      "publishedAt": "2026-11-28T14:55:14Z",
+      "teamIds": []
+    },
     {
       "id": "7430793d2011f10b",
       "source": "cbs",
@@ -1628,29 +1648,6 @@
       "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
       "publishedAt": "2026-11-27T05:25:04Z",
       "teamIds": []
-    },
-    {
-      "id": "48e057a6f00a7ef8",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/nfl-thanksgiving-overreactions-bears-a-shoo-in-nfc-north-title-joe-milton-full-time-qb1",
-      "title": "NFL Thanksgiving overreactions: Bears a shoo-in for NFC North title? Should Joe Milton be a full-time QB1?",
-      "summary": "Plus, is Jahmyr Gibbs truly an MVP candidate?",
-      "publishedAt": "2026-11-27T05:07:38Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "894222b9bbc6c1ad",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50582828/2026-nfl-buffalo-bills-kansas-city-chiefs-thanksgiving",
-      "title": "Bills edge Chiefs with last-second FG in low-scoring battle",
-      "summary": "The Bills won their seventh straight, snapping the Chiefs' win streak at three in a sloppy, low-scoring thriller.",
-      "publishedAt": "2026-11-27T04:58:55Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
     }
   ]
 }
