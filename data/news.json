@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T23:47:24Z",
+  "updatedAt": "2026-11-28T00:47:58Z",
   "items": [
+    {
+      "id": "5a1981cc8c6773a4",
+      "source": "espn",
+      "url": "https://espn.com/fantasy/football/story/_/page/FFSundayInactives-50595780/fantasy-football-injuries-nfl-week-12-inactive-active",
+      "title": "Fantasy football Week 12 inactives: Who's in and who's out?",
+      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
+      "publishedAt": "2026-11-28T00:10:30Z",
+      "teamIds": []
+    },
     {
       "id": "89f9d77a700a457e",
       "source": "espn",
@@ -29,7 +38,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50615818/qb-dj-uiagalelei-start-chargers-justin-herbert-concussion-protocol",
       "title": "DJ Uiagalelei to start for Chargers with Justin Herbert in concussion protocol",
-      "summary": "Chargers quarterback Justin Herbert was ruled out for Sunday as he remains in concussion protocol, coach Jim Harbaugh said Friday, meaning DJ Uiagalelei will get the start against Tommy DeVito and the Patriots.",
+      "summary": "Chargers quarterback Justin Herbert was ruled out for Sunday as he remains in concussion protocol, coach Jim Harbaugh said Friday, meaning DJ Uiagalelei will start against Tommy DeVito and the Patriots.",
       "publishedAt": "2026-11-27T23:28:14Z",
       "teamIds": [
         "24",
@@ -1369,12 +1378,11 @@
       "source": "pft",
       "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
       "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
-      "summary": "After an all-time great Thanksgiving for football, the Bears are in first place in the NFC North, the Cowboys have fallen far out of contention in the NFC East, and the Bills are in the lead for the No. 1 seed in the AFC.",
+      "summary": "The Steelers' dominant win over the Broncos showed they remain in the thick of the playoff race after the Aaron Rodgers fiasco.",
       "publishedAt": "2026-11-27T05:30:00Z",
       "teamIds": [
-        "2",
-        "3",
-        "6"
+        "7",
+        "23"
       ]
     },
     {
@@ -1660,18 +1668,6 @@
       "summary": "Good or bad, right or wrong, Eagles coach Nick Sirianni has had from time to time the demeanor of a fan who won a contest to be the head coach for a day.",
       "publishedAt": "2026-11-27T02:08:51Z",
       "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "4bb025604eeaef62",
-      "source": "espn",
-      "url": "https://espn.com/video/clip/_/id/50607884/eagles-stun-cowboys-largest-ever-thanksgiving-game-comeback",
-      "title": "Eagles stun Cowboys with largest-ever Thanksgiving game comeback",
-      "summary": null,
-      "publishedAt": "2026-11-27T01:58:17Z",
-      "teamIds": [
-        "6",
         "21"
       ]
     }
