@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T08:47:28Z",
+  "updatedAt": "2026-11-28T11:47:29Z",
   "items": [
+    {
+      "id": "d26f79275be3f644",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50595037/week-12-predictions-upsets-fantasy-sleepers-stats-2026",
+      "title": "NFL Week 12 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+      "summary": "Touchdown for Justin Jefferson? Upset over the Giants for the Colts? Big day for Bucky Irving? Let's predict 15 things for the Sunday and Monday matchups.",
+      "publishedAt": "2026-11-28T11:37:45Z",
+      "teamIds": [
+        "11",
+        "19"
+      ]
+    },
+    {
+      "id": "2fc58e297707cf2c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mason-rudolph-aftermath-of-aaron-rodgers-on-pat-mcafee-was-challenging-for-steelers",
+      "title": "Mason Rudolph: Aftermath of Aaron Rodgers on Pat McAfee was challenging for Steelers",
+      "summary": "\"We obviously had a lot of stuff we had to filter through, and a lot of aftermath with his visit on national television,\" Rudolph said.",
+      "publishedAt": "2026-11-28T11:13:57Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "a3b915949d9955ee",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50616158/bears-win-streak-tj-edwards-dillon-thieneman",
+      "title": "Five unsung heroes of the Bears' 6-game win streak",
+      "summary": "The Bears' stars get the headlines, but these five players have been just as important for the NFC North leaders.",
+      "publishedAt": "2026-11-28T11:00:11Z",
+      "teamIds": [
+        "3"
+      ]
+    },
+    {
+      "id": "ada91fd72399e11c",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50596874/las-vegas-raiders-quarterback-fernando-mendoza-first-two-starts",
+      "title": "How has Fernando Mendoza played in his first two starts?",
+      "summary": "We took a look at what Raiders' Fernando Mendoza did well -- and not so well -- in his first two starts.",
+      "publishedAt": "2026-11-28T11:00:10Z",
+      "teamIds": [
+        "13"
+      ]
+    },
+    {
+      "id": "8c222f459ba0262a",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50608001/cleveland-browns-kc-concepcion-message-stuttering",
+      "title": "A must-listen: KC Concepcion's powerful message on stuttering",
+      "summary": "There's more to the story for this Browns rookie receiver: \"Me being able to inspire people all over the world, it just means everything.\"",
+      "publishedAt": "2026-11-28T11:00:04Z",
+      "teamIds": [
+        "5"
+      ]
+    },
+    {
+      "id": "4b93679876d822f3",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50614599/falcons-focus-bijan-robinson",
+      "title": "'Give him the ball': Falcons focus on feeding Bijan Robinson",
+      "summary": "The Falcons know how getting away from feeding Bijan reflects in the win-loss column, and they vow changes.",
+      "publishedAt": "2026-11-28T11:00:01Z",
+      "teamIds": [
+        "1"
+      ]
+    },
     {
       "id": "4a805ffc404162ae",
       "source": "pft",
@@ -1588,73 +1655,6 @@
       "publishedAt": "2026-11-27T04:43:06Z",
       "teamIds": [
         "21"
-      ]
-    },
-    {
-      "id": "8a3d64e04e3c46c3",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50609081/eagles-qb-joe-milton-wows-teammates-breakout-game-dallas",
-      "title": "Eagles QB Joe Milton wows teammates with breakout game in Dallas",
-      "summary": "Eagles QB Joe Milton had a breakout game on the national stage, accounting for four touchdowns in a wild 39-38 come-from-behind win over the Cowboys.",
-      "publishedAt": "2026-11-27T04:41:35Z",
-      "teamIds": [
-        "21"
-      ]
-    },
-    {
-      "id": "a2aef0c2084b8a0b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50608969/cowboys-jerry-jones-backs-coach-damning-setbacks",
-      "title": "Jerry Jones backs Schottenheimer despite 'damning setbacks' in loss",
-      "summary": "Jerry Jones said he did not anticipate making immediate changes but still labeled the Cowboys' latest fourth-quarter collapse as a \"damning\" setback.",
-      "publishedAt": "2026-11-27T04:25:12Z",
-      "teamIds": [
-        "6"
-      ]
-    },
-    {
-      "id": "a6ac4812b3921f1b",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
-      "title": "Tomlin upset by Rodgers' bitter exit, calls situation 'a dumpster fire'",
-      "summary": "Mike Tomlin said he was saddened by Aaron Rodgers' tumultuous exit from Pittsburgh and disagreed with how the QB \"aired out\" his grievances against Mike McCarthy.",
-      "publishedAt": "2026-11-27T04:10:59Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "8f600358b67171ef",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations",
-      "title": "Jerry Jones, Brian Schottenheimer refute Aaron Rodgers' accusations: Mike McCarthy 'was outstanding'",
-      "summary": "Rodgers accused McCarthy of being late to meetings, sleeping in meetings and being behind on film prep",
-      "publishedAt": "2026-11-27T04:05:03Z",
-      "teamIds": []
-    },
-    {
-      "id": "b35a77e34d328133",
-      "source": "espn",
-      "url": "https://espn.com/nfl/story/_/id/50608495/qb-caleb-williams-wr-rome-odunze-chemistry-helps-bears-stun-lions",
-      "title": "QB Caleb Williams, WR Rome Odunze's chemistry helps Bears stun Lions",
-      "summary": "QB Caleb Williams and WR Rome Odunze leaned on their chemistry and trust to secure Chicago's ninth win of the season.",
-      "publishedAt": "2026-11-27T03:43:37Z",
-      "teamIds": [
-        "3"
-      ]
-    },
-    {
-      "id": "b20534a6cd9ec54f",
-      "source": "cbs",
-      "url": "https://cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks",
-      "title": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
-      "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
-      "publishedAt": "2026-11-27T03:42:14Z",
-      "teamIds": [
-        "5",
-        "7",
-        "13",
-        "23"
       ]
     }
   ]
