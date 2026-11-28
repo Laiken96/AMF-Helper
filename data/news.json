@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T16:57:51Z",
+  "updatedAt": "2026-11-28T17:47:23Z",
   "items": [
+    {
+      "id": "eb9d985eee29e77c",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nixs-stats-continue-to-get-worse-in-year-3",
+      "title": "Bo Nix's stats continue to get worse in Year 3",
+      "summary": "By just about any measure, Nix is playing his worst football this season.",
+      "publishedAt": "2026-11-28T17:31:54Z",
+      "teamIds": []
+    },
     {
       "id": "0ea3e8323fc4feba",
       "source": "espn",
@@ -1636,18 +1645,6 @@
       "summary": "ESPN's Football Power Index projects the 2027 NFL draft order for Round 1, complete with each team's chances to pick in the top five, in the top 10 and at No. 1.",
       "publishedAt": "2026-11-27T11:00:02Z",
       "teamIds": []
-    },
-    {
-      "id": "09626058cef4d391",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-milton-eagles-dont-quit-so-happy-to-be-on-this-team",
-      "title": "Joe Milton: Eagles don't quit, so happy to be on this team",
-      "summary": "Six weeks ago, Joe Milton was on the Cowboys' practice squad.",
-      "publishedAt": "2026-11-27T10:59:16Z",
-      "teamIds": [
-        "6",
-        "21"
-      ]
     }
   ]
 }
