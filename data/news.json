@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T16:47:23Z",
+  "updatedAt": "2026-11-28T16:57:51Z",
   "items": [
     {
       "id": "0ea3e8323fc4feba",
@@ -303,6 +303,15 @@
       ]
     },
     {
+      "id": "81a5c6c223d28300",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
+      "title": "NFL Week 12: Highlights of Thanksgiving weekend games",
+      "summary": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
+      "publishedAt": "2026-11-27T23:48:52Z",
+      "teamIds": []
+    },
+    {
       "id": "89f9d77a700a457e",
       "source": "espn",
       "url": "https://espn.com/video/clip/_/id/50615753/dj-uiagalelei-trying-not-overthink-first-nfl-start",
@@ -472,6 +481,18 @@
       "publishedAt": "2026-11-27T22:33:18Z",
       "teamIds": [
         "4"
+      ]
+    },
+    {
+      "id": "224eb176d36e08c5",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-12",
+      "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 12",
+      "summary": "The Steelers' dominant win over the Broncos showed they remain in the thick of the playoff race after the Aaron Rodgers fiasco.",
+      "publishedAt": "2026-11-27T22:30:00Z",
+      "teamIds": [
+        "7",
+        "23"
       ]
     },
     {
@@ -1626,29 +1647,6 @@
       "teamIds": [
         "6",
         "21"
-      ]
-    },
-    {
-      "id": "7b3986f9fff14963",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/kickers-made-the-difference-as-harrison-butker-missed-tyler-bass-won-the-game",
-      "title": "Kickers made the difference as Harrison Butker missed, Tyler Bass won the game",
-      "summary": "The Thanksgiving night game between the Bills and Chiefs was billed as the battle of two great quarterbacks, Josh Allen and Patrick Mahomes.",
-      "publishedAt": "2026-11-27T10:04:03Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "824dd6f847b430b7",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-new-york-overturned-rashee-rice-catch-not-a-call-i-agree-with",
-      "title": "Andy Reid: New York overturned Rashee Rice catch, not a call I agree with",
-      "summary": "The most pivotal call on Thanksgiving night was a replay review that went against the Chiefs.",
-      "publishedAt": "2026-11-27T09:48:00Z",
-      "teamIds": [
-        "12"
       ]
     }
   ]
