@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T02:47:25Z",
+  "updatedAt": "2026-11-28T03:47:25Z",
   "items": [
+    {
+      "id": "358e125f05a0bfce",
+      "source": "espn",
+      "url": "https://espn.com/espn/betting/story/_/id/50570870/2026-nfl-week-12-schedule-odds-point-spreads-totals",
+      "title": "NFL Week 12 betting odds: Lines and totals for every game",
+      "summary": "Odds, spreads, totals and FPI predictions for every NFL game in Week 12.",
+      "publishedAt": "2026-11-28T03:45:15Z",
+      "teamIds": []
+    },
+    {
+      "id": "068a9721d1b9dcd9",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50618077/steelers-fueled-jabs-aaron-rodgers-drama-rout-broncos",
+      "title": "Steelers, fueled by jabs over Aaron Rodgers drama, 'come together' to rout Broncos",
+      "summary": "Turned into a national punchline following Aaron Rodgers' release, the Steelers played with a sense of \"urgency\" and \"anger\" Friday night in a 27-6 win over Denver.",
+      "publishedAt": "2026-11-28T03:36:31Z",
+      "teamIds": [
+        "23"
+      ]
+    },
+    {
+      "id": "03f9bfba27ff4b9f",
+      "source": "cbs",
+      "url": "https://cbssports.com/nfl/news/nfl-week-12-injury-report-brock-purdy-justin-herbert-out",
+      "title": "NFL Week 12 injury report: Brock Purdy, Justin Herbert out as QB health dwindles across league",
+      "summary": "Final injury reports for every team playing on Sunday in Week 12",
+      "publishedAt": "2026-11-28T02:36:32Z",
+      "teamIds": []
+    },
     {
       "id": "cc14f0197286cae9",
       "source": "espn",
@@ -1630,40 +1659,6 @@
       "publishedAt": "2026-11-27T03:25:48Z",
       "teamIds": [
         "23"
-      ]
-    },
-    {
-      "id": "0613d8d28d2072b4",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/emmett-johnson-td-gives-chiefs-10-7-lead-early-in-third-quarter",
-      "title": "Emmett Johnson TD gives Chiefs 10-7 lead early in third quarter",
-      "summary": "The Chiefs got a little something going at the end of the first half.",
-      "publishedAt": "2026-11-27T03:15:43Z",
-      "teamIds": [
-        "12"
-      ]
-    },
-    {
-      "id": "6b5634f579a0c488",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-on-current-steelers-situation-its-a-dumpster-fire",
-      "title": "Mike Tomlin on current Steelers situation: \"It's a dumpster fire\"",
-      "summary": "Former Steelers coach speaks at length about this week's events.",
-      "publishedAt": "2026-11-27T03:01:30Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "4cd00368f8260fe8",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-lead-chiefs-7-3-at-halftime-on-thanksgiving-night",
-      "title": "Bills lead Chiefs 7-3 at halftime on Thanksgiving night",
-      "summary": "Nasty weather in Western New York has limited offensive production for both Buffalo and Kansas City.",
-      "publishedAt": "2026-11-27T02:52:11Z",
-      "teamIds": [
-        "2",
-        "12"
       ]
     }
   ]
