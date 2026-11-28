@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T03:47:25Z",
+  "updatedAt": "2026-11-28T04:47:33Z",
   "items": [
+    {
+      "id": "94699d2d7a1ab6cd",
+      "source": "espn",
+      "url": "https://espn.com/nfl/story/_/id/50618212/singled-nfl-officiating-video-bears-simmons-draws-false-start-ire-lions",
+      "title": "Singled out in NFL officiating video, Bears' Simmons draws false-start ire from Lions",
+      "summary": "Bears DT Jeffery Simmons was the subject of controversy during Chicago's win at Detroit on Thanksgiving Day.",
+      "publishedAt": "2026-11-28T04:38:06Z",
+      "teamIds": [
+        "3",
+        "8"
+      ]
+    },
     {
       "id": "358e125f05a0bfce",
       "source": "espn",
@@ -16,7 +28,7 @@
       "source": "espn",
       "url": "https://espn.com/nfl/story/_/id/50618077/steelers-fueled-jabs-aaron-rodgers-drama-rout-broncos",
       "title": "Steelers, fueled by jabs over Aaron Rodgers drama, 'come together' to rout Broncos",
-      "summary": "Turned into a national punchline following Aaron Rodgers' release, the Steelers played with a sense of \"urgency\" and \"anger\" Friday night in a 27-6 win over Denver.",
+      "summary": "Turned into a national punchline following Aaron Rodgers' release, the Steelers played with a sense of \"urgency\" and \"anger\" Friday night in a 27-5 win over Denver.",
       "publishedAt": "2026-11-28T03:36:31Z",
       "teamIds": [
         "23"
@@ -1646,17 +1658,6 @@
       "title": "Former Steelers coach Mike Tomlin on Aaron Rodgers-Mike McCarthy saga: 'It's a dumpster fire'",
       "summary": "Tomlin revealed his thoughts on the entire Rodgers-McCarthy mess on Thursday night",
       "publishedAt": "2026-11-27T03:37:34Z",
-      "teamIds": [
-        "23"
-      ]
-    },
-    {
-      "id": "d2aa1d800033f41b",
-      "source": "pft",
-      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-mike-mccarthy-he-was-outstanding-as-the-head-coach",
-      "title": "Jerry Jones on Mike McCarthy: \"He was outstanding as the head coach\"",
-      "summary": "The recent remarks from former Steelers quarterback Aaron Rodgers regarding Steelers coach Mike McCarthy have raised plenty of questions, posed to plenty of people.",
-      "publishedAt": "2026-11-27T03:25:48Z",
       "teamIds": [
         "23"
       ]
