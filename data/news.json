@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T12:47:25Z",
+  "updatedAt": "2026-11-28T13:47:25Z",
   "items": [
+    {
+      "id": "e70b09b5fefb11e4",
+      "source": "pft",
+      "url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-i-saw-jalen-ramsey-just-didnt-throw-it-high-enough-over-his-head-on-interception",
+      "title": "Bo Nix: I saw Jalen Ramsey, just didn't throw it high enough over his head on interception",
+      "summary": "Broncos quarterback Bo Nix threw a truly baffling pick-six to Steelers cornerback Jalen Ramsey in Friday's loss, and afterward he said it was just a bad throw, not a bad read.",
+      "publishedAt": "2026-11-28T12:45:13Z",
+      "teamIds": [
+        "7",
+        "23"
+      ]
+    },
     {
       "id": "d26f79275be3f644",
       "source": "espn",
@@ -1638,18 +1650,6 @@
       "title": "Tyler Bass hits walk-off 57-yard field goal, Bills beat Chiefs 13-10",
       "summary": "Buffalo overcame some nasty weather to once again defeat Kansas City in the regular season.",
       "publishedAt": "2026-11-27T04:51:59Z",
-      "teamIds": [
-        "2",
-        "12"
-      ]
-    },
-    {
-      "id": "dd175b4625dfe8d0",
-      "source": "espn",
-      "url": "https://espn.com/nfl/recap?gameId=401873082",
-      "title": "Tyler Bass hits 57-yard field goal as time expires to lift Bills past Chiefs, 13-10",
-      "summary": "After sharing top billing, Buffalo’s Josh Allen and Kansas City’s Patrick Mahomes proved no match for the elements in the latest showdown of...",
-      "publishedAt": "2026-11-27T04:46:32Z",
       "teamIds": [
         "2",
         "12"
